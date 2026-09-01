@@ -1,0 +1,42 @@
+<svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A chart of the ages at which a man of the Danish peasantry was bound to the estate of his birth. From February 1733 the band ran from fourteen to thirty-six; in 1742 it widened to nine to forty; in 1764 to four to forty; the ordinance of 20 June 1788 returned it at once to fourteen to thirty-six, and the bond ended altogether on 1 January 1800.">
+  <rect x="0" y="0" width="700" height="430" fill="#F0F2EE"/>
+  <text x="26" y="30" class="mapl">THE BOUND YEARS</text>
+  <text x="26" y="46" class="mapt">the ages at which a countryman could not leave the estate he was born on</text>
+  <line x1="96" y1="300.0" x2="646" y2="300.0" stroke="#C9CDC4" stroke-width=".6"/>
+  <text x="88" y="304.0" class="mapt" text-anchor="end">0</text>
+  <line x1="96" y1="253.6" x2="646" y2="253.6" stroke="#C9CDC4" stroke-width=".6"/>
+  <text x="88" y="257.6" class="mapt" text-anchor="end">10</text>
+  <line x1="96" y1="207.3" x2="646" y2="207.3" stroke="#C9CDC4" stroke-width=".6"/>
+  <text x="88" y="211.3" class="mapt" text-anchor="end">20</text>
+  <line x1="96" y1="160.9" x2="646" y2="160.9" stroke="#C9CDC4" stroke-width=".6"/>
+  <text x="88" y="164.9" class="mapt" text-anchor="end">30</text>
+  <line x1="96" y1="114.5" x2="646" y2="114.5" stroke="#C9CDC4" stroke-width=".6"/>
+  <text x="88" y="118.5" class="mapt" text-anchor="end">40</text>
+  <text x="88" y="84" class="mapt" text-anchor="end">age</text>
+  <rect x="131.3" y="133.1" width="63.5" height="102.0" fill="#2F4C7A" opacity=".45"/>
+  <text x="163.0" y="126.1" class="mapt" text-anchor="middle">14–36</text>
+  <rect x="194.7" y="114.5" width="155.1" height="143.7" fill="#2F4C7A" opacity=".45"/>
+  <text x="272.3" y="107.5" class="mapt" text-anchor="middle">9–40</text>
+  <rect x="349.8" y="114.5" width="169.2" height="166.9" fill="#2F4C7A" opacity=".45"/>
+  <text x="434.5" y="107.5" class="mapt" text-anchor="middle">4–40</text>
+  <rect x="519.1" y="133.1" width="84.6" height="102.0" fill="#2F4C7A" opacity=".45"/>
+  <text x="561.4" y="126.1" class="mapt" text-anchor="middle">14–36</text>
+  <line x1="131.3" y1="90" x2="131.3" y2="306" stroke="#5F6157" stroke-width="1" stroke-dasharray="3 3" opacity=".7"/>
+  <text x="131.3" y="322" class="mapt" text-anchor="middle">1733</text>
+  <line x1="194.7" y1="90" x2="194.7" y2="306" stroke="#5F6157" stroke-width="1" stroke-dasharray="3 3" opacity=".7"/>
+  <text x="194.7" y="322" class="mapt" text-anchor="middle">1742</text>
+  <line x1="349.8" y1="90" x2="349.8" y2="306" stroke="#5F6157" stroke-width="1" stroke-dasharray="3 3" opacity=".7"/>
+  <text x="349.8" y="322" class="mapt" text-anchor="middle">1764</text>
+  <line x1="519.1" y1="90" x2="519.1" y2="306" stroke="#5F6157" stroke-width="1" stroke-dasharray="3 3" opacity=".7"/>
+  <text x="519.1" y="322" class="mapt" text-anchor="middle">1788</text>
+  <line x1="603.7" y1="90" x2="603.7" y2="306" stroke="#5F6157" stroke-width="1" stroke-dasharray="3 3" opacity=".7"/>
+  <text x="603.7" y="322" class="mapt" text-anchor="middle">1800</text>
+  <line x1="96" y1="300" x2="646" y2="300" stroke="#3C3E36" stroke-width="1.2"/>
+  <line x1="26" y1="342" x2="674" y2="342" stroke="#C9CDC4" stroke-width="1"/>
+  <text x="26" y="360" class="mapt">The bond was imposed on 4 February 1733 and ended on 1 January 1800. The ordinance of 20 June 1788 did</text>
+  <text x="26" y="374" class="mapt">not free anybody at a stroke. It put the bound ages back to the range of 1733, gave immediate freedom</text>
+  <text x="26" y="388" class="mapt">passes to men already too old for service and to those discharged from it, and set the end at 1 January</text>
+  <text x="26" y="402" class="mapt">1800 — three years after the Liberty Column was finished. Conscription itself was moved onto the new</text>
+  <text x="26" y="416" class="mapt">censuses instead of the land assessment, and it went on falling only on country youth: young men in the</text>
+  <text x="26" y="430" class="mapt">market towns were exempt until 1849.</text>
+  </svg>

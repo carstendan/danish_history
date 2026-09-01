@@ -1,0 +1,284 @@
+<svg viewBox="0 0 700 486" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagram of the royal cavalry-district schools ordered in March 1721. Twelve districts at twenty schools each were planned, two hundred and forty in all, and two hundred and forty-one were built between 1722 and 1727. Every one was to the same drawing, 13.2 metres by 7.5, and every one cost 550 rigsdaler, so the whole programme came to 132,550 rigsdaler. A plan of the standard building is shown with the sandstone tablet that went over its door.">
+  <rect x="0" y="0" width="700" height="486" fill="#F0F2EE"/>
+  <text x="26" y="30" class="mapl">TWO HUNDRED AND FORTY-ONE, IN SIX YEARS</text>
+  <text x="26" y="46" class="mapt">signed 28 March 1721; tendered that winter; built 1722–27</text>
+  <text x="26" y="80" class="mapx">TWELVE DISTRICTS, TWENTY SCHOOLS EACH</text>
+  <rect x="26" y="96" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="35" y="96" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="44" y="96" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="53" y="96" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="62" y="96" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="71" y="96" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="80" y="96" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="89" y="96" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="98" y="96" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="107" y="96" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="26" y="106" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="35" y="106" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="44" y="106" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="53" y="106" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="62" y="106" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="71" y="106" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="80" y="106" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="89" y="106" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="98" y="106" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="107" y="106" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <text x="26" y="128" class="mapt">district 1</text>
+  <rect x="134" y="96" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="143" y="96" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="152" y="96" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="161" y="96" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="170" y="96" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="179" y="96" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="188" y="96" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="197" y="96" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="206" y="96" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="215" y="96" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="134" y="106" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="143" y="106" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="152" y="106" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="161" y="106" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="170" y="106" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="179" y="106" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="188" y="106" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="197" y="106" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="206" y="106" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="215" y="106" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <text x="134" y="128" class="mapt">district 2</text>
+  <rect x="242" y="96" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="251" y="96" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="260" y="96" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="269" y="96" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="278" y="96" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="287" y="96" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="296" y="96" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="305" y="96" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="314" y="96" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="323" y="96" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="242" y="106" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="251" y="106" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="260" y="106" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="269" y="106" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="278" y="106" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="287" y="106" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="296" y="106" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="305" y="106" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="314" y="106" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="323" y="106" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <text x="242" y="128" class="mapt">district 3</text>
+  <rect x="350" y="96" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="359" y="96" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="368" y="96" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="377" y="96" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="386" y="96" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="395" y="96" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="404" y="96" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="413" y="96" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="422" y="96" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="431" y="96" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="350" y="106" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="359" y="106" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="368" y="106" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="377" y="106" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="386" y="106" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="395" y="106" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="404" y="106" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="413" y="106" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="422" y="106" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="431" y="106" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <text x="350" y="128" class="mapt">district 4</text>
+  <rect x="26" y="148" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="35" y="148" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="44" y="148" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="53" y="148" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="62" y="148" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="71" y="148" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="80" y="148" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="89" y="148" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="98" y="148" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="107" y="148" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="26" y="158" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="35" y="158" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="44" y="158" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="53" y="158" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="62" y="158" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="71" y="158" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="80" y="158" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="89" y="158" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="98" y="158" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="107" y="158" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <text x="26" y="180" class="mapt">district 5</text>
+  <rect x="134" y="148" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="143" y="148" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="152" y="148" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="161" y="148" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="170" y="148" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="179" y="148" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="188" y="148" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="197" y="148" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="206" y="148" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="215" y="148" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="134" y="158" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="143" y="158" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="152" y="158" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="161" y="158" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="170" y="158" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="179" y="158" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="188" y="158" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="197" y="158" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="206" y="158" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="215" y="158" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <text x="134" y="180" class="mapt">district 6</text>
+  <rect x="242" y="148" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="251" y="148" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="260" y="148" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="269" y="148" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="278" y="148" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="287" y="148" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="296" y="148" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="305" y="148" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="314" y="148" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="323" y="148" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="242" y="158" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="251" y="158" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="260" y="158" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="269" y="158" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="278" y="158" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="287" y="158" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="296" y="158" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="305" y="158" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="314" y="158" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="323" y="158" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <text x="242" y="180" class="mapt">district 7</text>
+  <rect x="350" y="148" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="359" y="148" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="368" y="148" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="377" y="148" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="386" y="148" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="395" y="148" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="404" y="148" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="413" y="148" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="422" y="148" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="431" y="148" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="350" y="158" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="359" y="158" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="368" y="158" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="377" y="158" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="386" y="158" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="395" y="158" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="404" y="158" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="413" y="158" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="422" y="158" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="431" y="158" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <text x="350" y="180" class="mapt">district 8</text>
+  <rect x="26" y="200" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="35" y="200" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="44" y="200" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="53" y="200" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="62" y="200" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="71" y="200" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="80" y="200" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="89" y="200" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="98" y="200" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="107" y="200" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="26" y="210" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="35" y="210" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="44" y="210" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="53" y="210" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="62" y="210" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="71" y="210" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="80" y="210" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="89" y="210" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="98" y="210" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="107" y="210" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <text x="26" y="232" class="mapt">district 9</text>
+  <rect x="134" y="200" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="143" y="200" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="152" y="200" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="161" y="200" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="170" y="200" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="179" y="200" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="188" y="200" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="197" y="200" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="206" y="200" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="215" y="200" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="134" y="210" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="143" y="210" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="152" y="210" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="161" y="210" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="170" y="210" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="179" y="210" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="188" y="210" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="197" y="210" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="206" y="210" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="215" y="210" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <text x="134" y="232" class="mapt">district 10</text>
+  <rect x="242" y="200" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="251" y="200" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="260" y="200" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="269" y="200" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="278" y="200" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="287" y="200" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="296" y="200" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="305" y="200" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="314" y="200" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="323" y="200" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="242" y="210" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="251" y="210" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="260" y="210" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="269" y="210" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="278" y="210" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="287" y="210" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="296" y="210" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="305" y="210" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="314" y="210" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="323" y="210" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <text x="242" y="232" class="mapt">district 11</text>
+  <rect x="350" y="200" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="359" y="200" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="368" y="200" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="377" y="200" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="386" y="200" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="395" y="200" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="404" y="200" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="413" y="200" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="422" y="200" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="431" y="200" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="350" y="210" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="359" y="210" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="368" y="210" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="377" y="210" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="386" y="210" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="395" y="210" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="404" y="210" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="413" y="210" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="422" y="210" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <rect x="431" y="210" width="6" height="7" fill="#2F4C7A" opacity=".55"/>
+  <text x="350" y="232" class="mapt">district 12</text>
+  <text x="466" y="100" class="mapx">240 planned</text>
+  <text x="466" y="116" class="mapt">241 built — one district</text>
+  <text x="466" y="129" class="mapt">put up one extra</text>
+  <text x="466" y="152" class="mapx">a thirteenth district</text>
+  <text x="466" y="168" class="mapt">on Møn from 1726,</text>
+  <text x="466" y="181" class="mapt">ten more schools</text>
+  <line x1="26" y1="258" x2="674" y2="258" stroke="#C9CDC4" stroke-width="1"/>
+  <text x="26" y="274" class="mapx">ONE DRAWING, ONE PRICE</text>
+  <rect x="26" y="300" width="145.2" height="82.5" fill="#2F4C7A" opacity=".18"/>
+  <rect x="26" y="300" width="145.2" height="82.5" fill="none" stroke="#3C3E36" stroke-width="1.4"/>
+  <text x="98.6" y="294" class="mapt" text-anchor="middle">13.2 m</text>
+  <text x="179.2" y="341.2" class="mapt">7.5 m</text>
+  <text x="26" y="398.5" class="mapt">brick walls, tiled roof, 2.8 m floor to ceiling</text>
+  <text x="26" y="411.5" class="mapt">in a countryside of clay daub and thatch</text>
+  <text x="380" y="294" class="mapx">550 rigsdaler each</text>
+  <text x="380" y="316" class="mapl">132,550 rigsdaler in all</text>
+  <text x="380" y="340" class="mapt">Krieger, the royal architect, and a brickworks</text>
+  <text x="380" y="353" class="mapt">owner at Nivå put up a hundred and forty-nine of</text>
+  <text x="380" y="366" class="mapt">them between them. Attendance compulsory from</text>
+  <text x="380" y="379" class="mapt">five, girls as well as boys. Reading and</text>
+  <text x="380" y="392" class="mapt">Christian learning free; writing and arithmetic</text>
+  <text x="380" y="405" class="mapt">eight skilling a month, which many could not</text>
+  <text x="380" y="418" class="mapt">find.</text>
+  <line x1="26" y1="442" x2="674" y2="442" stroke="#C9CDC4" stroke-width="1"/>
+  <text x="26" y="460" class="mapt">The districts were where the crown held land, so West Jutland and north-west Zealand got</text>
+  <text x="26" y="474" class="mapt">none at all. The design was still being copied for village schools in the 1890s.</text>
+  </svg>

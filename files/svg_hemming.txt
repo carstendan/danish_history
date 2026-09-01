@@ -1,0 +1,44 @@
+<svg viewBox="0 0 900 430" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Schematic of the battle of Hemmingstedt on 17 February 1500. A royal army of about twelve thousand advances along a single raised road through the marsh towards Heide. The Ditmarschers block the road with an earth bank, attack the head of the column from both sides, and open the sluices so that the marsh floods. Some four thousand of the royal army die, many by drowning.">
+  <rect x="0" y="0" width="900" height="430" fill="#F0F2EE"/>
+  <text x="26.0" y="34.0" class="mapt" fill="#2E6B5E" text-anchor="start">17 FEBRUARY 1500</text>
+  <text x="26" y="62" style="font-family:'Iowan Old Style',Palatino,Georgia,serif;font-size:19px;fill:#221E18">One road, and no room to turn round.</text>
+  <rect x="26" y="92" width="848" height="180" fill="#B9CDD6" fill-opacity=".55"/>
+  <text x="40.0" y="112.0" class="mapx" fill="#6C6E63" text-anchor="start">MARSH — below sea level, drained, and diked</text>
+  <rect x="26" y="170" width="848" height="26" fill="#D6DBCE" fill-opacity=".35"/>
+  <line x1="26" y1="170" x2="874" y2="170" stroke="#9CA294" stroke-width="1"/>
+  <line x1="26" y1="196" x2="874" y2="196" stroke="#9CA294" stroke-width="1"/>
+  <rect x="60" y="176" width="34" height="14" fill="#2E6B5E" fill-opacity=".85"/>
+  <rect x="106" y="176" width="34" height="14" fill="#2E6B5E" fill-opacity=".85"/>
+  <rect x="152" y="176" width="34" height="14" fill="#2E6B5E" fill-opacity=".85"/>
+  <rect x="198" y="176" width="34" height="14" fill="#2E6B5E" fill-opacity=".85"/>
+  <rect x="244" y="176" width="34" height="14" fill="#2E6B5E" fill-opacity=".85"/>
+  <rect x="290" y="176" width="34" height="14" fill="#2E6B5E" fill-opacity=".85"/>
+  <rect x="336" y="176" width="34" height="14" fill="#2E6B5E" fill-opacity=".85"/>
+  <rect x="382" y="176" width="34" height="14" fill="#2E6B5E" fill-opacity=".85"/>
+  <rect x="428" y="176" width="34" height="14" fill="#2E6B5E" fill-opacity=".85"/>
+  <text x="60.0" y="164.0" class="mapx" fill="#6C6E63" text-anchor="start">the royal army, about 12,000, strung out along the causeway</text>
+  <text x="60.0" y="216.0" class="mapx" fill="#6C6E63" text-anchor="start">Meldorf, taken 14 February</text>
+  <rect x="516" y="150" width="16" height="66" fill="#8A2B2B" fill-opacity=".9"/>
+  <text x="524.0" y="142.0" class="mapl" fill="#8A2B2B" text-anchor="middle">the bank</text>
+  <text x="524.0" y="288.0" class="mapx" fill="#8A2B2B" text-anchor="middle">thrown up overnight</text>
+  <line x1="470" y1="128" x2="480" y2="162" stroke="#8A2B2B" stroke-width="1.6" opacity=".85"/>
+  <line x1="500" y1="128" x2="510" y2="162" stroke="#8A2B2B" stroke-width="1.6" opacity=".85"/>
+  <line x1="560" y1="128" x2="570" y2="162" stroke="#8A2B2B" stroke-width="1.6" opacity=".85"/>
+  <line x1="590" y1="128" x2="600" y2="162" stroke="#8A2B2B" stroke-width="1.6" opacity=".85"/>
+  <line x1="470" y1="238" x2="480" y2="204" stroke="#8A2B2B" stroke-width="1.6" opacity=".85"/>
+  <line x1="500" y1="238" x2="510" y2="204" stroke="#8A2B2B" stroke-width="1.6" opacity=".85"/>
+  <line x1="560" y1="238" x2="570" y2="204" stroke="#8A2B2B" stroke-width="1.6" opacity=".85"/>
+  <line x1="590" y1="238" x2="600" y2="204" stroke="#8A2B2B" stroke-width="1.6" opacity=".85"/>
+  <text x="620.0" y="132.0" class="mapx" fill="#8A2B2B" text-anchor="start">Ditmarschers, perhaps 2,000</text>
+  <text x="620.0" y="258.0" class="mapx" fill="#8A2B2B" text-anchor="start">sluices opened — the marsh floods</text>
+  <text x="874" y="188" class="mapl" fill="#6C6E63" text-anchor="end">to Heide →</text>
+  <line x1="26" y1="300" x2="874" y2="300" stroke="#C9CDC4" stroke-width=".8"/>
+  <text x="26.0" y="326.0" class="mapl" fill="#2E6B5E" text-anchor="start">The force</text>
+  <text x="150.0" y="326.0" class="mapx" fill="#6C6E63" text-anchor="start">Danish and Holstein nobility, levies from both, and the Great Guard — 4,000 mercenaries under Thomas Slentz</text>
+  <text x="26.0" y="350.0" class="mapl" fill="#2E6B5E" text-anchor="start">The ground</text>
+  <text x="150.0" y="350.0" class="mapx" fill="#6C6E63" text-anchor="start">A single raised road through drained marsh in February. Artillery went into the ditch and stayed there</text>
+  <text x="26.0" y="374.0" class="mapl" fill="#2E6B5E" text-anchor="start">The loss</text>
+  <text x="150.0" y="374.0" class="mapx" fill="#6C6E63" text-anchor="start">Around 4,000 dead, many drowned. Eleven of the Ahlefeldt family, six of the Buchwald. Ditmarschen lost under 100</text>
+  <text x="26.0" y="398.0" class="mapl" fill="#2E6B5E" text-anchor="start">The banner</text>
+  <text x="150.0" y="398.0" class="mapx" fill="#6C6E63" text-anchor="start">The royal Dannebrog was taken. Frederik 2. got it back in 1559, ‘almost destroyed by damp and age’</text>
+  </svg>

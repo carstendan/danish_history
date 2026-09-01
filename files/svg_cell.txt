@@ -1,0 +1,60 @@
+<svg viewBox="0 0 700 452" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A plan of Leonora Christina's room in the Blue Tower, drawn to the measurement she gives in Jammers Minde: seven of her paces long and six wide, containing two beds, a table and two chairs. Four doors are marked in sequence between her bed and the stair. She was held in the tower for 7955 days without once going outside.">
+  <rect x="0" y="0" width="700" height="452" fill="#F0F2EE"/>
+  <text x="26" y="30" class="mapl">SEVEN OF MY PACES LONG AND SIX BROAD</text>
+  <text x="26" y="46" class="mapt">the room as she measured it, having nothing to measure it with</text>
+  <rect x="40" y="86" width="238" height="204" fill="#2F4C7A" opacity=".10"/>
+  <rect x="40" y="86" width="238" height="204" fill="none" stroke="#3C3E36" stroke-width="2"/>
+  <line x1="74" y1="86" x2="74" y2="290" stroke="#C9CDC4" stroke-width=".5" opacity=".6"/>
+  <line x1="108" y1="86" x2="108" y2="290" stroke="#C9CDC4" stroke-width=".5" opacity=".6"/>
+  <line x1="142" y1="86" x2="142" y2="290" stroke="#C9CDC4" stroke-width=".5" opacity=".6"/>
+  <line x1="176" y1="86" x2="176" y2="290" stroke="#C9CDC4" stroke-width=".5" opacity=".6"/>
+  <line x1="210" y1="86" x2="210" y2="290" stroke="#C9CDC4" stroke-width=".5" opacity=".6"/>
+  <line x1="244" y1="86" x2="244" y2="290" stroke="#C9CDC4" stroke-width=".5" opacity=".6"/>
+  <line x1="40" y1="120" x2="278" y2="120" stroke="#C9CDC4" stroke-width=".5" opacity=".6"/>
+  <line x1="40" y1="154" x2="278" y2="154" stroke="#C9CDC4" stroke-width=".5" opacity=".6"/>
+  <line x1="40" y1="188" x2="278" y2="188" stroke="#C9CDC4" stroke-width=".5" opacity=".6"/>
+  <line x1="40" y1="222" x2="278" y2="222" stroke="#C9CDC4" stroke-width=".5" opacity=".6"/>
+  <line x1="40" y1="256" x2="278" y2="256" stroke="#C9CDC4" stroke-width=".5" opacity=".6"/>
+  <rect x="46" y="94" width="68" height="40" rx="2" fill="#5F6157" opacity=".45"/>
+  <text x="54" y="116" class="mapt">bed</text>
+  <rect x="46" y="242" width="68" height="40" rx="2" fill="#5F6157" opacity=".45"/>
+  <text x="54" y="264" class="mapt">bed</text>
+  <rect x="200" y="170" width="44" height="36" rx="2" fill="#A9601C" opacity=".45"/>
+  <text x="206" y="192" class="mapt">table</text>
+  <circle cx="252" cy="158" r="7" fill="none" stroke="#5F6157" stroke-width="1.4"/>
+  <circle cx="252" cy="218" r="7" fill="none" stroke="#5F6157" stroke-width="1.4"/>
+  <text x="252" y="306" class="mapt" text-anchor="middle">chairs</text>
+  <line x1="40" y1="72" x2="278" y2="72" stroke="#5F6157" stroke-width="1"/>
+  <text x="159" y="66" class="mapt" text-anchor="middle">7 paces</text>
+  <line x1="26" y1="86" x2="26" y2="290" stroke="#5F6157" stroke-width="1"/>
+  <text x="20" y="188" class="mapt" text-anchor="middle" transform="rotate(-90 20 188)">6 paces</text>
+  <line x1="296" y1="175" x2="296" y2="201" stroke="#2F4C7A" stroke-width="2.4"/>
+  <text x="296" y="216" class="mapt" text-anchor="middle">1</text>
+  <line x1="330" y1="175" x2="330" y2="201" stroke="#2F4C7A" stroke-width="2.4"/>
+  <text x="330" y="216" class="mapt" text-anchor="middle">2</text>
+  <line x1="364" y1="175" x2="364" y2="201" stroke="#2F4C7A" stroke-width="2.4"/>
+  <text x="364" y="216" class="mapt" text-anchor="middle">3</text>
+  <line x1="398" y1="175" x2="398" y2="201" stroke="#2F4C7A" stroke-width="2.4"/>
+  <text x="398" y="216" class="mapt" text-anchor="middle">4</text>
+  <text x="296" y="166" class="mapt">to the stair</text>
+  <text x="470" y="96" class="mapt">She had no rule and no tape,</text>
+  <text x="470" y="110" class="mapt">so she paced it. Two beds, a</text>
+  <text x="470" y="124" class="mapt">table and two chairs. Newly</text>
+  <text x="470" y="138" class="mapt">whitewashed when she came in,</text>
+  <text x="470" y="152" class="mapt">and it stank; the floor was so</text>
+  <text x="470" y="166" class="mapt">thick with filth she took it</text>
+  <text x="470" y="180" class="mapt">for clay.</text>
+  <text x="470" y="206" class="mapt">Her bed faced the doors. With</text>
+  <text x="470" y="220" class="mapt">all three open she could see</text>
+  <text x="470" y="234" class="mapt">as far as the stair door,</text>
+  <text x="470" y="248" class="mapt">which was the fourth.</text>
+  <line x1="470" y1="280" x2="686" y2="280" stroke="#C9CDC4" stroke-width="1"/>
+  <text x="470" y="304" class="mapl">7,955 DAYS</text>
+  <text x="470" y="320" class="mapt">8 August 1663 to 19 May 1685.</text>
+  <text x="470" y="334" class="mapt">She counted it herself as 21</text>
+  <text x="470" y="348" class="mapt">years, 9 months and 11 days,</text>
+  <text x="470" y="362" class="mapt">and never once went outside in</text>
+  <text x="470" y="376" class="mapt">any of them.</text>
+  <line x1="26" y1="364" x2="440" y2="364" stroke="#C9CDC4" stroke-width="1"/>
+  <text x="26" y="384" class="mapt">No charge was ever brought and no trial was ever held.</text>
+  </svg>

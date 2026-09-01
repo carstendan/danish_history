@@ -1,0 +1,61 @@
+<svg viewBox="0 0 900 380" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Pictogram of the Broendum estate in north-west Himmerland in 1400 or 1401: forty-eight farms, of which thirty-four were lying waste and fourteen were still worked.">
+  <rect x="0" y="0" width="900" height="380" fill="#F0F2EE"/>
+  <text x="26.0" y="34.0" class="mapt" fill="#2E6B5E" text-anchor="start">THE BRØNDUM ESTATE, 1400 OR 1401</text>
+  <text x="26" y="64" style="font-family:'Iowan Old Style',Palatino,Georgia,serif;font-size:19px;fill:#221E18">Forty-eight farms. Thirty-four of them empty.</text>
+  <rect x="26" y="96" width="34" height="34" fill="#2E6B5E" fill-opacity=".8"/>
+  <rect x="70" y="96" width="34" height="34" fill="#2E6B5E" fill-opacity=".8"/>
+  <rect x="114" y="96" width="34" height="34" fill="#2E6B5E" fill-opacity=".8"/>
+  <rect x="158" y="96" width="34" height="34" fill="#2E6B5E" fill-opacity=".8"/>
+  <rect x="202" y="96" width="34" height="34" fill="#2E6B5E" fill-opacity=".8"/>
+  <rect x="246" y="96" width="34" height="34" fill="#2E6B5E" fill-opacity=".8"/>
+  <rect x="290" y="96" width="34" height="34" fill="#2E6B5E" fill-opacity=".8"/>
+  <rect x="334" y="96" width="34" height="34" fill="#2E6B5E" fill-opacity=".8"/>
+  <rect x="378" y="96" width="34" height="34" fill="#2E6B5E" fill-opacity=".8"/>
+  <rect x="422" y="96" width="34" height="34" fill="#2E6B5E" fill-opacity=".8"/>
+  <rect x="466" y="96" width="34" height="34" fill="#2E6B5E" fill-opacity=".8"/>
+  <rect x="510" y="96" width="34" height="34" fill="#2E6B5E" fill-opacity=".8"/>
+  <rect x="26" y="140" width="34" height="34" fill="#2E6B5E" fill-opacity=".8"/>
+  <rect x="70" y="140" width="34" height="34" fill="#2E6B5E" fill-opacity=".8"/>
+  <rect x="114" y="140" width="34" height="34" fill="none" stroke="#8A2B2B" stroke-width="1.1" stroke-dasharray="3 3" opacity=".8"/>
+  <rect x="158" y="140" width="34" height="34" fill="none" stroke="#8A2B2B" stroke-width="1.1" stroke-dasharray="3 3" opacity=".8"/>
+  <rect x="202" y="140" width="34" height="34" fill="none" stroke="#8A2B2B" stroke-width="1.1" stroke-dasharray="3 3" opacity=".8"/>
+  <rect x="246" y="140" width="34" height="34" fill="none" stroke="#8A2B2B" stroke-width="1.1" stroke-dasharray="3 3" opacity=".8"/>
+  <rect x="290" y="140" width="34" height="34" fill="none" stroke="#8A2B2B" stroke-width="1.1" stroke-dasharray="3 3" opacity=".8"/>
+  <rect x="334" y="140" width="34" height="34" fill="none" stroke="#8A2B2B" stroke-width="1.1" stroke-dasharray="3 3" opacity=".8"/>
+  <rect x="378" y="140" width="34" height="34" fill="none" stroke="#8A2B2B" stroke-width="1.1" stroke-dasharray="3 3" opacity=".8"/>
+  <rect x="422" y="140" width="34" height="34" fill="none" stroke="#8A2B2B" stroke-width="1.1" stroke-dasharray="3 3" opacity=".8"/>
+  <rect x="466" y="140" width="34" height="34" fill="none" stroke="#8A2B2B" stroke-width="1.1" stroke-dasharray="3 3" opacity=".8"/>
+  <rect x="510" y="140" width="34" height="34" fill="none" stroke="#8A2B2B" stroke-width="1.1" stroke-dasharray="3 3" opacity=".8"/>
+  <rect x="26" y="184" width="34" height="34" fill="none" stroke="#8A2B2B" stroke-width="1.1" stroke-dasharray="3 3" opacity=".8"/>
+  <rect x="70" y="184" width="34" height="34" fill="none" stroke="#8A2B2B" stroke-width="1.1" stroke-dasharray="3 3" opacity=".8"/>
+  <rect x="114" y="184" width="34" height="34" fill="none" stroke="#8A2B2B" stroke-width="1.1" stroke-dasharray="3 3" opacity=".8"/>
+  <rect x="158" y="184" width="34" height="34" fill="none" stroke="#8A2B2B" stroke-width="1.1" stroke-dasharray="3 3" opacity=".8"/>
+  <rect x="202" y="184" width="34" height="34" fill="none" stroke="#8A2B2B" stroke-width="1.1" stroke-dasharray="3 3" opacity=".8"/>
+  <rect x="246" y="184" width="34" height="34" fill="none" stroke="#8A2B2B" stroke-width="1.1" stroke-dasharray="3 3" opacity=".8"/>
+  <rect x="290" y="184" width="34" height="34" fill="none" stroke="#8A2B2B" stroke-width="1.1" stroke-dasharray="3 3" opacity=".8"/>
+  <rect x="334" y="184" width="34" height="34" fill="none" stroke="#8A2B2B" stroke-width="1.1" stroke-dasharray="3 3" opacity=".8"/>
+  <rect x="378" y="184" width="34" height="34" fill="none" stroke="#8A2B2B" stroke-width="1.1" stroke-dasharray="3 3" opacity=".8"/>
+  <rect x="422" y="184" width="34" height="34" fill="none" stroke="#8A2B2B" stroke-width="1.1" stroke-dasharray="3 3" opacity=".8"/>
+  <rect x="466" y="184" width="34" height="34" fill="none" stroke="#8A2B2B" stroke-width="1.1" stroke-dasharray="3 3" opacity=".8"/>
+  <rect x="510" y="184" width="34" height="34" fill="none" stroke="#8A2B2B" stroke-width="1.1" stroke-dasharray="3 3" opacity=".8"/>
+  <rect x="26" y="228" width="34" height="34" fill="none" stroke="#8A2B2B" stroke-width="1.1" stroke-dasharray="3 3" opacity=".8"/>
+  <rect x="70" y="228" width="34" height="34" fill="none" stroke="#8A2B2B" stroke-width="1.1" stroke-dasharray="3 3" opacity=".8"/>
+  <rect x="114" y="228" width="34" height="34" fill="none" stroke="#8A2B2B" stroke-width="1.1" stroke-dasharray="3 3" opacity=".8"/>
+  <rect x="158" y="228" width="34" height="34" fill="none" stroke="#8A2B2B" stroke-width="1.1" stroke-dasharray="3 3" opacity=".8"/>
+  <rect x="202" y="228" width="34" height="34" fill="none" stroke="#8A2B2B" stroke-width="1.1" stroke-dasharray="3 3" opacity=".8"/>
+  <rect x="246" y="228" width="34" height="34" fill="none" stroke="#8A2B2B" stroke-width="1.1" stroke-dasharray="3 3" opacity=".8"/>
+  <rect x="290" y="228" width="34" height="34" fill="none" stroke="#8A2B2B" stroke-width="1.1" stroke-dasharray="3 3" opacity=".8"/>
+  <rect x="334" y="228" width="34" height="34" fill="none" stroke="#8A2B2B" stroke-width="1.1" stroke-dasharray="3 3" opacity=".8"/>
+  <rect x="378" y="228" width="34" height="34" fill="none" stroke="#8A2B2B" stroke-width="1.1" stroke-dasharray="3 3" opacity=".8"/>
+  <rect x="422" y="228" width="34" height="34" fill="none" stroke="#8A2B2B" stroke-width="1.1" stroke-dasharray="3 3" opacity=".8"/>
+  <rect x="466" y="228" width="34" height="34" fill="none" stroke="#8A2B2B" stroke-width="1.1" stroke-dasharray="3 3" opacity=".8"/>
+  <rect x="510" y="228" width="34" height="34" fill="none" stroke="#8A2B2B" stroke-width="1.1" stroke-dasharray="3 3" opacity=".8"/>
+  <rect x="26" y="280" width="16" height="16" fill="#2E6B5E" fill-opacity=".8"/>
+  <text x="50.0" y="293.0" class="mapx" fill="#6C6E63" text-anchor="start">14 still worked</text>
+  <rect x="190" y="280" width="16" height="16" fill="none" stroke="#8A2B2B" stroke-width="1.1" stroke-dasharray="3 3"/>
+  <text x="214.0" y="293.0" class="mapx" fill="#6C6E63" text-anchor="start">34 lying waste — ødegårde</text>
+  <line x1="26" y1="314" x2="874" y2="314" stroke="#C9CDC4" stroke-width=".8"/>
+  <text x="26.0" y="338.0" class="mapx" fill="#6C6E63" text-anchor="start">One estate in one poor district of north-west Himmerland, and it must not be made a national average.</text>
+  <text x="26.0" y="354.0" class="mapx" fill="#6C6E63" text-anchor="start">But deserted farms peak across Denmark in the twenty years after 1400, not in the plague decades — and</text>
+  <text x="26.0" y="370.0" class="mapx" fill="#6C6E63" text-anchor="start">this is the kind of document a landlord was reading when he decided what rent he could still ask.</text>
+  </svg>

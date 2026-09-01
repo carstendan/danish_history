@@ -1,0 +1,56 @@
+<svg viewBox="0 0 700 504" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A worked example of the 1664 land register. The left column lists what one tenant farm actually owed its landlord: rye, barley, oats, butter, a pig, two geese and four days of carting. The middle column gives the conversion rule applied. The right column gives the result in hartkorn. At the foot the seven entries are added into a single figure in barrels, skaepper, fjerdingkar and album. The register did not measure any land; it converted obligations into one comparable number.">
+  <rect x="0" y="0" width="700" height="504" fill="#F0F2EE"/>
+  <text x="26" y="30" class="mapl">ONE FARM, REDUCED TO A NUMBER</text>
+  <text x="26" y="46" class="mapt">what the tenant owed, and what the commissioners wrote down instead</text>
+  <text x="26" y="80" class="mapx">WHAT WAS ACTUALLY PAID</text>
+  <text x="266" y="80" class="mapx">THE RULE APPLIED</text>
+  <text x="674" y="80" class="mapx" text-anchor="end">IN HARTKORN</text>
+  <line x1="26" y1="90" x2="674" y2="90" stroke="#C9CDC4" stroke-width="1"/>
+  <circle cx="32" cy="114" r="3" fill="#2F4C7A" opacity=".7"/>
+  <text x="44" y="118" class="mapx">Rye</text>
+  <text x="150" y="118" class="mapt">3 barrels</text>
+  <text x="266" y="118" class="mapt">1 barrel of rye = 1 barrel hartkorn</text>
+  <text x="674" y="118" class="mapx" text-anchor="end">3 tdr</text>
+  <circle cx="32" cy="144" r="3" fill="#2F4C7A" opacity=".7"/>
+  <text x="44" y="148" class="mapx">Barley</text>
+  <text x="150" y="148" class="mapt">2 barrels</text>
+  <text x="266" y="148" class="mapt">1 barrel of barley = 1 barrel hartkorn</text>
+  <text x="674" y="148" class="mapx" text-anchor="end">2 tdr</text>
+  <circle cx="32" cy="174" r="3" fill="#2F4C7A" opacity=".7"/>
+  <text x="44" y="178" class="mapx">Oats</text>
+  <text x="150" y="178" class="mapt">5 barrels</text>
+  <text x="266" y="178" class="mapt">2 barrels of oats = 1 barrel hartkorn</text>
+  <text x="674" y="178" class="mapx" text-anchor="end">2 tdr 4 skp</text>
+  <circle cx="32" cy="204" r="3" fill="#2F4C7A" opacity=".7"/>
+  <text x="44" y="208" class="mapx">Butter</text>
+  <text x="150" y="208" class="mapt">1 lispund</text>
+  <text x="266" y="208" class="mapt">valued and converted</text>
+  <text x="674" y="208" class="mapx" text-anchor="end">1 tdr 1 skp</text>
+  <circle cx="32" cy="234" r="3" fill="#2F4C7A" opacity=".7"/>
+  <text x="44" y="238" class="mapx">A pig</text>
+  <text x="150" y="238" class="mapt">one</text>
+  <text x="266" y="238" class="mapt">valued and converted</text>
+  <text x="674" y="238" class="mapx" text-anchor="end">4 skp</text>
+  <circle cx="32" cy="264" r="3" fill="#2F4C7A" opacity=".7"/>
+  <text x="44" y="268" class="mapx">Geese</text>
+  <text x="150" y="268" class="mapt">two</text>
+  <text x="266" y="268" class="mapt">valued and converted</text>
+  <text x="674" y="268" class="mapx" text-anchor="end">1 skp 2 alb</text>
+  <circle cx="32" cy="294" r="3" fill="#2F4C7A" opacity=".7"/>
+  <text x="44" y="298" class="mapx">Carting</text>
+  <text x="150" y="298" class="mapt">4 days</text>
+  <text x="266" y="298" class="mapt">valued and converted</text>
+  <text x="674" y="298" class="mapx" text-anchor="end">2 skp</text>
+  <line x1="26" y1="328" x2="674" y2="328" stroke="#3C3E36" stroke-width="1.4"/>
+  <text x="44" y="352" class="mapl">THE FARM</text>
+  <rect x="470" y="334" width="204" height="26" rx="3" fill="#2F4C7A" opacity=".16"/>
+  <text x="674" y="352" class="mapl" text-anchor="end">9 tdr 4 skp 0 fjk 2 alb</text>
+  <text x="26" y="386" class="mapx">THE LADDER</text>
+  <text x="150" y="386" class="mapt">1 tønde = 8 skæpper &#183; 1 skæppe = 4 fjerdingkar &#183; 1 fjerdingkar = 3 album</text>
+  <text x="26" y="410" class="mapt">Nothing here was measured. No commissioner walked a field. The register of 1662, redone in 1664,</text>
+  <text x="26" y="424" class="mapt">took the landlords' own estate books and turned every kind of obligation - grain, dairy,</text>
+  <text x="26" y="438" class="mapt">livestock, labour - into one artificial unit, so that a farm on Funen and a farm in Vendsyssel</text>
+  <text x="26" y="452" class="mapt">could be added together and taxed at the same rate. Denmark measured its ground for the first</text>
+  <text x="26" y="466" class="mapt">time in 1682. Land was valued in hartkorn until 1903.</text>
+  <text x="26" y="486" class="mapt" fill="#5F6157">The quantities are a worked example built from the conversion rules, not a transcription of one entry.</text>
+  </svg>

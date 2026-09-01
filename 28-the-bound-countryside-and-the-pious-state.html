@@ -1,0 +1,1968 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>28 · The bound countryside and the pious state, 1721–1770</title>
+<style>
+
+  :root{
+    --ground:#E4E7E4; --paper:#F0F2EE; --peat:#221E18; --muted:#6C6E63;
+    --rule:#C9CDC4; --verdigris:#2E6B5E; --amber:#A9601C; --oxblood:#8A2B2B; --indigo:#2F4C7A; --band:#2F4C7A;
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua","URW Palladio L",Georgia,serif;
+    --mono:"IBM Plex Mono",ui-monospace,"SF Mono",SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0;background:var(--ground);color:var(--peat);
+    font-family:var(--serif);font-size:17.5px;line-height:1.68;text-rendering:optimizeLegibility}
+  .wrap{max-width:790px;margin:0 auto;padding:0 28px}
+  a{color:var(--verdigris)}
+  a:focus-visible{outline:2px solid var(--amber);outline-offset:3px}
+  p{margin:0 0 1.05em}
+
+  .crumb{border-bottom:1px solid var(--rule);background:rgba(228,231,228,.94)}
+  .crumb-in{max-width:1000px;margin:0 auto;padding:10px 28px;display:flex;gap:14px;
+    font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+  .crumb-in b{color:var(--band);font-weight:600}
+
+  header.hd{padding:62px 0 0}
+  .eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.22em;text-transform:uppercase;
+    color:var(--amber);margin:0 0 20px}
+  h1{font-size:clamp(34px,6.4vw,58px);line-height:1.02;margin:0;font-weight:400;letter-spacing:-.022em}
+  .dates{font-family:var(--mono);font-size:13px;letter-spacing:.1em;color:var(--muted);margin:18px 0 0}
+  .why{font-size:20px;margin:22px 0 0;max-width:62ch}
+  .keys{display:flex;flex-wrap:wrap;gap:6px;margin:26px 0 0;padding:0;list-style:none}
+  .keys li{font-family:var(--mono);font-size:10.5px;letter-spacing:.03em;color:var(--muted);
+    border:1px solid var(--rule);border-radius:2px;padding:3px 8px}
+
+  h2{font-size:27px;font-weight:400;letter-spacing:-.015em;margin:56px 0 4px;line-height:1.2}
+  h2 .n{font-family:var(--mono);font-size:12px;color:var(--band);letter-spacing:.1em;
+    display:block;margin:0 0 8px;font-weight:600}
+  h3{font-size:19px;font-weight:600;margin:34px 0 6px;letter-spacing:-.008em}
+  .kicker{font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;
+    color:var(--amber);margin:56px 0 8px}
+  hr.div{border:0;border-top:1px solid var(--rule);margin:52px 0 0}
+  i.dk{font-style:italic}
+
+  /* per-section glossary */
+  .terms{background:var(--paper);border-left:3px solid var(--band);padding:16px 20px;margin:22px 0 28px}
+  .terms h4{font-family:var(--mono);font-size:10px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--band);margin:0 0 12px;font-weight:600}
+  .terms dl{margin:0;display:grid;grid-template-columns:1fr 1fr;gap:10px 26px}
+  .terms dl.one{grid-template-columns:1fr}
+  .terms .t{min-width:0}
+  .terms dt{font-family:var(--mono);font-size:12.5px;color:var(--peat);font-weight:600;
+    letter-spacing:.01em;line-height:1.4}
+  .terms dd{margin:2px 0 0;font-size:15px;color:var(--muted);line-height:1.5}
+
+  ol.qs{margin:0;padding:0;list-style:none;counter-reset:q}
+  ol.qs li{counter-increment:q;position:relative;padding:0 0 0 34px;margin:0 0 10px;font-size:18px}
+  ol.qs li::before{content:counter(q);position:absolute;left:0;top:2px;font-family:var(--mono);
+    font-size:11px;color:var(--amber);font-weight:600}
+
+  .meanwhile{background:var(--paper);border-left:3px solid var(--verdigris);padding:20px 22px;margin:30px 0}
+  .meanwhile h4{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--verdigris);margin:0 0 10px;font-weight:600}
+  .meanwhile p{font-size:16px;margin:0 0 .8em}
+  .meanwhile p:last-child{margin:0}
+
+  .myth{background:var(--paper);border-left:3px solid var(--oxblood);padding:20px 22px;margin:26px 0}
+  .myth h4{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--oxblood);margin:0 0 12px;font-weight:600}
+  .myth dl{margin:0}
+  .myth dt{font-weight:600;font-size:16.5px;margin:16px 0 3px}
+  .myth dt:first-child{margin-top:0}
+  .myth dd{margin:0;font-size:16px;color:var(--muted)}
+
+  ul.calls{list-style:none;margin:0;padding:0;border-top:1px solid var(--rule)}
+  ul.calls li{display:flex;gap:18px;padding:12px 0;border-bottom:1px solid var(--rule);align-items:baseline}
+  ul.calls b{font-family:var(--mono);font-size:11px;letter-spacing:.06em;color:var(--band);
+    width:74px;flex:none;font-weight:600}
+  ul.calls span{font-size:16px;color:var(--muted)}
+
+  ol.five{list-style:none;margin:0;padding:0;counter-reset:f}
+  ol.five li{counter-increment:f;background:var(--paper);border-left:2px solid var(--band);
+    padding:15px 18px;margin:0 0 2px;display:flex;gap:14px;align-items:baseline}
+  ol.five li::before{content:counter(f,decimal-leading-zero);font-family:var(--mono);font-size:11px;
+    color:var(--band);font-weight:600;flex:none}
+  ol.five p{margin:0;font-size:16.5px}
+
+  .qgroup{margin:0 0 26px}
+  .qlabel{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--amber);margin:0 0 4px;font-weight:600}
+  .qnote{font-size:14.5px;color:var(--muted);margin:0 0 10px}
+  .qgroup ul{margin:0;padding:0 0 0 20px}
+  .qgroup li{margin:0 0 8px;font-size:16.5px}
+
+  figure{margin:34px 0;background:var(--paper);padding:20px 20px 16px;border-top:2px solid var(--band)}
+  figure svg{width:100%;height:auto;display:block}
+  figcaption{font-size:14.5px;color:var(--muted);margin:14px 0 0;line-height:1.55}
+  figcaption b{font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;
+    color:var(--peat);display:block;margin:0 0 5px;font-weight:600}
+  .mapt{font-family:var(--mono);font-size:9.5px;fill:#5F6157;letter-spacing:.04em}
+  .mapl{font-family:var(--mono);font-size:10.5px;fill:#3C3E36;letter-spacing:.06em;font-weight:600}
+  .mapx{font-family:var(--mono);font-size:8.5px;fill:#4A4C44;letter-spacing:.04em}
+
+  ul.plain{list-style:none;margin:0;padding:0;border-top:1px solid var(--rule)}
+  ul.plain li{display:flex;gap:20px;padding:12px 0;border-bottom:1px solid var(--rule);
+    align-items:baseline;flex-wrap:wrap}
+  ul.plain .nm{font-family:var(--mono);font-size:12px;letter-spacing:.03em;width:200px;flex:none;
+    color:var(--verdigris)}
+  ul.plain .ds{font-size:15.5px;color:var(--muted);flex:1;min-width:230px}
+
+  footer{margin:70px 0 0;padding:22px 0 64px;border-top:1px solid var(--rule);
+    font-family:var(--mono);font-size:11px;letter-spacing:.06em;color:var(--muted)}
+
+  @media (max-width:720px){
+    body{font-size:16.5px}
+    .wrap{padding:0 20px}
+    .crumb-in{padding:10px 20px;gap:10px;font-size:9.5px}
+    header.hd{padding:40px 0 0}
+    h2{font-size:24px;margin-top:44px}
+    figure{padding:14px 12px 12px}
+    .terms dl{grid-template-columns:1fr;gap:11px}
+    ul.calls li{flex-direction:column;gap:2px}
+    ul.calls b{width:auto}
+    ul.plain li{flex-direction:column;gap:3px}
+    ul.plain .nm{width:auto}
+  }
+
+  html{scroll-behavior:smooth}
+  @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+  h2[id],div.myth[id]{scroll-margin-top:24px}
+
+  /* fixed section index, wide screens only */
+  .rail{position:fixed;top:88px;left:calc(50% - 605px);width:170px;z-index:30;
+    max-height:calc(100vh - 130px);overflow-y:auto;scrollbar-width:thin}
+  .rail-h{font-family:var(--mono);font-size:9.5px;letter-spacing:.18em;text-transform:uppercase;
+    color:var(--amber);margin:0 0 10px;font-weight:600}
+  .rail ol{list-style:none;margin:0;padding:0;border-left:1px solid var(--rule)}
+  .rail li{margin:0}
+  .rail a{display:flex;gap:7px;align-items:baseline;text-decoration:none;color:var(--muted);
+    font-family:var(--mono);font-size:10.5px;line-height:1.35;letter-spacing:.01em;
+    padding:5px 0 5px 11px;margin-left:-1px;border-left:2px solid transparent}
+  .rail a:hover{color:var(--peat)}
+  .rail .rn{color:var(--band);font-weight:600;flex:none;width:13px}
+  .rail a.active{color:var(--peat);border-left-color:var(--amber);font-weight:600}
+  .rail a.active .rn{color:var(--amber)}
+  @media (max-width:1239px){.rail{display:none}}
+
+  /* collapsible contents, narrow screens only */
+  .toc{display:none;background:var(--paper);border-left:3px solid var(--band);
+    padding:12px 18px;margin:34px 0 0}
+  .toc summary{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--band);font-weight:600;cursor:pointer}
+  .toc ol{margin:12px 0 2px;padding:0 0 0 20px}
+  .toc li{margin:0 0 5px;font-size:15.5px}
+  @media (max-width:1239px){.toc{display:block}}
+
+  /* people vignette */
+  .vig{background:var(--paper);border-left:3px solid var(--amber);padding:20px 22px;margin:30px 0}
+  .vig h4{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--amber);margin:0 0 10px;font-weight:600}
+  .vig p{font-size:16.5px;margin:0 0 .85em}
+  .vig p:last-child{margin:0}
+  .vig .who{font-family:var(--mono);font-size:11px;letter-spacing:.05em;color:var(--muted);
+    margin:12px 0 0;font-style:normal}
+  @media print{.rail{display:none}.toc{display:none}.vig{background:#fff}}
+
+  /* mid-page retrieval checkpoint — deliberately unfilled, so it reads as a pause, not a box */
+  .check{border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);
+    padding:15px 0 14px;margin:32px 0}
+  .check h4{font-family:var(--mono);font-size:10px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--muted);margin:0 0 9px;font-weight:600}
+  .check ul{margin:0;padding:0 0 0 19px}
+  .check li{font-size:15.5px;color:var(--muted);margin:0 0 5px;line-height:1.5}
+  .check li:last-child{margin:0}
+  @media print{.check{border-color:#ccc}}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+  @media print{.crumb{display:none}body{background:#fff}figure,.meanwhile,.myth,.terms,ol.five li{background:#fff}}
+
+</style>
+</head>
+<body>
+
+<div class="crumb"><div class="crumb-in">
+  <span><b>Part G</b> · Absolutism</span><span>Chapter 28</span><span>1721 – 1770</span>
+</div></div>
+
+<nav class="rail" aria-label="Sections of this page"><p class="rail-h">On this page</p><ol>
+<li><a href="#intro"><span class="rn"></span>Introduction</a></li>
+<li><a href="#s01"><span class="rn">01</span>A king who closed the theatres</a></li>
+<li><a href="#s02"><span class="rn">02</span>The parish under pietism — 1735, 1736, 1737</a></li>
+<li><a href="#s03"><span class="rn">03</span>Stavnsbånd, 1733 — and why</a></li>
+<li><a href="#s04"><span class="rn">04</span>A week of hoveri</a></li>
+<li><a href="#s05"><span class="rn">05</span>The cattle plague</a></li>
+<li><a href="#s06"><span class="rn">06</span>The Brethren</a></li>
+<li><a href="#s07"><span class="rn">07</span>How Norway was governed, and what it sent south</a></li>
+<li><a href="#s08"><span class="rn">08</span>Holberg's Copenhagen, and the fire of 1728</a></li>
+<li><a href="#s09"><span class="rn">09</span>The loosening, 1746</a></li>
+<li><a href="#s10"><span class="rn">10</span>A state that could not price its own grain</a></li>
+<li><a href="#myth"><span class="rn"></span>Myth-check</a></li>
+<li><a href="#forward"><span class="rn"></span>What to carry forward</a></li>
+<li><a href="#summary"><span class="rn"></span>The page in five</a></li>
+<li><a href="#questions"><span class="rn"></span>Questions &amp; discussion</a></li>
+<li><a href="#sources"><span class="rn"></span>Sources</a></li>
+<li><a href="#visit"><span class="rn"></span>Places you can visit</a></li>
+</ol></nav>
+
+<div class="wrap">
+
+<header class="hd">
+  <p class="eyebrow">Era chapter · about 43 minutes</p>
+  <h1>The bound countryside and the pious state</h1>
+  <p class="dates">1721 – 1770 · Christian 6. · Frederik 5. · Erik Pontoppidan · Ludvig Holberg · Anders Pedersen</p>
+  <p class="why">For half a century the Danish state is at peace and its countrymen are not free. In 1733 every man of the peasantry is tied to the estate where he was born, to solve a problem of army recruitment and landlord debt at one stroke. At the same time a pietist king closes the theatres, makes confirmation compulsory, and puts a book of seven hundred and fifty-nine questions into every parish in two kingdoms.</p>
+  <ul class="keys">
+    <li>stavnsbånd 1733</li><li>hoveri</li><li>spanddag og gangdag</li><li>konfirmation 1736</li><li>Pontoppidans katekismus 1737</li><li>skoleforordningen 1739</li><li>kvægpesten</li><li>Herrnhuterne</li><li>Kongsberg</li><li>kornmonopolet 1735</li>
+  </ul>
+</header>
+
+<details class="toc"><summary>Contents</summary><ol>
+<li><a href="#intro">Introduction</a></li>
+<li><a href="#s01">A king who closed the theatres</a></li>
+<li><a href="#s02">The parish under pietism — 1735, 1736, 1737</a></li>
+<li><a href="#s03">Stavnsbånd, 1733 — and why</a></li>
+<li><a href="#s04">A week of hoveri</a></li>
+<li><a href="#s05">The cattle plague</a></li>
+<li><a href="#s06">The Brethren</a></li>
+<li><a href="#s07">How Norway was governed, and what it sent south</a></li>
+<li><a href="#s08">Holberg's Copenhagen, and the fire of 1728</a></li>
+<li><a href="#s09">The loosening, 1746</a></li>
+<li><a href="#s10">A state that could not price its own grain</a></li>
+<li><a href="#myth">Myth-check</a></li>
+<li><a href="#forward">What to carry forward</a></li>
+<li><a href="#summary">The page in five</a></li>
+<li><a href="#questions">Questions &amp; discussion</a></li>
+<li><a href="#sources">Sources</a></li>
+<li><a href="#visit">Places you can visit</a></li>
+</ol></details>
+
+<p class="kicker">Introduction</p>
+<h2 id="intro" style="margin-top:0"><span class="n">WHAT THIS PAGE ANSWERS</span>Five questions</h2>
+<ol class="qs">
+  <li>The <i class="dk">stavnsbånd</i> of 1733 is usually explained as serfdom. What problem was it actually built to solve, and for whom?</li>
+  <li>How much of a bound man's year belonged to somebody else, and why can we not say which days?</li>
+  <li>Confirmation became compulsory in 1736 and the state was obliged to teach for it in 1739. Why does that order matter?</li>
+  <li>Norway kept its own law, its own coin and its own regiments. In what sense was it nonetheless being governed for Denmark's benefit?</li>
+  <li>What did the cattle plague do to a countryside where a farm's value was already written down as a single number?</li>
+</ol>
+
+<hr class="div">
+
+<h2 id="s01"><span class="n">01 / NARRATIVE</span>A king who closed the theatres</h2>
+
+<p>Frederik 4. died in October 1730 and his son shut the playhouse.</p>
+
+<p>Christian 6. was thirty-one, and he had been raised by a mother who thought her husband's court was a moral catastrophe — which, given that Frederik 4. married his mistress to the left hand while the queen was still alive and then to the right hand the day after her funeral, was a defensible position. The son took the lesson entirely. He was pious, withdrawn, German-speaking, uneasy in public, and he governed for sixteen years without once giving the impression of enjoying it.</p>
+
+<p>The theatre in Grønnegade closed. There was never a formal statute banning the stage, which is why historians say a theatre ban "in effect": it was done by withdrawing permission, by pressure, and by a court that made it plain what it thought. It held until he died in 1746, and Danish theatre lost sixteen years at precisely the point when it had begun to exist.</p>
+
+<p>His father had held a weekly audience at which any subject could bring a complaint. Christian 6. did not. What he did instead was more consequential than anything his father did in a public hearing, and it reached further into ordinary Danish lives than absolutism had yet managed: he legislated on what people did on Sundays, and on what every child in the kingdom had to know before being counted an adult.</p>
+
+<h2 id="s02"><span class="n">02 / NARRATIVE</span>The parish under pietism — 1735, 1736, 1737</h2>
+
+<div class="terms">
+  <h4>Danish terms in this section</h4>
+  <dl>
+    <div class="t"><dt>pietisme</dt><dd>a movement holding that inward conversion mattered more than correct doctrine correctly recited. It arrived as a criticism of the state church and was made into an instrument of it.</dd></div>
+    <div class="t"><dt>konfirmation</dt><dd>compulsory from 13 January 1736: public examination in church before admission to communion, and in practice before adulthood.</dd></div>
+    <div class="t"><dt>katekismus</dt><dd>Luther's Little Catechism, and Pontoppidan's explanation of it, <i class="dk">Sandhed til Gudfrygtighed</i>, with its seven hundred and fifty-nine questions.</dd></div>
+    <div class="t"><dt>konventikelplakaten</dt><dd>the Conventicle Placard of 1741, which put private religious gatherings under the parish priest's supervision.</dd></div>
+  </dl>
+</div>
+
+<p>Pietism was originally a movement of the heart. It held that Lutheran orthodoxy had become a matter of correct formulas recited by people who felt nothing, and that what mattered was inward conversion, personal scripture reading, and small gatherings of the genuinely awakened. It came to Denmark from Halle in Saxony, and in its first form it was a criticism of the state church rather than an instrument of it.</p>
+
+<p>Within a decade the Danish crown had turned it into law, and it is worth watching how, because the mechanism is the same one this part keeps describing.</p>
+
+<p><strong>12 March 1735.</strong> The Sabbath ordinance made attendance at divine service on Sundays and holy days a legal duty. Not an expectation — a duty, enforceable. What people did with their one free day in seven became the state's business.</p>
+
+<p><strong>13 January 1736.</strong> Confirmation was made compulsory. Every young person in Denmark and Norway had to be instructed, examined publicly in church, and confirmed before being admitted to communion — and, in practice, before being regarded as an adult who could marry, take service, or hold a tenancy. The ordinance fell in the two hundredth year after the Reformation, which nobody involved will have missed.</p>
+
+<p><strong>1737.</strong> Erik Pontoppidan, court preacher, produced the textbook at the king's own request: <i class="dk">Sandhed til Gudfrygtighed</i>, truth unto godliness, an explanation of Luther's Little Catechism. It contains seven hundred and fifty-nine questions and answers. A candidate was expected to have them by heart, and could be asked up to fifty of them, standing in front of the congregation.</p>
+
+<p>Consider what that required. It was made a legal obligation for every child in two kingdoms to memorise several hundred theological questions in a language many of them could not read — and there was, in most of the country, no school. Chapter 27 described two hundred and forty-one schoolhouses built in the cavalry districts; the cavalry districts were where the crown happened to own land. The confirmation ordinance obliged the state to reach everywhere else, and it is the reason compulsory schooling in Denmark begins here rather than in 1814. It also reached the children whose parents had kept them out of any teaching because the family needed their labour, which was most children.</p>
+
+<p>And it was made an obligation in law three years later. The school ordinance of 1739 required schooling for all children — the first time a Danish government had said so — and it followed directly from the confirmation ordinance, because a state that compels an examination has to provide the teaching for it. The instruction was the memorising of set religious texts, which is not what a modern reader means by education. It is nevertheless where Danish literacy comes from, and in time Danish writing as well.</p>
+
+<p><i class="dk">Sandhed til Gudfrygtighed</i> remained the legally required catechism until 1794. It was authorised afresh by three kings in succession, in 1738, 1748 and 1768. It was used in Danish religious teaching throughout the eighteenth century and in Norway through the nineteenth as well, and it is probably the book by a Danish author that has been printed in more copies than any other.</p>
+
+<p>Two things followed that were not in the original idea at all.</p>
+
+<p>The pietists split in 1734 between the Halle party and the Moravians of Herrnhut, and the Danish state chose Halle — the disciplined, institutional, church-governed version. And in 1741 the Conventicle Placard put private religious gatherings under the supervision of the parish priest. A movement that had begun by insisting the awakened should meet in small groups outside the official church ended by making such meetings legal only under the official church's eye. The institution had won.</p>
+
+<div class="vig">
+<h4>Vignette · Sophie Magdalene, Vallø, 28 November 1737</h4>
+<p>The queen is thirty-seven, and today she signs the foundation of the grandest convent for unmarried noblewomen in Denmark.</p>
+<p>Vallø came to her in 1731, when her husband took it from his father's second wife and gave it to his own. She has had Lauritz de Thurah rebuild it. Next May it will be inaugurated with a great ceremony. It will keep twelve <i class="dk">stiftsfrøkener</i> — three of them royal ladies-in-waiting — and until 1799 every one of them will have to document sixteen noble ancestors. The abbess must come of a princely house and the dean of a comital one. The abbess will have the right to appoint the parish priests on the estate.</p>
+<p>It is a pietist act, and it is also a family arrangement. The first abbess is her own younger sister, Sophie Caroline, on a pension of sixteen thousand six hundred thalers a year. And there is a letter in the archives in which the queen asks her husband to send that sister back to Germany, because she is convinced — on what evidence nobody knows — that Sophie Caroline and the king are lovers. He answers that he would let her go with all his heart if it would win his wife's confidence, but that it would hurt the princess. The sister stayed. So did the pension.</p>
+<p>Sophie Magdalene directed the foundation herself until she died in 1770. The woman who took over the protectorate the following March was Caroline Mathilde, and what happened to her is chapter 29.</p>
+<p class="who">Sophie Magdalene, queen · Vallø · 28 November 1737</p>
+</div>
+
+<p>What was left of the heart of it was the hymns. Hans Adolph Brorson, bishop of Ribe, wrote the best Danish devotional poetry of the century in these years, and it is not administrative at all: it is about the sweetness and the suffering of Christ, addressed to one soul at a time. The same decade produced the Conventicle Placard and <i class="dk">Her kommer, Jesus, dine små</i>, and both are pietism.</p>
+
+<figure>
+<svg viewBox="0 0 700 566" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Seven hundred and fifty-nine small squares, one for each question in Pontoppidan's catechism of 1737. Fifty of them are marked, being the number a candidate could be asked at the public examination in church. The marked ones are scattered through the whole set, because the candidate did not know which would be chosen and had to learn them all.">
+  <rect x="0" y="0" width="700" height="566" fill="#F0F2EE"/>
+  <text x="26" y="30" class="mapl">SEVEN HUNDRED AND FIFTY-NINE QUESTIONS</text>
+  <text x="26" y="46" class="mapt">Pontoppidan, <tspan font-style="italic">Sandhed til Gudfrygtighed</tspan>, 1737 — the required book for every child in two kingdoms</text>
+  <text x="26" y="72" class="mapx">Any fifty of them, in front of the congregation. You did not know which fifty.</text>
+  <rect x="26" y="96" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="40" y="96" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="54" y="96" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="68" y="96" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="82" y="96" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="96" y="96" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="110" y="96" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="124" y="96" width="11" height="11" rx="1" fill="#2F4C7A" opacity=".85"/>
+  <rect x="138" y="96" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="152" y="96" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="166" y="96" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="180" y="96" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="194" y="96" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="208" y="96" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="222" y="96" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="236" y="96" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="250" y="96" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="264" y="96" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="278" y="96" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="292" y="96" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="306" y="96" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="320" y="96" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="334" y="96" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="348" y="96" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="362" y="96" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="376" y="96" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="390" y="96" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="404" y="96" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="418" y="96" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="432" y="96" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="446" y="96" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="460" y="96" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="474" y="96" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="26" y="110" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="40" y="110" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="54" y="110" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="68" y="110" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="82" y="110" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="96" y="110" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="110" y="110" width="11" height="11" rx="1" fill="#2F4C7A" opacity=".85"/>
+  <rect x="124" y="110" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="138" y="110" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="152" y="110" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="166" y="110" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="180" y="110" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="194" y="110" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="208" y="110" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="222" y="110" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="236" y="110" width="11" height="11" rx="1" fill="#2F4C7A" opacity=".85"/>
+  <rect x="250" y="110" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="264" y="110" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="278" y="110" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="292" y="110" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="306" y="110" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="320" y="110" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="334" y="110" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="348" y="110" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="362" y="110" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="376" y="110" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="390" y="110" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="404" y="110" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="418" y="110" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="432" y="110" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="446" y="110" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="460" y="110" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="474" y="110" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="26" y="124" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="40" y="124" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="54" y="124" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="68" y="124" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="82" y="124" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="96" y="124" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="110" y="124" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="124" y="124" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="138" y="124" width="11" height="11" rx="1" fill="#2F4C7A" opacity=".85"/>
+  <rect x="152" y="124" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="166" y="124" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="180" y="124" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="194" y="124" width="11" height="11" rx="1" fill="#2F4C7A" opacity=".85"/>
+  <rect x="208" y="124" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="222" y="124" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="236" y="124" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="250" y="124" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="264" y="124" width="11" height="11" rx="1" fill="#2F4C7A" opacity=".85"/>
+  <rect x="278" y="124" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="292" y="124" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="306" y="124" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="320" y="124" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="334" y="124" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="348" y="124" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="362" y="124" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="376" y="124" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="390" y="124" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="404" y="124" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="418" y="124" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="432" y="124" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="446" y="124" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="460" y="124" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="474" y="124" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="26" y="138" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="40" y="138" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="54" y="138" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="68" y="138" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="82" y="138" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="96" y="138" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="110" y="138" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="124" y="138" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="138" y="138" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="152" y="138" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="166" y="138" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="180" y="138" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="194" y="138" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="208" y="138" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="222" y="138" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="236" y="138" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="250" y="138" width="11" height="11" rx="1" fill="#2F4C7A" opacity=".85"/>
+  <rect x="264" y="138" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="278" y="138" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="292" y="138" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="306" y="138" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="320" y="138" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="334" y="138" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="348" y="138" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="362" y="138" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="376" y="138" width="11" height="11" rx="1" fill="#2F4C7A" opacity=".85"/>
+  <rect x="390" y="138" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="404" y="138" width="11" height="11" rx="1" fill="#2F4C7A" opacity=".85"/>
+  <rect x="418" y="138" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="432" y="138" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="446" y="138" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="460" y="138" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="474" y="138" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="26" y="152" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="40" y="152" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="54" y="152" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="68" y="152" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="82" y="152" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="96" y="152" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="110" y="152" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="124" y="152" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="138" y="152" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="152" y="152" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="166" y="152" width="11" height="11" rx="1" fill="#2F4C7A" opacity=".85"/>
+  <rect x="180" y="152" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="194" y="152" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="208" y="152" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="222" y="152" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="236" y="152" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="250" y="152" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="264" y="152" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="278" y="152" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="292" y="152" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="306" y="152" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="320" y="152" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="334" y="152" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="348" y="152" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="362" y="152" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="376" y="152" width="11" height="11" rx="1" fill="#2F4C7A" opacity=".85"/>
+  <rect x="390" y="152" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="404" y="152" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="418" y="152" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="432" y="152" width="11" height="11" rx="1" fill="#2F4C7A" opacity=".85"/>
+  <rect x="446" y="152" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="460" y="152" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="474" y="152" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="26" y="166" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="40" y="166" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="54" y="166" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="68" y="166" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="82" y="166" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="96" y="166" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="110" y="166" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="124" y="166" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="138" y="166" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="152" y="166" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="166" y="166" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="180" y="166" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="194" y="166" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="208" y="166" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="222" y="166" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="236" y="166" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="250" y="166" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="264" y="166" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="278" y="166" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="292" y="166" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="306" y="166" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="320" y="166" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="334" y="166" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="348" y="166" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="362" y="166" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="376" y="166" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="390" y="166" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="404" y="166" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="418" y="166" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="432" y="166" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="446" y="166" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="460" y="166" width="11" height="11" rx="1" fill="#2F4C7A" opacity=".85"/>
+  <rect x="474" y="166" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="26" y="180" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="40" y="180" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="54" y="180" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="68" y="180" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="82" y="180" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="96" y="180" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="110" y="180" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="124" y="180" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="138" y="180" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="152" y="180" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="166" y="180" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="180" y="180" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="194" y="180" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="208" y="180" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="222" y="180" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="236" y="180" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="250" y="180" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="264" y="180" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="278" y="180" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="292" y="180" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="306" y="180" width="11" height="11" rx="1" fill="#2F4C7A" opacity=".85"/>
+  <rect x="320" y="180" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="334" y="180" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="348" y="180" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="362" y="180" width="11" height="11" rx="1" fill="#2F4C7A" opacity=".85"/>
+  <rect x="376" y="180" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="390" y="180" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="404" y="180" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="418" y="180" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="432" y="180" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="446" y="180" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="460" y="180" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="474" y="180" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="26" y="194" width="11" height="11" rx="1" fill="#2F4C7A" opacity=".85"/>
+  <rect x="40" y="194" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="54" y="194" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="68" y="194" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="82" y="194" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="96" y="194" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="110" y="194" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="124" y="194" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="138" y="194" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="152" y="194" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="166" y="194" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="180" y="194" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="194" y="194" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="208" y="194" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="222" y="194" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="236" y="194" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="250" y="194" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="264" y="194" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="278" y="194" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="292" y="194" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="306" y="194" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="320" y="194" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="334" y="194" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="348" y="194" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="362" y="194" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="376" y="194" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="390" y="194" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="404" y="194" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="418" y="194" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="432" y="194" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="446" y="194" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="460" y="194" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="474" y="194" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="26" y="208" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="40" y="208" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="54" y="208" width="11" height="11" rx="1" fill="#2F4C7A" opacity=".85"/>
+  <rect x="68" y="208" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="82" y="208" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="96" y="208" width="11" height="11" rx="1" fill="#2F4C7A" opacity=".85"/>
+  <rect x="110" y="208" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="124" y="208" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="138" y="208" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="152" y="208" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="166" y="208" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="180" y="208" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="194" y="208" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="208" y="208" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="222" y="208" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="236" y="208" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="250" y="208" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="264" y="208" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="278" y="208" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="292" y="208" width="11" height="11" rx="1" fill="#2F4C7A" opacity=".85"/>
+  <rect x="306" y="208" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="320" y="208" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="334" y="208" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="348" y="208" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="362" y="208" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="376" y="208" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="390" y="208" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="404" y="208" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="418" y="208" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="432" y="208" width="11" height="11" rx="1" fill="#2F4C7A" opacity=".85"/>
+  <rect x="446" y="208" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="460" y="208" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="474" y="208" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="26" y="222" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="40" y="222" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="54" y="222" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="68" y="222" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="82" y="222" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="96" y="222" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="110" y="222" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="124" y="222" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="138" y="222" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="152" y="222" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="166" y="222" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="180" y="222" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="194" y="222" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="208" y="222" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="222" y="222" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="236" y="222" width="11" height="11" rx="1" fill="#2F4C7A" opacity=".85"/>
+  <rect x="250" y="222" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="264" y="222" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="278" y="222" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="292" y="222" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="306" y="222" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="320" y="222" width="11" height="11" rx="1" fill="#2F4C7A" opacity=".85"/>
+  <rect x="334" y="222" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="348" y="222" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="362" y="222" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="376" y="222" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="390" y="222" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="404" y="222" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="418" y="222" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="432" y="222" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="446" y="222" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="460" y="222" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="474" y="222" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="26" y="236" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="40" y="236" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="54" y="236" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="68" y="236" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="82" y="236" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="96" y="236" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="110" y="236" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="124" y="236" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="138" y="236" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="152" y="236" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="166" y="236" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="180" y="236" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="194" y="236" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="208" y="236" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="222" y="236" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="236" y="236" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="250" y="236" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="264" y="236" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="278" y="236" width="11" height="11" rx="1" fill="#2F4C7A" opacity=".85"/>
+  <rect x="292" y="236" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="306" y="236" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="320" y="236" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="334" y="236" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="348" y="236" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="362" y="236" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="376" y="236" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="390" y="236" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="404" y="236" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="418" y="236" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="432" y="236" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="446" y="236" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="460" y="236" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="474" y="236" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="26" y="250" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="40" y="250" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="54" y="250" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="68" y="250" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="82" y="250" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="96" y="250" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="110" y="250" width="11" height="11" rx="1" fill="#2F4C7A" opacity=".85"/>
+  <rect x="124" y="250" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="138" y="250" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="152" y="250" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="166" y="250" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="180" y="250" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="194" y="250" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="208" y="250" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="222" y="250" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="236" y="250" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="250" y="250" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="264" y="250" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="278" y="250" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="292" y="250" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="306" y="250" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="320" y="250" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="334" y="250" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="348" y="250" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="362" y="250" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="376" y="250" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="390" y="250" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="404" y="250" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="418" y="250" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="432" y="250" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="446" y="250" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="460" y="250" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="474" y="250" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="26" y="264" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="40" y="264" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="54" y="264" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="68" y="264" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="82" y="264" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="96" y="264" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="110" y="264" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="124" y="264" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="138" y="264" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="152" y="264" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="166" y="264" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="180" y="264" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="194" y="264" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="208" y="264" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="222" y="264" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="236" y="264" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="250" y="264" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="264" y="264" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="278" y="264" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="292" y="264" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="306" y="264" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="320" y="264" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="334" y="264" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="348" y="264" width="11" height="11" rx="1" fill="#2F4C7A" opacity=".85"/>
+  <rect x="362" y="264" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="376" y="264" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="390" y="264" width="11" height="11" rx="1" fill="#2F4C7A" opacity=".85"/>
+  <rect x="404" y="264" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="418" y="264" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="432" y="264" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="446" y="264" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="460" y="264" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="474" y="264" width="11" height="11" rx="1" fill="#2F4C7A" opacity=".85"/>
+  <rect x="26" y="278" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="40" y="278" width="11" height="11" rx="1" fill="#2F4C7A" opacity=".85"/>
+  <rect x="54" y="278" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="68" y="278" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="82" y="278" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="96" y="278" width="11" height="11" rx="1" fill="#2F4C7A" opacity=".85"/>
+  <rect x="110" y="278" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="124" y="278" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="138" y="278" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="152" y="278" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="166" y="278" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="180" y="278" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="194" y="278" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="208" y="278" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="222" y="278" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="236" y="278" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="250" y="278" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="264" y="278" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="278" y="278" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="292" y="278" width="11" height="11" rx="1" fill="#2F4C7A" opacity=".85"/>
+  <rect x="306" y="278" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="320" y="278" width="11" height="11" rx="1" fill="#2F4C7A" opacity=".85"/>
+  <rect x="334" y="278" width="11" height="11" rx="1" fill="#2F4C7A" opacity=".85"/>
+  <rect x="348" y="278" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="362" y="278" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="376" y="278" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="390" y="278" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="404" y="278" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="418" y="278" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="432" y="278" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="446" y="278" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="460" y="278" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="474" y="278" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="26" y="292" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="40" y="292" width="11" height="11" rx="1" fill="#2F4C7A" opacity=".85"/>
+  <rect x="54" y="292" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="68" y="292" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="82" y="292" width="11" height="11" rx="1" fill="#2F4C7A" opacity=".85"/>
+  <rect x="96" y="292" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="110" y="292" width="11" height="11" rx="1" fill="#2F4C7A" opacity=".85"/>
+  <rect x="124" y="292" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="138" y="292" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="152" y="292" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="166" y="292" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="180" y="292" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="194" y="292" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="208" y="292" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="222" y="292" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="236" y="292" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="250" y="292" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="264" y="292" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="278" y="292" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="292" y="292" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="306" y="292" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="320" y="292" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="334" y="292" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="348" y="292" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="362" y="292" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="376" y="292" width="11" height="11" rx="1" fill="#2F4C7A" opacity=".85"/>
+  <rect x="390" y="292" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="404" y="292" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="418" y="292" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="432" y="292" width="11" height="11" rx="1" fill="#2F4C7A" opacity=".85"/>
+  <rect x="446" y="292" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="460" y="292" width="11" height="11" rx="1" fill="#2F4C7A" opacity=".85"/>
+  <rect x="474" y="292" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="26" y="306" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="40" y="306" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="54" y="306" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="68" y="306" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="82" y="306" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="96" y="306" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="110" y="306" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="124" y="306" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="138" y="306" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="152" y="306" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="166" y="306" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="180" y="306" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="194" y="306" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="208" y="306" width="11" height="11" rx="1" fill="#2F4C7A" opacity=".85"/>
+  <rect x="222" y="306" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="236" y="306" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="250" y="306" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="264" y="306" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="278" y="306" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="292" y="306" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="306" y="306" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="320" y="306" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="334" y="306" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="348" y="306" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="362" y="306" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="376" y="306" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="390" y="306" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="404" y="306" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="418" y="306" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="432" y="306" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="446" y="306" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="460" y="306" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="474" y="306" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="26" y="320" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="40" y="320" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="54" y="320" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="68" y="320" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="82" y="320" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="96" y="320" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="110" y="320" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="124" y="320" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="138" y="320" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="152" y="320" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="166" y="320" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="180" y="320" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="194" y="320" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="208" y="320" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="222" y="320" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="236" y="320" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="250" y="320" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="264" y="320" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="278" y="320" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="292" y="320" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="306" y="320" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="320" y="320" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="334" y="320" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="348" y="320" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="362" y="320" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="376" y="320" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="390" y="320" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="404" y="320" width="11" height="11" rx="1" fill="#2F4C7A" opacity=".85"/>
+  <rect x="418" y="320" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="432" y="320" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="446" y="320" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="460" y="320" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="474" y="320" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="26" y="334" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="40" y="334" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="54" y="334" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="68" y="334" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="82" y="334" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="96" y="334" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="110" y="334" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="124" y="334" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="138" y="334" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="152" y="334" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="166" y="334" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="180" y="334" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="194" y="334" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="208" y="334" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="222" y="334" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="236" y="334" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="250" y="334" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="264" y="334" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="278" y="334" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="292" y="334" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="306" y="334" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="320" y="334" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="334" y="334" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="348" y="334" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="362" y="334" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="376" y="334" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="390" y="334" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="404" y="334" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="418" y="334" width="11" height="11" rx="1" fill="#2F4C7A" opacity=".85"/>
+  <rect x="432" y="334" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="446" y="334" width="11" height="11" rx="1" fill="#2F4C7A" opacity=".85"/>
+  <rect x="460" y="334" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="474" y="334" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="26" y="348" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="40" y="348" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="54" y="348" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="68" y="348" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="82" y="348" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="96" y="348" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="110" y="348" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="124" y="348" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="138" y="348" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="152" y="348" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="166" y="348" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="180" y="348" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="194" y="348" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="208" y="348" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="222" y="348" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="236" y="348" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="250" y="348" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="264" y="348" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="278" y="348" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="292" y="348" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="306" y="348" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="320" y="348" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="334" y="348" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="348" y="348" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="362" y="348" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="376" y="348" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="390" y="348" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="404" y="348" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="418" y="348" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="432" y="348" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="446" y="348" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="460" y="348" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="474" y="348" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="26" y="362" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="40" y="362" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="54" y="362" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="68" y="362" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="82" y="362" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="96" y="362" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="110" y="362" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="124" y="362" width="11" height="11" rx="1" fill="#2F4C7A" opacity=".85"/>
+  <rect x="138" y="362" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="152" y="362" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="166" y="362" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="180" y="362" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="194" y="362" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="208" y="362" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="222" y="362" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="236" y="362" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="250" y="362" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="264" y="362" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="278" y="362" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="292" y="362" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="306" y="362" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="320" y="362" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="334" y="362" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="348" y="362" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="362" y="362" width="11" height="11" rx="1" fill="#2F4C7A" opacity=".85"/>
+  <rect x="376" y="362" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="390" y="362" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="404" y="362" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="418" y="362" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="432" y="362" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="446" y="362" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="460" y="362" width="11" height="11" rx="1" fill="#2F4C7A" opacity=".85"/>
+  <rect x="474" y="362" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="26" y="376" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="40" y="376" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="54" y="376" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="68" y="376" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="82" y="376" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="96" y="376" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="110" y="376" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="124" y="376" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="138" y="376" width="11" height="11" rx="1" fill="#2F4C7A" opacity=".85"/>
+  <rect x="152" y="376" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="166" y="376" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="180" y="376" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="194" y="376" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="208" y="376" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="222" y="376" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="236" y="376" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="250" y="376" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="264" y="376" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="278" y="376" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="292" y="376" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="306" y="376" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="320" y="376" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="334" y="376" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="348" y="376" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="362" y="376" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="376" y="376" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="390" y="376" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="404" y="376" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="418" y="376" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="432" y="376" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="446" y="376" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="460" y="376" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="474" y="376" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="26" y="390" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="40" y="390" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="54" y="390" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="68" y="390" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="82" y="390" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="96" y="390" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="110" y="390" width="11" height="11" rx="1" fill="#2F4C7A" opacity=".85"/>
+  <rect x="124" y="390" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="138" y="390" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="152" y="390" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="166" y="390" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="180" y="390" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="194" y="390" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="208" y="390" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="222" y="390" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="236" y="390" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="250" y="390" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="264" y="390" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="278" y="390" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="292" y="390" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="306" y="390" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="320" y="390" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="334" y="390" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="348" y="390" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="362" y="390" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="376" y="390" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="390" y="390" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="404" y="390" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="418" y="390" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="432" y="390" width="11" height="11" rx="1" fill="#2F4C7A" opacity=".85"/>
+  <rect x="446" y="390" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="460" y="390" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="474" y="390" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="26" y="404" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="40" y="404" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="54" y="404" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="68" y="404" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="82" y="404" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="96" y="404" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="110" y="404" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="124" y="404" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="138" y="404" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="152" y="404" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="166" y="404" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="180" y="404" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="194" y="404" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="208" y="404" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="222" y="404" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="236" y="404" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="250" y="404" width="11" height="11" rx="1" fill="#2F4C7A" opacity=".85"/>
+  <rect x="264" y="404" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="278" y="404" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="292" y="404" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="306" y="404" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="320" y="404" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="334" y="404" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="348" y="404" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="362" y="404" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="376" y="404" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="390" y="404" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="404" y="404" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="418" y="404" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="432" y="404" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="446" y="404" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <rect x="460" y="404" width="11" height="11" rx="1" fill="#2F4C7A" opacity=".85"/>
+  <rect x="474" y="404" width="11" height="11" rx="1" fill="#5F6157" opacity=".16"/>
+  <line x1="26" y1="430" x2="674" y2="430" stroke="#C9CDC4" stroke-width="1"/>
+  <text x="26" y="452" class="mapx">Re-authorised by three kings in succession</text>
+  <text x="26" y="470" class="mapt">1738 — Christian 6.</text>
+  <text x="176" y="470" class="mapt">1748 — Frederik 5.</text>
+  <text x="326" y="470" class="mapt">1768 — Christian 7.</text>
+  <text x="26" y="498" class="mapt">Required by law until 1794. Used in Danish religious teaching through the whole eighteenth</text>
+  <text x="26" y="512" class="mapt">century and in Norway through the nineteenth as well. It is probably the book by a Danish author</text>
+  <text x="26" y="526" class="mapt">that has been printed in more copies than any other. Confirmation became compulsory in 1736; the</text>
+  <text x="26" y="540" class="mapt">state was obliged to provide the teaching by the school ordinance of 1739.</text>
+  </svg>
+<figcaption><b>Figure 3 · Seven hundred and fifty-nine questions</b>
+Pontoppidan's &lt;i class="dk"&gt;Sandhed til Gudfrygtighed&lt;/i&gt; of 1737, the required book for every child in two kingdoms. Any fifty of them could be asked at the public examination in front of the congregation, and you did not know which fifty, so you learned them all. Re-authorised by three kings in succession and required by law until 1794; it is probably the book by a Danish author printed in more copies than any other.</figcaption>
+</figure>
+
+<h2 id="s03"><span class="n">03 / NARRATIVE</span>Stavnsbånd, 1733 — and why</h2>
+
+<div class="terms">
+  <h4>Danish terms in this section</h4>
+  <dl>
+    <div class="t"><dt>stavnsbånd</dt><dd>from <i class="dk">stavn</i>, the place one belongs to. The bond of 4 February 1733, tying men of the peasantry to the estate of their birth from fourteen to thirty-six; widened to nine–forty in 1742 and four–forty in 1764.</dd></div>
+    <div class="t"><dt>lægd</dt><dd>the recruiting unit: a parcel of land assessed at twenty barrels of hartkorn, which had to produce one man for the session.</dd></div>
+    <div class="t"><dt>session</dt><dd>the board that made the final selection of conscripts.</dd></div>
+    <div class="t"><dt>vornedskab</dt><dd>the older bond, on Zealand, Lolland, Falster and Møn. It held women as well as men and lasted a lifetime; it was ended by attrition from 1702.</dd></div>
+  </dl>
+</div>
+
+<p>On 4 February 1733 the government issued an ordinance for the establishment of a new land militia in Denmark. That is its title and that is what it was for. The thing it is remembered by is a clause inside it.</p>
+
+<p>Under the ordinance, no young man of the peasantry between the ages of fourteen and thirty-six could leave the estate where he was born without his landlord's permission. Sons of clergy and of landowners were exempt.</p>
+
+<p>The reason it was in a militia ordinance is administrative and worth following, because it explains why a measure that looks like a landowners' conspiracy was in fact a bargain. National conscription was being reintroduced. The unit of recruitment was the <i class="dk">lægd</i> — a parcel of land assessed at twenty barrels of hartkorn, in the register chapter 25 watched being made — and from every lægd the landowner had to produce one man for the session, where the final selection was done. If he could not produce one, he was fined.</p>
+
+<p>The landowners' objection was practical. Young men ran away when they were called. A landlord who was fined for failing to produce a man he could not find would naturally demand the power to stop the men leaving. So the crown gave it to him, and the price of a national army raised off the land was that the men on the land stopped being able to move.</p>
+
+<p>Behind that sat a second reason, which the ordinance does not state. Danish agriculture was in a severe crisis through the 1730s. Grain could not be sold, prices fell, tenancies stood empty, and young men would not take on a farm on the terms available. The bond solved that too: a man who could not leave could be required to take the vacant holding the landlord wanted filled. One historian's summary is blunt — it functioned as a rescue package for the estates.</p>
+
+<p>It got worse rather than better. In 1742 the age range was widened to nine to forty. In 1764 it was widened again, to four to forty. A man could be bound to the estate of his birth from the year he learned to walk until he was past working age.</p>
+
+<p>It is often said that stavnsbånd was serfdom returning, and the comparison needs handling carefully in both directions. It was not the same as the <i class="dk">vornedskab</i> it replaced, and in one respect it was narrower: vornedskab had bound women as well as men, and had bound them for life. Stavnsbånd bound only men, and only for twenty-two years of their lives. In every other respect it was heavier, because it was national — vornedskab had applied on Zealand, Lolland, Falster and Møn, and this applied everywhere — and because it was new, and deliberate, and made by a government that could have done otherwise.</p>
+
+<p>What it actually did to the Danish countryside is less settled than the outrage suggests. Ole Feldbæk's position is that we know remarkably little about its economic and social effects, and it is worth holding that alongside the indignation, because the indignation came later and had work to do. The bond was abolished on 20 June 1788, and the abolition became the founding story of modern Danish rural life — which is chapter 29's business, and a story with an interest in the thing it abolished having been as bad as possible.</p>
+
+<p>It was not fully wound up until 1800.</p>
+
+<div class="meanwhile">
+<h4>Meanwhile · 1740 — Berlin and Vienna.</h4>
+<p>Frederick II succeeded in Prussia in May 1740 and invaded Silesia in December; Maria Theresa succeeded in Austria in October and spent eight years fighting to keep her inheritance. The War of the Austrian Succession set most of Europe on fire for a decade. Denmark sat it out entirely, as it sat out the Seven Years' War after it, and the contrast is the point of this chapter: the same decades in which the great powers spent themselves on battlefields were the decades in which the Danish state turned inward and rearranged the people it already had. Whether that was wisdom or luck is a fair question. It was certainly cheaper.</p>
+</div>
+
+<h2 id="s04"><span class="n">04 / NARRATIVE</span>A week of hoveri</h2>
+
+<div class="terms">
+  <h4>Danish terms in this section</h4>
+  <dl>
+    <div class="t"><dt>hoveri</dt><dd>the compulsory labour a tenant owed on his landlord's home farm. Never specified in the tenancy letter and subject to no legal ceiling.</dd></div>
+    <div class="t"><dt>spanddag</dt><dd>a day owed with a wagon and a team.</dd></div>
+    <div class="t"><dt>gangdag</dt><dd>a day owed on foot with hand tools, which could be met by sending a girl or a boy.</dd></div>
+    <div class="t"><dt>hovlod</dt><dd>a defined strip of the manor's field allotted to one tenant to work.</dd></div>
+    <div class="t"><dt>fæstebrev</dt><dd>the tenancy letter. It said a man must do hoveri like his neighbours, or as often as he was called, and nothing more precise than that.</dd></div>
+    <div class="t"><dt>husmand</dt><dd>a cottager with little or no land, who generally had nobody to send in his place.</dd></div>
+  </dl>
+</div>
+
+<p>Ask which was worse, the bond or the work, and the popular answer and the specialist answer are not the same. Stavnsbånd is the one with the monument. But there is broad agreement among historians of the Danish countryside that <i class="dk">hoveri</i> — the compulsory labour a tenant owed on his landlord's home farm — was the heavier burden by a long way, and that it is the thing an eighteenth-century peasant would have named first if anyone had asked him.</p>
+
+<p>The older word for a man who owed it was <i class="dk">ugedagstjener</i>, week-day servant, which tells you what it originally was: one day a week. By the middle of the seventeenth century some estates were taking around a hundred days a year. By the end of the eighteenth there are estates where it had reached something close to every working day.</p>
+
+<p>Two features made it what it was.</p>
+
+<p><strong>It was never specified.</strong> The tenancy letter — the <i class="dk">fæstebrev</i>, the contract that governed a man's whole working life — did not say how many days he owed. It said he must do hoveri on the same footing as his neighbours, or as often as he was called. There was no legal ceiling of any kind. In practice the amount followed the needs of the home farm, which is to say it followed the landlord's judgement of how much he could get.</p>
+
+<p><strong>And it was the one due that could grow.</strong> Landgilde, the rent in kind, was fixed against a particular holding and had been written into the register of 1664. Hoveri was owed by the tenant as the landlord's servant rather than for any specific piece of ground, so it could be increased without breaking anything written down. From the middle of the century grain prices rose, landlords intensified their home farms to catch the rise, and the labour they took to do it came out of the same weeks in which their tenants needed to work their own land. That was understood at the time to be an unfortunate consequence, and accepted as unavoidable.</p>
+
+<p>The work came in named kinds. A <i class="dk">spanddag</i> meant turning out with a wagon and a team; a <i class="dk">pløjedag</i> meant bringing a plough; a <i class="dk">gangdag</i> meant a person on foot with hand tools, and could be met by sending a girl or a boy. Outside the peak weeks a tenant could send a farmhand in his place — a <i class="dk">husmand</i>, a cottager with little or no land, generally could not, because he had nobody to send. Many tenants had a <i class="dk">hovlod</i>, a defined strip of the manor's field that was theirs to plough, sow, harrow and harvest, so that the obligation was measured in ground rather than in days.</p>
+
+<p>When the government of Christian 7. finally tried to find out how much was being demanded, its surveyors worked out specimen figures. One reckoning for a Zealand tenant with a full holding came to a hundred and ten days a year — forty of them spanddage with horses and a wagon, seventy of them gangdage on foot. Another, comparing an estate at Antvorskov with Holstein practice, came to a hundred and twenty-two: thirty-four and eighty-eight. Call it two days out of every seven, concentrated into ploughing, sowing and harvest — which are the only weeks in the year when a man's own farm cannot wait.</p>
+
+<p>That is the arithmetic behind the phrase "bound countryside", and it is worth being clear that it was not the binding that did most of the damage. A man bound to an estate who owed a day a week could live. A man bound to an estate who owed a hundred and ten days, at the seasons when his own crop needed him, could not get ahead however long he stayed.</p>
+
+<p>We have no reliable measure of any of this before the late eighteenth century, because nobody was required to write it down until the government wanted to regulate it. The law on the determination of hoveri came in 1769. Untangling the knot afterwards came close to bringing a revolution to the Danish countryside, with both sides as participants — and that is chapters 29 and 30.</p>
+
+<figure>
+<svg viewBox="0 0 700 516" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A grid of three hundred and sixty-five squares, one for each day of the year. One hundred and ten of them are marked as days a Zealand tenant owed his landlord: forty requiring a wagon and a team, seventy on foot. A second reckoning from another estate gives a hundred and twenty-two days. The marked squares are grouped together for counting and do not show which days of the year were owed, because the sources give annual totals and not dates.">
+  <rect x="0" y="0" width="700" height="516" fill="#F0F2EE"/>
+  <text x="26" y="30" class="mapl">A BOUND MAN'S YEAR</text>
+  <text x="26" y="46" class="mapt">every square is one day; the marked ones belong to somebody else</text>
+  <rect x="26" y="74" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".72"/>
+  <rect x="44" y="74" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".72"/>
+  <rect x="62" y="74" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".72"/>
+  <rect x="80" y="74" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".72"/>
+  <rect x="98" y="74" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".72"/>
+  <rect x="116" y="74" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".72"/>
+  <rect x="134" y="74" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".72"/>
+  <rect x="152" y="74" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".72"/>
+  <rect x="170" y="74" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".72"/>
+  <rect x="188" y="74" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".72"/>
+  <rect x="206" y="74" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".72"/>
+  <rect x="224" y="74" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".72"/>
+  <rect x="242" y="74" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".72"/>
+  <rect x="260" y="74" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".72"/>
+  <rect x="278" y="74" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".72"/>
+  <rect x="296" y="74" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".72"/>
+  <rect x="314" y="74" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".72"/>
+  <rect x="332" y="74" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".72"/>
+  <rect x="350" y="74" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".72"/>
+  <rect x="368" y="74" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".72"/>
+  <rect x="386" y="74" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".72"/>
+  <rect x="404" y="74" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".72"/>
+  <rect x="422" y="74" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".72"/>
+  <rect x="440" y="74" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".72"/>
+  <rect x="458" y="74" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".72"/>
+  <rect x="26" y="92" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".72"/>
+  <rect x="44" y="92" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".72"/>
+  <rect x="62" y="92" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".72"/>
+  <rect x="80" y="92" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".72"/>
+  <rect x="98" y="92" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".72"/>
+  <rect x="116" y="92" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".72"/>
+  <rect x="134" y="92" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".72"/>
+  <rect x="152" y="92" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".72"/>
+  <rect x="170" y="92" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".72"/>
+  <rect x="188" y="92" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".72"/>
+  <rect x="206" y="92" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".72"/>
+  <rect x="224" y="92" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".72"/>
+  <rect x="242" y="92" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".72"/>
+  <rect x="260" y="92" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".72"/>
+  <rect x="278" y="92" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".72"/>
+  <rect x="296" y="92" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="314" y="92" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="332" y="92" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="350" y="92" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="368" y="92" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="386" y="92" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="404" y="92" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="422" y="92" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="440" y="92" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="458" y="92" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="26" y="110" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="44" y="110" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="62" y="110" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="80" y="110" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="98" y="110" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="116" y="110" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="134" y="110" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="152" y="110" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="170" y="110" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="188" y="110" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="206" y="110" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="224" y="110" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="242" y="110" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="260" y="110" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="278" y="110" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="296" y="110" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="314" y="110" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="332" y="110" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="350" y="110" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="368" y="110" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="386" y="110" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="404" y="110" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="422" y="110" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="440" y="110" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="458" y="110" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="26" y="128" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="44" y="128" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="62" y="128" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="80" y="128" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="98" y="128" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="116" y="128" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="134" y="128" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="152" y="128" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="170" y="128" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="188" y="128" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="206" y="128" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="224" y="128" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="242" y="128" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="260" y="128" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="278" y="128" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="296" y="128" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="314" y="128" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="332" y="128" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="350" y="128" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="368" y="128" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="386" y="128" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="404" y="128" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="422" y="128" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="440" y="128" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="458" y="128" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="26" y="146" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="44" y="146" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="62" y="146" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="80" y="146" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="98" y="146" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="116" y="146" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="134" y="146" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="152" y="146" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="170" y="146" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="188" y="146" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <rect x="206" y="146" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="224" y="146" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="242" y="146" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="260" y="146" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="278" y="146" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="296" y="146" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="314" y="146" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="332" y="146" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="350" y="146" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="368" y="146" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="386" y="146" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="404" y="146" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="422" y="146" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="440" y="146" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="458" y="146" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="26" y="164" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="44" y="164" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="62" y="164" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="80" y="164" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="98" y="164" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="116" y="164" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="134" y="164" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="152" y="164" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="170" y="164" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="188" y="164" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="206" y="164" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="224" y="164" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="242" y="164" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="260" y="164" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="278" y="164" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="296" y="164" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="314" y="164" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="332" y="164" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="350" y="164" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="368" y="164" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="386" y="164" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="404" y="164" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="422" y="164" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="440" y="164" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="458" y="164" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="26" y="182" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="44" y="182" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="62" y="182" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="80" y="182" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="98" y="182" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="116" y="182" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="134" y="182" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="152" y="182" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="170" y="182" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="188" y="182" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="206" y="182" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="224" y="182" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="242" y="182" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="260" y="182" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="278" y="182" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="296" y="182" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="314" y="182" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="332" y="182" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="350" y="182" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="368" y="182" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="386" y="182" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="404" y="182" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="422" y="182" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="440" y="182" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="458" y="182" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="26" y="200" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="44" y="200" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="62" y="200" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="80" y="200" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="98" y="200" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="116" y="200" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="134" y="200" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="152" y="200" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="170" y="200" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="188" y="200" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="206" y="200" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="224" y="200" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="242" y="200" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="260" y="200" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="278" y="200" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="296" y="200" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="314" y="200" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="332" y="200" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="350" y="200" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="368" y="200" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="386" y="200" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="404" y="200" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="422" y="200" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="440" y="200" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="458" y="200" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="26" y="218" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="44" y="218" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="62" y="218" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="80" y="218" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="98" y="218" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="116" y="218" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="134" y="218" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="152" y="218" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="170" y="218" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="188" y="218" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="206" y="218" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="224" y="218" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="242" y="218" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="260" y="218" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="278" y="218" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="296" y="218" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="314" y="218" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="332" y="218" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="350" y="218" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="368" y="218" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="386" y="218" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="404" y="218" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="422" y="218" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="440" y="218" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="458" y="218" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="26" y="236" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="44" y="236" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="62" y="236" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="80" y="236" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="98" y="236" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="116" y="236" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="134" y="236" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="152" y="236" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="170" y="236" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="188" y="236" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="206" y="236" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="224" y="236" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="242" y="236" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="260" y="236" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="278" y="236" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="296" y="236" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="314" y="236" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="332" y="236" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="350" y="236" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="368" y="236" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="386" y="236" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="404" y="236" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="422" y="236" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="440" y="236" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="458" y="236" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="26" y="254" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="44" y="254" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="62" y="254" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="80" y="254" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="98" y="254" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="116" y="254" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="134" y="254" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="152" y="254" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="170" y="254" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="188" y="254" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="206" y="254" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="224" y="254" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="242" y="254" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="260" y="254" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="278" y="254" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="296" y="254" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="314" y="254" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="332" y="254" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="350" y="254" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="368" y="254" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="386" y="254" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="404" y="254" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="422" y="254" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="440" y="254" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="458" y="254" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="26" y="272" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="44" y="272" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="62" y="272" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="80" y="272" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="98" y="272" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="116" y="272" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="134" y="272" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="152" y="272" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="170" y="272" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="188" y="272" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="206" y="272" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="224" y="272" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="242" y="272" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="260" y="272" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="278" y="272" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="296" y="272" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="314" y="272" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="332" y="272" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="350" y="272" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="368" y="272" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="386" y="272" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="404" y="272" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="422" y="272" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="440" y="272" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="458" y="272" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="26" y="290" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="44" y="290" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="62" y="290" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="80" y="290" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="98" y="290" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="116" y="290" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="134" y="290" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="152" y="290" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="170" y="290" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="188" y="290" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="206" y="290" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="224" y="290" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="242" y="290" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="260" y="290" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="278" y="290" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="296" y="290" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="314" y="290" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="332" y="290" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="350" y="290" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="368" y="290" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="386" y="290" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="404" y="290" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="422" y="290" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="440" y="290" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="458" y="290" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="26" y="308" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="44" y="308" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="62" y="308" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="80" y="308" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="98" y="308" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="116" y="308" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="134" y="308" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="152" y="308" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="170" y="308" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="188" y="308" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="206" y="308" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="224" y="308" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="242" y="308" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="260" y="308" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="278" y="308" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="296" y="308" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="314" y="308" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="332" y="308" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="350" y="308" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="368" y="308" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="386" y="308" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="404" y="308" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="422" y="308" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="440" y="308" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="458" y="308" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="26" y="326" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="44" y="326" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="62" y="326" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="80" y="326" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="98" y="326" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="116" y="326" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="134" y="326" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="152" y="326" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="170" y="326" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="188" y="326" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="206" y="326" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="224" y="326" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="242" y="326" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="260" y="326" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <rect x="278" y="326" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <line x1="26" y1="354" x2="674" y2="354" stroke="#C9CDC4" stroke-width="1"/>
+  <rect x="26" y="364" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".72"/>
+  <text x="48" y="376" class="mapx">40 spanddage — a wagon and a team</text>
+  <rect x="26" y="386" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
+  <text x="48" y="398" class="mapx">70 gangdage — a person on foot; a girl or a boy would do</text>
+  <rect x="26" y="408" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
+  <text x="48" y="420" class="mapx">255 days that were his own</text>
+  <text x="430" y="376" class="mapl">110 of 365</text>
+  <text x="430" y="392" class="mapt">roughly two days in seven</text>
+  <text x="430" y="412" class="mapt">A second reckoning, from an estate at</text>
+  <text x="430" y="425" class="mapt">Antvorskov, gives 122 — 34 and 88.</text>
+  <text x="26" y="450" class="mapt">The squares are grouped for counting. Which days of the year were owed is not recorded: the</text>
+  <text x="26" y="463" class="mapt">figures come from specimen reckonings made when the government tried to regulate hoveri,</text>
+  <text x="26" y="476" class="mapt">and they give totals. What is agreed is that the demand fell hardest at ploughing, sowing</text>
+  <text x="26" y="489" class="mapt">and harvest — the only weeks when a man's own crop could not wait.</text>
+  </svg>
+<figcaption><b>Figure 1 · A bound man's year</b>
+Three hundred and sixty-five squares, one for each day, with the hundred and ten a Zealand tenant owed his landlord marked: forty requiring a wagon and a team, seventy on foot, where a girl or a boy would do. A second reckoning from an estate at Antvorskov gives a hundred and twenty-two. This is not a calendar. The reckonings give annual totals and the split, not dates, and drawing the days in particular months would invent the one thing a reader would take from it. What is agreed is that the demand fell hardest at ploughing, sowing and harvest — the only weeks when a man's own crop could not wait.</figcaption>
+</figure>
+
+<div class="check">
+  <h4>Checkpoint</h4>
+  <ul>
+    <li>The two famous facts about the Danish countryside here are the bond and the labour. Popular memory ranks them one way and the specialists the other. Which way, and why?</li>
+    <li>Name three things that were true of <i class="dk">hoveri</i> and not of the bond: no ceiling, and two more.</li>
+    <li>Why did rising grain prices from mid-century make the labour service worse rather than better for the man performing it?</li>
+  </ul>
+</div>
+
+<h2 id="s05"><span class="n">05 / NARRATIVE</span>The cattle plague</h2>
+
+<div class="terms">
+  <h4>Danish terms in this section</h4>
+  <dl>
+    <div class="t"><dt>kvægpest</dt><dd>rinderpest. About ninety-five per cent of infected animals died.</dd></div>
+    <div class="t"><dt>nødild</dt><dd>need-fire, kindled by friction, through which cattle were driven.</dd></div>
+    <div class="t"><dt>optegnelsesbog</dt><dd>a notebook. Two families in Oksenvad parish kept one across two centuries, which is why this chapter can hear a farmer's voice at all.</dd></div>
+  </dl>
+</div>
+
+<p>In the spring of 1745 the cattle began to die at Trolleborg on Funen, and then everywhere.</p>
+
+<p>Rinderpest is a morbillivirus, a cousin of measles, and it is one of the most contagious diseases that has ever existed. It does not infect people. Nobody in 1745 knew any of that. What they knew was the mortality, which ran at about ninety-five per cent of the animals it reached.</p>
+
+<p>Ludvig Holberg — who appears in this chapter again in another capacity — wrote a treatise on it that December, and put the horror of the thing exactly. Ordinary contagions, he wrote, spare half the animals or at the least a third. This one generally made a clean table wherever it came, so that in most places nothing was left but perhaps a calf or an old cow; and manor houses had been seen where a whole healthy herd was dead within twenty-four hours.</p>
+
+<p>The first wave ran from 1745 to 1752 and is reckoned to have killed something in the order of two million head of cattle across the country. A second came in 1764–67, and there were further outbreaks into the 1780s. Local figures give the texture: one Funen district had lost three thousand and eighty-seven beasts by the end of 1745 alone; a neighbouring one lost over four thousand during 1746, and then lost many of the replacements it had bought in 1747.</p>
+
+<p>Nothing that was tried worked, because nothing available could have worked. The animals were bled, on the general principle that bleeding was what one did. They were driven through need-fire — a flame kindled by friction, an older remedy than Christianity in Denmark — and fed gunpowder. An apothecary's bill from Tønder lists sulphur balsam, four pounds of powder, fumigating powder, oil for anointing, and twenty small bags to hang round the animals' necks. Beneath the official remedies ran the unofficial ones: bury a horse alive and drive the sick ones over the grave; put a dead dog under the byre floor and its ghost will keep sickness out.</p>
+
+<div class="vig">
+<h4>Vignette · Anders Pedersen, Ørsted in Oksenvad parish, about 1750</h4>
+<p>He farms in a village in Haderslev Amt, and he keeps a notebook. Two families in this parish kept one across two centuries, and because they did, we know what the cattle plague looked like from inside a byre rather than from a government return.</p>
+<p>He records the disease taking most of the village's animals. He records what was done about it. One of the treatments went like this. Two men hold the sick cow in her stall. A third reaches into her mouth, takes hold of her tongue and draws it out as far as it will come, then binds a rag tightly round it to stop the blood. Then a boy — one still young enough to have a sound sharp set of teeth — is pushed to the front, takes the tongue in his own mouth, and bites through it until the end comes away.</p>
+<p>It is not superstition and it is not cruelty for its own sake. It is a man trying to save the animal that ploughs his field, using the only theory of disease available to him, in a year when ninety-five of every hundred cattle that took it died.</p>
+<p class="who">Anders Pedersen, farmer · Ørsted, Oksenvad sogn, Haderslev Amt · about 1750</p>
+</div>
+
+<p>The state remitted a year's taxes so that the farms could get back on their feet, which tells you what it cost in a countryside where the plough team and the milk and the manure all walked on the same four legs.</p>
+
+<p>Two things came out of it in the end. Isolating herds turned out to be the method that worked, and after about 1780 it was practised deliberately; the disease was gone from Denmark by 1782. And in 1773 a veterinary school was founded in Copenhagen — the state's response to having watched its livestock die twice without understanding why. The two men sent to study at Lyon are said to have come back having learned a great deal about horses and nothing whatever about cattle plague, because in France it was old news that everybody already knew.</p>
+
+<h2 id="s06"><span class="n">06 / NARRATIVE</span>The Brethren</h2>
+
+<div class="terms">
+  <h4>Danish terms in this section</h4>
+  <dl>
+    <div class="t"><dt>Brødremenigheden</dt><dd>the Moravian Brethren, called Herrnhuters after the Saxon village where they refounded themselves in 1727.</dd></div>
+    <div class="t"><dt>kor</dt><dd>the choir: the group by sex, age and marital status into which every member of a Moravian town was placed, with a house to match.</dd></div>
+  </dl>
+</div>
+
+<p>While the state was building its pietism into law, a different pietism was arriving that the state did not control, and the difference between what happened to the two is the clearest measure of what Danish absolutism actually wanted from religion.</p>
+
+<p>Count Zinzendorf came to Copenhagen in 1731. The Moravian Brethren — the <i class="dk">Brødremenighed</i>, generally called Herrnhuters after the Saxon village where they had re-founded themselves in 1727 — traced their line back through the Bohemian followers of Jan Hus, burned in 1415. Their pietism was the inward kind: personal, emotional, organised around small communities of the awakened rather than around parishes.</p>
+
+<p>They were extraordinarily good at going places. The first Moravian missionaries sailed for the Danish West Indies in 1732 and for Greenland in 1733 — two years after Zinzendorf's visit, and a decade after Hans Egede had landed on Håbets Ø. Wherever the Danish state had planted a flag, the Brethren turned up shortly afterwards with a mission. A Brethren society was formed in Copenhagen in 1739, and from it lay emissaries went out to hold devotional gatherings, particularly in Jutland and on Funen.</p>
+
+<p>And that was the problem. Chapter 28's state church had just spent the 1730s making religion a legal duty performed in a specified building at a specified hour. Gatherings of the awakened in a farmhouse were the precise opposite. The pietists had split in 1734 between Halle and Herrnhut, the Danish crown had chosen Halle, and between 1744 and 1746 it issued a series of ordinances against the Brethren. The Conventicle Placard of 1741 had already put private assemblies under the parish priest.</p>
+
+<p>Then, thirty years later, the state changed its mind entirely, and for reasons that had nothing to do with religion.</p>
+
+<p>Christian 7. and his physician Struensee travelled through Europe in 1768–69 and were impressed by the Herrnhuter towns of Germany and the Netherlands — clean, orderly, industrious, and commercially successful. In 1771, at Struensee's prompting, the king invited the Brethren to found such a town in the duchy of Slesvig. In 1773 they began building Christiansfeld, between Kolding and Haderslev, on the fields of a disused manor, and named it after him.</p>
+
+<p>The terms were remarkable. The ordinances of 1744–46 were repealed. They received ten years' exemption from tax, a state subsidy toward the cost of building, freedom of religion, equality with the state church, the right to admit Danes to their congregation, and permission to build a church with bells. The government's own reasoning was economic development: the duchies needed trade and craft, and the Brethren were known to be skilled and honest at both.</p>
+
+<p>The town they built is laid out to the standard Moravian plan — the church square at the centre, two straight parallel streets — and organised by the choir system, in which every member belonged to a group by sex, age and marital status, with a brothers' house, a sisters' house and a widows' house to match. By 1806 it had seven hundred and fifty-six inhabitants. Until the middle of the next century, only members were allowed to sleep in the town; visitors stayed at a guest house on the edge of it, and the landlord reported to the minister who had spent the night.</p>
+
+<p>A state that had criminalised private prayer meetings in the 1740s imported a whole town of them in the 1770s, because by then it wanted the linen and the clockmaking. Christiansfeld is now on the UNESCO World Heritage list, which is about the last thing anyone in 1744 would have predicted.</p>
+
+<div class="check">
+  <h4>Checkpoint</h4>
+  <ul>
+    <li>Two pietisms reached Denmark. Which one could be administered through parishes, and what three compulsory things did it become?</li>
+    <li>The Moravians met in farmhouses and were banned. Why did the same state import a whole Moravian town thirty years later?</li>
+    <li>What does that reversal tell you about what the state's interest in religion actually was?</li>
+  </ul>
+</div>
+
+<h2 id="s07"><span class="n">07 / NARRATIVE</span>How Norway was governed, and what it sent south</h2>
+
+<div class="terms">
+  <h4>Danish terms in this section</h4>
+  <dl>
+    <div class="t"><dt>stattholder</dt><dd>the royal governor in Norway. Often vacant; filled with real power whenever the sea route to Copenhagen was cut.</dd></div>
+    <div class="t"><dt>odelsret</dt><dd>the family's ancestral right in its land, kept by Norske Lov of 1687 when almost everything else followed the Danish code.</dd></div>
+    <div class="t"><dt>bergstad</dt><dd>a mining town. Kongsberg was the second largest town in Norway in 1770, after Bergen.</dd></div>
+  </dl>
+</div>
+
+<p>The principle was simple and it was stated plainly: all power, political, military and economic, was to be gathered in the hands of the absolute king in Copenhagen, and the two realms governed from there as one state.</p>
+
+<p>In practice Norway is six hundred miles long, and Copenhagen is at the wrong end of it.</p>
+
+<p>So there was a <i class="dk">stattholder</i>, a royal governor — an office that had existed since the 1570s, and whose importance varied enormously depending on whether anyone in Copenhagen could be reached. In quiet decades it stood empty. In war, when the sea route was cut, it filled with real authority: Ulrik Frederik Gyldenløve held wide military and civil powers through the Scanian War, which Norwegians call Gyldenløve's feud rather than the Scanian War; his son Woldemar Løvendal held similar authority in 1710–12, and a governing college called the Slottsloven managed the country when the connection failed altogether. Norway's separate institutions were an emergency measure that kept being needed, which is one of the reasons it still had a national apparatus to hand in 1814.</p>
+
+<p>Norway's law was Christian 4.'s Norske Lov of 1604 until 1687, when Christian 5.'s replaced it — the same code as Denmark's in structure and in most provisions, with Norwegian exceptions of which <i class="dk">odelsret</i>, the family's ancestral claim on its land, was the most important. The country's legal life after 1688 therefore ran on a Danish framework with a Norwegian floor under it.</p>
+
+<p>What the arrangement was for, from Copenhagen's side, came out of the ground and the forests.</p>
+
+<p>Silver was found in Sandsvær in 1623 — by two children minding animals, according to the tradition — and the crown was mining it by that autumn. Christian 4. came to see the site the following spring, founded the town of Kongsberg, and recruited German miners from Saxony and the Harz. A mint was set up at Christiania in 1628 and moved to Kongsberg in 1686, along with the mining administration. Through the eighteenth century the works expanded steadily, and in 1770 they employed four thousand and seventy-five people, with a couple of thousand farmers besides in seasonal work hauling and cutting. It was the largest industrial enterprise in either kingdom.</p>
+
+<p>Copper came from Trøndelag: Røros from 1644, Løkken from 1654, later Selbu and Folldal. Røros was the second largest works in the country and was privately held by a partnership of Trondheim burghers rather than by the crown. The ore was got by <i class="dk">fyrsetting</i> — building fires against the rock face until it cracked — which consumed enormous quantities of wood and filled the galleries with smoke.</p>
+
+<p>And the coin was Norwegian. The daler struck at Kongsberg was about twenty-eight grams of silver, with the king on one face and the Norwegian lion on the other, divided into ninety-six skilling. Norway made its own money, out of its own metal, from the bottom up.</p>
+
+<p>The cost of all this fell on the farms in the form of duty. Hauling silver from Kongsberg and copper from Røros became a standing obligation for the peasantry, on top of heavy taxation, on top of conscription — Norwegian regiments were cheap soldiers and the wars against Sweden used a great many of them. When taxes went unpaid the government in Copenhagen sent soldiers after the debtors.</p>
+
+<p>It is worth resisting the two easy versions here. Norway was not a colony: it was a kingdom with its own law, its own coin, its own regiments and, when the sea was closed, its own government. Nor was the union a partnership: the metal went south, the decisions were made in Copenhagen, and the four-hundred-year night is a phrase Norwegians did not invent for nothing.</p>
+
+<p>The best single image of the relationship is a journey. In 1733 — the year of the stavnsbånd ordinance — Christian 6. and Queen Sophie Magdalene made the royal progress through Norway that absolutist kings were expected to make. It took four months and eleven days, covered three thousand two hundred and seventy kilometres, and moved a retinue of a hundred and eighty-eight people, including the descent from the Dovre mountains to Trondheim, which the travel journal records as the most dangerous part of the whole undertaking. Special coins were struck in Copenhagen for the king to distribute on the way. Those coins usually carried an inscription flattering the Norwegians. This one did not, which may have been the pietism.</p>
+
+<div class="vig">
+<h4>Vignette · Christian 6. on the Dovre descent, 16 July 1733</h4>
+<p>He is thirty-three, he does not like being looked at, and he is four weeks into a journey of three thousand two hundred and seventy kilometres.</p>
+<p>The progress through Norway is an obligation of his office. An absolute king who is never seen in half his realm is an idea rather than a ruler, so the court moves: the king, the queen, and a hundred and eighty-eight people, for four months and eleven days. A journal is kept. It survives, and was printed in 1992.</p>
+<p>Today is the part the journal calls the most dangerous of the whole undertaking: the descent from the Dovre mountains to Trondheim. Somewhere on that road are the farmers whose standing obligation it is to haul the silver down from Kongsberg and the copper from Røros, and who this year have also been told, by an ordinance issued in February in a language most of them do not read, that their Danish counterparts may no longer leave the estates where they were born.</p>
+<p>He has coins in his baggage struck for the purpose of being given away on this road. The ones his father and his son had struck for their journeys carry a line flattering the Norwegians. His do not.</p>
+<p class="who">Christian 6., king · the Dovre road to Trondheim · 16 July 1733</p>
+</div>
+
+<figure>
+<svg viewBox="0 0 700 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Map of southern and central Norway marking the mining places that supplied the Danish crown: the silver works at Kongsberg from 1623, the copper works at Roeros from 1644, Loekken from 1654 and Folldal from 1748, with the mint at Christiania and later Kongsberg, and the towns of Trondhjem and Bergen. A panel lists what went south and what Norway received in return.">
+  <rect x="0" y="0" width="700" height="520" fill="#F0F2EE"/>
+  <text x="14" y="24" class="mapl">WHAT NORWAY SENT SOUTH</text>
+  <text x="14" y="40" class="mapt">and what came back the other way</text>
+  <g transform="translate(0,52)">
+  <defs><clipPath id="no"><rect x="0" y="0" width="400" height="438"/></clipPath></defs>
+  <g clip-path="url(#no)">
+  <rect x="0" y="0" width="400" height="438" fill="#B9CDD6" opacity=".7"/>
+  <path d="M-164.6 -3150.7 L-230.2 -3177.1 L-321.0 -3257.2 L-336.2 -3235.4 L-365.4 -3214.6 L-448.5 -3247.5 L-403.7 -3293.5 L-404.5 -3344.9 L-398.1 -3378.9 L-260.7 -3350.1 L-224.0 -3312.9 L1114.4 -3203.8 L1196.5 -3148.6 L1134.7 -3224.2 L1139.6 -3303.8 L1209.0 -3286.5 L1355.2 -3286.3 L1473.0 -3297.1 L1540.4 -3205.0 L1629.4 -3171.2 L1733.3 -3236.8 L1812.1 -3323.0 L1894.8 -3360.6 L2056.5 -3347.9 L2184.4 -3344.1 L1872.6 -3106.9 L1655.3 -3121.4 L1492.7 -3081.3 L1564.7 -3089.0 L1655.9 -3042.5 L1678.2 -2954.2 L1826.3 -2998.2 L1915.6 -2905.0 L1910.2 -2837.3 L1991.4 -2754.9 L2202.9 -2619.9 L2386.9 -2604.3 L2413.7 -2657.3 L2376.7 -2693.8 L2454.6 -2828.0 L2691.4 -2879.0 L2989.6 -2816.5 L3120.2 -2674.6 L3224.9 -2600.7 L3392.9 -2528.1 L3580.8 -2661.4 L3709.0 -2630.1 L3745.5 -2567.8 L3686.7 -2527.9 L3595.9 -2513.8 L3554.0 -2430.3 L3444.8 -2410.2 L3498.7 -2252.6 L3481.2 -2207.0 L3460.3 -2131.1 L3588.9 -2084.7 L3613.1 -2244.9 L3669.7 -2226.5 L3742.6 -2169.0 L3932.7 -2247.0 L3991.9 -2225.4 L4110.6 -2231.7 L4173.7 -2342.3 L4261.1 -2289.8 L4369.1 -2228.6 L4453.9 -2224.5 L4535.4 -2134.3 L4626.4 -2057.5 L4681.0 -1918.0 L4657.2 -1838.7 L4740.0 -1770.2 L4786.3 -1630.5 L4805.6 -1578.9 L4738.0 -1495.8 L4801.5 -1375.6 L5007.0 -1316.5 L5211.2 -1468.7 L5465.1 -1530.9 L5607.8 -1418.9 L5676.2 -1294.2 L5780.4 -1123.2 L5597.4 -1039.6 L5454.3 -981.4 L5318.3 -840.9 L5595.1 -670.5 L5815.5 -726.3 L6026.6 -927.1 L6407.2 -982.5 L6150.7 -712.8 L5793.4 -639.8 L5569.8 -620.1 L5391.1 -665.1 L5173.3 -645.8 L5007.3 -604.8 L5037.8 -481.9 L5017.1 -399.8 L4780.0 -426.2 L4682.9 -408.4 L4503.7 -367.8 L4409.7 -311.7 L4479.2 -255.7 L4481.6 -183.0 L4466.7 -111.0 L4511.1 3.8 L4561.6 192.6 L4666.1 548.3 L4797.7 693.8 L5021.6 893.2 L4992.4 1140.1 L4658.9 1091.6 L4390.5 1036.4 L4112.2 931.8 L3949.4 826.4 L3966.1 934.3 L3812.0 942.4 L3671.4 1001.6 L3514.4 1006.3 L3389.5 1138.2 L3231.5 1307.9 L2975.1 1373.9 L2758.0 1527.6 L2549.1 1483.0 L2442.8 1536.1 L2504.3 1620.9 L2686.8 1697.3 L2774.5 1660.9 L2883.4 1743.6 L2985.9 1448.8 L3245.3 1477.6 L3379.8 1671.8 L3402.9 1900.7 L3254.0 2208.9 L3119.0 2522.4 L2888.2 2802.7 L2670.5 2645.9 L2402.3 2445.0 L2165.6 2284.1 L1955.8 2155.4 L1733.5 1961.4 L1586.9 1995.2 L1764.4 2169.7 L2084.7 2429.1 L2305.6 2622.1 L2558.7 2777.0 L2824.4 2948.2 L3204.2 2753.7 L3470.1 2630.7 L3531.9 3023.1 L3331.3 4017.1 L3270.4 4320.5 L3386.2 4631.8 L3614.2 4930.8 L3783.3 5155.8 L3924.9 5351.7 L3886.8 5742.2 L3633.7 6150.6 L3762.0 6644.4 L3657.9 7167.6 L3604.5 7975.3 L2959.5 9062.8 L2137.8 9341.2 L1768.1 9280.4 L1479.8 8568.4 L973.6 7615.2 L546.6 6733.5 L749.7 5930.5 L611.1 5411.8 L510.8 5179.1 L253.3 4908.8 L196.3 4801.3 L236.0 4637.6 L279.3 4378.0 L181.8 4252.9 L15.7 4224.3 L-92.3 4250.1 L-157.9 4124.4 L-589.8 4079.2 L-973.2 4056.9 L-1317.8 4063.7 L-1665.6 3637.0 L-1671.4 3494.7 L-1751.2 3329.7 L-1729.9 3238.7 L-1823.7 3137.2 L-1783.4 3088.7 L-1714.0 2900.4 L-1569.1 2551.2 L-1439.1 2355.1 L-1187.3 2169.0 L-900.1 1968.3 L-572.2 1768.6 L-344.5 1797.4 L19.8 1758.8 L241.1 1733.0 L291.7 1831.0 L316.8 1992.9 L575.2 2093.9 L832.1 2036.1 L1089.8 1983.8 L1412.5 1947.3 L1529.0 1907.4 L1650.7 1716.4 L1605.8 1488.5 L1456.4 1584.5 L1254.3 1615.3 L1154.6 1618.4 L1087.0 1541.3 L1095.7 1487.7 L1119.8 1385.4 L1222.7 1306.2 L1497.2 1194.0 L1716.2 1055.0 L1453.0 971.6 L1435.4 887.7 L1454.2 806.4 L1348.8 882.1 L1374.1 959.7 L1310.3 1054.6 L1251.0 963.2 L1195.4 949.7 L1132.2 985.8 L1086.7 1116.8 L1099.5 1292.7 L1047.3 1431.1 L934.6 1420.1 L909.6 1456.7 L915.7 1533.2 L973.4 1598.0 L928.3 1640.4 L895.7 1687.9 L852.7 1602.2 L846.6 1598.0 L776.1 1550.6 L699.0 1391.3 L534.1 1304.3 L432.2 1201.1 L349.2 1194.6 L433.1 1368.2 L665.8 1525.0 L583.1 1614.5 L515.0 1533.4 L395.1 1464.7 L253.2 1301.5 L38.8 1341.1 L-81.3 1379.0 L-246.5 1514.4 L-364.8 1677.9 L-580.2 1719.7 L-696.5 1632.4 L-733.4 1508.5 L-700.3 1438.3 L-644.3 1274.8 L-571.8 1207.9 L-356.8 1276.5 L-239.5 1170.6 L-272.1 1044.5 L-355.6 991.0 L-336.2 940.3 L-224.0 895.8 L-89.0 836.5 L9.3 812.9 L105.9 694.7 L203.9 670.3 L193.0 645.1 L191.0 642.7 L188.3 641.8 L183.5 643.0 L182.9 639.3 L190.3 634.7 L194.6 632.3 L194.9 627.8 L192.1 624.4 L188.8 618.1 L185.0 612.0 L184.3 600.0 L183.6 596.3 L181.3 590.8 L184.8 589.5 L184.2 578.7 L183.0 573.1 L173.5 567.3 L166.0 561.7 L168.0 543.0 L168.9 538.1 L166.1 528.2 L166.7 516.9 L168.0 499.3 L170.4 498.6 L172.1 498.7 L178.6 502.0 L181.3 502.4 L183.1 505.2 L185.3 506.4 L187.6 498.2 L192.8 491.6 L196.4 489.1 L198.9 487.9 L201.3 490.6 L203.3 493.6 L203.8 487.0 L205.2 474.5 L200.3 472.4 L196.3 474.1 L192.4 482.1 L188.8 492.2 L183.1 493.0 L178.5 495.9 L174.4 492.8 L171.7 490.2 L171.8 486.4 L177.3 476.0 L183.9 468.2 L190.3 468.3 L195.0 465.9 L197.9 465.5 L206.6 466.1 L211.2 464.3 L215.2 460.7 L223.8 445.4 L228.6 439.0 L238.4 436.6 L247.3 429.1 L249.9 429.0 L245.7 434.5 L244.7 439.8 L247.8 446.9 L247.3 451.2 L247.7 459.5 L244.9 464.0 L241.7 473.4 L240.2 485.7 L240.3 498.3 L243.9 502.3 L247.5 504.4 L259.6 504.0 L262.6 508.8 L261.6 514.1 L260.4 518.0 L257.0 521.4 L252.5 524.0 L249.6 524.2 L245.7 519.5 L243.9 521.0 L242.0 523.6 L239.0 536.4 L237.7 545.2 L235.0 544.7 L231.9 544.6 L228.1 546.7 L230.1 548.5 L232.3 551.7 L227.9 555.1 L224.9 558.6 L219.7 564.5 L217.3 568.5 L218.5 573.4 L219.0 577.7 L220.2 582.6 L219.2 586.3 L214.4 591.9 L212.7 596.7 L216.8 596.6 L219.5 597.7 L222.6 601.1 L223.2 611.0 L228.3 612.7 L230.6 615.2 L233.1 619.2 L233.4 625.0 L230.4 629.2 L227.8 631.8 L237.7 630.7 L240.2 635.6 L245.5 633.7 L259.1 640.9 L267.2 637.0 L269.3 636.8 L271.3 642.8 L269.4 649.1 L262.4 655.8 L264.2 659.9 L273.3 659.6 L294.9 652.4 L298.2 650.3 L309.7 648.3 L311.6 644.6 L316.0 640.9 L318.8 636.8 L325.6 628.9 L332.9 629.9 L337.3 631.1 L342.1 631.6 L346.9 639.3 L358.3 647.3 L368.4 645.8 L372.5 653.9 L389.5 670.6 L374.3 652.8 L372.0 649.4 L380.3 652.4 L405.0 651.4 L425.2 642.0 L446.6 632.7 L451.7 631.4 L456.8 629.3 L458.3 626.6 L460.1 624.5 L462.5 619.6 L468.3 611.6 L479.7 607.6 L483.7 603.7 L492.1 597.7 L512.1 589.7 L520.5 587.3 L528.9 586.1 L537.0 589.1 L545.7 593.2 L547.7 596.2 L543.1 594.8 L536.1 591.0 L533.8 591.1 L541.2 604.7 L544.8 609.3 L551.4 612.2 L556.7 612.6 L571.6 608.0 L576.7 604.1 L582.7 596.3 L585.3 590.1 L587.1 582.5 L586.6 577.6 L586.5 571.9 L590.8 568.9 L601.0 567.5 L604.9 564.0 L609.3 556.5 L613.7 547.6 L614.9 543.8 L617.6 536.1 L618.3 531.3 L618.1 524.6 L619.8 530.2 L618.9 539.2 L614.7 550.5 L607.6 564.4 L610.8 565.5 L614.3 565.4 L618.8 567.0 L622.6 566.7 L629.0 563.5 L628.2 552.7 L626.7 542.6 L624.8 538.4 L624.8 531.4 L620.6 522.0 L614.6 510.7 L612.0 497.9 L608.0 483.8 L604.4 460.7 L603.6 449.1 L608.5 441.3 L610.6 435.5 L611.1 428.3 L610.4 421.7 L610.6 416.3 L616.5 399.4 L623.3 396.5 L696.1 338.5 L666.8 274.8 L792.6 212.8 L784.0 163.9 L709.3 202.2 L628.1 240.8 L587.9 220.5 L585.5 220.7 L582.9 215.6 L580.8 216.7 L578.0 220.5 L575.0 218.7 L572.0 217.6 L570.1 211.6 L569.0 207.4 L567.3 202.6 L565.5 195.5 L564.9 189.8 L566.3 185.3 L566.3 175.6 L565.1 167.7 L563.8 163.3 L565.4 163.0 L562.7 159.2 L565.2 157.8 L562.9 152.0 L558.8 143.7 L555.3 137.8 L550.7 134.0 L550.6 126.3 L550.8 119.2 L549.9 116.0 L548.6 112.2 L543.3 108.7 L541.5 102.8 L539.3 96.3 L538.9 92.2 L539.0 89.0 L539.9 85.7 L545.3 74.6 L544.8 69.5 L549.6 68.1 L546.5 64.1 L544.7 58.7 L551.3 55.3 L554.3 56.5 L594.7 -19.5 L590.3 -117.5 L526.9 -84.6 L528.5 -81.0 L527.2 -77.8 L522.5 -75.5 L519.5 -75.3 L519.8 -70.5 L521.3 -69.8 L522.3 -66.6 L517.5 -69.4 L519.9 -65.1 L522.8 -60.4 L520.5 -50.5 L517.9 -45.5 L516.2 -41.2 L515.4 -36.8 L517.6 -35.0 L520.0 -32.3 L522.5 -26.7 L525.1 -21.9 L529.3 -17.6 L528.9 -12.3 L524.3 -6.3 L519.4 2.3 L516.1 22.3 L514.2 25.3 L508.7 29.5 L507.1 33.1 L503.2 37.5 L495.9 41.9 L493.0 47.0 L492.2 51.8 L490.3 52.4 L488.3 50.9 L485.7 50.0 L486.4 55.2 L482.0 52.6 L480.6 55.8 L480.0 61.0 L475.5 68.6 L469.3 68.3 L470.9 71.2 L468.2 72.2 L466.0 73.8 L464.2 73.9 L463.9 77.2 L463.2 81.4 L460.0 83.4 L458.3 84.0 L463.1 86.0 L463.1 89.7 L457.1 95.6 L455.5 99.5 L452.8 99.8 L449.0 97.7 L447.4 94.5 L447.4 98.1 L450.6 104.5 L449.2 108.5 L452.3 110.1 L451.1 113.3 L448.4 118.4 L445.2 119.0 L443.5 122.2 L441.4 122.5 L439.4 120.8 L436.5 119.5 L436.0 124.7 L438.3 130.1 L441.9 134.1 L445.0 135.6 L443.1 137.2 L441.9 140.2 L441.3 149.2 L440.7 152.9 L440.5 159.1 L441.7 164.2 L444.5 169.9 L440.7 169.9 L436.3 168.4 L437.5 172.5 L435.6 177.8 L436.5 182.0 L437.2 189.6 L439.6 193.6 L439.5 197.6 L440.4 203.9 L442.5 213.6 L445.8 224.0 L445.6 227.2 L445.8 231.0 L449.6 234.2 L452.5 233.8 L455.4 233.4 L458.1 236.6 L459.4 239.5 L461.9 239.0 L465.4 235.9 L467.8 235.0 L470.2 239.6 L475.7 245.2 L478.7 247.7 L483.5 248.6 L488.9 253.0 L489.1 259.3 L491.4 261.1 L497.5 262.6 L499.9 265.6 L503.2 270.3 L506.1 277.0 L506.0 281.5 L503.9 283.3 L499.2 288.8 L497.3 292.5 L495.7 294.9 L490.9 300.4 L489.0 301.5 L487.4 304.2 L485.8 305.5 L484.0 305.1 L478.4 310.3 L484.0 312.2 L486.3 310.9 L487.9 308.5 L489.9 307.7 L491.7 307.9 L493.5 305.9 L495.0 304.9 L496.6 305.5 L499.0 309.4 L495.6 312.1 L493.1 312.6 L492.7 319.5 L491.5 322.6 L485.1 327.9 L481.6 332.1 L477.5 335.6 L475.3 335.3 L472.8 338.7 L466.5 343.1 L463.6 348.4 L456.3 353.6 L452.8 357.5 L441.9 359.0 L431.6 359.4 L428.5 361.5 L431.9 361.5 L434.3 363.0 L437.1 361.9 L443.8 362.0 L447.3 362.5 L452.3 367.7 L449.3 370.1 L443.9 372.3 L447.0 380.1 L449.4 385.4 L447.4 389.0 L449.0 403.9 L445.9 404.5 L445.2 410.8 L446.6 413.9 L447.4 421.3 L448.6 425.7 L450.6 429.7 L450.4 434.1 L446.4 444.9 L447.1 449.6 L449.6 456.7 L448.2 465.7 L447.3 473.2 L446.0 479.5 L442.3 487.4 L440.7 493.1 L437.3 510.8 L435.0 514.5 L432.1 517.4 L428.3 515.4 L424.8 514.3 L420.9 515.0 L414.7 517.5 L405.1 517.1 L396.0 518.6 L393.8 520.5 L395.7 526.6 L392.3 527.7 L388.9 526.2 L386.1 528.6 L383.8 531.1 L379.4 537.0 L378.0 540.6 L378.1 546.9 L381.1 552.5 L383.9 559.0 L378.7 567.6 L375.4 568.1 L365.7 566.7 L348.9 572.9 L333.3 569.7 L335.0 565.3 L334.8 562.1 L335.3 557.2 L335.5 552.1 L335.1 548.7 L333.8 545.2 L329.9 540.7 L320.6 525.4 L317.8 518.8 L316.0 516.1 L324.2 519.1 L327.3 517.1 L325.1 512.2 L323.2 509.9 L321.8 506.5 L325.8 505.4 L328.6 505.4 L330.5 501.3 L328.9 495.2 L325.7 493.3 L323.1 492.7 L317.7 483.0 L312.3 478.1 L302.3 458.8 L298.4 445.3 L295.3 446.7 L293.6 440.9 L292.3 435.2 L291.9 431.1 L287.0 429.0 L285.3 413.2 L280.3 411.7 L276.8 404.5 L275.7 390.8 L272.3 388.5 L269.7 389.3 L269.7 385.9 L270.2 382.6 L268.2 370.1 L267.4 358.6 L266.0 355.2 L265.2 351.1 L265.7 347.6 L269.7 344.8 L272.8 347.9 L271.9 343.7 L264.4 341.6 L260.2 340.4 L258.5 340.0 L254.9 339.3 L251.9 332.5 L248.6 326.8 L247.9 313.6 L246.9 308.9 L246.6 303.6 L244.8 307.9 L245.9 314.6 L243.6 317.4 L240.7 318.9 L241.0 322.9 L242.7 327.6 L242.0 333.7 L236.4 347.3 L234.3 350.6 L231.2 349.4 L227.4 353.2 L223.7 353.8 L222.3 349.6 L217.0 344.0 L214.5 344.4 L216.8 347.1 L219.0 350.8 L216.5 354.6 L214.4 355.5 L206.8 360.3 L209.4 363.4 L207.1 367.0 L204.5 367.6 L202.5 371.4 L194.5 378.0 L181.2 394.6 L174.3 399.2 L169.5 404.1 L165.3 403.8 L159.9 407.9 L146.4 411.3 L137.6 409.4 L131.3 410.6 L128.1 407.7 L128.0 404.6 L125.0 402.3 L123.7 406.8 L118.0 405.6 L118.6 400.8 L121.7 397.9 L119.3 395.3 L115.2 395.5 L111.8 394.9 L101.2 387.7 L99.0 384.1 L90.5 378.1 L86.9 371.8 L85.0 365.2 L85.6 359.2 L87.1 349.9 L89.0 347.7 L96.6 351.4 L104.2 357.2 L108.0 352.8 L112.9 349.6 L104.4 352.2 L101.9 349.8 L98.0 345.1 L100.1 340.6 L100.8 337.5 L100.7 330.5 L104.0 326.4 L108.8 322.3 L112.4 318.3 L116.0 315.9 L111.7 316.4 L107.7 319.0 L103.1 323.6 L97.5 327.0 L93.4 328.2 L91.4 329.4 L88.4 330.4 L85.1 335.6 L81.6 337.7 L75.6 337.7 L74.6 333.6 L77.1 319.7 L79.3 312.9 L81.5 308.2 L84.6 307.7 L87.0 304.1 L88.8 304.2 L96.2 308.0 L99.3 303.5 L103.3 303.0 L110.4 298.9 L105.6 298.8 L102.7 298.8 L98.5 299.7 L96.3 298.8 L95.5 295.4 L97.3 292.3 L104.2 285.4 L106.7 282.3 L107.9 277.3 L109.2 273.1 L115.9 266.0 L121.2 262.8 L122.8 265.9 L121.0 274.8 L120.8 278.6 L125.5 265.6 L127.4 262.4 L129.6 260.3 L134.6 259.0 L130.2 257.5 L116.1 262.0 L110.0 266.2 L108.2 269.6 L103.8 274.6 L101.8 277.8 L100.7 282.8 L98.2 285.4 L94.9 286.2 L90.3 292.3 L88.1 297.3 L83.5 301.0 L80.5 304.0 L77.8 308.0 L75.6 306.4 L75.7 302.4 L76.4 296.1 L78.8 291.7 L80.1 287.3 L79.0 283.2 L81.9 280.8 L85.3 282.1 L88.9 282.2 L95.1 279.2 L91.7 276.9 L86.8 276.8 L83.0 273.5 L80.2 267.0 L79.3 258.5 L92.3 248.0 L95.6 244.3 L93.9 243.8 L89.4 248.4 L83.0 250.9 L79.4 246.6 L77.6 242.1 L77.0 232.7 L77.7 228.0 L77.7 221.6 L80.4 219.7 L83.3 221.0 L86.0 221.6 L92.6 221.4 L107.1 218.4 L116.1 221.1 L119.9 221.0 L125.8 217.9 L130.8 217.8 L134.4 220.4 L136.4 223.3 L136.6 227.2 L138.2 229.7 L138.6 225.9 L138.5 221.3 L153.7 216.3 L155.5 214.3 L149.5 213.4 L148.0 208.5 L151.4 201.3 L147.7 204.1 L145.9 209.6 L146.4 213.9 L142.6 216.8 L135.7 216.9 L131.4 214.9 L127.4 213.7 L126.6 209.1 L124.0 211.2 L122.3 216.7 L119.0 217.9 L110.1 215.4 L97.1 216.0 L91.2 218.4 L87.4 217.9 L81.2 212.6 L78.8 208.6 L78.5 200.7 L79.0 197.2 L84.1 196.1 L86.6 196.4 L89.1 194.7 L87.1 193.3 L84.3 190.8 L82.6 185.9 L79.6 184.2 L77.9 180.0 L77.7 173.9 L78.7 169.7 L80.3 168.4 L84.1 169.6 L94.3 169.5 L103.6 174.3 L110.0 177.1 L123.2 176.4 L131.0 172.8 L121.2 173.6 L113.5 173.2 L100.1 168.2 L94.7 166.4 L88.7 166.7 L85.6 165.3 L84.0 160.9 L85.9 152.7 L88.8 151.0 L90.2 153.3 L92.1 153.6 L94.1 150.3 L96.0 148.3 L97.7 144.0 L103.2 140.1 L105.5 139.9 L108.7 138.2 L110.8 138.8 L113.5 142.5 L117.1 142.4 L127.9 139.5 L131.2 135.9 L124.5 136.8 L118.8 138.5 L115.2 138.9 L116.2 134.3 L118.4 132.2 L119.6 128.2 L121.9 126.6 L124.4 126.8 L129.5 126.3 L133.1 125.4 L139.2 126.3 L148.4 128.1 L154.2 131.9 L156.4 131.6 L158.8 130.7 L155.2 127.8 L155.6 124.0 L163.3 121.1 L171.5 120.6 L170.1 118.1 L152.0 121.4 L147.4 118.8 L143.8 118.7 L141.3 120.0 L134.3 121.5 L134.5 116.0 L138.9 109.2 L141.2 105.9 L152.0 102.2 L157.3 97.6 L159.6 97.0 L161.8 97.4 L165.4 96.9 L172.1 98.4 L175.0 104.4 L177.8 106.2 L186.6 113.7 L178.7 101.5 L175.8 99.0 L173.8 94.1 L174.5 89.5 L177.0 86.4 L185.6 84.8 L187.1 83.0 L187.3 79.9 L182.8 78.0 L180.3 76.6 L179.6 73.3 L185.6 67.0 L188.3 65.7 L193.0 64.3 L201.0 67.5 L199.4 73.3 L201.6 75.9 L206.1 69.0 L211.6 68.0 L213.8 66.5 L216.4 65.5 L220.2 71.7 L221.8 73.7 L224.3 79.6 L227.2 77.3 L230.1 75.9 L234.3 74.9 L241.2 76.1 L244.3 75.0 L245.8 75.1 L244.3 70.5 L244.7 65.0 L246.1 63.4 L250.8 60.4 L255.3 58.9 L258.1 56.1 L262.0 53.3 L260.1 49.1 L257.5 49.0 L259.6 44.6 L263.9 41.0 L259.7 38.4 L257.2 39.5 L253.6 42.3 L249.3 46.6 L250.8 47.8 L253.1 51.2 L250.2 55.9 L234.1 68.6 L226.4 72.4 L222.7 71.9 L221.8 68.5 L220.2 66.0 L218.3 60.9 L215.3 61.0 L213.6 62.2 L214.0 55.0 L216.6 50.7 L220.8 47.3 L222.7 43.4 L224.6 37.1 L230.6 31.1 L239.1 16.1 L246.2 11.2 L248.7 5.9 L252.8 3.6 L256.3 -0.5 L259.0 -1.0 L264.1 -4.9 L266.7 -9.3 L264.8 -9.4 L260.5 -6.5 L257.9 -5.3 L258.0 -9.9 L259.1 -14.7 L262.6 -19.1 L279.5 -32.4 L281.4 -30.5 L283.6 -26.8 L288.8 -27.9 L294.4 -35.3 L298.6 -43.3 L296.2 -41.9 L293.7 -38.5 L288.6 -33.8 L286.2 -33.1 L284.8 -33.5 L282.0 -37.3 L280.4 -36.6 L278.6 -38.6 L278.1 -43.8 L279.8 -51.5 L281.3 -56.6 L283.0 -60.6 L289.6 -71.8 L290.8 -77.9 L293.9 -81.2 L298.1 -80.7 L299.3 -81.8 L297.7 -85.5 L292.9 -88.4 L307.3 -96.3 L314.5 -96.7 L316.5 -99.3 L320.2 -101.2 L323.0 -104.5 L321.3 -105.8 L314.3 -102.5 L309.8 -100.8 L307.7 -100.6 L306.2 -99.6 L300.5 -98.9 L298.5 -111.2 L298.9 -118.0 L301.1 -117.9 L301.1 -124.4 L303.4 -128.3 L306.7 -129.4 L308.3 -131.1 L310.5 -134.6 L314.6 -134.2 L318.8 -135.2 L312.3 -138.3 L310.8 -141.7 L312.5 -143.6 L314.4 -145.2 L316.1 -145.6 L319.1 -152.5 L320.9 -155.6 L323.2 -155.2 L326.3 -158.5 L329.6 -157.7 L332.5 -159.9 L336.6 -161.5 L351.9 -163.5 L348.7 -166.5 L337.3 -166.3 L331.5 -165.7 L329.1 -164.7 L330.0 -170.1 L334.4 -180.3 L339.0 -185.5 L342.8 -184.6 L347.2 -180.5 L350.1 -180.2 L351.5 -179.0 L354.3 -173.0 L354.2 -178.8 L356.5 -183.8 L351.6 -183.0 L348.3 -184.4 L345.5 -187.8 L344.5 -191.1 L345.7 -194.5 L347.0 -196.2 L340.1 -192.3 L335.9 -190.7 L334.1 -191.3 L334.6 -196.0 L333.8 -199.7 L338.8 -209.3 L340.7 -210.5 L344.0 -210.1 L347.2 -207.8 L349.7 -208.5 L352.2 -210.1 L367.4 -207.9 L368.7 -207.7 L391.7 -246.8 L407.7 -313.9 L447.6 -323.5 L475.3 -377.6 L517.3 -432.0 L553.3 -435.1 L585.4 -431.4 L633.0 -436.3 L658.7 -394.2 L713.1 -386.6 L857.5 -376.8 L944.6 -279.9 L763.9 -252.8 L834.6 -199.2 L947.8 -110.4 L938.6 -177.0 L980.1 -286.1 L1028.3 -352.8 L1009.2 -459.4 L1074.1 -432.2 L1118.7 -546.0 L1148.6 -571.2 L1195.0 -621.7 L1246.9 -689.8 L1327.0 -792.6 L1301.1 -826.2 L1222.7 -909.0 L1251.7 -1011.3 L1447.2 -905.5 L1495.5 -786.6 L1530.6 -815.5 L1492.0 -975.9 L1473.4 -997.6 L1301.2 -1000.3 L1264.5 -1073.8 L1372.6 -1082.9 L1300.1 -1100.4 L1379.3 -1177.1 L1451.8 -1133.1 L1343.6 -1177.1 L1261.8 -1243.4 L1291.7 -1274.9 L1228.4 -1310.4 L1190.3 -1418.9 L1180.0 -1474.0 L1195.8 -1542.3 L1173.0 -1571.9 L1129.0 -1644.4 L1185.7 -1667.8 L1212.3 -1746.2 L1237.6 -1745.4 L1385.0 -1639.6 L1381.9 -1695.4 L1367.2 -1741.2 L1419.9 -1758.7 L1390.8 -1851.5 L1377.0 -1943.2 L1347.3 -2015.7 L1402.0 -2056.1 L1456.3 -2071.2 L1419.2 -2133.9 L1414.9 -2246.5 L1350.2 -2259.4 L1285.9 -2324.6 L1296.7 -2365.1 L1262.9 -2426.8 L1294.6 -2502.1 L1251.6 -2678.5 L1210.0 -2731.9 L1130.2 -2878.5 L1007.2 -2888.5 Z M455.1 504.6 L453.6 507.9 L450.5 503.8 L449.0 493.3 L449.1 488.0 L454.3 468.1 L457.4 466.2 L460.6 454.0 L461.2 448.8 L462.7 443.8 L463.4 439.5 L466.3 438.3 L465.5 441.7 L466.1 444.7 L462.0 460.5 L461.6 469.5 L459.8 472.0 L455.1 504.6 Z M265.4 458.5 L259.4 458.1 L261.4 455.2 L266.4 453.7 L269.3 454.0 L266.1 457.0 L265.4 458.5 Z M76.4 218.6 L73.7 219.3 L71.7 218.5 L72.8 212.7 L75.6 211.5 L77.1 214.8 L76.4 218.6 Z M172.3 83.2 L169.6 83.2 L166.4 82.1 L164.4 80.0 L167.9 76.1 L171.6 74.9 L173.4 77.4 L173.4 81.4 L172.3 83.2 Z M182.7 62.9 L179.6 63.0 L177.7 61.6 L182.2 58.9 L189.3 56.3 L190.8 54.5 L192.2 59.3 L182.7 62.9 Z M256.0 -12.1 L254.7 -10.4 L251.6 -11.7 L245.6 -10.4 L243.1 -12.0 L244.9 -15.4 L250.3 -18.9 L253.2 -18.8 L256.3 -14.7 L256.0 -12.1 Z M77.2 266.8 L76.9 274.1 L74.1 273.4 L72.8 268.7 L73.3 264.5 L72.9 260.1 L74.9 257.8 L76.4 261.7 L77.2 266.8 Z M273.3 -59.9 L271.8 -57.9 L268.5 -58.3 L268.9 -63.3 L270.7 -64.8 L273.2 -64.6 L273.3 -59.9 Z" fill="#D6DBCE" stroke="#9CA294" stroke-width=".8"/>
+  <circle cx="217.2" cy="309.9" r="6" fill="#2F4C7A" opacity=".85"/>
+  <text x="208.2" y="312.9" class="mapx" text-anchor="end">Kongsberg</text>
+  <text x="208.2" y="324.9" class="mapt" text-anchor="end">silver from 1623</text>
+  <circle cx="264.9" cy="129.7" r="5" fill="#A9601C" opacity=".75"/>
+  <text x="273.9" y="128.7" class="mapx" text-anchor="start">Røros</text>
+  <text x="273.9" y="140.7" class="mapt" text-anchor="start">copper from 1644</text>
+  <circle cx="217.3" cy="97.4" r="5" fill="#A9601C" opacity=".75"/>
+  <text x="208.3" y="96.4" class="mapx" text-anchor="end">Løkken</text>
+  <text x="208.3" y="108.4" class="mapt" text-anchor="end">copper from 1654</text>
+  <circle cx="226.0" cy="157.8" r="5" fill="#A9601C" opacity=".75"/>
+  <text x="217.0" y="156.8" class="mapx" text-anchor="end">Folldal</text>
+  <text x="217.0" y="168.8" class="mapt" text-anchor="end">copper from 1748</text>
+  <rect x="246.6" y="290.0" width="9" height="9" fill="#2E6B5E" opacity=".75"/>
+  <text x="260.1" y="279.5" class="mapx" text-anchor="start">Christiania</text>
+  <text x="260.1" y="291.5" class="mapt" text-anchor="start">mint 1628–86</text>
+  <circle cx="236.0" cy="77.3" r="3" fill="#5F6157"/>
+  <text x="245.0" y="62.3" class="mapx" text-anchor="start">Trondhjem</text>
+  <text x="245.0" y="74.3" class="mapt" text-anchor="start">the copper burghers</text>
+  <circle cx="84.7" cy="262.2" r="3" fill="#5F6157"/>
+  <text x="93.7" y="261.2" class="mapx" text-anchor="start">Bergen</text>
+  <text x="93.7" y="273.2" class="mapt" text-anchor="start">the largest town</text>
+  </g>
+  </g>
+  <text x="424" y="76" class="mapx">SOUTH</text>
+  <circle cx="428" cy="87.0" r="2.4" fill="#2F4C7A"/>
+  <text x="438" y="91" class="mapt">silver, coined at Kongsberg</text>
+  <circle cx="428" cy="102.0" r="2.4" fill="#2F4C7A"/>
+  <text x="438" y="106" class="mapt">copper, iron, timber</text>
+  <circle cx="428" cy="117.0" r="2.4" fill="#2F4C7A"/>
+  <text x="438" y="121" class="mapt">regiments, when there was a war</text>
+  <circle cx="428" cy="132.0" r="2.4" fill="#2F4C7A"/>
+  <text x="438" y="136" class="mapt">carting duty, hauling the ore</text>
+  <circle cx="428" cy="147.0" r="2.4" fill="#2F4C7A"/>
+  <text x="438" y="151" class="mapt">taxes, collected under threat</text>
+  <text x="424" y="179" class="mapx">NORTH</text>
+  <circle cx="428" cy="190.0" r="2.4" fill="#2E6B5E"/>
+  <text x="438" y="194" class="mapt">Danish grain, and after 1735</text>
+  <circle cx="428" cy="205.0" r="2.4" fill="#2E6B5E"/>
+  <text x="438" y="209" class="mapt">no other kind was allowed</text>
+  <circle cx="428" cy="220.0" r="2.4" fill="#2E6B5E"/>
+  <text x="438" y="224" class="mapt">Norske Lov, 1687</text>
+  <circle cx="428" cy="235.0" r="2.4" fill="#2E6B5E"/>
+  <text x="438" y="239" class="mapt">a governor, when the sea closed</text>
+  <line x1="424" y1="269" x2="686" y2="269" stroke="#C9CDC4" stroke-width="1"/>
+  <text x="424" y="289" class="mapl">4,075</text>
+  <text x="424" y="303" class="mapt">people employed at Kongsberg</text>
+  <text x="424" y="317" class="mapt">in 1770, with a couple of</text>
+  <text x="424" y="331" class="mapt">thousand farmers besides in</text>
+  <text x="424" y="345" class="mapt">seasonal work. It was the</text>
+  <text x="424" y="359" class="mapt">largest enterprise in either</text>
+  <text x="424" y="373" class="mapt">kingdom, and the town was</text>
+  <text x="424" y="387" class="mapt">the second in Norway after</text>
+  <text x="424" y="401" class="mapt">Bergen.</text>
+  <text x="424" y="423" class="mapt">Norway kept its own law, its</text>
+  <text x="424" y="437" class="mapt">own coin and its own</text>
+  <text x="424" y="451" class="mapt">regiments. It was not a</text>
+  <text x="424" y="465" class="mapt">colony. The metal still went</text>
+  <text x="424" y="479" class="mapt">south.</text>
+  </svg>
+<figcaption><b>Figure 2 · What Norway sent south</b>
+Silver from Kongsberg, copper from Røros, Løkken and Folldal, timber, iron, regiments and carting duty. Kongsberg employed 4,075 people in 1770 and was the largest enterprise in either kingdom, its town second in Norway only to Bergen. What came the other way was Danish grain — and after 1735 no other kind was permitted. Norway kept its own law, its own coin and its own regiments. It was not a colony. The metal still went south.</figcaption>
+</figure>
+
+<div class="meanwhile">
+<h4>Meanwhile · 1755 — Lisbon.</h4>
+<p>On the morning of All Saints' Day 1755 an earthquake, a tsunami and a fire destroyed Lisbon and killed tens of thousands of people at prayer. The disaster broke something in European thought: it became very hard, afterwards, to argue that catastrophe was God's judgement on the wicked, since the churches had come down on the devout. Ten years earlier the Danish government had met the cattle plague with days of prayer and penitence alongside the bleeding and the need-fires. The generation that founded a veterinary school in 1773 had stopped expecting the first to work.</p>
+</div>
+
+<h2 id="s08"><span class="n">08 / NARRATIVE</span>Holberg's Copenhagen, and the fire of 1728</h2>
+
+<p>Between about seven and half past eight on the evening of Wednesday 20 October 1728, a fire started in a house opposite Vesterport, where Frederiksberggade now comes out onto the town hall square. It burned for sixty hours.</p>
+
+<p>When it stopped on the Saturday morning it had taken something like twenty-eight per cent of Copenhagen — and forty-seven per cent of the plots in the medieval core, which is the figure that matters, because that is where the city actually was. A contemporary count put the losses at one thousand six hundred and seventy houses out of four thousand and eighty-seven. Five churches and two hospitals went. Two thousand six hundred and fifty families lost their homes, which is something approaching a fifth of everybody in the city.</p>
+
+<p>It was stopped in the end by the wind dropping and by thirty-six buildings being deliberately pulled down to make firebreaks.</p>
+
+<p>The worst single loss was in the loft of Trinitatis church, which housed the university library. Árni Magnússon had spent forty years assembling the collection of Icelandic manuscripts kept there. He had, by luck, recently had the wheels of his cart repaired. In about six hours that cart carried out what survives today of the medieval literature of Iceland. Most of his collection did not get out: some five thousand transcripts of letters and charters for which no originals exist, and both manuscripts of <i class="dk">Fagrskinna</i>, the history of the Norwegian kings.</p>
+
+<p>Professor Ludvig Holberg was burned out of his lodgings in Købmagergade that night, and he wrote about it afterwards. When the fire was finally out, he said, people began to feel their losses: men who had lately been rich were reduced to the beggar's staff, and condemned far too late the luxury they had lived in, the wealth now gone, of which they had nothing left but the memory, as of something they had woken from.</p>
+
+<p>He is the reason this chapter can hear the eighteenth century at all. Holberg wrote the first Danish comedies, a satirical epic, essays, a history of the kingdom, two autobiographies in Latin, and — as chapter 28 has already noted — a treatise on the cattle plague of 1745. He is Norwegian by birth, Danish by career, and the single most prolific mind the union produced.</p>
+
+<p>The rebuilding is where this section joins the rest of the chapter. In 1729 the royal building master, Johan Cornelius Krieger, published drawings for a plain, serviceable standard townhouse that anyone could build without paying an architect. They went up in large numbers and are still called <i class="dk">ildebrandshuse</i>, fire-houses; many are still standing. Krieger is the same man who a few years earlier had put up half the two hundred and forty-one cavalry-district schoolhouses of chapter 27, to a single drawing at a single price. The Danish eighteenth century has one architect for its village schools and its burnt-out capital, and in both cases the job was the same: a decent building, repeatable, cheap.</p>
+
+<p>Christian 6. then pulled down the old Copenhagen Castle — the building where the estates had met in 1660 — and put the first Christiansborg in its place. It burned in 1794.</p>
+
+<h2 id="s09"><span class="n">09 / NARRATIVE</span>The loosening, 1746</h2>
+
+<p>Christian 6. died in August 1746 and his son let the country out.</p>
+
+<p>Frederik 5. was twenty-three, amiable, weak, and an alcoholic, and he is a reminder that the character of an absolute monarch is a matter of public policy. Where his father had governed by prohibition, he governed mostly by not minding. The effect was immediate and it was cultural.</p>
+
+<p>The theatre came back. It had been lost twice: the playhouse in Grønnegade burned in the fire of 1728, and the pietist reign then made sure nothing replaced it. In 1746 the ban lapsed with the king who had imposed it, and a comedy house was built on Kongens Nytorv to designs by Nicolai Eigtved. It opened in 1748, and it is the beginning of Den Danske Skueplads and so of the Royal Theatre. Holberg — by then in his sixties, and the author of most of what there was to perform — was a decisive force in getting it reopened.</p>
+
+<p>The city changed shape as well. Frederiksstaden was laid out from 1749 around the four Amalienborg mansions, on Eigtved's plan, as a district for people with money; the naval yards at Holmen were extended; the Academy of Art was founded. All of it employed foreign craftsmen and artists in large numbers, and Copenhagen spent the middle of the century becoming a capital that looked like one.</p>
+
+<p>It is worth being clear about what did not change. Stavnsbånd stayed, and was extended in 1742 and again in 1764. Hoveri went up rather than down, because grain prices were rising and the estates were intensifying to catch them. The confirmation ordinance stayed, and Pontoppidan's seven hundred and fifty-nine questions were re-authorised by this king in 1748 and by his son in 1768.</p>
+
+<p>The loosening was in the capital, and it was a loosening of manners. In the countryside, where four-fifths of Danes lived, the 1740s and 1750s were the years in which the bond tightened and the labour service grew. Those are two histories of the same decades, and Danish popular memory has generally kept the first one.</p>
+
+<div class="check">
+  <h4>Checkpoint</h4>
+  <ul>
+    <li>Describe the 1740s and 1750s as they look from Copenhagen — three things.</li>
+    <li>Describe the same decades as they look from the countryside, where four-fifths of Danes lived.</li>
+    <li>Which of the two has Danish popular memory kept, and what follows from that?</li>
+  </ul>
+</div>
+
+<h2 id="s10"><span class="n">10 / NARRATIVE</span>A state that could not price its own grain</h2>
+
+<div class="terms">
+  <h4>Danish terms in this section</h4>
+  <dl>
+    <div class="t"><dt>kornmonopol</dt><dd>the ban of 1735 on importing foreign grain, which gave Danish agriculture the market of Denmark and southern Norway.</dd></div>
+    <div class="t"><dt>Kurantbanken</dt><dd>Denmark's first bank, chartered 1736, issuing notes convertible into silver.</dd></div>
+  </dl>
+</div>
+
+<p>Everything in this chapter happens inside an economy that was failing, and it is worth putting the failure in one place at the end, because the government's answer to it is the thread that ties the sections together.</p>
+
+<p>The causes were mostly not Danish. The climate had worsened. Wars and epidemics had taken people. The tax burden had grown. The Dutch put a duty on Danish cattle, and the herring fishery collapsed. Grain prices, which had been falling since the wars ended, reached their lowest point in the 1730s. Danish market towns shrank. Landowners' incomes from their tenants fell, because the tenants had less surplus to sell — and peasant surplus was the foundation the whole economy stood on, since peasants were more than eighty per cent of the population.</p>
+
+<p>The state's response was a package, and by now it should look familiar. The grain tax was temporarily reduced in 1731. Stavnsbånd came in 1733, tying labour to the estates and, not incidentally, keeping wages down by preventing estates from bidding against each other for men. And in 1735 the king banned the import of foreign grain altogether.</p>
+
+<p>That last measure is the one with a long tail. It gave Danish agriculture a monopoly on the sale of grain in Denmark — and in <i class="dk">søndenfjeldske Norge</i>, southern Norway, which is where most Norwegians lived. Norway had timber and iron and fish and not enough grain, and it was now required to buy its bread from Danish landowners at prices a Danish law protected. The quantity involved grew from about a hundred and thirty thousand barrels a year around 1730 to five hundred and twenty-five thousand by the end of the century.</p>
+
+<p>Denmark's first bank followed in 1736. The Kurantbank was chartered with the right to issue notes that were legal tender for the state, convertible into silver on demand. It was nationalised in 1773, and it is the institution that will be destroyed in chapter 31, when the notes stop being convertible and the state goes bankrupt.</p>
+
+<p>Did any of it work? Prices did rise from the early 1740s, and land values with them. But the rise was probably international, working through a closed system rather than caused by it, and Feldbæk's judgement on the whole crisis package is that its significance is uncertain. The monopoly was in practice suspended, wholly or partly, about as often as it was in force. It was effectively dead by 1784 and formally abolished in 1788, on the same day's business as stavnsbånd, and the government did not trouble to present the abolition as a liberal gesture: by then it was simply more profitable to sell Danish grain abroad.</p>
+
+<p>What the monopoly did achieve was political, and it was achieved in the wrong country. It became a standing grievance against the union, and after 1814 one of the central charges in the Norwegian indictment of Danish rule — set out most fiercely by Nicolai Wergeland in 1816, in a book whose title calls it Denmark's political crimes against the kingdom of Norway.</p>
+
+<p>A grain law passed in Copenhagen in 1735 to rescue Danish landowners from a price collapse turns up eighty-one years later as evidence in the case for Norwegian independence. That is the sort of thing this part is about.</p>
+
+<p>&lt;!-- ===== c28_draft_apparatus.md ===== --&gt;</p>
+
+<hr class="div">
+
+<div class="myth" id="myth">
+<h4>Myth-check</h4>
+<dl>
+</dl>
+</div>
+
+<p class="kicker">Threads and links</p>
+<h2 id="forward" style="margin-top:0"><span class="n">WHERE THIS GOES</span>What to carry forward</h2>
+<ul class="calls">
+  <li><b>← 25</b><span>Every twenty barrels of hartkorn had to produce one man for the session: the accounting unit invented in 1662 now conscripts. — Sophie Magdalene's posthumous reputation was made by a hostile writer serving a later nationalism, exactly as Sophie Amalie's was; both demolitions were published in the wake of a national defeat.</span></li>
+  <li><b>← 26</b><span>Danske Lov of 1683 is read aloud by five-year-olds in the cavalry-district schools. — Norway's law from 1688 is Christian 5.'s Norske Lov, not Christian 4.'s of 1604, which corrects how the Norwegian apparatus is usually described.</span></li>
+  <li><b>← 27</b><span><i class="dk">Vornedskab</i>, abolished from 1702, was still expiring when stavnsbånd arrived. — The rytterskoler of 1721 covered the crown's own districts; the confirmation ordinance of 1736 and the school ordinance of 1739 obliged the state to reach everywhere else. — Egede sailed in 1721; the Moravians followed to Greenland in 1733 and to the West Indies in 1732. — Krieger built the schools and then the fire-houses.</span></li>
+  <li><b>→ 29</b><span>Christian 7. and Struensee's European journey of 1768–69 produced Christiansfeld. — Caroline Mathilde took the protectorate of Vallø in March 1771. — The hoveri knot came close to bringing revolution to the countryside, and the attempt to untie it starts with the law of 1769. — The bond is abolished on 20 June 1788 and the monument goes up.</span></li>
+  <li><b>→ 30</b><span>The Moravians reached the Danish West Indies in 1732, before the crown bought St Croix.</span></li>
+  <li><b>→ 31</b><span>The Kurantbank of 1736 is the institution the state bankruptcy destroys. — The grain monopoly of 1735 becomes the central charge in the Norwegian indictment of Danish rule, set out by Wergeland in 1816.</span></li>
+</ul>
+
+<p class="kicker">Summary</p>
+<h2 id="summary" style="margin-top:0"><span class="n">IF YOU REMEMBER FIVE THINGS</span>The page in five</h2>
+<ol class="five">
+  <li><p>Christian 6. came to the throne in 1730 and shut the theatre. What his reign did instead reached further into ordinary Danish lives than anything absolutism had managed: the Sabbath ordinance of 1735 made churchgoing a legal duty, the confirmation ordinance of 1736 made public examination compulsory before adulthood, Pontoppidan's seven hundred and fifty-nine questions became the required textbook in 1737, and the school ordinance of 1739 obliged the state to teach every child, because it had already obliged every child to be examined.</p></li>
+  <li><p>In the same decade the countryside was tied down. An agricultural crisis had emptied tenancies and collapsed grain prices; the ordinance of 4 February 1733 reintroduced conscription and, as its mechanism, bound men of the peasantry to the estates of their birth. The grain import ban of 1735 gave Danish landowners a protected market that included southern Norway. Neither measure's effect is well established, and the heavier burden on the peasant was neither of them but hoveri, the labour service that had no legal ceiling and grew as grain prices rose.</p></li>
+  <li><p>Then the animals died. Rinderpest killed something like two million cattle between 1745 and 1752, at ninety-five per cent of everything it reached, and nothing that was tried made any difference.</p></li>
+  <li><p>Norway paid for the arrangement in silver, copper, timber, soldiers and carting duty, and received in exchange a law, a coin, a governor who mattered only when the sea was closed, and an obligation to buy Danish bread.</p></li>
+  <li><p>Christian 6. died in 1746 and Copenhagen was let out: the theatre reopened, Frederiksstaden was laid out, the Academy of Art was founded. In the countryside the bond was widened in 1742 and again in 1764.</p></li>
+</ol>
+
+<p class="kicker">Questions &amp; discussion</p>
+<h2 id="questions" style="margin-top:0"><span class="n">FOUR KINDS</span>Work the material</h2>
+
+<div class="qgroup">
+  <p class="qlabel">Recall</p>
+  <p class="qnote">Did the facts land?</p>
+  <ul>
+    <li>What did the ordinance of 4 February 1733 say, and what was it formally an ordinance about?</li>
+    <li>What three measures of 1735, 1736 and 1737 changed what was legally required of every Dane, and what did each require?</li>
+    <li>What was hoveri, and why could its extent not be looked up?</li>
+    <li>What did Norway send south, and what was it obliged to buy?</li>
+  </ul>
+</div>
+<div class="qgroup">
+  <p class="qlabel">Causal</p>
+  <p class="qnote">Why did it happen that way?</p>
+  <ul>
+    <li>Explain why a compulsory confirmation led, three years later, to compulsory schooling.</li>
+    <li>The landowners wanted the bond and the crown wanted soldiers. Set out the bargain, and say what each side got.</li>
+    <li>Why was hoveri able to grow when landgilde was not?</li>
+  </ul>
+</div>
+<div class="qgroup">
+  <p class="qlabel">Counterfactual</p>
+  <p class="qnote">What if it had gone otherwise?</p>
+  <ul>
+    <li>Suppose grain prices had risen in 1730 rather than 1755. Would there have been a stavnsbånd?</li>
+    <li>Suppose the Danish state had chosen the Moravians over Halle in 1734. What would eighteenth-century Danish religion have looked like?</li>
+  </ul>
+</div>
+<div class="qgroup">
+  <p class="qlabel">Contested</p>
+  <p class="qnote">Where do historians disagree?</p>
+  <ul>
+    <li>Feldbæk holds that we know little about stavnsbånd's real economic and social effects. What sort of evidence would settle it, and why might it not exist?</li>
+    <li>Was Norway a kingdom in a union or a province being worked? Argue both from the same facts — the coin, the law, the mines, the grain ban.</li>
+    <li>The state banned Moravian assemblies in the 1740s and invited a Moravian town in 1771. What does the reversal show about what absolutism wanted from religion, and is that a fair conclusion to draw from one case? ---</li>
+  </ul>
+</div>
+
+<p class="kicker">Sources</p>
+<h2 id="sources" style="margin-top:0"><span class="n">LIGHT SOURCING</span>What this is built on</h2>
+<ul class="plain">
+  <li><span class="nm">Worked from</span>
+    <span class="ds"></span></li>
+  <li><span class="nm">—</span>
+    <span class="ds">The Stavnsbånd ordinance of 4 February 1733, printed in Christian 6.'s ordinances for 1732–33.</span></li>
+  <li><span class="nm">—</span>
+    <span class="ds">The Sabbath ordinance of 12 March 1735 and the confirmation ordinance of 13 January 1736.</span></li>
+  <li><span class="nm">—</span>
+    <span class="ds">Erik Pontoppidan, <i class="dk">Sandhed til Gudfrygtighed</i>, 1737.</span></li>
+  <li><span class="nm">—</span>
+    <span class="ds">Bjørn Poulsen and Inger Biehl Hansen, <i class="dk">Med egen hånd: Optegnelser fra Fladsten og Ørsted 1592–1809</i> (1994), for Anders Pedersen's notebook; and Biehl Hansen on the Ørsted evidence in <i class="dk">Sønderjydske Årbøger</i> 102 (1990).</span></li>
+  <li><span class="nm">—</span>
+    <span class="ds">Ludvig Holberg, <i class="dk">Betænkning over den nu regierende Qvæg-Syge</i>, 1745.</span></li>
+  <li><span class="nm">—</span>
+    <span class="ds">The journal of the royal progress through Norway in 1733, printed 1992.</span></li>
+  <li><span class="nm">—</span>
+    <span class="ds">The hoveri reckonings prepared for the commission of Christian 7.'s government, and the law on the determination of hoveri, 1769.</span></li>
+  <li><span class="nm">—</span>
+    <span class="ds">danmarkshistorien.dk, Aarhus University, on the agricultural crisis, the bond and the Brethren.</span></li>
+  <li><span class="nm">Where the argument stands</span>
+    <span class="ds"><i class="dk">Attributions need checking against the works themselves before publication.</i></span></li>
+  <li><span class="nm">—</span>
+    <span class="ds">Ole Feldbæk's <i class="dk">Danmarks økonomiske historie 1500–1840</i> is the standard account of the crisis measures, and the source of the caution this chapter repeats twice: that the significance of both the bond and the monopoly is uncertain.</span></li>
+  <li><span class="nm">—</span>
+    <span class="ds">Birgit Løgstrup's work on the landowner as public administrator is where to go for how the estate actually functioned as an arm of the state.</span></li>
+  <li><span class="nm">—</span>
+    <span class="ds">Claus Bjørn on hoveri and the agrarian reforms; Jens Holmgaard on whether the militia was as heavy a burden as it is remembered to be.</span></li>
+  <li><span class="nm">—</span>
+    <span class="ds">Martin Schwarz Lausten's church history for the pietist decades.</span></li>
+  <li><span class="nm">—</span>
+    <span class="ds">The Norwegian literature reads this period differently from the Danish, and has since 1814. Both traditions are describing the same grain law. ---</span></li>
+</ul>
+
+<p class="kicker">Go and look</p>
+<h2 id="visit" style="margin-top:0"><span class="n">STILL THERE</span>Places you can visit</h2>
+<ul class="plain">
+  <li><span class="nm">Christiansfeld.</span>
+    <span class="ds">The Moravian town, on the UNESCO World Heritage list, with the church square, the brothers' house and the sisters' house still standing, and the graveyard laid out in choirs — men on one side, women on the other, every stone the same size.</span></li>
+  <li><span class="nm">Vallø Slot</span>
+    <span class="ds">, south of Køge. Thurah's building of 1736–38, endowed by the queen in the same year Pontoppidan's catechism appeared.</span></li>
+  <li><span class="nm">Kongsberg.</span>
+    <span class="ds">The silver mines at Saggrenda, eight kilometres out of town, with a train into the King's Mine. Norway's largest enterprise for two centuries, and in 1770 the country's second city after Bergen.</span></li>
+  <li><span class="nm">Røros.</span>
+    <span class="ds">The copper town, also on the World Heritage list, kept in wood.</span></li>
+  <li><span class="nm">Ørsted, Oksenvad sogn</span>
+    <span class="ds">, in Haderslev Amt. A village of no particular distinction, which is the reason it matters: two families here wrote things down for two hundred years, and one of them recorded the cattle plague from inside the byre.</span></li>
+  <li><span class="nm">Any parish church with a gallery.</span>
+    <span class="ds">The confirmation ordinance of 1736 is the reason a great many Danish village churches acquired seating for children in the following decades, and the reason their registers begin recording who was confirmed. &lt;!-- ===== c29_draft_01-10.md ===== --&gt;</span></li>
+</ul>
+
+<footer>
+  Chapter 28 · Part G · 1721 – 1770
+</footer>
+
+</div>
+<script>
+(function(){
+  var links = Array.prototype.slice.call(document.querySelectorAll('.rail a'));
+  var map = {};
+  links.forEach(function(a){ map[a.getAttribute('href').slice(1)] = a; });
+  var targets = Object.keys(map).map(function(id){ return document.getElementById(id); })
+                 .filter(Boolean);
+  if(!('IntersectionObserver' in window) || !targets.length) return;
+  var seen = {};
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){ seen[e.target.id] = e.isIntersecting ? e.boundingClientRect.top : null; });
+    var best = null;
+    targets.forEach(function(t){
+      var r = t.getBoundingClientRect();
+      if(r.top <= 140) best = t.id;
+    });
+    if(!best) best = targets[0].id;
+    links.forEach(function(a){ a.classList.remove('active'); });
+    if(map[best]) map[best].classList.add('active');
+  }, {rootMargin:'-120px 0px -70% 0px', threshold:[0,1]});
+  targets.forEach(function(t){ io.observe(t); });
+  window.addEventListener('scroll', function(){
+    var best = null;
+    targets.forEach(function(t){ if(t.getBoundingClientRect().top <= 140) best = t.id; });
+    if(!best) best = targets[0].id;
+    links.forEach(function(a){ a.classList.remove('active'); });
+    if(map[best]) map[best].classList.add('active');
+  }, {passive:true});
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<svg viewBox="0 0 900 372" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagram of the Sound toll as introduced about 1429: one English noble per ship with a topmast, paid at Helsingor, with small craft exempt, Hanseatic towns exempt by privilege, and union subjects not foreign. Below, what the toll became: a cargo duty from 1567 and an income lasting to 1857.">
+  <rect x="0" y="0" width="900" height="372" fill="#F0F2EE"/>
+  <text x="26" y="34" class="mapt" fill="#2E6B5E">THE RULE, c. 1429</text>
+  <text x="26" y="62" style="font-family:'Iowan Old Style',Palatino,Georgia,serif;font-size:19px;fill:#221E18">One noble per ship. Not per cargo, not per ton.</text>
+  <text x="26" y="96" class="mapl" fill="#2E6B5E">Who paid</text>
+  <text x="200" y="96" class="mapx" fill="#6C6E63">Every foreign ship with a mast-top — that is,</text>
+  <text x="200" y="111" class="mapx" fill="#6C6E63">every ship big enough to be worth taxing</text>
+  <line x1="26" y1="138" x2="874" y2="138" stroke="#C9CDC4" stroke-width=".6"/>
+  <text x="26" y="160" class="mapl" fill="#2E6B5E">Who did not</text>
+  <text x="200" y="160" class="mapx" fill="#6C6E63">Small craft and lighters; subjects of the three</text>
+  <text x="200" y="175" class="mapx" fill="#6C6E63">kingdoms, who were not foreign; and by privilege</text>
+  <text x="200" y="190" class="mapx" fill="#6C6E63">a number of Hanseatic towns, later Dutch ones too</text>
+  <line x1="26" y1="217" x2="874" y2="217" stroke="#C9CDC4" stroke-width=".6"/>
+  <text x="26" y="239" class="mapl" fill="#2E6B5E">Where</text>
+  <text x="200" y="239" class="mapx" fill="#6C6E63">At Helsingør, under the guns of Krogen — moved there</text>
+  <text x="200" y="254" class="mapx" fill="#6C6E63">from Helsingborg, where the Skåne toll had been taken</text>
+  <line x1="26" y1="281" x2="874" y2="281" stroke="#C9CDC4" stroke-width=".6"/>
+  <text x="26" y="303" class="mapl" fill="#2E6B5E">Why it worked</text>
+  <text x="200" y="303" class="mapx" fill="#6C6E63">Both banks Danish since 1360, and the Belts closed</text>
+  <text x="200" y="318" class="mapx" fill="#6C6E63">to foreigners. There was no other door into the Baltic</text>
+  </svg>

@@ -1,0 +1,32 @@
+<svg viewBox="0 0 900 404" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagram of who held what of whom after the Treaty of Ribe in 1460. One man, Christian the First, is at once elected king of Denmark, duke of Schleswig held of the Danish crown, and count of Holstein held of the Holy Roman Emperor. The duchies are promised to remain forever undivided and may not be annexed to Denmark.">
+  <rect x="0" y="0" width="900" height="404" fill="#F0F2EE"/>
+  <text x="26.0" y="34.0" class="mapt" fill="#2E6B5E" text-anchor="start">HELD OF WHOM, AFTER 1460</text>
+  <rect x="60" y="66" width="300" height="62" fill="none" stroke="#6C6E63" stroke-width="1.2"/>
+  <text x="210.0" y="92.0" class="mapl" fill="#221E18" text-anchor="middle">THE DANISH CROWN</text>
+  <text x="210.0" y="110.0" class="mapx" fill="#6C6E63" text-anchor="middle">elective; the council chooses</text>
+  <rect x="540" y="66" width="300" height="62" fill="none" stroke="#6C6E63" stroke-width="1.2"/>
+  <text x="690.0" y="92.0" class="mapl" fill="#221E18" text-anchor="middle">THE HOLY ROMAN EMPIRE</text>
+  <text x="690.0" y="110.0" class="mapx" fill="#6C6E63" text-anchor="middle">Holstein is an imperial fief</text>
+  <rect x="60" y="226" width="300" height="74" fill="#2E6B5E" fill-opacity=".14" stroke="#2E6B5E" stroke-width="1.2"/>
+  <text x="210.0" y="250.0" class="mapl" fill="#221E18" text-anchor="middle">SLESVIG</text>
+  <text x="210.0" y="266.0" class="mapx" fill="#6C6E63" text-anchor="middle">a duchy, held of the Danish crown</text>
+  <text x="210.0" y="282.0" class="mapx" fill="#6C6E63" text-anchor="middle">Danish law, Danish fief — and</text>
+  <text x="210.0" y="294.0" class="mapx" fill="#6C6E63" text-anchor="middle">may not be joined to Denmark</text>
+  <rect x="540" y="226" width="300" height="74" fill="#2E6B5E" fill-opacity=".14" stroke="#2E6B5E" stroke-width="1.2"/>
+  <text x="690.0" y="250.0" class="mapl" fill="#221E18" text-anchor="middle">HOLSTEN</text>
+  <text x="690.0" y="266.0" class="mapx" fill="#6C6E63" text-anchor="middle">a county, from 1474 a duchy</text>
+  <text x="690.0" y="282.0" class="mapx" fill="#6C6E63" text-anchor="middle">German law, imperial fief — and</text>
+  <text x="690.0" y="294.0" class="mapx" fill="#6C6E63" text-anchor="middle">the Emperor's business, not the council's</text>
+  <rect x="330" y="140" width="240" height="62" fill="#2E6B5E" fill-opacity=".92"/>
+  <text x="450.0" y="168.0" class="mapl" fill="#F0F2EE" text-anchor="middle">CHRISTIAN 1.</text>
+  <text x="450.0" y="186.0" class="mapx" fill="#F0F2EE" text-anchor="middle">one man, three hats</text>
+  <line x1="210" y1="128" x2="400" y2="140" stroke="#6C6E63" stroke-width="1.1" opacity=".7"/>
+  <line x1="690" y1="128" x2="500" y2="140" stroke="#6C6E63" stroke-width="1.1" opacity=".7"/>
+  <line x1="400" y1="202" x2="210" y2="226" stroke="#6C6E63" stroke-width="1.1" opacity=".7"/>
+  <line x1="500" y1="202" x2="690" y2="226" stroke="#6C6E63" stroke-width="1.1" opacity=".7"/>
+  <line x1="200" y1="326" x2="700" y2="326" stroke="#8A2B2B" stroke-width="1.6" stroke-dasharray="6 4"/>
+  <line x1="210" y1="300" x2="210" y2="326" stroke="#8A2B2B" stroke-width="1" opacity=".6"/>
+  <line x1="690" y1="300" x2="690" y2="326" stroke="#8A2B2B" stroke-width="1" opacity=".6"/>
+  <text x="450.0" y="348.0" class="mapl" fill="#8A2B2B" text-anchor="middle" font-style="italic">dat se bliven ewich tosamende ungedelt</text>
+  <text x="450.0" y="366.0" class="mapx" fill="#6C6E63" text-anchor="middle">— and the knighthood may resist if he breaks it</text>
+  </svg>

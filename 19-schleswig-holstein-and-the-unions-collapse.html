@@ -1,0 +1,1193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>18 · Schleswig-Holstein and the union's collapse, 1460–1523</title>
+<style>
+
+  :root{
+    --ground:#E4E7E4; --paper:#F0F2EE; --peat:#221E18; --muted:#6C6E63;
+    --rule:#C9CDC4; --verdigris:#2E6B5E; --amber:#A9601C; --oxblood:#8A2B2B; --indigo:#2F4C7A; --band:#2E6B5E;
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua","URW Palladio L",Georgia,serif;
+    --mono:"IBM Plex Mono",ui-monospace,"SF Mono",SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0;background:var(--ground);color:var(--peat);
+    font-family:var(--serif);font-size:17.5px;line-height:1.68;text-rendering:optimizeLegibility}
+  .wrap{max-width:790px;margin:0 auto;padding:0 28px}
+  a{color:var(--verdigris)}
+  a:focus-visible{outline:2px solid var(--amber);outline-offset:3px}
+  p{margin:0 0 1.05em}
+
+  .crumb{border-bottom:1px solid var(--rule);background:rgba(228,231,228,.94)}
+  .crumb-in{max-width:1000px;margin:0 auto;padding:10px 28px;display:flex;gap:14px;
+    font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+  .crumb-in b{color:var(--band);font-weight:600}
+
+  header.hd{padding:62px 0 0}
+  .eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.22em;text-transform:uppercase;
+    color:var(--amber);margin:0 0 20px}
+  h1{font-size:clamp(34px,6.4vw,58px);line-height:1.02;margin:0;font-weight:400;letter-spacing:-.022em}
+  .dates{font-family:var(--mono);font-size:13px;letter-spacing:.1em;color:var(--muted);margin:18px 0 0}
+  .why{font-size:20px;margin:22px 0 0;max-width:62ch}
+  .keys{display:flex;flex-wrap:wrap;gap:6px;margin:26px 0 0;padding:0;list-style:none}
+  .keys li{font-family:var(--mono);font-size:10.5px;letter-spacing:.03em;color:var(--muted);
+    border:1px solid var(--rule);border-radius:2px;padding:3px 8px}
+
+  h2{font-size:27px;font-weight:400;letter-spacing:-.015em;margin:56px 0 4px;line-height:1.2}
+  h2 .n{font-family:var(--mono);font-size:12px;color:var(--band);letter-spacing:.1em;
+    display:block;margin:0 0 8px;font-weight:600}
+  h3{font-size:19px;font-weight:600;margin:34px 0 6px;letter-spacing:-.008em}
+  .kicker{font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;
+    color:var(--amber);margin:56px 0 8px}
+  hr.div{border:0;border-top:1px solid var(--rule);margin:52px 0 0}
+  i.dk{font-style:italic}
+
+  /* per-section glossary */
+  .terms{background:var(--paper);border-left:3px solid var(--band);padding:16px 20px;margin:22px 0 28px}
+  .terms h4{font-family:var(--mono);font-size:10px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--band);margin:0 0 12px;font-weight:600}
+  .terms dl{margin:0;display:grid;grid-template-columns:1fr 1fr;gap:10px 26px}
+  .terms dl.one{grid-template-columns:1fr}
+  .terms .t{min-width:0}
+  .terms dt{font-family:var(--mono);font-size:12.5px;color:var(--peat);font-weight:600;
+    letter-spacing:.01em;line-height:1.4}
+  .terms dd{margin:2px 0 0;font-size:15px;color:var(--muted);line-height:1.5}
+
+  ol.qs{margin:0;padding:0;list-style:none;counter-reset:q}
+  ol.qs li{counter-increment:q;position:relative;padding:0 0 0 34px;margin:0 0 10px;font-size:18px}
+  ol.qs li::before{content:counter(q);position:absolute;left:0;top:2px;font-family:var(--mono);
+    font-size:11px;color:var(--amber);font-weight:600}
+
+  .meanwhile{background:var(--paper);border-left:3px solid var(--verdigris);padding:20px 22px;margin:30px 0}
+  .meanwhile h4{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--verdigris);margin:0 0 10px;font-weight:600}
+  .meanwhile p{font-size:16px;margin:0 0 .8em}
+  .meanwhile p:last-child{margin:0}
+
+  .myth{background:var(--paper);border-left:3px solid var(--oxblood);padding:20px 22px;margin:26px 0}
+  .myth h4{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--oxblood);margin:0 0 12px;font-weight:600}
+  .myth dl{margin:0}
+  .myth dt{font-weight:600;font-size:16.5px;margin:16px 0 3px}
+  .myth dt:first-child{margin-top:0}
+  .myth dd{margin:0;font-size:16px;color:var(--muted)}
+
+  ul.calls{list-style:none;margin:0;padding:0;border-top:1px solid var(--rule)}
+  ul.calls li{display:flex;gap:18px;padding:12px 0;border-bottom:1px solid var(--rule);align-items:baseline}
+  ul.calls b{font-family:var(--mono);font-size:11px;letter-spacing:.06em;color:var(--band);
+    width:74px;flex:none;font-weight:600}
+  ul.calls span{font-size:16px;color:var(--muted)}
+
+  ol.five{list-style:none;margin:0;padding:0;counter-reset:f}
+  ol.five li{counter-increment:f;background:var(--paper);border-left:2px solid var(--band);
+    padding:15px 18px;margin:0 0 2px;display:flex;gap:14px;align-items:baseline}
+  ol.five li::before{content:counter(f,decimal-leading-zero);font-family:var(--mono);font-size:11px;
+    color:var(--band);font-weight:600;flex:none}
+  ol.five p{margin:0;font-size:16.5px}
+
+  .qgroup{margin:0 0 26px}
+  .qlabel{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--amber);margin:0 0 4px;font-weight:600}
+  .qnote{font-size:14.5px;color:var(--muted);margin:0 0 10px}
+  .qgroup ul{margin:0;padding:0 0 0 20px}
+  .qgroup li{margin:0 0 8px;font-size:16.5px}
+
+  figure{margin:34px 0;background:var(--paper);padding:20px 20px 16px;border-top:2px solid var(--band)}
+  figure svg{width:100%;height:auto;display:block}
+  figcaption{font-size:14.5px;color:var(--muted);margin:14px 0 0;line-height:1.55}
+  figcaption b{font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;
+    color:var(--peat);display:block;margin:0 0 5px;font-weight:600}
+  .mapt{font-family:var(--mono);font-size:9.5px;fill:#5F6157;letter-spacing:.04em}
+  .mapl{font-family:var(--mono);font-size:10.5px;fill:#3C3E36;letter-spacing:.06em;font-weight:600}
+  .mapx{font-family:var(--mono);font-size:8.5px;fill:#4A4C44;letter-spacing:.04em}
+
+  ul.plain{list-style:none;margin:0;padding:0;border-top:1px solid var(--rule)}
+  ul.plain li{display:flex;gap:20px;padding:12px 0;border-bottom:1px solid var(--rule);
+    align-items:baseline;flex-wrap:wrap}
+  ul.plain .nm{font-family:var(--mono);font-size:12px;letter-spacing:.03em;width:200px;flex:none;
+    color:var(--verdigris)}
+  ul.plain .ds{font-size:15.5px;color:var(--muted);flex:1;min-width:230px}
+
+  footer{margin:70px 0 0;padding:22px 0 64px;border-top:1px solid var(--rule);
+    font-family:var(--mono);font-size:11px;letter-spacing:.06em;color:var(--muted)}
+
+  @media (max-width:720px){
+    body{font-size:16.5px}
+    .wrap{padding:0 20px}
+    .crumb-in{padding:10px 20px;gap:10px;font-size:9.5px}
+    header.hd{padding:40px 0 0}
+    h2{font-size:24px;margin-top:44px}
+    figure{padding:14px 12px 12px}
+    .terms dl{grid-template-columns:1fr;gap:11px}
+    ul.calls li{flex-direction:column;gap:2px}
+    ul.calls b{width:auto}
+    ul.plain li{flex-direction:column;gap:3px}
+    ul.plain .nm{width:auto}
+  }
+
+  html{scroll-behavior:smooth}
+  @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+  h2[id],div.myth[id]{scroll-margin-top:24px}
+
+  /* fixed section index, wide screens only */
+  .rail{position:fixed;top:88px;left:calc(50% - 605px);width:170px;z-index:30;
+    max-height:calc(100vh - 130px);overflow-y:auto;scrollbar-width:thin}
+  .rail-h{font-family:var(--mono);font-size:9.5px;letter-spacing:.18em;text-transform:uppercase;
+    color:var(--amber);margin:0 0 10px;font-weight:600}
+  .rail ol{list-style:none;margin:0;padding:0;border-left:1px solid var(--rule)}
+  .rail li{margin:0}
+  .rail a{display:flex;gap:7px;align-items:baseline;text-decoration:none;color:var(--muted);
+    font-family:var(--mono);font-size:10.5px;line-height:1.35;letter-spacing:.01em;
+    padding:5px 0 5px 11px;margin-left:-1px;border-left:2px solid transparent}
+  .rail a:hover{color:var(--peat)}
+  .rail .rn{color:var(--band);font-weight:600;flex:none;width:13px}
+  .rail a.active{color:var(--peat);border-left-color:var(--amber);font-weight:600}
+  .rail a.active .rn{color:var(--amber)}
+  @media (max-width:1239px){.rail{display:none}}
+
+  /* collapsible contents, narrow screens only */
+  .toc{display:none;background:var(--paper);border-left:3px solid var(--band);
+    padding:12px 18px;margin:34px 0 0}
+  .toc summary{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--band);font-weight:600;cursor:pointer}
+  .toc ol{margin:12px 0 2px;padding:0 0 0 20px}
+  .toc li{margin:0 0 5px;font-size:15.5px}
+  @media (max-width:1239px){.toc{display:block}}
+
+  /* people vignette */
+  .vig{background:var(--paper);border-left:3px solid var(--amber);padding:20px 22px;margin:30px 0}
+  .vig h4{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--amber);margin:0 0 10px;font-weight:600}
+  .vig p{font-size:16.5px;margin:0 0 .85em}
+  .vig p:last-child{margin:0}
+  .vig .who{font-family:var(--mono);font-size:11px;letter-spacing:.05em;color:var(--muted);
+    margin:12px 0 0;font-style:normal}
+  @media print{.rail{display:none}.toc{display:none}.vig{background:#fff}}
+
+  /* mid-page retrieval checkpoint — deliberately unfilled, so it reads as a pause, not a box */
+  .check{border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);
+    padding:15px 0 14px;margin:32px 0}
+  .check h4{font-family:var(--mono);font-size:10px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--muted);margin:0 0 9px;font-weight:600}
+  .check ul{margin:0;padding:0 0 0 19px}
+  .check li{font-size:15.5px;color:var(--muted);margin:0 0 5px;line-height:1.5}
+  .check li:last-child{margin:0}
+  @media print{.check{border-color:#ccc}}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+  @media print{.crumb{display:none}body{background:#fff}figure,.meanwhile,.myth,.terms,ol.five li{background:#fff}}
+
+</style>
+</head>
+<body>
+
+<div class="crumb"><div class="crumb-in">
+  <span><b>Part E</b> · Union and late Middle Ages</span><span>Chapter 19</span><span>1460 – 1523</span>
+</div></div>
+
+<nav class="rail" aria-label="Sections of this page"><p class="rail-h">On this page</p><ol>
+<li><a href="#intro"><span class="rn"></span>Introduction</a></li>
+<li><a href="#s01"><span class="rn">01</span>A childless uncle, 1459</a></li>
+<li><a href="#s02"><span class="rn">02</span>Ribe, 5 March 1460</a></li>
+<li><a href="#s03"><span class="rn">03</span>What one sentence became</a></li>
+<li><a href="#s04"><span class="rn">04</span>A dowry never paid</a></li>
+<li><a href="#s05"><span class="rn">05</span>Brunkeberg, 1471</a></li>
+<li><a href="#s06"><span class="rn">06</span>A fleet, a university, and a bound peasantry</a></li>
+<li><a href="#s07"><span class="rn">07</span>Hemmingstedt, 17 February 1500</a></li>
+<li><a href="#s08"><span class="rn">08</span>Denmark in 1500</a></li>
+<li><a href="#s09"><span class="rn">09</span>Christian 2., and the woman who kept the accounts</a></li>
+<li><a href="#s10"><span class="rn">10</span>Stockholm, November 1520</a></li>
+<li><a href="#s11"><span class="rn">11</span>1523: two kings leave</a></li>
+<li><a href="#myth"><span class="rn"></span>Myth-check</a></li>
+<li><a href="#forward"><span class="rn"></span>What to carry forward</a></li>
+<li><a href="#summary"><span class="rn"></span>The page in five</a></li>
+<li><a href="#questions"><span class="rn"></span>Questions &amp; discussion</a></li>
+<li><a href="#sources"><span class="rn"></span>Sources</a></li>
+<li><a href="#visit"><span class="rn"></span>Places you can visit</a></li>
+</ol></nav>
+
+<div class="wrap">
+
+<header class="hd">
+  <p class="eyebrow">Era chapter · about 36 minutes</p>
+  <h1>Schleswig-Holstein and the union's collapse</h1>
+  <p class="dates">1460 – 1523 · Christian 1. · Kong Hans · Christian 2. · Sten Sture · Gustav Vasa</p>
+  <p class="why">A Danish king is elected duke of Schleswig and count of Holstein on conditions, and
+  one clause of those conditions goes off four hundred years later. In between, the Northern Isles
+  are pledged away, an army drowns in a marsh, and Sweden leaves for good.</p>
+  <ul class="keys">
+    <li>Ribebrevet 1460</li><li>up ewig ungedeelt</li><li>Orkney &amp; Shetland 1468–69</li>
+    <li>Brunkeberg 1471</li><li>Hemmingstedt 1500</li><li>vornedskab</li>
+    <li>Det Stockholmske Blodbad 1520</li><li>Gustav Vasa 1523</li>
+  </ul>
+</header>
+
+<details class="toc"><summary>Contents</summary><ol>
+<li><a href="#intro">Introduction</a></li>
+<li><a href="#s01">A childless uncle, 1459</a></li>
+<li><a href="#s02">Ribe, 5 March 1460</a></li>
+<li><a href="#s03">What one sentence became</a></li>
+<li><a href="#s04">A dowry never paid</a></li>
+<li><a href="#s05">Brunkeberg, 1471</a></li>
+<li><a href="#s06">A fleet, a university, and a bound peasantry</a></li>
+<li><a href="#s07">Hemmingstedt, 17 February 1500</a></li>
+<li><a href="#s08">Denmark in 1500</a></li>
+<li><a href="#s09">Christian 2., and the woman who kept the accounts</a></li>
+<li><a href="#s10">Stockholm, November 1520</a></li>
+<li><a href="#s11">1523: two kings leave</a></li>
+<li><a href="#myth">Myth-check</a></li>
+<li><a href="#forward">What to carry forward</a></li>
+<li><a href="#summary">The page in five</a></li>
+<li><a href="#questions">Questions &amp; discussion</a></li>
+<li><a href="#sources">Sources</a></li>
+<li><a href="#visit">Places you can visit</a></li>
+</ol></details>
+
+<p class="kicker">Introduction</p>
+<h2 id="intro" style="margin-top:0"><span class="n">WHAT THIS PAGE ANSWERS</span>Five questions</h2>
+<ol class="qs">
+  <li>How did the Danish king become a German prince, and what did he pay for it?</li>
+  <li>One sentence from 1460 is still quoted in German. What did it mean then, and who decided
+      what it means now?</li>
+  <li>How does a country lose Orkney and Shetland without noticing?</li>
+  <li>What happened in Stockholm in November 1520 — and why is it the founding story of a
+      neighbouring nation?</li>
+  <li>The Kalmar Union ends here. Was it killed, or had it already died?</li>
+</ol>
+
+<hr class="div">
+
+<h2 id="s01"><span class="n">01 / NARRATIVE</span>A childless uncle, 1459</h2>
+
+<div class="terms">
+  <h4>Danish terms in this section</h4>
+  <dl>
+    <div class="t"><dt>ridderskabet</dt><dd>The knighthood: the nobility of Schleswig and Holstein,
+      acting as one corporation across both territories. They are the electors here, and the party
+      whose interests the settlement protects.</dd></div>
+    <div class="t"><dt>arveret</dt><dd>Right of inheritance. Danish law let a claim pass through a
+      woman; German practice mostly did not. Which law applied decided who got the duchy.</dd></div>
+  </dl>
+</div>
+
+<p>Adolf 8. of Schauenburg died in December 1459 without children. He had been duke of Schleswig
+since chapter 18's settlement of 1435, count of Holstein by inheritance, and — the detail that
+decides everything — he was the maternal uncle of the king of Denmark. He had brought Christian up,
+had declined the Danish throne himself in 1448 and recommended his nephew for it, and had then spent
+eleven years making sure the Danish crown did not get his duchy.</p>
+
+<p>With his death the Schauenburg line was extinct in the male line and two bodies of law pointed in
+opposite directions. By German practice, a fief without male heirs reverted to its overlord — which
+for Schleswig meant the Danish crown, and for Holstein the Emperor. By Danish inheritance law, a
+claim could descend through a woman, and the nearest such claimant was Christian 1. himself.</p>
+
+<p>What actually decided it was neither. The knighthood of the two territories — the Rantzaus, the
+Ahlefeldts, the Reventlows, families who held land on both sides of the Eider and had for
+generations — met and elected. They had no intention of being divided between a Danish king and an
+imperial administration, and no intention of losing the privileges they had accumulated while their
+rulers were weak. They wanted one lord, and they wanted him to sign.</p>
+
+<h2 id="s02"><span class="n">02 / NARRATIVE</span>Ribe, 5 March 1460</h2>
+
+<div class="terms">
+  <h4>Danish terms in this section</h4>
+  <dl>
+    <div class="t"><dt>Ribebrevet</dt><dd>The Ribe letter, or Ribe privilege: the terms on which
+      Christian 1. was accepted as duke of Schleswig and count of Holstein.</dd></div>
+    <div class="t"><dt>hertugdømmerne</dt><dd>'The duchies' — the pair, spoken of together from now
+      on, which is itself the point.</dd></div>
+    <div class="t"><dt>Ejderen</dt><dd>The Eider: the river dividing Schleswig from Holstein, and
+      thus the northern boundary of the Holy Roman Empire. Chapter 12's frontier.</dd></div>
+  </dl>
+</div>
+
+<p>At Ribe on 5 March 1460 the knighthood elected Christian 1. duke of Schleswig and count of
+Holstein, and he accepted their conditions. He undertook to preserve their privileges, to rule the
+two territories as their own countries rather than as parts of Denmark — Holstein could not be
+annexed to the kingdom, and Schleswig, though a Danish fief, could not simply be absorbed either —
+and to keep the peace in them. The knighthood reserved the right to resist him if he broke the
+agreement, which was standard in charters of this kind and had been in Danish ones since 1282.</p>
+
+<p>And there was a clause promising that these lands would be held in good peace, <i>and that they
+remain forever together undivided</i> — <i class="dk">unde dat se bliven ewich tosamende ungedelt</i>.</p>
+
+<figure>
+<svg viewBox="0 0 900 404" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagram of who held what of whom after the Treaty of Ribe in 1460. One man, Christian the First, is at once elected king of Denmark, duke of Schleswig held of the Danish crown, and count of Holstein held of the Holy Roman Emperor. The duchies are promised to remain forever undivided and may not be annexed to Denmark.">
+  <rect x="0" y="0" width="900" height="404" fill="#F0F2EE"/>
+  <text x="26.0" y="34.0" class="mapt" fill="#2E6B5E" text-anchor="start">HELD OF WHOM, AFTER 1460</text>
+  <rect x="60" y="66" width="300" height="62" fill="none" stroke="#6C6E63" stroke-width="1.2"/>
+  <text x="210.0" y="92.0" class="mapl" fill="#221E18" text-anchor="middle">THE DANISH CROWN</text>
+  <text x="210.0" y="110.0" class="mapx" fill="#6C6E63" text-anchor="middle">elective; the council chooses</text>
+  <rect x="540" y="66" width="300" height="62" fill="none" stroke="#6C6E63" stroke-width="1.2"/>
+  <text x="690.0" y="92.0" class="mapl" fill="#221E18" text-anchor="middle">THE HOLY ROMAN EMPIRE</text>
+  <text x="690.0" y="110.0" class="mapx" fill="#6C6E63" text-anchor="middle">Holstein is an imperial fief</text>
+  <rect x="60" y="226" width="300" height="74" fill="#2E6B5E" fill-opacity=".14" stroke="#2E6B5E" stroke-width="1.2"/>
+  <text x="210.0" y="250.0" class="mapl" fill="#221E18" text-anchor="middle">SLESVIG</text>
+  <text x="210.0" y="266.0" class="mapx" fill="#6C6E63" text-anchor="middle">a duchy, held of the Danish crown</text>
+  <text x="210.0" y="282.0" class="mapx" fill="#6C6E63" text-anchor="middle">Danish law, Danish fief — and</text>
+  <text x="210.0" y="294.0" class="mapx" fill="#6C6E63" text-anchor="middle">may not be joined to Denmark</text>
+  <rect x="540" y="226" width="300" height="74" fill="#2E6B5E" fill-opacity=".14" stroke="#2E6B5E" stroke-width="1.2"/>
+  <text x="690.0" y="250.0" class="mapl" fill="#221E18" text-anchor="middle">HOLSTEN</text>
+  <text x="690.0" y="266.0" class="mapx" fill="#6C6E63" text-anchor="middle">a county, from 1474 a duchy</text>
+  <text x="690.0" y="282.0" class="mapx" fill="#6C6E63" text-anchor="middle">German law, imperial fief — and</text>
+  <text x="690.0" y="294.0" class="mapx" fill="#6C6E63" text-anchor="middle">the Emperor's business, not the council's</text>
+  <rect x="330" y="140" width="240" height="62" fill="#2E6B5E" fill-opacity=".92"/>
+  <text x="450.0" y="168.0" class="mapl" fill="#F0F2EE" text-anchor="middle">CHRISTIAN 1.</text>
+  <text x="450.0" y="186.0" class="mapx" fill="#F0F2EE" text-anchor="middle">one man, three hats</text>
+  <line x1="210" y1="128" x2="400" y2="140" stroke="#6C6E63" stroke-width="1.1" opacity=".7"/>
+  <line x1="690" y1="128" x2="500" y2="140" stroke="#6C6E63" stroke-width="1.1" opacity=".7"/>
+  <line x1="400" y1="202" x2="210" y2="226" stroke="#6C6E63" stroke-width="1.1" opacity=".7"/>
+  <line x1="500" y1="202" x2="690" y2="226" stroke="#6C6E63" stroke-width="1.1" opacity=".7"/>
+  <line x1="200" y1="326" x2="700" y2="326" stroke="#8A2B2B" stroke-width="1.6" stroke-dasharray="6 4"/>
+  <line x1="210" y1="300" x2="210" y2="326" stroke="#8A2B2B" stroke-width="1" opacity=".6"/>
+  <line x1="690" y1="300" x2="690" y2="326" stroke="#8A2B2B" stroke-width="1" opacity=".6"/>
+  <text x="450.0" y="348.0" class="mapl" fill="#8A2B2B" text-anchor="middle" font-style="italic">dat se bliven ewich tosamende ungedelt</text>
+  <text x="450.0" y="366.0" class="mapx" fill="#6C6E63" text-anchor="middle">— and the knighthood may resist if he breaks it</text>
+  </svg>
+<figcaption><b>Figure 1 · One man, three hats</b>
+The knot tied at Ribe. The king of Denmark is elected by a Danish council; the duke of
+Schleswig holds of the Danish crown; the count of Holstein holds of the Emperor. They are the same
+person, and each of the three has a different law behind it. Everything from 1848 to 1920 is an
+attempt to untie this.</figcaption>
+</figure>
+
+<p>What Christian got was a great deal: the wealthiest territory on his southern border, an imperial
+title, and the end of a two-hundred-year quarrel that had cost his predecessors a duchy, a war and
+in chapter 14 a king. In 1474 the Emperor Frederick 3. raised Holstein to a duchy, so that the
+Danish king was now a duke twice over and a prince of the Empire.</p>
+
+<p>What he gave was the thing the series has been watching kings give since 1282: a written
+guarantee to a nobility that it would keep what it had. The duchies were governed by their own
+knighthood, in Low German, under their own law, with their own estates. They were attached to the
+Danish crown at the top and to nothing else.</p>
+
+<p>And it did not even hold in its own terms. In 1490 Christian's sons Hans and Frederik divided the
+duchies between them — the first of a series of partitions that continued for two centuries and made
+the map of the region a patchwork of enclaves. Whatever the 1460 promise meant, it plainly did not
+prevent that.</p>
+
+<h2 id="s03"><span class="n">03 / NARRATIVE</span>What one sentence became</h2>
+
+<div class="terms">
+  <h4>Danish terms in this section</h4>
+  <dl>
+    <div class="t"><dt>slesvig-holstenisme</dt><dd>The nineteenth-century political movement holding
+      that the two duchies formed an indivisible unit with a right to be independent of Denmark. Its
+      historical foundation was the 1460 clause.</dd></div>
+    <div class="t"><dt>Ejderpolitikken</dt><dd>The Danish counter-policy: Denmark to the Eider, with
+      Schleswig incorporated and Holstein let go. The direct cause of the war of 1848.</dd></div>
+  </dl>
+</div>
+
+<p>For three and a half centuries the phrase sat in an archive and nobody thought about it. What
+happened next is one of the clearest examples in Danish history of a document being reactivated for
+a purpose it was never written for.</p>
+
+<p>After 1815, Friedrich Christoph Dahlmann — historian, and secretary to the Schleswig-Holstein
+knighthood — went back to the Ribe letter and argued that the clause proved something specific: that
+the duchies belonged constitutionally to each other, and therefore not to Denmark. In 1841 a doctor
+in Aabenraa named A.W. Neuber put it into a poem. Sung at a song festival in 1845, it spread through
+the duchies on pipe-bowls, handkerchiefs and lithographs in the modern Low German form
+<i class="dk">up ewig ungedeelt</i>, and from there into the rising of 1848, the war that followed,
+and eventually 1864.</p>
+
+<p>Two things are worth saying about that, and this page will not adjudicate between them. The
+first is that the modern slogan is not the medieval sentence: <i class="dk">up ewig ungedeelt</i> is
+Neuber's 1841 phrasing of <i class="dk">ewich tosamende ungedelt</i>. The second is what the
+original clause meant. The older reading — territorial indivisibility, the two lands never to be
+separated — is the one the nineteenth century needed. Most historians now read it more narrowly:
+either as a promise that the lordship would not be split among heirs, or, as Carsten Jahnke has
+argued, as a conventional land-peace formula, a promise of internal peace and nothing more. The 1490
+partition is a strong argument for the narrow reading.</p>
+
+<p>Either way, the practical consequence of 1460 is not in dispute, and it is the thread this series
+follows to 1920. A Danish king now ruled a German-speaking territory under German law, joined to a
+Danish-speaking one under Danish law, both of them separate from the kingdom he was elected to rule.
+Nothing about that arrangement had an answer to the question that the nineteenth century was going
+to ask: which nation do these people belong to?</p>
+
+<div class="check">
+  <h4>Checkpoint</h4>
+  <ul>
+    <li>Who elected Christian 1. duke of Schleswig and count of Holstein in 1460, and what did they get for it?</li>
+    <li>Whose law said what about inheriting a duchy through a woman — and which law actually decided the outcome?</li>
+    <li>What is the difference between the 1460 clause and the nineteenth-century slogan, and who made the second out of the first?</li>
+  </ul>
+</div>
+
+<h2 id="s04"><span class="n">04 / NARRATIVE</span>A dowry never paid</h2>
+
+<div class="terms">
+  <h4>Danish terms in this section</h4>
+  <dl>
+    <div class="t"><dt>pant</dt><dd>A pledge: property handed over as security for a debt, redeemable
+      on payment. Chapter 14's mechanism, applied here to two archipelagos.</dd></div>
+    <div class="t"><dt>skattland</dt><dd>Tributary land, from chapter 16. Orkney and Shetland had
+      been Norwegian since the Viking Age and came to Denmark through Norway.</dd></div>
+  </dl>
+</div>
+
+<p>In 1468 Christian 1. married his daughter Margaret to James 3. of Scotland. The dowry was set at
+60,000 Rhenish florins, which he did not have.</p>
+
+<p>He paid a small part in cash and pledged Orkney against 50,000 of the remainder. The following
+year, still short, he pledged Shetland against a further 8,000. Both pledges were redeemable — this
+was a mortgage, not a sale, and Danish and Norwegian sovereigns raised the question of redemption
+repeatedly over the following centuries.</p>
+
+<p>Nobody ever paid. The islands were annexed to the Scottish crown in 1472, and Norse law and the
+Norn language faded out of them over the next two hundred years. It is the quietest territorial loss
+in the whole series: no battle, no treaty of cession, no date on which anyone decided. A king short
+of cash for a wedding pledged two island groups that had been Norwegian for five hundred years, and
+the redemption clause was never exercised.</p>
+
+<p>The map at section 08 shows what this looks like. In chapter 16 the western panel filled for the
+first time and Orkney and Shetland were in it. In 1500 they are simply not coloured, and the run of
+the Danish realm in the North Atlantic is one archipelago shorter for the rest of the series.</p>
+
+<h2 id="s05"><span class="n">05 / NARRATIVE</span>Brunkeberg, 1471</h2>
+
+<div class="terms">
+  <h4>Danish terms in this section</h4>
+  <dl>
+    <div class="t"><dt>rigsforstander</dt><dd>Regent — the office Sweden used for fifty years rather
+      than admit either a Danish king or a Swedish one. Sten Sture the Elder held it, on and off,
+      from 1470 to 1503.</dd></div>
+    <div class="t"><dt>unionsvenner</dt><dd>'Union friends': the Swedish party, largely aristocratic
+      and clerical, that preferred a Danish king to a Swedish regent. Sweden's argument in this
+      period is as much internal as national.</dd></div>
+  </dl>
+</div>
+
+<p>Christian 1. had been accepted in Sweden in 1457 and expelled in 1464. In 1471 he came back with
+a fleet and an army to take it again, and on 10 October he was beaten outside Stockholm, at
+Brunkeberg, by a Swedish force under Sten Sture the Elder. The king was wounded in the mouth,
+losing teeth, and shipped home.</p>
+
+<p>Brunkeberg matters more for what was made of it than for what happened. Sten Sture commissioned
+for Stockholm's Storkyrkan a great wooden Saint George and the Dragon, carved by Bernt Notke of
+Lübeck and set up in 1489: the saint is Sweden, the dragon is Denmark, and the princess is Stockholm.
+It is one of the most impressive objects of the northern Middle Ages and it is a piece of political
+argument in oak and elk-horn. Sweden was learning to tell a story about itself in which Denmark was
+the antagonist, and it had fifty years of material to work with before the story acquired its
+ending.</p>
+
+<p>For the next half-century the pattern holds. Sweden is governed by regents of the Sture party;
+Danish kings are periodically accepted and periodically thrown out; the Swedish council manoeuvres
+between the two, as chapter 18 saw it learn to do. Kong Hans got the crown back in 1497 after
+beating Sten Sture at Rotebro, and lost it again in 1501, at which point his queen Christina held
+Stockholm castle through a siege of many months before surrendering.</p>
+
+<div class="meanwhile">
+<h4>Meanwhile in Europe</h4>
+<p>The 1460s and 1470s are the decades in which the medieval political map stops being medieval.
+Constantinople had fallen in 1453 and by 1463 the Ottomans were in Bosnia and at war with Venice.
+England spent the period in the Wars of the Roses, deposing and restoring the same king twice.
+France under Louis 11. was assembling the territories that made it the strongest monarchy in Europe,
+and in 1477 the Burgundian state — the richest and most cultured in the north — collapsed when
+Charles the Bold was killed at Nancy, its lands passing by marriage to the Habsburgs. That marriage
+is why Denmark's Christian 2. later has an emperor for a brother-in-law.</p>
+<p>Meanwhile printing spread from Mainz across the continent in a single generation: Cologne 1466,
+Lübeck 1475, Odense by 1482. Christian 1.'s university of 1479 belongs to a European wave, and it
+is the same technology and the same wave that carries Luther's argument north forty years
+later.</p>
+</div>
+
+<h2 id="s06"><span class="n">06 / NARRATIVE</span>A fleet, a university, and a bound peasantry</h2>
+
+<div class="terms">
+  <h4>Danish terms in this section</h4>
+  <dl>
+    <div class="t"><dt>vornedskab</dt><dd>The obligation binding a peasant on Zealand and the
+      islands to remain on the estate where he was born, and to take a farm when the lord required
+      it. It does not apply in Jutland. Abolished in 1702.</dd></div>
+    <div class="t"><dt>orlogsflåde</dt><dd>A standing war fleet, as distinct from ships requisitioned
+      when needed. Hans built one, and it is the ancestor of the navy of chapters 22 and 24.</dd></div>
+    <div class="t"><dt>universitet</dt><dd>Copenhagen's, founded 1479 by papal licence: four
+      faculties, a handful of teachers, and the beginning of a Danish learned class.</dd></div>
+  </dl>
+</div>
+
+<p>Between Brunkeberg and Ditmarschen the Danish state was doing better than its foreign policy
+suggests, and three developments in particular reach forward.</p>
+
+<p>In 1479 Christian 1. founded a university at Copenhagen, on papal licence obtained during his
+journey to Rome in 1474. It was small and it struggled. It matters because until then every educated
+Dane had studied abroad — at Paris, Cologne, Erfurt, Leipzig, Rostock — and the men who bring
+Lutheranism home in chapter 20 are precisely the ones who went to Wittenberg. A domestic university
+did not stop that. It did mean there was somewhere for the argument to be had.</p>
+
+<p>Kong Hans, who succeeded in 1481, built a permanent war fleet, hired Scottish and Dutch captains,
+and used it — against Sweden, and in the war with Lübeck of 1509–12, which Denmark won and which
+ended a century in which the towns had dictated terms. He also protected the market towns and
+encouraged Dutch merchants, on the reasonable view that a king with his own ships and his own
+burghers was less dependent on both his nobility and the Hanse.</p>
+
+<p>And in the same decades the Danish peasantry on Zealand and the islands was formally bound.
+<i class="dk">Vornedskab</i> tied a man to the estate on which he was born: he could not leave
+without permission, and could be required to take over a vacant farm. It is the endpoint of the
+process chapter 17 described — deserted farms, landlords needing tenants, an aristocracy building
+estates and an export trade — and it is the answer to a labour shortage by law rather than by wages.
+Jutland, where the peasantry stayed free of it, is on the other side of the country from the
+capital, and the difference in tenure between east and west Denmark outlasts everything else in this
+chapter.</p>
+<h2 id="s07"><span class="n">07 / NARRATIVE</span>Hemmingstedt, 17 February 1500</h2>
+
+<div class="terms">
+  <h4>Danish terms in this section</h4>
+  <dl>
+    <div class="t"><dt>Ditmarsken</dt><dd>Dithmarschen: the marsh country between the Eider and the
+      Elbe, self-governing, without a lord, under its own written law from 1447. Usually called a
+      peasant republic, which overstates it slightly and captures it well enough.</dd></div>
+    <div class="t"><dt>Den Store Garde</dt><dd>The Great Guard, sometimes called the Saxon Guard: a
+      professional mercenary corps of about four thousand under Thomas Slentz.</dd></div>
+    <div class="t"><dt>Dannebrog</dt><dd>The Danish banner. The one carried in 1500 was believed to
+      be very old. It was lost here, and the legend of its miraculous origin is first written down
+      shortly afterwards — an order of events the myth-check returns to.</dd></div>
+  </dl>
+</div>
+
+<p>Ditmarschen had no lord anyone could find. It lay formally under the archbishop of Bremen, who
+did not govern it; it was run by its own parishes and its own law, codified in Low German in 1447
+and printed at Lübeck around 1487. Chapter 17 noted that it had killed Gerhard 6. of Holstein in
+1404; it had beaten a Holstein count in 1309 as well. The Emperor had enfeoffed Christian 1. with it
+in 1473, which changed nothing on the ground.</p>
+
+<p>In February 1500 Kong Hans and his brother Duke Frederik went to collect. The army was the
+largest and best-equipped that had ever been assembled in the region: the knighthood of both
+duchies, Danish nobles and levies, artillery, north German nobility, and the Great Guard. Perhaps
+twelve thousand men in all, with a baggage train sized for the plunder. They took Meldorf on
+14 February.</p>
+
+<figure>
+<svg viewBox="0 0 900 430" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Schematic of the battle of Hemmingstedt on 17 February 1500. A royal army of about twelve thousand advances along a single raised road through the marsh towards Heide. The Ditmarschers block the road with an earth bank, attack the head of the column from both sides, and open the sluices so that the marsh floods. Some four thousand of the royal army die, many by drowning.">
+  <rect x="0" y="0" width="900" height="430" fill="#F0F2EE"/>
+  <text x="26.0" y="34.0" class="mapt" fill="#2E6B5E" text-anchor="start">17 FEBRUARY 1500</text>
+  <text x="26" y="62" style="font-family:'Iowan Old Style',Palatino,Georgia,serif;font-size:19px;fill:#221E18">One road, and no room to turn round.</text>
+  <rect x="26" y="92" width="848" height="180" fill="#B9CDD6" fill-opacity=".55"/>
+  <text x="40.0" y="112.0" class="mapx" fill="#6C6E63" text-anchor="start">MARSH — below sea level, drained, and diked</text>
+  <rect x="26" y="170" width="848" height="26" fill="#D6DBCE" fill-opacity=".35"/>
+  <line x1="26" y1="170" x2="874" y2="170" stroke="#9CA294" stroke-width="1"/>
+  <line x1="26" y1="196" x2="874" y2="196" stroke="#9CA294" stroke-width="1"/>
+  <rect x="60" y="176" width="34" height="14" fill="#2E6B5E" fill-opacity=".85"/>
+  <rect x="106" y="176" width="34" height="14" fill="#2E6B5E" fill-opacity=".85"/>
+  <rect x="152" y="176" width="34" height="14" fill="#2E6B5E" fill-opacity=".85"/>
+  <rect x="198" y="176" width="34" height="14" fill="#2E6B5E" fill-opacity=".85"/>
+  <rect x="244" y="176" width="34" height="14" fill="#2E6B5E" fill-opacity=".85"/>
+  <rect x="290" y="176" width="34" height="14" fill="#2E6B5E" fill-opacity=".85"/>
+  <rect x="336" y="176" width="34" height="14" fill="#2E6B5E" fill-opacity=".85"/>
+  <rect x="382" y="176" width="34" height="14" fill="#2E6B5E" fill-opacity=".85"/>
+  <rect x="428" y="176" width="34" height="14" fill="#2E6B5E" fill-opacity=".85"/>
+  <text x="60.0" y="164.0" class="mapx" fill="#6C6E63" text-anchor="start">the royal army, about 12,000, strung out along the causeway</text>
+  <text x="60.0" y="216.0" class="mapx" fill="#6C6E63" text-anchor="start">Meldorf, taken 14 February</text>
+  <rect x="516" y="150" width="16" height="66" fill="#8A2B2B" fill-opacity=".9"/>
+  <text x="524.0" y="142.0" class="mapl" fill="#8A2B2B" text-anchor="middle">the bank</text>
+  <text x="524.0" y="288.0" class="mapx" fill="#8A2B2B" text-anchor="middle">thrown up overnight</text>
+  <line x1="470" y1="128" x2="480" y2="162" stroke="#8A2B2B" stroke-width="1.6" opacity=".85"/>
+  <line x1="500" y1="128" x2="510" y2="162" stroke="#8A2B2B" stroke-width="1.6" opacity=".85"/>
+  <line x1="560" y1="128" x2="570" y2="162" stroke="#8A2B2B" stroke-width="1.6" opacity=".85"/>
+  <line x1="590" y1="128" x2="600" y2="162" stroke="#8A2B2B" stroke-width="1.6" opacity=".85"/>
+  <line x1="470" y1="238" x2="480" y2="204" stroke="#8A2B2B" stroke-width="1.6" opacity=".85"/>
+  <line x1="500" y1="238" x2="510" y2="204" stroke="#8A2B2B" stroke-width="1.6" opacity=".85"/>
+  <line x1="560" y1="238" x2="570" y2="204" stroke="#8A2B2B" stroke-width="1.6" opacity=".85"/>
+  <line x1="590" y1="238" x2="600" y2="204" stroke="#8A2B2B" stroke-width="1.6" opacity=".85"/>
+  <text x="620.0" y="132.0" class="mapx" fill="#8A2B2B" text-anchor="start">Ditmarschers, perhaps 2,000</text>
+  <text x="620.0" y="258.0" class="mapx" fill="#8A2B2B" text-anchor="start">sluices opened — the marsh floods</text>
+  <text x="874" y="188" class="mapl" fill="#6C6E63" text-anchor="end">to Heide →</text>
+  <line x1="26" y1="300" x2="874" y2="300" stroke="#C9CDC4" stroke-width=".8"/>
+  <text x="26.0" y="326.0" class="mapl" fill="#2E6B5E" text-anchor="start">The force</text>
+  <text x="150.0" y="326.0" class="mapx" fill="#6C6E63" text-anchor="start">Danish and Holstein nobility, levies from both, and the Great Guard — 4,000 mercenaries under Thomas Slentz</text>
+  <text x="26.0" y="350.0" class="mapl" fill="#2E6B5E" text-anchor="start">The ground</text>
+  <text x="150.0" y="350.0" class="mapx" fill="#6C6E63" text-anchor="start">A single raised road through drained marsh in February. Artillery went into the ditch and stayed there</text>
+  <text x="26.0" y="374.0" class="mapl" fill="#2E6B5E" text-anchor="start">The loss</text>
+  <text x="150.0" y="374.0" class="mapx" fill="#6C6E63" text-anchor="start">Around 4,000 dead, many drowned. Eleven of the Ahlefeldt family, six of the Buchwald. Ditmarschen lost under 100</text>
+  <text x="26.0" y="398.0" class="mapl" fill="#2E6B5E" text-anchor="start">The banner</text>
+  <text x="150.0" y="398.0" class="mapx" fill="#6C6E63" text-anchor="start">The royal Dannebrog was taken. Frederik 2. got it back in 1559, ‘almost destroyed by damp and age’</text>
+  </svg>
+<figcaption><b>Figure 2 · One road, and no room to turn round</b>
+Not a coastline map, because the coastline had nothing to do with it. What decided the
+battle was a single raised road across drained marsh, a bank thrown up overnight, and the
+sluices.</figcaption>
+</figure>
+
+<p>Three days later the column was moving on Heide along a single causeway through the marsh, in
+February, with thaw and rain. It found the road blocked by an earth bank. The Ditmarschers — perhaps
+two thousand, under a local man named Wulf Isebrand — attacked the head of the column from both
+sides, where the flanks could not deploy and the artillery went into the ditch. Then they opened the
+sluices.</p>
+
+<p>Behind the fighting, thousands of men who could not see what was happening kept pressing forward
+along the causeway. The Guard broke. The retreat became a rout through flooding marsh, and men in
+armour drowned in it. Perhaps four thousand of the royal army died; Ditmarschen lost fewer than a
+hundred. Eleven members of the Ahlefeldt family died on the field, six of the Buchwalds. The
+knighthood that had elected Christian 1. at Ribe forty years earlier lost a generation in an
+afternoon.</p>
+
+<div class="vig">
+<h4>Vignette · Hans von Ahlefeldt, on the causeway near Hemmingstedt</h4>
+<p>He was born about 1440 and he is carrying the banner. That is the honour and it is the position
+at the head of the column, in front of the Guard, on a road eight metres wide with water on both
+sides.</p>
+<p>When the column stops he is at the point where it stops. He is killed there, with six squires
+around him, and the Dannebrog goes down with him — wrapped around him, according to the account
+that comes down to us.</p>
+<p>The Ditmarschers took it, along with the other banners, and hung it in a church at Wöhrden. It
+stayed there for fifty-nine years, until Frederik 2. conquered Ditmarschen in 1559 and demanded it
+back. He got it, and hung it in Slesvig cathedral, where it was reported to be already
+<em>almost destroyed by damp and age</em>. The last of it seems to have perished around 1660.</p>
+<p>So the oldest flag in Europe, if that is what it was, exists now only in descriptions of its
+decay. What replaced it is the story: that this banner had fallen from the sky in Estonia in 1219,
+in chapter 13, and that Denmark had been carrying the same cloth ever since.</p>
+<p class="who">Hans von Ahlefeldt, knight, standard-bearer · the causeway near Hemmingstedt ·
+17 February 1500</p>
+</div>
+
+<div class="check">
+  <h4>Checkpoint</h4>
+  <ul>
+    <li>How did Orkney and Shetland leave the Danish realm, and in which years?</li>
+    <li>What was the ground at Hemmingstedt, and what did the Ditmarschers do with it?</li>
+    <li>What was lost with Hans von Ahlefeldt, and why does chapter 13 care?</li>
+  </ul>
+</div>
+
+<h2 id="s08"><span class="n">08 / NARRATIVE</span>Denmark in 1500</h2>
+
+<div class="terms">
+  <h4>Danish terms in this section</h4>
+  <dl>
+    <div class="t"><dt>købstad</dt><dd>A market town with a royal charter and a monopoly on trade in
+      its district. There were something over eighty of them, and most were tiny.</dd></div>
+    <div class="t"><dt>herremand</dt><dd>A nobleman holding a manor — the class that had assembled
+      its estates out of chapter 17's deserted farms and was now exporting oxen.</dd></div>
+  </dl>
+</div>
+
+<figure>
+<svg viewBox="0 0 660 700" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Territorial map of 1500. Denmark, Norway and Sweden under King Hans, with Sweden recovered in 1497 and lost again in 1501; the duchies of Schleswig and Holstein now held by the king himself; Ditmarschen claimed but not held; Gotland Danish. The western panel carries Iceland and the Faroes as dependencies and Greenland as a claim, while Orkney and Shetland have gone to Scotland.">
+  <rect x="0" y="0" width="660" height="700" fill="#B9CDD6" opacity=".7"/>
+  <path d="M437.5 487.6 L438.9 488.3 L440.1 488.0 L441.3 487.2 L444.1 487.6 L450.9 491.5 L447.9 493.5 L446.3 496.0 L445.3 496.4 L443.6 498.5 L441.3 500.6 L436.4 501.9 L434.0 502.8 L432.2 505.1 L431.7 509.1 L430.5 512.3 L429.1 513.6 L427.6 513.9 L427.2 511.6 L430.1 506.9 L429.0 504.9 L427.5 503.5 L424.4 501.9 L425.1 499.9 L426.0 497.2 L423.4 493.3 L424.6 492.6 L426.0 492.6 L427.6 493.7 L429.2 492.2 L431.1 492.3 L432.1 489.6 L434.8 488.4 L436.1 487.5 L437.5 487.6 Z M370.7 520.5 L369.1 521.5 L368.2 524.1 L366.9 524.6 L365.7 525.5 L365.5 533.7 L367.9 536.7 L366.6 537.2 L365.4 538.2 L363.9 542.6 L360.7 544.4 L359.5 545.6 L357.8 548.5 L356.9 552.5 L355.2 554.3 L353.1 554.7 L354.2 551.3 L355.8 548.6 L354.2 546.9 L353.2 543.9 L352.0 541.8 L352.9 539.3 L352.4 535.3 L352.4 531.3 L353.7 529.2 L355.3 527.6 L357.6 523.8 L360.2 521.0 L363.7 519.7 L365.4 520.8 L366.0 518.3 L367.2 517.7 L368.3 518.2 L370.7 520.5 Z M238.0 593.6 L237.8 597.4 L236.4 599.1 L234.2 599.6 L232.4 600.6 L230.6 602.3 L229.9 604.9 L230.9 606.9 L233.2 608.1 L233.5 611.9 L231.4 613.5 L226.4 614.9 L225.6 619.3 L225.5 622.7 L225.2 625.2 L224.6 628.6 L220.5 629.9 L218.3 624.4 L218.4 622.3 L217.8 619.8 L217.9 617.7 L217.3 614.3 L213.6 613.1 L212.1 612.8 L210.0 613.2 L207.5 608.1 L208.4 603.1 L207.4 600.5 L207.5 598.0 L206.5 596.9 L205.2 596.2 L204.9 593.3 L206.4 592.8 L210.0 593.4 L211.1 593.3 L215.4 588.4 L215.9 586.1 L219.0 585.8 L220.3 587.7 L219.8 590.7 L219.7 594.3 L221.5 595.5 L223.2 593.1 L224.7 591.1 L225.2 588.6 L224.0 585.9 L227.8 583.0 L231.7 580.9 L233.9 580.9 L236.0 581.6 L237.9 582.6 L239.0 583.4 L238.0 587.2 L238.0 593.6 Z M197.5 596.8 L198.2 598.8 L198.9 603.0 L200.2 607.7 L199.2 609.6 L199.5 612.0 L198.8 614.6 L195.1 617.2 L191.2 617.0 L187.4 615.2 L182.1 611.7 L181.2 609.3 L180.2 604.4 L180.9 598.5 L183.8 598.1 L190.1 596.0 L191.4 596.5 L192.8 598.2 L194.5 598.4 L197.1 596.6 L197.5 596.8 Z M660.0 0.0 L660.0 700.0 L45.2 700.0 L46.8 698.2 L49.5 693.7 L54.7 680.8 L55.9 678.6 L57.6 676.3 L59.1 677.1 L64.2 676.8 L71.6 673.1 L74.3 669.1 L76.6 667.5 L84.7 664.9 L89.0 664.4 L95.4 665.2 L100.2 665.3 L105.7 665.9 L107.5 668.6 L108.4 670.6 L110.2 671.9 L113.2 673.0 L110.5 669.1 L111.6 665.4 L112.7 662.7 L115.4 659.4 L117.3 658.7 L124.9 659.2 L133.1 660.7 L135.8 666.5 L134.1 669.1 L135.9 670.7 L138.0 668.0 L138.9 665.4 L142.0 667.1 L142.2 673.0 L143.9 667.1 L143.8 662.8 L144.8 658.9 L146.2 656.8 L153.1 657.9 L159.9 657.9 L162.2 659.8 L167.0 668.4 L168.8 669.9 L171.2 670.5 L168.1 668.5 L162.2 658.1 L160.3 656.7 L157.2 656.0 L155.2 654.8 L154.2 653.1 L155.3 642.2 L154.3 640.7 L152.8 640.0 L149.8 640.3 L149.7 638.1 L154.5 635.9 L157.2 634.8 L157.7 632.2 L156.2 629.9 L154.8 626.0 L153.0 622.1 L153.4 614.9 L153.3 612.7 L152.3 609.3 L154.5 608.8 L154.9 602.4 L154.6 598.9 L149.4 594.8 L145.4 591.0 L148.0 580.1 L148.8 577.2 L147.9 571.2 L149.0 564.6 L151.1 554.2 L152.6 554.0 L153.6 554.2 L157.2 556.6 L158.7 557.0 L159.6 558.8 L160.8 559.7 L162.8 555.0 L166.3 551.5 L168.6 550.3 L170.2 549.8 L171.4 551.5 L172.4 553.4 L173.1 549.6 L174.9 542.3 L172.2 540.7 L169.7 541.4 L166.8 545.8 L163.9 551.5 L160.5 551.6 L157.6 553.0 L155.3 550.9 L154.0 549.1 L154.3 546.9 L158.3 541.1 L162.7 537.0 L166.5 537.6 L169.5 536.4 L171.2 536.5 L176.3 537.4 L179.2 536.7 L181.8 534.8 L188.0 526.5 L191.3 523.0 L197.2 522.3 L203.0 518.5 L204.6 518.6 L201.7 521.6 L200.7 524.7 L202.1 529.0 L201.5 531.6 L201.1 536.5 L199.1 539.0 L196.5 544.3 L194.8 551.5 L193.9 558.9 L195.7 561.5 L197.7 563.0 L204.9 563.7 L206.3 566.7 L205.4 569.8 L204.4 572.0 L202.1 573.8 L199.2 575.0 L197.5 574.9 L195.5 571.8 L194.4 572.6 L193.1 574.0 L190.4 581.3 L189.0 586.4 L187.4 585.9 L185.6 585.7 L183.2 586.6 L184.2 587.8 L185.3 589.9 L182.5 591.6 L180.4 593.4 L176.9 596.5 L175.2 598.7 L175.6 601.7 L175.6 604.3 L175.9 607.2 L175.1 609.4 L171.8 612.3 L170.4 615.1 L172.9 615.3 L174.4 616.1 L176.0 618.4 L175.6 624.3 L178.5 625.6 L179.7 627.3 L180.9 629.8 L180.7 633.3 L178.5 635.5 L176.8 636.9 L182.8 637.0 L183.9 640.0 L187.2 639.3 L194.7 644.6 L199.8 642.9 L201.0 642.8 L201.8 646.6 L200.2 650.1 L195.5 653.6 L196.3 656.2 L197.6 656.8 L201.7 656.7 L207.9 659.6 L209.3 659.0 L215.0 653.9 L217.1 653.0 L224.0 652.6 L225.5 650.6 L228.3 648.7 L230.3 646.5 L234.9 642.3 L239.1 643.4 L241.6 644.4 L244.5 645.0 L246.7 649.9 L252.9 655.5 L258.9 655.4 L260.8 660.4 L261.4 666.7 L263.2 668.7 L264.8 670.0 L269.7 671.5 L274.8 673.9 L276.8 675.2 L276.3 672.7 L276.5 668.4 L272.1 666.9 L268.2 666.2 L265.5 666.5 L262.8 665.8 L262.4 663.5 L263.0 661.4 L261.9 659.9 L260.9 657.7 L265.5 660.1 L269.2 663.4 L272.9 664.5 L280.2 661.3 L292.8 657.2 L306.2 653.2 L309.3 652.8 L312.4 652.0 L313.5 650.5 L314.7 649.4 L316.5 646.6 L320.5 642.3 L327.6 640.8 L330.2 638.7 L335.6 635.8 L348.0 632.5 L353.1 631.7 L358.2 631.6 L362.8 634.0 L367.6 637.0 L368.6 638.9 L365.9 637.7 L362.1 635.0 L360.7 634.9 L364.2 643.4 L365.9 646.4 L369.6 648.6 L372.7 649.3 L381.9 647.6 L385.2 645.7 L389.2 641.4 L391.3 638.0 L392.8 633.6 L392.9 630.7 L393.2 627.3 L396.0 625.8 L402.1 625.7 L404.7 624.0 L407.8 619.8 L411.1 614.9 L412.1 612.7 L414.2 608.4 L415.0 605.6 L415.3 601.6 L415.9 605.0 L414.7 610.3 L411.5 616.6 L406.3 624.4 L408.1 625.3 L410.2 625.5 L412.7 626.7 L415.0 626.8 L419.0 625.4 L419.3 618.9 L419.1 612.9 L418.3 610.2 L418.8 606.1 L417.0 600.2 L414.3 593.1 L413.6 585.4 L412.3 576.7 L411.8 562.8 L412.1 555.9 L415.6 551.6 L417.2 548.4 L418.0 544.2 L418.1 540.2 L418.6 537.1 L423.3 527.5 L427.5 526.2 L433.0 523.2 L439.1 520.6 L440.6 523.2 L441.4 525.1 L449.7 531.9 L451.9 534.3 L455.7 542.6 L463.3 546.2 L468.9 544.2 L471.1 541.8 L475.2 537.4 L476.8 534.3 L477.0 531.6 L474.8 520.0 L473.1 515.0 L473.1 511.8 L474.8 502.8 L474.7 497.1 L475.7 495.4 L475.0 493.6 L472.3 492.8 L471.3 493.1 L470.5 495.1 L469.7 496.6 L467.5 497.8 L465.3 496.5 L460.4 495.0 L458.9 492.5 L458.4 489.9 L455.7 487.6 L454.4 484.6 L454.6 482.5 L456.6 480.9 L454.4 480.1 L451.9 475.2 L452.8 473.6 L452.2 471.1 L452.8 468.2 L452.1 465.0 L454.6 463.0 L457.2 461.6 L462.7 460.3 L461.8 457.5 L464.1 457.1 L467.5 453.1 L471.3 453.3 L476.5 450.2 L487.0 448.9 L488.2 447.3 L487.6 444.5 L489.6 444.6 L492.9 443.9 L505.6 445.1 L508.6 444.6 L513.2 447.0 L515.6 447.4 L522.3 446.4 L532.8 446.0 L534.5 443.6 L535.1 440.4 L534.1 437.0 L533.1 434.4 L533.5 432.2 L534.9 431.7 L536.7 433.7 L539.1 434.5 L540.5 432.7 L540.5 429.7 L541.5 428.2 L543.2 429.1 L545.9 429.0 L548.1 428.5 L549.4 427.6 L550.1 424.7 L550.9 422.3 L551.9 420.7 L561.6 420.5 L570.4 421.7 L570.7 418.6 L568.3 417.4 L566.6 416.8 L564.0 413.8 L560.8 411.6 L558.0 411.9 L554.7 413.6 L549.1 414.0 L543.6 409.8 L540.3 408.8 L537.4 405.3 L536.5 403.3 L539.1 404.7 L539.1 402.8 L538.9 400.2 L537.3 399.0 L536.0 398.3 L530.7 403.2 L524.2 405.6 L522.1 407.4 L519.6 408.1 L518.6 409.2 L514.3 407.2 L511.3 408.2 L509.5 410.4 L505.4 411.6 L503.4 412.6 L502.3 413.7 L501.7 411.6 L501.9 408.8 L502.5 406.9 L500.8 408.7 L500.6 411.9 L499.5 413.7 L496.4 414.8 L493.1 412.7 L491.6 412.9 L492.7 414.6 L493.6 416.5 L492.1 417.6 L490.4 419.0 L489.0 421.0 L486.9 418.8 L485.1 420.2 L483.6 421.9 L480.3 422.8 L478.5 425.0 L475.1 426.9 L473.1 427.1 L468.8 429.2 L467.6 431.9 L466.4 432.9 L464.4 432.4 L458.8 434.2 L453.4 436.4 L451.0 436.6 L448.6 436.1 L446.3 438.6 L444.0 441.9 L441.1 443.2 L440.0 442.9 L442.5 439.5 L443.6 437.1 L442.7 434.7 L441.4 434.6 L439.6 432.8 L437.8 428.9 L436.6 429.9 L436.4 433.1 L435.3 434.8 L434.4 435.6 L433.5 436.0 L430.1 436.3 L429.5 434.1 L429.9 432.0 L429.7 429.9 L431.4 429.7 L431.7 427.8 L430.4 427.7 L431.2 424.0 L430.1 423.5 L425.3 423.0 L419.1 419.8 L417.7 419.7 L416.5 416.5 L415.2 417.0 L413.3 419.1 L411.6 417.8 L409.9 417.0 L409.2 413.3 L408.9 410.7 L408.3 407.7 L407.7 403.4 L407.8 400.0 L408.9 397.5 L409.5 391.7 L409.4 387.0 L409.0 384.3 L410.0 384.2 L408.6 381.8 L410.2 381.1 L409.2 377.6 L407.4 372.4 L405.7 368.7 L403.3 366.1 L403.8 361.5 L404.4 357.4 L404.1 355.4 L403.6 353.1 L400.8 350.7 L400.1 347.0 L399.3 343.0 L399.3 340.6 L399.6 338.7 L400.4 336.8 L404.4 330.7 L404.4 327.6 L407.4 327.2 L405.8 324.6 L405.2 321.3 L409.3 319.7 L411.0 320.6 L414.5 319.1 L417.6 316.4 L416.9 314.0 L416.0 311.9 L417.7 311.5 L417.0 309.4 L418.4 309.7 L420.2 306.3 L420.0 303.8 L423.6 302.1 L427.3 296.7 L429.0 295.0 L430.8 293.7 L434.3 288.2 L435.9 287.8 L436.4 284.3 L439.3 279.4 L440.2 278.7 L441.3 274.5 L444.8 269.3 L446.6 263.0 L447.8 260.7 L448.0 258.4 L449.5 258.0 L450.7 256.1 L453.6 254.6 L456.6 254.6 L457.9 255.2 L459.0 254.8 L458.7 252.8 L457.7 251.6 L459.6 249.2 L459.2 247.2 L457.2 244.6 L457.4 240.8 L457.0 236.8 L457.0 232.1 L455.1 229.9 L448.5 226.5 L447.4 226.8 L446.0 226.4 L444.2 223.4 L444.5 220.6 L443.2 221.2 L441.4 222.9 L438.8 222.0 L437.6 222.4 L433.8 223.6 L430.6 222.3 L429.2 223.3 L426.6 223.6 L423.7 224.5 L422.8 226.0 L422.1 226.6 L419.2 225.0 L416.3 222.1 L414.6 224.6 L413.4 225.2 L412.1 223.2 L411.1 222.9 L410.4 225.5 L409.8 227.1 L409.9 231.9 L407.2 232.5 L408.3 234.6 L407.4 235.5 L404.8 235.5 L405.5 237.8 L404.5 239.6 L401.6 240.6 L399.8 240.5 L399.7 243.3 L400.5 243.8 L400.8 245.8 L398.2 243.8 L399.3 246.6 L400.7 249.5 L398.6 255.2 L396.8 257.9 L395.4 260.4 L394.7 262.9 L395.8 264.1 L397.1 265.9 L398.1 269.3 L399.3 272.4 L401.5 275.2 L400.9 278.3 L397.8 281.5 L394.3 286.2 L390.8 297.8 L389.5 299.4 L386.0 301.5 L384.8 303.5 L382.2 305.8 L377.5 307.9 L375.5 310.7 L374.7 313.5 L373.5 313.7 L372.4 312.7 L371.0 311.9 L371.0 315.1 L368.6 313.2 L367.6 315.0 L366.8 318.0 L363.6 322.2 L360.0 321.6 L360.8 323.4 L359.1 323.8 L357.6 324.6 L356.6 324.5 L356.2 326.4 L355.5 328.8 L353.4 329.8 L352.4 330.0 L355.0 331.6 L354.8 333.7 L350.9 336.8 L349.7 339.0 L348.0 339.0 L345.9 337.4 L345.2 335.5 L345.0 337.6 L346.4 341.6 L345.3 343.8 L347.0 345.0 L346.0 346.8 L344.1 349.6 L342.2 349.7 L341.0 351.5 L339.7 351.5 L338.6 350.4 L337.0 349.4 L336.3 352.4 L337.3 355.8 L339.1 358.4 L340.9 359.5 L339.6 360.3 L338.7 362.0 L337.7 367.3 L337.1 369.4 L336.5 373.0 L336.9 376.1 L338.1 379.7 L335.8 379.5 L333.4 378.3 L333.8 380.7 L332.3 383.7 L332.5 386.3 L332.4 390.8 L333.5 393.4 L333.2 395.7 L333.3 399.5 L333.8 405.3 L335.0 411.7 L334.7 413.6 L334.5 415.9 L336.5 418.0 L338.3 418.0 L340.0 417.9 L341.4 420.0 L341.9 421.9 L343.4 421.7 L345.7 420.2 L347.2 419.8 L348.3 422.7 L351.1 426.4 L352.7 428.1 L355.5 428.9 L358.4 431.9 L358.1 435.6 L359.3 436.9 L362.7 438.2 L364.0 440.1 L365.6 443.1 L366.8 447.3 L366.5 449.9 L365.1 450.9 L361.9 453.8 L360.5 455.9 L359.4 457.2 L356.2 460.0 L355.0 460.6 L353.8 462.0 L352.8 462.7 L351.8 462.3 L348.1 465.0 L351.2 466.5 L352.7 465.9 L353.8 464.6 L355.0 464.3 L356.1 464.5 L357.3 463.5 L358.2 463.0 L359.2 463.5 L360.3 465.9 L358.1 467.3 L356.6 467.4 L355.9 471.5 L354.9 473.2 L350.8 475.9 L348.4 478.1 L345.7 479.9 L344.5 479.5 L342.7 481.4 L338.7 483.5 L336.6 486.4 L331.9 489.0 L329.6 491.0 L323.1 491.1 L316.9 490.6 L314.9 491.6 L316.9 491.9 L318.3 493.0 L320.0 492.5 L323.9 493.1 L325.9 493.6 L328.6 497.0 L326.6 498.2 L323.3 499.1 L324.5 504.0 L325.6 507.2 L324.2 509.2 L324.0 518.2 L322.1 518.3 L321.3 522.0 L321.9 523.9 L321.8 528.3 L322.2 531.0 L323.1 533.5 L322.7 536.1 L319.5 542.2 L319.6 545.0 L320.6 549.4 L319.1 554.6 L318.0 559.0 L316.8 562.6 L314.1 567.0 L312.7 570.3 L309.4 580.5 L307.8 582.5 L305.9 584.0 L303.8 582.6 L301.8 581.7 L299.4 581.8 L295.6 582.8 L289.9 581.9 L284.4 582.1 L283.0 583.1 L283.7 586.8 L281.6 587.3 L279.7 586.1 L277.9 587.3 L276.3 588.7 L273.3 591.8 L272.2 593.8 L271.8 597.6 L273.2 601.1 L274.4 605.2 L270.7 609.9 L268.7 609.9 L263.1 608.4 L252.7 610.8 L243.7 607.8 L245.0 605.4 L245.1 603.4 L245.8 600.6 L246.3 597.6 L246.3 595.5 L245.8 593.4 L243.8 590.4 L239.4 580.7 L238.2 576.6 L237.3 574.9 L242.0 577.3 L244.0 576.3 L243.0 573.2 L242.0 571.8 L241.5 569.7 L243.9 569.2 L245.6 569.5 L247.0 567.2 L246.5 563.4 L244.7 562.1 L243.2 561.6 L240.7 555.4 L237.9 552.1 L233.4 540.0 L232.1 531.8 L230.1 532.4 L229.6 528.8 L229.2 525.4 L229.2 522.9 L226.5 521.3 L226.7 511.9 L223.8 510.6 L222.2 506.1 L222.6 498.0 L220.8 496.3 L219.1 496.6 L219.4 494.6 L219.9 492.7 L219.7 485.2 L220.0 478.3 L219.5 476.2 L219.3 473.8 L219.8 471.7 L222.4 470.4 L224.0 472.4 L223.8 469.9 L219.5 468.1 L217.1 467.1 L216.1 466.7 L214.0 466.0 L212.8 461.8 L211.2 458.2 L211.8 450.4 L211.5 447.5 L211.7 444.4 L210.3 446.7 L210.5 450.8 L209.0 452.3 L207.1 453.0 L207.0 455.3 L207.7 458.3 L206.8 461.8 L202.5 469.4 L201.1 471.2 L199.3 470.3 L196.8 472.3 L194.6 472.4 L194.0 469.8 L191.3 466.1 L189.8 466.1 L191.0 467.9 L192.0 470.2 L190.3 472.3 L189.0 472.7 L184.1 474.9 L185.4 477.0 L183.8 479.0 L182.2 479.1 L180.8 481.2 L175.6 484.5 L166.5 493.3 L162.1 495.6 L158.9 498.1 L156.5 497.6 L153.0 499.7 L144.8 500.7 L139.7 498.9 L135.9 499.2 L134.2 497.2 L134.4 495.4 L132.8 493.8 L131.7 496.4 L128.4 495.3 L129.1 492.5 L131.1 491.0 L129.9 489.2 L127.5 489.1 L125.5 488.5 L119.8 483.5 L118.7 481.1 L114.2 477.0 L112.5 473.1 L111.9 469.0 L112.6 465.5 L114.2 460.1 L115.5 458.9 L119.7 461.7 L123.7 465.7 L126.3 463.3 L129.4 461.8 L124.2 462.7 L122.9 461.1 L121.0 458.1 L122.6 455.6 L123.2 453.8 L123.6 449.7 L125.9 447.5 L129.0 445.4 L131.4 443.3 L133.7 442.1 L131.1 442.1 L128.6 443.4 L125.6 445.7 L122.0 447.4 L119.5 447.8 L118.3 448.3 L116.4 448.7 L114.0 451.5 L111.9 452.5 L108.3 452.0 L108.0 449.6 L110.5 441.6 L112.3 437.7 L113.9 435.1 L115.8 435.0 L117.5 433.1 L118.6 433.3 L122.6 436.0 L124.8 433.6 L127.2 433.6 L131.7 431.7 L128.8 431.3 L127.1 431.1 L124.6 431.3 L123.4 430.6 L123.1 428.5 L124.4 426.9 L129.0 423.3 L130.7 421.6 L131.8 418.8 L132.9 416.4 L137.3 412.7 L140.7 411.2 L141.4 413.1 L139.7 418.3 L139.3 420.5 L143.0 413.1 L144.4 411.4 L145.8 410.3 L148.8 409.9 L146.4 408.7 L137.7 410.3 L133.8 412.4 L132.5 414.2 L129.6 416.9 L128.1 418.7 L127.1 421.5 L125.5 422.9 L123.5 423.1 L120.3 426.3 L118.6 429.2 L115.6 431.0 L113.7 432.5 L111.8 434.7 L110.6 433.6 L110.9 431.2 L111.8 427.6 L113.5 425.2 L114.6 422.7 L114.3 420.1 L116.2 418.9 L118.1 420.0 L120.2 420.3 L124.1 419.0 L122.2 417.4 L119.3 417.0 L117.3 414.7 L116.2 410.7 L116.2 405.6 L124.7 400.4 L126.9 398.4 L125.9 398.0 L122.9 400.4 L119.0 401.4 L117.2 398.6 L116.5 395.8 L116.8 390.2 L117.6 387.5 L118.0 383.7 L119.7 382.8 L121.3 383.8 L122.9 384.3 L126.8 384.7 L135.6 384.0 L140.7 386.2 L142.9 386.4 L146.7 385.0 L149.6 385.3 L151.6 387.1 L152.5 389.0 L152.3 391.3 L153.1 392.9 L153.6 390.7 L153.9 387.9 L163.2 386.1 L164.4 385.1 L161.0 384.1 L160.4 381.1 L162.9 377.1 L160.5 378.5 L159.1 381.6 L159.1 384.2 L156.6 385.6 L152.6 385.1 L150.2 383.7 L147.9 382.7 L147.7 379.9 L146.1 380.9 L144.7 384.1 L142.7 384.5 L137.6 382.4 L129.9 381.8 L126.2 382.8 L124.0 382.2 L120.7 378.6 L119.6 376.1 L120.0 371.4 L120.6 369.4 L123.6 369.1 L125.1 369.5 L126.7 368.7 L125.6 367.7 L124.2 366.0 L123.5 363.0 L121.9 361.8 L121.1 359.2 L121.5 355.6 L122.4 353.1 L123.4 352.5 L125.6 353.5 L131.6 354.2 L136.7 357.7 L140.3 359.8 L148.1 360.4 L153.0 358.8 L147.2 358.6 L142.7 357.8 L135.1 353.9 L132.0 352.4 L128.5 352.1 L126.8 351.1 L126.2 348.3 L127.9 343.7 L129.7 342.9 L130.4 344.3 L131.4 344.7 L132.9 342.8 L134.1 341.8 L135.4 339.4 L139.0 337.5 L140.3 337.6 L142.4 336.8 L143.5 337.3 L144.9 339.6 L147.0 339.9 L153.6 339.0 L155.8 337.1 L151.8 337.1 L148.3 337.7 L146.1 337.7 L147.1 335.0 L148.5 333.9 L149.5 331.7 L151.0 330.9 L152.4 331.2 L155.5 331.3 L157.7 331.0 L161.2 332.0 L166.5 333.7 L169.7 336.4 L171.0 336.4 L172.4 336.0 L170.6 334.1 L171.1 331.8 L175.8 330.7 L180.7 331.0 L180.0 329.4 L169.1 330.0 L166.6 328.2 L164.4 327.8 L162.9 328.4 L158.7 328.8 L159.2 325.6 L162.3 321.9 L163.9 320.1 L170.5 318.7 L174.0 316.4 L175.4 316.2 L176.6 316.6 L178.8 316.6 L182.6 317.9 L183.9 321.7 L185.4 323.0 L190.1 328.0 L186.3 320.2 L184.8 318.6 L183.9 315.5 L184.7 312.8 L186.4 311.2 L191.6 310.9 L192.6 310.0 L192.9 308.1 L190.4 306.7 L189.0 305.7 L188.9 303.7 L192.9 300.4 L194.6 299.8 L197.4 299.3 L201.9 301.8 L200.5 305.1 L201.6 306.8 L204.8 303.1 L208.1 302.9 L209.5 302.1 L211.1 301.7 L212.9 305.7 L213.7 307.0 L214.8 310.6 L216.6 309.5 L218.5 308.8 L221.0 308.6 L225.0 309.8 L226.9 309.4 L227.8 309.5 L227.2 306.7 L227.8 303.5 L228.8 302.6 L231.8 301.2 L234.5 300.7 L236.4 299.2 L238.9 297.9 L238.0 295.2 L236.5 295.0 L238.1 292.6 L240.9 290.8 L238.6 288.9 L237.0 289.4 L234.7 290.8 L231.9 293.0 L232.7 293.8 L233.8 295.9 L231.7 298.5 L221.3 304.8 L216.5 306.5 L214.4 306.0 L214.1 303.9 L213.3 302.3 L212.6 299.2 L210.8 299.0 L209.7 299.6 L210.5 295.4 L212.3 293.0 L215.0 291.3 L216.5 289.2 L218.0 285.6 L222.0 282.5 L228.1 274.3 L232.6 271.9 L234.4 269.0 L237.0 267.9 L239.4 265.7 L241.1 265.6 L244.3 263.7 L246.2 261.3 L245.1 261.1 L242.3 262.5 L240.7 263.0 L241.1 260.3 L242.0 257.6 L244.4 255.2 L255.4 248.6 L256.3 249.9 L257.4 252.2 L260.5 251.9 L264.4 248.0 L267.4 243.5 L265.9 244.2 L264.2 246.0 L260.8 248.4 L259.4 248.7 L258.6 248.3 L257.2 245.9 L256.2 246.2 L255.3 244.9 L255.3 241.8 L256.9 237.4 L258.2 234.5 L259.5 232.3 L264.1 226.1 L265.3 222.6 L267.4 220.9 L269.8 221.5 L270.6 221.0 L269.9 218.6 L267.3 216.6 L276.3 213.0 L280.6 213.3 L282.0 211.9 L284.3 211.0 L286.1 209.3 L285.3 208.4 L280.9 209.9 L278.1 210.5 L276.9 210.5 L275.9 211.0 L272.5 211.0 L272.2 203.6 L273.0 199.6 L274.2 199.8 L274.7 196.0 L276.3 193.9 L278.4 193.5 L279.4 192.6 L281.0 190.7 L283.4 191.2 L285.9 190.9 L282.3 188.6 L281.7 186.5 L282.8 185.5 L284.0 184.7 L285.0 184.6 L287.3 180.7 L288.6 179.1 L289.9 179.4 L292.0 177.7 L293.9 178.4 L295.7 177.4 L298.2 176.7 L307.4 176.6 L305.8 174.6 L299.0 174.0 L295.6 173.9 L294.1 174.3 L295.0 171.2 L298.3 165.5 L301.4 162.8 L303.6 163.5 L305.8 166.3 L307.5 166.7 L308.3 167.5 L309.5 171.2 L309.9 167.8 L311.5 165.0 L308.7 165.1 L306.8 164.1 L305.4 161.9 L305.0 159.9 L306.0 158.0 L306.9 157.0 L302.5 158.8 L300.0 159.5 L298.9 159.0 L299.6 156.2 L299.3 154.1 L303.0 148.7 L304.2 148.2 L306.1 148.6 L307.8 150.2 L309.3 150.0 L310.9 149.3 L307.3 147.1 L306.4 145.9 L309.2 143.5 L311.6 141.3 L314.3 140.7 L316.4 139.0 L317.2 140.1 L317.8 146.4 L319.7 151.6 L320.5 151.8 L319.8 147.4 L320.5 146.1 L321.3 145.2 L320.7 143.7 L319.8 142.2 L318.7 137.1 L321.7 133.1 L324.8 132.5 L328.2 134.4 L329.3 134.5 L331.3 133.9 L334.6 132.4 L336.5 131.7 L337.5 131.7 L336.8 130.5 L335.8 129.7 L332.7 130.5 L324.4 130.3 L323.6 129.4 L324.3 125.7 L325.3 124.4 L328.5 122.2 L331.8 121.9 L335.2 118.0 L336.5 115.1 L337.2 110.5 L339.3 106.8 L344.5 104.7 L344.1 101.9 L344.1 98.5 L345.5 94.4 L346.4 93.0 L347.9 94.2 L349.4 96.9 L351.5 98.4 L354.3 98.6 L355.0 97.8 L352.8 96.3 L351.1 94.3 L350.9 92.2 L351.7 91.0 L352.9 91.1 L354.4 90.8 L355.8 89.5 L355.9 87.1 L358.2 82.4 L364.4 80.1 L364.8 87.2 L364.2 91.3 L364.3 94.2 L365.5 91.2 L366.7 83.1 L367.8 79.2 L369.1 77.0 L370.1 76.4 L371.0 75.3 L372.2 74.5 L373.2 77.3 L372.8 84.4 L373.0 86.7 L372.4 89.7 L369.7 96.5 L370.6 97.0 L371.7 95.8 L375.1 89.3 L378.4 89.9 L377.3 87.6 L375.9 85.9 L375.4 83.7 L375.3 77.9 L376.1 75.4 L378.8 75.5 L380.5 75.1 L381.4 76.2 L383.0 76.0 L383.9 71.7 L386.1 71.1 L388.3 73.8 L390.8 75.5 L393.0 78.1 L392.0 71.0 L390.7 68.9 L388.1 67.8 L385.3 65.2 L384.5 64.0 L386.8 62.0 L389.9 62.8 L392.4 60.3 L393.2 60.9 L395.2 59.5 L396.6 61.0 L397.3 60.5 L397.6 58.2 L400.8 56.6 L402.9 57.7 L404.2 58.8 L404.9 61.3 L406.2 66.2 L408.1 68.8 L409.2 70.0 L410.5 70.2 L409.7 67.3 L409.4 62.0 L409.9 60.4 L412.8 54.5 L415.4 51.2 L417.1 50.8 L419.4 43.9 L420.1 42.7 L420.9 42.3 L418.8 39.9 L418.4 37.9 L420.3 35.3 L422.5 30.9 L423.7 30.5 L424.7 31.5 L427.4 33.0 L429.2 35.0 L430.5 35.8 L431.2 35.5 L431.6 33.9 L432.2 33.1 L433.9 33.2 L435.0 34.1 L435.8 34.2 L436.5 34.6 L435.7 37.6 L433.8 41.8 L432.0 46.6 L431.5 49.0 L431.5 55.1 L430.1 59.3 L430.3 62.0 L431.2 63.2 L433.2 61.9 L435.3 58.0 L435.5 54.0 L440.4 42.7 L442.5 36.5 L445.1 31.2 L446.8 30.0 L448.2 33.0 L448.1 37.2 L447.1 40.0 L448.3 41.1 L448.6 44.3 L448.6 47.9 L449.8 49.0 L453.2 45.0 L453.7 41.3 L454.2 38.5 L454.2 36.1 L455.4 33.7 L458.3 33.3 L454.3 29.9 L454.6 26.6 L457.1 22.6 L458.8 22.7 L459.9 23.4 L463.9 23.3 L467.3 25.2 L467.9 29.1 L467.5 30.9 L467.1 32.0 L463.7 35.6 L463.3 37.1 L464.6 37.4 L467.0 35.5 L467.9 36.7 L467.7 40.2 L468.3 45.2 L468.5 48.2 L469.0 50.9 L469.7 46.4 L471.0 42.5 L470.8 38.0 L471.3 32.6 L472.5 29.3 L473.3 28.3 L476.6 27.9 L478.2 28.7 L479.9 31.0 L481.0 31.8 L484.1 32.3 L485.4 33.4 L486.5 34.2 L488.1 31.9 L489.3 31.3 L492.0 33.8 L492.0 36.1 L494.8 36.1 L497.0 36.5 L502.0 40.1 L502.9 42.1 L503.2 44.6 L498.0 48.7 L496.0 51.9 L492.1 53.7 L477.6 54.7 L478.2 56.6 L488.9 58.9 L489.9 62.5 L490.3 64.6 L491.8 67.1 L493.1 67.5 L495.5 66.7 L496.9 67.1 L497.5 65.9 L497.1 62.3 L497.7 61.4 L499.3 62.1 L500.7 65.7 L501.3 63.2 L502.7 63.1 L504.2 62.6 L506.2 62.6 L508.6 62.7 L514.3 64.4 L515.4 63.8 L516.7 62.7 L517.4 58.9 L518.4 58.0 L520.1 58.4 L518.8 54.8 L524.4 55.1 L527.1 56.9 L532.3 57.7 L533.4 58.6 L534.0 60.4 L533.3 63.2 L531.3 63.5 L523.4 62.9 L522.8 64.6 L523.9 65.7 L526.4 66.7 L527.7 69.2 L530.8 68.1 L534.2 68.3 L535.6 67.6 L535.7 70.9 L539.2 68.4 L540.7 67.3 L541.7 67.6 L542.3 69.4 L542.3 71.8 L542.6 77.9 L541.3 79.7 L541.0 81.5 L543.2 79.9 L544.2 78.4 L545.2 72.0 L545.7 71.1 L552.6 69.2 L554.2 69.1 L561.4 70.0 L563.3 69.7 L565.3 68.8 L565.7 67.3 L566.3 66.7 L574.3 67.6 L585.9 71.3 L603.6 77.7 L614.9 84.7 L616.5 86.5 L619.9 86.7 L620.2 85.6 L622.1 85.7 L634.8 91.2 L638.2 90.4 L637.1 88.7 L635.9 87.1 L636.9 87.2 L638.5 88.1 L641.5 90.9 L644.7 92.5 L648.4 95.5 L650.8 96.2 L652.7 96.1 L654.5 96.7 L657.6 96.7 L660.0 101.1 L660.0 154.6 L655.3 159.7 L647.1 165.0 L643.6 166.5 L636.2 167.8 L631.9 167.8 L626.1 166.0 L621.2 165.8 L617.9 166.0 L612.3 167.5 L599.1 167.8 L596.7 167.3 L587.2 163.0 L584.7 165.7 L583.0 166.5 L581.2 164.6 L581.5 163.1 L576.7 162.4 L573.2 163.2 L570.9 162.1 L568.2 161.6 L567.4 162.6 L561.5 161.1 L558.8 159.3 L555.6 155.8 L556.2 153.2 L548.2 152.7 L541.1 154.0 L542.6 154.8 L545.8 154.7 L548.1 155.9 L550.9 157.7 L551.2 160.9 L555.1 163.2 L558.2 165.6 L559.6 166.8 L563.4 166.8 L564.7 169.4 L565.2 172.0 L568.4 173.0 L570.1 173.0 L572.3 173.5 L572.0 175.8 L570.7 177.6 L569.1 178.6 L570.1 178.9 L572.1 178.2 L580.9 179.5 L586.0 181.8 L591.9 186.9 L594.1 189.6 L595.0 193.0 L594.9 195.0 L595.1 197.0 L595.2 202.8 L594.6 205.0 L593.2 207.8 L596.3 211.4 L599.4 214.7 L603.2 220.6 L604.3 223.1 L605.4 227.1 L607.7 228.2 L606.8 230.3 L608.4 235.4 L612.1 238.9 L616.8 240.5 L619.2 240.4 L622.1 238.4 L624.9 239.2 L631.7 242.7 L635.8 247.4 L637.1 248.2 L643.1 248.6 L647.5 248.6 L654.7 249.9 L655.8 249.6 L657.8 245.8 L660.0 244.0 L660.0 234.0 L659.4 233.2 L657.7 229.4 L655.5 228.3 L653.6 227.7 L649.2 230.1 L647.0 230.6 L645.1 230.1 L642.0 228.0 L635.7 222.4 L632.9 220.8 L630.4 217.9 L629.5 214.6 L631.3 214.2 L632.7 211.7 L632.1 204.8 L634.2 203.2 L635.6 202.8 L642.3 204.0 L652.0 209.6 L653.9 210.0 L655.6 209.5 L658.2 208.3 L660.0 209.4 L660.0 0.0 Z M86.5 662.0 L82.1 661.9 L80.7 661.2 L85.4 661.3 L86.5 661.8 L86.5 662.0 Z M72.9 662.4 L70.8 662.3 L75.1 661.1 L78.3 661.2 L72.9 662.4 Z M356.8 476.9 L355.6 477.2 L356.4 474.8 L357.7 474.1 L356.8 476.9 Z M359.8 460.7 L358.9 460.4 L360.2 457.8 L361.6 458.3 L360.3 459.9 L359.8 460.7 Z M442.6 479.5 L441.2 481.5 L439.7 480.0 L438.0 484.3 L435.8 485.2 L434.4 484.5 L432.8 479.1 L430.7 478.0 L428.0 478.2 L425.8 476.7 L433.4 474.9 L434.1 472.9 L435.5 470.8 L436.6 470.5 L437.6 470.8 L438.2 473.0 L441.8 473.5 L443.4 476.0 L444.2 479.1 L442.6 479.5 Z M451.6 488.9 L450.0 489.4 L446.0 487.2 L447.7 484.6 L451.0 485.4 L451.7 488.0 L451.6 488.9 Z M616.2 209.3 L617.9 212.8 L618.5 215.5 L617.8 216.7 L615.5 214.3 L614.6 214.5 L613.3 213.6 L612.3 211.7 L612.9 210.9 L614.7 209.2 L616.2 209.3 Z M8.0 377.5 L6.8 373.7 L9.2 369.9 L10.7 370.5 L10.2 372.6 L9.2 372.8 L8.9 374.7 L8.3 376.9 L8.0 377.5 Z M3.6 375.3 L3.3 377.9 L4.3 377.5 L5.0 380.3 L7.1 379.9 L6.3 382.0 L3.3 387.9 L1.9 390.6 L0.1 394.6 L-0.0 394.7 L0.0 382.3 L0.4 382.2 L0.5 377.0 L0.0 376.7 L0.0 374.9 L0.3 374.6 L2.5 372.6 L3.4 372.5 L4.5 372.9 L3.6 375.3 Z M15.6 368.2 L13.8 371.4 L12.1 372.0 L12.2 369.8 L12.9 368.0 L14.0 368.0 L15.4 367.4 L15.6 368.2 Z M420.7 425.7 L419.4 426.0 L417.4 424.3 L417.2 421.7 L418.9 422.1 L420.4 425.1 L420.7 425.7 Z M378.6 433.7 L377.5 434.6 L376.4 435.4 L376.5 431.7 L377.9 431.5 L378.6 433.7 Z M384.3 427.4 L386.1 427.3 L387.6 428.6 L389.0 429.7 L388.3 433.0 L387.1 432.9 L386.1 433.2 L385.5 436.8 L381.3 437.5 L380.2 436.9 L378.7 432.0 L379.8 430.2 L380.8 432.6 L382.0 432.3 L382.2 429.3 L381.1 428.3 L381.2 426.1 L382.4 425.5 L383.5 427.2 L384.3 427.4 Z M399.7 320.3 L400.9 320.7 L402.0 319.4 L403.0 319.9 L402.2 321.4 L401.5 322.5 L400.5 323.6 L398.6 321.9 L397.4 319.1 L399.9 318.9 L399.7 320.3 Z M372.2 517.3 L371.9 519.6 L370.8 519.4 L371.7 515.1 L374.5 515.2 L375.5 515.7 L372.2 517.3 Z M320.4 578.1 L319.2 580.0 L317.7 577.3 L317.6 571.0 L318.0 567.8 L322.6 556.5 L324.5 555.6 L327.3 548.6 L328.0 545.6 L329.2 542.7 L330.0 540.2 L331.7 539.7 L331.0 541.7 L331.2 543.5 L327.6 552.5 L326.8 557.8 L325.5 559.2 L320.4 578.1 Z M289.4 624.4 L285.2 623.9 L281.0 621.1 L281.8 616.2 L283.0 614.0 L290.5 619.9 L290.5 622.0 L289.4 624.4 Z M259.1 646.9 L259.5 649.4 L256.5 648.4 L254.0 648.3 L252.4 651.5 L251.3 651.6 L247.7 648.4 L247.1 645.7 L247.9 641.6 L249.2 638.9 L249.5 636.9 L251.7 634.8 L253.5 634.9 L254.8 638.0 L257.8 639.6 L256.9 642.8 L256.8 645.2 L259.1 646.9 Z M235.5 623.8 L231.5 623.7 L227.6 626.0 L226.3 625.1 L227.4 622.9 L228.6 622.3 L230.0 619.8 L232.9 621.2 L234.0 621.8 L235.5 623.8 Z M239.6 600.8 L237.5 602.2 L236.6 599.8 L237.7 598.6 L238.8 597.6 L239.6 600.8 Z M210.1 624.6 L213.7 627.3 L216.3 627.3 L217.9 628.4 L218.1 633.2 L216.2 634.0 L214.2 633.5 L211.3 634.5 L202.8 628.4 L203.4 624.0 L208.2 622.2 L210.1 624.6 Z M191.4 624.5 L189.9 624.7 L188.4 623.8 L186.0 620.4 L187.1 620.3 L188.7 622.1 L190.1 622.5 L191.8 624.1 L191.4 624.5 Z M182.6 622.1 L180.3 622.4 L179.3 621.4 L177.2 620.8 L177.2 615.1 L178.4 615.3 L181.7 618.3 L182.6 621.3 L182.6 622.1 Z M196.3 628.6 L194.4 625.6 L196.0 622.9 L197.2 620.8 L200.0 617.7 L201.8 613.9 L201.4 617.5 L197.2 626.9 L196.3 628.6 Z M197.4 590.3 L195.8 590.1 L195.9 587.8 L196.5 585.6 L196.2 583.7 L198.5 585.6 L198.0 588.5 L197.4 590.3 Z M207.0 642.0 L203.6 641.7 L202.5 640.1 L201.2 639.6 L202.1 637.8 L206.1 638.8 L206.9 641.2 L207.0 642.0 Z M211.6 537.2 L208.1 536.5 L209.5 535.0 L212.5 534.4 L214.2 534.8 L212.1 536.4 L211.6 537.2 Z M145.0 621.3 L145.4 616.8 L148.4 611.6 L147.8 614.2 L147.1 616.2 L152.4 618.3 L146.2 619.1 L145.0 621.3 Z M61.1 672.1 L58.4 674.3 L57.2 673.3 L58.0 670.7 L61.9 668.0 L61.1 672.1 Z M150.6 624.8 L147.7 625.2 L146.6 624.2 L148.3 622.8 L150.5 623.4 L150.6 624.8 Z M423.9 424.2 L426.2 424.9 L427.2 424.5 L428.4 426.3 L426.7 427.7 L427.5 430.1 L426.0 431.6 L424.5 429.1 L422.4 427.4 L423.1 424.8 L423.9 424.2 Z M410.4 419.4 L409.0 421.0 L407.8 421.4 L406.7 419.7 L405.9 416.9 L406.8 415.6 L410.4 419.4 Z M418.3 433.1 L416.6 434.5 L415.9 432.1 L416.9 431.1 L418.7 430.8 L418.3 433.1 Z M396.2 438.3 L394.6 439.4 L392.6 438.8 L393.9 437.1 L395.4 437.2 L396.2 438.3 Z M414.7 434.6 L413.1 435.1 L412.0 434.1 L413.4 432.3 L414.6 432.3 L414.7 434.6 Z M451.6 250.9 L449.5 252.4 L447.5 251.8 L447.2 249.5 L448.2 248.2 L450.2 247.5 L453.2 248.3 L452.2 249.5 L451.6 250.9 Z M494.7 64.5 L492.5 66.1 L492.3 63.8 L492.3 60.9 L493.4 60.8 L494.6 61.7 L495.6 62.8 L494.7 64.5 Z M117.4 381.9 L115.8 382.1 L114.7 381.5 L115.8 378.1 L117.5 377.6 L118.1 379.7 L117.4 381.9 Z M183.9 309.0 L182.3 308.8 L180.5 307.9 L179.4 306.5 L181.8 304.5 L184.1 304.1 L184.9 305.6 L184.7 308.0 L183.9 309.0 Z M191.4 297.8 L189.6 297.6 L188.6 296.6 L191.5 295.4 L195.8 294.4 L196.9 293.4 L197.3 296.4 L191.4 297.8 Z M262.6 222.4 L261.4 222.5 L262.3 219.7 L263.4 218.8 L264.9 218.7 L266.4 218.7 L262.6 222.4 Z M261.6 217.2 L260.3 217.3 L261.8 214.3 L262.6 212.0 L263.7 211.2 L265.0 212.5 L264.9 214.5 L264.0 216.3 L261.6 217.2 Z M364.7 64.8 L365.4 65.2 L366.0 64.9 L367.7 67.2 L368.8 67.9 L368.0 69.9 L366.6 70.2 L365.1 69.9 L364.1 66.7 L362.8 64.8 L363.6 62.7 L364.7 64.8 Z M408.5 39.4 L408.1 41.8 L407.2 43.0 L404.7 48.0 L403.1 48.9 L402.0 50.2 L399.8 49.8 L399.3 50.8 L398.7 51.5 L397.2 51.9 L396.3 51.7 L393.8 50.2 L392.3 48.4 L391.4 46.8 L393.5 46.7 L394.3 46.2 L395.7 46.4 L396.4 44.7 L398.3 44.7 L401.7 43.3 L403.1 43.8 L405.6 39.7 L406.6 39.7 L407.9 38.5 L408.5 39.4 Z M377.7 68.8 L377.0 69.8 L376.0 70.2 L374.6 69.3 L373.8 69.6 L372.9 68.0 L373.9 64.9 L375.8 63.7 L377.5 64.0 L377.7 68.8 Z M432.9 24.3 L436.3 25.3 L437.4 25.1 L439.3 27.5 L440.1 27.2 L438.7 29.8 L436.3 30.6 L433.8 31.0 L432.3 29.0 L430.2 28.7 L431.2 26.2 L432.9 24.3 Z M411.6 49.0 L412.3 52.2 L411.3 54.3 L409.0 57.3 L408.3 58.8 L407.0 59.4 L406.2 59.0 L406.1 56.7 L404.8 57.0 L403.6 55.9 L403.7 53.7 L404.6 52.0 L406.1 50.8 L407.3 51.1 L410.5 46.6 L411.6 49.0 Z M416.5 47.8 L414.3 49.5 L412.8 48.4 L411.8 44.3 L412.9 41.5 L413.7 42.1 L415.2 43.0 L416.9 44.7 L416.5 47.8 Z M287.3 136.7 L288.1 137.4 L290.2 137.3 L289.2 139.7 L287.3 140.3 L286.3 142.0 L284.0 142.5 L283.0 142.8 L281.7 144.3 L280.7 143.1 L280.2 145.4 L277.9 146.2 L277.7 142.8 L278.6 141.6 L280.2 140.0 L281.0 140.2 L282.7 137.0 L284.8 136.2 L286.1 136.3 L287.3 136.7 Z M274.1 150.4 L271.9 152.3 L272.9 148.7 L274.2 145.2 L275.8 143.3 L276.6 144.1 L276.0 147.5 L274.1 150.4 Z M336.5 88.5 L338.1 90.6 L338.8 89.9 L340.1 89.7 L341.1 90.4 L342.0 91.8 L343.0 91.8 L344.0 95.8 L343.3 97.6 L342.3 98.4 L342.0 100.4 L342.5 103.2 L340.2 104.2 L337.5 104.7 L336.4 103.3 L334.3 105.8 L332.1 109.6 L331.1 110.1 L329.5 108.0 L327.5 108.0 L329.6 105.5 L330.0 103.5 L329.6 100.1 L330.0 97.2 L331.1 95.8 L334.7 96.5 L334.8 94.3 L333.0 92.9 L334.6 91.1 L335.9 90.9 L336.3 88.9 L336.5 88.5 Z M358.5 70.6 L359.7 72.6 L360.7 72.4 L361.6 71.2 L363.0 72.2 L361.1 76.4 L359.8 79.7 L358.1 80.5 L357.3 80.1 L355.7 82.1 L354.5 84.1 L353.3 86.6 L353.0 88.8 L348.2 89.9 L346.5 90.6 L344.6 89.9 L343.7 88.2 L345.8 86.9 L346.3 84.5 L347.3 82.0 L348.0 81.5 L349.4 81.9 L350.3 80.5 L351.4 81.4 L351.4 78.3 L353.1 74.7 L353.9 72.8 L354.9 71.6 L355.9 71.8 L355.8 68.1 L356.7 64.1 L357.7 63.9 L358.3 66.5 L358.5 70.6 Z M313.2 126.7 L315.3 123.4 L317.3 122.3 L318.3 119.9 L318.2 117.9 L319.7 115.9 L321.0 115.1 L322.3 116.4 L323.0 117.8 L323.9 121.0 L323.5 124.1 L321.1 126.5 L319.1 127.6 L317.1 130.3 L316.1 132.6 L315.2 133.1 L314.2 132.3 L313.2 132.2 L312.1 134.2 L308.7 135.7 L307.4 135.3 L307.4 133.3 L306.6 133.4 L305.3 135.7 L304.0 136.4 L303.2 136.7 L301.7 135.7 L297.5 139.6 L293.6 140.2 L292.4 139.7 L292.5 137.3 L295.1 134.2 L297.2 132.1 L304.2 130.9 L308.6 124.5 L309.8 117.5 L310.9 115.1 L309.3 113.3 L309.3 111.1 L309.9 108.8 L312.2 105.5 L313.4 104.1 L315.5 100.2 L316.5 99.3 L317.5 99.3 L318.6 100.4 L318.4 102.5 L316.7 106.3 L314.3 109.6 L314.5 111.9 L315.5 113.9 L315.6 117.2 L315.6 120.4 L313.7 124.6 L313.2 126.7 Z M306.2 112.4 L307.8 116.2 L308.5 118.4 L307.8 122.4 L306.1 124.4 L303.4 124.8 L301.6 124.5 L300.5 123.4 L299.7 122.0 L297.9 123.4 L296.6 123.5 L295.1 122.3 L296.5 118.4 L297.3 116.7 L299.2 116.9 L300.6 117.8 L301.3 115.8 L301.7 113.3 L303.9 114.1 L304.0 110.2 L304.8 109.9 L305.8 111.0 L306.2 112.4 Z M240.1 258.9 L239.2 259.8 L237.4 258.8 L233.8 259.1 L232.5 258.0 L233.8 256.2 L237.2 254.4 L238.9 254.7 L240.4 257.4 L240.1 258.9 Z M114.4 410.4 L113.7 414.6 L112.1 414.0 L111.7 411.1 L112.3 408.7 L112.4 406.1 L113.7 404.8 L114.3 407.3 L114.4 410.4 Z M253.7 232.0 L252.7 233.0 L250.8 232.6 L251.3 229.7 L252.5 228.9 L254.0 229.2 L253.7 232.0 Z" fill="#D6DBCE" stroke="#9CA294" stroke-width=".8"/>
+  <path d="M63.1 675.2 L66.3 658.3 L69.4 641.4 L72.6 624.6 L75.8 607.7 L78.9 590.9 L82.1 574.1 L85.2 557.3 L88.4 540.5 L91.5 523.8 L94.7 507.0 L97.8 490.3 L101.0 473.6 L104.1 456.9 L107.2 440.1 L110.4 423.4 L113.5 406.7 L116.7 390.0 L119.8 373.3 L122.9 356.7 L126.1 340.0 L129.2 323.3 L132.3 306.6 L135.5 289.9 L138.6 273.2 L141.7 256.5 L144.9 239.8 L148.0 223.1 L151.1 206.4 L154.3 189.7 L157.4 172.9 L160.6 156.2 L163.7 139.4 L166.9 122.7 L170.0 105.9 L173.2 89.1 L176.3 72.2 L179.5 55.4 L182.7 38.5 L185.8 21.6 L189.0 4.7" fill="none" stroke="#A9B7BC" stroke-width=".5" opacity=".55"/>
+  <path d="M173.7 691.5 L175.6 674.4 L177.4 657.4 L179.3 640.3 L181.1 623.3 L183.0 606.3 L184.8 589.3 L186.7 572.3 L188.5 555.4 L190.4 538.4 L192.2 521.5 L194.0 504.5 L195.9 487.6 L197.7 470.7 L199.6 453.8 L201.4 436.9 L203.2 420.0 L205.1 403.1 L206.9 386.2 L208.7 369.4 L210.6 352.5 L212.4 335.6 L214.3 318.7 L216.1 301.8 L217.9 285.0 L219.8 268.1 L221.6 251.2 L223.4 234.3 L225.3 217.4 L227.1 200.4 L229.0 183.5 L230.8 166.6 L232.6 149.6 L234.5 132.7 L236.3 115.7 L238.2 98.7 L240.0 81.7 L241.9 64.6 L243.7 47.6 L245.6 30.5 L247.4 13.4" fill="none" stroke="#A9B7BC" stroke-width=".5" opacity=".55"/>
+  <path d="M285.3 699.3 L285.8 682.1 L286.3 665.0 L286.9 647.8 L287.4 630.7 L287.9 613.6 L288.4 596.5 L289.0 579.5 L289.5 562.4 L290.0 545.4 L290.6 528.3 L291.1 511.3 L291.6 494.3 L292.1 477.3 L292.7 460.3 L293.2 443.3 L293.7 426.3 L294.2 409.3 L294.8 392.4 L295.3 375.4 L295.8 358.4 L296.3 341.5 L296.9 324.5 L297.4 307.5 L297.9 290.5 L298.4 273.6 L299.0 256.6 L299.5 239.6 L300.0 222.6 L300.5 205.6 L301.1 188.5 L301.6 171.5 L302.1 154.5 L302.7 137.4 L303.2 120.3 L303.7 103.3 L304.2 86.1 L304.8 69.0 L305.3 51.9 L305.8 34.7 L306.4 17.5" fill="none" stroke="#A9B7BC" stroke-width=".5" opacity=".55"/>
+  <path d="M397.1 698.4 L396.3 681.3 L395.5 664.1 L394.7 647.0 L393.9 629.9 L393.1 612.8 L392.3 595.7 L391.5 578.7 L390.7 561.6 L389.9 544.6 L389.1 527.6 L388.4 510.6 L387.6 493.6 L386.8 476.6 L386.0 459.6 L385.2 442.6 L384.4 425.6 L383.6 408.7 L382.8 391.7 L382.0 374.7 L381.3 357.8 L380.5 340.8 L379.7 323.8 L378.9 306.9 L378.1 289.9 L377.3 272.9 L376.5 256.0 L375.7 239.0 L375.0 222.0 L374.2 205.0 L373.4 188.0 L372.6 171.0 L371.8 153.9 L371.0 136.9 L370.2 119.8 L369.4 102.7 L368.6 85.6 L367.8 68.5 L367.0 51.4 L366.2 34.2 L365.4 17.0" fill="none" stroke="#A9B7BC" stroke-width=".5" opacity=".55"/>
+  <path d="M508.5 688.9 L506.4 671.9 L504.3 654.9 L502.1 637.8 L500.0 620.9 L497.9 603.9 L495.8 586.9 L493.7 570.0 L491.6 553.0 L489.5 536.1 L487.4 519.2 L485.3 502.3 L483.2 485.4 L481.1 468.5 L479.0 451.6 L476.9 434.8 L474.8 417.9 L472.7 401.1 L470.6 384.2 L468.5 367.4 L466.4 350.5 L464.3 333.7 L462.2 316.8 L460.1 300.0 L458.0 283.1 L455.9 266.2 L453.8 249.4 L451.7 232.5 L449.6 215.6 L447.5 198.7 L445.4 181.8 L443.3 164.9 L441.2 148.0 L439.1 131.1 L437.0 114.1 L434.9 97.2 L432.8 80.2 L430.7 63.2 L428.5 46.1 L426.4 29.1 L424.3 12.0" fill="none" stroke="#A9B7BC" stroke-width=".5" opacity=".55"/>
+  <path d="M618.8 670.9 L615.4 654.0 L612.0 637.2 L608.6 620.4 L605.1 603.6 L601.7 586.9 L598.3 570.1 L594.9 553.4 L591.5 536.7 L588.1 519.9 L584.7 503.2 L581.3 486.6 L577.9 469.9 L574.5 453.2 L571.1 436.6 L567.7 419.9 L564.3 403.2 L560.9 386.6 L557.5 370.0 L554.1 353.3 L550.7 336.7 L547.3 320.1 L543.9 303.4 L540.5 286.8 L537.1 270.1 L533.8 253.5 L530.4 236.8 L527.0 220.2 L523.6 203.5 L520.2 186.8 L516.8 170.2 L513.4 153.5 L510.0 136.7 L506.5 120.0 L503.1 103.3 L499.7 86.5 L496.3 69.8 L492.9 53.0 L489.4 36.2 L486.0 19.3 L482.6 2.4" fill="none" stroke="#A9B7BC" stroke-width=".5" opacity=".55"/>
+  <path d="M35.2 593.8 L49.7 596.9 L64.3 599.9 L78.9 602.7 L93.5 605.3 L108.1 607.8 L122.8 610.1 L137.5 612.3 L152.2 614.3 L167.0 616.1 L181.7 617.8 L196.5 619.3 L211.3 620.7 L226.1 621.9 L240.9 622.9 L255.8 623.8 L270.6 624.6 L285.4 625.1 L300.3 625.5 L315.1 625.8 L330.0 625.8 L344.9 625.8 L359.7 625.5 L374.6 625.1 L389.4 624.6 L404.2 623.8 L419.1 622.9 L433.9 621.9 L448.7 620.7 L463.5 619.3 L478.3 617.8 L493.0 616.1 L507.8 614.3 L522.5 612.3 L537.2 610.1 L551.9 607.8 L566.5 605.3 L581.1 602.7 L595.7 599.9 L610.3 596.9 L624.8 593.8" fill="none" stroke="#A9B7BC" stroke-width=".5" opacity=".55"/>
+  <path d="M74.8 413.8 L87.4 416.5 L100.0 419.1 L112.6 421.5 L125.3 423.8 L137.9 426.0 L150.6 428.0 L163.4 429.8 L176.1 431.6 L188.9 433.2 L201.7 434.6 L214.4 435.9 L227.2 437.1 L240.1 438.2 L252.9 439.1 L265.7 439.8 L278.6 440.5 L291.4 441.0 L304.3 441.3 L317.1 441.5 L330.0 441.6 L342.9 441.5 L355.7 441.3 L368.6 441.0 L381.4 440.5 L394.3 439.8 L407.1 439.1 L419.9 438.2 L432.8 437.1 L445.6 435.9 L458.3 434.6 L471.1 433.2 L483.9 431.6 L496.6 429.8 L509.4 428.0 L522.1 426.0 L534.7 423.8 L547.4 421.5 L560.0 419.1 L572.6 416.5 L585.2 413.8" fill="none" stroke="#A9B7BC" stroke-width=".5" opacity=".55"/>
+  <path d="M114.3 234.5 L124.9 236.8 L135.5 239.0 L146.2 241.0 L156.9 242.9 L167.6 244.8 L178.4 246.5 L189.1 248.0 L199.9 249.5 L210.7 250.9 L221.5 252.1 L232.3 253.2 L243.1 254.2 L254.0 255.1 L264.8 255.9 L275.7 256.5 L286.5 257.0 L297.4 257.4 L308.3 257.7 L319.1 257.9 L330.0 258.0 L340.9 257.9 L351.7 257.7 L362.6 257.4 L373.5 257.0 L384.3 256.5 L395.2 255.9 L406.0 255.1 L416.9 254.2 L427.7 253.2 L438.5 252.1 L449.3 250.9 L460.1 249.5 L470.9 248.0 L481.6 246.5 L492.4 244.8 L503.1 242.9 L513.8 241.0 L524.5 239.0 L535.1 236.8 L545.7 234.5" fill="none" stroke="#A9B7BC" stroke-width=".5" opacity=".55"/>
+  <path d="M153.9 54.4 L162.6 56.3 L171.3 58.1 L180.0 59.7 L188.7 61.3 L197.5 62.8 L206.2 64.2 L215.0 65.5 L223.8 66.7 L232.6 67.8 L241.4 68.8 L250.3 69.7 L259.1 70.5 L267.9 71.2 L276.8 71.8 L285.6 72.4 L294.5 72.8 L303.4 73.1 L312.3 73.4 L321.1 73.5 L330.0 73.6 L338.9 73.5 L347.7 73.4 L356.6 73.1 L365.5 72.8 L374.4 72.4 L383.2 71.8 L392.1 71.2 L400.9 70.5 L409.7 69.7 L418.6 68.8 L427.4 67.8 L436.2 66.7 L445.0 65.5 L453.8 64.2 L462.5 62.8 L471.3 61.3 L480.0 59.7 L488.7 58.1 L497.4 56.3 L506.1 54.4" fill="none" stroke="#A9B7BC" stroke-width=".5" opacity=".55"/>
+  <defs><clipPath id="landclip"><path d="M437.5 487.6 L438.9 488.3 L440.1 488.0 L441.3 487.2 L444.1 487.6 L450.9 491.5 L447.9 493.5 L446.3 496.0 L445.3 496.4 L443.6 498.5 L441.3 500.6 L436.4 501.9 L434.0 502.8 L432.2 505.1 L431.7 509.1 L430.5 512.3 L429.1 513.6 L427.6 513.9 L427.2 511.6 L430.1 506.9 L429.0 504.9 L427.5 503.5 L424.4 501.9 L425.1 499.9 L426.0 497.2 L423.4 493.3 L424.6 492.6 L426.0 492.6 L427.6 493.7 L429.2 492.2 L431.1 492.3 L432.1 489.6 L434.8 488.4 L436.1 487.5 L437.5 487.6 Z M370.7 520.5 L369.1 521.5 L368.2 524.1 L366.9 524.6 L365.7 525.5 L365.5 533.7 L367.9 536.7 L366.6 537.2 L365.4 538.2 L363.9 542.6 L360.7 544.4 L359.5 545.6 L357.8 548.5 L356.9 552.5 L355.2 554.3 L353.1 554.7 L354.2 551.3 L355.8 548.6 L354.2 546.9 L353.2 543.9 L352.0 541.8 L352.9 539.3 L352.4 535.3 L352.4 531.3 L353.7 529.2 L355.3 527.6 L357.6 523.8 L360.2 521.0 L363.7 519.7 L365.4 520.8 L366.0 518.3 L367.2 517.7 L368.3 518.2 L370.7 520.5 Z M238.0 593.6 L237.8 597.4 L236.4 599.1 L234.2 599.6 L232.4 600.6 L230.6 602.3 L229.9 604.9 L230.9 606.9 L233.2 608.1 L233.5 611.9 L231.4 613.5 L226.4 614.9 L225.6 619.3 L225.5 622.7 L225.2 625.2 L224.6 628.6 L220.5 629.9 L218.3 624.4 L218.4 622.3 L217.8 619.8 L217.9 617.7 L217.3 614.3 L213.6 613.1 L212.1 612.8 L210.0 613.2 L207.5 608.1 L208.4 603.1 L207.4 600.5 L207.5 598.0 L206.5 596.9 L205.2 596.2 L204.9 593.3 L206.4 592.8 L210.0 593.4 L211.1 593.3 L215.4 588.4 L215.9 586.1 L219.0 585.8 L220.3 587.7 L219.8 590.7 L219.7 594.3 L221.5 595.5 L223.2 593.1 L224.7 591.1 L225.2 588.6 L224.0 585.9 L227.8 583.0 L231.7 580.9 L233.9 580.9 L236.0 581.6 L237.9 582.6 L239.0 583.4 L238.0 587.2 L238.0 593.6 Z M197.5 596.8 L198.2 598.8 L198.9 603.0 L200.2 607.7 L199.2 609.6 L199.5 612.0 L198.8 614.6 L195.1 617.2 L191.2 617.0 L187.4 615.2 L182.1 611.7 L181.2 609.3 L180.2 604.4 L180.9 598.5 L183.8 598.1 L190.1 596.0 L191.4 596.5 L192.8 598.2 L194.5 598.4 L197.1 596.6 L197.5 596.8 Z M660.0 0.0 L660.0 700.0 L45.2 700.0 L46.8 698.2 L49.5 693.7 L54.7 680.8 L55.9 678.6 L57.6 676.3 L59.1 677.1 L64.2 676.8 L71.6 673.1 L74.3 669.1 L76.6 667.5 L84.7 664.9 L89.0 664.4 L95.4 665.2 L100.2 665.3 L105.7 665.9 L107.5 668.6 L108.4 670.6 L110.2 671.9 L113.2 673.0 L110.5 669.1 L111.6 665.4 L112.7 662.7 L115.4 659.4 L117.3 658.7 L124.9 659.2 L133.1 660.7 L135.8 666.5 L134.1 669.1 L135.9 670.7 L138.0 668.0 L138.9 665.4 L142.0 667.1 L142.2 673.0 L143.9 667.1 L143.8 662.8 L144.8 658.9 L146.2 656.8 L153.1 657.9 L159.9 657.9 L162.2 659.8 L167.0 668.4 L168.8 669.9 L171.2 670.5 L168.1 668.5 L162.2 658.1 L160.3 656.7 L157.2 656.0 L155.2 654.8 L154.2 653.1 L155.3 642.2 L154.3 640.7 L152.8 640.0 L149.8 640.3 L149.7 638.1 L154.5 635.9 L157.2 634.8 L157.7 632.2 L156.2 629.9 L154.8 626.0 L153.0 622.1 L153.4 614.9 L153.3 612.7 L152.3 609.3 L154.5 608.8 L154.9 602.4 L154.6 598.9 L149.4 594.8 L145.4 591.0 L148.0 580.1 L148.8 577.2 L147.9 571.2 L149.0 564.6 L151.1 554.2 L152.6 554.0 L153.6 554.2 L157.2 556.6 L158.7 557.0 L159.6 558.8 L160.8 559.7 L162.8 555.0 L166.3 551.5 L168.6 550.3 L170.2 549.8 L171.4 551.5 L172.4 553.4 L173.1 549.6 L174.9 542.3 L172.2 540.7 L169.7 541.4 L166.8 545.8 L163.9 551.5 L160.5 551.6 L157.6 553.0 L155.3 550.9 L154.0 549.1 L154.3 546.9 L158.3 541.1 L162.7 537.0 L166.5 537.6 L169.5 536.4 L171.2 536.5 L176.3 537.4 L179.2 536.7 L181.8 534.8 L188.0 526.5 L191.3 523.0 L197.2 522.3 L203.0 518.5 L204.6 518.6 L201.7 521.6 L200.7 524.7 L202.1 529.0 L201.5 531.6 L201.1 536.5 L199.1 539.0 L196.5 544.3 L194.8 551.5 L193.9 558.9 L195.7 561.5 L197.7 563.0 L204.9 563.7 L206.3 566.7 L205.4 569.8 L204.4 572.0 L202.1 573.8 L199.2 575.0 L197.5 574.9 L195.5 571.8 L194.4 572.6 L193.1 574.0 L190.4 581.3 L189.0 586.4 L187.4 585.9 L185.6 585.7 L183.2 586.6 L184.2 587.8 L185.3 589.9 L182.5 591.6 L180.4 593.4 L176.9 596.5 L175.2 598.7 L175.6 601.7 L175.6 604.3 L175.9 607.2 L175.1 609.4 L171.8 612.3 L170.4 615.1 L172.9 615.3 L174.4 616.1 L176.0 618.4 L175.6 624.3 L178.5 625.6 L179.7 627.3 L180.9 629.8 L180.7 633.3 L178.5 635.5 L176.8 636.9 L182.8 637.0 L183.9 640.0 L187.2 639.3 L194.7 644.6 L199.8 642.9 L201.0 642.8 L201.8 646.6 L200.2 650.1 L195.5 653.6 L196.3 656.2 L197.6 656.8 L201.7 656.7 L207.9 659.6 L209.3 659.0 L215.0 653.9 L217.1 653.0 L224.0 652.6 L225.5 650.6 L228.3 648.7 L230.3 646.5 L234.9 642.3 L239.1 643.4 L241.6 644.4 L244.5 645.0 L246.7 649.9 L252.9 655.5 L258.9 655.4 L260.8 660.4 L261.4 666.7 L263.2 668.7 L264.8 670.0 L269.7 671.5 L274.8 673.9 L276.8 675.2 L276.3 672.7 L276.5 668.4 L272.1 666.9 L268.2 666.2 L265.5 666.5 L262.8 665.8 L262.4 663.5 L263.0 661.4 L261.9 659.9 L260.9 657.7 L265.5 660.1 L269.2 663.4 L272.9 664.5 L280.2 661.3 L292.8 657.2 L306.2 653.2 L309.3 652.8 L312.4 652.0 L313.5 650.5 L314.7 649.4 L316.5 646.6 L320.5 642.3 L327.6 640.8 L330.2 638.7 L335.6 635.8 L348.0 632.5 L353.1 631.7 L358.2 631.6 L362.8 634.0 L367.6 637.0 L368.6 638.9 L365.9 637.7 L362.1 635.0 L360.7 634.9 L364.2 643.4 L365.9 646.4 L369.6 648.6 L372.7 649.3 L381.9 647.6 L385.2 645.7 L389.2 641.4 L391.3 638.0 L392.8 633.6 L392.9 630.7 L393.2 627.3 L396.0 625.8 L402.1 625.7 L404.7 624.0 L407.8 619.8 L411.1 614.9 L412.1 612.7 L414.2 608.4 L415.0 605.6 L415.3 601.6 L415.9 605.0 L414.7 610.3 L411.5 616.6 L406.3 624.4 L408.1 625.3 L410.2 625.5 L412.7 626.7 L415.0 626.8 L419.0 625.4 L419.3 618.9 L419.1 612.9 L418.3 610.2 L418.8 606.1 L417.0 600.2 L414.3 593.1 L413.6 585.4 L412.3 576.7 L411.8 562.8 L412.1 555.9 L415.6 551.6 L417.2 548.4 L418.0 544.2 L418.1 540.2 L418.6 537.1 L423.3 527.5 L427.5 526.2 L433.0 523.2 L439.1 520.6 L440.6 523.2 L441.4 525.1 L449.7 531.9 L451.9 534.3 L455.7 542.6 L463.3 546.2 L468.9 544.2 L471.1 541.8 L475.2 537.4 L476.8 534.3 L477.0 531.6 L474.8 520.0 L473.1 515.0 L473.1 511.8 L474.8 502.8 L474.7 497.1 L475.7 495.4 L475.0 493.6 L472.3 492.8 L471.3 493.1 L470.5 495.1 L469.7 496.6 L467.5 497.8 L465.3 496.5 L460.4 495.0 L458.9 492.5 L458.4 489.9 L455.7 487.6 L454.4 484.6 L454.6 482.5 L456.6 480.9 L454.4 480.1 L451.9 475.2 L452.8 473.6 L452.2 471.1 L452.8 468.2 L452.1 465.0 L454.6 463.0 L457.2 461.6 L462.7 460.3 L461.8 457.5 L464.1 457.1 L467.5 453.1 L471.3 453.3 L476.5 450.2 L487.0 448.9 L488.2 447.3 L487.6 444.5 L489.6 444.6 L492.9 443.9 L505.6 445.1 L508.6 444.6 L513.2 447.0 L515.6 447.4 L522.3 446.4 L532.8 446.0 L534.5 443.6 L535.1 440.4 L534.1 437.0 L533.1 434.4 L533.5 432.2 L534.9 431.7 L536.7 433.7 L539.1 434.5 L540.5 432.7 L540.5 429.7 L541.5 428.2 L543.2 429.1 L545.9 429.0 L548.1 428.5 L549.4 427.6 L550.1 424.7 L550.9 422.3 L551.9 420.7 L561.6 420.5 L570.4 421.7 L570.7 418.6 L568.3 417.4 L566.6 416.8 L564.0 413.8 L560.8 411.6 L558.0 411.9 L554.7 413.6 L549.1 414.0 L543.6 409.8 L540.3 408.8 L537.4 405.3 L536.5 403.3 L539.1 404.7 L539.1 402.8 L538.9 400.2 L537.3 399.0 L536.0 398.3 L530.7 403.2 L524.2 405.6 L522.1 407.4 L519.6 408.1 L518.6 409.2 L514.3 407.2 L511.3 408.2 L509.5 410.4 L505.4 411.6 L503.4 412.6 L502.3 413.7 L501.7 411.6 L501.9 408.8 L502.5 406.9 L500.8 408.7 L500.6 411.9 L499.5 413.7 L496.4 414.8 L493.1 412.7 L491.6 412.9 L492.7 414.6 L493.6 416.5 L492.1 417.6 L490.4 419.0 L489.0 421.0 L486.9 418.8 L485.1 420.2 L483.6 421.9 L480.3 422.8 L478.5 425.0 L475.1 426.9 L473.1 427.1 L468.8 429.2 L467.6 431.9 L466.4 432.9 L464.4 432.4 L458.8 434.2 L453.4 436.4 L451.0 436.6 L448.6 436.1 L446.3 438.6 L444.0 441.9 L441.1 443.2 L440.0 442.9 L442.5 439.5 L443.6 437.1 L442.7 434.7 L441.4 434.6 L439.6 432.8 L437.8 428.9 L436.6 429.9 L436.4 433.1 L435.3 434.8 L434.4 435.6 L433.5 436.0 L430.1 436.3 L429.5 434.1 L429.9 432.0 L429.7 429.9 L431.4 429.7 L431.7 427.8 L430.4 427.7 L431.2 424.0 L430.1 423.5 L425.3 423.0 L419.1 419.8 L417.7 419.7 L416.5 416.5 L415.2 417.0 L413.3 419.1 L411.6 417.8 L409.9 417.0 L409.2 413.3 L408.9 410.7 L408.3 407.7 L407.7 403.4 L407.8 400.0 L408.9 397.5 L409.5 391.7 L409.4 387.0 L409.0 384.3 L410.0 384.2 L408.6 381.8 L410.2 381.1 L409.2 377.6 L407.4 372.4 L405.7 368.7 L403.3 366.1 L403.8 361.5 L404.4 357.4 L404.1 355.4 L403.6 353.1 L400.8 350.7 L400.1 347.0 L399.3 343.0 L399.3 340.6 L399.6 338.7 L400.4 336.8 L404.4 330.7 L404.4 327.6 L407.4 327.2 L405.8 324.6 L405.2 321.3 L409.3 319.7 L411.0 320.6 L414.5 319.1 L417.6 316.4 L416.9 314.0 L416.0 311.9 L417.7 311.5 L417.0 309.4 L418.4 309.7 L420.2 306.3 L420.0 303.8 L423.6 302.1 L427.3 296.7 L429.0 295.0 L430.8 293.7 L434.3 288.2 L435.9 287.8 L436.4 284.3 L439.3 279.4 L440.2 278.7 L441.3 274.5 L444.8 269.3 L446.6 263.0 L447.8 260.7 L448.0 258.4 L449.5 258.0 L450.7 256.1 L453.6 254.6 L456.6 254.6 L457.9 255.2 L459.0 254.8 L458.7 252.8 L457.7 251.6 L459.6 249.2 L459.2 247.2 L457.2 244.6 L457.4 240.8 L457.0 236.8 L457.0 232.1 L455.1 229.9 L448.5 226.5 L447.4 226.8 L446.0 226.4 L444.2 223.4 L444.5 220.6 L443.2 221.2 L441.4 222.9 L438.8 222.0 L437.6 222.4 L433.8 223.6 L430.6 222.3 L429.2 223.3 L426.6 223.6 L423.7 224.5 L422.8 226.0 L422.1 226.6 L419.2 225.0 L416.3 222.1 L414.6 224.6 L413.4 225.2 L412.1 223.2 L411.1 222.9 L410.4 225.5 L409.8 227.1 L409.9 231.9 L407.2 232.5 L408.3 234.6 L407.4 235.5 L404.8 235.5 L405.5 237.8 L404.5 239.6 L401.6 240.6 L399.8 240.5 L399.7 243.3 L400.5 243.8 L400.8 245.8 L398.2 243.8 L399.3 246.6 L400.7 249.5 L398.6 255.2 L396.8 257.9 L395.4 260.4 L394.7 262.9 L395.8 264.1 L397.1 265.9 L398.1 269.3 L399.3 272.4 L401.5 275.2 L400.9 278.3 L397.8 281.5 L394.3 286.2 L390.8 297.8 L389.5 299.4 L386.0 301.5 L384.8 303.5 L382.2 305.8 L377.5 307.9 L375.5 310.7 L374.7 313.5 L373.5 313.7 L372.4 312.7 L371.0 311.9 L371.0 315.1 L368.6 313.2 L367.6 315.0 L366.8 318.0 L363.6 322.2 L360.0 321.6 L360.8 323.4 L359.1 323.8 L357.6 324.6 L356.6 324.5 L356.2 326.4 L355.5 328.8 L353.4 329.8 L352.4 330.0 L355.0 331.6 L354.8 333.7 L350.9 336.8 L349.7 339.0 L348.0 339.0 L345.9 337.4 L345.2 335.5 L345.0 337.6 L346.4 341.6 L345.3 343.8 L347.0 345.0 L346.0 346.8 L344.1 349.6 L342.2 349.7 L341.0 351.5 L339.7 351.5 L338.6 350.4 L337.0 349.4 L336.3 352.4 L337.3 355.8 L339.1 358.4 L340.9 359.5 L339.6 360.3 L338.7 362.0 L337.7 367.3 L337.1 369.4 L336.5 373.0 L336.9 376.1 L338.1 379.7 L335.8 379.5 L333.4 378.3 L333.8 380.7 L332.3 383.7 L332.5 386.3 L332.4 390.8 L333.5 393.4 L333.2 395.7 L333.3 399.5 L333.8 405.3 L335.0 411.7 L334.7 413.6 L334.5 415.9 L336.5 418.0 L338.3 418.0 L340.0 417.9 L341.4 420.0 L341.9 421.9 L343.4 421.7 L345.7 420.2 L347.2 419.8 L348.3 422.7 L351.1 426.4 L352.7 428.1 L355.5 428.9 L358.4 431.9 L358.1 435.6 L359.3 436.9 L362.7 438.2 L364.0 440.1 L365.6 443.1 L366.8 447.3 L366.5 449.9 L365.1 450.9 L361.9 453.8 L360.5 455.9 L359.4 457.2 L356.2 460.0 L355.0 460.6 L353.8 462.0 L352.8 462.7 L351.8 462.3 L348.1 465.0 L351.2 466.5 L352.7 465.9 L353.8 464.6 L355.0 464.3 L356.1 464.5 L357.3 463.5 L358.2 463.0 L359.2 463.5 L360.3 465.9 L358.1 467.3 L356.6 467.4 L355.9 471.5 L354.9 473.2 L350.8 475.9 L348.4 478.1 L345.7 479.9 L344.5 479.5 L342.7 481.4 L338.7 483.5 L336.6 486.4 L331.9 489.0 L329.6 491.0 L323.1 491.1 L316.9 490.6 L314.9 491.6 L316.9 491.9 L318.3 493.0 L320.0 492.5 L323.9 493.1 L325.9 493.6 L328.6 497.0 L326.6 498.2 L323.3 499.1 L324.5 504.0 L325.6 507.2 L324.2 509.2 L324.0 518.2 L322.1 518.3 L321.3 522.0 L321.9 523.9 L321.8 528.3 L322.2 531.0 L323.1 533.5 L322.7 536.1 L319.5 542.2 L319.6 545.0 L320.6 549.4 L319.1 554.6 L318.0 559.0 L316.8 562.6 L314.1 567.0 L312.7 570.3 L309.4 580.5 L307.8 582.5 L305.9 584.0 L303.8 582.6 L301.8 581.7 L299.4 581.8 L295.6 582.8 L289.9 581.9 L284.4 582.1 L283.0 583.1 L283.7 586.8 L281.6 587.3 L279.7 586.1 L277.9 587.3 L276.3 588.7 L273.3 591.8 L272.2 593.8 L271.8 597.6 L273.2 601.1 L274.4 605.2 L270.7 609.9 L268.7 609.9 L263.1 608.4 L252.7 610.8 L243.7 607.8 L245.0 605.4 L245.1 603.4 L245.8 600.6 L246.3 597.6 L246.3 595.5 L245.8 593.4 L243.8 590.4 L239.4 580.7 L238.2 576.6 L237.3 574.9 L242.0 577.3 L244.0 576.3 L243.0 573.2 L242.0 571.8 L241.5 569.7 L243.9 569.2 L245.6 569.5 L247.0 567.2 L246.5 563.4 L244.7 562.1 L243.2 561.6 L240.7 555.4 L237.9 552.1 L233.4 540.0 L232.1 531.8 L230.1 532.4 L229.6 528.8 L229.2 525.4 L229.2 522.9 L226.5 521.3 L226.7 511.9 L223.8 510.6 L222.2 506.1 L222.6 498.0 L220.8 496.3 L219.1 496.6 L219.4 494.6 L219.9 492.7 L219.7 485.2 L220.0 478.3 L219.5 476.2 L219.3 473.8 L219.8 471.7 L222.4 470.4 L224.0 472.4 L223.8 469.9 L219.5 468.1 L217.1 467.1 L216.1 466.7 L214.0 466.0 L212.8 461.8 L211.2 458.2 L211.8 450.4 L211.5 447.5 L211.7 444.4 L210.3 446.7 L210.5 450.8 L209.0 452.3 L207.1 453.0 L207.0 455.3 L207.7 458.3 L206.8 461.8 L202.5 469.4 L201.1 471.2 L199.3 470.3 L196.8 472.3 L194.6 472.4 L194.0 469.8 L191.3 466.1 L189.8 466.1 L191.0 467.9 L192.0 470.2 L190.3 472.3 L189.0 472.7 L184.1 474.9 L185.4 477.0 L183.8 479.0 L182.2 479.1 L180.8 481.2 L175.6 484.5 L166.5 493.3 L162.1 495.6 L158.9 498.1 L156.5 497.6 L153.0 499.7 L144.8 500.7 L139.7 498.9 L135.9 499.2 L134.2 497.2 L134.4 495.4 L132.8 493.8 L131.7 496.4 L128.4 495.3 L129.1 492.5 L131.1 491.0 L129.9 489.2 L127.5 489.1 L125.5 488.5 L119.8 483.5 L118.7 481.1 L114.2 477.0 L112.5 473.1 L111.9 469.0 L112.6 465.5 L114.2 460.1 L115.5 458.9 L119.7 461.7 L123.7 465.7 L126.3 463.3 L129.4 461.8 L124.2 462.7 L122.9 461.1 L121.0 458.1 L122.6 455.6 L123.2 453.8 L123.6 449.7 L125.9 447.5 L129.0 445.4 L131.4 443.3 L133.7 442.1 L131.1 442.1 L128.6 443.4 L125.6 445.7 L122.0 447.4 L119.5 447.8 L118.3 448.3 L116.4 448.7 L114.0 451.5 L111.9 452.5 L108.3 452.0 L108.0 449.6 L110.5 441.6 L112.3 437.7 L113.9 435.1 L115.8 435.0 L117.5 433.1 L118.6 433.3 L122.6 436.0 L124.8 433.6 L127.2 433.6 L131.7 431.7 L128.8 431.3 L127.1 431.1 L124.6 431.3 L123.4 430.6 L123.1 428.5 L124.4 426.9 L129.0 423.3 L130.7 421.6 L131.8 418.8 L132.9 416.4 L137.3 412.7 L140.7 411.2 L141.4 413.1 L139.7 418.3 L139.3 420.5 L143.0 413.1 L144.4 411.4 L145.8 410.3 L148.8 409.9 L146.4 408.7 L137.7 410.3 L133.8 412.4 L132.5 414.2 L129.6 416.9 L128.1 418.7 L127.1 421.5 L125.5 422.9 L123.5 423.1 L120.3 426.3 L118.6 429.2 L115.6 431.0 L113.7 432.5 L111.8 434.7 L110.6 433.6 L110.9 431.2 L111.8 427.6 L113.5 425.2 L114.6 422.7 L114.3 420.1 L116.2 418.9 L118.1 420.0 L120.2 420.3 L124.1 419.0 L122.2 417.4 L119.3 417.0 L117.3 414.7 L116.2 410.7 L116.2 405.6 L124.7 400.4 L126.9 398.4 L125.9 398.0 L122.9 400.4 L119.0 401.4 L117.2 398.6 L116.5 395.8 L116.8 390.2 L117.6 387.5 L118.0 383.7 L119.7 382.8 L121.3 383.8 L122.9 384.3 L126.8 384.7 L135.6 384.0 L140.7 386.2 L142.9 386.4 L146.7 385.0 L149.6 385.3 L151.6 387.1 L152.5 389.0 L152.3 391.3 L153.1 392.9 L153.6 390.7 L153.9 387.9 L163.2 386.1 L164.4 385.1 L161.0 384.1 L160.4 381.1 L162.9 377.1 L160.5 378.5 L159.1 381.6 L159.1 384.2 L156.6 385.6 L152.6 385.1 L150.2 383.7 L147.9 382.7 L147.7 379.9 L146.1 380.9 L144.7 384.1 L142.7 384.5 L137.6 382.4 L129.9 381.8 L126.2 382.8 L124.0 382.2 L120.7 378.6 L119.6 376.1 L120.0 371.4 L120.6 369.4 L123.6 369.1 L125.1 369.5 L126.7 368.7 L125.6 367.7 L124.2 366.0 L123.5 363.0 L121.9 361.8 L121.1 359.2 L121.5 355.6 L122.4 353.1 L123.4 352.5 L125.6 353.5 L131.6 354.2 L136.7 357.7 L140.3 359.8 L148.1 360.4 L153.0 358.8 L147.2 358.6 L142.7 357.8 L135.1 353.9 L132.0 352.4 L128.5 352.1 L126.8 351.1 L126.2 348.3 L127.9 343.7 L129.7 342.9 L130.4 344.3 L131.4 344.7 L132.9 342.8 L134.1 341.8 L135.4 339.4 L139.0 337.5 L140.3 337.6 L142.4 336.8 L143.5 337.3 L144.9 339.6 L147.0 339.9 L153.6 339.0 L155.8 337.1 L151.8 337.1 L148.3 337.7 L146.1 337.7 L147.1 335.0 L148.5 333.9 L149.5 331.7 L151.0 330.9 L152.4 331.2 L155.5 331.3 L157.7 331.0 L161.2 332.0 L166.5 333.7 L169.7 336.4 L171.0 336.4 L172.4 336.0 L170.6 334.1 L171.1 331.8 L175.8 330.7 L180.7 331.0 L180.0 329.4 L169.1 330.0 L166.6 328.2 L164.4 327.8 L162.9 328.4 L158.7 328.8 L159.2 325.6 L162.3 321.9 L163.9 320.1 L170.5 318.7 L174.0 316.4 L175.4 316.2 L176.6 316.6 L178.8 316.6 L182.6 317.9 L183.9 321.7 L185.4 323.0 L190.1 328.0 L186.3 320.2 L184.8 318.6 L183.9 315.5 L184.7 312.8 L186.4 311.2 L191.6 310.9 L192.6 310.0 L192.9 308.1 L190.4 306.7 L189.0 305.7 L188.9 303.7 L192.9 300.4 L194.6 299.8 L197.4 299.3 L201.9 301.8 L200.5 305.1 L201.6 306.8 L204.8 303.1 L208.1 302.9 L209.5 302.1 L211.1 301.7 L212.9 305.7 L213.7 307.0 L214.8 310.6 L216.6 309.5 L218.5 308.8 L221.0 308.6 L225.0 309.8 L226.9 309.4 L227.8 309.5 L227.2 306.7 L227.8 303.5 L228.8 302.6 L231.8 301.2 L234.5 300.7 L236.4 299.2 L238.9 297.9 L238.0 295.2 L236.5 295.0 L238.1 292.6 L240.9 290.8 L238.6 288.9 L237.0 289.4 L234.7 290.8 L231.9 293.0 L232.7 293.8 L233.8 295.9 L231.7 298.5 L221.3 304.8 L216.5 306.5 L214.4 306.0 L214.1 303.9 L213.3 302.3 L212.6 299.2 L210.8 299.0 L209.7 299.6 L210.5 295.4 L212.3 293.0 L215.0 291.3 L216.5 289.2 L218.0 285.6 L222.0 282.5 L228.1 274.3 L232.6 271.9 L234.4 269.0 L237.0 267.9 L239.4 265.7 L241.1 265.6 L244.3 263.7 L246.2 261.3 L245.1 261.1 L242.3 262.5 L240.7 263.0 L241.1 260.3 L242.0 257.6 L244.4 255.2 L255.4 248.6 L256.3 249.9 L257.4 252.2 L260.5 251.9 L264.4 248.0 L267.4 243.5 L265.9 244.2 L264.2 246.0 L260.8 248.4 L259.4 248.7 L258.6 248.3 L257.2 245.9 L256.2 246.2 L255.3 244.9 L255.3 241.8 L256.9 237.4 L258.2 234.5 L259.5 232.3 L264.1 226.1 L265.3 222.6 L267.4 220.9 L269.8 221.5 L270.6 221.0 L269.9 218.6 L267.3 216.6 L276.3 213.0 L280.6 213.3 L282.0 211.9 L284.3 211.0 L286.1 209.3 L285.3 208.4 L280.9 209.9 L278.1 210.5 L276.9 210.5 L275.9 211.0 L272.5 211.0 L272.2 203.6 L273.0 199.6 L274.2 199.8 L274.7 196.0 L276.3 193.9 L278.4 193.5 L279.4 192.6 L281.0 190.7 L283.4 191.2 L285.9 190.9 L282.3 188.6 L281.7 186.5 L282.8 185.5 L284.0 184.7 L285.0 184.6 L287.3 180.7 L288.6 179.1 L289.9 179.4 L292.0 177.7 L293.9 178.4 L295.7 177.4 L298.2 176.7 L307.4 176.6 L305.8 174.6 L299.0 174.0 L295.6 173.9 L294.1 174.3 L295.0 171.2 L298.3 165.5 L301.4 162.8 L303.6 163.5 L305.8 166.3 L307.5 166.7 L308.3 167.5 L309.5 171.2 L309.9 167.8 L311.5 165.0 L308.7 165.1 L306.8 164.1 L305.4 161.9 L305.0 159.9 L306.0 158.0 L306.9 157.0 L302.5 158.8 L300.0 159.5 L298.9 159.0 L299.6 156.2 L299.3 154.1 L303.0 148.7 L304.2 148.2 L306.1 148.6 L307.8 150.2 L309.3 150.0 L310.9 149.3 L307.3 147.1 L306.4 145.9 L309.2 143.5 L311.6 141.3 L314.3 140.7 L316.4 139.0 L317.2 140.1 L317.8 146.4 L319.7 151.6 L320.5 151.8 L319.8 147.4 L320.5 146.1 L321.3 145.2 L320.7 143.7 L319.8 142.2 L318.7 137.1 L321.7 133.1 L324.8 132.5 L328.2 134.4 L329.3 134.5 L331.3 133.9 L334.6 132.4 L336.5 131.7 L337.5 131.7 L336.8 130.5 L335.8 129.7 L332.7 130.5 L324.4 130.3 L323.6 129.4 L324.3 125.7 L325.3 124.4 L328.5 122.2 L331.8 121.9 L335.2 118.0 L336.5 115.1 L337.2 110.5 L339.3 106.8 L344.5 104.7 L344.1 101.9 L344.1 98.5 L345.5 94.4 L346.4 93.0 L347.9 94.2 L349.4 96.9 L351.5 98.4 L354.3 98.6 L355.0 97.8 L352.8 96.3 L351.1 94.3 L350.9 92.2 L351.7 91.0 L352.9 91.1 L354.4 90.8 L355.8 89.5 L355.9 87.1 L358.2 82.4 L364.4 80.1 L364.8 87.2 L364.2 91.3 L364.3 94.2 L365.5 91.2 L366.7 83.1 L367.8 79.2 L369.1 77.0 L370.1 76.4 L371.0 75.3 L372.2 74.5 L373.2 77.3 L372.8 84.4 L373.0 86.7 L372.4 89.7 L369.7 96.5 L370.6 97.0 L371.7 95.8 L375.1 89.3 L378.4 89.9 L377.3 87.6 L375.9 85.9 L375.4 83.7 L375.3 77.9 L376.1 75.4 L378.8 75.5 L380.5 75.1 L381.4 76.2 L383.0 76.0 L383.9 71.7 L386.1 71.1 L388.3 73.8 L390.8 75.5 L393.0 78.1 L392.0 71.0 L390.7 68.9 L388.1 67.8 L385.3 65.2 L384.5 64.0 L386.8 62.0 L389.9 62.8 L392.4 60.3 L393.2 60.9 L395.2 59.5 L396.6 61.0 L397.3 60.5 L397.6 58.2 L400.8 56.6 L402.9 57.7 L404.2 58.8 L404.9 61.3 L406.2 66.2 L408.1 68.8 L409.2 70.0 L410.5 70.2 L409.7 67.3 L409.4 62.0 L409.9 60.4 L412.8 54.5 L415.4 51.2 L417.1 50.8 L419.4 43.9 L420.1 42.7 L420.9 42.3 L418.8 39.9 L418.4 37.9 L420.3 35.3 L422.5 30.9 L423.7 30.5 L424.7 31.5 L427.4 33.0 L429.2 35.0 L430.5 35.8 L431.2 35.5 L431.6 33.9 L432.2 33.1 L433.9 33.2 L435.0 34.1 L435.8 34.2 L436.5 34.6 L435.7 37.6 L433.8 41.8 L432.0 46.6 L431.5 49.0 L431.5 55.1 L430.1 59.3 L430.3 62.0 L431.2 63.2 L433.2 61.9 L435.3 58.0 L435.5 54.0 L440.4 42.7 L442.5 36.5 L445.1 31.2 L446.8 30.0 L448.2 33.0 L448.1 37.2 L447.1 40.0 L448.3 41.1 L448.6 44.3 L448.6 47.9 L449.8 49.0 L453.2 45.0 L453.7 41.3 L454.2 38.5 L454.2 36.1 L455.4 33.7 L458.3 33.3 L454.3 29.9 L454.6 26.6 L457.1 22.6 L458.8 22.7 L459.9 23.4 L463.9 23.3 L467.3 25.2 L467.9 29.1 L467.5 30.9 L467.1 32.0 L463.7 35.6 L463.3 37.1 L464.6 37.4 L467.0 35.5 L467.9 36.7 L467.7 40.2 L468.3 45.2 L468.5 48.2 L469.0 50.9 L469.7 46.4 L471.0 42.5 L470.8 38.0 L471.3 32.6 L472.5 29.3 L473.3 28.3 L476.6 27.9 L478.2 28.7 L479.9 31.0 L481.0 31.8 L484.1 32.3 L485.4 33.4 L486.5 34.2 L488.1 31.9 L489.3 31.3 L492.0 33.8 L492.0 36.1 L494.8 36.1 L497.0 36.5 L502.0 40.1 L502.9 42.1 L503.2 44.6 L498.0 48.7 L496.0 51.9 L492.1 53.7 L477.6 54.7 L478.2 56.6 L488.9 58.9 L489.9 62.5 L490.3 64.6 L491.8 67.1 L493.1 67.5 L495.5 66.7 L496.9 67.1 L497.5 65.9 L497.1 62.3 L497.7 61.4 L499.3 62.1 L500.7 65.7 L501.3 63.2 L502.7 63.1 L504.2 62.6 L506.2 62.6 L508.6 62.7 L514.3 64.4 L515.4 63.8 L516.7 62.7 L517.4 58.9 L518.4 58.0 L520.1 58.4 L518.8 54.8 L524.4 55.1 L527.1 56.9 L532.3 57.7 L533.4 58.6 L534.0 60.4 L533.3 63.2 L531.3 63.5 L523.4 62.9 L522.8 64.6 L523.9 65.7 L526.4 66.7 L527.7 69.2 L530.8 68.1 L534.2 68.3 L535.6 67.6 L535.7 70.9 L539.2 68.4 L540.7 67.3 L541.7 67.6 L542.3 69.4 L542.3 71.8 L542.6 77.9 L541.3 79.7 L541.0 81.5 L543.2 79.9 L544.2 78.4 L545.2 72.0 L545.7 71.1 L552.6 69.2 L554.2 69.1 L561.4 70.0 L563.3 69.7 L565.3 68.8 L565.7 67.3 L566.3 66.7 L574.3 67.6 L585.9 71.3 L603.6 77.7 L614.9 84.7 L616.5 86.5 L619.9 86.7 L620.2 85.6 L622.1 85.7 L634.8 91.2 L638.2 90.4 L637.1 88.7 L635.9 87.1 L636.9 87.2 L638.5 88.1 L641.5 90.9 L644.7 92.5 L648.4 95.5 L650.8 96.2 L652.7 96.1 L654.5 96.7 L657.6 96.7 L660.0 101.1 L660.0 154.6 L655.3 159.7 L647.1 165.0 L643.6 166.5 L636.2 167.8 L631.9 167.8 L626.1 166.0 L621.2 165.8 L617.9 166.0 L612.3 167.5 L599.1 167.8 L596.7 167.3 L587.2 163.0 L584.7 165.7 L583.0 166.5 L581.2 164.6 L581.5 163.1 L576.7 162.4 L573.2 163.2 L570.9 162.1 L568.2 161.6 L567.4 162.6 L561.5 161.1 L558.8 159.3 L555.6 155.8 L556.2 153.2 L548.2 152.7 L541.1 154.0 L542.6 154.8 L545.8 154.7 L548.1 155.9 L550.9 157.7 L551.2 160.9 L555.1 163.2 L558.2 165.6 L559.6 166.8 L563.4 166.8 L564.7 169.4 L565.2 172.0 L568.4 173.0 L570.1 173.0 L572.3 173.5 L572.0 175.8 L570.7 177.6 L569.1 178.6 L570.1 178.9 L572.1 178.2 L580.9 179.5 L586.0 181.8 L591.9 186.9 L594.1 189.6 L595.0 193.0 L594.9 195.0 L595.1 197.0 L595.2 202.8 L594.6 205.0 L593.2 207.8 L596.3 211.4 L599.4 214.7 L603.2 220.6 L604.3 223.1 L605.4 227.1 L607.7 228.2 L606.8 230.3 L608.4 235.4 L612.1 238.9 L616.8 240.5 L619.2 240.4 L622.1 238.4 L624.9 239.2 L631.7 242.7 L635.8 247.4 L637.1 248.2 L643.1 248.6 L647.5 248.6 L654.7 249.9 L655.8 249.6 L657.8 245.8 L660.0 244.0 L660.0 234.0 L659.4 233.2 L657.7 229.4 L655.5 228.3 L653.6 227.7 L649.2 230.1 L647.0 230.6 L645.1 230.1 L642.0 228.0 L635.7 222.4 L632.9 220.8 L630.4 217.9 L629.5 214.6 L631.3 214.2 L632.7 211.7 L632.1 204.8 L634.2 203.2 L635.6 202.8 L642.3 204.0 L652.0 209.6 L653.9 210.0 L655.6 209.5 L658.2 208.3 L660.0 209.4 L660.0 0.0 Z M86.5 662.0 L82.1 661.9 L80.7 661.2 L85.4 661.3 L86.5 661.8 L86.5 662.0 Z M72.9 662.4 L70.8 662.3 L75.1 661.1 L78.3 661.2 L72.9 662.4 Z M356.8 476.9 L355.6 477.2 L356.4 474.8 L357.7 474.1 L356.8 476.9 Z M359.8 460.7 L358.9 460.4 L360.2 457.8 L361.6 458.3 L360.3 459.9 L359.8 460.7 Z M442.6 479.5 L441.2 481.5 L439.7 480.0 L438.0 484.3 L435.8 485.2 L434.4 484.5 L432.8 479.1 L430.7 478.0 L428.0 478.2 L425.8 476.7 L433.4 474.9 L434.1 472.9 L435.5 470.8 L436.6 470.5 L437.6 470.8 L438.2 473.0 L441.8 473.5 L443.4 476.0 L444.2 479.1 L442.6 479.5 Z M451.6 488.9 L450.0 489.4 L446.0 487.2 L447.7 484.6 L451.0 485.4 L451.7 488.0 L451.6 488.9 Z M616.2 209.3 L617.9 212.8 L618.5 215.5 L617.8 216.7 L615.5 214.3 L614.6 214.5 L613.3 213.6 L612.3 211.7 L612.9 210.9 L614.7 209.2 L616.2 209.3 Z M8.0 377.5 L6.8 373.7 L9.2 369.9 L10.7 370.5 L10.2 372.6 L9.2 372.8 L8.9 374.7 L8.3 376.9 L8.0 377.5 Z M3.6 375.3 L3.3 377.9 L4.3 377.5 L5.0 380.3 L7.1 379.9 L6.3 382.0 L3.3 387.9 L1.9 390.6 L0.1 394.6 L-0.0 394.7 L0.0 382.3 L0.4 382.2 L0.5 377.0 L0.0 376.7 L0.0 374.9 L0.3 374.6 L2.5 372.6 L3.4 372.5 L4.5 372.9 L3.6 375.3 Z M15.6 368.2 L13.8 371.4 L12.1 372.0 L12.2 369.8 L12.9 368.0 L14.0 368.0 L15.4 367.4 L15.6 368.2 Z M420.7 425.7 L419.4 426.0 L417.4 424.3 L417.2 421.7 L418.9 422.1 L420.4 425.1 L420.7 425.7 Z M378.6 433.7 L377.5 434.6 L376.4 435.4 L376.5 431.7 L377.9 431.5 L378.6 433.7 Z M384.3 427.4 L386.1 427.3 L387.6 428.6 L389.0 429.7 L388.3 433.0 L387.1 432.9 L386.1 433.2 L385.5 436.8 L381.3 437.5 L380.2 436.9 L378.7 432.0 L379.8 430.2 L380.8 432.6 L382.0 432.3 L382.2 429.3 L381.1 428.3 L381.2 426.1 L382.4 425.5 L383.5 427.2 L384.3 427.4 Z M399.7 320.3 L400.9 320.7 L402.0 319.4 L403.0 319.9 L402.2 321.4 L401.5 322.5 L400.5 323.6 L398.6 321.9 L397.4 319.1 L399.9 318.9 L399.7 320.3 Z M372.2 517.3 L371.9 519.6 L370.8 519.4 L371.7 515.1 L374.5 515.2 L375.5 515.7 L372.2 517.3 Z M320.4 578.1 L319.2 580.0 L317.7 577.3 L317.6 571.0 L318.0 567.8 L322.6 556.5 L324.5 555.6 L327.3 548.6 L328.0 545.6 L329.2 542.7 L330.0 540.2 L331.7 539.7 L331.0 541.7 L331.2 543.5 L327.6 552.5 L326.8 557.8 L325.5 559.2 L320.4 578.1 Z M289.4 624.4 L285.2 623.9 L281.0 621.1 L281.8 616.2 L283.0 614.0 L290.5 619.9 L290.5 622.0 L289.4 624.4 Z M259.1 646.9 L259.5 649.4 L256.5 648.4 L254.0 648.3 L252.4 651.5 L251.3 651.6 L247.7 648.4 L247.1 645.7 L247.9 641.6 L249.2 638.9 L249.5 636.9 L251.7 634.8 L253.5 634.9 L254.8 638.0 L257.8 639.6 L256.9 642.8 L256.8 645.2 L259.1 646.9 Z M235.5 623.8 L231.5 623.7 L227.6 626.0 L226.3 625.1 L227.4 622.9 L228.6 622.3 L230.0 619.8 L232.9 621.2 L234.0 621.8 L235.5 623.8 Z M239.6 600.8 L237.5 602.2 L236.6 599.8 L237.7 598.6 L238.8 597.6 L239.6 600.8 Z M210.1 624.6 L213.7 627.3 L216.3 627.3 L217.9 628.4 L218.1 633.2 L216.2 634.0 L214.2 633.5 L211.3 634.5 L202.8 628.4 L203.4 624.0 L208.2 622.2 L210.1 624.6 Z M191.4 624.5 L189.9 624.7 L188.4 623.8 L186.0 620.4 L187.1 620.3 L188.7 622.1 L190.1 622.5 L191.8 624.1 L191.4 624.5 Z M182.6 622.1 L180.3 622.4 L179.3 621.4 L177.2 620.8 L177.2 615.1 L178.4 615.3 L181.7 618.3 L182.6 621.3 L182.6 622.1 Z M196.3 628.6 L194.4 625.6 L196.0 622.9 L197.2 620.8 L200.0 617.7 L201.8 613.9 L201.4 617.5 L197.2 626.9 L196.3 628.6 Z M197.4 590.3 L195.8 590.1 L195.9 587.8 L196.5 585.6 L196.2 583.7 L198.5 585.6 L198.0 588.5 L197.4 590.3 Z M207.0 642.0 L203.6 641.7 L202.5 640.1 L201.2 639.6 L202.1 637.8 L206.1 638.8 L206.9 641.2 L207.0 642.0 Z M211.6 537.2 L208.1 536.5 L209.5 535.0 L212.5 534.4 L214.2 534.8 L212.1 536.4 L211.6 537.2 Z M145.0 621.3 L145.4 616.8 L148.4 611.6 L147.8 614.2 L147.1 616.2 L152.4 618.3 L146.2 619.1 L145.0 621.3 Z M61.1 672.1 L58.4 674.3 L57.2 673.3 L58.0 670.7 L61.9 668.0 L61.1 672.1 Z M150.6 624.8 L147.7 625.2 L146.6 624.2 L148.3 622.8 L150.5 623.4 L150.6 624.8 Z M423.9 424.2 L426.2 424.9 L427.2 424.5 L428.4 426.3 L426.7 427.7 L427.5 430.1 L426.0 431.6 L424.5 429.1 L422.4 427.4 L423.1 424.8 L423.9 424.2 Z M410.4 419.4 L409.0 421.0 L407.8 421.4 L406.7 419.7 L405.9 416.9 L406.8 415.6 L410.4 419.4 Z M418.3 433.1 L416.6 434.5 L415.9 432.1 L416.9 431.1 L418.7 430.8 L418.3 433.1 Z M396.2 438.3 L394.6 439.4 L392.6 438.8 L393.9 437.1 L395.4 437.2 L396.2 438.3 Z M414.7 434.6 L413.1 435.1 L412.0 434.1 L413.4 432.3 L414.6 432.3 L414.7 434.6 Z M451.6 250.9 L449.5 252.4 L447.5 251.8 L447.2 249.5 L448.2 248.2 L450.2 247.5 L453.2 248.3 L452.2 249.5 L451.6 250.9 Z M494.7 64.5 L492.5 66.1 L492.3 63.8 L492.3 60.9 L493.4 60.8 L494.6 61.7 L495.6 62.8 L494.7 64.5 Z M117.4 381.9 L115.8 382.1 L114.7 381.5 L115.8 378.1 L117.5 377.6 L118.1 379.7 L117.4 381.9 Z M183.9 309.0 L182.3 308.8 L180.5 307.9 L179.4 306.5 L181.8 304.5 L184.1 304.1 L184.9 305.6 L184.7 308.0 L183.9 309.0 Z M191.4 297.8 L189.6 297.6 L188.6 296.6 L191.5 295.4 L195.8 294.4 L196.9 293.4 L197.3 296.4 L191.4 297.8 Z M262.6 222.4 L261.4 222.5 L262.3 219.7 L263.4 218.8 L264.9 218.7 L266.4 218.7 L262.6 222.4 Z M261.6 217.2 L260.3 217.3 L261.8 214.3 L262.6 212.0 L263.7 211.2 L265.0 212.5 L264.9 214.5 L264.0 216.3 L261.6 217.2 Z M364.7 64.8 L365.4 65.2 L366.0 64.9 L367.7 67.2 L368.8 67.9 L368.0 69.9 L366.6 70.2 L365.1 69.9 L364.1 66.7 L362.8 64.8 L363.6 62.7 L364.7 64.8 Z M408.5 39.4 L408.1 41.8 L407.2 43.0 L404.7 48.0 L403.1 48.9 L402.0 50.2 L399.8 49.8 L399.3 50.8 L398.7 51.5 L397.2 51.9 L396.3 51.7 L393.8 50.2 L392.3 48.4 L391.4 46.8 L393.5 46.7 L394.3 46.2 L395.7 46.4 L396.4 44.7 L398.3 44.7 L401.7 43.3 L403.1 43.8 L405.6 39.7 L406.6 39.7 L407.9 38.5 L408.5 39.4 Z M377.7 68.8 L377.0 69.8 L376.0 70.2 L374.6 69.3 L373.8 69.6 L372.9 68.0 L373.9 64.9 L375.8 63.7 L377.5 64.0 L377.7 68.8 Z M432.9 24.3 L436.3 25.3 L437.4 25.1 L439.3 27.5 L440.1 27.2 L438.7 29.8 L436.3 30.6 L433.8 31.0 L432.3 29.0 L430.2 28.7 L431.2 26.2 L432.9 24.3 Z M411.6 49.0 L412.3 52.2 L411.3 54.3 L409.0 57.3 L408.3 58.8 L407.0 59.4 L406.2 59.0 L406.1 56.7 L404.8 57.0 L403.6 55.9 L403.7 53.7 L404.6 52.0 L406.1 50.8 L407.3 51.1 L410.5 46.6 L411.6 49.0 Z M416.5 47.8 L414.3 49.5 L412.8 48.4 L411.8 44.3 L412.9 41.5 L413.7 42.1 L415.2 43.0 L416.9 44.7 L416.5 47.8 Z M287.3 136.7 L288.1 137.4 L290.2 137.3 L289.2 139.7 L287.3 140.3 L286.3 142.0 L284.0 142.5 L283.0 142.8 L281.7 144.3 L280.7 143.1 L280.2 145.4 L277.9 146.2 L277.7 142.8 L278.6 141.6 L280.2 140.0 L281.0 140.2 L282.7 137.0 L284.8 136.2 L286.1 136.3 L287.3 136.7 Z M274.1 150.4 L271.9 152.3 L272.9 148.7 L274.2 145.2 L275.8 143.3 L276.6 144.1 L276.0 147.5 L274.1 150.4 Z M336.5 88.5 L338.1 90.6 L338.8 89.9 L340.1 89.7 L341.1 90.4 L342.0 91.8 L343.0 91.8 L344.0 95.8 L343.3 97.6 L342.3 98.4 L342.0 100.4 L342.5 103.2 L340.2 104.2 L337.5 104.7 L336.4 103.3 L334.3 105.8 L332.1 109.6 L331.1 110.1 L329.5 108.0 L327.5 108.0 L329.6 105.5 L330.0 103.5 L329.6 100.1 L330.0 97.2 L331.1 95.8 L334.7 96.5 L334.8 94.3 L333.0 92.9 L334.6 91.1 L335.9 90.9 L336.3 88.9 L336.5 88.5 Z M358.5 70.6 L359.7 72.6 L360.7 72.4 L361.6 71.2 L363.0 72.2 L361.1 76.4 L359.8 79.7 L358.1 80.5 L357.3 80.1 L355.7 82.1 L354.5 84.1 L353.3 86.6 L353.0 88.8 L348.2 89.9 L346.5 90.6 L344.6 89.9 L343.7 88.2 L345.8 86.9 L346.3 84.5 L347.3 82.0 L348.0 81.5 L349.4 81.9 L350.3 80.5 L351.4 81.4 L351.4 78.3 L353.1 74.7 L353.9 72.8 L354.9 71.6 L355.9 71.8 L355.8 68.1 L356.7 64.1 L357.7 63.9 L358.3 66.5 L358.5 70.6 Z M313.2 126.7 L315.3 123.4 L317.3 122.3 L318.3 119.9 L318.2 117.9 L319.7 115.9 L321.0 115.1 L322.3 116.4 L323.0 117.8 L323.9 121.0 L323.5 124.1 L321.1 126.5 L319.1 127.6 L317.1 130.3 L316.1 132.6 L315.2 133.1 L314.2 132.3 L313.2 132.2 L312.1 134.2 L308.7 135.7 L307.4 135.3 L307.4 133.3 L306.6 133.4 L305.3 135.7 L304.0 136.4 L303.2 136.7 L301.7 135.7 L297.5 139.6 L293.6 140.2 L292.4 139.7 L292.5 137.3 L295.1 134.2 L297.2 132.1 L304.2 130.9 L308.6 124.5 L309.8 117.5 L310.9 115.1 L309.3 113.3 L309.3 111.1 L309.9 108.8 L312.2 105.5 L313.4 104.1 L315.5 100.2 L316.5 99.3 L317.5 99.3 L318.6 100.4 L318.4 102.5 L316.7 106.3 L314.3 109.6 L314.5 111.9 L315.5 113.9 L315.6 117.2 L315.6 120.4 L313.7 124.6 L313.2 126.7 Z M306.2 112.4 L307.8 116.2 L308.5 118.4 L307.8 122.4 L306.1 124.4 L303.4 124.8 L301.6 124.5 L300.5 123.4 L299.7 122.0 L297.9 123.4 L296.6 123.5 L295.1 122.3 L296.5 118.4 L297.3 116.7 L299.2 116.9 L300.6 117.8 L301.3 115.8 L301.7 113.3 L303.9 114.1 L304.0 110.2 L304.8 109.9 L305.8 111.0 L306.2 112.4 Z M240.1 258.9 L239.2 259.8 L237.4 258.8 L233.8 259.1 L232.5 258.0 L233.8 256.2 L237.2 254.4 L238.9 254.7 L240.4 257.4 L240.1 258.9 Z M114.4 410.4 L113.7 414.6 L112.1 414.0 L111.7 411.1 L112.3 408.7 L112.4 406.1 L113.7 404.8 L114.3 407.3 L114.4 410.4 Z M253.7 232.0 L252.7 233.0 L250.8 232.6 L251.3 229.7 L252.5 228.9 L254.0 229.2 L253.7 232.0 Z"/></clipPath></defs>
+  <g clip-path="url(#landclip)"><path d="M120.1 600.3 L153.4 605.1 L166.4 603.0 L178.4 599.6 L183.2 614.2 L199.3 634.5 L237.8 637.6 L266.9 613.3 L308.3 586.9 L297.4 571.9 L273.1 567.3 L252.9 564.5 L252.0 545.9 L248.8 532.8 L239.2 528.5 L230.1 522.3 L224.0 519.9 L206.9 512.8 L183.2 514.0 L151.4 528.5 L126.0 562.0 Z" fill="#2E6B5E" fill-opacity="0.62" stroke="none"/></g>
+  <g clip-path="url(#landclip)"><path d="M279.4 626.8 L292.8 627.2 L293.3 610.5 L280.0 610.1 Z" fill="#2E6B5E" fill-opacity="0.62" stroke="none"/></g>
+  <g clip-path="url(#landclip)"><path d="M230.1 522.3 L233.6 510.3 L233.3 489.3 L228.8 474.2 L238.0 452.8 L249.1 427.8 L247.3 401.9 L250.6 380.0 L261.7 369.7 L288.3 376.5 L294.9 360.2 L290.7 334.4 L304.7 309.1 L288.0 279.2 L292.0 257.2 L308.3 221.0 L320.6 184.3 L345.8 143.7 L373.8 124.3 L394.0 97.1 L436.7 111.4 L444.3 69.3 L470.0 69.0 L502.2 66.6 L503.7 43.6 L494.1 0.0 L165.9 0.0 L85.8 189.9 L61.9 373.2 L67.5 464.9 L96.2 498.9 L136.1 503.9 L174.1 507.3 L213.1 509.7 Z" fill="#2E6B5E" fill-opacity="0.62" stroke="none"/></g>
+  <g clip-path="url(#landclip)"><path d="M349.2 559.2 L381.5 558.3 L379.6 510.5 L348.5 511.3 Z" fill="#2E6B5E" fill-opacity="0.62" stroke="none"/></g>
+  <g clip-path="url(#landclip)"><path d="M230.1 522.3 L233.6 510.3 L233.3 489.3 L228.8 474.2 L238.0 452.8 L249.1 427.8 L247.3 401.9 L250.6 380.0 L261.7 369.7 L288.3 376.5 L294.9 360.2 L290.7 334.4 L304.7 309.1 L288.0 279.2 L292.0 257.2 L308.3 221.0 L320.6 184.3 L345.8 143.7 L373.8 124.3 L394.0 97.1 L436.7 111.4 L471.5 117.6 L505.2 149.0 L530.5 200.2 L553.6 270.4 L569.4 342.1 L559.9 381.7 L536.9 404.8 L510.7 412.9 L459.1 441.9 L422.9 452.7 L405.7 476.0 L372.8 455.5 L360.1 470.6 L349.2 492.9 L337.9 533.5 L330.0 574.1 L308.3 586.9 L297.4 571.9 L273.1 567.3 L252.9 564.5 L252.0 545.9 L248.8 532.8 L239.2 528.5 Z" fill="#2E6B5E" fill-opacity="0.62" stroke="none"/></g>
+  <g clip-path="url(#landclip)"><path d="M143.0 603.7 L153.4 605.1 L166.4 603.0 L178.4 599.6 L181.5 615.9 L181.3 622.2 L183.1 634.7 L180.6 638.2 L168.3 641.6 L148.8 640.7 L139.4 629.4 Z" fill="#2E6B5E" fill-opacity="0.3" stroke="#2E6B5E" stroke-width="1.3" stroke-dasharray="4 3"/></g>
+  <g clip-path="url(#landclip)"><path d="M165.0 641.5 L168.3 641.6 L180.6 638.2 L192.3 640.5 L190.6 657.8 L180.5 669.8 L162.8 669.7 L163.2 656.7 Z" fill="#2E6B5E" fill-opacity="0.3" stroke="#2E6B5E" stroke-width="1.3" stroke-dasharray="4 3"/></g>
+  <g clip-path="url(#landclip)"><path d="M148.6 655.6 L163.1 657.4 L165.0 641.5 L151.4 640.8 Z" fill="#8A2B2B" fill-opacity="0.42" stroke="none"/></g>
+  <path d="M239.2 528.5 L248.8 532.8 L252.0 545.9 L252.9 564.5 L273.1 567.3 L297.4 571.9 L308.3 586.9" fill="none" stroke="#F0F2EE" stroke-width="1" stroke-dasharray="3 3" opacity=".75"/>
+  <path d="M230.7 522.3 L233.7 509.6 L233.3 489.3 L228.8 474.2 L238.0 452.8 L249.1 427.8 L247.3 401.9 L250.6 380.0 L261.7 369.7 L288.3 376.5 L294.9 360.2 L290.7 334.4 L304.7 309.1 L288.0 279.2 L292.0 257.2 L308.3 221.0 L320.6 184.3 L345.8 143.7 L373.8 124.3" fill="none" stroke="#F0F2EE" stroke-width="1" stroke-dasharray="3 3" opacity=".75"/>
+  <path d="M143.0 603.7 L153.4 605.1 L166.4 603.0 L178.4 599.6" fill="none" stroke="#F0F2EE" stroke-width="1" stroke-dasharray="3 3" opacity=".75"/>
+  <path d="M148.8 640.7 L161.7 641.6 L168.3 641.6 L180.6 638.2" fill="none" stroke="#F0F2EE" stroke-width="1" stroke-dasharray="3 3" opacity=".75"/>
+  <g transform="translate(6,22)">
+  <rect x="0" y="0" width="158" height="88" fill="#B9CDD6" opacity=".7"/>
+  <clipPath id="wclip"><rect x="0" y="0" width="158" height="88"/></clipPath>
+  <g clip-path="url(#wclip)">
+  <path d="M74.6 0.0 L74.3 0.3 L74.1 0.3 L74.0 0.0 L71.2 0.0 L71.1 0.0 L70.7 0.1 L70.4 0.1 L70.4 0.0 Z M147.1 65.1 L147.3 65.6 L147.3 65.9 L147.2 66.4 L146.7 67.1 L145.9 68.6 L145.4 69.4 L145.5 70.1 L145.9 70.0 L146.1 70.1 L145.7 71.2 L145.7 71.8 L146.2 71.7 L146.5 71.4 L147.2 70.8 L147.8 70.3 L148.1 70.1 L148.9 70.1 L149.3 69.9 L149.6 69.8 L151.6 69.2 L152.1 68.8 L152.5 68.9 L152.9 69.2 L153.5 69.8 L153.5 70.3 L153.3 70.8 L153.2 71.4 L153.2 71.8 L153.3 72.1 L153.3 72.5 L153.3 74.1 L153.0 75.1 L152.9 75.7 L152.8 76.3 L152.6 76.7 L152.3 77.0 L151.5 77.5 L151.3 77.7 L151.1 78.1 L150.8 78.3 L151.2 78.2 L151.5 77.9 L152.2 77.6 L153.1 77.8 L153.2 78.2 L153.0 78.7 L152.3 79.0 L151.8 79.9 L151.6 80.2 L151.3 80.4 L150.9 80.5 L150.1 80.5 L149.7 80.5 L150.1 80.7 L150.5 80.7 L152.5 80.5 L153.1 79.8 L153.9 79.5 L155.7 79.7 L156.3 80.2 L157.2 80.7 L157.7 80.9 L158.0 81.1 L158.0 88.0 L153.5 88.0 L153.9 87.1 L154.6 86.5 L153.2 86.9 L152.8 87.2 L152.5 87.6 L152.4 87.8 L152.2 87.9 L152.1 88.0 L147.5 88.0 L147.5 87.5 L147.7 86.0 L147.8 85.6 L147.8 85.0 L147.7 84.7 L146.7 84.0 L146.6 83.5 L146.5 83.0 L146.5 82.6 L147.3 82.3 L147.0 82.2 L146.2 81.9 L146.2 81.1 L146.1 81.5 L146.0 82.1 L145.5 82.5 L145.5 82.9 L145.2 83.0 L145.1 83.0 L144.9 82.6 L144.9 82.1 L145.0 81.8 L145.4 80.9 L145.1 81.2 L144.7 82.1 L144.4 82.6 L144.4 83.0 L144.8 83.8 L144.9 84.1 L145.0 86.6 L144.9 87.0 L144.5 87.1 L144.2 86.8 L144.1 85.3 L144.2 85.0 L144.4 84.0 L144.2 84.2 L143.6 82.6 L143.6 82.1 L143.5 81.3 L143.5 80.7 L143.5 80.2 L143.5 79.6 L143.7 79.3 L143.6 78.9 L143.7 78.4 L143.8 77.9 L142.8 79.4 L142.6 79.7 L142.2 79.8 L141.8 79.8 L141.5 79.6 L141.3 79.1 L141.0 79.2 L140.7 79.1 L140.9 78.7 L141.4 78.4 L141.8 77.8 L141.2 77.7 L141.6 77.2 L141.8 76.2 L141.7 75.4 L141.3 75.1 L140.6 74.7 L140.4 74.4 L140.5 73.9 L140.7 73.7 L141.0 73.5 L140.7 73.4 L140.3 73.0 L140.2 72.2 L140.3 71.5 L141.2 71.2 L141.3 71.0 L141.8 71.0 L140.7 70.3 L140.7 69.6 L140.6 69.2 L140.8 68.9 L141.4 68.7 L141.6 68.6 L141.2 68.1 L141.1 67.7 L140.9 67.2 L141.0 66.7 L141.2 66.5 L141.6 66.5 L142.1 66.8 L142.5 66.3 L142.9 66.5 L143.6 65.9 L144.6 65.5 L145.2 65.1 L145.8 64.8 L146.4 64.4 L147.0 64.3 L147.1 65.1 Z M158.0 0.0 L158.0 88.0 L158.0 88.0 L158.0 0.0 Z M100.6 25.9 L100.9 25.9 L101.3 25.6 L101.5 25.4 L101.9 24.9 L102.2 24.7 L102.6 24.7 L102.8 24.6 L102.6 24.9 L102.4 25.0 L102.1 25.3 L101.9 26.0 L101.7 26.4 L102.1 26.8 L102.4 26.9 L102.6 26.7 L102.9 26.9 L103.0 27.3 L103.0 27.7 L102.9 28.1 L102.8 28.5 L103.0 28.6 L103.8 28.3 L104.0 28.4 L104.1 28.7 L104.2 29.0 L103.9 29.6 L104.3 29.2 L104.6 29.1 L105.3 29.2 L105.5 29.3 L105.7 29.6 L105.9 29.5 L106.2 29.6 L106.2 30.1 L106.1 30.5 L105.9 30.6 L106.1 31.1 L106.3 31.1 L106.4 31.4 L106.2 31.6 L106.7 32.0 L106.8 32.4 L106.6 32.8 L106.3 32.9 L106.1 33.0 L106.2 33.5 L106.2 33.8 L106.0 34.4 L105.8 34.7 L105.6 34.9 L105.2 34.9 L104.9 34.8 L105.0 35.2 L104.8 35.5 L105.0 35.8 L104.9 36.4 L104.8 36.7 L104.6 37.0 L104.2 37.2 L103.8 37.7 L103.6 37.9 L103.0 37.9 L102.3 38.3 L101.5 38.9 L100.9 39.4 L100.5 39.9 L99.9 40.8 L99.5 41.1 L99.2 41.2 L98.7 41.4 L98.3 41.6 L96.8 42.2 L96.3 42.4 L96.1 43.0 L96.1 43.6 L95.7 43.9 L95.5 43.9 L95.3 43.7 L95.3 44.1 L95.1 44.2 L94.1 44.6 L92.4 44.5 L91.8 44.3 L90.9 44.0 L90.4 43.9 L89.7 44.0 L89.1 43.5 L88.8 43.2 L88.9 42.8 L89.2 42.7 L88.9 42.5 L88.5 42.9 L88.4 42.9 L88.2 42.7 L87.7 42.5 L87.4 42.3 L87.0 42.0 L87.1 41.7 L86.7 41.7 L86.3 42.1 L86.1 42.2 L83.5 42.4 L82.9 42.4 L82.6 42.3 L82.5 41.7 L82.5 41.3 L82.6 40.9 L82.7 40.9 L83.0 41.3 L83.1 41.5 L84.0 41.1 L84.4 40.9 L84.5 40.7 L84.7 40.4 L84.9 40.2 L85.1 39.5 L85.4 39.1 L85.6 39.0 L86.0 38.9 L85.7 38.8 L85.4 38.8 L84.6 39.4 L84.4 39.4 L84.8 38.9 L84.6 38.9 L84.5 38.5 L84.6 38.1 L85.2 37.6 L85.5 37.5 L85.3 37.2 L84.6 37.8 L84.2 38.0 L84.0 38.0 L83.8 37.8 L83.5 37.4 L83.8 36.9 L83.6 36.8 L83.1 36.4 L82.5 36.4 L80.8 36.2 L80.4 36.3 L79.8 36.7 L79.5 36.8 L79.3 36.7 L79.2 36.5 L79.0 36.3 L79.0 35.8 L79.2 35.7 L79.4 35.6 L79.8 35.7 L80.4 35.5 L80.7 35.4 L81.0 35.1 L81.3 35.2 L82.0 35.1 L82.1 35.0 L82.5 34.9 L82.8 34.9 L83.0 34.8 L83.5 34.8 L84.6 34.7 L84.8 34.5 L85.0 33.9 L84.2 34.2 L84.1 34.2 L83.3 34.1 L83.0 33.8 L83.5 33.2 L83.9 32.9 L84.5 32.5 L84.7 32.3 L84.2 31.9 L83.4 32.0 L83.2 31.7 L82.6 31.5 L82.1 31.6 L81.9 31.4 L81.3 31.7 L80.0 32.1 L79.5 32.4 L79.3 32.5 L79.0 32.3 L78.4 32.0 L77.8 31.9 L78.1 31.3 L78.4 31.2 L78.6 31.3 L79.1 31.6 L79.4 31.7 L79.0 31.2 L79.0 30.7 L78.7 30.3 L78.9 30.1 L79.2 30.3 L80.0 30.8 L80.4 30.7 L80.6 30.5 L80.9 30.3 L80.1 30.3 L79.8 30.2 L79.6 30.0 L79.4 29.7 L79.7 29.5 L80.2 29.5 L79.9 29.1 L79.6 28.8 L79.6 28.4 L80.3 28.6 L80.5 28.6 L80.3 28.4 L80.0 28.2 L80.2 27.8 L80.4 27.6 L80.6 27.6 L80.8 27.7 L81.4 28.2 L81.5 28.5 L81.5 28.9 L81.8 28.8 L82.0 28.9 L82.3 28.5 L82.5 28.6 L82.6 28.9 L82.6 29.5 L82.7 29.3 L83.0 29.3 L83.1 28.7 L83.0 28.4 L82.1 27.8 L81.9 27.7 L81.7 27.4 L81.9 27.1 L82.2 27.1 L82.8 27.1 L82.5 26.8 L82.0 26.7 L81.6 26.7 L81.2 26.6 L81.4 26.3 L81.7 26.0 L81.8 25.9 L82.2 26.0 L82.7 25.9 L83.0 26.0 L83.3 26.3 L83.7 26.8 L84.2 27.1 L84.5 27.4 L85.1 28.1 L85.7 28.5 L85.4 28.9 L85.8 29.0 L86.0 29.3 L85.8 30.3 L85.6 30.6 L85.1 30.4 L85.2 30.7 L85.6 31.0 L85.7 31.3 L85.9 31.2 L85.9 31.6 L85.8 32.0 L85.9 32.0 L86.1 32.1 L86.3 32.3 L86.5 33.0 L86.7 33.0 L86.7 32.5 L86.9 32.2 L87.0 31.3 L87.4 30.9 L87.5 30.7 L87.7 30.7 L88.1 31.2 L88.2 31.3 L88.4 30.9 L88.5 30.3 L88.5 29.6 L88.4 28.8 L88.4 28.3 L88.5 28.0 L88.7 27.8 L89.0 28.0 L89.2 28.1 L89.7 28.9 L90.0 29.2 L90.3 29.7 L90.5 29.8 L90.7 29.8 L90.9 29.5 L90.7 28.5 L90.8 28.1 L91.4 27.7 L91.6 27.5 L91.8 27.3 L92.0 27.1 L92.2 27.1 L92.4 27.2 L92.6 27.4 L92.9 27.7 L93.3 28.4 L93.8 28.8 L94.1 29.6 L94.3 29.7 L94.3 29.2 L94.1 28.7 L93.6 27.5 L93.6 27.1 L93.9 27.1 L94.6 27.1 L94.9 27.3 L95.4 28.0 L95.6 28.1 L95.8 27.9 L96.1 27.3 L96.5 26.6 L96.7 26.6 L97.0 26.7 L97.4 27.0 L97.6 26.9 L97.9 26.6 L98.2 26.4 L98.3 26.0 L97.9 24.8 L98.6 24.3 L99.1 24.2 L99.2 24.3 L99.6 24.7 L99.9 24.9 L100.1 25.6 L100.3 25.7 L100.6 25.9 Z M139.3 80.3 L139.1 80.4 L139.3 79.8 L139.5 79.7 L139.3 80.3 Z M146.4 85.8 L146.0 85.9 L145.6 85.8 L145.1 85.1 L145.2 84.6 L145.5 84.3 L145.7 84.4 L146.2 85.0 L146.4 85.5 L146.4 85.8 Z M142.5 81.0 L141.3 81.7 L140.8 81.8 L141.1 81.3 L141.0 80.5 L140.4 80.2 L140.3 79.9 L140.6 79.6 L140.9 79.5 L141.2 79.6 L141.6 80.0 L142.0 80.0 L142.3 80.1 L142.5 81.0 Z M142.0 83.9 L142.4 84.6 L142.7 85.1 L142.7 85.5 L142.2 86.0 L142.0 86.0 L142.0 85.6 L141.8 85.3 L141.7 85.0 L141.3 85.6 L141.2 85.2 L141.1 84.8 L141.3 84.5 L141.5 84.5 L141.8 84.1 L142.0 83.9 Z M142.8 84.4 L142.6 84.6 L142.3 84.1 L142.7 83.4 L142.5 83.4 L142.5 83.0 L142.9 82.5 L143.1 82.3 L143.1 83.1 L142.8 84.4 Z M149.2 50.9 L148.6 50.5 L148.5 49.7 L148.8 49.7 L149.0 50.0 L148.8 50.1 L149.0 50.4 L149.1 50.8 L149.2 50.9 Z M148.3 51.1 L148.5 51.5 L148.6 51.3 L149.0 51.6 L149.3 51.3 L149.4 51.7 L149.6 52.8 L149.7 53.4 L149.8 54.1 L149.8 54.9 L149.5 54.8 L149.4 54.0 L149.3 53.5 L149.0 53.2 L148.8 53.2 L148.6 53.4 L148.4 53.1 L148.1 53.2 L147.8 53.0 L148.1 52.8 L148.3 52.7 L148.6 52.3 L148.1 51.6 L147.7 51.7 L147.8 51.3 L147.9 50.8 L148.0 50.7 L148.2 50.6 L148.3 51.1 Z M149.3 48.9 L149.3 49.5 L149.2 49.7 L148.9 49.4 L148.9 49.1 L149.0 49.0 L149.1 48.8 L149.3 48.9 Z M146.4 63.5 L146.2 63.6 L146.0 63.7 L145.7 63.4 L145.4 63.0 L145.8 62.9 L146.1 63.3 L146.4 63.4 L146.4 63.5 Z M147.4 60.2 L147.0 60.3 L147.1 59.9 L147.3 59.7 L147.7 59.6 L147.4 60.2 Z M147.2 63.5 L146.7 63.2 L147.0 63.0 L147.2 63.5 Z M146.2 61.9 L146.5 62.0 L146.9 62.0 L147.1 62.0 L147.3 62.1 L147.2 62.5 L146.6 62.4 L146.1 62.7 L145.9 62.7 L145.8 62.4 L145.6 62.6 L145.3 62.3 L145.2 61.6 L145.4 61.5 L145.7 61.4 L146.1 61.5 L146.2 61.9 Z M130.4 48.4 L130.0 48.4 L129.7 48.3 L129.5 48.0 L129.8 48.0 L130.2 48.1 L130.4 48.4 Z M130.8 50.7 L130.6 50.7 L130.1 50.3 L129.9 49.9 L130.3 49.9 L130.7 50.3 L130.8 50.7 Z M128.2 46.8 L128.5 47.0 L128.6 47.3 L128.4 47.4 L128.2 47.4 L127.8 47.3 L127.6 47.0 L127.8 46.9 L128.1 46.7 L128.2 46.8 Z M129.7 45.8 L129.8 46.7 L129.4 46.5 L129.3 46.5 L129.4 46.9 L129.8 47.3 L129.6 47.5 L128.8 46.9 L128.0 45.9 L128.6 45.5 L129.1 45.7 L129.7 45.8 Z M146.9 60.7 L146.7 60.9 L146.4 60.4 L146.0 60.4 L145.8 60.3 L145.8 59.9 L146.3 60.2 L146.8 60.4 L146.9 60.7 Z M130.3 45.4 L130.2 45.9 L130.0 45.9 L129.8 45.4 L129.7 45.0 L130.0 45.3 L130.3 45.4 Z M137.6 69.1 L137.5 70.2 L137.3 70.6 L136.9 71.0 L137.3 70.9 L137.5 71.2 L137.1 72.0 L136.8 72.3 L136.6 72.9 L136.4 72.9 L136.3 73.3 L136.1 73.5 L135.7 73.2 L136.0 72.8 L136.2 72.3 L135.6 72.2 L135.4 72.0 L135.6 71.7 L135.4 71.6 L135.2 71.5 L135.0 71.0 L135.1 70.7 L135.4 70.6 L135.7 70.8 L135.9 70.6 L136.2 70.6 L135.8 70.1 L136.4 69.2 L137.1 68.4 L137.2 68.2 L137.5 68.6 L137.6 69.1 Z M139.7 77.7 L139.5 77.8 L139.1 77.5 L139.4 77.2 L139.7 77.4 L139.7 77.7 Z M139.3 74.2 L139.4 74.9 L139.5 75.2 L139.8 75.5 L140.5 75.5 L141.1 75.3 L141.3 75.7 L141.0 76.1 L140.8 76.7 L140.6 76.9 L140.1 76.0 L139.8 76.2 L139.4 76.3 L139.2 76.3 L138.6 75.6 L137.7 75.6 L137.4 75.4 L137.4 74.8 L137.6 74.8 L137.8 74.6 L137.6 74.3 L138.3 73.9 L138.3 73.5 L138.4 73.4 L138.7 73.5 L139.0 73.8 L139.3 74.2 Z M135.5 74.1 L135.9 74.4 L135.8 75.0 L135.3 75.1 L134.6 74.9 L134.6 74.5 L134.9 74.5 L135.1 74.3 L135.3 74.3 L135.5 74.1 Z M136.2 77.7 L135.9 77.7 L135.6 77.3 L135.4 76.7 L135.3 76.2 L135.7 76.0 L136.2 77.6 L136.2 77.7 Z M135.9 78.7 L135.7 78.9 L135.5 78.6 L135.7 78.4 L136.0 78.6 L135.9 78.7 Z M45.0 28.3 L44.6 28.2 L44.6 27.7 L44.7 27.2 L45.2 27.1 L45.4 27.5 L45.2 28.0 L45.0 28.3 Z M11.5 50.1 L10.9 50.7 L10.6 50.4 L10.5 50.0 L10.3 49.7 L9.9 49.6 L11.3 49.2 L12.0 49.2 L11.8 49.5 L11.5 50.1 Z M84.2 0.0 L84.1 0.2 L83.4 0.4 L83.1 0.2 L82.5 0.3 L82.5 0.0 L82.0 0.0 L82.0 0.1 L81.8 0.5 L81.3 0.4 L80.7 0.5 L80.4 0.4 L79.8 -0.0 L68.3 0.0 L68.4 0.0 L68.6 0.0 L69.5 0.0 L70.4 0.5 L71.3 0.5 L73.1 0.1 L73.3 0.2 L73.4 0.2 L73.5 0.4 L73.6 0.7 L73.5 0.9 L73.0 1.1 L72.4 1.4 L72.1 1.5 L71.8 1.7 L71.3 2.3 L71.1 2.9 L71.6 3.2 L71.9 2.9 L72.2 2.2 L72.4 1.9 L73.0 1.6 L73.8 1.8 L74.3 1.7 L75.5 1.0 L75.7 1.0 L77.4 1.4 L78.9 2.1 L79.7 2.4 L80.8 2.6 L82.7 2.5 L82.9 2.6 L82.7 3.0 L82.4 3.4 L82.0 3.6 L81.8 3.6 L81.6 3.8 L81.1 3.9 L81.0 4.0 L81.2 4.5 L80.7 4.6 L80.0 5.0 L79.4 4.9 L79.3 5.0 L79.4 5.1 L79.5 5.3 L79.6 5.7 L79.3 6.1 L79.1 6.1 L78.4 5.9 L78.3 6.0 L78.5 6.3 L78.3 6.9 L78.0 7.1 L77.3 7.6 L77.0 7.8 L76.4 7.9 L76.3 8.0 L76.6 8.4 L76.1 9.1 L75.5 9.4 L75.3 9.9 L75.1 10.3 L74.5 10.8 L74.1 11.0 L73.9 11.2 L73.6 11.5 L73.2 11.7 L72.9 11.6 L72.5 11.8 L71.8 12.1 L71.4 12.1 L70.0 12.7 L69.4 12.7 L68.8 12.9 L67.6 13.3 L67.1 13.5 L66.7 13.7 L66.2 13.7 L65.6 13.5 L65.2 13.4 L65.0 13.5 L64.8 13.7 L64.4 14.1 L64.1 14.1 L63.2 13.6 L63.4 14.2 L62.7 14.7 L62.4 14.8 L62.0 14.6 L61.4 14.2 L60.8 13.5 L60.0 12.4 L59.6 12.0 L59.6 12.3 L59.7 13.0 L59.6 13.3 L59.5 13.4 L59.3 13.3 L59.5 13.9 L59.7 14.4 L59.6 14.9 L59.3 15.3 L59.0 15.5 L58.8 15.6 L57.5 16.5 L57.2 16.6 L57.1 16.7 L56.9 16.9 L56.4 17.7 L56.3 18.0 L56.0 18.3 L55.8 18.5 L55.7 19.1 L55.4 19.6 L54.5 20.9 L53.7 22.2 L53.4 22.6 L53.2 22.7 L52.9 22.7 L52.7 22.9 L52.5 23.3 L52.3 23.6 L52.1 23.8 L50.9 24.6 L50.5 24.7 L50.3 24.5 L50.0 24.5 L49.4 23.9 L49.0 23.2 L49.1 23.6 L49.2 24.0 L49.3 25.2 L49.0 25.4 L48.7 25.6 L48.1 26.0 L47.3 26.6 L47.0 26.8 L47.1 26.1 L46.9 25.6 L46.8 26.0 L46.4 26.8 L46.1 26.8 L45.8 26.9 L45.6 26.8 L45.4 26.4 L44.8 26.6 L44.6 26.5 L44.5 27.0 L44.2 27.3 L43.9 27.4 L43.5 27.3 L43.2 27.5 L42.8 27.2 L42.7 26.7 L43.3 26.1 L43.5 25.5 L43.6 25.1 L44.7 23.9 L45.4 23.4 L44.7 22.9 L44.1 22.6 L43.6 22.4 L43.3 22.4 L43.6 22.9 L44.1 23.4 L43.7 23.7 L43.4 24.0 L42.9 25.0 L42.7 25.4 L42.1 24.7 L41.9 24.5 L41.9 25.1 L42.4 25.7 L42.2 26.5 L41.0 26.8 L39.8 26.6 L39.0 26.6 L37.5 26.4 L37.0 26.3 L38.0 27.8 L38.2 28.0 L37.9 28.3 L37.6 28.4 L36.9 29.0 L36.7 29.2 L36.0 29.4 L35.0 28.7 L34.4 28.7 L33.9 28.5 L33.8 28.9 L33.9 29.2 L33.8 30.0 L34.2 30.0 L34.7 29.9 L34.9 30.5 L34.9 31.5 L35.2 32.1 L35.3 32.5 L35.3 32.9 L34.9 33.2 L34.3 33.5 L33.7 33.5 L33.6 33.8 L33.3 34.1 L32.7 33.8 L32.5 33.6 L32.3 33.4 L31.3 33.0 L32.1 34.0 L32.4 34.5 L32.7 34.3 L33.0 34.4 L33.6 34.7 L33.1 36.0 L33.1 37.0 L32.3 37.7 L32.2 38.3 L31.8 38.3 L31.4 38.2 L31.2 38.8 L30.8 39.1 L30.8 39.6 L30.5 40.0 L30.1 40.4 L29.7 40.7 L29.5 40.6 L29.0 40.5 L28.4 40.3 L28.1 39.6 L28.0 39.4 L27.8 39.2 L27.8 39.6 L27.8 39.8 L28.2 40.3 L28.8 41.1 L28.7 41.4 L28.5 41.5 L27.7 42.3 L27.5 42.2 L27.2 42.4 L26.5 42.1 L26.2 42.0 L25.3 41.7 L25.0 41.6 L24.8 41.5 L24.9 41.9 L25.4 42.3 L25.9 42.7 L26.7 43.1 L26.6 43.4 L26.3 43.7 L26.3 44.1 L26.1 44.4 L25.9 44.7 L25.5 45.5 L25.6 46.1 L25.8 46.5 L25.6 46.9 L25.6 47.5 L25.0 47.9 L24.7 47.8 L24.2 47.7 L24.0 47.9 L24.7 48.4 L24.5 48.7 L24.1 49.2 L23.6 50.2 L22.6 51.8 L21.9 53.6 L20.4 54.8 L20.1 54.7 L19.5 54.5 L18.9 53.9 L18.3 53.6 L18.0 53.5 L18.1 54.1 L18.5 54.3 L18.9 54.6 L19.5 55.0 L19.7 55.4 L19.8 55.8 L19.6 56.2 L19.3 57.5 L18.9 57.8 L18.5 58.1 L17.6 57.8 L17.5 57.6 L16.8 56.9 L17.2 57.9 L17.3 58.2 L16.9 58.2 L16.5 58.3 L15.9 57.9 L16.2 57.4 L15.9 57.4 L15.6 57.4 L15.4 57.3 L15.2 57.3 L15.2 56.5 L15.5 56.3 L16.2 55.7 L16.5 55.4 L15.9 55.5 L15.3 56.0 L15.0 56.3 L14.8 56.3 L14.2 55.9 L12.8 54.4 L13.1 53.9 L13.2 53.4 L13.7 53.5 L14.2 53.5 L14.6 53.3 L15.1 53.0 L15.7 52.4 L14.4 52.9 L13.6 53.0 L13.3 53.0 L13.2 52.8 L12.9 52.3 L12.6 52.1 L12.0 51.6 L11.7 51.3 L11.8 50.2 L12.6 49.2 L12.9 48.9 L13.2 48.6 L13.5 48.1 L13.3 47.9 L13.0 48.3 L11.9 48.6 L10.9 48.7 L10.4 48.8 L10.1 49.0 L9.8 49.2 L9.5 49.1 L9.0 49.0 L8.7 49.0 L8.3 48.8 L8.1 48.4 L7.8 48.3 L7.4 48.2 L7.1 48.1 L7.1 48.8 L6.8 48.7 L6.2 48.5 L6.0 48.3 L5.9 48.0 L5.8 47.7 L7.1 47.3 L7.6 47.2 L7.4 47.0 L6.5 46.7 L6.4 46.6 L5.8 46.4 L6.2 45.6 L6.1 45.3 L6.0 45.0 L5.9 44.9 L5.0 44.2 L5.0 43.7 L5.1 43.2 L5.2 42.6 L4.8 42.3 L4.7 41.9 L5.0 41.8 L5.2 41.5 L5.0 41.3 L5.1 40.9 L5.1 40.4 L5.2 40.1 L5.5 39.9 L6.1 39.8 L6.3 39.7 L7.1 39.6 L6.7 39.2 L6.4 39.1 L6.2 39.1 L5.8 39.3 L5.5 39.4 L4.8 39.2 L4.8 38.6 L5.0 38.2 L5.5 37.9 L5.3 37.5 L5.0 37.3 L4.7 36.9 L4.4 36.5 L4.3 36.1 L4.1 35.7 L4.3 35.3 L4.7 34.5 L5.2 33.8 L5.8 33.4 L6.9 32.9 L5.9 32.9 L4.9 33.5 L4.7 33.5 L4.7 32.7 L4.6 32.4 L4.4 31.8 L4.3 31.5 L4.3 30.9 L4.2 30.2 L4.2 29.0 L4.0 27.5 L4.2 26.7 L4.8 26.0 L4.8 25.3 L5.6 25.3 L6.7 25.5 L7.3 25.4 L7.6 25.5 L8.3 25.7 L8.6 25.5 L8.2 25.5 L8.0 25.3 L8.2 25.0 L7.4 25.0 L6.4 25.0 L5.6 24.9 L5.2 24.8 L5.0 24.8 L4.9 24.2 L5.6 23.5 L6.4 22.8 L7.0 22.5 L7.4 22.5 L7.9 22.8 L8.0 22.9 L8.1 22.6 L8.7 22.4 L9.2 22.5 L9.5 22.7 L9.6 23.2 L9.5 24.1 L9.8 24.5 L9.9 24.1 L9.9 23.6 L10.2 22.8 L10.0 22.4 L9.9 22.2 L9.3 22.1 L9.2 21.4 L9.3 20.9 L9.3 20.1 L9.4 19.7 L9.4 19.1 L9.2 19.7 L9.2 20.2 L9.0 21.2 L8.9 21.7 L8.6 21.9 L8.2 22.1 L7.9 22.1 L7.2 22.1 L7.6 21.7 L7.8 21.3 L7.5 21.3 L7.1 21.5 L6.8 21.9 L6.4 22.2 L5.4 23.0 L5.0 23.5 L4.7 23.7 L4.4 23.6 L4.3 23.3 L4.4 22.8 L4.5 22.3 L5.0 21.3 L5.2 20.8 L5.5 20.1 L5.9 18.4 L6.1 17.9 L5.8 17.4 L5.8 16.9 L5.9 16.6 L6.2 16.5 L7.1 16.3 L7.8 16.0 L8.8 15.5 L9.1 15.4 L10.1 15.6 L10.5 15.7 L10.4 15.5 L9.8 15.2 L8.9 15.2 L8.7 15.3 L8.1 15.6 L7.7 15.7 L6.7 16.0 L6.2 15.8 L6.1 14.8 L5.5 14.7 L5.1 14.5 L5.5 13.2 L6.3 12.2 L6.0 12.1 L5.9 11.6 L7.1 11.2 L8.8 10.7 L9.5 10.5 L9.9 10.4 L10.2 10.3 L10.7 10.0 L11.1 9.8 L11.5 9.7 L12.0 9.6 L12.9 9.2 L12.6 9.0 L11.8 9.3 L11.2 9.5 L9.2 10.3 L8.4 10.5 L7.9 10.7 L7.5 10.9 L7.1 11.0 L6.8 11.0 L6.1 10.8 L5.8 10.8 L5.7 10.6 L5.9 9.9 L6.2 9.5 L6.3 9.1 L6.8 8.6 L7.2 8.3 L7.5 8.0 L8.1 7.8 L8.5 7.8 L8.8 7.4 L9.9 7.8 L10.1 7.9 L10.3 7.9 L10.1 7.5 L9.4 7.1 L8.7 6.7 L8.4 6.5 L8.2 6.4 L8.0 6.2 L7.8 5.8 L7.8 4.8 L8.5 3.8 L8.8 3.2 L9.6 3.1 L9.9 3.0 L10.5 2.9 L11.4 2.6 L12.2 2.5 L12.6 2.6 L12.8 2.8 L13.6 3.8 L14.1 4.2 L14.6 4.3 L15.2 4.7 L15.9 5.9 L16.1 5.9 L15.3 4.4 L15.8 4.2 L16.2 4.1 L16.1 3.9 L15.2 3.7 L14.9 3.8 L14.1 3.5 L13.8 3.2 L13.5 2.9 L13.1 2.4 L12.6 2.3 L12.3 2.3 L11.8 2.2 L11.5 2.2 L10.1 2.8 L9.6 2.8 L9.3 2.6 L9.9 2.0 L10.2 1.4 L10.5 1.1 L11.3 0.6 L11.9 0.0 L13.3 0.0 L13.8 0.5 L14.4 1.3 L15.0 1.7 L15.3 1.9 L15.6 1.8 L15.8 1.6 L16.1 1.2 L16.4 1.0 L16.9 0.7 L17.1 0.4 L16.9 0.1 L16.5 0.0 L15.8 0.6 L15.4 0.5 L14.5 0.3 L14.1 0.1 L14.0 0.0 Z M0.0 0.0 L0.0 88.0 L158.0 88.0 L158.0 0.0 Z M-0.0 88.0 L-0.0 0.0 L158.0 -0.0 L158.0 88.0 Z" fill="#D6DBCE" stroke="#9CA294" stroke-width=".6"/>
+  <clipPath id="wland"><path d="M74.6 0.0 L74.3 0.3 L74.1 0.3 L74.0 0.0 L71.2 0.0 L71.1 0.0 L70.7 0.1 L70.4 0.1 L70.4 0.0 Z M147.1 65.1 L147.3 65.6 L147.3 65.9 L147.2 66.4 L146.7 67.1 L145.9 68.6 L145.4 69.4 L145.5 70.1 L145.9 70.0 L146.1 70.1 L145.7 71.2 L145.7 71.8 L146.2 71.7 L146.5 71.4 L147.2 70.8 L147.8 70.3 L148.1 70.1 L148.9 70.1 L149.3 69.9 L149.6 69.8 L151.6 69.2 L152.1 68.8 L152.5 68.9 L152.9 69.2 L153.5 69.8 L153.5 70.3 L153.3 70.8 L153.2 71.4 L153.2 71.8 L153.3 72.1 L153.3 72.5 L153.3 74.1 L153.0 75.1 L152.9 75.7 L152.8 76.3 L152.6 76.7 L152.3 77.0 L151.5 77.5 L151.3 77.7 L151.1 78.1 L150.8 78.3 L151.2 78.2 L151.5 77.9 L152.2 77.6 L153.1 77.8 L153.2 78.2 L153.0 78.7 L152.3 79.0 L151.8 79.9 L151.6 80.2 L151.3 80.4 L150.9 80.5 L150.1 80.5 L149.7 80.5 L150.1 80.7 L150.5 80.7 L152.5 80.5 L153.1 79.8 L153.9 79.5 L155.7 79.7 L156.3 80.2 L157.2 80.7 L157.7 80.9 L158.0 81.1 L158.0 88.0 L153.5 88.0 L153.9 87.1 L154.6 86.5 L153.2 86.9 L152.8 87.2 L152.5 87.6 L152.4 87.8 L152.2 87.9 L152.1 88.0 L147.5 88.0 L147.5 87.5 L147.7 86.0 L147.8 85.6 L147.8 85.0 L147.7 84.7 L146.7 84.0 L146.6 83.5 L146.5 83.0 L146.5 82.6 L147.3 82.3 L147.0 82.2 L146.2 81.9 L146.2 81.1 L146.1 81.5 L146.0 82.1 L145.5 82.5 L145.5 82.9 L145.2 83.0 L145.1 83.0 L144.9 82.6 L144.9 82.1 L145.0 81.8 L145.4 80.9 L145.1 81.2 L144.7 82.1 L144.4 82.6 L144.4 83.0 L144.8 83.8 L144.9 84.1 L145.0 86.6 L144.9 87.0 L144.5 87.1 L144.2 86.8 L144.1 85.3 L144.2 85.0 L144.4 84.0 L144.2 84.2 L143.6 82.6 L143.6 82.1 L143.5 81.3 L143.5 80.7 L143.5 80.2 L143.5 79.6 L143.7 79.3 L143.6 78.9 L143.7 78.4 L143.8 77.9 L142.8 79.4 L142.6 79.7 L142.2 79.8 L141.8 79.8 L141.5 79.6 L141.3 79.1 L141.0 79.2 L140.7 79.1 L140.9 78.7 L141.4 78.4 L141.8 77.8 L141.2 77.7 L141.6 77.2 L141.8 76.2 L141.7 75.4 L141.3 75.1 L140.6 74.7 L140.4 74.4 L140.5 73.9 L140.7 73.7 L141.0 73.5 L140.7 73.4 L140.3 73.0 L140.2 72.2 L140.3 71.5 L141.2 71.2 L141.3 71.0 L141.8 71.0 L140.7 70.3 L140.7 69.6 L140.6 69.2 L140.8 68.9 L141.4 68.7 L141.6 68.6 L141.2 68.1 L141.1 67.7 L140.9 67.2 L141.0 66.7 L141.2 66.5 L141.6 66.5 L142.1 66.8 L142.5 66.3 L142.9 66.5 L143.6 65.9 L144.6 65.5 L145.2 65.1 L145.8 64.8 L146.4 64.4 L147.0 64.3 L147.1 65.1 Z M158.0 0.0 L158.0 88.0 L158.0 88.0 L158.0 0.0 Z M100.6 25.9 L100.9 25.9 L101.3 25.6 L101.5 25.4 L101.9 24.9 L102.2 24.7 L102.6 24.7 L102.8 24.6 L102.6 24.9 L102.4 25.0 L102.1 25.3 L101.9 26.0 L101.7 26.4 L102.1 26.8 L102.4 26.9 L102.6 26.7 L102.9 26.9 L103.0 27.3 L103.0 27.7 L102.9 28.1 L102.8 28.5 L103.0 28.6 L103.8 28.3 L104.0 28.4 L104.1 28.7 L104.2 29.0 L103.9 29.6 L104.3 29.2 L104.6 29.1 L105.3 29.2 L105.5 29.3 L105.7 29.6 L105.9 29.5 L106.2 29.6 L106.2 30.1 L106.1 30.5 L105.9 30.6 L106.1 31.1 L106.3 31.1 L106.4 31.4 L106.2 31.6 L106.7 32.0 L106.8 32.4 L106.6 32.8 L106.3 32.9 L106.1 33.0 L106.2 33.5 L106.2 33.8 L106.0 34.4 L105.8 34.7 L105.6 34.9 L105.2 34.9 L104.9 34.8 L105.0 35.2 L104.8 35.5 L105.0 35.8 L104.9 36.4 L104.8 36.7 L104.6 37.0 L104.2 37.2 L103.8 37.7 L103.6 37.9 L103.0 37.9 L102.3 38.3 L101.5 38.9 L100.9 39.4 L100.5 39.9 L99.9 40.8 L99.5 41.1 L99.2 41.2 L98.7 41.4 L98.3 41.6 L96.8 42.2 L96.3 42.4 L96.1 43.0 L96.1 43.6 L95.7 43.9 L95.5 43.9 L95.3 43.7 L95.3 44.1 L95.1 44.2 L94.1 44.6 L92.4 44.5 L91.8 44.3 L90.9 44.0 L90.4 43.9 L89.7 44.0 L89.1 43.5 L88.8 43.2 L88.9 42.8 L89.2 42.7 L88.9 42.5 L88.5 42.9 L88.4 42.9 L88.2 42.7 L87.7 42.5 L87.4 42.3 L87.0 42.0 L87.1 41.7 L86.7 41.7 L86.3 42.1 L86.1 42.2 L83.5 42.4 L82.9 42.4 L82.6 42.3 L82.5 41.7 L82.5 41.3 L82.6 40.9 L82.7 40.9 L83.0 41.3 L83.1 41.5 L84.0 41.1 L84.4 40.9 L84.5 40.7 L84.7 40.4 L84.9 40.2 L85.1 39.5 L85.4 39.1 L85.6 39.0 L86.0 38.9 L85.7 38.8 L85.4 38.8 L84.6 39.4 L84.4 39.4 L84.8 38.9 L84.6 38.9 L84.5 38.5 L84.6 38.1 L85.2 37.6 L85.5 37.5 L85.3 37.2 L84.6 37.8 L84.2 38.0 L84.0 38.0 L83.8 37.8 L83.5 37.4 L83.8 36.9 L83.6 36.8 L83.1 36.4 L82.5 36.4 L80.8 36.2 L80.4 36.3 L79.8 36.7 L79.5 36.8 L79.3 36.7 L79.2 36.5 L79.0 36.3 L79.0 35.8 L79.2 35.7 L79.4 35.6 L79.8 35.7 L80.4 35.5 L80.7 35.4 L81.0 35.1 L81.3 35.2 L82.0 35.1 L82.1 35.0 L82.5 34.9 L82.8 34.9 L83.0 34.8 L83.5 34.8 L84.6 34.7 L84.8 34.5 L85.0 33.9 L84.2 34.2 L84.1 34.2 L83.3 34.1 L83.0 33.8 L83.5 33.2 L83.9 32.9 L84.5 32.5 L84.7 32.3 L84.2 31.9 L83.4 32.0 L83.2 31.7 L82.6 31.5 L82.1 31.6 L81.9 31.4 L81.3 31.7 L80.0 32.1 L79.5 32.4 L79.3 32.5 L79.0 32.3 L78.4 32.0 L77.8 31.9 L78.1 31.3 L78.4 31.2 L78.6 31.3 L79.1 31.6 L79.4 31.7 L79.0 31.2 L79.0 30.7 L78.7 30.3 L78.9 30.1 L79.2 30.3 L80.0 30.8 L80.4 30.7 L80.6 30.5 L80.9 30.3 L80.1 30.3 L79.8 30.2 L79.6 30.0 L79.4 29.7 L79.7 29.5 L80.2 29.5 L79.9 29.1 L79.6 28.8 L79.6 28.4 L80.3 28.6 L80.5 28.6 L80.3 28.4 L80.0 28.2 L80.2 27.8 L80.4 27.6 L80.6 27.6 L80.8 27.7 L81.4 28.2 L81.5 28.5 L81.5 28.9 L81.8 28.8 L82.0 28.9 L82.3 28.5 L82.5 28.6 L82.6 28.9 L82.6 29.5 L82.7 29.3 L83.0 29.3 L83.1 28.7 L83.0 28.4 L82.1 27.8 L81.9 27.7 L81.7 27.4 L81.9 27.1 L82.2 27.1 L82.8 27.1 L82.5 26.8 L82.0 26.7 L81.6 26.7 L81.2 26.6 L81.4 26.3 L81.7 26.0 L81.8 25.9 L82.2 26.0 L82.7 25.9 L83.0 26.0 L83.3 26.3 L83.7 26.8 L84.2 27.1 L84.5 27.4 L85.1 28.1 L85.7 28.5 L85.4 28.9 L85.8 29.0 L86.0 29.3 L85.8 30.3 L85.6 30.6 L85.1 30.4 L85.2 30.7 L85.6 31.0 L85.7 31.3 L85.9 31.2 L85.9 31.6 L85.8 32.0 L85.9 32.0 L86.1 32.1 L86.3 32.3 L86.5 33.0 L86.7 33.0 L86.7 32.5 L86.9 32.2 L87.0 31.3 L87.4 30.9 L87.5 30.7 L87.7 30.7 L88.1 31.2 L88.2 31.3 L88.4 30.9 L88.5 30.3 L88.5 29.6 L88.4 28.8 L88.4 28.3 L88.5 28.0 L88.7 27.8 L89.0 28.0 L89.2 28.1 L89.7 28.9 L90.0 29.2 L90.3 29.7 L90.5 29.8 L90.7 29.8 L90.9 29.5 L90.7 28.5 L90.8 28.1 L91.4 27.7 L91.6 27.5 L91.8 27.3 L92.0 27.1 L92.2 27.1 L92.4 27.2 L92.6 27.4 L92.9 27.7 L93.3 28.4 L93.8 28.8 L94.1 29.6 L94.3 29.7 L94.3 29.2 L94.1 28.7 L93.6 27.5 L93.6 27.1 L93.9 27.1 L94.6 27.1 L94.9 27.3 L95.4 28.0 L95.6 28.1 L95.8 27.9 L96.1 27.3 L96.5 26.6 L96.7 26.6 L97.0 26.7 L97.4 27.0 L97.6 26.9 L97.9 26.6 L98.2 26.4 L98.3 26.0 L97.9 24.8 L98.6 24.3 L99.1 24.2 L99.2 24.3 L99.6 24.7 L99.9 24.9 L100.1 25.6 L100.3 25.7 L100.6 25.9 Z M139.3 80.3 L139.1 80.4 L139.3 79.8 L139.5 79.7 L139.3 80.3 Z M146.4 85.8 L146.0 85.9 L145.6 85.8 L145.1 85.1 L145.2 84.6 L145.5 84.3 L145.7 84.4 L146.2 85.0 L146.4 85.5 L146.4 85.8 Z M142.5 81.0 L141.3 81.7 L140.8 81.8 L141.1 81.3 L141.0 80.5 L140.4 80.2 L140.3 79.9 L140.6 79.6 L140.9 79.5 L141.2 79.6 L141.6 80.0 L142.0 80.0 L142.3 80.1 L142.5 81.0 Z M142.0 83.9 L142.4 84.6 L142.7 85.1 L142.7 85.5 L142.2 86.0 L142.0 86.0 L142.0 85.6 L141.8 85.3 L141.7 85.0 L141.3 85.6 L141.2 85.2 L141.1 84.8 L141.3 84.5 L141.5 84.5 L141.8 84.1 L142.0 83.9 Z M142.8 84.4 L142.6 84.6 L142.3 84.1 L142.7 83.4 L142.5 83.4 L142.5 83.0 L142.9 82.5 L143.1 82.3 L143.1 83.1 L142.8 84.4 Z M149.2 50.9 L148.6 50.5 L148.5 49.7 L148.8 49.7 L149.0 50.0 L148.8 50.1 L149.0 50.4 L149.1 50.8 L149.2 50.9 Z M148.3 51.1 L148.5 51.5 L148.6 51.3 L149.0 51.6 L149.3 51.3 L149.4 51.7 L149.6 52.8 L149.7 53.4 L149.8 54.1 L149.8 54.9 L149.5 54.8 L149.4 54.0 L149.3 53.5 L149.0 53.2 L148.8 53.2 L148.6 53.4 L148.4 53.1 L148.1 53.2 L147.8 53.0 L148.1 52.8 L148.3 52.7 L148.6 52.3 L148.1 51.6 L147.7 51.7 L147.8 51.3 L147.9 50.8 L148.0 50.7 L148.2 50.6 L148.3 51.1 Z M149.3 48.9 L149.3 49.5 L149.2 49.7 L148.9 49.4 L148.9 49.1 L149.0 49.0 L149.1 48.8 L149.3 48.9 Z M146.4 63.5 L146.2 63.6 L146.0 63.7 L145.7 63.4 L145.4 63.0 L145.8 62.9 L146.1 63.3 L146.4 63.4 L146.4 63.5 Z M147.4 60.2 L147.0 60.3 L147.1 59.9 L147.3 59.7 L147.7 59.6 L147.4 60.2 Z M147.2 63.5 L146.7 63.2 L147.0 63.0 L147.2 63.5 Z M146.2 61.9 L146.5 62.0 L146.9 62.0 L147.1 62.0 L147.3 62.1 L147.2 62.5 L146.6 62.4 L146.1 62.7 L145.9 62.7 L145.8 62.4 L145.6 62.6 L145.3 62.3 L145.2 61.6 L145.4 61.5 L145.7 61.4 L146.1 61.5 L146.2 61.9 Z M130.4 48.4 L130.0 48.4 L129.7 48.3 L129.5 48.0 L129.8 48.0 L130.2 48.1 L130.4 48.4 Z M130.8 50.7 L130.6 50.7 L130.1 50.3 L129.9 49.9 L130.3 49.9 L130.7 50.3 L130.8 50.7 Z M128.2 46.8 L128.5 47.0 L128.6 47.3 L128.4 47.4 L128.2 47.4 L127.8 47.3 L127.6 47.0 L127.8 46.9 L128.1 46.7 L128.2 46.8 Z M129.7 45.8 L129.8 46.7 L129.4 46.5 L129.3 46.5 L129.4 46.9 L129.8 47.3 L129.6 47.5 L128.8 46.9 L128.0 45.9 L128.6 45.5 L129.1 45.7 L129.7 45.8 Z M146.9 60.7 L146.7 60.9 L146.4 60.4 L146.0 60.4 L145.8 60.3 L145.8 59.9 L146.3 60.2 L146.8 60.4 L146.9 60.7 Z M130.3 45.4 L130.2 45.9 L130.0 45.9 L129.8 45.4 L129.7 45.0 L130.0 45.3 L130.3 45.4 Z M137.6 69.1 L137.5 70.2 L137.3 70.6 L136.9 71.0 L137.3 70.9 L137.5 71.2 L137.1 72.0 L136.8 72.3 L136.6 72.9 L136.4 72.9 L136.3 73.3 L136.1 73.5 L135.7 73.2 L136.0 72.8 L136.2 72.3 L135.6 72.2 L135.4 72.0 L135.6 71.7 L135.4 71.6 L135.2 71.5 L135.0 71.0 L135.1 70.7 L135.4 70.6 L135.7 70.8 L135.9 70.6 L136.2 70.6 L135.8 70.1 L136.4 69.2 L137.1 68.4 L137.2 68.2 L137.5 68.6 L137.6 69.1 Z M139.7 77.7 L139.5 77.8 L139.1 77.5 L139.4 77.2 L139.7 77.4 L139.7 77.7 Z M139.3 74.2 L139.4 74.9 L139.5 75.2 L139.8 75.5 L140.5 75.5 L141.1 75.3 L141.3 75.7 L141.0 76.1 L140.8 76.7 L140.6 76.9 L140.1 76.0 L139.8 76.2 L139.4 76.3 L139.2 76.3 L138.6 75.6 L137.7 75.6 L137.4 75.4 L137.4 74.8 L137.6 74.8 L137.8 74.6 L137.6 74.3 L138.3 73.9 L138.3 73.5 L138.4 73.4 L138.7 73.5 L139.0 73.8 L139.3 74.2 Z M135.5 74.1 L135.9 74.4 L135.8 75.0 L135.3 75.1 L134.6 74.9 L134.6 74.5 L134.9 74.5 L135.1 74.3 L135.3 74.3 L135.5 74.1 Z M136.2 77.7 L135.9 77.7 L135.6 77.3 L135.4 76.7 L135.3 76.2 L135.7 76.0 L136.2 77.6 L136.2 77.7 Z M135.9 78.7 L135.7 78.9 L135.5 78.6 L135.7 78.4 L136.0 78.6 L135.9 78.7 Z M45.0 28.3 L44.6 28.2 L44.6 27.7 L44.7 27.2 L45.2 27.1 L45.4 27.5 L45.2 28.0 L45.0 28.3 Z M11.5 50.1 L10.9 50.7 L10.6 50.4 L10.5 50.0 L10.3 49.7 L9.9 49.6 L11.3 49.2 L12.0 49.2 L11.8 49.5 L11.5 50.1 Z M84.2 0.0 L84.1 0.2 L83.4 0.4 L83.1 0.2 L82.5 0.3 L82.5 0.0 L82.0 0.0 L82.0 0.1 L81.8 0.5 L81.3 0.4 L80.7 0.5 L80.4 0.4 L79.8 -0.0 L68.3 0.0 L68.4 0.0 L68.6 0.0 L69.5 0.0 L70.4 0.5 L71.3 0.5 L73.1 0.1 L73.3 0.2 L73.4 0.2 L73.5 0.4 L73.6 0.7 L73.5 0.9 L73.0 1.1 L72.4 1.4 L72.1 1.5 L71.8 1.7 L71.3 2.3 L71.1 2.9 L71.6 3.2 L71.9 2.9 L72.2 2.2 L72.4 1.9 L73.0 1.6 L73.8 1.8 L74.3 1.7 L75.5 1.0 L75.7 1.0 L77.4 1.4 L78.9 2.1 L79.7 2.4 L80.8 2.6 L82.7 2.5 L82.9 2.6 L82.7 3.0 L82.4 3.4 L82.0 3.6 L81.8 3.6 L81.6 3.8 L81.1 3.9 L81.0 4.0 L81.2 4.5 L80.7 4.6 L80.0 5.0 L79.4 4.9 L79.3 5.0 L79.4 5.1 L79.5 5.3 L79.6 5.7 L79.3 6.1 L79.1 6.1 L78.4 5.9 L78.3 6.0 L78.5 6.3 L78.3 6.9 L78.0 7.1 L77.3 7.6 L77.0 7.8 L76.4 7.9 L76.3 8.0 L76.6 8.4 L76.1 9.1 L75.5 9.4 L75.3 9.9 L75.1 10.3 L74.5 10.8 L74.1 11.0 L73.9 11.2 L73.6 11.5 L73.2 11.7 L72.9 11.6 L72.5 11.8 L71.8 12.1 L71.4 12.1 L70.0 12.7 L69.4 12.7 L68.8 12.9 L67.6 13.3 L67.1 13.5 L66.7 13.7 L66.2 13.7 L65.6 13.5 L65.2 13.4 L65.0 13.5 L64.8 13.7 L64.4 14.1 L64.1 14.1 L63.2 13.6 L63.4 14.2 L62.7 14.7 L62.4 14.8 L62.0 14.6 L61.4 14.2 L60.8 13.5 L60.0 12.4 L59.6 12.0 L59.6 12.3 L59.7 13.0 L59.6 13.3 L59.5 13.4 L59.3 13.3 L59.5 13.9 L59.7 14.4 L59.6 14.9 L59.3 15.3 L59.0 15.5 L58.8 15.6 L57.5 16.5 L57.2 16.6 L57.1 16.7 L56.9 16.9 L56.4 17.7 L56.3 18.0 L56.0 18.3 L55.8 18.5 L55.7 19.1 L55.4 19.6 L54.5 20.9 L53.7 22.2 L53.4 22.6 L53.2 22.7 L52.9 22.7 L52.7 22.9 L52.5 23.3 L52.3 23.6 L52.1 23.8 L50.9 24.6 L50.5 24.7 L50.3 24.5 L50.0 24.5 L49.4 23.9 L49.0 23.2 L49.1 23.6 L49.2 24.0 L49.3 25.2 L49.0 25.4 L48.7 25.6 L48.1 26.0 L47.3 26.6 L47.0 26.8 L47.1 26.1 L46.9 25.6 L46.8 26.0 L46.4 26.8 L46.1 26.8 L45.8 26.9 L45.6 26.8 L45.4 26.4 L44.8 26.6 L44.6 26.5 L44.5 27.0 L44.2 27.3 L43.9 27.4 L43.5 27.3 L43.2 27.5 L42.8 27.2 L42.7 26.7 L43.3 26.1 L43.5 25.5 L43.6 25.1 L44.7 23.9 L45.4 23.4 L44.7 22.9 L44.1 22.6 L43.6 22.4 L43.3 22.4 L43.6 22.9 L44.1 23.4 L43.7 23.7 L43.4 24.0 L42.9 25.0 L42.7 25.4 L42.1 24.7 L41.9 24.5 L41.9 25.1 L42.4 25.7 L42.2 26.5 L41.0 26.8 L39.8 26.6 L39.0 26.6 L37.5 26.4 L37.0 26.3 L38.0 27.8 L38.2 28.0 L37.9 28.3 L37.6 28.4 L36.9 29.0 L36.7 29.2 L36.0 29.4 L35.0 28.7 L34.4 28.7 L33.9 28.5 L33.8 28.9 L33.9 29.2 L33.8 30.0 L34.2 30.0 L34.7 29.9 L34.9 30.5 L34.9 31.5 L35.2 32.1 L35.3 32.5 L35.3 32.9 L34.9 33.2 L34.3 33.5 L33.7 33.5 L33.6 33.8 L33.3 34.1 L32.7 33.8 L32.5 33.6 L32.3 33.4 L31.3 33.0 L32.1 34.0 L32.4 34.5 L32.7 34.3 L33.0 34.4 L33.6 34.7 L33.1 36.0 L33.1 37.0 L32.3 37.7 L32.2 38.3 L31.8 38.3 L31.4 38.2 L31.2 38.8 L30.8 39.1 L30.8 39.6 L30.5 40.0 L30.1 40.4 L29.7 40.7 L29.5 40.6 L29.0 40.5 L28.4 40.3 L28.1 39.6 L28.0 39.4 L27.8 39.2 L27.8 39.6 L27.8 39.8 L28.2 40.3 L28.8 41.1 L28.7 41.4 L28.5 41.5 L27.7 42.3 L27.5 42.2 L27.2 42.4 L26.5 42.1 L26.2 42.0 L25.3 41.7 L25.0 41.6 L24.8 41.5 L24.9 41.9 L25.4 42.3 L25.9 42.7 L26.7 43.1 L26.6 43.4 L26.3 43.7 L26.3 44.1 L26.1 44.4 L25.9 44.7 L25.5 45.5 L25.6 46.1 L25.8 46.5 L25.6 46.9 L25.6 47.5 L25.0 47.9 L24.7 47.8 L24.2 47.7 L24.0 47.9 L24.7 48.4 L24.5 48.7 L24.1 49.2 L23.6 50.2 L22.6 51.8 L21.9 53.6 L20.4 54.8 L20.1 54.7 L19.5 54.5 L18.9 53.9 L18.3 53.6 L18.0 53.5 L18.1 54.1 L18.5 54.3 L18.9 54.6 L19.5 55.0 L19.7 55.4 L19.8 55.8 L19.6 56.2 L19.3 57.5 L18.9 57.8 L18.5 58.1 L17.6 57.8 L17.5 57.6 L16.8 56.9 L17.2 57.9 L17.3 58.2 L16.9 58.2 L16.5 58.3 L15.9 57.9 L16.2 57.4 L15.9 57.4 L15.6 57.4 L15.4 57.3 L15.2 57.3 L15.2 56.5 L15.5 56.3 L16.2 55.7 L16.5 55.4 L15.9 55.5 L15.3 56.0 L15.0 56.3 L14.8 56.3 L14.2 55.9 L12.8 54.4 L13.1 53.9 L13.2 53.4 L13.7 53.5 L14.2 53.5 L14.6 53.3 L15.1 53.0 L15.7 52.4 L14.4 52.9 L13.6 53.0 L13.3 53.0 L13.2 52.8 L12.9 52.3 L12.6 52.1 L12.0 51.6 L11.7 51.3 L11.8 50.2 L12.6 49.2 L12.9 48.9 L13.2 48.6 L13.5 48.1 L13.3 47.9 L13.0 48.3 L11.9 48.6 L10.9 48.7 L10.4 48.8 L10.1 49.0 L9.8 49.2 L9.5 49.1 L9.0 49.0 L8.7 49.0 L8.3 48.8 L8.1 48.4 L7.8 48.3 L7.4 48.2 L7.1 48.1 L7.1 48.8 L6.8 48.7 L6.2 48.5 L6.0 48.3 L5.9 48.0 L5.8 47.7 L7.1 47.3 L7.6 47.2 L7.4 47.0 L6.5 46.7 L6.4 46.6 L5.8 46.4 L6.2 45.6 L6.1 45.3 L6.0 45.0 L5.9 44.9 L5.0 44.2 L5.0 43.7 L5.1 43.2 L5.2 42.6 L4.8 42.3 L4.7 41.9 L5.0 41.8 L5.2 41.5 L5.0 41.3 L5.1 40.9 L5.1 40.4 L5.2 40.1 L5.5 39.9 L6.1 39.8 L6.3 39.7 L7.1 39.6 L6.7 39.2 L6.4 39.1 L6.2 39.1 L5.8 39.3 L5.5 39.4 L4.8 39.2 L4.8 38.6 L5.0 38.2 L5.5 37.9 L5.3 37.5 L5.0 37.3 L4.7 36.9 L4.4 36.5 L4.3 36.1 L4.1 35.7 L4.3 35.3 L4.7 34.5 L5.2 33.8 L5.8 33.4 L6.9 32.9 L5.9 32.9 L4.9 33.5 L4.7 33.5 L4.7 32.7 L4.6 32.4 L4.4 31.8 L4.3 31.5 L4.3 30.9 L4.2 30.2 L4.2 29.0 L4.0 27.5 L4.2 26.7 L4.8 26.0 L4.8 25.3 L5.6 25.3 L6.7 25.5 L7.3 25.4 L7.6 25.5 L8.3 25.7 L8.6 25.5 L8.2 25.5 L8.0 25.3 L8.2 25.0 L7.4 25.0 L6.4 25.0 L5.6 24.9 L5.2 24.8 L5.0 24.8 L4.9 24.2 L5.6 23.5 L6.4 22.8 L7.0 22.5 L7.4 22.5 L7.9 22.8 L8.0 22.9 L8.1 22.6 L8.7 22.4 L9.2 22.5 L9.5 22.7 L9.6 23.2 L9.5 24.1 L9.8 24.5 L9.9 24.1 L9.9 23.6 L10.2 22.8 L10.0 22.4 L9.9 22.2 L9.3 22.1 L9.2 21.4 L9.3 20.9 L9.3 20.1 L9.4 19.7 L9.4 19.1 L9.2 19.7 L9.2 20.2 L9.0 21.2 L8.9 21.7 L8.6 21.9 L8.2 22.1 L7.9 22.1 L7.2 22.1 L7.6 21.7 L7.8 21.3 L7.5 21.3 L7.1 21.5 L6.8 21.9 L6.4 22.2 L5.4 23.0 L5.0 23.5 L4.7 23.7 L4.4 23.6 L4.3 23.3 L4.4 22.8 L4.5 22.3 L5.0 21.3 L5.2 20.8 L5.5 20.1 L5.9 18.4 L6.1 17.9 L5.8 17.4 L5.8 16.9 L5.9 16.6 L6.2 16.5 L7.1 16.3 L7.8 16.0 L8.8 15.5 L9.1 15.4 L10.1 15.6 L10.5 15.7 L10.4 15.5 L9.8 15.2 L8.9 15.2 L8.7 15.3 L8.1 15.6 L7.7 15.7 L6.7 16.0 L6.2 15.8 L6.1 14.8 L5.5 14.7 L5.1 14.5 L5.5 13.2 L6.3 12.2 L6.0 12.1 L5.9 11.6 L7.1 11.2 L8.8 10.7 L9.5 10.5 L9.9 10.4 L10.2 10.3 L10.7 10.0 L11.1 9.8 L11.5 9.7 L12.0 9.6 L12.9 9.2 L12.6 9.0 L11.8 9.3 L11.2 9.5 L9.2 10.3 L8.4 10.5 L7.9 10.7 L7.5 10.9 L7.1 11.0 L6.8 11.0 L6.1 10.8 L5.8 10.8 L5.7 10.6 L5.9 9.9 L6.2 9.5 L6.3 9.1 L6.8 8.6 L7.2 8.3 L7.5 8.0 L8.1 7.8 L8.5 7.8 L8.8 7.4 L9.9 7.8 L10.1 7.9 L10.3 7.9 L10.1 7.5 L9.4 7.1 L8.7 6.7 L8.4 6.5 L8.2 6.4 L8.0 6.2 L7.8 5.8 L7.8 4.8 L8.5 3.8 L8.8 3.2 L9.6 3.1 L9.9 3.0 L10.5 2.9 L11.4 2.6 L12.2 2.5 L12.6 2.6 L12.8 2.8 L13.6 3.8 L14.1 4.2 L14.6 4.3 L15.2 4.7 L15.9 5.9 L16.1 5.9 L15.3 4.4 L15.8 4.2 L16.2 4.1 L16.1 3.9 L15.2 3.7 L14.9 3.8 L14.1 3.5 L13.8 3.2 L13.5 2.9 L13.1 2.4 L12.6 2.3 L12.3 2.3 L11.8 2.2 L11.5 2.2 L10.1 2.8 L9.6 2.8 L9.3 2.6 L9.9 2.0 L10.2 1.4 L10.5 1.1 L11.3 0.6 L11.9 0.0 L13.3 0.0 L13.8 0.5 L14.4 1.3 L15.0 1.7 L15.3 1.9 L15.6 1.8 L15.8 1.6 L16.1 1.2 L16.4 1.0 L16.9 0.7 L17.1 0.4 L16.9 0.1 L16.5 0.0 L15.8 0.6 L15.4 0.5 L14.5 0.3 L14.1 0.1 L14.0 0.0 Z M0.0 0.0 L0.0 88.0 L158.0 88.0 L158.0 0.0 Z M-0.0 88.0 L-0.0 0.0 L158.0 -0.0 L158.0 88.0 Z"/></clipPath>
+  <g clip-path="url(#wland)"><path d="M0.0 85.0 L1.3 85.5 L5.8 87.0 L9.0 88.0 L76.2 88.0 L76.2 86.1 L76.3 82.9 L76.3 79.8 L76.3 76.7 L76.4 73.6 L76.4 70.4 L76.5 67.3 L76.5 64.2 L76.5 61.1 L76.6 58.0 L76.6 54.9 L76.6 51.7 L76.7 48.6 L76.7 45.5 L76.8 42.4 L76.8 39.3 L76.8 36.2 L76.9 33.0 L76.9 29.9 L77.0 26.8 L77.0 23.7 L77.5 23.7 L78.0 23.7 L78.5 23.7 L79.0 23.7 L79.5 23.7 L80.0 23.7 L80.5 23.7 L81.0 23.7 L81.5 23.7 L82.0 23.7 L82.5 23.7 L83.0 23.6 L83.5 23.6 L84.0 23.6 L84.5 23.6 L85.0 23.6 L85.5 23.6 L86.0 23.5 L86.5 23.5 L87.0 23.5 L87.5 23.5 L88.0 23.4 L88.5 23.4 L89.0 23.4 L88.9 22.0 L88.8 20.6 L88.7 19.3 L88.7 17.9 L88.6 16.5 L88.5 15.1 L88.4 13.8 L88.3 12.4 L88.2 11.0 L88.1 9.6 L88.1 8.2 L88.0 6.9 L87.9 5.5 L87.8 4.1 L87.7 2.7 L87.6 1.3 L87.6 0.0 L4.5 0.0 L2.9 2.9 L0.8 6.8 L0.0 8.2 Z" fill="#8A2B2B" fill-opacity="0.42" stroke="#8A2B2B" stroke-width="1"/></g>
+  <g clip-path="url(#wland)"><path d="M74.6 50.9 L76.2 50.9 L77.8 51.0 L79.4 51.0 L81.0 51.0 L82.5 50.9 L84.1 50.9 L85.7 50.8 L87.3 50.8 L88.9 50.7 L90.5 50.6 L92.0 50.5 L93.6 50.4 L95.2 50.3 L96.8 50.1 L98.4 50.0 L99.9 49.8 L101.5 49.6 L103.1 49.4 L104.6 49.2 L106.2 49.0 L107.8 48.8 L109.3 48.5 L110.9 48.2 L112.5 48.0 L112.5 48.0 L112.2 46.7 L112.0 45.5 L111.8 44.3 L111.6 43.1 L111.4 41.9 L111.1 40.6 L110.9 39.4 L110.7 38.2 L110.5 37.0 L110.3 35.8 L110.0 34.5 L109.8 33.3 L109.6 32.1 L109.4 30.9 L109.2 29.6 L108.9 28.4 L108.7 27.2 L108.5 26.0 L108.3 24.8 L108.1 23.5 L107.8 22.3 L107.6 21.1 L107.4 19.9 L107.2 18.6 L107.2 18.6 L105.9 18.9 L104.5 19.1 L103.2 19.3 L101.9 19.5 L100.6 19.7 L99.3 19.9 L97.9 20.0 L96.6 20.2 L95.3 20.3 L94.0 20.4 L92.6 20.6 L91.3 20.7 L90.0 20.8 L88.6 20.9 L87.3 20.9 L86.0 21.0 L84.6 21.1 L83.3 21.1 L82.0 21.1 L80.6 21.1 L79.3 21.2 L78.0 21.1 L76.6 21.1 L75.3 21.1 L75.3 21.1 L75.3 22.4 L75.2 23.6 L75.2 24.8 L75.2 26.1 L75.2 27.3 L75.1 28.6 L75.1 29.8 L75.1 31.1 L75.0 32.3 L75.0 33.5 L75.0 34.8 L75.0 36.0 L74.9 37.3 L74.9 38.5 L74.9 39.7 L74.8 41.0 L74.8 42.2 L74.8 43.5 L74.8 44.7 L74.7 45.9 L74.7 47.2 L74.7 48.4 L74.6 49.7 L74.6 50.9 Z" fill="#2E6B5E" fill-opacity="0.3" stroke="#2E6B5E" stroke-width="1"/></g>
+  <g clip-path="url(#wland)"><path d="M127.7 53.1 L127.9 53.0 L128.1 53.0 L128.3 52.9 L128.5 52.9 L128.8 52.8 L129.0 52.7 L129.2 52.7 L129.4 52.6 L129.7 52.6 L129.9 52.5 L130.1 52.4 L130.3 52.4 L130.5 52.3 L130.8 52.3 L131.0 52.2 L131.2 52.1 L131.4 52.1 L131.6 52.0 L131.9 52.0 L132.1 51.9 L132.3 51.8 L132.5 51.8 L132.7 51.7 L133.0 51.7 L133.0 51.7 L132.9 51.3 L132.8 50.9 L132.7 50.6 L132.6 50.2 L132.5 49.9 L132.4 49.5 L132.3 49.2 L132.2 48.8 L132.0 48.5 L131.9 48.1 L131.8 47.7 L131.7 47.4 L131.6 47.0 L131.5 46.7 L131.4 46.3 L131.3 46.0 L131.2 45.6 L131.1 45.3 L131.0 44.9 L130.9 44.5 L130.8 44.2 L130.7 43.8 L130.6 43.5 L130.5 43.1 L130.5 43.1 L130.3 43.2 L130.1 43.2 L129.9 43.3 L129.7 43.4 L129.5 43.4 L129.3 43.5 L129.1 43.5 L128.8 43.6 L128.6 43.7 L128.4 43.7 L128.2 43.8 L128.0 43.8 L127.8 43.9 L127.6 43.9 L127.4 44.0 L127.2 44.1 L126.9 44.1 L126.7 44.2 L126.5 44.2 L126.3 44.3 L126.1 44.3 L125.9 44.4 L125.7 44.4 L125.5 44.5 L125.5 44.5 L125.6 44.8 L125.6 45.2 L125.7 45.6 L125.8 45.9 L125.9 46.3 L126.0 46.6 L126.1 47.0 L126.2 47.4 L126.3 47.7 L126.4 48.1 L126.5 48.4 L126.6 48.8 L126.7 49.1 L126.7 49.5 L126.8 49.9 L126.9 50.2 L127.0 50.6 L127.1 50.9 L127.2 51.3 L127.3 51.7 L127.4 52.0 L127.5 52.4 L127.6 52.7 L127.7 53.1 Z" fill="#2E6B5E" fill-opacity="0.3" stroke="#2E6B5E" stroke-width="1"/></g>
+  </g>
+  <rect x="0" y="0" width="158" height="88" fill="none" stroke="#3C3E36" stroke-width="1"/>
+  <text x="4" y="-4" class="mapt">THE WESTERN REALM</text>
+  </g>
+  <text x="10" y="122" class="mapx" text-anchor="start">Orkney and Shetland pledged to Scotland, 1468–69</text>
+  <text x="173.1" y="564.8" class="mapl" text-anchor="middle">DANMARK</text>
+  <text x="183.3" y="376.9" class="mapl" text-anchor="middle">NORGE</text>
+  <text x="315.6" y="419.5" class="mapl" text-anchor="middle">SVERIGE</text>
+  <text x="456.8" y="342.4" class="mapt" text-anchor="middle">FINLAND</text>
+  <text x="172.2" y="626.0" class="mapt" text-anchor="middle">Slesvig</text>
+  <text x="182.4" y="662.6" class="mapt" text-anchor="middle">Holsten</text>
+  <text x="135.8" y="647.6" class="mapt" text-anchor="end">Ditmarsken</text>
+  <text x="361.7" y="533.2" class="mapt" text-anchor="start">Gotland</text>
+  <circle cx="237.8" cy="597.5" r="2.4" fill="#3C3E36"/><text x="233.3" y="600.7" class="mapx" text-anchor="end">København</text>
+  <circle cx="239.7" cy="584.3" r="2.4" fill="#3C3E36"/><text x="244.2" y="587.5" class="mapx" text-anchor="start">Helsingør</text>
+  <circle cx="350.1" cy="466.0" r="2.4" fill="#3C3E36"/><text x="354.6" y="469.2" class="mapx" text-anchor="start">Stockholm</text>
+  <circle cx="215.0" cy="439.3" r="2.4" fill="#3C3E36"/><text x="219.5" y="442.5" class="mapx" text-anchor="start">Oslo</text>
+  <circle cx="160.1" cy="597.8" r="2.4" fill="#3C3E36"/><text x="155.6" y="601.0" class="mapx" text-anchor="end">Ribe</text>
+  <circle cx="250.7" cy="597.6" r="2.4" fill="#3C3E36"/><text x="255.2" y="600.8" class="mapx" text-anchor="start">Lund</text>
+  <rect x="14" y="187" width="19" height="10.5" fill="#2E6B5E" fill-opacity="0.62" stroke="#2E6B5E" stroke-width="1"/>
+  <text x="40" y="196" class="mapx">Ruled directly</text>
+  <rect x="14" y="204" width="19" height="10.5" fill="#2E6B5E" fill-opacity="0.3" stroke="#2E6B5E" stroke-width="1"/>
+  <text x="40" y="213" class="mapx">Held by the king as duke</text>
+  <rect x="14" y="221" width="19" height="10.5" fill="#8A2B2B" fill-opacity="0.42" stroke="#8A2B2B" stroke-width="1"/>
+  <text x="40" y="230" class="mapx">Claimed, not held</text>
+  <text x="40" y="247" class="mapx">Sweden: taken 1497, lost 1501</text>
+  <text x="543.7" y="624.1" class="mapl" text-anchor="middle">1500</text>
+  </svg>
+<figcaption><b>Figure 3 · The fourth of the eleven territorial maps</b>
+1500, and the picture is deceptive: Hans held Sweden when this map is drawn, having taken it
+in 1497, and had lost it again by 1501. The duchies are now attached at the top, in the person of
+the king. In the western panel Orkney and Shetland have gone; Greenland has dropped from a
+dependency to a claim, because the Norse settlements are over and nobody in Denmark yet knows
+it.</figcaption>
+</figure>
+
+<p>Set beside the map of 1397, this is a smaller thing pretending otherwise. The three kingdoms are
+still coloured, but Sweden is held for four years out of a possible sixty. Two archipelagos have
+gone. What has been added is at the bottom of the map: two duchies, attached to the person of the
+king rather than to the kingdom, with their own nobility and their own law.</p>
+
+<p>Underneath, the country was recovering. The population was growing again after a century and a
+half of decline; deserted farms were being retaken; the ox trade of chapter 18 was running south in
+tens of thousands of head. Danish towns were small — Copenhagen perhaps ten thousand people,
+Malmø and Aalborg a few thousand each, most of the eighty-odd market towns well under a thousand —
+but they were growing, and their burghers were beginning to matter politically, which is the
+precondition for chapter 20.</p>
+
+<p>And the church stood at its greatest extent. It held something like a third of the land, its
+bishops were great magnates who sat in the council and commanded castles, and the parish churches
+were being vaulted and painted as fast as parishes could pay. Every crisis of the next forty years
+runs through the fact that the richest institution in Denmark was one that the crown did not control
+and the nobility could not inherit from.</p>
+
+<div class="meanwhile">
+<h4>Meanwhile in Europe</h4>
+<p>The generation on either side of 1500 is the one everything is dated from. Columbus crossed in
+1492 and Vasco da Gama reached India in 1498, which within thirty years moved the pepper trade from
+Venice to Lisbon and began the slow shift of European wealth to the Atlantic seaboard — a shift that
+runs directly through the Sound, and eventually makes Amsterdam the busiest payer of Danish tolls.
+Printing had reached Odense by 1482. In 1494 the French invasion of Italy began forty years of war
+that turned the papacy into one Italian power among several.</p>
+<p>Then, in October 1517, an Augustinian friar in Wittenberg published objections to the sale of
+indulgences, and by 1519 the argument had escaped into print in a way no previous heresy had
+managed. In the same year Charles of Habsburg — the brother-in-law of Denmark's Christian 2. — was
+elected Holy Roman Emperor, inheriting Spain, the Low Countries, Austria and the American silver.
+Every Danish decision in the next twenty years is taken inside that frame.</p>
+</div>
+
+<h2 id="s09"><span class="n">09 / NARRATIVE</span>Christian 2., and the woman who kept the accounts</h2>
+
+<div class="terms">
+  <h4>Danish terms in this section</h4>
+  <dl>
+    <div class="t"><dt>borgerskab</dt><dd>The burgher class of the market towns. Christian 2.
+      governed with them against the nobility, which is why he is remembered so differently by
+      different people.</dd></div>
+    <div class="t"><dt>Sigbrits regnskaber</dt><dd>The accounts kept by Sigbrit Villumsdatter, who
+      ran the Sound toll and much of the royal finances without holding any office at all.</dd></div>
+  </dl>
+</div>
+
+<p>Christian 2. succeeded his father in 1513. He had governed Norway for his father since 1506, he
+married Elisabeth of Habsburg in 1515 — sister of the future Charles 5. — and he was, by any
+measure, the most capable and the most alarming Danish king of the period.</p>
+
+<p>His programme was consistent. He legislated for the towns and for the peasantry against the
+interests of the nobility and the higher clergy: town law and land law issued in 1521–22 that
+attacked <i class="dk">vornedskab</i>, restricted the nobility's private jurisdiction, protected
+peasants from arbitrary eviction, regulated trade in the towns' favour, and set up a court where
+subjects could sue their lords. He brought in Dutch farmers to Amager and Dutch merchants to
+Copenhagen. He wanted a Danish trading company on Dutch lines.</p>
+
+<p>He was also vindictive, and had the run of a state with no institutional check except a council
+he despised. In 1517 he had Torben Oxe, a nobleman and the governor of Copenhagen castle, executed
+after a trial the council refused to countenance — the charge was connected with the death of
+Dyveke, the king's mistress. Whatever the truth of it, the lesson the nobility took was that this
+king would kill them by procedure.</p>
+
+<div class="vig">
+<h4>Vignette · Sigbrit Villumsdatter in Copenhagen</h4>
+<p>She arrived from Bergen, Dutch-born, the mother of Dyveke; and when Dyveke died in 1517 she did
+not go away. She stayed, and she took over the royal finances.</p>
+<p>She held no office. There was no office for her to hold. She managed the Sound toll accounts,
+advised on trade policy, corresponded with Dutch merchants, and by the end was the person the king
+listened to about money — a middle-aged commoner woman, foreign, in a court of noblemen whose entire
+claim rested on birth. The Swedish and Danish nobility loathed her and said so in language that has
+not improved with age. When the council wanted to describe everything wrong with the reign, they
+described her.</p>
+<p>She went into exile with Christian in 1523, and after that the record thins out. She is thought
+to have died in the Netherlands, possibly around 1532, and there is a persistent story that she was
+burned as a witch which has nothing solid behind it.</p>
+<p>What she demonstrates is not a scandal but a fact about the reign: Christian 2. built his
+government out of people who owed everything to him and nothing to the council, and the burgher and
+Dutch connections were the point, not a weakness. It is also why the account of him that survives
+was written by his enemies.</p>
+<p class="who">Sigbrit Villumsdatter, keeper of the king's accounts · Copenhagen · 1517–1523</p>
+</div>
+
+<div class="check">
+  <h4>Checkpoint</h4>
+  <ul>
+    <li>What was <i class="dk">vornedskab</i>, where did it apply, and where did it not?</li>
+    <li>Name three things Christian 2.'s laws of 1521–22 did, and say whom each of them annoyed.</li>
+    <li>Who was Sigbrit Villumsdatter, and what office did she hold?</li>
+  </ul>
+</div>
+
+<h2 id="s10"><span class="n">10 / NARRATIVE</span>Stockholm, November 1520</h2>
+
+<div class="terms">
+  <h4>Danish terms in this section</h4>
+  <dl>
+    <div class="t"><dt>Det Stockholmske Blodbad</dt><dd>The Stockholm bloodbath, 8–9 November 1520.
+      In Swedish, <i>Stockholms blodbad</i>.</dd></div>
+    <div class="t"><dt>kætteri</dt><dd>Heresy. A charge that mattered here for a legal reason: an
+      amnesty for political offences does not cover a crime against the church.</dd></div>
+    <div class="t"><dt>lejde</dt><dd>Safe-conduct, or the guarantee of amnesty on surrender. Its
+      violation is the heart of the matter.</dd></div>
+  </dl>
+</div>
+
+<p>Christian 2. invaded Sweden in 1520 with a professional army and a claim that had been dormant
+for two decades. The Swedish regent, Sten Sture the Younger, was wounded on the ice of Lake Åsunden
+in January and died in February. His widow, Kristina Gyllenstierna, held Stockholm.</p>
+
+<p>She held it until September, and surrendered on terms: a general amnesty for everything done
+during the resistance. On 4 November Christian was crowned king of Sweden in Stockholm by
+Gustav Trolle, the archbishop of Uppsala, whom the Sture party had deposed and imprisoned and whose
+castle they had demolished.</p>
+
+<p>On 7 November, at the end of three days of feasting, the doors were closed. Trolle laid a formal
+complaint before the king: his deposition and the destruction of his castle had been an offence
+against the church, and those responsible were heretics. The point of the framing is exact — the
+amnesty covered rebellion, and heresy was not rebellion. A tribunal sat, and on 8 and 9 November the
+executions were carried out in Stortorget, the great square below the castle.</p>
+
+<p>How many died is disputed, and the disagreement is more informative than a number would be.
+Gustav Trolle, who had laid the complaint, said fifty or sixty. Jürgen Homuth, the German officer
+who did the work, said eighty-two — the traditional figure, and the count of a man who had reason
+to know how many he had despatched. Olaus Magnus, a canon of Linköping who watched it, put it first
+at somewhat over ninety and then, in a note he wrote by hand in the margin of a copy of Saxo's
+<i>Gesta Danorum</i> — a volume the Swedish national library acquired only in 2018 — at over a
+hundred and twenty, adding that he beheld it all with horror.</p>
+
+<p>Part of the spread is a question of what is being counted. The nobles were beheaded with the
+sword; the burgomasters and councillors of Stockholm were hanged from a gallows put up in the
+square; and the second day's victims were servants, hangers-on and bystanders, one of them
+reportedly executed for weeping and one fetched out of his barber's shop. A tally kept by the
+headsman and a tally kept by a horrified eyewitness are not counting the same event.</p>
+
+<p>Two bishops, Vincens of Skara and Matthias of Strängnäs, were beheaded, which shocked Europe. So were fourteen members of the council, burgomasters, councillors of Stockholm, and
+ordinary burghers, some of them apparently for protesting. Sten Sture's body was dug up and burned.
+Kristina Gyllenstierna and a group of noblewomen were sent to prison in Denmark.</p>
+
+<div class="vig">
+<h4>Vignette · Kristina Gyllenstierna, Stockholm castle, September 1520</h4>
+<p>Her husband has been dead since February. She has been holding Stockholm since, with the city
+council, against a besieging army and a fleet, and she is negotiating the surrender herself.</p>
+<p>What she gets is written: a general amnesty, for everyone, for everything. On that basis she
+opens the gates.</p>
+<p>Ten weeks later she is standing in the castle listening to a churchman explain that an amnesty
+for rebellion does not cover heresy, and watching the men who signed the surrender with her walk out
+into the square. She is imprisoned in Denmark, in the Blue Tower, with her mother-in-law and other
+noblewomen; her mother-in-law dies there. She is released in 1524, after Christian has himself been
+deposed, and lives in Sweden until 1559 — long enough to see the country she surrendered become a
+separate kingdom under the man whose father was killed in the square.</p>
+<p class="who">Kristina Gyllenstierna, widow of the regent of Sweden · Stockholm castle ·
+September 1520</p>
+</div>
+
+<p>Among the dead was Erik Johansson, a councillor. His son Gustav Eriksson Vasa had been a hostage
+in Denmark, had escaped, and was in Dalarna within months raising the mining districts — the same
+country, and much the same argument, as Engelbrekt's in chapter 18. By 1521 he was regent. On
+6 June 1523 he was elected king of Sweden, and the Kalmar Union was over.</p>
+
+<h2 id="s11"><span class="n">11 / NARRATIVE</span>1523: two kings leave</h2>
+
+<div class="terms">
+  <h4>Danish terms in this section</h4>
+  <dl>
+    <div class="t"><dt>opsigelsesbrev</dt><dd>The letter of renunciation, from chapter 18. The
+      Jutland nobility used the instrument of 1439 again, on 20 January 1523.</dd></div>
+    <div class="t"><dt>landflygtig</dt><dd>In exile. Christian 2. spent eight years abroad and
+      twenty-seven in Danish prisons, which is longer than he reigned.</dd></div>
+  </dl>
+</div>
+
+<p>The end came from the south, not from Sweden. The Jutland nobility, with the bishops behind them,
+renounced their allegiance on 20 January 1523 and offered the crown to the king's uncle, Frederik,
+duke of Schleswig and Holstein — the surviving half of the 1490 partition, and a man the knighthood
+of the duchies had every reason to prefer.</p>
+
+<p>Christian had an army, a fleet and the towns, and did not fight. On 20 April 1523 he sailed from
+Copenhagen with his family, Sigbrit, and the archives, for the Netherlands and his imperial
+brother-in-law. He spent eight years trying to raise a force, invaded Norway in 1531, was captured
+in 1532 under a safe-conduct that was not honoured — the symmetry with Stockholm did not escape
+contemporaries — and spent the next twenty-seven years in captivity at Sønderborg and Kalundborg. He
+died in 1559.</p>
+
+<p>So the union ends with a Danish king in exile, a Swedish king newly crowned, and a Holstein duke
+on the Danish throne. It is worth asking what actually died. As a working three-kingdom monarchy the
+union had been finished since 1448, as chapter 18 argued; between then and 1520 a Danish king
+governed Sweden for eleven years out of seventy-five. What ended in 1523 was the claim, and the
+claim's end was made permanent by the manner of it — because after Stortorget, Swedish separateness
+had a founding atrocity to point at, and no Swedish politician who wanted a career could argue for a
+Danish king again.</p>
+
+<p>Frederik 1. signed a <i class="dk">håndfæstning</i> that went further than any before it: he
+undertook not to make war without the council's consent, confirmed the nobility's jurisdiction over
+their tenants, and promised to persecute heretics — a clause he would spend his reign not honouring.
+He renounced the Swedish claim in 1524. And the country he took over had a king in exile with a real
+following among the burghers and the peasants, a church at the height of its wealth and the start of
+its unpopularity, and a set of new books arriving from Wittenberg.</p>
+
+<div class="myth" id="myth">
+<h4>Myth-check</h4>
+<dl>
+  <dt>"Dannebrog fell from the sky at Lyndanisse in 1219."</dt>
+  <dd>Chapter 13 argued the legend was probably formed around 1500, and this is where the loop
+  closes. No source within two hundred years of 1219 mentions it. The story appears in writing in the
+  1520s, and the accounts that carry it are written in the decades after the royal banner — believed
+  ancient, carried by Hans von Ahlefeldt — was lost at Hemmingstedt in 1500 and hung in a Ditmarschen
+  church. A flag needs a miraculous origin most urgently at the point where the physical object has
+  been taken by peasants. That is an argument about probability, not a proof; but the sequence is
+  hard to look away from.</dd>
+
+  <dt>"<i>Up ewig ungedeelt</i> is what Christian 1. promised in 1460."</dt>
+  <dd>The 1460 words are <i class="dk">dat se bliven ewich tosamende ungedelt</i>. The modern slogan
+  is A.W. Neuber's 1841 rendering, popularised at a song festival in 1845 after F.C. Dahlmann had
+  rediscovered the clause and given it a constitutional meaning it had not carried before. What it
+  meant in 1460 is genuinely disputed: undivided lordship, or simply internal peace. The strongest
+  argument against the territorial reading is that Christian's own sons partitioned the duchies in
+  1490 and nobody said a word.</dd>
+
+  <dt>"The Stockholm bloodbath was Danish cruelty."</dt>
+  <dd>It was ordered by a Danish king and it was a violation of terms of surrender. It was also
+  brought about by a Swedish archbishop's complaint, tried by a court containing Swedes, and aimed
+  at one faction of the Swedish aristocracy on behalf of another. The heresy framing was a legal
+  device to get round the amnesty, and it was needed precisely because the amnesty was
+  binding. Calling it Danish villainy and calling it a Swedish civil war are both true, and the
+  first version is the one that built a nation.</dd>
+
+  <dt>"Christian 2. was a tyrant." <em>or</em> "Christian 2. was the people's king."</dt>
+  <dd>Both, and the reputation has been rewritten at least twice. He legislated for burghers and
+  peasants against the nobility, and the peasants of the Count's Feud in chapter 20 fought to bring
+  him back. He also executed Torben Oxe against his council's judgment and presided over Stortorget.
+  Danish histories written under the nobility called him a tyrant; nineteenth-century national
+  liberals rediscovered him as a moderniser; twentieth-century work has him as both, and
+  unusually able.</dd>
+
+  <dt>"Denmark sold Orkney and Shetland to Scotland."</dt>
+  <dd>They were pledged, not sold — mortgaged against a dowry Christian 1. could not pay, 50,000
+  florins on Orkney in 1468 and 8,000 on Shetland in 1469, redeemable in principle. Scotland annexed
+  them in 1472 and no redemption was ever made, though Danish and Norwegian governments raised the
+  question for centuries afterwards.</dd>
+</dl>
+</div>
+
+<p class="kicker">Threads and links</p>
+<h2 id="forward" style="margin-top:0"><span class="n">WHERE THIS GOES</span>What to carry forward</h2>
+<ul class="calls">
+  <li><b>← 14</b><span>The <i class="dk">Constitutio Valdemariana</i> of 1326 said duchy and kingdom
+    must never be held by one man. In 1460 one man holds both, plus a county of the Empire, and the
+    document that made it possible is a charter to a nobility — the 1282 pattern
+    again.</span></li>
+  <li><b>← 18</b><span>Adolf 8., who took Schleswig in 1435 and 1440, dies childless in 1459 and the
+    inheritance falls to his nephew. The council that deposed a king in 1439 does it again in
+    1523.</span></li>
+  <li><b>← 13</b><span>The Dannebrog legend of Lyndanisse 1219 is closed here: the banner is lost at
+    Hemmingstedt in 1500, and the story appears in writing shortly afterwards.</span></li>
+  <li><b>← 16</b><span>Orkney and Shetland entered the realm through Norway; they leave against an
+    unpaid dowry. The western panel on the map is one archipelago shorter from now on.</span></li>
+  <li><b>→ 20</b><span>Frederik 1. promises to persecute heretics and does not. Christian 2. in
+    exile is the cause the burghers and peasants fight for in the Count's Feud, and the church's
+    third of Denmark is the prize in 1536.</span></li>
+  <li><b>→ 24</b><span>Sweden is now a separate kingdom with a grievance and a founding story.
+    Eleven wars follow between 1521 and 1814.</span></li>
+  <li><b>→ 32</b><span>The Ribe settlement is the root of the Schleswig-Holstein question: 1848,
+    1864, and the plebiscite of 1920 that finally answers it.</span></li>
+  <li><b>Thread</b><span>"The border in the south": Danevirke, the 1326 constitution, Ribe 1460, and
+    a sentence that detonates 381 years later, in 1841, and again in 1848.</span></li>
+  <li><b>Thread</b><span>"From great power to small state": 1500 is already smaller than 1397, and
+    every later map is smaller again.</span></li>
+</ul>
+
+<p class="kicker">Summary</p>
+<h2 id="summary" style="margin-top:0"><span class="n">IF YOU REMEMBER FIVE THINGS</span>The page in five</h2>
+<ol class="five">
+  <li><p>At Ribe on 5 March 1460 the Schleswig-Holstein knighthood elected Christian 1. duke and
+    count on conditions: their privileges preserved, the duchies not annexed to Denmark, and a
+    promise that the lands remain <i class="dk">ewich tosamende ungedelt</i>. One king now held three
+    territories under three different laws.</p></li>
+  <li><p>That clause was rediscovered after 1815 by F.C. Dahlmann and turned into the slogan
+    <i class="dk">up ewig ungedeelt</i> by a poem of 1841. What it meant in 1460 is disputed; the
+    1490 partition of the duchies by Christian's own sons is the strongest evidence against the
+    reading the nineteenth century needed.</p></li>
+  <li><p>Orkney was pledged to Scotland in 1468 against 50,000 florins of an unpayable dowry and
+    Shetland in 1469 against 8,000. Redeemable in principle, never redeemed, annexed by Scotland in
+    1472.</p></li>
+  <li><p>On 17 February 1500 a royal army of about twelve thousand was destroyed at Hemmingstedt by
+    perhaps two thousand Ditmarschers who blocked a causeway and opened the sluices. Around four
+    thousand died, the Holstein nobility lost a generation, and the royal Dannebrog was
+    taken.</p></li>
+  <li><p>Christian 2. reconquered Sweden in 1520 and, days after his coronation, executed something
+    over eighty people in Stockholm on a heresy charge devised to defeat an amnesty. Gustav Vasa
+    raised Dalarna, was elected king on 6 June 1523, and the union was finished; Christian himself
+    was renounced by the Jutland nobility in January 1523 and sailed into exile in April.</p></li>
+</ol>
+
+<p class="kicker">Questions &amp; discussion</p>
+<h2 id="questions" style="margin-top:0"><span class="n">FOUR KINDS</span>Work the material</h2>
+
+<div class="qgroup">
+  <p class="qlabel">Recall</p>
+  <p class="qnote">Did the facts land?</p>
+  <ul>
+    <li>Who died in 1459, and why did his death create a problem?</li>
+    <li>What did Christian 1. promise at Ribe, and what did he receive?</li>
+    <li>On what terms did Orkney and Shetland leave, and in what years?</li>
+    <li>What was the ground at Hemmingstedt, and what did the Ditmarschers do with it?</li>
+    <li>What legal device got round the Stockholm amnesty, and who supplied it?</li>
+    <li>Who took the Danish throne in 1523, and where did he come from?</li>
+  </ul>
+</div>
+
+<div class="qgroup">
+  <p class="qlabel">Causal</p>
+  <p class="qnote">Why did that follow from this?</p>
+  <ul>
+    <li>Why did the Schleswig-Holstein knighthood want a single lord rather than two?</li>
+    <li>Why did a medieval land-peace clause become a nineteenth-century national slogan — what
+      changed in between, in the world rather than in the document?</li>
+    <li>Why did Hemmingstedt matter politically, given that Ditmarschen was small and remote?</li>
+    <li>Why did Christian 2. govern with burghers and Dutchmen rather than with his council, and
+      why did that end as it did?</li>
+    <li>Why did the executions of November 1520 make a Swedish restoration impossible rather than
+      more likely?</li>
+  </ul>
+</div>
+
+<div class="qgroup">
+  <p class="qlabel">Counterfactual</p>
+  <p class="qnote">What if it had gone otherwise?</p>
+  <ul>
+    <li>If Adolf 8. had left a son, does Denmark ever acquire Holstein — and is there a
+      Schleswig-Holstein question at all?</li>
+    <li>If Christian 1. had found 60,000 florins, what does the North Atlantic realm look like in
+      1900?</li>
+    <li>If Christian 2. had kept the terms of the Stockholm amnesty, could the union have
+      survived?</li>
+  </ul>
+</div>
+
+<div class="qgroup">
+  <p class="qlabel">Contested</p>
+  <p class="qnote">Where the argument still is</p>
+  <ul>
+    <li>What did <i class="dk">ewich tosamende ungedelt</i> mean in 1460? Undivided lordship, or a
+      land-peace formula, as Carsten Jahnke argues. The nineteenth-century reading is the one with
+      the least support and the most consequences.</li>
+    <li>Was the Stockholm bloodbath a planned decapitation of the Sture party or an escalation? The
+      speed of the tribunal argues for planning; the number of burghers killed argues for something
+      that ran away from its authors.</li>
+    <li>How many died at Stortorget? Fifty to sixty by the archbishop who laid the charge,
+      eighty-two by the executioner, over a hundred and twenty by an eyewitness canon writing in the
+      margin of a book. None of them is a register, and they are not all counting the same
+      thing.</li>
+    <li>Christian 2.'s reputation has been rewritten at least twice, and the rewritings track Danish
+      politics more closely than they track new evidence.</li>
+    <li>Was the Dannebrog legend formed around 1500? The dating of its first appearance is secure;
+      the causal link to the lost banner is an inference, and a good one.</li>
+  </ul>
+</div>
+
+<p class="kicker">Sources</p>
+<h2 id="sources" style="margin-top:0"><span class="n">LIGHT SOURCING</span>What this is built on</h2>
+<ul class="plain">
+  <li><span class="nm">WORKED FROM</span>
+    <span class="ds">Charters, law codes, chronicles and the objects.</span></li>
+  <li><span class="nm">— the Ribe letter, 5 March 1460</span>
+    <span class="ds">The text survives and is short. It is a charter to a nobility, drafted by
+    people who wanted their privileges written down — which is what it is mostly about, whatever the
+    nineteenth century made of one clause.</span></li>
+  <li><span class="nm">— Hans Svaning (c. 1500–1584)</span>
+    <span class="ds">The main narrative source for the Ditmarschen campaign and the lost banner. He
+    wrote two generations later as the crown's historian, appointed in 1553 by Christian 3., whose
+    father Frederik was among the commanders who lost the battle. Denmark had no formally appointed
+    royal historiographer until Niels Krag in 1594.</span></li>
+  <li><span class="nm">— the Dithmarschen Landrecht, 1447 and c. 1467–80</span>
+    <span class="ds">A self-governing peasant community's own written law, printed at Lübeck in the
+    1480s. It exists because they had no lord to make law for them.</span></li>
+  <li><span class="nm">— Olaus Petri and the Swedish chronicle tradition</span>
+    <span class="ds">The Swedish accounts of 1520 are near-contemporary and were written under and
+    for Gustav Vasa's regime. That does not make them wrong; it makes the emphasis
+    predictable.</span></li>
+  <li><span class="nm">— Christian 2.'s land law and town law, 1521–22</span>
+    <span class="ds">The best evidence for what he was trying to do, and the reason the nobility
+    removed him. Repealed immediately after his fall.</span></li>
+  <li><span class="nm">— <a href="https://danmarkshistorien.lex.dk" rel="noopener">danmarkshistorien.dk</a></span>
+    <span class="ds">Aarhus University. Ribebrevet, Christian 1., Kong Hans, Christian 2. and the
+    Kalmar Union.</span></li>
+  <li><span class="nm">WHERE THE ARGUMENT STANDS</span>
+    <span class="ds">Named as positions in a historiography, not as books this page has read.</span></li>
+  <li><span class="nm">— Carsten Jahnke, on the 1460 clause</span>
+    <span class="ds">The modern case that <i class="dk">ewich tosamende ungedelt</i> is a land-peace
+    formula rather than a promise of territorial indivisibility. The older reading has four hundred
+    years of political weight behind it, which is a reason for caution in both directions.</span></li>
+</ul>
+
+<p class="kicker">Go and look</p>
+<h2 id="visit" style="margin-top:0"><span class="n">STILL THERE</span>Places you can visit</h2>
+<ul class="plain">
+  <li><span class="nm">Ribe</span>
+    <span class="ds">The oldest town in Denmark, and where the 1460 agreement was made. The
+    cathedral of chapter 12 is the building the parties would have walked past.</span></li>
+  <li><span class="nm">Dusenddüwelswarf, Hemmingstedt</span>
+    <span class="ds">'Thousand devils' mound', near Epenwöhrden in Dithmarschen, with a monument.
+    Flat drained farmland — which is exactly the point, and worth standing in.</span></li>
+  <li><span class="nm">Storkyrkan, Stockholm</span>
+    <span class="ds">Bernt Notke's Saint George and the Dragon, commissioned by Sten Sture after
+    Brunkeberg. Stortorget, where the executions were carried out, is immediately outside.</span></li>
+  <li><span class="nm">Sønderborg Slot, Als</span>
+    <span class="ds">Where Christian 2. spent the first seventeen years of his captivity, and where
+    Abraham Brodersen was beheaded in chapter 17. Now a museum of the border region.</span></li>
+  <li><span class="nm">Gottorp Slot, Slesvig</span>
+    <span class="ds">The ducal seat on the German side of the modern border, and the physical
+    centre of everything the Ribe letter set up.</span></li>
+  <li><span class="nm">St Magnus Cathedral, Kirkwall, Orkney</span>
+    <span class="ds">Norse architecture in a Scottish town: the clearest surviving evidence that
+    these islands were once governed from Bergen and pledged from Copenhagen.</span></li>
+</ul>
+
+<footer>
+  Chapter 19 · Part E · next: chapter 20 — Reformation and the Count's Feud, 1523–1536
+</footer>
+
+</div>
+<script>
+(function(){
+  var links = Array.prototype.slice.call(document.querySelectorAll('.rail a'));
+  var map = {};
+  links.forEach(function(a){ map[a.getAttribute('href').slice(1)] = a; });
+  var targets = Object.keys(map).map(function(id){ return document.getElementById(id); })
+                 .filter(Boolean);
+  if(!('IntersectionObserver' in window) || !targets.length) return;
+  var seen = {};
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){ seen[e.target.id] = e.isIntersecting ? e.boundingClientRect.top : null; });
+    var best = null;
+    targets.forEach(function(t){
+      var r = t.getBoundingClientRect();
+      if(r.top <= 140) best = t.id;
+    });
+    if(!best) best = targets[0].id;
+    links.forEach(function(a){ a.classList.remove('active'); });
+    if(map[best]) map[best].classList.add('active');
+  }, {rootMargin:'-120px 0px -70% 0px', threshold:[0,1]});
+  targets.forEach(function(t){ io.observe(t); });
+  window.addEventListener('scroll', function(){
+    var best = null;
+    targets.forEach(function(t){ if(t.getBoundingClientRect().top <= 140) best = t.id; });
+    if(!best) best = targets[0].id;
+    links.forEach(function(a){ a.classList.remove('active'); });
+    if(map[best]) map[best].classList.add('active');
+  }, {passive:true});
+})();
+</script>
+</body>
+</html>

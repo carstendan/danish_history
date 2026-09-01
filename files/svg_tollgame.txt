@@ -1,0 +1,28 @@
+<svg viewBox="0 0 700 356" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagram of the Sound toll mechanism introduced in 1567. A skipper at Helsingoer declares the value of his cargo. The toll is one to two per cent of that declared value, but the crown reserves the right to buy the cargo outright at the price declared. Declaring low risks losing the cargo cheaply; declaring high means paying toll on an invented figure.">
+  <rect x="0" y="0" width="700" height="356" fill="#F0F2EE"/>
+  <text x="26" y="30" class="mapl">HELSINGØR, AFTER 1567</text>
+  <text x="26" y="46" class="mapt">the skipper is asked one question, and both answers cost him</text>
+  <rect x="252" y="64" width="196" height="42" rx="3" fill="none" stroke="#3C3E36" stroke-width="1.2"/>
+  <text x="350" y="82" class="mapl" text-anchor="middle">What is the cargo</text>
+  <text x="350" y="97" class="mapl" text-anchor="middle">worth?</text>
+  <path d="M 350 106 C 350 130, 158 130, 158 152" fill="none" stroke="#8A2B2B" stroke-width="1.2" opacity=".8"/>
+  <text x="158" y="170" class="mapl" text-anchor="middle" fill="#8A2B2B">DECLARE LOW</text>
+  <path d="M 350 106 C 350 130, 542 130, 542 152" fill="none" stroke="#2E6B5E" stroke-width="1.2" opacity=".8"/>
+  <text x="542" y="170" class="mapl" text-anchor="middle" fill="#2E6B5E">DECLARE HIGH</text>
+  <rect x="28" y="182" width="260" height="86" rx="3" fill="#8A2B2B" opacity=".10"/>
+  <rect x="28" y="182" width="260" height="86" rx="3" fill="none" stroke="#8A2B2B" stroke-width="1" opacity=".55"/>
+  <text x="158" y="202" class="mapx" text-anchor="middle">The crown may buy the cargo</text>
+  <text x="158" y="219" class="mapx" text-anchor="middle">at the price you just named.</text>
+  <text x="158" y="236" class="mapt" text-anchor="middle">You lose the goods for a</text>
+  <text x="158" y="253" class="mapt" text-anchor="middle">fraction of their worth.</text>
+  <rect x="412" y="182" width="260" height="86" rx="3" fill="#2E6B5E" opacity=".10"/>
+  <rect x="412" y="182" width="260" height="86" rx="3" fill="none" stroke="#2E6B5E" stroke-width="1" opacity=".55"/>
+  <text x="542" y="202" class="mapx" text-anchor="middle">The toll is a percentage of</text>
+  <text x="542" y="219" class="mapx" text-anchor="middle">the figure you just named.</text>
+  <text x="542" y="236" class="mapt" text-anchor="middle">You pay on a value you</text>
+  <text x="542" y="253" class="mapt" text-anchor="middle">invented.</text>
+  <line x1="26" y1="288" x2="674" y2="288" stroke="#C9CDC4" stroke-width="1"/>
+  <text x="26" y="306" class="mapx">Rate from 1567: roughly 1–2 per cent of declared value, varying by goods, decade and flag.</text>
+  <text x="26" y="322" class="mapt">Modern work in mechanism design finds the rule does not actually make honesty optimal —</text>
+  <text x="26" y="336" class="mapt">only that it lets the crown implement whatever effective rate it is aiming at.</text>
+  </svg>

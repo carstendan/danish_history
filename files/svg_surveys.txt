@@ -1,0 +1,99 @@
+<svg viewBox="0 0 700 452" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Three panels showing the same state surveying land three times in seventy years: the Danish land register of 1662 and 1664, which converted dues into a single unit without measuring anything; the field survey of 1682 to 1683, which measured every cultivated field in Denmark; and the division of St Croix in 1734 into uniform plantation lots on a grid. The third is the only one never counted as an achievement of the enlightened state.">
+  <rect x="0" y="0" width="700" height="452" fill="#F0F2EE"/>
+  <text x="26" y="30" class="mapl">THE SAME HABIT, THREE TIMES</text>
+  <text x="26" y="46" class="mapt">one state, seventy years, three ways of writing land down</text>
+  <text x="26" y="78" class="mapl" fill="#2F4C7A">1662 / 1664</text>
+  <text x="26" y="94" class="mapx">DENMARK</text>
+  <rect x="26" y="108" width="150" height="150" fill="#3C3E36" opacity=".08"/>
+  <text x="34" y="134" class="mapt">3 tdr rye</text>
+  <text x="142" y="134" class="mapt" text-anchor="end">→</text>
+  <text x="34" y="158" class="mapt">2 tdr barley</text>
+  <text x="142" y="158" class="mapt" text-anchor="end">→</text>
+  <text x="34" y="182" class="mapt">1 pig</text>
+  <text x="142" y="182" class="mapt" text-anchor="end">→</text>
+  <text x="34" y="206" class="mapt">4 cart days</text>
+  <text x="142" y="206" class="mapt" text-anchor="end">→</text>
+  <text x="34" y="230" class="mapt">2 geese</text>
+  <text x="142" y="230" class="mapt" text-anchor="end">→</text>
+  <rect x="146" y="120" width="24" height="126" fill="#2F4C7A" opacity=".45"/>
+  <text x="26" y="278" class="mapt">Every farm in the kingdom</text>
+  <text x="26" y="291" class="mapt">converted into one unit,</text>
+  <text x="26" y="304" class="mapt">hartkorn. Nothing measured;</text>
+  <text x="26" y="317" class="mapt">the landlords' own books</text>
+  <text x="26" y="330" class="mapt">turned into a number that</text>
+  <text x="26" y="343" class="mapt">could be added up in</text>
+  <text x="26" y="356" class="mapt">Copenhagen.</text>
+  <text x="242" y="78" class="mapl" fill="#2E6B5E">1682–83</text>
+  <text x="242" y="94" class="mapx">DENMARK</text>
+  <rect x="242" y="108" width="150" height="150" fill="#3C3E36" opacity=".08"/>
+  <rect x="289.4" y="220.2" width="17.1" height="18.8" fill="#2E6B5E" opacity=".40" stroke="#2E6B5E" stroke-width=".5"/>
+  <rect x="287.8" y="227.9" width="21.8" height="15.4" fill="#2E6B5E" opacity=".40" stroke="#2E6B5E" stroke-width=".5"/>
+  <rect x="356.9" y="176.7" width="26.9" height="12.6" fill="#2E6B5E" opacity=".40" stroke="#2E6B5E" stroke-width=".5"/>
+  <rect x="269.7" y="202.4" width="24.5" height="22.8" fill="#2E6B5E" opacity=".40" stroke="#2E6B5E" stroke-width=".5"/>
+  <rect x="344.5" y="176.5" width="15.6" height="14.9" fill="#2E6B5E" opacity=".40" stroke="#2E6B5E" stroke-width=".5"/>
+  <rect x="329.3" y="161.9" width="21.7" height="15.4" fill="#2E6B5E" opacity=".40" stroke="#2E6B5E" stroke-width=".5"/>
+  <rect x="362.2" y="123.8" width="23.7" height="23.3" fill="#2E6B5E" opacity=".40" stroke="#2E6B5E" stroke-width=".5"/>
+  <rect x="317.4" y="126.9" width="29.0" height="13.7" fill="#2E6B5E" opacity=".40" stroke="#2E6B5E" stroke-width=".5"/>
+  <rect x="301.4" y="158.2" width="19.6" height="16.8" fill="#2E6B5E" opacity=".40" stroke="#2E6B5E" stroke-width=".5"/>
+  <rect x="351.4" y="166.4" width="29.1" height="16.9" fill="#2E6B5E" opacity=".40" stroke="#2E6B5E" stroke-width=".5"/>
+  <rect x="284.6" y="210.9" width="25.7" height="18.2" fill="#2E6B5E" opacity=".40" stroke="#2E6B5E" stroke-width=".5"/>
+  <rect x="248.6" y="227.3" width="15.6" height="19.6" fill="#2E6B5E" opacity=".40" stroke="#2E6B5E" stroke-width=".5"/>
+  <rect x="322.9" y="226.1" width="16.8" height="19.3" fill="#2E6B5E" opacity=".40" stroke="#2E6B5E" stroke-width=".5"/>
+  <rect x="303.5" y="177.8" width="20.8" height="15.2" fill="#2E6B5E" opacity=".40" stroke="#2E6B5E" stroke-width=".5"/>
+  <rect x="316.4" y="139.3" width="25.9" height="11.7" fill="#2E6B5E" opacity=".40" stroke="#2E6B5E" stroke-width=".5"/>
+  <rect x="292.8" y="227.6" width="27.4" height="17.8" fill="#2E6B5E" opacity=".40" stroke="#2E6B5E" stroke-width=".5"/>
+  <rect x="270.0" y="166.5" width="19.8" height="12.4" fill="#2E6B5E" opacity=".40" stroke="#2E6B5E" stroke-width=".5"/>
+  <rect x="351.5" y="200.7" width="27.4" height="10.7" fill="#2E6B5E" opacity=".40" stroke="#2E6B5E" stroke-width=".5"/>
+  <rect x="275.4" y="200.8" width="20.8" height="11.4" fill="#2E6B5E" opacity=".40" stroke="#2E6B5E" stroke-width=".5"/>
+  <rect x="348.8" y="230.3" width="24.6" height="10.1" fill="#2E6B5E" opacity=".40" stroke="#2E6B5E" stroke-width=".5"/>
+  <rect x="315.5" y="124.3" width="13.6" height="16.0" fill="#2E6B5E" opacity=".40" stroke="#2E6B5E" stroke-width=".5"/>
+  <rect x="286.3" y="201.6" width="19.5" height="20.1" fill="#2E6B5E" opacity=".40" stroke="#2E6B5E" stroke-width=".5"/>
+  <rect x="344.5" y="179.4" width="23.4" height="23.2" fill="#2E6B5E" opacity=".40" stroke="#2E6B5E" stroke-width=".5"/>
+  <rect x="335.2" y="205.8" width="20.6" height="19.1" fill="#2E6B5E" opacity=".40" stroke="#2E6B5E" stroke-width=".5"/>
+  <rect x="270.1" y="180.4" width="23.3" height="22.5" fill="#2E6B5E" opacity=".40" stroke="#2E6B5E" stroke-width=".5"/>
+  <rect x="273.3" y="210.7" width="20.0" height="11.8" fill="#2E6B5E" opacity=".40" stroke="#2E6B5E" stroke-width=".5"/>
+  <text x="242" y="278" class="mapt">Every cultivated field walked</text>
+  <text x="242" y="291" class="mapt">and measured, its area</text>
+  <text x="242" y="304" class="mapt">calculated and its soil</text>
+  <text x="242" y="317" class="mapt">graded, four sworn peasants</text>
+  <text x="242" y="330" class="mapt">per district going with the</text>
+  <text x="242" y="343" class="mapt">surveyors. On a Swedish model.</text>
+  <text x="458" y="78" class="mapl" fill="#A9601C">1734</text>
+  <text x="458" y="94" class="mapx">ST CROIX</text>
+  <rect x="458" y="108" width="150" height="150" fill="#3C3E36" opacity=".08"/>
+  <rect x="468" y="118" width="24" height="24" fill="#A9601C" opacity=".40" stroke="#A9601C" stroke-width=".6"/>
+  <rect x="494" y="118" width="24" height="24" fill="#A9601C" opacity=".40" stroke="#A9601C" stroke-width=".6"/>
+  <rect x="520" y="118" width="24" height="24" fill="#A9601C" opacity=".40" stroke="#A9601C" stroke-width=".6"/>
+  <rect x="546" y="118" width="24" height="24" fill="#A9601C" opacity=".40" stroke="#A9601C" stroke-width=".6"/>
+  <rect x="572" y="118" width="24" height="24" fill="#A9601C" opacity=".40" stroke="#A9601C" stroke-width=".6"/>
+  <rect x="468" y="144" width="24" height="24" fill="#A9601C" opacity=".40" stroke="#A9601C" stroke-width=".6"/>
+  <rect x="494" y="144" width="24" height="24" fill="#A9601C" opacity=".40" stroke="#A9601C" stroke-width=".6"/>
+  <rect x="520" y="144" width="24" height="24" fill="#A9601C" opacity=".40" stroke="#A9601C" stroke-width=".6"/>
+  <rect x="546" y="144" width="24" height="24" fill="#A9601C" opacity=".40" stroke="#A9601C" stroke-width=".6"/>
+  <rect x="572" y="144" width="24" height="24" fill="#A9601C" opacity=".40" stroke="#A9601C" stroke-width=".6"/>
+  <rect x="468" y="170" width="24" height="24" fill="#A9601C" opacity=".40" stroke="#A9601C" stroke-width=".6"/>
+  <rect x="494" y="170" width="24" height="24" fill="#A9601C" opacity=".40" stroke="#A9601C" stroke-width=".6"/>
+  <rect x="520" y="170" width="24" height="24" fill="#A9601C" opacity=".40" stroke="#A9601C" stroke-width=".6"/>
+  <rect x="546" y="170" width="24" height="24" fill="#A9601C" opacity=".40" stroke="#A9601C" stroke-width=".6"/>
+  <rect x="572" y="170" width="24" height="24" fill="#A9601C" opacity=".40" stroke="#A9601C" stroke-width=".6"/>
+  <rect x="468" y="196" width="24" height="24" fill="#A9601C" opacity=".40" stroke="#A9601C" stroke-width=".6"/>
+  <rect x="494" y="196" width="24" height="24" fill="#A9601C" opacity=".40" stroke="#A9601C" stroke-width=".6"/>
+  <rect x="520" y="196" width="24" height="24" fill="#A9601C" opacity=".40" stroke="#A9601C" stroke-width=".6"/>
+  <rect x="546" y="196" width="24" height="24" fill="#A9601C" opacity=".40" stroke="#A9601C" stroke-width=".6"/>
+  <rect x="572" y="196" width="24" height="24" fill="#A9601C" opacity=".40" stroke="#A9601C" stroke-width=".6"/>
+  <rect x="468" y="222" width="24" height="24" fill="#A9601C" opacity=".40" stroke="#A9601C" stroke-width=".6"/>
+  <rect x="494" y="222" width="24" height="24" fill="#A9601C" opacity=".40" stroke="#A9601C" stroke-width=".6"/>
+  <rect x="520" y="222" width="24" height="24" fill="#A9601C" opacity=".40" stroke="#A9601C" stroke-width=".6"/>
+  <rect x="546" y="222" width="24" height="24" fill="#A9601C" opacity=".40" stroke="#A9601C" stroke-width=".6"/>
+  <rect x="572" y="222" width="24" height="24" fill="#A9601C" opacity=".40" stroke="#A9601C" stroke-width=".6"/>
+  <text x="458" y="278" class="mapt">An island bought the year</text>
+  <text x="458" y="291" class="mapt">before, ruled into uniform</text>
+  <text x="458" y="304" class="mapt">lots on a grid and handed to</text>
+  <text x="458" y="317" class="mapt">the company's shareholders,</text>
+  <text x="458" y="330" class="mapt">who cleared it and planted</text>
+  <text x="458" y="343" class="mapt">cane.</text>
+  <line x1="26" y1="396" x2="674" y2="396" stroke="#C9CDC4" stroke-width="1"/>
+  <text x="26" y="416" class="mapt">The first two are told in Denmark as the state learning to see itself: the foundation of</text>
+  <text x="26" y="429" class="mapt">modern administration. The third is the same instrument, in the same century, and it</text>
+  <text x="26" y="442" class="mapt">has never been counted as an achievement of the enlightened state.</text>
+  </svg>

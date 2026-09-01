@@ -1,0 +1,88 @@
+<svg viewBox="0 0 700 584" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Fourteen events between June 1657 and October 1660. A time ribbon on the left places each at its true distance in months; the list on the right gives each equal space, and lines connect the two. The events cluster: the march across the ice and the Treaty of Roskilde fall within five weeks of each other in early 1658.">
+  <rect x="0" y="0" width="700" height="584" fill="#F0F2EE"/>
+  <text x="26" y="28" class="mapl">THIRTY-TWO MONTHS</text>
+  <text x="26" y="44" class="mapt">left: real elapsed time — right: equal space, so the labels can be read</text>
+  <line x1="60" y1="62" x2="60" y2="489" stroke="#5F6157" stroke-width="1.4"/>
+  <rect x="47" y="144.5" width="26" height="17.1" fill="#8A2B2B" opacity=".22"/>
+  <text x="44" y="77.0" class="mapt" text-anchor="end">1657</text>
+  <line x1="54" y1="74.0" x2="66" y2="74.0" stroke="#5F6157" stroke-width=".8" opacity=".7"/>
+  <text x="44" y="147.5" class="mapt" text-anchor="end">1658</text>
+  <line x1="54" y1="144.5" x2="66" y2="144.5" stroke="#5F6157" stroke-width=".8" opacity=".7"/>
+  <text x="44" y="268.4" class="mapt" text-anchor="end">1659</text>
+  <line x1="54" y1="265.4" x2="66" y2="265.4" stroke="#5F6157" stroke-width=".8" opacity=".7"/>
+  <text x="44" y="389.3" class="mapt" text-anchor="end">1660</text>
+  <line x1="54" y1="386.3" x2="66" y2="386.3" stroke="#5F6157" stroke-width=".8" opacity=".7"/>
+  <path d="M 68 74.0 C 110 74.0, 140 74.0, 182 74.0" fill="none" stroke="#8A2B2B" stroke-width="1" opacity=".5"/>
+  <circle cx="60" cy="74.0" r="3" fill="#8A2B2B"/>
+  <circle cx="186" cy="74" r="3" fill="#8A2B2B"/>
+  <text x="200" y="78" class="mapx">Jun 1657</text>
+  <text x="320" y="78" class="mapt">Denmark declares war</text>
+  <path d="M 68 84.1 C 110 84.1, 140 105.0, 182 105.0" fill="none" stroke="#8A2B2B" stroke-width="1" opacity=".5"/>
+  <circle cx="60" cy="84.1" r="3" fill="#8A2B2B"/>
+  <circle cx="186" cy="105" r="3" fill="#8A2B2B"/>
+  <text x="200" y="109" class="mapx">Jul 1657</text>
+  <text x="320" y="109" class="mapt">Karl Gustav leaves Poland</text>
+  <path d="M 68 114.3 C 110 114.3, 140 136.0, 182 136.0" fill="none" stroke="#8A2B2B" stroke-width="1" opacity=".5"/>
+  <circle cx="60" cy="114.3" r="3" fill="#8A2B2B"/>
+  <circle cx="186" cy="136" r="3" fill="#8A2B2B"/>
+  <text x="200" y="140" class="mapx">24 Oct 1657</text>
+  <text x="320" y="140" class="mapt">Frederiksodde stormed</text>
+  <path d="M 68 144.5 C 110 144.5, 140 167.0, 182 167.0" fill="none" stroke="#8A2B2B" stroke-width="1" opacity=".5"/>
+  <circle cx="60" cy="144.5" r="3" fill="#8A2B2B"/>
+  <circle cx="186" cy="167" r="3" fill="#8A2B2B"/>
+  <text x="200" y="171" class="mapx">30 Jan 1658</text>
+  <text x="320" y="171" class="mapt">the Little Belt</text>
+  <path d="M 68 154.6 C 110 154.6, 140 198.0, 182 198.0" fill="none" stroke="#8A2B2B" stroke-width="1" opacity=".5"/>
+  <circle cx="60" cy="154.6" r="3" fill="#8A2B2B"/>
+  <circle cx="186" cy="198" r="3" fill="#8A2B2B"/>
+  <text x="200" y="202" class="mapx">5–8 Feb 1658</text>
+  <text x="320" y="202" class="mapt">four islands to Zealand</text>
+  <path d="M 68 161.7 C 110 161.7, 140 229.0, 182 229.0" fill="none" stroke="#8A2B2B" stroke-width="1" opacity=".5"/>
+  <circle cx="60" cy="161.7" r="3" fill="#8A2B2B"/>
+  <circle cx="186" cy="229" r="3" fill="#8A2B2B"/>
+  <text x="200" y="233" class="mapx">26 Feb 1658</text>
+  <text x="320" y="233" class="mapt">Roskilde</text>
+  <path d="M 68 215.1 C 110 215.1, 140 260.0, 182 260.0" fill="none" stroke="#8A2B2B" stroke-width="1" opacity=".5"/>
+  <circle cx="60" cy="215.1" r="3" fill="#8A2B2B"/>
+  <circle cx="186" cy="260" r="3" fill="#8A2B2B"/>
+  <text x="200" y="264" class="mapx">Aug 1658</text>
+  <text x="320" y="264" class="mapt">Sweden attacks again</text>
+  <path d="M 68 235.2 C 110 235.2, 140 291.0, 182 291.0" fill="none" stroke="#8A2B2B" stroke-width="1" opacity=".5"/>
+  <circle cx="60" cy="235.2" r="3" fill="#8A2B2B"/>
+  <circle cx="186" cy="291" r="3" fill="#8A2B2B"/>
+  <text x="200" y="295" class="mapx">29 Oct 1658</text>
+  <text x="320" y="295" class="mapt">Dutch force the Sound</text>
+  <path d="M 68 255.3 C 110 255.3, 140 322.0, 182 322.0" fill="none" stroke="#8A2B2B" stroke-width="1" opacity=".5"/>
+  <circle cx="60" cy="255.3" r="3" fill="#8A2B2B"/>
+  <circle cx="186" cy="322" r="3" fill="#8A2B2B"/>
+  <text x="200" y="326" class="mapx">8 Dec 1658</text>
+  <text x="320" y="326" class="mapt">Bornholm rises</text>
+  <path d="M 68 275.5 C 110 275.5, 140 353.0, 182 353.0" fill="none" stroke="#8A2B2B" stroke-width="1" opacity=".5"/>
+  <circle cx="60" cy="275.5" r="3" fill="#8A2B2B"/>
+  <circle cx="186" cy="353" r="3" fill="#8A2B2B"/>
+  <text x="200" y="357" class="mapx">11 Feb 1659</text>
+  <text x="320" y="357" class="mapt">the storm fails</text>
+  <path d="M 68 366.2 C 110 366.2, 140 384.0, 182 384.0" fill="none" stroke="#8A2B2B" stroke-width="1" opacity=".5"/>
+  <circle cx="60" cy="366.2" r="3" fill="#8A2B2B"/>
+  <circle cx="186" cy="384" r="3" fill="#8A2B2B"/>
+  <text x="200" y="388" class="mapx">14 Nov 1659</text>
+  <text x="320" y="388" class="mapt">Nyborg</text>
+  <path d="M 68 396.4 C 110 396.4, 140 415.0, 182 415.0" fill="none" stroke="#8A2B2B" stroke-width="1" opacity=".5"/>
+  <circle cx="60" cy="396.4" r="3" fill="#8A2B2B"/>
+  <circle cx="186" cy="415" r="3" fill="#8A2B2B"/>
+  <text x="200" y="419" class="mapx">13 Feb 1660</text>
+  <text x="320" y="419" class="mapt">Karl Gustav dies</text>
+  <path d="M 68 426.6 C 110 426.6, 140 446.0, 182 446.0" fill="none" stroke="#8A2B2B" stroke-width="1" opacity=".5"/>
+  <circle cx="60" cy="426.6" r="3" fill="#8A2B2B"/>
+  <circle cx="186" cy="446" r="3" fill="#8A2B2B"/>
+  <text x="200" y="450" class="mapx">27 May 1660</text>
+  <text x="320" y="450" class="mapt">Peace of Copenhagen</text>
+  <path d="M 68 466.9 C 110 466.9, 140 477.0, 182 477.0" fill="none" stroke="#8A2B2B" stroke-width="1" opacity=".5"/>
+  <circle cx="60" cy="466.9" r="3" fill="#8A2B2B"/>
+  <circle cx="186" cy="477" r="3" fill="#8A2B2B"/>
+  <text x="200" y="481" class="mapx">Sep–Oct 1660</text>
+  <text x="320" y="481" class="mapt">the estates; hereditary crown</text>
+  <line x1="26" y1="521" x2="674" y2="521" stroke="#C9CDC4" stroke-width="1"/>
+  <text x="26" y="541" class="mapt">The shaded band is five weeks: the Little Belt on 30 January, four islands to Zealand by 8 February,</text>
+  <text x="26" y="555" class="mapt">and Roskilde signed on 26 February. A third of the realm went in that band.</text>
+  </svg>

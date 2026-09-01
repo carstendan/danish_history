@@ -1,0 +1,45 @@
+<svg viewBox="0 0 700 386" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Timeline of Christian the Fourth's major building works from 1596 to 1645, with the Kalmar War of 1611 to 1613 and the German war from 1625 shaded. Almost every major work was under construction simultaneously before 1625; after 1625 building on that scale stops.">
+  <rect x="0" y="0" width="700" height="386" fill="#F0F2EE"/>
+  <text x="26" y="28" class="mapl">WHAT WAS BEING BUILT, AND WHEN</text>
+  <rect x="329.8" y="44" width="20.2" height="250" fill="#8A2B2B" opacity=".13"/>
+  <text x="340.0" y="38" class="mapt" text-anchor="middle" fill="#8A2B2B">Kalmar War</text>
+  <rect x="471.6" y="44" width="40.5" height="250" fill="#8A2B2B" opacity=".13"/>
+  <text x="491.8" y="38" class="mapt" text-anchor="middle" fill="#8A2B2B">the German war</text>
+  <line x1="218.5" y1="44" x2="218.5" y2="290" stroke="#C9CDC4" stroke-width=".6" opacity=".8"/>
+  <text x="218.5" y="306" class="mapt" text-anchor="middle">1600</text>
+  <line x1="319.7" y1="44" x2="319.7" y2="290" stroke="#C9CDC4" stroke-width=".6" opacity=".8"/>
+  <text x="319.7" y="306" class="mapt" text-anchor="middle">1610</text>
+  <line x1="420.9" y1="44" x2="420.9" y2="290" stroke="#C9CDC4" stroke-width=".6" opacity=".8"/>
+  <text x="420.9" y="306" class="mapt" text-anchor="middle">1620</text>
+  <line x1="522.2" y1="44" x2="522.2" y2="290" stroke="#C9CDC4" stroke-width=".6" opacity=".8"/>
+  <text x="522.2" y="306" class="mapt" text-anchor="middle">1630</text>
+  <line x1="623.4" y1="44" x2="623.4" y2="290" stroke="#C9CDC4" stroke-width=".6" opacity=".8"/>
+  <text x="623.4" y="306" class="mapt" text-anchor="middle">1640</text>
+  <rect x="218.5" y="46" width="202.4" height="13" rx="2" fill="#8A2B2B" opacity=".62"/>
+  <text x="168" y="56" class="mapx" text-anchor="end" fill="#3C3E36">Frederiksborg</text>
+  <rect x="279.2" y="72" width="192.3" height="13" rx="2" fill="#2E6B5E" opacity=".62"/>
+  <text x="168" y="82" class="mapx" text-anchor="end" fill="#3C3E36">Copenhagen fortifications</text>
+  <rect x="279.2" y="98" width="182.2" height="13" rx="2" fill="#8A2B2B" opacity=".62"/>
+  <text x="168" y="108" class="mapx" text-anchor="end" fill="#3C3E36">Rosenborg</text>
+  <rect x="218.5" y="124" width="253.1" height="13" rx="2" fill="#2E6B5E" opacity=".62"/>
+  <text x="168" y="134" class="mapx" text-anchor="end" fill="#3C3E36">Bremerholm, enlarged</text>
+  <rect x="400.7" y="150" width="70.9" height="13" rx="2" fill="#2E6B5E" opacity=".62"/>
+  <text x="168" y="160" class="mapx" text-anchor="end" fill="#3C3E36">Christianshavn</text>
+  <rect x="410.8" y="176" width="50.6" height="13" rx="2" fill="#8A2B2B" opacity=".62"/>
+  <text x="168" y="186" class="mapx" text-anchor="end" fill="#3C3E36">Børsen</text>
+  <rect x="461.4" y="202" width="60.7" height="13" rx="2" fill="#8A2B2B" opacity=".62"/>
+  <text x="168" y="212" class="mapx" text-anchor="end" fill="#3C3E36">Kongsberg</text>
+  <rect x="532.3" y="228" width="101.2" height="13" rx="2" fill="#5F6157" opacity=".28"/>
+  <text x="168" y="238" class="mapx" text-anchor="end" fill="#5F6157">Nyboder</text>
+  <rect x="593.0" y="254" width="50.6" height="13" rx="2" fill="#5F6157" opacity=".28"/>
+  <text x="168" y="264" class="mapx" text-anchor="end" fill="#5F6157">Rundetårn</text>
+  <line x1="26" y1="324" x2="674" y2="324" stroke="#C9CDC4" stroke-width="1"/>
+  <rect x="26" y="336" width="19" height="10" fill="#8A2B2B" opacity=".62"/>
+  <text x="52" y="345" class="mapt">palaces and public works</text>
+  <rect x="238" y="336" width="19" height="10" fill="#2E6B5E" opacity=".62"/>
+  <text x="264" y="345" class="mapt">fleet and fortification</text>
+  <rect x="440" y="336" width="19" height="10" fill="#5F6157" opacity=".28"/>
+  <text x="466" y="345" class="mapt">after this chapter</text>
+  <text x="26" y="366" class="mapt">Paid for from the Sound toll: an annual foreign cash flow, owed by nobody in Denmark, and stoppable by</text>
+  <text x="26" y="380" class="mapt">anyone who could close the Sound.</text>
+  </svg>

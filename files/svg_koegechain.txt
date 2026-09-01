@@ -1,0 +1,71 @@
+<svg viewBox="0 0 700 592" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A list of the sixteen women who died in the Koege witch trials between August 1612 and 1615, with their dates and fates. Fourteen were burned, two took their own lives, one was convicted after escaping. Two of them are recorded as having named further women under torture, which is what continued the chain.">
+  <rect x="0" y="0" width="700" height="592" fill="#F0F2EE"/>
+  <text x="26" y="30" class="mapl">KØGE, AUGUST 1612 – NOVEMBER 1615</text>
+  <text x="26" y="46" class="mapt">one household's accusation, and everyone it reached</text>
+  <text x="26" y="72" class="mapx">Hans Bartskær accuses a neighbour, August 1612</text>
+  <line x1="38" y1="84" x2="38" y2="500" stroke="#5F6157" stroke-width="1.5" opacity=".55"/>
+  <circle cx="38" cy="92" r="4.5" fill="#8A2B2B"/>
+  <text x="56" y="96" class="mapx">Johanne Tommesis</text>
+  <text x="320" y="96" class="mapt">24 Aug 1612</text>
+  <text x="404" y="96" class="mapt">named four others under torture</text>
+  <circle cx="38" cy="118" r="4.5" fill="#8A2B2B"/>
+  <text x="56" y="122" class="mapx">Kirstine Lauridsdatter</text>
+  <text x="320" y="122" class="mapt">11 Sep 1612</text>
+  <text x="404" y="122" class="mapt">Johanne's own servant</text>
+  <circle cx="38" cy="144" r="4.5" fill="#8A2B2B"/>
+  <text x="56" y="148" class="mapx">Mette Banghors</text>
+  <text x="320" y="148" class="mapt">7 Dec 1612</text>
+  <text x="404" y="148" class="mapt">said she met the Devil as a rat</text>
+  <circle cx="38" cy="170" r="4.5" fill="#F0F2EE" stroke="#5F6157" stroke-width="1.5"/>
+  <text x="56" y="174" class="mapx">Volborg Bødkers</text>
+  <text x="320" y="174" class="mapt">7 Jun 1613</text>
+  <text x="404" y="174" class="mapt">escaped; convicted anyway</text>
+  <circle cx="38" cy="196" r="4.5" fill="#8A2B2B"/>
+  <text x="56" y="200" class="mapx">Annike Christoffersdatter</text>
+  <text x="320" y="200" class="mapt">14 Jun 1613</text>
+  <text x="404" y="200" class="mapt">named five others</text>
+  <circle cx="38" cy="222" r="4.5" fill="#8A2B2B"/>
+  <text x="56" y="226" class="mapx">Anne Olufs</text>
+  <text x="320" y="226" class="mapt">26 Jun 1613</text>
+  <rect x="33.5" y="243" width="9" height="9" fill="#5F6157" opacity=".55"/>
+  <text x="56" y="252" class="mapx">Karen Eriks</text>
+  <text x="320" y="252" class="mapt">30 Aug 1613</text>
+  <text x="404" y="252" class="mapt">in prison</text>
+  <circle cx="38" cy="274" r="4.5" fill="#8A2B2B"/>
+  <text x="56" y="278" class="mapx">Maren Muremester</text>
+  <text x="320" y="278" class="mapt">1613</text>
+  <circle cx="38" cy="300" r="4.5" fill="#8A2B2B"/>
+  <text x="56" y="304" class="mapx">Maren of Ringsbjerg</text>
+  <text x="320" y="304" class="mapt">1613</text>
+  <rect x="33.5" y="321" width="9" height="9" fill="#5F6157" opacity=".55"/>
+  <text x="56" y="330" class="mapx">Maren Bysvende</text>
+  <text x="320" y="330" class="mapt">1613</text>
+  <text x="404" y="330" class="mapt">in her own well, the day the summons came</text>
+  <circle cx="38" cy="352" r="4.5" fill="#8A2B2B"/>
+  <text x="56" y="356" class="mapx">Kirsten Væverkvinde</text>
+  <text x="320" y="356" class="mapt">1613</text>
+  <circle cx="38" cy="378" r="4.5" fill="#8A2B2B"/>
+  <text x="56" y="382" class="mapx">Birgitte Rokkemager</text>
+  <text x="320" y="382" class="mapt">18 Sep 1615</text>
+  <circle cx="38" cy="404" r="4.5" fill="#8A2B2B"/>
+  <text x="56" y="408" class="mapx">Else Holtug</text>
+  <text x="320" y="408" class="mapt">6 Nov 1615</text>
+  <circle cx="38" cy="430" r="4.5" fill="#8A2B2B"/>
+  <text x="56" y="434" class="mapx">Mette Navns</text>
+  <text x="320" y="434" class="mapt">1615</text>
+  <circle cx="38" cy="456" r="4.5" fill="#8A2B2B"/>
+  <text x="56" y="460" class="mapx">Johanne Muremester</text>
+  <text x="320" y="460" class="mapt">1615</text>
+  <circle cx="38" cy="482" r="4.5" fill="#8A2B2B"/>
+  <text x="56" y="486" class="mapx">Magdalene, Søren Skrædder's wife</text>
+  <text x="320" y="486" class="mapt">1615</text>
+  <line x1="26" y1="518" x2="674" y2="518" stroke="#C9CDC4" stroke-width="1"/>
+  <circle cx="32" cy="536" r="4.5" fill="#8A2B2B"/>
+  <text x="44" y="540" class="mapt">burned — thirteen</text>
+  <rect x="211" y="532" width="9" height="9" fill="#5F6157" opacity=".55"/>
+  <text x="228" y="540" class="mapt">took her own life — two</text>
+  <circle cx="430" cy="536" r="4.5" fill="#F0F2EE" stroke="#5F6157" stroke-width="1.5"/>
+  <text x="442" y="540" class="mapt">escaped, convicted anyway — one</text>
+  <text x="26" y="562" class="mapt">A confession was not complete until the accused named others. That is what carried it forward.</text>
+  <text x="26" y="576" class="mapt">Who named whom is only partly recoverable. The names and the dates are not in doubt.</text>
+  </svg>

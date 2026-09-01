@@ -1,0 +1,40 @@
+<svg viewBox="0 0 700 486" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A diagram of the Danish currency reform of 5 January 1813. Six old kurantdaler notes were exchanged for one new rigsbankdaler, writing off five sixths of the paper money. The new issue was capped at forty-six million rigsbankdaler, of which twenty-seven million were for the exchange and fifteen million a war fund. The silver behind it was raised by a charge of six per cent on the value of all fixed property in the realm.">
+  <rect x="0" y="0" width="700" height="486" fill="#F0F2EE"/>
+  <text x="26" y="30" class="mapl">SIX FOR ONE</text>
+  <text x="26" y="46" class="mapt">the money reform of 5 January 1813, called the state bankruptcy afterwards</text>
+  <text x="26" y="86" class="mapx">BEFORE</text>
+  <rect x="26" y="100" width="52" height="30" rx="2" fill="#5F6157" opacity=".28" stroke="#5F6157" stroke-width=".8"/>
+  <text x="52" y="119" class="mapt" text-anchor="middle">1 kur.</text>
+  <rect x="84" y="100" width="52" height="30" rx="2" fill="#5F6157" opacity=".28" stroke="#5F6157" stroke-width=".8"/>
+  <text x="110" y="119" class="mapt" text-anchor="middle">1 kur.</text>
+  <rect x="142" y="100" width="52" height="30" rx="2" fill="#5F6157" opacity=".28" stroke="#5F6157" stroke-width=".8"/>
+  <text x="168" y="119" class="mapt" text-anchor="middle">1 kur.</text>
+  <rect x="200" y="100" width="52" height="30" rx="2" fill="#5F6157" opacity=".28" stroke="#5F6157" stroke-width=".8"/>
+  <text x="226" y="119" class="mapt" text-anchor="middle">1 kur.</text>
+  <rect x="258" y="100" width="52" height="30" rx="2" fill="#5F6157" opacity=".28" stroke="#5F6157" stroke-width=".8"/>
+  <text x="284" y="119" class="mapt" text-anchor="middle">1 kur.</text>
+  <rect x="316" y="100" width="52" height="30" rx="2" fill="#5F6157" opacity=".28" stroke="#5F6157" stroke-width=".8"/>
+  <text x="342" y="119" class="mapt" text-anchor="middle">1 kur.</text>
+  <text x="392" y="120" class="mapl">→</text>
+  <rect x="424" y="100" width="72" height="30" rx="2" fill="#2F4C7A" opacity=".45"/>
+  <text x="460" y="119" class="mapx" text-anchor="middle">1 rbd.</text>
+  <text x="424" y="148" class="mapt">five sixths of the paper money, gone</text>
+  <text x="26" y="176" class="mapx">THE OLD NOTE HAD ALREADY FALLEN TO</text>
+  <rect x="26" y="188" width="440" height="18" fill="#5F6157" opacity=".14"/>
+  <rect x="26" y="188" width="26.4" height="18" fill="#8A2B2B" opacity=".55"/>
+  <text x="480" y="202" class="mapx">6% of face value in silver</text>
+  <text x="26" y="248" class="mapx">WHAT BACKED THE NEW ONE</text>
+  <text x="26" y="268" class="mapt">A charge of 6 per cent on the value of all fixed property in Denmark, Norway,</text>
+  <text x="26" y="282" class="mapt">Slesvig and Holstein, payable in silver — at once, or standing as a first</text>
+  <text x="26" y="296" class="mapt">mortgage on the property at 6.5 per cent a year.</text>
+  <text x="26" y="320" class="mapt" fill="#2F4C7A">Every house, farm and workshop in the realm was made security for the new notes.</text>
+  <text x="26" y="364" class="mapx">AND A CEILING</text>
+  <rect x="26" y="380" width="293.5" height="22" fill="#2F4C7A" opacity=".50"/>
+  <rect x="319.5" y="380" width="163.0" height="22" fill="#8A2B2B" opacity=".50"/>
+  <text x="172.7" y="395" class="mapt" text-anchor="middle">27 m — the exchange</text>
+  <text x="401.0" y="395" class="mapt" text-anchor="middle">15 m — war</text>
+  <text x="26" y="420" class="mapt">46 million rigsbankdaler, and never more</text>
+  <line x1="26" y1="434" x2="674" y2="434" stroke="#C9CDC4" stroke-width="1"/>
+  <text x="26" y="454" class="mapt">It was not a bankruptcy: nothing was declared insolvent and no creditor's claim was</text>
+  <text x="26" y="467" class="mapt">extinguished. It was a write-down and a forced postponement, imposed on people with no vote.</text>
+  </svg>

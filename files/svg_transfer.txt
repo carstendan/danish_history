@@ -1,0 +1,47 @@
+<svg viewBox="0 0 900 486" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Two diagrams of what the Reformation transferred. Above, the share of Danish land held by crown, church, nobility and freeholding peasants before and after 1536: the church's roughly one third passes to the crown, which goes from about a sixth to about half. Below, the Danish tithe, which was divided in three between bishop, parish priest and church fabric: after 1536 the crown takes the bishop's third.">
+  <rect x="0" y="0" width="900" height="486" fill="#F0F2EE"/>
+  <text x="26.0" y="34.0" class="mapt" fill="#2E6B5E" text-anchor="start">WHO HELD THE LAND</text>
+  <text x="700.0" y="34.0" class="mapt" fill="#6C6E63" text-anchor="start">shares, roughly</text>
+  <text x="26.0" y="86.0" class="mapl" fill="#221E18" text-anchor="start">BEFORE 1536</text>
+  <rect x="190.0" y="70" width="105.6" height="34" fill="#2E6B5E" fill-opacity="0.45" stroke="#2E6B5E" stroke-width=".8"/>
+  <text x="242.8" y="86.0" class="mapx" fill="#221E18" text-anchor="middle">Crown</text>
+  <text x="242.8" y="98.0" class="mapx" fill="#6C6E63" text-anchor="middle">~16%</text>
+  <rect x="295.6" y="70" width="217.8" height="34" fill="#8A2B2B" fill-opacity="0.55" stroke="#8A2B2B" stroke-width=".8"/>
+  <text x="404.5" y="86.0" class="mapx" fill="#221E18" text-anchor="middle">Church</text>
+  <text x="404.5" y="98.0" class="mapx" fill="#6C6E63" text-anchor="middle">~33%</text>
+  <rect x="513.4" y="70" width="283.8" height="34" fill="#221E18" fill-opacity="0.3" stroke="#221E18" stroke-width=".8"/>
+  <text x="655.3" y="86.0" class="mapx" fill="#221E18" text-anchor="middle">Nobility</text>
+  <text x="655.3" y="98.0" class="mapx" fill="#6C6E63" text-anchor="middle">~43%</text>
+  <rect x="797.2" y="70" width="52.8" height="34" fill="#A9601C" fill-opacity="0.45" stroke="#A9601C" stroke-width=".8"/>
+  <text x="26.0" y="176.0" class="mapl" fill="#221E18" text-anchor="start">AFTER 1536</text>
+  <rect x="190.0" y="160" width="323.4" height="34" fill="#2E6B5E" fill-opacity="0.78" stroke="#2E6B5E" stroke-width=".8"/>
+  <text x="351.7" y="176.0" class="mapx" fill="#221E18" text-anchor="middle">Crown</text>
+  <text x="351.7" y="188.0" class="mapx" fill="#6C6E63" text-anchor="middle">~49%</text>
+  <rect x="513.4" y="160" width="283.8" height="34" fill="#221E18" fill-opacity="0.3" stroke="#221E18" stroke-width=".8"/>
+  <text x="655.3" y="176.0" class="mapx" fill="#221E18" text-anchor="middle">Nobility</text>
+  <text x="655.3" y="188.0" class="mapx" fill="#6C6E63" text-anchor="middle">~43%</text>
+  <rect x="797.2" y="160" width="52.8" height="34" fill="#A9601C" fill-opacity="0.45" stroke="#A9601C" stroke-width=".8"/>
+  <path d="M 296 108 L 296 152" stroke="#8A2B2B" stroke-width="1.6" stroke-dasharray="4 3"/>
+  <text x="304.0" y="134.0" class="mapx" fill="#8A2B2B" text-anchor="start">the church's third, transferred</text>
+  <text x="874.0" y="216.0" class="mapx" fill="#6C6E63" text-anchor="end">the last sliver is freeholding peasants,</text>
+  <text x="874.0" y="230.0" class="mapx" fill="#6C6E63" text-anchor="end">about 8 per cent, and shrinking</text>
+  <text x="26.0" y="262.0" class="mapx" fill="#6C6E63" text-anchor="start">The nobility gained little land in 1536 and a great deal of security: no more bishops in the council, and a crown that owed them the war.</text>
+  <line x1="26" y1="288" x2="874" y2="288" stroke="#C9CDC4" stroke-width=".8"/>
+  <text x="26.0" y="312.0" class="mapt" fill="#2E6B5E" text-anchor="start">AND THE TITHE</text>
+  <text x="26.0" y="334.0" class="mapx" fill="#6C6E63" text-anchor="start">Chapter 12 established that the Danish tithe was divided three ways, not four: there was no share for the poor.</text>
+  <text x="26.0" y="376.0" class="mapl" fill="#221E18" text-anchor="start">BEFORE</text>
+  <rect x="190" y="356" width="200" height="34" fill="#8A2B2B" fill-opacity="0.55" stroke="#8A2B2B" stroke-width=".8"/>
+  <text x="290.0" y="377.0" class="mapx" fill="#221E18" text-anchor="middle">Bishop</text>
+  <rect x="410" y="356" width="200" height="34" fill="#221E18" fill-opacity="0.3" stroke="#221E18" stroke-width=".8"/>
+  <text x="510.0" y="377.0" class="mapx" fill="#221E18" text-anchor="middle">Parish priest</text>
+  <rect x="630" y="356" width="200" height="34" fill="#A9601C" fill-opacity="0.45" stroke="#A9601C" stroke-width=".8"/>
+  <text x="730.0" y="377.0" class="mapx" fill="#221E18" text-anchor="middle">Church fabric</text>
+  <text x="26.0" y="432.0" class="mapl" fill="#221E18" text-anchor="start">AFTER</text>
+  <rect x="190" y="412" width="200" height="34" fill="#2E6B5E" fill-opacity="0.78" stroke="#2E6B5E" stroke-width=".8"/>
+  <text x="290.0" y="433.0" class="mapx" fill="#221E18" text-anchor="middle">THE CROWN</text>
+  <rect x="410" y="412" width="200" height="34" fill="#221E18" fill-opacity="0.3" stroke="#221E18" stroke-width=".8"/>
+  <text x="510.0" y="433.0" class="mapx" fill="#221E18" text-anchor="middle">Parish priest</text>
+  <rect x="630" y="412" width="200" height="34" fill="#A9601C" fill-opacity="0.45" stroke="#A9601C" stroke-width=".8"/>
+  <text x="730.0" y="433.0" class="mapx" fill="#221E18" text-anchor="middle">Church fabric</text>
+  <path d="M 290 390 L 290 412" stroke="#8A2B2B" stroke-width="1.6" stroke-dasharray="4 3"/>
+  </svg>

@@ -1,0 +1,30 @@
+<svg viewBox="0 0 900 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Timeline of twelve weeks in 1536: Copenhagen surrenders on 29 July, the bishops are arrested on 12 August, and the assembly of 30 October transfers the church to the crown and declares that Norway shall be a limb of Denmark.">
+  <rect x="0" y="0" width="900" height="300" fill="#F0F2EE"/>
+  <text x="26.0" y="34.0" class="mapt" fill="#2E6B5E" text-anchor="start">TWELVE WEEKS</text>
+  <text x="26" y="62" style="font-family:'Iowan Old Style',Palatino,Georgia,serif;font-size:19px;fill:#221E18">A siege ends, and a church is nationalised.</text>
+  <line x1="60" y1="118" x2="760" y2="118" stroke="#6C6E63" stroke-width="1.4"/>
+  <circle cx="60" cy="118" r="6" fill="#2E6B5E"/>
+  <text x="60.0" y="100.0" class="mapl" fill="#2E6B5E" text-anchor="start">29 July</text>
+  <text x="60.0" y="142.0" class="mapx" fill="#6C6E63" text-anchor="start">Copenhagen surrenders after</text>
+  <text x="60.0" y="157.0" class="mapx" fill="#6C6E63" text-anchor="start">a year. The city has been</text>
+  <text x="60.0" y="172.0" class="mapx" fill="#6C6E63" text-anchor="start">eating horses.</text>
+  <circle cx="320" cy="118" r="6" fill="#2E6B5E"/>
+  <text x="320.0" y="100.0" class="mapl" fill="#2E6B5E" text-anchor="start">12 August</text>
+  <text x="320.0" y="142.0" class="mapx" fill="#6C6E63" text-anchor="start">The bishops are arrested on</text>
+  <text x="320.0" y="157.0" class="mapx" fill="#6C6E63" text-anchor="start">one night, in a coup agreed</text>
+  <text x="320.0" y="172.0" class="mapx" fill="#6C6E63" text-anchor="start">with the nobility.</text>
+  <circle cx="500" cy="118" r="6" fill="#2E6B5E"/>
+  <text x="500.0" y="100.0" class="mapl" fill="#2E6B5E" text-anchor="start">30 October</text>
+  <text x="500.0" y="142.0" class="mapx" fill="#6C6E63" text-anchor="start">The assembly transfers all</text>
+  <text x="500.0" y="157.0" class="mapx" fill="#6C6E63" text-anchor="start">church property to the crown</text>
+  <text x="500.0" y="172.0" class="mapx" fill="#6C6E63" text-anchor="start">and abolishes the bishops.</text>
+  <circle cx="720" cy="118" r="6" fill="#2E6B5E"/>
+  <text x="720.0" y="100.0" class="mapl" fill="#2E6B5E" text-anchor="start">1537</text>
+  <text x="720.0" y="142.0" class="mapx" fill="#6C6E63" text-anchor="start">Bugenhagen crowns the</text>
+  <text x="720.0" y="157.0" class="mapx" fill="#6C6E63" text-anchor="start">king and ordains seven</text>
+  <text x="720.0" y="172.0" class="mapx" fill="#6C6E63" text-anchor="start">superintendents.</text>
+  <line x1="26" y1="212" x2="874" y2="212" stroke="#C9CDC4" stroke-width=".8"/>
+  <text x="26.0" y="240.0" class="mapx" fill="#6C6E63" text-anchor="start">In the same recess: ‘Norway shall hereafter be and remain under the crown of Denmark, like one of the other lands,</text>
+  <text x="26.0" y="256.0" class="mapx" fill="#6C6E63" text-anchor="start">Jutland, Funen, Zealand or Skåne.’ It was not enforced as written, and Norway kept its own law — but the sentence stood</text>
+  <text x="26.0" y="272.0" class="mapx" fill="#6C6E63" text-anchor="start">in the constitution of the realm until 1814, and Norwegians have never stopped quoting it.</text>
+  </svg>

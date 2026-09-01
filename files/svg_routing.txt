@@ -1,0 +1,69 @@
+<svg viewBox="0 0 700 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagram comparing how a decision was made before and after 1660. On the left, five different kinds of question - a tax, a fortress, a ship, an appeal, a trading licence - all go to the single Council of the Realm, twenty noblemen who discussed everything, and only then to the king. On the right, each question goes to its own standing college of full-time officials, the colleges report to the Council of State, and the king decides alone. The council of noblemen has no place in the second diagram.">
+  <rect x="0" y="0" width="700" height="480" fill="#F0F2EE"/>
+  <text x="26" y="30" class="mapl">WHERE A DECISION TRAVELLED</text>
+  <text x="26" y="46" class="mapt">the same five questions, before 1660 and after 1665</text>
+  <text x="26" y="76" class="mapl">BEFORE</text>
+  <text x="382" y="76" class="mapl">AFTER</text>
+  <line x1="352" y1="64" x2="352" y2="410" stroke="#C9CDC4" stroke-width="1"/>
+  <text x="26" y="104" class="mapt">A town tax</text>
+  <path d="M 116 100 C 168 100, 190 240, 236 240" fill="none" stroke="#5F6157" stroke-width="1" opacity=".55"/>
+  <text x="26" y="130" class="mapt">A fortress</text>
+  <path d="M 116 126 C 168 126, 190 240, 236 240" fill="none" stroke="#5F6157" stroke-width="1" opacity=".55"/>
+  <text x="26" y="156" class="mapt">A warship</text>
+  <path d="M 116 152 C 168 152, 190 240, 236 240" fill="none" stroke="#5F6157" stroke-width="1" opacity=".55"/>
+  <text x="26" y="182" class="mapt">An appeal</text>
+  <path d="M 116 178 C 168 178, 190 240, 236 240" fill="none" stroke="#5F6157" stroke-width="1" opacity=".55"/>
+  <text x="26" y="208" class="mapt">A licence</text>
+  <path d="M 116 204 C 168 204, 190 240, 236 240" fill="none" stroke="#5F6157" stroke-width="1" opacity=".55"/>
+  <rect x="236" y="222" width="98" height="38" rx="3" fill="#3C3E36" opacity=".16"/>
+  <rect x="236" y="222" width="98" height="38" rx="3" fill="none" stroke="#3C3E36" stroke-width="1.2"/>
+  <text x="285" y="238" class="mapl" text-anchor="middle">Rigsrådet</text>
+  <text x="285" y="252" class="mapt" text-anchor="middle">c. 20 noblemen</text>
+  <path d="M 285 260 L 285 292" fill="none" stroke="#5F6157" stroke-width="1.2"/>
+  <rect x="236" y="294" width="98" height="30" rx="3" fill="#2E6B5E" opacity=".18"/>
+  <text x="285" y="314" class="mapl" text-anchor="middle">the king</text>
+  <text x="26" y="352" class="mapt">One body, meeting when summoned,</text>
+  <text x="26" y="365" class="mapt">deliberating every kind of business. It</text>
+  <text x="26" y="378" class="mapt">also chose the king and wrote the</text>
+  <text x="26" y="391" class="mapt">charter he signed.</text>
+  <text x="382" y="104" class="mapt">A town tax</text>
+  <path d="M 452 100 L 486 100" fill="none" stroke="#2F4C7A" stroke-width="1" opacity=".7"/>
+  <rect x="490" y="87" width="128" height="18" rx="2" fill="#2F4C7A" opacity=".16"/>
+  <text x="496" y="100" class="mapx">Skatkammeret</text>
+  <path d="M 618 96 L 646 96 L 646 218" fill="none" stroke="#2F4C7A" stroke-width=".9" opacity=".45"/>
+  <text x="382" y="130" class="mapt">A fortress</text>
+  <path d="M 452 126 L 486 126" fill="none" stroke="#2F4C7A" stroke-width="1" opacity=".7"/>
+  <rect x="490" y="113" width="128" height="18" rx="2" fill="#2F4C7A" opacity=".16"/>
+  <text x="496" y="126" class="mapx">Krigskollegiet</text>
+  <path d="M 618 122 L 646 122 L 646 218" fill="none" stroke="#2F4C7A" stroke-width=".9" opacity=".45"/>
+  <text x="382" y="156" class="mapt">A warship</text>
+  <path d="M 452 152 L 486 152" fill="none" stroke="#2F4C7A" stroke-width="1" opacity=".7"/>
+  <rect x="490" y="139" width="128" height="18" rx="2" fill="#2F4C7A" opacity=".16"/>
+  <text x="496" y="152" class="mapx">Admiralitetet</text>
+  <path d="M 618 148 L 646 148 L 646 218" fill="none" stroke="#2F4C7A" stroke-width=".9" opacity=".45"/>
+  <text x="382" y="182" class="mapt">An appeal</text>
+  <path d="M 452 178 L 486 178" fill="none" stroke="#2F4C7A" stroke-width="1" opacity=".7"/>
+  <rect x="490" y="165" width="128" height="18" rx="2" fill="#2F4C7A" opacity=".16"/>
+  <text x="496" y="178" class="mapx">Højesteret</text>
+  <path d="M 618 174 L 646 174 L 646 218" fill="none" stroke="#2F4C7A" stroke-width=".9" opacity=".45"/>
+  <text x="382" y="208" class="mapt">A licence</text>
+  <path d="M 452 204 L 486 204" fill="none" stroke="#2F4C7A" stroke-width="1" opacity=".7"/>
+  <rect x="490" y="191" width="128" height="18" rx="2" fill="#2F4C7A" opacity=".16"/>
+  <text x="496" y="204" class="mapx">Kancelliet</text>
+  <path d="M 618 200 L 646 200 L 646 218" fill="none" stroke="#2F4C7A" stroke-width=".9" opacity=".45"/>
+  <rect x="520" y="222" width="150" height="38" rx="3" fill="#2F4C7A" opacity=".16"/>
+  <rect x="520" y="222" width="150" height="38" rx="3" fill="none" stroke="#2F4C7A" stroke-width="1.2"/>
+  <text x="595" y="238" class="mapl" text-anchor="middle">Statskollegiet</text>
+  <text x="595" y="252" class="mapt" text-anchor="middle">18 November 1660</text>
+  <path d="M 595 260 L 595 292" fill="none" stroke="#5F6157" stroke-width="1.2"/>
+  <rect x="546" y="294" width="98" height="30" rx="3" fill="#2E6B5E" opacity=".18"/>
+  <text x="595" y="314" class="mapl" text-anchor="middle">the king</text>
+  <text x="382" y="352" class="mapt">Standing offices, each with one subject,</text>
+  <text x="382" y="365" class="mapt">staffed by men who came in every day.</text>
+  <text x="382" y="378" class="mapt">Half of Højesteret's judges were not</text>
+  <text x="382" y="391" class="mapt">noble, and the king appointed all of</text>
+  <text x="382" y="404" class="mapt">them.</text>
+  <line x1="26" y1="410" x2="674" y2="410" stroke="#C9CDC4" stroke-width="1"/>
+  <text x="26" y="430" class="mapt">The council was never abolished. It stopped being summoned, and after a while it had not met</text>
+  <text x="26" y="444" class="mapt">for long enough that it was clear it was not going to be.</text>
+  </svg>

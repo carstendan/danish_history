@@ -1,0 +1,43 @@
+<svg viewBox="0 0 700 470" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Two columns comparing what the surviving papers of the slave ship Fredensborg record and what they do not. The left column lists the master, the crew by name including the carpenter who died, the daily wind and position, the itemised cargo and the dates of every stage of the voyage. The right column lists what is absent: the names of the people in the hold, where they were taken from, their languages, their relationships, and anything any of them said.">
+  <rect x="0" y="0" width="700" height="470" fill="#F0F2EE"/>
+  <text x="26" y="30" class="mapl">WHAT THE PAPERS KEEP</text>
+  <text x="26" y="46" class="mapt">the <tspan font-style="italic">Fredensborg</tspan>, 1767–68 — the best-documented slave ship in the world</text>
+  <line x1="350" y1="70" x2="350" y2="390" stroke="#C9CDC4" stroke-width="1"/>
+  <text x="26" y="92" class="mapx" fill="#2F4C7A">RECORDED</text>
+  <circle cx="32" cy="112" r="2.6" fill="#2F4C7A"/>
+  <text x="44" y="116" class="mapt">Espen Kønig, master</text>
+  <circle cx="32" cy="132" r="2.6" fill="#2F4C7A"/>
+  <text x="44" y="136" class="mapt">Christian Runge, sailor, of Arendal</text>
+  <circle cx="32" cy="152" r="2.6" fill="#2F4C7A"/>
+  <text x="44" y="156" class="mapt">Axel Antoni, carpenter — died 4 January 1768</text>
+  <circle cx="32" cy="172" r="2.6" fill="#2F4C7A"/>
+  <text x="44" y="176" class="mapt">the other thirty-odd of the crew, by name</text>
+  <circle cx="32" cy="192" r="2.6" fill="#2F4C7A"/>
+  <text x="44" y="196" class="mapt">the wind, every day</text>
+  <circle cx="32" cy="212" r="2.6" fill="#2F4C7A"/>
+  <text x="44" y="216" class="mapt">the ship's position, every day</text>
+  <circle cx="32" cy="232" r="2.6" fill="#2F4C7A"/>
+  <text x="44" y="236" class="mapt">the cargo, itemised</text>
+  <circle cx="32" cy="252" r="2.6" fill="#2F4C7A"/>
+  <text x="44" y="256" class="mapt">the dates: Copenhagen 19 June 1767; the Gold</text>
+  <text x="44" y="276" class="mapt">Coast 1 October; sailed 23 April 1768; St Croix</text>
+  <text x="44" y="290" class="mapt">9 July; sailed 15 September; wrecked 1 December</text>
+  <text x="382" y="92" class="mapx" fill="#5F6157">NOT RECORDED</text>
+  <rect x="382" y="106" width="268" height="13" fill="#5F6157" opacity=".10"/>
+  <text x="388" y="116" class="mapt" fill="#5F6157">the names of the people in the hold</text>
+  <rect x="382" y="126" width="268" height="13" fill="#5F6157" opacity=".10"/>
+  <text x="388" y="136" class="mapt" fill="#5F6157">where in Africa they were taken from</text>
+  <rect x="382" y="146" width="268" height="13" fill="#5F6157" opacity=".10"/>
+  <text x="388" y="156" class="mapt" fill="#5F6157">what languages they spoke</text>
+  <rect x="382" y="166" width="268" height="13" fill="#5F6157" opacity=".10"/>
+  <text x="388" y="176" class="mapt" fill="#5F6157">who among them was related to whom</text>
+  <rect x="382" y="186" width="268" height="13" fill="#5F6157" opacity=".10"/>
+  <text x="388" y="196" class="mapt" fill="#5F6157">what any of them said</text>
+  <text x="382" y="224" class="mapt">They are in the documents. They are entered</text>
+  <text x="382" y="238" class="mapt">as a count, and when they die they are</text>
+  <text x="382" y="252" class="mapt">entered as a loss.</text>
+  <line x1="26" y1="400" x2="674" y2="400" stroke="#C9CDC4" stroke-width="1"/>
+  <text x="26" y="420" class="mapt">The journals were carried ashore when the ship struck off Tromsøya on 1 December 1768.</text>
+  <text x="26" y="433" class="mapt">The wreck was found by divers in 1974. Both are now transcribed and public. The asymmetry</text>
+  <text x="26" y="446" class="mapt">above is not a gap in the archive. It is what the archive was for.</text>
+  </svg>

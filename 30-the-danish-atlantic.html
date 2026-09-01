@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>30 · The Danish Atlantic, 1620–1803</title>
+<style>
+
+  :root{
+    --ground:#E4E7E4; --paper:#F0F2EE; --peat:#221E18; --muted:#6C6E63;
+    --rule:#C9CDC4; --verdigris:#2E6B5E; --amber:#A9601C; --oxblood:#8A2B2B; --indigo:#2F4C7A; --band:#2F4C7A;
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua","URW Palladio L",Georgia,serif;
+    --mono:"IBM Plex Mono",ui-monospace,"SF Mono",SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0;background:var(--ground);color:var(--peat);
+    font-family:var(--serif);font-size:17.5px;line-height:1.68;text-rendering:optimizeLegibility}
+  .wrap{max-width:790px;margin:0 auto;padding:0 28px}
+  a{color:var(--verdigris)}
+  a:focus-visible{outline:2px solid var(--amber);outline-offset:3px}
+  p{margin:0 0 1.05em}
+
+  .crumb{border-bottom:1px solid var(--rule);background:rgba(228,231,228,.94)}
+  .crumb-in{max-width:1000px;margin:0 auto;padding:10px 28px;display:flex;gap:14px;
+    font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+  .crumb-in b{color:var(--band);font-weight:600}
+
+  header.hd{padding:62px 0 0}
+  .eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.22em;text-transform:uppercase;
+    color:var(--amber);margin:0 0 20px}
+  h1{font-size:clamp(34px,6.4vw,58px);line-height:1.02;margin:0;font-weight:400;letter-spacing:-.022em}
+  .dates{font-family:var(--mono);font-size:13px;letter-spacing:.1em;color:var(--muted);margin:18px 0 0}
+  .why{font-size:20px;margin:22px 0 0;max-width:62ch}
+  .keys{display:flex;flex-wrap:wrap;gap:6px;margin:26px 0 0;padding:0;list-style:none}
+  .keys li{font-family:var(--mono);font-size:10.5px;letter-spacing:.03em;color:var(--muted);
+    border:1px solid var(--rule);border-radius:2px;padding:3px 8px}
+
+  h2{font-size:27px;font-weight:400;letter-spacing:-.015em;margin:56px 0 4px;line-height:1.2}
+  h2 .n{font-family:var(--mono);font-size:12px;color:var(--band);letter-spacing:.1em;
+    display:block;margin:0 0 8px;font-weight:600}
+  h3{font-size:19px;font-weight:600;margin:34px 0 6px;letter-spacing:-.008em}
+  .kicker{font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;
+    color:var(--amber);margin:56px 0 8px}
+  hr.div{border:0;border-top:1px solid var(--rule);margin:52px 0 0}
+  i.dk{font-style:italic}
+
+  /* per-section glossary */
+  .terms{background:var(--paper);border-left:3px solid var(--band);padding:16px 20px;margin:22px 0 28px}
+  .terms h4{font-family:var(--mono);font-size:10px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--band);margin:0 0 12px;font-weight:600}
+  .terms dl{margin:0;display:grid;grid-template-columns:1fr 1fr;gap:10px 26px}
+  .terms dl.one{grid-template-columns:1fr}
+  .terms .t{min-width:0}
+  .terms dt{font-family:var(--mono);font-size:12.5px;color:var(--peat);font-weight:600;
+    letter-spacing:.01em;line-height:1.4}
+  .terms dd{margin:2px 0 0;font-size:15px;color:var(--muted);line-height:1.5}
+
+  ol.qs{margin:0;padding:0;list-style:none;counter-reset:q}
+  ol.qs li{counter-increment:q;position:relative;padding:0 0 0 34px;margin:0 0 10px;font-size:18px}
+  ol.qs li::before{content:counter(q);position:absolute;left:0;top:2px;font-family:var(--mono);
+    font-size:11px;color:var(--amber);font-weight:600}
+
+  .meanwhile{background:var(--paper);border-left:3px solid var(--verdigris);padding:20px 22px;margin:30px 0}
+  .meanwhile h4{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--verdigris);margin:0 0 10px;font-weight:600}
+  .meanwhile p{font-size:16px;margin:0 0 .8em}
+  .meanwhile p:last-child{margin:0}
+
+  .myth{background:var(--paper);border-left:3px solid var(--oxblood);padding:20px 22px;margin:26px 0}
+  .myth h4{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--oxblood);margin:0 0 12px;font-weight:600}
+  .myth dl{margin:0}
+  .myth dt{font-weight:600;font-size:16.5px;margin:16px 0 3px}
+  .myth dt:first-child{margin-top:0}
+  .myth dd{margin:0;font-size:16px;color:var(--muted)}
+
+  ul.calls{list-style:none;margin:0;padding:0;border-top:1px solid var(--rule)}
+  ul.calls li{display:flex;gap:18px;padding:12px 0;border-bottom:1px solid var(--rule);align-items:baseline}
+  ul.calls b{font-family:var(--mono);font-size:11px;letter-spacing:.06em;color:var(--band);
+    width:74px;flex:none;font-weight:600}
+  ul.calls span{font-size:16px;color:var(--muted)}
+
+  ol.five{list-style:none;margin:0;padding:0;counter-reset:f}
+  ol.five li{counter-increment:f;background:var(--paper);border-left:2px solid var(--band);
+    padding:15px 18px;margin:0 0 2px;display:flex;gap:14px;align-items:baseline}
+  ol.five li::before{content:counter(f,decimal-leading-zero);font-family:var(--mono);font-size:11px;
+    color:var(--band);font-weight:600;flex:none}
+  ol.five p{margin:0;font-size:16.5px}
+
+  .qgroup{margin:0 0 26px}
+  .qlabel{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--amber);margin:0 0 4px;font-weight:600}
+  .qnote{font-size:14.5px;color:var(--muted);margin:0 0 10px}
+  .qgroup ul{margin:0;padding:0 0 0 20px}
+  .qgroup li{margin:0 0 8px;font-size:16.5px}
+
+  figure{margin:34px 0;background:var(--paper);padding:20px 20px 16px;border-top:2px solid var(--band)}
+  figure svg{width:100%;height:auto;display:block}
+  figcaption{font-size:14.5px;color:var(--muted);margin:14px 0 0;line-height:1.55}
+  figcaption b{font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;
+    color:var(--peat);display:block;margin:0 0 5px;font-weight:600}
+  .mapt{font-family:var(--mono);font-size:9.5px;fill:#5F6157;letter-spacing:.04em}
+  .mapl{font-family:var(--mono);font-size:10.5px;fill:#3C3E36;letter-spacing:.06em;font-weight:600}
+  .mapx{font-family:var(--mono);font-size:8.5px;fill:#4A4C44;letter-spacing:.04em}
+
+  ul.plain{list-style:none;margin:0;padding:0;border-top:1px solid var(--rule)}
+  ul.plain li{display:flex;gap:20px;padding:12px 0;border-bottom:1px solid var(--rule);
+    align-items:baseline;flex-wrap:wrap}
+  ul.plain .nm{font-family:var(--mono);font-size:12px;letter-spacing:.03em;width:200px;flex:none;
+    color:var(--verdigris)}
+  ul.plain .ds{font-size:15.5px;color:var(--muted);flex:1;min-width:230px}
+
+  footer{margin:70px 0 0;padding:22px 0 64px;border-top:1px solid var(--rule);
+    font-family:var(--mono);font-size:11px;letter-spacing:.06em;color:var(--muted)}
+
+  @media (max-width:720px){
+    body{font-size:16.5px}
+    .wrap{padding:0 20px}
+    .crumb-in{padding:10px 20px;gap:10px;font-size:9.5px}
+    header.hd{padding:40px 0 0}
+    h2{font-size:24px;margin-top:44px}
+    figure{padding:14px 12px 12px}
+    .terms dl{grid-template-columns:1fr;gap:11px}
+    ul.calls li{flex-direction:column;gap:2px}
+    ul.calls b{width:auto}
+    ul.plain li{flex-direction:column;gap:3px}
+    ul.plain .nm{width:auto}
+  }
+
+  html{scroll-behavior:smooth}
+  @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+  h2[id],div.myth[id]{scroll-margin-top:24px}
+
+  /* fixed section index, wide screens only */
+  .rail{position:fixed;top:88px;left:calc(50% - 605px);width:170px;z-index:30;
+    max-height:calc(100vh - 130px);overflow-y:auto;scrollbar-width:thin}
+  .rail-h{font-family:var(--mono);font-size:9.5px;letter-spacing:.18em;text-transform:uppercase;
+    color:var(--amber);margin:0 0 10px;font-weight:600}
+  .rail ol{list-style:none;margin:0;padding:0;border-left:1px solid var(--rule)}
+  .rail li{margin:0}
+  .rail a{display:flex;gap:7px;align-items:baseline;text-decoration:none;color:var(--muted);
+    font-family:var(--mono);font-size:10.5px;line-height:1.35;letter-spacing:.01em;
+    padding:5px 0 5px 11px;margin-left:-1px;border-left:2px solid transparent}
+  .rail a:hover{color:var(--peat)}
+  .rail .rn{color:var(--band);font-weight:600;flex:none;width:13px}
+  .rail a.active{color:var(--peat);border-left-color:var(--amber);font-weight:600}
+  .rail a.active .rn{color:var(--amber)}
+  @media (max-width:1239px){.rail{display:none}}
+
+  /* collapsible contents, narrow screens only */
+  .toc{display:none;background:var(--paper);border-left:3px solid var(--band);
+    padding:12px 18px;margin:34px 0 0}
+  .toc summary{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--band);font-weight:600;cursor:pointer}
+  .toc ol{margin:12px 0 2px;padding:0 0 0 20px}
+  .toc li{margin:0 0 5px;font-size:15.5px}
+  @media (max-width:1239px){.toc{display:block}}
+
+  /* people vignette */
+  .vig{background:var(--paper);border-left:3px solid var(--amber);padding:20px 22px;margin:30px 0}
+  .vig h4{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--amber);margin:0 0 10px;font-weight:600}
+  .vig p{font-size:16.5px;margin:0 0 .85em}
+  .vig p:last-child{margin:0}
+  .vig .who{font-family:var(--mono);font-size:11px;letter-spacing:.05em;color:var(--muted);
+    margin:12px 0 0;font-style:normal}
+  @media print{.rail{display:none}.toc{display:none}.vig{background:#fff}}
+
+  /* mid-page retrieval checkpoint — deliberately unfilled, so it reads as a pause, not a box */
+  .check{border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);
+    padding:15px 0 14px;margin:32px 0}
+  .check h4{font-family:var(--mono);font-size:10px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--muted);margin:0 0 9px;font-weight:600}
+  .check ul{margin:0;padding:0 0 0 19px}
+  .check li{font-size:15.5px;color:var(--muted);margin:0 0 5px;line-height:1.5}
+  .check li:last-child{margin:0}
+  @media print{.check{border-color:#ccc}}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+  @media print{.crumb{display:none}body{background:#fff}figure,.meanwhile,.myth,.terms,ol.five li{background:#fff}}
+
+</style>
+</head>
+<body>
+
+<div class="crumb"><div class="crumb-in">
+  <span><b>Part G</b> · Absolutism</span><span>Chapter 30</span><span>1620 – 1803</span>
+</div></div>
+
+<nav class="rail" aria-label="Sections of this page"><p class="rail-h">On this page</p><ol>
+<li><a href="#intro"><span class="rn"></span>Introduction</a></li>
+<li><a href="#s01"><span class="rn">01</span>Before the Atlantic — Trankebar 1620, the Gold Coast 1661</a></li>
+<li><a href="#s02"><span class="rn">02</span>St Thomas, 1672</a></li>
+<li><a href="#s03"><span class="rn">03</span>The triangle, in tons and in people</a></li>
+<li><a href="#s04"><span class="rn">04</span>The crossing</a></li>
+<li><a href="#s05"><span class="rn">05</span>St Jan, November 1733</a></li>
+<li><a href="#s06"><span class="rn">06</span>St Croix bought, 1733</a></li>
+<li><a href="#s07"><span class="rn">07</span>The law of the plantation</a></li>
+<li><a href="#s08"><span class="rn">08</span>The Crown takes the islands, 1754</a></li>
+<li><a href="#s09"><span class="rn">09</span>What the sugar built in Copenhagen</a></li>
+<li><a href="#s10"><span class="rn">10</span>The ordinance of 16 March 1792</a></li>
+<li><a href="#myth"><span class="rn"></span>Myth-check</a></li>
+<li><a href="#forward"><span class="rn"></span>What to carry forward</a></li>
+<li><a href="#summary"><span class="rn"></span>The page in five</a></li>
+<li><a href="#questions"><span class="rn"></span>Questions &amp; discussion</a></li>
+<li><a href="#sources"><span class="rn"></span>Sources</a></li>
+<li><a href="#visit"><span class="rn"></span>Places you can visit</a></li>
+</ol></nav>
+
+<div class="wrap">
+
+<header class="hd">
+  <p class="eyebrow">Era chapter · about 33 minutes</p>
+  <h1>The Danish Atlantic</h1>
+  <p class="dates">1620 – 1803 · Frederik 5. · Ernst Schimmelmann · Hans Egede Saabye · Breffu · Espen Kønig</p>
+  <p class="why">For a hundred and eighty years Denmark ran forts on the Gold Coast, islands in the Caribbean and ships between them. About a hundred thousand people were carried in Danish bottoms. In 1792 Denmark became the first state in Europe to order the trade ended — with a ten-year delay written into the ordinance, during which the traffic was larger than it had ever been.</p>
+  <ul class="keys">
+    <li>Trankebar 1620</li><li>Christiansborg på Guldkysten</li><li>Sankt Thomas 1672</li><li>Vestindisk-guineisk Kompagni</li><li>Sankt Jan 1733</li><li>Sankt Croix 1733</li><li>plantageloven</li><li>trekantshandelen</li><li>Fredensborg</li><li>forordningen af 16. marts 1792</li>
+  </ul>
+</header>
+
+<details class="toc"><summary>Contents</summary><ol>
+<li><a href="#intro">Introduction</a></li>
+<li><a href="#s01">Before the Atlantic — Trankebar 1620, the Gold Coast 1661</a></li>
+<li><a href="#s02">St Thomas, 1672</a></li>
+<li><a href="#s03">The triangle, in tons and in people</a></li>
+<li><a href="#s04">The crossing</a></li>
+<li><a href="#s05">St Jan, November 1733</a></li>
+<li><a href="#s06">St Croix bought, 1733</a></li>
+<li><a href="#s07">The law of the plantation</a></li>
+<li><a href="#s08">The Crown takes the islands, 1754</a></li>
+<li><a href="#s09">What the sugar built in Copenhagen</a></li>
+<li><a href="#s10">The ordinance of 16 March 1792</a></li>
+<li><a href="#myth">Myth-check</a></li>
+<li><a href="#forward">What to carry forward</a></li>
+<li><a href="#summary">The page in five</a></li>
+<li><a href="#questions">Questions &amp; discussion</a></li>
+<li><a href="#sources">Sources</a></li>
+<li><a href="#visit">Places you can visit</a></li>
+</ol></details>
+
+<p class="kicker">Introduction</p>
+<h2 id="intro" style="margin-top:0"><span class="n">WHAT THIS PAGE ANSWERS</span>Five questions</h2>
+<ol class="qs">
+  <li>Denmark held Atlantic possessions for a hundred and eighty years. What were the three legs of the trade, and what went on each?</li>
+  <li>The rising on St Jan in 1733 and the rising on Bornholm in 1658 are told very differently in Danish history. Why?</li>
+  <li>What did the ordinance of 16 March 1792 actually order, and what happened in the ten years that followed?</li>
+  <li>The state measured every Danish farm in 1662, every Danish field in 1682, and ruled St Croix into lots in 1734. Why is only the third never counted as an achievement of the enlightened state?</li>
+  <li>The <i class="dk">Fredensborg</i> is the best-documented slave ship in the world. What do its papers record, and what do they not?</li>
+</ol>
+
+<hr class="div">
+
+<h2 id="s01"><span class="n">01 / NARRATIVE</span>Before the Atlantic — Trankebar 1620, the Gold Coast 1661</h2>
+
+<div class="terms">
+  <h4>Danish terms in sections 01–02</h4>
+  <dl>
+    <div class="t"><dt>oktroj</dt><dd>a royal charter granting a company a monopoly on a trade, with the powers of government that went with it.</dd></div>
+    <div class="t"><dt>Trankebar</dt><dd>the Danish post on the Coromandel coast from 1620 to 1845. Tharangambadi, the place of the singing waves.</dd></div>
+    <div class="t"><dt>Guldkysten</dt><dd>the Gold Coast, in what is now Ghana. Denmark held forts on a narrow coastal strip and never a colony.</dd></div>
+  </dl>
+</div>
+
+<p>A word before the story, because this chapter does not follow the one before it in time. It runs from 1620 to 1803: chapter 29 stopped at 1788 and chapter 31 will open in 1784. The Danish Atlantic was one institution working continuously for a hundred and eighty years, and cutting it into chronological slices would break the thing it has to show. So the clock goes back here, once, and then forward again.</p>
+
+<p>Denmark went east before it went west, and the eastern venture is the one that lasted longest and mattered least.</p>
+
+<p>In 1620 Ove Gjedde negotiated a treaty with the ruler of Tanjore for a strip of the Coromandel coast, and the Danish East India Company built a fort at Tranquebar — Trankebar in Danish, Tharangambadi in Tamil, the place of the singing waves. It held for two hundred and twenty-five years and was sold to Britain in 1845. What came home from it was pepper, saltpetre and above all cotton textiles, and it is worth registering that last one now, because the coloured cottons of India turn out to be the thing Danish ships would later carry to Africa to exchange for people.</p>
+
+<p>The move to Africa began as a gold trade. Danish seamen took a fort in the Gulf of Guinea in 1661 and named it Christiansborg; it stands outside what is now Accra. Around it in time came Fort Fredensborg and the smaller lodges of Augustaborg, Kongensten and Prinsensten. Denmark never held a colony on that coast. It held a narrow strip of shoreline with forts on it, and it sat there — as the English, the Dutch, the Portuguese and the Brandenburgers sat along the same coast — waiting for African merchants to arrive from inland with people to sell.</p>
+
+<p>The economic historians divide the Danish presence on the Gold Coast into three periods, and the division tells the story without commentary. From 1658 to about 1690 the principal business was gold. From 1690 to 1803 the principal business was people. After 1803 it was an attempt at plantations, which failed. The possessions were sold to Britain in 1850.</p>
+
+<h2 id="s02"><span class="n">02 / NARRATIVE</span>St Thomas, 1672</h2>
+
+<p>The Danish West India Company was chartered in 1671. In 1672 it sent a small expedition to the Caribbean, which landed on the largely uninhabited island of St Thomas, put up a flag, and declared it Danish.</p>
+
+<p>St Jan was added in 1718. That is a small sentence covering a real dispute — the British on Tortola considered the island theirs — and the Danish position rested on getting there and staying.</p>
+
+<p>What the islands were for was sugar, and sugar in the seventeenth and eighteenth centuries was among the most labour-hungry commodities in the world. Cane has to be cut by hand at the moment it ripens, carried at once to the mill, crushed within a day, and boiled immediately, or the sugar in it is lost. The work is unremitting, dangerous around the rollers and the boiling house, and concentrated into a harvest that cannot wait. A plantation economy of that kind cannot be run with a labour force that can leave.</p>
+
+<p>So from the beginning the colony imported people from Africa. That sentence is the hinge of the whole chapter, and it should be read slowly: the islands were not a settlement that later acquired slavery. They were founded as a system that required it, by men who knew exactly what they were founding.</p>
+
+<h2 id="s03"><span class="n">03 / NARRATIVE</span>The triangle, in tons and in people</h2>
+
+<div class="terms">
+  <h4>Danish terms in sections 03–04</h4>
+  <dl>
+    <div class="t"><dt>trekantshandel</dt><dd>the triangular trade: goods to Africa, people to the West Indies, sugar to Copenhagen. Every Danish voyage began and ended there.</dd></div>
+    <div class="t"><dt>mellempassagen</dt><dd>the middle passage. Two to three months; about one in five of those aboard died.</dd></div>
+    <div class="t"><dt>kasematter</dt><dd>the casemates: the cells beneath Fort Christiansborg where people were held with the rest of the trade goods until a ship came.</dd></div>
+  </dl>
+</div>
+
+<p>The route is called the triangular trade, and all Danish voyages in it began and ended in Copenhagen.</p>
+
+<p><strong>The first leg</strong> carried manufactured goods to the Gold Coast. What sold there is listed in the company records with the flatness of any commercial inventory: coloured East Indian cotton textiles above all, then other textiles, firearms, gunpowder and brandy, and small goods — mirrors, coral, hats, tobacco pipes. A captain would often fit out his own cabin as a showroom, so that African merchants could come aboard and inspect samples.</p>
+
+<p><strong>The second leg</strong> was the middle passage, west across the Atlantic with a cargo of people.</p>
+
+<p><strong>The third leg</strong> came home to Copenhagen with raw sugar.</p>
+
+<p>The scale is documented and the figures are close to each other. Danish ships carried somewhere between a hundred thousand and a hundred and eleven thousand Africans across the Atlantic, on about four hundred and thirty voyages, between the 1660s and 1803. Europeans as a whole carried about twelve and a half million between 1525 and 1866. The Danish share of the traffic to the West Indies in the relevant period was about 2.3 per cent, which made Denmark the seventh largest slave-trading nation in the Atlantic.</p>
+
+<p>Seventh of the nations that did it at all. That is the number to hold, because the Danish national memory has generally preferred the percentage.</p>
+
+<p>A series of chartered companies ran it — the West India and Guinea Company from about 1674 to 1734, the Guinea Company in the 1760s and 1770s, the Baltic and Guinea Company in the 1780s — with private traders running a shuttle between Africa and the islands alongside them.</p>
+
+<p>The company's standing instruction to its crews was that the enslaved should be treated properly. The reason was stated in the same document: they were to be sold in the West Indies at the greatest possible profit.</p>
+
+<figure>
+<svg viewBox="0 0 700 560" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A diagram of the triangular trade. From Copenhagen, ships carried Indian cotton, other textiles, firearms, gunpowder, brandy and small goods to the Danish forts on the Gold Coast. From there they carried people across the Atlantic to the Danish West Indies, a crossing of two to three months on which about one in five died. From the islands they carried raw sugar home to Copenhagen, where it was refined under monopoly. Between the 1660s and 1803 Danish ships carried about 100,000 to 111,000 people on some 430 voyages.">
+  <rect x="0" y="0" width="700" height="560" fill="#F0F2EE"/>
+  <text x="26" y="30" class="mapl">THE TRIANGLE, WEIGHED</text>
+  <text x="26" y="46" class="mapt">every Danish voyage began and ended in Copenhagen</text>
+  <path d="M 201.4 137.7 L 490.7 181.1" fill="none" stroke="#2F4C7A" stroke-width="2.4" opacity=".85"/>
+  <path d="M 490.7 181.1 l -10.7 4.0 l 1.6 -10.9 Z" fill="#2F4C7A"/>
+  <path d="M 502.3 210.7 L 305.1 296.1" fill="none" stroke="#8A2B2B" stroke-width="3.6" opacity=".85"/>
+  <path d="M 305.1 296.1 l 7.0 -9.0 l 4.4 10.1 Z" fill="#8A2B2B"/>
+  <path d="M 225.8 274.0 L 177.9 183.1" fill="none" stroke="#A9601C" stroke-width="2.4" opacity=".85"/>
+  <path d="M 177.9 183.1 l 9.5 6.3 l -9.7 5.1 Z" fill="#A9601C"/>
+  <circle cx="150" cy="130" r="48" fill="#2F4C7A" opacity=".14"/>
+  <circle cx="150" cy="130" r="48" fill="none" stroke="#3C3E36" stroke-width="1.3"/>
+  <text x="150" y="134" class="mapt" text-anchor="middle">KØBENHAVN</text>
+  <circle cx="550" cy="190" r="48" fill="#2F4C7A" opacity=".14"/>
+  <circle cx="550" cy="190" r="48" fill="none" stroke="#3C3E36" stroke-width="1.3"/>
+  <text x="550" y="194" class="mapt" text-anchor="middle">GULDKYSTEN</text>
+  <circle cx="250" cy="320" r="48" fill="#2F4C7A" opacity=".14"/>
+  <circle cx="250" cy="320" r="48" fill="none" stroke="#3C3E36" stroke-width="1.3"/>
+  <text x="250" y="324" class="mapt" text-anchor="middle">VESTINDIEN</text>
+  <line x1="26" y1="384" x2="674" y2="384" stroke="#C9CDC4" stroke-width="1"/>
+  <rect x="26" y="398" width="22" height="9" fill="#2F4C7A" opacity=".75"/>
+  <text x="56" y="406" class="mapx" fill="#2F4C7A">FIRST LEG</text>
+  <text x="26" y="426" class="mapt">Indian cotton above all,</text>
+  <text x="26" y="439" class="mapt">then other textiles,</text>
+  <text x="26" y="452" class="mapt">firearms, gunpowder,</text>
+  <text x="26" y="465" class="mapt">brandy; mirrors, coral,</text>
+  <text x="26" y="478" class="mapt">hats, tobacco pipes</text>
+  <rect x="244" y="398" width="22" height="9" fill="#8A2B2B" opacity=".75"/>
+  <text x="274" y="406" class="mapx" fill="#8A2B2B">THE MIDDLE PASSAGE</text>
+  <text x="244" y="426" class="mapt">2–3 months.</text>
+  <text x="244" y="439" class="mapt">About one in five of</text>
+  <text x="244" y="452" class="mapt">the people put aboard</text>
+  <text x="244" y="465" class="mapt">did not arrive.</text>
+  <rect x="462" y="398" width="22" height="9" fill="#A9601C" opacity=".75"/>
+  <text x="492" y="406" class="mapx" fill="#A9601C">THIRD LEG</text>
+  <text x="462" y="426" class="mapt">raw sugar, refined in</text>
+  <text x="462" y="439" class="mapt">Copenhagen under</text>
+  <text x="462" y="452" class="mapt">monopoly and sold in</text>
+  <text x="462" y="465" class="mapt">two kingdoms</text>
+  <line x1="26" y1="486" x2="674" y2="486" stroke="#C9CDC4" stroke-width="1"/>
+  <text x="26" y="500" class="mapl">100,000–111,000</text>
+  <text x="210" y="500" class="mapt">people carried in Danish ships, on about 430 voyages, 1660s–1803</text>
+  <text x="26" y="520" class="mapl">2.3%</text>
+  <text x="210" y="520" class="mapt">of the Atlantic traffic — which made Denmark the seventh largest</text>
+  <text x="210" y="533" class="mapt">of the nations that did it.</text>
+  </svg>
+<figcaption><b>Figure 1 · The triangle, weighed</b>
+Every Danish voyage began and ended in Copenhagen. Out went Indian cotton above all, then other textiles, firearms, gunpowder and brandy; across went people, two to three months, about one in five of whom did not arrive; home came raw sugar, refined in Copenhagen under monopoly and sold in two kingdoms. Between the 1660s and 1803, something between a hundred thousand and a hundred and eleven thousand people were carried in Danish ships on about 430 voyages — 2.3 per cent of the Atlantic traffic, which made Denmark the seventh largest of the nations that did it.</figcaption>
+</figure>
+
+<div class="meanwhile">
+<h4>Meanwhile · 1730s — the Atlantic at scale.</h4>
+<p>While Denmark was buying St Croix and dividing it into squares, Britain and France were running slave economies an order of magnitude larger. Saint-Domingue alone would become the most profitable colony in the world, and by the 1780s it was importing tens of thousands of people a year. The Danish share of the Atlantic traffic was about 2.3 per cent. That figure is frequently produced in Denmark as though it were a defence, and it is worth being exact about what it means: it means Denmark was the seventh largest of the nations that did this, not that it was a bystander.</p>
+</div>
+
+<h2 id="s04"><span class="n">04 / NARRATIVE</span>The crossing</h2>
+
+<p>The middle passage took two to three months on average.</p>
+
+<p>About one in five of the people put aboard died on it.</p>
+
+<p>Those two sentences are the whole of what most Danish readers have been told, and they are both true, and they conceal the thing that matters — which is that the mortality was not an accident of the weather or a failure of navigation. It was a known and priced feature of the business. A merchant fitting out a voyage calculated for it. The instruction to treat the cargo properly was a calculation about the same figure from the other end: every percentage point of mortality was a percentage point of the return.</p>
+
+<p>They were held before embarkation in the casemates below Christiansborg — in dark cells on either side of the great staircase, under the offices and the governor's airy upper floor, alongside the rest of the trade goods, because that is what the building was for and how it was arranged. Many had already died on the caravan routes from the interior before they ever saw the sea.</p>
+
+<p>On arrival in the West Indies they were sold at auction, to owners on the plantations and in the towns.</p>
+
+<div class="vig">
+<h4>Vignette · Christian Runge, aboard the <i class="dk">Fredensborg</i>, April to July 1768</h4>
+<p>He is a Norwegian sailor. He signed on at Arendal, and his name is in the papers because everybody's name is in the papers: the captain Espen Kønig, the forty men of the crew, the carpenter Axel Antoni who died in January. We know what they ate and when the wind changed.</p>
+<p>This is the best-documented slave ship in the world. The <i class="dk">Fredensborg</i> left Copenhagen on 19 June 1767, reached the Gold Coast on 1 October, sailed from there on 23 April 1768, and came into St Croix on 9 July — seventy-seven days across. When she was wrecked off Tromøya near Arendal that December, the ship's journal and the assistant's protocol were carried ashore, and they survive. The wreck itself was found by divers in 1974. Between the two, the last voyage can be followed day by day and in places hour by hour.</p>
+<p>The people in the hold for those seventy-seven days are in the same documents. They are counted. They are entered as numbers, as cargo, and when they die they are entered as losses.</p>
+<p>Christian Runge is in this chapter because the archive that keeps him is the archive that does not keep them, and it is the same archive, written by the same hand, on the same page.</p>
+<p class="who">Christian Runge, sailor, of Arendal · the middle passage aboard the <i class="dk">Fredensborg</i> · April to July 1768</p>
+</div>
+
+<p>The mortality of the enslaved population in the Danish islands was always higher than its birth rate, throughout the whole period. That single fact does more work than any description: the colony could not sustain its own population and never came close to doing so, which is why the ships had to keep sailing, and which is also — a chapter later — the argument that finally moved a Danish finance minister.</p>
+
+<figure>
+<svg viewBox="0 0 700 470" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Two columns comparing what the surviving papers of the slave ship Fredensborg record and what they do not. The left column lists the master, the crew by name including the carpenter who died, the daily wind and position, the itemised cargo and the dates of every stage of the voyage. The right column lists what is absent: the names of the people in the hold, where they were taken from, their languages, their relationships, and anything any of them said.">
+  <rect x="0" y="0" width="700" height="470" fill="#F0F2EE"/>
+  <text x="26" y="30" class="mapl">WHAT THE PAPERS KEEP</text>
+  <text x="26" y="46" class="mapt">the <tspan font-style="italic">Fredensborg</tspan>, 1767–68 — the best-documented slave ship in the world</text>
+  <line x1="350" y1="70" x2="350" y2="390" stroke="#C9CDC4" stroke-width="1"/>
+  <text x="26" y="92" class="mapx" fill="#2F4C7A">RECORDED</text>
+  <circle cx="32" cy="112" r="2.6" fill="#2F4C7A"/>
+  <text x="44" y="116" class="mapt">Espen Kønig, master</text>
+  <circle cx="32" cy="132" r="2.6" fill="#2F4C7A"/>
+  <text x="44" y="136" class="mapt">Christian Runge, sailor, of Arendal</text>
+  <circle cx="32" cy="152" r="2.6" fill="#2F4C7A"/>
+  <text x="44" y="156" class="mapt">Axel Antoni, carpenter — died 4 January 1768</text>
+  <circle cx="32" cy="172" r="2.6" fill="#2F4C7A"/>
+  <text x="44" y="176" class="mapt">the other thirty-odd of the crew, by name</text>
+  <circle cx="32" cy="192" r="2.6" fill="#2F4C7A"/>
+  <text x="44" y="196" class="mapt">the wind, every day</text>
+  <circle cx="32" cy="212" r="2.6" fill="#2F4C7A"/>
+  <text x="44" y="216" class="mapt">the ship's position, every day</text>
+  <circle cx="32" cy="232" r="2.6" fill="#2F4C7A"/>
+  <text x="44" y="236" class="mapt">the cargo, itemised</text>
+  <circle cx="32" cy="252" r="2.6" fill="#2F4C7A"/>
+  <text x="44" y="256" class="mapt">the dates: Copenhagen 19 June 1767; the Gold</text>
+  <text x="44" y="276" class="mapt">Coast 1 October; sailed 23 April 1768; St Croix</text>
+  <text x="44" y="290" class="mapt">9 July; sailed 15 September; wrecked 1 December</text>
+  <text x="382" y="92" class="mapx" fill="#5F6157">NOT RECORDED</text>
+  <rect x="382" y="106" width="268" height="13" fill="#5F6157" opacity=".10"/>
+  <text x="388" y="116" class="mapt" fill="#5F6157">the names of the people in the hold</text>
+  <rect x="382" y="126" width="268" height="13" fill="#5F6157" opacity=".10"/>
+  <text x="388" y="136" class="mapt" fill="#5F6157">where in Africa they were taken from</text>
+  <rect x="382" y="146" width="268" height="13" fill="#5F6157" opacity=".10"/>
+  <text x="388" y="156" class="mapt" fill="#5F6157">what languages they spoke</text>
+  <rect x="382" y="166" width="268" height="13" fill="#5F6157" opacity=".10"/>
+  <text x="388" y="176" class="mapt" fill="#5F6157">who among them was related to whom</text>
+  <rect x="382" y="186" width="268" height="13" fill="#5F6157" opacity=".10"/>
+  <text x="388" y="196" class="mapt" fill="#5F6157">what any of them said</text>
+  <text x="382" y="224" class="mapt">They are in the documents. They are entered</text>
+  <text x="382" y="238" class="mapt">as a count, and when they die they are</text>
+  <text x="382" y="252" class="mapt">entered as a loss.</text>
+  <line x1="26" y1="400" x2="674" y2="400" stroke="#C9CDC4" stroke-width="1"/>
+  <text x="26" y="420" class="mapt">The journals were carried ashore when the ship struck off Tromsøya on 1 December 1768.</text>
+  <text x="26" y="433" class="mapt">The wreck was found by divers in 1974. Both are now transcribed and public. The asymmetry</text>
+  <text x="26" y="446" class="mapt">above is not a gap in the archive. It is what the archive was for.</text>
+  </svg>
+<figcaption><b>Figure 3 · What the papers keep</b>
+The &lt;i class="dk"&gt;Fredensborg&lt;/i&gt;, 1767–68, is the best-documented slave ship in the world. Its papers record the master, the carpenter who died on 4 January 1768, the other thirty-odd of the crew by name, the wind and the ship's position every day, and the cargo itemised. They do not record the names of the people in the hold, where in Africa they were taken from, what languages they spoke, who among them was related to whom, or anything any of them said. The asymmetry is not a gap in the archive. It is what the archive was for.</figcaption>
+</figure>
+
+<div class="check">
+  <h4>Checkpoint</h4>
+  <ul>
+    <li>Roughly how many people did Denmark carry across the Atlantic, and on about how many voyages?</li>
+    <li>About what proportion did not survive the crossing?</li>
+    <li>The enslaved population of the islands never once reproduced itself in a hundred and seventy years. What follows from that, both for the ships and for the trade's ending?</li>
+  </ul>
+</div>
+
+<h2 id="s05"><span class="n">05 / NARRATIVE</span>St Jan, November 1733</h2>
+
+<div class="terms">
+  <h4>Danish terms in sections 05–07</h4>
+  <dl>
+    <div class="t"><dt>Akwamu</dt><dd>the West African state whose collapse put many of its people, including some of its elite, onto Danish ships.</dd></div>
+    <div class="t"><dt>maron</dt><dd>a person who had escaped and lived beyond the plantations. Hunted by the colony's militia.</dd></div>
+    <div class="t"><dt>Gardelins reglement</dt><dd>the slave code of 5 September 1733: nineteen paragraphs, issued two months before the rising and not in response to it.</dd></div>
+  </dl>
+</div>
+
+<p>At dawn on 23 November 1733, a party of enslaved men walked up to the little star-shaped redoubt at Fortsberg, above the entrance to Coral Bay on St Jan, carrying bundles of firewood they were required to deliver.</p>
+
+<p>There were cane knives in the bundles. They got through the gate, killed the small garrison, and fired the signal gun.</p>
+
+<p>What followed was one of the longest slave rebellions in the history of the Caribbean, and it is not the story it is usually made into.</p>
+
+<p>The leaders were Akwamu, from the region of present-day Ghana. A number of them had been people of consequence at home — high-ranking members of their society, wealthy merchants, men with authority — before the collapse of the Akwamu kingdom put them on Danish ships. They were not a mass of the anonymous oppressed. They were a displaced elite, and they organised accordingly.</p>
+
+<p>Their plan was not flight. They did not intend to escape into the hills or take boats to Puerto Rico. They intended to capture the island's productive apparatus and keep it running. Europeans were to be held as hostages and traded for freedom and land. Sugar and rum would continue to be made, under Akwamu control, and exchanged for weapons and salt from St Thomas. A free black polity on St Jan could become the model for risings elsewhere in the Danish islands.</p>
+
+<p>And they intended to work the plantations with Africans of other ethnic groups, held as slaves.</p>
+
+<p>That last sentence has to stay in. The rebellion was a bid for freedom by the people who made it, and it was not a bid for the abolition of slavery, and a history that leaves the second part out in order to make the first part cleaner is not doing the dead any favours.</p>
+
+<p>The rising was co-ordinated by a drum signal agreed at the full moon, which the Danish and Norwegian troops never identified because it sounded like the ordinary dance drums.</p>
+
+<p>They held most of the island for six months. What broke them was not the colony: it was several hundred better-armed French and Swiss troops sent from Martinique in April 1734. The planters had regained control by the end of May. The militia went on hunting maroons through the summer, and the rising was declared over at the end of August 1734. It ended in a collective suicide, which is still commemorated on the islands.</p>
+
+<p><i class="dk">(The date of the attack on the fort is given as 23 November by the recent specialist literature and as 13 November on Danish Wikipedia. The chapter follows the former and the discrepancy should be checked.)</i></p>
+
+<div class="vig">
+<h4>Vignette · Breffu, St Jan, November 1733</h4>
+<p>She is enslaved on a plantation on St Jan, she is Akwamu, and when the historians list the leaders of the rebellion her name is among them: June, Kanta, Bolombo, Aquashie, Breffu.</p>
+<p>Nearly everything else about her has to be assembled from other people's documents — from court records and estate lists written by the men she was fighting, in a colony that recorded her as property. An archaeologist who has worked on the landscape of the rising called her a slave, a rebel, a fighter, and a woman almost invisible to history, which is a fair description of the evidence and an unfair description of her.</p>
+<p>What can be said is that she was not a follower. She is named as one of the leaders of a rising that took an island for six months, held it against the colony that owned it, and was broken only when a European power sent professional soldiers from another island entirely.</p>
+<p class="who">Breffu · St Jan, Danish West Indies · November 1733</p>
+</div>
+
+<h2 id="s06"><span class="n">06 / NARRATIVE</span>St Croix bought, 1733</h2>
+
+<p>In the same year the company bought an island.</p>
+
+<p>St Croix lay forty miles south of St Thomas, it was larger and far more fertile than either of the existing possessions, and the French crown was willing to sell. It was also almost uncultivated, which from the company's point of view was the attraction: there was nothing on it to work around.</p>
+
+<p>So it was surveyed, and the survey is the thing to look at. The island was measured and divided into uniform square plantation lots, laid out on a grid, and the lots were distributed to the company's shareholders, who either worked them or sold them on. The printed map of 1754 — respectfully dedicated to the company's president — shows the whole island as a chequerboard, each square with its windmill or horse mill marked, and the regular street plans of Christiansted and Frederiksted set into the coast.</p>
+
+<p>It is worth putting that map beside two others this part has already described. In 1662 the Danish state reduced every farm in Denmark to a figure in barrels of hartkorn. In 1682 it went out and measured every field in the kingdom. In 1734 it ruled a grid over a Caribbean island and handed out the squares. The same habit of mind, in three places, within seventy years — and the third one is the only one that has never been celebrated as an achievement of the enlightened state.</p>
+
+<figure>
+<svg viewBox="0 0 700 452" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Three panels showing the same state surveying land three times in seventy years: the Danish land register of 1662 and 1664, which converted dues into a single unit without measuring anything; the field survey of 1682 to 1683, which measured every cultivated field in Denmark; and the division of St Croix in 1734 into uniform plantation lots on a grid. The third is the only one never counted as an achievement of the enlightened state.">
+  <rect x="0" y="0" width="700" height="452" fill="#F0F2EE"/>
+  <text x="26" y="30" class="mapl">THE SAME HABIT, THREE TIMES</text>
+  <text x="26" y="46" class="mapt">one state, seventy years, three ways of writing land down</text>
+  <text x="26" y="78" class="mapl" fill="#2F4C7A">1662 / 1664</text>
+  <text x="26" y="94" class="mapx">DENMARK</text>
+  <rect x="26" y="108" width="150" height="150" fill="#3C3E36" opacity=".08"/>
+  <text x="34" y="134" class="mapt">3 tdr rye</text>
+  <text x="142" y="134" class="mapt" text-anchor="end">→</text>
+  <text x="34" y="158" class="mapt">2 tdr barley</text>
+  <text x="142" y="158" class="mapt" text-anchor="end">→</text>
+  <text x="34" y="182" class="mapt">1 pig</text>
+  <text x="142" y="182" class="mapt" text-anchor="end">→</text>
+  <text x="34" y="206" class="mapt">4 cart days</text>
+  <text x="142" y="206" class="mapt" text-anchor="end">→</text>
+  <text x="34" y="230" class="mapt">2 geese</text>
+  <text x="142" y="230" class="mapt" text-anchor="end">→</text>
+  <rect x="146" y="120" width="24" height="126" fill="#2F4C7A" opacity=".45"/>
+  <text x="26" y="278" class="mapt">Every farm in the kingdom</text>
+  <text x="26" y="291" class="mapt">converted into one unit,</text>
+  <text x="26" y="304" class="mapt">hartkorn. Nothing measured;</text>
+  <text x="26" y="317" class="mapt">the landlords' own books</text>
+  <text x="26" y="330" class="mapt">turned into a number that</text>
+  <text x="26" y="343" class="mapt">could be added up in</text>
+  <text x="26" y="356" class="mapt">Copenhagen.</text>
+  <text x="242" y="78" class="mapl" fill="#2E6B5E">1682–83</text>
+  <text x="242" y="94" class="mapx">DENMARK</text>
+  <rect x="242" y="108" width="150" height="150" fill="#3C3E36" opacity=".08"/>
+  <rect x="289.4" y="220.2" width="17.1" height="18.8" fill="#2E6B5E" opacity=".40" stroke="#2E6B5E" stroke-width=".5"/>
+  <rect x="287.8" y="227.9" width="21.8" height="15.4" fill="#2E6B5E" opacity=".40" stroke="#2E6B5E" stroke-width=".5"/>
+  <rect x="356.9" y="176.7" width="26.9" height="12.6" fill="#2E6B5E" opacity=".40" stroke="#2E6B5E" stroke-width=".5"/>
+  <rect x="269.7" y="202.4" width="24.5" height="22.8" fill="#2E6B5E" opacity=".40" stroke="#2E6B5E" stroke-width=".5"/>
+  <rect x="344.5" y="176.5" width="15.6" height="14.9" fill="#2E6B5E" opacity=".40" stroke="#2E6B5E" stroke-width=".5"/>
+  <rect x="329.3" y="161.9" width="21.7" height="15.4" fill="#2E6B5E" opacity=".40" stroke="#2E6B5E" stroke-width=".5"/>
+  <rect x="362.2" y="123.8" width="23.7" height="23.3" fill="#2E6B5E" opacity=".40" stroke="#2E6B5E" stroke-width=".5"/>
+  <rect x="317.4" y="126.9" width="29.0" height="13.7" fill="#2E6B5E" opacity=".40" stroke="#2E6B5E" stroke-width=".5"/>
+  <rect x="301.4" y="158.2" width="19.6" height="16.8" fill="#2E6B5E" opacity=".40" stroke="#2E6B5E" stroke-width=".5"/>
+  <rect x="351.4" y="166.4" width="29.1" height="16.9" fill="#2E6B5E" opacity=".40" stroke="#2E6B5E" stroke-width=".5"/>
+  <rect x="284.6" y="210.9" width="25.7" height="18.2" fill="#2E6B5E" opacity=".40" stroke="#2E6B5E" stroke-width=".5"/>
+  <rect x="248.6" y="227.3" width="15.6" height="19.6" fill="#2E6B5E" opacity=".40" stroke="#2E6B5E" stroke-width=".5"/>
+  <rect x="322.9" y="226.1" width="16.8" height="19.3" fill="#2E6B5E" opacity=".40" stroke="#2E6B5E" stroke-width=".5"/>
+  <rect x="303.5" y="177.8" width="20.8" height="15.2" fill="#2E6B5E" opacity=".40" stroke="#2E6B5E" stroke-width=".5"/>
+  <rect x="316.4" y="139.3" width="25.9" height="11.7" fill="#2E6B5E" opacity=".40" stroke="#2E6B5E" stroke-width=".5"/>
+  <rect x="292.8" y="227.6" width="27.4" height="17.8" fill="#2E6B5E" opacity=".40" stroke="#2E6B5E" stroke-width=".5"/>
+  <rect x="270.0" y="166.5" width="19.8" height="12.4" fill="#2E6B5E" opacity=".40" stroke="#2E6B5E" stroke-width=".5"/>
+  <rect x="351.5" y="200.7" width="27.4" height="10.7" fill="#2E6B5E" opacity=".40" stroke="#2E6B5E" stroke-width=".5"/>
+  <rect x="275.4" y="200.8" width="20.8" height="11.4" fill="#2E6B5E" opacity=".40" stroke="#2E6B5E" stroke-width=".5"/>
+  <rect x="348.8" y="230.3" width="24.6" height="10.1" fill="#2E6B5E" opacity=".40" stroke="#2E6B5E" stroke-width=".5"/>
+  <rect x="315.5" y="124.3" width="13.6" height="16.0" fill="#2E6B5E" opacity=".40" stroke="#2E6B5E" stroke-width=".5"/>
+  <rect x="286.3" y="201.6" width="19.5" height="20.1" fill="#2E6B5E" opacity=".40" stroke="#2E6B5E" stroke-width=".5"/>
+  <rect x="344.5" y="179.4" width="23.4" height="23.2" fill="#2E6B5E" opacity=".40" stroke="#2E6B5E" stroke-width=".5"/>
+  <rect x="335.2" y="205.8" width="20.6" height="19.1" fill="#2E6B5E" opacity=".40" stroke="#2E6B5E" stroke-width=".5"/>
+  <rect x="270.1" y="180.4" width="23.3" height="22.5" fill="#2E6B5E" opacity=".40" stroke="#2E6B5E" stroke-width=".5"/>
+  <rect x="273.3" y="210.7" width="20.0" height="11.8" fill="#2E6B5E" opacity=".40" stroke="#2E6B5E" stroke-width=".5"/>
+  <text x="242" y="278" class="mapt">Every cultivated field walked</text>
+  <text x="242" y="291" class="mapt">and measured, its area</text>
+  <text x="242" y="304" class="mapt">calculated and its soil</text>
+  <text x="242" y="317" class="mapt">graded, four sworn peasants</text>
+  <text x="242" y="330" class="mapt">per district going with the</text>
+  <text x="242" y="343" class="mapt">surveyors. On a Swedish model.</text>
+  <text x="458" y="78" class="mapl" fill="#A9601C">1734</text>
+  <text x="458" y="94" class="mapx">ST CROIX</text>
+  <rect x="458" y="108" width="150" height="150" fill="#3C3E36" opacity=".08"/>
+  <rect x="468" y="118" width="24" height="24" fill="#A9601C" opacity=".40" stroke="#A9601C" stroke-width=".6"/>
+  <rect x="494" y="118" width="24" height="24" fill="#A9601C" opacity=".40" stroke="#A9601C" stroke-width=".6"/>
+  <rect x="520" y="118" width="24" height="24" fill="#A9601C" opacity=".40" stroke="#A9601C" stroke-width=".6"/>
+  <rect x="546" y="118" width="24" height="24" fill="#A9601C" opacity=".40" stroke="#A9601C" stroke-width=".6"/>
+  <rect x="572" y="118" width="24" height="24" fill="#A9601C" opacity=".40" stroke="#A9601C" stroke-width=".6"/>
+  <rect x="468" y="144" width="24" height="24" fill="#A9601C" opacity=".40" stroke="#A9601C" stroke-width=".6"/>
+  <rect x="494" y="144" width="24" height="24" fill="#A9601C" opacity=".40" stroke="#A9601C" stroke-width=".6"/>
+  <rect x="520" y="144" width="24" height="24" fill="#A9601C" opacity=".40" stroke="#A9601C" stroke-width=".6"/>
+  <rect x="546" y="144" width="24" height="24" fill="#A9601C" opacity=".40" stroke="#A9601C" stroke-width=".6"/>
+  <rect x="572" y="144" width="24" height="24" fill="#A9601C" opacity=".40" stroke="#A9601C" stroke-width=".6"/>
+  <rect x="468" y="170" width="24" height="24" fill="#A9601C" opacity=".40" stroke="#A9601C" stroke-width=".6"/>
+  <rect x="494" y="170" width="24" height="24" fill="#A9601C" opacity=".40" stroke="#A9601C" stroke-width=".6"/>
+  <rect x="520" y="170" width="24" height="24" fill="#A9601C" opacity=".40" stroke="#A9601C" stroke-width=".6"/>
+  <rect x="546" y="170" width="24" height="24" fill="#A9601C" opacity=".40" stroke="#A9601C" stroke-width=".6"/>
+  <rect x="572" y="170" width="24" height="24" fill="#A9601C" opacity=".40" stroke="#A9601C" stroke-width=".6"/>
+  <rect x="468" y="196" width="24" height="24" fill="#A9601C" opacity=".40" stroke="#A9601C" stroke-width=".6"/>
+  <rect x="494" y="196" width="24" height="24" fill="#A9601C" opacity=".40" stroke="#A9601C" stroke-width=".6"/>
+  <rect x="520" y="196" width="24" height="24" fill="#A9601C" opacity=".40" stroke="#A9601C" stroke-width=".6"/>
+  <rect x="546" y="196" width="24" height="24" fill="#A9601C" opacity=".40" stroke="#A9601C" stroke-width=".6"/>
+  <rect x="572" y="196" width="24" height="24" fill="#A9601C" opacity=".40" stroke="#A9601C" stroke-width=".6"/>
+  <rect x="468" y="222" width="24" height="24" fill="#A9601C" opacity=".40" stroke="#A9601C" stroke-width=".6"/>
+  <rect x="494" y="222" width="24" height="24" fill="#A9601C" opacity=".40" stroke="#A9601C" stroke-width=".6"/>
+  <rect x="520" y="222" width="24" height="24" fill="#A9601C" opacity=".40" stroke="#A9601C" stroke-width=".6"/>
+  <rect x="546" y="222" width="24" height="24" fill="#A9601C" opacity=".40" stroke="#A9601C" stroke-width=".6"/>
+  <rect x="572" y="222" width="24" height="24" fill="#A9601C" opacity=".40" stroke="#A9601C" stroke-width=".6"/>
+  <text x="458" y="278" class="mapt">An island bought the year</text>
+  <text x="458" y="291" class="mapt">before, ruled into uniform</text>
+  <text x="458" y="304" class="mapt">lots on a grid and handed to</text>
+  <text x="458" y="317" class="mapt">the company's shareholders,</text>
+  <text x="458" y="330" class="mapt">who cleared it and planted</text>
+  <text x="458" y="343" class="mapt">cane.</text>
+  <line x1="26" y1="396" x2="674" y2="396" stroke="#C9CDC4" stroke-width="1"/>
+  <text x="26" y="416" class="mapt">The first two are told in Denmark as the state learning to see itself: the foundation of</text>
+  <text x="26" y="429" class="mapt">modern administration. The third is the same instrument, in the same century, and it</text>
+  <text x="26" y="442" class="mapt">has never been counted as an achievement of the enlightened state.</text>
+  </svg>
+<figcaption><b>Figure 2 · The same habit, three times</b>
+One state, seventy years, three ways of writing land down. In 1662–64 every farm in the kingdom was converted into one unit, &lt;i class="dk"&gt;hartkorn&lt;/i&gt;, without anything being measured. In 1682–83 every cultivated field was walked and measured and its soil graded, four sworn peasants per district going with the surveyors. In 1734 an island bought the year before was ruled into uniform lots on a grid and handed to shareholders, who cleared it and planted cane. The first two are told in Denmark as the state learning to see itself. The third is the same instrument in the same century.</figcaption>
+</figure>
+
+<h2 id="s07"><span class="n">07 / NARRATIVE</span>The law of the plantation</h2>
+
+<p>Two months before the rising, on 5 September 1733, the governor Philip Gardelin issued a code of nineteen paragraphs governing the enslaved.</p>
+
+<p>The order matters. The code was not a response to the rebellion. It came first.</p>
+
+<p>Its preamble states that "our Negroes" — the period's term — had been made slaves by God himself, and that they were to be regarded as their owners' money. Both halves of that sentence are doing work: the first makes the arrangement theological, so that no further justification is required, and the second makes it accounting.</p>
+
+<p>The paragraphs set out penalties for running away, for theft, and for planning or joining a conspiracy against the free white population of the colony. At the top of the scale: execution; the cutting off of a leg or an ear; pinching with red-hot tongs. Below that, treated as the milder options: branding on the forehead, and between fifty and a hundred and fifty lashes.</p>
+
+<p>The enslaved were about ninety per cent of the population of the islands. The code is what a tenth of a population wrote down in order to hold the other nine tenths, and it should be read as a document of fear as much as of cruelty. Its procedural provisions say the same thing more quietly: the testimony of a person of European origin outweighed the testimony of an Afro-Caribbean.</p>
+
+<p>There is an epilogue that is worth having. Gardelin left the governorship in February 1736 and sailed home. Later that same year he submitted to the company a proposal for a new and substantially milder code. He now thought it would serve better to give up the most draconian punishments and to treat the enslaved considerably better in general: better clothing and food, a small plot of ground on which to grow vegetables, a duty on owners to teach them and to missionise among them, and provision for the old and those unable to work.</p>
+
+<p>The company shelved it without discussion. Gardelin was dismissed in November 1735 with effect from the following February, went back to Copenhagen, became a brewer on Christianshavn and died in 1740.</p>
+
+<p>The man who wrote the harshest slave code in Danish history changed his mind, put it in writing, and was ignored — by a commercial company answerable to its shareholders, on the grounds that the question was not interesting.</p>
+
+<div class="meanwhile">
+<h4>Meanwhile · 1791 — Saint-Domingue.</h4>
+<p>In August 1791 the enslaved population of the French colony rose, and the revolution that followed produced the republic of Haiti in 1804. It is the essential context for the Danish ordinance of March 1792, and not because anyone in Copenhagen was frightened into virtue. It is context because it shows what the alternative to reform looked like from a planter's chair, and because the Danish commission was working through the winter of 1791 in a world where the largest sugar colony in the Caribbean was on fire.</p>
+</div>
+
+<div class="check">
+  <h4>Checkpoint</h4>
+  <ul>
+    <li>Three things happened in 1733. Put them in order and say which came first.</li>
+    <li>What penalties did the September code make legal for resistance?</li>
+    <li>The Akwamu took the fort at Coral Bay in November and held most of St Jan for six months. Why does the order of the three events matter to how you read the rising?</li>
+  </ul>
+</div>
+
+<h2 id="s08"><span class="n">08 / NARRATIVE</span>The Crown takes the islands, 1754</h2>
+
+<div class="terms">
+  <h4>Danish terms in sections 08–10</h4>
+  <dl>
+    <div class="t"><dt>Vestindisk-guineisk Kompagni</dt><dd>the chartered company that held the islands from 1671 until the Crown bought it out in 1754.</dd></div>
+    <div class="t"><dt>fideikommis</dt><dd>an entailed fortune: the capital tied up, the income assigned to a family's maintenance. The Schimmelmann holdings were held this way.</dd></div>
+    <div class="t"><dt>Forordning om Negerhandelen</dt><dd>the ordinance of 16 March 1792, banning the trade from 1803 and licensing it until then.</dd></div>
+  </dl>
+</div>
+
+<p>For eighty years the Danish West Indies were not governed by Denmark. They were governed by a chartered company, and the distinction is not a technicality.</p>
+
+<p>The West India and Guinea Company held the islands from 1671, occupied St Jan in 1718, bought St Croix in 1733, and in February 1734 obtained a new charter granting it a monopoly on the import and refining of raw sugar in Denmark and Norway. Its supreme authority in the colony was a governor it appointed. Its obligations ran to its shareholders. When its own former governor proposed treating the enslaved better, it filed the proposal.</p>
+
+<p>In 1754 the Crown bought the company out and the islands became royal colonies.</p>
+
+<p>The change is easy to underrate and it is the hinge of the second half of this chapter. As long as the islands belonged to a company, what happened on them was commercial conduct, and the responsibility ran to a board. From 1754 the sugar islands were the direct possession of the Danish state, the enslaved were held under the authority of the Danish king, and the code that governed them was enforced in his name.</p>
+
+<p>Everything after this point — the boom that follows, the fortunes made in Copenhagen, and the ordinance of 1792 — happens inside that arrangement. When Denmark eventually acted, it acted as an owner.</p>
+
+<h2 id="s09"><span class="n">09 / NARRATIVE</span>What the sugar built in Copenhagen</h2>
+
+<p>The charter of February 1734 gave the company a monopoly on importing and refining raw sugar in Denmark and Norway. That is where the money became Danish.</p>
+
+<p>The islands grew the cane and the enslaved cut it. The raw sugar came home in the third leg of the triangle, and it was refined in Copenhagen, under a monopoly, and sold into a protected home market of two kingdoms. Sugar was one of the great commodities of the century — a luxury turning into a staple across Europe — and Denmark had a share of it that was small by Atlantic standards and very large by Danish ones.</p>
+
+<p>The name to follow is Schimmelmann. Heinrich Carl Schimmelmann, a merchant and financier who had made himself indispensable to the Danish crown, bought plantations on St Croix, and the family combined them with the refining business and the state finances until the three were difficult to tell apart. His son Ernst inherited the plantations, the enslaved people on them, and the fortune, and became Denmark's finance minister.</p>
+
+<div class="vig">
+<h4>Vignette · Heinrich Carl Schimmelmann, Copenhagen, 1763</h4>
+<p>He is thirty-nine, he is not Danish, and he has been in the king's service for two years.</p>
+<p>He came from Pomerania by way of Dresden, where he made his first fortune supplying the Prussian army, and took part of his payment from the king of Prussia in the form of the Meissen porcelain works and its stock. In 1759 he bought an estate in Holstein, which made him a subject of the Danish crown. In 1761 Copenhagen — which had heard of him as a financial magician — brought him in to advise on the state's finances.</p>
+<p>One of his early recommendations was that the state should sell off large parts of its property. Among the items he named were the four great crown plantations in the Danish West Indies.</p>
+<p>This year he buys them. He buys them at a notably advantageous price, and Denmark's largest sugar refinery on Christianshavn with them. He becomes, at a stroke, the largest slave owner in the Danish realm: La Grange and Grande Princesse, the two biggest estates on St Croix, Thomas on St Thomas, Carolina on St Jan. At his death there are 1,028 people held on them.</p>
+<p>In 1768 he acquires the Kronborg gun factory at Hellebæk, sweeping aside a rival bid the state had already accepted.</p>
+<p>Follow the circle once. Indian cotton and guns from his own factory in north Zealand are shipped to the Gold Coast and exchanged for people. The people are carried to his plantations. The sugar they cut is refined in his works on Christianshavn and sold under monopoly in Denmark and Norway. The profit is advised upon by him, in his capacity as the king's treasurer.</p>
+<p>He is painted in 1773 sitting between a portrait of his wife, a bust of Christian 7., and a black serving boy, presumably brought from one of the plantations. He died in 1782 the largest taxpayer in the kingdom.</p>
+<p>His son Ernst inherited all of it, and wrote the memorandum that abolished the trade.</p>
+<p class="who">Heinrich Carl Schimmelmann, treasurer · Copenhagen · 1763</p>
+</div>
+
+<p>The palace the family built on Bredgade is still there. So is the sugar house quarter on Christianshavn, and so are a good many of the merchant houses along the canals that were paid for out of the same trade. Copenhagen's most admired eighteenth-century architecture is, to a degree that has only recently been said out loud in Denmark, a Caribbean building programme executed in the Baltic.</p>
+
+<div class="check">
+  <h4>Checkpoint</h4>
+  <ul>
+    <li>What did the sugar of these islands pay for in Copenhagen — name three things still standing?</li>
+    <li>Who was Ernst Schimmelmann, and what did his family own?</li>
+    <li>Denmark is about to become the first slave-trading nation to legislate against the trade. Before you read how, predict what a state with these interests would write into the ordinance.</li>
+  </ul>
+</div>
+
+<h2 id="s10"><span class="n">10 / NARRATIVE</span>The ordinance of 16 March 1792</h2>
+
+<p>On 16 March 1792 Christian 7. signed the <i class="dk">Forordning om Negerhandelen</i>, and Denmark-Norway became the first slave-trading nation in the world to decide to abolish its transatlantic slave trade.</p>
+
+<p>That sentence is true. It is also, on its own, close to a lie, and the chapter has to do both.</p>
+
+<p><strong>What the ordinance says.</strong> From the beginning of 1803, all trade in slaves by the king's subjects was to cease on the African coasts and anywhere else outside the Danish West Indian possessions; after that date no person might be bought there by or for a Danish subject, carried in a Danish subject's ship, or imported for sale to the Danish islands, and any trade against the prohibition would be unlawful.</p>
+
+<p><strong>And what it also says.</strong> From now until the end of 1802, it shall be permitted for all nations without distinction and under all flags to import men and women from the coast to Our West Indian islands. Further clauses granted export advantages on quantities of raw sugar for every healthy person landed during that window.</p>
+
+<p>The ten years were not an administrative delay. They were a subsidised stocking-up. The state's reasoning was that the enslaved population of the islands died faster than it reproduced — a fact this chapter established four sections ago — so that when the ban took effect, the colony would need a population large enough to sustain itself without further imports. The way to achieve that was to bring in as many people as possible first, and to pay planters to do it.</p>
+
+<p>Imports rose sharply in the decade of the ban.</p>
+
+<p><strong>Where it came from.</strong> A commission on the slave trade was set up by royal resolution on 5 August 1791, largely at Ernst Schimmelmann's instigation, and it worked fast: its report ran to over a hundred folio pages and was delivered on 28 December 1791.</p>
+
+<p><strong>And why.</strong> The commission's own arguments were substantially economic. Its calculations set out the trade's costs — in the purchase of people, in the transport, and in lives, not least the lives of the sailors, who died on those voyages at rates that alarmed the admiralty. There was a political calculation too: the debate in England was running hot, Denmark correctly judged that Britain was moving toward abolition, and a small carrying nation had reason to be first rather than last. And there was a moral argument, which was real. Schimmelmann was probably a sincere opponent of the trade. He had worked through the physician Paul Isert on schemes for plantations in Africa as an alternative to it, and he eased conditions on his own family's estates.</p>
+
+<p>He also owned those estates, and the people on them, throughout.</p>
+
+<p>That is the figure to end on, and he is not a hypocrite in any simple sense — he is what the Danish Enlightenment actually looked like when it had to pay for itself. A man of genuine humane conviction, who abolished the trade in people and kept the people, who reasoned from the Enlightenment and from the balance sheet in the same memorandum, and who twenty-one years later, as finance minister, would preside over the bankruptcy of the Danish state.</p>
+
+<p><strong>What was abolished, and what was not.</strong> The trade, not slavery. Buying people in Africa and shipping them across the Atlantic became illegal for Danish subjects in 1803. Owning people in the Danish West Indies, buying and selling them within the islands, working them, and punishing them under the code of 1733 remained entirely lawful for another forty-five years. Slavery in the Danish colonies ended in 1848, and it ended because the enslaved of St Croix rose and forced it.</p>
+
+<p>The 1792 ordinance is taught in Denmark as a first. It was a first. It was a first that carried a ten-year exemption designed to increase the number of people held in bondage, taken by a government that owned plantations, and it left the institution itself standing for two generations.</p>
+
+<p>Both halves are the record. A history that keeps only one of them is not describing Denmark; it is doing what the column on Vesterbrogade does, one chapter earlier, for somebody else.</p>
+
+<p>&lt;!-- ===== c30_draft_apparatus.md ===== --&gt;</p>
+
+<hr class="div">
+
+<div class="myth" id="myth">
+<h4>Myth-check</h4>
+<dl>
+</dl>
+</div>
+
+<p class="kicker">Threads and links</p>
+<h2 id="forward" style="margin-top:0"><span class="n">WHERE THIS GOES</span>What to carry forward</h2>
+<ul class="calls">
+  <li><b>← 24</b><span>Jens Kofoed's rising on Bornholm in 1658 is told in Danish history as a liberation. Breffu's rising on St Jan in 1733 is the same beat played on the other side of the ledger, and this chapter names the earlier one deliberately.</span></li>
+  <li><b>← 25</b><span>The state that reduced every Danish farm to a number in 1662 ruled St Croix into uniform squares in 1734 and gave them out to shareholders. The third survey is the only one never counted as an achievement of the enlightened state.</span></li>
+  <li><b>← 27</b><span>The Moravians reached the Danish West Indies in 1732 and Greenland in 1733, a decade after Egede.</span></li>
+  <li><b>← 28</b><span>The Brethren whom Christian 6.'s Denmark banned at home were missionising on the Danish islands throughout. — Ernst Schimmelmann's father bought the crown's four plantations in 1763, at the point where chapter 28's economy was recovering.</span></li>
+  <li><b>← 29</b><span>The reform ministry that ended the stavnsbånd in June 1788 is the ministry that abolished the slave trade in March 1792, with a ten-year delay in one case and a twelve-year phasing in the other. The same men, the same method, and a monument for one of them.</span></li>
+  <li><b>→ 31</b><span>Ernst Schimmelmann, who wrote the memorandum of 1791, is the finance minister who presides over the state bankruptcy of 1813. — The neutral carrying trade that made Copenhagen rich in these decades is the trade that ends in 1807.</span></li>
+  <li><b>→ Part I</b><span>Slavery in the Danish West Indies ends in 1848, after a rising. The islands are sold to the United States on 31 March 1917.</span></li>
+</ul>
+
+<p class="kicker">Summary</p>
+<h2 id="summary" style="margin-top:0"><span class="n">IF YOU REMEMBER FIVE THINGS</span>The page in five</h2>
+<ol class="five">
+  <li><p>Denmark chartered a West India company in 1671, occupied St Thomas in 1672, added St Jan in 1718, and bought St Croix from France in 1733. On the African coast it held forts — Christiansborg from 1661 and others — on a narrow strip of shoreline, where the business was gold until about 1690 and people thereafter.</p></li>
+  <li><p>Danish ships carried something between a hundred thousand and a hundred and eleven thousand Africans across the Atlantic on about four hundred and thirty voyages. About one in five died on a crossing that took two to three months. The Danish share of the Atlantic traffic was about 2.3 per cent, which made Denmark the seventh largest of the slave-trading nations.</p></li>
+  <li><p>In September 1733 the governor Philip Gardelin issued a code of nineteen paragraphs declaring the enslaved to have been made so by God and to be their owners' money, with execution, amputation and red-hot tongs among the penalties. In November the Akwamu of St Jan took the fort at Coral Bay, held most of the island for six months, and intended to run the plantations themselves. They were defeated by French and Swiss troops from Martinique.</p></li>
+  <li><p>The Crown bought out the company in 1754, and from then the islands were the direct possession of the Danish state. The fortunes came home: Heinrich Carl Schimmelmann advised the crown to sell its plantations, bought them himself in 1763 with the country's largest sugar refinery, and died in 1782 the realm's biggest taxpayer.</p></li>
+  <li><p>On 16 March 1792 his son Ernst carried an ordinance abolishing the trade from 1803 — the first such decision by any slave-trading nation — which licensed unrestricted importation until the end of 1802 and paid a bounty for it.</p></li>
+</ol>
+
+<p class="kicker">Questions &amp; discussion</p>
+<h2 id="questions" style="margin-top:0"><span class="n">FOUR KINDS</span>Work the material</h2>
+
+<div class="qgroup">
+  <p class="qlabel">Recall</p>
+  <p class="qnote">Did the facts land?</p>
+  <ul>
+    <li>What went out on each of the three legs of the triangular route, and where did Danish voyages begin and end?</li>
+    <li>Roughly how many people did Danish ships carry, on how many voyages, and what proportion died on the crossing?</li>
+    <li>What did Gardelin's code of September 1733 say about why the enslaved were enslaved, and what were its penalties?</li>
+    <li>What did the ordinance of 16 March 1792 permit between its signing and the end of 1802?</li>
+  </ul>
+</div>
+<div class="qgroup">
+  <p class="qlabel">Causal</p>
+  <p class="qnote">Why did it happen that way?</p>
+  <ul>
+    <li>Explain why the mortality of the enslaved population exceeding its birth rate made the trade both necessary to the colony and, eventually, arguable against.</li>
+    <li>Why did the Crown's buy-out of the company in 1754 change the moral position of the Danish state, whatever it changed in practice?</li>
+    <li>Why did the ordinance of 1792 include a ten-year delay, and what did the government expect it to achieve?</li>
+  </ul>
+</div>
+<div class="qgroup">
+  <p class="qlabel">Counterfactual</p>
+  <p class="qnote">What if it had gone otherwise?</p>
+  <ul>
+    <li>Suppose the Akwamu had held St Jan. They intended to run the plantations with enslaved people of other African origins. What would that island have been, and how should a history describe it?</li>
+    <li>Suppose Britain had abolished its trade in 1788 rather than 1807. Would Denmark have moved earlier, later, or not at all?</li>
+  </ul>
+</div>
+<div class="qgroup">
+  <p class="qlabel">Contested</p>
+  <p class="qnote">Where do historians disagree?</p>
+  <ul>
+    <li>Was Ernst Schimmelmann a hypocrite? Set out the case that he was, the case that he was a man doing what was possible from inside a system he profited by, and say what evidence would distinguish them.</li>
+    <li>Denmark's share of the Atlantic trade was 2.3 per cent, and Denmark was the seventh largest nation engaged in it. Which of those two true statements belongs in a school textbook, and why?</li>
+    <li>The St Jan rising was a bid for freedom by people who intended to enslave others. How should that be told — and does the answer change depending on who is telling it? ---</li>
+  </ul>
+</div>
+
+<p class="kicker">Sources</p>
+<h2 id="sources" style="margin-top:0"><span class="n">LIGHT SOURCING</span>What this is built on</h2>
+<ul class="plain">
+  <li><span class="nm">Worked from</span>
+    <span class="ds"></span></li>
+  <li><span class="nm">—</span>
+    <span class="ds">Governor Philip Gardelin's slave code, 5 September 1733.</span></li>
+  <li><span class="nm">—</span>
+    <span class="ds"><i class="dk">Forordning om Negerhandelen</i>, 16 March 1792.</span></li>
+  <li><span class="nm">—</span>
+    <span class="ds">Ernst Schimmelmann's <i class="dk">pro memoria</i> and covering letter on the slave trade, Sølyst, 18 June 1791; and the report of the slave-trade commission, 28 December 1791, Rigsarkivet, Generaltoldkammeret.</span></li>
+  <li><span class="nm">—</span>
+    <span class="ds">The captain's journal and ship's assistant's protocol of the <i class="dk">Fredensborg</i>, 1767–68, Rigsarkivet — digitised and transcribed by KUBEN, Arendal.</span></li>
+  <li><span class="nm">—</span>
+    <span class="ds">The printed map of St Croix, 1754.</span></li>
+  <li><span class="nm">—</span>
+    <span class="ds">danmarkshistorien.dk, Aarhus University, on the trade, the company and the ordinance.</span></li>
+  <li><span class="nm">Where the argument stands</span>
+    <span class="ds"><i class="dk">Attributions need checking against the works themselves before publication.</i></span></li>
+  <li><span class="nm">—</span>
+    <span class="ds">Erik Gøbel, <i class="dk">Det danske slavehandelsforbud 1792</i> (2008), is the standard account of how and why the ban was made, and the source for the economic reading of the commission's arguments.</span></li>
+  <li><span class="nm">—</span>
+    <span class="ds">Leif Svalesen, <i class="dk">Slaveskipet Fredensborg og den dansk-norske slavehandel på 1700-tallet</i> (1996), for the voyage.</span></li>
+  <li><span class="nm">—</span>
+    <span class="ds">Louise Sebro, <i class="dk">Slaveoprøret på Sankt Jan: 1733</i>, for the rising as something other than a spontaneous revolt.</span></li>
+  <li><span class="nm">—</span>
+    <span class="ds">Per Hernæs and others, <i class="dk">Vestafrika: Forterne på Guldkysten</i> (2017), in the Gads five-volume <i class="dk">Danmark og kolonierne</i>.</span></li>
+  <li><span class="nm">—</span>
+    <span class="ds">The Danish literature has changed sharply since about 2015, and the older treatments — which lean on the 1792 "first" and on the small percentage — are still the ones most Danes were taught from. ---</span></li>
+</ul>
+
+<p class="kicker">Go and look</p>
+<h2 id="visit" style="margin-top:0"><span class="n">STILL THERE</span>Places you can visit</h2>
+<ul class="plain">
+  <li><span class="nm">Christiansborg, Accra.</span>
+    <span class="ds">Osu Castle, on the Ghanaian coast. The casemates are below the staircase, under the rooms where the governor lived.</span></li>
+  <li><span class="nm">Christiansted and Frederiksted, St Croix.</span>
+    <span class="ds">The two towns of the 1734 grid, with the street plans as they were surveyed. Fort Frederik at Frederiksted is where emancipation was declared in 1848, after the rising.</span></li>
+  <li><span class="nm">Fortsberg, Coral Bay, St John.</span>
+    <span class="ds">The small star-shaped redoubt taken at dawn in November 1733. It is a short walk and a very small fort.</span></li>
+  <li><span class="nm">KUBEN, Arendal.</span>
+    <span class="ds">The <i class="dk">Fredensborg</i> exhibition, with the objects raised from the wreck and the transcribed journals of the last voyage.</span></li>
+  <li><span class="nm">Odd Fellow Palæet, Bredgade, Copenhagen.</span>
+    <span class="ds">The Berckentin palace, bought by Heinrich Carl Schimmelmann. Then walk to Christianshavn and look at the warehouses along the canal. The sugar came here.</span></li>
+  <li><span class="nm">Sølyst, Klampenborg.</span>
+    <span class="ds">Where Ernst Schimmelmann wrote the letter of 18 June 1791 that began the process, in a house paid for by the plantations. &lt;!-- ===== c31_draft_01-10.md ===== --&gt;</span></li>
+</ul>
+
+<footer>
+  Chapter 30 · Part G · 1620 – 1803
+</footer>
+
+</div>
+<script>
+(function(){
+  var links = Array.prototype.slice.call(document.querySelectorAll('.rail a'));
+  var map = {};
+  links.forEach(function(a){ map[a.getAttribute('href').slice(1)] = a; });
+  var targets = Object.keys(map).map(function(id){ return document.getElementById(id); })
+                 .filter(Boolean);
+  if(!('IntersectionObserver' in window) || !targets.length) return;
+  var seen = {};
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){ seen[e.target.id] = e.isIntersecting ? e.boundingClientRect.top : null; });
+    var best = null;
+    targets.forEach(function(t){
+      var r = t.getBoundingClientRect();
+      if(r.top <= 140) best = t.id;
+    });
+    if(!best) best = targets[0].id;
+    links.forEach(function(a){ a.classList.remove('active'); });
+    if(map[best]) map[best].classList.add('active');
+  }, {rootMargin:'-120px 0px -70% 0px', threshold:[0,1]});
+  targets.forEach(function(t){ io.observe(t); });
+  window.addEventListener('scroll', function(){
+    var best = null;
+    targets.forEach(function(t){ if(t.getBoundingClientRect().top <= 140) best = t.id; });
+    if(!best) best = targets[0].id;
+    links.forEach(function(a){ a.classList.remove('active'); });
+    if(map[best]) map[best].classList.add('active');
+  }, {passive:true});
+})();
+</script>
+</body>
+</html>
