@@ -34,8 +34,9 @@ written — see Lessons.
 | D | 12–15 | 1050–1375 | built, reviewed, revised |
 | E | 16–20 | 1375–1536 | built, reviewed, revised; renumbered Aug 2026 |
 | F | 21–24 | 1536–1660 | **built, reviewed, revised, closed; online** |
-| G | 25–31 | 1660–1814 | planned and drafted complete; not yet built |
-| H– | 32– | 1814– | not planned |
+| G | 25–31 | 1660–1814 | **built, reviewed, revised; all seven round-trip clean** |
+| H | 32–36 | 1814–1901 | **planned, Sept 2026 — see `PLAN_H.md`**; not drafted |
+| I– | 37– | 1901– | not planned |
 
 All of 01–24 are published to a web folder. Chapter pages carry two links back to
 the index, inserted by `linkindex.py` — see Tools.
@@ -43,11 +44,11 @@ the index, inserted by `linkindex.py` — see Tools.
 Part E as built:
 
 ```
-16  Margrete I and the making of the union      ~7,800 words (~37 min)
-17  The union at work, and the end of Margrete  ~6,300 words (~30 min)
-18  Sound Dues, the Hanse, a straining union     7,387 words (~35 min)
-19  Schleswig-Holstein and the union's collapse  7,663 words (~36 min)
-20  Reformation and the Count's Feud             7,318 words (~35 min)
+16  Margrete I and the making of the union      7,191 page / 7,033 text (34 min)
+17  The union at work, and the end of Margrete  6,026 page / 5,880 text (29 min)
+18  Sound Dues, the Hanse, a straining union     7,240 page / 7,063 text (34 min)
+19  Schleswig-Holstein and the union's collapse  7,463 page / 7,274 text (36 min)
+20  Reformation and the Count's Feud             7,079 page / 6,896 text (34 min)
 ```
 
 All five: 3 checkpoints · 3 vignettes · 2 meanwhile boxes · 10–12 glossary blocks;
@@ -59,10 +60,10 @@ additionally carries the part coda, via `tail_extra`.
 Part F as built:
 
 ```
-21  The Lutheran realm of the nobility            10,218 words (~49 min)
-22  Christian 4.: ambition and the building years  7,104 words (~34 min)
-23  Christian 4.: the wars that broke him          6,957 words (~33 min)
-24  Losing the eastern provinces                   7,014 words (~33 min)
+21  The Lutheran realm of the nobility            9,812 page / 9,619 text (47 min)
+22  Christian 4.: ambition and the building years  6,619 page / 6,444 text (32 min)
+23  Christian 4.: the wars that broke him          6,422 page / 6,244 text (31 min)
+24  Losing the eastern provinces                   6,592 page / 6,394 text (31 min)
 ```
 
 All four: 3 checkpoints · 3 vignettes · 2 meanwhile boxes · 3 figures · 9–10
@@ -70,7 +71,8 @@ glossary blocks. Part F colour `#8A2B2B`, the `--oxblood` token already in
 `style.css`; parts D and E are both teal and F had to move away from them.
 Chapter 24 carries the part coda, via `tail_extra`.
 
-**Chapter 21 stays at 49 minutes.** It was drafted long and the Part F review
+**Chapter 21 stays at 47 minutes.** (49 was a pre-fix page count; measured,
+it is 9,812 page / 9,619 text words.) It was drafted long and the Part F review
 reversed the obvious diagnosis: sections 02 and 03 look heavy only because each
 carries a vignette, and §02 has the second-*lightest* narrative in the chapter.
 Trimming there would have cut Palladius in the parish. The real fault is that no
@@ -79,8 +81,11 @@ save four minutes inside the band.
 
 Size of the whole, measured rather than guessed (`bookstats.py`): nine built
 chapters of E and F average about 7,500 words and 36 minutes, which projects to
-roughly **300,000 words and 25 hours** at 42 chapters. Five chapters are still
-flagged dense, so 43–45 is the realistic landing.
+roughly **300,000 words and 25 hours** at 43 chapters. Re-measured Sept 2026 on
+the corrected counter: 31 built chapters run 219,617 page / 214,234 text words,
+17.4 hours, mean 34 minutes. **The split candidates are all retired** (21, 28 and
+32), so 43 is the landing, not 43–45. `bookstats.py` still flags two chapters as
+dense and its 43/44/45 projection is now wrong — take the flags out of the spine.
 
 The Christian 4. seam is at 1625 — where he stops founding things and starts
 losing wars. Brømsebro 1645 belongs to 24, not 23, which ends at his death in
@@ -107,7 +112,7 @@ their verification); the rest are chapter-scale maps and non-map diagrams.
 | `debuild.py` | recovery from a built page |
 | `index_generator.py` | the index |
 | `style.css`, `rail.js` | extracted from chapter 11, byte-identical to what it ships |
-| `c16a_body.html`, `c16b_body.html`, `c17_body.html`, `c18_body.html`, `c19_body.html` | see below |
+| `c16_body.html` … `c31_body.html` | see below. Sixteen retained bodies, 16–31; the `c16a`/`c16b` names are retired |
 
 **Why the bodies are kept.** `debuild.py` recovers a working body from any
 shipped page, but with the SVGs **inlined** rather than as `{{SVG_*}}`
@@ -133,7 +138,12 @@ This matches the Part D precedent, where the ten figure scripts were not kept.
 - `verify_1397.py` — superseded by `mapfixture.py`.
 - `figkit.py` — folded into `mapspine.py`; nothing imports it.
 - the old `build_all.py` and the old `HANDOFF.md` — both replaced.
-- `c16_body.html` — superseded by `c16a_body.html` and `c16b_body.html`.
+- ~~`c16_body.html` — superseded by `c16a_body.html` and `c16b_body.html`.~~
+  **STRUCK, Sept 2026. Do not do this.** After the renumbering, 16a and 16b
+  *became* chapters 16 and 17, and `c16_body.html` is the live chapter 16 body
+  that `tidy.py` reports present. Following that line would destroy a working
+  source. The companion instruction below, deleting
+  `16-margrete-i-and-the-kalmar-union.html`, is already done.
 - **`16-margrete-i-and-the-kalmar-union.html` in the chapter folder.** This one
   matters: `index_generator.py` discovers pages by globbing `NN*.html`, so a
   leftover chapter 16 file is found alongside 16a and 16b and the index will show
@@ -198,13 +208,29 @@ L1. **First drafts land short, and short means a missing subject, not thin prose
    which is why including it lifts page-words-per-section from 727 to 823. The
    formula is:
 
-   > **page words ≈ Σ(section narrative bands) + 2,800**
+   > **page words ≈ Σ(section narrative bands) + 3,508**
 
-   with narrative bands of light 200–280, medium 400–500, heavy 600–700. A
-   nine-section chapter at 2 light / 4 medium / 3 heavy lands near 7,000 page words
-   and 33 minutes; a ten-section chapter at 2 / 4 / 4 near 7,700 and 37.
+   with narrative bands of **light 240 · medium 376 · heavy 576**. A nine-section
+   chapter at 2 light / 4 medium / 3 heavy lands near 7,200 page words and 34
+   minutes; a ten-section chapter at 2 / 4 / 4 near 7,800 and 37.
 
-1a. **Reading time: hard band 25–50, soft target 30–42.** `build_all.py` fails
+   *Part H:* **both the constant and the bands above are corrections, made Sept
+   2026 by measuring rather than estimating.** The 2,800 was derived from Part F
+   page counts taken before the word-counter fix, which removed SVG label text —
+   figure text, and therefore apparatus — so the fix took its cut almost entirely
+   out of the constant. A replacement estimate of 2,400, computed during the Part
+   H session from this ledger's own Part F narrative figures, was **also wrong**,
+   because those figures were pre-fix too. Measured directly across the seven Part
+   G pages with `narrative.py`: mean narrative 3,884, mean page 7,392, apparatus
+   **3,508** — 47 per cent of a chapter. The old bands describe half the data:
+   **34 of the 68 measured Part G sections fall in the gaps between them.**
+   Observed spread: min 154, p25 275, median 365, p75 483, max 742; the bands
+   above are its terciles. "Heavy" at 576 sits below the old heavy band entirely —
+   the model was predicting heavier sections than anyone writes. Nine or ten
+   sections is the working shape. Derivation in `PLAN_H.md` §1.
+
+1a. **Reading time: hard band 25–50, soft advisory 28–40.** *(Advisory moved from
+30–42 in Sept 2026 — see below. The band is unchanged.)* `build_all.py` fails
    outside the band and prints a note outside the target. The band was 25–45 until
    August 2026 and was widened because **25–45 is not closed under splitting**: a
    chapter at the old ceiling halves to 22.5, below the floor, so 45–50 was a dead
@@ -258,6 +284,41 @@ L12. **Looking has caught a real error in every part.** Point-in-polygon tests a
     **south-west Norway unfilled in the 1397 map, which had already shipped**,
     because none of the thirty-six test cases was in Rogaland. When a polygon is
     corrected, add the case that would have caught it.
+
+L13. **Length that comes entirely from narrative is a weight fault, not a topic-count
+    fault — and it is now measurable.** Chapter 28's apparatus is 3,616 against a
+    Part G mean of 3,508: normal. Its narrative is 5,470, thirty-nine per cent above
+    any other chapter in the part, at a mean of 547 words a section against roughly
+    380 elsewhere. It is not over-sectioned; it is written heavy in every section,
+    with five of ten above 560 and no genuinely light one after §01. **That is
+    chapter 21's signature exactly** — third instance of "vary the weight, not just
+    the count" (L1), and the first measured rather than inferred. `narrative.py`
+    separates the two cases in one run. Test a split candidate against it before
+    opening it.
+
+L14. **A constant derived from unverified inputs is a typed number.** The apparatus
+    constant of 2,800 was wrong because it was measured before the word-counter fix.
+    The replacement estimate of 2,400, computed from this ledger's own Part F
+    narrative figures, was **also wrong**, because those figures were pre-fix too.
+    The measured constant is 3,508. The arithmetic was sound both times. **"Compute,
+    do not type" is not satisfied by computing from numbers someone else typed.**
+
+L15. **Enumerate what you want, not what you want removed.** The first version of
+    `narrative.py` stripped apparatus by listing its selectors. It missed the page
+    header entirely and got two of nine selector names wrong — and the header miss
+    would have been silent, because it inflates narrative and deflates the constant,
+    the direction that matters. Rewritten to select the narrative region positively,
+    everything unnamed falls into apparatus by construction and no selector has to be
+    guessed. **Where a measurement can be defined by what it includes rather than by
+    what it excludes, define it that way.** The excluded set is where silent misses
+    live.
+
+L16. **A guard that only fires at review is not a guard.** Both recorded
+    vignette-balance faults — chapter 25's missing woman, chapter 31's missing
+    non-elite subject — came from a hand audit in `REVIEW-PART-G.md` §2, after the
+    chapters were drafted. `vignettes.py` never checked either, and nobody had
+    noticed that it did not. See D-9.
+
 
 ---
 
@@ -430,7 +491,19 @@ unclaimed land points, which is what it was built for.
    `mapfixture.py` now carries the Sveg case, registered against 1660 only, so the
    standing fixture passes while three shipped maps stay wrong. Fixing it means moving
    shared vertices in `NORWAY` and `SWEDEN` and rebuilding Parts E and F.
-12. **Chapter 15's forward arrow is knowingly stale.** `15 → 36` should be
+12. ~~**Chapter 15's forward arrow is knowingly stale.**~~ **CLOSED, Sept 2026 —
+   resolved by editing the built page directly.** The back-port rule exists because
+   `mkbody.py` regenerates bodies downward and destroys artifact-only edits.
+   Chapter 15 has **no body and no generator**, so there is nothing upstream that
+   could destroy the edit — this is the one case where editing a built page is
+   safe, and it is not a precedent for any page that has a source. Conditions:
+   assert on match count before writing, grep for the new string after, re-run
+   `debuild.py verify` on chapter 15 and expect `identical`. `linkindex.py` does
+   **not** need re-running — the page is edited in place, not rebuilt. Left
+   unfixed, chapter 15 sends a reader to chapter 36, which is Provisorietiden and
+   cannot carry the West Indies. The original entry follows.
+
+   **Chapter 15's forward arrow is knowingly stale.** `15 → 36` should be
    `→ 30, Part I`. It was not fixed in the Part G ledger pass because there is no
    `c15_body.html` — Part D has no authored bodies in `files/` — and editing a file
    the build does not read changes nothing. Fix it at the next Part D rebuild, which
@@ -456,8 +529,10 @@ unclaimed land points, which is what it was built for.
    August 2026. Both are right; they measure different things.** On byte-identical
    input the build's count and `bookstats.py`'s **`page`** agree exactly — chapter 24
    at 6,714 both ways, delta zero. The gap is `page` against **`text`**: 215 words of
-   rail, contents list and inlined `rail.js`. The tables in State record `text`; the
-   build prints `page`. Neither is stale.
+   rail, contents list and inlined `rail.js`. ~~The tables in State record `text`; the build prints `page`.~~ **This half is
+   wrong** (found Sept 2026): the State tables held old **page** counts, not `text`.
+   Chapter 24 was listed at 7,014 against a text count of 6,394. Both tables have
+   now been replaced with measured page and text figures.
 
    **One thing follows and is not yet decided.** The `about N minutes` stamped on every
    shipped page is computed from `page`, so every chapter overstates its reading time by
@@ -526,10 +601,74 @@ unclaimed land points, which is what it was built for.
    inventing glossary entries or splitting a paragraph to reach five would hide a
    drafting gap in the built page.
 
-20. **Chapter 28 builds at 46 minutes** — inside the 25–50 band, outside the 30–42
+20. ~~**Chapter 28 builds at 46 minutes**~~ **CLOSED, Sept 2026. Retired as a
+   split candidate, and the diagnosis in this item was wrong.** It builds at **43**,
+   not 46. Halved it gives two chapters of 21 minutes, both under the floor, so
+   splitting is not division but a commitment to write ~5,000 new words into a
+   shipped and verified part. Its candidacy rested on topic count; it has ten
+   sections, which is the standard heavy shape in Part G — 26, 29, 30 and 31 all
+   have ten. **It is not exceptional on the metric its candidacy rested on.** See
+   L13 for what the measurement actually shows. Chapters 21 and 32 are retired for
+   the same reason; the book stays at 43 chapters and nothing renumbers. The
+   original entry follows.
+
+   **Chapter 28 builds at 46 minutes** — inside the 25–50 band, outside the 30–42
    advisory, and flagged by the build. It is the longest in the part by 1,400 words and
    was already a split candidate. Splits get two numbers at plan time, so this is
    Part H's planning session, not a change to make now.
+
+
+21. **Chapter 29's second vignette is malformed in the shipped body.** The heading
+   reads `**Vignette · Johann Friedrich Struensee, Christiansborg, before dawn on
+   17` — truncated mid-date and carrying a literal `**`. The `date` field has
+   swallowed a sentence about Caroline Mathilde's arrest and `opens` reads
+   `January 1772**`. Something in `c29_body.html` has a line break inside the
+   vignette heading. **The page round-trips cleanly, so no automated check will
+   ever find it.** Fix in the body and back-port to `PART_G_DRAFT.md`.
+
+22. **Chapter 23's first vignette has no place.** Ellen Marsvin's `place` field
+   reads `1629`, and it appears in the place census as though it were a location.
+   The `person · place · date` form is broken there.
+
+23. **Chapter 29 needs a `→ 35` added.** Chapter 35 inherited no forward arrow from
+   any shipped chapter, although Part G set up its ancestry directly: the
+   freeholders created by the 1788 reforms are chapter 29's subject and the
+   cooperative movement's grandparents. Add to `c29_body.html` and back-port
+   **before** any Part G rebuild.
+
+24. **The forward arrow to 1953 has no part letter.** Chapter 36's myth-check turns
+   on parliamentarism not being written into the constitution until 1953. Under D-1
+   an arrow that far out names a part letter, and the parts after I are unplanned,
+   so the letter does not exist yet. Assign when they are planned.
+
+25. **`svg_plague_1711.txt` is missing and *does* have a generator.** Wanted by
+   chapter 27, remade by `figs_27.py`. Chapter 27's page is unaffected because the
+   SVG is inline, but `files/` cannot currently rebuild it. The only regenerable
+   artifact missing from the tree; everything else `tidy.py` lists is Part D's ten
+   unrecoverable figures.
+
+26. **`pagewords.py` sits beside `pagecount.py`** and is unclassified by `tidy.py`,
+   while this ledger names `pagecount.py` as holding the only definition. Probable
+   superseded duplicate. `tidy.py` finding 5 applies: check before deleting either.
+
+27. **`vignettes.py` place matching is exact-string and under-reports badly.** It
+   reports Copenhagen five times. Counting variants — *Copenhagen castle*, *outside
+   Copenhagen Castle*, *the great hall, Copenhagen Castle*, *Copenhagen's rådhus*,
+   *the square before Copenhagen Castle*, *Blåtårn*, *Flådebatteri nr. 1,
+   Kongedybet*, *Nørregade* — the true figure is **thirteen of forty-eight**.
+   Normalise the match. It also checks no balance at all: see D-9.
+
+28. **The advisory constant is hardcoded in six scripts.** `build_all.py` and the
+   five `build_part_*.py` files print against 30–42. It is now 28–40. All six move
+   together.
+
+29. **Cosmetic, low priority.** Four Meanwhile summaries in `vignettes.py` output
+   terminate at a regnal ordinal — "The years Christian 4.", "In September 1683,
+   while the commissioners of Christian 5." A first-sentence splitter breaking on
+   the period in the ordinal, not damaged prose; entries truncated by length carry
+   an ellipsis and these do not, which makes the report look corrupt when it is
+   not. Separately: maps 1600 and 1660 both sweep exactly 3,108 land points,
+   probably a shared envelope, worth one look given what the fixture is for.
 
 
 ---
@@ -778,7 +917,13 @@ from a count; count the file.
 
 **Lesson: the debt list is a record, not an inventory.** It held what was written down
 when an arrow was opened, and five arrows were opened without being written down. Only
-a census of the bodies is authoritative. `census_g.py` does it in one pass.
+a census of the bodies is authoritative. ~~`census_g.py` does it in one pass.~~ **`census_g.py` does not exist** — not in
+`files/`, not listed by `tidy.py` (Sept 2026). The Part H debt table was built by
+an ad-hoc census over `c25`–`c31`. Either write the script or drop the reference:
+a ledger pointing at a tool that is not there is worse than no reference.
+**And the lesson paid out again.** That census found **seven** arrows into Part H
+where the handover note listed five; chapters 29 and 31 each carry a `→ Part H`
+that appeared in no record. Second time, same lesson.
 
 Chapter 25 is the heaviest: it has to explain why an assembly of subjects voluntarily
 created the most complete absolutism in Europe.
@@ -797,6 +942,31 @@ once Hans Egede lands. Orkney and Shetland are gone from 1468–69 onward and mu
 not reappear.
 
 ---
+
+## Convention D-9: vignette balance tags
+
+*Added at the Part H planning session, Sept 2026, because L7a had no check behind
+it and both recorded failures were found by hand after drafting.*
+
+The vignette `(who)` line gains a trailing bracket:
+
+    person · place · date · [f][n]
+
+`f` where a woman is the agent. `n` where the subject is non-elite. Both omitted
+where neither applies. **Two flags only** — a third turns tagging into an argument
+rather than a check.
+
+`vignettes.py` gains a balance layer reading the tags and reporting, per chapter,
+whether a woman and a non-elite subject are present.
+
+**Backfill is lazy.** The forty-eight existing vignettes are tagged as each part is
+next touched; the balance layer reports `untagged` for chapters 16–31 until then.
+Tagging them from the roster summaries would mean asserting class and gender from a
+one-line précis, which is the kind of inference this project has been burned by.
+
+Part H's fifteen vignettes are tagged in `PLAN_H.md` §4: five women, seven
+non-elite, no chapter without one of each.
+
 
 ## Convention D-8: how intervals are counted
 
@@ -1017,8 +1187,14 @@ free-standing em dash or middot as a word. Both were counted as prose. Part G lo
 | 30 | 7,321 | 6,881 | 35 → 33 |
 | 31 | 8,141 | 7,683 | 39 → 37 |
 
-Part G now runs 32–43 minutes against a 30–42 advisory. Only chapter 28 is outside
-it, by one minute rather than four.
+Part G runs 32–43 minutes against the 28–40 advisory. Only chapter 28 is outside
+it, by three minutes.
+
+**One row in the table above no longer reconciles.** Six of the seven `after`
+figures match `bookstats.py` exactly today. Chapter 28 does not: this table says
+9,129 and the current build says **9,086**, a gap of 43 words. Either `c28` was
+edited after the table was written — in which case check it was back-ported to
+`PART_G_DRAFT.md` — or the figure was typed. It has not been established which.
 
 **PARTS A TO F HAVE NOT BEEN REBUILT AND STILL CARRY THE OLD FIGURE.** The scripts
 are correct; the pages are not. Every page in chapters 01–24 overstates its reading
@@ -1029,9 +1205,17 @@ all twelve pages tested round-trip identical.
 
 **Do not re-read the band thresholds against the old numbers.** The 25–50 band and
 the 30–42 advisory were set when every measurement was two to three minutes high,
-so in effect the advisory has been 28–40 all along. Whether to move the thresholds
-or leave them is open, and it should be decided before Part H is planned, not
-after.
+so in effect the advisory has been 28–40 all along. **DECIDED, Sept 2026: the advisory moves to 28–40. The band stays 25–50.** The
+restatement is behaviour-neutral — chapters 21 and 28 flagged before and flag now,
+and nothing else moves. A floor of 30 would flag chapter 17 at 29 minutes, a
+deliberate six-section chapter defended in open item 1: a false positive on a
+settled decision, and false positives are how `debuild` became ignorable.
 
-**Chapter 28 is a one-minute overrun, not a four-minute one.** It remains a split
-candidate on topic count, not on length.
+Note on L1a's closure property: 50 splits into two 25s, but 47 splits into two
+23.5s. The band is closed under splitting **at the ceiling only** — which is
+correct, since splitting is forced only above 50, and it is why chapters 21, 28
+and 32 were all retired rather than divided.
+
+**Chapter 28 is a three-minute overrun against the 28–40 advisory.** ~~It remains a
+split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see item
+20 and L13.**
