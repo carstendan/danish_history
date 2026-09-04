@@ -259,7 +259,7 @@ def build(n, c, stub):
 
 
 BAND = (25, 50)
-TARGET = (30, 42)
+TARGET = (28, 40)
 
 if __name__ == "__main__":
     stub = "--stub" in sys.argv

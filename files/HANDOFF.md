@@ -952,20 +952,36 @@ The vignette `(who)` line gains a trailing bracket:
 
     person · place · date · [f][n]
 
-`f` where a woman is the agent. `n` where the subject is non-elite. Both omitted
-where neither applies. **Two flags only** — a third turns tagging into an argument
-rather than a check.
+`f` where a woman is the agent. `n` where the subject is non-elite. `[-]` where
+neither applies. **Two claims only** — a third would turn tagging into an argument
+rather than a check. `[-]` is not a third claim: it asserts nothing about the
+subject and records only that the question was asked.
+
+**Amended Sept 2026, at the Part H tooling session.** As first written the
+convention omitted both brackets where neither flag applied, which made a chapter
+of three elite male vignettes textually identical to a chapter nobody had tagged
+yet. That is chapter 25 exactly — one of the two failures D-9 was written to
+catch — so the check could not see its own founding case. A vignette with neither
+flag now carries `[-]`, and a chapter with no bracket on any vignette is the only
+thing that reads as untagged. `[-]` beside `[f]` or `[n]` is a contradiction and
+`vignettes.py` reports it as malformed. Verified against a five-chapter fixture
+covering pass, both-missing, one-missing, partial and malformed: the real corpus
+exercises only the untagged branch, so the branches that matter are tested there
+and not on live chapters.
 
 `vignettes.py` gains a balance layer reading the tags and reporting, per chapter,
 whether a woman and a non-elite subject are present.
 
 **Backfill is lazy.** The forty-eight existing vignettes are tagged as each part is
 next touched; the balance layer reports `untagged` for chapters 16–31 until then.
+Confirmed Sept 2026: there are zero brackets anywhere in the corpus, so all sixteen
+report `untagged` and none of them is a false pass.
 Tagging them from the roster summaries would mean asserting class and gender from a
 one-line précis, which is the kind of inference this project has been burned by.
 
 Part H's fifteen vignettes are tagged in `PLAN_H.md` §4: five women, seven
-non-elite, no chapter without one of each.
+non-elite, no chapter without one of each. The roster's `—` entries are written
+`[-]` on the page, not left blank.
 
 
 ## Convention D-8: how intervals are counted

@@ -50,7 +50,7 @@ SHARED = ["style.css", "rail.js", "mapkit.py", "mapspine.py"]
 # should. Widening the hard rule without keeping this note would retire the most
 # useful signal the build produces.
 BAND = (25, 50)
-TARGET = (30, 42)
+TARGET = (28, 40)
 
 
 def present(name):
