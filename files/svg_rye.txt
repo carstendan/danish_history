@@ -1,0 +1,40 @@
+<svg viewBox="0 0 700 470" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagram of the Danish agricultural collapse of 1818 to 1828 and the recovery after it. Taking the war-inflated level of 1814 to 1817 as one hundred, grain had fallen to about twenty by 1820 to 1825, and farm property to between twenty-five and thirty-three of its former price. A dated list runs from the currency reform of 5 January 1813 through the chartering of Nationalbanken in July 1818 and the trough of the early 1820s to the recovery from about 1828 and the repeal of the British Corn Laws in June 1846. The continuous annual series of Zealand rye prices exists in print and is not reproduced here, because the year-by-year values were not obtained; the figure says so rather than estimating them.">
+  <rect x="0" y="0" width="700" height="470" fill="#F0F2EE"/>
+  <text x="26" y="30" class="mapl">A FIFTH OF WHAT IT HAD BEEN</text>
+  <text x="26" y="46" class="mapt">the war level of 1814–17 taken as 100</text>
+  <text x="240" y="93" class="mapt" text-anchor="end">1814–17, the war-inflated level</text>
+  <rect x="250" y="84" width="400.0" height="11" fill="#7C8CA8" opacity=".55"/>
+  <text x="658.0" y="93" class="mapt">100</text>
+  <text x="240" y="123" class="mapt" text-anchor="end">Grain, 1820–25</text>
+  <rect x="250" y="114" width="80.0" height="11" fill="#7C8CA8" opacity=".55"/>
+  <text x="338.0" y="123" class="mapt">20</text>
+  <text x="240" y="153" class="mapt" text-anchor="end">Farm property, the 1820s</text>
+  <rect x="250" y="144" width="100.0" height="11" fill="#7C8CA8" opacity=".55"/>
+  <rect x="350.0" y="144" width="32.0" height="11" fill="#7C8CA8" opacity=".30"/>
+  <text x="390.0" y="153" class="mapt">25–33</text>
+  <text x="26" y="188" class="mapt">Ranges are drawn as ranges: the sources give "about a fifth" and "a third or a quarter",</text>
+  <text x="26" y="202" class="mapt">and narrowing them would be inventing a precision nobody recorded.</text>
+  <line x1="26" y1="230" x2="674" y2="230" stroke="#C9CDC4" stroke-width="1"/>
+  <text x="26" y="252" class="mapx">WHAT HAPPENED, AND WHEN</text>
+  <circle cx="34" cy="270" r="3" fill="#7C8CA8"/>
+  <text x="48" y="274" class="mapx">5 Jan 1813</text>
+  <text x="152" y="274" class="mapt">currency reform; the rigsbankdaler replaces the kurantdaler</text>
+  <circle cx="34" cy="290" r="3" fill="#7C8CA8"/>
+  <text x="48" y="294" class="mapx">1818</text>
+  <text x="152" y="294" class="mapt">grain prices and grain exports begin falling together</text>
+  <circle cx="34" cy="310" r="3" fill="#7C8CA8"/>
+  <text x="48" y="314" class="mapx">4 Jul 1818</text>
+  <text x="152" y="314" class="mapt">Nationalbanken chartered; note circulation halves by the mid-1830s</text>
+  <circle cx="34" cy="330" r="3" fill="#7C8CA8"/>
+  <text x="48" y="334" class="mapx">1820–25</text>
+  <text x="152" y="334" class="mapt">the trough. Estates to forced auction, others taken for unpaid tax</text>
+  <circle cx="34" cy="350" r="3" fill="#7C8CA8"/>
+  <text x="48" y="354" class="mapx">c. 1828</text>
+  <text x="152" y="354" class="mapt">recovery begins. The kornsalgsperiode runs to the late 1850s</text>
+  <circle cx="34" cy="370" r="3" fill="#7C8CA8"/>
+  <text x="48" y="374" class="mapx">Jun 1846</text>
+  <text x="152" y="374" class="mapt">Britain repeals the Corn Laws</text>
+  <line x1="26" y1="424" x2="674" y2="424" stroke="#C9CDC4" stroke-width="1"/>
+  <text x="26" y="442" class="mapt">The Zealand kapitelstakst for a tønde of rye survives as an unbroken annual series from 1651.</text>
+  <text x="26" y="456" class="mapt">Nobody in this chapter has plotted it.</text>
+  </svg>

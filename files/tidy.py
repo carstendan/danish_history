@@ -29,7 +29,7 @@ from collections import defaultdict
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 BUILDS = ['build_parts_abc.py', 'build_part_d.py', 'build_part_e.py',
-          'build_part_f.py', 'build_part_g.py', 'build_all.py']
+          'build_part_f.py', 'build_part_g.py', 'build_part_h.py', 'build_all.py']
 
 
 def read(p):
@@ -146,6 +146,35 @@ def main():
                 print("      -> identical content; keep one")
             else:
                 print("      -> DIFFERENT content; diff them before removing either")
+    # THE SAME NAME IN TWO DIRECTORIES, which the loop above cannot see because it
+    # only ever looks inside files/. Found in Sept 2026: a stale
+    # danish-history-index.html sat in files/ alongside the real one at the root,
+    # and it was not merely old - it had been generated in a folder holding no
+    # chapter pages, so it announced "0 pages written" and marked all 43 chapters
+    # unwritten. It was committed in that state. index_generator.py writes to the
+    # parent by default; anything of the same name left in files/ is a shadow.
+    parent = os.path.dirname(HERE)
+    for f in sorted(files):
+        # Dotfiles are the operating system's business, not the project's.
+        # .DS_Store exists in every directory on a Mac and differs in every one;
+        # reporting it as two generations of one file is noise, and a check that
+        # cries wolf is a check people stop reading.
+        if f.startswith('.'):
+            continue
+        twin = os.path.join(parent, f)
+        if not os.path.exists(twin):
+            continue
+        pairs = True
+        here_b = open(os.path.join(HERE, f), 'rb').read()
+        there_b = open(twin, 'rb').read()
+        print("   %s exists in BOTH files/ and the chapter folder" % f)
+        print("      files/%-28s %7d bytes" % (f, len(here_b)))
+        print("      ../%-31s %7d bytes" % (f, len(there_b)))
+        if here_b == there_b:
+            print("      -> identical; the copy in files/ is redundant")
+        else:
+            print("      -> DIFFERENT. The chapter folder holds the one the pages link to.")
+
     if not pairs:
         print("   none")
 

@@ -693,7 +693,9 @@ unclaimed land points, which is what it was built for.
    injection added to the five it already knew about. Verified: 01–11 `style-only`,
    12–31 `identical`.
 
-31. **`svg_plague.txt` holds the wrong figure, and every existing guard passes
+31. ~~**`svg_plague.txt` holds the wrong figure**~~ **CLOSED, Sept 2026** — `recover_svg_plague.py --replace` restored chapter 15's Black Death map from the shipped page, the two files no longer collide, and `figcheck` reports 0 stale. Part D still cannot rebuild, so nothing ships from it yet, but the landmine under open item 4 is gone. Original entry follows.
+
+   **`svg_plague.txt` held the wrong figure, and every existing guard passes
    it.** `figs_27.py` once wrote its first figure to `svg_plague.txt`. That is
    chapter 15's filename: `build_part_d.py` maps `SVG_PLAGUE` → `svg_plague.txt`
    for the Black Death arrival map. The script was renamed to write
@@ -758,13 +760,65 @@ unclaimed land points, which is what it was built for.
    claim. Only the ten-section structure and the 18-month closing interval survived
    unaltered.
 
-36. **Two data gaps block figures in chapter 32.** Figure (b) needs the Slesvig
+36. ~~**Two data gaps block figures in chapter 32.**~~ **PARTLY CLOSED, Sept 2026.** Figure (b) is built: Schleswig's 44 came from the published 1836 membership list, and Holstein's 48 is COUNTED from the 1835/36 list rather than taken from the decree — the figure says `counted, not decreed` on its face and `figs_32.py` records what would close it. Figure (c) is REPLACED: the Zealand kapitelstakst exists in Statistiske Meddelelser 4. Raekke, 15. Bind, Haefte I and was not obtainable, so the figure draws the attested ratios and a chronology and states that the series exists and is not plotted here. Both remain worth closing properly. Original entry follows.
+
+   **Two data gaps blocked figures in chapter 32.** Figure (b) needs the Slesvig
    and Itzehoe seat counts; Roskilde (70 = 60 elected + 10 royal) and Viborg (55 =
    48 + 7) are sourced and the arithmetic reconciles. Figure (c) needs the
    year-by-year values of the Zealand *kapitelstakst* for a tønde of rye, 1815–48,
    after Scharling; the series is published and **there is a currency break at
    1813/14**, so the chart must not be extended back across it. Neither is a
    judgement; both are document fetches.
+
+37. **Adding a token to `style.css` requires the exact `"; "` spacing, or
+   `debuild.py`'s drop list silently misses it.** Part H needed a band colour, so
+   `--slate:#4F6470` went in beside `--indigo`. The first insertion was
+   `--indigo:#2F4C7A;--slate:...`, without the space. `debuild` drops tokens the
+   page never had by matching `(--[a-z]+:#[0-9A-Fa-f]{6}; )` — with a trailing
+   space — so removing `--slate` from the reconstruction left
+   `--indigo:#2F4C7A;--band` where all thirty-one shipped pages have
+   `--indigo:#2F4C7A; --band`. One character. **Verify went from 20 `identical`
+   to 31 `style-only` in a single edit**, and the only reason it was caught in
+   minutes rather than shipped is that `build_part_h.py`'s docstring had been
+   written to predict exactly that symptom before the token was added. Corrected;
+   back to 21 `identical`, 11 `style-only`. Write the prediction down before
+   making the change, not after.
+
+38. **`files/danish-history-index.html` was a corrupt shadow of the real index,
+   committed.** It announced **"0 pages written"** and marked all forty-three
+   chapters unwritten, because it had been generated in a folder holding no
+   chapter pages — open item 2's container-path bug, fossilised. The live index is
+   at the chapter-folder root, which is where `index_generator.py` writes and what
+   every page links to. `tidy.py` finding 5 could not see it: that check compares
+   names within `files/` only, and this was the same name in two directories.
+   Finding 5 now walks both. **Delete `files/danish-history-index.html`** — it is
+   tracked, so git keeps it.
+
+39. **Figure output is not byte-identical across machines.** `map_1814.py`
+   produced 109,561 characters in the container and 109,569 on the Mac, from the
+   same source and the same atlas. Coordinates are formatted `%.1f`, which is
+   deterministic, so it is not float drift and the cause is not established.
+   Consequence, and the reason it does not matter much: the generated figures that
+   go into the pages are the ones generated on the machine that runs the build,
+   and `figcheck.py` compares page against disk on that same machine, so both
+   sides agree. **It is a further reason never to hand over or commit a generated
+   file** — only the generator. See item 33.
+
+40. **`cairosvg` is not installed on the Mac, so `M.rasterise` writes nothing
+   there and every figure script prints that figures were NOT visually checked.**
+   The three chapter 32 figures were rasterised and looked at in the container
+   instead, and looking caught two faults no guard did: a two-column layout in
+   `figs_32.py` where the left column printed straight through the right one while
+   both sat inside the canvas, and three colliding labels on the 1814 map.
+   `overruns` tests the canvas edge and nothing else; **there is no collision
+   guard**. `mapdump.py` builds a browser contact sheet without cairosvg and is
+   the fallback until `brew install cairo && pip3 install cairosvg` is done.
+
+   Measured while fixing it, off the raster rather than assumed: **mapt 5.68,
+   mapx 5.63, mapl 6.98 units per character.** The 6.1 the guard uses is
+   conservative for the two small classes and **too small for `mapl`**, so a long
+   heading can overrun without being flagged. That is a live under-detection, and
+   it belongs with open item 10.
 
 
 ## What Part G taught

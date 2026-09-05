@@ -421,10 +421,11 @@ HAND = {
           "could vote, a wider share than any country in Europe; women could not, whatever "
           "they owned, and Jews could vote but not be elected."),
          ("s07", "SVG_RYE",
-          "Figure 3 \u00b7 The price of a t\u00f8nde of rye, 1815\u20131848",
-          "The Zealand kapitelstakst in rigsbankdaler. The collapse to the late 1820s is "
-          "\u00a702's crisis and the recovery is \u00a707's boom, and no prose in the "
-          "chapter can do what one line does here.")],
+          "Figure 3 \u00b7 A fifth of what it had been",
+          "The collapse of 1818\u201328 and the recovery after it, drawn from the ratios the "
+          "sources actually state rather than from an annual price line. The continuous "
+          "Zealand kapitelstakst for rye exists in print from 1651; its year-by-year values "
+          "were not obtained, and the figure says so instead of estimating them.")],
  ),
 }
 

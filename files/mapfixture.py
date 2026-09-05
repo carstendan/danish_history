@@ -130,6 +130,12 @@ KNOWN_UNCLAIMED = {
     1600: [((10.55, 53.4, 11.2, 54.3), "Lübeck, a free imperial city, capped out of Holstein"),
            ((27.5, 59.5, 31.5, 68.5), "Karelia and the White Sea lands east of the border"),
            ((24.0, 68.0, 31.5, 71.6), "no fixed border in the far north")],
+    1814: [((10.55, 53.4, 11.2, 54.3),
+            "L\u00fcbeck, a free city, capped out of Holstein - and, from 1815, the "
+            "duchy of Lauenburg, which this map marks with a dot and does not draw. "
+            "One box, two reasons: see map_1814's third decision."),
+           ((27.5, 59.5, 31.5, 68.5), "Karelia and the White Sea lands east of the border"),
+           ((24.0, 68.0, 31.5, 71.6), "no fixed border in the far north")],
     1721: [((10.55, 53.4, 11.2, 54.3), "Lübeck, a free imperial city, capped out of Holstein"),
            ((27.5, 59.5, 31.5, 68.5), "Karelia and the White Sea lands east of the border"),
            ((24.0, 68.0, 31.5, 71.6), "no fixed border in the far north")],
@@ -200,6 +206,42 @@ CURATED = {
     ("Gotland", 18.30, 57.63, "GOTLAND"), ("Visby", 18.29, 57.64, "GOTLAND"),
     ("Fårö", 19.05, 57.90, "GOTLAND"),
  ],
+ 1814: [
+    ("Ribe", 8.76, 55.33, "DENMARK"), ("Aarhus", 10.20, 56.16, "DENMARK"),
+    ("Odense", 10.39, 55.40, "DENMARK"), ("Aalborg", 9.92, 57.05, "DENMARK"),
+    ("K\u00f8benhavn", 12.57, 55.68, "DENMARK"), ("Helsing\u00f8r", 12.615, 56.035, "DENMARK"),
+    ("R\u00f8nne, Bornholm", 14.70, 55.10, "BORNHOLM"),
+    ("Hasle, Bornholm", 14.71, 55.19, "BORNHOLM"),
+    ("Svaneke, Bornholm", 15.14, 55.14, "BORNHOLM"),
+    # Norway is drawn, in the lost tone, so these must still resolve to NORWAY.
+    # If a later map drops it, these become None - and that change should be
+    # deliberate, which is why they are here.
+    ("Oslo", 10.75, 59.91, "NORWAY"), ("Trondhjem", 10.40, 63.43, "NORWAY"),
+    ("Bergen", 5.32, 60.39, "NORWAY"), ("Troms\u00f8", 18.96, 69.65, "NORWAY"),
+    ("R\u00f8ros", 11.38, 62.57, "NORWAY"),
+    # The Eider is now two lines at once: the ducal border and the northern limit
+    # of the German Confederation. These four pairs straddle it, and they are the
+    # cases that matter on this map.
+    ("Haderslev", 9.49, 55.25, "SLESVIG"), ("Flensburg", 9.44, 54.78, "SLESVIG"),
+    ("T\u00f8nder", 8.87, 54.94, "SLESVIG"), ("Slesvig by", 9.57, 54.52, "SLESVIG"),
+    ("Kiel", 10.14, 54.32, "HOLSTEN"), ("Rendsburg", 9.66, 54.30, "HOLSTEN"),
+    ("Itzehoe", 9.52, 53.92, "HOLSTEN"),
+    # Ratzeburg is where the Lauenburg marker sits, and it resolves to NOTHING.
+    # That was not what I assumed when I wrote the map: I had it that Lauenburg's
+    # ground fell inside HOLSTEN and was assigned there, and the fixture said no
+    # on the first run. Lauenburg was a duchy in its own right, east of Holstein,
+    # and the polygon correctly excludes it. So the marker stands on uncoloured
+    # ground, which is honest - the map asserts a place and not an extent - and
+    # the case is pinned to None so that anyone who later adds a Lauenburg region
+    # has to come here and change it deliberately.
+    ("Ratzeburg (Lauenborg marker)", 10.77, 53.70, None),
+    ("Meldorf", 9.07, 54.09, "DITMARSKEN"), ("Heide", 9.10, 54.20, "DITMARSKEN"),
+    ("Brunsb\u00fcttel", 9.14, 53.90, "DITMARSKEN"),
+    # Sweden now holds Norway as well as the old eastern provinces; none of it is
+    # this map's colour.
+    ("Stockholm", 18.07, 59.33, None), ("Malm\u00f6", 13.00, 55.60, None),
+    ("Helsingborg", 12.694, 56.046, None), ("Halmstad", 12.86, 56.67, None),
+    ("Visby", 18.29, 57.64, None), ("Kalmar", 16.36, 56.66, None)],
  1721: [
     ("Ribe", 8.76, 55.33, "DENMARK"), ("Aarhus", 10.20, 56.16, "DENMARK"),
     ("Odense", 10.39, 55.40, "DENMARK"), ("Aalborg", 9.92, 57.05, "DENMARK"),
@@ -316,6 +358,11 @@ PANEL = {
         # gone in 1468-69, so they must belong to nothing on this map
         ("Lerwick", -1.15, 60.15, None), ("Kirkwall", -2.96, 58.98, None),
         ("Dunnet Head", -3.37, 58.67, None)],
+ 1814: [("Qaqortoq", -46.03, 60.72, "GREENLAND"), ("Nuuk", -51.72, 64.18, "GREENLAND"),
+    ("NE Greenland", -22.00, 67.40, "GREENLAND"),
+    ("Reykjav\u00edk", -21.94, 64.15, "ICELAND"), ("Akureyri", -18.09, 65.68, "ICELAND"),
+    ("T\u00f3rshavn", -6.77, 62.01, "FAROES"),
+    ("Lerwick", -1.15, 60.15, None), ("Kirkwall", -2.96, 58.98, None)],
  1721: [("Qaqortoq", -46.03, 60.72, "GREENLAND"), ("Nuuk", -51.72, 64.18, "GREENLAND"),
     ("Reykjav\u00edk", -21.94, 64.15, "ICELAND"), ("T\u00f3rshavn", -6.77, 62.01, "FAROES"),
     ("Lerwick", -1.15, 60.15, None), ("Kirkwall", -2.96, 58.98, None)],
@@ -339,6 +386,7 @@ def maps():
     import map_1600 as m16
     import map_1660 as m66
     import map_1721 as m21
+    import map_1814 as m14
     return [
         dict(year=1397, mod=m97, envelope=SCANDINAVIA, bbox=(3.0, 53.0, 31.0, 71.5),
              regions=["DENMARK", "BORNHOLM", "SLESVIG", "NORWAY", "SWEDEN", "GOTLAND"],
@@ -364,6 +412,19 @@ def maps():
         # 1721: the ceded provinces are no longer drawn, so the envelope narrows back
         # to the 1600 shape - Sweden is simply not this map's business any more.
         dict(year=1721, mod=m21, envelope=DENMARK_NORWAY_1721,
+             bbox=(3.0, 53.0, 31.0, 71.5),
+             regions=["DENMARK", "BORNHOLM", "SLESVIG", "HOLSTEN", "DITMARSKEN", "NORWAY"],
+             panel=["GREENLAND", "ICELAND", "FAROES"]),
+        # 1814: Norway is ceded but still DRAWN, in the lost tone, exactly as the
+        # Scanian provinces were on 1660 - so it is a region the coverage layer must
+        # assign, and the envelope stays the 1721 shape rather than shrinking to
+        # Denmark and the duchies. LAUENBURG IS NOT A REGION AND HAS NO CURATED
+        # CASES: map_1814 marks it with a dot rather than drawing it, because no
+        # measured outline for a 1,200 km2 duchy exists in this project and none can
+        # be derived from the atlas. Its ground falls inside HOLSTEN here and is
+        # assigned there, so coverage is not left with a hole. If a polygon is ever
+        # digitised, add the region and at least three cases with it.
+        dict(year=1814, mod=m14, envelope=DENMARK_NORWAY_1721,
              bbox=(3.0, 53.0, 31.0, 71.5),
              regions=["DENMARK", "BORNHOLM", "SLESVIG", "HOLSTEN", "DITMARSKEN", "NORWAY"],
              panel=["GREENLAND", "ICELAND", "FAROES"]),

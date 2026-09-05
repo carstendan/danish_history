@@ -1,0 +1,258 @@
+<svg viewBox="0 0 700 534" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagram of the four advisory provincial assemblies established for the Danish monarchy by two ordinances of 28 May 1831 and four decrees of 15 May 1834. Roskilde sat for the islands with seventy members, Viborg for north Jutland with fifty-five, the town of Schleswig for the duchy of Schleswig with forty-four, and Itzehoe for Holstein with forty-eight. Two conducted business in Danish and two in German. All four were advisory only: they could be shown draft laws and could propose laws, and the king could ignore them. About one inhabitant in forty could vote, a wider share than any other country in Europe at the time, but every voter had to own land, women were excluded whatever they owned, Jews could vote but not be elected, and clergy could not be elected but could be appointed by the king. The Holstein figure is counted from a membership list rather than taken from the decree, and is marked on the figure as such.">
+  <rect x="0" y="0" width="700" height="534" fill="#F0F2EE"/>
+  <text x="26" y="30" class="mapl">FOUR ASSEMBLIES, TWO LANGUAGES, NO POWER</text>
+  <text x="26" y="46" class="mapt">ordinances of 28 May 1831; decrees of 15 May 1834; first sittings 1835 and 1836</text>
+  <text x="26" y="78" class="mapx">ROSKILDE</text>
+  <text x="26" y="92" class="mapt">the islands · Danish</text>
+  <rect x="26" y="104" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="36" y="104" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="46" y="104" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="56" y="104" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="66" y="104" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="76" y="104" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="86" y="104" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="96" y="104" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="106" y="104" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="116" y="104" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="126" y="104" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="136" y="104" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="26" y="114" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="36" y="114" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="46" y="114" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="56" y="114" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="66" y="114" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="76" y="114" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="86" y="114" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="96" y="114" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="106" y="114" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="116" y="114" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="126" y="114" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="136" y="114" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="26" y="124" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="36" y="124" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="46" y="124" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="56" y="124" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="66" y="124" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="76" y="124" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="86" y="124" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="96" y="124" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="106" y="124" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="116" y="124" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="126" y="124" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="136" y="124" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="26" y="134" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="36" y="134" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="46" y="134" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="56" y="134" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="66" y="134" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="76" y="134" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="86" y="134" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="96" y="134" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="106" y="134" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="116" y="134" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="126" y="134" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="136" y="134" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="26" y="144" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="36" y="144" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="46" y="144" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="56" y="144" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="66" y="144" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="76" y="144" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="86" y="144" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="96" y="144" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="106" y="144" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="116" y="144" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="126" y="144" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="136" y="144" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="26" y="154" width="7" height="7" fill="none" stroke="#7C8CA8" stroke-width="1"/>
+  <rect x="36" y="154" width="7" height="7" fill="none" stroke="#7C8CA8" stroke-width="1"/>
+  <rect x="46" y="154" width="7" height="7" fill="none" stroke="#7C8CA8" stroke-width="1"/>
+  <rect x="56" y="154" width="7" height="7" fill="none" stroke="#7C8CA8" stroke-width="1"/>
+  <rect x="66" y="154" width="7" height="7" fill="none" stroke="#7C8CA8" stroke-width="1"/>
+  <rect x="76" y="154" width="7" height="7" fill="none" stroke="#7C8CA8" stroke-width="1"/>
+  <rect x="86" y="154" width="7" height="7" fill="none" stroke="#7C8CA8" stroke-width="1"/>
+  <rect x="96" y="154" width="7" height="7" fill="none" stroke="#7C8CA8" stroke-width="1"/>
+  <rect x="106" y="154" width="7" height="7" fill="none" stroke="#7C8CA8" stroke-width="1"/>
+  <rect x="116" y="154" width="7" height="7" fill="none" stroke="#7C8CA8" stroke-width="1"/>
+  <text x="26" y="176" class="mapl">70</text>
+  <text x="26" y="189" class="mapt">60 elected, 10 appointed</text>
+  <text x="26" y="202" class="mapt">first sat 1 Oct 1835</text>
+  <text x="188" y="78" class="mapx">VIBORG</text>
+  <text x="188" y="92" class="mapt">north Jutland · Danish</text>
+  <rect x="188" y="104" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="198" y="104" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="208" y="104" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="218" y="104" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="228" y="104" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="238" y="104" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="248" y="104" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="258" y="104" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="268" y="104" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="278" y="104" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="288" y="104" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="298" y="104" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="188" y="114" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="198" y="114" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="208" y="114" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="218" y="114" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="228" y="114" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="238" y="114" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="248" y="114" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="258" y="114" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="268" y="114" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="278" y="114" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="288" y="114" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="298" y="114" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="188" y="124" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="198" y="124" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="208" y="124" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="218" y="124" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="228" y="124" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="238" y="124" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="248" y="124" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="258" y="124" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="268" y="124" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="278" y="124" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="288" y="124" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="298" y="124" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="188" y="134" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="198" y="134" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="208" y="134" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="218" y="134" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="228" y="134" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="238" y="134" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="248" y="134" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="258" y="134" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="268" y="134" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="278" y="134" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="288" y="134" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="298" y="134" width="7" height="7" fill="#7C8CA8"/>
+  <rect x="188" y="144" width="7" height="7" fill="none" stroke="#7C8CA8" stroke-width="1"/>
+  <rect x="198" y="144" width="7" height="7" fill="none" stroke="#7C8CA8" stroke-width="1"/>
+  <rect x="208" y="144" width="7" height="7" fill="none" stroke="#7C8CA8" stroke-width="1"/>
+  <rect x="218" y="144" width="7" height="7" fill="none" stroke="#7C8CA8" stroke-width="1"/>
+  <rect x="228" y="144" width="7" height="7" fill="none" stroke="#7C8CA8" stroke-width="1"/>
+  <rect x="238" y="144" width="7" height="7" fill="none" stroke="#7C8CA8" stroke-width="1"/>
+  <rect x="248" y="144" width="7" height="7" fill="none" stroke="#7C8CA8" stroke-width="1"/>
+  <text x="188" y="166" class="mapl">55</text>
+  <text x="188" y="179" class="mapt">48 elected, 7 appointed</text>
+  <text x="188" y="192" class="mapt">first sat 1836</text>
+  <text x="350" y="78" class="mapx">SLESVIG</text>
+  <text x="350" y="92" class="mapt">Schleswig · German</text>
+  <rect x="350" y="104" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="360" y="104" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="370" y="104" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="380" y="104" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="390" y="104" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="400" y="104" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="410" y="104" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="420" y="104" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="430" y="104" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="440" y="104" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="450" y="104" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="460" y="104" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="350" y="114" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="360" y="114" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="370" y="114" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="380" y="114" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="390" y="114" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="400" y="114" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="410" y="114" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="420" y="114" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="430" y="114" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="440" y="114" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="450" y="114" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="460" y="114" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="350" y="124" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="360" y="124" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="370" y="124" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="380" y="124" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="390" y="124" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="400" y="124" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="410" y="124" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="420" y="124" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="430" y="124" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="440" y="124" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="450" y="124" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="460" y="124" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="350" y="134" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="360" y="134" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="370" y="134" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="380" y="134" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="390" y="134" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="400" y="134" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="410" y="134" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="420" y="134" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <text x="350" y="156" class="mapl">44</text>
+  <text x="350" y="169" class="mapt">split not established</text>
+  <text x="350" y="182" class="mapt">first sat 11 Apr 1836</text>
+  <text x="512" y="78" class="mapx">ITZEHOE</text>
+  <text x="512" y="92" class="mapt">Holstein · German</text>
+  <rect x="512" y="104" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="522" y="104" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="532" y="104" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="542" y="104" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="552" y="104" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="562" y="104" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="572" y="104" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="582" y="104" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="592" y="104" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="602" y="104" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="612" y="104" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="622" y="104" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="512" y="114" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="522" y="114" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="532" y="114" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="542" y="114" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="552" y="114" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="562" y="114" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="572" y="114" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="582" y="114" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="592" y="114" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="602" y="114" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="612" y="114" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="622" y="114" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="512" y="124" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="522" y="124" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="532" y="124" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="542" y="124" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="552" y="124" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="562" y="124" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="572" y="124" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="582" y="124" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="592" y="124" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="602" y="124" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="612" y="124" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="622" y="124" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="512" y="134" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="522" y="134" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="532" y="134" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="542" y="134" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="552" y="134" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="562" y="134" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="572" y="134" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="582" y="134" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="592" y="134" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="602" y="134" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="612" y="134" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <rect x="622" y="134" width="7" height="7" fill="#7C8CA8" opacity=".55"/>
+  <text x="512" y="156" class="mapl">48</text>
+  <text x="512" y="169" class="mapt">counted, not decreed</text>
+  <text x="512" y="182" class="mapt">first sat 1 Oct 1835</text>
+  <line x1="26" y1="246" x2="674" y2="246" stroke="#C9CDC4" stroke-width="1"/>
+  <text x="26" y="268" class="mapx">WHO COULD VOTE</text>
+  <text x="26" y="286" class="mapt">Every voter a landowner. In the country, four tønder hartkorn; five on</text>
+  <text x="26" y="300" class="mapt">hereditary lease. In a market town, property worth a thousand rigsdaler.</text>
+  <text x="26" y="314" class="mapt">Twice that to stand. Vote at twenty-five, stand at thirty-five.</text>
+  <text x="26" y="328" class="mapt">About one inhabitant in forty — a wider share than any country in Europe.</text>
+  <text x="26" y="360" class="mapx">AND WHO COULD NOT</text>
+  <text x="26" y="378" class="mapt">Women — whatever they owned, and with no exception.</text>
+  <text x="26" y="392" class="mapt">Jews could vote. They could not be elected.</text>
+  <text x="26" y="406" class="mapt">Clergy could not be elected either: a priest was to</text>
+  <text x="26" y="420" class="mapt">attend to his teaching office and not to politics.</text>
+  <text x="26" y="434" class="mapt">The king could appoint one.</text>
+  <line x1="26" y1="464" x2="674" y2="464" stroke="#C9CDC4" stroke-width="1"/>
+  <text x="26" y="482" class="mapt">They could be shown draft laws and could propose laws. They could pass none, and the king</text>
+  <text x="26" y="496" class="mapt">could ignore them. Sittings were closed. Eleven years on, the argument the arrangement was</text>
+  <text x="26" y="510" class="mapt">built to disperse broke out inside the one at Slesvig.</text>
+  </svg>

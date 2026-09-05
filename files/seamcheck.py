@@ -75,13 +75,20 @@ SETS = {
     1660: ["DENMARK", "BORNHOLM", "SLESVIG", "HOLSTEN", "DITMARSKEN", "NORWAY",
            "SCANIA", "NO_LOST", "GOTLAND", "OESEL"],
     1721: ["DENMARK", "BORNHOLM", "SLESVIG", "HOLSTEN", "DITMARSKEN", "NORWAY"],
+    # 1814 inherits every polygon unchanged from 1660 by way of 1721, so the seams
+    # cannot have drifted - but that is the reason to test them, not to skip them.
+    # Lauenburg is absent because map_1814 marks it rather than drawing it and it
+    # therefore has no border to share.
+    1814: ["DENMARK", "BORNHOLM", "SLESVIG", "HOLSTEN", "DITMARSKEN", "NORWAY"],
 }
 
 
 def main():
     import map_1397 as m97, map_1500 as m00, map_1600 as m16, map_1660 as m66, map_1721 as m21
+    import map_1814 as m14
     fail = 0
-    for year, mod in ((1397, m97), (1500, m00), (1600, m16), (1660, m66), (1721, m21)):
+    for year, mod in ((1397, m97), (1500, m00), (1600, m16), (1660, m66), (1721, m21),
+                      (1814, m14)):
         bad = check_seams(mod, SETS[year])
         print("MAP %d   %s" % (year, "every shared border is shared exactly"
                                if not bad else "FAIL, %d vertices inside a neighbour" % len(bad)))
