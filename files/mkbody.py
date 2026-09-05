@@ -15,10 +15,13 @@ body first (lesson 10). A checkpoint written here would be silently deleted.
     python3 mkbody.py             # all seven
 """
 import html
+import os
 import re
 import sys
 
-DRAFT = "PART_G_DRAFT.md"
+# The draft to read. Overridable, because this script was written against Part G
+# and Part H's chapters live in their own files: DK_DRAFT=c32_draft.md.
+DRAFT = os.environ.get("DK_DRAFT", "PART_G_DRAFT.md")
 
 # ---------------------------------------------------------------- hand-authored
 # name, title, dates, people, hook, keys, five questions, figures.
@@ -379,6 +382,49 @@ HAND = {
           "fixed property in Denmark, Norway, Slesvig and Holstein, payable in silver or "
           "standing as a first mortgage at 6.5 per cent a year. Every house, farm and workshop "
           "in the realm was made security for the new notes."),],
+ ),
+ 32: dict(
+   file='c32_body.html',
+   part='Part H', band='The national century', num=32, dates='1814 \u2013 1848',
+   title='Golden Age and national awakening',
+   people='Christian 8. \u00b7 N.F.S. Grundtvig \u00b7 Peter Larsen Skr\u00e6ppenborg \u00b7 '
+          'Johanne Luise P\u00e4tges \u00b7 Peter Hiort Lorenzen \u00b7 Christian Flor',
+   hook="A bankrupt state that has just lost Norway hands control of its money to a bank it "
+        "does not run, prosecutes farm servants for praying in the wrong room, and pays for "
+        "the finest art it will ever produce. Then it concedes four assemblies with the "
+        "widest franchise in Europe and no power at all \u2014 and in one of them a merchant "
+        "from Haderslev stands up and speaks Danish.",
+   keys=['guldalder', 'gudelige forsamlinger', 'Konventikelplakaten', 'Nationalbanken',
+         'st\u00e6nderforsamling', 'hartkorn', 'kornsalgsperioden',
+         'Bondevennernes Selskab', 'sprogreskript', 'sprogpatent',
+         'slesvig-holstenisme', 'Ejderpolitik', 'folkeh\u00f8jskole', 'Det \u00e5bne Brev'],
+   qs=["Denmark swapped Swedish Pomerania for Lauenburg in 1815 and took cash as well. Why "
+       "was the smaller duchy worth more than the larger province?",
+       "An absolute monarchy gave away control of its currency in 1818 and control of "
+       "nothing else. What was it buying, and from whom?",
+       "The Konventikelplakat and the Bondecirkul\u00e6re were both used to stop people "
+       "organising, and both failed the same way. What was the mistake they shared?",
+       "The Golden Age was produced by a state that could not pay its debts. Does that "
+       "explain the art, or merely accompany it?",
+       "Christian 8.'s Open Letter of 1846 was meant to settle the succession. Why did it "
+       "leave both national movements angrier than it found them?"],
+   figs=[("s01", "SVG_TERR_1814",
+          "Figure 1 \u00b7 The realm after Kiel",
+          "Norway is gone. What is left includes two duchies \u2014 Holstein, and Lauenburg "
+          "from 1815 \u2014 that are simultaneously member states of the German "
+          "Confederation, whose northern limit is the Eider. The line across the bottom of "
+          "this map is the whole of Part H's problem."),
+         ("s06", "SVG_ASSEMBLIES",
+          "Figure 2 \u00b7 Four assemblies, 1834",
+          "Seats and franchise from the four decrees of 15 May 1834. Two Danish bodies and "
+          "two German ones, with the same powers and no power. About one Dane in forty "
+          "could vote, a wider share than any country in Europe; women could not, whatever "
+          "they owned, and Jews could vote but not be elected."),
+         ("s07", "SVG_RYE",
+          "Figure 3 \u00b7 The price of a t\u00f8nde of rye, 1815\u20131848",
+          "The Zealand kapitelstakst in rigsbankdaler. The collapse to the late 1820s is "
+          "\u00a702's crisis and the recovery is \u00a707's boom, and no prose in the "
+          "chapter can do what one line does here.")],
  ),
 }
 

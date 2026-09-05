@@ -760,26 +760,44 @@ Christian 8. died eighteen months later with nothing settled.
 
 ## Questions
 
-**Recall.** What did Denmark exchange for the duchy of Lauenburg in June 1815,
-and what else did it receive in the same transaction? In what year did the four
-advisory assemblies first meet, and where?
+**Recall.**
 
-**Causal.** The Konventikelplakat and the Bondecirkulære were both attempts to
-restrict organisation, and both were followed by the movement in question growing
-faster. What did the two prohibitions have in common that made them
-counter-productive — and why was fining Peter Larsen Skræppenborg an ineffective
-punishment specifically?
+1. What did Denmark exchange for the duchy of Lauenburg in June 1815, and what
+   else did it receive in the same transaction?
+2. Where did the four advisory assemblies sit, and in which years did each of
+   them first meet?
+3. What did the language patent of 29 March 1844 actually permit, and to whom?
 
-**Counterfactual.** Suppose the language rescript of 1840 had never been issued
-and administration in northern Schleswig had continued in German. Would the
-national conflict of the 1840s have taken a different form, or was the rescript
-simply the occasion for something that was going to happen anyway?
+**Causal.**
 
-**Contested.** §05 argues that the Golden Age was subsidised — that the state
-chose which work got made and by whom, and that this explains more than talent
-does. The obvious objection is that funding does not produce genius and that the
-argument mistakes a condition for a cause. Which side of that do you find more
-convincing, and what evidence would settle it?
+1. The Konventikelplakat and the Bondecirkulære were both attempts to restrict
+   organisation, and both were followed by the movement in question growing
+   faster. What did the two prohibitions have in common that made them
+   counter-productive?
+2. Why was fining Peter Larsen Skræppenborg an ineffective punishment
+   specifically?
+3. An absolute monarchy gave away control of its currency in 1818 and conceded
+   four powerless assemblies in 1831. Why those two things, and not others?
+
+**Counterfactual.**
+
+1. Suppose the language rescript of 1840 had never been issued and
+   administration in northern Schleswig had continued in German. Would the
+   national conflict of the 1840s have taken a different form, or was the
+   rescript merely the occasion for something already coming?
+2. Suppose Christian 8. had said nothing about the succession in 1846. Would
+   the duchies have been quieter in 1848, or only surprised later?
+
+**Contested.**
+
+1. §05 argues the Golden Age was subsidised — that the state chose which work
+   got made and by whom, and that this explains more than talent does. The
+   objection is that funding does not produce genius and that the argument
+   mistakes a condition for a cause. Which is more convincing, and what evidence
+   would settle it?
+2. This chapter gives two of its ten sections to religion and one to the whole
+   of the Golden Age. Most accounts reverse that. Which weighting tells you more
+   about what Denmark became?
 
 ---
 
