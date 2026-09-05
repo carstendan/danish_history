@@ -104,6 +104,23 @@ def _normalise(h):
     # comparison is about prose, which is what an artifact-only edit changes.
     h = re.sub(r'<svg\b.*?</svg>', '{{FIG}}', h, flags=re.S)
     h = re.sub(r'\{\{SVG_[A-Z0-9_]+\}\}', '{{FIG}}', h)
+    # The SIXTH injection, and the one that made this tool contradict the build
+    # routine (open item 8). linkindex.py is a post-processor: it walks finished
+    # pages and adds two links back to the index, a crumb span and a footer tail.
+    # A retained body has never seen either. So a page that has been through the
+    # documented sequence - build, linkindex, index_generator, upload - drifted
+    # against its own source by construction, and every chapter with a body
+    # reported BODY DRIFT.
+    #
+    # That never surfaced because linkindex was not re-run after the Parts E-G
+    # rebuilds, so chapters 16-31 shipped with no index links and matched their
+    # bodies for the wrong reason. Running it as documented turned the whole
+    # book red at once.
+    #
+    # These are furniture, not prose. Strip them from both sides, exactly as the
+    # checkpoints and the reading-time line are stripped above.
+    h = re.sub(r'\n\s*<span><a href="[^"]*#c\d\d"[^>]*>[^<]*</a></span>', '', h)
+    h = re.sub(r'\s*&middot;\s*<a href="[^"]*#c\d\d"[^>]*>[^<]*</a>', '', h)
     return h.strip()
 
 

@@ -1,8 +1,14 @@
 # -*- coding: utf-8 -*-
 """Chapter 27's two non-map figures. The third is the 1721 spine map.
 
-  svg_plague.txt   what the state did, and what it could not count
-  svg_schools.txt  two hundred and forty-one schools in six years
+  svg_plague_1711.txt  what the state did, and what it could not count
+  svg_schools.txt      two hundred and forty-one schools in six years
+
+NOTE, Sept 2026. This script once wrote the first figure to `svg_plague.txt` and
+was renamed to `svg_plague_1711.txt` to stop it colliding with chapter 15's
+Black Death map, which `build_part_d.py` inlines from `svg_plague.txt`. The
+rename was made; the damage was not undone, and `svg_plague.txt` still holds a
+copy of the 1711 figure. Do not point this script back at that name.
 
 THE PLAGUE FIGURE IS NOT THE ONE THAT WAS PLANNED. The plan called for a weekly
 burial curve from the parish bills. The bills are in Koebenhavns Stadsarkiv and
@@ -179,7 +185,9 @@ def schools():
     o = ['<svg viewBox="0 0 %d %d" xmlns="http://www.w3.org/2000/svg" role="img" '
          'aria-label="Diagram of the royal cavalry-district schools ordered in March 1721. '
          'Twelve districts at twenty schools each were planned, two hundred and forty in all, and '
-         'two hundred and forty were built between 1722 and 1727, and one more on Bog\u00f8 by '
+         'two hundred and forty were built between 1722 and 1727, though not twenty to every '
+         'district: the number built per district varied while the total held. One more went up '
+         'on Bog\u00f8 by '
          'royal resolution of 11 June 1727, outside the twelve districts, making two hundred '
          'and forty-one. Every one was to the same drawing, 13.2 metres by 7.5, and the budget '
          'figure was 550 rigsdaler each, though a costing of March 1722 put a single building '
@@ -191,7 +199,7 @@ def schools():
              'built 1722\u201327</text>')
 
     # twelve districts of twenty, drawn as twelve blocks of twenty marks
-    o.append('<text x="26" y="80" class="mapx">TWELVE DISTRICTS, TWENTY SCHOOLS EACH</text>')
+    o.append('<text x="26" y="80" class="mapx">TWELVE DISTRICTS, TWENTY SCHOOLS EACH AS ORDERED</text>')
     n = 0
     for d in range(DISTRICTS):
         col, row = d % 4, d // 4
