@@ -131,7 +131,11 @@ class Frame:
             pts = clip_rect(pts, 0, 0, self.W, self.H)
         if len(pts) < 2:
             return ""
-        d = "M" + " L".join(f"{x:.{prec}f} {y:.{prec}f}" for x, y in pts)
+        # Collapse negative zero; see the note in mapspine.emit_path. A
+        # coordinate that rounds to nothing keeps the sign of the float beneath
+        # it, and that sign is not guaranteed to be the same on two machines.
+        d = "M" + " L".join(f"{round(x, prec) + 0.0:.{prec}f} "
+                            f"{round(y, prec) + 0.0:.{prec}f}" for x, y in pts)
         return d + " Z" if close else d
 
     def land_path(self, polys, min_pts=4, prec=1):

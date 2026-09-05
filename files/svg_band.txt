@@ -1,5 +1,5 @@
-<svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A chart of the ages at which a man of the Danish peasantry was bound to the estate of his birth. From February 1733 the band ran from fourteen to thirty-six; in 1742 it widened to nine to forty; in 1764 to four to forty; the ordinance of 20 June 1788 returned it at once to fourteen to thirty-six, and the bond ended altogether on 1 January 1800.">
-  <rect x="0" y="0" width="700" height="430" fill="#F0F2EE"/>
+<svg viewBox="0 0 700 448" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A chart of the ages at which a man of the Danish peasantry was bound to the estate of his birth. From February 1733 the band ran from fourteen to thirty-six; in 1742 it widened to nine to forty; in 1764 to four to forty; the ordinance of 20 June 1788 returned it at once to fourteen to thirty-six, and the bond ended altogether on 1 January 1800.">
+  <rect x="0" y="0" width="700" height="448" fill="#F0F2EE"/>
   <text x="26" y="30" class="mapl">THE BOUND YEARS</text>
   <text x="26" y="46" class="mapt">the ages at which a countryman could not leave the estate he was born on</text>
   <line x1="96" y1="300.0" x2="646" y2="300.0" stroke="#C9CDC4" stroke-width=".6"/>

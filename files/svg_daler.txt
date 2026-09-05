@@ -1,5 +1,5 @@
-<svg viewBox="0 0 700 486" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A diagram of the Danish currency reform of 5 January 1813. Six old kurantdaler notes were exchanged for one new rigsbankdaler, writing off five sixths of the paper money. The new issue was capped at forty-six million rigsbankdaler, of which twenty-seven million were for the exchange and fifteen million a war fund. The silver behind it was raised by a charge of six per cent on the value of all fixed property in the realm.">
-  <rect x="0" y="0" width="700" height="486" fill="#F0F2EE"/>
+<svg viewBox="0 0 700 502" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A diagram of the Danish currency reform of 5 January 1813. Six old kurantdaler notes were exchanged for one new rigsbankdaler, writing off five sixths of the paper money. The new issue was capped at forty-six million rigsbankdaler, of which twenty-seven million were for the exchange and fifteen million a war fund; the remaining four million is not accounted for in the sources used here. The silver behind it was raised by a charge of six per cent on the value of all fixed property in the realm.">
+  <rect x="0" y="0" width="700" height="502" fill="#F0F2EE"/>
   <text x="26" y="30" class="mapl">SIX FOR ONE</text>
   <text x="26" y="46" class="mapt">the money reform of 5 January 1813, called the state bankruptcy afterwards</text>
   <text x="26" y="86" class="mapx">BEFORE</text>
@@ -29,12 +29,15 @@
   <text x="26" y="296" class="mapt">mortgage on the property at 6.5 per cent a year.</text>
   <text x="26" y="320" class="mapt" fill="#2F4C7A">Every house, farm and workshop in the realm was made security for the new notes.</text>
   <text x="26" y="364" class="mapx">AND A CEILING</text>
+  <rect x="26" y="380" width="500" height="22" fill="#5F6157" opacity=".14"/>
   <rect x="26" y="380" width="293.5" height="22" fill="#2F4C7A" opacity=".50"/>
   <rect x="319.5" y="380" width="163.0" height="22" fill="#8A2B2B" opacity=".50"/>
   <text x="172.7" y="395" class="mapt" text-anchor="middle">27 m — the exchange</text>
   <text x="401.0" y="395" class="mapt" text-anchor="middle">15 m — war</text>
-  <text x="26" y="420" class="mapt">46 million rigsbankdaler, and never more</text>
-  <line x1="26" y1="434" x2="674" y2="434" stroke="#C9CDC4" stroke-width="1"/>
-  <text x="26" y="454" class="mapt">It was not a bankruptcy: nothing was declared insolvent and no creditor's claim was</text>
-  <text x="26" y="467" class="mapt">extinguished. It was a write-down and a forced postponement, imposed on people with no vote.</text>
+  <text x="504.3" y="395" class="mapt" text-anchor="middle">4 m</text>
+  <text x="26" y="420" class="mapt">46 million rigsbankdaler, and never more — of which 4 m is not accounted</text>
+  <text x="26" y="434" class="mapt">for in the sources used here.</text>
+  <line x1="26" y1="450" x2="674" y2="450" stroke="#C9CDC4" stroke-width="1"/>
+  <text x="26" y="470" class="mapt">It was not a bankruptcy: nothing was declared insolvent and no creditor's claim was</text>
+  <text x="26" y="483" class="mapt">extinguished. It was a write-down and a forced postponement, imposed on people with no vote.</text>
   </svg>

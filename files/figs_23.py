@@ -47,7 +47,12 @@ JNEAR = (2.0, 50.0, 20.0, 62.0)
 
 
 def invasions():
-    W, H = 700, 452
+    # 452 cut the second caption line off entirely: its baseline sat at 462.
+    # The figure has been shipping in chapter 23 without its last sentence
+    # since it was written. overflows() would have said so, but this script
+    # only ever called validate() and overruns(); check() now runs all four
+    # from rasterise(). Found Sept 2026.
+    W, H = 700, 472
     pw, ph = 322, 372
     o = ['<svg viewBox="0 0 %d %d" xmlns="http://www.w3.org/2000/svg" role="img" '
          'aria-label="Two maps of Denmark side by side. In 1627 to 1629 imperial armies under '

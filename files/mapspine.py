@@ -12,6 +12,8 @@ top, which is what the index promises anyway.
 Palette and text classes follow the entries. The SVG carries no <style> of its
 own; .mapt/.mapl/.mapx are styled by the page stylesheet, as in entries 01-11.
 """
+import re
+
 from mapkit import load_land, Frame, simplify
 
 # ---------------------------------------------------------------- palette
@@ -196,7 +198,16 @@ def detail_land_path(f, polys, near, w, h):
         ys = [q[1] for q in pts]
         if max(xs) < -60 or min(xs) > w + 60 or max(ys) < -60 or min(ys) > h + 60:
             continue
-        out.append("M" + " L".join("%.1f %.1f" % q for q in pts) + " Z")
+        # NEGATIVE ZERO. "%.1f" % -0.00004 is "-0.0" and "%.1f" % 0.00004 is
+        # "0.0", so a coordinate that rounds to nothing carries the sign of the
+        # float underneath it - and that sign can differ between platforms for
+        # the same input. It made map_1814.py emit 109,561 characters in one
+        # place and 109,569 in another from identical source, which looked like
+        # a mystery until the first differing character turned out to be a minus.
+        # Adding 0.0 after rounding collapses -0.0 to 0.0; it is the only
+        # non-determinism in the whole map pipeline.
+        out.append("M" + " L".join("%.1f %.1f" % (round(a, 1) + 0.0, round(b, 1) + 0.0)
+                                   for a, b in pts) + " Z")
     return " ".join(out)
 
 
@@ -225,17 +236,139 @@ def validate(svg, name):
                          % (name, e.position[0], line))
 
 
+# Advance width per character, in user units, PER CLASS. Measured in Sept 2026 by
+# rendering a known string through rasterise() and reading the ink bounding box,
+# rather than assumed: mapt 5.68, mapx 5.63, mapl 6.98. The single constant 6.1
+# that stood here before was conservative for the two small classes and 13 per
+# cent TOO SMALL for mapl, so a long heading could run off the canvas without
+# being flagged. The values below carry roughly a tenth of slack above the
+# measurement, because a guard that under-estimates is worse than one that nags.
+#
+# If style.css changes a font-size or the --mono stack, re-measure. Do not adjust
+# these by eye.
+# THE MEASURED VALUES, with no percentage margin on top, because a percentage
+# margin on a per-character estimate compounds with line length: at 5.95 a
+# 149-character line in svg_titles.txt accumulated forty units of phantom
+# width and was reported as overrunning a canvas it fits inside. The cushion
+# belongs at the canvas edge instead, where it is a fixed six units and does
+# not grow with the sentence. Regression: the two-column collision in
+# figs_32.py still fires at these values, and it is the fault this exists for.
+CHAR_W = {'mapl': 6.98, 'mapt': 5.68, 'mapx': 5.63}
+CHAR_H = {'mapl': 10.5, 'mapt': 9.5, 'mapx': 8.5}
+DEFAULT_W, DEFAULT_H = 6.3, 9.5
+
+TEXT_RE = re.compile(r'<text x="([\d.-]+)" y="([\d.-]+)"[^>]*?'
+                     r'(?:class="([a-z]+)")?[^>]*>([^<]*)</text>')
+
+
+def _class_of(tag):
+    m = re.search(r'class="([a-z]+)"', tag)
+    return m.group(1) if m else None
+
+
+def text_boxes(svg):
+    """Every <text> as (x0, y0, x1, y1, cls, string).
+
+    Boxes are estimates. The anchor decides which side of x the string sits on;
+    the vertical extent is taken as three quarters of the font size above the
+    baseline and a quarter below, which is close enough for overlap testing and
+    deliberately generous.
+    """
+    # TEXT INSIDE A TRANSFORMED GROUP IS IN A DIFFERENT COORDINATE SPACE, and the
+    # first version of this ignored that and reported the 1807 figure's subtitle
+    # as colliding with a label 52 units below it on the map. Panels here are
+    # wrapped in a single <g transform="translate(dx,dy)">, so track that one form
+    # and apply it. Anything more elaborate is not produced by this project, and
+    # if it ever is, this needs to grow rather than to guess.
+    shifts, depth = [], []
+    pos = 0
+    events = []
+    for m in re.finditer(r'<g\b([^>]*)>|</g>', svg):
+        events.append((m.start(), m.end(), m.group(0), m.group(1)))
+
+    def shift_at(i):
+        dx = dy = 0.0
+        stack = []
+        for st, en, tag, attrs in events:
+            if st > i:
+                break
+            if tag == '</g>':
+                if stack:
+                    stack.pop()
+            else:
+                t = re.search(r'transform="translate\(([-\d.]+),\s*([-\d.]+)\)"', attrs or '')
+                stack.append((float(t.group(1)), float(t.group(2))) if t else (0.0, 0.0))
+        for a, b in stack:
+            dx += a
+            dy += b
+        return dx, dy
+
+    out = []
+    for m in re.finditer(r'<text\b([^>]*)>([^<]*)</text>', svg):
+        attrs, txt = m.group(1), m.group(2)
+        sdx, sdy = shift_at(m.start())
+        mx = re.search(r'\bx="([\d.-]+)"', attrs)
+        my = re.search(r'\by="([\d.-]+)"', attrs)
+        if not (mx and my and txt.strip()):
+            continue
+        x, y = float(mx.group(1)) + sdx, float(my.group(1)) + sdy
+        cls = _class_of(attrs)
+        cw = CHAR_W.get(cls, DEFAULT_W)
+        ch = CHAR_H.get(cls, DEFAULT_H)
+        w = len(txt) * cw
+        anchor = re.search(r'text-anchor="(\w+)"', attrs)
+        anchor = anchor.group(1) if anchor else 'start'
+        if anchor == 'end':
+            x0, x1 = x - w, x
+        elif anchor == 'middle':
+            x0, x1 = x - w / 2.0, x + w / 2.0
+        else:
+            x0, x1 = x, x + w
+        out.append((x0, y - ch * 0.75, x1, y + ch * 0.25, cls, txt))
+    return out
+
+
 def overruns(svg, name):
-    """Left-anchored text whose estimated width runs past the viewBox. Caught by
-    eye four times in Part F before it was written down."""
-    import re
-    w = int(re.search(r'viewBox="0 0 (\d+)', svg).group(1))
-    bad = [m.group(2)[:44] for m in
-           re.finditer(r'<text x="([\d.]+)"(?![^>]*text-anchor="(?:end|middle)")[^>]*>([^<]*)<',
-                       svg)
-           if float(m.group(1)) + len(m.group(2)) * 6.1 > w - 6]
+    """Text whose estimated width runs past the viewBox. Caught by eye four times
+    in Part F before it was written down. Now per-class; see CHAR_W."""
+    # Tolerate a viewBox with a non-zero origin. Every figure this project ships
+    # starts at "0 0", but check() now runs from rasterise() on whatever it is
+    # handed, including a cropped copy made to inspect one corner - and crashing
+    # on the inspection is a poor way to reward someone for looking.
+    vb = re.search(r'viewBox="([-\d.]+) ([-\d.]+) ([\d.]+) ([\d.]+)"', svg)
+    if not vb:
+        return []
+    ox, w = float(vb.group(1)), float(vb.group(1)) + float(vb.group(3))
+    bad = [t[:44] for (x0, y0, x1, y1, cls, t) in text_boxes(svg) if x1 > w - 6]
     for t in bad:
         print("   ! %s: text may overrun the canvas: %s" % (name, t))
+    return bad
+
+
+def collisions(svg, name, pad=1.0):
+    """Two pieces of text printing through each other.
+
+    THIS GUARD EXISTS BECAUSE overruns() CANNOT SEE THIS. In Sept 2026 the
+    assemblies figure was laid out in two columns at x=26 and x=380; the left
+    column ran to x=423 and printed straight through the right one, and every
+    check passed, because 423 is inside a 700-wide canvas. It was found by
+    looking at the raster, which is not a method that scales to 51 figures.
+
+    Overlap is only reported when boxes intersect on BOTH axes by more than pad,
+    so labels that merely sit close, or share a line, are left alone.
+    """
+    boxes = text_boxes(svg)
+    bad = []
+    for i in range(len(boxes)):
+        ax0, ay0, ax1, ay1, _, at = boxes[i]
+        for j in range(i + 1, len(boxes)):
+            bx0, by0, bx1, by1, _, bt = boxes[j]
+            ox = min(ax1, bx1) - max(ax0, bx0)
+            oy = min(ay1, by1) - max(ay0, by0)
+            if ox > pad and oy > pad:
+                bad.append((at[:34], bt[:34], ox))
+    for a, b, ox in bad:
+        print("   ! %s: text collides (%.0f units): %r over %r" % (name, ox, a, b))
     return bad
 
 
@@ -246,12 +379,15 @@ def overflows(svg, name):
     last caption line cut off at y=430 in a 430-high canvas. The automated guard
     could not see it and neither could the XML validator; only rasterising and
     looking did. This is that check, so it does not depend on looking."""
-    import re
-    m = re.search(r'viewBox="0 0 [\d.]+ ([\d.]+)"', svg)
-    h = float(m.group(1))
-    bad = [t.group(2)[:44] for t in
-           re.finditer(r'<text[^>]*\by="([\d.]+)"[^>]*>([^<]*)<', svg)
-           if float(t.group(1)) > h - 4]
+    # Same tolerance as overruns, and the same reason. Also: this now measures
+    # against the BOTTOM OF THE TEXT BOX rather than the baseline, and counts
+    # transformed groups, so a line whose descenders fall off the edge is caught
+    # even though its baseline sits inside. That is what svg_invasions.txt had.
+    vb = re.search(r'viewBox="([-\d.]+) ([-\d.]+) ([\d.]+) ([\d.]+)"', svg)
+    if not vb:
+        return []
+    h = float(vb.group(2)) + float(vb.group(4))
+    bad = [t[:44] for (x0, y0, x1, y1, cls, t) in text_boxes(svg) if y1 > h - 2]
     for t in bad:
         print("   ! %s: text below the bottom of the canvas: %s" % (name, t))
     return bad
@@ -264,6 +400,23 @@ def emit(svg, name, png=None):
     open(name, "w", encoding="utf-8").write(svg)
     rasterise(svg, png or "look_" + name.replace("svg_", "").replace(".txt", ".png"))
     print("wrote %s (%d chars)" % (name, len(svg)))
+
+
+def check(svg, name):
+    """Every automated guard, in one call, run before anything is written.
+
+    THE GUARDS WERE ONLY EVER WIRED INTO THE FIGURE SCRIPTS. `figs_23` through
+    `figs_32` call validate and overruns; the eleven map scripts call neither, so
+    no territorial map in the series has ever been width-checked. That is how
+    `svg_terr_1660.txt` came to ship with Helsingborg and Skaane printed into each
+    other, found in Sept 2026 by a collision guard written the same afternoon.
+
+    Call this from rasterise(), which every script already calls, and do it BEFORE
+    the cairosvg availability test - otherwise the checks are skipped on exactly
+    the machine that has no rasteriser and therefore cannot look instead.
+    """
+    validate(svg, name)
+    return overruns(svg, name) + overflows(svg, name) + collisions(svg, name)
 
 
 def rasterise(svg, path, extra=""):
@@ -280,6 +433,7 @@ def rasterise(svg, path, extra=""):
     possible: if you see this warning, inspect the SVGs another way. mapdump.py
     builds an HTML contact sheet that opens in a browser and needs no cairo.
     """
+    check(svg, path)
     try:
         import cairosvg
     except ImportError:
