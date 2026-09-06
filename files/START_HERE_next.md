@@ -1,4 +1,4 @@
-# START HERE — Part H drafting, tooling first, then chapter 32
+# START HERE — Part H, chapter 33
 
 **Paste everything below the line into a new chat. Attach nothing yet.**
 
@@ -6,44 +6,51 @@
 
 I'm writing a long-form digital history of Denmark: 43 chapters, c. 13,000 BCE to
 1953, as self-contained HTML pages for Danish readers at gymnasium level. Parts A–G
-are shipped. **Part H is chapters 32 to 36 and it is planned. This session does the
-tooling work the plan depends on, then drafts chapter 32. It does not re-plan.**
+are shipped and **chapter 32 is now shipped too**. Part H is chapters 32 to 36.
+**This session drafts and builds chapter 33.** It does not re-plan Part H.
 
-The project is in a git repository. The current version of a file is what is
-committed, not what happens to be in the folder.
+The project is in a git repository at `github.com/carstendan/danish_history`, and it
+is public. The current version of a file is what is committed, not what happens to
+be in the folder. **Clone it** — the whole toolchain runs in a container, and a
+session that can run its own verifiers is worth several that cannot.
 
 ## First: the cold run
 
-**Before reading a single planning document.** Every environment assumption this
-project has hit was found by running everything cold at the start, and every one
-that was not cost hours later. From `files/`, reporting what fails rather than
-working around it:
+**Before reading a single planning document.** From `files/`, reporting what fails
+rather than working around it:
 
 ```
+git status --short
 python3 tidy.py
 python3 mapfixture.py
 python3 seamcheck.py
-python3 debuild.py verify ../0?-*.html ../1?-*.html ../2?-*.html ../3?-*.html
+python3 debuild.py verify ../[0-9][0-9]-*.html
 DK_CHAPTERS="$PWD/.." python3 bookstats.py
 python3 vignettes.py .
-python3 narrative.py ../2[5-9]-*.html ../3[01]-*.html
+python3 vignettes.py --selftest
+python3 figcheck.py
+python3 narrative.py ../2[5-9]-*.html ../3[0-2]-*.html
 ```
 
-**Expected, as of the end of Part H planning:**
+**Expected, as of the end of the chapter 32 session:**
 
-- `tidy.py` — no collisions, no orphans. Missing: **ten** Part D figures, which have
-  no generators and cannot be remade. `svg_plague_1711.txt` should **no longer** be
-  listed; if it is, `figs_27.py` was not run.
-- `mapfixture.py`, `seamcheck.py` — pass on all five territorial maps.
-- `debuild.py verify` — `style-only` for chapters 01–11, `identical` for 12–31.
+- `tidy.py` — no collisions, **no orphans**, no two-generations. Missing: **ten**
+  Part D figures, which have no generators and cannot be remade. Nothing else.
+- `mapfixture.py`, `seamcheck.py` — pass on **six** maps; 1814 was added.
+- `debuild.py verify` — `style-only` for 01–11, `identical` for **12–32**.
   `style-only` is not damage. **Anything reporting `BODY DRIFT` is serious.**
-- `bookstats.py` — 43 in the spine, 31 built. Chapters 01–15 still carry reading
-  times two to three minutes high and cannot be rebuilt.
-- `vignettes.py` — three per chapter for 16–31. It does **not** check balance; that
-  is this session's work.
-- `narrative.py` — apparatus constant close to 3,508. It should report nine or ten
-  sections per chapter, **not** ten or eleven; if it reports one extra per chapter,
-  the WHAT THIS PAGE ANSWERS fix is not in the committed copy.
+- `bookstats.py` — 43 in the spine, **32 built**, 227,813 page words, 18.1 h.
+- `vignettes.py` — three per chapter for 16–32, **51 total**. Copenhagen normalises
+  to **13**. D-9: chapter **32 passes** (`3/3 tagged, [f] yes, [n] yes`); 16–31
+  report `untagged`, which is the lazy backfill and not a fault.
+- `figcheck.py` — **51 matched, 41 sourceless, 0 stale.** The 41 are Parts A–D,
+  whose figures exist only inside their pages.
+- `narrative.py` — apparatus constant **3524**; chapter 32 reports ten sections.
+
+**Also expected, and not a fault:** every figure script now runs four guards via
+`mapspine.check()`, and exactly one thing fires anywhere in the book —
+`svg_terr_1660.txt` collides `Skåne`/`Helsingborg` and `Jämtland`/`Trondhjem`. That
+is **open item 43**, left deliberately.
 
 **If any of these differs, stop and say so before doing anything else.** A verifier
 that disagrees with the ledger is either a real fault or a stale ledger, and both
@@ -51,78 +58,96 @@ matter more than the work.
 
 ## Then read, in this order
 
-1. `HANDOFF.md` — the governing ledger. Open items are bare numbers; lessons carry
-   an `L` prefix. Conventions D-1 to D-9 are closed; do not reopen them. **D-9 is
-   new** — vignette balance tags.
-2. `PLAN_H.md` — the plan for chapters 32 to 36. §1 is the corrected length model;
-   §2 records six decisions taken at plan time that are **not** to be reopened; §10
-   is the open-item list this session works from.
-3. `REVIEW-PART-G.md` — what the last part got wrong and how it was found.
+1. `HANDOFF.md` — the governing ledger, **open items 1 to 43**. Bare numbers are
+   items; lessons carry an `L` prefix. Conventions D-1 to D-9 are closed. **D-9 was
+   amended in September 2026** to add the `[-]` sentinel — read that entry, because
+   without it the check cannot see its own founding case.
+2. `PLAN_H.md` — §6 is chapter 33. §2 records six decisions taken at plan time that
+   are **not** to be reopened.
+3. `REVIEW-PART-G.md` — what a part gets wrong, and how it was found.
 
 ## What this session does, in order
 
-**1. The tooling in `PLAN_H.md` §10.5.** These come first because two of them are
-checks that are worthless if they arrive after the prose.
+**1. Research chapter 33 against the plan.** Chapter 32's research moved something
+in nine of its ten sections; expect the same. Three findings belong to 33 and are
+not in the plan, because they were found after it was written:
 
-- `vignettes.py` — add the D-9 balance layer, reading the `[f]` and `[n]` tags and
-  reporting per chapter whether a woman and a non-elite subject are present.
-  Chapters 16–31 are untagged and should report `untagged`, not `fail`.
-- `vignettes.py` — normalise the place match so variants of one place count as one.
-  It currently reports Copenhagen five times where the true figure is thirteen of
-  forty-eight.
-- The advisory constant moves from 30–42 to **28–40** in `build_all.py` and the five
-  `build_part_*.py` scripts. All six together.
+- The **language patent of 29 March 1844**, granting the right to speak Danish in
+  the Slesvig assembly only to members who did not consider themselves sufficiently
+  master of German. Aimed at Hiort Lorenzen, and it hit him exactly: he spoke
+  German, so he could not speak Danish.
+- The **Danish walkout** that followed, leaving the Schleswig-Holstein majority
+  unopposed, and the banning of the Slesvigske Forening with prosecution of its
+  board.
+- The **second Skamlingsbanke meeting, 4 July 1844** — twelve thousand people,
+  Grundtvig speaking, twice the previous year's crowd.
 
-**2. Research chapter 32 against the plan.** Ten sections, 1814–1848. Every
-researched claim in Part G corrected the draft; expect the same. The plan's §10.1
-lists what needs an archive and what needs a library — those are marked and are not
-blocking.
+Chapter 32 sets all three up and stops. Chapter 33 assembles the Slesvig legal case
+(PLAN_H §2, not to be reopened).
 
-**3. Draft chapter 32.** Prose only, into a draft file. `mkbody.py` and the build
-come after the draft is reviewed, not during.
+**2. Draft chapter 33.** Prose only, into `c33_draft.md`. Follow `c32_draft.md`'s
+shape: one file, apparatus appended, questions as numbered lists under each tier
+heading — prose paragraphs there parse as zero questions and the build says so.
+
+**3. Build it.** `mkbody.py` needs a `HAND` entry for 33 and runs as
+`DK_DRAFT=c33_draft.md python3 mkbody.py 33`. `build_part_h.py` needs a `CFG` entry
+with three checkpoints keyed to section title fragments. Copy chapter 32's and
+change everything.
 
 ## What this session does not do
 
-- Re-plan. The six decisions in `PLAN_H.md` §2 are made: thresholds 28–40; splits
-  on 21, 28 and 32 retired; the Slesvig legal case assembled in 33; chapter 35
-  carries the Nordslesvig section; chapter 15's arrow edited in the built page;
-  D-9 adopted with lazy backfill.
-- Draft 33 to 36. One chapter, reviewed, before the shape is replicated.
+- Re-plan Part H. The six decisions in `PLAN_H.md` §2 are made.
 - Touch Parts A–D. No retained bodies for 01–15, no figure generators for 12–15.
-  Documented, accepted, not a fault to rediscover.
+  Documented, accepted, not a fault to rediscover. **Any change that makes a Part
+  A–D figure stale cannot be undone** — check the blast radius before applying, as
+  item 39 now records.
+- Draft 34 to 36.
+
+## Open, and needing me
+
+- **Item 43** — the 1660 map's label collisions. Cosmetic, real, and fixing them
+  rebuilds chapter 25's page. My call.
+- **Nobody has looked at chapter 32's three figures on my machine.** `cairosvg` is
+  not installed; `python3 mapdump.py` builds a browser contact sheet. Looking has
+  caught something in every part so far, twice in the last session alone.
+- **Two document fetches**, both needing a library or a browser, neither blocking:
+  the Holstein seat count from the 15 May 1834 decree, which would let chapter 32's
+  figure 2 drop its `counted, not decreed` caveat; and the Zealand kapitelstakst
+  values from *Statistiske Meddelelser* 4. Række, 15. Bind, Hæfte I, which would
+  let figure 3 become the price line it was planned as.
 
 ## Standing rules
 
 - **Compute numbers, do not type them** — and not from numbers someone else typed
-  either. Two apparatus constants in a row were wrong because the arithmetic was
-  applied to unverified inputs. Treat every "N years after" in a draft as a claim to
-  verify (D-8).
-- **Verify before writing.** Nearly every researched claim in Part G corrected the
-  plan. One vignette survived nineteen revisions describing a woman who was
-  somewhere else at the time.
-- **Rasterise and look at every figure.** Three Part G faults were invisible to every
-  automated guard and visible in one glance. If `cairosvg` is missing, `mapdump.py`
-  builds a browser contact sheet.
-- **A curated test case can name the right place and test nothing.** The 1814 and
-  1864 spine maps need curated cases for their new borders, minimum three per
-  territory.
+  either. Treat every "N years after" in a draft as a claim to verify (D-8).
+- **Verify before writing.** One chapter 32 vignette had its man in the right place
+  a decade after the thing that made him worth writing about.
+- **Rasterise and look at every figure.** The guards run automatically now and still
+  cannot see everything a reader would.
+- **A guard that is written and not wired in is worth nothing.** `overflows` existed
+  for three years and was never called by the script whose figure it would have
+  fixed.
 - **Assert on every scripted replacement, then grep for the new string.** A refused
-  edit does not stop the commands chained after it.
-- **Enumerate what you want, not what you want removed.** Where a measurement can be
-  defined by what it includes, define it that way; the excluded set is where the
-  silent misses live.
-- **Back-port before rebuilding.** A correction made to a body or a page and not
-  carried back to the draft is destroyed by the next build. Git makes this visible;
-  it does not make it impossible.
+  edit does not stop the commands chained after it. This fired twice last session
+  and caught both.
+- **Predict the symptom before making the change.** Adding a `style.css` token was
+  written up beforehand as "if 12–31 move to style-only, the drop list has not
+  picked it up" — which is exactly what happened, and why it took minutes.
+- **Enumerate what you want, not what you want removed.**
+- **Never hand over or commit a generated file.** Downloads inject a C2PA manifest
+  into SVGs (item 33). Source travels; artifacts regenerate.
 
 ## How I work
 
 Flag errors precisely and don't soften them. I would rather be told a plan is wrong
-than have it worked around. If you need something from me, say so explicitly and
-say what it blocks. If something needs me physically — an archive, a browser, a
-decision only I can make — mark it as such and do not wait on it silently.
+than have it worked around. If you need something from me, say so explicitly and say
+what it blocks. If something needs me physically — an archive, a browser, a decision
+only I can make — mark it as such and do not wait on it silently.
 
 I am not a historian. Historical judgement is yours to make and defend, not mine to
 sign off; tell me where you differ from the standard account and why, so I can see
 the reasoning rather than just the conclusion. What I can tell you is whether a
 chapter is too long, whether a section is dull, and where an explanation lost me.
+
+**I will not read the prose until the chapter is finished**, so do not hold the
+build waiting on my review.
