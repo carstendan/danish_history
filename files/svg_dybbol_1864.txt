@@ -1,0 +1,57 @@
+<svg viewBox="0 0 700 545" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Chart of the siege of the Dybbøl position in 1864 and of the six published casualty returns for the assault of 18 April. The siege record is consistent across sources: ten redoubts built in 1861 and 1862 in a three-kilometre arc, rifled breech-loading guns emplaced on Broager Land on 15 March which Danish artillery could not reach, four thousand shells on 11 April, parallels dug forward to three hundred metres, and more than eight thousand shells between four and ten in the morning of 18 April before the assault. The casualty returns are not consistent: the Danish official return gives 379 killed, Nationalmuseet 700 dead, a 150th-anniversary reckoning 1,669 dead and wounded together, Dybbøl Banke about 1,800 killed, wounded or missing, a German account 3,600 killed, and danmarkshistorien about 5,000 lost in total. They differ because they count different things as well as because both sides understated their own losses.">
+  <rect x="0" y="0" width="700" height="545" fill="#F0F2EE"/>
+  <text x="26" y="30" class="mapl">WHAT FELL ON THE REDOUBTS</text>
+  <text x="26" y="46" class="mapt">the siege of the Dybbøl position, February to 18 April 1864</text>
+  <text x="26" y="74" class="mapx">ATTESTED, AND CONSISTENT ACROSS SOURCES</text>
+  <text x="26" y="96" class="mapx">1861–62</text> 
+  <text x="112" y="96" class="mapt">Ten redoubts built in a three-kilometre arc, Vemmingbund to Als Sund</text>
+  <text x="26" y="113" class="mapx">7 Feb</text> 
+  <text x="112" y="113" class="mapt">First Danish troops arrive from the Dannevirke. The position is unfinished</text>
+  <text x="26" y="130" class="mapx">15 Mar</text> 
+  <text x="112" y="130" class="mapt">Rifled breech-loading guns emplaced on Broager Land, across the water</text>
+  <text x="112" y="147" class="mapt">Danish artillery cannot reach them and does not reply again</text>
+  <text x="26" y="164" class="mapx">2 Apr</text> 
+  <text x="112" y="164" class="mapt">Sønderborg shelled; much of the town is reduced to rubble</text>
+  <text x="26" y="181" class="mapx">11 Apr</text> 
+  <text x="112" y="181" class="mapt">Four thousand shells fall on the redoubts in one day</text>
+  <text x="26" y="198" class="mapx">mid-Apr</text> 
+  <text x="112" y="198" class="mapt">Parallel trenches dug forward to three hundred metres</text>
+  <text x="26" y="215" class="mapx">18 Apr</text> 
+  <text x="112" y="215" class="mapt">Bombardment 04.00–10.00: more than eight thousand shells in six hours</text>
+  <text x="26" y="232" class="mapx">10.00</text> 
+  <text x="112" y="232" class="mapt">Assault. The central and southern redoubts are gone in half an hour</text>
+  <text x="26" y="249" class="mapx">11.30</text> 
+  <text x="112" y="249" class="mapt">The 8th Brigade counter-attack breaks after ninety minutes</text>
+  <line x1="26" y1="280" x2="674" y2="280" stroke="#C9CDC4" stroke-width="1"/>
+  <text x="26" y="302" class="mapx">DISPUTED — SIX RETURNS FOR ONE MORNING</text>
+  <text x="26" y="322" class="mapt">The spread is a spread of definitions as much as of facts. These are not six</text>
+  <text x="26" y="337" class="mapt">answers to one question, so no range is drawn across them and none should be.</text>
+  <rect x="26" y="355" width="9" height="9" fill="#A98C5F"/>
+  <text x="44" y="363" class="mapl">379</text> 
+  <text x="120" y="363" class="mapt">killed</text> 
+  <text x="446" y="363" class="mapx">Danish official return</text>
+  <rect x="26" y="374" width="9" height="9" fill="#A98C5F"/>
+  <text x="44" y="382" class="mapl">700</text> 
+  <text x="120" y="382" class="mapt">dead</text> 
+  <text x="446" y="382" class="mapx">Nationalmuseet</text>
+  <rect x="26" y="393" width="9" height="9" fill="#A98C5F"/>
+  <text x="44" y="401" class="mapl">1,669</text> 
+  <text x="120" y="401" class="mapt">dead AND wounded together</text> 
+  <text x="446" y="401" class="mapx">150th anniversary</text>
+  <rect x="26" y="412" width="9" height="9" fill="#A98C5F"/>
+  <text x="44" y="420" class="mapl">~1,800</text> 
+  <text x="120" y="420" class="mapt">killed, wounded OR missing</text> 
+  <text x="446" y="420" class="mapx">Dybbøl Banke</text>
+  <rect x="26" y="431" width="9" height="9" fill="#A98C5F"/>
+  <text x="44" y="439" class="mapl">3,600</text> 
+  <text x="120" y="439" class="mapt">killed</text> 
+  <text x="446" y="439" class="mapx">German account</text>
+  <rect x="26" y="450" width="9" height="9" fill="#A98C5F"/>
+  <text x="44" y="458" class="mapl">~5,000</text> 
+  <text x="120" y="458" class="mapt">total lost, prisoners included</text> 
+  <text x="446" y="458" class="mapx">danmarkshistorien.dk</text>
+  <line x1="26" y1="487" x2="674" y2="487" stroke="#C9CDC4" stroke-width="1"/>
+  <text x="26" y="505" class="mapt">Both sides understated their own losses and overstated the enemy’s, which historians</text>
+  <text x="26" y="519" class="mapt">give as the reason for the rest of the gap. The engineering of the siege is better</text>
+  <text x="26" y="533" class="mapt">recorded than the number of men it killed.</text>
+  </svg>

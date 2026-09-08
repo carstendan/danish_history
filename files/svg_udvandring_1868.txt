@@ -1,0 +1,49 @@
+<svg viewBox="0 0 700 508" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Chart of Danish overseas emigration between 1868 and 1900. About 309,000 Danes left, against 754,000 Norwegians and 1,105,000 Swedes. By occupation, more than four in ten were agricultural labourers and about one in four were urban working class, among women above all servants. Three points in the annual series are attested: about 11,400 emigrants in 1882, about 4,200 in 1885, and about 9,700 at the second peak in 1891 and 1892. The occupational figures are the argument of the chart: the people leaving were not the freeholders who founded the cooperative dairies.">
+  <rect x="0" y="0" width="700" height="508" fill="#F0F2EE"/>
+  <text x="26" y="30" class="mapl">WHO LEFT</text>
+  <text x="26" y="46" class="mapt">Danish overseas emigration, 1868–1900: about 309,000 people out of some two million</text>
+  <text x="26" y="78" class="mapx">BY OCCUPATION — THE POINT OF THIS CHART</text>
+  <text x="26" y="100" class="mapt">Agricultural labourers</text>
+  <rect x="250" y="90" width="126.0" height="12" fill="#4F6470"/>
+  <text x="562" y="100" class="mapl">42%</text>
+  <text x="26" y="115" class="mapt" opacity=".75">more than four in ten</text>
+  <text x="26" y="137" class="mapt">Urban working class</text>
+  <rect x="250" y="127" width="75.0" height="12" fill="#4F6470"/>
+  <text x="562" y="137" class="mapl">25%</text>
+  <text x="26" y="152" class="mapt" opacity=".75">about one in four; for women, above all servants</text>
+  <text x="26" y="174" class="mapt">Everyone else</text>
+  <rect x="250" y="164" width="99.0" height="12" fill="#A9B6BD"/>
+  <text x="562" y="174" class="mapl">33%</text>
+  <text x="26" y="189" class="mapt" opacity=".75">farmers' sons without a farm, artisans, families, the devout</text>
+  <text x="26" y="211" class="mapt">Read that against figure 3. The cooperative admitted men who owned land and cows.</text>
+  <line x1="26" y1="233" x2="674" y2="233" stroke="#C9CDC4" stroke-width="1"/>
+  <text x="26" y="255" class="mapx">THE THREE YEARS THAT CAN BE ATTESTED</text>
+  <text x="26" y="271" class="mapt">Drawn as points and not joined. The year-by-year run exists in the Copenhagen police</text>
+  <text x="26" y="285" class="mapt">registers and was not obtained; a line through three known values would invent thirty.</text>
+  <line x1="110" y1="305" x2="370" y2="305" stroke="#C9CDC4" stroke-width="1"/>
+  <text x="110" y="317" class="mapt" opacity=".7">0</text>
+  <text x="370" y="317" class="mapt" opacity=".7" text-anchor="end">12,000 in a year</text>
+  <text x="26" y="331" class="mapx">1882</text> 
+  <circle cx="357.0" cy="327" r="5" fill="#A98C5F"/>
+  <text x="410" y="331" class="mapl">11,400</text> 
+  <text x="486" y="331" class="mapt">the peak</text>
+  <text x="26" y="351" class="mapx">1885</text> 
+  <circle cx="201.0" cy="347" r="5" fill="#A98C5F"/>
+  <text x="410" y="351" class="mapl">4,200</text> 
+  <text x="486" y="351" class="mapt">the trough three years later</text>
+  <text x="26" y="371" class="mapx">1891–92</text> 
+  <circle cx="320.2" cy="367" r="5" fill="#A98C5F"/>
+  <text x="410" y="371" class="mapl">9,700</text> 
+  <text x="486" y="371" class="mapt">the second peak</text>
+  <line x1="26" y1="399" x2="674" y2="399" stroke="#C9CDC4" stroke-width="1"/>
+  <text x="26" y="421" class="mapx">AND FOR SCALE, 1868–1900</text>
+  <text x="26" y="443" class="mapt">Denmark</text>
+  <rect x="250" y="434" width="83.9" height="11" fill="#6E8A72" opacity=".8"/>
+  <text x="562" y="443" class="mapl">309,000</text>
+  <text x="26" y="462" class="mapt">Norway</text>
+  <rect x="250" y="453" width="204.7" height="11" fill="#6E8A72" opacity=".8"/>
+  <text x="562" y="462" class="mapl">754,000</text>
+  <text x="26" y="481" class="mapt">Sweden</text>
+  <rect x="250" y="472" width="300.0" height="11" fill="#6E8A72" opacity=".8"/>
+  <text x="562" y="481" class="mapl">1,105,000</text>
+  </svg>

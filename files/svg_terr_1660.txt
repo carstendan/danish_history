@@ -43,11 +43,11 @@
   <text x="456.8" y="342.4" class="mapt" text-anchor="middle">FINLAND</text>
   <text x="180.5" y="619.5" class="mapt" text-anchor="middle">Slesvig</text>
   <text x="178.0" y="662.1" class="mapt" text-anchor="middle">Holsten</text>
-  <text x="270.5" y="601.6" class="mapt" text-anchor="middle">Skåne</text>
+  <text x="267.0" y="609.6" class="mapt" text-anchor="middle">Skåne</text>
   <text x="248.5" y="553.1" class="mapt" text-anchor="middle">Halland</text>
   <text x="296.0" y="585.5" class="mapt" text-anchor="middle">Blekinge</text>
   <text x="233.2" y="491.1" class="mapt" text-anchor="middle">Bohuslän</text>
-  <text x="283.1" y="317.5" class="mapt" text-anchor="middle">Jämtland</text>
+  <text x="285.2" y="326.8" class="mapt" text-anchor="middle">Jämtland</text>
   <text x="273.0" y="353.8" class="mapt" text-anchor="middle">Härjedalen</text>
   <text x="363.6" y="533.1" class="mapt" text-anchor="start">Gotland</text>
   <text x="285.2" y="633.3" class="mapt" text-anchor="middle">Bornholm</text>

@@ -1,0 +1,36 @@
+<svg viewBox="0 0 700 439" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Chart separating the figures for Denmark’s losses in 1864 that Danmarks Statistik computed from the figures the sources disagree about. Counted at the census of 1860: the parishes of Ribe Amt ceded under the treaty held 13,053 people, and the territory received in exchange, Ærø and smaller mainland stretches, held 20,864, so the border adjustment considered on its own moved 7,811 more people into the kingdom than out of it. The kingdom held 1,600,551 people in 1860 and 1,784,741 in 1870. Disputed: whether the monarchy lost a third or two fifths of its area, and whether 170,000 or 200,000 Danish-speakers passed under German rule.">
+  <rect x="0" y="0" width="700" height="439" fill="#F0F2EE"/>
+  <text x="26" y="30" class="mapl">COUNTED, AND DISPUTED</text>
+  <text x="26" y="46" class="mapt">what Denmark lost in 1864, and which of the figures can be stood behind</text>
+  <text x="26" y="76" class="mapx">COUNTED — DANMARKS STATISTIK, AT THE CENSUS OF 1860</text>
+  <text x="26" y="100" class="mapt">Ceded to the duchies: Ribe Amt parishes</text>
+  <rect x="342" y="90" width="147.6" height="12" fill="#4F6470"/>
+  <text x="674" y="100" class="mapl" text-anchor="end">13,053</text>
+  <text x="26" y="124" class="mapt">Received from Slesvig: Ærø and mainland</text>
+  <rect x="342" y="114" width="236.0" height="12" fill="#4F6470"/>
+  <text x="674" y="124" class="mapl" text-anchor="end">20,864</text>
+  <text x="26" y="148" class="mapt">The exchange therefore moved this many MORE people into the kingdom</text>
+  <text x="674" y="148" class="mapl" text-anchor="end">+7,811</text>
+  <text x="26" y="170" class="mapt">Kingdom of Denmark, census of 1860</text>
+  <text x="674" y="170" class="mapl" text-anchor="end">1,600,551</text>
+  <text x="26" y="189" class="mapt">Kingdom of Denmark, census of 1870</text>
+  <text x="674" y="189" class="mapl" text-anchor="end">1,784,741</text>
+  <line x1="26" y1="220" x2="674" y2="220" stroke="#C9CDC4" stroke-width="1"/>
+  <text x="26" y="242" class="mapx">DISPUTED — DRAWN AS RANGES, WITH THE SOURCES NAMED</text>
+  <rect x="26" y="260" width="9" height="9" fill="none" stroke="#A98C5F" stroke-width="1"/>
+  <text x="44" y="268" class="mapt">Share of the monarchy's area lost</text> 
+  <text x="352" y="268" class="mapl">a third — two fifths</text>
+  <text x="44" y="283" class="mapt" opacity=".75">Nationalmuseet gives both, on different pages</text>
+  <rect x="26" y="297" width="9" height="9" fill="none" stroke="#A98C5F" stroke-width="1"/>
+  <text x="44" y="305" class="mapt">Share of its population lost</text> 
+  <text x="352" y="305" class="mapl">about 40 per cent</text>
+  <text x="44" y="320" class="mapt" opacity=".75">widely repeated; no census breakdown found</text>
+  <rect x="26" y="334" width="9" height="9" fill="none" stroke="#A98C5F" stroke-width="1"/>
+  <text x="44" y="342" class="mapt">Danish-speakers ceded</text> 
+  <text x="352" y="342" class="mapl">170,000 — 200,000</text>
+  <text x="44" y="357" class="mapt" opacity=".75">Nationalmuseet against other accounts</text>
+  <line x1="26" y1="381" x2="674" y2="381" stroke="#C9CDC4" stroke-width="1"/>
+  <text x="26" y="399" class="mapt">No total is computed from the disputed rows and none should be. Multiplying a share</text>
+  <text x="26" y="413" class="mapt">nobody counted by a population nobody agreed on produces a number that looks</text>
+  <text x="26" y="427" class="mapt">counted and is not.</text>
+  </svg>

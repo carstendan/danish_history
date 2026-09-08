@@ -1,0 +1,54 @@
+<svg viewBox="0 0 700 512" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Chart of P.C. Koch’s language count for the duchy of Slesvig, published in 1839 as a Danish answer to Franz Geerz’s German language map of 1838. Koch divided the duchy’s 338,192 inhabitants into six categories by setting the language spoken at home against the language of church and school. Danish at home with Danish in church and school, 110,213; Danish at home with Danish and German by turns, 23,392; Danish at home with German in church and school, 10,630; Danish and Low German mixed with German in church, 47,207; Low German at home with German in church and school, 119,935; Frisian at home with German in church and school, 26,815. Depending which of those categories are counted as Danish, the same survey makes the duchy 33, 43 or 57 per cent Danish.">
+  <rect x="0" y="0" width="700" height="512" fill="#F0F2EE"/>
+  <text x="26" y="30" class="mapl">HOW MANY DANES WERE THERE IN SLESVIG?</text>
+  <text x="26" y="46" class="mapt">P.C. Koch’s own count, 1839 — published to answer Franz Geerz’s map of 1838</text>
+  <rect x="26.0" y="68" width="211.2" height="26" fill="#6E809E" opacity=".8"/>
+  <rect x="237.2" y="68" width="44.8" height="26" fill="#8B9BB4" opacity=".8"/>
+  <rect x="282.0" y="68" width="20.4" height="26" fill="#A8B4C6" opacity=".8"/>
+  <rect x="302.4" y="68" width="90.5" height="26" fill="#9AA39B" opacity=".8"/>
+  <rect x="392.8" y="68" width="229.8" height="26" fill="#A98C5F" opacity=".8"/>
+  <rect x="622.6" y="68" width="51.4" height="26" fill="#C6AF8A" opacity=".8"/>
+  <rect x="26" y="68" width="648" height="26" fill="none" stroke="#C9CDC4" stroke-width="1"/>
+  <text x="26" y="109" class="mapt">338,192 inhabitants, in the six categories Koch printed on his key</text>
+  <text x="26" y="134" class="mapx">HIS CATEGORIES, IN HIS ORDER</text>
+  <rect x="26" y="148" width="10" height="10" fill="#6E809E" opacity=".8"/>
+  <text x="44" y="156" class="mapx">110,213</text> 
+  <text x="108" y="156" class="mapx">32.6%</text> 
+  <text x="156" y="156" class="mapt">Danish at home, Danish in church and school</text>
+  <rect x="26" y="167" width="10" height="10" fill="#8B9BB4" opacity=".8"/>
+  <text x="44" y="175" class="mapx"> 23,392</text> 
+  <text x="108" y="175" class="mapx"> 6.9%</text> 
+  <text x="156" y="175" class="mapt">Danish at home, Danish and German by turns</text>
+  <rect x="26" y="186" width="10" height="10" fill="#A8B4C6" opacity=".8"/>
+  <text x="44" y="194" class="mapx"> 10,630</text> 
+  <text x="108" y="194" class="mapx"> 3.1%</text> 
+  <text x="156" y="194" class="mapt">Danish at home, German in church and school</text>
+  <rect x="26" y="205" width="10" height="10" fill="#9AA39B" opacity=".8"/>
+  <text x="44" y="213" class="mapx"> 47,207</text> 
+  <text x="108" y="213" class="mapx">14.0%</text> 
+  <text x="156" y="213" class="mapt">Danish and Low German mixed, German in church</text>
+  <rect x="26" y="224" width="10" height="10" fill="#A98C5F" opacity=".8"/>
+  <text x="44" y="232" class="mapx">119,935</text> 
+  <text x="108" y="232" class="mapx">35.5%</text> 
+  <text x="156" y="232" class="mapt">Low German at home, German in church and school</text>
+  <rect x="26" y="243" width="10" height="10" fill="#C6AF8A" opacity=".8"/>
+  <text x="44" y="251" class="mapx"> 26,815</text> 
+  <text x="108" y="251" class="mapx"> 7.9%</text> 
+  <text x="156" y="251" class="mapt">Frisian at home, German in church and school</text>
+  <line x1="26" y1="282" x2="674" y2="282" stroke="#C9CDC4" stroke-width="1"/>
+  <text x="26" y="304" class="mapx">THREE ANSWERS FROM ONE SURVEY</text>
+  <text x="26" y="326" class="mapl">33%</text> 
+  <text x="72" y="326" class="mapx">110,213</text> 
+  <text x="140" y="326" class="mapt">Danish in church and school</text>
+  <text x="26" y="346" class="mapl">43%</text> 
+  <text x="72" y="346" class="mapx">144,235</text> 
+  <text x="140" y="346" class="mapt">Danish spoken at home</text>
+  <text x="26" y="366" class="mapl">57%</text> 
+  <text x="72" y="366" class="mapx">191,442</text> 
+  <text x="140" y="366" class="mapt">Danish at home, counting the mixed band</text>
+  <line x1="26" y1="394" x2="674" y2="394" stroke="#C9CDC4" stroke-width="1"/>
+  <text x="26" y="412" class="mapt">Koch's own footnotes, kept because they are the argument in miniature: the language</text>
+  <text x="26" y="426" class="mapt">of court proceedings was German everywhere except the districts under Ribe Amt; and</text>
+  <text x="26" y="440" class="mapt">Christiansfeld was left uncoloured, because "by its nature it does not concern the</text>
+  <text x="26" y="454" class="mapt">present national cause" — a Moravian town that fitted no category on either map.</text>
+  </svg>

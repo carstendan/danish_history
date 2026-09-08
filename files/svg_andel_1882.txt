@@ -1,0 +1,37 @@
+<svg viewBox="0 0 700 488" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagram of the four rules of the Hjedding cooperative dairy contract of 1882. First, every member delivers all his milk, clean and unskimmed and not from a sick cow, on pain of expulsion and a fine of ten kroner a cow. Second, every supplier is paid the same price per measure whatever the quantity. Third, every member has one vote at the general meeting regardless of the size of his herd, the wording taken from the rules of the parish savings bank and fire-insurance association. Fourth, and usually left out of popular accounts, all the members are jointly and unlimitedly liable for the debts of all with the whole of their property, which is what allowed farmers without capital to borrow for a steam engine and a separator, and which also fixed the boundary of who could be admitted as a member at all.">
+  <rect x="0" y="0" width="700" height="488" fill="#F0F2EE"/>
+  <text x="26" y="30" class="mapl">HOW A COOPERATIVE WAS OWNED</text>
+  <text x="26" y="46" class="mapt">the four rules of the Hjedding contract, Ølgod parish, 1882</text>
+  <rect x="26" y="62" width="26" height="26" fill="#4F6470" opacity=".75"/>
+  <text x="39" y="80" class="mapl" text-anchor="middle" fill="#F0F2EE">1</text>
+  <text x="68" y="74" class="mapl">Deliver everything</text>
+  <text x="68" y="90" class="mapt">All the milk your cows give goes to the dairy, clean, unskimmed, none from</text>
+  <text x="68" y="104" class="mapt">a sick cow and none from a newly calved one before the seventh milking.</text>
+  <text x="68" y="122" class="mapt" opacity=".75">Adulterate it and you are expelled and fined ten kroner a cow. These</text>
+  <text x="68" y="136" class="mapt" opacity=".75">clauses read as fussiness and are the product specification: England paid</text>
+  <text x="68" y="150" class="mapt" opacity=".75">for sameness.</text>
+  <rect x="26" y="166" width="26" height="26" fill="#4F6470" opacity=".75"/>
+  <text x="39" y="184" class="mapl" text-anchor="middle" fill="#F0F2EE">2</text>
+  <text x="68" y="178" class="mapl">Be paid alike</text>
+  <text x="68" y="194" class="mapt">The same price per kande of milk for every supplier, whatever the</text>
+  <text x="68" y="208" class="mapt">quantity.</text>
+  <text x="68" y="226" class="mapt" opacity=".75">The small farmer gets the large farmer's price. This is what made joining</text>
+  <text x="68" y="240" class="mapt" opacity=".75">worth anything to a man with eight cows.</text>
+  <rect x="26" y="256" width="26" height="26" fill="#4F6470" opacity=".75"/>
+  <text x="39" y="274" class="mapl" text-anchor="middle" fill="#F0F2EE">3</text>
+  <text x="68" y="268" class="mapl">One member, one vote</text>
+  <text x="68" y="284" class="mapt">Each member has one vote at the general meeting regardless of how many</text>
+  <text x="68" y="298" class="mapt">cows he owns. In Danish: not by heads of cattle, but by heads.</text>
+  <text x="68" y="316" class="mapt" opacity=".75">The general meeting is the highest authority. The wording was taken from</text>
+  <text x="68" y="330" class="mapt" opacity=".75">the rules of the parish savings bank and fire-insurance association.</text>
+  <rect x="26" y="346" width="26" height="26" fill="#A98C5F" opacity=".9"/>
+  <text x="39" y="364" class="mapl" text-anchor="middle" fill="#F0F2EE">4</text>
+  <text x="68" y="358" class="mapl">Stand behind each other</text>
+  <text x="68" y="374" class="mapt">All the members are liable for the debts of all, alle som én og én som</text>
+  <text x="68" y="388" class="mapt">alle, with the whole of their property.</text>
+  <text x="68" y="406" class="mapt" opacity=".75">USUALLY LEFT OUT, AND IT CARRIES THE REST. The bank was not lending</text>
+  <text x="68" y="420" class="mapt" opacity=".75">against the dairy; it was lending against every farm in the parish.</text>
+  <line x1="26" y1="442" x2="674" y2="442" stroke="#C9CDC4" stroke-width="1"/>
+  <text x="26" y="462" class="mapt">A member was therefore a man who owned land and cows and could pledge them. The</text>
+  <text x="26" y="476" class="mapt">husmænd and the tyende could not be admitted even in principle: see figure 2.</text>
+  </svg>

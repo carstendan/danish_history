@@ -1,0 +1,46 @@
+<svg viewBox="0 0 700 487" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Table of the Vestvold, the western rampart of the Copenhagen land fortification. Built between 1888 and 1892, fourteen kilometres long from Utterslev Mose to Køge Bugt, designed by Lieutenant-Colonel E.J. Sommerfeldt and directed by Estrup’s war minister J.J. Bahnson. About 3,150,000 cubic metres of earth and chalk were moved by some two thousand men using shovels, wheelbarrows and tip-wagons, with the concrete mixed by hand because mixing machines did not yet exist. It was paid for by provisional finance law against the vote of the Folketing. Further building stopped with the settlement of 1894; in 1909 it was decided to abolish the land fortification from 1922; fifty thousand men were called up to hold it in 1914 and saw no fighting; and it was abolished on 1 April 1920. Its money cost was not obtained and is not given here.">
+  <rect x="0" y="0" width="700" height="487" fill="#F0F2EE"/>
+  <text x="26" y="30" class="mapl">THE RAMPART THE CONSTITUTION WAS BROKEN FOR</text>
+  <text x="26" y="46" class="mapt">Vestvolden, and what became of it</text>
+  <text x="26" y="76" class="mapx">Built</text> 
+  <text x="140" y="76" class="mapt">1888–1892; the wider land defences from 1886</text>
+  <text x="26" y="92" class="mapx">Length</text> 
+  <text x="140" y="92" class="mapt">14 km, Utterslev Mose to Køge Bugt, continuous except where an</text>
+  <text x="140" y="108" class="mapt">existing road or railway passed through</text>
+  <text x="26" y="124" class="mapx">Designed by</text> 
+  <text x="140" y="124" class="mapt">Lieutenant-Colonel E.J. Sommerfeldt — a saw-toothed plan with the</text>
+  <text x="140" y="140" class="mapt">guns in protected caponiers, known abroad as the Danish Front</text>
+  <text x="26" y="156" class="mapx">Directed by</text> 
+  <text x="140" y="156" class="mapt">J.J. Bahnson, Estrup's war minister</text>
+  <text x="26" y="172" class="mapx">Earth moved</text> 
+  <text x="140" y="172" class="mapt">about 3,150,000 cubic metres of earth and chalk</text>
+  <text x="26" y="188" class="mapx">Workforce</text> 
+  <text x="140" y="188" class="mapt">about 2,000 local contractors and day labourers</text>
+  <text x="26" y="204" class="mapx">Method</text> 
+  <text x="140" y="204" class="mapt">shovels, wheelbarrows and tip-wagons; concrete mixed by hand in</text>
+  <text x="140" y="220" class="mapt">tubs, because mixing machines did not yet exist; a railway laid</text>
+  <text x="140" y="236" class="mapt">along the rampart road on worn-out track cast off by the state</text>
+  <text x="26" y="252" class="mapx">Paid for by</text> 
+  <text x="140" y="252" class="mapt">provisional finance law, against the vote of the Folketing</text>
+  <line x1="26" y1="278" x2="674" y2="278" stroke="#C9CDC4" stroke-width="1"/>
+  <text x="26" y="300" class="mapx">AND THEN</text>
+  <text x="26" y="322" class="mapl">1894</text> 
+  <rect x="90" y="315" width="8" height="8" fill="#8A7A5E"/>
+  <text x="112" y="322" class="mapt">The settlement stops further building</text>
+  <text x="26" y="341" class="mapl">1909</text> 
+  <rect x="90" y="334" width="8" height="8" fill="#8A7A5E"/>
+  <text x="112" y="341" class="mapt">Decided that the land fortification be abolished from 1922</text>
+  <text x="26" y="360" class="mapl">1914</text> 
+  <rect x="90" y="353" width="8" height="8" fill="#A9B6BD"/>
+  <text x="112" y="360" class="mapt">A security force of 50,000 called up to hold it</text>
+  <text x="26" y="379" class="mapl">1918</text> 
+  <rect x="90" y="372" width="8" height="8" fill="#A9B6BD"/>
+  <text x="112" y="379" class="mapt">Four years later, having seen no fighting, they go home</text>
+  <text x="26" y="398" class="mapl">1920</text> 
+  <rect x="90" y="391" width="8" height="8" fill="#8A7A5E"/>
+  <text x="112" y="398" class="mapt">Abolished on 1 April, two years early</text>
+  <line x1="26" y1="425" x2="674" y2="425" stroke="#C9CDC4" stroke-width="1"/>
+  <text x="26" y="445" class="mapt">The money cost is not given here because it was not obtained. Since the political point of</text>
+  <text x="26" y="459" class="mapt">this rampart is that it was paid for out of a budget the elected chamber had refused, the</text>
+  <text x="26" y="473" class="mapt">figure in kroner would be the most useful number on the page, and the worst one to guess.</text>
+  </svg>

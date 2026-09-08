@@ -1,0 +1,145 @@
+<svg viewBox="0 0 700 600" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Chart of the Danish franchise under the constitution of 5 June 1849. The kingdom held 1,414,648 people at the census of 1 February 1850. At the first Folketing election, on 4 December 1849, a hundred seats were filled; in forty-three of them there was no ballot at all and the single candidate was carried by acclamation. In the fifty-seven contested seats, 37,903 men voted out of 116,553 entitled, a turnout of about thirty-three per cent. Published proportions, shown separately because they are ratios and not counts, give the electorate as fifteen per cent of the whole population and 72.8 per cent of all men over thirty. The excluded were known as the seven F’s: women, servants without their own household, those who had taken poor relief, foreigners, bankrupts, those declared incapable of managing their affairs, and the convicted.">
+  <rect x="0" y="0" width="700" height="600" fill="#F0F2EE"/>
+  <text x="26" y="30" class="mapl">WHO COULD VOTE IN 1849</text>
+  <text x="26" y="46" class="mapt">counted figures solid; published proportions in outline, because they are ratios and not counts</text>
+  <text x="26" y="76" class="mapx">COUNTED</text>
+  <text x="26" y="98" class="mapt">Population of the kingdom, census of 1 February 1850</text>
+  <text x="536" y="98" class="mapl">1,414,648</text>
+  <text x="26" y="122" class="mapt">Seats filled at the first Folketing election, 4 December 1849</text>
+  <text x="536" y="122" class="mapl">100</text>
+  <rect x="26" y="136" width="9" height="9" fill="#A9B6BD"/>
+  <rect x="39" y="136" width="9" height="9" fill="#A9B6BD"/>
+  <rect x="52" y="136" width="9" height="9" fill="#A9B6BD"/>
+  <rect x="65" y="136" width="9" height="9" fill="#A9B6BD"/>
+  <rect x="78" y="136" width="9" height="9" fill="#A9B6BD"/>
+  <rect x="91" y="136" width="9" height="9" fill="#A9B6BD"/>
+  <rect x="104" y="136" width="9" height="9" fill="#A9B6BD"/>
+  <rect x="117" y="136" width="9" height="9" fill="#A9B6BD"/>
+  <rect x="130" y="136" width="9" height="9" fill="#A9B6BD"/>
+  <rect x="143" y="136" width="9" height="9" fill="#A9B6BD"/>
+  <rect x="156" y="136" width="9" height="9" fill="#A9B6BD"/>
+  <rect x="169" y="136" width="9" height="9" fill="#A9B6BD"/>
+  <rect x="182" y="136" width="9" height="9" fill="#A9B6BD"/>
+  <rect x="195" y="136" width="9" height="9" fill="#A9B6BD"/>
+  <rect x="208" y="136" width="9" height="9" fill="#A9B6BD"/>
+  <rect x="221" y="136" width="9" height="9" fill="#A9B6BD"/>
+  <rect x="234" y="136" width="9" height="9" fill="#A9B6BD"/>
+  <rect x="247" y="136" width="9" height="9" fill="#A9B6BD"/>
+  <rect x="260" y="136" width="9" height="9" fill="#A9B6BD"/>
+  <rect x="273" y="136" width="9" height="9" fill="#A9B6BD"/>
+  <rect x="286" y="136" width="9" height="9" fill="#A9B6BD"/>
+  <rect x="299" y="136" width="9" height="9" fill="#A9B6BD"/>
+  <rect x="312" y="136" width="9" height="9" fill="#A9B6BD"/>
+  <rect x="325" y="136" width="9" height="9" fill="#A9B6BD"/>
+  <rect x="338" y="136" width="9" height="9" fill="#A9B6BD"/>
+  <rect x="26" y="149" width="9" height="9" fill="#A9B6BD"/>
+  <rect x="39" y="149" width="9" height="9" fill="#A9B6BD"/>
+  <rect x="52" y="149" width="9" height="9" fill="#A9B6BD"/>
+  <rect x="65" y="149" width="9" height="9" fill="#A9B6BD"/>
+  <rect x="78" y="149" width="9" height="9" fill="#A9B6BD"/>
+  <rect x="91" y="149" width="9" height="9" fill="#A9B6BD"/>
+  <rect x="104" y="149" width="9" height="9" fill="#A9B6BD"/>
+  <rect x="117" y="149" width="9" height="9" fill="#A9B6BD"/>
+  <rect x="130" y="149" width="9" height="9" fill="#A9B6BD"/>
+  <rect x="143" y="149" width="9" height="9" fill="#A9B6BD"/>
+  <rect x="156" y="149" width="9" height="9" fill="#A9B6BD"/>
+  <rect x="169" y="149" width="9" height="9" fill="#A9B6BD"/>
+  <rect x="182" y="149" width="9" height="9" fill="#A9B6BD"/>
+  <rect x="195" y="149" width="9" height="9" fill="#A9B6BD"/>
+  <rect x="208" y="149" width="9" height="9" fill="#A9B6BD"/>
+  <rect x="221" y="149" width="9" height="9" fill="#A9B6BD"/>
+  <rect x="234" y="149" width="9" height="9" fill="#A9B6BD"/>
+  <rect x="247" y="149" width="9" height="9" fill="#A9B6BD"/>
+  <rect x="260" y="149" width="9" height="9" fill="#4F6470"/>
+  <rect x="273" y="149" width="9" height="9" fill="#4F6470"/>
+  <rect x="286" y="149" width="9" height="9" fill="#4F6470"/>
+  <rect x="299" y="149" width="9" height="9" fill="#4F6470"/>
+  <rect x="312" y="149" width="9" height="9" fill="#4F6470"/>
+  <rect x="325" y="149" width="9" height="9" fill="#4F6470"/>
+  <rect x="338" y="149" width="9" height="9" fill="#4F6470"/>
+  <rect x="26" y="162" width="9" height="9" fill="#4F6470"/>
+  <rect x="39" y="162" width="9" height="9" fill="#4F6470"/>
+  <rect x="52" y="162" width="9" height="9" fill="#4F6470"/>
+  <rect x="65" y="162" width="9" height="9" fill="#4F6470"/>
+  <rect x="78" y="162" width="9" height="9" fill="#4F6470"/>
+  <rect x="91" y="162" width="9" height="9" fill="#4F6470"/>
+  <rect x="104" y="162" width="9" height="9" fill="#4F6470"/>
+  <rect x="117" y="162" width="9" height="9" fill="#4F6470"/>
+  <rect x="130" y="162" width="9" height="9" fill="#4F6470"/>
+  <rect x="143" y="162" width="9" height="9" fill="#4F6470"/>
+  <rect x="156" y="162" width="9" height="9" fill="#4F6470"/>
+  <rect x="169" y="162" width="9" height="9" fill="#4F6470"/>
+  <rect x="182" y="162" width="9" height="9" fill="#4F6470"/>
+  <rect x="195" y="162" width="9" height="9" fill="#4F6470"/>
+  <rect x="208" y="162" width="9" height="9" fill="#4F6470"/>
+  <rect x="221" y="162" width="9" height="9" fill="#4F6470"/>
+  <rect x="234" y="162" width="9" height="9" fill="#4F6470"/>
+  <rect x="247" y="162" width="9" height="9" fill="#4F6470"/>
+  <rect x="260" y="162" width="9" height="9" fill="#4F6470"/>
+  <rect x="273" y="162" width="9" height="9" fill="#4F6470"/>
+  <rect x="286" y="162" width="9" height="9" fill="#4F6470"/>
+  <rect x="299" y="162" width="9" height="9" fill="#4F6470"/>
+  <rect x="312" y="162" width="9" height="9" fill="#4F6470"/>
+  <rect x="325" y="162" width="9" height="9" fill="#4F6470"/>
+  <rect x="338" y="162" width="9" height="9" fill="#4F6470"/>
+  <rect x="26" y="175" width="9" height="9" fill="#4F6470"/>
+  <rect x="39" y="175" width="9" height="9" fill="#4F6470"/>
+  <rect x="52" y="175" width="9" height="9" fill="#4F6470"/>
+  <rect x="65" y="175" width="9" height="9" fill="#4F6470"/>
+  <rect x="78" y="175" width="9" height="9" fill="#4F6470"/>
+  <rect x="91" y="175" width="9" height="9" fill="#4F6470"/>
+  <rect x="104" y="175" width="9" height="9" fill="#4F6470"/>
+  <rect x="117" y="175" width="9" height="9" fill="#4F6470"/>
+  <rect x="130" y="175" width="9" height="9" fill="#4F6470"/>
+  <rect x="143" y="175" width="9" height="9" fill="#4F6470"/>
+  <rect x="156" y="175" width="9" height="9" fill="#4F6470"/>
+  <rect x="169" y="175" width="9" height="9" fill="#4F6470"/>
+  <rect x="182" y="175" width="9" height="9" fill="#4F6470"/>
+  <rect x="195" y="175" width="9" height="9" fill="#4F6470"/>
+  <rect x="208" y="175" width="9" height="9" fill="#4F6470"/>
+  <rect x="221" y="175" width="9" height="9" fill="#4F6470"/>
+  <rect x="234" y="175" width="9" height="9" fill="#4F6470"/>
+  <rect x="247" y="175" width="9" height="9" fill="#4F6470"/>
+  <rect x="260" y="175" width="9" height="9" fill="#4F6470"/>
+  <rect x="273" y="175" width="9" height="9" fill="#4F6470"/>
+  <rect x="286" y="175" width="9" height="9" fill="#4F6470"/>
+  <rect x="299" y="175" width="9" height="9" fill="#4F6470"/>
+  <rect x="312" y="175" width="9" height="9" fill="#4F6470"/>
+  <rect x="325" y="175" width="9" height="9" fill="#4F6470"/>
+  <rect x="338" y="175" width="9" height="9" fill="#4F6470"/>
+  <rect x="26" y="196" width="9" height="9" fill="#A9B6BD"/>
+  <text x="42" y="204" class="mapt">43 seats: no ballot at all — one candidate, carried by acclamation</text>
+  <rect x="26" y="211" width="9" height="9" fill="#4F6470"/>
+  <text x="42" y="219" class="mapt">57 seats contested</text>
+  <text x="26" y="249" class="mapt">In the 57 contested seats: entitled to vote</text>
+  <text x="536" y="249" class="mapl">116,553</text>
+  <rect x="26" y="259" width="648" height="18" fill="none" stroke="#C9CDC4" stroke-width="1"/>
+  <rect x="26" y="259" width="210.7" height="18" fill="#4F6470" opacity=".85"/>
+  <text x="26" y="293" class="mapt">of whom 37,903 actually voted — 33 per cent</text>
+  <line x1="26" y1="317" x2="674" y2="317" stroke="#C9CDC4" stroke-width="1"/>
+  <text x="26" y="339" class="mapx">PUBLISHED PROPORTIONS, NOT COUNTS</text>
+  <rect x="26" y="353" width="10" height="10" fill="none" stroke="#4F6470" stroke-width="1"/>
+  <text x="44" y="361" class="mapl">15%</text> 
+  <text x="112" y="361" class="mapt">of the whole population could vote</text>
+  <rect x="26" y="372" width="10" height="10" fill="none" stroke="#4F6470" stroke-width="1"/>
+  <text x="44" y="380" class="mapl">72.8%</text> 
+  <text x="112" y="380" class="mapt">of all men over thirty could vote</text>
+  <text x="26" y="403" class="mapt">No head-count of men over thirty is derived from these here. Dividing one published ratio by</text>
+  <text x="26" y="417" class="mapt">another produces a number that looks counted and is not.</text>
+  <line x1="26" y1="443" x2="674" y2="443" stroke="#C9CDC4" stroke-width="1"/>
+  <text x="26" y="465" class="mapx">AND WHO COULD NOT — THE SEVEN F’S</text>
+  <text x="26" y="485" class="mapx">fruentimmere</text> 
+  <text x="150" y="485" class="mapt">women, whatever they owned</text>
+  <text x="26" y="500" class="mapx">folkehold</text> 
+  <text x="150" y="500" class="mapt">servants without a household of their own</text>
+  <text x="26" y="515" class="mapx">fattige</text> 
+  <text x="150" y="515" class="mapt">anyone who had taken poor relief and not repaid it</text>
+  <text x="26" y="530" class="mapx">fremmede</text> 
+  <text x="150" y="530" class="mapt">those without Danish indfødsret</text>
+  <text x="26" y="545" class="mapx">fallenter</text> 
+  <text x="150" y="545" class="mapt">bankrupts</text>
+  <text x="26" y="560" class="mapx">fjolser</text> 
+  <text x="150" y="560" class="mapt">those declared incapable of managing their affairs</text>
+  <text x="26" y="575" class="mapx">forbrydere</text> 
+  <text x="150" y="575" class="mapt">the convicted</text>
+  </svg>

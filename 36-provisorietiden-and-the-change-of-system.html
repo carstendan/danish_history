@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>36 · Provisorietiden and the change of system, 1875–1901</title>
+<style>
+
+  :root{
+    --ground:#E4E7E4; --paper:#F0F2EE; --peat:#221E18; --muted:#6C6E63;
+    --rule:#C9CDC4; --verdigris:#2E6B5E; --amber:#A9601C; --oxblood:#8A2B2B; --indigo:#2F4C7A; --slate:#4F6470; --band:#4F6470;
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua","URW Palladio L",Georgia,serif;
+    --mono:"IBM Plex Mono",ui-monospace,"SF Mono",SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0;background:var(--ground);color:var(--peat);
+    font-family:var(--serif);font-size:17.5px;line-height:1.68;text-rendering:optimizeLegibility}
+  .wrap{max-width:790px;margin:0 auto;padding:0 28px}
+  a{color:var(--verdigris)}
+  a:focus-visible{outline:2px solid var(--amber);outline-offset:3px}
+  p{margin:0 0 1.05em}
+
+  .crumb{border-bottom:1px solid var(--rule);background:rgba(228,231,228,.94)}
+  .crumb-in{max-width:1000px;margin:0 auto;padding:10px 28px;display:flex;gap:14px;
+    font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+  .crumb-in b{color:var(--band);font-weight:600}
+
+  header.hd{padding:62px 0 0}
+  .eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.22em;text-transform:uppercase;
+    color:var(--amber);margin:0 0 20px}
+  h1{font-size:clamp(34px,6.4vw,58px);line-height:1.02;margin:0;font-weight:400;letter-spacing:-.022em}
+  .dates{font-family:var(--mono);font-size:13px;letter-spacing:.1em;color:var(--muted);margin:18px 0 0}
+  .why{font-size:20px;margin:22px 0 0;max-width:62ch}
+  .keys{display:flex;flex-wrap:wrap;gap:6px;margin:26px 0 0;padding:0;list-style:none}
+  .keys li{font-family:var(--mono);font-size:10.5px;letter-spacing:.03em;color:var(--muted);
+    border:1px solid var(--rule);border-radius:2px;padding:3px 8px}
+
+  h2{font-size:27px;font-weight:400;letter-spacing:-.015em;margin:56px 0 4px;line-height:1.2}
+  h2 .n{font-family:var(--mono);font-size:12px;color:var(--band);letter-spacing:.1em;
+    display:block;margin:0 0 8px;font-weight:600}
+  h3{font-size:19px;font-weight:600;margin:34px 0 6px;letter-spacing:-.008em}
+  .kicker{font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;
+    color:var(--amber);margin:56px 0 8px}
+  hr.div{border:0;border-top:1px solid var(--rule);margin:52px 0 0}
+  i.dk{font-style:italic}
+
+  /* per-section glossary */
+  .terms{background:var(--paper);border-left:3px solid var(--band);padding:16px 20px;margin:22px 0 28px}
+  .terms h4{font-family:var(--mono);font-size:10px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--band);margin:0 0 12px;font-weight:600}
+  .terms dl{margin:0;display:grid;grid-template-columns:1fr 1fr;gap:10px 26px}
+  .terms dl.one{grid-template-columns:1fr}
+  .terms .t{min-width:0}
+  .terms dt{font-family:var(--mono);font-size:12.5px;color:var(--peat);font-weight:600;
+    letter-spacing:.01em;line-height:1.4}
+  .terms dd{margin:2px 0 0;font-size:15px;color:var(--muted);line-height:1.5}
+
+  ol.qs{margin:0;padding:0;list-style:none;counter-reset:q}
+  ol.qs li{counter-increment:q;position:relative;padding:0 0 0 34px;margin:0 0 10px;font-size:18px}
+  ol.qs li::before{content:counter(q);position:absolute;left:0;top:2px;font-family:var(--mono);
+    font-size:11px;color:var(--amber);font-weight:600}
+
+  .meanwhile{background:var(--paper);border-left:3px solid var(--verdigris);padding:20px 22px;margin:30px 0}
+  .meanwhile h4{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--verdigris);margin:0 0 10px;font-weight:600}
+  .meanwhile p{font-size:16px;margin:0 0 .8em}
+  .meanwhile p:last-child{margin:0}
+
+  .myth{background:var(--paper);border-left:3px solid var(--oxblood);padding:20px 22px;margin:26px 0}
+  .myth h4{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--oxblood);margin:0 0 12px;font-weight:600}
+  .myth dl{margin:0}
+  .myth dt{font-weight:600;font-size:16.5px;margin:16px 0 3px}
+  .myth dt:first-child{margin-top:0}
+  .myth dd{margin:0;font-size:16px;color:var(--muted)}
+
+  ul.calls{list-style:none;margin:0;padding:0;border-top:1px solid var(--rule)}
+  ul.calls li{display:flex;gap:18px;padding:12px 0;border-bottom:1px solid var(--rule);align-items:baseline}
+  ul.calls b{font-family:var(--mono);font-size:11px;letter-spacing:.06em;color:var(--band);
+    width:74px;flex:none;font-weight:600}
+  ul.calls span{font-size:16px;color:var(--muted)}
+
+  ol.five{list-style:none;margin:0;padding:0;counter-reset:f}
+  ol.five li{counter-increment:f;background:var(--paper);border-left:2px solid var(--band);
+    padding:15px 18px;margin:0 0 2px;display:flex;gap:14px;align-items:baseline}
+  ol.five li::before{content:counter(f,decimal-leading-zero);font-family:var(--mono);font-size:11px;
+    color:var(--band);font-weight:600;flex:none}
+  ol.five p{margin:0;font-size:16.5px}
+
+  .qgroup{margin:0 0 26px}
+  .qlabel{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--amber);margin:0 0 4px;font-weight:600}
+  .qnote{font-size:14.5px;color:var(--muted);margin:0 0 10px}
+  .qgroup ul{margin:0;padding:0 0 0 20px}
+  .qgroup li{margin:0 0 8px;font-size:16.5px}
+
+  figure{margin:34px 0;background:var(--paper);padding:20px 20px 16px;border-top:2px solid var(--band)}
+  figure svg{width:100%;height:auto;display:block}
+  figcaption{font-size:14.5px;color:var(--muted);margin:14px 0 0;line-height:1.55}
+  figcaption b{font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;
+    color:var(--peat);display:block;margin:0 0 5px;font-weight:600}
+  .mapt{font-family:var(--mono);font-size:9.5px;fill:#5F6157;letter-spacing:.04em}
+  .mapl{font-family:var(--mono);font-size:10.5px;fill:#3C3E36;letter-spacing:.06em;font-weight:600}
+  .mapx{font-family:var(--mono);font-size:8.5px;fill:#4A4C44;letter-spacing:.04em}
+
+  ul.plain{list-style:none;margin:0;padding:0;border-top:1px solid var(--rule)}
+  ul.plain li{display:flex;gap:20px;padding:12px 0;border-bottom:1px solid var(--rule);
+    align-items:baseline;flex-wrap:wrap}
+  ul.plain .nm{font-family:var(--mono);font-size:12px;letter-spacing:.03em;width:200px;flex:none;
+    color:var(--verdigris)}
+  ul.plain .ds{font-size:15.5px;color:var(--muted);flex:1;min-width:230px}
+
+  footer{margin:70px 0 0;padding:22px 0 64px;border-top:1px solid var(--rule);
+    font-family:var(--mono);font-size:11px;letter-spacing:.06em;color:var(--muted)}
+
+  @media (max-width:720px){
+    body{font-size:16.5px}
+    .wrap{padding:0 20px}
+    .crumb-in{padding:10px 20px;gap:10px;font-size:9.5px}
+    header.hd{padding:40px 0 0}
+    h2{font-size:24px;margin-top:44px}
+    figure{padding:14px 12px 12px}
+    .terms dl{grid-template-columns:1fr;gap:11px}
+    ul.calls li{flex-direction:column;gap:2px}
+    ul.calls b{width:auto}
+    ul.plain li{flex-direction:column;gap:3px}
+    ul.plain .nm{width:auto}
+  }
+
+  html{scroll-behavior:smooth}
+  @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+  h2[id],div.myth[id]{scroll-margin-top:24px}
+
+  /* fixed section index, wide screens only */
+  .rail{position:fixed;top:88px;left:calc(50% - 605px);width:170px;z-index:30;
+    max-height:calc(100vh - 130px);overflow-y:auto;scrollbar-width:thin}
+  .rail-h{font-family:var(--mono);font-size:9.5px;letter-spacing:.18em;text-transform:uppercase;
+    color:var(--amber);margin:0 0 10px;font-weight:600}
+  .rail ol{list-style:none;margin:0;padding:0;border-left:1px solid var(--rule)}
+  .rail li{margin:0}
+  .rail a{display:flex;gap:7px;align-items:baseline;text-decoration:none;color:var(--muted);
+    font-family:var(--mono);font-size:10.5px;line-height:1.35;letter-spacing:.01em;
+    padding:5px 0 5px 11px;margin-left:-1px;border-left:2px solid transparent}
+  .rail a:hover{color:var(--peat)}
+  .rail .rn{color:var(--band);font-weight:600;flex:none;width:13px}
+  .rail a.active{color:var(--peat);border-left-color:var(--amber);font-weight:600}
+  .rail a.active .rn{color:var(--amber)}
+  @media (max-width:1239px){.rail{display:none}}
+
+  /* collapsible contents, narrow screens only */
+  .toc{display:none;background:var(--paper);border-left:3px solid var(--band);
+    padding:12px 18px;margin:34px 0 0}
+  .toc summary{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--band);font-weight:600;cursor:pointer}
+  .toc ol{margin:12px 0 2px;padding:0 0 0 20px}
+  .toc li{margin:0 0 5px;font-size:15.5px}
+  @media (max-width:1239px){.toc{display:block}}
+
+  /* people vignette */
+  .vig{background:var(--paper);border-left:3px solid var(--amber);padding:20px 22px;margin:30px 0}
+  .vig h4{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--amber);margin:0 0 10px;font-weight:600}
+  .vig p{font-size:16.5px;margin:0 0 .85em}
+  .vig p:last-child{margin:0}
+  .vig .who{font-family:var(--mono);font-size:11px;letter-spacing:.05em;color:var(--muted);
+    margin:12px 0 0;font-style:normal}
+  @media print{.rail{display:none}.toc{display:none}.vig{background:#fff}}
+
+  /* mid-page retrieval checkpoint — deliberately unfilled, so it reads as a pause, not a box */
+  .check{border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);
+    padding:15px 0 14px;margin:32px 0}
+  .check h4{font-family:var(--mono);font-size:10px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--muted);margin:0 0 9px;font-weight:600}
+  .check ul{margin:0;padding:0 0 0 19px}
+  .check li{font-size:15.5px;color:var(--muted);margin:0 0 5px;line-height:1.5}
+  .check li:last-child{margin:0}
+  @media print{.check{border-color:#ccc}}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+  @media print{.crumb{display:none}body{background:#fff}figure,.meanwhile,.myth,.terms,ol.five li{background:#fff}}
+
+</style>
+</head>
+<body>
+
+<div class="crumb"><div class="crumb-in">
+  <span><a href="danish-history-index.html#c36" style="color:var(--band);font-weight:600;text-decoration:none">← Index</a></span>
+  <span><b>Part H</b> · The national century</span><span>Chapter 36</span><span>1875 – 1901</span>
+</div></div>
+
+<nav class="rail" aria-label="Sections of this page"><p class="rail-h">On this page</p><ol>
+<li><a href="#intro"><span class="rn"></span>Introduction</a></li>
+<li><a href="#s01"><span class="rn">01</span>Two chambers, two countries</a></li>
+<li><a href="#s02"><span class="rn">02</span>The question nobody had answered</a></li>
+<li><a href="#s03"><span class="rn">03</span>Estrup</a></li>
+<li><a href="#s04"><span class="rn">04</span>Ruling without a budget, 1885</a></li>
+<li><a href="#s05"><span class="rn">05</span>The gendarmes</a></li>
+<li><a href="#s06"><span class="rn">06</span>A wall around Copenhagen</a></li>
+<li><a href="#s07"><span class="rn">07</span>21 October 1885</a></li>
+<li><a href="#s08"><span class="rn">08</span>The other opposition</a></li>
+<li><a href="#s09"><span class="rn">09</span>The settlement of 1894</a></li>
+<li><a href="#s10"><span class="rn">10</span>1901</a></li>
+<li><a href="#myth"><span class="rn"></span>Myth-check</a></li>
+<li><a href="#forward"><span class="rn"></span>What to carry forward</a></li>
+<li><a href="#summary"><span class="rn"></span>The page in five</a></li>
+<li><a href="#questions"><span class="rn"></span>Questions &amp; discussion</a></li>
+<li><a href="#sources"><span class="rn"></span>Sources</a></li>
+<li><a href="#visit"><span class="rn"></span>Places you can visit</a></li>
+</ol></nav>
+
+<div class="wrap">
+
+<header class="hd">
+  <p class="eyebrow">Era chapter · about 37 minutes</p>
+  <h1>Provisorietiden and the change of system</h1>
+  <p class="dates">1875 – 1901 · J.B.S. Estrup · Christian 9. · Julius Rasmussen · Line Luplau · J.C. Christensen</p>
+  <p class="why">The constitution of 1849 never said whether a government answers to the king or to the elected chamber. For nineteen years two men read that silence differently, and Denmark was governed on emergency decrees, with a military police force in its villages and a fortress going up round its capital that would never be fired. The rule that settled it was not written down for another fifty-two years.</p>
+  <ul class="keys">
+    <li>Højre og Venstre</li><li>parlamentarisme</li><li>provisorisk lov</li><li>finanslov</li><li>grundlovens § 25</li><li>visnepolitikken</li><li>Provisorietiden</li><li>Riffelloven 1885</li><li>gendarmerne</li><li>Vestvolden</li><li>Forliget 1894</li><li>Systemskiftet 1901</li>
+  </ul>
+</header>
+
+<details class="toc"><summary>Contents</summary><ol>
+<li><a href="#intro">Introduction</a></li>
+<li><a href="#s01">Two chambers, two countries</a></li>
+<li><a href="#s02">The question nobody had answered</a></li>
+<li><a href="#s03">Estrup</a></li>
+<li><a href="#s04">Ruling without a budget, 1885</a></li>
+<li><a href="#s05">The gendarmes</a></li>
+<li><a href="#s06">A wall around Copenhagen</a></li>
+<li><a href="#s07">21 October 1885</a></li>
+<li><a href="#s08">The other opposition</a></li>
+<li><a href="#s09">The settlement of 1894</a></li>
+<li><a href="#s10">1901</a></li>
+<li><a href="#myth">Myth-check</a></li>
+<li><a href="#forward">What to carry forward</a></li>
+<li><a href="#summary">The page in five</a></li>
+<li><a href="#questions">Questions &amp; discussion</a></li>
+<li><a href="#sources">Sources</a></li>
+<li><a href="#visit">Places you can visit</a></li>
+</ol></details>
+
+<p class="kicker">Introduction</p>
+<h2 id="intro" style="margin-top:0"><span class="n">WHAT THIS PAGE ANSWERS</span>Five questions</h2>
+<ol class="qs">
+  <li>The 1849 constitution is silent about who a ministry answers to. How did two honest readings of that silence produce nineteen years of conflict?</li>
+  <li>The Folketing formally rejected the provisional finance law in January 1886 and nothing at all happened. Why not?</li>
+  <li>Venstre spent years voting down expenditure to starve the government. What did that do to the treasury, and why does it change what the fight was about?</li>
+  <li>One man fired two shots at Estrup in 1885. Why did everything that followed help Estrup?</li>
+  <li>Denmark got parliamentary government in 1901 and did not write it into the constitution until 1953. What held it in place for fifty-two years?</li>
+</ol>
+
+<hr class="div">
+
+<h2 id="s01"><span class="n">01 / NARRATIVE</span>Two chambers, two countries</h2>
+
+<div class="terms">
+  <h4>Danish terms in this section</h4>
+  <dl class="one">
+    <div class="t"><dt>Højre<strong> and </strong>Venstre</dt><dd>"the Right" and "the Left". Not parties in the modern sense at the start of this chapter and increasingly so by its end. Venstre is the party of the farmers and the Folketing; Højre of the landowners, officials and the Landsting. Venstre is the ancestor of today's Venstre, Højre of today's Konservative.</dd></div>
+  </dl>
+</div>
+
+<p>The revision of 1866 gave Denmark two chambers elected on different franchises, and within six years they were returning different countries.</p>
+
+<p>The Folketing kept universal suffrage and was carried, from 1872, by Venstre: the freeholders of chapter 35, the parishes, the meeting-houses, the folk high schools and the cooperative dairies. The Landsting was elected through electors of whom half were chosen by the highest taxpayers alone, with twelve members appointed by the king for life and the town-and-country distribution frozen into the law. It was carried by Højre: landowners, senior officials, the officer corps and the established church.</p>
+
+<p>Neither was unrepresentative. That is the difficulty. Both chambers accurately reflected the constituencies they had been designed to reflect, and those constituencies wanted opposite things. In 1873 Venstre drew the conclusion and demanded <i class="dk">folketingsparlamentarisme</i> — that the government be appointed on the basis of the Folketing's majority. Højre answered that the constitution gave the king the right to choose his ministers, and that a chamber was not a government.</p>
+
+<p>Both were quoting the same document. Neither was misquoting it.</p>
+
+<p>And neither chamber could dissolve the other, dismiss the other, or outvote the other. They were built to check each other and had no procedure for what to do when checking was all they did.</p>
+
+<figure>
+<svg viewBox="0 0 700 375" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagram comparing the two chambers of the Danish Rigsdag as the constitutional revision of 1866 left them. The Folketing was elected by every man of unblemished reputation with Danish citizenship, aged thirty, with a household of his own, not in another’s service without one, and never in receipt of unrepaid poor relief. The Landsting had sixty-six members: twelve chosen by the king for life, one by the Faroese Lagting, one by Bornholm’s county council and fifty-two chosen indirectly through electors, of whom half were chosen by the ordinary voters and half by the highest taxpayers alone, with the distribution of seats between town and country frozen into the law. From 1872 the Folketing was carried by Venstre and the Landsting by Højre.">
+  <rect x="0" y="0" width="700" height="375" fill="#F0F2EE"/>
+  <text x="26" y="30" class="mapl">TWO CHAMBERS, TWO ELECTORATES</text>
+  <text x="26" y="46" class="mapt">the Rigsdag as the revision of 28 July 1866 left it</text>
+  <rect x="26" y="66" width="310" height="30" fill="#4F6470" opacity=".8"/>
+  <text x="38" y="86" class="mapl" fill="#F0F2EE">FOLKETINGET</text>
+  <text x="26" y="114" class="mapx">carried by Venstre from 1872</text>
+  <text x="26" y="138" class="mapt">Every man of unblemished reputation</text>
+  <text x="26" y="153" class="mapt">with Danish indfødsret</text>
+  <text x="26" y="168" class="mapt">aged thirty</text>
+  <text x="26" y="183" class="mapt">with a household of his own</text>
+  <text x="26" y="198" class="mapt">not in another's service without one</text>
+  <text x="26" y="213" class="mapt">and never in receipt of unrepaid poor relief</text>
+  <rect x="364" y="66" width="310" height="30" fill="#8A7A5E" opacity=".8"/>
+  <text x="376" y="86" class="mapl" fill="#F0F2EE">LANDSTINGET</text>
+  <text x="364" y="114" class="mapx">carried by Højre</text>
+  <text x="364" y="138" class="mapt">Half the electors chosen by all those voters</text>
+  <text x="364" y="153" class="mapt">The other half chosen by the highest taxpayers alone</text>
+  <text x="364" y="168" class="mapt">Town and country seats fixed in the law itself,</text>
+  <text x="364" y="183" class="mapt">with no provision for future shifts of population</text>
+  <text x="364" y="224" class="mapx">ITS SIXTY-SIX MEMBERS</text>
+  <rect x="364" y="244" width="9" height="9" fill="#A9B6BD"/>
+  <rect x="377" y="244" width="9" height="9" fill="#A9B6BD"/>
+  <rect x="390" y="244" width="9" height="9" fill="#A9B6BD"/>
+  <rect x="403" y="244" width="9" height="9" fill="#A9B6BD"/>
+  <rect x="416" y="244" width="9" height="9" fill="#A9B6BD"/>
+  <rect x="429" y="244" width="9" height="9" fill="#A9B6BD"/>
+  <rect x="442" y="244" width="9" height="9" fill="#A9B6BD"/>
+  <rect x="455" y="244" width="9" height="9" fill="#A9B6BD"/>
+  <rect x="468" y="244" width="9" height="9" fill="#A9B6BD"/>
+  <rect x="481" y="244" width="9" height="9" fill="#A9B6BD"/>
+  <rect x="494" y="244" width="9" height="9" fill="#A9B6BD"/>
+  <rect x="507" y="244" width="9" height="9" fill="#A9B6BD"/>
+  <rect x="520" y="244" width="9" height="9" fill="#A9B6BD"/>
+  <rect x="533" y="244" width="9" height="9" fill="#A9B6BD"/>
+  <rect x="546" y="244" width="9" height="9" fill="#8A7A5E"/>
+  <rect x="559" y="244" width="9" height="9" fill="#8A7A5E"/>
+  <rect x="572" y="244" width="9" height="9" fill="#8A7A5E"/>
+  <rect x="585" y="244" width="9" height="9" fill="#8A7A5E"/>
+  <rect x="598" y="244" width="9" height="9" fill="#8A7A5E"/>
+  <rect x="611" y="244" width="9" height="9" fill="#8A7A5E"/>
+  <rect x="624" y="244" width="9" height="9" fill="#8A7A5E"/>
+  <rect x="637" y="244" width="9" height="9" fill="#8A7A5E"/>
+  <rect x="650" y="244" width="9" height="9" fill="#8A7A5E"/>
+  <rect x="663" y="244" width="9" height="9" fill="#8A7A5E"/>
+  <rect x="364" y="257" width="9" height="9" fill="#8A7A5E"/>
+  <rect x="377" y="257" width="9" height="9" fill="#8A7A5E"/>
+  <rect x="390" y="257" width="9" height="9" fill="#8A7A5E"/>
+  <rect x="403" y="257" width="9" height="9" fill="#8A7A5E"/>
+  <rect x="416" y="257" width="9" height="9" fill="#8A7A5E"/>
+  <rect x="429" y="257" width="9" height="9" fill="#8A7A5E"/>
+  <rect x="442" y="257" width="9" height="9" fill="#8A7A5E"/>
+  <rect x="455" y="257" width="9" height="9" fill="#8A7A5E"/>
+  <rect x="468" y="257" width="9" height="9" fill="#8A7A5E"/>
+  <rect x="481" y="257" width="9" height="9" fill="#8A7A5E"/>
+  <rect x="494" y="257" width="9" height="9" fill="#8A7A5E"/>
+  <rect x="507" y="257" width="9" height="9" fill="#8A7A5E"/>
+  <rect x="520" y="257" width="9" height="9" fill="#8A7A5E"/>
+  <rect x="533" y="257" width="9" height="9" fill="#8A7A5E"/>
+  <rect x="546" y="257" width="9" height="9" fill="#8A7A5E"/>
+  <rect x="559" y="257" width="9" height="9" fill="#8A7A5E"/>
+  <rect x="572" y="257" width="9" height="9" fill="#8A7A5E"/>
+  <rect x="585" y="257" width="9" height="9" fill="#8A7A5E"/>
+  <rect x="598" y="257" width="9" height="9" fill="#8A7A5E"/>
+  <rect x="611" y="257" width="9" height="9" fill="#8A7A5E"/>
+  <rect x="624" y="257" width="9" height="9" fill="#8A7A5E"/>
+  <rect x="637" y="257" width="9" height="9" fill="#8A7A5E"/>
+  <rect x="650" y="257" width="9" height="9" fill="#8A7A5E"/>
+  <rect x="663" y="257" width="9" height="9" fill="#8A7A5E"/>
+  <rect x="364" y="270" width="9" height="9" fill="#8A7A5E"/>
+  <rect x="377" y="270" width="9" height="9" fill="#8A7A5E"/>
+  <rect x="390" y="270" width="9" height="9" fill="#8A7A5E"/>
+  <rect x="403" y="270" width="9" height="9" fill="#8A7A5E"/>
+  <rect x="416" y="270" width="9" height="9" fill="#8A7A5E"/>
+  <rect x="429" y="270" width="9" height="9" fill="#8A7A5E"/>
+  <rect x="442" y="270" width="9" height="9" fill="#8A7A5E"/>
+  <rect x="455" y="270" width="9" height="9" fill="#8A7A5E"/>
+  <rect x="468" y="270" width="9" height="9" fill="#8A7A5E"/>
+  <rect x="481" y="270" width="9" height="9" fill="#8A7A5E"/>
+  <rect x="494" y="270" width="9" height="9" fill="#8A7A5E"/>
+  <rect x="507" y="270" width="9" height="9" fill="#8A7A5E"/>
+  <rect x="520" y="270" width="9" height="9" fill="#8A7A5E"/>
+  <rect x="533" y="270" width="9" height="9" fill="#8A7A5E"/>
+  <rect x="546" y="270" width="9" height="9" fill="#8A7A5E"/>
+  <rect x="559" y="270" width="9" height="9" fill="#8A7A5E"/>
+  <rect x="572" y="270" width="9" height="9" fill="#8A7A5E"/>
+  <rect x="585" y="270" width="9" height="9" fill="#8A7A5E"/>
+  <rect x="364" y="288" width="8" height="8" fill="#A9B6BD"/>
+  <text x="380" y="295" class="mapl">12</text> 
+  <text x="408" y="295" class="mapt">chosen by the king, for life</text>
+  <rect x="364" y="304" width="8" height="8" fill="#A9B6BD"/>
+  <text x="380" y="311" class="mapl"> 1</text> 
+  <text x="408" y="311" class="mapt">chosen by the Faroese Lagting</text>
+  <rect x="364" y="320" width="8" height="8" fill="#A9B6BD"/>
+  <text x="380" y="327" class="mapl"> 1</text> 
+  <text x="408" y="327" class="mapt">chosen by Bornholm's amtsråd</text>
+  <rect x="364" y="336" width="8" height="8" fill="#8A7A5E"/>
+  <text x="380" y="343" class="mapl">52</text> 
+  <text x="408" y="343" class="mapt">chosen indirectly, through electors</text>
+  <text x="26" y="246" class="mapt">Neither chamber was unrepresentative. That is</text>
+  <text x="26" y="261" class="mapt">the difficulty: both reflected exactly the</text>
+  <text x="26" y="276" class="mapt">electorate they were designed to reflect, and</text>
+  <text x="26" y="291" class="mapt">those two electorates wanted opposite things.</text>
+  <text x="26" y="320" class="mapx">AND NEITHER COULD DISSOLVE,</text>
+  <text x="26" y="336" class="mapx">DISMISS OR OUTVOTE THE OTHER</text>
+  </svg>
+<figcaption><b>Figure 1 · Two chambers, two electorates</b>
+The Folketing and the Landsting side by side as the electoral laws left them after 1866: universal manhood suffrage on one side, and on the other a chamber of sixty-six in which twelve were appointed by the king for life and half the electors who chose the rest were themselves chosen by the highest taxpayers alone. The chapter's central fact in one image.</figcaption>
+</figure>
+
+<h2 id="s02"><span class="n">02 / NARRATIVE</span>The question nobody had answered</h2>
+
+<div class="terms">
+  <h4>Danish terms in this section</h4>
+  <dl>
+    <div class="t"><dt>parlamentarisme</dt><dd>here specifically <i class="dk">folketingsparlamentarisme</i>: the rule that a government must have, or at least not have against it, a majority in the Folketing. Demanded from 1873, conceded in practice in 1901, written into the constitution in 1953.</dd></div>
+    <div class="t"><dt>provisorisk lov</dt><dd>a provisional law, issued by the government under §25 in urgent cases when the Rigsdag is not sitting, and laid before it afterwards.</dd></div>
+    <div class="t"><dt>finanslov</dt><dd>the annual finance act. Under §48 it goes to the Folketing first, which is the whole of Venstre's constitutional argument.</dd></div>
+  </dl>
+</div>
+
+<p>The constitution of 1849, and the revision of 1866 after it, never said whether a ministry answers to the king or to the Folketing. It was not evaded; it was not thought of. In 1849 the question of who dismisses a government had no obvious answer because no Danish government had ever been dismissed by anybody but the king, and the men writing the text were more concerned to establish that ministers were answerable at all.</p>
+
+<p>The men of 1849 had thought hard about ministerial responsibility, but the responsibility they had in mind was legal: a minister could be impeached for breaking the law. That a minister might be perfectly lawful and simply unwanted by the elected chamber was not a case they wrote for, because in 1849 the elected chamber was the new and untried thing and the king was the fact everyone had grown up with.</p>
+
+<p>So the nineteen-year conflict that follows is a gap in a document, and both sides read the gap honestly.</p>
+
+<p>Venstre's text was <strong>§48</strong>: the finance bill must be laid before the Folketing first. From a procedural precedence they argued a constitutional one — the chamber that sees the money first is the chamber the government must satisfy.</p>
+
+<p>Højre's text was <strong>§25</strong>: in <i class="dk">særdeles paatrængende Tilfælde</i>, when the Rigsdag was not assembled, the king could issue provisional laws. The reading was not improvised. It was supplied by two professors of law, H. Matzen and J. Nellemann, and Nellemann was also the minister of justice — so the government's legal opinion and the government's law officer were the same man.</p>
+
+<p>Before 1875 the clause had been used exactly once, in 1853, when the Rigsdag had been dissolved and could not reassemble before a finance law fell due. That is the whole precedent: an administrative gap of a few weeks.</p>
+
+<p>And the clause carried a condition that shows what it was for. A provisional law could only be issued while the Rigsdag was <i class="dk">not</i> sitting. To keep issuing them, the government therefore had to keep sending the Rigsdag home. The emergency provision could only be used by manufacturing the emergency.</p>
+
+<figure>
+<svg viewBox="0 0 700 526" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagram of the Danish constitutional deadlock between 1873 and 1901, drawn as a structure. The Folketing could reject the finance bill, reject a provisional law after the fact, vote down any expenditure and be re-elected on the same majority. The Landsting could reject anything the Folketing passed and keep its composition regardless of population change. The king could appoint whichever ministers he chose, dissolve the Rigsdag and sign a provisional law under article 25. What did not exist was any procedure for settling a disagreement between the two chambers or for removing a ministry the elected chamber did not want: the Folketing could say no, and nothing made the no mean anything. The empty box is the argument of the chapter.">
+  <rect x="0" y="0" width="700" height="526" fill="#F0F2EE"/>
+  <text x="26" y="30" class="mapl">WHAT EACH COULD DO — AND WHAT NOBODY COULD</text>
+  <text x="26" y="46" class="mapt">the deadlock of 1873–1901 as a structure, not as a quarrel between two men</text>
+  <rect x="26" y="74" width="208" height="226" fill="none" stroke="#4F6470" stroke-width="1"/>
+  <rect x="26" y="74" width="208" height="24" fill="#4F6470" opacity=".8"/>
+  <text x="36" y="91" class="mapl" fill="#F0F2EE">THE FOLKETING</text>
+  <text x="36" y="118" class="mapx">could</text>
+  <text x="36" y="136" class="mapt">reject the finance bill</text>
+  <text x="36" y="164" class="mapt">reject a provisional law</text>
+  <text x="36" y="178" class="mapt">afterwards</text>
+  <text x="36" y="206" class="mapt">vote down any expenditure it</text>
+  <text x="36" y="220" class="mapt">chose</text>
+  <text x="36" y="248" class="mapt">be re-elected on the same</text>
+  <text x="36" y="262" class="mapt">majority</text>
+  <rect x="242" y="74" width="208" height="226" fill="none" stroke="#8A7A5E" stroke-width="1"/>
+  <rect x="242" y="74" width="208" height="24" fill="#8A7A5E" opacity=".8"/>
+  <text x="252" y="91" class="mapl" fill="#F0F2EE">THE LANDSTING</text>
+  <text x="252" y="118" class="mapx">could</text>
+  <text x="252" y="136" class="mapt">reject anything the Folketing</text>
+  <text x="252" y="150" class="mapt">passed</text>
+  <text x="252" y="178" class="mapt">keep its composition</text>
+  <text x="252" y="192" class="mapt">regardless of</text>
+  <text x="252" y="220" class="mapt">how the country's population</text>
+  <text x="252" y="234" class="mapt">moved</text>
+  <rect x="458" y="74" width="208" height="226" fill="none" stroke="#A98C5F" stroke-width="1"/>
+  <rect x="458" y="74" width="208" height="24" fill="#A98C5F" opacity=".8"/>
+  <text x="468" y="91" class="mapl" fill="#F0F2EE">THE KING</text>
+  <text x="468" y="118" class="mapx">could</text>
+  <text x="468" y="136" class="mapt">appoint whichever ministers he</text>
+  <text x="468" y="150" class="mapt">chose</text>
+  <text x="468" y="178" class="mapt">dissolve the Rigsdag</text>
+  <text x="468" y="206" class="mapt">sign a provisional law under</text>
+  <text x="468" y="220" class="mapt">§25</text>
+  <rect x="26" y="324" width="648" height="112" fill="none" stroke="#4F6470" stroke-width="1.5" stroke-dasharray="6 5" opacity=".7"/>
+  <text x="46" y="352" class="mapl" opacity=".8">THE BOX THE CONSTITUTION DID NOT CONTAIN</text>
+  <text x="46" y="378" class="mapt">No procedure existed for settling a disagreement between the two chambers.</text>
+  <text x="46" y="394" class="mapt">No procedure existed for removing a ministry the elected chamber did not want.</text>
+  <text x="46" y="410" class="mapt">The Folketing could say no. Nothing made the no mean anything.</text>
+  <line x1="26" y1="456" x2="674" y2="456" stroke="#C9CDC4" stroke-width="1"/>
+  <text x="26" y="476" class="mapt">Estrup did not break a rule that existed. He stood in the place where one should have been,</text>
+  <text x="26" y="490" class="mapt">and stayed there for nineteen years. The gap was the fault. That is the chapter's argument,</text>
+  <text x="26" y="504" class="mapt">and it is why this figure is a structure and not a scoreboard.</text>
+  </svg>
+<figcaption><b>Figure 2 · What each chamber could do, and what nobody could do</b>
+The deadlock drawn as a structure rather than as a quarrel between two men: what the Folketing could do, what the Landsting could do, what the king could do — and the empty box, which is the procedure the constitution did not contain for settling a disagreement between them. Not the seats-against-votes series the plan asked for; see the note in figs_36.py.</figcaption>
+</figure>
+
+<h2 id="s03"><span class="n">03 / NARRATIVE</span>Estrup</h2>
+
+<div class="terms">
+  <h4>Danish terms in this section</h4>
+  <dl>
+    <div class="t"><dt>konseilspræsident</dt><dd>council president; the office called prime minister after 1918.</dd></div>
+    <div class="t"><dt>visnepolitik</dt><dd>the "withering policy": Venstre's tactic of voting down every expenditure not strictly necessary, to starve the government into resignation. It filled the treasury instead.</dd></div>
+  </dl>
+</div>
+
+<p>Jacob Brønnum Scavenius Estrup was a landowner from Zealand, and the reader has met him already: he was the interior minister who designed the revision of 1866, and he then took one of the twelve Landsting seats the king appointed for life and held it, with one interruption, until his death. He built the machine and then sat inside it.</p>
+
+<p>He was not a soldier or an orator. He was tubercular all his life, which is why he never took a student examination — he trained as a forester instead, on the grounds that it meant less sitting indoors — and the illness left him with a discipline that people who disliked him described as coldness. He became council president in 1875 and stayed for nineteen years.</p>
+
+<p>The conflict began before the provisional laws did. In 1874 the Venstre groups voted down the finance bill, on the reasoning that a country cannot be governed without one and a government that cannot get one must go. The government dissolved the Folketing instead. In 1877 the two chambers could not agree the budget and Estrup issued a provisional finance law — a modest one, and both chambers passed a proper law shortly afterwards. The technique had been tested and put away.</p>
+
+<p>Venstre's answer was the <i class="dk">visnepolitik</i>, the withering policy: vote down every expenditure that was not strictly necessary, and starve the government into resigning. It had a consequence its authors did not intend. <strong>By the mid-1880s the treasury was unusually full</strong>, because almost nothing had been voted for years. And Estrup had refused, year after year, to introduce income and wealth taxes to pay for defence. So when the crisis came, the argument was not that the money was lacking. The money was sitting there. What was in dispute was who had the right to spend it.</p>
+
+<p>There was a third party to this and he is easy to leave out. Christian 9. was not a bystander: the ministry was his, appointed by him and kept in office by him against the vote of the Folketing, and without his signature none of it was possible. It is worth remembering what he had learned about yielding. In 1863, three days on the throne, he had been pressed into signing a constitution he believed would cost the country its duchies, and it had — chapter 34 §01. A king who had given way once under pressure, and watched the result, was not a king disposed to give way twice. That is an interpretation and is offered as one, but it is hard to read his conduct in the 1880s without it.</p>
+
+<p>It matters to say what Estrup was not. He was not a man seizing power he had no claim to. He had a clause, two professors, a majority in one chamber and the support of the king, and he believed — with a conviction that is easy to caricature and was widely shared in his class and elsewhere in Europe — that a chamber elected by every man in the country should not be permitted to appoint the government of the country. He was defending a constitution as he read it.</p>
+
+<p>He was also, by the end, a man who had governed for nine years against the express vote of the elected chamber, using an emergency clause to build a fortress, and who had put a military police force into the villages of people who disagreed with him. Both of those sentences are true and the chapter needs both.</p>
+
+<div class="meanwhile">
+<h4>Meanwhile · Berlin, 1862–1866.</h4>
+<p>Prussia's chambers refused Bismarck a budget for army reform, and Bismarck governed without one for four years on the argument that the constitution provided no procedure for the case and the state must be administered regardless — the <i class="dk">Lückentheorie</i>, the theory of the gap. He was retrospectively indemnified in 1866 by a parliament that had just watched him win two wars. The resemblance to Denmark twenty years later is not a coincidence and it was noticed at the time: the same reasoning from the same kind of silence, and the provisional laws of October 1885 were modelled on the German emergency statutes. The man who took Slesvig from Denmark supplied the method by which Denmark was then governed against its own majority.</p>
+</div>
+
+<div class="check">
+  <h4>Checkpoint</h4>
+  <ul>
+    <li>The 1866 revision left two chambers returning two different countries. Which was which, and what did Venstre demand from 1873?</li>
+    <li>What did §25 of the constitution allow, and how many times had it been used before Estrup took office?</li>
+    <li>What was the visnepolitik meant to achieve, and what did it achieve instead?</li>
+  </ul>
+</div>
+
+<h2 id="s04"><span class="n">04 / NARRATIVE</span>Ruling without a budget, 1885</h2>
+
+<div class="terms">
+  <h4>Danish terms in this section</h4>
+  <dl class="one">
+    <div class="t"><dt>Provisorietiden</dt><dd>the years of provisional government. Usually given as 1885–1894, sometimes as 1877–1894 from the first, much smaller provisional finance law. Both datings are in the literature and the difference is real: 1877 was a technique tested, 1885 was a technique adopted.</dd></div>
+  </dl>
+</div>
+
+<p>Christiansborg had burned down in 1884, so the two chambers met that winter in rented rooms in Fredericiagade, in what is now the Eastern High Court. Contemporary accounts describe the atmosphere as oppressive: two hostile assemblies in a temporary building, in a state whose parliament no longer had a house.</p>
+
+<p>Venstre would not pass a finance bill carrying the fortification of Copenhagen. Estrup did not negotiate. On <strong>31 March 1885</strong> he had the royal resolution ready and sent the Rigsdag home with no budget passed; on <strong>1 April</strong> the government issued a provisional finance law whose contents it had written itself.</p>
+
+<p>Then it did the same thing the next year, and the next, in almost identical terms, every year until 1894.</p>
+
+<p>What the laws actually said is worth reading, because it is blander than the conflict around it and more remarkable for being bland. They authorised the government to meet the necessary expenses of the state out of the treasury, as the government judged them. That is the whole of it. There is no rhetoric in a provisional finance law and no emergency described in it. It is an accounting instrument, and for nine years it was the legal basis on which a European constitutional monarchy was administered.</p>
+
+<p>Meanwhile the ordinary business continued, which is the part that startles a modern reader. Elections were held. Estrup's party lost them, repeatedly and heavily; Højre never came close to a Folketing majority in these years and never expected to. The results were published, the members took their seats, the chamber debated, and the government went on spending money the chamber had refused. Nobody was prevented from voting. It simply made no difference to who governed, and everybody could see that it made no difference, which is precisely what turned a disagreement about a clause into a crisis about the state.</p>
+
+<p>The legal position was stranger than either side's slogans. A provisional law was by its own nature temporary and had to be laid before the Rigsdag when it reassembled. It was. On <strong>25 January 1886 the Folketing rejected</strong> the provisional finance law of 1 April 1885 — and nothing happened. The money had been spent. A royal resolution the following day dealt with the consequences, and the government carried on. The constitution provided a procedure for the Rigsdag to say no and no procedure for the no to mean anything.</p>
+
+<p>That is the exact shape of the thing, and it is worth resisting both easy descriptions. It was not a coup: no soldiers surrounded the chamber, elections continued to be held and lost, the courts sat, Estrup submitted his laws for rejection as the text required. Nor was it lawful government: a clause written for an administrative gap of weeks was used for nine years to spend money the elected chamber had refused, and the government had to dissolve parliament repeatedly in order to keep using it.</p>
+
+<p>What it was, precisely, is a government discovering that a constitution which provides no remedy provides no restraint, and deciding to find out how far that went.</p>
+
+<h2 id="s05"><span class="n">05 / NARRATIVE</span>The gendarmes</h2>
+
+<div class="terms">
+  <h4>Danish terms in this section</h4>
+  <dl>
+    <div class="t"><dt>gendarm</dt><dd>a member of the military gendarmerie corps created by provisional law on 27 October 1885 to assist the police. Light-blue uniforms, hence <i class="dk">de blå gendarmer</i>.</dd></div>
+    <div class="t"><dt>riffelforening</dt><dd>rifle association. Grown up beside the Grundtvigian meeting-houses and closed down by the <i class="dk">Riffellov</i> of 5 May 1885.</dd></div>
+  </dl>
+</div>
+
+<p>Up to this point the conflict was conducted between men in a building. In 1885 it came out into the country, and that is what people remembered.</p>
+
+<p>It began with weapons. In impotence at their exclusion from any influence, Venstre supporters had been organising rifle associations across the countryside — descendants of the shooting clubs that had grown up beside the Grundtvigian meeting-houses, and not obviously an armed threat, but not obviously not one either. On <strong>5 May 1885</strong> the government issued the <i class="dk">Riffellov</i> by provisional law, restricting the acquisition and use of rifles and shutting the associations down.</p>
+
+<p>Then came 21 October, which is the next section. Six days after it, on <strong>27 October 1885</strong>, the government issued a provisional law creating a <strong>military gendarmerie corps</strong> to assist the police anywhere in the kingdom, together with laws on police expenditure and on criminal-court assessors. On <strong>2 November</strong> a criminal-law provisorium made it an offence to put about "invented or distorted facts" in order to render the institutions of the state or the measures of the government hated or contemptible.</p>
+
+<p>Danish accounts say plainly where the model came from: the far-reaching provisional laws Germany had issued after two attempts on the Kaiser's life. The country that had lost Slesvig to Bismarck in 1864 was governed in 1885 on Bismarck's emergency statute book.</p>
+
+<p>The gendarmes wore light blue and were universally known by it. They were posted into market towns and villages, and they were loathed with an intensity that surprised the government, because what they represented was not policing but supervision: the state stationing armed men among farmers whose offence was how they voted. At Brønderslev market it turned into a brawl and the gendarmes drew their sabres; afterwards public meetings were prohibited across Vendsyssel.</p>
+
+<p>It reached into how people bought and sold. Villages boycotted shopkeepers who took Højre's side and shopkeepers boycotted Venstre customers; a district could divide over which inn a meeting was held in, and the schoolteacher, the priest and the parish council chairman found themselves publicly on one side or the other whether or not they wished to be. This is the same social geography chapter 35 described, put under pressure: the meeting-house and the mission house, the rifle club and the rectory, now with a political test applied to each.</p>
+
+<p>The prosecutions ran alongside. The Venstre leader Christen Berg was given six months for physically removing the police chief of Holstebro, who had tried to stop him delivering an advertised speech. In September 1886 the priest and folk high school principal <strong>Morten Pontoppidan was sentenced to four months in prison for saying that the government had broken the constitution</strong> — which, on Venstre's reading of the constitution, it had. On Constitution Day 1886 there were large demonstrations across the country.</p>
+
+<p>Some historians have written that Denmark could have gone to civil war in these years. That is a counterfactual and should be labelled one. What can be said without speculation is that a country with no rebellion, no barricades and no political killings spent a decade with a military police force in its villages, its rifle clubs banned, its opposition editors and clergy in prison, and its budget written by a government the majority had voted against.</p>
+
+<h2 id="s06"><span class="n">06 / NARRATIVE</span>A wall around Copenhagen</h2>
+
+<div class="terms">
+  <h4>Danish terms in this section</h4>
+  <dl class="one">
+    <div class="t"><dt>Vestvolden</dt><dd>the western rampart, 1888–92: fourteen kilometres from Utterslev Mose to Køge Bugt, and the largest Danish building project of its century.</dd></div>
+  </dl>
+</div>
+
+<p>Underneath the constitutional argument was a spending argument, and underneath that was a wall.</p>
+
+<p>Højre held that Copenhagen must be fortified against a modern army, and after 1864 it was hard to call the anxiety unreasonable. Venstre held that a small state cannot fortify its way out of its neighbours and that the money belonged to schools, and it was hard to call that unreasonable either. What made it irreconcilable was that Estrup would not fund the works by taxing wealth and Venstre would not vote them from the surplus its own obstruction had created.</p>
+
+<p>So the fortification was built by decree. Work on the land defences ran from 1886, and the <strong>Vestvold</strong> itself was thrown up between <strong>1888 and 1892</strong>: a single continuous rampart fourteen kilometres long from Utterslev Mose in the north to Køge Bugt in the south, broken only where an existing road or railway went through. It was designed by Lieutenant-Colonel E.J. Sommerfeldt, whose saw-toothed plan with the guns in protected caponiers made him internationally known, and the work was directed by Estrup's war minister J.J. Bahnson.</p>
+
+<p>It was the largest construction project in Danish history to that date, and it was built by hand. About <strong>3.15 million cubic metres</strong> of earth and chalk were moved with shovels, wheelbarrows and tip-wagons by some two thousand local contractors and day labourers. Concrete mixing machines did not yet exist, so the concrete was mixed in large tubs and carried. A railway was laid along the rampart road using worn-out track cast off by the state railways.</p>
+
+<p>The 1894 settlement stopped further building. In 1909, fifteen years later, it was decided that the land fortification should be abolished from 1922. When war came in 1914 a security force of fifty thousand men was called up to hold it, and spent four years waiting for an attack that never arrived. It was formally abolished on <strong>1 April 1920</strong>.</p>
+
+<p>The wall that broke the Danish constitution was never fired in anger, and it was obsolete before the men who dug it had grown old.</p>
+
+<figure>
+<svg viewBox="0 0 700 487" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Table of the Vestvold, the western rampart of the Copenhagen land fortification. Built between 1888 and 1892, fourteen kilometres long from Utterslev Mose to Køge Bugt, designed by Lieutenant-Colonel E.J. Sommerfeldt and directed by Estrup’s war minister J.J. Bahnson. About 3,150,000 cubic metres of earth and chalk were moved by some two thousand men using shovels, wheelbarrows and tip-wagons, with the concrete mixed by hand because mixing machines did not yet exist. It was paid for by provisional finance law against the vote of the Folketing. Further building stopped with the settlement of 1894; in 1909 it was decided to abolish the land fortification from 1922; fifty thousand men were called up to hold it in 1914 and saw no fighting; and it was abolished on 1 April 1920. Its money cost was not obtained and is not given here.">
+  <rect x="0" y="0" width="700" height="487" fill="#F0F2EE"/>
+  <text x="26" y="30" class="mapl">THE RAMPART THE CONSTITUTION WAS BROKEN FOR</text>
+  <text x="26" y="46" class="mapt">Vestvolden, and what became of it</text>
+  <text x="26" y="76" class="mapx">Built</text> 
+  <text x="140" y="76" class="mapt">1888–1892; the wider land defences from 1886</text>
+  <text x="26" y="92" class="mapx">Length</text> 
+  <text x="140" y="92" class="mapt">14 km, Utterslev Mose to Køge Bugt, continuous except where an</text>
+  <text x="140" y="108" class="mapt">existing road or railway passed through</text>
+  <text x="26" y="124" class="mapx">Designed by</text> 
+  <text x="140" y="124" class="mapt">Lieutenant-Colonel E.J. Sommerfeldt — a saw-toothed plan with the</text>
+  <text x="140" y="140" class="mapt">guns in protected caponiers, known abroad as the Danish Front</text>
+  <text x="26" y="156" class="mapx">Directed by</text> 
+  <text x="140" y="156" class="mapt">J.J. Bahnson, Estrup's war minister</text>
+  <text x="26" y="172" class="mapx">Earth moved</text> 
+  <text x="140" y="172" class="mapt">about 3,150,000 cubic metres of earth and chalk</text>
+  <text x="26" y="188" class="mapx">Workforce</text> 
+  <text x="140" y="188" class="mapt">about 2,000 local contractors and day labourers</text>
+  <text x="26" y="204" class="mapx">Method</text> 
+  <text x="140" y="204" class="mapt">shovels, wheelbarrows and tip-wagons; concrete mixed by hand in</text>
+  <text x="140" y="220" class="mapt">tubs, because mixing machines did not yet exist; a railway laid</text>
+  <text x="140" y="236" class="mapt">along the rampart road on worn-out track cast off by the state</text>
+  <text x="26" y="252" class="mapx">Paid for by</text> 
+  <text x="140" y="252" class="mapt">provisional finance law, against the vote of the Folketing</text>
+  <line x1="26" y1="278" x2="674" y2="278" stroke="#C9CDC4" stroke-width="1"/>
+  <text x="26" y="300" class="mapx">AND THEN</text>
+  <text x="26" y="322" class="mapl">1894</text> 
+  <rect x="90" y="315" width="8" height="8" fill="#8A7A5E"/>
+  <text x="112" y="322" class="mapt">The settlement stops further building</text>
+  <text x="26" y="341" class="mapl">1909</text> 
+  <rect x="90" y="334" width="8" height="8" fill="#8A7A5E"/>
+  <text x="112" y="341" class="mapt">Decided that the land fortification be abolished from 1922</text>
+  <text x="26" y="360" class="mapl">1914</text> 
+  <rect x="90" y="353" width="8" height="8" fill="#A9B6BD"/>
+  <text x="112" y="360" class="mapt">A security force of 50,000 called up to hold it</text>
+  <text x="26" y="379" class="mapl">1918</text> 
+  <rect x="90" y="372" width="8" height="8" fill="#A9B6BD"/>
+  <text x="112" y="379" class="mapt">Four years later, having seen no fighting, they go home</text>
+  <text x="26" y="398" class="mapl">1920</text> 
+  <rect x="90" y="391" width="8" height="8" fill="#8A7A5E"/>
+  <text x="112" y="398" class="mapt">Abolished on 1 April, two years early</text>
+  <line x1="26" y1="425" x2="674" y2="425" stroke="#C9CDC4" stroke-width="1"/>
+  <text x="26" y="445" class="mapt">The money cost is not given here because it was not obtained. Since the political point of</text>
+  <text x="26" y="459" class="mapt">this rampart is that it was paid for out of a budget the elected chamber had refused, the</text>
+  <text x="26" y="473" class="mapt">figure in kroner would be the most useful number on the page, and the worst one to guess.</text>
+  </svg>
+<figcaption><b>Figure 3 · The rampart the constitution was broken for</b>
+The Vestvold in plan and in quantities: fourteen kilometres from Utterslev Mose to Køge Bugt, built 1888–92, some 3.15 million cubic metres of earth and chalk moved by about two thousand men with shovels and wheelbarrows. Never fired in anger; abolished in 1920.</figcaption>
+</figure>
+
+<div class="check">
+  <h4>Checkpoint</h4>
+  <ul>
+    <li>On 31 March and 1 April 1885 two things happened in sequence. What were they?</li>
+    <li>The Folketing rejected the provisional finance law in January 1886. What followed from the rejection?</li>
+    <li>Name three of the provisional laws of 1885 that were not finance laws, and say what each was for.</li>
+  </ul>
+</div>
+
+<h2 id="s07"><span class="n">07 / NARRATIVE</span>21 October 1885</h2>
+
+<p>There was one act of violence in nineteen years of it, and it came from a man acting entirely alone.</p>
+
+<div class="vig">
+<h4>Vignette · Julius Rasmussen, Toldbodvej, 21 October 1885</h4>
+<p>He was born on Christianshavn on 5 July 1866, twenty-three days before the revised constitution was signed. He was a typographer. He had worked on a Venstre paper on Lolland-Falster, where he had joined the local Venstre association and taken a seat on its committee, and joined the local rifle association, where he acquired a pistol.</p>
+<p>Back in Copenhagen, setting type for a printer in Tordenskjoldsgade, he watched the enormous welcome given on 2 October 1885 to Christen Berg, who had just been sentenced to six months for removing a police chief who had tried to silence him. Shortly after that he decided to kill the council president.</p>
+<p>On the afternoon of the 21st he waited outside Estrup's house at Toldbodvej 26. When Estrup came home from the Folketing he asked him, from a couple of paces, <i class="dk">Er De Minister Estrup?</i> Estrup said yes. He fired. <strong>The bullet struck a coat button and lodged in the lining.</strong> Estrup said <i class="dk">Hvad, skyder De paa mig?</i> — what, are you shooting at me? — and the second shot went into the gate behind him.</p>
+<p>He made no attempt to escape. At the station he confessed at once and said he had done it for freedom's sake. He was nineteen: a small, pale, quiet young man who by every account had never hurt anyone in his life.</p>
+<p>Estrup went on to his dinner engagement that evening and mentioned it to the company only when reporters began arriving to find him, in the middle of a rubber of whist.</p>
+<p>Julius Rasmussen was sentenced to fourteen years' hard labour and sent to Horsens. He died there in his cell four years later, aged twenty-three. At his funeral there were wreaths from Venstre associations, from three provincial newspapers, from students in Copenhagen, and from the typographers of Aalborg and of Vejle.</p>
+<p class="who">Julius Rasmussen, typographer · Toldbodvej 26, Copenhagen · 21 October 1885 · [n]</p>
+</div>
+
+<p>It is worth being clear about how bad the autumn of 1885 was before he acted. Contemporaries writing about the case afterwards said that the ministry had never stood on weaker feet than it did in those weeks, and that the conflict had begun to leave the political sphere and enter private life — meeting against meeting, family against family. The youth associations and the rifle clubs were forming. A young man reading a Venstre paper in October 1885 was reading that his country's government was governing illegally, that its opponents were being jailed for saying so, and that nothing whatever could be done about it through any channel the constitution provided. That was accurate.</p>
+
+<p>Everything he wanted, the two shots made worse. Estrup's popularity rose to heights it had never reached before; a wave of sympathy went through people who had detested him the week before; and within a fortnight the government had the gendarmes, the police laws and the press provisorium, all of them justified by what had happened outside the gate on Toldbodvej.</p>
+
+<div class="meanwhile">
+<h4>Meanwhile · Kristiania, 1884.</h4>
+<p>Norway got there seventeen years before Denmark, and by the opposite route. Where the Danish Folketing could only refuse and wait, the Norwegian Storting impeached the Selmer ministry before the <i class="dk">Riksrett</i>, removed it, and forced the king to appoint a government from the parliamentary majority. The difference is procedural and it is the whole difference: Norway's constitution contained a mechanism for removing a government and Denmark's did not. Danish Venstre watched it closely and could not copy it.</p>
+</div>
+
+<h2 id="s08"><span class="n">08 / NARRATIVE</span>The other opposition</h2>
+
+<p>Venstre was not the only opposition, and the other two were arranged along the same seam.</p>
+
+<p>The Social Democrats entered the Folketing in 1884, with two seats. They were outside the constitutional argument in the sense that neither reading of the text did anything for the people they represented, and inside it in the sense that a Højre that could rule against the elected chamber could rule against anybody.</p>
+
+<p>They did not stay at two seats. The party built outward through the 1890s while the constitutional struggle went on over its head: unions for the unskilled from 1896, a national federation of trade unions in 1898, and in 1899 the four-month lockout and the September Compromise of chapter 35 §09. By 1901 the Social Democrats were a parliamentary party with a press, a union movement and a programme, and they had achieved all of it in a decade when the elected chamber they sat in did not control the government.</p>
+
+<p>The religious division ran with the political one, closely enough to be the same line seen twice. Venstre's rural base was substantially Grundtvigian and made heavy use of the free-congregation law of 1868, which let a congregation choose and pay its own priest inside the folkekirke — the legal grandchild of chapter 33's <i class="dk">sognebåndsløsning</i>. The hierarchy of the established church sat with Højre. A parish's meeting-house, its rifle club, its cooperative dairy and its Folketing vote tended to be the same people; the mission house, the rectory and the manor tended to be the others.</p>
+
+<div class="vig">
+<h4>Vignette · Line Luplau, Copenhagen, 15 February 1889</h4>
+<p>She was sixty-five, and she had come to this late. For years she had been a vicar's wife in Varde, where the poverty of the town's poor moved her to found a relief society; and it was working in it that persuaded her that women understood social need better than men did, which is what turned her toward political rights. She was one of the first women in Denmark — possibly the first — to speak at a Constitution Day meeting.</p>
+<p>On 15 February 1889 the Kvindevalgretsforeningen, which she had founded with the municipal schoolteacher Louise Nørlund, held its first public meeting. Fifteen hundred people came. It was the first Danish association with women's suffrage and nothing else on its programme, and she chaired it until shortly before her death.</p>
+<p>Two decisions of hers belong in this chapter rather than in a history of the women's movement. She built it deliberately as a <strong>mixed association</strong>, breaking with the women-only principle of the society she came from — which cost her the friendship of Matilde Bajer, who resigned her own chairmanship over it. And she took her support where the argument actually was: from Social Democrat and Venstre men, from left-liberal women, and from the "red" working women of the unions. She said she did not care whether she was called a Venstre woman or a Social Democrat so long as nobody called her a sympathiser of Højre.</p>
+<p>She died in 1891. At her burial the red banners of the trade-union women flew over the churchyard. Her daughter Marie painted the group portrait of the campaign's first days, and in 1917 — two years after the vote was won — it was hung in the Folketing.</p>
+<p class="who">Line Luplau, vicar's wife and suffragist · Copenhagen · 15 February 1889 · [f]</p>
+</div>
+
+<p>Three oppositions, then, and one line: the farmers, the workers and the women were all on the far side of it from the landowners, the officers and the bishops. That alignment is why the constitutional struggle was never only constitutional, and why its resolution changed more than a procedure.</p>
+
+<h2 id="s09"><span class="n">09 / NARRATIVE</span>The settlement of 1894</h2>
+
+<div class="terms">
+  <h4>Danish terms in this section</h4>
+  <dl class="one">
+    <div class="t"><dt>Forliget 1894</dt><dd>the settlement that ended the provisional laws and removed Estrup, and answered no constitutional question at all.</dd></div>
+  </dl>
+</div>
+
+<p>From about 1890 the moderate wings on both sides began to move toward each other, and the popular protests thinned as they did. In 1894 they made a bargain.</p>
+
+<p>The provisional finance laws stopped. The further build-out of the fortification that the army wanted was suspended. And <strong>Estrup resigned</strong> after nineteen years.</p>
+
+<p>What the settlement did not do was answer the question. It ended the emergency and left the gap in the constitution exactly where it had been: nothing was written down about whether a ministry answers to the Folketing, and nothing prevented a future government from reading §25 as Estrup had read it.</p>
+
+<p>The reaction was immediate and it came from Venstre's own side. At the election of 1895 the moderates lost their narrow majority for the settlement, the opposition Venstre groups combined as the <strong>Venstrereformparti</strong>, and the real leader of it took the chairmanship of the finance committee and resumed the <i class="dk">visnepolitik</i> in a harder form: drain the treasury, stop every piece of reform legislation, and pass nothing until parliamentary government had been conceded.</p>
+
+<p>His name was J.C. Christensen and he had been a village schoolmaster six years earlier.</p>
+
+<div class="check">
+  <h4>Checkpoint</h4>
+  <ul>
+    <li>What was the Vestvold, when was it built, and what eventually became of it?</li>
+    <li>Why did the attempt on Estrup's life strengthen his position?</li>
+    <li>The settlement of 1894 ended the provisional laws. What did it leave unanswered?</li>
+  </ul>
+</div>
+
+<h2 id="s10"><span class="n">10 / NARRATIVE</span>1901</h2>
+
+<div class="terms">
+  <h4>Danish terms in sections 10–1901</h4>
+  <dl class="one">
+    <div class="t"><dt>Systemskiftet</dt><dd>"the change of system": the appointment on 24 July 1901 of a ministry drawn from the Folketing majority.</dd></div>
+  </dl>
+</div>
+
+<p>What finished it was arithmetic. Højre's share of the Folketing had been falling for a generation and by the election of 1901 it was derisory — a party holding the government of the country on the votes of a small fraction of those who voted for the chamber that mattered. The Landsting franchise still protected it in the other chamber, but no reading of any clause could make the position look like anything but what it was.</p>
+
+<p>Christian 9. gave way. He did it without conceding the principle: he never accepted that the constitution required him to appoint a ministry from the Folketing majority, and he did not say that he was doing so. He simply appointed one.</p>
+
+<p>The ministry took office on <strong>24 July 1901</strong>. Its head was J.H. Deuntzer, a professor of law at the University of Copenhagen who had been appointed to his chair at twenty-seven and who took the foreign ministry as well. Christopher Hage had finance, Ole Hansen — a farmer — agriculture, and <strong>Viggo Hørup</strong>, the radicals' symbol and the most effective journalist of the opposition, was made minister of public works, on the advice of the justice minister, so that every wing of a very broad party should be inside the tent.</p>
+
+<div class="vig">
+<h4>Vignette · J.C. Christensen, Stadil, 1901</h4>
+<p>He was born in 1856 on a heath farm at Påbøl in west Jutland and began working life as a herd boy. He trained as a teacher, and from 1886 to 1901 he taught the village school at Stadil, near Ringkøbing.</p>
+<p>It was the Provisorietid that made him political. He became chairman of his parish council in 1888 and was elected to the Folketing for the Ringkøbing seat in January 1890, as a follower of Christen Berg; he held it for thirty-four years. When Berg died in 1891 it was Christensen who carried on his fight against the moderates' policy of negotiating with Højre, and after the settlement of 1894 collapsed at the polls it was Christensen who assembled the Venstrereformparti and, from the chair of the finance committee, starved the government until it gave way.</p>
+<p>In the ministry of 24 July 1901 he was formally the minister for church and education. He was in fact the head of the government, and everyone including Deuntzer knew it. Copenhageners did not know what to make of his west Jutland manner and decided it was peasant cunning; a cartoonist drew him in 1905 with a fox behind his ear and the fox stayed for the rest of his career.</p>
+<p>He would be council president from 1905 to 1908, and would be brought down by the justice minister sitting three places from him at that first cabinet table.</p>
+<p class="who">J.C. Christensen, schoolmaster · Stadil, west Jutland · 1901 · [n]</p>
+</div>
+
+<p>What the ministry then did is the reason this is a chapter ending rather than a date. J.C. Christensen carried the great school reform of 1903, which opened the secondary school to children who had been through the village school and connected the two systems that had run in parallel since Grundtvig's day. And in May 1903 he carried a law on parish councils: an elected council of at least four members in every parish, chosen by the baptised who put themselves on a church electoral roll, with the priest as chairman by right.</p>
+
+<p>That last one settles something this book left open two chapters ago. Article 80 of the constitution of 1849 had promised that the constitution of the folkekirke would be settled by law; a commission appointed in 1853 reported eleven years later and nothing came of it; and the promise had stood undischarged for fifty-four years. The first parliamentary government in Danish history put a democratic body into every parish in the country within two years of taking office. It was expressly temporary, for six years, pending a final settlement of the church's constitution. That settlement has still not been made.</p>
+
+<p>That last is worth finishing. P.A. Alberti, minister of justice in Denmark's first parliamentary government and again in Christensen's own, turned out to have been running a fraud on a scale that has few parallels in Danish public life. He confessed in 1908, Christensen's government fell with him, and Christensen was impeached and acquitted with a rebuke for negligence. The first ministry appointed by a parliamentary majority contained, from its first day, the man who would destroy the man who made it.</p>
+
+<p>The change of system did not put parliamentarism into the constitution. It was not written down until 1953, where this book ends. For fifty-two years the most important rule in Danish politics was a rule everybody obeyed and nobody had enacted — which, if you have read the last nine sections, is a very Danish way for the argument to have ended.</p>
+
+<hr class="div">
+
+<div class="myth" id="myth">
+<h4>Myth-check</h4>
+<dl>
+  <dt>"1901 gave Denmark parliamentary government."</dt>
+  <dd>It gave Denmark the practice and not the rule, and the distinction held for fifty-two years.</dd>
+</dl>
+</div>
+
+<p class="kicker">Threads and links</p>
+<h2 id="forward" style="margin-top:0"><span class="n">WHERE THIS GOES</span>What to carry forward</h2>
+<ul class="calls">
+  <li><b>← 32</b><span>Bondevennernes Selskab, 1846. The organisation of the Danish farmer begins there and arrives here as a parliamentary majority that cannot form a government.</span></li>
+  <li><b>← 33</b><span>Two chambers created in 1849 on one franchise, and the reservation about Slesvig on the constitution's first page.</span></li>
+  <li><b>← 34</b><span>The revision of 1866: the privileged Landsting franchise, the frozen town-and-country distribution, and Estrup, who designed it and then sat in it for forty years. §01 is that design working exactly as intended.</span></li>
+  <li><b>← 35</b><span>The cooperative farmers as an electorate, the Grundtvigian meeting-houses and rifle clubs that §05's provisional law closed, and the party founded out of the Fælled arriving in the Folketing in §08.</span></li>
+  <li><b>→ Part I</b><span>Women's suffrage and the constitution of 1915 — Line Luplau's association outliving her by twenty-four years.</span></li>
+  <li><b>→ Part I</b><span>The Social Democrats from two seats to government.</span></li>
+  <li><b>→ a later part</b><span>Parliamentarism written into the constitution in 1953. <i class="dk">D-1 requires a part letter and the later parts are not yet planned; this arrow carries a year instead. Open item, and it closes when the plan for the last parts is drawn.</i></span></li>
+</ul>
+
+<p class="kicker">Summary</p>
+<h2 id="summary" style="margin-top:0"><span class="n">IF YOU REMEMBER FIVE THINGS</span>The page in five</h2>
+<ol class="five">
+  <li><p>The revision of 1866 produced a Folketing carried by Venstre and a Landsting carried by Højre, and from 1873 Venstre demanded that governments be appointed from the Folketing majority. The constitution did not say whether they should be. Both sides read the silence honestly and neither could be argued out of it.</p></li>
+  <li><p>Estrup governed for nineteen years from 1875, and from 1 April 1885 he sent the Rigsdag home each year without a budget and issued a provisional finance law of his own writing under an emergency clause used once before, in 1853. The elected chamber formally rejected the first of them in January 1886, and nothing followed, because the constitution provided a way to say no and no way for the no to matter.</p></li>
+  <li><p>The conflict left the chamber and entered the country: rifle associations closed by decree, a military gendarmerie in light blue posted into the villages, a press law against making the government contemptible, and an editor and a folk-high-school principal in prison. One nineteen-year-old typographer fired two shots at Estrup in October 1885, and every consequence of it favoured Estrup.</p></li>
+  <li><p>What the money was for was a fourteen-kilometre rampart round Copenhagen, dug by hand between 1888 and 1892, never fired in anger and abolished in 1920. The treasury was full the whole time; the argument was never about whether Denmark could afford it but about who was entitled to decide.</p></li>
+  <li><p>The settlement of 1894 removed Estrup and answered nothing, and on 24 July 1901 a king who never conceded the principle appointed a ministry from the Folketing majority anyway. Parliamentarism was not written into the constitution until 1953.</p></li>
+</ol>
+
+<p class="kicker">Questions &amp; discussion</p>
+<h2 id="questions" style="margin-top:0"><span class="n">FOUR KINDS</span>Work the material</h2>
+
+<div class="qgroup">
+  <p class="qlabel">Recall</p>
+  <p class="qnote">Did the facts land?</p>
+  <ul>
+    <li>What did §25 of the constitution permit, how often had it been used before 1875, and what condition did it place on its own use?</li>
+    <li>What was the <i class="dk">visnepolitik</i>, and what unintended effect did it have on the state of the treasury by 1885?</li>
+    <li>What three provisional laws followed the attempt on Estrup's life, and what was the acknowledged model for them?</li>
+  </ul>
+</div>
+<div class="qgroup">
+  <p class="qlabel">Causal</p>
+  <p class="qnote">Why did it happen that way?</p>
+  <ul>
+    <li>The Folketing formally rejected the provisional finance law in January 1886 and nothing changed. Why not, and what does that tell you about the 1849 constitution?</li>
+    <li>Julius Rasmussen wanted to end Estrup's government. Why did his two shots strengthen it?</li>
+    <li>The treasury was full and the fight was over money. Explain why both of those statements are true.</li>
+  </ul>
+</div>
+<div class="qgroup">
+  <p class="qlabel">Counterfactual</p>
+  <p class="qnote">What if it had gone otherwise?</p>
+  <ul>
+    <li>Suppose the 1849 constitution had contained a mechanism for removing a ministry — an impeachment procedure like Norway's. Does Provisorietiden happen at all?</li>
+    <li>Suppose the settlement of 1894 had written parliamentary government into the text rather than merely ending the emergency. What in the following century looks different?</li>
+  </ul>
+</div>
+<div class="qgroup">
+  <p class="qlabel">Contested</p>
+  <p class="qnote">Where do historians disagree?</p>
+  <ul>
+    <li>This chapter argues that Estrup was defending a constitution as he read it rather than seizing power, and also that he governed for nine years against the elected chamber with a military police force in the villages. Are those two claims compatible? What would settle it?</li>
+    <li>Some historians have written that Denmark could have gone to civil war in the 1880s. What evidence would support that, and what evidence is against it? ---</li>
+  </ul>
+</div>
+
+<p class="kicker">Sources</p>
+<h2 id="sources" style="margin-top:0"><span class="n">LIGHT SOURCING</span>What this is built on</h2>
+<ul class="plain">
+  <li><span class="nm">Worked from</span>
+    <span class="ds"></span></li>
+  <li><span class="nm">—</span>
+    <span class="ds">The constitution of 5 June 1849 as revised 28 July 1866, §§25, 48, and the Landsting provisions.</span></li>
+  <li><span class="nm">—</span>
+    <span class="ds"><i class="dk">Foreløbig Lov om Oprettelsen af et militært Gendarmerikorps</i>, 27 October 1885; the <i class="dk">Riffellov</i> of 5 May 1885; and the criminal-law provisorium of 2 November 1885.</span></li>
+  <li><span class="nm">—</span>
+    <span class="ds">The royal resolution of 31 March 1885 and the provisional finance law of 1 April 1885; the Folketing's rejection of 25 January 1886 and the royal resolution of the following day.</span></li>
+  <li><span class="nm">—</span>
+    <span class="ds">Jens Himmelstrup, <i class="dk">Den provisoriske lovgivning i Danmark</i> (1948), for the legal history and the sequence of the special provisional legislation.</span></li>
+  <li><span class="nm">—</span>
+    <span class="ds">The judgment on Julius Rasmussen in the criminal court's record of public cases, 1885–86; and the contemporary account of the attempt in <i class="dk">Illustreret Tidende</i>, 25 October 1885.</span></li>
+  <li><span class="nm">—</span>
+    <span class="ds">The ministry list of 24 July 1901.</span></li>
+  <li><span class="nm">—</span>
+    <span class="ds">danmarkshistorien.dk, Aarhus University; Dansk Biografisk Leksikon and Dansk Kvindebiografisk Leksikon for Estrup, Rasmussen, Luplau and J.C. Christensen; the Vestvolden documentation for the construction figures.</span></li>
+  <li><span class="nm">Where the argument stands</span>
+    <span class="ds"></span></li>
+  <li><span class="nm">The dating of Provisorietiden is not settled</span>
+    <span class="ds">, and both 1885–1894 and 1877–1894 are in current use by serious sources. This page reports both and explains the difference rather than choosing.</span></li>
+  <li><span class="nm">Line Luplau's death date</span>
+    <span class="ds">is given as 10 September 1891 in some works and 11 September in others.</span></li>
+  <li><span class="nm">This chapter's reading of Estrup</span>
+    <span class="ds">— that the fault was the constitutional gap and that he stood in it — is a deliberate refusal of the two available caricatures. It follows the plan's instruction that the section is weaker if he is a straightforward usurper, and it should be read as an argument rather than a finding.</span></li>
+  <li><span class="nm">The civil-war counterfactual</span>
+    <span class="ds">appears in the Danish literature and is labelled as a counterfactual here rather than reported as an assessment.</span></li>
+  <li><span class="nm">J.C. Christensen's position at Stadil</span>
+    <span class="ds">is given in the encyclopaedias as <i class="dk">lærer</i>, village schoolmaster. Danish village schoolmasters were commonly also parish clerk and cantor, and PLAN_H described him that way, but the additional office was not confirmed for him and this page says only what the sources say. ---</span></li>
+</ul>
+
+<p class="kicker">Go and look</p>
+<h2 id="visit" style="margin-top:0"><span class="n">STILL THERE</span>Places you can visit</h2>
+<ul class="plain">
+  <li><span class="nm">Vestvolden</span>
+    <span class="ds">, from Utterslev Mose to Køge Bugt. Fourteen kilometres of it are still there and much of it is a park; the caponiers, the moat and the rampart road are walkable end to end, and the profile Sommerfeldt was famous for is best seen from above.</span></li>
+  <li><span class="nm">Esplanaden 34–36</span>
+    <span class="ds">, Copenhagen. Toldbodvej 26 in 1885. Estrup came home along this pavement and the gate is the one the second bullet went into.</span></li>
+  <li><span class="nm">Horsens.</span>
+    <span class="ds">The prison Julius Rasmussen was sent to is now a museum.</span></li>
+  <li><span class="nm">Christiansborg</span>
+    <span class="ds">, Copenhagen. Marie Luplau's <i class="dk">Fra Kvindevalgretskampens første Dage</i> has hung in the Folketing since 1917. Line Luplau is standing in the middle of it.</span></li>
+  <li><span class="nm">Stadil</span>
+    <span class="ds">, near Ringkøbing. The village school where the man who ran Denmark's first parliamentary government taught until the year he entered it.</span></li>
+  <li><span class="nm">Fredericiagade</span>
+    <span class="ds">, Copenhagen. The Eastern High Court now. The Rigsdag met here after Christiansborg burned, and it was in these rooms that the two chambers stopped speaking to each other. ---</span></li>
+</ul>
+
+<p class="kicker">Closing Part H</p>
+<h2 id="coda" style="margin-top:0"><span class="n">1814 – 1901</span>What this part was about</h2>
+
+<p>Part H opened in 1814 with a state that had just lost Norway, defaulted on its debts and been left holding two provinces that belonged constitutionally to Germany. It closes in 1901 with a small, prosperous, democratic country of about two and a half million people that has lost the provinces too.</p>
+
+<p>The line through it is not the wars, though there were two and the second was a catastrophe. It is a long argument about who a Dane is and who gets to decide for him, conducted in four places at once. In Slesvig it was conducted in language: which tongue the church and the school used, and whose survey you believed. In the Rigsdag it was conducted in constitutional law, and turned on a silence in a document that neither side had noticed until they needed it. In the parishes it was conducted in institutions — the dairy, the meeting-house, the mission house, the rifle club — and the answer arrived at there was more radical than anything in Copenhagen: one member, one vote, whatever the size of the herd. And in the tenements and on the emigrant ships it was conducted by the people none of the other three answers included.</p>
+
+<p>The part has an unusual shape for a national history, and it is worth naming. Denmark's two great constitutional gains, in 1849 and 1901, sit on either side of its worst defeat, and neither of them was a consequence of it. The June constitution came out of a European revolution and a war Denmark won; the change of system came out of a farming economy that had reorganised itself around butter. In between, 1864 cost two-fifths of the territory and the franchise of the upper house, and only the first of those was taken by foreigners.</p>
+
+<p>What is carried into Part I is therefore not one thread but four. A parliamentary convention with no text behind it, which will hold for half a century and then be written down. A labour settlement signed in 1899 that is still in force. Two hundred thousand people — or a hundred and seventy thousand — under a government that will conscript their sons in 1914, and a promise of a vote that Denmark itself formally surrendered in 1907 and will nevertheless get in 1920. And a woman who died in 1891 with union banners over her grave, whose association had one item on its programme, and who would have to wait until 1915.</p>
+
+<footer>
+  Chapter 36 · Part H · 1875 – 1901 &middot; <a href="danish-history-index.html#c36">back to the index</a>
+</footer>
+
+</div>
+<script>
+(function(){
+  var links = Array.prototype.slice.call(document.querySelectorAll('.rail a'));
+  var map = {};
+  links.forEach(function(a){ map[a.getAttribute('href').slice(1)] = a; });
+  var targets = Object.keys(map).map(function(id){ return document.getElementById(id); })
+                 .filter(Boolean);
+  if(!('IntersectionObserver' in window) || !targets.length) return;
+  var seen = {};
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){ seen[e.target.id] = e.isIntersecting ? e.boundingClientRect.top : null; });
+    var best = null;
+    targets.forEach(function(t){
+      var r = t.getBoundingClientRect();
+      if(r.top <= 140) best = t.id;
+    });
+    if(!best) best = targets[0].id;
+    links.forEach(function(a){ a.classList.remove('active'); });
+    if(map[best]) map[best].classList.add('active');
+  }, {rootMargin:'-120px 0px -70% 0px', threshold:[0,1]});
+  targets.forEach(function(t){ io.observe(t); });
+  window.addEventListener('scroll', function(){
+    var best = null;
+    targets.forEach(function(t){ if(t.getBoundingClientRect().top <= 140) best = t.id; });
+    if(!best) best = targets[0].id;
+    links.forEach(function(a){ a.classList.remove('active'); });
+    if(map[best]) map[best].classList.add('active');
+  }, {passive:true});
+})();
+</script>
+</body>
+</html>

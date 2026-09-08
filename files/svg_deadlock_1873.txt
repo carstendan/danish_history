@@ -1,0 +1,44 @@
+<svg viewBox="0 0 700 526" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagram of the Danish constitutional deadlock between 1873 and 1901, drawn as a structure. The Folketing could reject the finance bill, reject a provisional law after the fact, vote down any expenditure and be re-elected on the same majority. The Landsting could reject anything the Folketing passed and keep its composition regardless of population change. The king could appoint whichever ministers he chose, dissolve the Rigsdag and sign a provisional law under article 25. What did not exist was any procedure for settling a disagreement between the two chambers or for removing a ministry the elected chamber did not want: the Folketing could say no, and nothing made the no mean anything. The empty box is the argument of the chapter.">
+  <rect x="0" y="0" width="700" height="526" fill="#F0F2EE"/>
+  <text x="26" y="30" class="mapl">WHAT EACH COULD DO — AND WHAT NOBODY COULD</text>
+  <text x="26" y="46" class="mapt">the deadlock of 1873–1901 as a structure, not as a quarrel between two men</text>
+  <rect x="26" y="74" width="208" height="226" fill="none" stroke="#4F6470" stroke-width="1"/>
+  <rect x="26" y="74" width="208" height="24" fill="#4F6470" opacity=".8"/>
+  <text x="36" y="91" class="mapl" fill="#F0F2EE">THE FOLKETING</text>
+  <text x="36" y="118" class="mapx">could</text>
+  <text x="36" y="136" class="mapt">reject the finance bill</text>
+  <text x="36" y="164" class="mapt">reject a provisional law</text>
+  <text x="36" y="178" class="mapt">afterwards</text>
+  <text x="36" y="206" class="mapt">vote down any expenditure it</text>
+  <text x="36" y="220" class="mapt">chose</text>
+  <text x="36" y="248" class="mapt">be re-elected on the same</text>
+  <text x="36" y="262" class="mapt">majority</text>
+  <rect x="242" y="74" width="208" height="226" fill="none" stroke="#8A7A5E" stroke-width="1"/>
+  <rect x="242" y="74" width="208" height="24" fill="#8A7A5E" opacity=".8"/>
+  <text x="252" y="91" class="mapl" fill="#F0F2EE">THE LANDSTING</text>
+  <text x="252" y="118" class="mapx">could</text>
+  <text x="252" y="136" class="mapt">reject anything the Folketing</text>
+  <text x="252" y="150" class="mapt">passed</text>
+  <text x="252" y="178" class="mapt">keep its composition</text>
+  <text x="252" y="192" class="mapt">regardless of</text>
+  <text x="252" y="220" class="mapt">how the country's population</text>
+  <text x="252" y="234" class="mapt">moved</text>
+  <rect x="458" y="74" width="208" height="226" fill="none" stroke="#A98C5F" stroke-width="1"/>
+  <rect x="458" y="74" width="208" height="24" fill="#A98C5F" opacity=".8"/>
+  <text x="468" y="91" class="mapl" fill="#F0F2EE">THE KING</text>
+  <text x="468" y="118" class="mapx">could</text>
+  <text x="468" y="136" class="mapt">appoint whichever ministers he</text>
+  <text x="468" y="150" class="mapt">chose</text>
+  <text x="468" y="178" class="mapt">dissolve the Rigsdag</text>
+  <text x="468" y="206" class="mapt">sign a provisional law under</text>
+  <text x="468" y="220" class="mapt">§25</text>
+  <rect x="26" y="324" width="648" height="112" fill="none" stroke="#4F6470" stroke-width="1.5" stroke-dasharray="6 5" opacity=".7"/>
+  <text x="46" y="352" class="mapl" opacity=".8">THE BOX THE CONSTITUTION DID NOT CONTAIN</text>
+  <text x="46" y="378" class="mapt">No procedure existed for settling a disagreement between the two chambers.</text>
+  <text x="46" y="394" class="mapt">No procedure existed for removing a ministry the elected chamber did not want.</text>
+  <text x="46" y="410" class="mapt">The Folketing could say no. Nothing made the no mean anything.</text>
+  <line x1="26" y1="456" x2="674" y2="456" stroke="#C9CDC4" stroke-width="1"/>
+  <text x="26" y="476" class="mapt">Estrup did not break a rule that existed. He stood in the place where one should have been,</text>
+  <text x="26" y="490" class="mapt">and stayed there for nineteen years. The gap was the fault. That is the chapter's argument,</text>
+  <text x="26" y="504" class="mapt">and it is why this figure is a structure and not a scoreboard.</text>
+  </svg>

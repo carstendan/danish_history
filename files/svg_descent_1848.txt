@@ -1,0 +1,55 @@
+<svg viewBox="0 0 700 556" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagram of the Danish succession crisis as it stood in 1848. Three columns: the kingdom of Denmark, the duchy of Slesvig and the duchy of Holstein. The kingdom followed the Kongelov of 1665, which was agnatic but opened the female line when the male line failed; with Frederik 7. childless and Prince Ferdinand without legitimate children, the claim ran through his aunt Louise Charlotte and her daughter Louise of Hesse to Louise’s husband Christian of Glücksburg. Holstein followed a purely agnatic law, under which the nearest heirs were the dukes of Augustenborg. The Slesvig column is empty, because the incorporation of 1721 was carried through without introducing the kingdom’s law, courts or language, and nothing before the Open Letter of 1846 settled which succession applied there. The Treaty of London of 8 May 1852 resolved it by neither law: it excluded women from the succession in all the king’s lands, the Holstein rule, and then settled the whole inheritance on the one claimant who held his claim through his wife.">
+  <rect x="0" y="0" width="700" height="556" fill="#F0F2EE"/>
+  <text x="26" y="30" class="mapl">TWO LAWS, ONE KING, AND A COLUMN NOBODY COULD FILL</text>
+  <text x="26" y="46" class="mapt">the succession as it stood when Frederik 7. came to the throne, January 1848</text>
+  <line x1="26" y1="74" x2="674" y2="74" stroke="#C9CDC4" stroke-width="1"/>
+  <text x="26" y="92" class="mapx">BOTH LAWS COUNT FROM FREDERIK 3., D. 1670 — AND IN 1848 HIS MALE LINE IS ABOUT TO RUN OUT</text>
+  <rect x="18" y="112" width="208" height="300" fill="none" stroke="#4F6470" stroke-width="1"/>
+  <text x="26" y="132" class="mapl">KONGERIGET</text>
+  <text x="26" y="148" class="mapx">Kongeloven 1665.</text>
+  <text x="26" y="172" class="mapt">Agnatic — but the female</text> 
+  <text x="26" y="187" class="mapt">line opens if the male</text> 
+  <text x="26" y="202" class="mapt">line fails. It failed.</text> 
+  <line x1="26" y1="209" x2="210" y2="209" stroke="#C9CDC4" stroke-width="1"/>
+  <text x="26" y="225" class="mapt">Frederik 7., no children</text> 
+  <text x="26" y="240" class="mapt">Prince Ferdinand, none</text> 
+  <text x="26" y="255" class="mapt">Louise Charlotte, d. 1824</text> 
+  <text x="26" y="270" class="mapt">m. Wilhelm of Hesse</text> 
+  <text x="26" y="285" class="mapt">Louise of Hesse</text> 
+  <text x="26" y="300" class="mapt">→ her husband Christian</text> 
+  <text x="26" y="315" class="mapt">of Glücksburg</text> 
+  <rect x="234" y="112" width="208" height="300" fill="none" stroke="#3C3E36" stroke-width="1" stroke-dasharray="5 4" opacity=".55"/>
+  <text x="242" y="132" class="mapl">SLESVIG</text>
+  <text x="242" y="148" class="mapx">No instrument says.</text>
+  <text x="242" y="172" class="mapt">A fief of the Danish crown,</text> 
+  <text x="242" y="187" class="mapt">not of the Empire.</text> 
+  <line x1="242" y1="194" x2="426" y2="194" stroke="#C9CDC4" stroke-width="1"/>
+  <text x="242" y="210" class="mapt">1721: the Gottorp share</text> 
+  <text x="242" y="225" class="mapt">incorporated — without the</text> 
+  <text x="242" y="240" class="mapt">kingdom's law, its courts</text> 
+  <text x="242" y="255" class="mapt">or its language.</text> 
+  <line x1="242" y1="262" x2="426" y2="262" stroke="#C9CDC4" stroke-width="1"/>
+  <text x="242" y="278" class="mapt">1846: the Open Letter</text> 
+  <text x="242" y="293" class="mapt">asserts the Kongelov runs</text> 
+  <text x="242" y="308" class="mapt">here. It asserts it.</text> 
+  <text x="242" y="400" class="mapl" opacity=".7">UNSETTLED</text>
+  <rect x="450" y="112" width="208" height="300" fill="none" stroke="#4F6470" stroke-width="1"/>
+  <text x="458" y="132" class="mapl">HOLSTEN</text>
+  <text x="458" y="148" class="mapx">Agnatic, and only that.</text>
+  <text x="458" y="172" class="mapt">Man to man. No female</text> 
+  <text x="458" y="187" class="mapt">line, no opening, no</text> 
+  <text x="458" y="202" class="mapt">exception.</text> 
+  <line x1="458" y1="209" x2="642" y2="209" stroke="#C9CDC4" stroke-width="1"/>
+  <text x="458" y="225" class="mapt">Frederik 7., no children</text> 
+  <text x="458" y="240" class="mapt">the nearest agnates are</text> 
+  <text x="458" y="255" class="mapt">the dukes of Augustenborg</text> 
+  <line x1="458" y1="262" x2="642" y2="262" stroke="#C9CDC4" stroke-width="1"/>
+  <text x="458" y="278" class="mapt">→ Christian August 2.</text> 
+  <text x="458" y="293" class="mapt">of Augustenborg</text> 
+  <line x1="26" y1="430" x2="674" y2="430" stroke="#C9CDC4" stroke-width="1"/>
+  <text x="26" y="450" class="mapt">How it was actually settled: not by either law. The Treaty of London of 8 May</text>
+  <text x="26" y="464" class="mapt">1852 excluded women from the succession in all the king's lands — which is the</text>
+  <text x="26" y="478" class="mapt">Holstein rule — and then gave the whole inheritance to the one man whose claim</text>
+  <text x="26" y="492" class="mapt">came through his wife. Louise renounced in favour of Christian of Glücksburg.</text>
+  <text x="26" y="506" class="mapt">Both cases were conceded and both were defeated, in a single sentence.</text>
+  </svg>
