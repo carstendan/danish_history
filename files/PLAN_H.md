@@ -153,7 +153,9 @@ not rebuilt.
 repeated surnames. It does not check gender or class; both ledger claims about
 chapters 25 and 31 came from a hand audit in `REVIEW-PART-G.md` §2, not from the
 tool. Its place check is exact-string and reports Copenhagen five times when the
-true figure, counting variants, is **thirteen of forty-eight**.
+true figure, counting variants, was **thirteen of forty-eight**. *Corrected Sept
+2026: fourteen of fifty-one with chapter 32 built, fifteen of fifty-four with
+chapter 33. HANDOFF item 44.*
 
 Adopted:
 - **Convention D-9.** The vignette `(who)` line gains a trailing bracket:
@@ -211,17 +213,26 @@ Fifteen vignettes, balance checked at plan time rather than at review.
 | 32 | 03 | Peter Larsen Skræppenborg | a farmhouse near Kolding | early 1840s | `[n]` |
 | 32 | 05 | Johanne Luise Pätges, later Heiberg | Det Kongelige Teater | 1826 | `[f][n]` |
 | 32 | 09 | Peter Hiort Lorenzen | the Slesvig estates assembly | 11 Nov 1842 | — |
-| 33 | 03 | Orla Lehmann | the Casino, Copenhagen | 20 Mar 1848 | — |
-| 33 | 05 | *a named conscript* — **needs a source** | Fredericia | 6 Jul 1849 | `[n]` |
-| 33 | 06 | Mathilde Fibiger | Thoreby, Lolland | Dec 1850 | `[f]` |
+| 33 | 03 | Orla Lehmann | the Casino, Copenhagen | 20 Mar 1848 | `[-]` |
+| 33 | 05 | Morten Jørgensen Aldahl — **sourced** | Stade, Hanover | Sept 1848 | `[n]` |
+| 33 | 06 | Mathilde Fibiger | Maltrupgård, Sakskøbing, Lolland | Dec 1850 | `[f]` |
 | 34 | 01 | Christian 9. | Copenhagen | 18 Nov 1863 | — |
 | 34 | 04 | Niels Kjeldsen | near Vorbasse | 28 Feb 1864 | `[n]` |
-| 34 | — | Ilia Fibiger — **verify** | a military hospital | 1864 | `[f]` |
+| 34 | 08 | Ilia Fibiger — **verified; premise wrong** | Lægeforeningens Boliger, Kbh. | 1864 | `[f]` |
+
+*Corrected Sept 2026. She was Denmark's first professional nurse, but that
+employment ran 1854–1860 and had ended four years before the war; no source
+places her at a lazaret in 1864. What she was doing in 1864 is better
+documented and better: living in Lægeforeningens Boliger, Copenhagen's first
+social housing, and taking in three more foster daughters — Ane Sophie, Louise
+and Johanne Mathilde, all arriving that year. Her one love, the naval officer
+Osvald Marstrand, fell at Eckernförde in 1849, which is chapter 33's war. She
+wore herself out and died 10 June 1867.*
 | 35 | 03 | *a founder at Hjedding* — **needs a source** | Hjedding, Vestjylland | Jun 1882 | `[n]` |
 | 35 | 09 | Olivia Nielsen | Copenhagen | 1901 | `[f][n]` |
 | 35 | 10 | H.P. Hanssen | Aabenraa | 1898 | — |
 | 36 | 07 | Julius Rasmussen | Copenhagen | 21 Oct 1885 | `[n]` |
-| 36 | 08 | Line Luplau — **verify place** | Varde | 1889 | `[f]` |
+| 36 | 08 | Line Luplau — **verified; place corrected** | Copenhagen | 15 Feb 1889 | `[f]` |
 | 36 | 10 | J.C. Christensen | Stadil, Vestjylland | 1901 | `[n]` |
 
 **Balance: five women, seven non-elite. No chapter without at least one of each.**
@@ -723,6 +734,14 @@ favourite in it.
 
 ---
 
+*Part H closed, September 2026. All five chapters built, verified and indexed;
+the coda is on 36. Corrections made against this plan during drafting are recorded
+in HANDOFF items 44–62. The three that mattered: the Ilia Fibiger vignette premise
+(chapter 34 §08) did not survive verification and was replaced; Line Luplau's 1889
+was in Copenhagen, not Varde; and four planned figures had to be redrawn because
+their series could not be fetched — see HANDOFF 60, which argues that the pattern
+is now a gap in the book rather than four separate refusals.*
+
 ## 10. Open items
 
 ### 10.1 Needs an archive, a library or a reader — not blocking the plan
@@ -731,7 +750,8 @@ favourite in it.
   Three Years' War letter collections.
 - **35 §03** — the Hjedding founder's name, from the society's own founding record
   rather than a secondary account.
-- **34** — Ilia Fibiger's 1864 service and the specific hospital. She dies in 1867,
+- ~~**34** — Ilia Fibiger's 1864 service and the specific hospital.~~ **Closed:
+  there was no 1864 service. See the roster note in §4.** She dies in 1867,
   so the window is narrow.
 - **36 §08** — whether Line Luplau's campaigning in Varde is documented. If not,
   the vignette is Copenhagen, which would put five of fifteen there.

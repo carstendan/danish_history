@@ -104,6 +104,160 @@ CFG = {
         "The assemblies were designed to keep the political argument dispersed. Where did "
         "the argument break out, and how many years after they were set up?"]),
     ]),
+
+ 33: dict(
+    name='33-1848-constitution-and-the-first-schleswig-war.html',
+    body='c33_body.html',
+    svgs={'SVG_DESCENT': 'svg_descent_1848.txt',
+          'SVG_SPROG': 'svg_sprog_1839.txt',
+          'SVG_FRANCHISE': 'svg_franchise_1849.txt'},
+    sec=[("s01", "01", 'A king with no heir'),
+         ("s02", "02", 'What Slesvig legally was'),
+         ("s03", "03", 'March 1848'),
+         ("s04", "04", 'The war begins'),
+         ("s05", "05", "The soldier's war"),
+         ("s06", "06", '5 June 1849'),
+         ("s07", "07", 'A church for the people'),
+         ("s08", "08", 'Isted, 25 July 1850'),
+         ("s09", "09", 'London, 8 May 1852'),
+         ("s10", "10", 'What the constitution could not cover')],
+    checks=[
+      ("The war begins", [
+        "Christian 8. asked his successor for three things on 9 January 1848. What were "
+        "they, and which one was never done?",
+        "The rescript of 28 January offered kingdom and duchies equal representation. Why "
+        "did that satisfy neither side?",
+        "Put these in order: the Casino meeting, the fall of the ministry, the provisional "
+        "government at Kiel, the seizure of Rendsburg."]),
+      ("5 June 1849", [
+        "Denmark beat the Schleswig-Holsteiners and never beat the Prussians. What stopped "
+        "Prussia in 1848, and whose interest was it serving?",
+        "Before 1849 conscription fell on one class only. Which, and how had everybody else "
+        "got out of it?",
+        "The Law on Universal Conscription of 12 February 1849 drew its line by birth year. "
+        "Which year, and what did that leave untouched until 1867?"]),
+      ("London, 8 May 1852", [
+        "Fifteen per cent of the population could vote in 1849 and all of it could worship "
+        "as it chose. How can both be true of one document?",
+        "What did the constitution say about Slesvig on its first page, and where did it "
+        "never come into force?",
+        "Isted was the largest battle in Danish history and Denmark won it. What did the "
+        "victory settle?"]),
+    ]),
+
+ 34: dict(
+    name='34-1864.html',
+    body='c34_body.html',
+    svgs={'SVG_TERR_1864': 'svg_terr_1864.txt',
+          'SVG_DYBBOL': 'svg_dybbol_1864.txt',
+          'SVG_CEDED': 'svg_ceded_1864.txt'},
+    sec=[("s01", "01", 'A king three days on the throne'),
+         ("s02", "02", 'Why the powers did not come'),
+         ("s03", "03", 'Dannevirke, 5\u20136 February'),
+         ("s04", "04", 'Dybb\u00f8l'),
+         ("s05", "05", 'The London Conference'),
+         ("s06", "06", 'Als, and Jutland occupied'),
+         ("s07", "07", 'Vienna, 30 October'),
+         ("s08", "08", 'What was ceded, and who'),
+         ("s09", "09", 'The constitution of 1866'),
+         ("s10", "10", 'What was to be won inward')],
+    checks=[
+      ("Dybb\u00f8l", [
+        "Christian 9. had been king for three days when he signed. What did the signature "
+        "break, and why was he the worst-placed man in Denmark to sign it?",
+        "Prussia and Austria crossed the Eider on 1 February 1864 without the German "
+        "Confederation. Why did they have to step outside it?",
+        "The War Ministry's instruction of 22 January told de Meza what mattered most. "
+        "What was it, and what did the ministry telegraph him a fortnight later?"]),
+      ("Vienna, 30 October", [
+        "Dybb\u00f8l is remembered as a storm. What had already happened to the redoubts "
+        "before a single Prussian went forward?",
+        "Denmark won at Heligoland and held the blockade to the end of the war. Why did "
+        "it change nothing?",
+        "At the London conference Britain proposed arbitration and Denmark refused. What "
+        "was the reasoning, and what did it cost?"]),
+      ("The constitution of 1866", [
+        "To whom did the king renounce the duchies at Vienna \u2014 and what did the "
+        "Augustenborg claimant, whose right was the pretext, actually receive?",
+        "What was an optant, and what condition was attached to the choice?",
+        "Article 5 of the Peace of Prague promised a vote in North Slesvig. Who made the "
+        "promise, who cancelled it, and in what year?"]),
+    ]),
+
+ 35: dict(
+    name='35-industry-cooperatives-emigration-and-labour.html',
+    body='c35_body.html',
+    svgs={'SVG_OMLAEGNING': 'svg_omlaegning_1875.txt',
+          'SVG_UDVANDRING': 'svg_udvandring_1868.txt',
+          'SVG_ANDEL': 'svg_andel_1882.txt'},
+    sec=[("s01", "01", 'Two chapters over one span'),
+         ("s02", "02", 'The grain that stopped paying'),
+         ("s03", "03", 'Hjedding, 1882'),
+         ("s04", "04", 'Butter, bacon and the English breakfast'),
+         ("s05", "05", 'Mission and meeting-house'),
+         ("s06", "06", 'Leaving'),
+         ("s07", "07", 'The city outside the walls'),
+         ("s08", "08", 'F\u00e6lleden, 5 May 1872'),
+         ("s09", "09", '1899'),
+         ("s10", "10", 'Nordslesvig under Prussia')],
+    checks=[
+      ("Mission and meeting-house", [
+        "Grain stopped paying from about 1875. What did Danish farms start doing with "
+        "grain instead of selling it, and where did the grain come from?",
+        "Two things outside Denmark's control set the timing of the change. What were "
+        "they, and which year did the second one happen?",
+        "Name the four rules written into the Hjedding contract in 1882 \u2014 and say "
+        "which of them the bank cared about."]),
+      ("F\u00e6lleden, 5 May 1872", [
+        "Indre Mission and the Grundtvigians came out of the same revival. What did each "
+        "build in a village, and what decided which one took hold?",
+        "More than four in ten Danish emigrants between 1868 and 1900 had the same "
+        "occupation. Which, and why does that matter for the previous three sections?",
+        "Why does Denmark have unusually complete records of who emigrated?"]),
+      ("Nordslesvig under Prussia", [
+        "The meeting on N\u00f8rre F\u00e6lled was called for a reason that had nothing to "
+        "do with revolution. What was it?",
+        "The lockout of 1899 ended without either side winning. What did they sign "
+        "instead, and what is left of it?",
+        "What did the September Compromise concede to the employers, and what did it "
+        "concede to the unions?"]),
+    ]),
+
+ 36: dict(
+    name='36-provisorietiden-and-the-change-of-system.html',
+    body='c36_body.html',
+    svgs={'SVG_FRANCHISES': 'svg_franchises_1866.txt',
+          'SVG_DEADLOCK': 'svg_deadlock_1873.txt',
+          'SVG_VESTVOLD': 'svg_vestvold_1888.txt'},
+    sec=[("s01", "01", 'Two chambers, two countries'),
+         ("s02", "02", 'The question nobody had answered'),
+         ("s03", "03", 'Estrup'),
+         ("s04", "04", 'Ruling without a budget, 1885'),
+         ("s05", "05", 'The gendarmes'),
+         ("s06", "06", 'A wall around Copenhagen'),
+         ("s07", "07", '21 October 1885'),
+         ("s08", "08", 'The other opposition'),
+         ("s09", "09", 'The settlement of 1894'),
+         ("s10", "10", '1901')],
+    checks=[
+      ("Ruling without a budget, 1885", [
+        "The 1866 revision left two chambers returning two different countries. Which was "
+        "which, and what did Venstre demand from 1873?",
+        "What did \u00a725 of the constitution allow, and how many times had it been used "
+        "before Estrup took office?",
+        "What was the visnepolitik meant to achieve, and what did it achieve instead?"]),
+      ("21 October 1885", [
+        "On 31 March and 1 April 1885 two things happened in sequence. What were they?",
+        "The Folketing rejected the provisional finance law in January 1886. What "
+        "followed from the rejection?",
+        "Name three of the provisional laws of 1885 that were not finance laws, and say "
+        "what each was for."]),
+      ("1901", [
+        "What was the Vestvold, when was it built, and what eventually became of it?",
+        "Why did the attempt on Estrup's life strengthen his position?",
+        "The settlement of 1894 ended the provisional laws. What did it leave "
+        "unanswered?"]),
+    ]),
 }
 
 def block(qs):
@@ -190,6 +344,9 @@ if __name__ == "__main__":
                if h.count('<' + t + ' ') + h.count('<' + t + '>') != h.count('</' + t + '>')]
         w = pagewords(h)
         m = round(w / 210)
+        five = len(re.findall(r'<ol class="five">.*?</ol>', h, re.S))
+        nfive = len(re.findall(r'<li><p>', re.search(r'<ol class="five">.*?</ol>', h, re.S).group(0))) \
+            if five else 0
         rail = re.search(r'<nav class="rail".*?</nav>', h, re.S).group(0)
         toc = re.search(r'<details class="toc">.*?</details>', h, re.S).group(0)
         tail_ok = all(('#%s' % t[0]) in rail and ('#%s' % t[0]) in toc
@@ -204,6 +361,9 @@ if __name__ == "__main__":
                  h.count('<figure>'), h.count('class="terms"'), 'ok' if tail_ok else 'BAD'))
         band = 'ok' if BAND[0] <= m <= BAND[1] else 'OUTSIDE BAND'
         note = '' if TARGET[0] <= m <= TARGET[1] else '  <-- note'
+        if nfive != 5:
+            print("  !! SUMMARY IS %d ITEM%s, NOT FIVE \u2014 the heading promises five"
+                  % (nfive, "" if nfive == 1 else "S"))
         print("  part %s | words %d (~%d min, %s)%s"
               % ('ok' if '--band:%s;' % PART_H in h else 'BAD', w, m, band, note))
         for mm in re.finditer(r'<div class="check">.*?</div>\s*<h2 id="(s\d\d)">(.*?)</h2>',
@@ -213,5 +373,5 @@ if __name__ == "__main__":
         if stubbed:
             print("  !! STUBBED: %s" % ", ".join(stubbed))
         fail += (bool(bad) or h.count('{{') or not (links <= ids) or not tail_ok
-                 or not (BAND[0] <= m <= BAND[1]) or bool(stubbed))
+                 or not (BAND[0] <= m <= BAND[1]) or bool(stubbed) or nfive != 5)
     sys.exit(1 if fail else 0)

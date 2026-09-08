@@ -744,17 +744,34 @@ won.
 ## Summary
 
 Denmark came out of 1814 smaller, insolvent, and holding two provinces that
-belonged constitutionally to Germany. The state's response to insolvency was to
-give away control of the currency to an independent bank; its response to
-religious enthusiasm and to peasant organisation was to prosecute both, and in
-each case the prosecution built the movement it was meant to suppress; and its
-response to a revolution in Paris was to concede four advisory assemblies with
-the widest franchise in Europe and no power whatever. The art of the period was
-bought by a treasury that could not pay its debts, because prestige was the last
-great-power attribute available. By the mid-1840s all of these had produced
-organised populations with demands, and in Schleswig two of them wanted the same
-ground. The Open Letter of July 1846 tried to answer both and told both no.
-Christian 8. died eighteen months later with nothing settled.
+belonged constitutionally to Germany. Frederik 6. swapped Swedish Pomerania for
+Lauenburg and 2.6 million daler in June 1815; four days later Holstein and
+Lauenburg went into the German Confederation, and the king became an absolute
+monarch in Copenhagen and a German prince in Frankfurt.
+
+The state's answer to insolvency was to give control of the money away. The
+octroi of 4 July 1818 chartered Nationalbanken as a private company with its
+independence written into the charter and the value of the currency placed above
+the supply of credit. It obeyed, and the cost fell on the countryside: by 1820–25
+grain fetched about a fifth of its wartime price and farms a third or a quarter
+of theirs.
+
+Its answer to religious enthusiasm and to peasant organisation was to prosecute
+both, and in each case the prosecution built the movement it meant to suppress.
+The Konventikelplakat of 1741 turned farmhouse prayer meetings into a movement
+with a martyrology; the Bondecirkulære of November 1845 was followed within six
+months by Bondevennernes Selskab.
+
+Its answer to the revolution in Paris was four advisory assemblies, conceded in
+1831, sitting from 1835 and 1836, with the widest franchise in Europe and no
+power whatever. About one Dane in forty could vote for bodies that could be shown
+draft laws, could propose laws, and could pass none.
+
+The art was bought by a treasury that could not pay its debts, because prestige
+was the last great-power attribute within reach. By the mid-1840s every one of
+these had produced an organised population with demands, and in Schleswig two of
+them wanted the same ground. The Open Letter of July 1846 tried to answer both
+and told both no. Christian 8. died eighteen months later with nothing settled.
 
 ---
 

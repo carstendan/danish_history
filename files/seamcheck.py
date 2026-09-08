@@ -80,15 +80,19 @@ SETS = {
     # Lauenburg is absent because map_1814 marks it rather than drawing it and it
     # therefore has no border to share.
     1814: ["DENMARK", "BORNHOLM", "SLESVIG", "HOLSTEN", "DITMARSKEN", "NORWAY"],
+    # 1864 inherits the same polygons again, minus Norway, which this map stops
+    # drawing. The seams are tested for the same reason as 1814: inheritance is a
+    # claim about the geometry and claims get checked.
+    1864: ["DENMARK", "BORNHOLM", "SLESVIG", "HOLSTEN", "DITMARSKEN"],
 }
 
 
 def main():
     import map_1397 as m97, map_1500 as m00, map_1600 as m16, map_1660 as m66, map_1721 as m21
-    import map_1814 as m14
+    import map_1814 as m14, map_1864 as m64
     fail = 0
     for year, mod in ((1397, m97), (1500, m00), (1600, m16), (1660, m66), (1721, m21),
-                      (1814, m14)):
+                      (1814, m14), (1864, m64)):
         bad = check_seams(mod, SETS[year])
         print("MAP %d   %s" % (year, "every shared border is shared exactly"
                                if not bad else "FAIL, %d vertices inside a neighbour" % len(bad)))

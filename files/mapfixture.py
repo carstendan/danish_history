@@ -117,6 +117,23 @@ DENMARK_NORWAY_1721 = [
     (31.00, 70.30), (31.00, 71.50), (3.00, 71.50), (2.0, 66.0),
 ]
 
+# 1864: Norway went fifty years ago and is no longer drawn, so the envelope stops
+# at the Skagerrak instead of running up the Norwegian border. The duchies ARE
+# drawn, in the lost tone, so they stay inside it and the coverage layer must
+# still assign them. The southern and eastern edges are lifted verbatim from
+# DENMARK_NORWAY_1721 so the two envelopes cannot disagree about where Denmark
+# stops; only the closing edge across the Skagerrak is new, and it runs west of
+# Gothenburg and south of Kristiansand so that neither falls inside.
+DENMARK_AND_DUCHIES_1864 = [
+    (2.0, 57.0), (7.6, 54.9), (8.7, 53.98), (9.4, 53.80), (10.0, 53.62), (10.6, 53.82),
+    (11.2, 54.45), (12.60, 54.75),
+    (12.70, 55.20), (12.70, 55.55), (12.55, 55.85), (12.45, 56.05), (12.15, 56.25),
+    (11.90, 57.20),
+    # closing edge across the Skagerrak
+    (11.00, 57.95), (7.00, 58.00), (2.00, 57.00),
+]
+
+
 # Land inside the envelope that is genuinely nobody's on a given map. Each entry
 # is a reason, not just an exemption: if you add one, say why in the string.
 KNOWN_UNCLAIMED = {
@@ -130,6 +147,10 @@ KNOWN_UNCLAIMED = {
     1600: [((10.55, 53.4, 11.2, 54.3), "Lübeck, a free imperial city, capped out of Holstein"),
            ((27.5, 59.5, 31.5, 68.5), "Karelia and the White Sea lands east of the border"),
            ((24.0, 68.0, 31.5, 71.6), "no fixed border in the far north")],
+    1864: [((10.55, 53.4, 11.2, 54.3),
+            "L\u00fcbeck, a free city, capped out of Holstein - and Lauenburg, which "
+            "is ceded at Vienna along with the other two duchies and is still marked "
+            "with a dot rather than drawn. Same box and same two reasons as 1814.")],
     1814: [((10.55, 53.4, 11.2, 54.3),
             "L\u00fcbeck, a free city, capped out of Holstein - and, from 1815, the "
             "duchy of Lauenburg, which this map marks with a dot and does not draw. "
@@ -206,6 +227,53 @@ CURATED = {
     ("Gotland", 18.30, 57.63, "GOTLAND"), ("Visby", 18.29, 57.64, "GOTLAND"),
     ("Fårö", 19.05, 57.90, "GOTLAND"),
  ],
+ 1864: [
+    # The Konge\u00e5 is a state frontier from 30 October 1864. These six are the
+    # cases that matter on this map: three towns a few kilometres north of the new
+    # border and three a few kilometres south of it. The polygons are inherited
+    # unchanged from 1660 by way of 1814, so this is a test that the OLD ducal seam
+    # really does sit where the NEW international border sat - which is the map's
+    # central claim and was worth checking rather than asserting.
+    ("Ribe", 8.76, 55.33, "DENMARK"), ("Kolding", 9.47, 55.49, "DENMARK"),
+    ("Vejle", 9.53, 55.71, "DENMARK"),
+    ("Haderslev", 9.49, 55.25, "SLESVIG"), ("Aabenraa", 9.42, 55.04, "SLESVIG"),
+    ("S\u00f8nderborg, Als", 9.79, 54.91, "SLESVIG"),
+    ("Aarhus", 10.20, 56.16, "DENMARK"), ("Odense", 10.39, 55.40, "DENMARK"),
+    ("Aalborg", 9.92, 57.05, "DENMARK"),
+    ("K\u00f8benhavn", 12.57, 55.68, "DENMARK"), ("Helsing\u00f8r", 12.615, 56.035, "DENMARK"),
+    ("R\u00f8nne, Bornholm", 14.70, 55.10, "BORNHOLM"),
+    ("Hasle, Bornholm", 14.71, 55.19, "BORNHOLM"),
+    ("Svaneke, Bornholm", 15.14, 55.14, "BORNHOLM"),
+    ("Flensburg", 9.44, 54.78, "SLESVIG"), ("T\u00f8nder", 8.87, 54.94, "SLESVIG"),
+    ("Slesvig by", 9.57, 54.52, "SLESVIG"),
+    ("Kiel", 10.14, 54.32, "HOLSTEN"), ("Rendsburg", 9.66, 54.30, "HOLSTEN"),
+    ("Itzehoe", 9.52, 53.92, "HOLSTEN"),
+    ("Meldorf", 9.07, 54.09, "DITMARSKEN"), ("Heide", 9.10, 54.20, "DITMARSKEN"),
+    ("Brunsb\u00fcttel", 9.14, 53.90, "DITMARSKEN"),
+    # NORWAY IS DROPPED ON THIS MAP, and these are the cases that make the dropping
+    # deliberate. map_1814 carried them as NORWAY with a note saying that if a later
+    # map stopped drawing it they would become None and the change should be a
+    # decision. This is that map and this is that decision.
+    ("Oslo", 10.75, 59.91, None), ("Trondhjem", 10.40, 63.43, None),
+    ("Bergen", 5.32, 60.39, None), ("Troms\u00f8", 18.96, 69.65, None),
+    ("R\u00f8ros", 11.38, 62.57, None),
+    # Ratzeburg still resolves to nothing: Lauenburg is ceded here too, and is still
+    # marked rather than drawn, so the marker still stands on uncoloured ground.
+    ("Ratzeburg (Lauenborg marker)", 10.77, 53.70, None),
+    # \u00c6R\u00d8 IS RIGHT HERE FOR THE WRONG REASON, and this is the note that says so.
+    # \u00c6r\u00f8 belonged to the duchy of Slesvig and came to the kingdom under this
+    # treaty, so DENMARK is the correct answer for 1864. But the series has never
+    # carried an \u00c6r\u00f8 polygon: the eastern half of the island simply falls inside the
+    # southern lobe of the DENMARK hull, and the western half falls inside nothing.
+    # The right answer here is an artefact of a coarse outline, not an assignment.
+    # THE SAME ARTEFACT MAKES 1660, 1721 AND 1814 WRONG, where \u00c6r\u00f8sk\u00f8bing and
+    # Marstal also resolve to DENMARK and the island was Slesvig's. That is HANDOFF
+    # item 48 and it is not fixed here, because fixing it means editing the DENMARK
+    # vertex list, which is shared with SLESVIG through DK_SL and would restate
+    # geometry four maps and four shipped chapters depend on. See item 39.
+    ("\u00c6r\u00f8sk\u00f8bing", 10.42, 54.89, "DENMARK"),
+    ("Marstal, \u00c6r\u00f8", 10.51, 54.86, "DENMARK"),
+    ("Malm\u00f6", 13.00, 55.60, None), ("G\u00f6teborg", 11.97, 57.71, None)],
  1814: [
     ("Ribe", 8.76, 55.33, "DENMARK"), ("Aarhus", 10.20, 56.16, "DENMARK"),
     ("Odense", 10.39, 55.40, "DENMARK"), ("Aalborg", 9.92, 57.05, "DENMARK"),
@@ -358,6 +426,11 @@ PANEL = {
         # gone in 1468-69, so they must belong to nothing on this map
         ("Lerwick", -1.15, 60.15, None), ("Kirkwall", -2.96, 58.98, None),
         ("Dunnet Head", -3.37, 58.67, None)],
+ 1864: [("Qaqortoq", -46.03, 60.72, "GREENLAND"), ("Nuuk", -51.72, 64.18, "GREENLAND"),
+    ("NE Greenland", -22.00, 67.40, "GREENLAND"),
+    ("Reykjav\u00edk", -21.94, 64.15, "ICELAND"), ("Akureyri", -18.09, 65.68, "ICELAND"),
+    ("T\u00f3rshavn", -6.77, 62.01, "FAROES"),
+    ("Lerwick", -1.15, 60.15, None), ("Kirkwall", -2.96, 58.98, None)],
  1814: [("Qaqortoq", -46.03, 60.72, "GREENLAND"), ("Nuuk", -51.72, 64.18, "GREENLAND"),
     ("NE Greenland", -22.00, 67.40, "GREENLAND"),
     ("Reykjav\u00edk", -21.94, 64.15, "ICELAND"), ("Akureyri", -18.09, 65.68, "ICELAND"),
@@ -387,6 +460,7 @@ def maps():
     import map_1660 as m66
     import map_1721 as m21
     import map_1814 as m14
+    import map_1864 as m64
     return [
         dict(year=1397, mod=m97, envelope=SCANDINAVIA, bbox=(3.0, 53.0, 31.0, 71.5),
              regions=["DENMARK", "BORNHOLM", "SLESVIG", "NORWAY", "SWEDEN", "GOTLAND"],
@@ -427,6 +501,16 @@ def maps():
         dict(year=1814, mod=m14, envelope=DENMARK_NORWAY_1721,
              bbox=(3.0, 53.0, 31.0, 71.5),
              regions=["DENMARK", "BORNHOLM", "SLESVIG", "HOLSTEN", "DITMARSKEN", "NORWAY"],
+             panel=["GREENLAND", "ICELAND", "FAROES"]),
+        # 1864: the duchies are ceded but still DRAWN, in the lost tone, so they are
+        # regions the coverage layer must assign. NORWAY IS NOT A REGION HERE - it was
+        # ceded fifty years earlier and this map drops it, on the same test that made
+        # 1721 drop the Scanian provinces. The envelope therefore stops at the
+        # Skagerrak instead of running up the Norwegian border, and the five Norwegian
+        # curated cases that map_1814 carried are pinned to None above.
+        dict(year=1864, mod=m64, envelope=DENMARK_AND_DUCHIES_1864,
+             bbox=(3.0, 53.0, 31.0, 71.5),
+             regions=["DENMARK", "BORNHOLM", "SLESVIG", "HOLSTEN", "DITMARSKEN"],
              panel=["GREENLAND", "ICELAND", "FAROES"]),
     ]
 

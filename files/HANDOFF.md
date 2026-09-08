@@ -35,7 +35,7 @@ written — see Lessons.
 | E | 16–20 | 1375–1536 | built, reviewed, revised; renumbered Aug 2026 |
 | F | 21–24 | 1536–1660 | **built, reviewed, revised, closed; online** |
 | G | 25–31 | 1660–1814 | **built, reviewed, revised; all seven round-trip clean** |
-| H | 32–36 | 1814–1901 | **planned, Sept 2026 — see `PLAN_H.md`**; not drafted |
+| H | 32–36 | 1814–1901 | **planned Sept 2026; 32 and 33 built, reviewed, shipped — see `PLAN_H.md`**. 34–36 not drafted |
 | I– | 37– | 1901– | not planned |
 
 All of 01–24 are published to a web folder. Chapter pages carry two links back to
@@ -658,7 +658,9 @@ unclaimed land points, which is what it was built for.
    reports Copenhagen five times. Counting variants — *Copenhagen castle*, *outside
    Copenhagen Castle*, *the great hall, Copenhagen Castle*, *Copenhagen's rådhus*,
    *the square before Copenhagen Castle*, *Blåtårn*, *Flådebatteri nr. 1,
-   Kongedybet*, *Nørregade* — the true figure is **thirteen of forty-eight**.
+   Kongedybet*, *Nørregade* — the true figure was **thirteen of forty-eight**.
+   ~~thirteen~~ **Recount, Sept 2026: fourteen of fifty-one after chapter 32, and
+   fifteen of fifty-four after chapter 33. See item 44.**
    Normalise the match. It also checks no balance at all: see D-9.
 
 28. **The advisory constant is hardcoded in three scripts, not six.** `build_all.py`,
@@ -858,7 +860,23 @@ unclaimed land points, which is what it was built for.
    cushion belongs at the canvas edge, where it is a fixed six units and does not
    grow with the sentence.
 
-43. **Open, cosmetic, needs a decision. `svg_terr_1660.txt` prints Helsingborg
+43. ~~**Open, cosmetic, needs a decision.**~~ **CLOSED, Sept 2026.** Both labels
+   moved and chapter 25 rebuilt. **The positions were solved, not nudged.** A
+   label moved off a collision can land outside its own province, which is a worse
+   fault than the one being fixed and one no guard tests for, so candidates were
+   required to satisfy two conditions at once: point-in-polygon inside the label's
+   own territory, and collision-free on regeneration. `Skåne` moves from
+   (14.15, 55.62) to **(14.00, 55.40)**, still inside `SCANIA`; `Jämtland`
+   from (14.15, 63.35) to **(14.30, 63.10)**, still inside `NO_LOST` and well
+   north of the Härjedalen label. An earlier candidate that cleared the
+   collision handsomely, Jämtland at (15.40, 63.20), was rejected because the
+   membership test put it **outside `NO_LOST`** — it would have printed the name of
+   a lost Norwegian province onto uncoloured Sweden. Nothing now fires anywhere in
+   the book: all six map scripts run clean, fixture and seam layer pass, chapter 25
+   rebuilds and verifies `identical`, and the map was rasterised and looked at.
+   Original entry follows.
+
+   **Open, cosmetic, needs a decision. `svg_terr_1660.txt` prints Helsingborg
    and Skaane into each other**, and Jamtland into Trondhjem, by 28 and 17 units.
    Found by the new collision guard on a map that has been shipped since Part F.
    It is legible but wrong, and fixing it means nudging two labels in
@@ -1428,3 +1446,259 @@ and 32 were all retired rather than divided.
 **Chapter 28 is a three-minute overrun against the 28–40 advisory.** ~~It remains a
 split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see item
 20 and L13.**
+
+
+44. **The Copenhagen vignette count was stale, and the handover note carried it
+   forward.** Item 27 and `PLAN_H` §2.6 both say "thirteen of forty-eight". That
+   was right for a 48-vignette corpus and the corpus is no longer 48. Chapter 32
+   added one Copenhagen vignette (Pätges at the Hofteatret) and took the total to
+   51; the handover note for the chapter 33 session updated the total to 51 and
+   left the Copenhagen figure at 13. Measured on the corpus at the start of the
+   chapter 33 session: **fourteen of fifty-one**. With chapter 33's Lehmann
+   vignette it is now **fifteen of fifty-four**. Corrected in both files.
+   *The standing rule failing in its usual place: a number typed forward from an
+   older count instead of recomputed. Compute the place census, do not carry it.*
+
+45. **Chapter 32 ships a one-item "page in five".** `mkbody.py`'s `five_html`
+   builds `<ol class="five">` from the paragraphs of the draft's Summary block,
+   and `c32_draft.md`'s Summary is a single paragraph. The shipped page therefore
+   renders a heading reading IF YOU REMEMBER FIVE THINGS above a list containing
+   one item, numbered `01`. Item 19 records 25, 26 and 27 running to four items;
+   **chapter 32 at one is worse and was not recorded at all.** Found because
+   `mkbody.py` prints `summary items N (of M paragraphs)` and chapter 33's first
+   build said `1 (of 1)`. Chapter 33's Summary is now five paragraphs and reports
+   `5 (of 5)`. **CLOSED, Sept 2026, and guarded in two places.** `c32_draft.md`'s
+   Summary is now five paragraphs, chapter 32 rebuilds at 8,246 words and 39
+   minutes and verifies `identical`. `mkbody.py` prints a `!!` line when a Summary
+   yields fewer than five items, and **`build_part_h.py` counts the rendered
+   `<li><p>` items and exits non-zero** — a warning would have been ignored, which
+   is how this survived a session. Verified by crippling a copy of `c33_body.html`
+   to a single item: the build printed `SUMMARY IS 1 ITEM, NOT FIVE` and exited 1,
+   and returned to 0 when the body was restored. **Chapters 25, 26 and 27 still
+   render four items each (item 19) and will now fail their own part build the next
+   time Part G is rebuilt with the check ported across.** Porting it into
+   `build_part_g.py` and the earlier part scripts is a small job left undone here.
+
+46. **`CHAR_W` is wrong for every class, and wrong in the dangerous direction for
+   the one that matters.** Measured off the raster during the chapter 33 session
+   by rendering eighty monospace glyphs and taking the ink extent:
+
+   | class | `mapspine` | measured | direction |
+   |---|---|---|---|
+   | `mapt` | 5.68 | **6.36** | under-reports by 11% — unsafe |
+   | `mapl` | 6.98 | 6.61 | over-reports — noisy, safe |
+   | `mapx` | 5.63 | 5.33 | over-reports — noisy, safe |
+
+   `mapt` is the body class in every figure in the book, so `overruns()` has been
+   under-reporting on the most-used class since item 40 declared it resolved.
+   **Blast radius checked before anything was changed, per item 39: `CHAR_W` is
+   read only by the guards and never by layout, so correcting it cannot alter one
+   byte of any `svg_*.txt` and cannot make a Part A–D figure stale.** It can only
+   make the guard stricter.
+
+   **It was not changed, and here is why.** Run non-destructively across all 54
+   figures, the measured values fire three times — twice in `svg_mandebod.txt` and
+   once in `svg_titles.txt` — and **all three are false positives.** Settled on the
+   pixels rather than on the constant: rasterised at 3× and scanned for the
+   rightmost ink column, `svg_mandebod` reaches 683.3 of 700 and `svg_titles`
+   reaches 899.7 of 900. Both fit. This is exactly item 42's finding about margins
+   compounding with line length, and false positives are how `debuild` became
+   ignorable.
+
+   **The deeper point, which is new.** There is no single true constant. `monospace`
+   resolves to whatever face the renderer has — DejaVu Sans Mono in the container,
+   Menlo in a Mac browser — and the advance differs. A per-character estimate can
+   therefore only ever be an upper bound across plausible faces, and item 40's
+   instruction to "re-measure" is not sufficient, because a point measurement on
+   one machine is not the thing being guarded.
+
+   **What to do instead, and it is cheap.** Where cairosvg is present, the width
+   check needs no constant at all: rasterise, scan for the rightmost ink column,
+   compare against the canvas. Twelve lines, exact, and it settled the three
+   flagged figures in one run. Proposal: add it to `check()` as an exact pass when
+   cairosvg imports, keeping the estimate as the fallback where it does not — which
+   is the Mac. **Infrastructure task, not done here**, because item 41's lesson is
+   that a guard is worth nothing until it is wired in properly, and wiring it in
+   deserves its own pass. Note also that `svg_titles.txt` clears its canvas by
+   **0.3 units** against a documented six-unit cushion, which an exact check would
+   fail and which is worth a look on its own account.
+
+47. **`collisions()` compares text against text and nothing else.** A `<rect>` laid
+   over a `<text>` is invisible to it. Found in chapter 33's franchise figure,
+   where a two-entry key set on one line put the second swatch straight through the
+   first label; every guard passed and it was caught by looking. Item 42 says
+   `overruns` tests the canvas edge and nothing else; the same sentence is now true
+   one level up. Keys are stacked in `figs_33.py` rather than columned, which
+   avoids the case without fixing it.
+
+
+48. **Part of Ærø has been drawn as Danish crown territory since the 1660 map, and
+   it belonged to the duchy of Slesvig.** Found by the fixture, on the first run
+   of the 1864 map, and only because the 1864 treaty gave me a reason to write a
+   curated case for the island — which is the Rogaland lesson again: the fixture
+   checks what somebody thought to test.
+
+   The series has never carried an Ærø polygon. The southern lobe of the
+   `DENMARK` hull reaches far enough south-east that **Ærøskøbing and Marstal fall
+   inside it, while western Ærø falls inside nothing.** So the island is half
+   Danish and half unclaimed, by accident of a coarse outline, on the 1660, 1721
+   and 1814 maps — where it should have been Slesvig's throughout. On the **1864**
+   map the same artefact gives the *right* answer, because the treaty did bring
+   Ærø into the kingdom, and the curated case is pinned to `DENMARK` with a comment
+   saying it is right for the wrong reason.
+
+   **Not fixed here, deliberately.** Correcting it means editing `DENMARK`'s
+   vertex list, which is shared with `SLESVIG` through `DK_SL` and is inherited
+   unchanged by four maps and four shipped chapters (25, 27, 32, 34). That is a
+   seam edit with a four-chapter blast radius, and item 39's rule is to check the
+   radius before applying, not after. It also needs a decision I should not take
+   alone: whether to add an Ærø ring at all, given that the island is about the
+   size of the label that would name it.
+
+49. **`overruns()` tests the right edge and the bottom, not the left.** Item 42
+   recorded that it tests the canvas edge and not neighbours; that was only
+   two-thirds true. While placing the 1864 map's notes, a line of text ran off the
+   **left** side of the canvas and was silently clipped, and every guard passed.
+   Caught by looking. The fix in `map_1864.py` was to move the text; the fix in
+   `mapspine.py` is one comparison and is not made here, because the exact
+   pixel-width pass proposed in item 46 would cover this case too and the two
+   should be done together.
+
+50. **`collisions()` was blind twice in one session, and the second time I already
+   knew.** It compares text with text; a `<rect>` over a `<text>` is invisible to
+   it. Chapter 33's franchise key hit this (item 47), and then chapter 34's
+   `svg_ceded_1864.txt` hit it again with a bar printed over its own label, in a
+   figure written *after* item 47 was recorded. Knowing about a blind spot is not
+   the same as checking for it. Both were caught by looking, which is the only
+   thing that has caught this class all series.
+
+51. **The 1864 map's notes were placed twice.** The first placement satisfied the
+   collision guard by putting the Kongeå note three hundred kilometres out into
+   the North Sea, and the rasterised map was unreadable: a note explaining a
+   frontier, nowhere near the frontier. **A guard that scores overlap cannot score
+   meaning**, and a search that optimises only against the guard will happily
+   produce a legible-but-senseless layout. The second pass moved the explanation
+   into the legend, which had room, and left a two-word label at the line. Worth
+   generalising: search for candidate positions by regeneration, then look at the
+   winner before keeping it.
+
+52. **Stale comment in `mapfixture.py`, unrelated to this session's work.** The
+   1814 cfg block still says of Lauenburg that "its ground falls inside HOLSTEN
+   here and is assigned there, so coverage is not left with a hole." That is the
+   version `map_1814.py`'s own docstring records as **wrong and corrected**:
+   Ratzeburg resolves to no territory, and the curated case is pinned to `None`,
+   which is what actually passes. One of the two texts should go. Left alone here
+   because it is documentation rather than behaviour, and because editing the
+   fixture's comments in the same session that adds a map to it makes the diff
+   harder to read.
+
+
+53. **Two chapters now want the same unfetched table, and that is the argument for
+   fetching it.** Chapter 32's figure 3 could not be drawn as a price line because
+   the nineteenth-century run of the Zealand kapitelstakst was not obtained.
+   Chapter 35's figure 1 was planned as two crossing price series and has just hit
+   the same wall for the same reason. **The kapitelstakst is a library errand, not
+   an archive one** — the modern values are published and the back-series is in the
+   printed `Statistisk Tabelværk` and in the statistics bank's older tables.
+   Getting it once redraws two figures, both currently drawn as something else with
+   a docstring explaining why. This is now the highest-value outstanding fetch in
+   the project.
+
+54. **`figs_35.py` records the same L1 diagnosis for the third chapter running.**
+   Chapter 34's draft came in 872 words short, chapter 35's 959. Both times the
+   fix was a missing subject, not thin paragraphs, and both times naming the
+   subject took less than a search. The pattern is now strong enough to state as
+   a working rule rather than an observation: **if a Part H draft lands more than
+   about 500 words short, stop and ask what has been left out, before touching a
+   single existing paragraph.** In 34 it was that Denmark won a naval battle and
+   the draft did not mention it; in 35 it was that the cooperative contract took
+   butter-making out of the farmhouse and away from women.
+
+55. **`mkbody.py`'s vignette count has now caught a missing vignette three times**
+   — chapters 34 and 35 both drafted with two where the plan had three, and in 35
+   the missing one was §10's, the chapter's own closing section. The line
+   `vignettes N` in the build output is doing more work than the D-9 balance check,
+   because D-9 tests the tags of the vignettes that exist and this tests whether
+   they exist at all. Both are needed and only one was designed on purpose.
+
+56. **Three figure faults in chapter 35, none of which any guard can see, and one
+   of them would have made the chart lie.** Recorded together because they are one
+   class:
+   - The causal chain in figure 1 opened at 1875 and then stepped back to 1864,
+     on a figure whose entire form is chronological order.
+   - Figure 2 chose its emphasis tone with `if pct > 30`, which put the residual
+     "everyone else" row in the same dark tone as the row the chart exists to make.
+     **Tone by meaning, not by size.**
+   - Figure 2's point scale used the data maximum while its axis was labelled
+     12,000, so the axis said one thing and the geometry said another. That is not
+     an aesthetic fault; a reader measuring off it would have been wrong.
+
+   All three were caught by opening the PNG. The running count for the series is
+   that looking has found something in every part, and in Part H it has found
+   something in every chapter.
+
+
+57. **PART H IS COMPLETE.** Chapters 32 to 36 built, verified and indexed; the part
+   coda is on 36. Lengths 39, 40, 36, 38 and 37 minutes, all inside the advisory
+   band. 36 of 43 chapters built, 259,560 page words, 20.6 hours. 63 figures, 63
+   vignettes, every chapter 3/3 tagged with `[f]` and `[n]` present.
+
+58. **The part coda was hardcoded to Part G and is now data-driven.** `mkbody.py`
+   built the coda's kicker and band from string literals, because chapter 31 was
+   the only chapter that had ever carried one. Both now come from `HAND` as
+   `coda_part` and `coda_span`, defaulting to the Part G pair. **The symptom was
+   predicted before the change** — chapter 31 must rebuild byte-identical — and it
+   did; the only line in its diff is the index-link stripping of item 8.
+
+59. **L1 has now held for four consecutive chapters and should be promoted from
+   observation to procedure.** Short-draft deficits: 33 came in near target, 34 by
+   872 words, 35 by 959, 36 by **1,270**. Every time the cause was missing
+   subjects and never thin paragraphs, and every time naming them took less than a
+   search. Chapter 36 is the sharpest case because the plan had *already warned*
+   about it: PLAN_H §9 records that its own first section list was discarded for
+   being 1L/6M/3H, "a flat chapter — chapter 28's fault wearing different
+   clothes." My first draft came out **5L/5M/0H**, which is worse, and the
+   measurement said so immediately. What was missing was substantive: that the
+   provisional finance laws merely authorised the government to meet the state's
+   necessary expenses as it judged them; that elections went on being held and
+   lost throughout; and J.C. Christensen's parish council law of 1903, which
+   discharges chapter 33's Article 80 after fifty-four years.
+
+   **Proposed rule for Part I planning: measure the draft against the plan's
+   weight profile before reading it for quality. A profile with no heavy sections
+   is a defect regardless of the word count.**
+
+60. **Three planned time series have now been refused in one part, all for the same
+   reason.** Chapter 32's figure 3 (kapitelstakst), chapter 35's figure 1 (grain
+   and butter prices) and figure 2 (emigration by year), and chapter 36's figure 2
+   (seats against votes, 1872–1901). In every case the series genuinely exists and
+   was not obtained, and in every case the figure was redrawn as something the
+   sources do support with a docstring saying what was wanted and why it was not
+   drawn.
+
+   That is the right behaviour and it is also a pattern worth acting on. **Part H
+   has shipped fifteen figures and not one of them is a time series.** For a part
+   covering ninety years of economic and political change that is a real gap in
+   the book's visual repertoire, not just a run of individual refusals. Item 53
+   names the kapitelstakst as the highest-value fetch; the Folketing election
+   results 1872–1901 are the second, and both are library errands.
+
+61. **`collisions()` was blind four times in one session.** Items 47 and 50 record
+   the first two; chapter 35's ceded figure was the third; chapter 36's franchise
+   figure was the fourth, where the left column's prose ran clean under the
+   sixty-six-block grid. A `<rect>` over a `<text>` is invisible to it, every time,
+   and knowing that has not once been enough to prevent the next occurrence.
+   **This is no longer a note; it is a missing feature.** The fix is to add the
+   rects to the box list in `collisions()` with a flag so that rect-over-text is
+   reported separately from text-over-text. Not done here for the same reason as
+   item 46: it belongs with the exact-width pass and the two should be built and
+   tested together.
+
+62. **A second box-height fault of the same family as item 41.** Chapter 36's
+   deadlock figure drew three panels at a typed height of 132 units and two of them
+   overflowed, spilling their last lines through the border into the dashed box
+   below. Nothing fired, because `overruns()` tests the canvas edge and not a
+   rectangle drawn inside it. The fix was the same one chapter 33's franchise
+   figure needed for the canvas: fold the content first, take the tallest column,
+   then draw the boxes to that. **Any dimension typed as a literal in a figure
+   script is a latent version of this fault.**
