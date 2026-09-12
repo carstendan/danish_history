@@ -53,7 +53,7 @@ BANDS = [
 ]
 
 # entries carrying several distinct stories; candidates to run long or to split in two
-DENSE = {35, 41}
+DENSE = {42}
 
 # (num, band_index, title, datelabel, mid_year, gloss, markers)
 E = [
@@ -167,25 +167,28 @@ E = [
  ["J.B.S. Estrup","provisoriske love","Københavns befæstning","Systemskiftet 1901","parlamentarisme"]),
 (37,8,"Reform, neutrality and the sale of the West Indies","1901 – 1917",1910,
  "Women get the vote in 1915. Denmark stays out of the war and gets rich on it — then sells its Caribbean islands to the United States for 25 million dollars.",
- ["1915 Grundlov (women's suffrage)","WWI neutrality","gullaschbaroner","sale of Dansk Vestindien 1917","Iceland's Act of Union 1918"]),
-(38,8,"1920: Genforeningen and the Easter Crisis","1918 – 1920",1920,
- "Versailles lets North Schleswig vote itself home — and the king's attempt to grab more nearly ends the monarchy in the process.",
- ["the 1920 plebiscites","Zone 1 & Zone 2","Genforeningen","Påskekrisen 1920","Christian X at the border"]),
-(39,8,"Depression, Stauning and the seeds of the welfare state","1929 – 1939",1934,
+ ["1915 Grundlov (women's suffrage)","WWI neutrality","gullaschbaroner","sale of Dansk Vestindien 1917","D. Hamilton Jackson & the islands"]),
+(38,8,"Genforeningen, Iceland and the Easter Crisis","1918 – 1920",1919,
+ "Three years, three answers to one question: Slesvig votes itself home, Iceland leaves by treaty, and the king learns he cannot dismiss a government.",
+ ["the 1920 plebiscites","Zone 1 & Zone 2","Genforeningen","Iceland's Act of Union 1918","Påskekrisen 1920"]),
+(39,8,"Deflation, the Landmandsbank crash and the first Social Democratic government","1920 – 1929",1924,
+ "The wartime boom collapses, Scandinavia's largest bank goes down with it, and in 1924 the party that struck against the king four years earlier takes office.",
+ ["deflationskrisen","Landmandsbanken 1922","Stauning's first government 1924","Nina Bang","Madsen-Mygdal and the return to gold"]),
+(40,8,"Depression, Stauning and the seeds of the welfare state","1929 – 1939",1934,
  "One long night's bargaining in Kanslergade produces the crisis deal and the social reform that later gets called the welfare state's foundation stone.",
- ["Thorvald Stauning","Kanslergadeforliget 1933","Socialreformen 1933 (K.K. Steincke)","'Stauning eller kaos'","non-aggression pact 1939"]),
-(40,8,"9 April 1940 and samarbejdspolitikken","1940 – 1943",1941,
+ ["Thorvald Stauning","Kanslergadeforliget 1933","Socialreformen 1933 (K.K. Steincke)","'Stauning eller kaos'","the 1939 referendum that failed"]),
+(41,8,"9 April 1940 and samarbejdspolitikken","1939 – 1943",1941,
  "Occupied in six hours. Denmark then does something almost unique: it keeps its government, parliament and king, and cooperates — a choice still argued about.",
  ["Operation Weserübung","the 'model protectorate'","Erik Scavenius","Frikorps Danmark","the 1943 election"]),
-(41,8,"1943–1945: rupture, rescue, resistance","1943 – 1945",1944,
+(42,8,"1943–1945: rupture, rescue, resistance","1943 – 1945",1944,
  "Cooperation collapses in August 1943; the fleet scuttles itself; and in October almost all of Denmark's Jews are ferried to Sweden in three weeks.",
  ["Augustoprøret 1943","the fleet scuttled 29 Aug","rescue of the Danish Jews Oct 1943","Frihedsrådet","Shellhus March 1945; liberation 4–5 May"]),
-(42,8,"Settling accounts and choosing a side","1945 – 1949",1947,
+(43,8,"Settling accounts and choosing a side","1945 – 1949",1947,
  "Retribution trials, a reintroduced death penalty, a Soviet garrison on Bornholm for eleven months, Marshall aid — and the end of 150 years of neutrality.",
  ["retsopgøret","Soviet Bornholm May 1945 – April 1946","Marshall aid","Scandinavian defence talks fail","NATO 4 April 1949"]),
-(43,8,"1953: the new constitution and the modern realm","1949 – 1955",1952,
- "The Landsting goes, female succession comes, Greenland stops being a colony on paper, and the welfare state begins its long build-out.",
- ["Grundloven 1953","Landstinget abolished","female succession","Greenland made a county 1953","the welfare state expands"]),
+(44,8,"1953: the new constitution and the modern realm","1949 – 1955",1952,
+ "The Landsting goes, female succession comes, Greenland stops being a colony on paper — and §20 quietly installs the door Denmark walks through in 1973.",
+ ["Grundloven 1953","Landstinget abolished","female succession","Greenland made a county 1953","§20 on sovereignty transfer"]),
 ]
 
 THREADS = [
@@ -227,12 +230,20 @@ MAPS = [
 # spine changed: the header line computed len(E) and stayed right while the fan
 # caption, the aria-label and the stat block all went stale. Compute them.
 NUMWORD = {0: "No", 1: "One", 2: "Two", 3: "Three", 4: "Four", 5: "Five", 6: "Six"}
+
+# Part I's plan moved the dense flag from {35, 41} to {42} - 35 shipped at 37
+# minutes and is not a split candidate any more, and 41 renumbered to 42 when the
+# twenties took a chapter of their own. That made the count one, and both places
+# below said "are". Agreement is computed, not typed.
+DENSE_SUBJECT = ("One chapter is" if len(DENSE) == 1
+                 else "%s chapters are" % NUMWORD[len(DENSE)])
+DENSE_TAIL = "is" if len(DENSE) == 1 else "are"
 AFTER_750 = len([r for r in E if r[1] >= 2])          # Viking Age onward
 PCT_AFTER = round(100.0 * AFTER_750 / len(E))
 
 
 PAGETYPES = [
- ("Era", str(len(E)), "The chronological spine listed below. Each chapter is self-contained but carries callbacks to earlier chapters. %s are flagged dense and are likely to be planned as two." % NUMWORD[len(DENSE)], "#2E6B5E"),
+ ("Era", str(len(E)), "The chronological spine listed below. Each chapter is self-contained but carries callbacks to earlier chapters. %s flagged dense and %s likely to be planned as two." % (DENSE_SUBJECT, DENSE_TAIL), "#2E6B5E"),
  ("Thread", "6 pages", "One question followed across all eras — the border, Sweden, the sea, the realm, contraction, faith.", "#A9601C"),
  ("Spotlight", "open-ended", "A single object, ship, battle or person, examined closely. Queued: Fregatten Jylland.", "#8A2B2B"),
  ("Place", "open-ended", "One location followed through every era it appears in. Queued: Bornholm.", "#5B7A4A"),
@@ -691,7 +702,7 @@ DOC = f'''<!DOCTYPE html>
     <li><b>Delivery</b><span>Self-contained HTML files. No CDN, no external fonts, no network at
       view time. Download once and they keep working.</span></li>
     <li><b>Length</b><span>25–50 minutes per chapter. Governed by how many separate stories a page
-      must carry, not by how many years it spans. {NUMWORD[len(DENSE)]} chapters are flagged <i>dense</i> in the spine
+      must carry, not by how many years it spans. {DENSE_SUBJECT} flagged <i>dense</i> in the spine
       above; those are the ones likely to run to the top of the band or to split in two.</span></li>
     <li><b>Sourcing</b><span>Light — a source line per page, plus inline links where a claim is
       contested or surprising.</span></li>

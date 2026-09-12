@@ -25,8 +25,22 @@ WORDISH = re.compile(r'[0-9A-Za-z\u00c0-\u024f]')
 WPM = 210
 
 
+def body_after_style(h):
+    """Everything after the closing </style>, which is what all the callers meant."""
+    return h.split('</style>', 1)[-1]
+
+
 def _body(h):
-    return re.sub(r'<svg\b.*?</svg>', ' ', h.split('</style>')[1], flags=re.S | re.I)
+    return re.sub(r'<svg\b.*?</svg>', ' ', body_after_style(h), flags=re.S | re.I)
+
+
+def words(fragment):
+    """The same token rule applied to a fragment rather than a whole page.
+
+    narrative.py measures sections, not pages, and had its own copy of this
+    expression using a different token test - see open item 63.
+    """
+    return len([t for t in re.sub(r'<[^>]+>', ' ', fragment).split() if WORDISH.search(t)])
 
 
 def pagewords(h):

@@ -23,11 +23,11 @@ from pagewords import pagewords, textwords
 
 DIR = os.environ.get("DK_CHAPTERS", os.getcwd())
 WPM = 210
-TOTAL_PLANNED = 43
-DENSE = {35, 41}
+TOTAL_PLANNED = 44
+DENSE = {42}
 
 PARTS = [("A", 1, 3), ("B", 4, 7), ("C", 8, 11), ("D", 12, 15), ("E", 16, 20),
-         ("F", 21, 24), ("G", 25, 31), ("H", 32, 36), ("I", 37, 43)]
+         ("F", 21, 24), ("G", 25, 31), ("H", 32, 36), ("I", 37, 44)]
 
 
 def part_of(n):
@@ -38,7 +38,7 @@ def part_of(n):
 
 
 def counts(html):
-    """Both measures now come from pagecount.py, so this file cannot drift from
+    """Both measures now come from pagewords.py, so this file cannot drift from
     the build scripts the way it did while each carried its own expression."""
     return pagewords(html), textwords(html)
 
@@ -84,7 +84,8 @@ def main():
     left = TOTAL_PLANNED - nb
     dense_left = len([d for d in DENSE if d not in found])
     print("\nmean per chapter: %d page words, %d text words, %d min" % (mp, mt, round(mp / WPM)))
-    print("remaining: %d chapters, of which %d are flagged dense" % (left, dense_left))
+    print("remaining: %d chapters, of which %d %s flagged dense"
+          % (left, dense_left, "is" if dense_left == 1 else "are"))
     for label, extra in (("if none of the dense chapters splits", 0),
                          ("if half of them do", dense_left // 2),
                          ("if all of them do", dense_left)):

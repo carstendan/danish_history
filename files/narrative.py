@@ -32,7 +32,7 @@ import os
 from collections import Counter
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import pagecount as PC
+import pagewords as PC
 
 
 # In-section apparatus: blocks that sit inside the narrative region and are not
@@ -65,9 +65,8 @@ def first_numbered_h2(body):
 
 
 def words(fragment):
-    """Same rule as pagecount, applied to a fragment rather than a whole page."""
-    return len([w for w in re.sub(r'<[^>]+>', ' ', fragment).split()
-                if w not in PC.SEPARATORS])
+    """Imported, not reimplemented. See open item 63."""
+    return PC.words(fragment)
 
 
 def census(h):
@@ -143,10 +142,15 @@ def sections(rest):
     return out
 
 
+# Terciles of the 118 measured sections of Parts G and H, which is what the
+# weight profiles in PLAN_I are written against. PLAN_G's bands were 318/454 and
+# Part H's own are 358/492; these sit between them. The old thresholds here
+# (340/560/760) matched neither plan, so a draft measured 4L/5M/1H on this scale
+# and 3L/3M/4H on the plan's - two rulers for one rule. See open item 64.
 def band(n):
-    if n < 340:
+    if n < 336:
         return 'light'
-    if n < 560:
+    if n < 471:
         return 'medium'
     if n < 760:
         return 'heavy'

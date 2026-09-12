@@ -705,10 +705,7 @@ association outliving her by twenty-four years.
 
 **→ Part I.** The Social Democrats from two seats to government.
 
-**→ a later part.** Parliamentarism written into the constitution in 1953. *D-1
-requires a part letter and the later parts are not yet planned; this arrow carries
-a year instead. Open item, and it closes when the plan for the last parts is
-drawn.*
+**→ Part I.** Parliamentarism written into the constitution in 1953.
 
 ---
 
