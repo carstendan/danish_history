@@ -574,6 +574,51 @@ HAND = {
           "boundary of the membership.")],
  ),
 
+ 37: dict(
+   file='c37_body.html',
+   part='Part I', band='The small state', num=37, dates='1901 \u2013 1917',
+   title='Reform, neutrality and the sale of the West Indies',
+   people='P.A. Alberti \u00b7 C.Th. Zahle \u00b7 Jutta Bojsen-M\u00f8ller \u00b7 '
+          'Kresten Andresen \u00b7 D. Hamilton Jackson',
+   hook="The change of system altered no word of the constitution. Within seven years the "
+        "man who embodied it had stolen fifteen million kroner and walked to a police "
+        "station to say so, and the system survived him. Then a constitution admitted two "
+        "of the seven groups it had excluded for sixty-six years, a neutral country mined "
+        "its own straits at Germany's request, and thirty-seven per cent of Danes voted to "
+        "sell twenty-seven thousand people who had no vote at all.",
+   keys=['Systemskiftet', 'Det Radikale Venstre', 'Alberti', 'Retsplejeloven 1908',
+         'de syv F\u2019er', 'Grundloven 1915', 'Augustlovene', 'minerne i B\u00e6lterne',
+         'gullaschbaroner', 'Arbejdsregulativet 1849', 'Fireburn 1878',
+         'folkeafstemningen 1916'],
+   qs=["The constitution of 1915 is called the introduction of universal suffrage. How "
+       "many of the seven excluded categories did it actually admit?",
+       "The Landsting had to vote away the privileged franchise that made it powerful. "
+       "What made that rational for the men voting?",
+       "Denmark laid mines against Britain at Germany's request and Britain did not treat "
+       "it as an act of war. Why not?",
+       "Denmark grew rich on neutrality and one civilian trade lost seven per cent of its "
+       "men. How are both consequences of the same policy?",
+       "Who freed the enslaved of the Danish West Indies in 1848, and why is the usual "
+       "Danish answer wrong?"],
+   figs=[("s05", "SVG_SYVF",
+          "Figure 1 \u00b7 The seven categories, and the year each was let in",
+          "The groups the franchise of 1849 excluded, with the year each was admitted. "
+          "Five dates are exact, one disqualification lapsed without a franchise act, and "
+          "two categories are still excluded. Not the before-and-after electorate the plan "
+          "asked for; see the note in figs_37.py."),
+         ("s07", "SVG_SOEFOLK",
+          "Figure 2 \u00b7 The price of a neutral flag, 1914\u201318",
+          "Danish merchant seamen against the size of the merchant service: 702 dead of "
+          "about ten thousand, one man in fourteen, in a country where nobody was "
+          "conscripted and no foreign soldier crossed the border. Ships lost are not drawn "
+          "and the figure says why."),
+         ("s09", "SVG_AFSTEMNING",
+          "Figure 3 \u00b7 14 December 1916, and the people it was about",
+          "The referendum on selling the Danish West Indies: those who voted to sell, "
+          "those who voted not to, the larger number who did not vote at all, and beside "
+          "them the 27,086 inhabitants of the islands, who had no vote. The abstainers "
+          "outnumber the islanders about twenty-seven to one.")],
+ ),
  36: dict(
    file='c36_body.html',
    part='Part H', band='The national century', num=36, dates='1875 \u2013 1901',
@@ -910,6 +955,15 @@ def build(n):
 
     mw = meanwhile_html(app)
     mw_at = {secs[2][0]: 0, secs[min(6, len(secs) - 1)][0]: 1} if len(mw) >= 2 else {}
+    # This placement holds exactly two. A draft with three built three and emitted
+    # two, silently, and the count printed below counts what was PLACED, so the
+    # diagnostic said 2 and looked right. Every chapter to date happened to have
+    # two, so it never fired. Refuse rather than discard authored prose.
+    if len(mw) != len(mw_at):
+        raise SystemExit(
+            "!! chapter %s: %d 'Meanwhile in Europe' blocks in the draft but the "
+            "placement holds %d. Cut the draft to %d, or generalise mw_at - do not "
+            "let the build drop one." % (n, len(mw), len(mw_at), len(mw_at)))
 
     for sid, num, title, md in secs:
         if sid == 'coda':
