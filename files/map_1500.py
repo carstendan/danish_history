@@ -23,6 +23,7 @@ DENMARK = M97.DENMARK
 NORWAY = M97.NORWAY
 SWEDEN = M97.SWEDEN
 SLESVIG = M97.SLESVIG
+AERO_SL = M97.AERO_SL      # Aeroe: Slesvig's until 1864 - HANDOFF item 48
 GOTLAND = M97.GOTLAND          # Danish since 1449
 BORNHOLM = M97.BORNHOLM
 
@@ -70,7 +71,7 @@ def build():
         out.append(M.territory(f, poly, fill=M.CORE, opacity=CORE_OP))
     out.append(M.territory(f, GOTLAND, fill=M.CORE, opacity=CORE_OP))
     out.append(M.territory(f, SWEDEN, fill=M.CORE, opacity=CORE_OP))
-    for poly in (SLESVIG, HOLSTEN):
+    for poly in (SLESVIG, HOLSTEN, AERO_SL):
         out.append(M.territory(f, poly, fill=M.DEP, opacity=DEP_OP, edge=M.DEP, dash="4 3"))
     out.append(M.territory(f, DITMARSKEN, fill=M.CLAIM, opacity=CLAIM_OP))
 
@@ -115,6 +116,8 @@ def build():
 
 if __name__ == "__main__":
     svg = build()
+    for bad in (M.check(svg, "svg_terr_1500.txt") or []):
+        print("  !! %s" % (bad,))
     open("svg_terr_1500.txt", "w", encoding="utf-8").write(svg)
     M.rasterise(svg, "look_1500.png")
     print("wrote svg_terr_1500.txt (%d chars)" % len(svg))

@@ -174,6 +174,11 @@ def in_boxes(boxes, lon, lat):
 # (place, lon, lat, region key or None for "in none of them")
 CURATED = {
  1397: [
+    # Ærø, HANDOFF item 48: three towns spread along a 30 km island, so that a
+    # polygon covering only part of it fails. Ærø is Slesvig's, and Slesvig is a Danish fief held by the counts of Holstein.
+    ("Søby, Ærø", 10.26, 54.94, "AERO_SL"),
+    ("Ærøskøbing", 10.41, 54.89, "AERO_SL"),
+    ("Marstal, Ærø", 10.51, 54.86, "AERO_SL"),
     ("Ribe", 8.76, 55.33, "DENMARK"), ("Kolding", 9.47, 55.49, "DENMARK"),
     ("Viborg", 9.40, 56.45, "DENMARK"), ("København", 12.57, 55.68, "DENMARK"),
     ("Odense", 10.39, 55.40, "DENMARK"), ("Lund", 13.19, 55.70, "DENMARK"),
@@ -204,6 +209,11 @@ CURATED = {
     ("Visby", 18.29, 57.64, "GOTLAND"),
  ],
  1500: [
+    # Ærø, HANDOFF item 48: three towns spread along a 30 km island, so that a
+    # polygon covering only part of it fails. Still Slesvig's; the king now holds the duchy himself.
+    ("Søby, Ærø", 10.26, 54.94, "AERO_SL"),
+    ("Ærøskøbing", 10.41, 54.89, "AERO_SL"),
+    ("Marstal, Ærø", 10.51, 54.86, "AERO_SL"),
     ("Ribe", 8.76, 55.33, "DENMARK"), ("Viborg", 9.40, 56.45, "DENMARK"),
     ("København", 12.57, 55.68, "DENMARK"), ("Halland", 12.86, 56.67, "DENMARK"),
     ("Lund", 13.19, 55.70, "DENMARK"), ("Skagen", 10.60, 57.74, "DENMARK"),
@@ -260,21 +270,29 @@ CURATED = {
     # Ratzeburg still resolves to nothing: Lauenburg is ceded here too, and is still
     # marked rather than drawn, so the marker still stands on uncoloured ground.
     ("Ratzeburg (Lauenborg marker)", 10.77, 53.70, None),
-    # \u00c6R\u00d8 IS RIGHT HERE FOR THE WRONG REASON, and this is the note that says so.
-    # \u00c6r\u00f8 belonged to the duchy of Slesvig and came to the kingdom under this
-    # treaty, so DENMARK is the correct answer for 1864. But the series has never
-    # carried an \u00c6r\u00f8 polygon: the eastern half of the island simply falls inside the
-    # southern lobe of the DENMARK hull, and the western half falls inside nothing.
-    # The right answer here is an artefact of a coarse outline, not an assignment.
-    # THE SAME ARTEFACT MAKES 1660, 1721 AND 1814 WRONG, where \u00c6r\u00f8sk\u00f8bing and
-    # Marstal also resolve to DENMARK and the island was Slesvig's. That is HANDOFF
-    # item 48 and it is not fixed here, because fixing it means editing the DENMARK
-    # vertex list, which is shared with SLESVIG through DK_SL and would restate
-    # geometry four maps and four shipped chapters depend on. See item 39.
-    ("\u00c6r\u00f8sk\u00f8bing", 10.42, 54.89, "DENMARK"),
-    ("Marstal, \u00c6r\u00f8", 10.51, 54.86, "DENMARK"),
+    # ÆRØ CROSSES HERE, and this is the only map in the series on which it is
+    # Danish. Until the treaty of Vienna the island belonged to the duchy of
+    # Slesvig; the treaty separated it and joined it to the kingdom. The six
+    # earlier maps pin these three towns to AERO_SL and this one pins them to
+    # AERO_DK — same geometry, different name, different fill loop, so that
+    # neither answer can be reached by accident. HANDOFF item 48, closed.
+    #
+    # It used to be reached by accident, and the note that stood here said so.
+    # The series carried no Ærø polygon at all: the eastern half of the island
+    # fell inside the southern lobe of the DENMARK hull and the western half fell
+    # inside nothing, so 1864 gave the right answer for the wrong reason and the
+    # six maps before it gave the wrong answer. The sweep could never have caught
+    # it — at GRID 0.20 no sample point lands on Ærø at all.
+    ("Søby, Ærø", 10.26, 54.94, "AERO_DK"),
+    ("Ærøskøbing", 10.41, 54.89, "AERO_DK"),
+    ("Marstal, Ærø", 10.51, 54.86, "AERO_DK"),
     ("Malm\u00f6", 13.00, 55.60, None), ("G\u00f6teborg", 11.97, 57.71, None)],
  1814: [
+    # Ærø, HANDOFF item 48: three towns spread along a 30 km island, so that a
+    # polygon covering only part of it fails. Still Slesvig's. Kiel moves Norway, not Ærø.
+    ("Søby, Ærø", 10.26, 54.94, "AERO_SL"),
+    ("Ærøskøbing", 10.41, 54.89, "AERO_SL"),
+    ("Marstal, Ærø", 10.51, 54.86, "AERO_SL"),
     ("Ribe", 8.76, 55.33, "DENMARK"), ("Aarhus", 10.20, 56.16, "DENMARK"),
     ("Odense", 10.39, 55.40, "DENMARK"), ("Aalborg", 9.92, 57.05, "DENMARK"),
     ("K\u00f8benhavn", 12.57, 55.68, "DENMARK"), ("Helsing\u00f8r", 12.615, 56.035, "DENMARK"),
@@ -311,6 +329,11 @@ CURATED = {
     ("Helsingborg", 12.694, 56.046, None), ("Halmstad", 12.86, 56.67, None),
     ("Visby", 18.29, 57.64, None), ("Kalmar", 16.36, 56.66, None)],
  1721: [
+    # Ærø, HANDOFF item 48: three towns spread along a 30 km island, so that a
+    # polygon covering only part of it fails. Still Slesvig's. The lines that split the island in 1622 are ducal lines.
+    ("Søby, Ærø", 10.26, 54.94, "AERO_SL"),
+    ("Ærøskøbing", 10.41, 54.89, "AERO_SL"),
+    ("Marstal, Ærø", 10.51, 54.86, "AERO_SL"),
     ("Ribe", 8.76, 55.33, "DENMARK"), ("Aarhus", 10.20, 56.16, "DENMARK"),
     ("Odense", 10.39, 55.40, "DENMARK"), ("Aalborg", 9.92, 57.05, "DENMARK"),
     ("K\u00f8benhavn", 12.57, 55.68, "DENMARK"), ("Helsing\u00f8r", 12.615, 56.035, "DENMARK"),
@@ -333,6 +356,11 @@ CURATED = {
     ("\u00d6stersund", 14.64, 63.18, None), ("Visby", 18.29, 57.64, None),
     ("Stockholm", 18.07, 59.33, None), ("Kalmar", 16.36, 56.66, None)],
  1660: [
+    # Ærø, HANDOFF item 48: three towns spread along a 30 km island, so that a
+    # polygon covering only part of it fails. Still Slesvig's, and from 1658 the ducal share is held sovereign.
+    ("Søby, Ærø", 10.26, 54.94, "AERO_SL"),
+    ("Ærøskøbing", 10.41, 54.89, "AERO_SL"),
+    ("Marstal, Ærø", 10.51, 54.86, "AERO_SL"),
     # the kingdom, after the Scanian provinces are gone
     ("Ribe", 8.76, 55.33, "DENMARK"), ("Aarhus", 10.20, 56.16, "DENMARK"),
     ("Odense", 10.39, 55.40, "DENMARK"), ("Aalborg", 9.92, 57.05, "DENMARK"),
@@ -376,6 +404,11 @@ CURATED = {
     ("Jokkmokk", 19.83, 66.61, None), ("Mora", 14.54, 61.00, None),
     ("V\u00e4nersborg", 12.32, 58.38, None)],
  1600: [
+    # Ærø, HANDOFF item 48: three towns spread along a 30 km island, so that a
+    # polygon covering only part of it fails. Still Slesvig's, through the ducal partitions.
+    ("Søby, Ærø", 10.26, 54.94, "AERO_SL"),
+    ("Ærøskøbing", 10.41, 54.89, "AERO_SL"),
+    ("Marstal, Ærø", 10.51, 54.86, "AERO_SL"),
     ("Ribe", 8.76, 55.33, "DENMARK"), ("Viborg", 9.40, 56.45, "DENMARK"),
     ("København", 12.57, 55.68, "DENMARK"), ("Helsingør", 12.62, 56.04, "DENMARK"),
     ("Hven", 12.70, 55.90, "DENMARK"), ("Halmstad", 12.86, 56.67, "DENMARK"),
@@ -463,16 +496,16 @@ def maps():
     import map_1864 as m64
     return [
         dict(year=1397, mod=m97, envelope=SCANDINAVIA, bbox=(3.0, 53.0, 31.0, 71.5),
-             regions=["DENMARK", "BORNHOLM", "SLESVIG", "NORWAY", "SWEDEN", "GOTLAND"],
+             regions=["DENMARK", "BORNHOLM", "SLESVIG", "NORWAY", "SWEDEN", "GOTLAND", "AERO_SL"],
              panel=["GREENLAND", "ICELAND", "FAROES", "SHETLAND", "ORKNEY"]),
         dict(year=1500, mod=m00, envelope=SCANDINAVIA_AND_DUCHIES, bbox=(3.0, 53.0, 31.0, 71.5),
              regions=["DENMARK", "BORNHOLM", "SLESVIG", "HOLSTEN", "DITMARSKEN", "NORWAY",
-                      "SWEDEN", "GOTLAND"],
+                      "SWEDEN", "GOTLAND", "AERO_SL"],
              panel=["GREENLAND", "ICELAND", "FAROES"]),
         dict(year=1600, mod=m16, envelope=DENMARK_NORWAY_AND_DUCHIES,
              bbox=(3.0, 53.0, 31.0, 71.5),
              regions=["DENMARK", "BORNHOLM", "SLESVIG", "HOLSTEN", "DITMARSKEN", "NORWAY",
-                      "GOTLAND", "OESEL"],
+                      "GOTLAND", "OESEL", "AERO_SL"],
              panel=["GREENLAND", "ICELAND", "FAROES"]),
         # 1660: the ceded provinces are drawn, so they are territories the coverage
         # layer must assign. Sweden proper stays outside the envelope, exactly as on
@@ -481,13 +514,13 @@ def maps():
         dict(year=1660, mod=m66, envelope=DENMARK_NORWAY_AND_DUCHIES,
              bbox=(3.0, 53.0, 31.0, 71.5),
              regions=["DENMARK", "BORNHOLM", "SLESVIG", "HOLSTEN", "DITMARSKEN", "NORWAY",
-                      "SCANIA", "NO_LOST", "GOTLAND", "OESEL"],
+                      "SCANIA", "NO_LOST", "GOTLAND", "OESEL", "AERO_SL"],
              panel=["GREENLAND", "ICELAND", "FAROES"]),
         # 1721: the ceded provinces are no longer drawn, so the envelope narrows back
         # to the 1600 shape - Sweden is simply not this map's business any more.
         dict(year=1721, mod=m21, envelope=DENMARK_NORWAY_1721,
              bbox=(3.0, 53.0, 31.0, 71.5),
-             regions=["DENMARK", "BORNHOLM", "SLESVIG", "HOLSTEN", "DITMARSKEN", "NORWAY"],
+             regions=["DENMARK", "BORNHOLM", "SLESVIG", "HOLSTEN", "DITMARSKEN", "NORWAY", "AERO_SL"],
              panel=["GREENLAND", "ICELAND", "FAROES"]),
         # 1814: Norway is ceded but still DRAWN, in the lost tone, exactly as the
         # Scanian provinces were on 1660 - so it is a region the coverage layer must
@@ -500,7 +533,7 @@ def maps():
         # digitised, add the region and at least three cases with it.
         dict(year=1814, mod=m14, envelope=DENMARK_NORWAY_1721,
              bbox=(3.0, 53.0, 31.0, 71.5),
-             regions=["DENMARK", "BORNHOLM", "SLESVIG", "HOLSTEN", "DITMARSKEN", "NORWAY"],
+             regions=["DENMARK", "BORNHOLM", "SLESVIG", "HOLSTEN", "DITMARSKEN", "NORWAY", "AERO_SL"],
              panel=["GREENLAND", "ICELAND", "FAROES"]),
         # 1864: the duchies are ceded but still DRAWN, in the lost tone, so they are
         # regions the coverage layer must assign. NORWAY IS NOT A REGION HERE - it was
@@ -510,7 +543,7 @@ def maps():
         # curated cases that map_1814 carried are pinned to None above.
         dict(year=1864, mod=m64, envelope=DENMARK_AND_DUCHIES_1864,
              bbox=(3.0, 53.0, 31.0, 71.5),
-             regions=["DENMARK", "BORNHOLM", "SLESVIG", "HOLSTEN", "DITMARSKEN"],
+             regions=["DENMARK", "BORNHOLM", "SLESVIG", "HOLSTEN", "DITMARSKEN", "AERO_DK"],
              panel=["GREENLAND", "ICELAND", "FAROES"]),
     ]
 

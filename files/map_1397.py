@@ -22,7 +22,7 @@ CLAIM_OP = .42
 # and Vaestergoetland's corridor to the sea at the Goeta aelv is Swedish.
 DENMARK = [
     (7.0, 55.25), (8.6, 55.25), (9.2, 55.35), (9.75, 55.48), (10.05, 55.10),
-    (10.9, 54.60), (12.7, 54.60), (14.0, 55.30), (15.95, 56.05), (15.40, 56.45),
+    (10.56, 55.02), (10.56, 54.60), (10.9, 54.60), (12.7, 54.60), (14.0, 55.30), (15.95, 56.05), (15.40, 56.45),
     (14.20, 56.55), (13.20, 56.60), (13.10, 57.10), (12.90, 57.45), (12.40, 57.55),
     (11.92, 57.70), (11.60, 57.75), (10.70, 57.90), (9.50, 57.80), (8.00, 57.30), (7.00, 56.30),
 ]
@@ -110,6 +110,40 @@ def box(lon0, lat0, lon1, lat1, n=24):
     return pts
 
 
+# ------------------------------------------------- territory, continued: Aeroe
+# HANDOFF item 48. The island has never had a polygon on any map in this series,
+# and the southern lobe of the DENMARK hull used to swallow its eastern half while
+# its western half fell inside nothing - half Danish, half unclaimed, by accident
+# of a coarse outline. Aeroe belonged to the duchy of Slesvig from the middle ages
+# until the treaty of Vienna moved it into the kingdom in 1864. So it is SLESVIG's
+# here and on every map through 1814, and DENMARK's on 1864 alone.
+#
+# A generous box, not a traced coastline, because territory fills are clipped to
+# land: the box edge lies entirely at sea and never draws. Margin to the atlas
+# ring (10.215-10.503, 54.838-54.949) is about 0.045 degrees on every side, and
+# the nearest other land is Als, ending at 10.060, and Langeland, beginning at
+# 10.629 - the box spans 10.17 to 10.55 and touches neither. n=6 rather than the
+# default 24 because the box is 25 km across and the projection does not curve
+# measurably over it.
+#
+# DENMARK's southern lobe was re-threaded at the same time, from a single run
+# (10.05, 55.10) - (10.9, 54.60) to (10.05, 55.10) - (10.56, 55.02) -
+# (10.56, 54.60) - (10.9, 54.60). The vertical at 10.56 passes between Aeroe's east
+# end at 10.503 and Langeland's west end at 10.629, the same trick the Sound plays
+# between Helsingoer and Helsingborg. Langeland stays 9/9 vertices inside DENMARK
+# and Aeroe goes from 4/9 to 0/9. Verified by point-in-polygon against the atlas
+# rings, not by eye.
+AERO = box(10.17, 54.79, 10.55, 54.99, n=6)
+
+# TWO NAMES, ONE GEOMETRY, and the reason is that the fixture tests the NAME a
+# point resolves to. If Aeroe were one AERO region on all seven maps, a future edit
+# that drew it in the wrong fill loop would pass every curated case, which is the
+# shape of fault item 48 exists to record. Splitting the name by allegiance means
+# the 1864 transfer has to be written down to happen, and any other map that
+# claims it fails the fixture.
+AERO_SL = AERO
+
+
 # One ring, not two boxes: overlapping translucent fills print a darker seam.
 # The eastern edge steps out at 66.8N - which clears Grimsey, the northernmost
 # scrap of Iceland, by a quarter-degree - so the ring takes the whole north-east
@@ -154,7 +188,8 @@ def build():
 
     for poly in (DENMARK, BORNHOLM, NORWAY, SWEDEN):
         out.append(M.territory(f, poly, fill=M.CORE, opacity=CORE_OP))
-    out.append(M.territory(f, SLESVIG, fill=M.DEP, opacity=DEP_OP, edge=M.DEP, dash="4 3"))
+    for poly in (SLESVIG, AERO_SL):
+        out.append(M.territory(f, poly, fill=M.DEP, opacity=DEP_OP, edge=M.DEP, dash="4 3"))
     out.append(M.territory(f, GOTLAND, fill=M.CLAIM, opacity=CLAIM_OP))
 
     for line in (DK_SE, NO_SE, DK_SL):
@@ -206,6 +241,8 @@ def build():
 
 if __name__ == "__main__":
     svg = build()
+    for bad in (M.check(svg, "svg_terr_1397.txt") or []):
+        print("  !! %s" % (bad,))
     open("svg_terr_1397.txt", "w", encoding="utf-8").write(svg)
     M.rasterise(svg, "look_1397.png")
     print("wrote svg_terr_1397.txt (%d chars) and look_1397.png" % len(svg))

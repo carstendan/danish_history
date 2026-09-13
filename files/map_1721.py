@@ -47,6 +47,7 @@ DENMARK = M66.DENMARK
 NORWAY = M66.NORWAY
 BORNHOLM = M66.BORNHOLM
 SLESVIG = M66.SLESVIG
+AERO_SL = M66.AERO_SL      # Aeroe: Slesvig's until 1864 - HANDOFF item 48
 HOLSTEN = M66.HOLSTEN
 DITMARSKEN = M66.DITMARSKEN
 
@@ -76,7 +77,7 @@ def build():
 
     for poly in (DENMARK, BORNHOLM, NORWAY):
         out.append(M.territory(f, poly, fill=M.CORE, opacity=CORE_OP))
-    for poly in (SLESVIG, HOLSTEN, DITMARSKEN):
+    for poly in (SLESVIG, HOLSTEN, DITMARSKEN, AERO_SL):
         out.append(M.territory(f, poly, fill=M.DEP, opacity=DEP_OP, edge=M.DEP, dash="4 3"))
 
     d = f.path(DK_SL, close=False)
@@ -97,7 +98,7 @@ def build():
     out.append(M.note(f, 17.5, 59.5, "renounced, 1720", cls="mapt"))
 
     for lon, lat, t, a in [(24.5, 62.5, "FINLAND", "middle"),
-                           (9.95, 54.95, "Slesvig", "middle"),
+                           (9.20, 54.85, "Slesvig", "middle"),
                            (10.05, 53.80, "Holsten", "middle"),
                            (14.90, 54.78, "Bornholm", "middle")]:
         out.append(M.note(f, lon, lat, t, cls="mapt", anchor=a))
@@ -121,6 +122,8 @@ def build():
 
 if __name__ == "__main__":
     svg = build()
+    for bad in (M.check(svg, "svg_terr_1721.txt") or []):
+        print("  !! %s" % (bad,))
     open("svg_terr_1721.txt", "w", encoding="utf-8").write(svg)
     M.rasterise(svg, "look_1721.png")
     print("wrote svg_terr_1721.txt (%d chars)" % len(svg))

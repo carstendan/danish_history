@@ -1053,12 +1053,20 @@ unclaimed land points, which is what it was built for.
    build. The warning in `build_part_h.py`'s docstring about the drop list can be
    treated as discharged.
 
-75. **Chapter 37 shipped at 7,896 page words and 38 minutes against a planned 7,839
+75. **Chapter 37 shipped at 7,902 page words and 38 minutes against a planned 7,839
    and 37.** The profile is 3L/4M/3H, exactly as PLAN_I §5 specified. About 190 words
    were cut in three passes chasing the 37-minute line, which holds to 7,874 page
-   words; the last 22 were not taken, on the judgement that the prose was already
+   words; the last 28 were not taken, on the judgement that the prose was already
    tighter than was good for it and the remaining gap is a boundary in
-   `round(w/210)` rather than a real difference. **Chapter 33's 41-against-40 is a
+   `round(w/210)` rather than a real difference.
+
+   **CORRECTED, chapter 38 session.** This entry first recorded 7,896 and a
+   remaining gap of 22. 7,896 is `build_part_i.py`'s count, printed BEFORE
+   `linkindex.py` adds the index links; `bookstats.py` on the shipped page gives
+   7,902. The outstanding cut to reach 37 minutes is therefore 28 page words, not
+   22, and chapter 37 is 63 over plan, not 57. This is the exact fault the
+   START_HERE prompt warns about, committed in the entry that exists to record a
+   measured decision. **Take every length from `bookstats.py`, after linking.** **Chapter 33's 41-against-40 is a
    different case** — that was a ceiling, and PLAN_I sets no ceiling for 37. Flagged
    here so the ledger records a decision rather than a drift.
 
@@ -1763,7 +1771,33 @@ split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see it
    Ærø into the kingdom, and the curated case is pinned to `DENMARK` with a comment
    saying it is right for the wrong reason.
 
-   **Not fixed here, deliberately.** Correcting it means editing `DENMARK`'s
+   **CLOSED, chapter 38 session, and item 48 understated it twice.** Measured
+   against the atlas rings before anything was touched: Ærø was 4 of 9 ring
+   vertices inside `DENMARK` on **all seven maps**, not four. The 1397 spine
+   carries the same southern lobe, so 1397, 1500 and 1600 have the fault too and
+   the blast radius is **seven shipped chapters - 16, 19, 21, 25, 27, 32, 34** -
+   not the four this entry named. All seven have retained bodies; nothing in
+   Parts A-D is touched.
+
+   **The sweep could never have caught it.** At `GRID = 0.20` no sample point
+   lands on Ærø at all. This entry called it 'the fixture checks what somebody
+   thought to test'; it is worse than that - the generated layer was structurally
+   blind here, not merely unlucky.
+
+   The fix. `DENMARK`'s lobe re-threaded from one run (10.05,55.10)-(10.9,54.60)
+   to (10.05,55.10)-(10.56,55.02)-(10.56,54.60)-(10.9,54.60); the vertical at
+   10.56 passes between Ærø's east end at 10.503 and Langeland's west end at
+   10.629, which is the Sound's trick between Helsingør and Helsingborg. `AERO`
+   is a generous box defined once in `map_1397.py`; fills are clipped to land, so
+   its edge is entirely at sea and never draws. **Two names, one geometry:**
+   `AERO_SL` on 1397-1814 and `AERO_DK` on 1864, because the fixture tests the
+   NAME a point resolves to - a single `AERO` region would let a future edit draw
+   the island in the wrong fill loop and still pass every case. 21 curated cases
+   added (Søby, Ærøskøbing, Marstal, spread along 30 km so a partial polygon
+   fails). After: Ærø 0/9 in `DENMARK` and 9/9 in `AERO` on every map, Langeland
+   still 9/9 in `DENMARK`, Funen unchanged at 19/21. Original entry follows.
+
+   ~~**Not fixed here, deliberately.**~~ Correcting it means editing `DENMARK`'s
    vertex list, which is shared with `SLESVIG` through `DK_SL` and is inherited
    unchanged by four maps and four shipped chapters (25, 27, 32, 34). That is a
    seam edit with a four-chapter blast radius, and item 39's rule is to check the
@@ -1925,3 +1959,92 @@ split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see it
    figure needed for the canvas: fold the content first, take the tallest column,
    then draw the boxes to that. **Any dimension typed as a literal in a figure
    script is a latent version of this fault.**
+
+
+76. **The `Slesvig` label sat on Ærø on five maps, and no guard could see it.**
+   Found by rasterising after the Ærø ring went in, then confirmed by arithmetic
+   rather than by a second look: `Slesvig` is 7 mapt characters at `CHAR_W` 5.68,
+   so 39.8 units wide, anchor=middle; Ærø's printed land runs x 186.0-191.8 and
+   its top edge is y 620.3, and the label's baseline sat at 619.5 with descenders
+   to about 621.9. On 1600, 1660 and 1721 the label was at (9.95, 54.95) and its
+   descenders clipped the island's north coast. On **1814 and 1864 it was at
+   (10.55, 54.95), centred over the island** - so the 1864 map was about to print
+   the word *Slesvig* across the one island the 1864 treaty took OUT of Slesvig.
+   `collisions()` is text-against-text and cannot see text over a fill.
+
+   **The position was computed, not typed.** A search over the duchy's interior,
+   scoring each candidate against every other text box in that map's own SVG and
+   against Ærø's land box, returned 166/166/166/155/64 clean positions on the
+   five maps; the one nearest the `SLESVIG` centroid is **(9.20, 54.85)** and is
+   clean on all five. My two hand-picked positions before that - (9.10, 54.95) and
+   (8.90, 54.65) - both collided, with `Kolding` and with `Gottorp`. **Do not
+   place a label by reasoning about it. Place it by search.**
+
+77. **`M.check()` was wired into one of seven map scripts.** `map_1864.py` has
+   called it since it shipped; 1397, 1500, 1600, 1660, 1721 and 1814 never have.
+   That is item 41 exactly - the guards existed and were not connected - and it is
+   why the Kolding collision only surfaced when I happened to be editing the map
+   that calls it. Now wired into all seven, same pattern as 1864's. All seven are
+   clean, and the maps still print nothing but their `wrote` lines.
+
+78. **Als is 5 of 9 ring vertices inside `SLESVIG`, and this is Ærø's family.**
+   Measured in passing while verifying the Ærø fix. Pre-existing on every map,
+   much smaller than Ærø's fault because the curated Sønderborg case sits in the
+   covered part, and invisible to the sweep for the same reason Ærø was. **Not
+   fixed, and it is on chapter 38's path**: Als voted in Zone I in 1920 and the
+   new plebiscite map inherits this outline. Decide before that map is built.
+
+79. **`tidy.py` could not see Part I.** `BUILDS` listed A-H and `build_all` and
+   stopped, so chapter 37's three figures reported as ORPHANS and `c37_body.html`
+   was absent from the bodies table - a diagnostic returning a clean result about
+   a chapter outside its field of view, which is item 67's shape. One line. It
+   would have degraded by one chapter per Part I session. Fixed.
+
+80. **Items 53 and 60 do not close the way item 73 assumed, and 73's premise was
+   wrong in kind.** The `dst.dk` route works and the six Folketing hæfter fetch;
+   *Folkethingsvalgene i Aarene 1869, 1872 og 1873* (2. rk. 12. bd. 3. h.) was
+   opened in full. It is a constituency-by-constituency, commune-by-commune table
+   of *Vælgernes Antal*, *Af 100 Vælgere stemte*, and votes per named candidate -
+   candidates given by name, town and occupation, **with no party column
+   anywhere**. Seats-against-votes by party is a reconstruction of these returns,
+   not a statistic the department published, so chapter 36's figure 2 cannot be
+   built from these hæfter however many are fetched. The OCR on the nineteenth-
+   century tables is also far below the second-appearance standard: election dates
+   render as 'Den 99de Septbr. 1869' and 'Den 14de Novbr. 1893' for 1873.
+
+   **One identifier correction.** The catalogue lists *Folkethingsvalgene i Aarene
+   1876 og 1879* at reference **3. 3. 4**, not 3. rk. 3. bd. H. II. Every printed
+   bibliography inside the later volumes says H. II and has copied it forward for
+   seventy years; hæfte 2 of that bind is *Kapitelstaksterne for Aaret 1879*. The
+   other five identifiers in item 73 are confirmed exactly.
+
+   **Item 53 is out of range, not out of reach.** Statistiske Meddelelser begins
+   in 1852 and chapter 32 covers 1814-1848, so the annual *Kapitelstaxterne for
+   Aaret N* hæfter cannot reach the period at all. The one retrospective hæfte
+   that looks back past 1852 (1. rk. 1. bd. 11) gives four overlapping twenty-year
+   means, not a series. Scharling's *Pengenes synkende Værdi* (1869) stays the
+   only named route and is not on `dst.dk`. **Reclassify item 53: not the
+   highest-value outstanding fetch, and a library errand the fetch route does not
+   retire.**
+
+   What the route does give cleanly, and it is worth having. The kapitelstakst
+   hæfter carry a prose paragraph with the national mean per commodity for the
+   year, the prior year and the preceding ten-year mean, checkable against the
+   table opposite - 1873 rye 8 Rd. 38,9 β, 1872 6 Rd. 54,4 β, 1863-72 mean
+   6 Rd. 40,8 β - so a national rye series from 1852 is buildable at one fetch per
+   year with a real second-appearance check. And the franchise share of men over
+   30 is a series in the volumes' own introductions: about 90.5 per cent in 1910
+   against 86 in 1901, 83.5 in 1892 and 78 in 1881, with the 1913 volume revising
+   1901-1910 downward by half a point and saying why. The department correcting
+   itself, caught by second appearance, belongs on the figure's face.
+
+81. **Chapter 38's figures are better sourced than PLAN_I §13 has them.** All
+   three 1920 elections are identified: Folketingsvalget 26 April 1920 = 4. rk.
+   60. bd. 3. h.; Rigsdagsvalgene juli-august 1920 = 4. rk. 61. bd. 1. h. (the
+   6 July Folketing election and the 30 July Valgmand elections, turnout 74.9 per
+   cent); Rigsdagsvalgene sept.-okt. 1920 = 4. rk. 62. bd. 1. h. That is §6's
+   figure 2 fully sourced. **And the plebiscite returns are a Danmarks Statistik
+   publication, not only the Commission's:** *Folkeafstemningen 1920* is
+   **Statistiske Efterretninger 1920, nr. 23**, and Statistiske Efterretninger
+   1909-1982 is a separately digitised series on the same site. PLAN_I §13 lists
+   figure 1's source as 'International Commission returns'. Not yet opened.

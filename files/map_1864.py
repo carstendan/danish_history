@@ -67,6 +67,11 @@ LOST_OP = M66.LOST_OP
 DENMARK = M14.DENMARK
 BORNHOLM = M14.BORNHOLM
 SLESVIG = M14.SLESVIG
+# Ærø crosses here, and this line is the whole of it. Article 5 of the Vienna
+# treaty separated the island from the duchy and joined it to the kingdom, so the
+# geometry that was AERO_SL on the six earlier maps is AERO_DK on this one and is
+# drawn with the crown, not the duchies. HANDOFF item 48.
+AERO_DK = M97.AERO
 HOLSTEN = M14.HOLSTEN
 DITMARSKEN = M14.DITMARSKEN
 
@@ -101,7 +106,7 @@ def build():
            M.graticule(f),
            M.clip_defs(f, polys)]
 
-    for poly in (DENMARK, BORNHOLM):
+    for poly in (DENMARK, BORNHOLM, AERO_DK):
         out.append(M.territory(f, poly, fill=M.CORE, opacity=CORE_OP))
     for poly in (SLESVIG, HOLSTEN, DITMARSKEN):
         out.append(M.territory(f, poly, fill=LOST, opacity=LOST_OP, edge=LOST, dash="2 3"))
@@ -129,7 +134,7 @@ def build():
     out.append(M.note(f, 8.5, 61.5, "NORGE", cls="mapt"))
     out.append(M.note(f, 24.5, 62.5, "FINLAND", cls="mapt", anchor="middle"))
 
-    for lon, lat, t, a in [(10.55, 54.95, "Slesvig", "middle"),
+    for lon, lat, t, a in [(9.20, 54.85, "Slesvig", "middle"),
                            (9.55, 53.95, "Holsten", "middle"),
                            (14.90, 54.78, "Bornholm", "middle")]:
         out.append(M.note(f, lon, lat, t, cls="mapt", anchor=a))

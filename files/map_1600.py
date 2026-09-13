@@ -42,6 +42,7 @@ NORWAY = M97.NORWAY
 BORNHOLM = M97.BORNHOLM
 GOTLAND = M97.GOTLAND          # Danish since 1449, and still Danish in 1600
 SLESVIG = M97.SLESVIG
+AERO_SL = M97.AERO_SL      # Aeroe: Slesvig's until 1864 - HANDOFF item 48
 
 # Holstein as on the 1500 map: Eider to Elbe, capped east of 10.6 so that
 # Luebeck, a free imperial city, stays outside.
@@ -90,7 +91,7 @@ def build():
 
     for poly in (DENMARK, BORNHOLM, GOTLAND, NORWAY):
         out.append(M.territory(f, poly, fill=M.CORE, opacity=CORE_OP))
-    for poly in (SLESVIG, HOLSTEN, DITMARSKEN):
+    for poly in (SLESVIG, HOLSTEN, DITMARSKEN, AERO_SL):
         out.append(M.territory(f, poly, fill=M.DEP, opacity=DEP_OP, edge=M.DEP, dash="4 3"))
     out.append(M.territory(f, OESEL, fill=M.DEP, opacity=DEP_OP, edge=M.DEP, dash="4 3"))
 
@@ -111,7 +112,7 @@ def build():
     out.append(M.note(f, 16.2, 60.6, "SVERIGE", cls="mapt"))
     out.append(M.note(f, 16.2, 60.05, "a separate kingdom", cls="mapt"))
     for lon, lat, t, a in [(24.5, 62.5, "FINLAND", "middle"),
-                           (9.95, 54.95, "Slesvig", "middle"),
+                           (9.20, 54.85, "Slesvig", "middle"),
                            (10.05, 53.80, "Holsten", "middle"),
                            (18.7, 57.5, "Gotland", "start"),
                            (14.90, 54.78, "Bornholm", "middle"),
@@ -148,6 +149,8 @@ def build():
 
 if __name__ == "__main__":
     svg = build()
+    for bad in (M.check(svg, "svg_terr_1600.txt") or []):
+        print("  !! %s" % (bad,))
     open("svg_terr_1600.txt", "w", encoding="utf-8").write(svg)
     M.rasterise(svg, "look_1600.png")
     print("wrote svg_terr_1600.txt (%d chars)" % len(svg))

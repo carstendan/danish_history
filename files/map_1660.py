@@ -81,7 +81,7 @@ BOHUS_NW = [(10.90, 59.20)]
 # provinces are gone. West and north the coast is 1397's, unchanged.
 DENMARK = [
     (7.0, 55.25), (8.6, 55.25), (9.2, 55.35), (9.75, 55.48), (10.05, 55.10),
-    (10.9, 54.60),
+    (10.56, 55.02), (10.56, 54.60), (10.9, 54.60),
 ] + SOUND + [
     (11.60, 57.75), (10.70, 57.90), (9.50, 57.80), (8.00, 57.30), (7.00, 56.30),
 ]
@@ -114,6 +114,7 @@ NO_LOST = list(NO_SE_1660) + [
 
 BORNHOLM = M97.BORNHOLM        # Danish again, May 1660, on the islanders' terms
 SLESVIG = M97.SLESVIG
+AERO_SL = M97.AERO_SL      # Aeroe: Slesvig's until 1864 - HANDOFF item 48
 
 HOLSTEN = [
     (9.35, 54.3133), (9.50, 54.32), (10.05, 54.45), (10.60, 54.42), (10.60, 53.95),
@@ -151,7 +152,7 @@ def build():
 
     for poly in (DENMARK, BORNHOLM, NORWAY):
         out.append(M.territory(f, poly, fill=M.CORE, opacity=CORE_OP))
-    for poly in (SLESVIG, HOLSTEN, DITMARSKEN):
+    for poly in (SLESVIG, HOLSTEN, DITMARSKEN, AERO_SL):
         out.append(M.territory(f, poly, fill=M.DEP, opacity=DEP_OP, edge=M.DEP, dash="4 3"))
     for poly in (SCANIA, NO_LOST, GOTLAND, OESEL):
         out.append(M.territory(f, poly, fill=LOST, opacity=LOST_OP, edge=LOST, dash="2 3"))
@@ -173,7 +174,7 @@ def build():
     out.append(M.note(f, 17.5, 60.6, "SVERIGE", cls="mapt"))
 
     for lon, lat, t, a in [(24.5, 62.5, "FINLAND", "middle"),
-                           (9.95, 54.95, "Slesvig", "middle"),
+                           (9.20, 54.85, "Slesvig", "middle"),
                            (10.05, 53.80, "Holsten", "middle"),
                            (14.00, 55.40, "Sk\u00e5ne", "middle"),
                            (12.95, 56.90, "Halland", "middle"),
@@ -206,6 +207,8 @@ def build():
 
 if __name__ == "__main__":
     svg = build()
+    for bad in (M.check(svg, "svg_terr_1660.txt") or []):
+        print("  !! %s" % (bad,))
     open("svg_terr_1660.txt", "w", encoding="utf-8").write(svg)
     M.rasterise(svg, "look_1660.png")
     print("wrote svg_terr_1660.txt (%d chars)" % len(svg))

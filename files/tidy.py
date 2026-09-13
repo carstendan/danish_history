@@ -29,7 +29,8 @@ from collections import defaultdict
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 BUILDS = ['build_parts_abc.py', 'build_part_d.py', 'build_part_e.py',
-          'build_part_f.py', 'build_part_g.py', 'build_part_h.py', 'build_all.py']
+          'build_part_f.py', 'build_part_g.py', 'build_part_h.py',
+          'build_part_i.py', 'build_all.py']
 
 
 def read(p):
