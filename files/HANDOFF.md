@@ -952,6 +952,117 @@ unclaimed land points, which is what it was built for.
    H that were honestly redrawn as something else become redrawable as planned.
 
 
+67. **`mkbody.py` silently dropped a `Meanwhile in Europe` block, and the diagnostic
+   said everything was fine.** The placement is `mw_at = {secs[2]: 0, secs[6]: 1}` —
+   a two-key dict. Chapter 37's draft carried three blocks; `meanwhile_html()` built
+   all three and the page emitted two. The count printed by `mkbody` counts
+   `class="meanwhile"` in the OUTPUT, so it reported 2, which is what a correct
+   chapter reports. Every chapter from A to H happened to carry exactly two, so this
+   has been latent since the function was written. **A build step that discards
+   authored prose without saying so is the worst class of fault in this toolchain**,
+   because the draft and the page disagree and nothing compares them. Fixed by a
+   guard that refuses the build and names both numbers. `mw_at` STILL HOLDS TWO —
+   generalising it to place N blocks is a layout decision and was not taken. Chapter
+   37 was cut to two (the Norway/Sweden block went; Washington and Petrograd/Berlin
+   stayed).
+
+   Writing that guard I reached for `num_arg`, which does not exist in `build(n)`.
+   It would have raised `NameError` at the one moment it was needed. Caught by
+   predicting the symptom before running it, which is the rule paying for itself.
+
+68. **A draft-level narrative counter exists, and its bias is not constant.**
+   `narrative.py` measures built pages, so it cannot run until the part build script
+   and the `HAND` entry exist — by which time the prose is written and the weight
+   profile is expensive to fix. For chapter 37 the profile was measured from the
+   markdown instead, using `narrative.py`'s own definition (section prose minus the
+   vignette blockquotes), calibrated against chapter 36 where the built answer is
+   known. **It is reliable for band classification and not for totals.** Calibrated
+   on 36 it ran 22 words low; on 37 it ran 51 low. Every section landed in the band
+   it predicted, and the projected page-word total was 110 out. Use it to catch an
+   L1 profile early; do not cut prose against it.
+
+69. **`grep` is not a valid post-replacement confirmation on hard-wrapped prose.**
+   The standing rule is "assert on every scripted replacement, then grep for the new
+   string." On a markdown draft wrapped at 80 columns, any inserted string longer
+   than a few words spans a line break, and a line-oriented `grep` returns 0 for a
+   replacement that landed correctly. This fired once in the chapter 37 session: the
+   assertion was true and the grep was the liar. Worse than the false alarm is the
+   false confidence in reverse — a replacement that genuinely failed would look the
+   same. **Confirmation must be whitespace-normalised** (`re.sub(r'\s+', ' ', text)`
+   on both sides) or the rule is checking nothing.
+
+70. **A cell grid must round, and must assert what the shaded cells claim.** Chapter
+   37's figure 3 draws a hundred-square grid, one square per hundred merchant
+   seamen, shading the share who died. 702 of 10,000 is 7.02 per cent, and
+   `i < rate * 100` shades EIGHT cells. The chart said 800 men where the number is
+   702. Nothing in the guard suite can see a chart that lies — `collisions()`,
+   `overruns()` and the XML parse were all satisfied. The script now rounds and
+   asserts that the shaded cells misstate the number by less than one cell. **Any
+   future proportional-cell figure needs the same assertion**, and the general rule
+   is that a figure's arithmetic needs a guard of its own because the layout guards
+   cannot reach it.
+
+71. **Undefined SVG text classes fail silently and only rasterising catches them.**
+   `mapspine` defines exactly three: `mapt`, `mapl`, `mapx`. Chapter 37's figures
+   were first written against `maph`, `mapc` and `mapn`, which do not exist. An
+   undefined class is valid SVG, so the XML parse passed, `M.check()` passed, and the
+   text rendered at the browser default of 16px sans and ran off the right edge of
+   all three figures. **The only thing that found it was looking at the PNG.** This is
+   the fourth distinct fault class in two parts that is invisible to every automated
+   check and visible immediately on rasterising, alongside items 47, 50, 61 and 70.
+   Rasterise-and-look is not a courtesy step.
+
+72. **L1 has now held for five consecutive chapters and item 59's condition is met.**
+   Chapter 37's first draft came in at 3,529 narrative words against a 4,053 budget,
+   profile 6L/3M/1H — short, and with one heavy section where the plan wanted three.
+   The cause was five missing subjects, not thin paragraphs: how the 1915
+   constitution actually passed, the Social Democrats' convergence with the Radicals,
+   the strategic geometry of the Belts, the rationing arithmetic, and the three
+   islands' separate economies. Naming them took less time than writing them.
+   **L1 should be promoted from observation to rule**: a first draft landing more
+   than ~400 short is missing a subject, and the correct response is to ask what
+   subject, never to thicken what is there.
+
+73. **§14.5 is answered: items 53 and 60 are both reachable, and the library trip is
+   retired.** The `dst.dk` route of item 66 works on both series. *Kapitelstakster*
+   and *Valg til folketing og landsting og rigsdag* are named series inside the
+   digitised 1852–1959 window. For item 60, a bibliography inside 4. rk. 35. bd.
+   names every Folketing election volume: 1869/1872/1873 → 2.R. 12.Bd. H.III;
+   1876/1879 → 3.R. 3.Bd. H.II; 1881/1884 → 3.R. 8.Bd. H.I; 1887/1890/1892 →
+   3.R. 13.Bd.; 1895/1898 → 4.R. 3.Bd. H.IV; 1901 → 4.R. 10.Bd. H.II — six hæfter
+   for the whole span. For item 53, *Det Statistiske Departements Publikationer*
+   carries a year-by-year reference list from 1850 to 1917 and beyond in
+   `række,bind,hæfte` form, and individual volumes carry ready-made 5-, 10- and
+   20-year means. Separately, Scharling's *Pengenes synkende Værdi* (1869) gives the
+   Zealand rye kapitelstakst as a continuous series 1651–1850, which is closer to
+   what chapter 32's figure wanted than the annual hæfter are.
+
+   **Identifiers located, tables not transcribed.** The OCR caveat of item 66 stands
+   in both series. **Chapter 37's figure 1 is the first casualty of the gap**: the
+   plan wanted the electorate before and after 1915 by category, the volume is
+   located and was not fetched, and the figure was redrawn as the seven categories
+   with their admission dates. It should be drawn as planned as well, not instead —
+   see the docstring in `figs_37.py`.
+
+74. **PLAN_I names all eight chapters and never names Part I.** The crumb, the footer
+   and the index all need a band title. **"The small state"** was chosen at build
+   time and is `BAND_TITLE` in `build_part_i.py`, one line, flagged in the docstring.
+   The band colour is `--moss:#4A5A46`, added to `style.css`; `debuild.py`'s drop
+   list is generic over `--name:#hex; ` tokens, so adding it did not disturb any
+   shipped page — verified 11 style-only (01–11) and 26 identical (12–37) after the
+   build. The warning in `build_part_h.py`'s docstring about the drop list can be
+   treated as discharged.
+
+75. **Chapter 37 shipped at 7,896 page words and 38 minutes against a planned 7,839
+   and 37.** The profile is 3L/4M/3H, exactly as PLAN_I §5 specified. About 190 words
+   were cut in three passes chasing the 37-minute line, which holds to 7,874 page
+   words; the last 22 were not taken, on the judgement that the prose was already
+   tighter than was good for it and the remaining gap is a boundary in
+   `round(w/210)` rather than a real difference. **Chapter 33's 41-against-40 is a
+   different case** — that was a ceiling, and PLAN_I sets no ceiling for 37. Flagged
+   here so the ledger records a decision rather than a drift.
+
+
 ## What Part G taught
 
 **Verify before writing, not after.** Nearly every section researched during Part G

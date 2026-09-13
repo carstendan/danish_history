@@ -1,0 +1,41 @@
+<svg viewBox="0 0 700 390" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The seven groups excluded from the Danish franchise by the constitution of 1849, known popularly as the seven F’s, with the year each was admitted. Women and servants in another household were admitted in 1915. Those on unrepaid poor relief were admitted in 1933. Convicts were admitted in 1959. The disqualification of bankrupts lapsed without a franchise act. Those under guardianship and those without Danish citizenship remain excluded. The constitution of 1915 admitted two of the seven.">
+  <rect x="0" y="0" width="700" height="390" fill="#F0F2EE"/>
+  <text x="26" y="34" class="mapl">THE SEVEN CATEGORIES, AND THE YEAR EACH WAS LET IN</text>
+  <text x="26" y="54" class="mapt">Excluded by the franchise of 1849. The names are a popular joke, not a legal term.</text>
+  <rect x="14" y="64" width="6" height="20" fill="#4A5A46"/>
+  <text x="26" y="76" class="mapl">Fruentimmere</text>
+  <text x="131" y="76" class="mapt">women</text>
+  <text x="674" y="76" class="mapl" text-anchor="end" fill="#4A5A46">1915</text>
+  <rect x="14" y="94" width="6" height="20" fill="#4A5A46"/>
+  <text x="26" y="106" class="mapl">Folkehold</text>
+  <text x="131" y="106" class="mapt">servants in another household</text>
+  <text x="674" y="106" class="mapl" text-anchor="end" fill="#4A5A46">1915</text>
+  <rect x="14" y="124" width="6" height="20" fill="#4A5A46"/>
+  <text x="26" y="136" class="mapl">Fattige</text>
+  <text x="131" y="136" class="mapt">those on unrepaid poor relief</text>
+  <text x="674" y="136" class="mapl" text-anchor="end" fill="#4A5A46">1933</text>
+  <rect x="14" y="154" width="6" height="20" fill="#A9B6BD"/>
+  <text x="26" y="166" class="mapl">Fallenter</text>
+  <text x="131" y="166" class="mapt">bankrupts</text>
+  <text x="674" y="166" class="mapl" text-anchor="end" fill="#A9B6BD">—</text>
+  <rect x="14" y="184" width="6" height="20" fill="#C2704F"/>
+  <text x="26" y="196" class="mapl">Fjolser</text>
+  <text x="131" y="196" class="mapt">those under guardianship</text>
+  <text x="674" y="196" class="mapl" text-anchor="end" fill="#C2704F">still out</text>
+  <rect x="14" y="214" width="6" height="20" fill="#4A5A46"/>
+  <text x="26" y="226" class="mapl">Forbrydere</text>
+  <text x="131" y="226" class="mapt">convicts</text>
+  <text x="674" y="226" class="mapl" text-anchor="end" fill="#4A5A46">1959</text>
+  <rect x="14" y="244" width="6" height="20" fill="#C2704F"/>
+  <text x="26" y="256" class="mapl">Fremmede</text>
+  <text x="131" y="256" class="mapt">those without Danish citizenship</text>
+  <text x="674" y="256" class="mapl" text-anchor="end" fill="#C2704F">still out</text>
+  <line x1="14" y1="58" x2="674" y2="58" stroke="#C9CDC4" stroke-width="1"/>
+  <line x1="14" y1="268" x2="674" y2="268" stroke="#C9CDC4" stroke-width="1"/>
+  <text x="26" y="292" class="mapt">The constitution of 5 June 1915 admitted 2 of the seven. It is routinely described</text>
+  <text x="26" y="307" class="mapt">as the introduction of universal suffrage in Denmark.</text>
+  <text x="26" y="326" class="mapx">Dates from the franchise acts. The bankrupts' disqualification lapsed with the insolvency</text>
+  <text x="26" y="339" class="mapx">law rather than by a franchise act and carries no single year, so none is given. Electorate</text>
+  <text x="26" y="352" class="mapx">counts by category need Valgene til Rigsdagen, Stat. Medd. — located, not fetched: see the</text>
+  <text x="26" y="365" class="mapx">docstring.</text>
+  </svg>

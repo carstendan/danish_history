@@ -1,0 +1,22 @@
+<svg viewBox="0 0 700 349" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The Danish referendum of 14 December 1916 on selling the Danish West Indies to the United States. About 283,000 voted to sell and about 158,000 voted not to, on a turnout of 37.4 per cent, which leaves roughly 738,000 electors who did not vote. Beside them, the 27,086 inhabitants of the three islands recorded at the census of 1911, none of whom had a vote. The abstainers outnumber the islanders about twenty-seven to one.">
+  <rect x="0" y="0" width="700" height="349" fill="#F0F2EE"/>
+  <text x="26" y="34" class="mapl">14 DECEMBER 1916, AND THE PEOPLE IT WAS ABOUT</text>
+  <text x="26" y="54" class="mapt">Denmark’s first referendum. The first national vote on the rolls of 1915.</text>
+  <text x="26" y="91" class="mapl">Voted to sell</text>
+  <rect x="279" y="78" width="123.1" height="18" fill="#4A5A46"/>
+  <text x="410.1" y="91" class="mapt" fill="#3C3E36">283 000</text>
+  <text x="26" y="137" class="mapl">Voted not to sell</text>
+  <rect x="279" y="124" width="68.7" height="18" fill="#A98C5F"/>
+  <text x="355.7" y="137" class="mapt" fill="#3C3E36">158 000</text>
+  <text x="26" y="183" class="mapl">Did not vote</text>
+  <rect x="279" y="170" width="321.0" height="18" fill="#A9B6BD"/>
+  <text x="608.0" y="183" class="mapt" fill="#3C3E36">738 144</text>
+  <text x="26" y="229" class="mapl">Had no vote: the people being sold</text>
+  <rect x="279" y="216" width="11.8" height="18" fill="#C2704F"/>
+  <text x="298.8" y="229" class="mapt" fill="#3C3E36">27 086</text>
+  <text x="26" y="264" class="mapt">The abstainers outnumber the islanders about 27 to one. Neither group was asked, but</text>
+  <text x="26" y="279" class="mapt">only one of them was entitled to be.</text>
+  <text x="26" y="298" class="mapx">Votes and turnout: Danmarks Statistik — 37.4 per cent, 64.2 to 35.8. Vote totals as</text>
+  <text x="26" y="311" class="mapx">published, rounded to the nearest thousand; the electorate and the abstainers are computed</text>
+  <text x="26" y="324" class="mapx">from them and are therefore approximate. Islands’ population: census of 1911.</text>
+  </svg>
