@@ -38,7 +38,18 @@ DENMARK = [
 # cannot see a fault shaped like that at any affordable grid; seamcheck.py can.
 SLESVIG = [
     (8.10, 55.25), (8.60, 55.25), (9.20, 55.35), (9.75, 55.48),
-    (9.98, 55.05), (10.00, 54.88),
+    # Als, HANDOFF item 78. The old edge ran (9.98,55.05)-(10.00,54.88) and left
+    # the island's eastern lobe outside the duchy: 5 of 9 ring vertices in, the
+    # rest in nothing at all. Fynshav and the east coast were unclaimed land on
+    # every map in the series. Als is not Aeroe and gets no ring of its own -
+    # Alssund is 200 m wide and the island reads as contiguous with the duchy,
+    # so the edge moves instead of a polygon being added. 10.14 clears Als's
+    # easternmost point at 10.060 and stays west of DENMARK, which begins at
+    # 10.37 at lat 55.05 and at 10.56 further south. The vertex at (9.98,55.10)
+    # is what keeps the run down from (9.75,55.48) west of DENMARK's lobe, which
+    # reaches 10.05 at lat 55.10. Verified by dense sweep at 0.01 degrees over
+    # the whole box: zero overlap samples against DENMARK or AERO.
+    (9.98, 55.10), (10.14, 55.05), (10.14, 54.86),
     (10.15, 54.55), (10.05, 54.45), (9.50, 54.32), (8.60, 54.28), (8.10, 54.55),
 ]
 

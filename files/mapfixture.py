@@ -174,6 +174,8 @@ def in_boxes(boxes, lon, lat):
 # (place, lon, lat, region key or None for "in none of them")
 CURATED = {
  1397: [
+    # Fynshav is on the lobe of Als that was outside the duchy until item 78.
+    ("Fynshav, Als", 9.99, 54.99, "SLESVIG"),
     # Ærø, HANDOFF item 48: three towns spread along a 30 km island, so that a
     # polygon covering only part of it fails. Ærø is Slesvig's, and Slesvig is a Danish fief held by the counts of Holstein.
     ("Søby, Ærø", 10.26, 54.94, "AERO_SL"),
@@ -209,6 +211,8 @@ CURATED = {
     ("Visby", 18.29, 57.64, "GOTLAND"),
  ],
  1500: [
+    # Fynshav is on the lobe of Als that was outside the duchy until item 78.
+    ("Fynshav, Als", 9.99, 54.99, "SLESVIG"),
     # Ærø, HANDOFF item 48: three towns spread along a 30 km island, so that a
     # polygon covering only part of it fails. Still Slesvig's; the king now holds the duchy himself.
     ("Søby, Ærø", 10.26, 54.94, "AERO_SL"),
@@ -238,6 +242,8 @@ CURATED = {
     ("Fårö", 19.05, 57.90, "GOTLAND"),
  ],
  1864: [
+    # Fynshav is on the lobe of Als that was outside the duchy until item 78.
+    ("Fynshav, Als", 9.99, 54.99, "SLESVIG"),
     # The Konge\u00e5 is a state frontier from 30 October 1864. These six are the
     # cases that matter on this map: three towns a few kilometres north of the new
     # border and three a few kilometres south of it. The polygons are inherited
@@ -288,6 +294,8 @@ CURATED = {
     ("Marstal, Ærø", 10.51, 54.86, "AERO_DK"),
     ("Malm\u00f6", 13.00, 55.60, None), ("G\u00f6teborg", 11.97, 57.71, None)],
  1814: [
+    # Fynshav is on the lobe of Als that was outside the duchy until item 78.
+    ("Fynshav, Als", 9.99, 54.99, "SLESVIG"),
     # Ærø, HANDOFF item 48: three towns spread along a 30 km island, so that a
     # polygon covering only part of it fails. Still Slesvig's. Kiel moves Norway, not Ærø.
     ("Søby, Ærø", 10.26, 54.94, "AERO_SL"),
@@ -329,6 +337,8 @@ CURATED = {
     ("Helsingborg", 12.694, 56.046, None), ("Halmstad", 12.86, 56.67, None),
     ("Visby", 18.29, 57.64, None), ("Kalmar", 16.36, 56.66, None)],
  1721: [
+    # Fynshav is on the lobe of Als that was outside the duchy until item 78.
+    ("Fynshav, Als", 9.99, 54.99, "SLESVIG"),
     # Ærø, HANDOFF item 48: three towns spread along a 30 km island, so that a
     # polygon covering only part of it fails. Still Slesvig's. The lines that split the island in 1622 are ducal lines.
     ("Søby, Ærø", 10.26, 54.94, "AERO_SL"),
@@ -356,6 +366,8 @@ CURATED = {
     ("\u00d6stersund", 14.64, 63.18, None), ("Visby", 18.29, 57.64, None),
     ("Stockholm", 18.07, 59.33, None), ("Kalmar", 16.36, 56.66, None)],
  1660: [
+    # Fynshav is on the lobe of Als that was outside the duchy until item 78.
+    ("Fynshav, Als", 9.99, 54.99, "SLESVIG"),
     # Ærø, HANDOFF item 48: three towns spread along a 30 km island, so that a
     # polygon covering only part of it fails. Still Slesvig's, and from 1658 the ducal share is held sovereign.
     ("Søby, Ærø", 10.26, 54.94, "AERO_SL"),
@@ -404,6 +416,8 @@ CURATED = {
     ("Jokkmokk", 19.83, 66.61, None), ("Mora", 14.54, 61.00, None),
     ("V\u00e4nersborg", 12.32, 58.38, None)],
  1600: [
+    # Fynshav is on the lobe of Als that was outside the duchy until item 78.
+    ("Fynshav, Als", 9.99, 54.99, "SLESVIG"),
     # Ærø, HANDOFF item 48: three towns spread along a 30 km island, so that a
     # polygon covering only part of it fails. Still Slesvig's, through the ducal partitions.
     ("Søby, Ærø", 10.26, 54.94, "AERO_SL"),

@@ -1987,7 +1987,22 @@ split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see it
    that calls it. Now wired into all seven, same pattern as 1864's. All seven are
    clean, and the maps still print nothing but their `wrote` lines.
 
-78. **Als is 5 of 9 ring vertices inside `SLESVIG`, and this is Ærø's family.**
+78. **CLOSED, same session. Als is 9 of 9 now.** The eastern lobe - Fynshav,
+   Mommark, the whole east coast - was outside the duchy on every map in the
+   series and inside nothing at all. Als gets no ring of its own: Alssund is
+   200 m wide and the island reads as contiguous, so `SLESVIG`'s eastern edge
+   moved instead, from (9.98,55.05)-(10.00,54.88) to (9.98,55.10)-(10.14,55.05)-
+   (10.14,54.86). 10.14 clears Als's easternmost point at 10.060 and stays west
+   of `DENMARK`, which begins at 10.37 at lat 55.05 and 10.56 further south; the
+   (9.98,55.10) vertex is what holds the run down from (9.75,55.48) clear of
+   `DENMARK`'s lobe, which reaches 10.05 at that latitude. Verified by a dense
+   0.01-degree sweep of the whole box: zero overlap samples. A `Fynshav, Als`
+   curated case added to all seven maps, on the lobe that used to be outside -
+   the existing Sønderborg case sat in the covered half and could not have
+   caught this, which is the same shape as Ærø's case sitting in the covered
+   half of a half-covered island. Original entry follows.
+
+   ~~**Als is 5 of 9 ring vertices inside `SLESVIG`, and this is Ærø's family.**~~
    Measured in passing while verifying the Ærø fix. Pre-existing on every map,
    much smaller than Ærø's fault because the curated Sønderborg case sits in the
    covered part, and invisible to the sweep for the same reason Ærø was. **Not
@@ -2048,3 +2063,26 @@ split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see it
    **Statistiske Efterretninger 1920, nr. 23**, and Statistiske Efterretninger
    1909-1982 is a separately digitised series on the same site. PLAN_I §13 lists
    figure 1's source as 'International Commission returns'. Not yet opened.
+
+
+82. **The 1920 map cannot be drawn parish by parish, and PLAN_I §13 says it
+   should be.** The repo's only geography is Natural Earth at 1:50m, which has
+   coastlines and nothing else - no parish, commune or amt boundaries at any
+   resolution. A parish-level plebiscite map would require boundary polygons that
+   do not exist here, and drawing them by eye from a printed historical map is
+   exactly the invented measurement the standing rule forbids.
+
+   **Recommendation, and it needs Carsten.** Draw the zones as bands rather than
+   as parishes: the 1864 border at the Kongea, the Zone I/II line north of
+   Flensburg, Zone II's southern limit north of Slesvig town, and the 1920 border
+   itself running through Zone I - four lines, two bands, and the aggregate result
+   on each. Then carry a small number of individually sourced commune results as
+   dots, which needs no boundary data at all: Tønder and Højer voting German
+   inside Zone I, Flensburg voting German inside Zone II, and two or three
+   Danish-voting communes to set against them. That draws the chapter's actual
+   argument - the en bloc rule against the commune rule - which a parish choropleth
+   would bury under colour. The figure's docstring must say that parish polygons
+   were not drawn and why.
+
+   Als, item 78, was fixed before this map was started rather than after, which is
+   the position item 48 was in and the reason it cost seven chapters to repair.
