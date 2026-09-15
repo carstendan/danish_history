@@ -172,7 +172,7 @@ E = [
  "Three years, three answers to one question: Slesvig votes itself home, Iceland leaves by treaty, and the king learns he cannot dismiss a government.",
  ["the 1920 plebiscites","Zone 1 & Zone 2","Genforeningen","Iceland's Act of Union 1918","Påskekrisen 1920"]),
 (39,8,"Deflation, the Landmandsbank crash and the first Social Democratic government","1920 – 1929",1924,
- "The wartime boom collapses, Scandinavia's largest bank goes down with it, and in 1924 the party that struck against the king four years earlier takes office.",
+ "The wartime boom collapses, Scandinavia's largest bank goes down with it, and in 1924 the party whose movement threatened the king with a general strike four years earlier takes office.",
  ["deflationskrisen","Landmandsbanken 1922","Stauning's first government 1924","Nina Bang","Madsen-Mygdal and the return to gold"]),
 (40,8,"Depression, Stauning and the seeds of the welfare state","1929 – 1939",1934,
  "One long night's bargaining in Kanslergade produces the crisis deal and the social reform that later gets called the welfare state's foundation stone.",

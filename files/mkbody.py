@@ -713,6 +713,50 @@ HAND = {
           "general elections held for three different constitutional reasons. Party "
           "totals are deliberately absent; see the note in figs_38.py.")],
  ),
+ 39: dict(
+   file='c39_body.html',
+   part='Part I', band='The small state', num=39, dates='1920 \u2013 1929',
+   title='Deflation, the Landmandsbank crash and the first Social Democratic government',
+   people='Emil Glückstadt \u00b7 Holmer Green \u00b7 Thorvald Stauning \u00b7 Nina Bang \u00b7 '
+          'K.K. Steincke \u00b7 Peter Munch',
+   hook="The war boom ended in 1920, and for the next thirty-three years unemployment "
+        "never fell below eight per cent. Two years later the largest bank in Scandinavia "
+        "was rescued twice, after two ministers had kept their own inspector's figure "
+        "quiet. In 1924 "
+        "the party that had entered the Folketing with two seats formed a government on a "
+        "majority of one, and fell over the price of making the krone worth what it had "
+        "been before the war.",
+   keys=['lavkonjunkturen 1920', 'Udligningskassen for Sønderjylland', 'postskillemønt',
+         'Landmandsbanken 1922', 'Bankkommissionen af 1922', 'statsgarantien 1923',
+         'hærordningen 1922', 'Stauning I 1924', 'Nina Bang', 'Fremtidens Forsørgelsesvæsen',
+         'steriliseringsloven 1929', 'guldindløseligheden 1927'],
+   qs=["Sønderjylland joined the kingdom without its marks being exchanged. Why did that "
+       "make the German inflation the new province's problem?",
+       "Two ministers stood behind a bank's own figure against their inspector's. What did "
+       "they fear, and what did it cost?",
+       "Denmark's army was cut to a border guard with the Rigsdag's broad agreement. Was that "
+       "realism or a failure of nerve?",
+       "The first Social Democratic government rested on a majority of one. What could it do "
+       "with that, and what could it not?",
+       "Everyone agreed the krone should go back to its old gold value. Who paid for "
+       "agreeing?"],
+   figs=[("s02", "SVG_KAPSLER",
+          "Figure 1 \u00b7 Small change in a capsule, 1921\u201322",
+          "Postage stamps sealed in iron and celluloid and used as coins in the new province: "
+          "how many of each value went out, how many came back, and where the four market "
+          "towns stood. About a quarter were never handed back. One source, whose counts and "
+          "totals agree to the øre."),
+         ("s03", "SVG_KRAK",
+          "Figure 2 \u00b7 Two rescues and a guarantee, 1922\u201323",
+          "Landmandsbanken from the inspector's secret review to the final settlement. Every "
+          "date is confirmed twice. The loss estimates and the split of the new capital are "
+          "left in the text, because each rests on a single account."),
+         ("s06", "SVG_TING",
+          "Figure 3 \u00b7 The Folketing of 11 April 1924",
+          "One square a seat. Social Democrats and Radicals together fill the first three "
+          "rows, seventy-five of 149, which is a majority of one. Forty years earlier the "
+          "Social Democrats had two.")],
+ ),
 }
 
 

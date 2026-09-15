@@ -54,13 +54,11 @@ each borrowed three million kroner from the state to lend on.
 
 The province was fitted into the kingdom by statute. A law of 28 June 1920
 brought in Danish local government, with 110 new parish councils beside the four
-market towns and five smaller boroughs. For the elections of September 1920 the
-new land became seven districts forming a single county constituency. It took to
-Danish politics slowly: at the election of 1924 turnout in the four southern
-Jutland counties was 70.9 per cent, against 79.2 in the rest of Jutland, and in
-the Løgumkloster district it was 64.5. Danish banks came in as well.
-Landmandsbanken opened branches in all four towns, and by 1923 had to close the
-ones in Haderslev and Aabenraa.
+market towns and five smaller boroughs. It took to Danish politics slowly: at
+the election of 1924 turnout in the four southern Jutland counties was 70.9 per
+cent, against 79.2 in the rest of Jutland, and in the Løgumkloster district it
+was 64.5. Danish banks came in as well. Landmandsbanken opened branches in all
+four towns, and by 1923 had to close the ones in Haderslev and Aabenraa.
 
 Then there was the change in the till. Danish silver was draining out of the
 whole country, some of it smuggled to Sweden where it still passed at face
@@ -91,7 +89,7 @@ called in, by the parish's own later account, one was presented.
 >
 > unnamed · the post office, Haderslev · April 1921 · [n]
 
-The coins were the smallest part of it. Many people in the north took out loans
+The small change was the least of it. Many people in the north took out loans
 in the years just after 1920, when the krone was cheap. §09 shows what happened
 when Danish governments decided to make it dear again: for many of those
 borrowers the burden doubled.
@@ -258,14 +256,16 @@ Democrats, 44 Venstre, 28 Conservatives, 20 Radicals and one member for the
 Slesvig Party, 148 in all, with a Venstre member returned unopposed for the
 Faroes to make 149. Turnout was 78.6 per cent.
 
-The machinery that turned those votes into seats was new. The electoral law of
-11 April 1920 divided the country into three areas, Copenhagen, the islands and
-Jutland, and those into 23 county and city constituencies, and those again into
-117 nomination districts, each roughly the size of an old single-member seat.
-After the district results, 31 supplementary seats were shared out so that each
-party's total came closer to its share of the national vote. A law of 30 August 1920 had fitted Sønderjylland in, with two extra supplementary seats for
-Jutland and three more seats in the Landsting. A party that had once needed to win districts
-outright now needed votes wherever they were.
+The machinery that turned those votes into seats was new, made by the electoral
+law of 11 April 1920. By 1924 it divided the country into three areas,
+Copenhagen, the islands and Jutland, those into 23 county and city
+constituencies, and those again into 117 nomination districts, each roughly the
+size of an old single-member seat. After the district results, 31 supplementary
+seats were shared out so that each party's total came closer to its share of the
+national vote. Seven of the districts were Sønderjylland's, added by a law of 30
+August 1920 as a constituency of their own, with two extra supplementary seats
+for Jutland and three more seats in the Landsting. A party that had once needed
+to win districts outright now needed votes wherever they were.
 
 The chamber it produced was a portrait of the country's working politics. Of the
 148 members elected on the mainland, 37, exactly a quarter, were farmers or
@@ -313,8 +313,9 @@ member of the Landsting, to which she had been elected in 1918, the first time
 women could both vote and stand.
 
 She had been in politics a long time by then. She sat on the Copenhagen city
-council from 1913 to 1917. The Folketing elected in April 1924 had three women among its members,
-all of whom had sat before; sixteen of the 498 candidates had been women.
+council from 1913 to 1917. The Folketing elected in April 1924 had three women
+among its members, all of whom had sat before; sixteen of the 498 candidates had
+been women.
 
 She was one of nine children of German immigrants. Her father was an army horn
 player who became a military bandmaster, the family moved to Helsingør, and her

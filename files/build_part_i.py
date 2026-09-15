@@ -149,6 +149,45 @@ CFG = {
         "Denmark held three general elections in 1920. Give the reason for each, and "
         "note that no two are the same."]),
     ]),
+ 39: dict(
+    name='39-deflation-the-landmandsbank-crash-and-the-first-social-democratic-government.html',
+    body='c39_body.html',
+    svgs={'SVG_KAPSLER': 'svg_kapsler_1921.txt',
+          'SVG_KRAK': 'svg_krak_1922.txt',
+          'SVG_TING': 'svg_ting_1924.txt'},
+    sec=[("s01", "01", 'The boom ends'),
+         ("s02", "02", 'Marks and kroner: Sønderjylland pays for coming home'),
+         ("s03", "03", 'Landmandsbanken, 1922'),
+         ("s04", "04", 'Who paid for the rescue'),
+         ("s05", "05", "The defence settlement of 1922, and Munch's argument"),
+         ("s06", "06", '1924: the party in office'),
+         ("s07", "07", 'Nina Bang'),
+         ("s08", "08", "Steincke's plan, and the other half of it"),
+         ("s09", "09", 'Madsen-Mygdal, and the return to gold'),
+         ("s10", "10", 'What the twenties settled, and what they did not')],
+    checks=[
+      ("Who paid for the rescue", [
+        "In 1954 the Statistical Department said that year's unemployment was the lowest "
+        "since 1920. What does that tell you about every year in between?",
+        "Were Sønderjylland's marks exchanged for kroner in 1920? If not, what happened to "
+        "savings and debts written in marks?",
+        "What happened on the weekend of 8 and 9 July 1922, and what was missing from the "
+        "statement that followed?"]),
+      ("Nina Bang", [
+        "Who paid for the reconstruction of September 1922, and what did the state add in "
+        "February 1923?",
+        "What did the army law of 1922 do to the army the war had built, and what was Peter "
+        "Munch's argument for it?",
+        "How many seats did the Social Democrats and the Radicals hold together after "
+        "11 April 1924, and why did that matter?"]),
+      ("What the twenties settled", [
+        "What was Nina Bang the first to be, and what is she wrongly said to be the first "
+        "to be?",
+        "Steincke's report of 1920 had two halves. Name both, and the law of 1929 that came "
+        "from the second.",
+        "What did the law of 27 December 1926 do, and why did it bear hardest on "
+        "Sønderjylland?"]),
+    ]),
 }
 
 def block(qs):
