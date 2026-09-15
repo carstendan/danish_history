@@ -19,6 +19,8 @@ import os
 import re
 import sys
 
+import draftnotes
+
 # The draft to read. Overridable, because this script was written against Part G
 # and Part H's chapters live in their own files: DK_DRAFT=c32_draft.md.
 DRAFT = os.environ.get("DK_DRAFT", "PART_G_DRAFT.md")
@@ -982,15 +984,18 @@ def build(n):
     # an unresolved question, and silently deleting it loses the question. Resolve
     # it, or move it to the Sources block where the apparatus already carries an
     # "unresolved" list, and then build.
-    flags = re.findall(r'\*Flag:\s*(.{0,70})', (body_md or "") + (app or ""), re.S)
+    #
+    # The pattern lives in draftnotes.py and is shared with the page scan. The
+    # first version here matched the literal "*Flag:", case-sensitively, and
+    # "*Drafting flag:" - chapter 32's wording, four times - passed it (item 102).
+    flags = draftnotes.find((body_md or "") + "\n" + (app or ""))
     if flags:
         raise SystemExit(
-            "!! chapter %s: %d drafting flag(s) still in the draft. They are not copy "
-            "and must not ship. Resolve each, or move it to the Sources block, then "
-            "rebuild.\n%s"
+            "!! chapter %s: %d drafting note(s) still in the draft. They are not copy "
+            "and must not ship. Resolve each, or move it to the Sources block as a "
+            "question addressed to the reader, then rebuild.\n%s"
             % (n, len(flags),
-               "\n".join("   - Flag: %s..." % f.replace("\n", " ").strip()[:68]
-                         for f in flags)))
+               "\n".join("   - %s%s..." % (m, ctx[:60]) for m, ctx in flags)))
     secs = sections(body_md)
     tb = terms_by_section(app)
     figs = {}
