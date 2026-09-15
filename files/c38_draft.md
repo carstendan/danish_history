@@ -337,8 +337,8 @@ habit.
 
 The answer took a week and it did not come from the Rigsdag.
 
-De samvirkende Fagforbund — the trade union federation — called a general strike
-for 30 March, to begin on Tuesday 6 April. The Social Democrats put a motion for
+De samvirkende Fagforbund — the trade union federation — on 30 March called a
+general strike, to begin on Tuesday 6 April. The Social Democrats put a motion for
 a republic on the table. Crowds came out in Copenhagen. The Syndicalists, who had
 been on the streets all winter over unemployment, were already organised and were
 not asking anybody's permission. Amalienborg was guarded. What the king was now
@@ -389,8 +389,8 @@ who discovered on a Wednesday what he was actually allowed to do.
 >
 > unnamed, Copenhagen · Amalienborg Slotsplads · Easter 1920 · [n]
 
-The strike was called and never struck. It was called off on 31 March, before it
-began, because it had already worked.
+The strike was called and never struck. It was called off after the settlement of
+Easter Sunday, before it began, because it had already worked.
 
 That it worked at all was six months old. In the summer of 1919 the eight-hour day
 had arrived in Denmark, not by statute but by agreement across the labour market,
@@ -639,21 +639,21 @@ was a convention, and decided to enforce it anyway.
 
 ## Carry-forward
 
-**→ Chapter 39.** The two minorities created in 1920 — German in Nordslesvig,
+**→ 40.** The two minorities created in 1920 — German in Nordslesvig,
 Danish in Flensburg — spend the 1930s being used by people who did not make them.
 
-**→ Chapter 40.** On 9 April 1940 the border drawn by asking is crossed by an army
+**→ 41.** On 9 April 1940 the border drawn by asking is crossed by an army
 that did not ask, and both minorities have to decide what they are for.
 
-**→ Chapter 41.** Iceland's clock runs out. Denmark is occupied in 1940 and cannot
+**→ 43.** Iceland's clock runs out. Denmark is occupied in 1940 and cannot
 conduct the foreign policy it retained; Iceland takes it back, and in 1944 uses
 the termination procedure the act of 1918 wrote down.
 
-**→ Chapter 44.** The rule the strike notice established in 1920 is put into the
+**→ 44.** The rule the strike notice established in 1920 is put into the
 constitution in 1953, along with the abolition of the Landsting this chapter's
 predecessor could not get.
 
-**→ Chapter 44.** The white horse becomes the picture of the whole century, and
+**→ 44.** The white horse becomes the picture of the whole century, and
 what the century actually did to the people on both sides of the line is the other
 picture.
 

@@ -261,7 +261,7 @@ YEAR = [
     ("14 Mar", "Zone 2 votes, commune by commune, and about four-fifths German.", "vote"),
     ("29 Mar", "Christian 10. dismisses the Zahle ministry, which has a majority.", "crown"),
     ("30 Mar", "The trade union federation calls a general strike for 6 April.", "crown"),
-    ("31 Mar", "The king gives way. Liebe out, Friis in, to pass a law and call a vote.", "crown"),
+    ("4 Apr",  "Easter Sunday. The king gives way: Liebe out, Friis in, to hold a vote.", "crown"),
     ("11 Apr", "A new electoral law.", "elec"),
     ("26 Apr", "ELECTION ONE — because the crown tried to use a power it had.", "elec"),
     ("15 Jun", "The border comes into force. About 164,000 people change state.", "vote"),
