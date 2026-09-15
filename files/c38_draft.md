@@ -88,8 +88,19 @@ that Denmark would accept only what the population of the disputed area voted
 for, and would ask for nothing on historical or strategic grounds. On 23 October
 1918, in the Reichstag, H. P. Hanssen — the Nordslesvig deputy, and the man who
 had spent twenty years telling the Danish minority to be patient — announced that
-Nordslesvig's future must be settled by the people who lived there. A week later
-a meeting at Aabenraa turned it into a resolution.
+Nordslesvig's future must be settled by the people who lived there. On 16 and 17
+November the Vælgerforening for Nordslesvig met at Folkehjem in Aabenraa and
+turned it into a resolution — and the resolution named a line. It asked that
+Nordslesvig be defined as the country north of the Clausen line, which ran south
+of Tønder and Tinglev and north of Flensburg, and that anywhere further south be
+allowed to vote if its own people demanded it. Both halves were granted.
+
+The Clausen line is worth a moment. It is named after H. V. Clausen, a Copenhagen
+schoolmaster and amateur topographer who had walked Slesvig parish by parish in
+the 1890s recording where Danish was spoken at home, and had drawn a line on that
+evidence long before anybody could act on it. The border Denmark holds today is
+within a few kilometres of a line a private scholar drew on foot, thirty years
+early, for no official body at all.
 
 Articles 109 to 114 of the Treaty of Versailles wrote it into the peace. Slesvig
 would be divided into voting zones. An International Commission would take over
@@ -103,13 +114,10 @@ had spent fifty-five years being told by its own poets that it would get it back
 looked at a map on which it could plausibly have claimed as far south as the old
 earthworks, and asked for less.
 
-The reason was not modesty. It was a reading of what had destroyed the composite
-state in the first place. Denmark had spent four centuries holding populations
-that did not want to be held, and the holding had cost it Norway, the duchies and
-a third of its territory. A border drawn where the people wanted it would be a
-border that did not have to be defended. A border drawn at the Danevirke would be
-1864 again with the roles reversed, and would last exactly as long as German
-weakness lasted.
+The reason was not modesty. Denmark had spent four centuries holding populations
+that did not want to be held, and it had cost Norway, the duchies and a third of
+the territory. A border at the Danevirke would be 1864 with the roles reversed,
+and would last exactly as long as German weakness lasted.
 
 *Flag: check whether the request to drop Zone III was formally lodged by the
 Danish government or carried by the Danish delegation's negotiating position.
@@ -134,7 +142,7 @@ towns inside it — Tønder, Højer, Aabenraa's German quarter. Voting en bloc, 
 towns would be carried into Denmark by the countryside. Zone II contained a
 German majority overall and Danish minorities inside it, thickest in Flensburg
 itself. Voting parish by parish, those minorities would be left where they were,
-because nowhere in Zone II did they hold a parish. The asymmetry was not an
+because almost nowhere in Zone II did they hold a district. The asymmetry was not an
 oversight. It was the mechanism by which the border would end up close to the
 line the Danish government had already said it wanted, and it worked.
 
@@ -170,15 +178,13 @@ reading the charter.
 
 ---
 
-## 10 February 1920
-
-Zone I voted on a Tuesday, in weather that was remembered as filthy, with the
-International Commission's officials in the polling stations and German
-administration already withdrawn.
+## The commission, January to June 1920
 
 None of this was run by Denmark. Under article 109 an international commission —
 the Commission Internationale de Surveillance — had taken over the government of
-both zones in January and held it until the border came into force in June.
+both zones on 10 January and held it until the border came into force in June.
+It based itself in Flensburg, and three thousand British and French soldiers came
+with it.
 German officials withdrew and the commission appointed its own; French and
 British troops garrisoned Flensburg, Aabenraa, Sønderborg and Tønder. Its members
 were a British chairman, a Frenchman, a Norwegian and a Swede, and the French
@@ -188,27 +194,53 @@ seat was held by Paul Claudel, who is better known for the plays.
 this goes in as copy. Accounts give January dates a fortnight apart, and the
 Claudel detail is good enough to be worth being sure of.*
 
-So for five months the territory both countries were claiming was administered by
-neither of them, by a body with foreign soldiers in the towns and no stake in the
-outcome. That is the only time in this book it happens, and it is the reason the
-result was accepted. Neither side could say afterwards that the other had counted
-the votes.
+For five months the ground both countries were claiming was administered by
+neither, by a body with foreign soldiers in the towns and no stake in the answer.
+That is the only time in this book it happens, and it is why the loser accepted
+the result: neither side could say afterwards that the other had counted.
 
 It was the commission that drew up the rolls, and the rolls are the strangest
 part of the procedure. The franchise was defined by birth rather than residence.
 
-The result was 75,431 for Denmark against 25,329 for Germany. Just under
-seventy-five per cent. Turnout was over ninety per cent, which is higher than any Danish general
-election of the period. Special trains ran north out of Germany carrying
+---
+
+## 10 February 1920
+
+Zone I voted on a Tuesday, in weather that was remembered as filthy, with the
+International Commission's officials in the polling stations and German
+administration already withdrawn.
+
+The result was 75,431 for Denmark against 25,329 for Germany, out of 101,652
+ballots cast and a turnout of 91.5 per cent — higher than any Danish general
+election of the period.
+
+You will see that given as 74.9 per cent and as 74.2, and both are right: 74.9 is
+the share of the valid votes, 74.2 the share of every ballot put in a box. The
+gap is eight hundred and ninety-two spoiled papers. Special trains ran north out of Germany carrying
 Germans born in Nordslesvig who had spent their working lives in Hamburg or the
-Ruhr. Special ships and trains carried Danes the other way. The outvoters were
-counted in the tens of thousands and both sides organised them ruthlessly.
+Ruhr. Special ships and trains carried Danes the other way. The outvoters were counted
+in the tens of thousands, and both sides organised them ruthlessly through
+registration forms and approved lists carried by two postal services across a
+border they were arguing about.
+
+What they were worth can be measured in one town. Of the votes cast at Sønderborg,
+349 Danish and 919 German were cast by people who had travelled in to vote. Take
+them out and the town divides 1,672 Danish to 1,682 German — ten votes apart, in
+a place the published figure records as German by nearly six hundred. The
+outvoters did not decide the zone. In the towns, which are the only places the
+zone was close, they decided which way the town is remembered.
 
 Inside the total, the map is not the map the total implies, and this is the part
-worth drawing. Tønder town voted German and voted German heavily. So did Højer.
-So did Tinglev. A band of communes along the southern edge of the zone and a
-scatter of market towns inside it returned German majorities, some of them
-overwhelming. Under the Zone II rules every one of them would have gone to
+worth drawing. Tønder town returned 761 Danish votes against 2,504 German. Højer
+returned 219 against 581. Aabenraa went German by 2,725 to 2,224 and Sønderborg
+by 2,601 to 2,029, both of them narrowly. Taken together the market towns had a German
+majority, a bare one near 51 per cent, while the countryside voted Danish by
+better than five to one. The rest of the German majorities were small districts
+west and south of Tønder — Sæd, Ubjerg, Frederikskog — and a handful around
+Aabenraa and Gråsten.
+
+*Flag: the rural Danish share is 83.5 per cent in Trap and 83.8 in the Sønderborg
+archive. Take whichever the published returns support and say which.* Under the Zone II rules every one of them would have gone to
 Germany, and the border would have run in ragged islands through Nordslesvig.
 
 Under the Zone I rules none of it mattered. The zone was one constituency and the
@@ -231,8 +263,11 @@ the difference is most of what happens to the minority question afterwards.
 
 ## 14 March 1920
 
-Zone II voted five weeks later, and it went as everyone had known it would. The
-zone returned roughly eighty per cent for Germany. Flensburg itself returned
+Zone II voted five weeks later, and it went as everyone had known it would. Some
+sixty-four thousand people voted and the zone returned roughly eighty per cent
+for Germany. There was a German majority in every voting district in the zone but
+three — three small polling places on Før, out in the Wadden Sea, which returned
+Danish majorities and stayed in Germany with everything else. Flensburg itself returned
 about seventy-five per cent German and twenty-five per cent Danish — somewhere
 near twenty-seven thousand votes against somewhere near nine thousand.
 
@@ -241,10 +276,9 @@ returns and confirm each digit by a second appearance. The Danish and German
 secondary literature round them differently.*
 
 Twenty-five per cent is not a small number. It is one person in four in the
-largest town in Slesvig, and it is very close to the German share in Zone I that
-Denmark had just absorbed. Each side ended the two votes holding roughly a
-quarter of the other's people. The symmetry is almost exact and it was noticed at
-the time by nobody who was pleased about it.
+largest town in Slesvig, and it is close to the German share of Zone I that
+Denmark had just absorbed. Each side ended the two votes holding roughly a quarter
+of the other's people.
 
 The Danish quarter of Flensburg had voted knowing it would lose. That is the fact
 to sit with. The count was not in doubt for a month beforehand; the parish rule

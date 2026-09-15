@@ -2086,3 +2086,45 @@ split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see it
 
    Als, item 78, was fixed before this map was started rather than after, which is
    the position item 48 was in and the reason it cost seven chapters to repair.
+
+
+83. **Chapter 38 is eleven sections, not ten, and the commission is why.** PLAN_I
+   §6 specified ten at 3L/4M/3H. The subject that was missing from the first
+   draft - the International Commission's five months of government over both
+   zones - went into §05 and took it to 808 words against a heavy band of 569.
+   Cutting it back would have meant removing sourced material to preserve a
+   section count. It is now its own section, light, between the zones argument and
+   the first vote: **eleven sections at 4L/4M/3H, 4,251 narrative against 4,311.**
+   Every section is within 90 words of band and the heavy that carries the
+   10 February vote lands at 562 against 569. Decision taken by me under the
+   standing delegation; PLAN_I §6 should be amended rather than the chapter.
+
+84. **The 37-minute target has now missed upward twice, in the same direction.**
+   Chapter 37 shipped at 38 (item 75) and chapter 38 projects 8,034 page words,
+   which is 38. The length model in PLAN_I §5 derives its ~37 from ten sections at
+   3L/4M/3H plus an apparatus constant of 3,783; an eleven-section chapter at the
+   same bands cannot land at 37 and should not be trimmed until it does. **Two
+   consecutive misses in one direction is a model fault, not two chapter faults.**
+   Recompute the target from the bands actually in use before chapter 39 is
+   planned, or Part I will spend eight chapters shaving 20-word cuts out of good
+   prose to hit a number that was derived for a different shape.
+
+85. **Three errors in the first chapter 38 draft, all caught by checking rather
+   than by reading.** (a) The draft said the Aabenraa resolution came a week after
+   H. P. Hanssen's Reichstag statement of 23 October 1918. It was 16-17 November,
+   three and a half weeks, and it was the Vælgerforening for Nordslesvig at
+   Folkehjem. The resolution also named the **Clausen line** - after H. V. Clausen,
+   a Copenhagen schoolmaster who had walked Slesvig parish by parish in the 1890s
+   recording where Danish was spoken at home - which the draft did not have at all
+   and which is the best fact in the section. (b) The draft had Tinglev among the
+   German-voting towns of Zone I. The German majorities were Aabenraa, Sønderborg,
+   Tønder and Højer, plus small districts around Tinglev and Tønder, not the town.
+   (c) The draft said that nowhere in Zone II did the Danish minority hold a
+   district. **Three small polling places on Før returned Danish majorities** and
+   stayed in Germany with everything else, which is a better fact than the
+   generalisation it replaces.
+
+   And one that is not an error but is worth writing down: the Zone I result is
+   published both as 74.9/25.1 and as 74.2/24.9, and both are correct. 74.9 is the
+   share of valid votes, 74.2 the share of all 101,652 ballots cast; the gap is
+   892 spoiled papers. The chapter says so rather than picking one.
