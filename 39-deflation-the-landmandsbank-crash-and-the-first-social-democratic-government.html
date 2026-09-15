@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>39 · Deflation, the Landmandsbank crash and the first Social Democratic government, 1920–1929</title>
+<style>
+
+  :root{
+    --ground:#E4E7E4; --paper:#F0F2EE; --peat:#221E18; --muted:#6C6E63;
+    --rule:#C9CDC4; --verdigris:#2E6B5E; --amber:#A9601C; --oxblood:#8A2B2B; --indigo:#2F4C7A; --slate:#4F6470; --moss:#4A5A46; --band:#4A5A46;
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua","URW Palladio L",Georgia,serif;
+    --mono:"IBM Plex Mono",ui-monospace,"SF Mono",SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0;background:var(--ground);color:var(--peat);
+    font-family:var(--serif);font-size:17.5px;line-height:1.68;text-rendering:optimizeLegibility}
+  .wrap{max-width:790px;margin:0 auto;padding:0 28px}
+  a{color:var(--verdigris)}
+  a:focus-visible{outline:2px solid var(--amber);outline-offset:3px}
+  p{margin:0 0 1.05em}
+
+  .crumb{border-bottom:1px solid var(--rule);background:rgba(228,231,228,.94)}
+  .crumb-in{max-width:1000px;margin:0 auto;padding:10px 28px;display:flex;gap:14px;
+    font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+  .crumb-in b{color:var(--band);font-weight:600}
+
+  header.hd{padding:62px 0 0}
+  .eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.22em;text-transform:uppercase;
+    color:var(--amber);margin:0 0 20px}
+  h1{font-size:clamp(34px,6.4vw,58px);line-height:1.02;margin:0;font-weight:400;letter-spacing:-.022em}
+  .dates{font-family:var(--mono);font-size:13px;letter-spacing:.1em;color:var(--muted);margin:18px 0 0}
+  .why{font-size:20px;margin:22px 0 0;max-width:62ch}
+  .keys{display:flex;flex-wrap:wrap;gap:6px;margin:26px 0 0;padding:0;list-style:none}
+  .keys li{font-family:var(--mono);font-size:10.5px;letter-spacing:.03em;color:var(--muted);
+    border:1px solid var(--rule);border-radius:2px;padding:3px 8px}
+
+  h2{font-size:27px;font-weight:400;letter-spacing:-.015em;margin:56px 0 4px;line-height:1.2}
+  h2 .n{font-family:var(--mono);font-size:12px;color:var(--band);letter-spacing:.1em;
+    display:block;margin:0 0 8px;font-weight:600}
+  h3{font-size:19px;font-weight:600;margin:34px 0 6px;letter-spacing:-.008em}
+  .kicker{font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;
+    color:var(--amber);margin:56px 0 8px}
+  hr.div{border:0;border-top:1px solid var(--rule);margin:52px 0 0}
+  i.dk{font-style:italic}
+
+  /* per-section glossary */
+  .terms{background:var(--paper);border-left:3px solid var(--band);padding:16px 20px;margin:22px 0 28px}
+  .terms h4{font-family:var(--mono);font-size:10px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--band);margin:0 0 12px;font-weight:600}
+  .terms dl{margin:0;display:grid;grid-template-columns:1fr 1fr;gap:10px 26px}
+  .terms dl.one{grid-template-columns:1fr}
+  .terms .t{min-width:0}
+  .terms dt{font-family:var(--mono);font-size:12.5px;color:var(--peat);font-weight:600;
+    letter-spacing:.01em;line-height:1.4}
+  .terms dd{margin:2px 0 0;font-size:15px;color:var(--muted);line-height:1.5}
+
+  ol.qs{margin:0;padding:0;list-style:none;counter-reset:q}
+  ol.qs li{counter-increment:q;position:relative;padding:0 0 0 34px;margin:0 0 10px;font-size:18px}
+  ol.qs li::before{content:counter(q);position:absolute;left:0;top:2px;font-family:var(--mono);
+    font-size:11px;color:var(--amber);font-weight:600}
+
+  .meanwhile{background:var(--paper);border-left:3px solid var(--verdigris);padding:20px 22px;margin:30px 0}
+  .meanwhile h4{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--verdigris);margin:0 0 10px;font-weight:600}
+  .meanwhile p{font-size:16px;margin:0 0 .8em}
+  .meanwhile p:last-child{margin:0}
+
+  .myth{background:var(--paper);border-left:3px solid var(--oxblood);padding:20px 22px;margin:26px 0}
+  .myth h4{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--oxblood);margin:0 0 12px;font-weight:600}
+  .myth dl{margin:0}
+  .myth dt{font-weight:600;font-size:16.5px;margin:16px 0 3px}
+  .myth dt:first-child{margin-top:0}
+  .myth dd{margin:0;font-size:16px;color:var(--muted)}
+
+  ul.calls{list-style:none;margin:0;padding:0;border-top:1px solid var(--rule)}
+  ul.calls li{display:flex;gap:18px;padding:12px 0;border-bottom:1px solid var(--rule);align-items:baseline}
+  ul.calls b{font-family:var(--mono);font-size:11px;letter-spacing:.06em;color:var(--band);
+    width:74px;flex:none;font-weight:600}
+  ul.calls span{font-size:16px;color:var(--muted)}
+
+  ol.five{list-style:none;margin:0;padding:0;counter-reset:f}
+  ol.five li{counter-increment:f;background:var(--paper);border-left:2px solid var(--band);
+    padding:15px 18px;margin:0 0 2px;display:flex;gap:14px;align-items:baseline}
+  ol.five li::before{content:counter(f,decimal-leading-zero);font-family:var(--mono);font-size:11px;
+    color:var(--band);font-weight:600;flex:none}
+  ol.five p{margin:0;font-size:16.5px}
+
+  .qgroup{margin:0 0 26px}
+  .qlabel{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--amber);margin:0 0 4px;font-weight:600}
+  .qnote{font-size:14.5px;color:var(--muted);margin:0 0 10px}
+  .qgroup ul{margin:0;padding:0 0 0 20px}
+  .qgroup li{margin:0 0 8px;font-size:16.5px}
+
+  figure{margin:34px 0;background:var(--paper);padding:20px 20px 16px;border-top:2px solid var(--band)}
+  figure svg{width:100%;height:auto;display:block}
+  figcaption{font-size:14.5px;color:var(--muted);margin:14px 0 0;line-height:1.55}
+  figcaption b{font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;
+    color:var(--peat);display:block;margin:0 0 5px;font-weight:600}
+  .mapt{font-family:var(--mono);font-size:9.5px;fill:#5F6157;letter-spacing:.04em}
+  .mapl{font-family:var(--mono);font-size:10.5px;fill:#3C3E36;letter-spacing:.06em;font-weight:600}
+  .mapx{font-family:var(--mono);font-size:8.5px;fill:#4A4C44;letter-spacing:.04em}
+
+  ul.plain{list-style:none;margin:0;padding:0;border-top:1px solid var(--rule)}
+  ul.plain li{display:flex;gap:20px;padding:12px 0;border-bottom:1px solid var(--rule);
+    align-items:baseline;flex-wrap:wrap}
+  ul.plain .nm{font-family:var(--mono);font-size:12px;letter-spacing:.03em;width:200px;flex:none;
+    color:var(--verdigris)}
+  ul.plain .ds{font-size:15.5px;color:var(--muted);flex:1;min-width:230px}
+
+  footer{margin:70px 0 0;padding:22px 0 64px;border-top:1px solid var(--rule);
+    font-family:var(--mono);font-size:11px;letter-spacing:.06em;color:var(--muted)}
+
+  @media (max-width:720px){
+    body{font-size:16.5px}
+    .wrap{padding:0 20px}
+    .crumb-in{padding:10px 20px;gap:10px;font-size:9.5px}
+    header.hd{padding:40px 0 0}
+    h2{font-size:24px;margin-top:44px}
+    figure{padding:14px 12px 12px}
+    .terms dl{grid-template-columns:1fr;gap:11px}
+    ul.calls li{flex-direction:column;gap:2px}
+    ul.calls b{width:auto}
+    ul.plain li{flex-direction:column;gap:3px}
+    ul.plain .nm{width:auto}
+  }
+
+  html{scroll-behavior:smooth}
+  @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+  h2[id],div.myth[id]{scroll-margin-top:24px}
+
+  /* fixed section index, wide screens only */
+  .rail{position:fixed;top:88px;left:calc(50% - 605px);width:170px;z-index:30;
+    max-height:calc(100vh - 130px);overflow-y:auto;scrollbar-width:thin}
+  .rail-h{font-family:var(--mono);font-size:9.5px;letter-spacing:.18em;text-transform:uppercase;
+    color:var(--amber);margin:0 0 10px;font-weight:600}
+  .rail ol{list-style:none;margin:0;padding:0;border-left:1px solid var(--rule)}
+  .rail li{margin:0}
+  .rail a{display:flex;gap:7px;align-items:baseline;text-decoration:none;color:var(--muted);
+    font-family:var(--mono);font-size:10.5px;line-height:1.35;letter-spacing:.01em;
+    padding:5px 0 5px 11px;margin-left:-1px;border-left:2px solid transparent}
+  .rail a:hover{color:var(--peat)}
+  .rail .rn{color:var(--band);font-weight:600;flex:none;width:13px}
+  .rail a.active{color:var(--peat);border-left-color:var(--amber);font-weight:600}
+  .rail a.active .rn{color:var(--amber)}
+  @media (max-width:1239px){.rail{display:none}}
+
+  /* collapsible contents, narrow screens only */
+  .toc{display:none;background:var(--paper);border-left:3px solid var(--band);
+    padding:12px 18px;margin:34px 0 0}
+  .toc summary{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--band);font-weight:600;cursor:pointer}
+  .toc ol{margin:12px 0 2px;padding:0 0 0 20px}
+  .toc li{margin:0 0 5px;font-size:15.5px}
+  @media (max-width:1239px){.toc{display:block}}
+
+  /* people vignette */
+  .vig{background:var(--paper);border-left:3px solid var(--amber);padding:20px 22px;margin:30px 0}
+  .vig h4{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--amber);margin:0 0 10px;font-weight:600}
+  .vig p{font-size:16.5px;margin:0 0 .85em}
+  .vig p:last-child{margin:0}
+  .vig .who{font-family:var(--mono);font-size:11px;letter-spacing:.05em;color:var(--muted);
+    margin:12px 0 0;font-style:normal}
+  @media print{.rail{display:none}.toc{display:none}.vig{background:#fff}}
+
+  /* mid-page retrieval checkpoint — deliberately unfilled, so it reads as a pause, not a box */
+  .check{border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);
+    padding:15px 0 14px;margin:32px 0}
+  .check h4{font-family:var(--mono);font-size:10px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--muted);margin:0 0 9px;font-weight:600}
+  .check ul{margin:0;padding:0 0 0 19px}
+  .check li{font-size:15.5px;color:var(--muted);margin:0 0 5px;line-height:1.5}
+  .check li:last-child{margin:0}
+  @media print{.check{border-color:#ccc}}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+  @media print{.crumb{display:none}body{background:#fff}figure,.meanwhile,.myth,.terms,ol.five li{background:#fff}}
+
+</style>
+</head>
+<body>
+
+<div class="crumb"><div class="crumb-in">
+  <span><a href="danish-history-index.html#c39" style="color:var(--band);font-weight:600;text-decoration:none">← Index</a></span>
+  <span><b>Part I</b> · The small state</span><span>Chapter 39</span><span>1920 – 1929</span>
+</div></div>
+
+<nav class="rail" aria-label="Sections of this page"><p class="rail-h">On this page</p><ol>
+<li><a href="#intro"><span class="rn"></span>Introduction</a></li>
+<li><a href="#s01"><span class="rn">01</span>The boom ends</a></li>
+<li><a href="#s02"><span class="rn">02</span>Marks and kroner: Sønderjylland pays for coming home</a></li>
+<li><a href="#s03"><span class="rn">03</span>Landmandsbanken, 1922</a></li>
+<li><a href="#s04"><span class="rn">04</span>Who paid for the rescue</a></li>
+<li><a href="#s05"><span class="rn">05</span>The defence settlement of 1922, and Munch's argument</a></li>
+<li><a href="#s06"><span class="rn">06</span>1924: the party in office</a></li>
+<li><a href="#s07"><span class="rn">07</span>Nina Bang</a></li>
+<li><a href="#s08"><span class="rn">08</span>Steincke's plan, and the other half of it</a></li>
+<li><a href="#s09"><span class="rn">09</span>Madsen-Mygdal, and the return to gold</a></li>
+<li><a href="#s10"><span class="rn">10</span>What the twenties settled, and what they did not</a></li>
+<li><a href="#myth"><span class="rn"></span>Myth-check</a></li>
+<li><a href="#forward"><span class="rn"></span>What to carry forward</a></li>
+<li><a href="#summary"><span class="rn"></span>The page in five</a></li>
+<li><a href="#questions"><span class="rn"></span>Questions &amp; discussion</a></li>
+<li><a href="#sources"><span class="rn"></span>Sources</a></li>
+<li><a href="#visit"><span class="rn"></span>Places you can visit</a></li>
+</ol></nav>
+
+<div class="wrap">
+
+<header class="hd">
+  <p class="eyebrow">Era chapter · about 35 minutes</p>
+  <h1>Deflation, the Landmandsbank crash and the first Social Democratic government</h1>
+  <p class="dates">1920 – 1929 · Emil Glückstadt · Holmer Green · Thorvald Stauning · Nina Bang · K.K. Steincke · Peter Munch</p>
+  <p class="why">The war boom ended in 1920, and for the next thirty-three years unemployment never fell below eight per cent. Two years later the largest bank in Scandinavia was rescued twice, after two ministers had kept their own inspector's figure quiet. In 1924 the party that had entered the Folketing with two seats formed a government on a majority of one, and fell over the price of making the krone worth what it had been before the war.</p>
+  <ul class="keys">
+    <li>lavkonjunkturen 1920</li><li>Udligningskassen for Sønderjylland</li><li>postskillemønt</li><li>Landmandsbanken 1922</li><li>Bankkommissionen af 1922</li><li>statsgarantien 1923</li><li>hærordningen 1922</li><li>Stauning I 1924</li><li>Nina Bang</li><li>Fremtidens Forsørgelsesvæsen</li><li>steriliseringsloven 1929</li><li>guldindløseligheden 1927</li>
+  </ul>
+</header>
+
+<details class="toc"><summary>Contents</summary><ol>
+<li><a href="#intro">Introduction</a></li>
+<li><a href="#s01">The boom ends</a></li>
+<li><a href="#s02">Marks and kroner: Sønderjylland pays for coming home</a></li>
+<li><a href="#s03">Landmandsbanken, 1922</a></li>
+<li><a href="#s04">Who paid for the rescue</a></li>
+<li><a href="#s05">The defence settlement of 1922, and Munch's argument</a></li>
+<li><a href="#s06">1924: the party in office</a></li>
+<li><a href="#s07">Nina Bang</a></li>
+<li><a href="#s08">Steincke's plan, and the other half of it</a></li>
+<li><a href="#s09">Madsen-Mygdal, and the return to gold</a></li>
+<li><a href="#s10">What the twenties settled, and what they did not</a></li>
+<li><a href="#myth">Myth-check</a></li>
+<li><a href="#forward">What to carry forward</a></li>
+<li><a href="#summary">The page in five</a></li>
+<li><a href="#questions">Questions &amp; discussion</a></li>
+<li><a href="#sources">Sources</a></li>
+<li><a href="#visit">Places you can visit</a></li>
+</ol></details>
+
+<p class="kicker">Introduction</p>
+<h2 id="intro" style="margin-top:0"><span class="n">WHAT THIS PAGE ANSWERS</span>Five questions</h2>
+<ol class="qs">
+  <li>Sønderjylland joined the kingdom without its marks being exchanged. Why did that make the German inflation the new province's problem?</li>
+  <li>Two ministers stood behind a bank's own figure against their inspector's. What did they fear, and what did it cost?</li>
+  <li>Denmark's army was cut to a border guard with the Rigsdag's broad agreement. Was that realism or a failure of nerve?</li>
+  <li>The first Social Democratic government rested on a majority of one. What could it do with that, and what could it not?</li>
+  <li>Everyone agreed the krone should go back to its old gold value. Who paid for agreeing?</li>
+</ol>
+
+<hr class="div">
+
+<h2 id="s01"><span class="n">01 / NARRATIVE</span>The boom ends</h2>
+
+<div class="terms">
+  <h4>Danish terms in this section</h4>
+  <dl class="one">
+    <div class="t"><dt>lavkonjunktur</dt><dd>a downturn: the fall in prices and trade that began internationally in 1920 and ended the wartime boom.</dd></div>
+  </dl>
+</div>
+
+<p>The war had made money for Denmark on a scale the country had never seen, and most of it had been made on paper. Chapter 37 left the <i class="dk">gullaschbaroner</i> shipping tinned meat south. The exchange in Copenhagen did the rest: share prices multiplied between 1914 and 1919, companies were floated for trades that did not yet exist, and the biggest bank in the North lent to them as though the war would go on paying.</p>
+
+<p>In 1920 world prices broke, and Danish prices broke with them. The year that settled the border and put the crown back in its place opened a decade in which nearly every public quarrel was about money: who had lost it, who should be made whole, and what a krone ought to be worth.</p>
+
+<p>The department that counted the unemployed summed up the result in one sentence, in its report on 1954, published in 1955. It noted that the year's average, 8.0 per cent of the insured, was the lowest since 1920. Turned the other way round, that sentence says that in every one of the thirty-three years from 1921 to 1953, through a depression, an occupation and a reconstruction, the rate never fell below eight per cent. The year 1920 was the last of an old economy, and nobody at the time knew it.</p>
+
+<p>The government that met the downturn was Venstre's, under Niels Neergaard, in office from May 1920. It was a farmers' party, with farmers' instincts about debt, and it was about to find that the thing most likely to break the country's finances was not on a farm.</p>
+
+<h2 id="s02"><span class="n">02 / NARRATIVE</span>Marks and kroner: Sønderjylland pays for coming home</h2>
+
+<div class="terms">
+  <h4>Danish terms in this section</h4>
+  <dl>
+    <div class="t"><dt>Udligningskassen for Sønderjylland</dt><dd>the equalisation fund for Sønderjylland: sixty million kroner of state money to compensate people in the new province for losses from the war and the German inflation.</dd></div>
+    <div class="t"><dt>postskillemønt</dt><dd>postal small change: a postage stamp sealed in a metal and celluloid case and used as a coin in Sønderjylland in 1921 and 1922.</dd></div>
+  </dl>
+</div>
+
+<p>Sønderjylland came into the kingdom carrying German money, and this part of the story is easy to tell wrongly. There was no day on which marks were handed in and kroner handed out. Danish money reckoning began in the north on Thursday 20 May 1920, when a mark was worth close to a seventh of a krone, and shops changed over as they could. Loans and savings written in marks stayed in marks. The local banks kept two sets of accounts, one in each currency, all the way into their annual reports.</p>
+
+<p>That was where the damage was done. The mark went on falling after the vote, and every saving and every debt that stayed German fell with it. A state that had asked these people where they belonged now owed them something for the answer. It set up an equalisation fund, <i class="dk">Udligningskassen for Sønderjylland</i>, with sixty million kroner to make good what the war and the inflation had cost, and 20,832 people received compensation from it. A loan fund followed for local businesses, and the four big northern banks, in Aabenraa, Haderslev, Sønderborg and Tønder, each borrowed three million kroner from the state to lend on.</p>
+
+<p>The province was fitted into the kingdom by statute. A law of 28 June 1920 brought in Danish local government, with 110 new parish councils beside the four market towns and five smaller boroughs. It took to Danish politics slowly: at the election of 1924 turnout in the four southern Jutland counties was 70.9 per cent, against 79.2 in the rest of Jutland, and in the Løgumkloster district it was 64.5. Danish banks came in as well. Landmandsbanken opened branches in all four towns, and by 1923 had to close the ones in Haderslev and Aabenraa.</p>
+
+<p>Then there was the change in the till. Danish silver was draining out of the whole country, some of it smuggled to Sweden where it still passed at face value, and too little had been struck for the new province. For a while the north made its small purchases with loose postage stamps. The parish of Uge had printed twenty thousand fifty-pfennig notes of its own in 1920; when they were called in, by the parish's own later account, one was presented.</p>
+
+<div class="vig">
+<h4>Vignette · the post office, Haderslev, April 1921</h4>
+<p>The coin is not a coin. It is a disc of iron thirty-two millimetres across, and under a window of clear celluloid on one face sits a postage stamp: a brown twenty-five-øre stamp with the head of Christian 10., or a red ten-øre one showing Kronborg. On the other face is an advertisement for the American Tobacco Company's cigarettes.</p>
+<p>The Finance Ministry approved the idea in February, after asking the National Bank and the Royal Mint. The first twenty-eight thousand of each value went out from the post offices of Sønderjylland on 14 April. The post office must take them in payment. The public may take them if it is willing.</p>
+<p>Haderslev will take just over a hundred thousand, more than any of the other three market towns. They are lawful money until the end of March 1922, and when they are called in, roughly a quarter never come back.</p>
+<p>The customer at the counter is not recorded. The customer is the reason they were made.</p>
+<p class="who">unnamed · the post office, Haderslev · April 1921 · [n]</p>
+</div>
+
+<p>The small change was the least of it. Many people in the north took out loans in the years just after 1920, when the krone was cheap. §09 shows what happened when Danish governments decided to make it dear again: for many of those borrowers the burden doubled.</p>
+
+<figure>
+<svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Postage stamps sealed in iron and celluloid capsules and used as small change in Soenderjylland in 1921 and 1922. 474,234 ten-oere and 467,583 twenty-five-oere pieces were issued; about a quarter of them were never handed back. Haderslev received the most of the four market towns.">
+  <rect x="0" y="0" width="700" height="430" fill="#F4F1EA"/>
+  <text x="14" y="24" class="mapl">SMALL CHANGE IN A CAPSULE, 1921 – 1922</text>
+  <text x="14" y="40" class="mapt">a stamp under celluloid, passed from hand to hand in the new province</text>
+  <text x="14" y="62" class="mapx" opacity=".75">Solid: handed back when called in. Open: never came back.</text>
+  <text x="14" y="117" class="mapt">10 øre · Kronborg</text>
+  <rect x="177" y="104" width="503.0" height="18" fill="none" stroke="#8C5A3C" stroke-width="1"/>
+  <rect x="177" y="104" width="360.8" height="18" fill="#8C5A3C"/>
+  <text x="177" y="134" class="mapx">474,234 issued · 340,129 back · 134,105 kept</text>
+  <text x="14" y="163" class="mapt">25 øre · Christian 10.</text>
+  <rect x="177" y="150" width="495.9" height="18" fill="none" stroke="#8C5A3C" stroke-width="1"/>
+  <rect x="177" y="150" width="380.2" height="18" fill="#8C5A3C"/>
+  <text x="177" y="180" class="mapx">467,583 issued · 358,452 back · 109,131 kept</text>
+  <text x="14" y="224" class="mapt">Where they went: the four market towns, both values</text>
+  <text x="14" y="251" class="mapx">Haderslev</text>
+  <rect x="177" y="240" width="457.6" height="14" fill="#2E6B5E"/>
+  <text x="640.6" y="251" class="mapx">102,380</text>
+  <text x="14" y="281" class="mapx">Sønderborg</text>
+  <rect x="177" y="270" width="339.7" height="14" fill="#2E6B5E"/>
+  <text x="522.7" y="281" class="mapx">75,998</text>
+  <text x="14" y="311" class="mapx">Aabenraa</text>
+  <rect x="177" y="300" width="313.3" height="14" fill="#2E6B5E"/>
+  <text x="496.3" y="311" class="mapx">70,104</text>
+  <text x="14" y="341" class="mapx">Tønder</text>
+  <rect x="177" y="330" width="309.2" height="14" fill="#2E6B5E"/>
+  <text x="492.2" y="341" class="mapx">69,180</text>
+  <text x="14" y="374" class="mapx">The other 624,155 went out through the province's other post offices. Face value issued 164,319.15 kroner, returned</text>
+  <text x="14" y="387" class="mapx">123,625.90: the source's counts and totals agree to the øre. About 26 per cent were never handed back.</text>
+  </svg>
+<figcaption><b>Figure 1 · Small change in a capsule, 1921–22</b>
+Postage stamps sealed in iron and celluloid and used as coins in the new province: how many of each value went out, how many came back, and where the four market towns stood. About a quarter were never handed back. One source, whose counts and totals agree to the øre.</figcaption>
+</figure>
+
+<h2 id="s03"><span class="n">03 / NARRATIVE</span>Landmandsbanken, 1922</h2>
+
+<div class="terms">
+  <h4>Danish terms in this section</h4>
+  <dl>
+    <div class="t"><dt>bankinspektør</dt><dd>the state's bank inspector, an office then new. Holmer Green was the first to hold it.</dd></div>
+    <div class="t"><dt>rekonstruktion</dt><dd>the reconstruction of a failing bank with new capital, as against letting it close.</dd></div>
+  </dl>
+</div>
+
+<p>Den Danske Landmandsbank was founded in 1871 and run for thirty-eight years by Isak Glückstadt, a careful man who made it the largest bank in the country. His son Emil took it over in 1910, at thirty-five, trained in New York, London and Paris, and set out to make it an international house. By 1921 it was the largest bank in Scandinavia and did something like a third of all Danish banking. In February 1922 it paid a dividend of ten per cent.</p>
+
+<p>The accounts behind that dividend overvalued what the bank owned and hid what it had already lost. Through the war Glückstadt had taken the bank into speculation alongside H. N. Andersen of the East Asiatic Company, the same man chapter 38 found advising the king at Easter 1920. The bank's great bubble was the Transatlantic Company, founded in 1916 and run by Harald Plum. By 1922 the companies around it owed the bank eighty million kroner, most of it without security.</p>
+
+<p>In the spring of 1922 Denmark's first state bank inspector, Holmer Green, began going through Landmandsbanken's books in secret. After ten days he wrote in his diary that it could become a national catastrophe. By early July he had a figure: a loss of 144 million kroner. Glückstadt put it at about 67.</p>
+
+<p>On the weekend of 8 and 9 July Green took his figure to the prime minister, Neergaard, and the trade minister, Rothe. It was an awkward figure for a Venstre government. Venstre held that the state did not rescue private enterprise, and its voters in the countryside mostly banked elsewhere. But the bank was the hinge of the country's business, and Glückstadt said that unless something was done it would not open on Monday morning. The ministers chose to believe the bank's figure over the inspector's. Late on the Sunday a rescue was agreed, fifty-six million kroner written off and thirty million of extra reserve from the National Bank, and a statement went out that the bank had been put in order. Green's number was not in it. Neither minister told the rest of the government.</p>
+
+<p>The statement did not stop the withdrawals. What ended the silence was Andersen. He had Glückstadt removed, and in mid-September, while Neergaard was away motoring on Lolland, he summoned two Venstre ministers, Thomas Madsen-Mygdal and Rytter, to the company's offices and told them how large the losses really were and that the prime minister had kept it quiet. Between 14 and 17 September the government, the National Bank and the bank's largest friends met almost without a break.</p>
+
+<p>The Danish memory of the crash is the fall of one man. The better-sourced story is a system that included two ministers, the National Bank and the most powerful businessman in the country, and that chose for two months to stand behind a figure it had reason to disbelieve.</p>
+
+<figure>
+<svg viewBox="0 0 700 476" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A calendar of the Landmandsbank crisis, May 1922 to 1928: a secret inspection, a first rescue in July with extra reserve from the National Bank, a second in September with about seventy million kroner of new capital approved unanimously by the Rigsdag, a commission, a state guarantee in February 1923, the arrest and death of the bank's director, and the final settlement in 1928.">
+  <rect x="0" y="0" width="700" height="476" fill="#F4F1EA"/>
+  <text x="14" y="24" class="mapl">LANDMANDSBANKEN, 1922 – 1923</text>
+  <text x="14" y="40" class="mapt">two rescues and a guarantee for the largest bank in Scandinavia</text>
+  <text x="14" y="62" class="mapx" opacity=".75">Loss estimates and the split of the new capital are in the text, not here: each rests on one account.</text>
+  <path d="M 124 84 L 124 400" stroke="#2A2A28" stroke-width="1.2" opacity=".45"/>
+  <circle cx="124" cy="92" r="2.6" fill="#9A3B2E"/>
+  <text x="114" y="96" class="mapx" text-anchor="end">May–Jul 1922</text>
+  <text x="150" y="96" class="mapx" fill="#2A2A28">Holmer Green, the state's first bank inspector, goes through the bank's books in secret.</text>
+  <circle cx="124" cy="126" r="4.2" fill="#8C5A3C"/>
+  <text x="114" y="130" class="mapx" text-anchor="end">9 Jul</text>
+  <text x="150" y="130" class="mapt" fill="#8C5A3C">RESCUE ONE — 30 million of extra reserve from the National Bank, and a statement that</text>
+  <text x="150" y="142" class="mapt" fill="#8C5A3C">follows the bank's own figures.</text>
+  <circle cx="124" cy="172" r="4.2" fill="#8C5A3C"/>
+  <text x="114" y="176" class="mapx" text-anchor="end">17 Sep</text>
+  <text x="150" y="176" class="mapt" fill="#8C5A3C">RESCUE TWO — the bank is reconstructed with about 70 million kroner of new share</text>
+  <text x="150" y="188" class="mapt" fill="#8C5A3C">capital.</text>
+  <circle cx="124" cy="218" r="2.6" fill="#2F4C7A"/>
+  <text x="114" y="222" class="mapx" text-anchor="end">19 Sep</text>
+  <text x="150" y="222" class="mapx" fill="#2A2A28">The Rigsdag, recalled for an extraordinary session, approves it unanimously.</text>
+  <circle cx="124" cy="252" r="2.6" fill="#2F4C7A"/>
+  <text x="114" y="256" class="mapx" text-anchor="end">Sep</text>
+  <text x="150" y="256" class="mapx" fill="#2A2A28">A commission is appointed to find out what happened.</text>
+  <circle cx="124" cy="286" r="4.2" fill="#9A3B2E"/>
+  <text x="114" y="290" class="mapx" text-anchor="end">5 Feb 1923</text>
+  <text x="150" y="290" class="mapt" fill="#9A3B2E">THE GUARANTEE — the state stands behind the bank's obligations, deposits included.</text>
+  <circle cx="124" cy="320" r="2.6" fill="#2F4C7A"/>
+  <text x="114" y="324" class="mapx" text-anchor="end">Mar</text>
+  <text x="150" y="324" class="mapx" fill="#2A2A28">Emil Glückstadt is remanded in custody.</text>
+  <circle cx="124" cy="354" r="2.6" fill="#2F4C7A"/>
+  <text x="114" y="358" class="mapx" text-anchor="end">23 Jun</text>
+  <text x="150" y="358" class="mapx" fill="#2A2A28">Glückstadt dies in hospital, before judgement.</text>
+  <circle cx="124" cy="388" r="2.6" fill="#9A3B2E"/>
+  <text x="114" y="392" class="mapx" text-anchor="end">1928</text>
+  <text x="150" y="392" class="mapx" fill="#2A2A28">The bank's affairs are finally settled.</text>
+  <text x="14" y="426" class="mapx">Brown: the bank. Red: the state. Blue: the courts and the Rigsdag.</text>
+  </svg>
+<figcaption><b>Figure 2 · Two rescues and a guarantee, 1922–23</b>
+Landmandsbanken from the inspector's secret review to the final settlement. Every date is confirmed twice. The loss estimates and the split of the new capital are left in the text, because each rests on a single account.</figcaption>
+</figure>
+
+<div class="meanwhile">
+<h4>Meanwhile · Vienna and Berlin, 1922–1924.</h4>
+<p>Austria's currency was rescued in October 1922 with a League of Nations loan of 650 million gold kronen and stabilised at 14,400 paper kronen to one gold krone; at the end of 1924 a new schilling replaced ten thousand of the old notes. Germany's collapse in 1923 went further, and wiped out the mark in which much of Sønderjylland's savings were still written. Denmark's problem in the same years was the opposite one: a currency its governments meant to make stronger, whatever it cost.</p>
+</div>
+
+<div class="check">
+  <h4>Checkpoint</h4>
+  <ul>
+    <li>In 1954 the Statistical Department said that year's unemployment was the lowest since 1920. What does that tell you about every year in between?</li>
+    <li>Were Sønderjylland's marks exchanged for kroner in 1920? If not, what happened to savings and debts written in marks?</li>
+    <li>What happened on the weekend of 8 and 9 July 1922, and what was missing from the statement that followed?</li>
+  </ul>
+</div>
+
+<h2 id="s04"><span class="n">04 / NARRATIVE</span>Who paid for the rescue</h2>
+
+<div class="terms">
+  <h4>Danish terms in this section</h4>
+  <dl>
+    <div class="t"><dt>Bankkommissionen af 1922</dt><dd>the bank commission of 1922: three men appointed on 22 September to investigate the crash and prepare any prosecution.</dd></div>
+    <div class="t"><dt>statsgaranti</dt><dd>a state guarantee: the promise, given on 5 February 1923, that the state would stand behind the bank's obligations.</dd></div>
+  </dl>
+</div>
+
+<p>The reconstruction agreed on 17 September put about seventy million kroner of new share capital into the bank. By the fullest modern account, forty million of it came from the state, twenty from the East Asiatic Company and five each from the National Bank and the Great Northern Telegraph Company. Andersen agreed to chair the new board. Two days later the Rigsdag, called back for an extraordinary session, approved the arrangement unanimously. On 22 September a commission of three was appointed to find out what had happened and whether anyone should be charged: a judge, C. D. Rump, the inspector Green, and Professor L. V. Birck.</p>
+
+<p>Andersen did not last. At the shareholders' meeting on 6 October, in front of twelve or thirteen hundred of them, he withdrew from the chairmanship. He had been part of what was already being called the Glückstadt system, and as the commission worked outward, through businessmen, heads of government departments, diplomats, former ministers and the editor of <i class="dk">Social-Demokraten</i>, it came close to Andersen himself and to members of the royal family. Early in 1923 it stopped. The radical paper <i class="dk">Pressen</i>, fed by leaks from Birck, printed what it could.</p>
+
+<p>The money kept leaving. On 5 February 1923 the government put the state's guarantee directly behind the bank's obligations, deposits included. The bank's affairs were not settled until 1928, and by then its losses came to between five and six hundred million kroner.</p>
+
+<div class="vig">
+<h4>Vignette · Emil Glückstadt, Kommunehospitalet, June 1923</h4>
+<p>In 1919 he gave the buildings of the old Frederiks Hospital to the Museum of Decorative Art. In June 1923 he is dying in another hospital across the city.</p>
+<p>He was arrested in March and taken to Vestre Fængsel, already a sick man with a weak heart. He has put his fortune at the bank's disposal, all but what his wife brought to the marriage. He was born into the Jewish community his father led for twenty-three years, and he has since become a Catholic.</p>
+<p>In June he needs an operation. He dies after it, on 23 June 1923, forty-seven years old, with his trial still running. The court will find him guilty all the same, and make his estate pay most of the costs. His widow, Laura, will publish his side of it in two volumes, in 1929 and in 1950.</p>
+<p>He is the one the case was built around.</p>
+<p class="who">Emil Glückstadt, bank director · Kommunehospitalet, Copenhagen · June 1923 · [-]</p>
+</div>
+
+<p>H. P. Prior of the Nordic Cable and Wire Works, who had speculated with him, went to prison when the Supreme Court heard the case. Twelve of the bank's directors and board members were fined for approving accounts that hid the bank's purchases of its own shares. Among them were an admiral, Andreas du Plessis de Richelieu, and M. P. Friis, the man the king had made caretaker prime minister at Easter 1920 to end a crisis. The loss on the Transatlantic Company was never part of the case.</p>
+
+<p>Stauning called it the pitiful and outrageous bankruptcy of capitalism, and demanded state banks or at least the strictest control of economic life. His party had an argument, and an election to take it to.</p>
+
+<h2 id="s05"><span class="n">05 / NARRATIVE</span>The defence settlement of 1922, and Munch's argument</h2>
+
+<div class="terms">
+  <h4>Danish terms in this section</h4>
+  <dl>
+    <div class="t"><dt>hærordning</dt><dd>an army law: the statute fixing the army's size, units and call-up. Denmark had those of 1909, 1922, 1932 and 1937.</dd></div>
+    <div class="t"><dt>eksistensforsvar</dt><dd>a defence for national survival, fought to the end, as against a neutrality guard meant to mark the border and deter.</dd></div>
+  </dl>
+</div>
+
+<p>The war had shown Denmark how large an army it could raise if it had to. The <i class="dk">sikringsstyrke</i> of chapter 37 kept growing as more conscripts were trained, and by the end of 1918 the army's war strength stood near a hundred and eighty thousand men. The two generals commanding east and west of the Great Belt drew their conclusion from that: a future army of five divisions, fifteen infantry regiments and about twelve thousand recruits a year.</p>
+
+<p>The Rigsdag drew a different one. The army law of 1922 called up a little over seven thousand men a year for ordinary training and about fifteen hundred for a short home-guard course. The large wartime army would age out of the reserves and would not be replaced. Politicians would not again send conscripts to serve outside their own part of the country, and the governing parties of the next two decades regarded the generals' idea of a war for national survival as meaningless for a state of Denmark's size. Through the 1920s the army became, in practice, a border guard.</p>
+
+<p>The argument behind that belonged above all to Peter Munch. He was a Radical and a historian, defence minister through the whole of the war, from June 1913 to March 1920, and afterwards one of Denmark's delegates to the League of Nations. He became the leading advocate of the view that a military defence of Denmark was impossible. Against the one neighbour that mattered, a small army could decide nothing, because a great power could always send more; a serious violation of Danish territory should be met by a token military response and a diplomatic protest.</p>
+
+<p>It is easy to read that position backwards from 9 April 1940, and the historian who has studied the interwar army laws most closely argues that the habit has distorted the whole subject. In 1922 it was a considered position held by a man who had run the defence of a neutral country through four years of war that Denmark had stayed out of.</p>
+
+<p>The Social Democrats went further than Munch. In office after 1924 they put forward a bill to abolish Denmark's military establishment and replace it with the border and sea patrol that international law required of a neutral state. It passed the Folketing. It did not become law.</p>
+
+<h2 id="s06"><span class="n">06 / NARRATIVE</span>1924: the party in office</h2>
+
+<div class="terms">
+  <h4>Danish terms in sections 06–1924</h4>
+  <dl>
+    <div class="t"><dt>mindretalsregering</dt><dd>a minority government: one whose own party lacks a majority in the Folketing and governs with outside support.</dd></div>
+    <div class="t"><dt>tillægsmandater</dt><dd>supplementary seats: the seats the electoral law of 1920 shared out after the district results, to make each party's total match its national vote more closely.</dd></div>
+  </dl>
+</div>
+
+<p>Chapter 36 left the Social Democrats with the two seats they had won in 1884. The men who sat in them were Peter Holm and Christen Hørdum.</p>
+
+<p>At the election of Friday 11 April 1924 the party became the largest in the Folketing, in votes and in seats, for the first time. It would stay the largest at every election until 2001. The Statistical Department's count was 55 Social Democrats, 44 Venstre, 28 Conservatives, 20 Radicals and one member for the Slesvig Party, 148 in all, with a Venstre member returned unopposed for the Faroes to make 149. Turnout was 78.6 per cent.</p>
+
+<p>The machinery that turned those votes into seats was new, made by the electoral law of 11 April 1920. By 1924 it divided the country into three areas, Copenhagen, the islands and Jutland, those into 23 county and city constituencies, and those again into 117 nomination districts, each roughly the size of an old single-member seat. After the district results, 31 supplementary seats were shared out so that each party's total came closer to its share of the national vote. Seven of the districts were Sønderjylland's, added by a law of 30 August 1920 as a constituency of their own, with two extra supplementary seats for Jutland and three more seats in the Landsting. A party that had once needed to win districts outright now needed votes wherever they were.</p>
+
+<p>The chamber it produced was a portrait of the country's working politics. Of the 148 members elected on the mainland, 37, exactly a quarter, were farmers or smallholders, and 45 were newspaper editors, business managers or professional politicians.</p>
+
+<p>The department also counted something more revealing. The electoral law of 1920 let a voter choose any of his party's candidates in the county rather than the one standing in his own district. Nearly 97 in every hundred Social Democratic voters stuck to their district's candidate. Among Conservatives and Radicals the figure was about 88. It was a party that voted as it was asked.</p>
+
+<p>Its leader was Thorvald Stauning, a tobacco worker by trade, party chairman since 1910, and a minister in Zahle's wartime government from 1916 to 1920. His wife Anna had been killed in a traffic accident in 1921. A party congress had once resolved that the Social Democrats would not take office until they had a majority of their own. They had broken that resolution in 1916 for the war, and they broke it again now. On 23 April 1924 Stauning formed a minority government of Social Democrats, with one outsider, the foreign minister Carl Moltke. Steincke took justice, Borgbjerg social affairs, and the ministry of defence went to a party that wanted to abolish the armed forces it ran.</p>
+
+<p>The arithmetic was thin. Social Democrats and Radicals together held 75 of the 149 seats, which is a majority of one, and the Radicals sat outside the government. On that base the disarmament bill got through the Folketing and no further. The king who had dismissed Zahle four years earlier appointed Stauning without incident, which is the Easter Crisis settled in practice rather than on paper.</p>
+
+<p>The government did not survive the krone. Its handling of the currency deepened the slump in industry and farming, and in 1926 it could not find a majority for a crisis plan. It called an election for 2 December, won more votes and lost seats, and resigned on 14 December 1926. The first Social Democratic government in Danish history had lasted from April 1924 to December 1926, and the party that had once been two men in the Folketing had shown that it could lose office in the ordinary way as well as win it.</p>
+
+<figure>
+<svg viewBox="0 0 700 414" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The Folketing elected on 11 April 1924, drawn as 149 squares, one per seat: 55 Social Democrats, 20 Radicals, 44 Venstre plus one Venstre member for the Faroes, 28 Conservatives and one member for the Slesvig Party. Social Democrats and Radicals together fill the first three rows, 75 seats, a majority of one. In 1884 the Social Democrats had two seats.">
+  <rect x="0" y="0" width="700" height="414" fill="#F4F1EA"/>
+  <text x="14" y="24" class="mapl">THE FOLKETING OF 11 APRIL 1924</text>
+  <text x="14" y="40" class="mapt">one square a seat: the party of two seats in 1884 is now the largest</text>
+  <text x="14" y="62" class="mapx" opacity=".75">Stauning governed with the Radicals outside the cabinet. Together: the first three rows.</text>
+  <rect x="52" y="110" width="20" height="20" fill="#9A3B2E" opacity="1.0"/>
+  <rect x="76" y="110" width="20" height="20" fill="#9A3B2E" opacity="1.0"/>
+  <rect x="100" y="110" width="20" height="20" fill="#9A3B2E" opacity="1.0"/>
+  <rect x="124" y="110" width="20" height="20" fill="#9A3B2E" opacity="1.0"/>
+  <rect x="148" y="110" width="20" height="20" fill="#9A3B2E" opacity="1.0"/>
+  <rect x="172" y="110" width="20" height="20" fill="#9A3B2E" opacity="1.0"/>
+  <rect x="196" y="110" width="20" height="20" fill="#9A3B2E" opacity="1.0"/>
+  <rect x="220" y="110" width="20" height="20" fill="#9A3B2E" opacity="1.0"/>
+  <rect x="244" y="110" width="20" height="20" fill="#9A3B2E" opacity="1.0"/>
+  <rect x="268" y="110" width="20" height="20" fill="#9A3B2E" opacity="1.0"/>
+  <rect x="292" y="110" width="20" height="20" fill="#9A3B2E" opacity="1.0"/>
+  <rect x="316" y="110" width="20" height="20" fill="#9A3B2E" opacity="1.0"/>
+  <rect x="340" y="110" width="20" height="20" fill="#9A3B2E" opacity="1.0"/>
+  <rect x="364" y="110" width="20" height="20" fill="#9A3B2E" opacity="1.0"/>
+  <rect x="388" y="110" width="20" height="20" fill="#9A3B2E" opacity="1.0"/>
+  <rect x="412" y="110" width="20" height="20" fill="#9A3B2E" opacity="1.0"/>
+  <rect x="436" y="110" width="20" height="20" fill="#9A3B2E" opacity="1.0"/>
+  <rect x="460" y="110" width="20" height="20" fill="#9A3B2E" opacity="1.0"/>
+  <rect x="484" y="110" width="20" height="20" fill="#9A3B2E" opacity="1.0"/>
+  <rect x="508" y="110" width="20" height="20" fill="#9A3B2E" opacity="1.0"/>
+  <rect x="532" y="110" width="20" height="20" fill="#9A3B2E" opacity="1.0"/>
+  <rect x="556" y="110" width="20" height="20" fill="#9A3B2E" opacity="1.0"/>
+  <rect x="580" y="110" width="20" height="20" fill="#9A3B2E" opacity="1.0"/>
+  <rect x="604" y="110" width="20" height="20" fill="#9A3B2E" opacity="1.0"/>
+  <rect x="628" y="110" width="20" height="20" fill="#9A3B2E" opacity="1.0"/>
+  <rect x="52" y="134" width="20" height="20" fill="#9A3B2E" opacity="1.0"/>
+  <rect x="76" y="134" width="20" height="20" fill="#9A3B2E" opacity="1.0"/>
+  <rect x="100" y="134" width="20" height="20" fill="#9A3B2E" opacity="1.0"/>
+  <rect x="124" y="134" width="20" height="20" fill="#9A3B2E" opacity="1.0"/>
+  <rect x="148" y="134" width="20" height="20" fill="#9A3B2E" opacity="1.0"/>
+  <rect x="172" y="134" width="20" height="20" fill="#9A3B2E" opacity="1.0"/>
+  <rect x="196" y="134" width="20" height="20" fill="#9A3B2E" opacity="1.0"/>
+  <rect x="220" y="134" width="20" height="20" fill="#9A3B2E" opacity="1.0"/>
+  <rect x="244" y="134" width="20" height="20" fill="#9A3B2E" opacity="1.0"/>
+  <rect x="268" y="134" width="20" height="20" fill="#9A3B2E" opacity="1.0"/>
+  <rect x="292" y="134" width="20" height="20" fill="#9A3B2E" opacity="1.0"/>
+  <rect x="316" y="134" width="20" height="20" fill="#9A3B2E" opacity="1.0"/>
+  <rect x="340" y="134" width="20" height="20" fill="#9A3B2E" opacity="1.0"/>
+  <rect x="364" y="134" width="20" height="20" fill="#9A3B2E" opacity="1.0"/>
+  <rect x="388" y="134" width="20" height="20" fill="#9A3B2E" opacity="1.0"/>
+  <rect x="412" y="134" width="20" height="20" fill="#9A3B2E" opacity="1.0"/>
+  <rect x="436" y="134" width="20" height="20" fill="#9A3B2E" opacity="1.0"/>
+  <rect x="460" y="134" width="20" height="20" fill="#9A3B2E" opacity="1.0"/>
+  <rect x="484" y="134" width="20" height="20" fill="#9A3B2E" opacity="1.0"/>
+  <rect x="508" y="134" width="20" height="20" fill="#9A3B2E" opacity="1.0"/>
+  <rect x="532" y="134" width="20" height="20" fill="#9A3B2E" opacity="1.0"/>
+  <rect x="556" y="134" width="20" height="20" fill="#9A3B2E" opacity="1.0"/>
+  <rect x="580" y="134" width="20" height="20" fill="#9A3B2E" opacity="1.0"/>
+  <rect x="604" y="134" width="20" height="20" fill="#9A3B2E" opacity="1.0"/>
+  <rect x="628" y="134" width="20" height="20" fill="#9A3B2E" opacity="1.0"/>
+  <rect x="52" y="158" width="20" height="20" fill="#9A3B2E" opacity="1.0"/>
+  <rect x="76" y="158" width="20" height="20" fill="#9A3B2E" opacity="1.0"/>
+  <rect x="100" y="158" width="20" height="20" fill="#9A3B2E" opacity="1.0"/>
+  <rect x="124" y="158" width="20" height="20" fill="#9A3B2E" opacity="1.0"/>
+  <rect x="148" y="158" width="20" height="20" fill="#9A3B2E" opacity="1.0"/>
+  <rect x="172" y="158" width="20" height="20" fill="#8C5A3C" opacity="1.0"/>
+  <rect x="196" y="158" width="20" height="20" fill="#8C5A3C" opacity="1.0"/>
+  <rect x="220" y="158" width="20" height="20" fill="#8C5A3C" opacity="1.0"/>
+  <rect x="244" y="158" width="20" height="20" fill="#8C5A3C" opacity="1.0"/>
+  <rect x="268" y="158" width="20" height="20" fill="#8C5A3C" opacity="1.0"/>
+  <rect x="292" y="158" width="20" height="20" fill="#8C5A3C" opacity="1.0"/>
+  <rect x="316" y="158" width="20" height="20" fill="#8C5A3C" opacity="1.0"/>
+  <rect x="340" y="158" width="20" height="20" fill="#8C5A3C" opacity="1.0"/>
+  <rect x="364" y="158" width="20" height="20" fill="#8C5A3C" opacity="1.0"/>
+  <rect x="388" y="158" width="20" height="20" fill="#8C5A3C" opacity="1.0"/>
+  <rect x="412" y="158" width="20" height="20" fill="#8C5A3C" opacity="1.0"/>
+  <rect x="436" y="158" width="20" height="20" fill="#8C5A3C" opacity="1.0"/>
+  <rect x="460" y="158" width="20" height="20" fill="#8C5A3C" opacity="1.0"/>
+  <rect x="484" y="158" width="20" height="20" fill="#8C5A3C" opacity="1.0"/>
+  <rect x="508" y="158" width="20" height="20" fill="#8C5A3C" opacity="1.0"/>
+  <rect x="532" y="158" width="20" height="20" fill="#8C5A3C" opacity="1.0"/>
+  <rect x="556" y="158" width="20" height="20" fill="#8C5A3C" opacity="1.0"/>
+  <rect x="580" y="158" width="20" height="20" fill="#8C5A3C" opacity="1.0"/>
+  <rect x="604" y="158" width="20" height="20" fill="#8C5A3C" opacity="1.0"/>
+  <rect x="628" y="158" width="20" height="20" fill="#8C5A3C" opacity="1.0"/>
+  <rect x="52" y="182" width="20" height="20" fill="#2E6B5E" opacity="1.0"/>
+  <rect x="76" y="182" width="20" height="20" fill="#2E6B5E" opacity="1.0"/>
+  <rect x="100" y="182" width="20" height="20" fill="#2E6B5E" opacity="1.0"/>
+  <rect x="124" y="182" width="20" height="20" fill="#2E6B5E" opacity="1.0"/>
+  <rect x="148" y="182" width="20" height="20" fill="#2E6B5E" opacity="1.0"/>
+  <rect x="172" y="182" width="20" height="20" fill="#2E6B5E" opacity="1.0"/>
+  <rect x="196" y="182" width="20" height="20" fill="#2E6B5E" opacity="1.0"/>
+  <rect x="220" y="182" width="20" height="20" fill="#2E6B5E" opacity="1.0"/>
+  <rect x="244" y="182" width="20" height="20" fill="#2E6B5E" opacity="1.0"/>
+  <rect x="268" y="182" width="20" height="20" fill="#2E6B5E" opacity="1.0"/>
+  <rect x="292" y="182" width="20" height="20" fill="#2E6B5E" opacity="1.0"/>
+  <rect x="316" y="182" width="20" height="20" fill="#2E6B5E" opacity="1.0"/>
+  <rect x="340" y="182" width="20" height="20" fill="#2E6B5E" opacity="1.0"/>
+  <rect x="364" y="182" width="20" height="20" fill="#2E6B5E" opacity="1.0"/>
+  <rect x="388" y="182" width="20" height="20" fill="#2E6B5E" opacity="1.0"/>
+  <rect x="412" y="182" width="20" height="20" fill="#2E6B5E" opacity="1.0"/>
+  <rect x="436" y="182" width="20" height="20" fill="#2E6B5E" opacity="1.0"/>
+  <rect x="460" y="182" width="20" height="20" fill="#2E6B5E" opacity="1.0"/>
+  <rect x="484" y="182" width="20" height="20" fill="#2E6B5E" opacity="1.0"/>
+  <rect x="508" y="182" width="20" height="20" fill="#2E6B5E" opacity="1.0"/>
+  <rect x="532" y="182" width="20" height="20" fill="#2E6B5E" opacity="1.0"/>
+  <rect x="556" y="182" width="20" height="20" fill="#2E6B5E" opacity="1.0"/>
+  <rect x="580" y="182" width="20" height="20" fill="#2E6B5E" opacity="1.0"/>
+  <rect x="604" y="182" width="20" height="20" fill="#2E6B5E" opacity="1.0"/>
+  <rect x="628" y="182" width="20" height="20" fill="#2E6B5E" opacity="1.0"/>
+  <rect x="52" y="206" width="20" height="20" fill="#2E6B5E" opacity="1.0"/>
+  <rect x="76" y="206" width="20" height="20" fill="#2E6B5E" opacity="1.0"/>
+  <rect x="100" y="206" width="20" height="20" fill="#2E6B5E" opacity="1.0"/>
+  <rect x="124" y="206" width="20" height="20" fill="#2E6B5E" opacity="1.0"/>
+  <rect x="148" y="206" width="20" height="20" fill="#2E6B5E" opacity="1.0"/>
+  <rect x="172" y="206" width="20" height="20" fill="#2E6B5E" opacity="1.0"/>
+  <rect x="196" y="206" width="20" height="20" fill="#2E6B5E" opacity="1.0"/>
+  <rect x="220" y="206" width="20" height="20" fill="#2E6B5E" opacity="1.0"/>
+  <rect x="244" y="206" width="20" height="20" fill="#2E6B5E" opacity="1.0"/>
+  <rect x="268" y="206" width="20" height="20" fill="#2E6B5E" opacity="1.0"/>
+  <rect x="292" y="206" width="20" height="20" fill="#2E6B5E" opacity="1.0"/>
+  <rect x="316" y="206" width="20" height="20" fill="#2E6B5E" opacity="1.0"/>
+  <rect x="340" y="206" width="20" height="20" fill="#2E6B5E" opacity="1.0"/>
+  <rect x="364" y="206" width="20" height="20" fill="#2E6B5E" opacity="1.0"/>
+  <rect x="388" y="206" width="20" height="20" fill="#2E6B5E" opacity="1.0"/>
+  <rect x="412" y="206" width="20" height="20" fill="#2E6B5E" opacity="1.0"/>
+  <rect x="436" y="206" width="20" height="20" fill="#2E6B5E" opacity="1.0"/>
+  <rect x="460" y="206" width="20" height="20" fill="#2E6B5E" opacity="1.0"/>
+  <rect x="484" y="206" width="20" height="20" fill="#2E6B5E" opacity="1.0"/>
+  <rect x="508" y="206" width="20" height="20" fill="#2E6B5E" opacity="0.45"/>
+  <rect x="532" y="206" width="20" height="20" fill="#2F4C7A" opacity="1.0"/>
+  <rect x="556" y="206" width="20" height="20" fill="#2F4C7A" opacity="1.0"/>
+  <rect x="580" y="206" width="20" height="20" fill="#2F4C7A" opacity="1.0"/>
+  <rect x="604" y="206" width="20" height="20" fill="#2F4C7A" opacity="1.0"/>
+  <rect x="628" y="206" width="20" height="20" fill="#2F4C7A" opacity="1.0"/>
+  <rect x="52" y="230" width="20" height="20" fill="#2F4C7A" opacity="1.0"/>
+  <rect x="76" y="230" width="20" height="20" fill="#2F4C7A" opacity="1.0"/>
+  <rect x="100" y="230" width="20" height="20" fill="#2F4C7A" opacity="1.0"/>
+  <rect x="124" y="230" width="20" height="20" fill="#2F4C7A" opacity="1.0"/>
+  <rect x="148" y="230" width="20" height="20" fill="#2F4C7A" opacity="1.0"/>
+  <rect x="172" y="230" width="20" height="20" fill="#2F4C7A" opacity="1.0"/>
+  <rect x="196" y="230" width="20" height="20" fill="#2F4C7A" opacity="1.0"/>
+  <rect x="220" y="230" width="20" height="20" fill="#2F4C7A" opacity="1.0"/>
+  <rect x="244" y="230" width="20" height="20" fill="#2F4C7A" opacity="1.0"/>
+  <rect x="268" y="230" width="20" height="20" fill="#2F4C7A" opacity="1.0"/>
+  <rect x="292" y="230" width="20" height="20" fill="#2F4C7A" opacity="1.0"/>
+  <rect x="316" y="230" width="20" height="20" fill="#2F4C7A" opacity="1.0"/>
+  <rect x="340" y="230" width="20" height="20" fill="#2F4C7A" opacity="1.0"/>
+  <rect x="364" y="230" width="20" height="20" fill="#2F4C7A" opacity="1.0"/>
+  <rect x="388" y="230" width="20" height="20" fill="#2F4C7A" opacity="1.0"/>
+  <rect x="412" y="230" width="20" height="20" fill="#2F4C7A" opacity="1.0"/>
+  <rect x="436" y="230" width="20" height="20" fill="#2F4C7A" opacity="1.0"/>
+  <rect x="460" y="230" width="20" height="20" fill="#2F4C7A" opacity="1.0"/>
+  <rect x="484" y="230" width="20" height="20" fill="#2F4C7A" opacity="1.0"/>
+  <rect x="508" y="230" width="20" height="20" fill="#2F4C7A" opacity="1.0"/>
+  <rect x="532" y="230" width="20" height="20" fill="#2F4C7A" opacity="1.0"/>
+  <rect x="556" y="230" width="20" height="20" fill="#2F4C7A" opacity="1.0"/>
+  <rect x="580" y="230" width="20" height="20" fill="#2F4C7A" opacity="1.0"/>
+  <rect x="604" y="230" width="20" height="20" fill="#5F6157" opacity="1.0"/>
+  <path d="M 44 180.0 L 652 180.0" stroke="#2A2A28" stroke-width="1.6"/>
+  <text x="40" y="176.0" class="mapx" text-anchor="end">75</text>
+  <text x="40" y="192.0" class="mapx" text-anchor="end">74</text>
+  <rect x="14" y="274" width="12" height="12" fill="#9A3B2E" opacity="1.0"/>
+  <text x="34" y="284" class="mapx">Social Democrats · 55</text>
+  <rect x="364" y="274" width="12" height="12" fill="#8C5A3C" opacity="1.0"/>
+  <text x="384" y="284" class="mapx">Radicals · 20</text>
+  <rect x="14" y="296" width="12" height="12" fill="#2E6B5E" opacity="1.0"/>
+  <text x="34" y="306" class="mapx">Venstre · 44</text>
+  <rect x="364" y="296" width="12" height="12" fill="#2E6B5E" opacity="0.45"/>
+  <text x="384" y="306" class="mapx">Venstre, Faroes · 1</text>
+  <rect x="14" y="318" width="12" height="12" fill="#2F4C7A" opacity="1.0"/>
+  <text x="34" y="328" class="mapx">Conservatives · 28</text>
+  <rect x="364" y="318" width="12" height="12" fill="#5F6157" opacity="1.0"/>
+  <text x="384" y="328" class="mapx">Slesvig Party · 1</text>
+  <text x="14" y="358" class="mapx">148 seats on the mainland and one for the Faroes. Turnout 78.6 per cent. Source: the Statistical Department's count,</text>
+  <text x="14" y="371" class="mapx">whose two tables agree.</text>
+  </svg>
+<figcaption><b>Figure 3 · The Folketing of 11 April 1924</b>
+One square a seat. Social Democrats and Radicals together fill the first three rows, seventy-five of 149, which is a majority of one. Forty years earlier the Social Democrats had two.</figcaption>
+</figure>
+
+<div class="check">
+  <h4>Checkpoint</h4>
+  <ul>
+    <li>Who paid for the reconstruction of September 1922, and what did the state add in February 1923?</li>
+    <li>What did the army law of 1922 do to the army the war had built, and what was Peter Munch's argument for it?</li>
+    <li>How many seats did the Social Democrats and the Radicals hold together after 11 April 1924, and why did that matter?</li>
+  </ul>
+</div>
+
+<h2 id="s07"><span class="n">07 / NARRATIVE</span>Nina Bang</h2>
+
+<div class="terms">
+  <h4>Danish terms in this section</h4>
+  <dl class="one">
+    <div class="t"><dt>privatist</dt><dd>a candidate examined without having attended the school that prepares for the examination.</dd></div>
+  </dl>
+</div>
+
+<p>Nina Bang was the only woman in Stauning's government and the first woman to hold ministerial office in Denmark. She was fifty-seven, a historian, and a member of the Landsting, to which she had been elected in 1918, the first time women could both vote and stand.</p>
+
+<p>She had been in politics a long time by then. She sat on the Copenhagen city council from 1913 to 1917. The Folketing elected in April 1924 had three women among its members, all of whom had sat before; sixteen of the 498 candidates had been women.</p>
+
+<p>She was one of nine children of German immigrants. Her father was an army horn player who became a military bandmaster, the family moved to Helsingør, and her mother died young. Girls could not then go to the state grammar schools, so she was examined privately in 1889, and that year she was one of eight women among 314 new students at the university. She read history and wrote her thesis on the Sound Toll, and she later published, with public and then private money, tables of the ships and cargoes that passed through the Sound from 1497 to 1660: chapter 18's subject, seen from inside the toll books.</p>
+
+<div class="vig">
+<h4>Vignette · Nina Bang, Copenhagen, 23 April 1924</h4>
+<p>The government is formed today, and she is in it.</p>
+<p>When she sat her examination there was no state school in the country that would have prepared a girl for it. From today every school in the country answers to her ministry.</p>
+<p>The men beside her include a tobacco worker who is now prime minister, the lawyer who wrote the handbook of the poor law, and the editor who four years ago put <i class="dk">Kongen begaar Statskup</i> across the front of <i class="dk">Social-Demokraten</i>.</p>
+<p>The non-socialist papers will spend two years attacking her as a socialist and as a woman, and it will not always be clear which they mind more.</p>
+<p class="who">Nina Bang, minister of education · Copenhagen · 23 April 1924 · [f]</p>
+</div>
+
+<p>She had joined <i class="dk">Social-Demokraten</i> as a journalist in 1898, and in 1903 became the only woman on the party's executive. She was a Marxist before anything else. The class struggle came before the women's question, she said so, and she criticised the conservative women's movement for blurring the differences between classes; historians of women's politics have called her ambivalent about the women's cause and no feminist. As minister she worked on teacher training and on democratising the way schools were governed.</p>
+
+<p>She left office with the government in December 1926 and died in March 1928. The claim that she was the first woman minister in the world is taken up in the Myth-check, and it is wrong in an instructive way. Denmark did not appoint another woman minister until Fanny Jensen, twenty-three years after her.</p>
+
+<div class="meanwhile">
+<h4>Meanwhile · Oslo, 1925–1928.</h4>
+<p>Norway pursued par too, and further. Its krone had fallen towards half its pre-war value during a banking crisis in the early 1920s. From 1925 the aim was the old gold value, reached on 1 May 1928, by which time unemployment was very high and farms were going to forced sale. A Labour government that took office that winter lasted only weeks and resigned on 15 February 1928. Denmark and Norway ran the same experiment, and the country that ran it longer paid more.</p>
+</div>
+
+<h2 id="s08"><span class="n">08 / NARRATIVE</span>Steincke's plan, and the other half of it</h2>
+
+<div class="terms">
+  <h4>Danish terms in this section</h4>
+  <dl>
+    <div class="t"><dt>forsørgelsesvæsen</dt><dd>the whole system of public provision for those who cannot support themselves: poor relief, old-age support, care of the sick and disabled.</dd></div>
+    <div class="t"><dt>racehygiejne</dt><dd>race hygiene, the Danish word of the period for eugenics: the programme of improving a population by controlling who may have children.</dd></div>
+  </dl>
+</div>
+
+<p>K. K. Steincke had spent his working life inside the poor law. From 1907 he worked in the poor-relief administration of Frederiksberg, and his handbook of 1910, <i class="dk">Offentlig Hjælp</i>, became the standard work for the municipal officials who applied it. In 1919 the Ministry of the Interior asked him to set out the principles of a new system. His answer, <i class="dk">Fremtidens Forsørgelsesvæsen</i>, the social provision of the future, appeared in 1920. It waited thirteen years. When the social reform of 1933 was passed, with Steincke as social minister, it was built very largely on what he had proposed in 1920.</p>
+
+<p>The book had another half. The same programme that meant to give the poor help without humiliation also held that the state should prevent those it judged inferior from having children, and said so plainly. Steincke did not see a contradiction, and it is worth taking seriously that he did not: both halves rest on the claim that the state is responsible for the whole population, and a state that is responsible may decide.</p>
+
+<p>Denmark's law on access to sterilisation was passed on 1 June 1929, a month after Steincke returned to office as social minister. It was the first national sterilisation law of its kind in Europe, preceded only by a Swiss canton, and German propagandists later pointed to Denmark as proof that they were not alone. It was framed as an experiment and written to be reviewed. When it was reviewed, in 1935, it was widened, and compulsory castration was added.</p>
+
+<p>The usual account of Steincke is the architect of the welfare state. That is true, and it is half of the book he wrote.</p>
+
+<h2 id="s09"><span class="n">09 / NARRATIVE</span>Madsen-Mygdal, and the return to gold</h2>
+
+<div class="terms">
+  <h4>Danish terms in this section</h4>
+  <dl>
+    <div class="t"><dt>pari</dt><dd>par: a currency's old fixed value in gold. <i class="dk">Paripolitik</i> is the policy of bringing it back there.</dd></div>
+    <div class="t"><dt>guldindløselighed</dt><dd>gold convertibility: the National Bank's duty to exchange its notes for gold on demand, restored from 1 January 1927.</dd></div>
+    <div class="t"><dt>selvstyrebevægelsen</dt><dd>the self-government movement founded in Sønderjylland in 1925 by Cornelius Petersen.</dd></div>
+  </dl>
+</div>
+
+<p>The krone had come out of the war worth less than its old gold value, and Danish governments of both colours meant to bring it back. The policy had the same name in all three Scandinavian countries, <i class="dk">pari</i>, and Sweden and Britain pursued it too. It was not a party question. The argument was about speed, and about who paid.</p>
+
+<p>A rising krone makes exports dearer and debts heavier. For a country of farmers who had borrowed during the inflation, a krone restored to its old value meant repaying more than they had received. Through 1925 the krone climbed, and in January 1926 Stauning's trade ministry sent the Rigsdag's currency committee a report by two professors, the economist Axel Nielsen and the lawyer Henry Ussing, on another road: fixing the krone for good at about ninety-one øre in gold, the value of an English shilling, and not taking it all the way back. That road was not taken. By the end of February 1926 the krone was within a few per cent of the old parity. Opening the Rigsdag on 5 October, Stauning told it that the currency had regained its old value, that gold convertibility was all that remained, and that the shift in values had caused difficulties which made the international crisis worse in Denmark. Two months later his government was gone.</p>
+
+<p>Venstre's Thomas Madsen-Mygdal formed the next one on 14 December 1926, with Niels Neergaard as finance minister, the man who had sat on Green's figure four years before. A law of 27 December 1926 made the National Bank's notes redeemable in gold again from 1 January 1927. In December the pound had averaged 18.20 kroner.</p>
+
+<p>In Sønderjylland the arithmetic was brutal. People who had borrowed cheap kroner in the years just after 1920 now owed the same number of dear ones, and for many the burden doubled. The state found 8.7 million kroner in 1926 for second mortgages through the local savings banks, and in 1927 set up a mortgage fund with twenty million more.</p>
+
+<p>It also got a protest. Cornelius Petersen was a Frisian, born in Eiderstedt in 1882, who had farmed at Vester Anflod in Møgeltønder parish since 1904 and had come over to the Danish side in 1919. Speculation cost him money and the rising krone put him in real trouble. In 1925 he founded a self-government movement that demanded home rule for parishes and hundreds on hazy ideas of old Danish law, and from January 1926 he published a weekly, <i class="dk">Bondens Selvstyre</i>. On the Saturday before Whitsun 1927 his movement put its own money into circulation, seven or eight thousand kroner of S.O.S. notes. The one-krone note carried a picture of his farm. The National Bank did not think it worth pursuing.</p>
+
+<p>His paper printed a remark it attributed to Stauning at an inn in Bov: that it did not matter if fifty thousand farmers left their farms, since there were fifty thousand unemployed to take them over. As far as this chapter can establish, the remark rests on that paper alone, and Petersen was fined two thousand kroner for the attack. It is still evidence of what the rising krone felt like on the land. At the election that December he won about two thousand votes. The paper closed in June 1928, and he died in Tønder in 1935, after time in a nerve clinic and a mental hospital.</p>
+
+<p>Madsen-Mygdal's government lost the election of 24 April 1929. The usual telling of the return to gold is sound money restored, and in its own terms it was. The cost fell on debtors, and it fell hardest on the province that had only just joined.</p>
+
+<div class="check">
+  <h4>Checkpoint</h4>
+  <ul>
+    <li>What was Nina Bang the first to be, and what is she wrongly said to be the first to be?</li>
+    <li>Steincke's report of 1920 had two halves. Name both, and the law of 1929 that came from the second.</li>
+    <li>What did the law of 27 December 1926 do, and why did it bear hardest on Sønderjylland?</li>
+  </ul>
+</div>
+
+<h2 id="s10"><span class="n">10 / NARRATIVE</span>What the twenties settled, and what they did not</h2>
+
+<p>Some things were settled. The king who had dismissed a government with a majority in 1920 appointed a Social Democratic one in 1924, and the change of government after the election of 1926 went through in the ordinary forms. Parliamentarism was written nowhere. It was simply done, and the doing made it harder to undo.</p>
+
+<p>The realm was settled on paper. In 1921 Denmark declared its sovereignty over the whole of Greenland. The United States had agreed not to object when it bought the West Indies, France, Italy and Japan had recognised the claim in 1920, and Britain had recognised it with a reservation. Norway did not recognise it, and objected.</p>
+
+<p>Other things were not settled. A Folketing majority had voted to abolish the armed forces and the forces still existed. The Landsting still stood where the disarmament bill had stopped. The krone was back on gold, and unemployment would not be as low as in 1920 again before this book ends. The two minorities chapter 38 created were still where it left them.</p>
+
+<p>On 30 April 1929 Stauning formed his second government, this time with the Radicals inside it. Peter Munch, who believed Denmark could not fight a war, took the foreign ministry that day and kept it for eleven years. K. K. Steincke, whose book of 1920 the next chapter would turn into law, took the ministry of social affairs, and on 1 June the sterilisation law was on the statute book.</p>
+
+<hr class="div">
+
+<div class="myth" id="myth">
+<h4>Myth-check</h4>
+<dl>
+  <dt>"Nina Bang was the world's first woman minister." She was not. Aleksandra Kollontai was appointed people's commissar for social welfare in Russia after the October Revolution of 1917 and held the post until March 1918. What Nina Bang was is smaller and more exact: the first woman appointed a minister by a parliamentary government. The larger claim is still printed in serious reference works, the Norwegian national encyclopedia among them, and it survives partly because Kollontai's government was not the kind that Western readers counted.</dt>
+  <dd><strong>"Glückstadt ruined Landmandsbanken."</strong> He ran it, falsified its position, and was convicted after his death. But two ministers stood behind the bank's own figure in July 1922 and withheld the inspector's; the most powerful businessman in the country had speculated alongside the bank, agreed to chair its rescued board, and withdrew within three weeks; and the commission stopped work as it approached him and the royal family. The largest loss, on the Transatlantic Company, was never tried at all. Glückstadt was guilty, and he was also convenient.</dd>
+  <dt>"Stauning's first government disarmed Denmark." It tried to. Its bill to abolish the military establishment passed the Folketing and went no further, and the army law of 1922 stayed in force until the next one, in 1932. The reduction of the army in the 1920s was a settlement most of the Rigsdag shared, not a Social Democratic act.</dt>
+  <dd></dd>
+</dl>
+</div>
+
+<p class="kicker">Threads and links</p>
+<h2 id="forward" style="margin-top:0"><span class="n">WHERE THIS GOES</span>What to carry forward</h2>
+<ul class="calls">
+  <li><b>→ 40</b><span>Steincke's plan of 1920 becomes the social reform of 1933, after a night of bargaining in Kanslergade.</span></li>
+  <li><b>→ 40</b><span>Norway occupies part of eastern Greenland in 1931, and the court at The Hague decides the claim of 1921 in 1933.</span></li>
+  <li><b>→ 40</b><span>The unemployment that never returned to its 1920 level becomes the depression of the 1930s.</span></li>
+  <li><b>→ 41</b><span>Munch's argument that Denmark could not fight is tested on 9 April 1940.</span></li>
+  <li><b>→ 43</b><span>Denmark's second woman minister, Fanny Jensen, takes office in 1947.</span></li>
+  <li><b>→ 44</b><span>The Landsting, where the disarmament bill of the 1920s stopped, is abolished in 1953.</span></li>
+</ul>
+
+<p class="kicker">Summary</p>
+<h2 id="summary" style="margin-top:0"><span class="n">IF YOU REMEMBER FIVE THINGS</span>The page in five</h2>
+<ol class="five">
+  <li><p>The wartime boom ended in 1920, and with it an economy. In every year from 1921 to 1953 unemployment among the insured stayed above its 1920 level, and the decade's politics were about who would carry the cost of making the krone sound again.</p></li>
+  <li><p>Sønderjylland joined the kingdom still reckoning partly in marks. There was no exchange of marks into kroner; savings and debts written in marks stayed there and fell with the German currency. The state paid sixty million kroner in compensation, and the new province then borrowed cheap kroner that the return to gold made dear.</p></li>
+  <li><p>Landmandsbanken, the largest bank in Scandinavia, failed in 1922. Two ministers stood behind its own loss figure in July and withheld the inspector's, the state put up most of about seventy million kroner of new capital in September, and in February 1923 it guaranteed the bank outright. Emil Glückstadt died before his verdict and was found guilty anyway; the commission stopped as it approached H. N. Andersen and the royal family.</p></li>
+  <li><p>The Social Democrats, who entered the Folketing with two seats in 1884, became its largest party on 11 April 1924 and formed a minority government on a Folketing majority of one with the Radicals. Nina Bang became Denmark's first woman minister. The government's disarmament bill passed the Folketing and got no further, and the government fell in December 1926 over the consequences of the rising krone.</p></li>
+  <li><p>Madsen-Mygdal's government made the krone redeemable in gold from 1 January 1927. The cost fell hardest in Sønderjylland, where debts doubled and a farmer printed his own money in protest. In 1929 Stauning returned with the Radicals, Munch at the foreign ministry and Steincke at social affairs, and the sterilisation law that came from Steincke's plan was passed within weeks.</p></li>
+</ol>
+
+<p class="kicker">Questions &amp; discussion</p>
+<h2 id="questions" style="margin-top:0"><span class="n">FOUR KINDS</span>Work the material</h2>
+
+<div class="qgroup">
+  <p class="qlabel">Recall</p>
+  <p class="qnote">Did the facts land?</p>
+  <ul>
+    <li>What was the <i class="dk">Udligningskassen for Sønderjylland</i>, how much did it hold, and how many people received compensation from it?</li>
+    <li>What happened on the weekend of 8 and 9 July 1922, and what was left out of the statement that followed?</li>
+    <li>How many seats did the Social Democrats win on 11 April 1924, and how many did they and the Radicals hold together out of 149?</li>
+  </ul>
+</div>
+<div class="qgroup">
+  <p class="qlabel">Causal</p>
+  <p class="qnote">Why did it happen that way?</p>
+  <ul>
+    <li>Explain why there was no single day on which Sønderjylland's marks were exchanged for kroner, and why that made the German inflation matter so much in the new province.</li>
+    <li>A Venstre government rescued a private bank with state money in 1922. Give the reasons it was reluctant and the reasons it did so anyway.</li>
+    <li>Trace how a policy all parties shared, the return of the krone to its old gold value, brought down the first Social Democratic government and bore hardest on Sønderjylland.</li>
+  </ul>
+</div>
+<div class="qgroup">
+  <p class="qlabel">Counterfactual</p>
+  <p class="qnote">What if it had gone otherwise?</p>
+  <ul>
+    <li>Suppose Green's figure of 144 million had been published in July 1922. What would the bank's customers have done, and what would the government have had to do?</li>
+    <li>Suppose the Rigsdag had fixed the krone at about ninety-one gold øre in 1926, as the report to its currency committee described. Who would have gained and who would have lost?</li>
+    <li>Suppose the disarmament bill had passed the Landsting. What would Denmark have had in place of an army in 1940, and would it have made any difference?</li>
+  </ul>
+</div>
+<div class="qgroup">
+  <p class="qlabel">Contested</p>
+  <p class="qnote">Where do historians disagree?</p>
+  <ul>
+    <li>Was Emil Glückstadt the author of the Landmandsbank crash or its scapegoat? Use the commission's history in your answer.</li>
+    <li>Munch held that a small state bordering a great power should not pretend it could defend itself. Make the case that this was realism, and the case that it was a failure of nerve.</li>
+    <li>Steincke's plan of 1920 contained both the principle of help without humiliation and a programme of eugenics. Were these one idea or two? ---</li>
+  </ul>
+</div>
+
+<p class="kicker">Sources</p>
+<h2 id="sources" style="margin-top:0"><span class="n">LIGHT SOURCING</span>What this is built on</h2>
+<ul class="plain">
+  <li><span class="nm">—</span>
+    <span class="ds">Unemployment: <i class="dk">Statistiske Meddelelser</i> 4. R., 160. Bd., 4. H., <i class="dk">Arbejdsløsheden 1954</i> (1955), text to table 4: 1954's average of 8.0 per cent was the lowest since 1920. The five-year volumes for 1910–1930 are identified as 4. R. 48. Bd. 5. H. (1915), 61. Bd. 4. H. (1921), 74. Bd. 2. H. (1926) and 88. Bd. 4. H. (1932), in that volume and in the department's publication list in <i class="dk">Statistisk Aarbog</i> 1936; their annual tables have not yet been read, which is why this chapter has no unemployment figure.</span></li>
+  <li><span class="nm">—</span>
+    <span class="ds">The 1924 election: <i class="dk">Statistiske Meddelelser</i> 4. R., 71. Bd., 1. H., <i class="dk">Folketingsvalget den 11. April 1924</i>. Seats 55/44/28/20/1, total 148 plus the Faroes; turnout 78.6 per cent; 16 women among 498 candidates, three elected; 96.9 per cent of Social Democratic voters for the district candidate. The seat total is printed twice in the volume, once by party and once split into re-elected and newly elected members, and the two agree.</span></li>
+  <li><span class="nm">—</span>
+    <span class="ds">Sønderjylland's money: J. Sømod in <i class="dk">Skilling</i> (1995), on the reckoning change of 20 May 1920 and the postal small change of 1921–22 (issued 474,234 ten-øre and 467,583 twenty-five-øre pieces, face value 164,319.15 kroner; returned 340,129 and 358,452, 123,625.90 kroner; both totals reconcile with the counts); M. Andersen in <i class="dk">Sønderjylland A–Å</i> (2011) on the equalisation fund, the state loans and the doubled debts; G. Galster in <i class="dk">Nordisk Numismatisk Årsskrift</i> 1953 on the Uge notes of 1920, Cornelius Petersen and the S.O.S. notes, quoting the National Bank's accounts for 1926–27 on the law of 27 December 1926.</span></li>
+  <li><span class="nm">—</span>
+    <span class="ds">Landmandsbanken: N. F. Christiansen, <i class="dk">Gyldendal og Politikens Danmarkshistorie</i> (2nd ed.), for the July rescue, the September figures and the commission; A. T. Sørensen on danmarkshistorien.dk for the inspection, the statement and the guarantee; lex.dk on the prosecutions; Dansk Biografisk Leksikon on Glückstadt's death. Søren Mørch, <i class="dk">Det store bankkrak</i> (1986), is the standard study.</span></li>
+  <li><span class="nm">—</span>
+    <span class="ds">Defence: M. H. Clemmesen in <i class="dk">Fra Krig og Fred</i> (2021) on the 1922 army law and the interwar debate; Stauning's speech opening the Rigsdag, 5 October 1926, on the disarmament bill and the currency.</span></li>
+  <li><span class="nm">Open questions this chapter carries.</span>
+    <span class="ds">Glückstadt's conviction is dated to July 1923 in one account and left undated in others. One account has twelve directors and board members fined, another three leaders fined and everyone else acquitted, and they may be describing different stages of the same case. The split of the September capital between the state, the East Asiatic Company, the National Bank and Great Northern rests on one account; a pamphlet of 1928 gives the total but not the shares. Stauning's first government is dated from 23 April 1924 in most sources and from 24 April in one. The remark attributed to Stauning at Bov rests on Cornelius Petersen's own paper. ---</span></li>
+</ul>
+
+<p class="kicker">Go and look</p>
+<h2 id="visit" style="margin-top:0"><span class="n">STILL THERE</span>Places you can visit</h2>
+<ul class="plain">
+  <li><span class="nm">Designmuseum Danmark, Bredgade, Copenhagen.</span>
+    <span class="ds">The buildings of the old Frederiks Hospital, which Emil Glückstadt gave to the Museum of Decorative Art in 1919. He died in another hospital in 1923.</span></li>
+  <li><span class="nm">Bispebjerg Cemetery, Copenhagen.</span>
+    <span class="ds">Nina Bang's grave.</span></li>
+  <li><span class="nm">Nørregade 30, Haderslev.</span>
+    <span class="ds">Haderslev Bank's building in the 1920s, one of the four northern banks the state lent three million kroner to lend on. Haderslev took more of the postal small change than any of the other three market towns.</span></li>
+  <li><span class="nm">Møgeltønder.</span>
+    <span class="ds">Cornelius Petersen's parish, a few kilometres from the border that the province had voted itself behind.</span></li>
+</ul>
+
+<footer>
+  Chapter 39 · Part I · 1920 – 1929 &middot; <a href="danish-history-index.html#c39">back to the index</a>
+</footer>
+
+</div>
+<script>
+(function(){
+  var links = Array.prototype.slice.call(document.querySelectorAll('.rail a'));
+  var map = {};
+  links.forEach(function(a){ map[a.getAttribute('href').slice(1)] = a; });
+  var targets = Object.keys(map).map(function(id){ return document.getElementById(id); })
+                 .filter(Boolean);
+  if(!('IntersectionObserver' in window) || !targets.length) return;
+  var seen = {};
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){ seen[e.target.id] = e.isIntersecting ? e.boundingClientRect.top : null; });
+    var best = null;
+    targets.forEach(function(t){
+      var r = t.getBoundingClientRect();
+      if(r.top <= 140) best = t.id;
+    });
+    if(!best) best = targets[0].id;
+    links.forEach(function(a){ a.classList.remove('active'); });
+    if(map[best]) map[best].classList.add('active');
+  }, {rootMargin:'-120px 0px -70% 0px', threshold:[0,1]});
+  targets.forEach(function(t){ io.observe(t); });
+  window.addEventListener('scroll', function(){
+    var best = null;
+    targets.forEach(function(t){ if(t.getBoundingClientRect().top <= 140) best = t.id; });
+    if(!best) best = targets[0].id;
+    links.forEach(function(a){ a.classList.remove('active'); });
+    if(map[best]) map[best].classList.add('active');
+  }, {passive:true});
+})();
+</script>
+</body>
+</html>

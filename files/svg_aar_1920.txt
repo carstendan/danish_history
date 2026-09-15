@@ -17,8 +17,8 @@
   <text x="114" y="186.0" class="mapx" text-anchor="end" fill="#2A2A28">30 Mar</text>
   <text x="150" y="186.0" class="mapx" fill="#2A2A28">The trade union federation calls a general strike for 6 April.</text>
   <circle cx="124" cy="212.0" r="2.6" fill="#9A3B2E"/>
-  <text x="114" y="216.0" class="mapx" text-anchor="end" fill="#2A2A28">31 Mar</text>
-  <text x="150" y="216.0" class="mapx" fill="#2A2A28">The king gives way. Liebe out, Friis in, to pass a law and call a vote.</text>
+  <text x="114" y="216.0" class="mapx" text-anchor="end" fill="#2A2A28">4 Apr</text>
+  <text x="150" y="216.0" class="mapx" fill="#2A2A28">Easter Sunday. The king gives way: Liebe out, Friis in, to hold a vote.</text>
   <circle cx="124" cy="242.0" r="2.6" fill="#8C5A3C"/>
   <text x="114" y="246.0" class="mapx" text-anchor="end" fill="#2A2A28">11 Apr</text>
   <text x="150" y="246.0" class="mapx" fill="#2A2A28">A new electoral law.</text>

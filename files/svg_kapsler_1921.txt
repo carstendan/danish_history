@@ -1,0 +1,29 @@
+<svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Postage stamps sealed in iron and celluloid capsules and used as small change in Soenderjylland in 1921 and 1922. 474,234 ten-oere and 467,583 twenty-five-oere pieces were issued; about a quarter of them were never handed back. Haderslev received the most of the four market towns.">
+  <rect x="0" y="0" width="700" height="430" fill="#F4F1EA"/>
+  <text x="14" y="24" class="mapl">SMALL CHANGE IN A CAPSULE, 1921 – 1922</text>
+  <text x="14" y="40" class="mapt">a stamp under celluloid, passed from hand to hand in the new province</text>
+  <text x="14" y="62" class="mapx" opacity=".75">Solid: handed back when called in. Open: never came back.</text>
+  <text x="14" y="117" class="mapt">10 øre · Kronborg</text>
+  <rect x="177" y="104" width="503.0" height="18" fill="none" stroke="#8C5A3C" stroke-width="1"/>
+  <rect x="177" y="104" width="360.8" height="18" fill="#8C5A3C"/>
+  <text x="177" y="134" class="mapx">474,234 issued · 340,129 back · 134,105 kept</text>
+  <text x="14" y="163" class="mapt">25 øre · Christian 10.</text>
+  <rect x="177" y="150" width="495.9" height="18" fill="none" stroke="#8C5A3C" stroke-width="1"/>
+  <rect x="177" y="150" width="380.2" height="18" fill="#8C5A3C"/>
+  <text x="177" y="180" class="mapx">467,583 issued · 358,452 back · 109,131 kept</text>
+  <text x="14" y="224" class="mapt">Where they went: the four market towns, both values</text>
+  <text x="14" y="251" class="mapx">Haderslev</text>
+  <rect x="177" y="240" width="457.6" height="14" fill="#2E6B5E"/>
+  <text x="640.6" y="251" class="mapx">102,380</text>
+  <text x="14" y="281" class="mapx">Sønderborg</text>
+  <rect x="177" y="270" width="339.7" height="14" fill="#2E6B5E"/>
+  <text x="522.7" y="281" class="mapx">75,998</text>
+  <text x="14" y="311" class="mapx">Aabenraa</text>
+  <rect x="177" y="300" width="313.3" height="14" fill="#2E6B5E"/>
+  <text x="496.3" y="311" class="mapx">70,104</text>
+  <text x="14" y="341" class="mapx">Tønder</text>
+  <rect x="177" y="330" width="309.2" height="14" fill="#2E6B5E"/>
+  <text x="492.2" y="341" class="mapx">69,180</text>
+  <text x="14" y="374" class="mapx">The other 624,155 went out through the province's other post offices. Face value issued 164,319.15 kroner, returned</text>
+  <text x="14" y="387" class="mapx">123,625.90: the source's counts and totals agree to the øre. About 26 per cent were never handed back.</text>
+  </svg>

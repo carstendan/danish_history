@@ -1,0 +1,37 @@
+<svg viewBox="0 0 700 476" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A calendar of the Landmandsbank crisis, May 1922 to 1928: a secret inspection, a first rescue in July with extra reserve from the National Bank, a second in September with about seventy million kroner of new capital approved unanimously by the Rigsdag, a commission, a state guarantee in February 1923, the arrest and death of the bank's director, and the final settlement in 1928.">
+  <rect x="0" y="0" width="700" height="476" fill="#F4F1EA"/>
+  <text x="14" y="24" class="mapl">LANDMANDSBANKEN, 1922 – 1923</text>
+  <text x="14" y="40" class="mapt">two rescues and a guarantee for the largest bank in Scandinavia</text>
+  <text x="14" y="62" class="mapx" opacity=".75">Loss estimates and the split of the new capital are in the text, not here: each rests on one account.</text>
+  <path d="M 124 84 L 124 400" stroke="#2A2A28" stroke-width="1.2" opacity=".45"/>
+  <circle cx="124" cy="92" r="2.6" fill="#9A3B2E"/>
+  <text x="114" y="96" class="mapx" text-anchor="end">May–Jul 1922</text>
+  <text x="150" y="96" class="mapx" fill="#2A2A28">Holmer Green, the state's first bank inspector, goes through the bank's books in secret.</text>
+  <circle cx="124" cy="126" r="4.2" fill="#8C5A3C"/>
+  <text x="114" y="130" class="mapx" text-anchor="end">9 Jul</text>
+  <text x="150" y="130" class="mapt" fill="#8C5A3C">RESCUE ONE — 30 million of extra reserve from the National Bank, and a statement that</text>
+  <text x="150" y="142" class="mapt" fill="#8C5A3C">follows the bank's own figures.</text>
+  <circle cx="124" cy="172" r="4.2" fill="#8C5A3C"/>
+  <text x="114" y="176" class="mapx" text-anchor="end">17 Sep</text>
+  <text x="150" y="176" class="mapt" fill="#8C5A3C">RESCUE TWO — the bank is reconstructed with about 70 million kroner of new share</text>
+  <text x="150" y="188" class="mapt" fill="#8C5A3C">capital.</text>
+  <circle cx="124" cy="218" r="2.6" fill="#2F4C7A"/>
+  <text x="114" y="222" class="mapx" text-anchor="end">19 Sep</text>
+  <text x="150" y="222" class="mapx" fill="#2A2A28">The Rigsdag, recalled for an extraordinary session, approves it unanimously.</text>
+  <circle cx="124" cy="252" r="2.6" fill="#2F4C7A"/>
+  <text x="114" y="256" class="mapx" text-anchor="end">Sep</text>
+  <text x="150" y="256" class="mapx" fill="#2A2A28">A commission is appointed to find out what happened.</text>
+  <circle cx="124" cy="286" r="4.2" fill="#9A3B2E"/>
+  <text x="114" y="290" class="mapx" text-anchor="end">5 Feb 1923</text>
+  <text x="150" y="290" class="mapt" fill="#9A3B2E">THE GUARANTEE — the state stands behind the bank's obligations, deposits included.</text>
+  <circle cx="124" cy="320" r="2.6" fill="#2F4C7A"/>
+  <text x="114" y="324" class="mapx" text-anchor="end">Mar</text>
+  <text x="150" y="324" class="mapx" fill="#2A2A28">Emil Glückstadt is remanded in custody.</text>
+  <circle cx="124" cy="354" r="2.6" fill="#2F4C7A"/>
+  <text x="114" y="358" class="mapx" text-anchor="end">23 Jun</text>
+  <text x="150" y="358" class="mapx" fill="#2A2A28">Glückstadt dies in hospital, before judgement.</text>
+  <circle cx="124" cy="388" r="2.6" fill="#9A3B2E"/>
+  <text x="114" y="392" class="mapx" text-anchor="end">1928</text>
+  <text x="150" y="392" class="mapx" fill="#2A2A28">The bank's affairs are finally settled.</text>
+  <text x="14" y="426" class="mapx">Brown: the bank. Red: the state. Blue: the courts and the Rigsdag.</text>
+  </svg>
