@@ -2128,3 +2128,32 @@ split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see it
    published both as 74.9/25.1 and as 74.2/24.9, and both are correct. 74.9 is the
    share of valid votes, 74.2 the share of all 101,652 ballots cast; the gap is
    892 spoiled papers. The chapter says so rather than picking one.
+
+86. **Chapter 38's figure 1 is built, on the item 82 design, and it took four
+   renders that no automated check could have shortened.** `validate()` caught an
+   unclosed group before anything reached disk - `detail_base` opens a clip group
+   the caller must close, and the translate wrapper is a second one. `M.check()`
+   caught two legend lines running off the canvas, and then the wrapped legend
+   falling off the bottom; the canvas height is now COMPUTED from the folded line
+   count rather than typed. Everything after that was visible only in the PNG:
+   the bands filled the North Sea and the Little Belt because `detail_base`, unlike
+   the territory maps, opens no land clip; extending the bands past the coast to
+   fix that put **Funen inside Zone 1**; and the first clipped render cut **Als**
+   out of Zone 1 on the band's closing diagonal. Als and Funen overlap in
+   longitude - Als reaches 10.060, Funen begins at 9.859 - so no cutoff meridian
+   separates them and the closure had to follow the Little Belt. Verified by
+   point-in-polygon against the atlas rings: Als 9/9 in, Funen 0/21, Ærø 0/9,
+   Langeland 0/9.
+
+   Als falling out of a figure because an outline was generous enough for the
+   mainland and not for the island is item 78, four days after item 78. **The
+   island is not the problem. Closing a polygon on a straight line between two
+   coastal endpoints is the problem, and it will recur in every figure that draws
+   a band across this coast.**
+
+87. **Tønder carries no count on figure 1 and should not until the returns are
+   read.** Two sources give 761 Danish of 3,265 and 750 of 3,198. They disagree in
+   both numerator and denominator, which is not rounding. Aabenraa (2,224/2,725),
+   Sønderborg (2,029/2,601) and Højer (219/581) each appear twice and agree digit
+   for digit, and those three carry their figures on the face. Tønder is marked as
+   a German majority, which every source agrees on, with no number.
