@@ -10,9 +10,9 @@ the argument.
 ## Vocabulary — settled, do not drift
 
 - **Part** — a lettered span, A to I. Part E is chapters 16–20; Part F is 21–24.
-- **Chapter** — a numbered page, 01 upward. There are 43: Part G took seven
+- **Chapter** — a numbered page, 01 upward. There are 44: Part G took seven
   chapters rather than six (decision D-2, Aug 2026), so everything from the old 29
-  upward shifted by one.
+  upward shifted by one, and Part I took eight (D-10, Sept 2026).
 - **Section** — a numbered unit inside a chapter, 01 to about 12.
 
 *Band* and *entry* are retired, in the index too as of August 2026. The only
@@ -36,7 +36,7 @@ written — see Lessons.
 | F | 21–24 | 1536–1660 | **built, reviewed, revised, closed; online** |
 | G | 25–31 | 1660–1814 | **built, reviewed, revised; all seven round-trip clean** |
 | H | 32–36 | 1814–1901 | **built, verified, indexed, closed — see `PLAN_H.md`** |
-| I | 37–44 | 1901–1955 | **planned Sept 2026 — see `PLAN_I.md`**; nothing drafted |
+| I | 37–44 | 1901–1955 | **in progress — see `PLAN_I.md`**; 37, 38 and 39 built, verified and indexed; 40–44 to draft |
 
 All of 01–24 are published to a web folder. Chapter pages carry two links back to
 the index, inserted by `linkindex.py` — see Tools.
@@ -2345,3 +2345,140 @@ split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see it
    deletes whole lines silently deletes a sentence of the chapter. **Read the
    blocks, then write the rule.** The working version prints what it removed and
    asserts the heading count is unchanged before it writes.
+
+102. **Drafting notes shipped on eight more pages, 25 to 32, and the item 99 guard
+   could not have caught them.** A scan of every `<i class="dk">` span of eight
+   words or more, then a wording scan, found 33 distinct author notes on live
+   pages: in chapter 25 §03 a whole draft-file header (`<!-- ===== c25_draft_
+   04-09.md ===== -->`, the markdown title, "Draft, sections 04–09 of 09." and a
+   placement note); the same file separators as visible text on every Part G
+   page, the last one on each naming the next chapter's file; four `*Drafting
+   flag:` notes in chapter 32; a "Style note" citing D-6 in 27 §07; "should be
+   checked" in 30 and "before this ships" twice in 31; "Attributions need checking
+   … before publication" in the Sources of 25 to 31; "needs settling" in 26.
+   The guard matched the literal `*Flag:` case-sensitively, so `*Drafting flag:`
+   passed it and chapter 32 would have rebuilt with all four notes.
+
+   **Fixed: the guard.** `draftnotes.py` holds one pattern, matched on
+   whitespace-normalised text (one of chapter 32's notes wraps a line) and counted
+   once per note; `mkbody.py` imports it and now refuses chapter 32 with five
+   notes named. `python3 draftnotes.py ../[0-9][0-9]-*.html` scans the pages and
+   should join the cold run; it also prints, as advisory, every long italic span
+   the wording list does not match. Chapter 38's body rebuilt byte-identical under
+   the new guard.
+
+   **Not fixed: the prose.** Five of the notes are open research questions (the
+   1794/1795 fire dates, the 1807 Norwegian commission, the St Jan date, the 1838
+   vote, the Frederiksborg ratification's style). Parts G and H need a cleanup
+   session before the final pass, and until then chapters 25–32 cannot be rebuilt
+   through `mkbody.py`, which is the intended effect.
+
+103. **Chapter 38 corrected in place, and three faults found in it that are
+   recorded rather than fixed.** Corrected: three of the five carry-forward arrows
+   pointed one chapter early, still on the pre-D-10 spine (the 1930s minorities to
+   39, 9 April to 40, Iceland 1944 to 41), and all five used "Chapter N"; they now
+   read `→ 40`, `→ 41`, `→ 43`, `→ 44`, `→ 44`. The prose said the strike was called
+   off "on 31 March" and figure 3 had the king giving way on 31 March; lex.dk and
+   Arbejdermuseet agree the crisis ended in the compromise of Easter Sunday,
+   4 April, which is also what the chapter's own prose says two paragraphs
+   earlier. Page 7,826 → 7,824; minutes unchanged.
+
+   Recorded, not fixed: (a) the **Still unresolved** list in Sources is not the
+   list the chapter 38 brief described. It has the Zone III request and the Braine
+   tablets, lacks Tønder's commune return, and ends with an Easter chronology that
+   is settled fact rather than a question. Its preamble also names `mkbody.py` on a
+   reader page. (b) Figure 3's caption tells readers to "see the note in
+   figs_38.py". Both are item 99's class in milder form. (c) **Chapter 37 says
+   Munch "would hold the foreign ministry for twenty years".** He held it from
+   30 April 1929 to 8 July 1940, eleven years; lex.dk, the Norwegian national
+   encyclopedia and Wikipedia agree.
+
+   **A house form, settled rather than drifted into.** Forward arrows inside the
+   current part use `→ N`, the form the cross-reference table already gives.
+   Chapter 37 uses `→ Part I` for targets inside its own part; D-1 permits both.
+   The final pass can choose one.
+
+104. **Chapter 39's verification queue, and what it overturned.**
+   - **Item 81 closes wrong in kind.** *Statistiske Efterretninger* 1920 nr. 23 is
+     the Danish constitutional referendum of 6 September 1920, not the Slesvig
+     plebiscite: three DST election volumes (1939, 1947, 1961) cite it, and two
+     give the date. The only Slesvig item in that year's *Efterretninger* is an
+     area return, filed under *Areal*. None of chapter 38's six items is closed by
+     it; the Commission's own publication is still the route.
+   - **39[-] Glückstadt** died at Kommunehospitalet, not in Vestre Fængsel (DBL,
+     da.wikipedia), on 23 June 1923 after an operation; he had been remanded in
+     March and held at Vestre Fængsel. Convicted after his death.
+   - **Steincke 1920 confirmed**, but the Interior Ministry *asked* for it in 1919,
+     so §08's working title was wrong; and the same report carries the eugenic
+     programme behind the sterilisation law of 1 June 1929.
+   - **§02's premise was wrong.** There was no exchange of marks into kroner.
+     Danish reckoning began on 20 May 1920 at about a seventh of a krone and mark
+     debts stayed in marks (Sømod). 39[n] relocated to the encased-stamp small
+     change at Haderslev, April 1921.
+   - **Nina Bang confirmed** (23 April 1924 – 14 December 1926; Kollontai
+     correction), and the Norwegian national encyclopedia still prints the myth.
+   - **Unemployment 1910–1930:** identifiers 4. R. 48. Bd. 5. H., 61. Bd. 4. H.,
+     74. Bd. 2. H., 88. Bd. 4. H., confirmed three times; the tables were not
+     reachable (the fetch tool refuses constructed URLs; search did not surface
+     them). **Direct dst.dk links from Carsten would unblock the figure.**
+   - **Seats 1884–1924 refused:** every copy is one lineage (Mackie & Rose), one
+     witness under item 88. The 1924 Folketing is primary and is figure 3.
+   - **Landmandsbanken's capital split and total loss** each rest on one account
+     (Christiansen in G&P); the calendar figure carries only double-witnessed
+     dates and quantities.
+   - **Open disagreements carried in the chapter's Sources:** Stauning I dated
+     23 April 1924 almost everywhere and 24 April in lex.dk's Stauning article;
+     twelve fined (lex.dk) against three fined and the rest acquitted (G&P);
+     Glückstadt's conviction dated only by da.wikipedia.
+
+105. **`mapspine.CHAR_W['mapt']` under-estimates the class by about a tenth, and
+   it shipped one overrun.** Measured this session by rendering 100 characters
+   through `rasterise()`'s own CSS: mapt 6.36, mapx 5.32, mapl 6.61 units per
+   character, against the table's 5.68, 5.63 and 6.98. The table cannot be right
+   anywhere: mapt is 9.5px and mapx 8.5px at the same letter-spacing, so mapt must
+   be about a ninth wider, and the table has them nearly equal. Chapter 39's
+   figure 2 ran off the canvas with every guard clean, and was found in the
+   raster. At measured widths, one shipped figure crosses the canvas edge:
+   `svg_titles.txt`, the *husbond* line.
+
+   **Not changed in `mapspine`, and it needs a decision.** Every `fold()` in
+   `figs_37.py` and `figs_38.py` reads `CHAR_W`; correcting it re-wraps their text
+   and breaks byte-identical regeneration for shipped figures. `figs_39.py` folds
+   at the larger of measured and table width and says so. Recommendation: correct
+   the table in one session that regenerates and re-inspects every affected figure
+   at once, and measure in the Mac's environment too, since the fonts differ.
+
+106. **Chapter 39 is shipped.** 10 sections, 3 vignettes, 2 Meanwhile, 3 figures,
+   9 glossary blocks, 3 checkpoints, 5 summary items, 12 questions.
+   **7,455 page words and 36 minutes** on `bookstats.py` after linking
+   (`build_part_i.py` printed 7,449; the six-word gap held). Profile
+   **3L/4M/3H at 4,082 narrative** against 4,053 planned; apparatus **3,373**.
+   The page is 384 words under PLAN_I's 7,839, and all of that is apparatus,
+   which is what §1.6 now says to expect; nothing was cut or padded.
+
+   The first draft measured 5L/3M/2H at 3,705. Three subjects were missing, per
+   items 72 and 83: the electoral machinery of 1920 (§06), Sønderjylland's entry
+   into Danish administration and politics (§02), and Nina Bang's career before
+   1924 (§07). Seventh chapter running.
+
+   Book: **39 of 44, 282,707 page words, 22.4 h; 5 remaining, 1 dense.** After the
+   build: tidy clean apart from Part D's ten and the fifteen A–D bodies a fresh
+   clone also lacks; no orphans; fixture and seam pass; debuild 11 style-only and
+   28 identical; vignettes 72, selftest passing, chapter 39 fully tagged;
+   figcheck 72 matched, 41 sourceless, 0 stale; draftnotes clean on 33–39; maps,
+   `figs_37`, `figs_38` and `figs_39` regenerate byte-identical.
+
+   Figures were rasterised and looked at; the raster found two faults the guards
+   passed: a label under its own bar in figure 1 (item 47's class; the bar origin
+   is now computed from the widest label), and figure 2's overrun (item 105).
+
+   **Where chapter 39 differs from the standard account:** Glückstadt as the
+   scapegoat of a closed system rather than a lone villain; Munch's 1922 position
+   as a considered one, read forwards rather than from 9 April; the return to gold
+   as a policy whose cost fell on debtors and on the newest province; Steincke's
+   plan as one programme with two halves; the disarmament bill as a Folketing
+   majority that never became law.
+
+   The index blurb for chapter 39 said the Social Democrats "struck against the
+   king"; the strike was the unions', and never struck. Corrected in
+   `index_generator.py`.
