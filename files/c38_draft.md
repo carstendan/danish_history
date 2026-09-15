@@ -311,12 +311,6 @@ Paris by men who had never been there.
 instances where it departs from the parish result. Without the instances this
 paragraph is an assertion.*
 
-*Vignette 38[n] goes here — Flensburg, 14 March 1920, and it still has no
-subject. See the note in the handover: the strongest candidate is an outvoter, a
-Flensburg-born Dane brought back by train from Copenhagen or Aarhus to vote in a
-town already lost. The plan wants a non-elite subject; the sourcing problem is
-that the people who left records are the organisers. Alternative: a Danish
-schoolchild in Flensburg in the week after, when the Danish school question began.*
 
 ---
 
@@ -324,16 +318,35 @@ schoolchild in Flensburg in the week after, when the Danish school question bega
 
 On the morning of 29 March 1920, Christian 10. dismissed his government.
 
+> **Vignette · C. Th. Zahle, Amalienborg, 29 March 1920**
+>
+> At a quarter to twelve the prime minister is sent for. He has been prime
+> minister for seven years, through a war his country stayed out of and a
+> constitution that doubled the electorate.
+>
+> The king asks him what he thinks of the political situation.
+>
+> It is a courteous question and it is not a real one. The decision was taken the
+> day before, Palm Sunday, in conversation with H. N. Andersen, the shipping
+> magnate who is the king's closest adviser and holds no office at all. Zahle
+> declines to call an election. The government is dismissed.
+>
+> The whole of it takes place in one room, between two men, in the ordinary
+> forms. Nothing is stormed. By the afternoon *Social-Demokraten* is on the
+> street with an extra edition, and Borgbjerg's headline is three words long:
+> **"Kongen begaar Statskup"** — the king commits a coup.
+>
+> C. Th. Zahle, prime minister · Amalienborg · 29 March 1920 · [-]
+
 The pretext was Flensburg. The Zahle ministry, Radical and Social Democratic,
 had held to the line that Denmark would take what voted Danish, which meant not
-taking Flensburg. Against it stood a large, loud and genuinely popular campaign
-for the Danevirke border, or at minimum for Flensburg. The king agreed with the
-campaign. He asked Zahle to call an election on the question. Zahle declined —
-the Rigsdag had passed the government's border policy, the ministry had a
-majority, and there was no constitutional occasion for an election.
-
-So the king dismissed him and appointed a caretaker under Otto Liebe, a barrister
-who had never sat in the Rigsdag, with instructions to hold an election.
+taking Flensburg, and had carried the Folketing on it three days earlier. Against
+it stood a large, loud and well-connected campaign for the Danevirke border, or
+at minimum for Flensburg, run by Ernst Christiansen of *Flensborg Avis* with
+Peter Grau and Kloppenborg-Skrumsager, and pressed on the king by Erik With, a
+former head of military intelligence, working with Venstre's J. C. Christensen.
+The king agreed with the campaign. A day later he appointed a caretaker under
+Otto Liebe, a barrister who had never sat in the Rigsdag, to hold an election.
 
 Read the constitution of 1866 and the king was entitled to do it. The ministers
 served at his pleasure; the text said so. Read the practice of the previous
@@ -343,7 +356,7 @@ established that a government which lost the Folketing's confidence resigned and
 one which held it did not. Christian 10. had just tested whether that was law or
 habit.
 
-The answer came within three days and it did not come from the Rigsdag.
+The answer took a week and it did not come from the Rigsdag.
 
 De samvirkende Fagforbund — the trade union federation — called a general strike
 for 30 March, to begin on Tuesday 6 April. The Social Democrats put a motion for
@@ -354,22 +367,48 @@ facing was not a parliamentary crisis but the plain question of whether there
 would continue to be a monarchy, being asked by the organisation that could stop
 the trams, the gasworks and the ports on a Tuesday morning.
 
-He folded. On 31 March the Liebe ministry went and a second caretaker under
-M. P. Friis took its place, this one negotiated with the party leaders, tasked
-with revising the electoral law and holding the election that followed — which it
-did, on 26 April, and which Venstre and the Conservatives won.
+On Easter Saturday, 3 April, a procession went to the king. It had been got up by
+two Radicals, Elna Munch and Jesper Simonsen, together with Stauning, and it
+carried a message that the consequences could be grave for all of them, high and
+low. By every account it was what moved him.
+
+He folded the next day. On Easter Sunday, 4 April, the Liebe ministry went and a
+caretaker under M. P. Friis took its place, negotiated with the party leaders and
+tasked with revising the electoral law and holding the election that followed —
+which it did, on 26 April, and which Venstre and the Conservatives won.
 
 So the campaign got its election and lost its border. And the crown got a
 settlement that has held for a century: **no Danish monarch has dismissed a
 government since.** The prerogative was not abolished, amended or argued away. It
-was used once, in the last week of March 1920, against a ministry with a majority,
-and the country's answer was to threaten to stop working. That is the authority
+was used once, in Easter week 1920, against a ministry with a majority, and the
+country's answer was to threaten to stop working. That is the authority
 question, settled — not in a constitution but in a strike notice, and by a king
 who discovered on a Wednesday what he was actually allowed to do.
 
 ---
 
 ## The strike that did not have to happen
+
+> **Vignette · a man on Amalienborg Slotsplads, Easter 1920**
+>
+> He is one of some thousands on the square, and the record does not have his
+> name, because the people who keep records were inside the buildings he is
+> standing outside of.
+>
+> He is out because the trams may stop on Tuesday and because his union has told
+> him what that means. He has spent the winter in and out of work. What he is
+> shouting is four words of Copenhagen: *Kresjan væk, republæk* — Christian out,
+> republic in — and it rhymes, which is why it is the line that survived.
+>
+> He almost certainly does not want a republic. The men organising him do not
+> want one either, and are working that week to make sure the motion for one is
+> never put. What he wants is for the man in the palace to stop.
+>
+> On the Tuesday the trams run. He goes back to work, having settled, without
+> being asked and without it being written anywhere, the question of who governs
+> Denmark.
+>
+> unnamed, Copenhagen · Amalienborg Slotsplads · Easter 1920 · [n]
 
 The strike was called and never struck. It was called off on 31 March, before it
 began, because it had already worked.

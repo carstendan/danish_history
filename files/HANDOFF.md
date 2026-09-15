@@ -2219,3 +2219,42 @@ split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see it
    drafted at all. §08 covers the dismissal in prose with no vignette block.
    Under D-9 the roster needs a woman as agent and a non-elite subject, and at
    present the chapter has the first and not the second.
+
+93. **Item 92 closed: all three vignettes are drafted, and 38[n] is not in
+   Flensburg.** PLAN_I §4 rostered it as *unnamed · Flensburg · 14 March 1920* and
+   §14.6 put it last of six in the queue. It has no subject and I do not think it
+   can get one honestly: the only Flensburg Danes who left usable records that
+   week are the organisers, and an organiser is not a non-elite subject. **It is
+   relocated to Amalienborg Slotsplads at Easter**, an unnamed man in the crowd,
+   which is sourced - the demonstrations, the strike notice behind them, the
+   Copenhagen slogan that rhymes, and the fact that the men organising him were
+   working that week to make sure the republican motion was never put. D-9's
+   non-elite requirement is met; Flensburg stays in the prose. PLAN_I §4 should be
+   amended.
+
+   38[-] is drafted as the 11:45 audience on 29 March. On the roster's *verify the
+   two audiences*: there was **one** audience with Zahle, on the morning of
+   29 March. The decision had been taken the previous day, Palm Sunday, in
+   conversation with H. N. Andersen, who held no office. That is what the second
+   occasion was, and it was not an audience.
+
+94. **The Easter Crisis dates in the first draft were wrong.** It ran **29 March
+   to 4 April**, not three days to 31 March. Liebe was appointed about a day after
+   the dismissal; the folketog organised by Elna Munch, Jesper Simonsen and
+   Stauning went to the king on Easter Saturday, 3 April, and by every account is
+   what moved him; the Liebe ministry went and Friis came in on Easter Sunday,
+   4 April. The strike was set for 6 April throughout. Figure 2 had the 6 April
+   date right and the prose did not, which is the wrong way round.
+
+95. **Chapter 38 now projects 8,437 page words and 40 minutes against a planned
+   37, and this is no longer only item 84's model fault.** The chapter has grown
+   for three legitimate reasons - the commission was a missing subject, there are
+   three vignettes rather than two, and the corrections added sourced material -
+   and it is now about fifteen per cent over plan. **Decision needed, and it is a
+   real one.** Either 40 stands for the pivot chapter of the part, or roughly 340
+   words come out; if they come out I would take them from §03, which is 57 over
+   band and where the Versailles argument still restates the Clausen-line
+   paragraph, and from §10, which is 58 over and is the white-horse section that
+   can afford to be shorter than it is. I would not touch §08 or §09: they carry
+   two of the three vignettes and both land within band now that the crowd
+   vignette sits with the strike rather than with the dismissal.
