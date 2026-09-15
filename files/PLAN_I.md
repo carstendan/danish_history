@@ -91,6 +91,21 @@ for Part I. The book lands at **44 chapters, 322,062 page words, 25.6 hours**,
 mean 7,320 a chapter. Part I's mean of 7,817 sits just under Part H's 7,963 and
 above Part G's 7,354, which is right for a part carrying two wars and the ending.
 
+### 1.6 Measured in Part I, and what that does to 1.3 — added at the chapter 39 session
+
+The constant of 1.3 was calibrated on Part H and **has not held in Part I**
+(items 84, 96, 100). Apparatus, measured as `bookstats.py` page words minus
+`narrative.py` narrative words on the linked page: **chapter 37, 3,695;
+chapter 38, 3,632**, against 3,786 here. Both Part I chapters carry three
+vignettes, which moves words out of the apparatus and into the prose. The
+reference shapes in 1.4 therefore overstate the page by one to two hundred
+words for a three-vignette chapter.
+
+Rule, from item 96: **a length is taken from `bookstats.py` after
+`linkindex.py`, never from this model and never from the markdown.** The model
+is kept for deciding whether a draft is missing a subject (item 72), which it
+still does well, and not for deciding whether to cut.
+
 ---
 
 ## 2. Decisions taken at plan time — not to be reopened
@@ -225,11 +240,11 @@ one `[f]` and one `[n]`, as D-9 requires. Lazy backfill permitted.
 | 37 | [f] | Jutta Bojsen-Møller · Amalienborg · 5 June 1915 | verify she led it; crowd figure disputed |
 | 37 | [n] | David Hamilton Jackson · Frederiksted, St Croix · 1915–16 | verify trip, paper, holiday |
 | 38 | [f] | Johanne Marie Braren · Frederikshøj · 10 July 1920 | **sourced** |
-| 38 | [n] | *unnamed* · Flensburg · 14 March 1920 | **needs a subject** |
-| 38 | [-] | C.Th. Zahle · Amalienborg · 29 March 1920 | verify the two audiences |
-| 39 | [-] | Emil Glückstadt · Vestre Fængsel · 1923 | verify death date and place |
-| 39 | [f] | Nina Bang · Ministry of Education · 23 April 1924 | **sourced** |
-| 39 | [n] | *unnamed* · Sønderjylland · 1920–21, marks into kroner | **needs a subject** |
+| 38 | [n] | *unnamed* · ~~Flensburg · 14 March 1920~~ **Amalienborg Slotsplads · Easter 1920** | **shipped** — relocated, no honest Flensburg subject (item 93) |
+| 38 | [-] | C.Th. Zahle · Amalienborg · 29 March 1920 | **shipped** — one audience, not two (item 93) |
+| 39 | [-] | Emil Glückstadt · ~~Vestre Fængsel~~ **Vestre Fængsel, then Kommunehospitalet · March–June 1923** | **verified** — died 23 June 1923 in hospital, not in the prison (item 104) |
+| 39 | [f] | Nina Bang · Ministry of Education · 23 April 1924 | **sourced**, dates confirmed twice |
+| 39 | [n] | *unnamed* · **the post office, Haderslev · April 1921** | **relocated** — a stamp sealed in celluloid as small change; there was no exchange of marks into kroner (item 104) |
 | 40 | [-] | Stauning and the negotiators · Kanslergade 10 · 29–30 January 1933 | sourced |
 | 40 | [n] | *unnamed* · Nakskov · 1931 | **needs a subject**; verify charges |
 | 40 | [f] | *unnamed* · a Mødrehjælpen case · 1939, **or** a woman who lost her vote to poor relief and got it back in 1933 | **needs a subject**; the second needs no archive |
@@ -313,14 +328,18 @@ out, and the first election under it not until 1918.
 | 02 | Iceland, 1 December 1918 | medium |
 | 03 | What Versailles said, and what Denmark asked for | medium |
 | 04 | The zones, and the argument about Flensburg | heavy |
-| 05 | 10 February 1920 | heavy |
-| 06 | 14 March 1920 | medium |
-| 07 | The king dismisses a government | heavy |
-| 08 | The strike that did not have to happen | medium |
-| 09 | 10 July 1920 | light |
-| 10 | What the border cost the people on both sides of it | light |
+| 05 | The commission, January to June 1920 | light |
+| 06 | 10 February 1920 | heavy |
+| 07 | 14 March 1920 | medium |
+| 08 | The king dismisses a government | heavy |
+| 09 | The strike that did not have to happen | medium |
+| 10 | 10 July 1920 | light |
+| 11 | What the border cost the people on both sides of it | light |
 
-**3L / 4M / 3H → 7,839 → 37 minutes.**
+**AMENDED to what shipped (items 83, 97, 100).** Planned as ten sections at
+3L/4M/3H; built as **eleven at 4L/4M/3H**, the commission taking its own light
+section. Bands above are `narrative.py`'s on the built page, 4,194 narrative
+words; the page is 7,826 words and 37 minutes on `bookstats.py`.
 
 This is the pivot chapter of the whole book. In 1920 the *territory* question is
 answered by asking the people; the *authority* question is answered when the king
@@ -345,13 +364,13 @@ country. The chapter cannot end on the white horse.
 | § | section | weight |
 |---|---------|--------|
 | 01 | The boom ends | light |
-| 02 | Marks into kroner: Sønderjylland pays for coming home | medium |
+| 02 | Marks and kroner: Sønderjylland pays for coming home | medium |
 | 03 | Landmandsbanken, 1922 | heavy |
 | 04 | Who paid for the rescue | medium |
 | 05 | The defence settlement of 1922, and Munch's argument | medium |
 | 06 | 1924: the party in office | heavy |
 | 07 | Nina Bang | medium |
-| 08 | Steincke writes a plan nobody asks for yet | light |
+| 08 | Steincke's plan, and the other half of it | light |
 | 09 | Madsen-Mygdal, and the return to gold | heavy |
 | 10 | What the twenties settled, and what they did not | light |
 
@@ -364,6 +383,15 @@ failure of nerve, and chapter 41 is unintelligible if it appears there for the
 first time. §08 is the seed the chapter's successor is named for: **verify that
 Steincke's *Fremtidens Forsørgelsesvæsen* is 1920**; if it is, the intellectual
 blueprint of the 1933 reform predates the decade it is usually credited to.
+
+**AMENDED at the chapter 39 session (item 104).** Verified: 1920, and a report
+the Interior Ministry *asked* for in 1919, so §08's working title was wrong and is
+changed. The same report carries the eugenic programme that became the
+sterilisation law of 1 June 1929, and §08 must hold both halves or it repeats the
+standard account's omission. §02 is retitled because there was no exchange of
+marks into kroner: Danish reckoning began on 20 May 1920 and mark debts stayed in
+marks. The chapter's arc is that Sønderjylland paid twice, once to German
+inflation and once to the Danish return to gold, which links §02 to §09.
 
 **§06 closes debt 8.** From two seats in 1884 to a government in 1924, on a
 minority in the Folketing and no majority at all in the Landsting — which is the
@@ -565,12 +593,18 @@ the building of a welfare state could not repeat that.
 | 37 | The electorate before and after 1915, by category | *Valgene til Rigsdagen*, Stat. Medd. | located |
 | 37 | The 1916 referendum, beside the population that did not vote | referendum returns; islands' census | needs source |
 | 37 | Danish merchant ships and seamen lost 1914–18 | *Handelsflådens krigsforlis* | needs source |
-| 38 | The two zones, parish by parish | International Commission returns | located; **new map** |
-| 38 | Three elections in one year, 1920 | election statistics | located |
-| 38 | Iceland 1918: what the Act of Union transferred | schematic | n/a |
-| 39 | **Unemployment 1910–1930, annual** | Stat. Medd. 4. rk., five-year volumes | **fetchable** |
-| 39 | Two seats to government: Social Democratic seats 1884–1924 | election statistics | located |
-| 39 | Landmandsbanken: what the state guaranteed and what it lost | Bankkommission report | needs source |
+| 38 | Fig. 1 · Iceland 1918: what the Act of Union transferred | schematic | **shipped** |
+| 38 | Fig. 2 · The two zones, as bands with commune dots, not parish by parish | returns; Natural Earth | **shipped**; see item 82 |
+| 38 | Fig. 3 · 1920 as a calendar, not seat totals | dated entries, each twice | **shipped**; see item 88 |
+| 39 | Fig. 1 · Stamps as small change, Sønderjylland 1921–22 | Sømod, *Skilling* 1995; totals reconcile | **built instead** |
+| 39 | Fig. 2 · Landmandsbanken: two rescues and a guarantee, 1922–23 | dated entries, each twice | **built instead** |
+| 39 | Fig. 3 · The Folketing of 11 April 1924, seat by seat | *Stat. Medd.* 4. R. 71. Bd. 1. H. | **built instead** |
+| 39 | ~~Unemployment 1910–1930, annual~~ | identifiers 4,48,5 · 4,61,4 · 4,74,2 · 4,88,4, confirmed three times | **not reachable** — see item 104 |
+| 39 | ~~Social Democratic seats 1884–1924~~ | one lineage only (Mackie & Rose) | **refused** — see item 104 |
+| 39 | ~~Landmandsbanken: guaranteed and lost~~ | split of the capital is single-source | **refused**, redrawn as the calendar |
+
+**AMENDED (items 91, 104).** Figures are numbered in reading order, which is the
+order above. The chapter 38 rows were written before its sections were fixed.
 | 40 | **Unemployment 1929–1940**, with the 1932 peak | as above | fetchable |
 | 40 | What was in Kanslergade | schematic | n/a |
 | 40 | **1939: the yes vote, and the 45 per cent rule** | referendum returns | **verify first** |
