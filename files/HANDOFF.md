@@ -2304,3 +2304,44 @@ split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see it
    share, 83.5 or 83.8; Tønder's commune return; the 1920 party seat totals; and
    *Statistiske Efterretninger* 1920 nr. 23, which is the Danish official
    publication of the plebiscite returns and has still not been opened.
+
+99. **SEVEN DRAFTING FLAGS SHIPPED ONTO THE LIVE CHAPTER 38 PAGE, and every
+   verifier said clean.** The drafts have always carried italic notes addressed to
+   the author, and every draft header says they are not copy. Nothing enforced it.
+   Chapter 38 was built, linked, indexed and counted with seven of them on the
+   page; `mkbody`, `build_part_i`, `figcheck`, `tidy`, `narrative` and `bookstats`
+   all passed. About 230 words of notes-to-self were inside the shipped page word
+   count, and the reader would have seen *"Flag: confirm the membership, the
+   chairman's name and the handover date before this goes in as copy."*
+
+   `mkbody.py` now REFUSES the build while any flag remains, and names each one.
+   It refuses rather than stripping, for item 67's reason: a flag is an unresolved
+   question and silently deleting it loses the question. The seven are now an
+   explicit **Still unresolved** list in the chapter's own Sources block, which is
+   where a question the chapter is carrying belongs.
+
+   Check Parts A-H for the same fault before chapter 39. I checked the built pages
+   and only chapter 38 carries `Flag:`, but the convention is older than this
+   chapter and other wordings may exist.
+
+100. **Two numbers I reported were inflated by the flags, and the profile was one
+   of them.** Item 97 recorded the shipped profile as 4L/2M/5H and called the
+   difference from the drafted 4L/4M/3H a disagreement between my estimator and
+   `narrative.py`. It was not. The flags sat inside §03, §07 and §09 and pushed
+   each into a heavier band. With them gone the built page reads **4L/4M/3H**,
+   which is what the markdown said all along. My estimator was right and the
+   built page was wrong, and I attributed it the other way round.
+
+   Item 96 stands but its arithmetic shifts: the chapter is **7,826 page words and
+   37 minutes**, narrative 4,194, apparatus 3,632. The linkindex gap held again -
+   7,820 printed before linking, 7,826 after.
+
+101. **I damaged the draft twice fixing this, by pattern-matching without
+   looking.** The first strip used a DOTALL regex that ran past a heading and cost
+   a section; the second used a line rule that mis-found the closing `*`. Both
+   were caught only because `mkbody` reports its section and term counts, and both
+   were repaired from the previous commit. The flag blocks needed reading first:
+   one of the seven had prose spliced onto its closing line, so any rule that
+   deletes whole lines silently deletes a sentence of the chapter. **Read the
+   blocks, then write the rule.** The working version prints what it removed and
+   asserts the heading count is unchanged before it writes.

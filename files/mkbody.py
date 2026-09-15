@@ -970,6 +970,27 @@ def build(n):
     body_md, app = chapter(src, n)
     if body_md is None or app is None:
         raise SystemExit("!! chapter %d: prose or apparatus not found in %s" % (n, DRAFT))
+
+    # DRAFTING FLAGS MUST NOT SHIP. The drafts carry italic notes addressed to the
+    # author - "*Flag: confirm the membership...*" - and the header of every draft
+    # says they are not copy. Nothing enforced it. Chapter 38 was built, linked,
+    # indexed and counted with seven of them on the page: mkbody, build_part_i,
+    # figcheck, tidy, narrative and bookstats all reported clean, and about two
+    # hundred words of notes-to-self went into the shipped page word count.
+    #
+    # This REFUSES rather than stripping, for the reason item 67 gives: a flag is
+    # an unresolved question, and silently deleting it loses the question. Resolve
+    # it, or move it to the Sources block where the apparatus already carries an
+    # "unresolved" list, and then build.
+    flags = re.findall(r'\*Flag:\s*(.{0,70})', (body_md or "") + (app or ""), re.S)
+    if flags:
+        raise SystemExit(
+            "!! chapter %s: %d drafting flag(s) still in the draft. They are not copy "
+            "and must not ship. Resolve each, or move it to the Sources block, then "
+            "rebuild.\n%s"
+            % (n, len(flags),
+               "\n".join("   - Flag: %s..." % f.replace("\n", " ").strip()[:68]
+                         for f in flags)))
     secs = sections(body_md)
     tb = terms_by_section(app)
     figs = {}

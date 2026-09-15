@@ -26,11 +26,6 @@ names and is still growing. It includes about a hundred and ninety men who died
 after the armistice, in captivity or in hospital or at home, and whose names are
 on the village stones anyway.
 
-*Flag: the 2013 memorial tablets at Braine are given as 5,333 names on one page
-of the project's own site and 5,533 on another. One is a transposition. The
-chapter should not use the tablet count at all — use the definition-stated
-figures and say which question each answers.*
-
 About one man in eight of those who served came back disabled. Around two and a
 half thousand had crossed the border into Denmark during the war rather than
 serve at all, and were deserters in German law on the day the war ended.
@@ -119,10 +114,6 @@ that did not want to be held, and it had cost Norway, the duchies and a third of
 the territory. A border at the Danevirke would be 1864 with the roles reversed,
 and would last exactly as long as German weakness lasted.
 
-*Flag: check whether the request to drop Zone III was formally lodged by the
-Danish government or carried by the Danish delegation's negotiating position.
-The distinction matters and the standard account is loose about it.*
-
 ---
 
 ## The zones, and the argument about Flensburg
@@ -190,10 +181,6 @@ British troops garrisoned Flensburg, Aabenraa, Sønderborg and Tønder. Its memb
 were a British chairman, a Frenchman, a Norwegian and a Swede, and the French
 seat was held by Paul Claudel, who is better known for the plays.
 
-*Flag: confirm the membership, the chairman's name and the handover date before
-this goes in as copy. Accounts give January dates a fortnight apart, and the
-Claudel detail is good enough to be worth being sure of.*
-
 For five months the ground both countries were claiming was administered by
 neither, by a body with foreign soldiers in the towns and no stake in the answer.
 That is the only time in this book it happens, and it is why the loser accepted
@@ -239,8 +226,8 @@ better than five to one. The rest of the German majorities were small districts
 west and south of Tønder — Sæd, Ubjerg, Frederikskog — and a handful around
 Aabenraa and Gråsten.
 
-*Flag: the rural Danish share is 83.5 per cent in Trap and 83.8 in the Sønderborg
-archive. Take whichever the published returns support and say which.* Under the Zone II rules every one of them would have gone to
+Under the Zone II rules every one of them would have gone to
+
 Germany, and the border would have run in ragged islands through Nordslesvig.
 
 Under the Zone I rules none of it mattered. The zone was one constituency and the
@@ -270,10 +257,6 @@ three — three small polling places on Før, out in the Wadden Sea, which retur
 Danish majorities and stayed in Germany with everything else. Flensburg itself returned
 about seventy-five per cent German and twenty-five per cent Danish — somewhere
 near twenty-seven thousand votes against somewhere near nine thousand.
-
-*Flag: get both Flensburg figures and the Zone II totals from the published
-returns and confirm each digit by a second appearance. The Danish and German
-secondary literature round them differently.*
 
 Twenty-five per cent is not a small number. It is one person in four in the
 largest town in Slesvig, and it is close to the German share of Zone I that
@@ -306,10 +289,6 @@ not answered *only* by asking them. Between the count and the line stood a
 commission's recommendation and four governments' decision, and the last hundred
 metres of the most consensual border in modern European history were drawn in
 Paris by men who had never been there.
-
-*Flag: get the date the Ambassadors fixed the line, and two or three concrete
-instances where it departs from the parish result. Without the instances this
-paragraph is an assertion.*
 
 
 ---
@@ -454,9 +433,6 @@ Danish history. There is a reason the horse is white and it is not aesthetic: a
 prophecy attributed to Jomfru Fanny of Aabenraa in the 1880s had the Danish king
 returning to Sønderjylland on a white horse, and the court knew it, and the horse
 was chosen to fulfil it.
-
-*Flag: the Jomfru Fanny prophecy is itself probably retrospective, attached to
-her after 1920. Check before asserting the date 1881.*
 
 The most famous photograph of the day is a photograph of an accident.
 
@@ -785,6 +761,27 @@ verified for this draft. Items marked* unresolved *are flagged in the prose.*
   opened**, and it is the Danish official publication of the plebiscite returns.
 - **Party seat totals for the three 1920 elections are unresolved** and appear on
   no figure. See the note in `figs_38.py`.
+**Still unresolved. Each of these was an inline drafting note until the guard in
+`mkbody.py` refused to ship them, and each is a question the chapter is carrying
+rather than an answer it is hiding.**
+
+- The international commission's membership, its chairman's name and the date it
+  took over. Accounts give January dates a fortnight apart. That Paul Claudel held
+  the French seat is good enough to be worth being certain of and is not certain.
+- The date the Conference of Ambassadors fixed the line, and two or three concrete
+  places where the border departs from the parish result. Without the instances,
+  §07's closing paragraph is an assertion.
+- Whether the request to drop Zone III was lodged formally by the Danish
+  government or carried as the delegation's negotiating position.
+- The rural Danish share in Zone 1: 83.5 per cent in Trap, 83.8 in the Sønderborg
+  archive.
+- Both Flensburg figures and the Zone 2 totals, from the published returns, every
+  digit confirmed by a second appearance.
+- The Jomfru Fanny prophecy's date. Probably retrospective; §10 asserts no date.
+- The 2013 tablets at Braine: 5,333 names on one page of the project's own site
+  and 5,533 on another. §01 does not use the tablet count and should not until the
+  transposition is found.
+
 - Easter Crisis chronology: dismissal 29 March, Liebe appointed about a day later,
   strike called for 6 April, procession to the king Easter Saturday 3 April,
   Friis ministry Easter Sunday 4 April.
