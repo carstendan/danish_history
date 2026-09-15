@@ -2191,3 +2191,31 @@ split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see it
    English ones (164,000 people). This is deliberate and should stay that way, or
    be changed everywhere at once - it is exactly the sort of thing a consistency
    pass at the end of the book will otherwise flag as an error.
+
+91. **Chapter 38's build path exists: `HAND[38]` and `CFG[38]` written, orphans
+   cleared.** `tidy.py` reported the three figures as orphans from the moment
+   `figs_38.py` ran and reports none now, which was the predicted symptom and the
+   only one that matters here. Eleven sections in `CFG[38]['sec']`, three figures
+   in `HAND[38]['figs']`.
+
+   **Figure numbering is NOT PLAN_I's.** The plan lists the zones map as figure 1,
+   the elections as 2 and Iceland as 3. Figures are numbered in reading order and
+   Iceland is section 02, so the chapter carries Iceland as figure 1, the zones as
+   figure 2 and the year as figure 3. The plan's numbering was written before the
+   section order was fixed. Reading order wins; PLAN_I §13 should be amended.
+
+   **`mw_at` is satisfied without being touched.** With eleven sections it places
+   the two Meanwhile blocks at `s03` and `s07` - `secs[2]` and `secs[min(6, n-1)]`
+   - so the open item from the chapter 37 session does not block this chapter. It
+   is still open: the guard added in item 67 refuses a third block, and that is
+   still a layout decision nobody has taken.
+
+92. **Two vignettes are still missing and the chapter cannot ship without them.**
+   PLAN_I §4 rosters three for chapter 38 and the draft has one - Johanne Marie
+   Braren at Frederikshøj, which was sourced. Outstanding: **38[n]**, unnamed,
+   Flensburg, 14 March 1920, which §14.6 puts last of six in the verification
+   queue and which still has no subject; and **38[-]**, C.Th. Zahle at Amalienborg,
+   29 March 1920, flagged in the roster as *verify the two audiences* and not
+   drafted at all. §08 covers the dismissal in prose with no vignette block.
+   Under D-9 the roster needs a woman as agent and a non-elite subject, and at
+   present the chapter has the first and not the second.

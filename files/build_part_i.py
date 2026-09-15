@@ -111,6 +111,44 @@ CFG = {
         "Who declared the enslaved of the Danish West Indies free in 1848, what happened "
         "to him for it, and who had actually forced the decision?"]),
     ]),
+ 38: dict(
+    name='38-genforeningen-iceland-and-the-easter-crisis.html',
+    body='c38_body.html',
+    svgs={'SVG_ZONER': 'svg_zoner_1920.txt',
+          'SVG_AAR': 'svg_aar_1920.txt',
+          'SVG_FORBUND': 'svg_forbund_1918.txt'},
+    sec=[("s01", "01", 'November 1918: the soldiers come home'),
+         ("s02", "02", 'Iceland, 1 December 1918'),
+         ("s03", "03", 'What Versailles said, and what Denmark asked for'),
+         ("s04", "04", 'The zones, and the argument about Flensburg'),
+         ("s05", "05", 'The commission, January to June 1920'),
+         ("s06", "06", '10 February 1920'),
+         ("s07", "07", '14 March 1920'),
+         ("s08", "08", 'The king dismisses a government'),
+         ("s09", "09", 'The strike that did not have to happen'),
+         ("s10", "10", '10 July 1920'),
+         ("s11", "11", 'What the border cost the people on both sides of it')],
+    checks=[
+      ("What Versailles said, and what Denmark asked for", [
+        "Iceland became a sovereign state on 1 December 1918. Name two things Denmark "
+        "kept doing for it, and say in what capacity.",
+        "The Act of Union is the only settlement in this book that says how to end "
+        "itself. What were the two dates, and what did each allow?",
+        "What did the Aabenraa resolution ask for, and what was the Clausen line?"]),
+      ("10 February 1920", [
+        "Why did Denmark ask for the third zone to be dropped?",
+        "Zone 1 was counted en bloc and Zone 2 commune by commune. Which rule would "
+        "have kept T\u00f8nder German, and which would have made Flensburg Danish?",
+        "Who governed the voting zones between January and June 1920, and why does that "
+        "matter for whether the result was accepted?"]),
+      ("The strike that did not have to happen", [
+        "About 25,000 people in Zone 1 had voted German. What happened to them on "
+        "15 June 1920?",
+        "The king was entitled by the constitution of 1866 to dismiss the ministry. "
+        "What made it impossible anyway, and how long did it take?",
+        "Denmark held three general elections in 1920. Give the reason for each, and "
+        "note that no two are the same."]),
+    ]),
 }
 
 def block(qs):

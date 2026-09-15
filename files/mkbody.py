@@ -665,6 +665,52 @@ HAND = {
           "and chalk moved by about two thousand men with shovels and wheelbarrows. Never "
           "fired in anger; abolished in 1920.")],
  ),
+ 38: dict(
+   file='c38_body.html',
+   part='Part I', band='The small state', num=38, dates='1918 \u2013 1920',
+   title='Genforeningen, Iceland and the Easter Crisis',
+   people='H.P. Hanssen \u00b7 H.V. Clausen \u00b7 Ernst Christiansen \u00b7 '
+          'Christian 10. \u00b7 Johanne Marie Braren',
+   hook="In one year Denmark let Iceland go by agreement, got a border by asking the "
+        "people where it should be, and very nearly lost its monarchy over the part of "
+        "the answer it did not like. The border it got runs within a few kilometres of a "
+        "line a Copenhagen schoolmaster had walked out on foot thirty years earlier. The "
+        "king who objected to it dismissed a government with a majority, and gave way in "
+        "three days to a strike that was called and never struck.",
+   keys=['Forbundsloven 1918', 'Versaillestraktaten \u00a7\u00a7109\u2013114',
+         'Aabenraa-resolutionen', 'Clausen-linjen', 'zone 1 og zone 2',
+         'afstemningen 10. februar 1920', 'afstemningen 14. marts 1920',
+         'Den Internationale Kommission', 'P\u00e5skekrisen', 'Genforeningen',
+         'hjemmetyskere', 'de hjeml\u00f8se'],
+   qs=["Iceland left by agreement and Norway left by treaty after a lost war. What had "
+       "changed in Denmark between 1814 and 1918 to make the difference?",
+       "Denmark could plausibly have claimed as far south as the Danevirke and asked for "
+       "less. Give the reason that is about the previous four hundred years.",
+       "Zone 1 voted en bloc and Zone 2 commune by commune. Show how that one asymmetry "
+       "settled the border before a vote was cast.",
+       "About 25,000 people in Zone 1 voted German and became Danish anyway. What is the "
+       "argument that this was right, and what is the argument against it?",
+       "The king dismissed a ministry that had a majority, and the constitution of 1866 "
+       "allowed it. What stopped him, and where is that rule written down?"],
+   figs=[("s02", "SVG_FORBUND",
+          "Figure 1 \u00b7 The Act of Union, 1 December 1918",
+          "What Iceland gained, what Denmark kept, and the clock the act carries: "
+          "revision on demand after 1940, and termination three years later by "
+          "two-thirds vote confirmed by referendum. The only constitutional settlement "
+          "in this book that specifies how to undo itself."),
+         ("s06", "SVG_ZONER",
+          "Figure 2 \u00b7 The two zones, 1920",
+          "Zone 1, counted whole on 10 February, and Zone 2, counted commune by commune "
+          "on 14 March. One red line is both the zone boundary and the border, which is "
+          "the argument. Four German-voting towns sit inside the zone that went to "
+          "Denmark. Not drawn parish by parish, and the figure says why."),
+         ("s09", "SVG_AAR",
+          "Figure 3 \u00b7 1920",
+          "The year on one axis: two plebiscites, a dismissed ministry, a general strike "
+          "called and not struck, a border, a king on a horse, a referendum, and three "
+          "general elections held for three different constitutional reasons. Party "
+          "totals are deliberately absent; see the note in figs_38.py.")],
+ ),
 }
 
 
