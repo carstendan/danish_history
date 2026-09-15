@@ -1,0 +1,23 @@
+<svg viewBox="0 0 700 390" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="What the Danish-Icelandic Act of Union of 1 December 1918 transferred. Iceland became a sovereign state with its own flag, merchant marine and neutrality. Denmark continued to conduct Icelandic foreign affairs as agent, and to patrol Icelandic waters. The act also set out how it could be revised after 1940 and terminated after three further years, which is the procedure that was used.">
+  <rect x="0" y="0" width="700" height="390" fill="#F4F1EA"/>
+  <text x="14" y="24" class="mapl">THE ACT OF UNION, 1 DECEMBER 1918</text>
+  <text x="14" y="40" class="mapt">a limb of the composite state leaves by agreement, and says how</text>
+  <text x="14" y="62" class="mapx" opacity=".75">Nothing here is measured. Every line is in the text of the act.</text>
+  <rect x="14" y="80.0" width="4" height="72.0" fill="#2E6B5E"/>
+  <text x="28" y="92.0" class="mapt" fill="#2E6B5E">Iceland now holds</text>
+  <text x="40" y="112.0" class="mapx">sovereignty — a state, not a dependency</text>
+  <text x="40" y="126.0" class="mapx">its own flag, and its own merchant marine</text>
+  <text x="40" y="140.0" class="mapx">the right to declare permanent neutrality, which it did</text>
+  <text x="40" y="154.0" class="mapx">its own legislation, courts and finances</text>
+  <rect x="14" y="174.0" width="4" height="58.0" fill="#8C5A3C"/>
+  <text x="28" y="186.0" class="mapt" fill="#8C5A3C">Denmark still does</text>
+  <text x="40" y="206.0" class="mapx">foreign affairs, as Iceland's agent and not as its sovereign</text>
+  <text x="40" y="220.0" class="mapx">coastguard duty in Icelandic waters, until Iceland can</text>
+  <text x="40" y="234.0" class="mapx">nothing else that is not written in the act</text>
+  <rect x="14" y="254.0" width="4" height="72.0" fill="#9A3B2E"/>
+  <text x="28" y="266.0" class="mapt" fill="#9A3B2E">And it carries a clock</text>
+  <text x="40" y="286.0" class="mapx">after 1940 either parliament may demand revision</text>
+  <text x="40" y="300.0" class="mapx">if three years of talks produce nothing, either may end it</text>
+  <text x="40" y="314.0" class="mapx">by a two-thirds vote, confirmed by referendum</text>
+  <text x="40" y="328.0" class="mapx">the only settlement in this book that says how to undo itself</text>
+  </svg>

@@ -1,0 +1,45 @@
+<svg viewBox="0 0 700 514" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A calendar of 1920 in Denmark, twelve dated entries from the first plebiscite in February to the third general election in September. Three of the entries are general elections, each held for a different constitutional reason: the first because the king had dismissed a government, the second because the caretaker ministry existed only to call one, the third because the constitution required a new Rigsdag once Soenderjylland had been admitted.">
+  <rect x="0" y="0" width="700" height="514" fill="#F4F1EA"/>
+  <text x="14" y="24" class="mapl">1920</text>
+  <text x="14" y="40" class="mapt">three general elections in one year, and no two of them for the same reason</text>
+  <text x="14" y="62" class="mapx" opacity=".75">Party totals are deliberately absent: see the note in the script. The dates are the argument.</text>
+  <path d="M 124 84 L 124 434" stroke="#2A2A28" stroke-width="1.2" opacity=".45"/>
+  <circle cx="124" cy="92.0" r="2.6" fill="#2E6B5E"/>
+  <text x="114" y="96.0" class="mapx" text-anchor="end" fill="#2A2A28">10 Feb</text>
+  <text x="150" y="96.0" class="mapx" fill="#2A2A28">Zone 1 votes. En bloc, and about three-quarters for Denmark.</text>
+  <circle cx="124" cy="122.0" r="2.6" fill="#2E6B5E"/>
+  <text x="114" y="126.0" class="mapx" text-anchor="end" fill="#2A2A28">14 Mar</text>
+  <text x="150" y="126.0" class="mapx" fill="#2A2A28">Zone 2 votes, commune by commune, and about four-fifths German.</text>
+  <circle cx="124" cy="152.0" r="2.6" fill="#9A3B2E"/>
+  <text x="114" y="156.0" class="mapx" text-anchor="end" fill="#2A2A28">29 Mar</text>
+  <text x="150" y="156.0" class="mapx" fill="#2A2A28">Christian 10. dismisses the Zahle ministry, which has a majority.</text>
+  <circle cx="124" cy="182.0" r="2.6" fill="#9A3B2E"/>
+  <text x="114" y="186.0" class="mapx" text-anchor="end" fill="#2A2A28">30 Mar</text>
+  <text x="150" y="186.0" class="mapx" fill="#2A2A28">The trade union federation calls a general strike for 6 April.</text>
+  <circle cx="124" cy="212.0" r="2.6" fill="#9A3B2E"/>
+  <text x="114" y="216.0" class="mapx" text-anchor="end" fill="#2A2A28">31 Mar</text>
+  <text x="150" y="216.0" class="mapx" fill="#2A2A28">The king gives way. Liebe out, Friis in, to pass a law and call a vote.</text>
+  <circle cx="124" cy="242.0" r="2.6" fill="#8C5A3C"/>
+  <text x="114" y="246.0" class="mapx" text-anchor="end" fill="#2A2A28">11 Apr</text>
+  <text x="150" y="246.0" class="mapx" fill="#2A2A28">A new electoral law.</text>
+  <circle cx="124" cy="272.0" r="4.2" fill="#8C5A3C"/>
+  <text x="114" y="276.0" class="mapx" text-anchor="end" fill="#2A2A28">26 Apr</text>
+  <text x="150" y="276.0" class="mapt" fill="#8C5A3C">ELECTION ONE — because the crown tried to use a power it had.</text>
+  <circle cx="124" cy="302.0" r="2.6" fill="#2E6B5E"/>
+  <text x="114" y="306.0" class="mapx" text-anchor="end" fill="#2A2A28">15 Jun</text>
+  <text x="150" y="306.0" class="mapx" fill="#2A2A28">The border comes into force. About 164,000 people change state.</text>
+  <circle cx="124" cy="332.0" r="4.2" fill="#8C5A3C"/>
+  <text x="114" y="336.0" class="mapx" text-anchor="end" fill="#2A2A28">6 Jul</text>
+  <text x="150" y="336.0" class="mapt" fill="#8C5A3C">ELECTION TWO — because the caretaker's only brief was to hold one.</text>
+  <circle cx="124" cy="362.0" r="2.6" fill="#9A3B2E"/>
+  <text x="114" y="366.0" class="mapx" text-anchor="end" fill="#2A2A28">10 Jul</text>
+  <text x="150" y="366.0" class="mapx" fill="#2A2A28">The king rides across the old border at Frederikshøj.</text>
+  <circle cx="124" cy="392.0" r="2.6" fill="#2E6B5E"/>
+  <text x="114" y="396.0" class="mapx" text-anchor="end" fill="#2A2A28">6 Sep</text>
+  <text x="150" y="396.0" class="mapx" fill="#2A2A28">A referendum approves the constitutional change admitting the north.</text>
+  <circle cx="124" cy="422.0" r="4.2" fill="#8C5A3C"/>
+  <text x="114" y="426.0" class="mapx" text-anchor="end" fill="#2A2A28">21 Sep</text>
+  <text x="150" y="426.0" class="mapt" fill="#8C5A3C">ELECTION THREE — because the new Rigsdag had to include the new land.</text>
+  <text x="14" y="460" class="mapx">On 21 September the Folketing grew by eight seats, which is what the whole year had been about: the new land had to be</text>
+  <text x="14" y="473" class="mapx">able to send people to the parliament that now governed it.</text>
+  </svg>
