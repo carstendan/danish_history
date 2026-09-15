@@ -234,7 +234,150 @@ def zones():
     return "\n  ".join(o)
 
 
-FIGS = [("svg_zoner_1920.txt", zones)]
+# ------------------------------------------------------------------ figure 2
+# 1920, the year on one axis.
+#
+# PLAN_I §13 asked for "three elections in one year" as election statistics. It
+# is drawn as a calendar of the year instead, and the reason is sourcing. The
+# seat arithmetic for the three Folketing elections is available but does not
+# survive the second-appearance test: the two pages that give July's changes are
+# the same text on two hosts, not two witnesses, and September's Radical figure
+# is truncated in every copy found. Party totals therefore stay out of the
+# figure. They can go in the prose, where a flag can carry the doubt; a number on
+# the face of a figure cannot.
+#
+# What the figure draws instead is the thing the chapter actually argues: that
+# Denmark held three general elections in one calendar year for three DIFFERENT
+# constitutional reasons, and that the reasons are the story. The first was
+# forced by a king dismissing a government; the second by a caretaker whose only
+# brief was to pass an electoral law and then go; the third by the constitution
+# requiring a fresh Rigsdag once Sønderjylland had been admitted to it.
+#
+# Every date below is confirmed twice. The Folketing's growth of 8 seats on
+# 21 September is the one quantity on the figure, and it is the one that says
+# what the year was for.
+YEAR = [
+    ("10 Feb", "Zone 1 votes. En bloc, and about three-quarters for Denmark.", "vote"),
+    ("14 Mar", "Zone 2 votes, commune by commune, and about four-fifths German.", "vote"),
+    ("29 Mar", "Christian 10. dismisses the Zahle ministry, which has a majority.", "crown"),
+    ("30 Mar", "The trade union federation calls a general strike for 6 April.", "crown"),
+    ("31 Mar", "The king gives way. Liebe out, Friis in, to pass a law and call a vote.", "crown"),
+    ("11 Apr", "A new electoral law.", "elec"),
+    ("26 Apr", "ELECTION ONE — because the crown tried to use a power it had.", "elec"),
+    ("15 Jun", "The border comes into force. About 164,000 people change state.", "vote"),
+    ("6 Jul",  "ELECTION TWO — because the caretaker's only brief was to hold one.", "elec"),
+    ("10 Jul", "The king rides across the old border at Frederikshøj.", "crown"),
+    ("6 Sep",  "A referendum approves the constitutional change admitting the north.", "vote"),
+    ("21 Sep", "ELECTION THREE — because the new Rigsdag had to include the new land.", "elec"),
+]
+TONE = {"vote": DK, "crown": OX, "elec": DE}
+
+
+def year():
+    W = 700
+    left, top, row = 150, 96, 30
+    # HEIGHT COMPUTED from the row count, as figure 1's is from its line count.
+    H = top + row * len(YEAR) + 58
+    o = ['<svg viewBox="0 0 %d %d" xmlns="http://www.w3.org/2000/svg" role="img" '
+         'aria-label="A calendar of 1920 in Denmark, twelve dated entries from the first '
+         'plebiscite in February to the third general election in September. Three of the '
+         'entries are general elections, each held for a different constitutional reason: '
+         'the first because the king had dismissed a government, the second because the '
+         'caretaker ministry existed only to call one, the third because the constitution '
+         'required a new Rigsdag once Soenderjylland had been admitted.">' % (W, H)]
+    o.append('<rect x="0" y="0" width="%d" height="%d" fill="%s"/>' % (W, H, PAPER))
+    o.append('<text x="14" y="24" class="mapl">1920</text>')
+    o.append('<text x="14" y="40" class="mapt">three general elections in one year, and no '
+             'two of them for the same reason</text>')
+    o.append('<text x="14" y="62" class="mapx" opacity=".75">Party totals are deliberately '
+             'absent: see the note in the script. The dates are the argument.</text>')
+    axis = left - 26
+    o.append('<path d="M %d %d L %d %d" stroke="%s" stroke-width="1.2" opacity=".45"/>'
+             % (axis, top - 12, axis, top + row * (len(YEAR) - 1) + 8, INK))
+    for i, (date, text, kind) in enumerate(YEAR):
+        y = top + row * i
+        col = TONE[kind]
+        big = text.startswith("ELECTION")
+        o.append('<circle cx="%d" cy="%.1f" r="%s" fill="%s"/>'
+                 % (axis, y - 4, "4.2" if big else "2.6", col))
+        o.append('<text x="%d" y="%.1f" class="mapx" text-anchor="end" fill="%s">%s</text>'
+                 % (axis - 10, y, INK, date))
+        cls = "mapt" if big else "mapx"
+        for j, ln in enumerate(fold(text, cls, left, W)):
+            o.append('<text x="%d" y="%.1f" class="%s" fill="%s">%s</text>'
+                     % (left, y + j * 12, cls, col if big else INK, ln))
+    fy = top + row * (len(YEAR) - 1) + 34
+    for ln in fold("On 21 September the Folketing grew by eight seats, which is what the "
+                   "whole year had been about: the new land had to be able to send people "
+                   "to the parliament that now governed it.", "mapx", 14, W):
+        o.append('<text x="14" y="%d" class="mapx">%s</text>' % (fy, ln)); fy += 13
+    o.append('</svg>')
+    return "\n  ".join(o)
+
+
+# ------------------------------------------------------------------ figure 3
+# What the Act of Union of 1 December 1918 moved, and what it did not.
+#
+# A schematic, and it needs no external measurement: everything on it is in the
+# text of the act. The point of the figure is the third column. Every other
+# constitutional settlement in this book had to be undone by war or by defeat;
+# this one specified the procedure for its own ending, and that procedure is
+# what was used in 1944.
+ICELAND = [
+    ("Iceland now holds", DK, [
+        "sovereignty — a state, not a dependency",
+        "its own flag, and its own merchant marine",
+        "the right to declare permanent neutrality, which it did",
+        "its own legislation, courts and finances",
+    ]),
+    ("Denmark still does", DE, [
+        "foreign affairs, as Iceland's agent and not as its sovereign",
+        "coastguard duty in Icelandic waters, until Iceland can",
+        "nothing else that is not written in the act",
+    ]),
+    ("And it carries a clock", OX, [
+        "after 1940 either parliament may demand revision",
+        "if three years of talks produce nothing, either may end it",
+        "by a two-thirds vote, confirmed by referendum",
+        "the only settlement in this book that says how to undo itself",
+    ]),
+]
+
+
+def union():
+    W = 700
+    top, head, line = 92, 20, 14
+    H = top + sum(head + line * len(items) + 18 for _, _, items in ICELAND) + 30
+    o = ['<svg viewBox="0 0 %d %d" xmlns="http://www.w3.org/2000/svg" role="img" '
+         'aria-label="What the Danish-Icelandic Act of Union of 1 December 1918 '
+         'transferred. Iceland became a sovereign state with its own flag, merchant '
+         'marine and neutrality. Denmark continued to conduct Icelandic foreign affairs '
+         'as agent, and to patrol Icelandic waters. The act also set out how it could be '
+         'revised after 1940 and terminated after three further years, which is the '
+         'procedure that was used.">' % (W, H)]
+    o.append('<rect x="0" y="0" width="%d" height="%d" fill="%s"/>' % (W, H, PAPER))
+    o.append('<text x="14" y="24" class="mapl">THE ACT OF UNION, 1 DECEMBER 1918</text>')
+    o.append('<text x="14" y="40" class="mapt">a limb of the composite state leaves by '
+             'agreement, and says how</text>')
+    o.append('<text x="14" y="62" class="mapx" opacity=".75">Nothing here is measured. '
+             'Every line is in the text of the act.</text>')
+    y = top
+    for title, col, items in ICELAND:
+        o.append('<rect x="14" y="%.1f" width="4" height="%.1f" fill="%s"/>'
+                 % (y - 12, head + line * len(items) - 4, col))
+        o.append('<text x="28" y="%.1f" class="mapt" fill="%s">%s</text>' % (y, col, title))
+        y += head
+        for it in items:
+            o.append('<text x="40" y="%.1f" class="mapx">%s</text>' % (y, it))
+            y += line
+        y += 18
+    o.append('</svg>')
+    return "\n  ".join(o)
+
+
+FIGS = [("svg_zoner_1920.txt", zones),
+        ("svg_aar_1920.txt", year),
+        ("svg_forbund_1918.txt", union)]
 
 if __name__ == "__main__":
     for name, fn in FIGS:

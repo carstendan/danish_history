@@ -2157,3 +2157,37 @@ split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see it
    Sønderborg (2,029/2,601) and Højer (219/581) each appear twice and agree digit
    for digit, and those three carry their figures on the face. Tønder is marked as
    a German majority, which every source agrees on, with no number.
+
+88. **Figure 2 does not carry party totals, and PLAN_I §13 asked for election
+   statistics.** The seat arithmetic for the three 1920 Folketing elections is
+   findable but does not survive a second appearance. The two pages giving July's
+   changes - Venstre +3 to 51, Radikale -1 to 16, Konservative -2 to 26 - are the
+   same text on two hosts, which is one witness, not two; and September's Radical
+   figure is truncated in every copy found. The derived totals do not reconcile
+   either: April sums to 139 of 140 seats and September to 149 against a Folketing
+   said to have grown by 8 from 140.
+
+   So the figure is a calendar of the year instead, and it is the better figure.
+   The chapter's argument about 1920 is not the seat count - it is that Denmark
+   held **three general elections in one calendar year for three different
+   constitutional reasons**: the first because the crown tried to use a power it
+   formally had, the second because the caretaker's whole brief was to pass an
+   electoral law and call a vote, the third because the constitution required a
+   fresh Rigsdag once Sønderjylland could send members to it. Twelve dated
+   entries, every date confirmed twice, and one quantity: the Folketing grew by
+   eight seats on 21 September. Party totals can go in the prose, where a flag
+   carries the doubt. A number on the face of a figure cannot.
+
+89. **Two more of item 73's six identifiers are confirmed, from inside the
+   April 1920 volume itself.** Its bibliography lists *Folketingsvalgene 1895 og
+   1898* at 4. R., 3. Bd., H. IV and *Folketingsvalgene 1901* at 4. R., 10. Bd.,
+   H. II - both exactly as item 73 has them. That is four of the six now confirmed
+   from a primary listing, with the 1876/1879 reference still the one the printed
+   bibliographies get wrong (item 80).
+
+90. **A separator convention, decided rather than drifted into.** Figures 1 and 2
+   both carry thousands. Danish-language labels on figure 1 use Danish separators
+   (75.431 dansk) because the phrase around them is Danish; English text uses
+   English ones (164,000 people). This is deliberate and should stay that way, or
+   be changed everywhere at once - it is exactly the sort of thing a consistency
+   pass at the end of the book will otherwise flag as an error.
