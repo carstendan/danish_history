@@ -515,5 +515,295 @@ document he is holding is not issued by anybody.
 
 ---
 
-*Apparatus follows: nine glossary blocks per D-2.6, question tiers, Meanwhile in
-Europe, forward arrows to Parts I chapters 39–44, Summary, Sources, Visit.*
+---
+
+# Chapter 38 — apparatus
+
+*Draft. Glossary blocks are per-section, nine per D-2.6. Question tiers follow the
+series: Recall, Causal, Counterfactual, Contested.*
+
+---
+
+## Danish terms, by section
+
+**§01 — November 1918**
+
+- **Nordslesvig** — North Slesvig: the northern part of the duchy, the area that
+  became Danish in 1920. *Sønderjylland* is the same ground under the name Danish
+  writers prefer, and the two words carry an argument, which is why this chapter
+  uses whichever one the person speaking would have used.
+- *`Slesvig`, `hertugdømme` and `Kongeåen` are glossed in chapters 21, 16 and 34 —
+  reference, do not re-gloss.*
+
+**§02 — Iceland**
+
+- **Forbundsloven** — the Act of Union of 1918, *dansk-islandske forbundslov*. Not
+  a constitution and not a treaty between strangers: an act passed in both
+  parliaments and approved by Icelandic referendum, setting out a union of two
+  sovereign states under one king and how to end it.
+
+**§03 — Versailles**
+
+- **Aabenraa-resolutionen** — the resolution of 16–17 November 1918, passed by the
+  *Vælgerforening for Nordslesvig*, the Danish minority's political association
+  inside Germany. It asked for a border by plebiscite and named the line it wanted.
+- **Clausen-linjen** — the Clausen line, drawn in the 1890s by H. V. Clausen from
+  his own parish-by-parish survey of where Danish was spoken at home. South of
+  Tønder and Tinglev, north of Flensburg. It is, within a few kilometres, the
+  border that exists.
+
+**§04 — the zones**
+
+- **en bloc** — counted whole. Zone 1's votes were totalled once for the entire
+  zone, so no commune inside it could be assigned separately. The Latin is used in
+  the Danish sources and is kept here because the alternative was the point.
+- **hjemmetysk** — home German: a German-minded inhabitant of Nordslesvig, as
+  against a *tilflytter* or an official sent up from the south. The word exists
+  because the distinction mattered enormously and was very hard to draw.
+
+**§05 — the commission**
+
+- **Den Internationale Kommission** — the international commission, CIS. It
+  proclaimed its authority over both zones on 10 January 1920, sat in Flensburg,
+  and governed until the border came into force in June.
+
+**§06 — 10 February**
+
+- **tilflyttere / udenbys stemmeberettigede** — outvoters. The treaty gave the
+  vote to anyone born in the zone, wherever they now lived, so the electorate was
+  defined by birth rather than residence and both sides ran trains.
+
+**§07 — 14 March**
+
+- **Flensborg-bevægelsen** — the Flensburg movement, which held that a vote taken
+  after fifty-five years of German administration measured Germanisation rather
+  than nationality, and that Flensburg should come to Denmark regardless.
+
+**§08 — the Easter Crisis**
+
+- **Påskekrisen** — the Easter Crisis, 29 March to 4 April 1920.
+- **forretningsministerium** — a caretaker ministry: ministers appointed to
+  transact business and hold an election, not to govern. Denmark had two in eight
+  days, and the difference between them is the whole crisis.
+
+**§11 — what it cost**
+
+- **de hjemløse** — the homeless, in the legal sense. Men whose nationality the
+  settlement failed to place: holding papers no state would honour, unable to work
+  where they lived or return where they came from.
+
+---
+
+## Meanwhile in Europe
+
+**Versailles and the other plebiscites, 1920–21.** Slesvig was one of six border
+plebiscites the peace settlement ordered. Allenstein and Marienwerder voted in
+July 1920, Carinthia in October, Upper Silesia in March 1921, Sopron in December.
+Denmark's is the only one that produced a border nobody afterwards tried to
+change by force, and the reason is not Danish virtue: it is that Denmark asked
+for less than it could have had, and the others asked for more.
+
+**Reykjavík, Berlin and Vienna, 1918–19.** The Danish-Icelandic union of 1918
+belongs to the same season as the dissolution of Austria-Hungary and the
+collapse of the German and Russian empires. Four composite states came apart in
+fourteen months. Three came apart in defeat, revolution and, in two cases,
+subsequent war. The fourth was dissolved by an act with a revision clause and a
+termination procedure, agreed by both parliaments and confirmed by referendum.
+
+---
+
+## Checkpoints
+
+**Before §03.** Where we are: thirty-five thousand men from Nordslesvig went into
+the German army and more than six thousand did not come back, and Iceland has
+left by agreement. Hold on to the contrast. The composite state is being taken
+apart in two directions at once, and only one of the two involved a war.
+
+**Before §06.** Where we are: the zones are drawn and the rule for counting each
+of them is settled and different. Before you read the results, work out what each
+rule will do. The chapter is about to tell you, but the design has already
+decided it, and seeing that in advance is the point of §04.
+
+**Before §09.** Where we are: the border is drawn, about twenty-five thousand
+people are on the wrong side of it by their own vote, and the king has dismissed
+a government with a majority. The question in front of you is not whether he was
+entitled to — he was — but what stops a thing that is permitted.
+
+---
+
+## Myth-check
+
+**"Genforeningen — the Reunion."** Nordslesvig had never been part of the Kingdom
+of Denmark. It was the northern half of the duchy of Slesvig, held by the Danish
+king as duke, governed under its own law, and lost in 1864 from a composite state
+rather than from the kingdom. In 1920 it joined the kingdom for the first time.
+The Danish word for 1920 asserts a prior union that this book has spent eight
+chapters showing did not exist in that form, and Danish historians who prefer
+*Sønderjyllands indlemmelse* — the incorporation — are being accurate rather than
+cold. The chapter uses *Genforeningen* because that is what it was called, and
+says here what the word is doing.
+
+**"The king rode over the new border on a white horse."** He rode over the old
+one. The new border had been in force since 15 June and lay some seventy
+kilometres further south; Frederikshøj is on the 1864 line. The horse was white
+because a prophecy attributed to Jomfru Fanny of Aabenraa said it would be, and
+the prophecy is probably attached to her after the event. The one part of that
+morning nobody arranged is the child on the saddle, and it is the part that
+lasted.
+
+**"The Easter Crisis was a coup."** *Social-Demokraten* said so on the day and it
+made the phrase stick. Under the constitution of 1866 the ministers served at the
+king's pleasure and the text said so plainly; dismissing Zahle broke no article.
+What it broke was nineteen years of practice established in 1901 and never
+written down. The crisis matters precisely because nothing illegal happened: it
+is the occasion on which Denmark discovered that its central constitutional rule
+was a convention, and decided to enforce it anyway.
+
+---
+
+## Carry-forward
+
+**→ Chapter 39.** The two minorities created in 1920 — German in Nordslesvig,
+Danish in Flensburg — spend the 1930s being used by people who did not make them.
+
+**→ Chapter 40.** On 9 April 1940 the border drawn by asking is crossed by an army
+that did not ask, and both minorities have to decide what they are for.
+
+**→ Chapter 41.** Iceland's clock runs out. Denmark is occupied in 1940 and cannot
+conduct the foreign policy it retained; Iceland takes it back, and in 1944 uses
+the termination procedure the act of 1918 wrote down.
+
+**→ Chapter 44.** The rule the strike notice established in 1920 is put into the
+constitution in 1953, along with the abolition of the Landsting this chapter's
+predecessor could not get.
+
+**→ Chapter 44.** The white horse becomes the picture of the whole century, and
+what the century actually did to the people on both sides of the line is the other
+picture.
+
+---
+
+## Summary
+
+Iceland became a sovereign state on 1 December 1918, in a union with the Danish
+crown that both parliaments had agreed and that specified how to end itself.
+Denmark handled Icelandic foreign affairs as agent and patrolled Icelandic waters;
+everything else was Iceland's. It is the only limb of the composite state that
+left without a war, and the only constitutional settlement in this book that was
+built with an exit in it.
+
+Denmark asked at Versailles for less than it could have had. The treaty divided
+Slesvig into two voting zones, and the rule for counting them was not the same:
+Zone 1 en bloc, Zone 2 commune by commune. That asymmetry, and not the campaign
+or the votes, is what fixed the border, and everybody involved knew it before
+anyone voted.
+
+On 10 February Zone 1 returned 75,431 for Denmark and 25,329 for Germany. Four
+towns inside it voted German and went to Denmark with the rest. On 14 March Zone 2
+returned about four-fifths German, with a German majority in every district but
+three small polling places on Før. Each country ended the two votes holding about
+a quarter of the other's people, and neither of them moved.
+
+The king agreed with the losing side. On 29 March he dismissed a ministry that had
+a majority, which the constitution of 1866 permitted and nineteen years of
+practice did not. The trade union federation called a general strike for 6 April.
+On Easter Sunday he gave way, and no Danish monarch has dismissed a government
+since. The rule was not written down until 1953; it was enforced in 1920 by people
+who could stop the trams.
+
+The border came into force on 15 June and the king rode across the old one on
+10 July. About a hundred and sixty-four thousand people changed state without
+moving house. Twenty-five thousand of them had voted not to.
+
+---
+
+## Questions
+
+**Recall.**
+
+1. What did the Act of Union of 1918 leave with Denmark, in what capacity, and
+   what two dates did it set for its own revision and ending?
+2. Give the rule for counting Zone 1 and the rule for counting Zone 2, and name
+   two towns whose result the rule overrode.
+3. Who governed the voting zones between January and June 1920, from where, and
+   with whose soldiers?
+
+**Causal.**
+
+1. Denmark could have claimed to the Danevirke and asked instead that the third
+   zone be dropped. Explain that decision in terms of the previous four hundred
+   years rather than of 1920.
+2. The Danish movement had been one thing under German rule and split the moment
+   it could win. What was the disagreement actually about?
+3. The king was within the text of the constitution and gave way in a week.
+   Trace what forced him, and say why it did not come from the Rigsdag.
+
+**Counterfactual.**
+
+1. Suppose Zone 2 had also been counted en bloc. Where would the border be, and
+   what would Denmark have acquired along with Flensburg?
+2. Suppose the Social Democrats had pressed the republican motion in April 1920.
+   Give the most likely consequence for the party, not for the crown.
+3. Suppose the Act of Union had carried no revision clause. What would 1944 have
+   looked like?
+
+**Contested.**
+
+1. *Genforening* or *indlemmelse* — reunion or incorporation? Make the case for
+   each word and say what is at stake in choosing.
+2. Denmark refused Flensburg on the principle of self-determination and absorbed
+   twenty-five thousand people who had voted against it. Is that a contradiction?
+   Argue it both ways.
+3. Historians disagree about how close the Easter Crisis came to a revolution.
+   Set out the evidence on both sides, and say which reading the calling-off of
+   the strike supports.
+
+---
+
+## Sources
+
+*To be completed with the figure scripts; the following are the load-bearing items
+verified for this draft. Items marked* unresolved *are flagged in the prose.*
+
+- Zone 1 returns: 75,431 Danish and 25,329 German of 101,652 ballots cast, turnout
+  91.5 per cent. Published both as 74.9/25.1 of valid votes and 74.2/24.9 of all
+  ballots; the 892-ballot difference is the spoiled papers, and both figures are
+  correct for their own denominator.
+- Commune returns confirmed by two appearances agreeing digit for digit: Aabenraa
+  2,224/2,725, Sønderborg 2,029/2,601, Højer 219/581. **Tønder unresolved** —
+  761 of 3,265 in one source and 750 of 3,198 in another, disagreeing in both
+  numerator and denominator. Carries no figure on the map.
+- Sønderjysk war dead: about 5,270 from the present-day Sønderjylland, of whom
+  roughly three-quarters Danish-minded; over 6,400 on the wider definition
+  covering everyone connected with the land between the 1864 and 1920 borders,
+  including about 190 who died after the armistice. The spread is three questions,
+  not one uncertainty.
+- Election identifiers, Danmarks Statistik: Folketingsvalget 26 April 1920,
+  *Stat. Medd.* 4. R., 60. Bd., H. 3; Rigsdagsvalgene July–August 1920, 4. R.,
+  61. Bd., H. 1; Rigsdagsvalgene Sept–Oct 1920, 4. R., 62. Bd., H. 1.
+  Folkeafstemningen 1920, *Statistiske Efterretninger* 1920, nr. 23 — **not yet
+  opened**, and it is the Danish official publication of the plebiscite returns.
+- **Party seat totals for the three 1920 elections are unresolved** and appear on
+  no figure. See the note in `figs_38.py`.
+- Easter Crisis chronology: dismissal 29 March, Liebe appointed about a day later,
+  strike called for 6 April, procession to the king Easter Saturday 3 April,
+  Friis ministry Easter Sunday 4 April.
+
+---
+
+## Visit
+
+**Frederikshøj, south of Kolding.** The old border crossing, on the 1864 line. The
+Genforening monument is here, and the point of standing on it is that it is
+nowhere near the border that was actually being celebrated.
+
+**Folkehjem, Aabenraa.** The hall where the Vælgerforening passed the resolution
+on 17 November 1918, and where the lists of outvoters were approved a year later.
+Still a meeting house.
+
+**Dybbøl.** Fifty-six years after chapter 34, the redoubts are inside Denmark
+again, and the people who took them are on the other side of a line their own
+government accepted.
+
+**Þingvellir, Iceland.** Where the union of 1918 was undone in 1944, by the
+procedure the act of 1918 had written down.

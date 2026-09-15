@@ -2258,3 +2258,49 @@ split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see it
    can afford to be shorter than it is. I would not touch §08 or §09: they carry
    two of the three vignettes and both land within band now that the crowd
    vignette sits with the strike rather than with the dismissal.
+
+96. **Chapter 38 ships at 7,844 page words and 37 minutes, against a planned 37 —
+   and item 95's decision was taken on a number I had got wrong.** I told Carsten
+   the chapter projected 8,437 and 40 minutes, he accepted 40, and the built page
+   is 7,844 and 37. The estimate was 593 page words too high. **Stop estimating
+   page length from the markdown.** Two things were wrong with it at once: the
+   markdown word count of the prose came to 4,654 where `narrative.py` on the
+   built page gives **4,421** (blockquote markers, the vignette attribution lines
+   and the em-dashes all counted as words that do not survive the build), and the
+   apparatus for this chapter is **3,423**, not the 3,783 that held over chapters
+   33-37. The apparatus constant is not a constant; it tracked a ten-section
+   chapter with two vignettes, and eleven sections with three vignettes shifts
+   words from the apparatus into the prose without adding them to the page.
+
+   The only honest length number is `bookstats.py` on the linked page. That was
+   already the rule, from item 75, and I broke it in the other direction — item 75
+   was a number taken too early in the pipeline, this was a number taken before
+   the pipeline ran at all. Use the estimate to decide whether a subject is
+   missing, which is what item 72 wants it for, and never to decide whether to
+   cut.
+
+   The linkindex gap held exactly: `build_part_i.py` printed 7,838 and `bookstats`
+   gives 7,844.
+
+97. **The shipped profile is 4L/2M/5H, not the 4L/3M/4H the draft was measured
+   at.** `narrative.py` bands the built sections and disagrees with my markdown
+   estimator on three of them: §03 reads heavy at 491, §07 heavy at 506, §09 medium
+   at 363. Five heavy sections is not a defect under item 59 - the defect that
+   rule names is a profile with none - but the planned profile and the shipped one
+   should not be described as the same thing. PLAN_I §6 records ten sections at
+   3L/4M/3H; the chapter shipped eleven at 4L/2M/5H. Amend the plan to what was
+   built.
+
+98. **Chapter 38 is shipped.** 11 sections, 3 vignettes, 2 Meanwhile, 3 figures,
+   9 glossary blocks, 3 checkpoints, 5 summary items, 12 questions. Book total
+   **38 of 44, 275,272 page words, 21.8 h**. Verifiers after the build: figcheck
+   clean, tidy clean with no orphans, vignettes 69 with selftest passing, debuild
+   11 style-only and 27 identical, fixture and seam pass.
+
+   Outstanding against this chapter, all flagged in the prose or here: the
+   commission's membership and handover date including the Claudel detail; the
+   date the Conference of Ambassadors fixed the line, plus concrete departures
+   from the parish result; the Jomfru Fanny prophecy's date; the rural Danish
+   share, 83.5 or 83.8; Tønder's commune return; the 1920 party seat totals; and
+   *Statistiske Efterretninger* 1920 nr. 23, which is the Danish official
+   publication of the plebiscite returns and has still not been opened.
