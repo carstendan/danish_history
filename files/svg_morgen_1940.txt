@@ -1,0 +1,47 @@
+<svg viewBox="0 0 700 338" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The morning of 9 April 1940 on a time axis from four o'clock to half past eight. Three border gendarmes were shot at about four, the border was crossed at a quarter past four, the first engagement was at Lundtoftbjerg at ten minutes to five, the king and government met at half past five, the German terms were accepted at six, and the last firing stopped at a quarter past eight.">
+  <rect x="0" y="0" width="700" height="338" fill="#F4F1EA"/>
+  <text x="14" y="24" class="mapl">9 APRIL 1940, HOUR BY HOUR</text>
+  <text x="14" y="40" class="mapt">a time axis in minutes: every span below is measured on it</text>
+  <text x="14" y="62" class="mapx" opacity=".75">Times as the sources give them. The first two are “about four” and exact.</text>
+  <line x1="40.0" y1="150" x2="674.0" y2="150" stroke="#5F6157" stroke-width=".8"/>
+  <line x1="40.0" y1="150" x2="40.0" y2="157" stroke="#5F6157" stroke-width=".6"/>
+  <text x="40.0" y="171" class="mapx" text-anchor="middle" opacity=".8">04.00</text>
+  <line x1="110.4" y1="150" x2="110.4" y2="154" stroke="#5F6157" stroke-width=".6"/>
+  <line x1="180.9" y1="150" x2="180.9" y2="157" stroke="#5F6157" stroke-width=".6"/>
+  <text x="180.9" y="171" class="mapx" text-anchor="middle" opacity=".8">05.00</text>
+  <line x1="251.3" y1="150" x2="251.3" y2="154" stroke="#5F6157" stroke-width=".6"/>
+  <line x1="321.8" y1="150" x2="321.8" y2="157" stroke="#5F6157" stroke-width=".6"/>
+  <text x="321.8" y="171" class="mapx" text-anchor="middle" opacity=".8">06.00</text>
+  <line x1="392.2" y1="150" x2="392.2" y2="154" stroke="#5F6157" stroke-width=".6"/>
+  <line x1="462.7" y1="150" x2="462.7" y2="157" stroke="#5F6157" stroke-width=".6"/>
+  <text x="462.7" y="171" class="mapx" text-anchor="middle" opacity=".8">07.00</text>
+  <line x1="533.1" y1="150" x2="533.1" y2="154" stroke="#5F6157" stroke-width=".6"/>
+  <line x1="603.6" y1="150" x2="603.6" y2="157" stroke="#5F6157" stroke-width=".6"/>
+  <text x="603.6" y="171" class="mapx" text-anchor="middle" opacity=".8">08.00</text>
+  <line x1="674.0" y1="150" x2="674.0" y2="154" stroke="#5F6157" stroke-width=".6"/>
+  <rect x="157.4" y="140" width="70.4" height="10" fill="#9A3B2E" opacity=".35"/>
+  <line x1="40.0" y1="126" x2="40.0" y2="150" stroke="#9A3B2E" stroke-width="1.8"/>
+  <line x1="75.2" y1="126" x2="75.2" y2="150" stroke="#2A2A28" stroke-width="1.8"/>
+  <line x1="157.4" y1="126" x2="157.4" y2="150" stroke="#9A3B2E" stroke-width="1.8"/>
+  <line x1="251.3" y1="126" x2="251.3" y2="150" stroke="#2F4C7A" stroke-width="1.8"/>
+  <line x1="321.8" y1="126" x2="321.8" y2="150" stroke="#2F4C7A" stroke-width="1.8"/>
+  <line x1="638.8" y1="126" x2="638.8" y2="150" stroke="#2A2A28" stroke-width="1.8"/>
+  <line x1="75.2" y1="104" x2="321.8" y2="104" stroke="#2F4C7A" stroke-width=".9"/>
+  <line x1="75.2" y1="104" x2="75.2" y2="110" stroke="#2F4C7A" stroke-width=".9"/>
+  <line x1="321.8" y1="104" x2="321.8" y2="110" stroke="#2F4C7A" stroke-width=".9"/>
+  <text x="99.9" y="98" class="mapt" style="fill:#2F4C7A">the decision: 1 hour 45 minutes</text>
+  <line x1="40.0" y1="82" x2="638.8" y2="82" stroke="#2A2A28" stroke-width=".9"/>
+  <line x1="40.0" y1="82" x2="40.0" y2="88" stroke="#2A2A28" stroke-width=".9"/>
+  <line x1="638.8" y1="82" x2="638.8" y2="88" stroke="#2A2A28" stroke-width=".9"/>
+  <text x="237.6" y="76" class="mapt" style="fill:#2A2A28">the fighting: 4 hours 15 minutes</text>
+  <text x="12.0" y="190" class="mapx" style="fill:#9A3B2E">04.00  three border gendarmes shot at the Padborg viaduct</text>
+  <text x="12.0" y="204" class="mapx" style="fill:#2A2A28">04.15  the border crossed; landings at Langelinie</text>
+  <text x="39.2" y="218" class="mapx" style="fill:#9A3B2E">04.50  Lundtoftbjerg: the first engagement</text>
+  <text x="141.5" y="232" class="mapx" style="fill:#2F4C7A">05.30  the king and the government meet</text>
+  <text x="231.7" y="246" class="mapx" style="fill:#2F4C7A">06.00  the German terms accepted</text>
+  <text x="468.4" y="190" class="mapx" style="fill:#2A2A28">08.15  the last firing stops, Haderslev</text>
+  <text x="14" y="278" class="mapx" opacity=".85">The fighting lasted 4 hours 15 minutes, from the shooting at the viaduct to the last rounds in Haderslev. The decision</text>
+  <text x="14" y="291" class="mapx" opacity=".85">took 1 hour 45 minutes of it, from the crossing of the border to the government's acceptance of the German terms.</text>
+  <text x="14" y="304" class="mapx" opacity=".85">Sixteen Danes were killed: thirteen soldiers and the three gendarmes. At 18.30 the same evening, 12 hours 30 minutes</text>
+  <text x="14" y="317" class="mapx" opacity=".85">after the terms were accepted, the BBC broadcast in Danish for the first time, and Denmark never banned listening to it.</text>
+  </svg>

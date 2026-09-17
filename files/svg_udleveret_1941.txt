@@ -1,0 +1,36 @@
+<svg viewBox="0 0 700 382" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Danish communists arrested and interned between June 1941 and October 1943. One hundred and ninety-five were arrested by Danish police on 22 June 1941 on a German list of seventy-two names; one hundred and sixteen were still interned when the Communist Law was passed on 22 August; about six hundred passed through the camp at Horserød; about one hundred and fifty were sent to Stutthof in October 1943; twenty-two died.">
+  <rect x="0" y="0" width="700" height="382" fill="#F4F1EA"/>
+  <text x="14" y="24" class="mapl">WHO WAS HANDED OVER, 1941 – 1943</text>
+  <text x="14" y="40" class="mapt">Danes arrested by Danish police for a foreign government</text>
+  <text x="14" y="62" class="mapx" opacity=".75">Counts, not shares. The four bars are not one cohort — see the note below.</text>
+  <text x="14" y="115" class="mapt">22 June 1941</text>
+  <rect x="106.0" y="100" width="44.4" height="18" fill="#2E6B5E" opacity=".85"/>
+  <rect x="150.4" y="100" width="99.9" height="18" fill="#2F4C7A" opacity=".85"/>
+  <text x="258.3" y="114" class="mapt">195</text>
+  <text x="106" y="130" class="mapx" opacity=".8">arrested by Danish police in one day: 60 in Copenhagen, 135 in the provinces</text>
+  <text x="14" y="149" class="mapt">22 Aug 1941</text>
+  <rect x="106.0" y="134" width="85.8" height="18" fill="#2E6B5E" opacity=".85"/>
+  <text x="199.8" y="148" class="mapt">116</text>
+  <text x="106" y="164" class="mapx" opacity=".8">still interned when the Rigsdag legalised it</text>
+  <text x="14" y="183" class="mapt">1941 – 1943</text>
+  <rect x="106.0" y="168" width="444.0" height="18" fill="none" stroke="#5F6157" stroke-width=".9" opacity=".7"/>
+  <text x="558.0" y="182" class="mapt">600</text>
+  <text x="106" y="198" class="mapx" opacity=".8">passed through Horserød</text>
+  <text x="14" y="217" class="mapt">Oct 1943</text>
+  <rect x="106.0" y="202" width="111.0" height="18" fill="#9A3B2E" opacity=".85"/>
+  <text x="225.0" y="216" class="mapt">150</text>
+  <text x="106" y="232" class="mapx" opacity=".8">sent from Horserød to Stutthof</text>
+  <rect x="106.0" y="236" width="4.4" height="18" fill="#9A3B2E" opacity=".85"/>
+  <rect x="110.4" y="236" width="6.7" height="18" fill="#8C5A3C" opacity=".85"/>
+  <rect x="117.1" y="236" width="5.2" height="18" fill="#5F6157" opacity=".85"/>
+  <text x="130.3" y="250" class="mapt">22</text>
+  <text x="106" y="266" class="mapx" opacity=".8">of whom died: 6 in the camp, 9 on the death marches, 7 after they got home</text>
+  <line x1="328.0" y1="94" x2="328.0" y2="122" stroke="#2A2A28" stroke-width="1.2" stroke-dasharray="3 3"/>
+  <text x="334.0" y="90" class="mapx" opacity=".85">danmarkshistorien: about 300</text>
+  <text x="14" y="296" class="mapx" opacity=".85">Four different kinds of quantity, on one scale and not in one cohort: a single day, a stock on a single date, a flow</text>
+  <text x="14" y="309" class="mapx" opacity=".85">over two years and one transport. The arrests of 22 June 1941 were made on a German list of 72 names, without any Danish</text>
+  <text x="14" y="322" class="mapx" opacity=".85">law permitting them; the law came two months later and was retroactive. danmarkshistorien.dk gives about 300 arrested</text>
+  <text x="14" y="335" class="mapx" opacity=".85">rather than 195, marked above; the reading here is that 195 is the day and 300 is the following weeks. The Horserød</text>
+  <text x="14" y="348" class="mapx" opacity=".85">total is drawn open because it rests on two popular sources. The 22 dead are 6 in the camp, 9 on the death marches and 7</text>
+  <text x="14" y="361" class="mapx" opacity=".85">of what the camp had done to them, after they got home.</text>
+  </svg>
