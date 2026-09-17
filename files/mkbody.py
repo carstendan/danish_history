@@ -846,6 +846,54 @@ HAND = {
           "vote reached 44.46 per cent of it and needed 45. Here turnout is 89.5 and the "
           "Danish Nazi party is the segment a swatch is needed to find.")],
  ),
+ 42: dict(
+   file='c42_body.html',
+   part='Part I', band='The small state', num=42, dates='1943 – 1945',
+   title='Rupture, rescue, resistance',
+   people='Werner Best · Georg Ferdinand Duckwitz · Ellen Wilhelmine Nielsen · '
+          'Kim Malthe-Bruun · Kaj Munk · Mogens Fog',
+   hook="The cooperation policy was ratified in March 1943 by the largest turnout in "
+        "Danish history and was finished by the end of August, and what broke it was a "
+        "strike. Three weeks after the government stopped functioning the occupier moved "
+        "against the Jews of Denmark, on the stated ground that there was no longer a "
+        "government to lose. Most of them were across the Sound within a fortnight. What "
+        "was left behind governed the country until the liberation.",
+   keys=['augustoprøret 1943', '29. august 1943', 'flådens sænkning',
+         'departementschefstyret', 'jødeaktionen 1943', 'Theresienstadt',
+         'Danmarks Frihedsråd', 'SOE og nedkastningerne', 'Hvidstengruppen',
+         'clearingmord', 'schalburgtage', 'folkestrejken 1944', 'Shellhuset',
+         'Bornholm, maj 1945'],
+   qs=["The German ultimatum of 28 August 1943 made one demand that was about Danes "
+       "rather than about Germans. What was it, and what would signing it have committed "
+       "the Danish state to?",
+       "Why did the occupier leave Denmark's Jews alone for three and a half years, and "
+       "what changed in September 1943? Use Best's own argument.",
+       "Four hundred and seventy-two people were deported and about seven thousand "
+       "crossed to Sweden. Which of those two numbers is a count and which is an "
+       "estimate, and how can you tell?",
+       "The Danish resistance had no weapons in 1943 and about sixty thousand armed "
+       "people in May 1945. Where did they come from?",
+       "Ten Danes were killed when 387 buildings were destroyed in Rønne and Nexø on 7 "
+       "and 8 May 1945. Explain the number."],
+   figs=[("s04", "SVG_OKTOBER",
+          "Figure 1 · October 1943: to Sweden, to Theresienstadt, and the difference",
+          "An estimate and a count, drawn differently on purpose. The 472 is a nominal "
+          "count from the transport registration lists and is drawn filled; the crossing "
+          "to Sweden is an estimate and is drawn open, with the range in circulation as a "
+          "whisker. The spread on the larger number is wider than the whole of the "
+          "smaller one."),
+         ("s08", "SVG_SABOTAGE",
+          "Figure 2 · Sabotage by year, 1940 – 1945",
+          "The annual series, because no monthly one is reachable. The 1945 column is "
+          "four months. The industrial column adds to its own published total exactly and "
+          "the railway column overshoots its own by one, which is marked on the figure "
+          "rather than averaged away."),
+         ("s09", "SVG_FOLKESTREJKE",
+          "Figure 3 · The People's Strike, 22 June – 5 July 1944",
+          "An axis in days. The two dates the sources do not agree on — when the "
+          "curfew was imposed and when the city went back to work — are drawn as "
+          "bands rather than ticks.")],
+ ),
 }
 
 
@@ -957,16 +1005,34 @@ def terms_by_section(app):
     sections, not one. The first version of this parser read only the leading number,
     so every ranged block was attached to its first section and the rest counted as
     unglossed - which put fifteen phantom gaps into the review and made the block's
-    "in this section" heading wrong on every ranged block in the part."""
+    "in this section" heading wrong on every ranged block in the part.
+
+    THE RANGE SEPARATOR IS TIGHT AND THE DESCRIPTIVE ONE IS SPACED, and the second
+    version of this parser did not distinguish them: it allowed whitespace around
+    the separator, so "**§01 - 1939**" parsed as sections 01 to 1939 and
+    "**§03 - 9 April**" as sections 03 to 09. ELEVEN IMPOSSIBLE HEADINGS SHIPPED -
+    "Danish terms in sections 01-1939" in chapter 41, "09-1899" in 35, "10-1901"
+    in 36, "06-1924" in 39 and three in 40 - and TWO MORE SHIPPED THAT LOOK LEGAL
+    AND ARE NOT: chapter 38's "sections 06-10" and chapter 41's "sections 03-09"
+    are each one section's block. Nothing could see any of it. The markup is valid,
+    the heading fits, and `span` is used ONLY for this heading - placement keys off
+    the leading number alone - so every block sat in the right place and only the
+    label lied. Item 110's class, and item 117's: a heading is a claim.
+
+    The fix requires the range separator to be ADJACENT, which is how the example
+    above writes it and which no descriptive header uses."""
     blk = apparatus_part(app, 'Danish terms, by section')
     out = {}
     cur = None
-    for m in re.finditer(r'^\*\*§(\d+)(?:\s*[\u2013\u2014-]\s*(\d+))?[^\n]*\*\*\s*$'
+    for m in re.finditer(r'^\*\*§(\d+)(?:[\u2013\u2014-](\d+))?[^\n]*\*\*\s*$'
                          r'|^-\s+\*\*(.+?)\*\*\s+—\s+(.+?)(?=\n(?:-|\*\*|\Z))',
                          blk, re.M | re.S):
         if m.group(1):
             a = int(m.group(1))
             b = int(m.group(2)) if m.group(2) else a
+            # A range running backwards or past any plausible chapter is a parse
+            # failure, not a range. Loud, because the old one was silent.
+            assert a <= b <= 30, ('implausible glossary range', m.group(0), a, b)
             span = ['%02d' % i for i in range(a, b + 1)]
             cur = (m.group(1), span)
             out[m.group(1)] = ([], span)

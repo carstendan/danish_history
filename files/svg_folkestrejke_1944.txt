@@ -1,0 +1,58 @@
+<svg viewBox="0 0 700 369" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The Copenhagen People's Strike on an axis of days from 22 June to 5 July 1944, from the destruction of Riffelsyndikatet to the return to work, with the disputed curfew date and the disputed return date drawn as bands.">
+  <rect x="0" y="0" width="700" height="369" fill="#F4F1EA"/>
+  <text x="14" y="24" class="mapl">THE PEOPLE'S STRIKE, JUNE - JULY 1944</text>
+  <text x="14" y="40" class="mapt">an axis in days: the two disputed dates are bands, not ticks</text>
+  <text x="14" y="62" class="mapx" opacity=".75">A city stopped when a council with no legal existence asked it to.</text>
+  <rect x="235.1" y="146" width="341.4" height="12" fill="#2E6B5E" opacity=".30"/>
+  <rect x="576.5" y="146" width="97.5" height="12" fill="#2E6B5E" opacity=".14"/>
+  <rect x="186.3" y="134" width="48.8" height="7" fill="#5F6157" opacity=".35"/>
+  <line x1="40.0" y1="158" x2="674.0" y2="158" stroke="#5F6157" stroke-width=".8"/>
+  <line x1="40.0" y1="158" x2="40.0" y2="166" stroke="#5F6157" stroke-width=".6"/>
+  <text x="23.1" y="180" class="mapx" opacity=".8">22 Jun</text>
+  <line x1="88.8" y1="158" x2="88.8" y2="162" stroke="#5F6157" stroke-width=".6"/>
+  <line x1="137.5" y1="158" x2="137.5" y2="166" stroke="#5F6157" stroke-width=".6"/>
+  <text x="120.6" y="180" class="mapx" opacity=".8">24 Jun</text>
+  <line x1="186.3" y1="158" x2="186.3" y2="162" stroke="#5F6157" stroke-width=".6"/>
+  <line x1="235.1" y1="158" x2="235.1" y2="166" stroke="#5F6157" stroke-width=".6"/>
+  <text x="218.2" y="180" class="mapx" opacity=".8">26 Jun</text>
+  <line x1="283.8" y1="158" x2="283.8" y2="162" stroke="#5F6157" stroke-width=".6"/>
+  <line x1="332.6" y1="158" x2="332.6" y2="166" stroke="#5F6157" stroke-width=".6"/>
+  <text x="315.7" y="180" class="mapx" opacity=".8">28 Jun</text>
+  <line x1="381.4" y1="158" x2="381.4" y2="162" stroke="#5F6157" stroke-width=".6"/>
+  <line x1="430.2" y1="158" x2="430.2" y2="166" stroke="#5F6157" stroke-width=".6"/>
+  <text x="413.3" y="180" class="mapx" opacity=".8">30 Jun</text>
+  <line x1="478.9" y1="158" x2="478.9" y2="162" stroke="#5F6157" stroke-width=".6"/>
+  <line x1="527.7" y1="158" x2="527.7" y2="166" stroke="#5F6157" stroke-width=".6"/>
+  <text x="513.6" y="180" class="mapx" opacity=".8">2 Jul</text>
+  <line x1="576.5" y1="158" x2="576.5" y2="162" stroke="#5F6157" stroke-width=".6"/>
+  <line x1="625.2" y1="158" x2="625.2" y2="166" stroke="#5F6157" stroke-width=".6"/>
+  <text x="611.2" y="180" class="mapx" opacity=".8">4 Jul</text>
+  <line x1="674.0" y1="158" x2="674.0" y2="162" stroke="#5F6157" stroke-width=".6"/>
+  <line x1="40.0" y1="132" x2="40.0" y2="158" stroke="#9A3B2E" stroke-width="1.8"/>
+  <line x1="88.8" y1="132" x2="88.8" y2="158" stroke="#2A2A28" stroke-width="1.8"/>
+  <line x1="235.1" y1="132" x2="235.1" y2="158" stroke="#2E6B5E" stroke-width="1.8"/>
+  <line x1="381.4" y1="132" x2="381.4" y2="158" stroke="#2A2A28" stroke-width="1.8"/>
+  <line x1="430.2" y1="132" x2="430.2" y2="158" stroke="#2E6B5E" stroke-width="1.8"/>
+  <line x1="478.9" y1="132" x2="478.9" y2="158" stroke="#9A3B2E" stroke-width="1.8"/>
+  <line x1="527.7" y1="132" x2="527.7" y2="158" stroke="#2F4C7A" stroke-width="1.8"/>
+  <text x="12.0" y="200" class="mapx" style="fill:#9A3B2E">22 Jun  BOPA destroys Riffelsyndikatet</text>
+  <text x="12.0" y="214" class="mapx" style="fill:#2A2A28">23 Jun  eight resistance men executed</text>
+  <text x="133.7" y="228" class="mapx" style="fill:#2E6B5E">26 Jun  Burmeister and Wain walk out</text>
+  <text x="260.3" y="200" class="mapx" style="fill:#2A2A28">29 Jun  the Hvidsten eight shot at Ryvangen</text>
+  <text x="306.3" y="214" class="mapx" style="fill:#2E6B5E">30 Jun  executions announced; general strike</text>
+  <text x="346.6" y="228" class="mapx" style="fill:#9A3B2E">1 Jul  state of siege; water, gas and power cut</text>
+  <text x="392.6" y="242" class="mapx" style="fill:#2F4C7A">2 Jul  mayors and unions appeal, and are ignored</text>
+  <text x="129.1" y="104" class="mapx" style="fill:#5F6157">curfew imposed: 25 or 26 June</text>
+  <text x="547.2" y="104" class="mapx" style="fill:#5F6157">back to work: 3 to 5 July</text>
+  <rect x="14.0" y="268.0" width="14" height="8" fill="#2E6B5E" opacity=".30"/>
+  <text x="34.0" y="276.0" class="mapx" opacity=".9">the strike</text>
+  <rect x="110.3" y="268.0" width="14" height="8" fill="#2E6B5E" opacity=".14"/>
+  <text x="130.3" y="276.0" class="mapx" opacity=".9">the return to work, not settled</text>
+  <rect x="324.8" y="268.0" width="14" height="8" fill="#5F6157" opacity=".35"/>
+  <text x="344.8" y="276.0" class="mapx" opacity=".9">the curfew's disputed start</text>
+  <text x="14" y="296" class="mapx" opacity=".85">Two dates in this fortnight are not settled and both are drawn as bands. The curfew is imposed on 25 or 26 June</text>
+  <text x="14" y="309" class="mapx" opacity=".85">depending on the source. The return to work is 3 July on one standard account, an order on the 4th obeyed on the 5th on</text>
+  <text x="14" y="322" class="mapx" opacity=".85">another, and the 5th on the site that publishes the Council's own appeals - and which does not publish the text of the</text>
+  <text x="14" y="335" class="mapx" opacity=".85">final proclamation, which is why the question is open. On 1 July alone 23 people were killed and 203 wounded; over the</text>
+  <text x="14" y="348" class="mapx" opacity=".85">whole strike more than 100 were killed and more than 600 wounded. The single-day pair rests on one source.</text>
+  </svg>

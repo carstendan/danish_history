@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>42 · Rupture, rescue, resistance, 1943–1945</title>
+<style>
+
+  :root{
+    --ground:#E4E7E4; --paper:#F0F2EE; --peat:#221E18; --muted:#6C6E63;
+    --rule:#C9CDC4; --verdigris:#2E6B5E; --amber:#A9601C; --oxblood:#8A2B2B; --indigo:#2F4C7A; --slate:#4F6470; --moss:#4A5A46; --band:#4A5A46;
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua","URW Palladio L",Georgia,serif;
+    --mono:"IBM Plex Mono",ui-monospace,"SF Mono",SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0;background:var(--ground);color:var(--peat);
+    font-family:var(--serif);font-size:17.5px;line-height:1.68;text-rendering:optimizeLegibility}
+  .wrap{max-width:790px;margin:0 auto;padding:0 28px}
+  a{color:var(--verdigris)}
+  a:focus-visible{outline:2px solid var(--amber);outline-offset:3px}
+  p{margin:0 0 1.05em}
+
+  .crumb{border-bottom:1px solid var(--rule);background:rgba(228,231,228,.94)}
+  .crumb-in{max-width:1000px;margin:0 auto;padding:10px 28px;display:flex;gap:14px;
+    font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+  .crumb-in b{color:var(--band);font-weight:600}
+
+  header.hd{padding:62px 0 0}
+  .eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.22em;text-transform:uppercase;
+    color:var(--amber);margin:0 0 20px}
+  h1{font-size:clamp(34px,6.4vw,58px);line-height:1.02;margin:0;font-weight:400;letter-spacing:-.022em}
+  .dates{font-family:var(--mono);font-size:13px;letter-spacing:.1em;color:var(--muted);margin:18px 0 0}
+  .why{font-size:20px;margin:22px 0 0;max-width:62ch}
+  .keys{display:flex;flex-wrap:wrap;gap:6px;margin:26px 0 0;padding:0;list-style:none}
+  .keys li{font-family:var(--mono);font-size:10.5px;letter-spacing:.03em;color:var(--muted);
+    border:1px solid var(--rule);border-radius:2px;padding:3px 8px}
+
+  h2{font-size:27px;font-weight:400;letter-spacing:-.015em;margin:56px 0 4px;line-height:1.2}
+  h2 .n{font-family:var(--mono);font-size:12px;color:var(--band);letter-spacing:.1em;
+    display:block;margin:0 0 8px;font-weight:600}
+  h3{font-size:19px;font-weight:600;margin:34px 0 6px;letter-spacing:-.008em}
+  .kicker{font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;
+    color:var(--amber);margin:56px 0 8px}
+  hr.div{border:0;border-top:1px solid var(--rule);margin:52px 0 0}
+  i.dk{font-style:italic}
+
+  /* per-section glossary */
+  .terms{background:var(--paper);border-left:3px solid var(--band);padding:16px 20px;margin:22px 0 28px}
+  .terms h4{font-family:var(--mono);font-size:10px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--band);margin:0 0 12px;font-weight:600}
+  .terms dl{margin:0;display:grid;grid-template-columns:1fr 1fr;gap:10px 26px}
+  .terms dl.one{grid-template-columns:1fr}
+  .terms .t{min-width:0}
+  .terms dt{font-family:var(--mono);font-size:12.5px;color:var(--peat);font-weight:600;
+    letter-spacing:.01em;line-height:1.4}
+  .terms dd{margin:2px 0 0;font-size:15px;color:var(--muted);line-height:1.5}
+
+  ol.qs{margin:0;padding:0;list-style:none;counter-reset:q}
+  ol.qs li{counter-increment:q;position:relative;padding:0 0 0 34px;margin:0 0 10px;font-size:18px}
+  ol.qs li::before{content:counter(q);position:absolute;left:0;top:2px;font-family:var(--mono);
+    font-size:11px;color:var(--amber);font-weight:600}
+
+  .meanwhile{background:var(--paper);border-left:3px solid var(--verdigris);padding:20px 22px;margin:30px 0}
+  .meanwhile h4{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--verdigris);margin:0 0 10px;font-weight:600}
+  .meanwhile p{font-size:16px;margin:0 0 .8em}
+  .meanwhile p:last-child{margin:0}
+
+  .myth{background:var(--paper);border-left:3px solid var(--oxblood);padding:20px 22px;margin:26px 0}
+  .myth h4{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--oxblood);margin:0 0 12px;font-weight:600}
+  .myth dl{margin:0}
+  .myth dt{font-weight:600;font-size:16.5px;margin:16px 0 3px}
+  .myth dt:first-child{margin-top:0}
+  .myth dd{margin:0;font-size:16px;color:var(--muted)}
+
+  ul.calls{list-style:none;margin:0;padding:0;border-top:1px solid var(--rule)}
+  ul.calls li{display:flex;gap:18px;padding:12px 0;border-bottom:1px solid var(--rule);align-items:baseline}
+  ul.calls b{font-family:var(--mono);font-size:11px;letter-spacing:.06em;color:var(--band);
+    width:74px;flex:none;font-weight:600}
+  ul.calls span{font-size:16px;color:var(--muted)}
+
+  ol.five{list-style:none;margin:0;padding:0;counter-reset:f}
+  ol.five li{counter-increment:f;background:var(--paper);border-left:2px solid var(--band);
+    padding:15px 18px;margin:0 0 2px;display:flex;gap:14px;align-items:baseline}
+  ol.five li::before{content:counter(f,decimal-leading-zero);font-family:var(--mono);font-size:11px;
+    color:var(--band);font-weight:600;flex:none}
+  ol.five p{margin:0;font-size:16.5px}
+
+  .qgroup{margin:0 0 26px}
+  .qlabel{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--amber);margin:0 0 4px;font-weight:600}
+  .qnote{font-size:14.5px;color:var(--muted);margin:0 0 10px}
+  .qgroup ul{margin:0;padding:0 0 0 20px}
+  .qgroup li{margin:0 0 8px;font-size:16.5px}
+
+  figure{margin:34px 0;background:var(--paper);padding:20px 20px 16px;border-top:2px solid var(--band)}
+  figure svg{width:100%;height:auto;display:block}
+  figcaption{font-size:14.5px;color:var(--muted);margin:14px 0 0;line-height:1.55}
+  figcaption b{font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;
+    color:var(--peat);display:block;margin:0 0 5px;font-weight:600}
+  .mapt{font-family:var(--mono);font-size:9.5px;fill:#5F6157;letter-spacing:.04em}
+  .mapl{font-family:var(--mono);font-size:10.5px;fill:#3C3E36;letter-spacing:.06em;font-weight:600}
+  .mapx{font-family:var(--mono);font-size:8.5px;fill:#4A4C44;letter-spacing:.04em}
+
+  ul.plain{list-style:none;margin:0;padding:0;border-top:1px solid var(--rule)}
+  ul.plain li{display:flex;gap:20px;padding:12px 0;border-bottom:1px solid var(--rule);
+    align-items:baseline;flex-wrap:wrap}
+  ul.plain .nm{font-family:var(--mono);font-size:12px;letter-spacing:.03em;width:200px;flex:none;
+    color:var(--verdigris)}
+  ul.plain .ds{font-size:15.5px;color:var(--muted);flex:1;min-width:230px}
+
+  footer{margin:70px 0 0;padding:22px 0 64px;border-top:1px solid var(--rule);
+    font-family:var(--mono);font-size:11px;letter-spacing:.06em;color:var(--muted)}
+
+  @media (max-width:720px){
+    body{font-size:16.5px}
+    .wrap{padding:0 20px}
+    .crumb-in{padding:10px 20px;gap:10px;font-size:9.5px}
+    header.hd{padding:40px 0 0}
+    h2{font-size:24px;margin-top:44px}
+    figure{padding:14px 12px 12px}
+    .terms dl{grid-template-columns:1fr;gap:11px}
+    ul.calls li{flex-direction:column;gap:2px}
+    ul.calls b{width:auto}
+    ul.plain li{flex-direction:column;gap:3px}
+    ul.plain .nm{width:auto}
+  }
+
+  html{scroll-behavior:smooth}
+  @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+  h2[id],div.myth[id]{scroll-margin-top:24px}
+
+  /* fixed section index, wide screens only */
+  .rail{position:fixed;top:88px;left:calc(50% - 605px);width:170px;z-index:30;
+    max-height:calc(100vh - 130px);overflow-y:auto;scrollbar-width:thin}
+  .rail-h{font-family:var(--mono);font-size:9.5px;letter-spacing:.18em;text-transform:uppercase;
+    color:var(--amber);margin:0 0 10px;font-weight:600}
+  .rail ol{list-style:none;margin:0;padding:0;border-left:1px solid var(--rule)}
+  .rail li{margin:0}
+  .rail a{display:flex;gap:7px;align-items:baseline;text-decoration:none;color:var(--muted);
+    font-family:var(--mono);font-size:10.5px;line-height:1.35;letter-spacing:.01em;
+    padding:5px 0 5px 11px;margin-left:-1px;border-left:2px solid transparent}
+  .rail a:hover{color:var(--peat)}
+  .rail .rn{color:var(--band);font-weight:600;flex:none;width:13px}
+  .rail a.active{color:var(--peat);border-left-color:var(--amber);font-weight:600}
+  .rail a.active .rn{color:var(--amber)}
+  @media (max-width:1239px){.rail{display:none}}
+
+  /* collapsible contents, narrow screens only */
+  .toc{display:none;background:var(--paper);border-left:3px solid var(--band);
+    padding:12px 18px;margin:34px 0 0}
+  .toc summary{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--band);font-weight:600;cursor:pointer}
+  .toc ol{margin:12px 0 2px;padding:0 0 0 20px}
+  .toc li{margin:0 0 5px;font-size:15.5px}
+  @media (max-width:1239px){.toc{display:block}}
+
+  /* people vignette */
+  .vig{background:var(--paper);border-left:3px solid var(--amber);padding:20px 22px;margin:30px 0}
+  .vig h4{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--amber);margin:0 0 10px;font-weight:600}
+  .vig p{font-size:16.5px;margin:0 0 .85em}
+  .vig p:last-child{margin:0}
+  .vig .who{font-family:var(--mono);font-size:11px;letter-spacing:.05em;color:var(--muted);
+    margin:12px 0 0;font-style:normal}
+  @media print{.rail{display:none}.toc{display:none}.vig{background:#fff}}
+
+  /* mid-page retrieval checkpoint — deliberately unfilled, so it reads as a pause, not a box */
+  .check{border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);
+    padding:15px 0 14px;margin:32px 0}
+  .check h4{font-family:var(--mono);font-size:10px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--muted);margin:0 0 9px;font-weight:600}
+  .check ul{margin:0;padding:0 0 0 19px}
+  .check li{font-size:15.5px;color:var(--muted);margin:0 0 5px;line-height:1.5}
+  .check li:last-child{margin:0}
+  @media print{.check{border-color:#ccc}}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+  @media print{.crumb{display:none}body{background:#fff}figure,.meanwhile,.myth,.terms,ol.five li{background:#fff}}
+
+</style>
+</head>
+<body>
+
+<div class="crumb"><div class="crumb-in">
+  <span><a href="danish-history-index.html#c42" style="color:var(--band);font-weight:600;text-decoration:none">← Index</a></span>
+  <span><b>Part I</b> · The small state</span><span>Chapter 42</span><span>1943 – 1945</span>
+</div></div>
+
+<nav class="rail" aria-label="Sections of this page"><p class="rail-h">On this page</p><ol>
+<li><a href="#intro"><span class="rn"></span>Introduction</a></li>
+<li><a href="#s01"><span class="rn">01</span>The strikes of August</a></li>
+<li><a href="#s02"><span class="rn">02</span>29 August: the fleet</a></li>
+<li><a href="#s03"><span class="rn">03</span>The warning</a></li>
+<li><a href="#s04"><span class="rn">04</span>Three weeks in October</a></li>
+<li><a href="#s05"><span class="rn">05</span>Those who did not get away</a></li>
+<li><a href="#s06"><span class="rn">06</span>Danmarks Frihedsråd</a></li>
+<li><a href="#s07"><span class="rn">07</span>How the underground was armed</a></li>
+<li><a href="#s08"><span class="rn">08</span>Sabotage, and the counter-terror</a></li>
+<li><a href="#s09"><span class="rn">09</span>The People's Strike, June 1944</a></li>
+<li><a href="#s10"><span class="rn">10</span>Shellhus</a></li>
+<li><a href="#s11"><span class="rn">11</span>4 May 1945 — and Bornholm</a></li>
+<li><a href="#myth"><span class="rn"></span>Myth-check</a></li>
+<li><a href="#forward"><span class="rn"></span>What to carry forward</a></li>
+<li><a href="#summary"><span class="rn"></span>The page in five</a></li>
+<li><a href="#questions"><span class="rn"></span>Questions &amp; discussion</a></li>
+<li><a href="#sources"><span class="rn"></span>Sources</a></li>
+<li><a href="#visit"><span class="rn"></span>Places you can visit</a></li>
+</ol></nav>
+
+<div class="wrap">
+
+<header class="hd">
+  <p class="eyebrow">Era chapter · about 55 minutes</p>
+  <h1>Rupture, rescue, resistance</h1>
+  <p class="dates">1943 – 1945 · Werner Best · Georg Ferdinand Duckwitz · Ellen Wilhelmine Nielsen · Kim Malthe-Bruun · Kaj Munk · Mogens Fog</p>
+  <p class="why">The cooperation policy was ratified in March 1943 by the largest turnout in Danish history and was finished by the end of August, and what broke it was a strike. Three weeks after the government stopped functioning the occupier moved against the Jews of Denmark, on the stated ground that there was no longer a government to lose. Most of them were across the Sound within a fortnight. What was left behind governed the country until the liberation.</p>
+  <ul class="keys">
+    <li>augustoprøret 1943</li><li>29. august 1943</li><li>flådens sænkning</li><li>departementschefstyret</li><li>jødeaktionen 1943</li><li>Theresienstadt</li><li>Danmarks Frihedsråd</li><li>SOE og nedkastningerne</li><li>Hvidstengruppen</li><li>clearingmord</li><li>schalburgtage</li><li>folkestrejken 1944</li><li>Shellhuset</li><li>Bornholm, maj 1945</li>
+  </ul>
+</header>
+
+<details class="toc"><summary>Contents</summary><ol>
+<li><a href="#intro">Introduction</a></li>
+<li><a href="#s01">The strikes of August</a></li>
+<li><a href="#s02">29 August: the fleet</a></li>
+<li><a href="#s03">The warning</a></li>
+<li><a href="#s04">Three weeks in October</a></li>
+<li><a href="#s05">Those who did not get away</a></li>
+<li><a href="#s06">Danmarks Frihedsråd</a></li>
+<li><a href="#s07">How the underground was armed</a></li>
+<li><a href="#s08">Sabotage, and the counter-terror</a></li>
+<li><a href="#s09">The People's Strike, June 1944</a></li>
+<li><a href="#s10">Shellhus</a></li>
+<li><a href="#s11">4 May 1945 — and Bornholm</a></li>
+<li><a href="#myth">Myth-check</a></li>
+<li><a href="#forward">What to carry forward</a></li>
+<li><a href="#summary">The page in five</a></li>
+<li><a href="#questions">Questions &amp; discussion</a></li>
+<li><a href="#sources">Sources</a></li>
+<li><a href="#visit">Places you can visit</a></li>
+</ol></details>
+
+<p class="kicker">Introduction</p>
+<h2 id="intro" style="margin-top:0"><span class="n">WHAT THIS PAGE ANSWERS</span>Five questions</h2>
+<ol class="qs">
+  <li>The German ultimatum of 28 August 1943 made one demand that was about Danes rather than about Germans. What was it, and what would signing it have committed the Danish state to?</li>
+  <li>Why did the occupier leave Denmark's Jews alone for three and a half years, and what changed in September 1943? Use Best's own argument.</li>
+  <li>Four hundred and seventy-two people were deported and about seven thousand crossed to Sweden. Which of those two numbers is a count and which is an estimate, and how can you tell?</li>
+  <li>The Danish resistance had no weapons in 1943 and about sixty thousand armed people in May 1945. Where did they come from?</li>
+  <li>Ten Danes were killed when 387 buildings were destroyed in Rønne and Nexø on 7 and 8 May 1945. Explain the number.</li>
+</ol>
+
+<hr class="div">
+
+<h2 id="s01"><span class="n">01 / NARRATIVE</span>The strikes of August</h2>
+
+<div class="terms">
+  <h4>Danish terms in this section</h4>
+  <dl class="one">
+    <div class="t"><dt>augustoprøret</dt><dd>the August rising: the wave of strikes, street fighting and sabotage that ran through the Danish provincial towns in August 1943 and ended the cooperation policy. Not a rising against anybody's government; there was nobody to call it and nobody to call it off.</dd></div>
+  </dl>
+</div>
+
+<p>The war turned somewhere else and Denmark felt it. The Sixth Army surrendered at Stalingrad in February 1943; the last Axis troops in Africa gave up in May; the Allies landed in Sicily on 10 July; and on 24 July the Fascist Grand Council deposed Mussolini. None of it happened within a thousand kilometres of Copenhagen and all of it was read there. A country told for three years that cooperation was the only realistic policy began to work out how much longer realism would be required.</p>
+
+<p>The sabotage figures measure the change, because they are not a mood. Setting aside burnt haystacks and cut telephone cables, industrial sabotage ran to seventy-three actions in the whole of 1940, 1941 and 1942 together. In 1943 it was <strong>eight hundred and sixteen</strong>. Railway sabotage over those three years was two actions; in 1943 it was a hundred and eleven. The graph does not rise. It starts.</p>
+
+<p>The unrest of that August has no agreed beginning. Workers at Odense Steel Shipyard struck on 30 July, when the occupier posted armed guards against sabotage on their own yard. Esbjerg had the first town-wide strike, on 10 and 11 August; Odense followed from the 18th to the 23rd, Aalborg from the 23rd to the 29th, and there was trouble in Aarhus. One standard account says seventeen towns were affected and it is the only one that gives a number.</p>
+
+<p>The mechanism repeated itself almost mechanically. An act of sabotage; a local German demand for a curfew; a strike against the curfew; crowds in the street; fighting with German soldiers; a further German demand. Nobody in Denmark called these strikes and nobody could call them off, which is exactly what made them unanswerable. The cooperation policy had been built to deliver order, and what had stopped was the delivery of order.</p>
+
+<p>Five months earlier the same country had returned the cooperating parties on the largest turnout in its history. Hold the two facts together, because the second is usually offered as evidence that the first was a sham and it is not. March 1943 was a real verdict on the parties. It was not a verdict on the policy, because the policy was not on the ballot — and when the country was finally asked about the policy, it answered by walking off the job.</p>
+
+<h2 id="s02"><span class="n">02 / NARRATIVE</span>29 August: the fleet</h2>
+
+<div class="terms">
+  <h4>Danish terms in this section</h4>
+  <dl>
+    <div class="t"><dt>undtagelsestilstand</dt><dd>a state of emergency. The occupier demanded that Denmark declare one on 28 August 1943 and imposed a military one of its own the next morning when Denmark refused.</dd></div>
+    <div class="t"><dt>departementschefstyre</dt><dd>the permanent secretaries' administration: from September 1943 to May 1945 each department head issued orders with the force of law inside his own field, chaired by the Foreign Ministry and watched by a committee of politicians. A government in everything but responsibility.</dd></div>
+  </dl>
+</div>
+
+<p>On the morning of Saturday 28 August 1943 Werner Best handed the Danish government a list of demands and gave it until four o'clock.</p>
+
+<p>Every clause describes something the occupier had not been able to get by asking. A state of emergency over the whole country. No more than five people together in public. No strikes, and no support of strikers. No meetings, indoors or out. Nobody on the streets between half past eight at night and half past five in the morning; restaurants shut at half past seven. Every firearm and explosive in private hands surrendered by 1 September. Press censorship <i class="dk">under tysk medvirken</i>, with German participation. Danish special courts for offences against the new orders. And then the sentence the rest of it was for: for sabotage and any help given to it, for attacks on German forces, and for merely possessing a weapon after 1 September, the death penalty, <i class="dk">ufortøvet</i> — without delay.</p>
+
+<p>One demand tells you more than the others. Point four forbade any <i class="dk">generen</i> — harassment — of Danes on account of their own or their relatives' cooperation with German authorities. The occupier was requiring the Danish state to protect the Danes who had worked for it. A government that signed would not merely have been administering a dictatorship. It would have been underwriting its own collaborators against its own people, in writing, three weeks after Mussolini fell.</p>
+
+<p>The refusal was delivered at half past three, thirty minutes inside the deadline, and its ground was capacity rather than principle: the measures demanded would destroy the government's own ability to keep order, which was the one thing the arrangement existed to supply.</p>
+
+<p>The ministers then asked to resign and Christian X did not sign the request. This looks like hesitation and is the opposite. A government that has not resigned cannot be replaced, and the missing signature denied the occupier the vacancy it needed to install anything of its own. The ministers stopped functioning and could no longer be held to account. The forms stayed where they were, empty.</p>
+
+<p>At four on the morning of the 29th the German forces moved. The army and navy were disarmed and interned after fighting that killed twenty-three Danish soldiers, or twenty-four; a couple of hundred prominent Danes were interned; and at Sorgenfri there was a firefight between German troops and the royal guard with the king inside. German soldiers stood around the palace until October.</p>
+
+<p>At eight minutes past four Vice Admiral A. H. Vedel's signal went to every unit of the navy: <strong>K N U</strong>. The first explosion came five minutes later. Thirty-two ships were scuttled at their moorings, thirteen reached Sweden, and fourteen were taken undamaged. The artillery ship <i class="dk">Niels Iuel</i> ran from the Isefjord for Swedish water, was hit from the air, and was sunk by her own crew. Nine men of the navy were killed at Holmen.</p>
+
+<p>By that afternoon the fleet Denmark had not used on 9 April 1940 was on the bottom of its own harbours, put there by its own officers, in about eleven minutes. It is the most exact image the occupation produced of what the cooperation policy had cost and what ending it would cost.</p>
+
+<p>At Horserød the camp passed into German hands and about ninety interned communists got out in the confusion. Around a hundred and fifty were left, including seven women and the communist leader Martin Nielsen, and on 2 October they went to Stutthof.</p>
+
+<p>From September the country was run by its permanent secretaries, each able to issue orders with the force of law in his own field, chaired by the Foreign Ministry's Nils Svenningsen and watched by a committee of thirteen politicians. It lasted until May 1945.</p>
+
+<p>Whether 29 August was a rupture at all is disputed by the historian who knows it best. Hans Kirchhoff's three volumes argue that the continuity across the date is stronger than anyone had assumed: agricultural exports to Germany <i class="dk">rose</i> afterwards, the administration went on, the king and the politicians kept the structure formally alive, and cooperation continued to 5 May 1945 in everything but name. The encyclopedia's own entry on the permanent secretaries calls their regime a continuation of the cooperation policy on the administrative level. The break was real for the men who were shot at and for the ships on the bottom. This book's answer is that 29 August ended the policy's politics and left its administration standing — which is why the next three sections are possible at all.</p>
+
+<div class="check">
+  <h4>Checkpoint</h4>
+  <ul>
+    <li>What did the German ultimatum of 28 August 1943 demand, and why did the Danish government say it could not comply?</li>
+    <li>Christian 10. declined to sign his government's resignation. What did that deny the occupier?</li>
+    <li>How many ships of the Danish navy were scuttled on 29 August 1943, how many reached Sweden, and who gave the order?</li>
+  </ul>
+</div>
+
+<h2 id="s03"><span class="n">03 / NARRATIVE</span>The warning</h2>
+
+<div class="terms">
+  <h4>Danish terms in this section</h4>
+  <dl class="one">
+    <div class="t"><dt>jødeaktionen</dt><dd>the Jewish action: the German operation against the Jews of Denmark, proposed on 8 September 1943 and carried out on the night of 1 October.</dd></div>
+  </dl>
+</div>
+
+<p>On 8 September 1943 Werner Best telegraphed Ribbentrop proposing that the Jews of Denmark be deported. It is the most important Danish document of the occupation, and what makes it so is not the proposal but the timing argument attached.</p>
+
+<p>The necessary measures, Best wrote, would have to be taken <i class="dk">while the present state of emergency lasts</i>, because at a later stage they would provoke reactions in the country — and then any constitutional government that existed would resign, and the king and the Rigsdag would stop taking part in governing.</p>
+
+<p>Read it twice. Best is not saying that Denmark's Jews were in danger because the emergency existed. He is saying the reverse: that they had been safe because the government existed, that the occupier had left them alone for three and a half years because touching them would have cost him the Danish administration, the Danish police and the Danish food supply — and that the days since 29 August were the only window in which that price was not payable, because there was no longer a government to resign.</p>
+
+<p>The protection had never been affection. It was leverage, and the leverage was what the strikes of August had knocked over.</p>
+
+<p>Best put the number at about six thousand including women and children, which is his own estimate and low. Danish accounts give between six and a half and eight thousand, and the denominator is genuinely unstable, because the categories differ: members of the congregation, everyone the Germans would have counted, and the fourteen hundred or so stateless refugees who had reached Denmark in the thirties and had papers nowhere.</p>
+
+<p>What follows is the best-known story in modern Danish history and the worst-documented. Best told the shipping attaché at his own legation, Georg Ferdinand Duckwitz, on 11 September. Duckwitz flew to Berlin on the 13th and failed to have it stopped, began warning Jewish acquaintances on the 17th, wrote in his diary on the 19th that he knew what he had to do, and went to Stockholm. On 28 September Best gave him the date of the operation and he passed it to Hans Hedtoft and the Social Democratic leadership.</p>
+
+<p>That is Hans Kirchhoff's chronology and this book follows it, with two things said out loud. The Stockholm journey — the secret errand to ask Per Albin Hansson whether Sweden would take them, the most repeated detail in the whole story — may not have happened: Gunnar Paulsson reported in 1995 that the newly opened Swedish archives show Duckwitz issued a visa on 19 March 1943 and another on 15 January 1944 and nothing in between. And the underlying papers cannot be checked by anybody. The Duckwitz collection passed from the Danish national archives to Washington, where the catalogue lists letters, travel reports, the record of Kirchhoff's 1968 conversation with him — and a <strong>calendar</strong> for 1943 and 1944, not a diary. It is restricted until 2048.</p>
+
+<p>A German official warned Denmark and Danes acted on it: both certain. Whether he did it on his own account, or was used by the superior who had proposed the action to make it fail, is not settled and may not be settleable this century.</p>
+
+<div class="vig">
+<h4>Vignette · Copenhagen, 28 September 1943</h4>
+<p>He is a shipping man. He came to Copenhagen in 1928 selling coffee, joined the party in 1933, was disappointed by it, and came back in 1939 as the man at the German legation who handles cargo and tonnage. He is not important. That is the reason he is useful.</p>
+<p>On the eleventh of September his superior tells him what is going to happen. He goes to Berlin to stop it and cannot. On the nineteenth he writes the line people will still be arguing about eighty years later: <i class="dk">I know what I have to do.</i></p>
+<p>On the twenty-eighth he is given the date. He takes it to a party office and hands it to a man who will twice be prime minister of Denmark. Then he goes back to his desk and processes shipping.</p>
+<p>Almost everything else about him is contested. The trip to Sweden is contradicted by the visa records. The memoirs do not survive examination. The papers that would settle it are sealed until 2048, and what the catalogue lists is a calendar and not a diary.</p>
+<p>What is not contested is that on the night of 1 October the Gestapo went to addresses in Copenhagen and found most of them empty.</p>
+<p class="who">Georg Ferdinand Duckwitz · Copenhagen · 28 September 1943 · [-]</p>
+</div>
+
+<p>Hedtoft went to the chairman of the Jewish community. At the morning service in Krystalgade on 29 September the acting chief rabbi, Marcus Melchior, told the congregation there would be no service, and to go and tell everyone they knew. It is usually called the New Year service and was not one: the new year began at sunset that evening, and what Melchior had in front of him was a weekday congregation gathered early for a festival that was not going to happen.</p>
+
+<div class="meanwhile">
+<h4>Meanwhile · Amsterdam, February 1941 and after.</h4>
+<p>Chapter 41 left this comparison standing and it has to be faced here. The dockworkers and tram drivers of Amsterdam struck in February 1941 against the deportation of Jews — the only strike in occupied Europe called over that — and were broken in two days with people shot for it. The Netherlands then lost about three-quarters of its Jewish population, the worst proportion in western Europe, and it was not for want of Dutch people willing to hide them: eighteen thousand or so were hidden, under conditions far harder than Denmark's. The Danish outcome was not produced by better Danes. It was produced by three things the Netherlands did not have: a fortnight's warning, a neutral country four kilometres away, and an occupier who had spent three years deciding that the Danish government was worth more than the Danish Jews. Remove any one of them and October 1943 reads like February 1941.</p>
+</div>
+
+<h2 id="s04"><span class="n">04 / NARRATIVE</span>Three weeks in October</h2>
+
+<p>The raids began on the night of Friday 1 October and failed on their own terms. About two hundred and two people were taken in Copenhagen and eighty-two west of the Great Belt — some two hundred and eighty-four, against a population of several thousand who by then were not at home.</p>
+
+<p>What followed was three weeks of amateur logistics. People were moved to the coast in ambulances, taxis and delivery vans and on foot; hidden in hospitals, where the staff invented diagnoses and funerals; put onto fishing boats from Dragør, Gilleleje, Snekkersten, Rungsted, Køge and a dozen smaller places; and carried over a strait that is four kilometres wide at the north end and twenty-five at the south. Most of them paid. The boats were not free and some of the prices were extortionate, which is a fact the story can absorb without difficulty and is usually not asked to.</p>
+
+<p>It was not clean. At Gilleleje on the night of 6 October, between sixty and ninety people — most accounts say eighty — were hidden in the loft of the church, and the Gestapo hammered on the door before four the next morning and took them. Who informed has never been established. A woman named Ruth Nielsen was convicted for it after the war and acquitted on appeal for want of evidence, which leaves the question exactly where it was.</p>
+
+<div class="vig">
+<h4>Vignette · Dragør, October 1943</h4>
+<p>She sells fish at Gammel Strand in Copenhagen, which means she is on the road before light and knows everyone on the harbour at both ends. She is fifty-five. Her house is at Rønne Allé 42.</p>
+<p>The story her family tells begins with two brothers who sold flowers and asked her, offering to pay, whether she could get them to Sweden. She could — not in her own boat, because she has no boat, but because she has known the Dragør fishermen all her life and they will listen to her. After that people keep arriving. They stay in the house a few days at a time. Once there are thirty of them in it.</p>
+<p>How many altogether is the part nobody knows. The published figures run from two to seven hundred, and one writer has given three different numbers in four articles; the seven hundred is the total for everyone who left from Dragør and is routinely printed as hers. Her own family says fifty to seventy-five.</p>
+<p>She did not stop in October. Illegal post, weapons, couriers. On the evening of 27 July 1944 the Gestapo came for her and for eleven Dragør fishermen. Vestre Fængsel, then Frøslev, then Ravensbrück in December as prisoner 94,315, then the Jugendlager at Uckermark. The Swedish Red Cross buses brought her out on 8 April 1945 and she was home by the end of the summer. She went back to work, at a film studio, for twenty years.</p>
+<p class="who">Ellen Wilhelmine Nielsen · Dragør · October 1943 · [f]</p>
+</div>
+
+<p>How many reached Sweden is the number everybody knows and nobody can source, and this book is going to be awkward about it rather than tidy.</p>
+
+<p>Every account says about seven thousand. The precise-looking version is 7,742, and it is a <strong>construction</strong>: Sofie Lene Bak states 7,056 Jews and 686 non-Jewish spouses as two separate facts, other people have added them, and where the sum appears alone it is unsourced and relabels all 7,742 as Jews, which is the opposite of what the 686 means. The only figure attached to a named archive is the Danish Jewish Museum's, from the <i class="dk">Safe Haven</i> database — copies of the Swedish police arrival reports held in Stockholm, of which about 6,336 have been analysed, for an estimate near <strong>7,400</strong>, and the museum says the material is incomplete. At least seven thousand people crossed; the best archival estimate is about seven thousand four hundred; and the four-digit figure in circulation is arithmetic performed on somebody else's prose.</p>
+
+<p>The database gave up something better than a number. Of those registering with the Swedish police, <strong>more than a thousand gave their religion as Protestant, Lutheran or Christian.</strong> They were fleeing because of who the Germans said they were, not because of anything they believed or practised — children of mixed marriages, converts, people whose connection with the synagogue had ended two generations back. The tidy partition into Jews and non-Jewish spouses dissolves on contact with the registers, and what it dissolves into is better: a racial category invented elsewhere, applied to people who did not recognise themselves in it, and escaped from by men and women who had to accept the label long enough to run from it.</p>
+
+<figure>
+<svg viewBox="0 0 700 417" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="October 1943. Roughly seven thousand four hundred people reached Sweden, an estimate drawn as a band between seven thousand and seven thousand seven hundred and forty-two; four hundred and seventy-two were deported, a nominal count, of whom four hundred and nineteen came home and fifty-three did not.">
+  <rect x="0" y="0" width="700" height="417" fill="#F4F1EA"/>
+  <text x="14" y="24" class="mapl">OCTOBER 1943</text>
+  <text x="14" y="40" class="mapt">to Sweden, to Theresienstadt, and the difference between the two numbers</text>
+  <text x="14" y="62" class="mapx" opacity=".75">An estimate and a count, drawn differently on purpose.</text>
+  <text x="14" y="122" class="mapt" style="fill:#2A2A28">crossed or taken</text>
+  <rect x="120" y="104" width="520.8" height="26" fill="none" stroke="#2E6B5E" stroke-width="1.1"/>
+  <rect x="640.8" y="104" width="33.2" height="26" fill="#9A3B2E"/>
+  <line x1="612.6" y1="141.0" x2="664.9" y2="141.0" stroke="#2E6B5E" stroke-width="1.1" opacity=".8"/>
+  <line x1="612.6" y1="137.0" x2="612.6" y2="145.0" stroke="#2E6B5E" stroke-width="1.1" opacity=".8"/>
+  <line x1="664.9" y1="137.0" x2="664.9" y2="145.0" stroke="#2E6B5E" stroke-width="1.1" opacity=".8"/>
+  <circle cx="640.8" cy="141.0" r="2.6" fill="#2E6B5E"/>
+  <text x="273.4" y="161.0" class="mapx" style="fill:#2E6B5E">reached Sweden - estimate, about 7,400</text>
+  <text x="600.8" y="161.0" class="mapx" style="fill:#9A3B2E">deported: 472</text>
+  <text x="460.8" y="175.0" class="mapx" style="fill:#2E6B5E" opacity=".8">the range in circulation: 7,000 to 7,742</text>
+  <text x="14" y="252" class="mapt" style="fill:#2A2A28">the 472</text>
+  <text x="14" y="266" class="mapx" opacity=".75">x17 scale</text>
+  <rect x="120.0" y="234" width="491.8" height="26" fill="#2E6B5E" opacity=".85"/>
+  <line x1="611.8" y1="234" x2="611.8" y2="260" stroke="#F4F1EA" stroke-width=".8"/>
+  <rect x="611.8" y="234" width="59.9" height="26" fill="#9A3B2E" opacity=".9"/>
+  <line x1="671.7" y1="234" x2="671.7" y2="260" stroke="#F4F1EA" stroke-width=".8"/>
+  <rect x="671.7" y="234" width="2.3" height="26" fill="#2A2A28" opacity=".9"/>
+  <rect x="14.0" y="290.0" width="14" height="8" fill="#2E6B5E" opacity=".85"/>
+  <text x="34.0" y="298.0" class="mapx" opacity=".9">came home: 419</text>
+  <rect x="134.8" y="290.0" width="14" height="8" fill="#9A3B2E" opacity=".9"/>
+  <text x="154.8" y="298.0" class="mapx" opacity=".9">died at Theresienstadt: 51</text>
+  <rect x="323.2" y="290.0" width="14" height="8" fill="#2A2A28" opacity=".9"/>
+  <text x="343.2" y="298.0" class="mapx" opacity=".9">died after transfer: 2</text>
+  <text x="14" y="318" class="mapx" opacity=".85">The two bars are not the same kind of number. The 472 is a nominal count, built by Fracapane from the transport</text>
+  <text x="14" y="331" class="mapx" opacity=".85">registration lists, and it is drawn filled. The crossing to Sweden is an estimate and is drawn open: every account says</text>
+  <text x="14" y="344" class="mapx" opacity=".85">about 7,000, the only figure attached to a named archive is roughly 7,400 from the Danish Jewish Museum's Safe Haven</text>
+  <text x="14" y="357" class="mapx" opacity=".85">database of Swedish arrival reports, and the 7,742 in circulation is an addition performed on two separate statements.</text>
+  <text x="14" y="370" class="mapx" opacity=".85">More than 1,000 of those registering in Sweden gave their religion as Protestant, Lutheran or Christian. At least 104</text>
+  <text x="14" y="383" class="mapx" opacity=".85">people died getting out or failing to, and they are in neither bar. Note what the whisker shows: the spread on the</text>
+  <text x="14" y="396" class="mapx" opacity=".85">Sweden figure is 742 people, which is wider than the entire deported count of 472.</text>
+  </svg>
+<figcaption><b>Figure 1 · October 1943: to Sweden, to Theresienstadt, and the difference</b>
+An estimate and a count, drawn differently on purpose. The 472 is a nominal count from the transport registration lists and is drawn filled; the crossing to Sweden is an estimate and is drawn open, with the range in circulation as a whisker. The spread on the larger number is wider than the whole of the smaller one.</figcaption>
+</figure>
+
+<h2 id="s05"><span class="n">05 / NARRATIVE</span>Those who did not get away</h2>
+
+<div class="terms">
+  <h4>Danish terms in this section</h4>
+  <dl class="one">
+    <div class="t"><dt>de hvide busser</dt><dd>the white buses: the Swedish Red Cross convoys of spring 1945 which brought Scandinavian prisoners out of German camps, including the survivors of the Theresienstadt transports.</dd></div>
+  </dl>
+</div>
+
+<p>Four hundred and seventy-two people were deported from Denmark. Four hundred and seventy of them reached Theresienstadt.</p>
+
+<p>That pair is the most solid arithmetic in this chapter and it is recent. Silvia Goldbaum Tarabini Fracapane built it from the transport registration lists — the numbers issued to every prisoner on arrival — in the Yad Vashem archives, and she can name the two who are the difference: Michael Singerowitz, sent on from Sachsenhausen to Majdanek, where he died on 21 January 1944, and one other man who stayed at Sachsenhausen and was moved to Mauthausen with the unit that forged British banknotes. She also disposes of the rival figure: the 481 that circulated for years double-counts the ten people who arrived from Sachsenhausen and Ravensbrück in the first months of 1944, once on each list.</p>
+
+<p>Fifty-one died at Theresienstadt over eighteen months. The two men above died elsewhere, which is how Fracapane reaches fifty-three, and two babies born in the camp to women from Denmark died there as well, which she counts separately. Four hundred and nineteen of the original 472 came home; four hundred and twenty-three people came home on the white buses, and the four in the gap are spouses and children born in the camp. Nearly every published confusion about this death toll comes out of that gap, and the only honest way to print the number is to print the definition with it.</p>
+
+<p>They survived at a rate nobody else deported to Theresienstadt survived at, and the reason is bureaucratic rather than miraculous. The Danish authorities went on asking after them by name, parcels went in, and in June 1944 a Danish and Swedish Red Cross delegation was allowed to visit — the visit for which the camp was cleaned, painted and partly emptied by a further deportation to Auschwitz, so that the delegation could be shown a model town. The Danes were kept alive partly because they were being watched, and the show that kept them alive was staged by murdering other people. Both halves belong in the same sentence.</p>
+
+<p>The same days carry another transport. On 2 October the men from Horserød — about a hundred and fifty, communists interned by Danish police in 1941 under a law the Rigsdag wrote afterwards to cover it — went to Stutthof, and twenty-two of them died: six in the camp, nine on the death marches, seven after liberation. Two ships out of Copenhagen in one week, and only one of them is in the story Denmark tells about October 1943.</p>
+
+<p>The crossing killed people too. Bak's count, which does not separate the categories because the sources will not support separating them, is at least forty-two dead of suicide, illness, exhaustion and drowning, two shot by German police, and at least a hundred and four deaths altogether connected with the action.</p>
+
+<p>Ninety-five per cent of Denmark's Jews were not deported. That is true, it is the best figure in occupied Europe by a distance, and it was produced by thousands of ordinary people taking a real risk for strangers. It is also true that four hundred and seventy-two went east, that at least a hundred died getting out or failing to, and that the country which saved them had spent three years handing communists to the same occupier. This chapter is not going to choose between those. It is going to set them beside each other, which is what §04 and §05 are for.</p>
+
+<h2 id="s06"><span class="n">06 / NARRATIVE</span>Danmarks Frihedsråd</h2>
+
+<div class="terms">
+  <h4>Danish terms in this section</h4>
+  <dl>
+    <div class="t"><dt>Frihedsrådet</dt><dd>the Freedom Council: the body constituted on 16 September 1943 by representatives of the resistance organisations, which had no legal existence and by 1945 supplied half the government.</dd></div>
+    <div class="t"><dt>illegale blade</dt><dd>the illegal papers: the underground press, which by 1945 was printing in the hundreds of thousands and was the only way most Danes learned anything the occupier had not approved.</dd></div>
+  </dl>
+</div>
+
+<p>On 16 September 1943, eighteen days after the government stopped functioning, seven men met in a borrowed office in Copenhagen and constituted themselves as the Freedom Council of Denmark.</p>
+
+<p>Nobody had asked them to and nobody could have, and that is the point of them. The country had a civil service and no politics; an occupier with no Danish counterpart to negotiate with; and a resistance that had grown out of nothing into several organisations which disliked one another and were beginning to get people killed in uncoordinated ways. The Council was created by a vacancy rather than by any authority.</p>
+
+<p>Who founded it depends on which reference work you open, and the disagreement is not trivial. Every list has Mogens Fog for <i class="dk">Frit Danmark</i>, Børge Houmann for the Communist Party and Frode Jakobsen for <i class="dk">Ringen</i>. One adds Arne Sørensen for Dansk Samling and stops at five; another drops Sørensen and adds Erling Foss and Aage Schoch; a third adds Jørgen Staffeldt. The founding membership of the body that claimed to speak for Danish resistance is recorded three ways by three respectable sources, which tells you what conditions it was founded in.</p>
+
+<p>Aage Schoch is the interesting case, because he represented nothing. He had edited <i class="dk">Nationaltidende</i> until the Germans had him removed on 1 January 1942, and what he brought was the illegal press and a position in the middle of everything. He sat as himself.</p>
+
+<p>Flemming Muus sat for SOE — or for the free Danes abroad, depending again on the source, and the difference decides what the Council thought it was. If Muus was Britain's man, the Council had a British member. If he held the seat for Danes abroad, then the Council had quietly awarded it to a British-trained agent parachuted in six months earlier, rather than to the Danish politician in London who thought the job was his.</p>
+
+<p>That politician was John Christmas Møller, who had left Denmark illegally on 1 May 1942 and broadcast to Danes ever since telling them to make trouble: the voice chapter 41 ends by describing. He chaired a Danish Council in London which decided nothing. Kauffmann in Washington opposed him, the British thought him careless with secrets, and the men at home gave his seat to somebody else. He came home in May 1945 as foreign minister, bitter that Vilhelm Buhl and not he had been made prime minister — with the Freedom Council's consent. The man who had told Denmark to resist spent the war being told by the resistance that he was not required.</p>
+
+<p>The Council announced itself in <i class="dk">Frit Danmark</i> that October: <i class="dk">Den nationale Folkefront mod Nazismen er nu en Kendsgerning</i> — the national popular front against Nazism is now a fact — signed simply as representatives of the Danish movements.</p>
+
+<p>Its authority was nil, and then it was total. It had no law behind it, no territory, no revenue and no army. It was recognised de facto as a government by the Soviet Union in 1944 and never by the Western allies, an asymmetry that would look odd in 1945 and odder in 1949. By the summer of 1944 it could call the capital out on strike and, harder, call it back in. By May 1945 it took <strong>nine of the eighteen seats</strong> in the liberation government, the politicians taking the other nine and the premiership.</p>
+
+<p>That is the fact chapter 43 cannot be told without, and it was settled in a borrowed room by seven men, three of whose names are not agreed.</p>
+
+<div class="check">
+  <h4>Checkpoint</h4>
+  <ul>
+    <li>In his telegram of 8 September 1943, what reason did Werner Best give for acting against Denmark's Jews at that moment rather than later?</li>
+    <li>How many people were deported from Denmark to Theresienstadt, how many arrived, and how many returned?</li>
+    <li>What was Danmarks Frihedsråd, who recognised it, and what share of the liberation government did it take?</li>
+  </ul>
+</div>
+
+<h2 id="s07"><span class="n">07 / NARRATIVE</span>How the underground was armed</h2>
+
+<div class="terms">
+  <h4>Danish terms in this section</h4>
+  <dl>
+    <div class="t"><dt>modtagegruppe</dt><dd>a reception group: the people who went out at night to a marked field to take in a parachute drop, carry the containers away and sink the parachutes before morning.</dd></div>
+    <div class="t"><dt>ventegrupper</dt><dd>the waiting groups: the armed formations of the resistance, held back from fighting and brought out on 5 May 1945 to keep order. About sixty thousand people who never fought a battle.</dd></div>
+  </dl>
+</div>
+
+<p>A resistance can decide to fight with what it has. Denmark had almost nothing: the army had been interned in August and its weapons taken, and a country that deliberately made itself unable to fight in 1939 had laid nothing by. Nearly everything the saboteurs used after 1943 came from outside, and the getting of it is a story chapter 41 deliberately did not begin.</p>
+
+<p>Britain's Special Operations Executive set up a Danish section in October 1940 under Ralph Hollingworth, who had lived in Denmark. Ebbe Munck, a newspaper correspondent with an arrangement with officers of the general staff's intelligence section, reached Stockholm the same month, and SOE put a contact man beside him there in February 1941. Denmark stayed low on SOE's list of priorities for a long time, for the sound reason that it was not resisting.</p>
+
+<p>The first attempt went wrong in the most complete way available. On the night of 27 and 28 December 1941 a converted Whitley dropped two men blind over Torpeskoven near Haslev, at about three in the morning, from a hundred and fifty metres. Carl Johan Bruhn was a physician of thirty-seven who had been chosen to lead SOE's work in Denmark and had helped plan the drop and pick the ground, which he knew. His parachute did not open. Mogens Hammer, the radio operator, landed safely and found the body. The man Britain had spent a year training to organise Danish resistance was killed by his own equipment before he had done anything at all.</p>
+
+<p>Flemming Muus came down by parachute south of Nibe on 11 March 1943 and ran SOE in Denmark until December 1944; Ole Lippmann had it from February 1945. Muus's later history is not creditable — he refused to cooperate with an audit of his funds and a Danish court convicted him of embezzlement in 1946 — and it is worth saying, because the alternative is a chapter in which everyone on the right side is also admirable.</p>
+
+<p>The machinery, once it existed, was strikingly domestic. The BBC broadcast a coded greeting to a person who did not exist; the reception group heard its own phrase and went out that night. Drops were made around the full moon and not at midsummer, when the Danish nights are too light. The ground party laid three white lights and one red to show the pilot the wind. A container took four men to carry and one drop could be fifteen of them, so a reception needed dozens of people, vehicles, a barn, and somebody to sink the parachutes in a bog before morning. In Jutland these were run from April 1944 by Anton Toldstrup, who used something like two hundred and eighty-nine different fields.</p>
+
+<p>The best-known group worked out of an inn. Hvidsten Kro stands on the road between Randers and Mariager, and the group around the innkeeper Marius Fiil and his family took its first drop on Trinderup Hede on 12 March 1943, then moved to a field they called Mustard Point; in four drops that April and May they received seven agents and fifty containers. In December 1943 two agents were taken in Aarhus and one talked under torture. On 11 March 1944 the Gestapo walked into the inn and arrested Fiil, his son Niels, his daughters Kirstine and Gerda, and Kirstine's husband Peter. A court-martial on 26 and 27 June sentenced eight men to death, and on the morning of the 29th they were shot at Ryvangen.</p>
+
+<p>The totals are large and they do not agree. Four reputable accounts give 620 tonnes dropped over the whole war, about 650 tonnes from August 1944 alone, about 700, and about a thousand received altogether — and the first two cannot both be true. The one figure everybody agrees on is the cost: <strong>eighteen aircraft lost and sixty-nine Allied airmen killed</strong> delivering it.</p>
+
+<p>Weapons came the short way too. From Sweden the resistance obtained something like 7,500 Husqvarna submachine guns and carbines, ten thousand hand grenades and at least 4.6 million rounds — more small arms than the whole Danish army had been able to field on 9 April 1940.</p>
+
+<p>What it added up to was the waiting groups: a few thousand men organised illegally at the end of 1943, about ten thousand by December 1944, and something near <strong>sixty thousand in May 1945</strong>, which is one and a half per cent of the population. Every source that discusses their equipment uses the same word, <i class="dk">underbevæbnet</i>, and they never fought a battle. On 5 May 1945 they came out of their houses with armbands and rifles and took over the policing of a country that had had no police since September 1944.</p>
+
+<p>That matters for what comes next. The 21,800 people interned in Denmark in the weeks after the liberation were arrested by men who had been civilians four days earlier, armed by a foreign air force, and authorised by a council that had constituted itself in a borrowed office.</p>
+
+<div class="vig">
+<h4>Vignette · Ryvangen, 6 April 1945</h4>
+<p>He was born in Edmonton, Alberta, in 1923, and came to Denmark at nine when his parents separated. He went to sea at eighteen as a merchant seaman, which is a trade and not a gesture.</p>
+<p>From September 1944 he ran weapons across the Øresund for the Students' Intelligence Service. In October he and another man took a customs boat out of Vordingborg to Sweden and came back a week later on a transport ship. The Gestapo arrested him on 19 December 1944. He kept track of the cells and put them in his letters: 252, then 585, then 37, then 411.</p>
+<p>On 4 April 1945 a court-martial sentenced him to death with three others and he wrote to his mother the same day from cell 411. <i class="dk">Jeg er sammen med Jørgen, Niels og Ludvig i dag blevet stillet for en krigsret. Vi blev dømt til døden.</i> And then: <i class="dk">Tiden er kort, jeg kan ikke rigtigt forklare det, men mit sind er fuldkommen roligt.</i> He wrote to his girlfriend Hanne the same day, telling her never to let the thought of him stand between her and her life.</p>
+<p>On the morning of the 6th he was shot at Ryvangen. The memorial roll for that day gives Jørgen Frederik Winther and Ludvig Alfred Otto Reventlow — and Peter Wessel Fyhn, who is not a Niels. Nobody has reconciled it.</p>
+<p>His mother published the letters that autumn as <i class="dk">Kim. Uddrag af Dagbog og Breve</i>: excerpts, chosen by her, four months after he was shot. They were translated into seven languages. There is still no critical edition and nobody has collated the print against the manuscripts.</p>
+<p class="who">Kim Malthe-Bruun · Ryvangen · 6 April 1945 · [n]</p>
+</div>
+
+<div class="meanwhile">
+<h4>Meanwhile · Warsaw, 1 August 1944.</h4>
+<p>While Copenhagen was two weeks past a general strike that won a curfew back, the Polish Home Army rose against the German garrison in Warsaw and fought for sixty-three days in the expectation of Soviet help that did not come. About two hundred thousand people died and the city was demolished street by street afterwards. The Danish waiting groups, armed by the same British organisation, were told to wait, and waited, and came out on 5 May 1945 to direct traffic. Both decisions were taken by resistance leaderships with a claim to speak for their nations. Only one of those nations still had its capital in 1945.</p>
+</div>
+
+<h2 id="s08"><span class="n">08 / NARRATIVE</span>Sabotage, and the counter-terror</h2>
+
+<div class="terms">
+  <h4>Danish terms in this section</h4>
+  <dl>
+    <div class="t"><dt>clearingmord</dt><dd>a clearing murder: the killing of a prominent Dane by the occupier in reprisal for an act of resistance. From the English word for settling an account, by analogy with the <i class="dk">clearingkonto</i>.</dd></div>
+    <div class="t"><dt>clearingkonto</dt><dd><i class="dk">glossed in chapter 41 — reference, do not re-gloss.</i></dd></div>
+    <div class="t"><dt>schalburgtage</dt><dd>the occupier's reprisal bombings of Danish civil targets, named on the pattern of <i class="dk">sabotage</i> after the Schalburg Corps that took part.</dd></div>
+    <div class="t"><dt>stikker</dt><dd>an informer. The word carried a death sentence from 1944 and the resistance's killing of informers is the other column of §08's ledger.</dd></div>
+  </dl>
+</div>
+
+<p>The series runs: seventy-three industrial sabotage actions in 1940, 1941 and 1942 together; 816 in 1943; 988 in 1944; and 924 in the four months of 1945 before the capitulation. Those add to 2,801, which is the published total, so the column checks against itself.</p>
+
+<p>Railway sabotage runs: two actions in 1942, 111 in 1943, 311 in 1944, and — in the same four months of 1945 — one thousand one hundred and three. The published total is 1,526 and the four figures add to 1,527. That column does <strong>not</strong> check against itself, and the missing one is left standing here rather than smoothed, because a series quietly adjusted to its own total is worth less than one that has not been.</p>
+
+<p>The shape is the argument. Sabotage was negligible while the war looked German, substantial once it did not, and overwhelming in the final months, when cutting the railways was militarily useful to an invasion of Germany that was coming from the other direction. The saboteurs of 1943 were mostly communists and mostly young. BOPA had about a hundred and seventy-five members at the end and Holger Danske about three hundred, which are very small numbers for a national myth and the right ones.</p>
+
+<p>The occupier's answer was designed by Hitler in person, at the Wolfsschanze on 30 December 1943. He rejected the obvious instrument, public hostage executions, on the explicit ground that they create martyrs. What he ordered instead was murder: Danes of standing, killed anonymously by men in plain clothes, so that the deaths would read as the resistance's fault rather than the occupier's policy.</p>
+
+<p>The ratio is where the accounts come apart, and since it is quoted constantly it should be quoted carefully. Martin Göllnitz gives the order's wording as requiring every act of terror to be punished fivefold; Niels Wium Olesen gives it as tenfold; Best is then said to have moderated it in Denmark to two-for-one by the first and one-for-one by the second. The familiar formula — one prominent Dane for every German — describes the practice and is not the text of the order, and no number can be stated here without naming which historian is being followed.</p>
+
+<p>The name is the most revealing thing about it. <i class="dk">Clearingmord</i>: the first element from the English word for settling an account, coined by analogy with the <strong>clearingkonto</strong>, the account at the Nationalbank against which German purchases of Danish goods were entered and largely never paid — which chapter 41 spent a section on. And the occupier enforced the metaphor typographically. Danish newspapers were required to print the notices of these murders and the notices of the resistance's killings of informers <strong>side by side and in the same layout</strong>, so that a reader would take in two columns of the same kind of thing and understand that an account was being settled.</p>
+
+<p>It did not work, and the first killing is why. Kaj Munk was a parish priest at Vedersø in west Jutland and the most performed playwright in the country, a man who had admired authoritarian government in the thirties, said so in print, and then turned on it in the most public way available to him. On 4 January 1944 men showed false Danish police badges at the parsonage door and took him. The next morning a mason walking to work found him in the ditch at Hørbylunde Bakke, shot three times. A country whose newspapers could tell it nothing understood this immediately.</p>
+
+<p>The killing was done by the group Otto Bovensiepen formed the following month under the motto <i class="dk">terror mod terror</i>: officially <i class="dk">Sonderkommando Dänemark</i>, called the Peter group after its operational leader's cover name. It was mixed German and Danish, recruited from the Schalburg Corps and from men back from the Eastern Front, and over about fifteen months it killed more than a hundred and fifty people — or the ninety-four murders and twenty-five attempted murders its members were actually convicted of, which is the only figure of the several in circulation with an evidentiary basis. Seven of its Danish members were sentenced to death in 1947 and executed. Some worked with silenced Welrod pistols captured from SOE drops and reissued by the Gestapo, which is as exact an image of the ledger as the period produced.</p>
+
+<p>The other half of the counter-terror was bombing, and Danes named that too: <i class="dk">schalburgtage</i>, on the pattern of sabotage, after the corps that took part. The targets were chosen to damage civil life rather than war production — Tivoli's concert hall, a student hall of residence, the Conservatives' Borgernes Hus, the Royal Porcelain factory. In Aarhus the tram depot went up on 22 August 1944 with sixty-five vehicles in it.</p>
+
+<p>None of it was aimed at the resistance. It was aimed at the public, to make the resistance intolerable to it, and the measure of its failure is that sabotage rose in every year it continued.</p>
+
+<figure>
+<svg viewBox="0 0 700 388" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Sabotage actions in Denmark by period. Industrial sabotage: seventy-three in 1940 to 1942 together, 816 in 1943, 988 in 1944 and 924 in the four months of 1945. Railway sabotage: two, 111, 311 and 1,103 over the same periods.">
+  <rect x="0" y="0" width="700" height="388" fill="#F4F1EA"/>
+  <text x="14" y="24" class="mapl">SABOTAGE BY YEAR, 1940 - 1945</text>
+  <text x="14" y="40" class="mapt">industrial and railway actions, as the compilers counted them</text>
+  <text x="14" y="62" class="mapx" opacity=".75">The graph does not rise. It starts - and then the railways overtake.</text>
+  <line x1="58" y1="264.0" x2="674" y2="264.0" stroke="#5F6157" stroke-width=".5" opacity=".45"/>
+  <text x="52" y="268.0" class="mapx" text-anchor="end" opacity=".7">0</text>
+  <line x1="58" y1="225.9" x2="674" y2="225.9" stroke="#5F6157" stroke-width=".5" opacity=".45"/>
+  <text x="52" y="229.9" class="mapx" text-anchor="end" opacity=".7">250</text>
+  <line x1="58" y1="187.8" x2="674" y2="187.8" stroke="#5F6157" stroke-width=".5" opacity=".45"/>
+  <text x="52" y="191.8" class="mapx" text-anchor="end" opacity=".7">500</text>
+  <line x1="58" y1="149.8" x2="674" y2="149.8" stroke="#5F6157" stroke-width=".5" opacity=".45"/>
+  <text x="52" y="153.8" class="mapx" text-anchor="end" opacity=".7">750</text>
+  <line x1="58" y1="111.7" x2="674" y2="111.7" stroke="#5F6157" stroke-width=".5" opacity=".45"/>
+  <text x="52" y="115.7" class="mapx" text-anchor="end" opacity=".7">1,000</text>
+  <rect x="86.8" y="252.9" width="46.2" height="11.1" fill="#8C5A3C" opacity=".88"/>
+  <text x="104.3" y="247.9" class="mapx" style="fill:#8C5A3C">73</text>
+  <rect x="137.0" y="263.7" width="46.2" height="0.3" fill="#2F4C7A" opacity=".88"/>
+  <text x="157.3" y="258.7" class="mapx" style="fill:#2F4C7A">2</text>
+  <text x="106.4" y="284" class="mapt" style="fill:#2A2A28">1940 - 42</text>
+  <rect x="240.8" y="139.7" width="46.2" height="124.3" fill="#8C5A3C" opacity=".88"/>
+  <text x="255.5" y="134.7" class="mapx" style="fill:#8C5A3C">816</text>
+  <rect x="291.0" y="247.1" width="46.2" height="16.9" fill="#2F4C7A" opacity=".88"/>
+  <text x="305.7" y="242.1" class="mapx" style="fill:#2F4C7A">111</text>
+  <text x="276.3" y="284" class="mapt" style="fill:#2A2A28">1943</text>
+  <rect x="394.8" y="113.5" width="46.2" height="150.5" fill="#8C5A3C" opacity=".88"/>
+  <text x="409.5" y="108.5" class="mapx" style="fill:#8C5A3C">988</text>
+  <rect x="445.0" y="216.6" width="46.2" height="47.4" fill="#2F4C7A" opacity=".88"/>
+  <text x="459.7" y="211.6" class="mapx" style="fill:#2F4C7A">311</text>
+  <text x="430.3" y="284" class="mapt" style="fill:#2A2A28">1944</text>
+  <rect x="548.8" y="123.3" width="46.2" height="140.7" fill="#8C5A3C" opacity=".88"/>
+  <text x="563.5" y="118.3" class="mapx" style="fill:#8C5A3C">924</text>
+  <rect x="599.0" y="96.0" width="46.2" height="168.0" fill="#2F4C7A" opacity=".88"/>
+  <text x="608.0" y="91.0" class="mapx" style="fill:#2F4C7A">1,103</text>
+  <text x="581.1" y="284" class="mapt" style="fill:#2A2A28">1945*</text>
+  <line x1="58" y1="264" x2="674" y2="264" stroke="#2A2A28" stroke-width=".9"/>
+  <text x="14.0" y="86" class="mapx" style="fill:#5F6157">railway column adds to 1,527, published total 1,526</text>
+  <rect x="14.0" y="300.0" width="14" height="8" fill="#8C5A3C" opacity=".88"/>
+  <text x="34.0" y="308.0" class="mapx" opacity=".9">industrial sabotage</text>
+  <rect x="163.0" y="300.0" width="14" height="8" fill="#2F4C7A" opacity=".88"/>
+  <text x="183.0" y="308.0" class="mapx" opacity=".9">railway sabotage</text>
+  <text x="14" y="328" class="mapx" opacity=".85">* 1945 is FOUR MONTHS, to the capitulation on 5 May. Read as a year it understates the last winter by a factor of three.</text>
+  <text x="14" y="341" class="mapx" opacity=".85">The industrial column adds to its own published total of 2,801 exactly. The railway column adds to 1,527 against a</text>
+  <text x="14" y="354" class="mapx" opacity=".85">published 1,526, and the missing one is marked rather than averaged away: a series quietly adjusted to its own total is</text>
+  <text x="14" y="367" class="mapx" opacity=".85">worth less than one that has not been.</text>
+  </svg>
+<figcaption><b>Figure 2 · Sabotage by year, 1940 – 1945</b>
+The annual series, because no monthly one is reachable. The 1945 column is four months. The industrial column adds to its own published total exactly and the railway column overshoots its own by one, which is marked on the figure rather than averaged away.</figcaption>
+</figure>
+
+<h2 id="s09"><span class="n">09 / NARRATIVE</span>The People's Strike, June 1944</h2>
+
+<div class="terms">
+  <h4>Danish terms in this section</h4>
+  <dl class="one">
+    <div class="t"><dt>folkestrejke</dt><dd>a people's strike: a general strike that is political rather than industrial and is not called by a union. Copenhagen's ran from the last week of June 1944 into the first week of July.</dd></div>
+  </dl>
+</div>
+
+<p>On 22 June 1944 BOPA blew up Riffelsyndikatet, in the largest single act of sabotage of the Danish occupation. The next day eight resistance men were executed. Then the Peter group burned Tivoli's concert hall, the student residence on Tagensvej, Borgernes Hus and the Royal Porcelain factory, and Werner Best imposed a curfew from eight at night until five in the morning.</p>
+
+<p>What happened next began as a joke and did not stay one. The men at Burmeister &amp; Wain, the largest workplace in Copenhagen, walked off at noon and said they had to go home early to look after their allotments. The detail is genuine and the standard national history prints it in those words — <i class="dk">deres livsvigtige kolonihaver</i>, their vitally important allotment gardens. The labour movement's own account gives the formal slogan instead, <i class="dk">eight hours' work and eight hours' rest</i>. Both are probably true and the joke is the one that spread, because a curfew answered by an announcement that the beans need watering is not a demonstration that can be fired on.</p>
+
+<p>It was a hot summer and nobody went indoors. Within days there were bonfires at the crossroads and furniture across the streets, and by 29 June the strike was citywide. On the 30th the announcement of the Hvidsten executions turned it into a general strike and stopped the transport altogether, and the Freedom Council — which had called none of this — issued the first of its proclamations, demanding the removal of the Schalburg Corps from Denmark and the end of the curfew, and asking that electricity, gas, water, bread and milk be maintained.</p>
+
+<p>On 1 July the three senior Germans in Denmark declared the capital in a state of siege. The water, gas and electricity were cut. The roads out were closed and no supplies came in. Patrols fired into the streets from vehicles and from the air, and the Germans demanded, under threat of bombarding the city, that the Danish authorities stop it. Twenty-three people were killed that day and two hundred and three wounded.</p>
+
+<p>On 2 July the mayors of Copenhagen, Frederiksberg and Gentofte, the employers' association, the chamber of commerce, the shipowners and the executive of the trade union federation published a joint appeal to go back to work. It said, accurately, that the food was already failing. It had no effect whatever, which is the most precise statement available of where authority in Denmark had gone. Best reopened the municipal works the same day after a single alteration to the Danish text.</p>
+
+<p>When the Council called the city back is not settled — one standard work says work resumed on the morning of 3 July, another that the order came on the 4th and was obeyed on the 5th, and the site that publishes the primary documents says the 5th and does not publish the final proclamation. Over the whole strike more than a hundred people were killed and more than six hundred wounded.</p>
+
+<p>What was won was small and specific: the Schalburg Corps off the streets, and the curfew lifted. The executions did not stop, and more than half of the hundred and two resistance members executed in Denmark were shot after January 1945.</p>
+
+<p>What was actually won was not on the list of demands. A body with no legal existence had told a capital city to stop and it stopped, and told it to start and it started. The elected mayors and the trade union leadership had asked for the same thing three days earlier and been ignored. From the first week of July 1944 the question of who governed Denmark had an answer, and it was not the permanent secretaries.</p>
+
+<figure>
+<svg viewBox="0 0 700 369" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The Copenhagen People's Strike on an axis of days from 22 June to 5 July 1944, from the destruction of Riffelsyndikatet to the return to work, with the disputed curfew date and the disputed return date drawn as bands.">
+  <rect x="0" y="0" width="700" height="369" fill="#F4F1EA"/>
+  <text x="14" y="24" class="mapl">THE PEOPLE'S STRIKE, JUNE - JULY 1944</text>
+  <text x="14" y="40" class="mapt">an axis in days: the two disputed dates are bands, not ticks</text>
+  <text x="14" y="62" class="mapx" opacity=".75">A city stopped when a council with no legal existence asked it to.</text>
+  <rect x="235.1" y="146" width="341.4" height="12" fill="#2E6B5E" opacity=".30"/>
+  <rect x="576.5" y="146" width="97.5" height="12" fill="#2E6B5E" opacity=".14"/>
+  <rect x="186.3" y="134" width="48.8" height="7" fill="#5F6157" opacity=".35"/>
+  <line x1="40.0" y1="158" x2="674.0" y2="158" stroke="#5F6157" stroke-width=".8"/>
+  <line x1="40.0" y1="158" x2="40.0" y2="166" stroke="#5F6157" stroke-width=".6"/>
+  <text x="23.1" y="180" class="mapx" opacity=".8">22 Jun</text>
+  <line x1="88.8" y1="158" x2="88.8" y2="162" stroke="#5F6157" stroke-width=".6"/>
+  <line x1="137.5" y1="158" x2="137.5" y2="166" stroke="#5F6157" stroke-width=".6"/>
+  <text x="120.6" y="180" class="mapx" opacity=".8">24 Jun</text>
+  <line x1="186.3" y1="158" x2="186.3" y2="162" stroke="#5F6157" stroke-width=".6"/>
+  <line x1="235.1" y1="158" x2="235.1" y2="166" stroke="#5F6157" stroke-width=".6"/>
+  <text x="218.2" y="180" class="mapx" opacity=".8">26 Jun</text>
+  <line x1="283.8" y1="158" x2="283.8" y2="162" stroke="#5F6157" stroke-width=".6"/>
+  <line x1="332.6" y1="158" x2="332.6" y2="166" stroke="#5F6157" stroke-width=".6"/>
+  <text x="315.7" y="180" class="mapx" opacity=".8">28 Jun</text>
+  <line x1="381.4" y1="158" x2="381.4" y2="162" stroke="#5F6157" stroke-width=".6"/>
+  <line x1="430.2" y1="158" x2="430.2" y2="166" stroke="#5F6157" stroke-width=".6"/>
+  <text x="413.3" y="180" class="mapx" opacity=".8">30 Jun</text>
+  <line x1="478.9" y1="158" x2="478.9" y2="162" stroke="#5F6157" stroke-width=".6"/>
+  <line x1="527.7" y1="158" x2="527.7" y2="166" stroke="#5F6157" stroke-width=".6"/>
+  <text x="513.6" y="180" class="mapx" opacity=".8">2 Jul</text>
+  <line x1="576.5" y1="158" x2="576.5" y2="162" stroke="#5F6157" stroke-width=".6"/>
+  <line x1="625.2" y1="158" x2="625.2" y2="166" stroke="#5F6157" stroke-width=".6"/>
+  <text x="611.2" y="180" class="mapx" opacity=".8">4 Jul</text>
+  <line x1="674.0" y1="158" x2="674.0" y2="162" stroke="#5F6157" stroke-width=".6"/>
+  <line x1="40.0" y1="132" x2="40.0" y2="158" stroke="#9A3B2E" stroke-width="1.8"/>
+  <line x1="88.8" y1="132" x2="88.8" y2="158" stroke="#2A2A28" stroke-width="1.8"/>
+  <line x1="235.1" y1="132" x2="235.1" y2="158" stroke="#2E6B5E" stroke-width="1.8"/>
+  <line x1="381.4" y1="132" x2="381.4" y2="158" stroke="#2A2A28" stroke-width="1.8"/>
+  <line x1="430.2" y1="132" x2="430.2" y2="158" stroke="#2E6B5E" stroke-width="1.8"/>
+  <line x1="478.9" y1="132" x2="478.9" y2="158" stroke="#9A3B2E" stroke-width="1.8"/>
+  <line x1="527.7" y1="132" x2="527.7" y2="158" stroke="#2F4C7A" stroke-width="1.8"/>
+  <text x="12.0" y="200" class="mapx" style="fill:#9A3B2E">22 Jun  BOPA destroys Riffelsyndikatet</text>
+  <text x="12.0" y="214" class="mapx" style="fill:#2A2A28">23 Jun  eight resistance men executed</text>
+  <text x="133.7" y="228" class="mapx" style="fill:#2E6B5E">26 Jun  Burmeister and Wain walk out</text>
+  <text x="260.3" y="200" class="mapx" style="fill:#2A2A28">29 Jun  the Hvidsten eight shot at Ryvangen</text>
+  <text x="306.3" y="214" class="mapx" style="fill:#2E6B5E">30 Jun  executions announced; general strike</text>
+  <text x="346.6" y="228" class="mapx" style="fill:#9A3B2E">1 Jul  state of siege; water, gas and power cut</text>
+  <text x="392.6" y="242" class="mapx" style="fill:#2F4C7A">2 Jul  mayors and unions appeal, and are ignored</text>
+  <text x="129.1" y="104" class="mapx" style="fill:#5F6157">curfew imposed: 25 or 26 June</text>
+  <text x="547.2" y="104" class="mapx" style="fill:#5F6157">back to work: 3 to 5 July</text>
+  <rect x="14.0" y="268.0" width="14" height="8" fill="#2E6B5E" opacity=".30"/>
+  <text x="34.0" y="276.0" class="mapx" opacity=".9">the strike</text>
+  <rect x="110.3" y="268.0" width="14" height="8" fill="#2E6B5E" opacity=".14"/>
+  <text x="130.3" y="276.0" class="mapx" opacity=".9">the return to work, not settled</text>
+  <rect x="324.8" y="268.0" width="14" height="8" fill="#5F6157" opacity=".35"/>
+  <text x="344.8" y="276.0" class="mapx" opacity=".9">the curfew's disputed start</text>
+  <text x="14" y="296" class="mapx" opacity=".85">Two dates in this fortnight are not settled and both are drawn as bands. The curfew is imposed on 25 or 26 June</text>
+  <text x="14" y="309" class="mapx" opacity=".85">depending on the source. The return to work is 3 July on one standard account, an order on the 4th obeyed on the 5th on</text>
+  <text x="14" y="322" class="mapx" opacity=".85">another, and the 5th on the site that publishes the Council's own appeals - and which does not publish the text of the</text>
+  <text x="14" y="335" class="mapx" opacity=".85">final proclamation, which is why the question is open. On 1 July alone 23 people were killed and 203 wounded; over the</text>
+  <text x="14" y="348" class="mapx" opacity=".85">whole strike more than 100 were killed and more than 600 wounded. The single-day pair rests on one source.</text>
+  </svg>
+<figcaption><b>Figure 3 · The People's Strike, 22 June – 5 July 1944</b>
+An axis in days. The two dates the sources do not agree on — when the curfew was imposed and when the city went back to work — are drawn as bands rather than ticks.</figcaption>
+</figure>
+
+<h2 id="s10"><span class="n">10 / NARRATIVE</span>Shellhus</h2>
+
+<div class="terms">
+  <h4>Danish terms in this section</h4>
+  <dl class="one">
+    <div class="t"><dt>gidseletage</dt><dd>the hostage floor: the top storey of a building where prisoners were held so that it could not be bombed. The Gestapo used one in Copenhagen and it did not work.</dd></div>
+  </dl>
+</div>
+
+<p>The Gestapo took over the Shell company's Copenhagen office building in 1944 and made it their headquarters in Denmark. Prisoners were interrogated there, and about two dozen were held in cells in the attic — the <i class="dk">gidseletage</i>, the hostage floor — put at the top of the building deliberately, so that the British could not bomb it without killing them. Among them by March 1945 were Mogens Fog and Aage Schoch of the Freedom Council.</p>
+
+<p>The resistance asked for the building to be bombed anyway.</p>
+
+<p>On the morning of 21 March 1945 eighteen Mosquitos of the RAF's 140 Wing — British, Australian and New Zealand squadrons — left Norfolk with a Mustang escort and flew three hundred and fifty miles across the North Sea at the height of a rooftop. The first bomb hit Shellhuset at a quarter past eleven.</p>
+
+<p>In the first wave an aircraft flown by Wing Commander Peter Kleboe struck a thirty-metre light mast over a railway ground, dropped its bombs early and crashed beside Frederiksberg Allé. The second and third waves took the smoke and fire for the target. Seven of the twelve aircraft behind bombed it — and it was the Institut Jeanne d'Arc, the French school, a mile and a half from Shellhuset, with four hundred and eighty-two children in its cellars.</p>
+
+<p>Eighty-six children were killed, and eighteen adults: ten nuns, four teachers, two firemen and two fathers who had come to help dig.</p>
+
+<p>Inside Shellhuset about a hundred Germans and Danish Gestapo staff died and the archives burned. Of the twenty-six prisoners in the attic, eighteen got out and eight did not. Nine Allied airmen were killed.</p>
+
+<p>It is usually offered as a choice between a triumph and a tragedy, and it is not one, because the two are joined in a way that is hard to look at. Martin Sundstrøm has put it most exactly: the men in the attic survived <i class="dk">because</i> so many bombs went into the school, since a full weight of bombs on Shellhuset would have left fewer of the eighteen to walk out. Having established that, he declines to call the raid a military error and questions instead the decision to ask for it, the British planners having said beforehand that it would cause heavy civilian casualties.</p>
+
+<p>The judgement here is narrower. The raid did what it was asked to do: the Gestapo's Danish records were destroyed and its effectiveness against the organised resistance never recovered in the six weeks that were left. The foreseeable cost was stated in advance by the men who would have to fly it, and it was accepted by Danes on behalf of Danish children whose parents were not consulted and could not have been. That is not a scandal and it is not a triumph. It is what asking to be liberated turned out to involve.</p>
+
+<div class="check">
+  <h4>Checkpoint</h4>
+  <ul>
+    <li>Where did the Danish resistance's weapons come from, and what did delivering them cost the air forces that dropped them?</li>
+    <li>What was a clearingmord, where does the word come from, and how did the occupier make Danish newspapers reinforce it?</li>
+    <li>What did the People's Strike of June 1944 obtain, and what did it demonstrate that was not among its demands?</li>
+  </ul>
+</div>
+
+<h2 id="s11"><span class="n">11 / NARRATIVE</span>4 May 1945 — and Bornholm</h2>
+
+<p>At twenty past eight on the evening of 4 May 1945 the BBC's Danish service announced that the German forces in Holland, north-west Germany and Denmark had surrendered, to take effect at eight the next morning. Danes took the blackout paper down and put candles in the windows, and the photographs of that night are the ones the country has used ever since. The waiting groups came out with armbands. In the morning the occupation was over.</p>
+
+<p>It was not over on Bornholm.</p>
+
+<p>The instrument signed on Lüneburg Heath covered the German forces in Denmark and named no islands beyond the Frisians and Heligoland; Bornholm fell under a general clause about all other islands, a hundred and fifty kilometres east of the rest of the country and much nearer a front that was still moving. Montgomery asked on 4 May who was responsible for liberating it and was told not to act without Eisenhower's approval. The approval never came, and nobody told the Danes.</p>
+
+<p>The German commandant, Kapitän zur See Gerhard von Kamptz, had instructions from the naval command and followed them: he would surrender to the Western Allies and not to the Red Army or to the Bornholm resistance. He also had his anti-aircraft guns fire on Soviet reconnaissance aircraft. At half past twelve on 7 May Soviet bombers appeared over Nexø and minutes later over Rønne, and came back at a quarter to seven that evening.</p>
+
+<p>They dropped leaflets demanding that the Germans capitulate by ten the following morning. At four in the morning on 8 May the Danish authorities began evacuating both towns, and when the heaviest raid came in at ten they were all but empty.</p>
+
+<p>In Rønne two hundred and twelve buildings were destroyed and about two thousand nine hundred damaged, out of three thousand two hundred. In Nexø a hundred and seventy-five were destroyed and eight hundred and fifty-six damaged, out of nine hundred and fifty-nine. The hospital at Rønne was hit through the red cross painted on its roof.</p>
+
+<p><strong>Ten Danes were killed.</strong> Nine died in Rønne on the 7th and one in Nexø, and nobody at all was killed on the 8th, which was the day the towns were flattened. The low number is the most misunderstood fact about the bombing. It is not evidence that the raids were light and it is not luck: it is the evacuation of the 8th, ordered at four in the morning by Danish officials on an island nobody in London or Moscow had thought to mention to anyone.</p>
+
+<p>On the afternoon of 9 May five Soviet motor torpedo boats put a hundred men into Rønne harbour and the German garrison surrendered without resistance. The main force, some seven and a half thousand men, arrived from Kolberg on the 11th. They stayed eleven months.</p>
+
+<p>Danish radio was not permitted to broadcast news of the bombing of Rønne and Nexø. The reason given was that it would spoil the liberation.</p>
+
+<hr class="div">
+
+<div class="myth" id="myth">
+<h4>Myth-check</h4>
+<dl>
+  <dt>"The Danish fishermen rowed the Jews to Sweden for nothing." Most of the people who crossed paid, and some of the prices were extortionate. This is in the sources and it is usually left out, and leaving it out makes the story worse rather than better: a rescue carried out by people who also wanted paying is a thing human beings can actually do, and the version in which four thousand Danes act from pure motive on a fortnight's notice is a thing they cannot. The boats went either way.</dt>
+  <dd><strong>"Denmark saved its Jews because Denmark was uniquely decent."</strong> The occupier left them alone for three and a half years because touching them would have cost him the Danish government, and moved against them in the one window when there was no government left to lose — which is Werner Best's own argument in his telegram of 8 September 1943. Then Best, who had proposed the action, appears to have arranged for it to leak. Danish decency is real and it is the second half of the explanation, not the first.</dd>
+  <dt>"About seven thousand" and "7,742". The first is a round number nobody can source and the second is a sum nobody published: Sofie Lene Bak's 7,056 Jews and 686 non-Jewish spouses are two separate statements and somebody added them. The only figure behind which there is a named archive is roughly 7,400, from Swedish police arrival reports, and the museum that holds them says the material is incomplete.</dt>
+  <dd><strong>"The resistance liberated Denmark."</strong> Denmark was liberated by the German surrender of forces in north-west Europe, signed on a heath in Germany by men who had never been to Denmark. The waiting groups never fought a battle. What the resistance actually did was govern — it took nine of eighteen seats in the government of 5 May and it had been able to stop and start the capital since July 1944 — and that is a larger claim than the military one, not a smaller.</dd>
+  <dt>"Bornholm was bombed because the Soviet Union wanted the island." The Soviet Union asked for a German surrender and the German commandant refused to give it to them, having been told to surrender to the Western Allies instead. He also had his guns fire on Soviet reconnaissance aircraft. What the Soviet Union then did was disproportionate and it was not unprovoked, and the Danish government was never consulted about any of it.</dt>
+  <dd></dd>
+</dl>
+</div>
+
+<p class="kicker">Threads and links</p>
+<h2 id="forward" style="margin-top:0"><span class="n">WHERE THIS GOES</span>What to carry forward</h2>
+<ul class="calls">
+  <li><b>→ 43</b><span>The <i class="dk">retsopgør</i>'s arrests were made by the waiting groups: 21,800 people interned by men who had been civilians four days before, armed by a foreign air force and authorised by a council that had constituted itself in a borrowed room.</span></li>
+  <li><b>→ 43</b><span>The Freedom Council took nine of the eighteen seats in the government of 5 May 1945, and Christmas Møller, who had spent three years telling Denmark to resist, got the foreign ministry and not the premiership.</span></li>
+  <li><b>→ 43</b><span>The counter-terror and the informer killings are two columns of one ledger, and the occupier printed them side by side on purpose. Which column gets tried after the liberation, and which does not, is chapter 43's question.</span></li>
+  <li><b>→ 43</b><span>The Soviet Union leaves Bornholm on 5 April 1946 on one condition, that Denmark hold the island with no foreign troops whatever. Denmark joins NATO three years later.</span></li>
+  <li><b>→ 44</b><span>The constitution of 1953 is written by a commission of men who had spent 1943 to 1945 deciding whether a government that has stopped functioning is still a government.</span></li>
+</ul>
+
+<p class="kicker">Summary</p>
+<h2 id="summary" style="margin-top:0"><span class="n">IF YOU REMEMBER FIVE THINGS</span>The page in five</h2>
+<ol class="five">
+  <li><p>The war turned elsewhere in 1943 and Denmark felt it. Industrial sabotage went from seventy-three actions in three years to 816 in one. Strikes ran through the provincial towns from Odense at the end of July to Aalborg at the end of August, called by nobody and stoppable by nobody, and on 28 August the occupier demanded a state of emergency, a curfew, censorship, special courts and the death penalty for sabotage — and that Denmark protect the Danes who had worked for Germany. The government refused half an hour inside the deadline. Christian X declined to sign its resignation, so the ministers stopped functioning without leaving a vacancy. At four the next morning the army and navy were interned, and at 04.08 Vice Admiral Vedel signalled the fleet to scuttle: thirty-two ships sunk at their moorings, thirteen away to Sweden, fourteen taken.</p></li>
+  <li><p>On 8 September Werner Best proposed the deportation of Denmark's Jews and argued that it had to be done while the emergency lasted, because later it would cost him the government, the king and the Rigsdag. The protection had been leverage, and August had knocked it over. Best told his shipping attaché, Georg Ferdinand Duckwitz, who warned Hans Hedtoft on 28 September; the acting chief rabbi told the congregation in Krystalgade the next morning. On the night of 1 October the Gestapo found most of the addresses empty. About 284 people were taken that night and the rest over the following weeks.</p></li>
+  <li><p>Something over seven thousand people crossed to Sweden in three weeks, in fishing boats, mostly for money. The best archival estimate is about 7,400, from Swedish arrival reports the holding museum says are incomplete, and the 7,742 in circulation is a sum somebody performed on two separate statements; more than a thousand of those registering gave their religion as Protestant, Lutheran or Christian. Four hundred and seventy-two were deported and 470 reached Theresienstadt, where fifty-one died; 419 of the 472 came home. On 2 October about a hundred and fifty communists went from Horserød to Stutthof, and twenty-two of them died.</p></li>
+  <li><p>On 16 September 1943 seven men constituted the Freedom Council in a borrowed office. It had no law behind it, was recognised by the Soviet Union and never by the Western allies, and by May 1945 held nine of eighteen seats in the government. The resistance was armed from outside: SOE's first agent died when his parachute failed over Haslev in December 1941, and by 1945 something between 620 and a thousand tonnes had been dropped, at a cost of eighteen aircraft and sixty-nine Allied airmen. The waiting groups reached about sixty thousand and never fought. Hitler ordered the counter-terror on 30 December 1943; Kaj Munk was taken from his parsonage on 4 January 1944 and found shot in a ditch the next morning.</p></li>
+  <li><p>In late June 1944 Copenhagen struck, over a curfew, and held out through a state of siege in which the water, gas and power were cut and more than a hundred people were killed; it won the curfew back, and it established who governed. On 21 March 1945 the RAF destroyed the Gestapo headquarters and its archives, and seven aircraft of the second and third waves bombed a school by mistake, killing eighty-six children and eighteen adults. On 4 May the surrender was announced and Danes put candles in their windows. On Bornholm, which the surrender did not reach, Soviet aircraft bombed Rønne and Nexø on 7 and 8 May: 387 buildings destroyed and ten Danes killed, nine of them on the first day, because the towns were evacuated at four on the morning of the second. Danish radio was not allowed to report it, on the ground that it would spoil the liberation.</p></li>
+</ol>
+
+<p class="kicker">Questions &amp; discussion</p>
+<h2 id="questions" style="margin-top:0"><span class="n">FOUR KINDS</span>Work the material</h2>
+
+<div class="qgroup">
+  <p class="qlabel">Recall</p>
+  <p class="qnote">Did the facts land?</p>
+  <ul>
+    <li>What did the German ultimatum of 28 August 1943 demand, and which of its demands was about Danes rather than about Germans?</li>
+    <li>How many people were deported from Denmark to Theresienstadt, how many arrived, and how many came home?</li>
+    <li>What did the People's Strike of June 1944 actually obtain, and what did it fail to obtain?</li>
+  </ul>
+</div>
+<div class="qgroup">
+  <p class="qlabel">Causal</p>
+  <p class="qnote">Why did it happen that way?</p>
+  <ul>
+    <li>Explain how the strikes of August 1943 led to the attempt on the Danish Jews in October, using Best's own argument of 8 September.</li>
+    <li>Denmark's resistance had no weapons in 1943 and about sixty thousand armed people in May 1945. Set out the chain, and say at which link it could most easily have been broken.</li>
+    <li>Ten Danes died in a bombing that destroyed 387 buildings in two small towns. Explain the number.</li>
+  </ul>
+</div>
+<div class="qgroup">
+  <p class="qlabel">Counterfactual</p>
+  <p class="qnote">What if it had gone otherwise?</p>
+  <ul>
+    <li>Suppose Christian X had signed the government's resignation on 28 August 1943. What would the occupier have been able to do that it could not?</li>
+    <li>Suppose no warning had reached Hans Hedtoft on 28 September 1943. Estimate what October 1943 looks like, and say which of your assumptions is doing the most work.</li>
+    <li>Suppose the Freedom Council had ordered the waiting groups into the streets in the summer of 1944, as the Home Army rose in Warsaw. Argue the case for it, then against.</li>
+  </ul>
+</div>
+<div class="qgroup">
+  <p class="qlabel">Contested</p>
+  <p class="qnote">Where do historians disagree?</p>
+  <ul>
+    <li>Was 29 August 1943 a break or a continuation? Argue both, using the exports, the administration and the fleet.</li>
+    <li>Was the Shellhus raid justified? Make the strongest case each way, and say what you would need to know that nobody knows.</li>
+    <li>Denmark saved almost all of its Jews and delivered about a hundred and fifty communists to Stutthof in the same week. Argue that these express one policy, and then that they express two. ---</li>
+  </ul>
+</div>
+
+<p class="kicker">Sources</p>
+<h2 id="sources" style="margin-top:0"><span class="n">LIGHT SOURCING</span>What this is built on</h2>
+<ul class="plain">
+  <li><span class="nm">August, and the ultimatum.</span>
+    <span class="ds">lex.dk's <i class="dk">Augustoprøret 1943</i> and danmarkshistorien.lex.dk's article of the same name for the towns, the mechanism and the disarming; <i class="dk">Gyldendal og Politikens Danmarkshistorie</i>, "Den 29. august 1943", for Esbjerg 10–11 August, Odense 18–23 and Aalborg 23–29, the seventeen towns and the refusal at 15.30. <strong>The ultimatum is quoted from the Danish text published by danmarkshistorien.lex.dk</strong>, including <i class="dk">under tysk medvirken</i>, <i class="dk">ufortøvet</i> and point four; the Odense demands — the million kroner, the five days and the ten inhabitants — are on the same page. The start of the unrest is given four incompatible ways by four sources and the chapter says so rather than choosing.</span></li>
+  <li><span class="nm">29 August and the fleet.</span>
+    <span class="ds">lex.dk's <i class="dk">29. august 1943</i> for the unsigned resignation and its consequence, and <i class="dk">Departementschefstyret</i> for the arrangement that followed and for its own description of it as a continuation of the cooperation policy. navalhistory.dk for the signal <strong>K N U</strong> at 04.08, the first explosion at 04.13, the thirty-two scuttled, the thirteen to Sweden, <i class="dk">Niels Iuel</i> in the Isefjord, and the nine dead at Holmen — the Holmen figure is that site's alone. The Danish military dead are 23 or 24 and the wounded 40, 53 or 56 across four sources, two of them the same institution five years apart. Kirchhoff's continuity argument by way of <i class="dk">Kristeligt Dagblad</i>'s "29. august 1943 — brud eller kontinuitet".</span></li>
+  <li><span class="nm">The warning.</span>
+    <span class="ds"><strong>Best's telegram to Ribbentrop of 8 September 1943</strong>, in Danish, on danmarkshistorien.lex.dk — the load-bearing document of the chapter, and the source of the <i class="dk">undtagelsestilstand</i> argument and of his own "ca. 6.000". Kirchhoff's chronology from the Auswärtiges Amt's <i class="dk">Diplomatische Profile</i> volume on Duckwitz. <strong>Gunnar S. Paulsson, "The 'Bridge over the Øresund'", <i class="dk">Journal of Contemporary History</i> 30 (1995), 431–464</strong>, for the Swedish visa records and the state of the memoirs. USHMM's catalogue entry for the Duckwitz papers (Group 5344), for the calendar, the Rigsarkivet provenance and the restriction to 2048. Melchior at Krystalgade on 29 September from ordetogisrael.dk; the date is the eve of the new year and not the new year service, checked against the calendar.</span></li>
+  <li><span class="nm">October, and the numbers.</span>
+    <span class="ds"><strong>Silvia Goldbaum Tarabini Fracapane, "Myter og misforståelser om deportationerne til Theresienstadt", <i class="dk">Rambam</strong></i>, for 472 and 470, the two men named, Yad Vashem Archives 0.64/275, the disposal of the 481 as a double count, the 51 and the 53 and what each includes, and 419 of 472 home against 423 on the buses. Sofie Lene Bak, by way of Humanity in Action, for 7,056 and 686 as two statements, and for at least 104 deaths connected with the action. Dansk Jødisk Museum's <i class="dk">Safe Haven</i> for the ~6,336 Swedish arrival reports, the estimate near 7,400, the incompleteness, and the <strong>more than a thousand who registered as Protestant, Lutheran or Christian</strong>. Museum Nordsjælland for Gilleleje and for the informer never being established. danmarkshistorien.lex.dk for the arrest breakdown.</span></li>
+  <li><span class="nm">The Council, and the arming.</span>
+    <span class="ds">lex.dk's <i class="dk">Danmarks Frihedsråd</i> for the date, the membership, the Soviet recognition and the Western non-recognition; <i class="dk">Gyldendal og Politikens Danmarkshistorie</i> for a different membership and the nine seats; Niels-Birger Danielsen for the borrowed office, which is his alone. <i class="dk">Dansk Biografisk Leksikon</i> on Carl Johan Bruhn and Mogens Hammer for the night of 27/28 December 1941, and milhist.dk for Torpeskoven, the Whitley and the hundred and fifty metres; DBL on Muus for Nibe and for the 1946 conviction; lex.dk's <i class="dk">SOE</i> and <i class="dk">ventegrupper</i> for the tonnages, the seven regions, the Swedish weapons and the sixty thousand; lex.dk's <i class="dk">Hvidstengruppen</i> for Mustard Point, the arrests of 11 March 1944 and the executions of 29 June. DBL and Frihedsmuseet's catalogue on Kim Malthe-Bruun; the Ryvangen roll from krigeren.dk.</span></li>
+  <li><span class="nm">The counter-terror and the strike.</span>
+    <span class="ds">lex.dk's <i class="dk">clearingmord</i> for the etymology from the <i class="dk">clearingkonto</i> and for the newspapers printing the two kinds of notice side by side; Martin Göllnitz in <i class="dk">Sønderjydske Årbøger</i> 135 (2023) and danmarkshistorien.lex.dk on Werner Best for the two readings of the ratio; DBL and danmarkshistorien on Kaj Munk; danmarkshistorien's <i class="dk">Peter-gruppen</i> for the group and for the convicted totals. <i class="dk">Gyldendal og Politikens Danmarkshistorie</i>, "Folkestrejken", for the allotments, the state of siege, and the 23 and 203 — which is single-source — and the hundred and six hundred. lex.dk's <i class="dk">Shellhuset</i> and <i class="dk">Den Franske Skole</i> for the raid and the school.</span></li>
+  <li><span class="nm">Bornholm.</span>
+    <span class="ds">lex.dk's <i class="dk">Bornholms besættelse 1940–1946</i> for the raids, the landing and the eleven months; Bornholms Museum for the building counts; natmus.dk for nine dead in Rønne and one in Nexø; koldkrig-online.dk for Montgomery's question of 4 May and for the note of 5 March 1946.</span></li>
+  <li><span class="nm">Open questions this chapter carries.</span>
+    <span class="ds">The start of the August unrest is dated four ways. The Danish dead of 29 August are 23 or 24 and the wounded three numbers. The Freedom Council's founding membership is recorded three ways by three respectable sources. The railway sabotage column adds to 1,527 against a published 1,526. The date Copenhagen went back to work in July 1944 is 3, 4 or 5 July and the Council's final proclamation is not published anywhere reachable. The "Niels" of Kim Malthe-Bruun's last letter is not on the memorial roll. The number Ellen Nielsen helped is given from two to seven hundred and is documented nowhere. And the deportation of the Danish police on 19 September 1944 is carried here in a single clause and has not been verified. ---</span></li>
+</ul>
+
+<p class="kicker">Go and look</p>
+<h2 id="visit" style="margin-top:0"><span class="n">STILL THERE</span>Places you can visit</h2>
+<ul class="plain">
+  <li><span class="nm">Langelinie and Holmen, Copenhagen.</span>
+    <span class="ds">Where the fleet went down on the morning of 29 August 1943. <i class="dk">Peder Skram</i> was raised and is a museum ship; the others are a line of moorings.</span></li>
+  <li><span class="nm">Dragør old town.</span>
+    <span class="ds">The harbour the boats went from and the streets Ellen Nielsen knew. There is a stone in the pavement at Rønne Allé 42, laid in 2024, the first in the town.</span></li>
+  <li><span class="nm">Mindelunden i Ryvangen, Hellerup.</span>
+    <span class="ds">The execution ground and the graves. One hundred and five men are buried there and a hundred and fifty-one more are named on the wall because their bodies were never found.</span></li>
+  <li><span class="nm">Frederiksberg Allé, Copenhagen.</span>
+    <span class="ds">The Institut Jeanne d'Arc stood beside the Aveny Theatre. The school never reopened. The memorial went up in 1953 and the names were added to it in 2015.</span></li>
+  <li><span class="nm">Rønne and Nexø, Bornholm.</span>
+    <span class="ds">Both town centres are post-war and look it; the Swedish timber houses given to Bornholm in 1945 and 1946 are still standing and are still called the Swedish houses.</span></li>
+</ul>
+
+<footer>
+  Chapter 42 · Part I · 1943 – 1945 &middot; <a href="danish-history-index.html#c42">back to the index</a>
+</footer>
+
+</div>
+<script>
+(function(){
+  var links = Array.prototype.slice.call(document.querySelectorAll('.rail a'));
+  var map = {};
+  links.forEach(function(a){ map[a.getAttribute('href').slice(1)] = a; });
+  var targets = Object.keys(map).map(function(id){ return document.getElementById(id); })
+                 .filter(Boolean);
+  if(!('IntersectionObserver' in window) || !targets.length) return;
+  var seen = {};
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){ seen[e.target.id] = e.isIntersecting ? e.boundingClientRect.top : null; });
+    var best = null;
+    targets.forEach(function(t){
+      var r = t.getBoundingClientRect();
+      if(r.top <= 140) best = t.id;
+    });
+    if(!best) best = targets[0].id;
+    links.forEach(function(a){ a.classList.remove('active'); });
+    if(map[best]) map[best].classList.add('active');
+  }, {rootMargin:'-120px 0px -70% 0px', threshold:[0,1]});
+  targets.forEach(function(t){ io.observe(t); });
+  window.addEventListener('scroll', function(){
+    var best = null;
+    targets.forEach(function(t){ if(t.getBoundingClientRect().top <= 140) best = t.id; });
+    if(!best) best = targets[0].id;
+    links.forEach(function(a){ a.classList.remove('active'); });
+    if(map[best]) map[best].classList.add('active');
+  }, {passive:true});
+})();
+</script>
+</body>
+</html>

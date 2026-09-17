@@ -36,17 +36,22 @@ written — see Lessons.
 | F | 21–24 | 1536–1660 | **built, reviewed, revised, closed; online** |
 | G | 25–31 | 1660–1814 | **built, reviewed, revised; all seven round-trip clean** |
 | H | 32–36 | 1814–1901 | **built, verified, indexed, closed — see `PLAN_H.md`** |
-| I | 37–44 | 1901–1955 | **in progress — see `PLAN_I.md`**; 37, 38, 39, 40 and 41 built, verified and indexed; 42–44 to draft |
+| I | 37–44 | 1901–1955 | **in progress — see `PLAN_I.md`**; 37–41 built, verified and indexed; **42 built and measured at 11,608 page words / 55 min, which trips decision 2.7 — see item 125, awaiting Carsten on the split**; 43–44 to draft |
 
-**Book, as measured on a fresh clone after chapter 41: 41 of 44, 299,743 page
-words, 23.8 h; 3 remaining, of which 1 is flagged dense** (`DENSE = {42}`, in
-`bookstats.py` and `index_generator.py`, correct under the 44-chapter spine).
-Read off `bookstats.py`, not carried forward — see item 112.
+**Book, after chapter 42: 42 of 44, 311,351 page words, 24.7 h; 2 remaining.**
+Read off `bookstats.py` after `linkindex.py`, not carried forward — see item 112.
+The previous figure, 41 of 44 at 299,743 and 23.8 h, was confirmed on a fresh
+clone at the start of this session.
+
+**The 42 in that count is provisional.** It is one chapter of 11,608 page words
+and 55 minutes, and if decision 2.7 resolves in favour of splitting it the count
+becomes 43 of 45 and the total does not change materially — the words are
+written either way. Do not re-plan against 311,351 until the split is settled.
 
 Part I as built:
 
 ```
-37  Reform, neutrality, the sale of the West Indies  7,902 page (38 min)  4L/3M/3H
+37  Reform, neutrality, the sale of the West Indies  7,902 page (38 min)  3L/4M/3H
 38  Genforeningen, Iceland and the Easter Crisis     7,824 page (37 min)  4L/4M/3H
 39  Deflation, Landmandsbanken, the first government 7,455 page (36 min)  3L/4M/3H
 40  Depression, Stauning, the welfare state's seeds  8,358 page (40 min)  3L/5M/3H
@@ -2797,6 +2802,309 @@ split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see it
    own total of valid votes by 5,972. lex.dk's figures reconcile with that total
    to within 28 votes. **Check a fetched table against its own total before using
    any number in it** — the arithmetic caught this, not the eye.
+
+120. **The chapter 37 weight profile was transposed in the ledger's own summary
+   block and had propagated through two START_HERE briefs.** The chapter 42 cold
+   run measured chapter 37 at **3L/4M/3H**, against the 4L/3M/3H carried by the
+   "Part I as built" table above, by `START_HERE_part_I_c41.md` and by
+   `START_HERE_part_I_c42.md`. Narrative words matched exactly (4,207), and the
+   sections are nowhere near a band edge — §04 is 248 words and §09 is 400
+   against a light/medium threshold of 336 — so nothing was flipping on a
+   rounding boundary.
+
+   **Item 75, written in the chapter 37 session, records 3L/4M/3H "exactly as
+   PLAN_I §5 specified", and PLAN_I §5 specifies 3L/4M/3H.** The contemporaneous
+   record and the plan agree with the tool; the summary table disagreed with all
+   three. Corrected in place above.
+
+   This is item 112 in a different column: a number copied into a summary instead
+   of read off the tool that produces it. **Rule, extending 112: the profile
+   column of the "Part I as built" block is read off `narrative.py` on a fresh
+   clone, exactly as the book total is read off `bookstats.py`.** Neither is ever
+   carried forward from the previous brief.
+
+121. **Chapter 42's verification queue, and what it overturned. Two of the three
+   vignettes carried a wrong label and the third rests on sealed papers.**
+
+   - **42[n] was not executed where the plan says.** Kim Malthe-Bruun was
+     sentenced by court-martial on 4 April 1945 and **shot at Ryvangen on the
+     6th**; Vestre Fængsel is the dateline of the farewell letter and **was never
+     an execution site**. Dansk Biografisk Leksikon, lex.dk, Frihedsmuseet's
+     catalogue and the Mindelunden memorial roll agree. This is item 117's class
+     again — a place asserted in a label — and it is the second consecutive
+     chapter in which the plan's own vignette line carried an unverified claim.
+     A myth-check comes free with it: the letter names the three sentenced with
+     him as "Jørgen, Niels og Ludvig", and the Ryvangen roll for 6 April gives
+     Jørgen Frederik Winther, Ludvig Alfred Otto Reventlow and **Peter Wessel
+     Fyhn**. No source reconciles the Niels. Most likely a cover name; nobody has
+     shown it.
+   - **42[f] did not sail and was not arrested in 1943.** Ellen Wilhelmine
+     Nielsen sheltered people at Rønne Allé 42 in Dragør and arranged passage
+     with fishermen she had known all her life; **no source says she owned or
+     sailed a boat and none names one.** Arrested **27 July 1944** with eleven
+     Dragør fishermen; Vestre Fængsel, Frøslev, **Ravensbrück as prisoner
+     94,315**, then the Jugendlager at Uckermark; out by white bus on 8 April
+     1945. Not Horserød and not Theresienstadt.
+
+     **The number she is credited with is undocumented and the sources are one
+     source.** Published figures run from two to seven hundred; four of the most
+     cited web accounts are by the same author, who gives three different
+     numbers; the 700 is the total for everyone who left from Dragør and is
+     routinely printed as hers. The family account says fifty to seventy-five.
+     The scholarly treatment — Cherine Munkholt's two papers on dragoerhistorie.dk
+     — is **blocked at the egress proxy** and would probably settle the one date
+     that remains open, the Ravensbrück transport of 11 or 14 December 1944.
+   - **42[-] is worse than "rests on his own diary", which is what the plan
+     warned.** The 28 September date holds and is well attested. But Gunnar
+     Paulsson (*Journal of Contemporary History* 30, 1995) reports that the
+     opened Swedish archives show Duckwitz issued a visa on 19 March 1943 and
+     another on 15 January 1944 **and nothing between them** — so the Stockholm
+     errand to Per Albin Hansson, the most repeated detail in the story, may not
+     have happened. The papers went from Rigsarkivet to USHMM, where the
+     catalogue lists a **calendar** for 1943–44 rather than a diary, and the
+     collection is **restricted until 2048**. The chapter prints Kirchhoff's
+     chronology by name with Paulsson's challenge beside it.
+
+122. **The October 1943 figures: one of them is exact and the famous one is an
+   addition somebody else performed.**
+
+   - **472 deported from Denmark, of whom 470 reached Theresienstadt.** Silvia
+     Goldbaum Tarabini Fracapane built this from the transport registration lists
+     (Yad Vashem Archives 0.64/275) and can name the two men who are the
+     difference — Michael Singerowitz, sent on to Majdanek and dead there on
+     21 January 1944, and one man held at Sachsenhausen and moved to Mauthausen
+     with the banknote-forging unit. **The rival 481 is a demonstrable double
+     count** of the ten who arrived from Sachsenhausen and Ravensbrück in early
+     1944. 464 is superseded and "knap 500" is 472 rounded by people without the
+     lists. This is a nominal count, not an estimate, and it is the most solid
+     arithmetic in the chapter.
+   - **"About seven thousand to Sweden" is exactly the pre-rounded number PLAN_I
+     §10 feared, and 7,742 is a construction.** Sofie Lene Bak states 7,056 Jews
+     and 686 non-Jewish spouses as two separate facts; others add them; where the
+     sum appears alone it is unsourced and relabels all 7,742 as Jews, which
+     inverts what the 686 means. **The only figure attached to a named archive**
+     is Dansk Jødisk Museum's *Safe Haven* database — Swedish police arrival
+     protocols from Riksarkivet Stockholm, about 6,336 reports analysed, giving
+     roughly **7,400** — and the museum states the material is incomplete, so it
+     is a floor.
+   - **The Safe Haven database gave up something better than a number.** More
+     than a thousand of those registering in Sweden **gave their religion as
+     Protestant, Lutheran or Christian.** The tidy partition into Jews and
+     non-Jewish spouses does not survive the registers, and what it dissolves
+     into is the chapter's best paragraph.
+   - **"53 died" has two incompatible derivations that land on the same number.**
+     Fracapane's 53 is 51 dead at Theresienstadt plus the two who died after
+     transfer, with the two camp-born infants counted **separately** (so 55 on
+     her accounting). The popular 53 is 51 plus the infants. **Print the
+     definition with the number or do not print it.** Her survivor figures are
+     419 of the original 472 and 423 home on the white buses, the gap being
+     spouses and children born in the camp — and that gap is where most of the
+     published confusion comes from.
+   - Arrests reconcile: about **284** on and around the night of 1–2 October (202
+     in Copenhagen, 82 west of the Great Belt), the rest taken later, for 472.
+     Gilleleje church loft is the night of 6–7 October and the number is given as
+     60, 80 or 90; the informer was never established, the one conviction being
+     overturned on appeal.
+
+123. **Bornholm: chapter 42 owns the bombing, chapter 43 owns the occupation —
+   and 43[n] therefore has to move.** PLAN_I gave 42 §10 "4 May 1945 — and
+   Bornholm" and 43 §05 "Bornholm under the Soviets", and the question of who
+   owned 7–8 May was open.
+
+   **Settled: 42 carries 4 May, the raids of 7 and 8 May and the Soviet landing
+   of the 9th; 43 carries the eleven months and the withdrawal.** Splitting it
+   the other way leaves 42 §10 with nothing to say and opens 43 §05 on Soviets
+   already ashore. And 43's half is where the value is: the Soviet note of
+   5 March 1946 conceded withdrawal only if Denmark held the island *"uden nogen
+   som helst deltagelse af fremmede tropper"*, and Gustav Rasmussen told the
+   Americans (FRUS 1946 V, doc. 259) that this was **the only condition**. That
+   sentence governs Danish policy on Bornholm into the 1980s and it is what
+   43 §09 and §10 need.
+
+   **Consequence: PLAN_I §4's 43[n], an unnamed vignette at Rønne on 7–8 May, is
+   now inside chapter 42's span.** Either it becomes a 42 vignette or 43 takes a
+   subject from the *russertid* instead. The strongest candidate found is
+   **Wilhelmine Heinø**, evacuated from Rønne hospital and dead at 22:50 in an
+   overcrowded ward at Aakirkeby, with her husband Charles Carlsen Heinø's
+   account — **and she is not one of the ten counted dead**, which is the
+   interesting part and also the trap.
+
+   **The ten dead have a cause and it is not luck.** Nine died in Rønne on the
+   7th and one in Nexø; **nobody died on the 8th**, the day the towns were
+   destroyed, because Danish officials began evacuating both at 04:00 that
+   morning. 212 buildings destroyed in Rønne and 175 in Nexø.
+
+124. **PLAN_I §10's ten sections do not hold, and it is the third consecutive
+   chapter whose missing subject was a hole in the plan.** Chapter 40's was the
+   parliamentary arithmetic, chapter 41's was the loss of the North Atlantic, and
+   chapter 42 has **two**, found by item 116's test — which later chapter is left
+   with an uncaused event.
+
+   - **How the underground was armed has no section anywhere.** Chapter 41
+     carries no SOE, no drops and no weapons and says so in its Sources; PLAN_I
+     §10 has no section for it either, only "Sabotage, and the counter-terror".
+     So SOE's Danish section from October 1940, Bruhn dead on the first drop when
+     his parachute failed over Haslev on the night of 27/28 December 1941, Muus
+     from March 1943, the reception groups and Hvidsten, Toldstrup's 289 fields,
+     600–700 tonnes in something like 6,500 containers, 7,500 Husqvarna weapons
+     out of Sweden, and **an underground army near 60,000 in May 1945** are all
+     homeless. Chapter 43 cannot tell the *retsopgør* without them: the 21,800
+     interned after 5 May were arrested by those people.
+   - **The Freedom Council at "light" cannot carry what chapter 43 needs.**
+     Founded 16 September 1943, a fortnight after the government stopped
+     functioning; recognised de facto by the Soviet Union in 1944 and never by
+     the Western allies; it ran the People's Strike by proclamation; and it took
+     **nine of the eighteen seats** in the liberation government. Promoted to
+     medium.
+   - **And drafting found a third: the Danish police.** On 19 September 1944 the
+     Germans arrested the police and deported some two thousand of them, and
+     **Denmark had no police from that day to the liberation.** No section in
+     PLAN_I §10 or §11 carries it, and chapter 43's *retsopgør*, the informer
+     killings and the rise in crime all need it. **Not yet verified in detail** —
+     it was found at drafting, after the verification queue had closed, and the
+     numbers above are the ones to check first.
+
+   **The planning lesson, stated for the third time and now with a count:** the
+   plan's section list has been wrong in the same direction in every chapter of
+   Part I since 39. It is not that drafts land short. It is that a section list
+   written before the research cannot know which causes a later chapter will
+   need, and the only test that finds the gap is to read the *next* chapter's
+   section list and ask what arrives in it without a cause.
+
+125. **Decision 2.7 tripped, and the two-pass tightening evidence is the useful
+   part.** The first draft of chapter 42's eleven sections measured **7,801
+   narrative words** on the markdown estimator, against 4,429 for chapter 41 and
+   a plan of about 4,900 — with the profile at 0L/1M/7H and **three sections past
+   the 760 band ceiling entirely**, which is item 59's defect inverted.
+
+   - **Pass 1**, deleting whole paragraphs and moving evidence into the Sources
+     block and the figure docstrings: 7,801 → 6,743. **1,058 words.**
+   - **Pass 2**, sentence-level work on the two longest sections: 6,743 → 6,679.
+     **64 words.**
+
+   That second number is item 118's lesson demonstrated a second time and from
+   the same end: **paraphrasing is not cutting**, and the recovery curve
+   collapses after the first pass. There is no fifth round that finds 1,800
+   words.
+
+   **BUILT AND MEASURED, because 2.7's trigger is a page length and item 96 says
+   never to estimate one.** `bookstats.py` after `linkindex.py` gives **11,608
+   page words and 55 minutes**, against a trigger of 8,400 and an advisory ceiling
+   of 40. `build_part_i.py` printed 11,602 and the six-word gap held for the
+   fourth time. Narrative measured **6,688** against the markdown estimator's
+   6,679, nine words out — the estimator is fine and the chapter is not.
+
+   **And the diagnosis is the opposite of chapter 41's, which is the useful
+   part.** Chapter 41 was long because its Sources block was a research log;
+   the apparatus was the culprit and the prose was innocent. Chapter 42's
+   apparatus is 4,920 against chapter 41's 4,249, and nearly all of that
+   difference is `outside` — 3,057 against 2,487 — which is the eleventh section's
+   share of the contents, the rail and the tail. **The Sources block came in at
+   the Part I norm on the first build.** So item 118's rule was applied, the
+   apparatus was measured first, and it cleared: this chapter is long because it
+   has too many subjects, not because its tail is fat. There is nothing to
+   recover by tightening and the profile says so — **0L/1M/8H with two sections
+   still over the band ceiling**, after two passes.
+
+   **Referred to Carsten with the arithmetic and a costed split**, because the
+   split changes the spine from 44 chapters to 45 and that is D-10's territory,
+   not a drafting decision. The renumbering was costed rather than guessed:
+   **twelve forward arrows and seven prose cross-references across shipped
+   chapters 37–41**, all in pages that rebuild through `mkbody.py`, plus
+   `TOTAL_PLANNED` and the part ranges in `bookstats.py`, the spine in
+   `index_generator.py`, and PLAN_I §11 and §12. The proposed seam is between
+   "Those who did not get away" and "Danmarks Frihedsråd": rupture and rescue in
+   one chapter, the underground and the liberation in the other.
+
+126. **`figs_42.py` is built and the raster found three faults that every guard
+   passed. Fourth chapter running.** `validate`, `overruns` and `collisions` were
+   clean on all three before a human eye saw any of them.
+
+   - **Figure 1's uncertainty band read as a third segment of the bar.** The
+     range on the Sweden estimate, 7,000 to 7,742, was drawn as a pale block
+     inside the bar; on the raster it read as pale block, then red block — three
+     categories where the figure has two and an uncertainty. **Redrawn as a
+     whisker with end caps below the bar**, which cannot be read as a quantity.
+     This is item 118's legend fault in a new dress: the guards are geometric and
+     cannot see a shape that means the wrong thing.
+   - **Figure 3 shipped an axis of fourteen unlabelled ticks.** A reader could
+     not find a date on it. An unlabelled tick is valid markup that collides with
+     nothing, so nothing complained. Day labels added, and the index-to-date
+     inverse is **asserted against the forward map at both ends and across the
+     June/July join** rather than trusted.
+   - **Figure 3's three shaded bands had no legend at all** — a green block, a
+     paler green block and a grey block, with nothing saying which was the
+     strike. Swatches added, per item 118.
+
+   **And a new one worth a rule: `&` in drawn text needs two rulers or none.**
+   `Burmeister & Wain` broke the XML parse. Putting `&amp;` in the data makes
+   `width()` measure five characters where the reader sees one — item 76's trap.
+   Escaping only at emission is not enough either, because **`mapspine.check`
+   reads the emitted markup and therefore measures the entity too**, and it
+   reported a seven-unit collision that does not exist on the page. That is item
+   64's "two rulers for one rule" in miniature. **Resolution: keep entities out
+   of drawn text** — the label reads "Burmeister and Wain" — and an `esc()`
+   helper stays in the script as the guard for any string that acquires one
+   later.
+
+   **The figure PLAN_I §13 asked for was not built and the decision was taken at
+   the start.** No monthly sabotage series is reachable; the compiled aggregate
+   (Hansen, Kjeldbæk and Maurer, 1984) surfaces only as two totals. The annual
+   series is built instead and is the better figure, because it carries 1945 as
+   **four months** — read as a year it understates the last winter threefold.
+   Item 119's rule earned its keep on it: the industrial column adds to its
+   published total of 2,801 exactly, and **the railway column adds to 1,527
+   against a published 1,526**. The discrepancy of one is asserted in the script
+   and drawn on the figure rather than smoothed.
+
+127. **`mkbody.py` has been printing false glossary headings since Part H, and
+   thirteen of them shipped.** Found while checking chapter 42's own build output
+   by eye, not by any guard.
+
+   `terms_by_section` accepts a ranged header — `**§05-07 - the islands**` glosses
+   three sections — and its regex allowed **whitespace around the range
+   separator**. So a descriptive header of the form `**§01 — 1939**` parsed as
+   "sections 01 to 1939", and `**§03 — 9 April**` as "sections 03 to 09". The
+   heading printed on the page was built from that span.
+
+   **Eleven impossible headings were live on the site:** *Danish terms in sections
+   01–1939* and *08–1941* and *11–1943* in chapter 41, *01–1929*, *09–1935* and
+   *11–1939* in chapter 40, *06–1924* in 39, *09–1899* in 35, *10–1901* in 36,
+   and chapter 38's *07–14* in an eleven-section chapter. **And two more were
+   live that look perfectly legal and are not:** chapter 38's *sections 06–10* and
+   chapter 41's *sections 03–09* are each a single section's glossary block. Those
+   two are the dangerous ones — a reader cannot tell, and neither could I until I
+   compared every heading against its chapter's section count.
+
+   **Why nothing caught it.** The markup is valid, so `validate` passed. The
+   heading fits, so nothing overran. `debuild.py` round-trips the page against
+   itself, so `identical` proved only that the false heading survived a round
+   trip. And `span` is used for **nothing except this heading** — placement keys
+   off the leading number alone — so every glossary block sat against the right
+   section and only the label lied. Item 110's class exactly: valid output, wrong
+   content, invisible to every guard the project owns. It is also item 117's: a
+   heading is a claim, and thirteen of them were false.
+
+   **Fixed at source.** The range separator must now be *adjacent*, which is how
+   the docstring's own example writes it and which no descriptive header uses; and
+   an implausible range — running backwards, or past thirty — now fails an
+   assertion instead of silently producing a span of nineteen hundred entries.
+
+   **Rebuilt: chapters 35, 36, 38, 39, 40 and 41.** The diff is **twelve heading
+   strings and nothing else** — `git diff` on the six bodies shows zero
+   non-heading changes — and every page word count is unchanged, because "Danish
+   terms in sections 01–1939" and "Danish terms in this section" are both five
+   words. `debuild` still reads 11 style-only and 31 identical; `figcheck`
+   81/41/0; `draftnotes` still 33 and still only on 25–32.
+
+   **Chapters 25 to 32 are not affected** and did not need rebuilding, which is
+   fortunate, because item 102's guard refuses them. Their only ranged headers are
+   tight-written and correct.
+
+   **The rule this earns:** a label computed from parsed input is a claim and
+   needs the same treatment as a section title. The cheap check is the one that
+   found it — compare every generated heading against the thing it claims to
+   describe, once, per part.
 
 ---
 

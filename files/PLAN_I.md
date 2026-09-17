@@ -255,9 +255,9 @@ one `[f]` and one `[n]`, as D-9 requires. Lazy backfill permitted.
 | 41 | [n] | ~~one of the sixteen~~ **Carl Gunnar Jørgensen · Lundtoftbjerg · 9 April 1940** | **shipped** — named, and the total is 13 soldiers + 3 gendarmes (item 113) |
 | 41 | [-] | Erik Scavenius · Berlin · 25 November 1941 | **shipped** — the four reservations are unreadable and the vignette says so (item 114) |
 | 41 | [f] | ~~*unnamed*~~ **Kate Fleron · Copenhagen · 1942** | **shipped** — the woman who kept the record of the women (item 115) |
-| 42 | [f] | Ellen Nielsen · Dragør · October 1943 | verify camp and arrest date |
-| 42 | [n] | Kim Malthe-Bruun · Vestre Fængsel · April 1945 | verify execution date |
-| 42 | [-] | Georg Ferdinand Duckwitz · Copenhagen · 28 September 1943 | verify; rests on his own diary |
+| 42 | [f] | **Ellen Wilhelmine Nielsen** · Dragør · October 1943 | **verified — and the plan was wrong twice.** She sheltered and arranged passage; she owned no boat and no source says she sailed. Arrest **27 July 1944**, not October 1943. Camps: Vestre Fængsel → Frøslev → **Ravensbrück** (prisoner 94,315) → Jugendlager Uckermark; out by white bus 8 April 1945. Not Horserød, not Theresienstadt. The number she helped is **undocumented** (2 to 700; the 700 is Dragør's whole total) |
+| 42 | [n] | Kim Malthe-Bruun · ~~Vestre Fængsel~~ **Ryvangen** · **6 April 1945** | **verified — the place was wrong.** Sentenced 4 April, shot at Ryvangen on the 6th; Vestre Fængsel is the dateline of the farewell letter and was never an execution site. The letter names "Jørgen, Niels og Ludvig"; the Ryvangen roll for that day gives Winther, Reventlow and **Peter Wessel Fyhn**, and nobody reconciles the Niels |
+| 42 | [-] | Georg Ferdinand Duckwitz · Copenhagen · 28 September 1943 | **date verified** (Kirchhoff, lex.dk, USHMM, danmarkshistorien; the 29th is Melchior at Krystalgade, one link downstream). **The evidence is worse than "his own diary":** Paulsson (*JCH* 30, 1995) reports Swedish visa records showing nothing between 19 March 1943 and 15 January 1944, so the Stockholm trip may not have happened; and the papers are at USHMM via Rigsarkivet, catalogued as a **calendar**, restricted **until 2048** |
 | 43 | [f] | Fanny Jensen · Christiansborg · 1947 | **sourced** |
 | 43 | [n] | *unnamed* · Rønne · 7–8 May 1945 | **needs a subject** |
 | 43 | [-] | the first man executed under the retroactive law · 1946 | verify name and date |
@@ -678,9 +678,9 @@ order above. The chapter 38 rows were written before its sections were fixed.
 | 41 | ~~Danish exports by destination, 1938–1943~~ | *Statistisk Årbog*, deep table | **not reachable** — item 109's rule applied at the start, not after |
 | 41 | Fig. 2 · **Who was handed over, 1941–1943** | lex.dk's internment article, itemised | **built instead** |
 | 41 | Fig. 3 · 23 March 1943: the whole electorate as one bar | *Stat. Medd.* 4. R. 120. Bd. 1. H. + lex.dk | **shipped** — same denominator as chapter 40's fig. 3 |
-| 42 | October 1943: to Sweden, to Theresienstadt, and the difference | museum/Yad Vashem figures | needs source |
-| 42 | Sabotage actions by month, 1943–45 | Frihedsmuseet series | needs source |
-| 42 | The People's Strike, five days | schematic | n/a |
+| 42 | Fig. 1 · October 1943: to Sweden, to Theresienstadt, and the difference | Fracapane, transport lists, Yad Vashem 0.64/275; Safe Haven, Riksarkivet | **built** — 472/470 is a nominal count and drawn filled; the Sweden figure is an estimate and drawn open with a whisker |
+| 42 | Fig. 2 · Sabotage by **year**, 1940–45 | Gyldendal og Politikens; totals double-witnessed on danmarkshistorien.lex.dk | **built instead** — no monthly series is reachable (item 109's rule applied at the start). The railway column adds to 1,527 against a published 1,526 and the discrepancy is drawn |
+| 42 | Fig. 3 · The People's Strike, 22 June – 5 July 1944 | schematic on a real day axis | **built** — the disputed curfew date and the disputed return to work are drawn as bands, not ticks |
 | 43 | The retsopgør: charged, convicted, executed | official retsopgør statistics | needs source |
 | 43 | Bornholm: liberated last, occupied longest | schematic | n/a |
 | 43 | Which way to lean, 1945–49 | schematic | n/a |

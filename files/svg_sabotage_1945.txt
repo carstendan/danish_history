@@ -1,0 +1,46 @@
+<svg viewBox="0 0 700 388" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Sabotage actions in Denmark by period. Industrial sabotage: seventy-three in 1940 to 1942 together, 816 in 1943, 988 in 1944 and 924 in the four months of 1945. Railway sabotage: two, 111, 311 and 1,103 over the same periods.">
+  <rect x="0" y="0" width="700" height="388" fill="#F4F1EA"/>
+  <text x="14" y="24" class="mapl">SABOTAGE BY YEAR, 1940 - 1945</text>
+  <text x="14" y="40" class="mapt">industrial and railway actions, as the compilers counted them</text>
+  <text x="14" y="62" class="mapx" opacity=".75">The graph does not rise. It starts - and then the railways overtake.</text>
+  <line x1="58" y1="264.0" x2="674" y2="264.0" stroke="#5F6157" stroke-width=".5" opacity=".45"/>
+  <text x="52" y="268.0" class="mapx" text-anchor="end" opacity=".7">0</text>
+  <line x1="58" y1="225.9" x2="674" y2="225.9" stroke="#5F6157" stroke-width=".5" opacity=".45"/>
+  <text x="52" y="229.9" class="mapx" text-anchor="end" opacity=".7">250</text>
+  <line x1="58" y1="187.8" x2="674" y2="187.8" stroke="#5F6157" stroke-width=".5" opacity=".45"/>
+  <text x="52" y="191.8" class="mapx" text-anchor="end" opacity=".7">500</text>
+  <line x1="58" y1="149.8" x2="674" y2="149.8" stroke="#5F6157" stroke-width=".5" opacity=".45"/>
+  <text x="52" y="153.8" class="mapx" text-anchor="end" opacity=".7">750</text>
+  <line x1="58" y1="111.7" x2="674" y2="111.7" stroke="#5F6157" stroke-width=".5" opacity=".45"/>
+  <text x="52" y="115.7" class="mapx" text-anchor="end" opacity=".7">1,000</text>
+  <rect x="86.8" y="252.9" width="46.2" height="11.1" fill="#8C5A3C" opacity=".88"/>
+  <text x="104.3" y="247.9" class="mapx" style="fill:#8C5A3C">73</text>
+  <rect x="137.0" y="263.7" width="46.2" height="0.3" fill="#2F4C7A" opacity=".88"/>
+  <text x="157.3" y="258.7" class="mapx" style="fill:#2F4C7A">2</text>
+  <text x="106.4" y="284" class="mapt" style="fill:#2A2A28">1940 - 42</text>
+  <rect x="240.8" y="139.7" width="46.2" height="124.3" fill="#8C5A3C" opacity=".88"/>
+  <text x="255.5" y="134.7" class="mapx" style="fill:#8C5A3C">816</text>
+  <rect x="291.0" y="247.1" width="46.2" height="16.9" fill="#2F4C7A" opacity=".88"/>
+  <text x="305.7" y="242.1" class="mapx" style="fill:#2F4C7A">111</text>
+  <text x="276.3" y="284" class="mapt" style="fill:#2A2A28">1943</text>
+  <rect x="394.8" y="113.5" width="46.2" height="150.5" fill="#8C5A3C" opacity=".88"/>
+  <text x="409.5" y="108.5" class="mapx" style="fill:#8C5A3C">988</text>
+  <rect x="445.0" y="216.6" width="46.2" height="47.4" fill="#2F4C7A" opacity=".88"/>
+  <text x="459.7" y="211.6" class="mapx" style="fill:#2F4C7A">311</text>
+  <text x="430.3" y="284" class="mapt" style="fill:#2A2A28">1944</text>
+  <rect x="548.8" y="123.3" width="46.2" height="140.7" fill="#8C5A3C" opacity=".88"/>
+  <text x="563.5" y="118.3" class="mapx" style="fill:#8C5A3C">924</text>
+  <rect x="599.0" y="96.0" width="46.2" height="168.0" fill="#2F4C7A" opacity=".88"/>
+  <text x="608.0" y="91.0" class="mapx" style="fill:#2F4C7A">1,103</text>
+  <text x="581.1" y="284" class="mapt" style="fill:#2A2A28">1945*</text>
+  <line x1="58" y1="264" x2="674" y2="264" stroke="#2A2A28" stroke-width=".9"/>
+  <text x="14.0" y="86" class="mapx" style="fill:#5F6157">railway column adds to 1,527, published total 1,526</text>
+  <rect x="14.0" y="300.0" width="14" height="8" fill="#8C5A3C" opacity=".88"/>
+  <text x="34.0" y="308.0" class="mapx" opacity=".9">industrial sabotage</text>
+  <rect x="163.0" y="300.0" width="14" height="8" fill="#2F4C7A" opacity=".88"/>
+  <text x="183.0" y="308.0" class="mapx" opacity=".9">railway sabotage</text>
+  <text x="14" y="328" class="mapx" opacity=".85">* 1945 is FOUR MONTHS, to the capitulation on 5 May. Read as a year it understates the last winter by a factor of three.</text>
+  <text x="14" y="341" class="mapx" opacity=".85">The industrial column adds to its own published total of 2,801 exactly. The railway column adds to 1,527 against a</text>
+  <text x="14" y="354" class="mapx" opacity=".85">published 1,526, and the missing one is marked rather than averaged away: a series quietly adjusted to its own total is</text>
+  <text x="14" y="367" class="mapx" opacity=".85">worth less than one that has not been.</text>
+  </svg>

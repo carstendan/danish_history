@@ -264,6 +264,46 @@ CFG = {
         "Why did Denmark sign the Anti-Comintern Pact on 25 November 1941, and what did "
         "the government concede about the constitutionality of doing so?"]),
     ]),
+ 42: dict(
+    name='42-rupture-rescue-resistance.html',
+    body='c42_body.html',
+    svgs={'SVG_OKTOBER': 'svg_oktober_1943.txt',
+          'SVG_SABOTAGE': 'svg_sabotage_1945.txt',
+          'SVG_FOLKESTREJKE': 'svg_folkestrejke_1944.txt'},
+    sec=[("s01", "01", 'The strikes of August'),
+         ("s02", "02", '29 August: the fleet'),
+         ("s03", "03", 'The warning'),
+         ("s04", "04", 'Three weeks in October'),
+         ("s05", "05", 'Those who did not get away'),
+         ("s06", "06", 'Danmarks Frihedsråd'),
+         ("s07", "07", 'How the underground was armed'),
+         ("s08", "08", 'Sabotage, and the counter-terror'),
+         ("s09", "09", "The People's Strike, June 1944"),
+         ("s10", "10", 'Shellhus'),
+         ("s11", "11", '4 May 1945 — and Bornholm')],
+    checks=[
+      ("The warning", [
+        "What did the German ultimatum of 28 August 1943 demand, and why did the Danish "
+        "government say it could not comply?",
+        "Christian 10. declined to sign his government's resignation. What did that deny "
+        "the occupier?",
+        "How many ships of the Danish navy were scuttled on 29 August 1943, how many "
+        "reached Sweden, and who gave the order?"]),
+      ("How the underground was armed", [
+        "In his telegram of 8 September 1943, what reason did Werner Best give for acting "
+        "against Denmark's Jews at that moment rather than later?",
+        "How many people were deported from Denmark to Theresienstadt, how many arrived, "
+        "and how many returned?",
+        "What was Danmarks Frihedsråd, who recognised it, and what share of the "
+        "liberation government did it take?"]),
+      ("4 May 1945 — and Bornholm", [
+        "Where did the Danish resistance's weapons come from, and what did delivering "
+        "them cost the air forces that dropped them?",
+        "What was a clearingmord, where does the word come from, and how did the occupier "
+        "make Danish newspapers reinforce it?",
+        "What did the People's Strike of June 1944 obtain, and what did it demonstrate "
+        "that was not among its demands?"]),
+    ]),
 }
 
 def block(qs):

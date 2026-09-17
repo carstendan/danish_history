@@ -1,0 +1,36 @@
+<svg viewBox="0 0 700 417" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="October 1943. Roughly seven thousand four hundred people reached Sweden, an estimate drawn as a band between seven thousand and seven thousand seven hundred and forty-two; four hundred and seventy-two were deported, a nominal count, of whom four hundred and nineteen came home and fifty-three did not.">
+  <rect x="0" y="0" width="700" height="417" fill="#F4F1EA"/>
+  <text x="14" y="24" class="mapl">OCTOBER 1943</text>
+  <text x="14" y="40" class="mapt">to Sweden, to Theresienstadt, and the difference between the two numbers</text>
+  <text x="14" y="62" class="mapx" opacity=".75">An estimate and a count, drawn differently on purpose.</text>
+  <text x="14" y="122" class="mapt" style="fill:#2A2A28">crossed or taken</text>
+  <rect x="120" y="104" width="520.8" height="26" fill="none" stroke="#2E6B5E" stroke-width="1.1"/>
+  <rect x="640.8" y="104" width="33.2" height="26" fill="#9A3B2E"/>
+  <line x1="612.6" y1="141.0" x2="664.9" y2="141.0" stroke="#2E6B5E" stroke-width="1.1" opacity=".8"/>
+  <line x1="612.6" y1="137.0" x2="612.6" y2="145.0" stroke="#2E6B5E" stroke-width="1.1" opacity=".8"/>
+  <line x1="664.9" y1="137.0" x2="664.9" y2="145.0" stroke="#2E6B5E" stroke-width="1.1" opacity=".8"/>
+  <circle cx="640.8" cy="141.0" r="2.6" fill="#2E6B5E"/>
+  <text x="273.4" y="161.0" class="mapx" style="fill:#2E6B5E">reached Sweden - estimate, about 7,400</text>
+  <text x="600.8" y="161.0" class="mapx" style="fill:#9A3B2E">deported: 472</text>
+  <text x="460.8" y="175.0" class="mapx" style="fill:#2E6B5E" opacity=".8">the range in circulation: 7,000 to 7,742</text>
+  <text x="14" y="252" class="mapt" style="fill:#2A2A28">the 472</text>
+  <text x="14" y="266" class="mapx" opacity=".75">x17 scale</text>
+  <rect x="120.0" y="234" width="491.8" height="26" fill="#2E6B5E" opacity=".85"/>
+  <line x1="611.8" y1="234" x2="611.8" y2="260" stroke="#F4F1EA" stroke-width=".8"/>
+  <rect x="611.8" y="234" width="59.9" height="26" fill="#9A3B2E" opacity=".9"/>
+  <line x1="671.7" y1="234" x2="671.7" y2="260" stroke="#F4F1EA" stroke-width=".8"/>
+  <rect x="671.7" y="234" width="2.3" height="26" fill="#2A2A28" opacity=".9"/>
+  <rect x="14.0" y="290.0" width="14" height="8" fill="#2E6B5E" opacity=".85"/>
+  <text x="34.0" y="298.0" class="mapx" opacity=".9">came home: 419</text>
+  <rect x="134.8" y="290.0" width="14" height="8" fill="#9A3B2E" opacity=".9"/>
+  <text x="154.8" y="298.0" class="mapx" opacity=".9">died at Theresienstadt: 51</text>
+  <rect x="323.2" y="290.0" width="14" height="8" fill="#2A2A28" opacity=".9"/>
+  <text x="343.2" y="298.0" class="mapx" opacity=".9">died after transfer: 2</text>
+  <text x="14" y="318" class="mapx" opacity=".85">The two bars are not the same kind of number. The 472 is a nominal count, built by Fracapane from the transport</text>
+  <text x="14" y="331" class="mapx" opacity=".85">registration lists, and it is drawn filled. The crossing to Sweden is an estimate and is drawn open: every account says</text>
+  <text x="14" y="344" class="mapx" opacity=".85">about 7,000, the only figure attached to a named archive is roughly 7,400 from the Danish Jewish Museum's Safe Haven</text>
+  <text x="14" y="357" class="mapx" opacity=".85">database of Swedish arrival reports, and the 7,742 in circulation is an addition performed on two separate statements.</text>
+  <text x="14" y="370" class="mapx" opacity=".85">More than 1,000 of those registering in Sweden gave their religion as Protestant, Lutheran or Christian. At least 104</text>
+  <text x="14" y="383" class="mapx" opacity=".85">people died getting out or failing to, and they are in neither bar. Note what the whisker shows: the spread on the</text>
+  <text x="14" y="396" class="mapx" opacity=".85">Sweden figure is 742 people, which is wider than the entire deported count of 472.</text>
+  </svg>
