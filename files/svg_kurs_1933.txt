@@ -1,0 +1,36 @@
+<svg viewBox="0 0 700 237" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Kroner to the pound sterling in January 1933. Before the Kanslergade agreement the rate stood between about 19.20 and 20 kroner; the agreement set it at 22.50; the farmers had asked for 25.">
+  <rect x="0" y="0" width="700" height="237" fill="#F4F1EA"/>
+  <text x="14" y="24" class="mapl">THE POUND IN KRONER, JANUARY 1933</text>
+  <text x="14" y="40" class="mapt">what the negotiation was actually arguing about</text>
+  <text x="14" y="62" class="mapx" opacity=".75">Two accounts differ on the rate before, so it is drawn as a band and not a point.</text>
+  <line x1="60" y1="132" x2="660" y2="132" stroke="#5F6157" stroke-width=".8"/>
+  <line x1="60.0" y1="132" x2="60.0" y2="137" stroke="#5F6157" stroke-width=".6"/>
+  <text x="60.0" y="150" class="mapx" text-anchor="middle" opacity=".8">18</text>
+  <line x1="135.0" y1="132" x2="135.0" y2="137" stroke="#5F6157" stroke-width=".6"/>
+  <text x="135.0" y="150" class="mapx" text-anchor="middle" opacity=".8">19</text>
+  <line x1="210.0" y1="132" x2="210.0" y2="137" stroke="#5F6157" stroke-width=".6"/>
+  <text x="210.0" y="150" class="mapx" text-anchor="middle" opacity=".8">20</text>
+  <line x1="285.0" y1="132" x2="285.0" y2="137" stroke="#5F6157" stroke-width=".6"/>
+  <text x="285.0" y="150" class="mapx" text-anchor="middle" opacity=".8">21</text>
+  <line x1="360.0" y1="132" x2="360.0" y2="137" stroke="#5F6157" stroke-width=".6"/>
+  <text x="360.0" y="150" class="mapx" text-anchor="middle" opacity=".8">22</text>
+  <line x1="435.0" y1="132" x2="435.0" y2="137" stroke="#5F6157" stroke-width=".6"/>
+  <text x="435.0" y="150" class="mapx" text-anchor="middle" opacity=".8">23</text>
+  <line x1="510.0" y1="132" x2="510.0" y2="137" stroke="#5F6157" stroke-width=".6"/>
+  <text x="510.0" y="150" class="mapx" text-anchor="middle" opacity=".8">24</text>
+  <line x1="585.0" y1="132" x2="585.0" y2="137" stroke="#5F6157" stroke-width=".6"/>
+  <text x="585.0" y="150" class="mapx" text-anchor="middle" opacity=".8">25</text>
+  <line x1="660.0" y1="132" x2="660.0" y2="137" stroke="#5F6157" stroke-width=".6"/>
+  <text x="660.0" y="150" class="mapx" text-anchor="middle" opacity=".8">26</text>
+  <text x="660" y="166" class="mapx" text-anchor="end" opacity=".8">kroner to £1</text>
+  <rect x="150.0" y="106" width="60.0" height="26" fill="#2F4C7A" opacity=".30"/>
+  <line x1="157.5" y1="106" x2="157.5" y2="132" stroke="#2F4C7A" stroke-width="1.6"/>
+  <line x1="397.5" y1="92" x2="397.5" y2="132" stroke="#9A3B2E" stroke-width="2.4"/>
+  <line x1="585.0" y1="98" x2="585.0" y2="132" stroke="#8C5A3C" stroke-width="1.4" stroke-dasharray="3 3"/>
+  <text x="157.5" y="98" class="mapt" text-anchor="start" style="fill:#2F4C7A">before: 19.20 – 20.00</text>
+  <text x="397.5" y="84" class="mapt" text-anchor="middle" style="fill:#9A3B2E">agreed 30 Jan: 22.50</text>
+  <text x="585.0" y="90" class="mapt" text-anchor="end" style="fill:#8C5A3C">the farms asked 25</text>
+  <text x="14" y="190" class="mapx">How big a devaluation that is depends on which currency you put underneath. Measured as the krone's fall it is 11.1 to</text>
+  <text x="14" y="203" class="mapx">14.7 per cent; measured as sterling's rise it is 12.5 to 17.2. The encyclopedias say ten per cent and Nissen says twelve</text>
+  <text x="14" y="216" class="mapx">to thirteen, and neither matches the rates all of them print. The figure gives the rates.</text>
+  </svg>

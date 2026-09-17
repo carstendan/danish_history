@@ -1,0 +1,20 @@
+<svg viewBox="0 0 700 310" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The Danish constitutional referendum of 23 May 1939 as shares of the whole electorate. Yes 44.5 per cent, no 3.9 per cent, and 51.6 per cent did not vote. The constitution required the yes votes to reach 45 per cent of the whole electorate, and they did not.">
+  <rect x="0" y="0" width="700" height="310" fill="#F4F1EA"/>
+  <text x="14" y="24" class="mapl">23 MAY 1939: THE RULE THAT COUNTED SILENCE</text>
+  <text x="14" y="40" class="mapt">the whole electorate as one bar, not the votes cast</text>
+  <text x="14" y="62" class="mapx" opacity=".75">Of those who voted, 91.85 per cent said yes. This is the other denominator.</text>
+  <rect x="14" y="118" width="299.0" height="54" fill="#2E6B5E"/>
+  <rect x="313.0" y="118" width="26.2" height="54" fill="#9A3B2E"/>
+  <rect x="339.2" y="118" width="346.8" height="54" fill="none" stroke="#5F6157" stroke-width=".8" opacity=".55"/>
+  <line x1="316.4" y1="92" x2="316.4" y2="184" stroke="#2A2A28" stroke-width="2" stroke-dasharray="5 3"/>
+  <text x="324.4" y="104" class="mapt">the rule: 45 per cent of the electorate</text>
+  <text x="20.0" y="150" class="mapt" style="fill:#F4F1EA">YES 44.5%</text>
+  <text x="345.2" y="150" class="mapt" style="fill:#2A2A28">DID NOT VOTE YES OR NO 51.6%</text>
+  <text x="326.1" y="198" class="mapx" text-anchor="middle">NO 3.9%</text>
+  <text x="14" y="224" class="mapx">Section 93 of the constitution of 1915 required both a majority of those voting and yes votes amounting to at least 45</text>
+  <text x="14" y="237" class="mapx">per cent of everyone entitled to vote, which counts a voter who stays at home as a voter who has said no. The open</text>
+  <text x="14" y="250" class="mapx">segment is everyone who did not vote yes or no: about 51.1 per cent of the electorate stayed away and about 0.5 per cent</text>
+  <text x="14" y="263" class="mapx">voted and spoiled the ballot. Seven weeks earlier the same electorate had turned out at 79.2 per cent to elect a</text>
+  <text x="14" y="276" class="mapx">Folketing. Shares of the electorate from the Interior Ministry's referendum tables and from lex.dk, which agree; the</text>
+  <text x="14" y="289" class="mapx">threshold from the constitution.</text>
+  </svg>
