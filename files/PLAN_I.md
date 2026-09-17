@@ -166,6 +166,16 @@ does when cooperation stops being possible — and because the part has already
 grown by one. **If its first draft runs over 8,400 page words the decision
 reopens; nothing else reopens it.**
 
+**THE TRIGGER FIRED AND THE ANSWER IS NOT A SPLIT OF 42.** Built at **11,608 page
+words and 55 minutes**, read off `bookstats.py` after `linkindex.py`; narrative
+6,688 at 0L/1M/8H with two sections over the band ceiling, after two tightening
+passes that recovered 1,058 words and then 64. The apparatus was measured first
+per item 118 and cleared — the Sources block came in at the Part I norm — so the
+length is subjects, not tail. **Deferred to a boundary pass over the whole
+1943–1955 run once §§11–12 are drafted, rather than a split decided with only one
+side of the seam written: HANDOFF item 128.** §10's eleven sections and §§11–12's
+section lists are all provisional until that pass.
+
 **2.8 Chapter 44 gets a wider budget.** It carries the part coda *and* the ending
 of the book. Planned at 3L/5M/2H — one notch light on narrative — so that a coda
 of up to ~700 words still lands it at 38 minutes rather than 41.
@@ -544,6 +554,19 @@ faster. It was arithmetic, not conversion, and the chapter says so.
 | 10 | 4 May 1945 — and Bornholm | light |
 
 **3L / 4M / 3H → 7,839 → 37 minutes.** Flagged dense; see decision 2.7.
+
+**BUILT, AND THE PLAN'S TEN SECTIONS DID NOT HOLD.** Shipped at **eleven sections,
+11,608 page words, 55 minutes**, 6,688 narrative at 0L/1M/8H. Two subjects had no
+home anywhere in this plan and were found by item 116's test: **§07 *How the
+underground was armed*** is new — SOE, the drops, Hvidsten, the waiting groups,
+none of which chapter 41 carries and all of which chapter 43 needs — and **§06
+*Danmarks Frihedsråd* was promoted from light**, a council that took nine of the
+eighteen seats in the liberation government being more than a 250-word section.
+**A third hole was found at drafting and is still open: the deportation of the
+Danish police on 19 September 1944**, which no section in §10 or §11 carries and
+which the *retsopsør* cannot be told without. Bornholm's 7–8 May is settled into
+this chapter and 43’s `[n]` at Rønne is moot — HANDOFF item 123. The section list
+here is provisional pending the boundary pass, HANDOFF item 128.
 
 **§05 exists so that §04 cannot be told as a triumph.** Around four hundred and
 seventy people were deported to Theresienstadt; most survived and some did not,

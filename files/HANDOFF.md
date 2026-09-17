@@ -36,17 +36,19 @@ written — see Lessons.
 | F | 21–24 | 1536–1660 | **built, reviewed, revised, closed; online** |
 | G | 25–31 | 1660–1814 | **built, reviewed, revised; all seven round-trip clean** |
 | H | 32–36 | 1814–1901 | **built, verified, indexed, closed — see `PLAN_H.md`** |
-| I | 37–44 | 1901–1955 | **in progress — see `PLAN_I.md`**; 37–41 built, verified and indexed; **42 built and measured at 11,608 page words / 55 min, which trips decision 2.7 — see item 125, awaiting Carsten on the split**; 43–44 to draft |
+| I | 37–44 | 1901–1955 | **in progress — see `PLAN_I.md`**; 37–41 built, verified and indexed; **42 built at 11,608 page words / 55 min, which trips decision 2.7; the partition is deferred to the Part I boundary pass — item 128**; 43–44 to draft |
 
 **Book, after chapter 42: 42 of 44, 311,351 page words, 24.7 h; 2 remaining.**
 Read off `bookstats.py` after `linkindex.py`, not carried forward — see item 112.
 The previous figure, 41 of 44 at 299,743 and 23.8 h, was confirmed on a fresh
 clone at the start of this session.
 
-**The 42 in that count is provisional.** It is one chapter of 11,608 page words
-and 55 minutes, and if decision 2.7 resolves in favour of splitting it the count
-becomes 43 of 45 and the total does not change materially — the words are
-written either way. Do not re-plan against 311,351 until the split is settled.
+**The 42 in that count is provisional, and so is every chapter number above it.**
+Chapter 42 is one chapter of 11,608 page words and 55 minutes, and Part I's
+internal boundaries from 1943 onward are to be redrawn once the part is drafted
+— item 128. The word total barely moves whatever the partition, because the words
+are written either way; the chapter COUNT does. **Do not re-plan against a
+44-chapter spine, and do not carry 311,351 forward by addition** — item 112.
 
 Part I as built:
 
@@ -1398,6 +1400,16 @@ reused.
 Spine changes made with it: 38 takes Iceland's Act of Union from 37's key list, where
 it sat two years outside its own span; 41's span opens in 1939 so the phoney-war
 winter has a home and no hole is left; 39 is new; 40–44 are the old 39–43.
+
+**REOPENED FOR PART I'S INTERNAL BOUNDARIES, Sept 2026 — see item 128.** D-10's
+reasoning stands and its method is the point: the 1917–1929 hole was found by
+looking at what the spine actually contained, not at what the plan said it
+contained. The same test applied to 1943–1955 says the boundaries there were also
+drawn before the research — chapter 42 built at 55 minutes against a 40-minute
+advisory, and the plan's section list has been wrong in every chapter of the part
+since 39. **The book's ending at 1953 is not reopened. The number of chapters
+between August 1943 and 1953 is**, and it is settled once the part is drafted
+rather than one chapter at a time.
 
 ---
 
@@ -3006,15 +3018,14 @@ split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see it
    recover by tightening and the profile says so — **0L/1M/8H with two sections
    still over the band ceiling**, after two passes.
 
-   **Referred to Carsten with the arithmetic and a costed split**, because the
-   split changes the spine from 44 chapters to 45 and that is D-10's territory,
-   not a drafting decision. The renumbering was costed rather than guessed:
-   **twelve forward arrows and seven prose cross-references across shipped
-   chapters 37–41**, all in pages that rebuild through `mkbody.py`, plus
-   `TOTAL_PLANNED` and the part ranges in `bookstats.py`, the spine in
-   `index_generator.py`, and PLAN_I §11 and §12. The proposed seam is between
-   "Those who did not get away" and "Danmarks Frihedsråd": rupture and rescue in
-   one chapter, the underground and the liberation in the other.
+   **DECIDED: the chapter is not split now, and the question is not "split 42".**
+   Carsten's call, and it reframes the problem correctly. The seam proposed here
+   — between "Those who did not get away" and "Danmarks Frihedsråd" — was chosen
+   with only one side of it drafted, and the material on the far side is chapter
+   43's, which does not exist yet. **The partition is deferred to a boundary pass
+   over the whole 1943–1955 run, once the rest of Part I is drafted: see item
+   128.** Chapter 42 stands at eleven sections and 55 minutes in the meantime,
+   deliberately and on the record.
 
 126. **`figs_42.py` is built and the raster found three faults that every guard
    passed. Fourth chapter running.** `validate`, `overruns` and `collisions` were
@@ -3105,6 +3116,96 @@ split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see it
    needs the same treatment as a section title. The cheap check is the one that
    found it — compare every generated heading against the thing it claims to
    describe, once, per part.
+
+128. **OPEN, AND THE LARGEST THING IN THE PART: the Part I boundary pass.**
+   Carsten's decision, taken after chapter 42 was built and measured. It is not
+   "split chapter 42". **It is to draft the rest of Part I and then partition the
+   whole 1943–1955 run at the seams the material actually has**, rather than at
+   the seams PLAN_I drew before the research existed.
+
+   **Why it is the right shape.** PLAN_I's section lists have been wrong in every
+   chapter of Part I since 39 — 40 was missing the parliamentary arithmetic, 41
+   the loss of the North Atlantic, 42 both the arming and the Freedom Council's
+   weight, and 42 found a third hole at drafting (the police, item 124). The
+   chapter boundaries were drawn by the same hand, at the same time, on the same
+   information, and there is no reason to trust them further than the section
+   lists have earned. Splitting 42 on its own would fix the line between "the
+   underground and the liberation" and "the reckoning" **before anyone has seen
+   what is on the far side of it** — and those two bodies of material are
+   adjacent, not separate. The Freedom Council, the counter-terror and the
+   liberation sit directly against the *retsopgør*, Bornholm under the Soviets and
+   the choice of a side. While it is all one pool, material moves freely; once it
+   is two chapters with two apparatus sets, it does not.
+
+   **What the pass must do, in order.**
+   1. Draft the remaining material to the end of the part, against chapter 42's
+      *content* rather than its numbering — the content is the same whatever the
+      partition, so nothing here is blocked.
+   2. Then partition the run 1943–1955 on the material's own seams, deciding
+      Part I's chapter count once, with every chapter drafted and on the page.
+   3. Then renumber once, fix every cross-reference once, rebuild once.
+
+   **It must happen BEFORE the book-wide consistency review, not inside it.** A
+   renumber during a consistency review invalidates the review.
+
+   **What it will cost, costed rather than guessed.** Renumbering above 42 touches
+   **twelve forward arrows and seven prose cross-references across shipped
+   chapters 37–41** — all in drafts whose pages rebuild through `mkbody.py` —
+   plus `TOTAL_PLANNED` and the part ranges in `bookstats.py`, the spine and the
+   blurbs in `index_generator.py`, and PLAN_I §§10–12. Chapters 25–32 cannot be
+   rebuilt while item 102's guard stands, so **nothing above 32 may be made to
+   depend on rebuilding anything below 33.**
+
+   **This is a large mechanical edit, which is where this project's failures
+   cluster** — item 101 damaged a draft twice by pattern-matching without
+   reading, item 112 carried a wrong total through four sessions, and a scripted
+   edit deleted 408 lines of `mkbody.py` while a grep and a closing-brace check
+   both passed. The pass wants a fresh clone, an assertion on every replacement,
+   a whitespace-normalised confirmation, and the whole diff read by eye before
+   anything is pushed.
+
+   **What the partition will owe, whatever it decides.** Recorded now so it is
+   specified rather than rediscovered:
+
+   - **D-9.** Every chapter carries at least one `[f]` and one `[n]`. The 1943–45
+     material currently holds exactly three vignettes — Duckwitz `[-]`, Ellen
+     Wilhelmine Nielsen `[f]` and Kim Malthe-Bruun `[n]` — so **any partition of
+     it into two chapters needs three more subjects**: an `[n]` for the
+     rupture-and-rescue half, and an `[f]` and a `[-]` for the other. **Kaj Munk
+     is the `[-]` and needs no research** — he is already in chapter 42 §08's
+     prose, taken from Vedersø on 4 January 1944 and found at Hørbylunde the next
+     morning, and he is the one elite subject in the part whose death is the
+     chapter's hinge. The other two are open. Note that PLAN_I §4's 43`[n]`, the
+     unnamed subject at Rønne on 7–8 May, is already moot under item 123.
+   - **Figures, three a chapter.** The 1943–45 material currently holds three:
+     October 1943, sabotage by year, and the People's Strike. **A partition into
+     two chapters needs three more.** Candidates identified and not yet built:
+     **August 1943 as a day axis** (Odense 30 July, Esbjerg 10–11, Odense 18–23,
+     Aalborg 23–29, the ultimatum on the 28th, the 29th), which the day-axis code
+     in `figs_42.py` already supports; **the fleet on 29 August** (52 vessels: 32
+     scuttled, 13 to Sweden, 14 taken — and the arithmetic wants checking, because
+     those three do not sum to 52); and **Bornholm** (Rønne 3,200 properties with
+     212 destroyed and 2,900 damaged, Nexø 959 with 175 and 856 — against ten
+     dead, nine of them on the first day and none on the second, which is the
+     evacuation made visible).
+
+   **A TRAP THIS LEAVES ARMED, and it caught me the same session.**
+   `build_part_i.py` **exits 1 while any chapter is outside the band**, and
+   chapter 42 is and will stay outside it until this pass runs. So the standard
+   chain `python3 build_part_i.py && python3 linkindex.py` **short-circuits, and
+   `linkindex.py` never runs** — leaving every page in the part rebuilt without
+   its index links, six words short each. Six pages, thirty-six words, and
+   `bookstats.py` reads 311,315 instead of 311,351, which looks exactly like a
+   real change to the prose. It is not. **Run `linkindex.py` unconditionally, on
+   its own line, and check `git status` afterwards**, until the band is clear
+   again.
+
+   **Until the pass runs, chapter 42 is live at 11,608 page words and 55
+   minutes** — fifteen over decision 2.1's advisory and fourteen over the
+   longest other chapter in the book. That is a real defect on a real page and it
+   is being carried deliberately, not overlooked. **It is not to go quiet.**
+   Carrying a known defect silently is how the 89-word error of item 112 survived
+   four sessions.
 
 ---
 
