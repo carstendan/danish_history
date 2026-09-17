@@ -58,8 +58,17 @@ def fealty():
 
     # the man in the middle
     o.append('<rect x="330" y="140" width="240" height="62" fill="%s" fill-opacity=".92"/>' % PART_E)
-    o.append(t(450, 168, "CHRISTIAN 1.", "mapl", M.PAPER, "middle"))
-    o.append(t(450, 186, "one man, three hats", "mapx", M.PAPER, "middle"))
+    # The two labels in the middle box named the figure's subject and were
+    # rendering 2.07:1 on it. Emitted directly rather than through t(), because
+    # t() emits fill= for every label in this file and the rest of them are the
+    # cosmetic case that item 110's own session is for - this fixes the
+    # legibility failure and nothing else.
+    _c, _r = M.text_on(PART_E, .92)
+    assert _r >= 4.5, (_c, _r)
+    o.append('<text x="450" y="168" class="mapl" style="fill:%s" '
+             'text-anchor="middle">CHRISTIAN 1.</text>' % _c)
+    o.append('<text x="450" y="186" class="mapx" style="fill:%s" '
+             'text-anchor="middle">one man, three hats</text>' % _c)
 
     for x1, y1, x2, y2 in [(210, 128, 400, 140), (690, 128, 500, 140),
                            (400, 202, 210, 226), (500, 202, 690, 226)]:

@@ -135,8 +135,14 @@ def franchises():
                                    LANDSTING_RULES)):
         o.append('<rect x="%d" y="66" width="%d" height="30" fill="%s" opacity="%s"/>'
                  % (x, colw, SLATE if x == x1 else EARTH, ".8"))
-        o.append('<text x="%d" y="86" class="mapl" fill="%s">%s</text>'
-                 % (x + 12, PAPER, name))
+        # D-11 plus a computed colour: see mapspine.text_on. The slate header
+        # reaches only 4.05:1 with any ink in the palette once its .8 opacity is
+        # composited, and that residue is recorded rather than hidden.
+        _g = SLATE if x == x1 else EARTH
+        _c, _r = M.text_on(_g, .8)
+        assert _r >= 4.0, (_c, _r)
+        o.append('<text x="%d" y="86" class="mapl" style="fill:%s">%s</text>'
+                 % (x + 12, _c, name))
         o.append('<text x="%d" y="114" class="mapx">%s</text>' % (x, esc(party)))
         yy = 138
         for r in rules:
@@ -249,8 +255,10 @@ def deadlock():
                  'stroke-width="1"/>' % (cx, top, w, boxh, tone))
         o.append('<rect x="%d" y="%d" width="%d" height="24" fill="%s" opacity=".8"/>'
                  % (cx, top, w, tone))
-        o.append('<text x="%d" y="%d" class="mapl" fill="%s">%s</text>'
-                 % (cx + 10, top + 17, PAPER, name))
+        _c, _r = M.text_on(tone, .8)          # computed; see mapspine.text_on
+        assert _r >= 4.0, (_c, _r)
+        o.append('<text x="%d" y="%d" class="mapl" style="fill:%s">%s</text>'
+                 % (cx + 10, top + 17, _c, name))
         yy = top + 44
         o.append('<text x="%d" y="%d" class="mapx">%s</text>' % (cx + 10, yy, verb))
         yy += 18

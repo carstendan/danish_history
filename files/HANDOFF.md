@@ -2616,6 +2616,14 @@ split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see it
    on `.mapl`: near-white text that is almost certainly sitting on a dark shape
    and is now rendering `#3C3E36` dark on dark. Those should be looked at first.
 
+   **CORRECTED AND CLOSED, item 129.** They were looked at. The count is
+   **thirty-five** figures and not thirty-three; there is a **fifth** near-white
+   figure, `svg_fealty`; only **twenty** of the 334 affected text elements are
+   legibility failures; the repair is **separable from CHAR_W**; and honouring the
+   requested colours would have **fixed eleven and broken nine**, because the
+   grounds are drawn at opacity and nobody had composited them. All five are
+   fixed. The thirty remaining are cosmetic.
+
 111. **Chapter 40 is shipped.** 11 sections, 3 vignettes, 2 Meanwhile, 3 figures,
    9 glossary blocks, 3 checkpoints, 5 summary items, 12 questions.
    **8,358 page words and 40 minutes** on `bookstats.py` after linking
@@ -3206,6 +3214,91 @@ split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see it
    is being carried deliberately, not overlooked. **It is not to go quiet.**
    Carrying a known defect silently is how the 89-word error of item 112 survived
    four sessions.
+
+129. **The `fill=` figures are fixed, and the thing item 110 assumed about them
+   was wrong in the direction that mattered.** Item 110 said the four worst
+   figures "each ask for `#F0F2EE` on `.mapl`: near-white text that is almost
+   certainly sitting on a dark shape and is now rendering `#3C3E36` dark on
+   dark. Those should be looked at first." They were. The diagnosis was right and
+   the implied remedy was not.
+
+   **First, the population is bigger than recorded.** **Thirty-five** figures
+   carry `fill=` on classed text, not thirty-three, across **334 text elements**.
+   And there are **five** near-white figures, not four: item 110's list misses
+   **`svg_fealty`**, in chapter 19, where the two labels in the centre box name
+   the figure's subject.
+
+   **Second, only twenty of the 334 are legibility failures**, and the triage is
+   clean: a requested colour with luminance above 0.5 was meant for a dark ground
+   and is a failure; everything below it is a dark colour rendering as a slightly
+   different dark on a light ground, which is a tint shift and not a readability
+   problem. Every one of the twenty is a `#F0F2EE` request. **That bounds item
+   110's session to five figures, not thirty-five.**
+
+   **Third, the colour repair is separable from CHAR_W and item 110 bundled two
+   independent things.** Colour does not affect text wrapping; `CHAR_W` does.
+   Nothing about correcting a fill requires re-wrapping a line.
+
+   **Fourth, the stated blocker is weaker than believed.** Four of the five
+   generators reproduce their shipped figure **byte-identically** today. The
+   fifth, `fig_crowns.py`, differs in **two coordinates that print `-0.0` where
+   the shipped file has `0.0`** — signed zero, geometrically identical. `cmp -l`
+   called that **75,047 differing bytes**, because a two-byte length shift early
+   in a 173 KB file cascades through every offset after it. **A byte count is not
+   a change count**, and the two-minute check that settles it is to compare
+   element counts, text content and path tokens rather than bytes.
+
+   **Fifth, and this is the finding: honouring the requested colour would have
+   fixed eleven labels and made nine worse.** Figure grounds are drawn at
+   opacity — `.75`, `.8`, `.9`, `.92` — so the colour a label actually sits on is
+   the fill **composited over what is under it**. A slate rect at `.75` over
+   paper is `#778890`, not `#4F6470`, and near-white on that is **3.27:1**, under
+   the floor. The original colours were chosen by eye against the raw constant
+   and nothing in the project had ever computed the composite. Measured:
+
+   ```
+   ground (composited)     near-white   #221E18   chosen
+   crowns    #3B7467          4.80         3.06    near-white  (was 2.01)
+   fealty    #3E766A          4.66         3.16    near-white  (was 2.07)
+   andel 1-3 #778890          3.27         4.51    #221E18
+   andel 4   #B0966D          2.51         5.86    #221E18
+   slate hdr #6F8089          3.64         4.05    #221E18  <- best available
+   brown hdr #9E927B          2.72         5.41    #221E18
+   tan hdr   #B7A07C          2.24         6.58    #221E18
+   ```
+
+   **`.mapl` is 10.5px at weight 600, which is NOT WCAG large text** (that needs
+   18.66px bold), so the threshold throughout is **4.5:1** and not 3:1.
+
+   **Fixed, and the choice is computed rather than typed.** `mapspine` gains
+   `luminance`, `contrast`, `composite` and `text_on(fill, opacity, under)`, which
+   returns the better of paper and the palette's darkest ink against the
+   composited ground, with its ratio. `figs_35.py`, `figs_36.py`, `fig_crowns.py`
+   and `figs_18.py` now call it and assert on the result. **D-11 gains a
+   companion: D-11 fixes the mechanism, `text_on` picks the colour, and neither
+   is sufficient alone.**
+
+   **Rebuilt: chapters 16, 19, 35 and 36.** The diff is **twenty label colours
+   and two signed zeros** and nothing else. Book total unchanged at 311,351;
+   debuild 11 style-only and 31 identical; figcheck 81/41/0; vignettes 81;
+   draftnotes still 33 on 25–32.
+
+   **Residue, recorded not hidden.** The two slate headers — `THE FOLKETING` and
+   `FOLKETINGET` — reach **4.05:1**, the best any ink in the palette can do on
+   `#6F8089`. Closing that last gap needs either pure black, which is outside the
+   book's ink palette, or drawing the header rect at full opacity, which changes
+   its visual weight. **Both are design calls and neither is a defect fix**, so
+   they are left for Carsten. Everything else is at or above 4.5:1.
+
+   **Also still open, and cheap:** `fig_crowns.py` reports `'1' over
+   'Lindholmen'`, a seven-unit collision, on every run. It is pre-existing, it is
+   not a colour fault, and it wants item 76's treatment — place the label by
+   search against the other boxes, not by adjusting an offset by eye.
+
+   **The remaining thirty figures** still carry `fill=` on classed text and are
+   still cosmetically wrong in the way D-11 describes. None of them is a
+   legibility failure, so they can wait for the CHAR_W session — which is now the
+   only thing that session has to do.
 
 ---
 

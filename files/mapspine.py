@@ -256,6 +256,60 @@ def validate(svg, name):
 CHAR_W = {'mapl': 6.98, 'mapt': 5.68, 'mapx': 5.63}
 CHAR_H = {'mapl': 10.5, 'mapt': 9.5, 'mapx': 8.5}
 DEFAULT_W, DEFAULT_H = 6.3, 9.5
+# --------------------------------------------------------------- contrast
+# Convention D-11 says a figure sets text colour with style=, never fill=,
+# because a stylesheet rule beats a presentation attribute and .mapt/.mapl/.mapx
+# all carry one. D-11 fixes the MECHANISM. It does not say WHICH colour, and the
+# chapter 42 session found that the difference matters: of the twenty near-white
+# labels that the dead fill= attribute was suppressing, honouring the request
+# would have FIXED eleven and MADE NINE WORSE.
+#
+# The reason is that figure grounds are drawn at opacity, so the colour a label
+# actually sits on is the fill composited over what is under it - a slate rect at
+# .75 over paper is #778890, not #4F6470 - and near-white on that is 3.27:1,
+# under the floor. Nothing in the project computed that; the colours were chosen
+# by eye against the raw constant.
+#
+# 10.5px at weight 600 is NOT WCAG large text (that needs 18.66px bold), so the
+# threshold here is 4.5:1 and not 3:1.
+INK_DARK = "#221E18"       # the darkest ink already in the palette
+
+
+def _srgb(h):
+    c = [int(h[i:i + 2], 16) / 255.0 for i in (1, 3, 5)]
+    return [x / 12.92 if x <= 0.03928 else ((x + 0.055) / 1.055) ** 2.4 for x in c]
+
+
+def luminance(h):
+    r, g, b = _srgb(h)
+    return 0.2126 * r + 0.7152 * g + 0.0722 * b
+
+
+def contrast(a, b):
+    """WCAG contrast ratio between two #rrggbb colours."""
+    la, lb = luminance(a), luminance(b)
+    return (max(la, lb) + 0.05) / (min(la, lb) + 0.05)
+
+
+def composite(fill, opacity=1.0, under=PAPER):
+    """The colour a label actually sits on: fill drawn at opacity over `under`."""
+    f = [int(fill[i:i + 2], 16) for i in (1, 3, 5)]
+    u = [int(under[i:i + 2], 16) for i in (1, 3, 5)]
+    return "#%02X%02X%02X" % tuple(
+        int(round(opacity * f[i] + (1 - opacity) * u[i])) for i in range(3))
+
+
+def text_on(fill, opacity=1.0, under=PAPER, floor=4.5):
+    """Pick the label colour with the better contrast against a composited ground.
+
+    Returns (colour, ratio). The caller decides what to do when the ratio is
+    under `floor` - this does not silently pick an unreadable colour, and it does
+    not assert, because two shipped grounds cannot reach 4.5 with any ink in the
+    palette and refusing to draw them is not the answer.
+    """
+    bg = composite(fill, opacity, under)
+    best = max((contrast(c, bg), c) for c in (PAPER, INK_DARK))
+    return best[1], best[0]
 
 TEXT_RE = re.compile(r'<text x="([\d.-]+)" y="([\d.-]+)"[^>]*?'
                      r'(?:class="([a-z]+)")?[^>]*>([^<]*)</text>')

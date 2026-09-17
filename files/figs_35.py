@@ -304,8 +304,14 @@ def andel():
     for i, (title, what, why) in enumerate(RULES):
         o.append('<rect x="26" y="%d" width="26" height="26" fill="%s" opacity="%s"/>'
                  % (y - 18, WARM if i == 3 else SLATE, ".9" if i == 3 else ".75"))
-        o.append('<text x="39" y="%d" class="mapl" text-anchor="middle" fill="%s">%d</text>'
-                 % (y, PAPER, i + 1))
+        # D-11: style=, not fill=. And the COLOUR is computed, not requested:
+        # near-white on these grounds composites to 3.27:1 and 2.51:1, both under
+        # the floor, so honouring the old fill= would have made this figure worse
+        # rather than better. See mapspine.text_on.
+        _c, _r = M.text_on(WARM if i == 3 else SLATE, .9 if i == 3 else .75)
+        assert _r >= 4.5, (_c, _r)
+        o.append('<text x="39" y="%d" class="mapl" text-anchor="middle" '
+                 'style="fill:%s">%d</text>' % (y, _c, i + 1))
         o.append('<text x="68" y="%d" class="mapl">%s</text>' % (y - 6, esc(title)))
         yy = y + 10
         for line in _fold(what, 74):

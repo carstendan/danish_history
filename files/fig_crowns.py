@@ -70,9 +70,15 @@ def build():
     for n, lon, lat, name, anchor, ddx, ddy, _ in STOPS:
         x, y = f.xy(lon, lat)
         dx = (9 if anchor == "start" else -9) + ddx
+        # These nine numerals are the map's keys to its nine-entry legend, and
+        # the dead fill= attribute was painting them #3C3E36 on #3B7467 - 2.01:1,
+        # which is why the figure did not work. Composited, near-white is 4.80:1.
+        _c, _r = M.text_on(M.CORE, .92, M.LAND)
+        assert _r >= 4.5, (_c, _r)
         out.append('<circle cx="%.1f" cy="%.1f" r="7.2" fill="%s" fill-opacity=".92"/>'
-                   '<text x="%.1f" y="%.1f" class="mapl" fill="%s" text-anchor="middle">%d</text>'
-                   % (x, y, M.CORE, x, y + 3.6, M.PAPER, n))
+                   '<text x="%.1f" y="%.1f" class="mapl" style="fill:%s" '
+                   'text-anchor="middle">%d</text>'
+                   % (x, y, M.CORE, x, y + 3.6, _c, n))
         out.append('<text x="%.1f" y="%.1f" class="mapl" text-anchor="%s">%s</text>'
                    % (x + dx, y + ddy + 3.6, anchor, name))
 
