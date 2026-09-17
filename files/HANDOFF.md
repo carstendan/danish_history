@@ -36,7 +36,25 @@ written — see Lessons.
 | F | 21–24 | 1536–1660 | **built, reviewed, revised, closed; online** |
 | G | 25–31 | 1660–1814 | **built, reviewed, revised; all seven round-trip clean** |
 | H | 32–36 | 1814–1901 | **built, verified, indexed, closed — see `PLAN_H.md`** |
-| I | 37–44 | 1901–1955 | **in progress — see `PLAN_I.md`**; 37, 38 and 39 built, verified and indexed; 40–44 to draft |
+| I | 37–44 | 1901–1955 | **in progress — see `PLAN_I.md`**; 37, 38, 39, 40 and 41 built, verified and indexed; 42–44 to draft |
+
+**Book, as measured on a fresh clone after chapter 41: 41 of 44, 299,743 page
+words, 23.8 h; 3 remaining, of which 1 is flagged dense** (`DENSE = {42}`, in
+`bookstats.py` and `index_generator.py`, correct under the 44-chapter spine).
+Read off `bookstats.py`, not carried forward — see item 112.
+
+Part I as built:
+
+```
+37  Reform, neutrality, the sale of the West Indies  7,902 page (38 min)  4L/3M/3H
+38  Genforeningen, Iceland and the Easter Crisis     7,824 page (37 min)  4L/4M/3H
+39  Deflation, Landmandsbanken, the first government 7,455 page (36 min)  3L/4M/3H
+40  Depression, Stauning, the welfare state's seeds  8,358 page (40 min)  3L/5M/3H
+41  9 April 1940 and samarbejdspolitikken            8,678 page (41 min)  4L/4M/3H
+```
+
+Chapter 41 is the only one outside the 40-minute advisory of decision 2.1 (Part
+H), deliberately and with the cut named in item 118 if it has to come down.
 
 All of 01–24 are published to a web folder. Chapter pages carry two links back to
 the index, inserted by `linkindex.py` — see Tools.
@@ -2644,9 +2662,163 @@ split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see it
    the events are triple-witnessed but no source consulted gives the provision the
    nine were charged under, so the vignette names none.
 
-   Book: **40 of 44, 291,154 page words, 23.1 h; 4 remaining, 1 dense.** After the
+   Book: ~~**40 of 44, 291,154 page words**~~ **291,065** — see item 112; the
+   291,154 was 282,707 plus chapter 40's *pre-correction* 8,447 and was never
+   recomputed. **23.1 h; 4 remaining, 1 dense.** After the
    build: tidy clean apart from Part D's ten and the fifteen A–D bodies a fresh
    clone also lacks; no orphans; fixture and seam pass; debuild 11 style-only and
    29 identical; vignettes 75, selftest passing, chapter 40 fully tagged;
    figcheck 75 matched, 41 sourceless, 0 stale; draftnotes clean on 33–40; maps,
    `figs_37`, `figs_38`, `figs_39` and `figs_40` regenerate byte-identical.
+
+112. **The book total was carried forward by addition for the third time in four
+   sessions, and it was 89 too high.** The chapter 41 cold run read
+   **291,065** page words on a fresh clone against the 291,154 in this ledger and
+   in `START_HERE_part_I_c41.md`. Nothing in the repository was wrong. The chapter
+   40 entry recorded the chapter cut **from 8,447 to 8,358** by a late fix to an
+   attribution, and then recorded the book as 282,707 + 8,447. The chapter was
+   corrected; the total it had already been added to was not.
+
+   The same failure had already happened once and self-corrected: the 38-of-44
+   total of 275,272 used chapter 38's pre-correction 7,844, and the chapter 39
+   session recomputed from the pages and got 282,707, which is right.
+
+   **Rule: a book total is read off `bookstats.py` on a fresh clone, never
+   obtained by adding this chapter to the last one.** The same applies to the
+   figure in any `START_HERE`. Corrected in place above.
+
+113. **The sixteen dead of 9 April: the number is right and the sentence everyone
+   writes around it is wrong.** Thirteen were soldiers. **Three were border
+   gendarmes** — J. P. Birk, A. S. Albertsen and A. A. Hansen — shot at the
+   Padborg railway viaduct at about four o'clock, a quarter of an hour *before*
+   the army crossed at Kruså, by three men of *Regiment Brandenburg* in civilian
+   clothes who had walked up and asked the way to the station. Birk died where he
+   fell; Hansen lived long enough to describe it to a police assistant named
+   Petersen, which is the only reason the circumstances are known.
+
+   The sources disagree and the disagreement is the finding. Grænseforeningen's
+   *Niende april 1940* says sixteen **soldiers** killed and 23 wounded. lex.dk's
+   *9. april 1940* enumerates thirteen soldiers and then mentions the three
+   gendarmes separately without adding them in. historienet.dk gives sixteen and
+   names the gendarmes among them. krigendagfordag.dk lists thirteen soldiers by
+   name, unit and place. **Thirteen plus three is the only reading consistent with
+   all four**, and it is what chapter 41 uses, in the prose and in the myth-check.
+
+114. **41[-]: what Scavenius signed in Berlin cannot be read, and the vignette
+   says so instead of paraphrasing it.** Denmark acceded to the Anti-Comintern
+   Pact on 25 November 1941 under an ultimatum delivered on the 23rd, after
+   Renthe-Fink's note of the 20th and his remark on the 21st that a refusal
+   "would not be understood in Berlin", and after Scavenius broke a cabinet
+   majority against signing by threatening to resign. **The four Danish
+   reservations are referred to by every mainstream account and their text is in
+   none of the accessible sources**; dengang.dk has Ribbentrop attempting to
+   ignore them and a night of argument attaching them; the communist account
+   (kpnet.dk) denies there were any reservations at all. What *is* primary and
+   reachable is the Foreign Ministry's press release of that day
+   (krigendagfordag.dk), which told Danes the pact bound Denmark neither
+   militarily nor politically and rested the decision on the Communist Law
+   already passed — and the government's own acceptance that signing breached the
+   constitution and was a *nødretsforanstaltning*.
+
+115. **41[f] is Kate Fleron, and the move that found her is the one that found
+   Augusta Erichsen: look for the person keeping records nobody asked for.**
+   Journalist at *Nationaltidende* from 1930; her editor Aage Schoch removed on
+   German demand on 1 January 1942 and she squeezed out weeks later; on the
+   editorial board of *Frit Danmark* — first published **9 April 1942, two years
+   to the day** — by mid-year, as *frøken Krog*; betrayed in September 1944,
+   Vestre Fængsel, Frøslev, out days before the capitulation; and in 1945 the
+   compiler of *Kvinder i Modstandskampen*, because the accounts of the resistance
+   were being written by the men who had been in it. She is the only vignette
+   subject in Part I who is also one of the part's sources.
+
+116. **Chapter 41 needed an eleventh section and PLAN_I had no home for it
+   anywhere.** The realm came apart in the thirteen months after 9 April 1940 —
+   Iceland's Alþingi taking the king's powers on 10 April, Britain taking the
+   Faroes that week and recognising *Merkið* on 25 April, Britain taking Iceland
+   on 10 May, and **Henrik Kauffmann signing away Greenland base rights to the
+   United States on 9 April 1941, a year to the day, in the king's name and
+   without authority, being recalled on the 12th, dismissed on the 16th and
+   charged with treason — and the Rigsdag ratifying his treaty on 12 May 1945,
+   seven days after the liberation.** PLAN_I §11 gives chapter 43 "Iceland gone,
+   the Faroes refused" and 4 April 1949, and both arrive without a cause unless
+   this is told where it happened. New §05, *The realm comes apart*.
+
+   **This is the second consecutive chapter whose missing subject was a hole in
+   the plan and not thin prose** (chapter 40's was the parliamentary arithmetic).
+   The planning lesson is not "drafts land short"; it is that the plan's section
+   list is the thing to distrust, and the test is to ask which later chapter is
+   left with an uncaused event.
+
+117. **"Six hours" was a section title asserting a duration no source supports,
+   and it had propagated to the published index.** From the shooting at the
+   viaduct (about 04.00) to the last firing in Haderslev (08.15) is **four hours
+   and fifteen minutes**; from the crossing of the border (04.15) to the
+   government's acceptance of the German terms (06.00) is **one hour and
+   forty-five minutes**. §03 is renamed *From four o'clock to a quarter past
+   eight*, and `index_generator.py`'s blurb for chapter 41, which read "Occupied
+   in six hours", is corrected at source. **A section title is a claim and belongs
+   in the verification queue with the rest of them.**
+
+118. **Chapter 41 ships at 8,678 page words and 41 minutes, one over the advisory
+   ceiling, and how it got there is the useful part.** 11 sections, 3 vignettes, 2
+   Meanwhile, 3 figures, 9 glossary blocks, 3 checkpoints, 5 summary items, 12
+   questions. `narrative.py` reads **4L/4M/3H at 4,429**.
+
+   The first build was **10,447 words and fifty minutes**. The narrative was only
+   292 words above chapter 40's. **The apparatus was 1,821 over, and 1,339 of that
+   was the Sources block**, written at 2,046 words against chapter 40's 707 — a
+   research log with a sources heading on it. Cutting the tail blocks back to Part
+   I norms took the chapter to 8,777.
+
+   **Then five rounds of sentence-tightening recovered 274 words in total.** That
+   is L1 exactly — *paraphrasing is not cutting* — demonstrated from the other end,
+   on a chapter that needed to lose and not to gain. The remaining 278 words are
+   not available except by deleting a subject. **Rule: when a chapter is long, the
+   apparatus is the first place to look and the Sources block is the first thing
+   to measure; the prose is the last.** A Part I Sources block is about 700 words.
+
+   Left at 41 deliberately. **If it must come to 40, the section to delete is §07,
+   *The economy of accommodation*** — the weakest-sourced in the chapter, already
+   down to 295 words, and chapter 43 needs only *værnemager* from it.
+
+119. **Two dst.dk volumes were fetched this session by a route item 109 does not
+   record, and the unemployment series may be worth one more attempt.** Item 109
+   says the fetch truncates every volume around page 34. The 1943 election volume
+   (*Stat. Medd.* 4. R. 120. Bd. 1. H.) and the census of 5 November 1940 (4. R.
+   113. Bd. 3. H.) both came back this session **through `dst.dk/pubfile/<cid>/<name>`,
+   reached from the `VisPub?cid=` publication page** rather than the `pukora`
+   path — and the census returned **table 1 on page 11** with the population of
+   3,844,312. That is not deep, but the route is different and untested on the two
+   volumes item 109 names. **Try `VisPub?cid=` → `pubfile` on 4. R. 100. Bd. 2. H.
+   and 4. R. 115. Bd. 4. H. before anybody goes to a reading room.**
+
+   **And the OCR is lossier than item 109 records.** The 1943 volume renders the
+   DNSAP as 48,809 and Dansk Samling as 43,867; those two overshoot the volume's
+   own total of valid votes by 5,972. lex.dk's figures reconcile with that total
+   to within 28 votes. **Check a fetched table against its own total before using
+   any number in it** — the arithmetic caught this, not the eye.
+
+---
+
+## Convention D-12: draft prose is never written through a shell heredoc
+
+Four apparatus blocks of `c41_draft.md` were written by a Python script inside a
+quoted heredoc, using `\uXXXX` escapes for the Danish characters and the arrows.
+Inside a normal Python string the doubled backslash survives, and **thirty-six
+literal `ø` and `→` sequences were written into the draft as text**.
+`mkbody.py` built them, the tag-balance check passed, `build_part_i.py` passed,
+and `debuild.py verify` round-tripped the page **identical** — because the markup
+is valid and the round trip compares the page with itself. The page shipped
+reading `Horserød` and `**→ 42.**` until an unrelated assertion refused
+and the file was read by eye.
+
+This is item 110's class again: valid output, wrong content, invisible to every
+guard the project owns. **Write draft prose with the file-editing tools, where the
+characters that go in are the characters. If a script must generate prose, it
+reads its text from a UTF-8 file rather than from a heredoc.**
+
+**The guard is wired in, not merely written.** `mkbody.build()` now refuses any
+draft containing a backslash-u followed by four hex digits, names the escapes it
+found, and does not strip them — the same shape as the drafting-flag refusal above
+it, and for the same reason. Tested by putting one back into `c41_draft.md`,
+watching the build refuse, and restoring.

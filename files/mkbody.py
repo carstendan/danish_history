@@ -801,6 +801,51 @@ HAND = {
           "91.85 per cent said yes; measured against everyone entitled to vote it was "
           "44.5, and the constitution of 1915 required 45.")],
  ),
+ 41: dict(
+   file='c41_body.html',
+   part='Part I', band='The small state', num=41, dates='1939 \u2013 1943',
+   title='9 April 1940 and samarbejdspolitikken',
+   people='Peter Munch \u00b7 Erik Scavenius \u00b7 Carl Gunnar J\u00f8rgensen \u00b7 '
+          'Kate Fleron \u00b7 Henrik Kauffmann \u00b7 Christian 10.',
+   hook="Denmark signed a non-aggression pact with Germany in May 1939 and was invaded "
+        "314 days later. The fighting lasted four hours and a quarter and the decision "
+        "took one hour and forty-five minutes of it. What followed was three years in "
+        "which a Danish parliament passed a retroactive law so that its own police could "
+        "keep the men they had already arrested, and a Danish ministry promised the men "
+        "going to the Eastern Front their jobs back.",
+   keys=['ikke-angrebspagten 1939', 'advarslerne 1940', '9. april 1940',
+         'Lundtoftbjerg', 'samarbejdspolitikken', 'Kauffmann-traktaten 1941',
+         'alsang 1940', 'clearingkontoen', 'kommunistloven 1941',
+         'Frikorps Danmark', 'Antikominternpagten 1941', 'telegramkrisen 1942',
+         'folketingsvalget 23. marts 1943'],
+   qs=["A government was told five days in advance, by a German officer, that it was "
+       "about to be invaded, and did nothing. What was the argument for doing nothing, "
+       "and whose argument was it?",
+       "Sixteen Danes were killed on 9 April 1940. How many of them were soldiers, and "
+       "why does almost every account get this wrong?",
+       "Danish police arrested Danish communists in June 1941 with no law to do it under. "
+       "What did the Rigsdag do about that two months later?",
+       "The realm came apart in the North Atlantic in the thirteen months after 9 April "
+       "1940. Name the three territories and the three different ways they went.",
+       "Turnout in March 1943 was the highest in Danish history and the Danish Nazi party "
+       "kept its three seats on a larger vote than in 1939. Explain both facts at once."],
+   figs=[("s03", "SVG_MORGEN",
+          "Figure 1 \u00b7 9 April 1940, hour by hour",
+          "A time axis in minutes. Every duration printed on it is computed from the clock "
+          "times, including the four hours and a quarter of fighting and the hour and "
+          "three-quarters in which the decision was taken."),
+         ("s08", "SVG_UDLEVERET",
+          "Figure 2 \u00b7 Who was handed over, 1941 \u2013 1943",
+          "Four different kinds of quantity on one scale and deliberately not one cohort: "
+          "one day's arrests, a stock on the date the law was passed, a flow through a "
+          "camp over two years, and one transport. The divergence between two sources on "
+          "the first of them is drawn rather than averaged away."),
+         ("s11", "SVG_VALG",
+          "Figure 3 \u00b7 23 March 1943: the whole electorate as one bar",
+          "The same denominator chapter 40 used for the referendum of 1939, where the yes "
+          "vote reached 44.46 per cent of it and needed 45. Here turnout is 89.5 and the "
+          "Danish Nazi party is the segment a swatch is needed to find.")],
+ ),
 }
 
 
@@ -1084,6 +1129,22 @@ def build(n):
             "question addressed to the reader, then rebuild.\n%s"
             % (n, len(flags),
                "\n".join("   - %s%s..." % (m, ctx[:60]) for m, ctx in flags)))
+    # LITERAL UNICODE ESCAPES MUST NOT SHIP (convention D-12). Four apparatus
+    # blocks of chapter 41 were written to the draft by a script inside a shell
+    # heredoc, where a doubled backslash survives, and thirty-six "ø" and
+    # "→" sequences went in as TEXT. Every guard passed them: the markup is
+    # valid, the tag balance is fine, and debuild round-trips the page against
+    # itself, so "identical" means nothing here. Item 110's class exactly - valid
+    # output, wrong content - and the only thing that caught it was reading the
+    # file. This is the cheap permanent check that would have caught it at once.
+    esc = re.findall(r'\\u[0-9a-fA-F]{4}', (body_md or "") + "\n" + (app or ""))
+    if esc:
+        raise SystemExit(
+            "!! chapter %s: %d literal unicode escape(s) in the draft (%s). A draft "
+            "holds characters, not escapes - see convention D-12. Write draft prose "
+            "with an editor or from a UTF-8 file, never through a heredoc, then "
+            "rebuild." % (n, len(esc), ", ".join(sorted(set(esc))[:6])))
+
     secs = sections(body_md)
     tb = terms_by_section(app)
     figs = {}

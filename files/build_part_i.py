@@ -225,6 +225,45 @@ CFG = {
         "The Social Democrats won 46 per cent in 1935 and still could not change the "
         "constitution. What changed on 22 September 1936?"]),
     ]),
+ 41: dict(
+    name='41-9-april-1940-and-samarbejdspolitikken.html',
+    body='c41_body.html',
+    svgs={'SVG_MORGEN': 'svg_morgen_1940.txt',
+          'SVG_UDLEVERET': 'svg_udleveret_1941.txt',
+          'SVG_VALG': 'svg_valg_1943.txt'},
+    sec=[("s01", "01", 'The winter of 1939'),
+         ("s02", "02", 'The warnings'),
+         ("s03", "03", "From four o'clock to a quarter past eight"),
+         ("s04", "04", 'The choice, and who made it'),
+         ("s05", "05", 'The realm comes apart'),
+         ("s06", "06", 'The alsang summer'),
+         ("s07", "07", 'The economy of accommodation'),
+         ("s08", "08", 'Frikorps Danmark, and the Communists arrested by Danish police'),
+         ("s09", "09", 'Scavenius'),
+         ("s10", "10", "The king's telegram, and the wireless"),
+         ("s11", "11", 'The election of March 1943')],
+    checks=[
+      ("From four o'clock", [
+        "Which Nordic countries refused Hitler's offer of a non-aggression pact in 1939, "
+        "and which one accepted it?",
+        "Who warned Copenhagen on 4 April 1940, through which two neutral legations, and "
+        "what did the Danish cabinet decide to do?",
+        "What reason was given on 6 April for refusing to mobilise six year-classes?"]),
+      ("The economy of accommodation", [
+        "How long did the fighting of 9 April last, and how much of that time passed "
+        "between the crossing of the border and the government's acceptance?",
+        "Iceland, the Faroes and Greenland each left Danish control in a different way in "
+        "1940 and 1941. Name the way in each case.",
+        "How many Danes sang together on the evening of 1 September 1940, at how many "
+        "places, and what share of the population was that?"]),
+      ("The election of March 1943", [
+        "On what legal authority did Danish police arrest Danish communists on 22 June "
+        "1941, and what did the law of 22 August 1941 do about that?",
+        "What did the War Ministry's order of 8 July 1941 promise Danish officers who "
+        "joined Frikorps Danmark?",
+        "Why did Denmark sign the Anti-Comintern Pact on 25 November 1941, and what did "
+        "the government concede about the constitutionality of doing so?"]),
+    ]),
 }
 
 def block(qs):

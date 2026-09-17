@@ -252,9 +252,9 @@ one `[f]` and one `[n]`, as D-9 requires. Lazy backfill permitted.
 | 40 | [f] | ~~*unnamed*~~ **Augusta Erichsen · Kanslergade 10 · 29–30 January 1933** | **shipped** — swapped with 40[-] (item 111) |
 | 40 | [n] | *unnamed*, one of the nine · Nakskov · **2 February 1931** | **shipped** — events triple-witnessed; no source gives the charge, so none is named |
 | 40 | [-] | ~~Kanslergade~~ **Frits Clausen · Bovrup · 1933** | **shipped** — relocated; Kanslergade is 40[f] |
-| 41 | [n] | one of the sixteen · Bredevad or Lundtoftbjerg · 9 April 1940 | verify name, place, total |
-| 41 | [-] | Erik Scavenius · Berlin · November 1941 | verify what he signed |
-| 41 | [f] | *unnamed* · 1940–42 | **needs a subject** |
+| 41 | [n] | ~~one of the sixteen~~ **Carl Gunnar Jørgensen · Lundtoftbjerg · 9 April 1940** | **shipped** — named, and the total is 13 soldiers + 3 gendarmes (item 113) |
+| 41 | [-] | Erik Scavenius · Berlin · 25 November 1941 | **shipped** — the four reservations are unreadable and the vignette says so (item 114) |
+| 41 | [f] | ~~*unnamed*~~ **Kate Fleron · Copenhagen · 1942** | **shipped** — the woman who kept the record of the women (item 115) |
 | 42 | [f] | Ellen Nielsen · Dragør · October 1943 | verify camp and arrest date |
 | 42 | [n] | Kim Malthe-Bruun · Vestre Fængsel · April 1945 | verify execution date |
 | 42 | [-] | Georg Ferdinand Duckwitz · Copenhagen · 28 September 1943 | verify; rests on his own diary |
@@ -284,8 +284,8 @@ children sent to Denmark to be made into Danes, returned unable to speak
 Greenlandic to her own mother, then placed in a Danish-speaking orphanage in Nuuk
 until 1960. Two years before the constitution ended the colony.
 
-**Six have no named subject: 38[n], 39[n], 40[f], 41[f], 43[n], 44[f].** Five of
-the six are `[f]` or `[n]`. That is not a coincidence and it is the whole reason
+**Three have no named subject: 43[n], 44[f], 44[-].** ~~Six: 38[n], 39[n], 40[f],
+41[f], 43[n], 44[f].~~ Of the original six, five of them were `[f]` or `[n]`. That is not a coincidence and it is the whole reason
 D-9 exists: `[-]` subjects name themselves, because ministers and bank directors
 are indexed. Every hour of research this roster needs falls on the two categories
 the convention protects.
@@ -468,29 +468,63 @@ overridden in one night.
 
 ## 9. Chapter 41 — 9 April 1940 and samarbejdspolitikken, 1939–1943
 
-| § | section | weight |
+**AS BUILT (item 112). Eleven sections, not ten**, and the shape is measured off
+the page rather than planned: `narrative.py` reads **4L / 4M / 3H at 4,429**, and
+`bookstats.py` after `linkindex.py` reads **8,678 page words and 41 minutes**.
+
+| § | section | weight as built |
 |---|---------|--------|
 | 01 | The winter of 1939 | light |
 | 02 | The warnings | medium |
-| 03 | Six hours | heavy |
+| 03 | From four o'clock to a quarter past eight | heavy |
 | 04 | The choice, and who made it | heavy |
-| 05 | The alsang summer | medium |
-| 06 | The economy of accommodation | medium |
-| 07 | Frikorps Danmark, and the Communists arrested by Danish police | heavy |
-| 08 | Scavenius | medium |
-| 09 | The king's telegram | light |
-| 10 | The election of March 1943 | light |
+| 05 | **The realm comes apart** | medium |
+| 06 | The alsang summer | light |
+| 07 | The economy of accommodation | light |
+| 08 | Frikorps Danmark, and the Communists arrested by Danish police | heavy |
+| 09 | Scavenius | light |
+| 10 | The king's telegram, and the wireless | medium |
+| 11 | The election of March 1943 | medium |
 
-**3L / 4M / 3H → 7,839 → 37 minutes.**
+**Three amendments, all made at the drafting session and all recorded in HANDOFF
+112.**
+
+**§05 is new, and the plan had no home for it anywhere in Part I.** Iceland's
+Alþingi took the king's powers on 10 April 1940; Britain took the Faroes that week
+and recognised *Merkið* on 25 April; Britain took Iceland on 10 May; and on 9
+April 1941, a year to the day, Henrik Kauffmann signed away base rights in
+Greenland in the king's name, was charged with treason, and had his treaty
+ratified by the Rigsdag on 12 May 1945, seven days after the liberation. §11 of
+this plan gives chapter 43 "Iceland gone, the Faroes refused" and §11 §10 gives it
+NATO, and both arrive without a cause unless this section exists. It is the second
+consecutive chapter whose missing subject was a hole in the plan rather than thin
+prose.
+
+**§03's old title was a claim and it was false.** "Six hours" is in no source
+reachable from here. The gendarmes were shot about 04.00, the first engagement was
+04.50, the terms were accepted at 06.00 and the last firing stopped at 08.15:
+**four hours and a quarter, of which the decision took a hundred and five
+minutes.** The index blurb carried the same error and is corrected in
+`index_generator.py`.
+
+**Figure 2 is replaced.** See §13.
 
 **Where this differs from the standard account.** *Samarbejdspolitikken* is
-usually argued as a moral question with two positions. Here §04 and §07 make it a
+usually argued as a moral question with two positions. Here §04 and §08 make it a
 question about *who was handed over*: the Communist arrests of June 1941 were
-carried out by Danish police under a Danish law passed by a Danish parliament,
-and Frikorps Danmark was recruited with official acquiescence. The chapter does
-not have to reach a verdict — §10, an election with 89 per cent turnout in which
-the Nazi party got almost nothing, is evidence for the defence — but it must put
-the cost in the reader's hands before chapter 43 tries anybody for less.
+carried out by Danish police, on a German list, with no Danish law permitting
+them, and the Rigsdag then passed one **retroactively and unanimously** to cover
+the arrests already made — while the same state's War Ministry guaranteed the jobs
+of the men going to the Eastern Front. **The chapter's finding is that the
+retroactive justice of the *retsopgør* was not forced on Denmark by the
+liberation: the Rigsdag had already written a retroactive criminal statute in
+August 1941, and the men it covered were the ones sent to Stutthof.** That is a
+harder claim than the standard account makes and chapter 43 must carry it.
+
+**And a correction to the usual reading of §11.** The election of 23 March 1943 is
+routinely called a rejection of Nazism. The DNSAP's vote **rose from 31,032 to
+43,309, by 39.6 per cent**, and it kept the same three seats because turnout rose
+faster. It was arithmetic, not conversion, and the chapter says so.
 
 ---
 
@@ -640,9 +674,10 @@ order above. The chapter 38 rows were written before its sections were fixed.
 | 40 | Fig. 1 · What was in Kanslergade | schematic | **shipped** |
 | 40 | Fig. 2 · **The pound in kroner, January 1933** | Holten, *Hist. Tidsskr.*; Nissen, *Landbohist. Tidsskr.* | **built instead** — the before is a band, the two accounts differing |
 | 40 | Fig. 3 · **1939: the yes vote and the 45 per cent rule** | referendum shares, twice; §93 | **shipped** — drawn from shares, not counts |
-| 41 | The morning of 9 April, hour by hour | schematic | n/a |
-| 41 | Danish exports by destination, 1938–1943 | *Statistisk Årbog* | located |
-| 41 | March 1943: turnout, and what the Nazi party got | election statistics | located |
+| 41 | Fig. 1 · 9 April 1940, hour by hour | schematic on a real time axis | **shipped** |
+| 41 | ~~Danish exports by destination, 1938–1943~~ | *Statistisk Årbog*, deep table | **not reachable** — item 109's rule applied at the start, not after |
+| 41 | Fig. 2 · **Who was handed over, 1941–1943** | lex.dk's internment article, itemised | **built instead** |
+| 41 | Fig. 3 · 23 March 1943: the whole electorate as one bar | *Stat. Medd.* 4. R. 120. Bd. 1. H. + lex.dk | **shipped** — same denominator as chapter 40's fig. 3 |
 | 42 | October 1943: to Sweden, to Theresienstadt, and the difference | museum/Yad Vashem figures | needs source |
 | 42 | Sabotage actions by month, 1943–45 | Frihedsmuseet series | needs source |
 | 42 | The People's Strike, five days | schematic | n/a |
@@ -709,8 +744,8 @@ In this order, before any drafting.
    the kapitelstakst back-series** — items 53 and 60. If it does, four figures
    across Parts G and H become redrawable as planned and two library errands are
    retired. **Do this before any trip to a reading room.**
-6. The six unnamed vignettes, in the order 44[f], 43[n], 40[f], 41[f], 39[n],
-   38[n] — the first is the ending and the hardest.
+6. ~~The six unnamed vignettes~~ **Three remain: 44[f], 43[n], 44[-]** — the
+   first is the ending and the hardest. 38[n], 39[n], 40[f] and 41[f] are done.
 7. The Sønderjysk war dead: the commonly cited range is 5,300–6,200 and the plan
    will not use a round number without a source.
 
