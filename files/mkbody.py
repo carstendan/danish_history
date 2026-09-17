@@ -757,6 +757,50 @@ HAND = {
           "rows, seventy-five of 149, which is a majority of one. Forty years earlier the "
           "Social Democrats had two.")],
  ),
+ 40: dict(
+   file='c40_body.html',
+   part='Part I', band='The small state', num=40, dates='1929 \u2013 1939',
+   title='Depression, Stauning and the seeds of the welfare state',
+   people='Thorvald Stauning \u00b7 K.K. Steincke \u00b7 Augusta Erichsen \u00b7 '
+          'Thomas Madsen-Mygdal \u00b7 Peter Munch \u00b7 Frits Clausen',
+   hook="Denmark met the depression through the price of bacon in Britain. One night in "
+        "January 1933, in the prime minister's flat, three parties traded a devaluation "
+        "for a social reform and called off a lockout of a hundred thousand men. The "
+        "reform did not give the poor back the vote: it redefined them out of the clause "
+        "that took it. And in 1939 a proposal that nine voters in ten approved of failed, "
+        "because only half of them came.",
+   keys=['Kanslergadeforliget 1933', 'devalueringen 1933', 'Lov om offentlig Forsorg 1933',
+         'socialreformen 1933', 'fattighjælp og valgret', 'aandssvageloven 1934',
+         'Påskeblæsten 1933', 'Slesvigsk Parti', 'Østgrønlandssagen 1933',
+         'Stauning eller kaos 1935', 'landstingsvalget 1936', 'DNSAP',
+         'folkeafstemningen 23. maj 1939'],
+   qs=["A lockout of a hundred thousand men was called off by statute. What else did that "
+       "statute suspend, and who had spent thirty-four years insisting it never should?",
+       "The social reform of 1933 did not amend the constitution. How did it give most "
+       "recipients of public help their vote back without doing so?",
+       "Steincke wrote the principle that help should cost a man nothing, and the law that "
+       "sterilised the people it did not cover. Were those one idea or two?",
+       "A border settled by plebiscite in 1920 was challenged in 1933 by a campaign of "
+       "newspapers. What did Denmark do about it, and what did that cost or save?",
+       "Nine voters in ten approved the constitutional reform of 1939 and it failed. "
+       "Explain the rule that defeated it."],
+   figs=[("s03", "SVG_KANSLERGADE",
+          "Figure 1 \u00b7 What was in Kanslergade, 29\u201330 January 1933",
+          "Three parties, what each arrived wanting, what each signed for, and what each "
+          "gave up to get it. A schematic: no quantity is drawn that the text does not "
+          "carry. The Conservatives were not in the room."),
+         ("s04", "SVG_KURS",
+          "Figure 2 \u00b7 The pound in kroner, January 1933",
+          "The rate before the agreement is drawn as a band rather than a point, because "
+          "the two accounts of it differ. Every percentage is computed from the rates, and "
+          "none of the published percentages matches them, which is why the figure gives "
+          "the rates instead."),
+         ("s11", "SVG_REGEL",
+          "Figure 3 \u00b7 23 May 1939: the rule that counted silence",
+          "The whole electorate as one bar rather than the votes cast. Of those who voted, "
+          "91.85 per cent said yes; measured against everyone entitled to vote it was "
+          "44.5, and the constitution of 1915 required 45.")],
+ ),
 }
 
 

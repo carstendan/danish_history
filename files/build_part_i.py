@@ -188,6 +188,43 @@ CFG = {
         "What did the law of 27 December 1926 do, and why did it bear hardest on "
         "Sønderjylland?"]),
     ]),
+ 40: dict(
+    name='40-depression-stauning-and-the-seeds-of-the-welfare-state.html',
+    body='c40_body.html',
+    svgs={'SVG_KANSLERGADE': 'svg_kanslergade_1933.txt',
+          'SVG_KURS': 'svg_kurs_1933.txt',
+          'SVG_REGEL': 'svg_regel_1939.txt'},
+    sec=[("s01", "01", '1929: Stauning returns, with the Radicals'),
+         ("s02", "02", 'The crash reaches a farming country'),
+         ("s03", "03", 'The night at Kanslergade'),
+         ("s04", "04", 'What was actually in the deal'),
+         ("s05", "05", "Steincke's reform: four laws and a principle"),
+         ("s06", "06", 'The vote given back'),
+         ("s07", "07", 'Påskeblæsten: the border asked about again'),
+         ("s08", "08", 'Eastern Greenland at The Hague, 1933'),
+         ("s09", "09", 'Stauning eller kaos'),
+         ("s10", "10", 'The Danish Nazis, and why they failed'),
+         ("s11", "11", '1939: over ninety per cent, and not enough')],
+    checks=[
+      ("The night at Kanslergade", [
+        "Denmark's depression began with the price of what, sold to whom?",
+        "What did the Nakskov town council vote on 2 February 1931, and what did it do "
+        "the next day?",
+        "After the election of 16 November 1932, how many seats did the government "
+        "parties hold of 149, and which chamber did they still not control?"]),
+      ("The vote given back", [
+        "Name three things the Kanslergade agreement contained, and say which party "
+        "wanted each.",
+        "The agreement forbade the lockout. What else did it forbid, and for how long?",
+        "Name the four laws of the social reform and the sentence the whole of it "
+        "rests on."]),
+      ("1939: over ninety per cent", [
+        "Why did the reform of 1933 not need to amend the constitution to give most "
+        "recipients of relief their vote back?",
+        "What was Påskeblæsten, and what had happened to the Slesvigsk Parti by 1935?",
+        "The Social Democrats won 46 per cent in 1935 and still could not change the "
+        "constitution. What changed on 22 September 1936?"]),
+    ]),
 }
 
 def block(qs):

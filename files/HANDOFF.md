@@ -2482,3 +2482,171 @@ split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see it
    The index blurb for chapter 39 said the Social Democrats "struck against the
    king"; the strike was the unions', and never struck. Corrected in
    `index_generator.py`.
+
+107. **Chapter 38's measured numbers went stale when chapter 39's session edited
+   it, and PLAN_I still carries the old pair.** The chapter 40 cold run found
+   chapter 38's narrative at **4,197**, not the 4,194 in item 100 and in PLAN_I
+   §6. The cause is fully accounted for: commit `9a820e4` changed chapter 38 in
+   three places and re-measured none of them. "called off on 31 March" became
+   "called off after the settlement of Easter Sunday", **+3 narrative**; the five
+   forward arrows lost the word "Chapter", **−5 outside**; and the `svg_aar_1920`
+   timeline changed a date. +3 and −5 is the −2 that took the page from 7,826 to
+   7,824. Item 103 recorded the page correction and nobody re-ran `narrative.py`.
+
+   **Corrected in PLAN_I §6 to 7,824 and 4,197.** Item 100 is left as written,
+   because it is a dated record of what was reported then, and item 103 already
+   carries the page correction. **The rule this earns: editing a shipped chapter
+   means re-running `bookstats.py` and `narrative.py` on it and amending PLAN_X
+   in the same session, not only the ledger.**
+
+108. **The 1939 arithmetic holds, and the 1933 reform does not do what PLAN_I §8
+   says it does. Debt 3's residue is paid, but not by a restoration, and chapter
+   44 does not close it by an abolition.** This is the chapter's largest finding
+   and it reaches forward.
+
+   - **1939 verified.** Yes 966,277, no 85,717, twice (the Interior Ministry's
+     referendum tables; lex.dk). Yes was **91.85 per cent of valid votes and
+     44.46 per cent of the electorate**, against **§93 of the constitution of
+     1915**: a majority of those voting *and* "mindst 45 pCt. af samtlige
+     Vælgere". PLAN_I §8's "over ninety per cent" and "44.5" both stand.
+   - **§93, not §94.** The plan did not name a section; the section is 93.
+   - **The 1933 reform never touched the disqualification.** The 1915 §30(b)
+     disqualified anyone who "nyder eller har nydt Understøttelse af
+     Fattigvæsenet, som ikke er enten eftergivet eller tilbagebetalt", and it
+     cost *valgret og valgbarhed* to the Rigsdag **and** the municipal councils,
+     plus permission to marry and authority over one's children. The Lov om
+     offentlig Forsorg of 20 May 1933 left §30 standing and provided instead, in
+     **§1 stk. 3**, that "Modtagelse af offentlig Hjælp medfører kun
+     Indskrænkninger i Modtagerens borgerlige Retsstilling i de Tilfælde og i det
+     Omfang, nærværende Lov udtrykkelig bestemmer." Assistance was split three
+     ways and only the residual *fattighjælp* still carried the loss. **A
+     redefinition, not a restoration.** PLAN_I §8's test — "if it was separate,
+     the residue moves" — is answered: it was not a separate act, so the residue
+     stays in 40, but the claim changes.
+   - **1953 does not abolish it either, and this is what chapter 44 must be told.**
+     §29 stk. 1 of the constitution of 1953 reads "…medmindre vedkommende er
+     umyndiggjort. **Det bestemmes ved lov, i hvilket omfang straf og
+     understøttelse, der i lovgivningen betragtes som fattighjælp, medfører tab
+     af valgret.**" Confirmed twice (danskelove.dk; the EU Fundamental Rights
+     Agency's text). **The sentence is in the Danish constitution today.** So 44
+     closes debt 3 by **delegation** — the constitution ceasing to name the poor
+     itself — and not by abolition. Chapter 44 §03 needs rewriting to that, and
+     it is a better ending than the one the plan expected.
+   - **When it actually ended is not established** and is chapter 44's to find:
+     the trail runs through whatever later statute stopped defining anything as
+     *fattighjælp*.
+
+109. **The unemployment volumes are identified at last, and the blocker is not
+   the one we thought.** PLAN_I §14.4 and item 104 have wanted these since
+   chapter 39: **Arbejdsløsheden i aarene 1931–35 is 4. R. 100. Bd. 2. H. (1937)
+   and 1936–40 is 4. R. 115. Bd. 4. H. (1942)**, from the department's own
+   publication list. Half of §14.4 is therefore closed — naming them was never
+   the hard part.
+
+   **Reaching them is, and the reason is now precise rather than vague.** Item
+   104 said "the fetch tool refuses constructed URLs". That is not it. A dst.dk
+   volume surfaced by search fetches perfectly well — the 1939 election volume
+   was read this session — but **the fetch truncates every volume around page 34**
+   of two hundred and more, and the tables sit deeper. The container has no route
+   to dst.dk at all (the egress proxy rejects it). The browser pane opens the
+   PDFs and the viewer will not render the scanned pages, and clicks cannot be
+   dispatched into its frame. dst.dk's own historical browser filters by ASP.NET
+   postback, which did not survive scripted navigation.
+
+   **What would unblock it:** the PDF opened at the right page and the table
+   pasted in, or those two volumes downloaded and attached. Nothing else tried
+   this session works. Chapter 40 ships without the series and says so in
+   `figs_40.py`.
+
+110. **`fill=` on classed figure text is a silent no-op, and it has been shipping
+   since Part D. Thirty-three figures are affected.** Both `style.css` and
+   `mapspine.rasterise()` set `fill` on `.mapt`, `.mapl` and `.mapx`. **A
+   stylesheet rule beats a presentation attribute**, so every
+   `<text class="mapt" fill="#…">` in this repository renders in the class colour
+   and not the one the script asked for. No guard can see it: the markup is valid,
+   `overruns` and `collisions` are geometric, and `figcheck` compares the page
+   against the source, which carries the same dead attribute.
+
+   Found in chapter 40's figure 3, where "YES 44.5%" was written in paper-white
+   for a dark green bar and rendered in `#5F6157` grey on it — **found in the
+   raster and nowhere else**, which is item 47's class again and the third time
+   the look-at-it rule has paid.
+
+   **Convention D-11, settled here: a figure sets text colour with `style=`, never
+   `fill=`.** `figs_40.py` does. The thirty-three shipped figures are **not**
+   changed, for item 105's reason — regenerating them breaks byte-identical
+   rebuild across four parts — and they belong in the same session that fixes
+   `CHAR_W`. **The four worst are `svg_andel_1882`, `svg_crowns`,
+   `svg_deadlock_1873` and `svg_franchises_1866`**, which each ask for `#F0F2EE`
+   on `.mapl`: near-white text that is almost certainly sitting on a dark shape
+   and is now rendering `#3C3E36` dark on dark. Those should be looked at first.
+
+111. **Chapter 40 is shipped.** 11 sections, 3 vignettes, 2 Meanwhile, 3 figures,
+   9 glossary blocks, 3 checkpoints, 5 summary items, 12 questions.
+   **8,358 page words and 40 minutes** on `bookstats.py` after linking
+   (`build_part_i.py` printed 8,352; the six-word gap held). Profile
+   **3L/5M/3H at 4,318 narrative** against 4,446 planned; apparatus **4,040**.
+
+   **It sits exactly on decision 2.1's 40-minute advisory ceiling, and the
+   narrative is not why.** Narrative came in 128 words *under* plan. The weight is
+   in `outside`, 2,487 against Part I's previous mean of 1,993: an eleventh
+   section's worth of contents and headers, and a Sources block that is the
+   longest in the book because this chapter carries more contested numbers than
+   any before it. Sources was compressed from 816 words to 722 without dropping a
+   single attribution, which took the page from 8,447 to 8,358, and it was not
+   compressed further because what is left is all attribution. **If the final pass
+   wants the chapter under 40 minutes, the place to look is `outside`, not the
+   prose.**
+
+   The first draft measured **7L/3M/1H at 3,577**, 869 short. Item 72's rule held
+   for the eighth consecutive chapter and the missing subject was real and
+   load-bearing: **the parliamentary arithmetic**. The draft never said what the
+   election of 16 November 1932 left the parties with, and — worse — it went from
+   "the government still did not have the Landsting" in 1935 straight to "both
+   chambers passed it" in 1939, with nothing in between. **The Landsting election
+   of 22 September 1936, won 38 seats to 37, is what made the 1939 referendum
+   possible at all**, and without it the chapter could not explain its own ending.
+   Added to §03 and §09; the profile then came out at exactly 3L/5M/3H.
+
+   Figures were rasterised and looked at. The raster found the `fill=` fault
+   (item 110). An assertion found a second: figure 3's residue of the two
+   published shares was labelled "did not vote" when it is everyone who did not
+   vote **yes or no**, a segment that silently includes the spoiled ballots. The
+   assertion that caught it now runs the other way and uses the gap against the
+   published turnout as an independent check that the spoiled share is the half a
+   per cent the absolute counts claim.
+
+   **Where chapter 40 differs from the standard account:** Kanslergade as a trade
+   rather than a founding, in which the social reform was Venstre's price and not
+   the point; the reform of 1933 as a redefinition of poverty rather than a
+   restoration of the franchise; Steincke's principle and Steincke's sterilisation
+   laws as one programme and not two, thirteen months apart; Danish Nazism as
+   something that came out of Danish nationalism rather than across the border,
+   with Frits Clausen — who wanted the border at the Eider — as the proof; and the
+   1939 referendum as a failure of attendance rather than a defeat.
+
+   **The plan gap in chapter 38's → 40 arrow is closed by a new section, not by
+   re-pointing the arrow.** PLAN_I §8 gains §07, *Påskeblæsten*: the press
+   offensive of March–April 1933 against the 1920 border, and the nazification of
+   the German minority that followed it. Re-pointing to 41 would have duplicated
+   chapter 38's existing → 41 arrow, and "spend the 1930s" is this chapter's
+   decade. **Chapter 40 is therefore eleven sections, not ten**, and PLAN_I §8 is
+   amended to 3L/5M/3H.
+
+   **The roster changed, and the plan is amended.** PLAN_I §4 had 40[-] as
+   "Stauning and the negotiators · Kanslergade 10" and 40[f] unnamed. They are
+   swapped. **40[f] is Augusta Erichsen**, Stauning's live-in partner, the only
+   person in the flat who was not a politician, and the author — *Mit liv med
+   Thorvald Stauning* (1967), pp. 45–47 — of the account historians use for what
+   that room was like, since no minute was taken. **40[-] moves to Frits Clausen
+   at Bovrup**, which puts the `[-]` where the chapter's argument about Danish
+   Nazism needs it. **40[n] stays unnamed at Nakskov**, on the 38[n] precedent:
+   the events are triple-witnessed but no source consulted gives the provision the
+   nine were charged under, so the vignette names none.
+
+   Book: **40 of 44, 291,154 page words, 23.1 h; 4 remaining, 1 dense.** After the
+   build: tidy clean apart from Part D's ten and the fifteen A–D bodies a fresh
+   clone also lacks; no orphans; fixture and seam pass; debuild 11 style-only and
+   29 identical; vignettes 75, selftest passing, chapter 40 fully tagged;
+   figcheck 75 matched, 41 sourceless, 0 stale; draftnotes clean on 33–40; maps,
+   `figs_37`, `figs_38`, `figs_39` and `figs_40` regenerate byte-identical.

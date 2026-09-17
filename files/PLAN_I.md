@@ -210,9 +210,13 @@ Greenland's reclassification in 44. 38 and 43 make partial payments in their own
 carry-forward blocks and **44 closes it**, because the point is that three
 territories kept by one clause left by three different routes and only the last
 chapter can say that. Debt 3 is the same shape: women and servants in 1915,
-poor-relief recipients with the social reform of 1933, the voting age in 1953.
+poor-relief recipients in 1933, the voting age in 1953 — *but see item 108: 1933
+redefines rather than restores, and 1953 delegates rather than abolishes, so 44
+closes this debt on a clause that is still in the constitution.*
 Debt 7 is two debts in one arrow — plebiscite to 38, the September Compromise to
 Kanslergade in 40, where the 1899 system is honoured and overridden at once.
+**Debt 7's second half is PAID:** chapter 40 §04, the collective agreements
+extended by law for a year and the strike and the lockout both forbidden.
 
 **Two continuities that are not arrows** and would be lost if this table were the
 only record: the two hundred thousand — or a hundred and seventy thousand — carried
@@ -245,9 +249,9 @@ one `[f]` and one `[n]`, as D-9 requires. Lazy backfill permitted.
 | 39 | [-] | Emil Glückstadt · ~~Vestre Fængsel~~ **Vestre Fængsel, then Kommunehospitalet · March–June 1923** | **verified** — died 23 June 1923 in hospital, not in the prison (item 104) |
 | 39 | [f] | Nina Bang · Ministry of Education · 23 April 1924 | **sourced**, dates confirmed twice |
 | 39 | [n] | *unnamed* · **the post office, Haderslev · April 1921** | **relocated** — a stamp sealed in celluloid as small change; there was no exchange of marks into kroner (item 104) |
-| 40 | [-] | Stauning and the negotiators · Kanslergade 10 · 29–30 January 1933 | sourced |
-| 40 | [n] | *unnamed* · Nakskov · 1931 | **needs a subject**; verify charges |
-| 40 | [f] | *unnamed* · a Mødrehjælpen case · 1939, **or** a woman who lost her vote to poor relief and got it back in 1933 | **needs a subject**; the second needs no archive |
+| 40 | [f] | ~~*unnamed*~~ **Augusta Erichsen · Kanslergade 10 · 29–30 January 1933** | **shipped** — swapped with 40[-] (item 111) |
+| 40 | [n] | *unnamed*, one of the nine · Nakskov · **2 February 1931** | **shipped** — events triple-witnessed; no source gives the charge, so none is named |
+| 40 | [-] | ~~Kanslergade~~ **Frits Clausen · Bovrup · 1933** | **shipped** — relocated; Kanslergade is 40[f] |
 | 41 | [n] | one of the sixteen · Bredevad or Lundtoftbjerg · 9 April 1940 | verify name, place, total |
 | 41 | [-] | Erik Scavenius · Berlin · November 1941 | verify what he signed |
 | 41 | [f] | *unnamed* · 1940–42 | **needs a subject** |
@@ -338,8 +342,10 @@ out, and the first election under it not until 1918.
 
 **AMENDED to what shipped (items 83, 97, 100).** Planned as ten sections at
 3L/4M/3H; built as **eleven at 4L/4M/3H**, the commission taking its own light
-section. Bands above are `narrative.py`'s on the built page, 4,194 narrative
-words; the page is 7,826 words and 37 minutes on `bookstats.py`.
+section. Bands above are `narrative.py`'s on the built page, **4,197 narrative
+words; the page is 7,824 words** and 37 minutes on `bookstats.py`. *Corrected at
+the chapter 40 session (item 107): the pair recorded here, 4,194 and 7,826, was
+measured before commit `9a820e4` edited this chapter and was never re-run.*
 
 This is the pivot chapter of the whole book. In 1920 the *territory* question is
 answered by asking the people; the *authority* question is answered when the king
@@ -409,25 +415,50 @@ Landsting doing again what chapter 36 showed it doing, and points at 44.
 | 04 | What was actually in the deal | medium |
 | 05 | Steincke's reform: four laws and a principle | heavy |
 | 06 | The vote given back | medium |
-| 07 | Stauning eller kaos | medium |
-| 08 | The Danish Nazis, and why they failed | light |
-| 09 | Eastern Greenland at The Hague, 1933 | light |
-| 10 | 1939: over ninety per cent, and not enough | heavy |
+| 07 | **Påskeblæsten: the border asked about again** | medium |
+| 08 | Eastern Greenland at The Hague, 1933 | light |
+| 09 | Stauning eller kaos | medium |
+| 10 | The Danish Nazis, and why they failed | light |
+| 11 | 1939: over ninety per cent, and not enough | heavy |
 
-**3L / 4M / 3H → 7,839 → 37 minutes.**
+**AMENDED at the chapter 40 session to eleven sections at 3L / 5M / 3H (item
+111).** Planned as ten at 3L/4M/3H. §07 is new and it closes the plan gap in
+chapter 38's `→ 40` arrow, which had no section to land in: the press offensive
+of March and April 1933 against the 1920 border, and the nazification of the
+German minority that followed. The alternative — re-pointing chapter 38's arrow
+to 41 — was rejected because 38 already carries a `→ 41` arrow about the same
+two minorities and because "spend the 1930s" is this chapter's decade. The old
+§07–§09 shift down and the Greenland section moves above the 1935 election, so
+the three events of 1933 sit together.
+
+**Shipped at 8,358 page words and 40 minutes, 3L/5M/3H at 4,318 narrative.** On
+decision 2.1's advisory ceiling, and the narrative is 128 words *under* plan; the
+weight is in the apparatus and mostly in the Sources block. See item 111.
 
 **§05's principle is the chapter's argument**, and it is the thing most often
 lost: relief as a right with a legal basis, not a discretionary charity that cost
 the recipient his standing as a citizen. §06 is the half of that which is almost
-never told and which **pays the residue of debt 3** — *verify that the 1933
-reform is what removed the franchise disqualification for poor relief, and not a
-separate act.* If it was separate, the residue moves and the closing chapter does
-not.
+never told and which **pays the residue of debt 3**.
 
-**§10 is load-bearing for chapter 44 and must be verified before drafting.** The
-1939 attempt to abolish the Landsting failed with over ninety per cent voting yes,
-because the yes votes were only 44.5 per cent of the electorate and the 1915 rule
-required 45. Chapter 44 §03 turns on the same threshold being cleared.
+**VERIFIED, and the claim changes (item 108).** It was not a separate act, so the
+residue stays here — but the 1933 reform did not remove the disqualification. The
+1915 §30(b) was left standing and the Lov om offentlig Forsorg split assistance
+three ways so that only the residual *fattighjælp* still triggered it. **A
+redefinition, not a restoration.** And §29 stk. 1 of the 1953 constitution does
+not abolish it either: it delegates it to ordinary law, in a sentence that is in
+the constitution today. **Chapter 44 §03 closes debt 3 by delegation, not by
+abolition, and must be rewritten to that.**
+
+**§11 is load-bearing for chapter 44. VERIFIED (item 108).** Yes was 91.85 per
+cent of valid votes and 44.46 per cent of the electorate, against the 45 required
+by **§93** of the constitution of 1915 — a majority of those voting *and* "mindst
+45 pCt. af samtlige Vælgere". Turnout was 48.9 per cent, seven weeks after a
+Folketing election at 79.2. Chapter 44 §03 turns on the same threshold being
+cleared in 1953, at 45.8 per cent.
+
+**And the chapter needs what the plan left out: the Landsting election of 22
+September 1936**, won 38 seats to 37, without which the proposal could not have
+passed both chambers on 11 March 1939. It is in §09.
 
 **§04 pays the second half of debt 7:** Kanslergade extended collective
 agreements by law and prohibited a lockout — the settlement of 1899 honoured and
@@ -605,9 +636,10 @@ the building of a welfare state could not repeat that.
 
 **AMENDED (items 91, 104).** Figures are numbered in reading order, which is the
 order above. The chapter 38 rows were written before its sections were fixed.
-| 40 | **Unemployment 1929–1940**, with the 1932 peak | as above | fetchable |
-| 40 | What was in Kanslergade | schematic | n/a |
-| 40 | **1939: the yes vote, and the 45 per cent rule** | referendum returns | **verify first** |
+| 40 | ~~Unemployment 1929–1940, with the 1932 peak~~ | 4. R. 100. Bd. 2. H. and 115. Bd. 4. H. | **not reachable** — volumes now identified; see item 109 |
+| 40 | Fig. 1 · What was in Kanslergade | schematic | **shipped** |
+| 40 | Fig. 2 · **The pound in kroner, January 1933** | Holten, *Hist. Tidsskr.*; Nissen, *Landbohist. Tidsskr.* | **built instead** — the before is a band, the two accounts differing |
+| 40 | Fig. 3 · **1939: the yes vote and the 45 per cent rule** | referendum shares, twice; §93 | **shipped** — drawn from shares, not counts |
 | 41 | The morning of 9 April, hour by hour | schematic | n/a |
 | 41 | Danish exports by destination, 1938–1943 | *Statistisk Årbog* | located |
 | 41 | March 1943: turnout, and what the Nazi party got | election statistics | located |
@@ -668,8 +700,11 @@ In this order, before any drafting.
 2. **Whether the 1933 social reform restored the franchise to poor-relief
    recipients** (debt 3's residue, §8 §06, and a vignette).
 3. **Steincke 1920** (§7 §08).
-4. **The unemployment volumes 1910–1940** — find the identifiers, confirm the
-   tables fetch, transcribe with a second-appearance check.
+4. **The unemployment volumes 1910–1940** — ~~find the identifiers~~ **DONE**:
+   1931–35 is 4. R. 100. Bd. 2. H. (1937), 1936–40 is 4. R. 115. Bd. 4. H.
+   (1942), beside chapter 39's four for 1910–30. Confirming the tables and
+   transcribing them is still open and is now known to be blocked by page
+   truncation rather than by URL construction — see item 109.
 5. **Whether the same route reaches the Folketing election results 1872–1901 and
    the kapitelstakst back-series** — items 53 and 60. If it does, four figures
    across Parts G and H become redrawable as planned and two library errands are
