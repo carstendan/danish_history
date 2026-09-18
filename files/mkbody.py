@@ -1183,33 +1183,122 @@ def terms_html(pairs, span=None):
 
 
 # ---------------------------------------------------------------- tail pieces
-def meanwhile_html(app):
+def meanwhile_html(app, n='?'):
+    """The 'Meanwhile in Europe' boxes.
+
+    A paragraph opening with **A label.** opens a box. A paragraph without one
+    CONTINUES the box above it, which is how the drafts use it: chapters 42 and
+    43 each end the block with an unlabelled paragraph that draws the comparison
+    the two boxes exist to set up - Rome against Denmark in October 1943, Milorg
+    against the Danish underground. The version of this function shipped before
+    18 September 2026 said `continue` on those paragraphs, and 141 words of
+    authored prose were dropped from two pages without a word in any log.
+
+    The refusal below this function already says 'refuse rather than discard
+    authored prose'. It was written for the count of boxes and did not cover the
+    paragraphs between them, so the same leak stayed open in the same function.
+    A paragraph that arrives before any box has nowhere to go and is refused.
+    """
     blk = apparatus_part(app, 'Meanwhile in Europe')
-    out = []
+    boxes = []
     for _, p in [x for x in paras(blk) if x[0] == 'p']:
         m = re.match(r'\*\*(.+?)\*\*\s*(.*)', p, re.S)
-        if not m:
-            continue
-        out.append('<div class="meanwhile">\n<h4>Meanwhile · %s</h4>\n<p>%s</p>\n</div>'
-                   % (inline(m.group(1)), inline(m.group(2))))
+        if m:
+            boxes.append([inline(m.group(1)), [inline(m.group(2))]])
+        elif boxes:
+            boxes[-1][1].append(inline(p))
+        else:
+            raise SystemExit(
+                "!! chapter %s: a 'Meanwhile in Europe' paragraph appears before any "
+                "**Label.** paragraph, so there is no box to put it in. Give it a "
+                "label or move it - do not let the build drop it:\n     %s"
+                % (n, ' '.join(p.split())[:90]))
+    return ['<div class="meanwhile">\n<h4>Meanwhile · %s</h4>\n%s\n</div>'
+            % (lab, "\n".join('<p>%s</p>' % x for x in ps)) for lab, ps in boxes]
+
+
+def _myth_opens_entry(p):
+    """True if this paragraph starts a new myth-check entry (a quoted claim)."""
+    s = p.lstrip()
+    return bool(re.match(r'\*\*\s*["\u201c]', s) or re.match(r'["\u201c]', s))
+
+
+def myth_entries(items):
+    """Paragraph list -> [(claim_md, [correction_md, ...])].
+
+    WHY THIS IS NOT A ONE-LINER. Four myth-check conventions are in use in this
+    book, and the version of this function shipped before 18 September 2026
+    understood only the first of them. It read paragraphs in strict pairs -
+    claim, correction, claim, correction - and advanced by two. What that did to
+    the other three was silent and total:
+
+      A  claim para, then ONE correction para                      ch 1-24   ok
+      B  **The myth.** / **What can be shown.** / **What cannot.**  ch 25-31  DROPPED
+         No paragraph opened with a quote, so nothing matched and the chapter
+         shipped with <dl></dl> - the heading over an empty list, seven times.
+      C  claim para, then SEVERAL correction paras                  ch 32-36  TRUNCATED
+         The pair rule took the first correction paragraph and the += 2 walked
+         past the rest, losing 85-92% of the block.
+      D  **"claim"** correction, both in ONE para                   ch 37-45  MIS-PAIRED
+         The whole paragraph became the <dt> and the NEXT claim became its
+         <dd>, so every page in Part I printed each correction in the claim's
+         type and each claim in the correction's, offset by half an entry.
+
+    2,719 words of written myth-check prose - 49% of all of it - were not on the
+    pages. Nothing caught it: the words were in the drafts, the files built, the
+    verifiers passed, and the fault only shows if you compare draft against page
+    or read the built HTML. Hence the rule this is filed under: a guard that only
+    fires at review is not a guard. `debuild.py verify` still cannot see this;
+    the check that can is a draft-to-page word-count diff, and it belongs in the
+    suite.
+    """
+    items = [i.strip() for i in items if i.strip()]
+    if not items:
+        return []
+
+    # B - the labelled triple. No quoted claim anywhere in the block.
+    if any(re.match(r'\*\*\s*The myth\.?\s*\*\*', i) for i in items):
+        out, cur = [], None
+        for p in items:
+            m = re.match(r'\*\*\s*The myth\.?\s*\*\*\s*(.*)', p, re.S)
+            if m:
+                if cur:
+                    out.append(cur)
+                cur = (m.group(1).strip(), [])
+            elif cur:
+                cur[1].append(p)
+        if cur:
+            out.append(cur)
+        return out
+
+    # A / C / D - an entry begins at a quoted claim and runs to the next one.
+    out, cur = [], None
+    for p in items:
+        if _myth_opens_entry(p):
+            if cur:
+                out.append(cur)
+            m = re.match(r'\*\*(.+?)\*\*\s*(.*)', p, re.S)   # D: claim and correction share a para
+            if m:
+                claim, tail = m.group(1).strip(), m.group(2).strip()
+            else:                                            # A / C: the claim para stands alone
+                claim, tail = p.strip(), ''
+            cur = (claim, [tail] if tail else [])
+        elif cur:
+            cur[1].append(p)
+    if cur:
+        out.append(cur)
     return out
 
 
 def myth_html(app):
     blk = apparatus_part(app, 'Myth-check')
     o = ['<div class="myth" id="myth">', '<h4>Myth-check</h4>', '<dl>']
-    items = [p for k, p in paras(blk) if k == 'p']
-    i = 0
-    while i < len(items):
-        claim = items[i].strip()
-        if claim.startswith('**"') or claim.startswith('**\u201c') or claim.startswith('"'):
-            dt = inline(claim)
-            dd = inline(items[i + 1]) if i + 1 < len(items) else ''
-            o.append('  <dt>%s</dt>' % dt.replace('<strong>', '').replace('</strong>', ''))
-            o.append('  <dd>%s</dd>' % dd)
-            i += 2
-        else:
-            i += 1
+    for claim, corrections in myth_entries([p for k, p in paras(blk) if k == 'p']):
+        dt = inline(claim).replace('<strong>', '').replace('</strong>', '')
+        o.append('  <dt>%s</dt>' % dt)
+        if corrections:
+            o.append('  <dd>%s</dd>'
+                     % ''.join('<p>%s</p>' % inline(c) for c in corrections))
     o += ['</dl>', '</div>']
     return "\n".join(o)
 
@@ -1366,7 +1455,7 @@ def build(n):
         o.append('  <li>%s</li>' % q)
     o += ['</ol>', '', '<hr class="div">', '']
 
-    mw = meanwhile_html(app)
+    mw = meanwhile_html(app, n)
     mw_at = {secs[2][0]: 0, secs[min(6, len(secs) - 1)][0]: 1} if len(mw) >= 2 else {}
     # This placement holds exactly two. A draft with three built three and emitted
     # two, silently, and the count printed below counts what was PLACED, so the
