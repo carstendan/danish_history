@@ -268,9 +268,9 @@ one `[f]` and one `[n]`, as D-9 requires. Lazy backfill permitted.
 | 42 | [f] | **Ellen Wilhelmine Nielsen** · Dragør · October 1943 | **verified — and the plan was wrong twice.** She sheltered and arranged passage; she owned no boat and no source says she sailed. Arrest **27 July 1944**, not October 1943. Camps: Vestre Fængsel → Frøslev → **Ravensbrück** (prisoner 94,315) → Jugendlager Uckermark; out by white bus 8 April 1945. Not Horserød, not Theresienstadt. The number she helped is **undocumented** (2 to 700; the 700 is Dragør's whole total) |
 | 42 | [n] | Kim Malthe-Bruun · ~~Vestre Fængsel~~ **Ryvangen** · **6 April 1945** | **verified — the place was wrong.** Sentenced 4 April, shot at Ryvangen on the 6th; Vestre Fængsel is the dateline of the farewell letter and was never an execution site. The letter names "Jørgen, Niels og Ludvig"; the Ryvangen roll for that day gives Winther, Reventlow and **Peter Wessel Fyhn**, and nobody reconciles the Niels |
 | 42 | [-] | Georg Ferdinand Duckwitz · Copenhagen · 28 September 1943 | **date verified** (Kirchhoff, lex.dk, USHMM, danmarkshistorien; the 29th is Melchior at Krystalgade, one link downstream). **The evidence is worse than "his own diary":** Paulsson (*JCH* 30, 1995) reports Swedish visa records showing nothing between 19 March 1943 and 15 January 1944, so the Stockholm trip may not have happened; and the papers are at USHMM via Rigsarkivet, catalogued as a **calendar**, restricted **until 2048** |
-| 43 | [f] | Fanny Jensen · Christiansborg · 1947 | **sourced** |
-| 43 | [n] | *unnamed* · Rønne · 7–8 May 1945 | **needs a subject** |
-| 43 | [-] | the first man executed under the retroactive law · 1946 | verify name and date |
+| 43 | [f] | Fanny Jensen · Christiansborg · **13 November 1947** | **written.** Second woman minister, 23 years 6 months after Nina Bang (8,604 days, computed) and the first from the working class. The vignette's point is the half of her title that gets dropped — *og paa selverhvervende Kvinders Interesser* — which Statsministeriet's own list drops, giving her as "Minister uden portefolje" |
+| 43 | [n] | ~~*unnamed* · Rønne · 7–8 May 1945~~ → **Anna Lund Lorentzen · Københavns byret · 1947** | **written.** The Rønne subject was moot once chapter 42 took the bombing (item 123). Sentenced to death in 1947, reprieved against her own stated wish |
+| 43 | [-] | **Flemming Helweg-Larsen · Bådsmandsstrædes Kaserne · 5 January 1946** | **verified and written.** First of the forty-six, and the first execution in Denmark for a civil crime since Horsens on 8 November 1892 — 19,415 days, computed |
 | 44 | [n] | Helene Thiesen · Nuuk, then a colony near Faxe · May 1951 | **sourced** |
 | 44 | [f] | *unnamed* · a polling station · 28 May 1953 | **needs a subject — this is the ending** |
 | 44 | [-] | the commission's adviser on §20 · 1952–53 | **needs a name** |
@@ -294,7 +294,7 @@ children sent to Denmark to be made into Danes, returned unable to speak
 Greenlandic to her own mother, then placed in a Danish-speaking orphanage in Nuuk
 until 1960. Two years before the constitution ended the colony.
 
-**Three have no named subject: 43[n], 44[f], 44[-].** ~~Six: 38[n], 39[n], 40[f],
+**Two have no named subject: 44[f] and 44[-].** ~~Three: 43[n], 44[f], 44[-].~~ ~~Six: 38[n], 39[n], 40[f],
 41[f], 43[n], 44[f].~~ Of the original six, five of them were `[f]` or `[n]`. That is not a coincidence and it is the whole reason
 D-9 exists: `[-]` subjects name themselves, because ministers and bank directors
 are indexed. Every hour of research this roster needs falls on the two categories
@@ -596,6 +596,17 @@ the occupier for each act of sabotage — or the sabotage reads as costless.
 
 **3L / 4M / 3H → 7,839 → 37 minutes.**
 
+> **BUILT, AND NOT AS PLANNED — see HANDOFF item 132.** Eleven sections, not ten:
+> the police action of 19 September 1944 has one of its own, and the chapter
+> opens in **1944**. Measured on the page: **10,514 page words, 5,374 narrative,
+> 50 minutes, 1L/5M/5H** — inside the 25–50 band by four words. The model's 7,839
+> was 2,675 low, which is item 96 again: take the length from `bookstats.py`, not
+> from this table. The sections as built are *The policeless country · The first
+> week · The law made backwards · Who was tried, and who was not · The women ·
+> Bornholm under the Soviets · The border Denmark did not move · Marshall aid,
+> and the occupation's bill · Iceland, the Faroes, Greenland · The defence union
+> that failed · 4 April 1949*.
+
 **§02 and §03 are the chapter's spine and its problem.** A death penalty
 abolished in practice was reintroduced and applied retroactively; the people
 executed were overwhelmingly informers and Danish employees of the German
@@ -608,6 +619,19 @@ offered, or could have taken, a border further south, and declined — the first
 time in the book that a Danish government refuses territory it could have had.
 **That is the thread of the whole book turning over**, and it belongs here rather
 than in 44.
+
+> **CORRECTED IN THE BUILT CHAPTER. It is not the first time.** On **17 May
+> 1919** the Danish envoy to the peace conference formally objected to the third
+> plebiscite zone — which was **already written into the draft treaty** — on the
+> ground that taking it would plant some hundred and sixty thousand Germans
+> inside the country, and the Great Powers struck it out. 1919, 1920, 1945 and
+> 1946 are **one doctrine held for twenty-seven years**, with a primary document
+> at every node. The thread does turn over; it turns over in 1919, and saying so
+> is a stronger claim than the plan's, not a weaker one. Also corrected: the
+> **British enquiry of September 1946 was not an offer.** Hansard (March and
+> November 1949) has His Majesty's Government asking whether Denmark *wished to
+> exert itself to secure* a frontier rectification. The three-option Danish
+> version cannot be traced to the note.
 
 **§08 makes a partial payment on debt 9:** Iceland's republic in 1944 and the
 Faroese independence referendum of 1946, annulled by the king.
@@ -704,9 +728,10 @@ order above. The chapter 38 rows were written before its sections were fixed.
 | 42 | Fig. 1 · October 1943: to Sweden, to Theresienstadt, and the difference | Fracapane, transport lists, Yad Vashem 0.64/275; Safe Haven, Riksarkivet | **built** — 472/470 is a nominal count and drawn filled; the Sweden figure is an estimate and drawn open with a whisker |
 | 42 | Fig. 2 · Sabotage by **year**, 1940–45 | Gyldendal og Politikens; totals double-witnessed on danmarkshistorien.lex.dk | **built instead** — no monthly series is reachable (item 109's rule applied at the start). The railway column adds to 1,527 against a published 1,526 and the discrepancy is drawn |
 | 42 | Fig. 3 · The People's Strike, 22 June – 5 July 1944 | schematic on a real day axis | **built** — the disputed curfew date and the disputed return to work are drawn as bands, not ticks |
-| 43 | The retsopgør: charged, convicted, executed | official retsopgør statistics | needs source |
-| 43 | Bornholm: liberated last, occupied longest | schematic | n/a |
-| 43 | Which way to lean, 1945–49 | schematic | n/a |
+| 43 | Fig. 1 · **What the 13,521 convictions were for** | lex.dk, *retsopgøret i Danmark*, the official table at final instance | **built** — the named categories add to 10,517 of 13,521, so the 3,004-conviction residual is drawn hatched rather than dropped |
+| 43 | Fig. 2 · **Bornholm: occupied 335 days longer** | computed from the dates | **built** — 1,852 days against 2,187; nothing in it is a typed interval |
+| 43 | ~~Which way to lean, 1945–49~~ | schematic | **dropped.** A schematic of a decision is a diagram of an argument, not evidence for it |
+| 43 | Fig. 3 · **South Slesvig: members, meals and votes** | Grænseforeningen; *Sønderjyllands historie* | **built instead** — two readings per series, so it draws the multiplier on a log axis rather than a line nobody measured |
 | 44 | **1953 against 1939: the same threshold, cleared** | referendum returns | **the key figure** |
 | 44 | Two chambers to one: the Landsting 1849–1953 | Rigsdag statistics | located |
 | 44 | What §20 installed, and what walked through it in 1973 | schematic | n/a |

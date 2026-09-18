@@ -1128,8 +1128,15 @@ to report it, on the ground that it would spoil the liberation.
   or 5 July and the Council's final proclamation is not published anywhere
   reachable. The "Niels" of Kim Malthe-Bruun's last letter is not on the
   memorial roll. The number Ellen Nielsen helped is given from two to seven
-  hundred and is documented nowhere. And the deportation of the Danish police on
-  19 September 1944 is carried here in a single clause and has not been verified.
+  hundred and is documented nowhere.
+- **The police, verified since.** The action of 19 September 1944 began at eleven
+  in the morning, signalled by a false air-raid alarm, and was Pancke's plan
+  rather than Hitler's — Himmler approved it afterwards. Of a force just under
+  ten thousand, about two thousand were seized and 1,960 deported, first to
+  Neuengamme and then to Buchenwald; some seven thousand went underground. The
+  count of the dead is two numbers and not one: about eighty died in the camps,
+  and a calculation of 1968 reaches 131 by including the men who died afterwards
+  of what the camps had done to them.
 
 ---
 

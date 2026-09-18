@@ -237,11 +237,12 @@ charged him with treason and forfeiture of his property. The Americans replied o
 the 14th that they would go on recognising him as Denmark's minister, which
 settled the matter, since he was in Washington and his government was not.
 
-Denmark did not get Greenland's foreign relations back. What it got, on 12 May
-1945, seven days after the liberation, was a Rigsdag vote ratifying Kauffmann's
-treaty — the same parliament, adopting as its own the act for which it had wanted
-him prosecuted. The Americans were in Greenland to stay, and when Denmark joined
-the Atlantic alliance in 1949 they had already been there for eight years.
+Denmark did not get Greenland's foreign relations back. What it got, on 16 May
+1945, eleven days after the liberation, was a Rigsdag vote ratifying Kauffmann's
+treaty, unanimously in both chambers — the same parliament, adopting as its own
+the act for which it had wanted him prosecuted. The Americans were in Greenland
+to stay, and when Denmark joined the Atlantic alliance in 1949 they had already
+been there for eight years.
 
 ---
 
@@ -670,7 +671,7 @@ men of Frikorps Danmark their places back.
 
 **→ 43.** Iceland leaves in 1944 and the Faroes vote in 1946, and both began in
 the two days after 9 April 1940. Denmark ratifies Kauffmann's Greenland treaty on
-12 May 1945, four years after charging him with treason for making it.
+16 May 1945, four years after charging him with treason for making it.
 
 **→ 44.** The constitution of 1953 forbids depriving anyone of liberty for
 political conviction. The Rigsdag that voted for it had voted for the Communist
@@ -798,8 +799,9 @@ DNSAP kept three seats on a vote that had risen by nearly two-fifths since 1939.
   Faroese flag and currency; norden.org for *Merkið* on 25 April 1940. lex.dk's
   *Forsvarsaftale for Grønland af 1941* for Kauffmann's declaration of 9 April
   1940, the signature of 9 April 1941 with Adolf Berle, "on His Majesty's behalf",
-  the recall, the dismissal, the treason charge and the ratification of 12 May
-  1945.
+  the recall, the dismissal and the treason charge. **The ratification is 16 May
+  1945, not the 12th lex.dk gives**, on Kauffmann's own note of the time (FRUS
+  1945, IV, 569); the 12th is the day he became a minister.
 - **Alsang and the economy.** lex.dk for Axel Bang and the 750,000 at 208 places
   on 1 September 1940; the population of 3,844,312 is the census of 5 November
   1940, *Stat. Medd.* 4. R. 113. Bd. 3. H., table 1, p. 11, and the fifth is

@@ -304,6 +304,46 @@ CFG = {
         "What did the People's Strike of June 1944 obtain, and what did it demonstrate "
         "that was not among its demands?"]),
     ]),
+ 43: dict(
+    name='43-settling-accounts-and-choosing-a-side.html',
+    body='c43_body.html',
+    svgs={'SVG_DOMME': 'svg_domme_1945.txt',
+          'SVG_BORNHOLM': 'svg_bornholm_1946.txt',
+          'SVG_SYDSLESVIG': 'svg_sydslesvig_1954.txt'},
+    sec=[("s01", "01", 'The policeless country'),
+         ("s02", "02", 'The first week'),
+         ("s03", "03", 'The law made backwards'),
+         ("s04", "04", 'Who was tried, and who was not'),
+         ("s05", "05", 'The women'),
+         ("s06", "06", 'Bornholm under the Soviets'),
+         ("s07", "07", 'The border Denmark did not move'),
+         ("s08", "08", "Marshall aid, and the occupation's bill"),
+         ("s09", "09", 'Iceland, the Faroes, Greenland'),
+         ("s10", "10", 'The defence union that failed'),
+         ("s11", "11", '4 April 1949')],
+    checks=[
+      ("The law made backwards", [
+        "The Danish police were deported on 19 September 1944. What replaced them, and "
+        "what was the replacement forbidden to do?",
+        "The resistance made about 21,800 arrests in eight days in May 1945. On what "
+        "authority, and what proportion of those arrested turned out to be chargeable?",
+        "Why can nobody say to within ten thousand how many people were interned in "
+        "Denmark in May 1945?"]),
+      ("Bornholm under the Soviets", [
+        "What date did the straffelovstillæg reach back to, and which acts before "
+        "29 August 1943 did it exempt from punishment?",
+        "Which Danish constitutional requirement was actually breached in the "
+        "retsopgør, and why is it not the one usually named?",
+        "Forty-six men were shot and seventy-five people imprisoned for building for the "
+        "Wehrmacht. What in the statute produced that difference?"]),
+      ("The defence union that failed", [
+        "On what single condition did the Soviet Union leave Bornholm, and how far did "
+        "Danish governments afterwards extend it?",
+        "What did the British actually ask Denmark in September 1946, and what did "
+        "Denmark answer?",
+        "What did the Marshall counterpart kroner mostly pay for in Denmark, and whose "
+        "debt was it?"]),
+    ]),
 }
 
 def block(qs):

@@ -894,6 +894,54 @@ HAND = {
           "curfew was imposed and when the city went back to work — are drawn as "
           "bands rather than ticks.")],
  ),
+ 43: dict(
+   file='c43_body.html',
+   part='Part I', band='The small state', num=43, dates='1944 – 1949',
+   title='Settling accounts and choosing a side',
+   people='Hal Koch · Carl Madsen · Knud Kristensen · Gustav Rasmussen · '
+          'Hans Hedtoft · Fanny Jensen',
+   hook="The occupier deported the Danish police in September 1944, and for seven and a "
+        "half months the country was watched over by municipal guards with a citizen's "
+        "powers and no firearms. When the liberation came the arrests were made by an "
+        "organisation that had no legal existence, and the law to try people under was "
+        "written three weeks afterwards and reached back five years. Forty-six men were "
+        "shot. Seventy-five went to prison for building the German war. Then Denmark had "
+        "to decide which side of a new division it was on.",
+   keys=['politiaktionen 19. september 1944', 'vagtværn', 'retsopgøret',
+         'straffelovstillægget 1945', 'dødsstraffens genindførelse',
+         'værnemagersagerne', 'tyskerpiger', 'Bornholm 1945-46',
+         'Sydslesvig efter 1945', 'Marshallhjælpen', 'Islands løsrivelse 1944',
+         'den færøske folkeafstemning 1946', 'skandinavisk forsvarsforbund',
+         'Atlantpagten 1949'],
+   qs=["The Danish police were deported in September 1944 and came back in May 1945. "
+       "What was policing Denmark in between, and what was it not allowed to do?",
+       "The law under which Denmark tried collaborators was passed after most of the "
+       "arrests had been made. What did it reach back to, and what did it exempt?",
+       "Forty-six men were executed and seventy-five people went to prison for a year or "
+       "more for building for the Wehrmacht. Explain the difference using the statute.",
+       "On what condition did the Soviet Union leave Bornholm in 1946, and how did Danish "
+       "governments read that condition for the next forty years?",
+       "Denmark declined a frontier further south in 1946. Was that the first time a "
+       "Danish government refused territory it could have had?"],
+   figs=[("s04", "SVG_DOMME",
+          "Figure 1 · What the 13,521 convictions were for",
+          "The official table at final instance, by category, with the women's share "
+          "drawn inside each bar. Service in the German forces is more than half of the "
+          "whole reckoning. Informing is 413 convictions in the entire country, which is "
+          "the figure §05 needs and the one usually misquoted."),
+         ("s06", "SVG_BORNHOLM",
+          "Figure 2 · Bornholm: occupied 335 days longer",
+          "Two bars on one axis in days, computed from the dates rather than from any "
+          "source's rounding. The mainland's occupation ran 1,852 days; Bornholm's ran "
+          "2,187, of which the last 331 were Soviet. The gap between the Danish request "
+          "and the Soviet departure is 32 days, and is marked."),
+         ("s07", "SVG_SYDSLESVIG",
+          "Figure 3 · South Slesvig: members, meals and votes, 1945–1954",
+          "Three series that are not on one scale and are not drawn as though they were. "
+          "Each is indexed to its own first reading, and the food line is dashed because "
+          "its endpoints are two years apart from the others'. The argument is the shape, "
+          "not the levels.")],
+ ),
 }
 
 

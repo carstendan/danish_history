@@ -36,19 +36,21 @@ written — see Lessons.
 | F | 21–24 | 1536–1660 | **built, reviewed, revised, closed; online** |
 | G | 25–31 | 1660–1814 | **built, reviewed, revised; all seven round-trip clean** |
 | H | 32–36 | 1814–1901 | **built, verified, indexed, closed — see `PLAN_H.md`** |
-| I | 37–44 | 1901–1955 | **in progress — see `PLAN_I.md`**; 37–41 built, verified and indexed; **42 built at 11,608 page words / 55 min, which trips decision 2.7; the partition is deferred to the Part I boundary pass — item 128**; 43–44 to draft |
+| I | 37–44 | 1901–1955 | **in progress — see `PLAN_I.md`**; 37–41 built, verified and indexed; **42 built at 11,684 page words / 56 min, OUTSIDE the 25–50 band; 43 built at 10,514 / 50, inside it by four words.** Both trip decision 2.7 and the partition is deferred to the Part I boundary pass — items 128 and 132; 44 to draft |
 
-**Book, after chapter 42: 42 of 44, 311,351 page words, 24.7 h; 2 remaining.**
+**Book, after chapter 43: 43 of 44, 321,970 page words, 25.6 h; 1 remaining.**
 Read off `bookstats.py` after `linkindex.py`, not carried forward — see item 112.
-The previous figure, 41 of 44 at 299,743 and 23.8 h, was confirmed on a fresh
-clone at the start of this session.
+The previous figure, 42 of 44 at 311,456 and 24.7 h, is superseded; note that the
+State block above carried 311,351 for it, which was the pre-`linkindex.py` number
+and is exactly the fault item 128 was written about.
 
-**The 42 in that count is provisional, and so is every chapter number above it.**
-Chapter 42 is one chapter of 11,608 page words and 55 minutes, and Part I's
-internal boundaries from 1943 onward are to be redrawn once the part is drafted
-— item 128. The word total barely moves whatever the partition, because the words
-are written either way; the chapter COUNT does. **Do not re-plan against a
-44-chapter spine, and do not carry 311,351 forward by addition** — item 112.
+**The 43 in that count is provisional, and so is every chapter number above it.**
+Chapter 42 is 11,684 page words and 56 minutes and chapter 43 is 10,514 and 50,
+and Part I's internal boundaries from 1943 onward are to be redrawn once the part
+is drafted — item 128. The word total barely moves whatever the partition,
+because the words are written either way; the chapter COUNT does. **Do not
+re-plan against a 44-chapter spine, and do not carry 321,970 forward by
+addition** — item 112.
 
 Part I as built:
 
@@ -57,7 +59,9 @@ Part I as built:
 38  Genforeningen, Iceland and the Easter Crisis     7,824 page (37 min)  4L/4M/3H
 39  Deflation, Landmandsbanken, the first government 7,455 page (36 min)  3L/4M/3H
 40  Depression, Stauning, the welfare state's seeds  8,358 page (40 min)  3L/5M/3H
-41  9 April 1940 and samarbejdspolitikken            8,678 page (41 min)  4L/4M/3H
+41  9 April 1940 and samarbejdspolitikken            8,707 page (41 min)  4L/4M/3H
+42  Rupture, rescue, resistance                     11,684 page (56 min)  1M/8H/2 OVER
+43  Settling accounts and choosing a side           10,514 page (50 min)  1L/5M/5H
 ```
 
 Chapter 41 is the only one outside the 40-minute advisory of decision 2.1 (Part
@@ -3418,6 +3422,104 @@ split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see it
    wrapping late costs a sentence its ending. Fixing `CHAR_W` properly is still
    item 105's job, and it is now the only thing left in that session.
 
+132. **Chapter 43 is drafted, built and verified at 10,514 page words and 50
+   minutes — inside the band by four words. Six things came out of it that the
+   next chapter needs, and two of them are corrections to my own draft.**
+
+   **What was built, against what PLAN_I §11 planned.** Four divergences, all
+   deliberate:
+
+   - **Eleven sections, not ten.** The police action of 19 September 1944 got a
+     section of its own (item 124). It earns it: the country had no police for
+     seven and a half months, and the arrests of May 1945 are unintelligible
+     without that.
+   - **The chapter opens in 1944, not 1945.** Title dates and the index spine
+     both corrected to `1944 – 1949`.
+   - **Profile 1L/5M/5H against a planned 3L/4M/3H.** The plan wanted three light
+     sections and the material has one. Section 10, the defence union, is the
+     only one that is genuinely a hinge rather than an argument.
+   - **§06 is a fifty-year doctrine, not a first refusal.** PLAN_I called the
+     1946 South Slesvig decision "the first time in the book that a Danish
+     government refuses territory it could have had" and **that is wrong.** On
+     17 May 1919 the Danish envoy to the peace conference asked for the third
+     plebiscite zone — already in the draft treaty — to be struck out, and it
+     was. 1919, 1920, 1945 and 1946 are one doctrine with a primary document at
+     every node. The thread still turns over; it turns over in 1919.
+
+   **THE FIGURES ARE NOT THE PLAN'S AND THE SUBSTITUTION IS THE POINT.** PLAN_I
+   §13 listed three, two of them schematics, with its own note that the fix was
+   to convert them into data figures. Built instead: the official conviction
+   table; Bornholm's occupation in days computed from the dates; and South
+   Slesvig's three series as multipliers. **"Which way to lean, 1945–49" was
+   dropped outright** — a schematic of a decision is a diagram of an argument,
+   not evidence for it.
+
+   **Two corrections to my own draft, both found by sourcing rather than by
+   re-reading.**
+
+   - **The best objection to the retroactive law is Hal Koch's, and I had
+     attributed it to a jurist called K. Anker Jensen** — that the politicians
+     who urged cooperation could not afterwards make a crime of it. Koch
+     published it in **November 1947** under the title *Jeg anklager Rigsdagen*.
+     I could not source Anker Jensen at all. The argument was right and the name
+     was invented somewhere upstream; it is now attributed and dated.
+   - **The internment chain in §02 does not add up, and the draft now says so.**
+     lex.dk's *Interneringerne efter befrielsen 1945* gives about 22,000
+     interned, more than 15,000 released at once, about 9,000 handed to the
+     police, 2,000 of those released, about 7,000 chargeable. Fifteen plus nine
+     is twenty-four, against a base of twenty-two. *Gyldendal og Politikens*
+     puts the number held by 13 May nearer **34,000**. No source reconciles it,
+     so the chapter states the discrepancy instead of picking a number — and the
+     discrepancy makes §02's own point better than a clean figure would.
+
+   **THE DISPUTE ABOUT THE CONVICTED WOMEN LOOKS RESOLVABLE, AND THE RESOLUTION
+   IS MINE AND IS FLAGGED AS MINE.** Ditlev Tamm gives 107 women convicted of
+   informing; Anette Warring has written that around four hundred of the 644
+   were. The official table at final instance (lex.dk, *retsopgøret i Danmark*)
+   records **413 informing convictions in the whole country, 306 of them men**.
+   Four hundred women cannot sit beside 413 total, and it cannot sit beside the
+   same table's 347 women convicted of German military service either, because
+   347 and 400 exceed 644. **The likeliest reading is that the national total
+   413 has at some point been taken for the women's figure.** It is an inference
+   and the Sources block says so in those words.
+
+   **THE OFFICIAL TABLE DOES NOT ADD TO ITS OWN TOTAL EITHER, and figure 1 draws
+   the residual rather than hiding it.** The named categories — 7,277 + 1,638 +
+   1,139 + 413 + about 50 — come to **10,517 against 13,521**, so **3,004
+   convictions, more than a fifth of the reckoning, are in categories the
+   published summary does not itemise.** The women's columns leave 165
+   unaccounted the same way. Both are computed, asserted and drawn as a hatched
+   bar. Item 119's rule, earning its keep for the third time.
+
+   **THE INDEX BLURB WAS WRONG IN TWO WAYS AND ITEM 117 CAUGHT BOTH.** It dated
+   the chapter 1945–1949, and it said the chapter ends "150 years of
+   neutrality". **No start date makes 150 work:** 1814 to 1949 is 135 years and
+   1864 to 1949 is 85. Rewritten to name 1864. A blurb is a claim and D-8
+   applies to it exactly as it applies to prose — which is what item 117 says,
+   and this is the first time it has actually returned anything.
+
+   **A NEW SHAPE OF FIGURE FAULT, AND IT IS THE ITEM 47 FAMILY AGAIN.** Figure 2
+   drew its legend at `LEG_Y + 14` while the canvas height had been computed
+   from `LEG_Y`, so the legend sat on top of the footnote's first line.
+   **`mapspine.check` did not see it and could not**: both are valid text at
+   different y, and the collision checker compares text runs, not the blocks the
+   layout arithmetic promised would not meet. Only the raster showed it. The
+   guard added is one line — `assert NOTE_TOP - LEG_Y >= 18` — and the general
+   rule is: **if a y-coordinate is used to compute the canvas height, nothing may
+   be drawn at that coordinate plus an offset.** Two further faults in the same
+   figure family were also raster-only: four bar colours in figure 1 that
+   encoded nothing while a legend swatch in one of them implied they did, and a
+   logarithmic axis in figure 3 with no tick anywhere saying it was logarithmic,
+   so a reader comparing bar lengths would have got every ratio wrong.
+
+   **The apparatus was 5,140 words on first assembly and is 4,026 now, and that
+   is where the whole 53-to-50-minute reduction came from.** The prose was not
+   cut to make the band. Sources alone came in at 1,991 words against the book's
+   ~965 norm, and the glossary at 44 terms against a norm of 24. **A chapter that
+   is over band because its apparatus is over norm is not a partition problem and
+   must not be sent to the boundary pass as one.** Chapter 42 at 11,684 is a
+   partition problem; chapter 43 was not, and the check is to measure the
+   apparatus against the norm before concluding anything about the prose.
 ---
 
 ## Convention D-12: draft prose is never written through a shell heredoc
