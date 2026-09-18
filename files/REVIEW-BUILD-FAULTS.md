@@ -443,3 +443,80 @@ thing between Part G and a rebuild.
 
 Regression: regenerating all fourteen Part H and I bodies with this change
 produces files byte-identical to the ones you just built and pushed.
+
+---
+
+## 9. Part G's author notes, resolved — and one date that got worse under checking
+
+Five of the six genuine notes are closed. Each was a factual question, and each
+is now answered from a source rather than by picking a side.
+
+**9.1 Chapter 25's placement note — spent.** It directed the Nansen vignette to
+§03 after the 8 October paragraph and the Amager vignette to §06. Both are
+already there on the built page. Deleted.
+
+**9.2 Chapter 26 — *Jammers Minde* is 1869.** The note had it as 1867 or 1869,
+unsettled. Det Kgl. Bibliotek's own text portal: "Sophus Birket Smith efter et
+års arbejde kunne udgive *Jammers Minde* for første gang" — 1869, edited by
+Birket Smith. The source line now says so. Worth knowing that REVIEW-PART-G §0
+records the chapter's prose being softened to "nearly two centuries" *because*
+this was unsettled; it can be made exact again if you want it.
+
+**9.3 Chapter 30 — 23 November 1733 confirmed.** The note flagged 23 November
+(specialist literature) against 13 November (Danish Wikipedia). The English
+account, which follows the specialist literature, is unambiguous: "open acts of
+rebellion by slaves on November 23, 1733, at the Coral Bay plantation". The
+chapter already followed 23 November, so no prose changes; the note is deleted.
+
+**9.4 Chapter 31 — both fires dated.** Christiansborg went up on **26 February
+1794** (lex.dk, on the chimney flue in the crown prince's storey). The city fire
+ran from about 3 p.m. on **5 June 1795** to about 4 p.m. on the 7th, destroying
+941 houses and leaving about six thousand homeless. The sentence now carries the
+dates; the note is deleted.
+
+**9.5 Chapter 31 — the 1807 commission, and this one changes the argument.**
+The note said "the argument does not depend on the detail, but the sentence
+does". The sentence was: *"this time the machinery that was improvised did not
+have to be dismantled afterwards, because seven years later Norway kept it."*
+
+It was dismantled. Store norske leksikon: the Regjeringskommisjonen ran **24
+August 1807 to 30 November 1810**, chaired by Prince Christian August, with
+Enevold Falsen its most active member until his death in 1808 and Wedel Jarlsberg
+after him. Frederik 6. dissolved it because he thought it no longer needed **and
+because he feared it "fremmet norske selvstendighetstanker"** — was encouraging
+Norwegian independence thinking. What ran on to 1814 was the *stattholder*
+office, revived in 1809 for Christian August, still supreme when war and blockade
+returned in 1812 and no new commission was formed.
+
+I have rewritten the passage. The correction makes the chapter's point sharper
+rather than weaker — Copenhagen dismantled the institution precisely because it
+could see what it was growing, and dismantling it did not undo the three years
+Norway had spent governing itself. **Read it**; with chapter 32's vote it is the
+second place this session where I changed what the book asserts.
+
+**9.6 Chapter 27's "Style note:" is NOT resolved, and checking it turned up
+something larger.** The note asked only whether the ratification date, 23 July
+1720, is Julian or Gregorian. The chapter's surrounding claim is that the treaty
+is dated "3 July by the Julian reckoning Sweden still kept, which is how the
+treaty is almost always cited".
+
+danmarkshistorien.lex.dk publishes the treaty's own subscript — *"undertegnet til
+Friderichsborg den 3 Jun. og ratificeret den 23 Jul. 1720"* — and adds: *"Ved en
+Trykfeil er den trykte Freds-Tractat dateret: 3 Jul."* **By a printing error the
+printed treaty is dated 3 July.** Its article is titled "Frederiksborgfreden, 3.
+juni 1720".
+
+So the near-universal "3 July" may not be a calendar artefact at all but a
+typesetter's slip propagated for three centuries — and the chapter currently
+explains it as Julian style. English-language reference works do give 3 July
+Julian / 14 July Gregorian. Note also that the chapter's own premise cuts against
+them: Denmark had been Gregorian since 1 March 1700, and this is an instrument
+signed at a Danish castle.
+
+Three possibilities, and I will not choose between them for you: the Danish
+source edition's footnote is right and everyone else repeats a typo; the footnote
+is a nineteenth-century compiler's error; or both dates are real and refer to
+different instruments. Settling it needs the printed treaty itself. Until then
+the safe move is the one REVIEW-PART-G took with *Jammers Minde* — write the
+sentence so it survives either answer — and the note stays in the draft, which
+means chapter 27 goes on refusing.

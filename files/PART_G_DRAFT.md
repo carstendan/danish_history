@@ -166,9 +166,7 @@ They had been fetched to speak, and were not asked to write.
 
 *Draft, sections 04–09 of 09.*
 
-*Placement note: the Nansen vignette belongs in §03, after the 8 October
-paragraph; it is set out first below. The Amager vignette sits in §06, where the
-men who were fetched to swear meet the register that counts their farms.*
+**
 
 ---
 
@@ -1477,8 +1475,7 @@ reading, and neither is evidence in the way it is usually treated.
 - *Danske Lov* of 15 April 1683 and *Norske Lov* of 1687.
 - The *markbøger* of 1682–83 and Christian 5.'s *Store Matrikel* of 1688.
 - Leonora Christina, *Jammers Minde*, written from 1674; the manuscript is at
-  Frederiksborg. *Publication is given as 1867 in some accounts and 1869 in
-  others; this needs settling.*
+  Frederiksborg. First published in 1869, edited by Sophus Birket Smith.
 - danmarkshistorien.dk, Aarhus University, on the snaphaner, on Svend Poulsen and
   on the rank ordinance.
 - Dansk Biografisk Leksikon, for Griffenfeld, Niels Juel, Svend Poulsen and
@@ -4275,10 +4272,6 @@ went on hunting maroons through the summer, and the rising was declared over at
 the end of August 1734. It ended in a collective suicide, which is still
 commemorated on the islands.
 
-*(The date of the attack on the fort is given as 23 November by the recent
-specialist literature and as 13 November on Danish Wikipedia. The chapter follows
-the former and the discrepancy should be checked.)*
-
 > **Vignette · Breffu, St Jan, November 1733**
 >
 > She is enslaved on a plantation on St Jan, she is Akwamu, and when the historians
@@ -4906,10 +4899,11 @@ running a protection racket on the edge of a world war, and it had been warned.
 Copenhagen burned twice in two years before anybody dropped anything on it.
 
 Christiansborg — Christian 6.'s palace, put up on the site of the castle where the
-estates had met in 1660 — went in 1794, barely fifty years after it was finished.
-The following year fire took a large part of the city itself, in the second of the
-two great Copenhagen fires, the first having been the one that displaced Holberg
-in 1728.
+estates had met in 1660 — went up on 26 February 1794, barely fifty years after
+it was finished. The following June fire took a large part of the city itself — it
+ran from the afternoon of the 5th to the afternoon of the 7th and left about six
+thousand people homeless — in the second of the two great Copenhagen fires, the
+first having been the one that displaced Holberg in 1728.
 
 The rebuilding after 1795 is why parts of central Copenhagen look the way they do:
 wider streets, corner-cut junctions to give firebreaks and turning room, and the
@@ -4917,10 +4911,6 @@ plain, well-proportioned bourgeois houses of the period. A city with money rebui
 itself in the taste of the men who had the money.
 
 Twelve years later the British burned a third of it again.
-
-*(The precise dates of both fires need checking before this section ships: the
-Christiansborg fire in February 1794 and the city fire in June 1795 are the
-figures I have, and neither is verified here.)*
 
 ---
 
@@ -5032,13 +5022,20 @@ do very little about it, because the Danish government could not reach it.
 
 And that is the pattern chapter 28 identified, running one last time. Whenever the
 sea route to Copenhagen closed, Norway acquired institutions of its own to govern
-itself with — Gyldenløve in the 1670s, the Slottsloven in the 1710s. In 1807 it
-happened again, and this time the machinery that was improvised did not have to be
-dismantled afterwards, because seven years later Norway kept it.
+itself with — Gyldenløve in the 1670s, the Slottsloven in the 1710s. On 24 August
+1807 it happened again: a governing commission for Norway, chaired by Prince
+Christian August, with Enevold Falsen its most active member until his death the
+following year and Count Herman Wedel Jarlsberg leading it after him.
 
-*(The 1807 governing commission for Norway needs its constitution and dates
-verified before this ships; the argument does not depend on the detail, but the
-sentence does.)*
+What happened to it is the more telling half. Frederik 6. dissolved the commission
+in 1810, on the ground that it was no longer needed and because he had come to
+suspect it of encouraging Norwegians to think of themselves as a country. He was
+not wrong about that, and dissolving it did not undo it: the office of
+*stattholder*, vacant since 1771, had been revived in 1809 for Christian
+August himself, and it was still the supreme authority in Norway when the war and
+the blockade came back in 1812 and no new commission was formed. Copenhagen could
+take the institution away. It could not take away the fact that Norway had spent
+three years governing itself and had found that it worked.
 
 ---
 
