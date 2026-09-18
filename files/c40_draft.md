@@ -375,7 +375,7 @@ complied.
 It is the only territorial question in this book that Denmark won outright, and
 it won it by going to a court with a case rather than to a coast with a ship.
 What the judgment secured was sovereignty over a people who were not consulted
-about it in 1921, 1931 or 1933, and who appear in this book again in chapter 44.
+about it in 1921, 1931 or 1933, and who appear in this book again in chapter 45.
 
 ---
 
@@ -676,13 +676,13 @@ was designed to avoid.
 inside an institutional system when an occupying power arrives with ideas of its
 own about them.
 
-**→ 43.** Frits Clausen is arrested on the day of the liberation, and the
+**→ 44.** Frits Clausen is arrested on the day of the liberation, and the
 question of what to do with him is the question of the whole *retsopgør*.
 
-**→ 44.** The same threshold that defeated the reform in 1939 — forty-five per
+**→ 45.** The same threshold that defeated the reform in 1939 — forty-five per
 cent of the whole electorate — is cleared in 1953, and the Landsting goes.
 
-**→ 44.** Greenland, whose sovereignty The Hague confirmed in 1933 without
+**→ 45.** Greenland, whose sovereignty The Hague confirmed in 1933 without
 asking anyone who lived there, is reclassified in 1953 without asking them
 either.
 

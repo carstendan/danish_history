@@ -23,7 +23,11 @@ import re
 import sys
 import dkpaths
 
-DIR = dkpaths.resolve("DK_CHAPTERS", os.getcwd(), "the folder holding the chapter pages")
+# The default is this repository, not the current directory: run from files/ by
+# mistake and a cwd default finds no chapters and reports an empty book rather
+# than refusing.
+_HERE = os.path.dirname(os.path.abspath(__file__))
+DIR = dkpaths.resolve("DK_CHAPTERS", os.path.dirname(_HERE), "the folder holding the chapter pages")
 INDEX = os.environ.get("DK_INDEX", "danish-history-index.html")
 
 # The crumb's own styling: band colour, semibold, as `.crumb-in b` already uses.

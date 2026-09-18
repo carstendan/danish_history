@@ -645,11 +645,11 @@ Danish in Flensburg — spend the 1930s being used by people who did not make th
 **→ 41.** On 9 April 1940 the border drawn by asking is crossed by an army
 that did not ask, and both minorities have to decide what they are for.
 
-**→ 43.** Iceland's clock runs out. Denmark is occupied in 1940 and cannot
+**→ 44.** Iceland's clock runs out. Denmark is occupied in 1940 and cannot
 conduct the foreign policy it retained; Iceland takes it back, and in 1944 uses
 the termination procedure the act of 1918 wrote down.
 
-**→ 44.** The rule the strike notice established in 1920 is put into the
+**→ 45.** The rule the strike notice established in 1920 is put into the
 constitution in 1953, along with the abolition of the Landsting this chapter's
 predecessor could not get.
 

@@ -13,7 +13,13 @@ import dkpaths
 # Chapter pages are discovered on disk rather than hard-coded, so a chapter gets
 # a working link the moment it is built and never a broken one before that. Point
 # this at wherever the built pages live.
-CHAPTER_DIR = dkpaths.resolve("DK_CHAPTERS", "/mnt/user-data/outputs", "the folder holding the chapter pages")
+#
+# The default is this repository, derived from __file__ like every other script
+# here. It used to be /mnt/user-data/outputs, from the era when the book was
+# built in a container, which meant that running this script anywhere else with
+# DK_CHAPTERS correctly unset found no chapters and then died at the write.
+_HERE = os.path.dirname(os.path.abspath(__file__))
+CHAPTER_DIR = dkpaths.resolve("DK_CHAPTERS", os.path.dirname(_HERE), "the folder holding the chapter pages")
 
 
 def built_chapters(d=CHAPTER_DIR):
@@ -181,15 +187,18 @@ E = [
 (41,8,"9 April 1940 and samarbejdspolitikken","1939 – 1943",1941,
  "Four hours and a quarter of fighting, and a decision taken in under two. Denmark then keeps its government, parliament, courts and king, and cooperates — and the bill comes in other people's names.",
  ["the non-aggression pact of 1939","the warnings of 4 April","Lundtoftbjerg","the Kauffmann treaty 1941","kommunistloven and Frikorps Danmark","the election of 23 March 1943"]),
-(42,8,"1943–1945: rupture, rescue, resistance","1943 – 1945",1944,
- "The August strikes end the cooperation policy and the fleet scuttles itself; almost all of Denmark's Jews cross to Sweden in three weeks; and what is left governs, armed from the air, until the liberation.",
- ["Augustoprøret 1943","the fleet scuttled 29 Aug","the rescue of the Danish Jews, Oct 1943","Frihedsrådet and the SOE drops","folkestrejken 1944 and the clearingmord","Shellhus; 4–5 May; Bornholm bombed 7–8 May"]),
-(43,8,"Settling accounts and choosing a side","1944 – 1949",1947,
- "A country whose police the occupier had deported, arresting twenty-two thousand of its own with no law to try them under; then a retroactive statute, forty-six men shot, a Soviet garrison on Bornholm — and the end of the neutrality Denmark had held since 1864.",
- ["politiaktionen september 1944","retsopgøret og straffelovstillægget","Soviet Bornholm May 1945 – April 1946","Sydslesvig: the border not moved","Marshall aid","NATO 4 April 1949"]),
-(44,8,"1953: the new constitution and the modern realm","1949 – 1955",1952,
- "A constitution carried by 19,682 votes: the Landsting votes itself out of existence, a princess is given a place behind every brother, Greenland stops being a colony on paper — and §20 quietly installs the door Denmark walks through in 1973.",
- ["Grundloven 1953","Landstinget abolished","conditional female succession","Greenland made a county 1953","§20 on sovereignty transfer","the 45 per cent rule"]),
+(42,8,"1943: the year the policy broke","1943",1943,
+ "A strike nobody called finished the cooperation policy; the fleet went down at its own moorings; and three weeks later the occupier moved against the Danish Jews on the stated ground that there was no longer a government to lose.",
+ ["augustoprøret 1943","29. august og flådens sænkning","jødeaktionen oktober 1943","Theresienstadt","Horserød og Stutthof","Danmarks Frihedsråd"]),
+(43,8,"The underground and the liberation","1943 – 1945",1944,
+ "Sixty thousand armed people who were told to wait, a counter-terror aimed at prominent Danes rather than at saboteurs, a general strike over a curfew — and a country whose police the occupier deported in a single morning.",
+ ["SOE og nedkastningerne","ventegrupper","clearingmord","folkestrejken 1944","politiaktionen 19. september 1944","Shellhuset"]),
+(44,8,"The reckoning, and the accounts","1944 – 1948",1946,
+ "Twenty-two thousand arrests made before there was a law to make them under; forty-six men shot and seventy-five imprisoned for building the German war; and an occupation debt that somebody else eventually paid.",
+ ["retsopgøret","straffelovstillægget 1945","værnemagersagerne","tyskerpiger","Bornholm 1945–46","Sydslesvig efter 1945","Marshallhjælpen"]),
+(45,8,"Choosing a side, and the constitution","1948 – 1955",1953,
+ "A Scandinavian alliance that failed, an Atlantic one that did not, and a constitution carried by 19,682 votes — abolishing the upper house, and installing the paragraph Denmark walks through in 1973.",
+ ["skandinavisk forsvarsforbund","Atlantpagten 1949","Grundloven 1953","Landstinget abolished","grundlovens § 20","Grønland som amt 1953","45-procents-reglen"]),
 ]
 
 THREADS = [

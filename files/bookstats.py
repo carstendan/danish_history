@@ -22,13 +22,17 @@ import sys
 from pagewords import pagewords, textwords
 import dkpaths
 
-DIR = dkpaths.resolve("DK_CHAPTERS", os.getcwd(), "the folder holding the chapter pages")
+# The default is this repository, not the current directory: run from files/ by
+# mistake and a cwd default finds no chapters and reports an empty book rather
+# than refusing.
+_HERE = os.path.dirname(os.path.abspath(__file__))
+DIR = dkpaths.resolve("DK_CHAPTERS", os.path.dirname(_HERE), "the folder holding the chapter pages")
 WPM = 210
-TOTAL_PLANNED = 44
+TOTAL_PLANNED = 45
 DENSE = {42}
 
 PARTS = [("A", 1, 3), ("B", 4, 7), ("C", 8, 11), ("D", 12, 15), ("E", 16, 20),
-         ("F", 21, 24), ("G", 25, 31), ("H", 32, 36), ("I", 37, 44)]
+         ("F", 21, 24), ("G", 25, 31), ("H", 32, 36), ("I", 37, 45)]
 
 
 def part_of(n):

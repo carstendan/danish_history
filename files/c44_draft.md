@@ -1,517 +1,515 @@
-# Chapter 44 — 1953: the new constitution and the modern realm, 1949–1955
+# Chapter 44 — The reckoning, and the accounts
 
-*Draft, ten sections. Prose only; apparatus follows.*
-
----
-
-## Why anyone wanted a new constitution
-
-The constitution of 1915 had made itself very hard to replace, and it did so on
-purpose.
-
-Section 93 required a constitutional bill to pass both chambers of the Rigsdag,
-then an election, then both chambers again unaltered, and then a referendum in
-which the yes vote had to be not merely a majority of those voting but **at least
-forty-five per cent of everyone entitled to vote.** That last clause is the one
-that matters, and almost nobody reading it notices what it does. It is not a test
-of how popular a proposal is. It is a test of how many people can be got out of
-the house.
-
-Denmark had already discovered this. In May 1939 a revision went to the people
-and **91.85 per cent of those who voted said yes** — 966,277 against 85,717 — and
-it failed, because the yes vote came to 44.46 per cent of the electorate and the
-floor was forty-five. A proposal supported by nine voters in ten died of
-indifference among the tenth.
-
-So by 1949 there were four separate reasons to try again and one very good reason
-not to.
-
-The first was the upper house. The Landsting had been the chamber of property
-and, after 1915, the chamber of nobody in particular; since 1936 its majority had
-matched the Folketing's, and a second chamber that agrees with the first is not a
-check, it is a delay.
-
-The second was that **Denmark's system of government was not written down**.
-Parliamentarism — that a government cannot govern against a Folketing majority —
-had been settled in practice in 1901 and had been the rule ever since, but the
-constitution did not say so. The thing the country had fought the whole of
-chapter 36 over was a custom.
-
-The third was Greenland, which was still a colony in law, and the United Nations
-had begun asking about colonies.
-
-And the fourth was a family. Frederik 9. had three daughters — Margrethe born in
-1940, Benedikte in 1944, Anne-Marie in 1946 — and no sons, and under the royal
-law of 1665 none of them could inherit anything.
-
-The reason not to try was the forty-five per cent, which had killed the last
-attempt and would very nearly kill this one.
+*Draft, eight sections. Prose only; apparatus follows.*
 
 ---
 
-## The commission, and the lawyers in it
+## The first week
 
-A constitutional commission was appointed in **1946**, under Knud Kristensen's
-government, and then did very little for five years. It is worth knowing that the
-document which now governs Denmark spent its first half-decade as a committee
-that could not agree what it was for.
+What that produced is not measurable in the ordinary way, because the body that
+compiles crime statistics was in Buchenwald. The registers the watch corps kept
+themselves are what survive. Copenhagen's took **eighteen thousand reports** and
+made **3,397 arrests**. The Aarhus watch recorded **6,491 offences** between
+October 1944 and July 1945, among them 55 murders, 418 burglaries and 2,038
+thefts, more than half of the thefts bicycles.
 
-What moved it was the politics of 1951 onward: a governing coalition that wanted
-the Landsting gone, a royal succession that had become urgent, and the Atlantic
-alliance, which had just demonstrated that Denmark could sign away parts of its
-own freedom of action with no provision in its constitution for doing so.
+The historian Claus Bundgård Christensen found the sharper fact in the court
+papers. Copenhagen's crisis court recorded only **205 convictions in 1944**, and
+over a thousand by the summer of 1945. The fall is not a fall in crime. It is the
+collapse of the machinery that counts crime, and it is the cleanest illustration
+in Danish history of the difference between the two.
 
-The commission's members included the sitting justice minister, **Helga
-Pedersen**, who had taken the ministry in 1950 and was the first woman to hold
-it. She argued inside the commission for something the commission did not give
-her, and §04 is about what she lost.
+Then the occupation ended, and the country had to arrest several thousand people
+with no police.
 
-The clause with the longest reach was not written by a member at all. The
-commission put questions to outside lawyers, and **Max Sørensen**, professor of
-public law at Aarhus since 1947 and thirty-eight years old, answered one of them
-with a draft provision allowing Denmark to hand powers to authorities outside
-itself. That draft became §20. It is the subject of §05 and it is the most
-consequential paragraph any Dane wrote in the twentieth century.
+The resistance did it. The waiting groups came out on 5 May with armbands and the
+weapons that had been dropped to them, and by **13 May they had made 21,800
+arrests**. They worked from the resistance's own card index, into which, as the
+national encyclopedia puts it, a rumour in a small town could be enough to get a
+name. There was no warrant, no charge and no magistrate.
 
-What the commission chose not to do is as characteristic as what it did. It wrote
-no general equality clause. It gave the courts no explicit power to strike down
-legislation. It left the monarchy's formal powers on the page, intact and
-unexercised, rather than rewriting them into what they had actually become. The
-result is a short constitution that describes a machine already running, and its
-brevity is usually praised as elegance. It is at least as much a decision not to
-settle things.
+The police came back at ten o'clock on the morning of **13 May 1945**, eight days
+after the liberation. What they inherited is the measurement of what had been
+done in their absence. Of the people interned, **more than fifteen thousand were
+released almost at once**; about nine thousand were handed over to the police;
+the police immediately let **two thousand** of those go; and in the end **about
+seven thousand — roughly a third — were chargeable at all.**
 
----
+Those figures do not add up, and the failure is itself evidence. Fifteen thousand
+released plus nine thousand handed over is twenty-four thousand, against a base
+usually given as twenty-two; *Gyldendal og Politikens Danmarkshistorie* puts the
+number held by 13 May nearer thirty-four thousand. How many people were locked up
+in Denmark that month is not known to within ten thousand.
 
-## The Landsting votes itself out of existence
-
-The Danish upper house sat for **104 years**, from June 1849 to June 1953, and
-spent most of them being reformed into something with no argument for its own
-existence.
-
-It began indirectly elected, by electors, from men over forty with an income;
-after 1866 it ran on Estrup's privileged franchise with twelve of its sixty-six
-members appointed by the king; after 1915 it was chosen by ordinary voters over
-thirty-five, with a quarter of the seats filled by the outgoing chamber itself.
-Each reform made it more like the Folketing and less able to say why it was
-separate. By 1936 its majority matched the lower house's.
-
-The bill to abolish it passed the Rigsdag in March 1953, went to a general
-election on **21 April**, and came back to a newly elected Rigsdag which had to
-pass it again unaltered. And so, on **13 May 1953**, at the first reading of that
-bill, **the Landsting voted for its own abolition.** It held its last sitting two
-days later, on 15 May.
-
-Chambers do not ordinarily do this, and the book has now watched the same one do
-it twice: in 1915 it voted away the privileged franchise that had created it, and
-in 1953 it voted away itself. Both times the argument was the same and it was
-unanswerable. A chamber that no longer represents anything the other chamber does
-not represent cannot explain what it is for.
-
-What replaced it is thinner than what went. Under **§42** one third of the
-Folketing can require a bill already passed to be put to the people — a minority
-brake in place of a second reading by a different body. **It has been used once
-in seventy years.** On 25 June 1963 a third of the Folketing sent four land laws
-to a referendum and the voters threw out all four, by margins between
-fifty-seven and sixty-two per cent. That is the entire operating history of
-Denmark's replacement for its upper house: one afternoon in 1963.
-
-Which is worth weighing before the abolition is read as a straightforward gain.
-The argument for killing the Landsting was that it had stopped being a check. The
-thing installed in its place has checked something once.
-
-And in the same document, in the section on the franchise, the constitution did
-something quieter that this book has been following since chapter 33.
-
-Since 1849 anyone who had taken poor relief and not repaid it lost the vote. The
-1915 constitution kept that, in §30(b), when it let women and servants in. The
-social reform of 1933 did not abolish it; it split public assistance three ways
-so that only the residue still called *fattighjælp* carried the penalty. And the
-constitution of 1953, in **§29**, did not abolish it either. It says that **the
-law shall determine to what extent punishment and assistance regarded as poor
-relief entail loss of the vote.**
-
-That is not an abolition. It is a delegation. The constitution stopped naming the
-poor and handed the question to ordinary legislation — and **the sentence is
-still in the Danish constitution today**, doing nothing, available. The poor did
-not get the vote back in 1953. They got it back in 1961, and §10 says so.
+What is not in doubt is the proportion. At least two people in three had been
+arrested by men who had been civilians the week before, on the strength of an
+index compiled by an organisation that had no legal
+existence, in a country whose police the occupier had deported eight months
+earlier. The *retsopgør* did not begin with a law. It began with that.
 
 ---
 
-## A daughter who could inherit
+## The law made backwards
 
-The royal law of 1665 was agnatic and emphatic: the crown passed through men. By
-1953 that rule was 288 years old and about to collide with a family of three
-girls.
+The law came three weeks later. The Rigsdag passed the *straffelovstillæg* on
+30 May 1945 and it took effect on **1 June**, and it did two things Danish
+criminal law is not supposed to do.
 
-If nothing changed, the throne would go on Frederik 9.'s death to his younger
-brother, Prince Knud. Knud was not disliked so much as not wanted, and his nieces
-— the eldest already thirteen and visibly capable — were. This was the one item
-in the whole revision that ordinary people had an opinion about, and the
-government knew it.
+It reached backwards. The statute applied to acts committed from **9 April
+1940** onward, which is to say that it made punishable, in 1945, conduct that had
+not been criminal when it was done. And it restored the death penalty, which
+Denmark had removed from its penal code in 1930 and had not used on a civilian
+since **8 November 1892**, when Jens Nielsen was beheaded at Horsens. Fifty-three
+years and two months separate that morning from the next execution.
 
-What the commission produced was **conditional female succession**: a daughter
-could inherit, but only where there was no son. A younger brother would still
-displace an elder sister. Helga Pedersen argued inside the commission for
-unconditional equality between princes and princesses and did not get it; the
-Conservatives held out for male preference and won.
+The date was the fight. The jurists wanted the law to run from 9 April 1940; the
+politicians wanted it to run from 29 August 1943, which would have placed
+everything done under the cooperation policy beyond its reach — including
+everything the politicians themselves had authorised. The resistance won the
+date. The politicians won a clause: acts done before 29 August 1943 in accordance
+with law, or on the order of a lawful Danish authority, were not punishable. Both
+sides got what they most needed, and the compromise is the whole argument of the
+occupation compressed into one subsection.
 
-So the clause that is remembered as the modernising one is also the first time a
-Danish constitution wrote male precedence into the succession *as a considered
-choice* rather than inheriting it from 1665. Before 1953 women were excluded by
-an old law nobody had revisited. After 1953 they were subordinated by a new one
-that had been argued about and voted on.
+It is worth being exact about what was breached, because the usual account is
+wrong. **No Danish constitution has ever forbidden retroactive criminal law.** The
+prohibition lives in the first section of the penal code, an ordinary statute,
+and an ordinary statute of equal rank can override it — which is what the Rigsdag
+did, knowingly, and said so. The constitutional breach lay elsewhere, and it had
+already happened before there was a law to breach anything: the constitution then
+in force required anyone arrested to be brought before a judge within twenty-four
+hours, and in May 1945 that was set aside on a scale nobody has counted.
 
-This book has been here before, from the other side. Chapter 33 set out the
-Kongelov's agnatic rule; chapter 34 is a war that began, in part, in a succession
-crisis — a throne that had to be handed sideways because it could not pass
-through a woman, and a rival claim that took its chance in the gap. **Denmark
-lost two duchies and a fifth of its territory inside a dynastic question about
-female inheritance**, and then took eighty-nine years to change the rule, and
-changed it only half way.
+The bill passed by **127 votes**. Five members who opposed the death penalty
+abstained rather than vote against. Nineteen were absent.
 
-It lasted **fifty-six years** in that half-changed form. Absolute primogeniture
-came in 2009, by referendum, and Margrethe — who had by then been queen for
-thirty-seven years, which is rather longer than the male line managed between
-1863 and 1947 — signed it.
+It was opposed at the time by people whose names the country knew. The former
+justice minister Svenning Rytter attacked it for violating the elements of law.
+The barrister C. B. Henriques said Denmark was living in a juridical madhouse —
+*et juridisk galehus*. And in November 1947 Hal Koch published the objection that
+has aged best, under the title *Jeg anklager Rigsdagen*: the politicians who had
+urged cooperation could not afterwards make a crime of it, and they had neither
+resigned nor said in public what their own policy had been.
 
----
-
-## §20: the door
-
-Denmark joined the United Nations in 1945 and the Atlantic alliance in 1949, and
-did both without any provision in its constitution permitting it to place its own
-powers in anyone else's hands. Nobody had needed one before, because nothing had
-asked. By 1950 things were asking.
-
-The question is harder than it sounds. A constitution vests the powers of the
-state in named Danish authorities. If Denmark agrees that a body outside Denmark
-may make rules binding inside Denmark, either the constitution allows that or the
-agreement is unconstitutional — and the constitution of 1915 said nothing at all.
-
-Max Sørensen's answer, put to the commission and adopted almost as written,
-became **§20**. Powers vested in the authorities of the realm may, **to an extent
-specified by statute**, be delegated to international authorities established by
-agreement with other states. And the bar is deliberately high: such a bill needs
-**five sixths of the Folketing**, and if it gets only an ordinary majority and the
-government persists, **it goes to the people.**
-
-> **Vignette · Aarhus, 1952**
->
-> He is thirty-nine, a professor of public law who took the chair at
-> thirty-four, and the commission has written to ask him a question about
-> treaties.
->
-> His answer is a paragraph. It says that Denmark may lend out its own
-> sovereign powers, to a stated extent, if a large enough majority agrees — and
-> if the majority is not large enough, the voters decide. He is solving a
-> problem about the United Nations and the Atlantic pact. There is no European
-> Community to have in mind; it does not exist yet.
->
-> Twenty years later the paragraph is the legal basis on which Denmark joins
-> one. In October 1972 the question goes to the people under his own second
-> limb, because the Folketing cannot muster five sixths. Sixty-three per cent
-> say yes and Denmark accedes on 1 January 1973.
->
-> That same year he becomes Denmark's first judge at the Court of Justice of
-> the European Communities. **The man who drafted the door goes through it and
-> takes the bench on the other side.**
->
-> Max Sørensen · Aarhus · 1952 · [-]
-
-Three things in that paragraph are doing careful work and all three have
-mattered since.
-
-**"To an extent specified by statute"** means Denmark cannot hand over its powers
-in general, only in named and bounded quantities, one statute at a time — which is
-why every treaty step since has needed its own Danish act rather than riding on
-the last one. **Five sixths** is a threshold no ordinary Danish government reaches;
-it was set that high precisely so that the second limb would be the usual route.
-And that second limb — ordinary majority plus the people — is the one Denmark has
-actually used.
-
-It was used on **2 October 1972**. Ninety point one per cent of the electorate
-turned out, which is the highest participation in any Danish vote in this book,
-and **1,958,115 voted yes against 1,135,691** — 63.3 per cent to 36.7. Denmark
-acceded on 1 January 1973.
-
-What has to be said plainly is that none of this was on offer in 1953. Nobody
-voting that May was voting for Europe, and to read §20 as a Common Market clause
-is to read the whole chapter backwards out of 1972. What the voters approved was
-a mechanism, drafted for the alliance they already had, which turned out to fit a
-question nobody had yet asked. That is what constitutions do, and it is the best
-argument there is for writing them carefully — and the strongest thing anybody
-can say for Max Sørensen is that a clause he wrote for one purpose was still
-sound twenty years later when it was used for another.
+One safeguard was kept, and it matters. There were no special courts. The
+extraordinary law was administered by ordinary judges and ordinary prosecutors,
+in the ordinary courts, which is the difference between Denmark's reckoning and
+several others in Europe that year.
 
 ---
 
-## Greenland stops being a colony
+## Who was tried, and who was not
 
-Denmark signed the United Nations Charter in 1945 and thereby took on an
-obligation it had not thought about: under article 73(e), a state administering a
-non-self-governing territory had to report on it annually. In 1946 the UN asked
-Denmark whether it had a colony.
+**13,521 people were convicted** at final instance: 12,877 men and 644 women. A
+hundred and three death sentences were pronounced, **78 survived appeal**, and
+**46 men were shot** between 1946 and 1950. Thirty-two were reprieved — more than
+two in five of the men who went to bed under sentence of death. The average
+sentence was two years against a statutory minimum of four, because the minimum
+was cut to two in June 1946 when it became clear what the original would mean.
 
-Denmark hesitated, then said yes — and then set about ending the answer. A
-Greenland commission was appointed in 1948; the **Greenland laws of 1950** came
-out of it and rebuilt the administration, the health service and the trade
-monopoly, and were presented internationally as the work of a liberal colonial
-power. The point of them was partly Greenland and partly the General Assembly.
+The first execution was on **5 January 1946**, in the early hours, at
+Bådsmandsstrædes Kaserne in Copenhagen.
 
-The constitution of 1953 finished it in a sentence. **§1 declares that the
-constitution applies to all parts of the Danish realm.** Greenland ceased to be a
-colony and became an *amt*, a Danish county, with **two seats in the Folketing**.
-On **8 September 1954** the General Assembly accepted that the reporting
-obligation had ended and Greenland came off the list of the world's colonies.
+> **Vignette · Bådsmandsstrædes Kaserne, 5 January 1946**
+>
+> He is thirty-four, a clergyman's son, and he joined the Waffen-SS and
+> recruited for it. In 1943 he helped arrest a Jewish member of parliament, the
+> chief rabbi and the rabbi's son, and put them on the transport to
+> Theresienstadt. In August of that year he was one of three men who shot the
+> newspaper editor Carl Henrik Clemmensen at Lundtofte — eight bullets from
+> three pistols, four months before Hitler ordered the clearing murders and
+> therefore not one of them, but the thing they were modelled on.
+>
+> He is taken out before dawn and shot. He is the first person executed in
+> Denmark for a civil crime since a man was beheaded at Horsens in 1892, and the
+> first of forty-six.
+>
+> Of the three men who killed Clemmensen, he is the only one who answered for
+> it. One disappeared. The third lived until 2015 and was never tried.
+>
+> Flemming Helweg-Larsen · Bådsmandsstrædes Kaserne · 5 January 1946 · [-]
 
-The mechanism deserves stating exactly, because it was Denmark's own invention
-and it worked. The UN's criteria for when a territory stopped being
-non-self-governing had covered independence and free association. Denmark argued
-for a third route — **integration into the metropolitan state on terms of
-equality** — and got it added, and then used it.
+Every man executed had killed, tortured, or informed in a way that cost a life.
+The statute made that so: the death penalty was reachable for aggravated treason,
+for police work in the Hipo corps after 19 September 1944, and for a denunciation
+that ended in a death. **The rope was tied to blood, not to collaboration** — and
+that single fact decided who was never in danger from it.
 
-And here is the thing about the moment Greenland stopped being a colony.
-**Greenland's roughly twenty thousand people did not vote in the referendum that
-did it.** The franchise was Danish, the ballot was in Denmark, and Greenlandic
-opinion reached the question only through the Landsråd, a body the Danish state
-had itself created. A territory was integrated on terms of equality by an
-electorate that did not include it.
+Now the other column. The *værnemagere* were the Danish firms and contractors who
+built for the Wehrmacht, and the scale of what they did is not in dispute: the
+clearing accounts closed the war more than **eight billion kroner** overdrawn.
+
+The audit committee for German payments examined **fifty thousand cases**. It
+found a duty of repayment in about **ten thousand**. About **1,100** people were
+convicted. **Roughly half of those were pardoned.** In the end **seventy-five
+people** went to prison for a year or more for building the German war.
+
+Forty-six men were shot in the same reckoning.
+
+The mechanism is better than the indignation, and it is documented. The large
+firms did not beat the charge; they never faced it. Wright, Thomsen & Kier
+pointed out that they had been urged to take the German work by Stauning himself
+and by the leader of the Conservatives, and the prosecution was withdrawn. The
+governments' own policy was the contractors' alibi — and it was an alibi the
+informer in Aalborg did not have. Rud. Christiani, whose firm built submarine
+pens on the French coast using camp labour, was never prosecuted and was
+decorated with the Order of the Dannebrog in 1954.
+
+One correction, because the asymmetry is real and the usual version overstates
+it: about **318 million kroner** was recovered in restitution. Business was
+reckoned with civilly, not criminally. The asymmetry is between prison and a
+bill, which is a sharper charge than between punishment and impunity, and harder
+to answer.
+
+And nobody in the state was reckoned with at all. A parliamentary commission sat
+from 1945, composed almost entirely of members of the parties whose policy it was
+examining, and found no ground to impeach anyone. One minister was prosecuted and
+acquitted on appeal. Civil servants went before a disciplinary tribunal rather
+than a court. The officials who had interned Danish communists in 1941 on a
+German list were not asked about it; the departmental chief at the justice
+ministry went on to a career in the post-war administration of justice.
+
+The man who understood this best had been on every side of it. **Carl Madsen**
+was interned in 1941 under the Communist Law, sat on the Freedom Council
+committee that drafted the reckoning, prosecuted under it as an extraordinary
+state prosecutor — and then turned on the result and wrote a book called *We
+Wrote the Law* against it, arguing that the authorities had not pursued the
+people most responsible. In August 1941 the Rigsdag passed a retroactive law to
+protect its own police from the consequences of arresting communists. In June
+1945 it passed a retroactive law to reach the people who had helped the Germans.
+The same body, the same device, four years apart, and Carl Madsen went through
+both of them from opposite ends.
 
 ---
 
-## What Greenland got instead
+## The women
 
-The decade that ended Greenland's colonial status is the same decade that
-produced the two things Denmark has since apologised for, and the dates are
-closer together than anyone is comfortable with.
+Six hundred and forty-four women were convicted, against 12,877 men. Three
+hundred and forty-seven had served with German forces, twenty-five were convicted
+of economic collaboration, and **107 of informing** — which is a quarter of all
+the informing convictions in the country, from women who were under five per cent
+of those convicted at all.
 
-In **1951** twenty-two Greenlandic children were selected, with their parents'
-consent variously obtained, and shipped to Denmark to be made into a
-Danish-speaking élite who would return and lead. They spent about eighteen months
-at Red Barnet's holiday colony at Faxe Ladeplads and were then placed in foster
-homes. They were not permitted to speak Greenlandic. Most of them lost it.
+That number is contested, and the contest is worth stating because it looks
+resolvable. Anette Warring has written that around four hundred of the 644 women
+were convicted of informing. That cannot stand beside the official table, which
+records **413 informing convictions in the whole country**, 306 of them men; and
+it cannot stand beside the same table's 347 women convicted of German military
+service, because 347 and 400 together exceed 644. The likeliest reading is that
+the national total for informing has at some point been taken for the women's
+figure. If so the number is 107 — and 107 is still a quarter of the column.
 
-> **Vignette · Faxe Ladeplads, 1951**
+What the historians who have read the case files do agree on is the shape rather
+than the share: most of the convicted women informed on **one person**, and most
+of them **took no money**. Warring's reading is that where women betrayed, the
+mechanism was chance and thoughtlessness rather than recruitment — pillow talk
+rather than employment. That is an explanation and not an excuse, and the people
+informed on went to camps either way.
+
+Behind the convictions is a much larger group who were never charged with
+anything, because **there was nothing to charge them with**. Relations with the
+occupier were not a crime in Danish law or German law, and the law of 1 June 1945
+does not mention them. Anette Warring's estimate is that at least fifty thousand
+Danish women had relationships with German soldiers — an estimate and not a
+count, built outward from the 5,579 registered war children by a multiplier she
+does not explain.
+
+They were punished anyway. Women were interned without charge on suspicion of
+informing, or for their own protection against crowds, some of them for more than
+three months without seeing a judge. And they were shorn. The hair-cutting did
+not begin at the liberation: the illegal press had been printing women's names
+and addresses and calling for it since 1942, and the first documented attacks
+were in Odense during the August rising of 1943. In a Gallup poll in June 1945,
+three-quarters of Danes thought these women should be punished somehow.
+
+The best-documented case is also the only one in which anybody answered for it.
+On the night of **22 and 23 May 1945**, at the Hotel Dana in Rønne on Bornholm,
+resistance men detained twenty-one women, questioned and released three, and cut
+the hair of **eighteen**. It was tried in February 1946. The sentences were
+symbolic fines and none of the women was compensated.
+
+And here is the thing about that case, which is the thing about this whole
+section. Police records survive, and court records, and photographs in the
+museum, and one of the women wrote down what happened to her. **Not one of the
+eighteen is named in any of it.** The perpetrators are named.
+
+That holds across the entire subject. Warring's interviewees are anonymous by
+research ethics. The internment lists are in a closed police archive. The only
+Danish women of these years whose names are in the public record are the ones the
+state convicted — and they are named *because* the state convicted them. The
+women who were punished without a trial have no names; the women who got trials
+do.
+
+> **Vignette · Københavns byret, 1947**
 >
-> She is seven. Her father is dead and her mother has been told that the offer
-> is an opportunity, and that saying no would be a poor thing to do.
+> She is thirty-three, a beer merchant's daughter from a parish in Jutland,
+> trained in restaurant work and employed in it since she was eighteen.
 >
-> She is taken to Denmark with twenty-one other children and housed in a
-> holiday colony in south Zealand. She is not allowed to speak her own
-> language, and there is no contact with home. When she goes back to Greenland
-> she can no longer talk to her mother properly, and she is not sent home at
-> all but into a children's home in Nuuk.
+> In 1943 she attaches herself to a Danish Nazi who runs a unit for the Gestapo.
+> She begins as its secretary and does not stay one: she takes part in arrests
+> and in interrogations. Between December 1944 and the capitulation the unit
+> makes six or eight hundred arrests.
 >
-> She learns what was done to her in **1996**, from the archives, at
-> fifty-two — not from her family and not from the state. Red Barnet
-> apologises in 2015. The Danish government takes until the 2020s.
+> She is taken in May 1945 after a gunfight. In 1947 the Copenhagen city court
+> sentences her to death along with nine others from the unit. She is reprieved
+> to life imprisonment, **against her own wishes** — she had asked to be shot.
+> In May 1949, shortly before he is executed, she marries the man she followed
+> into it.
 >
-> Helene Thiesen · Nuuk, then Faxe Ladeplads · 1951 · [n]
-
-And on **25 May 1953** the inhabitants of Uummannaq in the Thule district were
-informed that they had to leave, to clear ground for the American air base.
-**Twenty-seven families, one hundred and sixteen people.** Thirteen of the
-families went about a hundred and twenty kilometres north, to a place called
-Qaanaaq which did not yet exist and had to be built.
-
-Hold the calendar against that. The Danes voted on the constitution on **28 May,
-three days later.** Greenland stopped being a colony on **5 June, eleven days
-later.**
-
-The reckoning took the rest of the century and did not go well. Compensation was
-claimed and refused in 1954 and again at the end of the fifties. The claim was
-renewed in 1985 and refused. A justice ministry committee reported in 1995 that
-it had not been a forced relocation. Only in 1999 did the Eastern High Court find
-otherwise and award **500,000 kroner to the community and 1,265,000 between the
-individuals — against a claim of 235 million**, which is to say about one per
-cent of what was asked. A prime minister apologised. The European Court of Human
-Rights declined to hear the case.
-
-Both of these things — the children and the settlement — were done by a state
-that believed itself to be improving Greenland, and did them in the same years it
-was persuading the United Nations that Greenland had become an equal part of the
-kingdom. That is not hypocrisy exactly. It is what a metropole sounds like when
-it has decided that the people it governs would be better off as versions of
-itself.
-
-**The composite state was not abolished in 1953. It performed one of its most
-characteristic acts that same fortnight, and then abolished its own name.**
+> She is released in 1956, moves to Germany, takes German citizenship, and
+> spends her working life on relief for children hurt by war. She dies in 2007.
+>
+> Anna Lund Lorentzen · Københavns byret · 1947 · [n]
 
 ---
 
-## 28 May 1953
+## Bornholm under the Soviets
 
-The arithmetic of that Thursday is the best short account of what a supermajority
-rule actually does, and it deserves setting out in full.
+The Red Army came ashore at Rønne on the afternoon of 9 May 1945 and stayed
+eleven months, and for most of that time nobody in Copenhagen knew how to make
+them leave.
 
-The electorate was **2,585,800**. Of those, 1,527,658 voted — a turnout of
-**59.1 per cent**. **1,183,292 voted yes** and 319,135 voted no, with 25,231
-ballots spoiled; the three add to the turnout exactly, which is why these figures
-can be trusted. Yes was **78.76 per cent of the votes cast** and **45.76 per cent
-of the entire electorate.**
+The occupation itself was not harsh by the standards of what the Soviet army did
+elsewhere in 1945. Some seven and a half thousand men arrived from Kolberg on the
+11th. The Danish administration of the island continued; the county governor
+stayed in post; the Soviet command did not interfere with it, and the Danish
+foreign minister said so afterwards to the Americans. Thirty Soviet soldiers are
+buried at Allinge, none of them killed in fighting — mines and alcohol. Twenty
+rapes were recorded, and assaults and robberies, which is twenty more than none
+and a very small number beside Germany or Poland.
 
-The floor was forty-five per cent, which of that electorate is 1,163,610 votes.
-**The constitution of Denmark passed by 19,682 votes.**
+What made it intolerable was not the conduct but the question it left open. The
+rest of Denmark was free. One island of forty-five thousand people was held by a
+power that had not said when it would go, in a country that had just spent five
+years learning what an open-ended occupation does to a population.
 
-Now set it beside 1939, and the whole logic of §93 falls out. In 1939, **91.85
-per cent** of those voting said yes and the revision failed. In 1953, **78.76 per
-cent** said yes and it carried. The 1939 proposal was far more popular among the
-people who turned up; what it lacked was the people who did not. **A threshold
-counted against the whole electorate does not measure agreement. It measures
-attendance, and it counts every abstention as a no.**
+Denmark did not ask until **4 March 1946** — ten months. Norway had asked in
+September 1945 and been granted withdrawal at once, and the historian Bent Jensen
+has made the obvious criticism of the delay. The Soviet answer came on the **5th**
+and it contained one condition: that Denmark be able to occupy Bornholm with its
+own troops and establish its administration there "**without any participation
+whatever of foreign troops or foreign administrators**".
 
-There was a second ballot that day, and it is the one nobody remembers. Voters
-were asked whether the voting age should be twenty-three or twenty-one. They
-chose **twenty-three, by 840,815 to 700,122.** The electorate for that question
-was **2,815,100** — some 229,300 larger than for the constitution, because it
-took in the young people who would be enfranchised if the lower age won. They
-turned out, and they lost. On the same day that Denmark abolished the chamber of
-property, it declined to let in the twenty-one-year-olds.
+Danish troops began arriving on 15 March 1946 and the last Soviet soldiers left
+Rønne harbour on **5 April**.
 
-Which leaves the story everybody tells: that the constitution scraped through
-because the country wanted Margrethe. It is plausible. It is also **not
-established**, and the standard Danish general history says in as many words that
-the speculation can be neither confirmed nor denied, and points instead at the
-opposition campaigns — Knud Kristensen's and the communists' — as the thing that
-got people out at all. The regional pattern does not settle it either: yes took
-**52.6 per cent of the electorate on the islands** against 43.6 in Copenhagen and
-41.8 in Jutland, so the islands carried it, and no one has shown that the islands
-were more monarchist than Jutland.
-
-The honest sentence is the dull one. **A constitution that abolished a parliament
-chamber, wrote down parliamentarism, opened a door to Europe and ended a colony
-passed by nineteen thousand votes, and nobody can demonstrate why the nineteen
-thousand came.**
+That sentence then governed Danish behaviour for forty years, and the interesting
+part is that it did not have to. It is a condition on a handover, in an exchange
+of notes, and it says nothing about the future. Danish governments read it as a
+standing prohibition on allied forces on Bornholm, adopted self-imposed
+restrictions on exercises there in 1953, and kept secret directives barring
+allied aircraft and ships from the island's airspace and waters. When the Soviet
+Union tried in 1952 and 1953 to stretch the commitment to cover the whole of
+Denmark, Copenhagen refused flatly — so the restrictive reading was not
+compulsion. It was choice. Denmark carried a limit into the Atlantic alliance
+that Moscow had never asked for in those terms, because a government that has
+just got an island back does not test how far the words reach.
 
 ---
 
-## The composite state, ended
+## The border Denmark did not move
 
-This book has spent forty-three chapters on a state that was never a
-nation-state, and this is the chapter where it becomes one.
+South Slesvig came back in 1945 in a way nobody had planned for.
 
-Denmark governed Skåne, Halland and Blekinge, and lost them. It governed Estonia
-and sold it. It governed Norway for four centuries and was made to hand it over.
-It governed Iceland, the Faroes and Greenland from a parenthesis in article four
-of a constitution written for somewhere else. It governed Slesvig, Holstein and
-Lauenburg under three different legal orders at once, and that arrangement
-destroyed it. It governed three islands in the Caribbean with slave labour and
-sold them for twenty-five million dollars.
+The Danish minority there had been small and beleaguered for twenty-five years.
+In May 1945 its organisation had **three thousand** members. By January 1947 it
+had **68,317**. Danish schools went from nine with 436 pupils in 1945 to
+eighty with 13,212 by 1950. At the Landtag election of 1947 the
+Danish list took **99,500 votes** — a third of the vote in Schleswig, and more
+than half among the people who had lived there before the war.
 
-The pattern never varies. **A territory, a people, and an authority — and in
-every case, two of the three fail to line up.** The authority is Danish and the
-people are not; or the people are Danish and the territory has gone; or the
-territory is held and its people are governed under a law that is not the
-kingdom's.
+That last qualification is the difficulty, and without its denominator it
+misleads. South Slesvig's population had gone from 383,000
+before the war to 703,500 by mid-1948, because Germany's expelled millions had to
+go somewhere and Schleswig-Holstein took nearly a million of them. Denmark asked
+Britain to move the refugees out, and Britain refused. The Danish-minded were a
+majority of the natives and a minority of the inhabitants.
 
-By 1953 the three roughly coincide, for the first time in the recorded history of
-the place. Iceland has gone. The Faroes legislate for themselves in listed
-fields. Slesvig's border has been fixed by the people living on it and twice
-declined when it was offered again.
+And the movement's own numbers tell a second story. Danish food relief in South
+Slesvig went from 3,700 recipients in July 1945 to **79,000 in August 1947**, a
+curve that tracks the membership curve almost exactly. The German word for it was
+*Speckdäne* — bacon Dane — and it was a slur coined at the plebiscite of 1920,
+not an observation made in 1946. But between 1947 and 1954 the Danish vote fell
+from 99,500 to **42,242**, which is fifty-seven per cent of it gone in seven
+years, and no account of that collapse that ignores the food is complete.
 
-*Roughly*, though, is doing real work in that sentence. Greenland is inside the
-constitution and was not asked. That is not the composite state ended. It is the
-composite state's last act, performed in the language of equality.
+Into this, in September 1946, came a British enquiry.
+
+It is usually described as an offer, and the primary record will not carry that.
+What survives is what a British minister told the House of Commons twice, in
+March and November 1949: that His Majesty's Government had asked the Danish
+government whether it **wished to exert itself to secure** a frontier
+rectification, with or without a plebiscite, and that Denmark had replied that it
+was not concerned with frontier rectifications and made no claim for one. That is
+an invitation to make a case, not a territory on a table; and the fuller Danish
+version — three options, including incorporation — cannot be traced to the note.
+
+Denmark's answer went back on **19 October 1946** and said no.
+
+The prime minister who sent it did not agree with it. Knud Kristensen thought the
+border should move, said so in public on Constitution Day and again at Hørsholm
+that summer, and maintained that he was entitled to hold one view as a man and
+another as a head of government. He fell for it on **4 October 1947**, on a
+motion of no confidence aimed at him personally rather than at his policy, moved
+by a party that was not even in opposition to the government's line. At the
+election three weeks later his party **gained** — and lost office anyway.
+
+Now the claim this section exists to test, which is that Denmark here refused
+territory it could have had for the first time in its history.
+
+The refusal is real. The first is not, and the true version is better. On
+**17 May 1919** the Danish envoy to the peace conference formally objected to the
+third plebiscite zone — which was **already written into the draft treaty** —
+on the ground that Denmark's strength lay in the homogeneity of its population
+and that taking the zone would plant some hundred and sixty thousand Germans
+inside the country as an outpost of Germanness. The Great Powers accepted the
+objection and struck the zone out. In 1920 the Zahle government refused to press
+for Flensburg and was destroyed for it. In May 1945 Vilhelm Buhl told the Rigsdag
+from the throne speech that Denmark's southern border lay fast. In October 1946
+Denmark told the British the same thing.
+
+That is not a first refusal. It is one doctrine, held for twenty-seven years,
+with a primary document at every node: **Denmark will not take Germans who do not
+want to be Danish** — and it was formulated, precisely, by the generation that
+had spent fifty years wanting Slesvig back. The thread that runs from Ribe in
+1460 through 1864 and 1920 does turn over here — because a country that had
+defined itself by a lost province decided twice, in 1919 and in 1946, that it did
+not want it back on the only terms available.
 
 ---
 
-## The woman at the polling station
+## Marshall aid, and the occupation's bill
 
-The constitution was signed on **5 June 1953**, the anniversary of 1849 and of
-1915, which is the kind of thing Denmark arranges.
+Denmark came out of the war solvent on paper and broke in the only currency that
+mattered.
 
-What it closed, for the purposes of this book, is a count that began on the same
-date in 1849 with a joke. The franchise of 1849 excluded the seven F's, and the
-joke lasted **sixty-six years** until 1915 let in two of them — women, and
-servants without a household of their own. The *fattige*, the third F, were not
-among them. They kept their disqualification through 1915, through the social
-reform of 1933 that was supposed to have ended it, and through the constitution
-of 1953, which merely stopped mentioning them.
+Industrial production in 1945 was about two-thirds of 1939. Agriculture did not
+regain its 1935 level until **1949**; pig and poultry production, which were the
+export earners, had been halved. And the machine that earned Denmark's living —
+butter and bacon sold to Britain — ran on imported feed and imported fuel, which
+after 1945 had to be paid for in dollars that a country selling to Britain did
+not earn. Denmark ran a trade deficit of about a billion kroner in 1946.
 
-The poor got the vote back in **1961**, with the Lov om offentlig forsorg. That
-is **forty-six years** after the women, and **a hundred and twelve years** after
-the seven F's were first counted.
+This is the point at which the phrase "the end of self-sufficiency" wants
+resisting, because Denmark had not been self-sufficient since the 1880s. It had
+imported oilcake and grain to run the dairies for two generations, and the
+decisive shift to bought-in protein feed comes in the 1960s. What changed in the
+1940s was not the dependence. It was the currency the dependence had to be
+settled in.
 
-So the last person let into Danish democracy was not let in by a constitution at
-all. They were let in by a social statute, eight years after the document that
-was supposed to have finished the job, and nobody made a speech.
+Denmark signed the Marshall agreement on **29 June 1948**. The dollar totals are
+disputed between two official Danish sources — 305 million dollars over 1948–53,
+of which 33 million in loans, on one account; 278 million on the National Bank's
+— and the disagreement is probably a period definition. The figure that shows
+what it did is in kroner.
 
+Danish importers paid for the goods in kroner, and those payments accumulated:
+about **1,700 million kroner** by the end of 1953, against an annual national
+product of about twenty-two billion. Nearly **nine hundred million of it — more
+than half — went to paying off state debt run up on the German clearing accounts
+between 1940 and 1945.**
 
-That evening the count came in at forty-five point seven six per cent, and the
-thing passed by nineteen thousand votes.
+Chapter 41 left those accounts at about three billion kroner of Danish goods
+delivered to Germany and never paid for. This is the answer to them. The occupier
+never settled the bill; the Danish state had borrowed to carry it; and the
+Americans, buying a place in western Europe, retired more than half of the debt
+the Germans had left behind. What Denmark spent the rest on was tractors: six and
+a half thousand in the late 1940s, ninety-six thousand by the late fifties.
 
 ---
 
-## Coda — Part I
-
-Part I began with a country that had just sold the last of its tropical empire
-and believed that being harmless was a policy, and it ends with one that has
-joined a military alliance, written down how to give its powers away, and stopped
-calling Greenland a colony. Fifty-four years, eight chapters, and the whole of it
-is one argument about how small a state can be and still decide things.
-
-The answer the period gives is not flattering and it is not simple. Denmark was
-right about a great deal. It was right that a country of four million could not
-fight Germany in 1940, right that a reckoning run by ordinary courts was better
-than one run by special ones, right that it should not take a province full of
-people who did not want it. It kept its Jews, its parliament and its institutions
-through an occupation that dismantled all three almost everywhere else in Europe.
-
-And it was never in control of any of the moments that mattered. The border moved
-in 1920 because Germany lost a war somebody else won. The occupation ended in 1945
-because armies that had never been to Denmark surrendered on a heath. Bornholm
-came back because Moscow decided to hand it over. Marshall aid paid off a debt
-the occupier had run up. Even the Atlantic pact was the residue of a Scandinavian
-arrangement that failed for reasons decided in Stockholm and Oslo. **The
-consistent Danish achievement of this period is not deciding events. It is
-surviving them with the machinery intact** — which turns out to be a rarer and
-more difficult thing than it sounds, and is most of why the country that comes
-out in 1953 is recognisably the one that exists now.
-
-What 1953 settles is smaller than a founding and larger than a tidying. It ends
-the composite state, more or less honestly for the Faroes and dishonestly for
-Greenland. It writes down a practice that had governed since 1901. It abolishes a
-chamber that had run out of reasons. It gives a princess a conditional place and
-the poor nothing at all. And it installs, in a paragraph nobody argued about, the
-mechanism by which Denmark would hand pieces of itself to a European community
-that did not yet exist.
-
-That is the right note to end on, because it is the note the book has been
-playing since Jelling: **a small state's history is mostly other people's
-decisions arriving, and its politics is the business of having something ready
-when they do.** In 1864 there was nothing ready. In 1940 there was a policy that
-lasted three years. In 1953 there was a clause.
-
-The book stops here because 1953 is where the machine is finished, not because
-nothing happens afterwards. Everything happens afterwards. But the Denmark that
-walks into 1973, and into the decades of arguing about Europe that follow, walks
-in through a door that a professor in Aarhus drew in 1952 and that 1,183,292
-people approved without discussing it.
-
-> **Vignette · Christiansborg, 28 May 1953**
+> **Vignette · Christiansborg, 13 November 1947**
 >
-> She is forty-one, a farmer's daughter from Hulby Møllegård outside Korsør, and
-> she is the minister of justice. She was four years old when Danish women got
-> the vote, and she read law in a country that had only just built the first
-> college where a woman student could live.
+> She is fifty-seven. She was born in Horsens to a Social Democratic household,
+> went out to domestic service after her confirmation, married in 1909, and went
+> into a telephone factory. At twenty-two she was chair of her town's branch of
+> the women workers' union. At twenty-five she was on its national board. From
+> 1937 she led the whole union — some thirty thousand women.
 >
-> She has spent two years on the constitution now going to the people. Inside
-> the commission she argued that a daughter should inherit on the same terms as
-> a son and she was beaten: the document she is carrying puts every brother
-> ahead of every sister. It will take until 2009 to undo, and she will not see
-> it.
+> She is elected to the Folketing in the autumn of 1947 and is in the cabinet
+> within weeks. She is the second woman to be a Danish minister, after Nina Bang,
+> and the first from the working class.
 >
-> She sits in the Supreme Court from 1964, the second woman to do it. In 1971
-> she becomes the **first woman judge of the European Court of Human Rights**,
-> and she holds the Danish seat there until she dies in January 1980 — after
-> which it passes to Max Sørensen, who wrote §20, and who dies in it himself
-> twenty-one months later.
+> She is a minister without portfolio, and her appointment carries a description
+> instead: *with particular regard to the interests of the homes, the
+> housekeeping and the children within social and supply matters, and to the
+> interests of self-supporting women.*
 >
-> Two Danes, one clause and one constitution between them, ending in the same
-> chair in Strasbourg.
+> It is the last clause that is interesting, because it is the one that gets
+> dropped. The state's own list of her government gives her title as three words.
+> The encyclopedias give the homes, the housekeeping and the children. The women
+> who earned their own living, who were the thirty thousand she had come from,
+> fall off the end of the sentence.
 >
-> Helga Pedersen · Christiansborg · 28 May 1953 · [f]
+> She leaves office on 16 September 1950, the day Bodil Koch is sworn in as
+> minister for the church.
+>
+> Fanny Jensen · Christiansborg · 13 November 1947 · [f]
+
+---
+
+## Iceland, the Faroes, Greenland
+
+Three territories were kept inside the Danish realm in 1849 by a parenthesis in
+article four of the constitution. Between 1944 and 1953 all three left it, and
+each left by a different door.
+
+**Iceland walked out through a clause in its own treaty.** The Act of Union of
+1918 had allowed either party to dissolve it after 1943 if revision failed, and
+Iceland held its referendum over four days in May 1944 while Denmark was
+occupied and could not negotiate anything. The result was 99.47 per cent for
+ending the union and 98.51 per cent for a republic, on a turnout near
+ninety-eight. The republic was proclaimed at Þingvellir on **17 June 1944**.
+
+Christian X had said he would not recognise a constitutional change made while
+both countries were occupied, and the Danish press argued that Iceland was
+morally obliged to wait. Then, on the day, he sent a telegram of good wishes,
+which was read out and received with four cheers for the king of Denmark. The
+Danish resentment lasted rather longer than the ceremony. Both things are true:
+Iceland used a legal clause, and it used it at the one moment when the other
+party could not answer.
+
+**The Faroes tried the same thing and were stopped.** The referendum of
+**14 September 1946** asked whether to separate, and separation won by
+**5,660 votes to 5,499** — a margin of 161, with 481 ballots spoiled, some of
+them deliberately, by Lagting members campaigning for blanks. The chairman of the
+Lagting declared independence four days later. A majority of his own assembly did
+not support him, and neither did Copenhagen.
+
+What happened next is usually called an annulment and was something more
+particular: **the king dissolved the Lagting** and called an election, and at
+that election in November the unionist parties beat the separatists 7,488 to
+5,396. The declaration fell with the assembly that had made it. Home rule
+followed, by the act of **23 March 1948**, which gave the Faroes their own
+parliament and government, their language and their flag, one list of powers
+transferred at once and a second to be negotiated later. The question was
+not answered. It was converted into an arrangement.
+
+**Greenland did not leave. It was traded over, twice, and told afterwards.**
+
+On **16 May 1945** the Rigsdag ratified the agreement Henrik Kauffmann had signed
+with the United States on 9 April 1941 — unanimously, in both chambers, with the
+king approving in council a week later. Kauffmann had signed it with no
+authority, in the king's name, as agent for a principal who could not act. His
+government had recalled him, dismissed him, issued a warrant, charged him with
+high treason and seized his property. He was reinstated as envoy on **8 May
+1945**, three days after the liberation and **eight days before the parliament
+ratified the treaty he had been charged over**, and he went on to sign the United
+Nations Charter for Denmark. The charge was not tried. It was dropped.
+
+Then, on **14 December 1946 in New York**, the American secretary of state James
+Byrnes told the Danish foreign minister that the best solution for both countries
+would be the **outright purchase of Greenland by the United States**, and handed
+him a memorandum saying so. It was the Joint Chiefs' recommendation: their first
+objective, in the words of the State Department's own record, should be to
+acquire Greenland by purchase from Denmark. Gustav Rasmussen replied that he had
+not contemplated anything so drastic and would study it. He refused seven months
+later, on 14 July 1947.
+
+None of this was public. It surfaced in 1991, when an American news agency read
+the files. So when the Folketing debated the Atlantic pact in the spring of 1949,
+it did not know that the ally it was about to acquire had lately offered to buy a
+third of the kingdom.
 
 ---
 
@@ -519,205 +517,208 @@ people approved without discussing it.
 
 ## Danish terms, by section
 
-**§01 — why**
+**§01 — the first week**
+- **retsopgøret** — the legal reckoning: the prosecution from 1945 to 1955 of
+  Danes who had served, worked for, built for or informed to the occupier. The
+  word is *settling of accounts* rather than *justice*, and it was chosen.
+- **ventegrupper** — *glossed in chapter 43 — reference, do not re-gloss.*
 
-- **45-procents-reglen** — the forty-five per cent rule: §93 of the 1915
-  constitution required a constitutional referendum's yes vote to reach at least
-  forty-five per cent of the *whole electorate*, not of those voting. It killed
-  the 1939 revision and very nearly killed this one.
-- **grundlovsændring** — *glossed in chapter 33 — reference, do not re-gloss.*
+**§02 — the law made backwards**
+- **straffelovstillægget** — the supplement to the penal code: Law 259 of 1 June
+  1945, which reached back to 9 April 1940 and restored the death penalty.
+- **tilbagevirkende kraft** — retroactive force. Danish law forbids it in §1 of
+  the penal code, which is an ordinary statute and can therefore be set aside by
+  another ordinary statute, as it was.
+- **landsskadelig virksomhed** — activity harmful to the country: the law's own
+  name for what it punished. Wider than treason, and deliberately so.
 
-**§02 — the commission**
+**§03 — who was tried**
+- **Hipokorpset** — the *Hilfspolizei*: the Danish auxiliary police raised by the
+  occupier once the Danish force had been deported. Service in it after
+  19 September 1944 was capital.
+- **den parlamentariske kommission** — the Rigsdag's inquiry of 1945 into the
+  conduct of Danish governments under the occupation, composed almost entirely of
+  members of the parties that had formed them.
+- **værnemager** — *glossed in chapter 41 — reference, do not re-gloss.*
+- **stikker** — *glossed in chapter 43 — reference, do not re-gloss.*
 
-- **Forfatningskommissionen af 1946** — the constitutional commission: appointed
-  in 1946, largely inactive until 1951, and the body that produced the draft of
-  1953. Its members were politicians; its hardest clause came from an outside
-  lawyer answering a question in writing.
+**§04 — the women**
+- **tyskerpige** — "German girl": a woman who had a relationship with a German
+  serviceman. Not an offence under any Danish or German law of the period.
+- **feltmadras** — "field mattress": the coarser word, in the illegal press from
+  1942, usually printed beside a name and an address.
+- **krigsbarn** — a war child, of a Danish mother and a German serviceman. 5,579
+  were registered, and that registration is the only hard number in the subject.
 
-**§03 — the upper house**
+**§05 — Bornholm**
+- **amtmand** — the county governor: the state's senior official in a Danish
+  county. Bornholm's stayed in post throughout the Soviet occupation, which is
+  most of what needs saying about that occupation's character.
 
-- **mindretalsreferendum** — the minority referendum: §42 of the 1953
-  constitution, by which one third of the Folketing can send a bill already
-  passed to the voters. Used once, in 1963.
-- **Landsting** — *glossed in chapter 33 — reference, do not re-gloss.*
-- **fattighjælp** — *glossed in chapter 35 — reference, do not re-gloss.*
+**§06 — the border**
+- **Sydslesvig** — South Slesvig: the part of the duchy that stayed German after
+  the plebiscites of 1920, between the new frontier and the Eider.
 
-**§04 — the succession**
+**§07 — Marshall aid**
+- **modværdimidler** — counterpart funds: the kroner Danish importers paid for
+  Marshall goods. They did not go to the Americans — they accumulated in a
+  blocked account and were released for agreed purposes.
+- **clearingkonto** — *glossed in chapter 41 — reference, do not re-gloss.*
 
-- **tronfølgeloven** — the act of succession: the statute governing who inherits
-  the throne. The one of 1953 introduced female succession *conditionally*, a
-  daughter inheriting only where there was no son.
-- **Kongeloven** — *glossed in chapter 25 — reference, do not re-gloss.*
-
-**§05 — the door**
-
-- **suverænitetsafgivelse** — the surrender of sovereignty: the Danish term for
-  what §20 permits. *Overladelse* — lending, or leaving with — is the word the
-  constitution itself uses, and the difference between the two has been argued
-  about ever since.
-- **fem sjettedele** — five sixths: the Folketing majority §20 requires, set
-  deliberately out of ordinary reach so that the alternative route — simple
-  majority plus a referendum — would be the usual one. It has been.
-
-**§06 — the realm**
-
-- **rigsfællesskabet** — the unity of the realm: the constitutional relationship
-  between Denmark, the Faroes and Greenland. Not a federation and not a union;
-  one state with parts that legislate for themselves in listed fields.
-- **landsrådet** — the Greenland council, created by the Danish state, through
-  which Greenlandic opinion was consulted in 1953 — Greenlanders having no vote
-  in the referendum itself.
-
-**§07 — what Greenland got**
-
-- **eksperimentbørnene** — the experiment children: the twenty-two Greenlandic
-  children taken to Denmark in 1951 to be raised Danish-speaking and returned as
-  an élite.
-- **Thulesagen** — the Thule case: the removal of the inhabitants of Uummannaq in
-  May 1953 to clear ground for the American air base, and the half-century of
-  litigation that followed.
-
-**§10 — the count**
-
-- **de syv F'er** — *glossed in chapters 33 and 37 — reference, do not re-gloss.*
-- **offentlig forsorg** — *glossed in chapter 40 — reference, do not re-gloss.*
+**§08 — the realm**
+- **Lagtinget** — the Faroese assembly: the body that declared independence in
+  September 1946 and was dissolved by the king for it.
+- **hjemmestyre** — home rule: an arrangement under which a territory legislates
+  for itself in a listed set of fields while the realm keeps the rest, with a
+  second list left open. The Faroes got one on 23 March 1948.
+- **forbundsloven** — *glossed in chapter 38 — reference, do not re-gloss.*
 
 ---
 
 ## Meanwhile in Europe
 
-**Bonn, 23 May 1949.** West Germany's Basic Law came into force four years and
-five days before Denmark's constitution and was built out of the opposite
-experience. Where the Danish document is short, assumes its institutions work and
-declines to give judges power over legislation, the German one is long, distrusts
-majorities on principle, entrenches human dignity in its first article, forbids
-amendment of its core, and creates a constitutional court that can strike laws
-down. Both were written by people who had watched a democracy be occupied. **One
-concluded that the danger was a state too weak to survive pressure; the other that
-it was a majority too strong to be restrained.** Denmark's confidence is the
-luxury of a country whose own institutions had not produced the catastrophe.
+**Oslo, 1945–1948.** Norway did the same thing on a different scale, and the
+comparison is the best control the subject has. Norway investigated **92,805**
+cases and convicted **46,085** people out of a population near three million;
+Denmark convicted **13,521** out of about four. Per head that is roughly four and
+a half times the Danish rate. The women's columns diverge further: Norway convicted
+**16,083 women**, Denmark **644**. Not because Norwegian women collaborated
+twenty-five times as readily — the government in exile made membership of
+Nasjonal Samling a crime in itself, and NS had tens of thousands of members of
+both sexes, while Denmark never criminalised membership of the DNSAP at all.
+Norway then executed **25 Norwegians** and twelve men of the occupying forces,
+one of them a Dane. **Where the two countries' figures differ most, they differ
+because of a drafting decision taken in London, not because of anything anybody
+did during the war.**
 
-**Strasbourg, 3 September 1953.** The European Convention on Human Rights entered
-into force three months after the Danish constitution was signed, and Denmark had
-ratified it the previous year without treating it as a constitutional event at
-all. It was a treaty, and treaties were foreign policy. The Danish constitution
-of 1953 contains no general equality clause and no power of judicial review, so
-for the next forty years the enforceable rights of Danes developed substantially
-outside their own constitution, in a court in France — where, from 1971, the
-Danish judge was Helga Pedersen, who had helped write the document that did not
-contain them.
-
----
-
-## Checkpoints
-
-**Before §04.** Where we are: a constitutional commission that sat on its hands
-for five years, a bill that had to pass two parliaments and a referendum with a
-threshold that had already killed one attempt, and an upper house that has just
-voted itself out of existence. The next section is the reason ordinary people
-had an opinion. Ask what a succession rule has to do with any of the rest of it.
-
-**Before §06.** Where we are: the Landsting gone, parliamentarism written down,
-a princess given a conditional place, and a paragraph adopted almost without
-debate that allows Denmark to hand its powers to bodies outside itself. The
-chapter now goes north. Before it does, hold one question: if Greenland is about
-to be made an equal part of the kingdom, who is being asked?
-
-**Before §09.** Where we are: a colony ended by reclassification, twenty-two
-children taken, a settlement cleared three days before the vote, and a
-constitution carried by nineteen thousand votes. Two sections remain and both
-are summings-up. Ask what, exactly, ended in 1953 — and for whom it did not.
+**Prague, 25 February 1948.** The Czechoslovak communists took the state in a
+fortnight, without an invasion and without, quite, an election; Jan Masaryk was
+found dead below his bathroom window on 10 March. Western Europe read it as proof
+that a country could be lost from the inside, and read it fast — the Brussels
+treaty was signed on 17 March. By the end of that month Denmark was inside the
+*påskekrise* — rumours, from diplomatic and intelligence sources never
+identified, that the Soviet Union was about to move on Norway and Denmark. They
+were groundless and they reached Copenhagen anyway. Hold this beside §10: the
+Scandinavian defence union was proposed in Oslo two days before Prague fell, and
+the fear that made it urgent is the fear that made it impossible.
 
 ---
 
 ## Myth-check
 
-**"The 1953 constitution was carried because Danes wanted Margrethe on the
-throne."** Possible, popular, and unproven. The succession was not a separate
-ballot — it was one clause inside the package — and the standard Danish general
-history says the speculation can be neither confirmed nor denied, pointing
-instead at the opposition campaigns as what got people to the polls at all. The
-regional pattern does not settle it: the islands carried the vote at 52.6 per
-cent of their electorate against 41.8 in Jutland, and nobody has shown the
-islands were the more monarchist. **The story may be true. It has never been
-demonstrated, and it is repeated as though it had been.**
+**"The *retsopgør* broke the constitution by making law retroactively."** No
+Danish constitution has ever forbidden retroactive criminal law. The prohibition
+is in §1 of the penal code, an ordinary statute of 1930, and the Rigsdag overrode
+it with another ordinary statute, knowingly and in public. The constitutional
+breach is the one almost nobody names: the requirement that an arrested person be
+before a judge within twenty-four hours, set aside in May 1945 for something over
+twenty thousand people with the government's knowledge. **The complaint people
+make has no constitutional basis, and the one that does is not made.**
 
-**"1953 was a democratic high point."** On the same day, on the second ballot,
-the voters kept the voting age at twenty-three rather than lowering it to
-twenty-one — and the electorate for that question was 229,300 larger than for
-the constitution, because it included the young people who would have been
-enfranchised. They came, and they were outvoted. The constitution also left the
-poor-relief disqualification in place, delegating it to statute rather than
-abolishing it.
+**"The big collaborators got away with it and the little ones were shot."** Half
+right, and the wrong half matters. Nobody was executed for collaboration: the
+death penalty attached to killing, to torture, to service in the Hipo corps and
+to informing that ended in a death, so the *værnemagere* were never in danger of
+it and were never going to be. What they escaped was prison, not the firing
+squad — which is the sharper charge, and the harder one to answer.
 
-**"The 1953 constitution abolished the loss of the vote for poor relief."** It
-did not. §29 provides that *the law shall determine* to what extent assistance
-regarded as poor relief entails loss of the vote, and that sentence is in the
-Danish constitution today. The disqualification ended in **1961**, by the Lov om
-offentlig forsorg — eight years after the constitution and forty-six years after
-women got the vote.
+**"Fifty thousand Danish women slept with German soldiers."** It is one
+historian's estimate, built outward from the 5,579 registered war children by a
+multiplier she does not set out. It may be right. It is not a count, nobody has
+produced a count, and it is repeated as though somebody had.
 
-**"§20 was written for Europe."** It was written in 1952, for the United Nations
-and the Atlantic alliance, by a professor answering a commission's letter. The
-European Economic Community did not exist. §20 fitted 1972 because it was
-drafted generally, which is an argument for careful drafting and not for
-foresight.
+**"The Soviet Union refused to leave Bornholm."** The Soviet Union left
+thirty-two days after Denmark asked. The delay was Danish: liberation on 5 May
+1945, the request on 4 March 1946, and Norway — which asked in September 1945 —
+was granted withdrawal at once. Ten months of the eleven-month occupation ran
+while Copenhagen had not yet put the question.
 
-**"Greenland stopped being a colony in 1953."** It stopped being *called* one.
-Its status changed by a clause in a constitution approved by an electorate that
-did not include Greenlanders, ratified internationally under a criterion Denmark
-itself had proposed to the UN, in the same fortnight that a Greenlandic
-settlement was cleared for an American air base. Whether that is decolonisation
-is the question §07 exists to put.
+**"In 1946 Denmark turned down the offer of South Slesvig."** What the primary
+record carries is a British enquiry whether Denmark *wished to exert itself to
+secure* a frontier rectification. That is an invitation to make a case, not a
+province on a table, and the three-option version told in Denmark cannot be
+traced to the note. The refusal is real; the offer, as usually described, is not.
+
+---
+
+## Carry-forward
+
+**→ 45.** Denmark comes out of the reckoning with an alliance question it has
+avoided since 1864 and can no longer avoid. The Scandinavian answer is tried
+first, and fails in Oslo in January 1949.
+
+**→ 45.** The condition attached to Bornholm's return — no foreign troops, no
+foreign administrators — goes into the Atlantic alliance with Denmark, unasked
+for by Moscow in those terms and enforced by Copenhagen for forty years.
+
+**→ 45.** The Faroes have home rule from 1948 and Iceland is gone. Greenland is
+still a colony in law, and the United States has already offered to buy it. What
+the constitution of 1953 does to article four is the last instalment of a debt
+opened in chapter 31.
+
+**→ 45.** The Rigsdag legislated retroactively in 1945 and knew it. Eight years
+later it writes a constitution forbidding deprivation of liberty for descent,
+religion or political conviction — and leaves the poor-relief disqualification
+standing, delegated to ordinary law.
 
 ---
 
 ## Summary
 
-The constitution of 1915 could only be replaced by a bill passing two successive
-Rigsdage and then a referendum in which the yes vote reached forty-five per cent
-of the whole electorate — a threshold that had destroyed the 1939 revision,
-which 91.85 per cent of those voting had supported. By 1949 four things wanted
-changing: an upper house whose majority had matched the lower house's since
-1936; a system of parliamentary government that had been custom since 1901 and
-was nowhere written down; a Greenland that was still a colony while the United
-Nations asked questions; and a king with three daughters and no sons under a
-royal law of 1665 that let none of them inherit.
+The police came back at ten in the morning on 13 May 1945, eight days after the
+liberation, and inherited the measurement of what had been done without them. The
+resistance had made about 21,800 arrests, from a card index into which a rumour
+in a small town could put a name, with no warrant and no magistrate. More than
+fifteen thousand were released almost at once and only about seven thousand were
+chargeable with anything. The figures in circulation do not reconcile, which is
+the point about them: nobody knows to within ten thousand how many people were
+locked up in Denmark that month.
 
-A constitutional commission appointed in 1946 did little until 1951. Its members
-included Helga Pedersen, justice minister from 1950 and the first woman to hold
-the office, who argued inside it for unconditional female succession and lost to
-a conditional version in which any brother precedes any sister. Its furthest-
-reaching clause came from outside: Max Sørensen, professor of public law at
-Aarhus, answered the commission in writing with the draft that became §20.
+The law arrived three weeks after the arrests. The Rigsdag passed the
+*straffelovstillæg* on 30 May 1945 by 127 votes, five members who opposed the
+death penalty abstaining rather than voting against; it took effect on 1 June,
+reached back to 9 April 1940, and restored a death penalty Denmark had not used
+on a civilian since 1892. The jurists won the reach-back date and the politicians
+won the clause exempting anything done before 29 August 1943 on the order of a
+lawful Danish authority. There were no special courts: ordinary judges, ordinary
+prosecutors, extraordinary law. Hal Koch published the objection that has aged
+best in November 1947 — the politicians who had urged cooperation could not
+afterwards make a crime of it.
 
-The bill passed in March 1953, went to a general election on 21 April, and came
-back to a new Rigsdag. On 13 May the Landsting voted for its own abolition at
-first reading and sat for the last time on the 15th, 104 years after it first
-met. What replaced its check was §42, by which a third of the Folketing can send
-a passed bill to the voters: used once, in 1963, on four land laws, all
-rejected. In the same document §29 stopped naming the poor and delegated their
-disqualification to ordinary legislation — which did not lift it until 1961.
+13,521 people were convicted, 12,877 men and 644 women; 103 death sentences were
+passed, 78 survived appeal, and 46 men were shot between 1946 and 1950. Every one
+of them had killed, tortured or informed in a way that cost a life, because that
+is what the statute attached the penalty to. The other column went differently:
+fifty thousand cases of building for the Wehrmacht examined, about 1,100
+convicted, half of those pardoned, and seventy-five imprisoned for a year or
+more. Wright, Thomsen & Kier were not prosecuted because they had been urged to
+take the work by Stauning. Nobody in the state was reckoned with at all. Of the
+644 convicted women, 107 were convicted of informing — a quarter of the national
+total from a group that was five per cent of those convicted — while a far larger
+number of women were punished, shorn and interned for relationships that were not
+a crime in any law of the period.
 
-On 28 May the electorate of 2,585,800 returned 1,183,292 yes and 319,135 no on a
-turnout of 59.1 per cent. Yes was 78.76 per cent of the votes cast and 45.76 per
-cent of the electorate, against a floor of 45 — a margin of **19,682 votes**.
-1939 had been far more popular and had failed; the threshold measures attendance
-rather than agreement. A second ballot the same day kept the voting age at
-twenty-three against twenty-one. The constitution was signed on 5 June 1953 and
-Denmark became unicameral, parliamentary by law, and equipped with a procedure
-for transferring sovereignty that it first used in 1972, acceding to the
-European Communities on 1 January 1973.
+Bornholm was held by the Red Army for eleven months and handed back on one
+written condition, that Denmark garrison it without foreign troops or foreign
+administrators. Denmark did not ask for the island until 4 March 1946, ten months
+after its own liberation, and the Soviet Union was gone thirty-two days later. In
+South Slesvig the Danish organisation went from three thousand members to 68,317
+and the Danish vote to 99,500, and in October 1946 Denmark declined to ask
+Britain for a frontier further south. That refusal was not the first: in 1919 the
+Danish envoy had asked the peace conference to strike out a third plebiscite zone
+already written into the draft treaty. One doctrine, twenty-seven years, a
+document at each end.
 
-Greenland ceased to be a colony by §1 of the same constitution, became a Danish
-county with two seats in the Folketing, and came off the United Nations list on
-8 September 1954 under a criterion — integration on terms of equality — that
-Denmark had itself proposed. Its twenty thousand people did not vote in the
-referendum. In 1951 twenty-two Greenlandic children had been taken to Denmark to
-be raised Danish-speaking; on 25 May 1953, three days before the vote and eleven
-before the signature, twenty-seven families of Uummannaq were told to leave to
-make room for an American air base. The composite state ended by abolishing its
-own name in the same fortnight it acted, one last time, exactly as it always had.
+Then the accounts. Industrial production in 1945 was two-thirds of 1939 and
+Denmark ran a trade deficit of about a billion kroner in 1946. The Marshall
+agreement was signed on 29 June 1948, and the kroner Danish importers paid for
+the goods accumulated to about 1,700 million by the end of 1953 — of which nearly
+nine hundred million went to retiring state debt run up on the German clearing
+accounts. The occupier never settled its bill; the Americans, buying a place in
+western Europe, retired more than half of it. In the same years Iceland left
+through a clause in its own treaty, the Faroes voted to separate by 161 votes and
+had the declaration dissolved with their assembly, and the United States offered
+in a New York hotel room to buy Greenland outright and was refused.
 
 ---
 
@@ -725,149 +726,151 @@ own name in the same fortnight it acted, one last time, exactly as it always had
 
 **Recall.**
 
-1. What did the forty-five per cent rule measure, and why did a revision
-   supported by 91.85 per cent of voters fail under it in 1939?
-2. What did §29 of the 1953 constitution do about the loss of the vote for poor
-   relief, and when did that disqualification actually end?
-3. On what date were the inhabitants of Uummannaq told to leave, and what
-   happened three days later?
+1. What date did the *straffelovstillæg* reach back to, and which acts before
+   29 August 1943 did it exempt from punishment?
+2. On what single condition did the Soviet Union leave Bornholm, and when did
+   Denmark first ask it to?
+3. What did the Marshall counterpart kroner mostly pay for in Denmark, and whose
+   debt was it?
 
 **Causal.**
 
-1. Explain why the Landsting voted for its own abolition, using what each reform
-   from 1866 to 1915 did to its composition.
-2. §20 was drafted for the United Nations and the Atlantic alliance and was used
-   for the European Communities. Set out how a clause written for one purpose
-   came to serve another, and say what in its drafting made that possible.
-3. Denmark persuaded the United Nations that Greenland had ceased to be a
-   colony. Explain the argument it used and why it succeeded.
+1. Explain why forty-six men were shot and seventy-five *værnemagere* went to
+   prison, using the statute rather than the public mood.
+2. The Danish vote in South Slesvig rose to 99,500 in 1947 and fell to 42,242 by
+   1954. Set out the available explanations, and say which of them the food
+   figures support and which they do not.
+3. Norway convicted 16,083 women and Denmark 644. Account for the difference
+   without appealing to national character.
 
 **Counterfactual.**
 
-1. Suppose 19,682 people had stayed at home on 28 May 1953. Trace what does not
-   happen — to the Landsting, to the succession, and to 1972.
-2. Suppose the commission had accepted Helga Pedersen's case for unconditional
-   female succession. Does anything else in Danish politics change, or only the
-   order of the royal line?
-3. Suppose Greenlanders had voted in the 1953 referendum. Argue what difference
-   it would have made, and then argue that it would have made none.
+1. Suppose the police had come back on 5 May rather than the 13th. What changes
+   about the arrests, and does the reckoning look different?
+2. Suppose Denmark had asked for Bornholm back in September 1945, as Norway asked
+   for Finnmark. What is gained, and what is risked?
+3. Suppose Knud Kristensen had won his confidence motion in October 1947 and
+   pressed the border question. Argue what Britain would have done, and say which
+   of your assumptions is doing the most work.
 
 **Contested.**
 
-1. Was the 1953 constitution a democratic advance? Argue it with the Landsting
-   and parliamentarism, then against it with the voting age, §29 and Greenland.
-2. A threshold counted against the whole electorate treats every abstention as a
-   no. Argue that this is the right way to protect a constitution, then that it
-   is the wrong one.
-3. Was Greenland decolonised in 1953? Make the strongest case each way, and say
-   what evidence would settle it.
+1. Was the *retsopgør* a legal proceeding or a political one? Argue both, using
+   the courts, the commission and the *værnemager* figures.
+2. Denmark punished thousands of women without charging any of them with an
+   offence. Argue that this was a failure of the law, then that it was a use of it.
+3. The Americans retired more than half of Denmark's occupation debt. Argue that
+   this was generosity, and then that it was a purchase.
 
 ---
 
 ## Sources
 
-- **The rule, and 1939.** §93 of the constitution of 1915 for the two-Rigsdag
-  requirement and the forty-five per cent floor. The 1939 figures — 966,277 yes,
-  85,717 no, 91.85 per cent of valid votes and 44.46 per cent of the electorate
-  — are the Interior Ministry's referendum tables via lex.dk, **verified for
-  chapter 40 and recorded at open item 108**; they are carried forward here, not
-  re-derived.
-- **The commission and the constitution.** danmarkshistorien.lex.dk,
-  *Grundlovsændringen 1953*, for the 1946 commission, the acceleration from
-  1951, the abolition of the Landsting, written parliamentarism, the voting age
-  and Greenland's change of status; the text of the constitution of 5 June 1953
-  for §1, §20, §29 and §42. **§29's delegating sentence was confirmed twice
-  against the current text** (danskelove.dk and the EU Fundamental Rights
-  Agency) and is in force today.
-- **The Landsting.** danmarkshistorien.lex.dk, *Landstinget i den danske Rigsdag
-  1849-1953*, for the composition at each stage — indirect election from men
-  over forty; the privileged franchise of 1866 with twelve of sixty-six royal
-  appointees; equal suffrage over thirty-five from 1915 with a quarter chosen by
-  the outgoing chamber — and for the alignment of its majority with the
-  Folketing's from 1936. **The self-abolition is dated precisely: the chamber
-  approved it at the first reading on 13 May 1953 and sat for the last time on
-  15 May.**
-- **§42 in practice.** The land-laws referendum of 25 June 1963, the only
-  occasion on which a third of the Folketing has sent a passed bill to the
-  voters; all four laws were rejected, by 61.6, 61.4, 60.4 and 57.4 per cent.
-- **The succession.** The Kongelov of 1665 for the agnatic rule (chapter 25);
-  *Dansk Kvindebiografisk Leksikon* for Helga Pedersen's argument inside the
-  commission for unconditional female succession and the conditional outcome;
-  the 2009 referendum for absolute primogeniture.
-- **§20.** *Dansk Biografisk Leksikon* and lex.dk on Max Sørensen (born 19
-  February 1913, died 11 October 1981; professor at Aarhus 1947–72) for the fact
-  that **he put the proposal for the new provision to the commission in a written
-  response**, and for his appointment as Denmark's first judge at the Court of
-  Justice of the European Communities, 1973–79. The 1972 referendum figures —
-  1,958,115 yes, 1,135,691 no of 3,093,806 valid votes, 63.3 against 36.7 per
-  cent, turnout 90.1 — are Danmarks Statistik's own fiftieth-anniversary
-  reckoning.
-- **28 May 1953.** The full returns are Nohlen and Stöver's compilation:
-  electorate 2,585,800; cast 1,527,658; yes 1,183,292; no 319,135; invalid
-  25,231; turnout 59.1 per cent. **They are used because they reconcile:
-  1,183,292 + 319,135 + 25,231 is exactly 1,527,658**, and the derived 45.76 per
-  cent matches the figure given independently by Kristeligt Dagblad and the 45.8
-  given by danmarkshistorien.lex.dk. **The 19,682-vote margin is computed here**
-  from a 45 per cent floor of 1,163,610, and reproduces the "about 20,000" that
-  the Danish sources state without showing their working. The voting-age ballot
-  — 840,815 to 700,122 on an electorate of 2,815,100 — is from the same
-  compilation; **that its electorate is 229,300 larger is the figure's own
-  arithmetic, and the inference that the difference is the twenty-one- and
-  twenty-two-year-olds is mine.**
-- **The Margrethe question.** *Gyldendal og Politikens Danmarkshistorie*,
-  "Grundlovsforslaget gennemføres", which states in terms that it is difficult to
-  confirm or deny the speculation and points at the opposition campaigns
-  instead; the regional shares (islands 52.6, Copenhagen 43.6, Jutland 41.8) are
-  from the same article. The contrary view — that the succession was decisive —
-  is argued in the Danish press and is represented here as a claim, not a
-  finding. **PLAN_I §12 expected this to hold up and it does not; see open item
-  135.**
-- **Greenland.** danmarkshistorien.lex.dk, *Grønlands afkolonisering, 1945-1954*,
-  for article 73(e), the 1946 UN enquiry, the 1948 commission and the Greenland
-  laws of 1950, the change to *amt* with two Folketing seats, the roughly twenty
-  thousand Greenlanders who did not vote and were heard through the Landsråd,
-  and the General Assembly's acceptance on 8 September 1954. **That Denmark
-  proposed the integration criterion to the UN and then used it is stated in that
-  source and is the mechanism §06 turns on.**
-- **The experiment children and Thule.** Helene Thiesen's account — taken in
-  1951 at seven, one of twenty-two, eighteen months at Red Barnet's colony at
-  Faxe Ladeplads, forbidden Greenlandic, placed afterwards in a children's home,
-  and learning what had been done from the archives in 1996 — from her published
-  interviews; Red Barnet apologised in 2015. lex.dk, *Thulesagen*, for the
-  removal announced **25 May 1953**, twenty-seven families and 116 people from
-  Uummannaq, thirteen families about 120 km north to a newly built Qaanaaq, the
-  refusals of 1954, 1959–60 and 1985, the 1995 committee finding that it had not
-  been forced, and the Eastern High Court's award in 1999 of 500,000 kroner
-  collectively and 1,265,000 individually against a claim of 235 million.
-- **The two European entries.** The German Basic Law of 23 May 1949 and the
-  European Convention on Human Rights, in force 3 September 1953, for the
-  *Meanwhile* comparisons; **Helga Pedersen sat on the European Court of Human
-  Rights from 1971 until her death in January 1980 and was its first woman
-  judge** (Council of Europe), and Max Sørensen held the Danish seat there from
-  1980 until his death in October 1981. **That the seat passed from one to the
-  other is an inference from those two date ranges**, which meet, and not a
-  statement found in either source.
+- **The internments.** lex.dk, *Interneringerne efter befrielsen 1945*: about
+  22,000 interned, more than fifteen thousand released without prosecution, about
+  nine thousand handed to the police, two thousand released at once, about seven
+  thousand chargeable. The 21,800 arrests to 13 May are Politimuseet's, and
+  *Modstandsbevægelsen i Danmark 1940-1945* gives the same total. **These do not reconcile — fifteen plus nine is
+  twenty-four — and *Gyldendal og Politikens Danmarkshistorie* puts the number
+  held by 13 May nearer 34,000.**
+- **The law.** Law 259 of 1 June 1945 and Law 260 on procedure;
+  danmarkshistorien.lex.dk's *Retsopgørets love* for §1, the reach-back, the
+  exemption for acts before 29 August 1943 done on the order of a lawful Danish
+  authority, and the later reduction of the minimum. The vote of
+  30 May 1945 — 127 for, five abstaining against the death penalty, nineteen
+  absent — from the contemporary report. Hal Koch's *Jeg anklager Rigsdagen*
+  (November 1947); Henriques's *juridisk galehus*; Svenning Rytter's objection.
+- **Who was convicted.** lex.dk, *retsopgøret i Danmark*, for the official table
+  at final instance: 13,521, being 12,877 men and 644 women; German military
+  service 7,277 (6,930 / 347); German police service 1,638; *værnemageri* 1,139
+  (1,114 / 25); informing 413 (306 / 107). 103 death sentences, 78 at final
+  instance, 46 carried out, 32 commuted.
+- **The women.** Ditlev Tamm's 107 against Anette Warring's "around four hundred
+  of the 644". **§05's reading — that the national total of 413 has been taken
+  for the women's figure — is mine, an inference and not a citation**, offered
+  because 347 plus 400 exceeds 644. Warring, *Tyskerpiger* (1994), for the
+  fifty-thousand estimate and the 5,579 registered war children; Bornholms Museum
+  for the Rønne case of 22–23 May 1945 and its trial. **That none of the eighteen women is named in any surviving record
+  while the perpetrators are is the section's own finding.**
+- **The vignette subjects.** Flemming Helweg-Larsen: the Waffen-SS recruitment,
+  the arrest of a Jewish member of parliament and the chief rabbi, the killing of
+  Carl Henrik Clemmensen at Lundtofte in August 1943, and the execution before
+  dawn on 5 January 1946. That Clemmensen's killing preceded Hitler's order of
+  30 December 1943 is chapter 43's finding. **Jens Nielsen was beheaded at Horsens on 8 November
+  1892; to 5 January 1946 is 19,415 days, computed — fifty-three years and two
+  months.** Anna Lund Lorentzen: the 1947 death sentence with nine others of her
+  unit, the commutation against her stated wish, the 1949 marriage, release in
+  1956, death in 2007. **Her unit's arrest total, six to eight hundred, is a
+  range in the sources.** Fanny Jensen: *Dansk Kvindebiografisk Leksikon* for the life and
+  the appointment formula in full; **the truncation is verifiable against
+  Statsministeriet's list of the Hedtoft government, which gives her title as
+  "Minister uden portefolje" and nothing more**, and her dates and Bodil Koch's
+  same-day appointment are from that list. **Nina Bang took office on 23 April
+  1924; computed, 8,604 days, or 23 years and 6 months.**
+- **The værnemagere.** The audit committee for German payments: fifty thousand
+  cases, a repayment duty in about ten thousand, about 1,100 convicted under the
+  *værnemagerlov* of August 1945, roughly half pardoned, seventy-five imprisoned
+  for a year or more, 318 million kroner recovered. The withdrawal of the
+  prosecution of Wright, Thomsen & Kier; Rud. Christiani's submarine pens, his
+  non-prosecution and his Dannebrog of 1954. Carl Madsen, *Vi skrev loven*.
+- **Bornholm.** The landing at Rønne on 9 May 1945, the graves at Allinge and
+  the recorded rapes; the Danish note of 4 March 1946, the Soviet reply of the
+  5th and its condition, and the departure on 5 April; Bent Jensen on the delay;
+  the restrictions of 1953, the secret directives, and the refusals of 1952 and
+  1953 to extend the commitment to the whole country. **Computed: the
+  mainland was occupied 1,852 days and Bornholm 2,187, a difference of 335; the
+  Soviet occupation ran 331 days; Denmark waited 303 days before asking, and the
+  Soviet Union was gone 32 days after the note.**
+- **South Slesvig.** Grænseforeningen and *Sønderjyllands historie* for the
+  membership, the schools, the Landtag votes of 1947 and 1954, the food relief
+  and the population. **The British enquiry is taken from Hansard rather than
+  from the Danish retellings** — the statements to the Commons in March and
+  November 1949. The Danish reply of 19 October 1946; Knud Kristensen's speeches
+  and his fall on 4 October 1947. **The Danish objection of 17 May 1919 to a
+  third zone already in the draft treaty is the node that makes 1946 a doctrine
+  rather than a first.**
+- **Marshall aid.** The agreement of 29 June 1948; the two official dollar totals, reported as a
+  disagreement rather than resolved; the counterpart
+  kroner, about 1,700 million by the end of 1953 with nearly nine hundred million
+  retiring German-clearing state debt; production, agriculture, the 1946 deficit
+  and the tractor counts. **The rejection of "the end of
+  self-sufficiency" rests on chapter 30's material.**
+- **Iceland, the Faroes, Greenland.** The Act of Union of 1918 and its revision
+  clause; the Icelandic referendum of May 1944, the proclamation at Þingvellir on
+  17 June and Christian X's telegram. The Faroese referendum of 14 September 1946, the
+  declaration, the dissolution of the Lagting, the November election and the home
+  rule act of 23 March 1948. For Greenland: the Kauffmann agreement of 9 April 1941, his
+  dismissal and charge, his reinstatement on 8 May 1945 and the unanimous
+  ratification of 16 May — **chapter 41's corrected date, recorded at open item
+  129**; the Byrnes proposal of 14 December 1946 with the Joint Chiefs'
+  recommendation in the State Department's wording, Rasmussen's refusal of 14
+  July 1947, and the surfacing of the file in 1991.
+- **The Norwegian comparison.** Store norske leksikon, *landssvikoppgjøret*:
+  92,805 cases, 46,085 convicted (30,002 men, 16,083 women), thirty death
+  sentences on Norwegians of which twenty-five were carried out, twelve on men of
+  the occupying forces. **That membership of
+  Nasjonal Samling was itself made criminal by the exile government is the
+  mechanism the entry uses.**
 
 ---
 
 ## Visit
 
-**Christiansborg, Copenhagen.** The Landsting's chamber is still there and is
-used by the Folketing's committees. Nothing in the room says that its last
-occupants voted it out of existence.
+**Bådsmandsstrædes Kaserne, Christianshavn.** The barracks where the first
+executions were carried out in 1946. It is Christiania now, which is a thing to
+know while standing in it.
 
-**Hulby Møllegård, near Korsør.** Helga Pedersen's family farm. She kept the
-connection all her life and died in Korsør in 1980.
+**Hotel Dana, Rønne.** The building is still there. Nothing marks what happened
+in it on the night of 22–23 May 1945, and no list of the eighteen women exists to
+put on a marker if anyone wanted one.
 
-**Aarhus University.** Max Sørensen's faculty. The paragraph that took Denmark
-into Europe was written in a professor's reply to a letter, in a building on this
-campus, by a man of thirty-nine.
+**Allinge kirkegård, Bornholm.** Thirty Soviet soldiers are buried there. None of
+them was killed in fighting on the island.
 
-**Qaanaaq, Greenland.** Built in 1953 for people who had not asked to move. It is
-about 120 kilometres north of where they had lived, and it is still there, and so
-is the air base.
+**Flensborghus, Flensburg.** The Danish minority's house, in the town Denmark
+twice declined to ask for. The library and the archive of the Sydslesvigsk
+Forening are in it, and both are open.
 
-**Jelling.** Where the book began, and where a king cut into a stone that he had
-made the Danes Christian and won all of Denmark for himself. It took another
-thousand and sixteen years to work out who the Danes were and where Denmark
-stopped.
+**Christiansborg, Copenhagen.** The Rigsdag that passed the retroactive statute
+on 30 May 1945 sat here, and so did the parliamentary commission that examined
+its own parties and impeached nobody.

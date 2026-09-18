@@ -848,21 +848,20 @@ HAND = {
  ),
  42: dict(
    file='c42_body.html',
-   part='Part I', band='The small state', num=42, dates='1943 – 1945',
-   title='Rupture, rescue, resistance',
-   people='Werner Best · Georg Ferdinand Duckwitz · Ellen Wilhelmine Nielsen · '
-          'Kim Malthe-Bruun · Kaj Munk · Mogens Fog',
+   part='Part I', band='The small state', num=42, dates='1943',
+   title='1943: the year the policy broke',
+   people='Werner Best \u00b7 Georg Ferdinand Duckwitz \u00b7 Ellen Wilhelmine Nielsen \u00b7 '
+          'Paul Aron Sandfort \u00b7 Vice Admiral Vedel \u00b7 Christian 10.',
    hook="The cooperation policy was ratified in March 1943 by the largest turnout in "
         "Danish history and was finished by the end of August, and what broke it was a "
         "strike. Three weeks after the government stopped functioning the occupier moved "
         "against the Jews of Denmark, on the stated ground that there was no longer a "
-        "government to lose. Most of them were across the Sound within a fortnight. What "
-        "was left behind governed the country until the liberation.",
-   keys=['augustoprøret 1943', '29. august 1943', 'flådens sænkning',
-         'departementschefstyret', 'jødeaktionen 1943', 'Theresienstadt',
-         'Danmarks Frihedsråd', 'SOE og nedkastningerne', 'Hvidstengruppen',
-         'clearingmord', 'schalburgtage', 'folkestrejken 1944', 'Shellhuset',
-         'Bornholm, maj 1945'],
+        "government to lose. Most of them were across the Sound within a fortnight, and "
+        "the year ended with a council nobody had elected claiming to speak for the "
+        "country.",
+   keys=['augustopr\u00f8ret 1943', '29. august 1943', 'fl\u00e5dens s\u00e6nkning',
+         'departementschefstyret', 'j\u00f8deaktionen 1943', 'Theresienstadt',
+         'Horser\u00f8d og Stutthof', 'Danmarks Frihedsr\u00e5d'],
    qs=["The German ultimatum of 28 August 1943 made one demand that was about Danes "
        "rather than about Germans. What was it, and what would signing it have committed "
        "the Danish state to?",
@@ -871,99 +870,127 @@ HAND = {
        "Four hundred and seventy-two people were deported and about seven thousand "
        "crossed to Sweden. Which of those two numbers is a count and which is an "
        "estimate, and how can you tell?",
-       "The Danish resistance had no weapons in 1943 and about sixty thousand armed "
-       "people in May 1945. Where did they come from?",
-       "Ten Danes were killed when 387 buildings were destroyed in Rønne and Nexø on 7 "
-       "and 8 May 1945. Explain the number."],
+       "Christian 10. declined to sign his government's resignation. What did that deny "
+       "the occupier, and what did it cost?",
+       "What was Danmarks Frihedsr\u00e5d, who recognised it, and what did it have "
+       "instead of a mandate?"],
    figs=[("s04", "SVG_OKTOBER",
-          "Figure 1 · October 1943: to Sweden, to Theresienstadt, and the difference",
+          "Figure 1 \u00b7 October 1943: to Sweden, to Theresienstadt, and the difference",
           "An estimate and a count, drawn differently on purpose. The 472 is a nominal "
           "count from the transport registration lists and is drawn filled; the crossing "
           "to Sweden is an estimate and is drawn open, with the range in circulation as a "
           "whisker. The spread on the larger number is wider than the whole of the "
-          "smaller one."),
-         ("s08", "SVG_SABOTAGE",
-          "Figure 2 · Sabotage by year, 1940 – 1945",
+          "smaller one.")],
+ ),
+ 43: dict(
+   file='c43_body.html',
+   part='Part I', band='The small state', num=43, dates='1943 \u2013 1945',
+   title='The underground and the liberation',
+   people='Monica Wichfeld \u00b7 Kim Malthe-Bruun \u00b7 Kaj Munk \u00b7 '
+          'Kristian L. Rasmussen \u00b7 G\u00fcnther Pancke \u00b7 Mogens Fog',
+   hook="The resistance had no weapons in 1943 and about sixty thousand armed people by "
+        "May 1945, and every gun came from outside. What it did with them was mostly not "
+        "fight: it blew up factories and railways, absorbed a counter-terror aimed at "
+        "prominent Danes rather than at saboteurs, stopped the capital for a fortnight "
+        "over a curfew, and then waited. In September 1944 the occupier deported the "
+        "Danish police and handed the underground five thousand trained men.",
+   keys=['SOE og nedkastningerne', 'ventegrupper', 'Hvidstengruppen',
+         'clearingmord', 'schalburgtage', 'folkestrejken 1944',
+         'politiaktionen 19. september 1944', 'vagtv\u00e6rn', 'Shellhuset',
+         'Bornholm, maj 1945'],
+   qs=["Where did the Danish resistance's weapons come from, and what did delivering "
+       "them cost the air forces that dropped them?",
+       "What was a clearingmord, where does the word come from, and how did the occupier "
+       "make Danish newspapers reinforce it?",
+       "What did the People's Strike of June 1944 obtain, and what did it demonstrate "
+       "that was not among its demands?",
+       "The Danish police were deported in September 1944. Why, on the occupier's own "
+       "reasoning, and what did it hand the resistance?",
+       "Ten Danes were killed when 387 buildings were destroyed in R\u00f8nne and Nex\u00f8 "
+       "on 7 and 8 May 1945. Explain the number."],
+   figs=[("s02", "SVG_SABOTAGE",
+          "Figure 1 \u00b7 Sabotage by year, 1940 \u2013 1945",
           "The annual series, because no monthly one is reachable. The 1945 column is "
           "four months. The industrial column adds to its own published total exactly and "
           "the railway column overshoots its own by one, which is marked on the figure "
           "rather than averaged away."),
-         ("s09", "SVG_FOLKESTREJKE",
-          "Figure 3 · The People's Strike, 22 June – 5 July 1944",
-          "An axis in days. The two dates the sources do not agree on — when the "
-          "curfew was imposed and when the city went back to work — are drawn as "
+         ("s03", "SVG_FOLKESTREJKE",
+          "Figure 2 \u00b7 The People's Strike, 22 June \u2013 5 July 1944",
+          "An axis in days. The two dates the sources do not agree on \u2014 when the "
+          "curfew was imposed and when the city went back to work \u2014 are drawn as "
           "bands rather than ticks.")],
  ),
- 43: dict(
-   file='c43_body.html',
-   part='Part I', band='The small state', num=43, dates='1944 – 1949',
-   title='Settling accounts and choosing a side',
-   people='Hal Koch · Carl Madsen · Knud Kristensen · Gustav Rasmussen · '
-          'Hans Hedtoft · Fanny Jensen',
-   hook="The occupier deported the Danish police in September 1944, and for seven and a "
-        "half months the country was watched over by municipal guards with a citizen's "
-        "powers and no firearms. When the liberation came the arrests were made by an "
-        "organisation that had no legal existence, and the law to try people under was "
-        "written three weeks afterwards and reached back five years. Forty-six men were "
-        "shot. Seventy-five went to prison for building the German war. Then Denmark had "
-        "to decide which side of a new division it was on.",
-   keys=['politiaktionen 19. september 1944', 'vagtværn', 'retsopgøret',
-         'straffelovstillægget 1945', 'dødsstraffens genindførelse',
-         'værnemagersagerne', 'tyskerpiger', 'Bornholm 1945-46',
-         'Sydslesvig efter 1945', 'Marshallhjælpen', 'Islands løsrivelse 1944',
-         'den færøske folkeafstemning 1946', 'skandinavisk forsvarsforbund',
-         'Atlantpagten 1949'],
-   qs=["The Danish police were deported in September 1944 and came back in May 1945. "
-       "What was policing Denmark in between, and what was it not allowed to do?",
-       "The law under which Denmark tried collaborators was passed after most of the "
+ 44: dict(
+   file='c44_body.html',
+   part='Part I', band='The small state', num=44, dates='1944 \u2013 1948',
+   coda_part='Part I', coda_span='1901 \u2013 1955',
+   title='The reckoning, and the accounts',
+   people='Flemming Helweg-Larsen \u00b7 Anna Lund Lorentzen \u00b7 Fanny Jensen \u00b7 '
+          'Hal Koch \u00b7 Carl Madsen \u00b7 Knud Kristensen',
+   hook="The reckoning began before the law did. An organisation with no legal existence "
+        "arrested about twenty-two thousand people in eight days, and two in three of "
+        "them turned out to be chargeable with nothing; the statute to try them under was "
+        "passed three weeks later and reached back five years. Forty-six men were shot. "
+        "Seventy-five went to prison for building the German war. Then Denmark totted up "
+        "what the occupation had actually cost, and somebody else paid it.",
+   keys=['retsopg\u00f8ret', 'straffelovstill\u00e6gget 1945',
+         'd\u00f8dsstraffens genindf\u00f8relse', 'v\u00e6rnemagersagerne',
+         'tyskerpiger', 'Bornholm 1945-46', 'Sydslesvig efter 1945',
+         'Marshallhj\u00e6lpen', 'Islands l\u00f8srivelse 1944',
+         'den f\u00e6r\u00f8ske folkeafstemning 1946'],
+   qs=["The law under which Denmark tried collaborators was passed after most of the "
        "arrests had been made. What did it reach back to, and what did it exempt?",
        "Forty-six men were executed and seventy-five people went to prison for a year or "
        "more for building for the Wehrmacht. Explain the difference using the statute.",
+       "Why can nobody say to within ten thousand how many people were interned in "
+       "Denmark in May 1945?",
        "On what condition did the Soviet Union leave Bornholm in 1946, and how did Danish "
-       "governments read that condition for the next forty years?",
+       "governments read that condition afterwards?",
        "Denmark declined a frontier further south in 1946. Was that the first time a "
        "Danish government refused territory it could have had?"],
-   figs=[("s04", "SVG_DOMME",
-          "Figure 1 · What the 13,521 convictions were for",
+   figs=[("s03", "SVG_DOMME",
+          "Figure 1 \u00b7 What the 13,521 convictions were for",
           "The official table at final instance, by category, with the women's share "
           "drawn inside each bar. Service in the German forces is more than half of the "
           "whole reckoning. Informing is 413 convictions in the entire country, which is "
-          "the figure §05 needs and the one usually misquoted."),
-         ("s06", "SVG_BORNHOLM",
-          "Figure 2 · Bornholm: occupied 335 days longer",
+          "the figure \u00a704 needs and the one usually misquoted."),
+         ("s05", "SVG_BORNHOLM",
+          "Figure 2 \u00b7 Bornholm: occupied 335 days longer",
           "Two bars on one axis in days, computed from the dates rather than from any "
           "source's rounding. The mainland's occupation ran 1,852 days; Bornholm's ran "
           "2,187, of which the last 331 were Soviet. The gap between the Danish request "
           "and the Soviet departure is 32 days, and is marked."),
-         ("s07", "SVG_SYDSLESVIG",
-          "Figure 3 · South Slesvig: members, meals and votes, 1945–1954",
+         ("s06", "SVG_SYDSLESVIG",
+          "Figure 3 \u00b7 South Slesvig: members, meals and votes, 1945\u20131954",
           "Three series that are not on one scale and are not drawn as though they were. "
           "Each is indexed to its own first reading, and the food line is dashed because "
           "its endpoints are two years apart from the others'. The argument is the shape, "
           "not the levels.")],
  ),
- 44: dict(
-   file='c44_body.html',
-   part='Part I', band='The small state', num=44, dates='1949 \u2013 1955',
+ 45: dict(
+   file='c45_body.html',
+   part='Part I', band='The small state', num=45, dates='1948 \u2013 1955',
    coda_part='Part I', coda_span='1901 \u2013 1955',
-   title='1953: the new constitution and the modern realm',
-   people='Helga Pedersen \u00b7 Max S\u00f8rensen \u00b7 Frederik 9. \u00b7 '
-          'Helene Thiesen \u00b7 Hans Hedtoft \u00b7 Erik Eriksen',
-   hook="A constitution could only be replaced if forty-five per cent of everyone on the "
-        "register voted for it, and in 1939 a revision that ninety-two per cent of voters "
-        "supported had died of the people who stayed at home. In 1953 a less popular "
-        "proposal cleared the same bar by nineteen thousand votes. It abolished the upper "
-        "house, wrote down parliamentary government, gave a princess a conditional place, "
-        "stopped calling Greenland a colony, and installed the paragraph through which "
-        "Denmark would walk into Europe twenty years later.",
-   keys=['45-procents-reglen', 'Forfatningskommissionen af 1946',
+   title='Choosing a side, and the constitution',
+   people='Max S\u00f8rensen \u00b7 Helga Pedersen \u00b7 Gustav Rasmussen \u00b7 '
+          'Hans Hedtoft \u00b7 Helene Thiesen \u00b7 Frederik 9.',
+   hook="Denmark spent 1948 trying not to choose, and the Scandinavian answer failed in "
+        "Oslo in January 1949 because Sweden would not join a bloc tied to the west and "
+        "Norway would not join one that was not. Ten weeks later Denmark signed the "
+        "Atlantic pact. Four years after that it replaced a constitution by nineteen "
+        "thousand votes \u2014 abolishing the upper house, writing down parliamentary "
+        "government, giving a princess a place behind every brother, and installing the "
+        "paragraph it would walk through into Europe in 1973.",
+   keys=['skandinavisk forsvarsforbund', 'Atlantpagten 1949',
+         '45-procents-reglen', 'Forfatningskommissionen af 1946',
          'Landstingets afskaffelse', 'parlamentarisme i grundloven',
          'betinget kvindelig arvef\u00f8lge', 'grundlovens \u00a7 20',
-         'suver\u00e6nitetsafgivelse', 'Gr\u00f8nland som amt 1953',
-         'eksperimentb\u00f8rnene 1951', 'Thulesagen 1953',
-         'folkeafstemningen 28. maj 1953', 'valgretsalderen 23 \u00e5r',
+         'Gr\u00f8nland som amt 1953', 'eksperimentb\u00f8rnene 1951',
+         'Thulesagen 1953', 'folkeafstemningen 28. maj 1953',
          'grundloven af 5. juni 1953'],
-   qs=["A revision supported by 91.85 per cent of those who voted failed in 1939 and one "
+   qs=["Why did the Scandinavian defence union fail, and what did each of the three "
+       "governments want that the other two could not give?",
+       "A revision supported by 91.85 per cent of those who voted failed in 1939 and one "
        "supported by 78.76 per cent passed in 1953. What was the rule, and what was it "
        "actually measuring?",
        "The Landsting voted for its own abolition. What had each reform since 1866 done "
@@ -971,23 +998,21 @@ HAND = {
        "\u00a7 20 was drafted in 1952 for the United Nations and the Atlantic alliance. "
        "How did it come to be the clause Denmark joined the European Communities under?",
        "Greenland stopped being a colony in 1953. Who decided that, and who was not "
-       "asked?",
-       "The 1953 constitution is usually said to have ended the loss of the vote for poor "
-       "relief. What did it actually do, and when did that disqualification end?"],
-   figs=[("s03", "SVG_LANDSTING",
+       "asked?"],
+   figs=[("s05", "SVG_LANDSTING",
           "Figure 1 \u00b7 The Landsting, 1849\u20131953: who chose it",
           "Three franchise regimes on one axis, every span computed from its two dates "
           "rather than from anybody's rounding. The chamber's life runs constitution to "
           "constitution, 5 June 1849 to 5 June 1953 \u2014 exactly 104 years; its last "
           "sitting is three weeks earlier."),
-         ("s08", "SVG_GULV",
+         ("s10", "SVG_GULV",
           "Figure 2 \u00b7 1939 and 1953 against the forty-five per cent floor",
           "Each bar is the whole electorate, because that is the denominator the rule "
           "used. The third block is everyone who did not vote yes or no, which a "
           "threshold on the electorate treats as a no. The 1939 electorate is not "
           "published in any source reached and is derived from its own percentage; it is "
           "drawn hatched and labelled as derived."),
-         ("s10", "SVG_TOBILLETTER",
+         ("s12", "SVG_TOBILLETTER",
           "Figure 3 \u00b7 Two ballots, one Thursday",
           "The same day, two questions and two different registers. The voting-age ballot "
           "was open to 229,300 more people than the constitutional one, because it was "

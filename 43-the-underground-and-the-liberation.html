@@ -4,15 +4,205 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>43 · The underground and the liberation, 1943–1945</title>
-<style>{{STYLE}}</style>
+<style>
+
+  :root{
+    --ground:#E4E7E4; --paper:#F0F2EE; --peat:#221E18; --muted:#6C6E63;
+    --rule:#C9CDC4; --verdigris:#2E6B5E; --amber:#A9601C; --oxblood:#8A2B2B; --indigo:#2F4C7A; --slate:#4F6470; --moss:#4A5A46; --band:#4A5A46;
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua","URW Palladio L",Georgia,serif;
+    --mono:"IBM Plex Mono",ui-monospace,"SF Mono",SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0;background:var(--ground);color:var(--peat);
+    font-family:var(--serif);font-size:17.5px;line-height:1.68;text-rendering:optimizeLegibility}
+  .wrap{max-width:790px;margin:0 auto;padding:0 28px}
+  a{color:var(--verdigris)}
+  a:focus-visible{outline:2px solid var(--amber);outline-offset:3px}
+  p{margin:0 0 1.05em}
+
+  .crumb{border-bottom:1px solid var(--rule);background:rgba(228,231,228,.94)}
+  .crumb-in{max-width:1000px;margin:0 auto;padding:10px 28px;display:flex;gap:14px;
+    font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+  .crumb-in b{color:var(--band);font-weight:600}
+
+  header.hd{padding:62px 0 0}
+  .eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.22em;text-transform:uppercase;
+    color:var(--amber);margin:0 0 20px}
+  h1{font-size:clamp(34px,6.4vw,58px);line-height:1.02;margin:0;font-weight:400;letter-spacing:-.022em}
+  .dates{font-family:var(--mono);font-size:13px;letter-spacing:.1em;color:var(--muted);margin:18px 0 0}
+  .why{font-size:20px;margin:22px 0 0;max-width:62ch}
+  .keys{display:flex;flex-wrap:wrap;gap:6px;margin:26px 0 0;padding:0;list-style:none}
+  .keys li{font-family:var(--mono);font-size:10.5px;letter-spacing:.03em;color:var(--muted);
+    border:1px solid var(--rule);border-radius:2px;padding:3px 8px}
+
+  h2{font-size:27px;font-weight:400;letter-spacing:-.015em;margin:56px 0 4px;line-height:1.2}
+  h2 .n{font-family:var(--mono);font-size:12px;color:var(--band);letter-spacing:.1em;
+    display:block;margin:0 0 8px;font-weight:600}
+  h3{font-size:19px;font-weight:600;margin:34px 0 6px;letter-spacing:-.008em}
+  .kicker{font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;
+    color:var(--amber);margin:56px 0 8px}
+  hr.div{border:0;border-top:1px solid var(--rule);margin:52px 0 0}
+  i.dk{font-style:italic}
+
+  /* per-section glossary */
+  .terms{background:var(--paper);border-left:3px solid var(--band);padding:16px 20px;margin:22px 0 28px}
+  .terms h4{font-family:var(--mono);font-size:10px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--band);margin:0 0 12px;font-weight:600}
+  .terms dl{margin:0;display:grid;grid-template-columns:1fr 1fr;gap:10px 26px}
+  .terms dl.one{grid-template-columns:1fr}
+  .terms .t{min-width:0}
+  .terms dt{font-family:var(--mono);font-size:12.5px;color:var(--peat);font-weight:600;
+    letter-spacing:.01em;line-height:1.4}
+  .terms dd{margin:2px 0 0;font-size:15px;color:var(--muted);line-height:1.5}
+
+  ol.qs{margin:0;padding:0;list-style:none;counter-reset:q}
+  ol.qs li{counter-increment:q;position:relative;padding:0 0 0 34px;margin:0 0 10px;font-size:18px}
+  ol.qs li::before{content:counter(q);position:absolute;left:0;top:2px;font-family:var(--mono);
+    font-size:11px;color:var(--amber);font-weight:600}
+
+  .meanwhile{background:var(--paper);border-left:3px solid var(--verdigris);padding:20px 22px;margin:30px 0}
+  .meanwhile h4{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--verdigris);margin:0 0 10px;font-weight:600}
+  .meanwhile p{font-size:16px;margin:0 0 .8em}
+  .meanwhile p:last-child{margin:0}
+
+  .myth{background:var(--paper);border-left:3px solid var(--oxblood);padding:20px 22px;margin:26px 0}
+  .myth h4{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--oxblood);margin:0 0 12px;font-weight:600}
+  .myth dl{margin:0}
+  .myth dt{font-weight:600;font-size:16.5px;margin:16px 0 3px}
+  .myth dt:first-child{margin-top:0}
+  .myth dd{margin:0;font-size:16px;color:var(--muted)}
+
+  ul.calls{list-style:none;margin:0;padding:0;border-top:1px solid var(--rule)}
+  ul.calls li{display:flex;gap:18px;padding:12px 0;border-bottom:1px solid var(--rule);align-items:baseline}
+  ul.calls b{font-family:var(--mono);font-size:11px;letter-spacing:.06em;color:var(--band);
+    width:74px;flex:none;font-weight:600}
+  ul.calls span{font-size:16px;color:var(--muted)}
+
+  ol.five{list-style:none;margin:0;padding:0;counter-reset:f}
+  ol.five li{counter-increment:f;background:var(--paper);border-left:2px solid var(--band);
+    padding:15px 18px;margin:0 0 2px;display:flex;gap:14px;align-items:baseline}
+  ol.five li::before{content:counter(f,decimal-leading-zero);font-family:var(--mono);font-size:11px;
+    color:var(--band);font-weight:600;flex:none}
+  ol.five p{margin:0;font-size:16.5px}
+
+  .qgroup{margin:0 0 26px}
+  .qlabel{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--amber);margin:0 0 4px;font-weight:600}
+  .qnote{font-size:14.5px;color:var(--muted);margin:0 0 10px}
+  .qgroup ul{margin:0;padding:0 0 0 20px}
+  .qgroup li{margin:0 0 8px;font-size:16.5px}
+
+  figure{margin:34px 0;background:var(--paper);padding:20px 20px 16px;border-top:2px solid var(--band)}
+  figure svg{width:100%;height:auto;display:block}
+  figcaption{font-size:14.5px;color:var(--muted);margin:14px 0 0;line-height:1.55}
+  figcaption b{font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;
+    color:var(--peat);display:block;margin:0 0 5px;font-weight:600}
+  .mapt{font-family:var(--mono);font-size:9.5px;fill:#5F6157;letter-spacing:.04em}
+  .mapl{font-family:var(--mono);font-size:10.5px;fill:#3C3E36;letter-spacing:.06em;font-weight:600}
+  .mapx{font-family:var(--mono);font-size:8.5px;fill:#4A4C44;letter-spacing:.04em}
+
+  ul.plain{list-style:none;margin:0;padding:0;border-top:1px solid var(--rule)}
+  ul.plain li{display:flex;gap:20px;padding:12px 0;border-bottom:1px solid var(--rule);
+    align-items:baseline;flex-wrap:wrap}
+  ul.plain .nm{font-family:var(--mono);font-size:12px;letter-spacing:.03em;width:200px;flex:none;
+    color:var(--verdigris)}
+  ul.plain .ds{font-size:15.5px;color:var(--muted);flex:1;min-width:230px}
+
+  footer{margin:70px 0 0;padding:22px 0 64px;border-top:1px solid var(--rule);
+    font-family:var(--mono);font-size:11px;letter-spacing:.06em;color:var(--muted)}
+
+  @media (max-width:720px){
+    body{font-size:16.5px}
+    .wrap{padding:0 20px}
+    .crumb-in{padding:10px 20px;gap:10px;font-size:9.5px}
+    header.hd{padding:40px 0 0}
+    h2{font-size:24px;margin-top:44px}
+    figure{padding:14px 12px 12px}
+    .terms dl{grid-template-columns:1fr;gap:11px}
+    ul.calls li{flex-direction:column;gap:2px}
+    ul.calls b{width:auto}
+    ul.plain li{flex-direction:column;gap:3px}
+    ul.plain .nm{width:auto}
+  }
+
+  html{scroll-behavior:smooth}
+  @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+  h2[id],div.myth[id]{scroll-margin-top:24px}
+
+  /* fixed section index, wide screens only */
+  .rail{position:fixed;top:88px;left:calc(50% - 605px);width:170px;z-index:30;
+    max-height:calc(100vh - 130px);overflow-y:auto;scrollbar-width:thin}
+  .rail-h{font-family:var(--mono);font-size:9.5px;letter-spacing:.18em;text-transform:uppercase;
+    color:var(--amber);margin:0 0 10px;font-weight:600}
+  .rail ol{list-style:none;margin:0;padding:0;border-left:1px solid var(--rule)}
+  .rail li{margin:0}
+  .rail a{display:flex;gap:7px;align-items:baseline;text-decoration:none;color:var(--muted);
+    font-family:var(--mono);font-size:10.5px;line-height:1.35;letter-spacing:.01em;
+    padding:5px 0 5px 11px;margin-left:-1px;border-left:2px solid transparent}
+  .rail a:hover{color:var(--peat)}
+  .rail .rn{color:var(--band);font-weight:600;flex:none;width:13px}
+  .rail a.active{color:var(--peat);border-left-color:var(--amber);font-weight:600}
+  .rail a.active .rn{color:var(--amber)}
+  @media (max-width:1239px){.rail{display:none}}
+
+  /* collapsible contents, narrow screens only */
+  .toc{display:none;background:var(--paper);border-left:3px solid var(--band);
+    padding:12px 18px;margin:34px 0 0}
+  .toc summary{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--band);font-weight:600;cursor:pointer}
+  .toc ol{margin:12px 0 2px;padding:0 0 0 20px}
+  .toc li{margin:0 0 5px;font-size:15.5px}
+  @media (max-width:1239px){.toc{display:block}}
+
+  /* people vignette */
+  .vig{background:var(--paper);border-left:3px solid var(--amber);padding:20px 22px;margin:30px 0}
+  .vig h4{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--amber);margin:0 0 10px;font-weight:600}
+  .vig p{font-size:16.5px;margin:0 0 .85em}
+  .vig p:last-child{margin:0}
+  .vig .who{font-family:var(--mono);font-size:11px;letter-spacing:.05em;color:var(--muted);
+    margin:12px 0 0;font-style:normal}
+  @media print{.rail{display:none}.toc{display:none}.vig{background:#fff}}
+
+  /* mid-page retrieval checkpoint — deliberately unfilled, so it reads as a pause, not a box */
+  .check{border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);
+    padding:15px 0 14px;margin:32px 0}
+  .check h4{font-family:var(--mono);font-size:10px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--muted);margin:0 0 9px;font-weight:600}
+  .check ul{margin:0;padding:0 0 0 19px}
+  .check li{font-size:15.5px;color:var(--muted);margin:0 0 5px;line-height:1.5}
+  .check li:last-child{margin:0}
+  @media print{.check{border-color:#ccc}}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+  @media print{.crumb{display:none}body{background:#fff}figure,.meanwhile,.myth,.terms,ol.five li{background:#fff}}
+
+</style>
 </head>
 <body>
 
 <div class="crumb"><div class="crumb-in">
+  <span><a href="danish-history-index.html#c43" style="color:var(--band);font-weight:600;text-decoration:none">← Index</a></span>
   <span><b>Part I</b> · The small state</span><span>Chapter 43</span><span>1943 – 1945</span>
 </div></div>
 
-{{RAIL}}
+<nav class="rail" aria-label="Sections of this page"><p class="rail-h">On this page</p><ol>
+<li><a href="#intro"><span class="rn"></span>Introduction</a></li>
+<li><a href="#s01"><span class="rn">01</span>How the underground was armed</a></li>
+<li><a href="#s02"><span class="rn">02</span>Sabotage, and the counter-terror</a></li>
+<li><a href="#s03"><span class="rn">03</span>The People's Strike, June 1944</a></li>
+<li><a href="#s04"><span class="rn">04</span>Shellhus</a></li>
+<li><a href="#s05"><span class="rn">05</span>4 May 1945 — and Bornholm</a></li>
+<li><a href="#s06"><span class="rn">06</span>The policeless country</a></li>
+<li><a href="#myth"><span class="rn"></span>Myth-check</a></li>
+<li><a href="#forward"><span class="rn"></span>What to carry forward</a></li>
+<li><a href="#summary"><span class="rn"></span>The page in five</a></li>
+<li><a href="#questions"><span class="rn"></span>Questions &amp; discussion</a></li>
+<li><a href="#sources"><span class="rn"></span>Sources</a></li>
+<li><a href="#visit"><span class="rn"></span>Places you can visit</a></li>
+</ol></nav>
 
 <div class="wrap">
 
@@ -26,7 +216,21 @@
   </ul>
 </header>
 
-{{TOC}}
+<details class="toc"><summary>Contents</summary><ol>
+<li><a href="#intro">Introduction</a></li>
+<li><a href="#s01">How the underground was armed</a></li>
+<li><a href="#s02">Sabotage, and the counter-terror</a></li>
+<li><a href="#s03">The People's Strike, June 1944</a></li>
+<li><a href="#s04">Shellhus</a></li>
+<li><a href="#s05">4 May 1945 — and Bornholm</a></li>
+<li><a href="#s06">The policeless country</a></li>
+<li><a href="#myth">Myth-check</a></li>
+<li><a href="#forward">What to carry forward</a></li>
+<li><a href="#summary">The page in five</a></li>
+<li><a href="#questions">Questions &amp; discussion</a></li>
+<li><a href="#sources">Sources</a></li>
+<li><a href="#visit">Places you can visit</a></li>
+</ol></details>
 
 <p class="kicker">Introduction</p>
 <h2 id="intro" style="margin-top:0"><span class="n">WHAT THIS PAGE ANSWERS</span>Five questions</h2>
@@ -80,6 +284,15 @@
 <p class="who">Kim Malthe-Bruun · Ryvangen · 6 April 1945 · [n]</p>
 </div>
 
+<div class="check">
+  <h4>Checkpoint</h4>
+  <ul>
+    <li>Where did the resistance's weapons come from, and what did the deliveries cost the air forces that made them?</li>
+    <li>What were the ventegrupper, roughly how many people did they number, and what were they told to do?</li>
+    <li>Industrial sabotage went from 73 actions in three years to 816 in one. What changed?</li>
+  </ul>
+</div>
+
 <h2 id="s02"><span class="n">02 / NARRATIVE</span>Sabotage, and the counter-terror</h2>
 
 <div class="terms">
@@ -122,7 +335,52 @@
 </div>
 
 <figure>
-{{SVG_SABOTAGE}}
+<svg viewBox="0 0 700 388" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Sabotage actions in Denmark by period. Industrial sabotage: seventy-three in 1940 to 1942 together, 816 in 1943, 988 in 1944 and 924 in the four months of 1945. Railway sabotage: two, 111, 311 and 1,103 over the same periods.">
+  <rect x="0" y="0" width="700" height="388" fill="#F4F1EA"/>
+  <text x="14" y="24" class="mapl">SABOTAGE BY YEAR, 1940 - 1945</text>
+  <text x="14" y="40" class="mapt">industrial and railway actions, as the compilers counted them</text>
+  <text x="14" y="62" class="mapx" opacity=".75">The graph does not rise. It starts - and then the railways overtake.</text>
+  <line x1="58" y1="264.0" x2="674" y2="264.0" stroke="#5F6157" stroke-width=".5" opacity=".45"/>
+  <text x="52" y="268.0" class="mapx" text-anchor="end" opacity=".7">0</text>
+  <line x1="58" y1="225.9" x2="674" y2="225.9" stroke="#5F6157" stroke-width=".5" opacity=".45"/>
+  <text x="52" y="229.9" class="mapx" text-anchor="end" opacity=".7">250</text>
+  <line x1="58" y1="187.8" x2="674" y2="187.8" stroke="#5F6157" stroke-width=".5" opacity=".45"/>
+  <text x="52" y="191.8" class="mapx" text-anchor="end" opacity=".7">500</text>
+  <line x1="58" y1="149.8" x2="674" y2="149.8" stroke="#5F6157" stroke-width=".5" opacity=".45"/>
+  <text x="52" y="153.8" class="mapx" text-anchor="end" opacity=".7">750</text>
+  <line x1="58" y1="111.7" x2="674" y2="111.7" stroke="#5F6157" stroke-width=".5" opacity=".45"/>
+  <text x="52" y="115.7" class="mapx" text-anchor="end" opacity=".7">1,000</text>
+  <rect x="86.8" y="252.9" width="46.2" height="11.1" fill="#8C5A3C" opacity=".88"/>
+  <text x="104.3" y="247.9" class="mapx" style="fill:#8C5A3C">73</text>
+  <rect x="137.0" y="263.7" width="46.2" height="0.3" fill="#2F4C7A" opacity=".88"/>
+  <text x="157.3" y="258.7" class="mapx" style="fill:#2F4C7A">2</text>
+  <text x="106.4" y="284" class="mapt" style="fill:#2A2A28">1940 - 42</text>
+  <rect x="240.8" y="139.7" width="46.2" height="124.3" fill="#8C5A3C" opacity=".88"/>
+  <text x="255.5" y="134.7" class="mapx" style="fill:#8C5A3C">816</text>
+  <rect x="291.0" y="247.1" width="46.2" height="16.9" fill="#2F4C7A" opacity=".88"/>
+  <text x="305.7" y="242.1" class="mapx" style="fill:#2F4C7A">111</text>
+  <text x="276.3" y="284" class="mapt" style="fill:#2A2A28">1943</text>
+  <rect x="394.8" y="113.5" width="46.2" height="150.5" fill="#8C5A3C" opacity=".88"/>
+  <text x="409.5" y="108.5" class="mapx" style="fill:#8C5A3C">988</text>
+  <rect x="445.0" y="216.6" width="46.2" height="47.4" fill="#2F4C7A" opacity=".88"/>
+  <text x="459.7" y="211.6" class="mapx" style="fill:#2F4C7A">311</text>
+  <text x="430.3" y="284" class="mapt" style="fill:#2A2A28">1944</text>
+  <rect x="548.8" y="123.3" width="46.2" height="140.7" fill="#8C5A3C" opacity=".88"/>
+  <text x="563.5" y="118.3" class="mapx" style="fill:#8C5A3C">924</text>
+  <rect x="599.0" y="96.0" width="46.2" height="168.0" fill="#2F4C7A" opacity=".88"/>
+  <text x="608.0" y="91.0" class="mapx" style="fill:#2F4C7A">1,103</text>
+  <text x="581.1" y="284" class="mapt" style="fill:#2A2A28">1945*</text>
+  <line x1="58" y1="264" x2="674" y2="264" stroke="#2A2A28" stroke-width=".9"/>
+  <text x="14.0" y="86" class="mapx" style="fill:#5F6157">railway column adds to 1,527, published total 1,526</text>
+  <rect x="14.0" y="300.0" width="14" height="8" fill="#8C5A3C" opacity=".88"/>
+  <text x="34.0" y="308.0" class="mapx" opacity=".9">industrial sabotage</text>
+  <rect x="163.0" y="300.0" width="14" height="8" fill="#2F4C7A" opacity=".88"/>
+  <text x="183.0" y="308.0" class="mapx" opacity=".9">railway sabotage</text>
+  <text x="14" y="328" class="mapx" opacity=".85">* 1945 is FOUR MONTHS, to the capitulation on 5 May. Read as a year it understates the last winter by a factor of three.</text>
+  <text x="14" y="341" class="mapx" opacity=".85">The industrial column adds to its own published total of 2,801 exactly. The railway column adds to 1,527 against a</text>
+  <text x="14" y="354" class="mapx" opacity=".85">published 1,526, and the missing one is marked rather than averaged away: a series quietly adjusted to its own total is</text>
+  <text x="14" y="367" class="mapx" opacity=".85">worth less than one that has not been.</text>
+  </svg>
 <figcaption><b>Figure 1 · Sabotage by year, 1940 – 1945</b>
 The annual series, because no monthly one is reachable. The 1945 column is four months. The industrial column adds to its own published total exactly and the railway column overshoots its own by one, which is marked on the figure rather than averaged away.</figcaption>
 </figure>
@@ -153,7 +411,64 @@ The annual series, because no monthly one is reachable. The 1945 column is four 
 <p>What was actually won was not on the list of demands. A body with no legal existence had told a capital city to stop and it stopped, and told it to start and it started. The elected mayors and the trade union leadership had asked for the same thing three days earlier and been ignored. From the first week of July 1944 the question of who governed Denmark had an answer, and it was not the permanent secretaries.</p>
 
 <figure>
-{{SVG_FOLKESTREJKE}}
+<svg viewBox="0 0 700 369" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The Copenhagen People's Strike on an axis of days from 22 June to 5 July 1944, from the destruction of Riffelsyndikatet to the return to work, with the disputed curfew date and the disputed return date drawn as bands.">
+  <rect x="0" y="0" width="700" height="369" fill="#F4F1EA"/>
+  <text x="14" y="24" class="mapl">THE PEOPLE'S STRIKE, JUNE - JULY 1944</text>
+  <text x="14" y="40" class="mapt">an axis in days: the two disputed dates are bands, not ticks</text>
+  <text x="14" y="62" class="mapx" opacity=".75">A city stopped when a council with no legal existence asked it to.</text>
+  <rect x="235.1" y="146" width="341.4" height="12" fill="#2E6B5E" opacity=".30"/>
+  <rect x="576.5" y="146" width="97.5" height="12" fill="#2E6B5E" opacity=".14"/>
+  <rect x="186.3" y="134" width="48.8" height="7" fill="#5F6157" opacity=".35"/>
+  <line x1="40.0" y1="158" x2="674.0" y2="158" stroke="#5F6157" stroke-width=".8"/>
+  <line x1="40.0" y1="158" x2="40.0" y2="166" stroke="#5F6157" stroke-width=".6"/>
+  <text x="23.1" y="180" class="mapx" opacity=".8">22 Jun</text>
+  <line x1="88.8" y1="158" x2="88.8" y2="162" stroke="#5F6157" stroke-width=".6"/>
+  <line x1="137.5" y1="158" x2="137.5" y2="166" stroke="#5F6157" stroke-width=".6"/>
+  <text x="120.6" y="180" class="mapx" opacity=".8">24 Jun</text>
+  <line x1="186.3" y1="158" x2="186.3" y2="162" stroke="#5F6157" stroke-width=".6"/>
+  <line x1="235.1" y1="158" x2="235.1" y2="166" stroke="#5F6157" stroke-width=".6"/>
+  <text x="218.2" y="180" class="mapx" opacity=".8">26 Jun</text>
+  <line x1="283.8" y1="158" x2="283.8" y2="162" stroke="#5F6157" stroke-width=".6"/>
+  <line x1="332.6" y1="158" x2="332.6" y2="166" stroke="#5F6157" stroke-width=".6"/>
+  <text x="315.7" y="180" class="mapx" opacity=".8">28 Jun</text>
+  <line x1="381.4" y1="158" x2="381.4" y2="162" stroke="#5F6157" stroke-width=".6"/>
+  <line x1="430.2" y1="158" x2="430.2" y2="166" stroke="#5F6157" stroke-width=".6"/>
+  <text x="413.3" y="180" class="mapx" opacity=".8">30 Jun</text>
+  <line x1="478.9" y1="158" x2="478.9" y2="162" stroke="#5F6157" stroke-width=".6"/>
+  <line x1="527.7" y1="158" x2="527.7" y2="166" stroke="#5F6157" stroke-width=".6"/>
+  <text x="513.6" y="180" class="mapx" opacity=".8">2 Jul</text>
+  <line x1="576.5" y1="158" x2="576.5" y2="162" stroke="#5F6157" stroke-width=".6"/>
+  <line x1="625.2" y1="158" x2="625.2" y2="166" stroke="#5F6157" stroke-width=".6"/>
+  <text x="611.2" y="180" class="mapx" opacity=".8">4 Jul</text>
+  <line x1="674.0" y1="158" x2="674.0" y2="162" stroke="#5F6157" stroke-width=".6"/>
+  <line x1="40.0" y1="132" x2="40.0" y2="158" stroke="#9A3B2E" stroke-width="1.8"/>
+  <line x1="88.8" y1="132" x2="88.8" y2="158" stroke="#2A2A28" stroke-width="1.8"/>
+  <line x1="235.1" y1="132" x2="235.1" y2="158" stroke="#2E6B5E" stroke-width="1.8"/>
+  <line x1="381.4" y1="132" x2="381.4" y2="158" stroke="#2A2A28" stroke-width="1.8"/>
+  <line x1="430.2" y1="132" x2="430.2" y2="158" stroke="#2E6B5E" stroke-width="1.8"/>
+  <line x1="478.9" y1="132" x2="478.9" y2="158" stroke="#9A3B2E" stroke-width="1.8"/>
+  <line x1="527.7" y1="132" x2="527.7" y2="158" stroke="#2F4C7A" stroke-width="1.8"/>
+  <text x="12.0" y="200" class="mapx" style="fill:#9A3B2E">22 Jun  BOPA destroys Riffelsyndikatet</text>
+  <text x="12.0" y="214" class="mapx" style="fill:#2A2A28">23 Jun  eight resistance men executed</text>
+  <text x="133.7" y="228" class="mapx" style="fill:#2E6B5E">26 Jun  Burmeister and Wain walk out</text>
+  <text x="260.3" y="200" class="mapx" style="fill:#2A2A28">29 Jun  the Hvidsten eight shot at Ryvangen</text>
+  <text x="306.3" y="214" class="mapx" style="fill:#2E6B5E">30 Jun  executions announced; general strike</text>
+  <text x="346.6" y="228" class="mapx" style="fill:#9A3B2E">1 Jul  state of siege; water, gas and power cut</text>
+  <text x="392.6" y="242" class="mapx" style="fill:#2F4C7A">2 Jul  mayors and unions appeal, and are ignored</text>
+  <text x="129.1" y="104" class="mapx" style="fill:#5F6157">curfew imposed: 25 or 26 June</text>
+  <text x="547.2" y="104" class="mapx" style="fill:#5F6157">back to work: 3 to 5 July</text>
+  <rect x="14.0" y="268.0" width="14" height="8" fill="#2E6B5E" opacity=".30"/>
+  <text x="34.0" y="276.0" class="mapx" opacity=".9">the strike</text>
+  <rect x="110.3" y="268.0" width="14" height="8" fill="#2E6B5E" opacity=".14"/>
+  <text x="130.3" y="276.0" class="mapx" opacity=".9">the return to work, not settled</text>
+  <rect x="324.8" y="268.0" width="14" height="8" fill="#5F6157" opacity=".35"/>
+  <text x="344.8" y="276.0" class="mapx" opacity=".9">the curfew's disputed start</text>
+  <text x="14" y="296" class="mapx" opacity=".85">Two dates in this fortnight are not settled and both are drawn as bands. The curfew is imposed on 25 or 26 June</text>
+  <text x="14" y="309" class="mapx" opacity=".85">depending on the source. The return to work is 3 July on one standard account, an order on the 4th obeyed on the 5th on</text>
+  <text x="14" y="322" class="mapx" opacity=".85">another, and the 5th on the site that publishes the Council's own appeals - and which does not publish the text of the</text>
+  <text x="14" y="335" class="mapx" opacity=".85">final proclamation, which is why the question is open. On 1 July alone 23 people were killed and 203 wounded; over the</text>
+  <text x="14" y="348" class="mapx" opacity=".85">whole strike more than 100 were killed and more than 600 wounded. The single-day pair rests on one source.</text>
+  </svg>
 <figcaption><b>Figure 2 · The People's Strike, 22 June – 5 July 1944</b>
 An axis in days. The two dates the sources do not agree on — when the curfew was imposed and when the city went back to work — are drawn as bands rather than ticks.</figcaption>
 </figure>
@@ -161,6 +476,15 @@ An axis in days. The two dates the sources do not agree on — when the curfew w
 <div class="meanwhile">
 <h4>Meanwhile · Warsaw, 1 August 1944.</h4>
 <p>While Copenhagen was two weeks past a general strike that won a curfew back, the Polish Home Army rose against the German garrison in Warsaw and fought for sixty-three days in the expectation of Soviet help that did not come. About two hundred thousand people died and the city was demolished street by street afterwards. The Danish waiting groups, armed by the same British organisation, were told to wait, and waited, and came out on 5 May 1945 to direct traffic. Both decisions were taken by resistance leaderships with a claim to speak for their nations. Only one of those nations still had its capital in 1945.</p>
+</div>
+
+<div class="check">
+  <h4>Checkpoint</h4>
+  <ul>
+    <li>What is a clearingmord, and where does the word come from?</li>
+    <li>What did the People's Strike of June 1944 obtain, and what did it demonstrate that was not among its demands?</li>
+    <li>Why did the occupier deport the Danish police in September 1944, on its own stated reasoning?</li>
+  </ul>
 </div>
 
 <h2 id="s04"><span class="n">04 / NARRATIVE</span>Shellhus</h2>
@@ -207,6 +531,15 @@ An axis in days. The two dates the sources do not agree on — when the curfew w
 <p>On the afternoon of 9 May five Soviet motor torpedo boats put a hundred men into Rønne harbour and the German garrison surrendered without resistance. The main force, some seven and a half thousand men, arrived from Kolberg on the 11th. They stayed eleven months.</p>
 
 <p>Danish radio was not permitted to broadcast news of the bombing of Rønne and Nexø. The reason given was that it would spoil the liberation.</p>
+
+<div class="check">
+  <h4>Checkpoint</h4>
+  <ul>
+    <li>Why was the Gestapo headquarters in Copenhagen bombed, and what else was hit?</li>
+    <li>Bornholm was bombed on 7 and 8 May 1945, after the rest of Denmark was free. Why, and why were only ten Danes killed?</li>
+    <li>Danish radio was not allowed to report the bombing of Rønne and Nexø. On what ground?</li>
+  </ul>
+</div>
 
 <h2 id="s06"><span class="n">06 / NARRATIVE</span>The policeless country</h2>
 
@@ -352,10 +685,39 @@ An axis in days. The two dates the sources do not agree on — when the curfew w
 </ul>
 
 <footer>
-  Chapter 43 · Part I · 1943 – 1945
+  Chapter 43 · Part I · 1943 – 1945 &middot; <a href="danish-history-index.html#c43">back to the index</a>
 </footer>
 
 </div>
-{{JS}}
+<script>
+(function(){
+  var links = Array.prototype.slice.call(document.querySelectorAll('.rail a'));
+  var map = {};
+  links.forEach(function(a){ map[a.getAttribute('href').slice(1)] = a; });
+  var targets = Object.keys(map).map(function(id){ return document.getElementById(id); })
+                 .filter(Boolean);
+  if(!('IntersectionObserver' in window) || !targets.length) return;
+  var seen = {};
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){ seen[e.target.id] = e.isIntersecting ? e.boundingClientRect.top : null; });
+    var best = null;
+    targets.forEach(function(t){
+      var r = t.getBoundingClientRect();
+      if(r.top <= 140) best = t.id;
+    });
+    if(!best) best = targets[0].id;
+    links.forEach(function(a){ a.classList.remove('active'); });
+    if(map[best]) map[best].classList.add('active');
+  }, {rootMargin:'-120px 0px -70% 0px', threshold:[0,1]});
+  targets.forEach(function(t){ io.observe(t); });
+  window.addEventListener('scroll', function(){
+    var best = null;
+    targets.forEach(function(t){ if(t.getBoundingClientRect().top <= 140) best = t.id; });
+    if(!best) best = targets[0].id;
+    links.forEach(function(a){ a.classList.remove('active'); });
+    if(map[best]) map[best].classList.add('active');
+  }, {passive:true});
+})();
+</script>
 </body>
 </html>

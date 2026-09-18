@@ -538,6 +538,32 @@ faster. It was arithmetic, not conversion, and the chapter says so.
 
 ---
 
+
+> **SUPERSEDED BY THE BOUNDARY PASS — HANDOFF item 136.** Sections 10, 11 and 12
+> below planned chapters 42, 43 and 44 as three chapters covering 1943–1955. They
+> were drafted, built and measured that way, and chapter 42 came out at 56
+> minutes — outside the band. **The run was then repartitioned into FOUR chapters
+> at the material's own seams**, which is what decision 2.7 and item 128 reserved:
+>
+> ```
+> 42  1943: the year the policy broke         6 sections   36 min
+> 43  The underground and the liberation      6 sections   36 min
+> 44  The reckoning, and the accounts         8 sections   43 min
+> 45  Choosing a side, and the constitution  13 sections   45 min
+> ```
+>
+> **The book is 45 chapters.** The section lists in §§10–12 are the planning
+> record and no longer describe any built chapter; the built section lists are in
+> `build_part_i.py`'s CFG and in the drafts. **The three-way cut was shown to be
+> impossible rather than merely unattractive:** 32 sections and 15,697 narrative
+> words, with a measured ~5,000 page words of apparatus per chapter, puts at least
+> one of any three chapters at 65 minutes.
+>
+> The partition cost three vignettes that did not exist — 42[n] Paul Aron
+> Sandfort, 43[f] Monica Wichfeld, 43[-] Kristian L. Rasmussen — because nine do
+> not divide into four chapters each needing [f], [n] and [-]. Fanny Jensen moved
+> from "4 April 1949" to "Marshall aid", where her 1947 appointment belonged.
+
 ## 10. Chapter 42 — 1943–1945: rupture, rescue, resistance, 1943–1945
 
 | § | section | weight |

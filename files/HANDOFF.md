@@ -36,9 +36,9 @@ written — see Lessons.
 | F | 21–24 | 1536–1660 | **built, reviewed, revised, closed; online** |
 | G | 25–31 | 1660–1814 | **built, reviewed, revised; all seven round-trip clean** |
 | H | 32–36 | 1814–1901 | **built, verified, indexed, closed — see `PLAN_H.md`** |
-| I | 37–44 | 1901–1955 | **ALL EIGHT BUILT, VERIFIED AND INDEXED — the book is drafted.** 44 built at 8,503 page words / 40 min, first build, no length surgery. **42 remains OUTSIDE the 25–50 band at 11,684 / 56**; 43 is inside it by four words. Both trip decision 2.7 and **the Part I boundary pass — item 128 — is now unblocked and is the next task** |
+| I | 37–45 | 1901–1955 | **NINE CHAPTERS, ALL BUILT, VERIFIED AND INDEXED. The boundary pass is done — item 136 — and item 128 is CLOSED.** The 1943–1955 run was repartitioned from three chapters into four at the material's own seams; no chapter in the part is outside the 25–50 band |
 
-**BOOK COMPLETE: 44 of 44, 330,473 page words, 26.2 h; 0 remaining.**
+**BOOK COMPLETE AND REPARTITIONED: 45 of 45, 333,337 page words, 26.5 h; 0 remaining.**
 Read off `bookstats.py` after `linkindex.py`, not carried forward — see item 112.
 The previous figure, 42 of 44 at 311,456 and 24.7 h, is superseded; note that the
 State block above carried 311,351 for it, which was the pre-`linkindex.py` number
@@ -60,9 +60,10 @@ Part I as built:
 39  Deflation, Landmandsbanken, the first government 7,455 page (36 min)  3L/4M/3H
 40  Depression, Stauning, the welfare state's seeds  8,358 page (40 min)  3L/5M/3H
 41  9 April 1940 and samarbejdspolitikken            8,707 page (41 min)  4L/4M/3H
-42  Rupture, rescue, resistance                     11,684 page (56 min)  1M/8H/2 OVER
-43  Settling accounts and choosing a side           10,514 page (50 min)  1L/5M/5H
-44  1953: the new constitution and the modern realm  8,503 page (40 min)  4L/5M/1H + coda
+42  1943: the year the policy broke                  7,508 page (36 min)
+43  The underground and the liberation               7,659 page (36 min)
+44  The reckoning, and the accounts                  9,044 page (43 min)
+45  Choosing a side, and the constitution            9,354 page (45 min) + coda
 ```
 
 Chapter 41 is the only one outside the 40-minute advisory of decision 2.1 (Part
@@ -3745,6 +3746,93 @@ split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see it
    Sources 904 words against the ~965 norm, where chapter 43's first assembly
    came in at 1,991 and had to be cut twice. **Chapter 44 needed no length
    surgery at all** — 8,503 page words, 40 minutes, first build.
+136. **The Part I boundary pass is done. Item 128 is closed. The book is 45
+   chapters and every one of them is inside the band.**
+
+   Carsten chose four chapters over three, on measured grounds: the run 42–44 was
+   32 sections and 15,697 narrative words, and **no three-way cut works**, because
+   each apparatus set costs a measured ~5,000 page words and three chapters means
+   ~5,230 narrative each — at least one chapter at 65 minutes whatever the seams.
+   Four lands them all at 36 to 45.
+
+   ```
+   42  1943: the year the policy broke        6 sec   7,508 page (36 min)
+   43  The underground and the liberation     6 sec   7,659 page (36 min)
+   44  The reckoning, and the accounts        8 sec   9,044 page (43 min)
+   45  Choosing a side, and the constitution 13 sec   9,354 page (45 min)
+   ```
+
+   **Book: 45 of 45, 333,337 page words, 26.5 h. No chapter in parts D to I is
+   outside the 25–50 band.** Chapter 42's 56 minutes, which has been the open
+   complaint since it was built, is gone.
+
+   **THE SEAMS ARE THE MATERIAL'S.** 1943 ends where the occupation stops being a
+   policy and becomes an organisation — the Freedom Council constituting itself.
+   The second chapter runs from the arming to the liberation and **takes the
+   police deportation of 19 September 1944 back from the reckoning**, where it had
+   been put only because the May 1945 arrests need it; chronologically it belongs
+   with the occupation's last year. The third ends with the accounts rather than
+   the choice. The fourth is the choice and its constitution.
+
+   **THE PARTITION BROKE D-9 IN THREE CHAPTERS OF FOUR, AND THAT WAS NOT IN THE
+   COSTING I GAVE.** Nine vignettes do not divide into four chapters that each
+   need `[f]`, `[n]` and `[-]`. One fix was free: **Fanny Jensen moved from "4
+   April 1949" to "Marshall aid"**, which is where her November 1947 appointment
+   and her household-supply portfolio belonged anyway. The other three had to be
+   researched and written from nothing:
+
+   - **42[n] Paul Aron Sandfort** — born Paul Efim Rabinowitsch in Hamburg in
+     1930, brought to Copenhagen in 1936 to get him away from Germany, trumpet in
+     the Tivoli Boys' Guard; caught fleeing to Sweden, Horserød on 4 October 1943,
+     Theresienstadt on the 13th at thirteen, into the ghetto orchestra and more
+     than fifty performances of *Brundibár*; out on the Red Cross buses on 15
+     April 1945. **He escaped Germany as a small boy and Denmark sent him back
+     into it at thirteen.**
+   - **43[f] Monica Wichfeld** — born Massy-Beresford in London in 1894, married
+     to a Lolland landowner, running the underground's weapons work on
+     Lolland-Falster from early 1943. Taken at Engestofte in January 1944,
+     condemned in May, **refused to petition for mercy** and gave way only for her
+     family, writing it in English on lavatory paper. Died at Waldheim on 27
+     February 1945; her grave has never been found.
+   - **43[-] Kristian L. Rasmussen** — an Odense policeman taken on 19 September
+     1944, Frøslev to Neuengamme to Buchenwald, who kept a forbidden diary of
+     weather, rations and the dead, and one entry recording **fourteen hundred
+     Jews arriving from Auschwitz, a hundred already dead**. Neither resistance
+     nor collaborator, in a camp for the uniform a Danish state had told him it
+     was responsible to wear.
+
+   **Sandfort and Rasmussen speak across the new seam** — one goes into
+   Theresienstadt, the other watches Auschwitz arrive — which is what a partition
+   at the material's own joints produces rather than something arranged.
+
+   **Two new *Meanwhile* entries were needed and both earn their place.** Rome,
+   16 October 1943: the community raised fifty kilograms of gold and delivered it
+   **at midday on 28 September — the same day Duckwitz warned Hedtoft** — and was
+   taken anyway; 1,259 seized, sixteen came back, against Denmark's 7,400 across
+   the water. *That the two events fall on one day is arithmetic on two separately
+   sourced dates and is flagged in Sources as such.* And Norway's Milorg: forty
+   thousand trained and supplied by 8 May 1945, held back for the same reason and
+   used at the liberation to keep order — the direct Scandinavian control for the
+   waiting groups.
+
+   **FIFTEEN FORWARD ARROWS AND SIX PROSE REFERENCES WERE RE-TARGETED
+   INDIVIDUALLY, AND THE NUMBER WAS NEVER THE ANSWER.** A `→ 42` in chapter 41
+   pointing at "who listened, and how they were armed" now goes to **43**, because
+   the arming moved; a `→ 43` about Fanny Jensen goes to **44**, because she did;
+   a `→ 43` about Iceland and the Faroes goes to **44**. Item 101's rule held:
+   every one was read before it was changed, and a blanket increment would have
+   been wrong on at least four of them.
+
+   **The assertions did their job four times.** A title replacement was lost
+   because a *later* assertion in the same script failed before the write — which
+   is the behaviour wanted, not a bug. Three edits failed to match because the
+   phrase spanned a line break, and were re-matched against the real text rather
+   than forced. The confirmation pass is whitespace-normalised, per item 69.
+
+   **What did not change:** the prose. 33 sections in, 33 out, none duplicated or
+   dropped, asserted on assembly. The only prose written for this pass is the
+   three vignettes, two *Meanwhile* entries, four carry-forward sets, four
+   summaries and the questions — apparatus, not argument.
 ---
 
 ## Convention D-12: draft prose is never written through a shell heredoc

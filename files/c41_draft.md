@@ -352,7 +352,7 @@ its own police to arrest Danes for a foreign power without legal authority, and
 its own War Ministry to guarantee the pensions of Danes going to fight for that
 power. After the war it prosecuted the second group under laws passed afterwards
 and gave about three thousand three hundred of them two to four years. The
-retroactive justice of chapter 43 is usually explained as something the
+retroactive justice of chapter 44 is usually explained as something the
 liberation forced on a country with no other way to deal with what it found. It
 was not new. The Rigsdag had already written a retroactive criminal statute, by a
 unanimous vote, in August 1941, to cover an illegality its own police had
@@ -661,19 +661,19 @@ a strike and not an election.
 in August 1943 and the men in it go east. The Jews of Denmark, untouched while the
 occupier judged the cost too high, are next.
 
-**→ 42.** Two Danish voices with a claim to speak for the country, one cooperating
-in Copenhagen and one in London telling people to stop. Chapter 42 is about who
+**→ 43.** Two Danish voices with a claim to speak for the country, one cooperating
+in Copenhagen and one in London telling people to stop. Chapter 43 is about who
 listened to the second, and how they were armed.
 
-**→ 43.** The *retsopgør*'s instrument is a retroactive criminal law, and the
+**→ 44.** The *retsopgør*'s instrument is a retroactive criminal law, and the
 Rigsdag wrote one in 1941 against communists — while its War Ministry promised the
 men of Frikorps Danmark their places back.
 
-**→ 43.** Iceland leaves in 1944 and the Faroes vote in 1946, and both began in
+**→ 44.** Iceland leaves in 1944 and the Faroes vote in 1946, and both began in
 the two days after 9 April 1940. Denmark ratifies Kauffmann's Greenland treaty on
 16 May 1945, four years after charging him with treason for making it.
 
-**→ 44.** The constitution of 1953 forbids depriving anyone of liberty for
+**→ 45.** The constitution of 1953 forbids depriving anyone of liberty for
 political conviction. The Rigsdag that voted for it had voted for the Communist
 Law twelve years earlier.
 

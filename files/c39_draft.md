@@ -635,9 +635,9 @@ depression of the 1930s.
 **→ 41.** Munch's argument that Denmark could not fight is tested on 9 April
 1940.
 
-**→ 43.** Denmark's second woman minister, Fanny Jensen, takes office in 1947.
+**→ 44.** Denmark's second woman minister, Fanny Jensen, takes office in 1947.
 
-**→ 44.** The Landsting, where the disarmament bill of the 1920s stopped, is
+**→ 45.** The Landsting, where the disarmament bill of the 1920s stopped, is
 abolished in 1953.
 
 ---

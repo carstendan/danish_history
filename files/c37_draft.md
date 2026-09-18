@@ -209,7 +209,7 @@ minority — and a voting age lowered in stages rather than at a stroke. The
 constitution names twenty-five; the first rolls were drawn at twenty-nine. For
 the Landsting it stayed at thirty-five, with a quarter of the chamber still
 chosen by the outgoing chamber: the last conservative ballast in the Danish
-constitution, and chapter 44 will throw it overboard.
+constitution, and chapter 45 will throw it overboard.
 
 The proposal passed, the Rigsdag was dissolved, an election was held on 7 May
 1915, and the new Rigsdag passed it again. In December, Højre wound itself up and

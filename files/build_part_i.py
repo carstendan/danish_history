@@ -266,121 +266,112 @@ CFG = {
         "the government concede about the constitutionality of doing so?"]),
     ]),
  42: dict(
-    name='42-rupture-rescue-resistance.html',
+    name='42-1943-the-year-the-policy-broke.html',
     body='c42_body.html',
-    svgs={'SVG_OKTOBER': 'svg_oktober_1943.txt',
-          'SVG_SABOTAGE': 'svg_sabotage_1945.txt',
-          'SVG_FOLKESTREJKE': 'svg_folkestrejke_1944.txt'},
+    svgs={'SVG_OKTOBER': 'svg_oktober_1943.txt'},
     sec=[("s01", "01", 'The strikes of August'),
          ("s02", "02", '29 August: the fleet'),
          ("s03", "03", 'The warning'),
          ("s04", "04", 'Three weeks in October'),
          ("s05", "05", 'Those who did not get away'),
-         ("s06", "06", 'Danmarks Frihedsråd'),
-         ("s07", "07", 'How the underground was armed'),
-         ("s08", "08", 'Sabotage, and the counter-terror'),
-         ("s09", "09", "The People's Strike, June 1944"),
-         ("s10", "10", 'Shellhus'),
-         ("s11", "11", '4 May 1945 — and Bornholm')],
+         ("s06", "06", 'Danmarks Frihedsråd')],
     checks=[
       ("The warning", [
-        "What did the German ultimatum of 28 August 1943 demand, and why did the Danish "
-        "government say it could not comply?",
-        "Christian 10. declined to sign his government's resignation. What did that deny "
-        "the occupier?",
-        "How many ships of the Danish navy were scuttled on 29 August 1943, how many "
-        "reached Sweden, and who gave the order?"]),
-      ("How the underground was armed", [
-        "In his telegram of 8 September 1943, what reason did Werner Best give for acting "
-        "against Denmark's Jews at that moment rather than later?",
-        "How many people were deported from Denmark to Theresienstadt, how many arrived, "
-        "and how many returned?",
-        "What was Danmarks Frihedsråd, who recognised it, and what share of the "
-        "liberation government did it take?"]),
-      ("4 May 1945 — and Bornholm", [
-        "Where did the Danish resistance's weapons come from, and what did delivering "
-        "them cost the air forces that dropped them?",
-        "What was a clearingmord, where does the word come from, and how did the occupier "
-        "make Danish newspapers reinforce it?",
-        "What did the People's Strike of June 1944 obtain, and what did it demonstrate "
-        "that was not among its demands?"]),
+        "The strikes of August 1943 were called by nobody and could be stopped by nobody. What did that prove to the occupier, and what did it prove to the Danish government?",
+        "Christian 10. refused to sign his government\'s resignation on 28 August. What did that deny the occupier?",
+        "How many ships of the Danish navy were scuttled on 29 August 1943, how many reached Sweden, and who gave the order?"]),
+      ("Those who did not get away", [
+        "In his telegram of 8 September 1943, what reason did Werner Best give for acting against Denmark\'s Jews at that moment rather than later?",
+        "Who warned whom on 28 September 1943, and how did the warning reach the congregation?",
+        "About 7,400 people crossed the Sound. What did most of them pay, and why does that make the story better rather than worse?"]),
+      ("Danmarks Frihedsr", [
+        "How many people were deported from Denmark to Theresienstadt, how many arrived, and how many returned?",
+        "About a hundred and fifty Danish communists went from Horserød to Stutthof on 2 October 1943. Who had interned them, and under what law?",
+        "What did the Freedom Council have instead of a mandate, and who recognised it?"]),
     ]),
  43: dict(
-    name='43-settling-accounts-and-choosing-a-side.html',
+    name='43-the-underground-and-the-liberation.html',
     body='c43_body.html',
+    svgs={'SVG_SABOTAGE': 'svg_sabotage_1945.txt',
+          'SVG_FOLKESTREJKE': 'svg_folkestrejke_1944.txt'},
+    sec=[("s01", "01", 'How the underground was armed'),
+         ("s02", "02", 'Sabotage, and the counter-terror'),
+         ("s03", "03", 'The People\'s Strike, June 1944'),
+         ("s04", "04", 'Shellhus'),
+         ("s05", "05", '4 May 1945 — and Bornholm'),
+         ("s06", "06", 'The policeless country')],
+    checks=[
+      ("Sabotage, and the counter-terror", [
+        "Where did the resistance\'s weapons come from, and what did the deliveries cost the air forces that made them?",
+        "What were the ventegrupper, roughly how many people did they number, and what were they told to do?",
+        "Industrial sabotage went from 73 actions in three years to 816 in one. What changed?"]),
+      ("Shellhus", [
+        "What is a clearingmord, and where does the word come from?",
+        "What did the People\'s Strike of June 1944 obtain, and what did it demonstrate that was not among its demands?",
+        "Why did the occupier deport the Danish police in September 1944, on its own stated reasoning?"]),
+      ("The policeless country", [
+        "Why was the Gestapo headquarters in Copenhagen bombed, and what else was hit?",
+        "Bornholm was bombed on 7 and 8 May 1945, after the rest of Denmark was free. Why, and why were only ten Danes killed?",
+        "Danish radio was not allowed to report the bombing of Rønne and Nexø. On what ground?"]),
+    ]),
+ 44: dict(
+    name='44-the-reckoning-and-the-accounts.html',
+    body='c44_body.html',
     svgs={'SVG_DOMME': 'svg_domme_1945.txt',
           'SVG_BORNHOLM': 'svg_bornholm_1946.txt',
           'SVG_SYDSLESVIG': 'svg_sydslesvig_1954.txt'},
-    sec=[("s01", "01", 'The policeless country'),
-         ("s02", "02", 'The first week'),
-         ("s03", "03", 'The law made backwards'),
-         ("s04", "04", 'Who was tried, and who was not'),
-         ("s05", "05", 'The women'),
-         ("s06", "06", 'Bornholm under the Soviets'),
-         ("s07", "07", 'The border Denmark did not move'),
-         ("s08", "08", "Marshall aid, and the occupation's bill"),
-         ("s09", "09", 'Iceland, the Faroes, Greenland'),
-         ("s10", "10", 'The defence union that failed'),
-         ("s11", "11", '4 April 1949')],
+    sec=[("s01", "01", 'The first week'),
+         ("s02", "02", 'The law made backwards'),
+         ("s03", "03", 'Who was tried, and who was not'),
+         ("s04", "04", 'The women'),
+         ("s05", "05", 'Bornholm under the Soviets'),
+         ("s06", "06", 'The border Denmark did not move'),
+         ("s07", "07", 'Marshall aid, and the occupation\'s bill'),
+         ("s08", "08", 'Iceland, the Faroes, Greenland')],
     checks=[
-      ("The law made backwards", [
-        "The Danish police were deported on 19 September 1944. What replaced them, and "
-        "what was the replacement forbidden to do?",
-        "The resistance made about 21,800 arrests in eight days in May 1945. On what "
-        "authority, and what proportion of those arrested turned out to be chargeable?",
-        "Why can nobody say to within ten thousand how many people were interned in "
-        "Denmark in May 1945?"]),
+      ("Who was tried, and who was not", [
+        "The resistance made about 21,800 arrests in eight days in May 1945. On what authority, and what proportion turned out to be chargeable?",
+        "What date did the straffelovstillæg reach back to, and which acts before 29 August 1943 did it exempt?",
+        "Which Danish constitutional requirement was actually breached in the retsopgør, and why is it not the one usually named?"]),
       ("Bornholm under the Soviets", [
-        "What date did the straffelovstillæg reach back to, and which acts before "
-        "29 August 1943 did it exempt from punishment?",
-        "Which Danish constitutional requirement was actually breached in the "
-        "retsopgør, and why is it not the one usually named?",
-        "Forty-six men were shot and seventy-five people imprisoned for building for the "
-        "Wehrmacht. What in the statute produced that difference?"]),
-      ("The defence union that failed", [
-        "On what single condition did the Soviet Union leave Bornholm, and how far did "
-        "Danish governments afterwards extend it?",
-        "What did the British actually ask Denmark in September 1946, and what did "
-        "Denmark answer?",
-        "What did the Marshall counterpart kroner mostly pay for in Denmark, and whose "
-        "debt was it?"]),
+        "Forty-six men were shot and seventy-five people imprisoned for building for the Wehrmacht. What in the statute produced that difference?",
+        "107 women were convicted of informing. What share of the national total is that, and what share of the convicted were women?",
+        "What was not a crime in Danish or German law, and was punished anyway?"]),
+      ("Marshall aid", [
+        "On what single condition did the Soviet Union leave Bornholm, and how far did Danish governments afterwards extend it?",
+        "What did the British actually ask Denmark in September 1946, and what did Denmark answer?",
+        "Was 1946 the first time a Danish government refused territory it could have had?"]),
     ]),
- 44: dict(
-    name='44-1953-the-new-constitution-and-the-modern-realm.html',
-    body='c44_body.html',
-    svgs={'SVG_GULV': 'svg_gulv_1953.txt',
-          'SVG_LANDSTING': 'svg_landsting_1953.txt',
+ 45: dict(
+    name='45-choosing-a-side-and-the-constitution.html',
+    body='c45_body.html',
+    svgs={'SVG_LANDSTING': 'svg_landsting_1953.txt',
+          'SVG_GULV': 'svg_gulv_1953.txt',
           'SVG_TOBILLETTER': 'svg_tobilletter_1953.txt'},
-    sec=[("s01", "01", 'Why anyone wanted a new constitution'),
-         ("s02", "02", 'The commission, and the lawyers in it'),
-         ("s03", "03", 'The Landsting votes itself out of existence'),
-         ("s04", "04", 'A daughter who could inherit'),
-         ("s05", "05", '\u00a720: the door'),
-         ("s06", "06", 'Greenland stops being a colony'),
-         ("s07", "07", 'What Greenland got instead'),
-         ("s08", "08", '28 May 1953'),
-         ("s09", "09", 'The composite state, ended'),
-         ("s10", "10", 'The woman at the polling station')],
+    sec=[("s01", "01", 'The defence union that failed'),
+         ("s02", "02", '4 April 1949'),
+         ("s03", "03", 'Why anyone wanted a new constitution'),
+         ("s04", "04", 'The commission, and the lawyers in it'),
+         ("s05", "05", 'The Landsting votes itself out of existence'),
+         ("s06", "06", 'A daughter who could inherit'),
+         ("s07", "07", '§20: the door'),
+         ("s08", "08", 'Greenland stops being a colony'),
+         ("s09", "09", 'What Greenland got instead'),
+         ("s10", "10", '28 May 1953'),
+         ("s11", "11", 'The composite state, ended'),
+         ("s12", "12", 'The woman at the polling station')],
     checks=[
-      ("A daughter who could inherit", [
-        "The constitution of 1915 could only be replaced under one rule. What did that "
-        "rule require, and why is it a test of turnout rather than of agreement?",
-        "What had each reform of the Landsting since 1866 done to the question of who "
-        "chose it?",
-        "\u00a729 of the 1953 constitution did not abolish the loss of the vote for poor "
-        "relief. What did it do instead, and is that sentence still in force?"]),
+      ("The Landsting votes itself out of existence", [
+        "Why did the Scandinavian defence union fail, and which of the three governments could not move?",
+        "What did Denmark attach to the Atlantic treaty in 1949, and what did it not attach?",
+        "What did the forty-five per cent rule measure, and why did a revision supported by 91.85 per cent of voters fail under it in 1939?"]),
       ("Greenland stops being a colony", [
-        "Why did ordinary Danes have an opinion about the succession clause when they had "
-        "none about most of the rest of the document?",
-        "What does \u00a720 permit, what majority does it require, and what happens when "
-        "that majority cannot be found?",
-        "Max S\u00f8rensen drafted \u00a720 in 1952. What did he have in mind, and what "
-        "was it used for twenty years later?"]),
+        "Why did ordinary Danes have an opinion about the succession clause when they had none about most of the document?",
+        "What does §20 permit, what majority does it require, and what happens when that majority cannot be found?",
+        "§29 of the 1953 constitution did not abolish the loss of the vote for poor relief. What did it do instead, and is that sentence still in force?"]),
       ("The composite state, ended", [
-        "Greenland became a Danish county by a constitution approved in a referendum. Who "
-        "voted in that referendum, and who did not?",
-        "What argument did Denmark make to the United Nations about when a territory "
-        "stops being non-self-governing, and why did it succeed?",
+        "Greenland became a Danish county by a constitution approved in a referendum. Who voted in that referendum, and who did not?",
+        "What argument did Denmark make to the United Nations about when a territory stops being non-self-governing?",
         "What was announced on 25 May 1953, and what happened three days afterwards?"]),
     ]),
 }

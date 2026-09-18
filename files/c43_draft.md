@@ -1,6 +1,386 @@
-# Chapter 43 — Settling accounts and choosing a side, 1944–1949
+# Chapter 43 — The underground and the liberation
 
-*Draft, eleven sections. Prose only; apparatus follows.*
+*Draft, six sections. Prose only; apparatus follows.*
+
+---
+
+## How the underground was armed
+
+A resistance can decide to fight with what it has. Denmark had almost nothing:
+the army had been interned in August and its weapons taken, and a country that
+deliberately made itself unable to fight in 1939 had laid nothing by. Nearly
+everything the saboteurs used after 1943 came from outside, and the getting of
+it is a story chapter 41 deliberately did not begin.
+
+Britain's Special Operations Executive set up a Danish section in October 1940
+under Ralph Hollingworth, who had lived in Denmark. Ebbe Munck, a newspaper
+correspondent with an arrangement with officers of the general staff's
+intelligence section, reached Stockholm the same month, and SOE put a contact
+man beside him there in February 1941. Denmark stayed low on SOE's list of
+priorities for a long time, for the sound reason that it was not resisting.
+
+The first attempt went wrong in the most complete way available. On the night of
+27 and 28 December 1941 a converted Whitley dropped two men blind over
+Torpeskoven near Haslev, at about three in the morning, from a hundred and fifty
+metres. Carl Johan Bruhn was a physician of thirty-seven who had been chosen to
+lead SOE's work in Denmark and had helped plan the drop and pick the ground,
+which he knew. His parachute did not open. Mogens Hammer, the radio operator,
+landed safely and found the body. The man Britain had spent a year training to
+organise Danish resistance was killed by his own equipment before he had done
+anything at all.
+
+Flemming Muus came down by parachute south of Nibe on 11 March 1943 and ran SOE
+in Denmark until December 1944; Ole Lippmann had it from February 1945. Muus's
+later history is not creditable — he refused to cooperate with an audit of his
+funds and a Danish court convicted him of embezzlement in 1946 — and it is worth
+saying, because the alternative is a chapter in which everyone on the right side
+is also admirable.
+
+The machinery, once it existed, was strikingly domestic. The BBC broadcast a
+coded greeting to a person who did not exist; the reception group heard its own
+phrase and went out that night. Drops were made around the full moon and not at
+midsummer, when the Danish nights are too light. The ground party laid three
+white lights and one red to show the pilot the wind. A container took four men
+to carry and one drop could be fifteen of them, so a reception needed dozens of
+people, vehicles, a barn, and somebody to sink the parachutes in a bog before
+morning. In Jutland these were run from April 1944 by Anton Toldstrup, who used
+something like two hundred and eighty-nine different fields.
+
+The best-known group worked out of an inn. Hvidsten Kro stands on the road
+between Randers and Mariager, and the group around the innkeeper Marius Fiil and
+his family took its first drop on Trinderup Hede on 12 March 1943, then moved to
+a field they called Mustard Point; in four drops that April and May they
+received seven agents and fifty containers. In December 1943 two agents were
+taken in Aarhus and one talked under torture. On 11 March 1944 the Gestapo
+walked into the inn and arrested Fiil, his son Niels, his daughters Kirstine and
+Gerda, and Kirstine's husband Peter. A court-martial on 26 and 27 June sentenced
+eight men to death, and on the morning of the 29th they were shot at Ryvangen.
+
+The totals are large and they do not agree. Four reputable accounts give 620
+tonnes dropped over the whole war, about 650 tonnes from August 1944 alone,
+about 700, and about a thousand received altogether — and the first two cannot
+both be true. The one figure everybody agrees on is the cost: **eighteen
+aircraft lost and sixty-nine Allied airmen killed** delivering it.
+
+Weapons came the short way too. From Sweden the resistance obtained something
+like 7,500 Husqvarna submachine guns and carbines, ten thousand hand grenades
+and at least 4.6 million rounds — more small arms than the whole Danish army had
+been able to field on 9 April 1940.
+
+What it added up to was the waiting groups: a few thousand men organised
+illegally at the end of 1943, about ten thousand by December 1944, and something
+near **sixty thousand in May 1945**, which is one and a half per cent of the
+population. Every source that discusses their equipment uses the same word,
+*underbevæbnet*, and they never fought a battle. On 5 May 1945 they came out of
+their houses with armbands and rifles and took over the policing of a country
+that had had no police since September 1944.
+
+That matters for what comes next. The 21,800 people interned in Denmark in the
+weeks after the liberation were arrested by men who had been civilians four days
+earlier, armed by a foreign air force, and authorised by a council that had
+constituted itself in a borrowed office.
+
+> **Vignette · Ryvangen, 6 April 1945**
+>
+> He was born in Edmonton, Alberta, in 1923, and came to Denmark at nine when
+> his parents separated. He went to sea at eighteen as a merchant seaman, which
+> is a trade and not a gesture.
+>
+> From September 1944 he ran weapons across the Øresund for the Students'
+> Intelligence Service. In October he and another man took a customs boat out of
+> Vordingborg to Sweden and came back a week later on a transport ship. The
+> Gestapo arrested him on 19 December 1944. He kept track of the cells and put
+> them in his letters: 252, then 585, then 37, then 411.
+>
+> On 4 April 1945 a court-martial sentenced him to death with three others and
+> he wrote to his mother the same day from cell 411. *Jeg er sammen med Jørgen,
+> Niels og Ludvig i dag blevet stillet for en krigsret. Vi blev dømt til døden.*
+> And then: *Tiden er kort, jeg kan ikke rigtigt forklare det, men mit sind er
+> fuldkommen roligt.* He wrote to his girlfriend Hanne the same day, telling her
+> never to let the thought of him stand between her and her life.
+>
+> On the morning of the 6th he was shot at Ryvangen. The memorial roll for that
+> day gives Jørgen Frederik Winther and Ludvig Alfred Otto Reventlow — and Peter
+> Wessel Fyhn, who is not a Niels. Nobody has reconciled it.
+>
+> His mother published the letters that autumn as *Kim. Uddrag af Dagbog og
+> Breve*: excerpts, chosen by her, four months after he was shot. They were
+> translated into seven languages. There is still no critical edition and nobody
+> has collated the print against the manuscripts.
+>
+> Kim Malthe-Bruun · Ryvangen · 6 April 1945 · [n]
+
+---
+
+## Sabotage, and the counter-terror
+
+The series runs: seventy-three industrial sabotage actions in 1940, 1941 and
+1942 together; 816 in 1943; 988 in 1944; and 924 in the four months of 1945
+before the capitulation. Those add to 2,801, which is the published total, so
+the column checks against itself.
+
+Railway sabotage runs: two actions in 1942, 111 in 1943, 311 in 1944, and — in
+the same four months of 1945 — one thousand one hundred and three. The published
+total is 1,526 and the four figures add to 1,527. That column does **not** check
+against itself, and the missing one is left standing here rather than smoothed,
+because a series quietly adjusted to its own total is worth less than one that
+has not been.
+
+The shape is the argument. Sabotage was negligible while the war looked German,
+substantial once it did not, and overwhelming in the final months, when cutting
+the railways was militarily useful to an invasion of Germany that was coming
+from the other direction. The saboteurs of 1943 were mostly communists and
+mostly young. BOPA had about a hundred and seventy-five members at the end and
+Holger Danske about three hundred, which are very small numbers for a national
+myth and the right ones.
+
+The occupier's answer was designed by Hitler in person, at the Wolfsschanze on
+30 December 1943. He rejected the obvious instrument, public hostage executions,
+on the explicit ground that they create martyrs. What he ordered instead was
+murder: Danes of standing, killed anonymously by men in plain clothes, so that
+the deaths would read as the resistance's fault rather than the occupier's
+policy.
+
+The ratio is where the accounts come apart, and since it is quoted constantly it
+should be quoted carefully. Martin Göllnitz gives the order's wording as
+requiring every act of terror to be punished fivefold; Niels Wium Olesen gives
+it as tenfold; Best is then said to have moderated it in Denmark to two-for-one
+by the first and one-for-one by the second. The familiar formula — one prominent
+Dane for every German — describes the practice and is not the text of the order,
+and no number can be stated here without naming which historian is being
+followed.
+
+The name is the most revealing thing about it. *Clearingmord*: the first element
+from the English word for settling an account, coined by analogy with the
+**clearingkonto**, the account at the Nationalbank against which German purchases
+of Danish goods were entered and largely never paid — which chapter 41 spent a
+section on. And the occupier enforced the metaphor typographically. Danish
+newspapers were required to print the notices of these murders and the notices of
+the resistance's killings of informers **side by side and in the same layout**,
+so that a reader would take in two columns of the same kind of thing and
+understand that an account was being settled.
+
+It did not work, and the first killing is why. Kaj Munk was a parish priest at
+Vedersø in west Jutland and the most performed playwright in the country, a man
+who had admired authoritarian government in the thirties, said so in print, and
+then turned on it in the most public way available to him. On 4 January 1944 men
+showed false Danish police badges at the parsonage door and took him. The next
+morning a mason walking to work found him in the ditch at Hørbylunde Bakke, shot
+three times. A country whose newspapers could tell it nothing understood this
+immediately.
+
+The killing was done by the group Otto Bovensiepen formed the following month
+under the motto *terror mod terror*: officially *Sonderkommando Dänemark*,
+called the Peter group after its operational leader's cover name. It was mixed
+German and Danish, recruited from the Schalburg Corps and from men back from the
+Eastern Front, and over about fifteen months it killed more than a hundred and
+fifty people — or the ninety-four murders and twenty-five attempted murders its
+members were actually convicted of, which is the only figure of the several in
+circulation with an evidentiary basis. Seven of its Danish members were
+sentenced to death in 1947 and executed. Some worked with silenced Welrod
+pistols captured from SOE drops and reissued by the Gestapo, which is as exact
+an image of the ledger as the period produced.
+
+The other half of the counter-terror was bombing, and Danes named that too:
+*schalburgtage*, on the pattern of sabotage, after the corps that took part. The
+targets were chosen to damage civil life rather than war production — Tivoli's
+concert hall, a student hall of residence, the Conservatives' Borgernes Hus, the
+Royal Porcelain factory. In Aarhus the tram depot went up on 22 August 1944 with
+sixty-five vehicles in it.
+
+None of it was aimed at the resistance. It was aimed at the public, to make the
+resistance intolerable to it, and the measure of its failure is that sabotage
+rose in every year it continued.
+
+---
+
+> **Vignette · Engestofte, January 1944**
+>
+> She is forty-nine and she is not Danish. She was born Monica Massy-Beresford in
+> London in 1894, to an Anglo-Irish family whose men commanded Ulster
+> Volunteers, and she married a Danish landowner in 1916 and came to his estate
+> on Lolland. For most of the thirties she lived in Italy and traded fashion
+> between Paris and Rapallo.
+>
+> She came back when Denmark was occupied. She raised money for the illegal
+> press, and by the beginning of 1943 she was running the underground's work on
+> Lolland-Falster — moving weapons and explosives and hiding them, with her
+> daughter helping.
+>
+> The Germans take her at Engestofte in January 1944. She is interrogated at
+> Dagmarhus, held in Vestre Fængsel, and admits nothing. In May a German court
+> martial sentences her to death. **She refuses to ask for mercy**, and gives way
+> only because her family begs her to; she writes the petition in English, on
+> lavatory paper, which is its own answer.
+>
+> The sentence is commuted and she is moved to Cottbus with three other Danish
+> women, then marched west ahead of the Red Army. She dies at Waldheim on
+> 27 February 1945. **Nobody has ever found her grave.**
+>
+> Monica Wichfeld · Engestofte · January 1944 · [f]
+
+---
+
+## The People's Strike, June 1944
+
+On 22 June 1944 BOPA blew up Riffelsyndikatet, in the largest single act of
+sabotage of the Danish occupation. The next day eight resistance men were
+executed. Then the Peter group burned Tivoli's concert hall, the student
+residence on Tagensvej, Borgernes Hus and the Royal Porcelain factory, and
+Werner Best imposed a curfew from eight at night until five in the morning.
+
+What happened next began as a joke and did not stay one. The men at Burmeister &
+Wain, the largest workplace in Copenhagen, walked off at noon and said they had
+to go home early to look after their allotments. The detail is genuine and the
+standard national history prints it in those words — *deres livsvigtige
+kolonihaver*, their vitally important allotment gardens. The labour movement's
+own account gives the formal slogan instead, *eight hours' work and eight hours'
+rest*. Both are probably true and the joke is the one that spread, because a
+curfew answered by an announcement that the beans need watering is not a
+demonstration that can be fired on.
+
+It was a hot summer and nobody went indoors. Within days there were bonfires at
+the crossroads and furniture across the streets, and by 29 June the strike was
+citywide. On the 30th the announcement of the Hvidsten executions turned it into
+a general strike and stopped the transport altogether, and the Freedom Council —
+which had called none of this — issued the first of its proclamations, demanding
+the removal of the Schalburg Corps from Denmark and the end of the curfew, and
+asking that electricity, gas, water, bread and milk be maintained.
+
+On 1 July the three senior Germans in Denmark declared the capital in a state of
+siege. The water, gas and electricity were cut. The roads out were closed and no
+supplies came in. Patrols fired into the streets from vehicles and from the air,
+and the Germans demanded, under threat of bombarding the city, that the Danish
+authorities stop it. Twenty-three people were killed that day and two hundred
+and three wounded.
+
+On 2 July the mayors of Copenhagen, Frederiksberg and Gentofte, the employers'
+association, the chamber of commerce, the shipowners and the executive of the
+trade union federation published a joint appeal to go back to work. It said,
+accurately, that the food was already failing. It had no effect whatever, which
+is the most precise statement available of where authority in Denmark had gone.
+Best reopened the municipal works the same day after a single alteration to the
+Danish text.
+
+When the Council called the city back is not settled — one standard work says
+work resumed on the morning of 3 July, another that the order came on the 4th
+and was obeyed on the 5th, and the site that publishes the primary documents
+says the 5th and does not publish the final proclamation. Over the whole strike
+more than a hundred people were killed and more than six hundred wounded.
+
+What was won was small and specific: the Schalburg Corps off the streets, and
+the curfew lifted. The executions did not stop, and more than half of the
+hundred and two resistance members executed in Denmark were shot after January
+1945.
+
+What was actually won was not on the list of demands. A body with no legal
+existence had told a capital city to stop and it stopped, and told it to start
+and it started. The elected mayors and the trade union leadership had asked for
+the same thing three days earlier and been ignored. From the first week of July
+1944 the question of who governed Denmark had an answer, and it was not the
+permanent secretaries.
+
+---
+
+## Shellhus
+
+The Gestapo took over the Shell company's Copenhagen office building in 1944 and
+made it their headquarters in Denmark. Prisoners were interrogated there, and
+about two dozen were held in cells in the attic — the *gidseletage*, the hostage
+floor — put at the top of the building deliberately, so that the British could
+not bomb it without killing them. Among them by March 1945 were Mogens Fog and
+Aage Schoch of the Freedom Council.
+
+The resistance asked for the building to be bombed anyway.
+
+On the morning of 21 March 1945 eighteen Mosquitos of the RAF's 140 Wing —
+British, Australian and New Zealand squadrons — left Norfolk with a Mustang
+escort and flew three hundred and fifty miles across the North Sea at the height
+of a rooftop. The first bomb hit Shellhuset at a quarter past eleven.
+
+In the first wave an aircraft flown by Wing Commander Peter Kleboe struck a
+thirty-metre light mast over a railway ground, dropped its bombs early and
+crashed beside Frederiksberg Allé. The second and third waves took the smoke and
+fire for the target. Seven of the twelve aircraft behind bombed it — and it was
+the Institut Jeanne d'Arc, the French school, a mile and a half from Shellhuset,
+with four hundred and eighty-two children in its cellars.
+
+Eighty-six children were killed, and eighteen adults: ten nuns, four teachers,
+two firemen and two fathers who had come to help dig.
+
+Inside Shellhuset about a hundred Germans and Danish Gestapo staff died and the
+archives burned. Of the twenty-six prisoners in the attic, eighteen got out and
+eight did not. Nine Allied airmen were killed.
+
+It is usually offered as a choice between a triumph and a tragedy, and it is not
+one, because the two are joined in a way that is hard to look at. Martin
+Sundstrøm has put it most exactly: the men in the attic survived *because* so
+many bombs went into the school, since a full weight of bombs on Shellhuset
+would have left fewer of the eighteen to walk out. Having established that, he
+declines to call the raid a military error and questions instead the decision to
+ask for it, the British planners having said beforehand that it would cause
+heavy civilian casualties.
+
+The judgement here is narrower. The raid did what it was asked to do: the
+Gestapo's Danish records were destroyed and its effectiveness against the
+organised resistance never recovered in the six weeks that were left. The
+foreseeable cost was stated in advance by the men who would have to fly it, and
+it was accepted by Danes on behalf of Danish children whose parents were not
+consulted and could not have been. That is not a scandal and it is not a
+triumph. It is what asking to be liberated turned out to involve.
+
+---
+
+## 4 May 1945 — and Bornholm
+
+At twenty past eight on the evening of 4 May 1945 the BBC's Danish service
+announced that the German forces in Holland, north-west Germany and Denmark had
+surrendered, to take effect at eight the next morning. Danes took the blackout
+paper down and put candles in the windows, and the photographs of that night are
+the ones the country has used ever since. The waiting groups came out with
+armbands. In the morning the occupation was over.
+
+It was not over on Bornholm.
+
+The instrument signed on Lüneburg Heath covered the German forces in Denmark and
+named no islands beyond the Frisians and Heligoland; Bornholm fell under a
+general clause about all other islands, a hundred and fifty kilometres east of
+the rest of the country and much nearer a front that was still moving.
+Montgomery asked on 4 May who was responsible for liberating it and was told not
+to act without Eisenhower's approval. The approval never came, and nobody told
+the Danes.
+
+The German commandant, Kapitän zur See Gerhard von Kamptz, had instructions from
+the naval command and followed them: he would surrender to the Western Allies
+and not to the Red Army or to the Bornholm resistance. He also had his
+anti-aircraft guns fire on Soviet reconnaissance aircraft. At half past twelve
+on 7 May Soviet bombers appeared over Nexø and minutes later over Rønne, and
+came back at a quarter to seven that evening.
+
+They dropped leaflets demanding that the Germans capitulate by ten the following
+morning. At four in the morning on 8 May the Danish authorities began evacuating
+both towns, and when the heaviest raid came in at ten they were all but empty.
+
+In Rønne two hundred and twelve buildings were destroyed and about two thousand
+nine hundred damaged, out of three thousand two hundred. In Nexø a hundred and
+seventy-five were destroyed and eight hundred and fifty-six damaged, out of nine
+hundred and fifty-nine. The hospital at Rønne was hit through the red cross
+painted on its roof.
+
+**Ten Danes were killed.** Nine died in Rønne on the 7th and one in Nexø, and
+nobody at all was killed on the 8th, which was the day the towns were flattened.
+The low number is the most misunderstood fact about the bombing. It is not
+evidence that the raids were light and it is not luck: it is the evacuation of
+the 8th, ordered at four in the morning by Danish officials on an island nobody
+in London or Moscow had thought to mention to anyone.
+
+On the afternoon of 9 May five Soviet motor torpedo boats put a hundred men into
+Rønne harbour and the German garrison surrendered without resistance. The main
+force, some seven and a half thousand men, arrived from Kolberg on the 11th.
+They stayed eleven months.
+
+Danish radio was not permitted to broadcast news of the bombing of Rønne and
+Nexø. The reason given was that it would spoil the liberation.
 
 ---
 
@@ -45,577 +425,26 @@ For seven and a half months that was the law in Denmark.
 
 ---
 
-## The first week
-
-What that produced is not measurable in the ordinary way, because the body that
-compiles crime statistics was in Buchenwald. The registers the watch corps kept
-themselves are what survive. Copenhagen's took **eighteen thousand reports** and
-made **3,397 arrests**. The Aarhus watch recorded **6,491 offences** between
-October 1944 and July 1945, among them 55 murders, 418 burglaries and 2,038
-thefts, more than half of the thefts bicycles.
-
-The historian Claus Bundgård Christensen found the sharper fact in the court
-papers. Copenhagen's crisis court recorded only **205 convictions in 1944**, and
-over a thousand by the summer of 1945. The fall is not a fall in crime. It is the
-collapse of the machinery that counts crime, and it is the cleanest illustration
-in Danish history of the difference between the two.
-
-Then the occupation ended, and the country had to arrest several thousand people
-with no police.
-
-The resistance did it. The waiting groups came out on 5 May with armbands and the
-weapons that had been dropped to them, and by **13 May they had made 21,800
-arrests**. They worked from the resistance's own card index, into which, as the
-national encyclopedia puts it, a rumour in a small town could be enough to get a
-name. There was no warrant, no charge and no magistrate.
-
-The police came back at ten o'clock on the morning of **13 May 1945**, eight days
-after the liberation. What they inherited is the measurement of what had been
-done in their absence. Of the people interned, **more than fifteen thousand were
-released almost at once**; about nine thousand were handed over to the police;
-the police immediately let **two thousand** of those go; and in the end **about
-seven thousand — roughly a third — were chargeable at all.**
-
-Those figures do not add up, and the failure is itself evidence. Fifteen thousand
-released plus nine thousand handed over is twenty-four thousand, against a base
-usually given as twenty-two; *Gyldendal og Politikens Danmarkshistorie* puts the
-number held by 13 May nearer thirty-four thousand. How many people were locked up
-in Denmark that month is not known to within ten thousand.
-
-What is not in doubt is the proportion. At least two people in three had been
-arrested by men who had been civilians the week before, on the strength of an
-index compiled by an organisation that had no legal
-existence, in a country whose police the occupier had deported eight months
-earlier. The *retsopgør* did not begin with a law. It began with that.
-
----
-
-## The law made backwards
-
-The law came three weeks later. The Rigsdag passed the *straffelovstillæg* on
-30 May 1945 and it took effect on **1 June**, and it did two things Danish
-criminal law is not supposed to do.
-
-It reached backwards. The statute applied to acts committed from **9 April
-1940** onward, which is to say that it made punishable, in 1945, conduct that had
-not been criminal when it was done. And it restored the death penalty, which
-Denmark had removed from its penal code in 1930 and had not used on a civilian
-since **8 November 1892**, when Jens Nielsen was beheaded at Horsens. Fifty-three
-years and two months separate that morning from the next execution.
-
-The date was the fight. The jurists wanted the law to run from 9 April 1940; the
-politicians wanted it to run from 29 August 1943, which would have placed
-everything done under the cooperation policy beyond its reach — including
-everything the politicians themselves had authorised. The resistance won the
-date. The politicians won a clause: acts done before 29 August 1943 in accordance
-with law, or on the order of a lawful Danish authority, were not punishable. Both
-sides got what they most needed, and the compromise is the whole argument of the
-occupation compressed into one subsection.
-
-It is worth being exact about what was breached, because the usual account is
-wrong. **No Danish constitution has ever forbidden retroactive criminal law.** The
-prohibition lives in the first section of the penal code, an ordinary statute,
-and an ordinary statute of equal rank can override it — which is what the Rigsdag
-did, knowingly, and said so. The constitutional breach lay elsewhere, and it had
-already happened before there was a law to breach anything: the constitution then
-in force required anyone arrested to be brought before a judge within twenty-four
-hours, and in May 1945 that was set aside on a scale nobody has counted.
-
-The bill passed by **127 votes**. Five members who opposed the death penalty
-abstained rather than vote against. Nineteen were absent.
-
-It was opposed at the time by people whose names the country knew. The former
-justice minister Svenning Rytter attacked it for violating the elements of law.
-The barrister C. B. Henriques said Denmark was living in a juridical madhouse —
-*et juridisk galehus*. And in November 1947 Hal Koch published the objection that
-has aged best, under the title *Jeg anklager Rigsdagen*: the politicians who had
-urged cooperation could not afterwards make a crime of it, and they had neither
-resigned nor said in public what their own policy had been.
-
-One safeguard was kept, and it matters. There were no special courts. The
-extraordinary law was administered by ordinary judges and ordinary prosecutors,
-in the ordinary courts, which is the difference between Denmark's reckoning and
-several others in Europe that year.
-
----
-
-## Who was tried, and who was not
-
-**13,521 people were convicted** at final instance: 12,877 men and 644 women. A
-hundred and three death sentences were pronounced, **78 survived appeal**, and
-**46 men were shot** between 1946 and 1950. Thirty-two were reprieved — more than
-two in five of the men who went to bed under sentence of death. The average
-sentence was two years against a statutory minimum of four, because the minimum
-was cut to two in June 1946 when it became clear what the original would mean.
-
-The first execution was on **5 January 1946**, in the early hours, at
-Bådsmandsstrædes Kaserne in Copenhagen.
-
-> **Vignette · Bådsmandsstrædes Kaserne, 5 January 1946**
+> **Vignette · Buchenwald, winter 1944**
 >
-> He is thirty-four, a clergyman's son, and he joined the Waffen-SS and
-> recruited for it. In 1943 he helped arrest a Jewish member of parliament, the
-> chief rabbi and the rabbi's son, and put them on the transport to
-> Theresienstadt. In August of that year he was one of three men who shot the
-> newspaper editor Carl Henrik Clemmensen at Lundtofte — eight bullets from
-> three pistols, four months before Hitler ordered the clearing murders and
-> therefore not one of them, but the thing they were modelled on.
+> He is a policeman in Odense. On 19 September 1944 he is taken with the rest of
+> them, and he goes to Frøslev, then Neuengamme, then Buchenwald.
 >
-> He is taken out before dawn and shot. He is the first person executed in
-> Denmark for a civil crime since a man was beheaded at Horsens in 1892, and the
-> first of forty-six.
+> He keeps a diary, which is forbidden, and he hides it. It is mostly weather,
+> rations, illness and who has died — the accounting of a man trained to write
+> down what he sees. Then one entry records a transport coming in: **fourteen
+> hundred Jews from Auschwitz, a hundred of them already dead.**
 >
-> Of the three men who killed Clemmensen, he is the only one who answered for
-> it. One disappeared. The third lived until 2015 and was never tried.
+> He is not in the resistance. He has not collaborated. He is in a German camp
+> because of the uniform he wore for a Danish state that had told him for four
+> years that wearing it was the responsible thing to do — and he is standing
+> there watching the thing that Denmark's own Jews got away from, thirteen months
+> earlier, by a fortnight's warning and four kilometres of water.
 >
-> Flemming Helweg-Larsen · Bådsmandsstrædes Kaserne · 5 January 1946 · [-]
-
-Every man executed had killed, tortured, or informed in a way that cost a life.
-The statute made that so: the death penalty was reachable for aggravated treason,
-for police work in the Hipo corps after 19 September 1944, and for a denunciation
-that ended in a death. **The rope was tied to blood, not to collaboration** — and
-that single fact decided who was never in danger from it.
-
-Now the other column. The *værnemagere* were the Danish firms and contractors who
-built for the Wehrmacht, and the scale of what they did is not in dispute: the
-clearing accounts closed the war more than **eight billion kroner** overdrawn.
-
-The audit committee for German payments examined **fifty thousand cases**. It
-found a duty of repayment in about **ten thousand**. About **1,100** people were
-convicted. **Roughly half of those were pardoned.** In the end **seventy-five
-people** went to prison for a year or more for building the German war.
-
-Forty-six men were shot in the same reckoning.
-
-The mechanism is better than the indignation, and it is documented. The large
-firms did not beat the charge; they never faced it. Wright, Thomsen & Kier
-pointed out that they had been urged to take the German work by Stauning himself
-and by the leader of the Conservatives, and the prosecution was withdrawn. The
-governments' own policy was the contractors' alibi — and it was an alibi the
-informer in Aalborg did not have. Rud. Christiani, whose firm built submarine
-pens on the French coast using camp labour, was never prosecuted and was
-decorated with the Order of the Dannebrog in 1954.
-
-One correction, because the asymmetry is real and the usual version overstates
-it: about **318 million kroner** was recovered in restitution. Business was
-reckoned with civilly, not criminally. The asymmetry is between prison and a
-bill, which is a sharper charge than between punishment and impunity, and harder
-to answer.
-
-And nobody in the state was reckoned with at all. A parliamentary commission sat
-from 1945, composed almost entirely of members of the parties whose policy it was
-examining, and found no ground to impeach anyone. One minister was prosecuted and
-acquitted on appeal. Civil servants went before a disciplinary tribunal rather
-than a court. The officials who had interned Danish communists in 1941 on a
-German list were not asked about it; the departmental chief at the justice
-ministry went on to a career in the post-war administration of justice.
-
-The man who understood this best had been on every side of it. **Carl Madsen**
-was interned in 1941 under the Communist Law, sat on the Freedom Council
-committee that drafted the reckoning, prosecuted under it as an extraordinary
-state prosecutor — and then turned on the result and wrote a book called *We
-Wrote the Law* against it, arguing that the authorities had not pursued the
-people most responsible. In August 1941 the Rigsdag passed a retroactive law to
-protect its own police from the consequences of arresting communists. In June
-1945 it passed a retroactive law to reach the people who had helped the Germans.
-The same body, the same device, four years apart, and Carl Madsen went through
-both of them from opposite ends.
-
----
-
-## The women
-
-Six hundred and forty-four women were convicted, against 12,877 men. Three
-hundred and forty-seven had served with German forces, twenty-five were convicted
-of economic collaboration, and **107 of informing** — which is a quarter of all
-the informing convictions in the country, from women who were under five per cent
-of those convicted at all.
-
-That number is contested, and the contest is worth stating because it looks
-resolvable. Anette Warring has written that around four hundred of the 644 women
-were convicted of informing. That cannot stand beside the official table, which
-records **413 informing convictions in the whole country**, 306 of them men; and
-it cannot stand beside the same table's 347 women convicted of German military
-service, because 347 and 400 together exceed 644. The likeliest reading is that
-the national total for informing has at some point been taken for the women's
-figure. If so the number is 107 — and 107 is still a quarter of the column.
-
-What the historians who have read the case files do agree on is the shape rather
-than the share: most of the convicted women informed on **one person**, and most
-of them **took no money**. Warring's reading is that where women betrayed, the
-mechanism was chance and thoughtlessness rather than recruitment — pillow talk
-rather than employment. That is an explanation and not an excuse, and the people
-informed on went to camps either way.
-
-Behind the convictions is a much larger group who were never charged with
-anything, because **there was nothing to charge them with**. Relations with the
-occupier were not a crime in Danish law or German law, and the law of 1 June 1945
-does not mention them. Anette Warring's estimate is that at least fifty thousand
-Danish women had relationships with German soldiers — an estimate and not a
-count, built outward from the 5,579 registered war children by a multiplier she
-does not explain.
-
-They were punished anyway. Women were interned without charge on suspicion of
-informing, or for their own protection against crowds, some of them for more than
-three months without seeing a judge. And they were shorn. The hair-cutting did
-not begin at the liberation: the illegal press had been printing women's names
-and addresses and calling for it since 1942, and the first documented attacks
-were in Odense during the August rising of 1943. In a Gallup poll in June 1945,
-three-quarters of Danes thought these women should be punished somehow.
-
-The best-documented case is also the only one in which anybody answered for it.
-On the night of **22 and 23 May 1945**, at the Hotel Dana in Rønne on Bornholm,
-resistance men detained twenty-one women, questioned and released three, and cut
-the hair of **eighteen**. It was tried in February 1946. The sentences were
-symbolic fines and none of the women was compensated.
-
-And here is the thing about that case, which is the thing about this whole
-section. Police records survive, and court records, and photographs in the
-museum, and one of the women wrote down what happened to her. **Not one of the
-eighteen is named in any of it.** The perpetrators are named.
-
-That holds across the entire subject. Warring's interviewees are anonymous by
-research ethics. The internment lists are in a closed police archive. The only
-Danish women of these years whose names are in the public record are the ones the
-state convicted — and they are named *because* the state convicted them. The
-women who were punished without a trial have no names; the women who got trials
-do.
-
-> **Vignette · Københavns byret, 1947**
+> He comes home on 3 May 1945. The diary stays in a drawer for half a century,
+> and in 1995 his son gives it to the Odense city archive.
 >
-> She is thirty-three, a beer merchant's daughter from a parish in Jutland,
-> trained in restaurant work and employed in it since she was eighteen.
->
-> In 1943 she attaches herself to a Danish Nazi who runs a unit for the Gestapo.
-> She begins as its secretary and does not stay one: she takes part in arrests
-> and in interrogations. Between December 1944 and the capitulation the unit
-> makes six or eight hundred arrests.
->
-> She is taken in May 1945 after a gunfight. In 1947 the Copenhagen city court
-> sentences her to death along with nine others from the unit. She is reprieved
-> to life imprisonment, **against her own wishes** — she had asked to be shot.
-> In May 1949, shortly before he is executed, she marries the man she followed
-> into it.
->
-> She is released in 1956, moves to Germany, takes German citizenship, and
-> spends her working life on relief for children hurt by war. She dies in 2007.
->
-> Anna Lund Lorentzen · Københavns byret · 1947 · [n]
-
----
-
-## Bornholm under the Soviets
-
-The Red Army came ashore at Rønne on the afternoon of 9 May 1945 and stayed
-eleven months, and for most of that time nobody in Copenhagen knew how to make
-them leave.
-
-The occupation itself was not harsh by the standards of what the Soviet army did
-elsewhere in 1945. Some seven and a half thousand men arrived from Kolberg on the
-11th. The Danish administration of the island continued; the county governor
-stayed in post; the Soviet command did not interfere with it, and the Danish
-foreign minister said so afterwards to the Americans. Thirty Soviet soldiers are
-buried at Allinge, none of them killed in fighting — mines and alcohol. Twenty
-rapes were recorded, and assaults and robberies, which is twenty more than none
-and a very small number beside Germany or Poland.
-
-What made it intolerable was not the conduct but the question it left open. The
-rest of Denmark was free. One island of forty-five thousand people was held by a
-power that had not said when it would go, in a country that had just spent five
-years learning what an open-ended occupation does to a population.
-
-Denmark did not ask until **4 March 1946** — ten months. Norway had asked in
-September 1945 and been granted withdrawal at once, and the historian Bent Jensen
-has made the obvious criticism of the delay. The Soviet answer came on the **5th**
-and it contained one condition: that Denmark be able to occupy Bornholm with its
-own troops and establish its administration there "**without any participation
-whatever of foreign troops or foreign administrators**".
-
-Danish troops began arriving on 15 March 1946 and the last Soviet soldiers left
-Rønne harbour on **5 April**.
-
-That sentence then governed Danish behaviour for forty years, and the interesting
-part is that it did not have to. It is a condition on a handover, in an exchange
-of notes, and it says nothing about the future. Danish governments read it as a
-standing prohibition on allied forces on Bornholm, adopted self-imposed
-restrictions on exercises there in 1953, and kept secret directives barring
-allied aircraft and ships from the island's airspace and waters. When the Soviet
-Union tried in 1952 and 1953 to stretch the commitment to cover the whole of
-Denmark, Copenhagen refused flatly — so the restrictive reading was not
-compulsion. It was choice. Denmark carried a limit into the Atlantic alliance
-that Moscow had never asked for in those terms, because a government that has
-just got an island back does not test how far the words reach.
-
----
-
-## The border Denmark did not move
-
-South Slesvig came back in 1945 in a way nobody had planned for.
-
-The Danish minority there had been small and beleaguered for twenty-five years.
-In May 1945 its organisation had **three thousand** members. By January 1947 it
-had **68,317**. Danish schools went from nine with 436 pupils in 1945 to
-eighty with 13,212 by 1950. At the Landtag election of 1947 the
-Danish list took **99,500 votes** — a third of the vote in Schleswig, and more
-than half among the people who had lived there before the war.
-
-That last qualification is the difficulty, and without its denominator it
-misleads. South Slesvig's population had gone from 383,000
-before the war to 703,500 by mid-1948, because Germany's expelled millions had to
-go somewhere and Schleswig-Holstein took nearly a million of them. Denmark asked
-Britain to move the refugees out, and Britain refused. The Danish-minded were a
-majority of the natives and a minority of the inhabitants.
-
-And the movement's own numbers tell a second story. Danish food relief in South
-Slesvig went from 3,700 recipients in July 1945 to **79,000 in August 1947**, a
-curve that tracks the membership curve almost exactly. The German word for it was
-*Speckdäne* — bacon Dane — and it was a slur coined at the plebiscite of 1920,
-not an observation made in 1946. But between 1947 and 1954 the Danish vote fell
-from 99,500 to **42,242**, which is fifty-seven per cent of it gone in seven
-years, and no account of that collapse that ignores the food is complete.
-
-Into this, in September 1946, came a British enquiry.
-
-It is usually described as an offer, and the primary record will not carry that.
-What survives is what a British minister told the House of Commons twice, in
-March and November 1949: that His Majesty's Government had asked the Danish
-government whether it **wished to exert itself to secure** a frontier
-rectification, with or without a plebiscite, and that Denmark had replied that it
-was not concerned with frontier rectifications and made no claim for one. That is
-an invitation to make a case, not a territory on a table; and the fuller Danish
-version — three options, including incorporation — cannot be traced to the note.
-
-Denmark's answer went back on **19 October 1946** and said no.
-
-The prime minister who sent it did not agree with it. Knud Kristensen thought the
-border should move, said so in public on Constitution Day and again at Hørsholm
-that summer, and maintained that he was entitled to hold one view as a man and
-another as a head of government. He fell for it on **4 October 1947**, on a
-motion of no confidence aimed at him personally rather than at his policy, moved
-by a party that was not even in opposition to the government's line. At the
-election three weeks later his party **gained** — and lost office anyway.
-
-Now the claim this section exists to test, which is that Denmark here refused
-territory it could have had for the first time in its history.
-
-The refusal is real. The first is not, and the true version is better. On
-**17 May 1919** the Danish envoy to the peace conference formally objected to the
-third plebiscite zone — which was **already written into the draft treaty** —
-on the ground that Denmark's strength lay in the homogeneity of its population
-and that taking the zone would plant some hundred and sixty thousand Germans
-inside the country as an outpost of Germanness. The Great Powers accepted the
-objection and struck the zone out. In 1920 the Zahle government refused to press
-for Flensburg and was destroyed for it. In May 1945 Vilhelm Buhl told the Rigsdag
-from the throne speech that Denmark's southern border lay fast. In October 1946
-Denmark told the British the same thing.
-
-That is not a first refusal. It is one doctrine, held for twenty-seven years,
-with a primary document at every node: **Denmark will not take Germans who do not
-want to be Danish** — and it was formulated, precisely, by the generation that
-had spent fifty years wanting Slesvig back. The thread that runs from Ribe in
-1460 through 1864 and 1920 does turn over here — because a country that had
-defined itself by a lost province decided twice, in 1919 and in 1946, that it did
-not want it back on the only terms available.
-
----
-
-## Marshall aid, and the occupation's bill
-
-Denmark came out of the war solvent on paper and broke in the only currency that
-mattered.
-
-Industrial production in 1945 was about two-thirds of 1939. Agriculture did not
-regain its 1935 level until **1949**; pig and poultry production, which were the
-export earners, had been halved. And the machine that earned Denmark's living —
-butter and bacon sold to Britain — ran on imported feed and imported fuel, which
-after 1945 had to be paid for in dollars that a country selling to Britain did
-not earn. Denmark ran a trade deficit of about a billion kroner in 1946.
-
-This is the point at which the phrase "the end of self-sufficiency" wants
-resisting, because Denmark had not been self-sufficient since the 1880s. It had
-imported oilcake and grain to run the dairies for two generations, and the
-decisive shift to bought-in protein feed comes in the 1960s. What changed in the
-1940s was not the dependence. It was the currency the dependence had to be
-settled in.
-
-Denmark signed the Marshall agreement on **29 June 1948**. The dollar totals are
-disputed between two official Danish sources — 305 million dollars over 1948–53,
-of which 33 million in loans, on one account; 278 million on the National Bank's
-— and the disagreement is probably a period definition. The figure that shows
-what it did is in kroner.
-
-Danish importers paid for the goods in kroner, and those payments accumulated:
-about **1,700 million kroner** by the end of 1953, against an annual national
-product of about twenty-two billion. Nearly **nine hundred million of it — more
-than half — went to paying off state debt run up on the German clearing accounts
-between 1940 and 1945.**
-
-Chapter 41 left those accounts at about three billion kroner of Danish goods
-delivered to Germany and never paid for. This is the answer to them. The occupier
-never settled the bill; the Danish state had borrowed to carry it; and the
-Americans, buying a place in western Europe, retired more than half of the debt
-the Germans had left behind. What Denmark spent the rest on was tractors: six and
-a half thousand in the late 1940s, ninety-six thousand by the late fifties.
-
----
-
-## Iceland, the Faroes, Greenland
-
-Three territories were kept inside the Danish realm in 1849 by a parenthesis in
-article four of the constitution. Between 1944 and 1953 all three left it, and
-each left by a different door.
-
-**Iceland walked out through a clause in its own treaty.** The Act of Union of
-1918 had allowed either party to dissolve it after 1943 if revision failed, and
-Iceland held its referendum over four days in May 1944 while Denmark was
-occupied and could not negotiate anything. The result was 99.47 per cent for
-ending the union and 98.51 per cent for a republic, on a turnout near
-ninety-eight. The republic was proclaimed at Þingvellir on **17 June 1944**.
-
-Christian X had said he would not recognise a constitutional change made while
-both countries were occupied, and the Danish press argued that Iceland was
-morally obliged to wait. Then, on the day, he sent a telegram of good wishes,
-which was read out and received with four cheers for the king of Denmark. The
-Danish resentment lasted rather longer than the ceremony. Both things are true:
-Iceland used a legal clause, and it used it at the one moment when the other
-party could not answer.
-
-**The Faroes tried the same thing and were stopped.** The referendum of
-**14 September 1946** asked whether to separate, and separation won by
-**5,660 votes to 5,499** — a margin of 161, with 481 ballots spoiled, some of
-them deliberately, by Lagting members campaigning for blanks. The chairman of the
-Lagting declared independence four days later. A majority of his own assembly did
-not support him, and neither did Copenhagen.
-
-What happened next is usually called an annulment and was something more
-particular: **the king dissolved the Lagting** and called an election, and at
-that election in November the unionist parties beat the separatists 7,488 to
-5,396. The declaration fell with the assembly that had made it. Home rule
-followed, by the act of **23 March 1948**, which gave the Faroes their own
-parliament and government, their language and their flag, one list of powers
-transferred at once and a second to be negotiated later. The question was
-not answered. It was converted into an arrangement.
-
-**Greenland did not leave. It was traded over, twice, and told afterwards.**
-
-On **16 May 1945** the Rigsdag ratified the agreement Henrik Kauffmann had signed
-with the United States on 9 April 1941 — unanimously, in both chambers, with the
-king approving in council a week later. Kauffmann had signed it with no
-authority, in the king's name, as agent for a principal who could not act. His
-government had recalled him, dismissed him, issued a warrant, charged him with
-high treason and seized his property. He was reinstated as envoy on **8 May
-1945**, three days after the liberation and **eight days before the parliament
-ratified the treaty he had been charged over**, and he went on to sign the United
-Nations Charter for Denmark. The charge was not tried. It was dropped.
-
-Then, on **14 December 1946 in New York**, the American secretary of state James
-Byrnes told the Danish foreign minister that the best solution for both countries
-would be the **outright purchase of Greenland by the United States**, and handed
-him a memorandum saying so. It was the Joint Chiefs' recommendation: their first
-objective, in the words of the State Department's own record, should be to
-acquire Greenland by purchase from Denmark. Gustav Rasmussen replied that he had
-not contemplated anything so drastic and would study it. He refused seven months
-later, on 14 July 1947.
-
-None of this was public. It surfaced in 1991, when an American news agency read
-the files. So when the Folketing debated the Atlantic pact in the spring of 1949,
-it did not know that the ally it was about to acquire had lately offered to buy a
-third of the kingdom.
-
----
-
-## The defence union that failed
-
-Sweden proposed it. At a meeting of the Nordic foreign ministers in Oslo in
-February 1948 the Swedish foreign minister raised a Scandinavian defence union,
-and for a year it was the most attractive answer available to three governments
-that did not want to choose.
-
-It failed on one point that could not be compromised. Sweden wanted a bloc
-genuinely outside both alliances, which is what Swedish neutrality had been for a
-century and a half and what had kept Sweden out of two wars. Norway had been
-occupied for five years by a power that a neutral Sweden had not deterred, and
-wanted a link to the west and American weapons, which the Americans would not
-supply to a neutral bloc. Denmark, which had been occupied in six hours, sat
-between them and preferred the Scandinavian answer for as long as there was one.
-
-The ministers met at Karlstad on 5 and 6 January 1949, in Copenhagen later that
-month, and in Oslo on the 29th and 30th, where they gave it up. The communiqué
-said there was not at present a sufficient basis for a mutually binding defence
-agreement, which was true and did not say why.
-
-Denmark then had ten weeks to decide what it had spent fifty years avoiding.
-
----
-
-## 4 April 1949
-
-The treaty was signed in Washington on **4 April 1949** by Gustav Rasmussen, the
-foreign minister who had refused to sell Greenland.
-
-The Rigsdag had approved it in late March — the Folketing by **119 votes to 23**
-on the 24th, the Landsting by **64 to 8** on the 25th. It is worth keeping both, because
-this was the last great decision taken by a two-chamber Danish parliament, and
-the chamber that gave the smaller majority would vote itself out of existence
-four years later.
-
-The twenty-three were the Communists and the Radicals. The Radical vote is the
-one to look at: a party that supported the government voted against the
-government's defining act of foreign policy, on the ground the party had held
-since Peter Munch — that a small state's safety lies in being harmless. That
-position had been Danish policy for forty years and had been tested on 9 April
-1940. This is the vote in which it ends.
-
-What Denmark did **not** do in 1949 is the part most often got wrong. It attached
-no reservation to the treaty. What existed on 4 April was a political
-understanding, stated by Hans Hedtoft in the March debate and confirmed to Gustav
-Rasmussen in Washington between 11 and 15 March by the Americans themselves, that
-no foreign bases would be established in Denmark in peacetime. The base
-policy hardened into doctrine only with Hedtoft's speech of **23 June 1953**, and
-the refusal of nuclear weapons came from H.C. Hansen at the NATO council in Paris
-in **December 1957** — and even then in the words "under the present
-circumstances", which were chosen to leave the door ajar. A Denmark that joined
-the alliance in 1949 with its later conditions already in hand is a Denmark
-assembled backwards out of the 1960s.
-
-So the country that had signed a non-aggression pact with Germany in 1939, been
-occupied in a morning, cooperated for three years, refused in the fourth, and
-been liberated by other people's armies, chose a side. It did so with an island
-in the Baltic whose return had been conditioned on keeping foreign troops off it,
-with a third of its territory under American runways, and with the last vote of
-the upper house its constitution would ever record.
-
-The government that signed had been formed eighteen months earlier, and it
-contained something Denmark had seen once before, twenty-three years and six
-months earlier, and never like this.
-
-> **Vignette · Christiansborg, 13 November 1947**
->
-> She is fifty-seven. She was born in Horsens to a Social Democratic household,
-> went out to domestic service after her confirmation, married in 1909, and went
-> into a telephone factory. At twenty-two she was chair of her town's branch of
-> the women workers' union. At twenty-five she was on its national board. From
-> 1937 she led the whole union — some thirty thousand women.
->
-> She is elected to the Folketing in the autumn of 1947 and is in the cabinet
-> within weeks. She is the second woman to be a Danish minister, after Nina Bang,
-> and the first from the working class.
->
-> She is a minister without portfolio, and her appointment carries a description
-> instead: *with particular regard to the interests of the homes, the
-> housekeeping and the children within social and supply matters, and to the
-> interests of self-supporting women.*
->
-> It is the last clause that is interesting, because it is the one that gets
-> dropped. The state's own list of her government gives her title as three words.
-> The encyclopedias give the homes, the housekeeping and the children. The women
-> who earned their own living, who were the thirty thousand she had come from,
-> fall off the end of the sentence.
->
-> She leaves office on 16 September 1950, the day Bodil Koch is sworn in as
-> minister for the church.
->
-> Fanny Jensen · Christiansborg · 13 November 1947 · [f]
+> Kristian L. Rasmussen · Buchenwald · winter 1944 · [-]
 
 ---
 
@@ -623,8 +452,35 @@ months earlier, and never like this.
 
 ## Danish terms, by section
 
-**§01 — the policeless country**
+**§01 — the arming**
+- **modtagegruppe** — a reception group: the people who went out at night to a
+  marked field to take in a parachute drop, carry the containers away and sink
+  the parachutes before morning.
+- **ventegrupper** — the waiting groups: the armed formations of the resistance,
+  held back from fighting and brought out on 5 May 1945 to keep order. About
+  sixty thousand people who never fought a battle.
 
+**§02 — the counter-terror**
+- **clearingmord** — a clearing murder: the killing of a prominent Dane by the
+  occupier in reprisal for an act of resistance. From the English word for
+  settling an account, by analogy with the *clearingkonto*.
+- **clearingkonto** — *glossed in chapter 41 — reference, do not re-gloss.*
+- **schalburgtage** — the occupier's reprisal bombings of Danish civil targets,
+  named on the pattern of *sabotage* after the Schalburg Corps that took part.
+- **stikker** — an informer. The word carried a death sentence from 1944 and the
+  resistance's killing of informers is the other column of §08's ledger.
+
+**§03 — the strike**
+- **folkestrejke** — a people's strike: a general strike that is political rather
+  than industrial and is not called by a union. Copenhagen's ran from the last
+  week of June 1944 into the first week of July.
+
+**§04 — Shellhus**
+- **gidseletage** — the hostage floor: the top storey of a building where
+  prisoners were held so that it could not be bombed. The Gestapo used one in
+  Copenhagen and it did not work.
+
+**§06 — the policeless country**
 - **politiaktionen** — the police action: the German seizure of the Danish police on
   19 September 1944, signalled by a false air-raid alarm.
 - **vagtværn** — a watch corps: the municipal guard raised after the police were
@@ -632,244 +488,139 @@ months earlier, and never like this.
   in the act, investigate nothing, carry no firearm.
 - **grænsegendarm** — *glossed in chapter 41 — reference, do not re-gloss.*
 
-**§02 — the first week**
-
-- **retsopgøret** — the legal reckoning: the prosecution from 1945 to 1955 of
-  Danes who had served, worked for, built for or informed to the occupier. The
-  word is *settling of accounts* rather than *justice*, and it was chosen.
-- **ventegrupper** — *glossed in chapter 42 — reference, do not re-gloss.*
-
-**§03 — the law made backwards**
-
-- **straffelovstillægget** — the supplement to the penal code: Law 259 of 1 June
-  1945, which reached back to 9 April 1940 and restored the death penalty.
-- **tilbagevirkende kraft** — retroactive force. Danish law forbids it in §1 of
-  the penal code, which is an ordinary statute and can therefore be set aside by
-  another ordinary statute, as it was.
-- **landsskadelig virksomhed** — activity harmful to the country: the law's own
-  name for what it punished. Wider than treason, and deliberately so.
-
-**§04 — who was tried**
-
-- **Hipokorpset** — the *Hilfspolizei*: the Danish auxiliary police raised by the
-  occupier once the Danish force had been deported. Service in it after
-  19 September 1944 was capital.
-- **den parlamentariske kommission** — the Rigsdag's inquiry of 1945 into the
-  conduct of Danish governments under the occupation, composed almost entirely of
-  members of the parties that had formed them.
-- **værnemager** — *glossed in chapter 41 — reference, do not re-gloss.*
-- **stikker** — *glossed in chapter 42 — reference, do not re-gloss.*
-
-**§05 — the women**
-
-- **tyskerpige** — "German girl": a woman who had a relationship with a German
-  serviceman. Not an offence under any Danish or German law of the period.
-- **feltmadras** — "field mattress": the coarser word, in the illegal press from
-  1942, usually printed beside a name and an address.
-- **krigsbarn** — a war child, of a Danish mother and a German serviceman. 5,579
-  were registered, and that registration is the only hard number in the subject.
-
-**§06 — Bornholm**
-
-- **amtmand** — the county governor: the state's senior official in a Danish
-  county. Bornholm's stayed in post throughout the Soviet occupation, which is
-  most of what needs saying about that occupation's character.
-
-**§07 — the border**
-
-- **Sydslesvig** — South Slesvig: the part of the duchy that stayed German after
-  the plebiscites of 1920, between the new frontier and the Eider.
-
-**§08 — Marshall aid**
-
-- **modværdimidler** — counterpart funds: the kroner Danish importers paid for
-  Marshall goods. They did not go to the Americans — they accumulated in a
-  blocked account and were released for agreed purposes.
-- **clearingkonto** — *glossed in chapter 41 — reference, do not re-gloss.*
-
-**§09 — the realm**
-
-- **Lagtinget** — the Faroese assembly: the body that declared independence in
-  September 1946 and was dissolved by the king for it.
-- **hjemmestyre** — home rule: an arrangement under which a territory legislates
-  for itself in a listed set of fields while the realm keeps the rest, with a
-  second list left open. The Faroes got one on 23 March 1948.
-- **forbundsloven** — *glossed in chapter 38 — reference, do not re-gloss.*
-
-**§11 — 4 April 1949**
-
-- **basepolitikken** — the base policy: no foreign forces stationed in Denmark in
-  peacetime. An understanding in 1949, not a reservation; doctrine from 1953.
-
 ---
 
 ## Meanwhile in Europe
 
-**Oslo, 1945–1948.** Norway did the same thing on a different scale, and the
-comparison is the best control the subject has. Norway investigated **92,805**
-cases and convicted **46,085** people out of a population near three million;
-Denmark convicted **13,521** out of about four. Per head that is roughly four and
-a half times the Danish rate. The women's columns diverge further: Norway convicted
-**16,083 women**, Denmark **644**. Not because Norwegian women collaborated
-twenty-five times as readily — the government in exile made membership of
-Nasjonal Samling a crime in itself, and NS had tens of thousands of members of
-both sexes, while Denmark never criminalised membership of the DNSAP at all.
-Norway then executed **25 Norwegians** and twelve men of the occupying forces,
-one of them a Dane. **Where the two countries' figures differ most, they differ
-because of a drafting decision taken in London, not because of anything anybody
-did during the war.**
+**Warsaw, 1 August 1944.** While Copenhagen was two weeks past a general strike
+that won a curfew back, the Polish Home Army rose against the German garrison in
+Warsaw and fought for sixty-three days in the expectation of Soviet help that did
+not come. About two hundred thousand people died and the city was demolished
+street by street afterwards. The Danish waiting groups, armed by the same British
+organisation, were told to wait, and waited, and came out on 5 May 1945 to direct
+traffic. Both decisions were taken by resistance leaderships with a claim to
+speak for their nations. Only one of those nations still had its capital in 1945.
 
-**Prague, 25 February 1948.** The Czechoslovak communists took the state in a
-fortnight, without an invasion and without, quite, an election; Jan Masaryk was
-found dead below his bathroom window on 10 March. Western Europe read it as proof
-that a country could be lost from the inside, and read it fast — the Brussels
-treaty was signed on 17 March. By the end of that month Denmark was inside the
-*påskekrise* — rumours, from diplomatic and intelligence sources never
-identified, that the Soviet Union was about to move on Norway and Denmark. They
-were groundless and they reached Copenhagen anyway. Hold this beside §10: the
-Scandinavian defence union was proposed in Oslo two days before Prague fell, and
-the fear that made it urgent is the fear that made it impossible.
+**Norway, 1941–1945.** Milorg is the control this chapter needs, because it is
+the same experiment run next door. It was integrated into the exile government's
+high command in November 1941, was coordinated with SOE only from the end of
+1942, and **kept deliberately quiet for years** — the reason given was Telavåg,
+where in 1942 the Germans destroyed a village and deported its men in reprisal
+for two shootings. By 8 May 1945 it had trained and supplied **forty thousand**
+men. Like the Danish waiting groups it was armed from Britain, held back from
+fighting, and used at the liberation to keep order rather than to win anything.
 
----
-
-## Checkpoints
-
-**Before §03.** Where we are: the occupier deported the Danish police in
-September 1944 and the country was policed for seven and a half months by
-municipal watchmen with no powers; at the liberation an organisation with no
-legal existence arrested about twenty-two thousand people in eight days, and two
-in three turned out to be chargeable with nothing. The next section is the law.
-Ask what a parliament does when the arrests have already happened.
-
-**Before §06.** Where we are: a retroactive statute, forty-six men shot,
-seventy-five people imprisoned for building the German war, and a parliamentary
-commission that found no ground to impeach anybody in the state. The chapter now
-turns outward. Hold one question: if the reckoning was that reluctant to touch
-the people who had governed, what does that say about who was governing in 1946?
-
-**Before §10.** Where we are: an island handed back on a condition Denmark read
-more strictly than it was written, a border Denmark declined to move, a war debt
-retired with American money, and three Atlantic territories out of the realm by
-three different doors. The last two sections are the choice. Ask what was
-actually on the table in 1948, and which of it anybody could have had.
+Two occupied Scandinavian countries, two underground armies, the same British
+quartermaster and the same instruction — wait — and in both the instruction held.
+**The argument for holding back is not cowardice and it is not foresight: it is
+that the cost of acting falls on people who did not choose to act**, which
+Telavåg taught Norway and the clearing murders taught Denmark. Warsaw is what
+the other answer looked like.
 
 ---
 
 ## Myth-check
 
-**"The *retsopgør* broke the constitution by making law retroactively."** No
-Danish constitution has ever forbidden retroactive criminal law. The prohibition
-is in §1 of the penal code, an ordinary statute of 1930, and the Rigsdag overrode
-it with another ordinary statute, knowingly and in public. The constitutional
-breach is the one almost nobody names: the requirement that an arrested person be
-before a judge within twenty-four hours, set aside in May 1945 for something over
-twenty thousand people with the government's knowledge. **The complaint people
-make has no constitutional basis, and the one that does is not made.**
+**"The resistance liberated Denmark."** Denmark was liberated by the German
+surrender of forces in north-west Europe, signed on a heath in Germany by men who
+had never been to Denmark. The waiting groups never fought a battle. What the
+resistance actually did was govern — it took nine of eighteen seats in the
+government of 5 May and it had been able to stop and start the capital since July
+1944 — and that is a larger claim than the military one, not a smaller.
 
-**"The big collaborators got away with it and the little ones were shot."** Half
-right, and the wrong half matters. Nobody was executed for collaboration: the
-death penalty attached to killing, to torture, to service in the Hipo corps and
-to informing that ended in a death, so the *værnemagere* were never in danger of
-it and were never going to be. What they escaped was prison, not the firing
-squad — which is the sharper charge, and the harder one to answer.
+**"Bornholm was bombed because the Soviet Union wanted the island."** The
+Soviet Union asked for a German surrender and the German commandant refused to
+give it to them, having been told to surrender to the Western Allies instead. He
+also had his guns fire on Soviet reconnaissance aircraft. What the Soviet Union
+then did was disproportionate and it was not unprovoked, and the Danish
+government was never consulted about any of it.
 
-**"Fifty thousand Danish women slept with German soldiers."** It is one
-historian's estimate, built outward from the 5,579 registered war children by a
-multiplier she does not set out. It may be right. It is not a count, nobody has
-produced a count, and it is repeated as though somebody had.
+**"Sabotage shortened the war."** It is the claim the resistance made for itself
+and the one its own numbers support least. Danish industrial sabotage never
+stopped Danish industry delivering to Germany; exports ran through 1944 and the
+clearing account went on being overdrawn. What the sabotage did was tie down
+German troops, wreck the railways at the moment it mattered in 1945, and — this
+is the part that is not military at all — **give Denmark a war record to produce
+in 1945**, which turned out to be worth more than any of the factories. Judged
+as a military campaign it is marginal. Judged as what it was actually for, it
+worked.
 
-**"The Soviet Union refused to leave Bornholm."** The Soviet Union left
-thirty-two days after Denmark asked. The delay was Danish: liberation on 5 May
-1945, the request on 4 March 1946, and Norway — which asked in September 1945 —
-was granted withdrawal at once. Ten months of the eleven-month occupation ran
-while Copenhagen had not yet put the question.
-
-**"In 1946 Denmark turned down the offer of South Slesvig."** What the primary
-record carries is a British enquiry whether Denmark *wished to exert itself to
-secure* a frontier rectification. That is an invitation to make a case, not a
-province on a table, and the three-option version told in Denmark cannot be
-traced to the note. The refusal is real; the offer, as usually described, is not.
+**"The Danish police were deported because they were resisting."** Some were, and
+police officers had sheltered the resistance for a year. But Pancke's stated
+reason was what the force might do *if the Allies landed*, not what it had done —
+they were taken for what they were, not for what they had chosen. That is why the
+deportation belongs in this chapter and not in the reckoning: it is the last act
+of an occupier who has stopped distinguishing between a Dane who opposed him and
+a Dane who might.
 
 ---
 
 ## Carry-forward
 
-**→ 44.** Denmark leaves this chapter with a Rigsdag of two chambers, the second
-of which has just cast the last significant vote it will ever cast — 64 to 8 for
-the Atlantic Pact, on 25 March 1949. Four years later it abolishes itself.
+**→ 44.** The waiting groups come out on 5 May and make 21,800 arrests in eight
+days, from a card index kept by an organisation with no legal existence. The
+reckoning does not begin with a law. It begins with that.
 
-**→ 44.** The Faroes have home rule and Iceland has gone. Greenland is still, in
-law, a colony, and the United States has twice been told it is not for sale. What
-1953 does to article four is the last instalment of a debt opened in chapter 31.
+**→ 44.** The counter-terror and the informer killings are two columns of one
+ledger, and the occupier printed them side by side on purpose. Which column is
+tried after the liberation, and which is not, is the next chapter's question.
 
-**→ 44.** The constitution of 1953 forbids deprivation of liberty for descent,
-religion or political conviction. The men who wrote that clause had interned
-Danish communists in 1941 and twenty-two thousand of their countrymen in 1945,
-and had been asked about neither.
+**→ 44.** The Freedom Council takes nine of the eighteen seats in the government
+of 5 May 1945 — an organisation that did not exist in law supplying half a
+cabinet, and then writing the statute under which the country is tried.
 
-**→ 44.** The base policy exists in 1949 as an understanding and nothing more.
-Every later Danish reservation — bases in 1953, nuclear weapons in 1957 — is
-added after the signature, by governments explaining what they had already signed.
+**→ 44.** The Soviet Union bombs Rønne and Nexø after the surrender the rest of
+Denmark has already celebrated, and stays on Bornholm for eleven months.
+
+**→ 45.** Sixty thousand armed men who never fought a battle are demobilised into
+a country that is about to argue for four years over whether it can defend
+itself at all.
 
 ---
 
 ## Summary
 
-The occupier took the Danish police on 19 September 1944, using the air-raid
-sirens as the signal because Danes had been trained for four years to go indoors
-when they sounded. About two thousand were seized and 1,960 deported; around
-seven thousand went underground, five and a half thousand of them into the
-resistance. What policed Denmark for the next seven and a half months was a
-municipal watch with a citizen's powers, no right to investigate and no
-firearms. When the liberation came the resistance made the arrests instead —
-about 21,800 by 13 May, without warrant, charge or magistrate, from a card index
-into which a rumour in a small town could put a name. More than fifteen thousand
-were let go almost at once and only about seven thousand were chargeable with
-anything. The figures in circulation do not reconcile, which is the point about
-them.
+The Danish resistance was armed from outside and it took three years to arrange.
+SOE's first agent died when his parachute failed over Haslev in December 1941;
+by 1945 something between 620 and a thousand tonnes had been dropped, at a cost
+of eighteen aircraft and sixty-nine Allied airmen. The reception groups went out
+at night to marked fields, carried the containers away and sank the parachutes
+before morning. What the drops produced was the *ventegrupper*, the waiting
+groups — about sixty thousand people, armed, organised and instructed not to
+fight.
 
-The law arrived three weeks after the arrests. The Rigsdag passed the
-*straffelovstillæg* on 30 May 1945 by 127 votes, five members who opposed the
-death penalty abstaining rather than voting against; it took effect on 1 June,
-reached back to 9 April 1940, and restored a death penalty Denmark had not used
-on a civilian since 1892. The jurists won the reach-back date and the politicians
-won the clause exempting anything done before 29 August 1943 on the order of a
-lawful Danish authority. There were no special courts: ordinary judges, ordinary
-prosecutors, extraordinary law.
+Industrial sabotage went from seventy-three actions in the three years to 1942
+to 816 in 1943, and the railways overtook the factories in 1945. The occupier's
+answer was not to catch saboteurs but to kill prominent Danes: Hitler ordered it
+on 30 December 1943, and Kaj Munk was taken from his parsonage at Vedersø on
+4 January 1944 and found shot in a ditch the next morning. The word for it,
+*clearingmord*, is a bookkeeping term. About a hundred people were killed that
+way, and the occupier had the Danish press print each one beside a resistance
+killing, so that the two would look like a ledger.
 
-13,521 people were convicted, 12,877 men and 644 women. A hundred and three death
-sentences were passed, seventy-eight survived appeal, and forty-six men were shot
-between 1946 and 1950, the first on 5 January 1946. Every one of them had killed,
-tortured or informed in a way that cost a life, because that is what the statute
-attached the penalty to. The other column went differently: fifty thousand cases
-of building for the Wehrmacht examined, about 1,100 convicted, half of those
-pardoned, seventy-five imprisoned for a year or more. Wright, Thomsen & Kier were not prosecuted, because they had
-been urged to take the work by Stauning. Nobody in the state was reckoned with at
-all: a parliamentary commission drawn from the parties under investigation found
-no ground to impeach anyone.
+In late June 1944 Copenhagen struck over a curfew. The city was put under a state
+of siege with its water, gas and power cut; more than a hundred people were
+killed; and it won the curfew back. What the People's Strike demonstrated was
+not among its demands and mattered more than they did — that the capital could
+be stopped and started by people with no office and no army.
 
-Bornholm was held by the Red Army for eleven months and handed back on one
-written condition, that Denmark garrison it without foreign troops or foreign
-administrators — a condition on a transfer that Danish governments then read as a
-standing prohibition for forty years, though Moscow never asked them to. In South
-Slesvig the Danish organisation went from three thousand members to 68,317, and
-in October 1946 Denmark declined to ask Britain for a frontier further south.
-That refusal was not the first: in 1919 the Danish envoy had asked the peace
-conference to strike out a third plebiscite zone already in the draft treaty. One doctrine, twenty-seven years, a
-document at each end — Denmark will not take Germans who do not want to be Danish.
+On 19 September 1944 the occupier deported the Danish police, about two thousand
+seized and 1,960 sent to Neuengamme and Buchenwald, on the reasoning that they
+could not be relied on if the Allies landed. Seven thousand went underground and
+some five and a half thousand of them ended the war inside the resistance, which
+is the largest single transfer of trained men it ever received and the occupier's
+own doing. What policed Denmark for the next seven and a half months was a
+municipal watch with a citizen's powers and no firearms.
 
-Iceland left through a clause in its own treaty of union, at the one moment when
-Denmark was occupied and could not answer. The Faroes voted to separate by 161
-votes, the Lagting declared independence, and the king dissolved the Lagting. In
-Washington the Americans offered on 14 December 1946 to buy Greenland outright,
-were refused seven months later, and the Folketing debating the Atlantic pact in
-1949 did not know it had happened. The Scandinavian defence union failed in Oslo
-on 30 January 1949 because Sweden would not join a bloc tied to the west and
-Norway would not join one that was not. Ten weeks later Gustav Rasmussen signed
-the North Atlantic Treaty, the Folketing having approved it 119 to 23 and the
-Landsting 64 to 8. The twenty-three were the Communists and the Radicals, and the
-Radical vote is where Peter Munch's doctrine that a small state's safety lies in
-being harmless finally ends.
+On 21 March 1945 the RAF destroyed the Gestapo headquarters in Copenhagen and its
+archives, and seven aircraft of the later waves bombed a school by mistake,
+killing eighty-six children and eighteen adults. On 4 May the surrender in
+north-west Europe was announced and Danes put candles in their windows. On
+Bornholm, which the surrender did not reach, Soviet aircraft bombed Rønne and
+Nexø on 7 and 8 May: 387 buildings destroyed and ten Danes killed, nine of them
+on the first day, because the towns were evacuated at four on the morning of the
+second. Danish radio was not allowed to report it, on the ground that it would
+spoil the liberation.
 
 ---
 
@@ -877,171 +628,126 @@ being harmless finally ends.
 
 **Recall.**
 
-1. What did the *vagtværn* do, what was it forbidden to do, and for how long was
-   it what Denmark had instead of a police force?
-2. What date did the *straffelovstillæg* reach back to, and what did the clause
-   about 29 August 1943 protect?
-3. On what single condition did the Soviet Union leave Bornholm, and when did
-   Denmark first ask it to?
+1. Where did the Danish resistance's weapons come from, and what did delivering
+   them cost the air forces that dropped them?
+2. What was a *clearingmord*, where does the word come from, and how did the
+   occupier make Danish newspapers reinforce it?
+3. The Danish police were deported on 19 September 1944. What replaced them, and
+   what was the replacement forbidden to do?
 
 **Causal.**
 
-1. Explain why forty-six men were shot and seventy-five *værnemagere* went to
-   prison, using the statute rather than the public mood.
-2. The Danish vote in South Slesvig rose to 99,500 in 1947 and fell to 42,242
-   by 1954. Set out the available explanations, and say which of them the food
-   figures support and which they do not.
-3. Norway convicted 16,083 women and Denmark 644. Account for the difference
-   without appealing to national character.
+1. Denmark's resistance had no weapons in 1943 and about sixty thousand armed
+   people in May 1945. Set out the chain, and say at which link it could most
+   easily have been broken.
+2. What did the People's Strike of June 1944 obtain, and what did it demonstrate
+   that was not among its demands?
+3. Ten Danes died in a bombing that destroyed 387 buildings in two small towns.
+   Explain the number.
 
 **Counterfactual.**
 
-1. Suppose the police had not been deported in September 1944. What happens to
-   the arrests of May 1945, and does the *retsopgør* look different?
-2. Suppose Denmark had asked for Bornholm back in September 1945, as Norway asked
-   for Finnmark. What is gained, and what is risked?
-3. Suppose Knud Kristensen had won his confidence motion in October 1947 and
-   pressed the border question. Argue what Britain would have done, and say which
-   of your assumptions is doing the most work.
+1. Suppose the Freedom Council had ordered the waiting groups into the streets in
+   the summer of 1944, as the Home Army rose in Warsaw. Argue the case for it,
+   then against.
+2. Suppose the police had not been deported in September 1944. What happens to
+   the resistance's strength, and what happens in May 1945?
+3. Suppose the Shellhus raid had been called off. Trace what is saved and what is
+   lost.
 
 **Contested.**
 
-1. Was the *retsopgør* a legal proceeding or a political one? Argue both, using
-   the courts, the commission and the *værnemager* figures.
-2. Denmark punished thousands of women without charging any of them with an
-   offence. Argue that this was a failure of the law, then that it was a use of it.
-3. Denmark refused a border further south in 1946 and joined a military alliance
-   in 1949. Argue that these are the same decision, and then that they are
-   opposite ones.
+1. Was the Shellhus raid justified? Make the strongest case each way, and say
+   what you would need to know that nobody knows.
+2. Sixty thousand armed people never fought a battle. Argue that this was the
+   right strategy, and then that it was an evasion dressed as one.
+3. The occupier killed about a hundred prominent Danes and the resistance killed
+   about four hundred informers. Argue that these are the same kind of act, and
+   then that they are not.
 
 ---
 
 ## Sources
 
-- **The police action and the policeless months.** lex.dk and
-  danmarkshistorien.lex.dk on *politiaktionen* 19 September 1944: the hour, the
-  false air-raid signal, Pancke's authorship, Himmler's approval after the fact,
-  the deportation figures and the move to Mühlberg. **The count of the dead is two numbers, not
-  one** — about eighty in the camps, 131 in a calculation of 1968 that adds the
-  men who died afterwards of what the camps had done to them. Verified for
-  chapter 42 and carried forward. Politimuseet for the *vagtværn*'s powers, equipment
-  and registers; Claus Bundgård Christensen for the criminality figures and for
-  **§02's load-bearing pair — 205 convictions in Copenhagen's crisis court in
-  1944 against more than a thousand by the summer of 1945.**
-- **The internments.** lex.dk, *Interneringerne efter befrielsen 1945*: about
-  22,000 interned, more than fifteen thousand released without prosecution, about
-  nine thousand handed to the police, two thousand released at once, about seven
-  thousand chargeable. The 21,800 arrests to 13 May are Politimuseet's, and
-  *Modstandsbevægelsen i Danmark 1940-1945* gives the same total. **These do not reconcile — fifteen plus nine is
-  twenty-four — and *Gyldendal og Politikens Danmarkshistorie* puts the number
-  held by 13 May nearer 34,000.**
-- **The law.** Law 259 of 1 June 1945 and Law 260 on procedure;
-  danmarkshistorien.lex.dk's *Retsopgørets love* for §1, the reach-back, the
-  exemption for acts before 29 August 1943 done on the order of a lawful Danish
-  authority, and the later reduction of the minimum. The vote of
-  30 May 1945 — 127 for, five abstaining against the death penalty, nineteen
-  absent — from the contemporary report. Hal Koch's *Jeg anklager Rigsdagen*
-  (November 1947); Henriques's *juridisk galehus*; Svenning Rytter's objection.
-- **Who was convicted.** lex.dk, *retsopgøret i Danmark*, for the official table
-  at final instance: 13,521, being 12,877 men and 644 women; German military
-  service 7,277 (6,930 / 347); German police service 1,638; *værnemageri* 1,139
-  (1,114 / 25); informing 413 (306 / 107). 103 death sentences, 78 at final
-  instance, 46 carried out, 32 commuted.
-- **The women.** Ditlev Tamm's 107 against Anette Warring's "around four hundred
-  of the 644". **§05's reading — that the national total of 413 has been taken
-  for the women's figure — is mine, an inference and not a citation**, offered
-  because 347 plus 400 exceeds 644. Warring, *Tyskerpiger* (1994), for the
-  fifty-thousand estimate and the 5,579 registered war children; Bornholms Museum
-  for the Rønne case of 22–23 May 1945 and its trial. **That none of the eighteen women is named in any surviving record
-  while the perpetrators are is the section's own finding.**
-- **The vignette subjects.** Flemming Helweg-Larsen: the Waffen-SS recruitment,
-  the arrest of a Jewish member of parliament and the chief rabbi, the killing of
-  Carl Henrik Clemmensen at Lundtofte in August 1943, and the execution before
-  dawn on 5 January 1946. That Clemmensen's killing preceded Hitler's order of
-  30 December 1943 is chapter 42's finding. **Jens Nielsen was beheaded at Horsens on 8 November
-  1892; to 5 January 1946 is 19,415 days, computed — fifty-three years and two
-  months.** Anna Lund Lorentzen: the 1947 death sentence with nine others of her
-  unit, the commutation against her stated wish, the 1949 marriage, release in
-  1956, death in 2007. **Her unit's arrest total, six to eight hundred, is a
-  range in the sources.** Fanny Jensen: *Dansk Kvindebiografisk Leksikon* for the life and
-  the appointment formula in full; **the truncation is verifiable against
-  Statsministeriet's list of the Hedtoft government, which gives her title as
-  "Minister uden portefolje" and nothing more**, and her dates and Bodil Koch's
-  same-day appointment are from that list. **Nina Bang took office on 23 April
-  1924; computed, 8,604 days, or 23 years and 6 months.**
-- **The værnemagere.** The audit committee for German payments: fifty thousand
-  cases, a repayment duty in about ten thousand, about 1,100 convicted under the
-  *værnemagerlov* of August 1945, roughly half pardoned, seventy-five imprisoned
-  for a year or more, 318 million kroner recovered. The withdrawal of the
-  prosecution of Wright, Thomsen & Kier; Rud. Christiani's submarine pens, his
-  non-prosecution and his Dannebrog of 1954. Carl Madsen, *Vi skrev loven*.
-- **Bornholm.** The landing at Rønne on 9 May 1945, the graves at Allinge and
-  the recorded rapes; the Danish note of 4 March 1946, the Soviet reply of the
-  5th and its condition, and the departure on 5 April; Bent Jensen on the delay;
-  the restrictions of 1953, the secret directives, and the refusals of 1952 and
-  1953 to extend the commitment to the whole country. **Computed: the
-  mainland was occupied 1,852 days and Bornholm 2,187, a difference of 335; the
-  Soviet occupation ran 331 days; Denmark waited 303 days before asking, and the
-  Soviet Union was gone 32 days after the note.**
-- **South Slesvig.** Grænseforeningen and *Sønderjyllands historie* for the
-  membership, the schools, the Landtag votes of 1947 and 1954, the food relief
-  and the population. **The British enquiry is taken from Hansard rather than
-  from the Danish retellings** — the statements to the Commons in March and
-  November 1949. The Danish reply of 19 October 1946; Knud Kristensen's speeches
-  and his fall on 4 October 1947. **The Danish objection of 17 May 1919 to a
-  third zone already in the draft treaty is the node that makes 1946 a doctrine
-  rather than a first.**
-- **Marshall aid.** The agreement of 29 June 1948; the two official dollar totals, reported as a
-  disagreement rather than resolved; the counterpart
-  kroner, about 1,700 million by the end of 1953 with nearly nine hundred million
-  retiring German-clearing state debt; production, agriculture, the 1946 deficit
-  and the tractor counts. **The rejection of "the end of
-  self-sufficiency" rests on chapter 30's material.**
-- **Iceland, the Faroes, Greenland.** The Act of Union of 1918 and its revision
-  clause; the Icelandic referendum of May 1944, the proclamation at Þingvellir on
-  17 June and Christian X's telegram. The Faroese referendum of 14 September 1946, the
-  declaration, the dissolution of the Lagting, the November election and the home
-  rule act of 23 March 1948. For Greenland: the Kauffmann agreement of 9 April 1941, his
-  dismissal and charge, his reinstatement on 8 May 1945 and the unanimous
-  ratification of 16 May — **chapter 41's corrected date, recorded at open item
-  129**; the Byrnes proposal of 14 December 1946 with the Joint Chiefs'
-  recommendation in the State Department's wording, Rasmussen's refusal of 14
-  July 1947, and the surfacing of the file in 1991.
-- **The defence union and the pact.** Östen Undén's raising of the union at the
-  Nordic foreign ministers' meeting in Oslo on 23–24 February 1948; the defence
-  committee of 15 October 1948; Karlstad, Copenhagen and Oslo in January 1949, and
-  the communiqué's "not at present a sufficient basis". The Washington negotiations of 11–15 March 1949 and the American
-  confirmation to Rasmussen about bases; the Folketing's 119 to 23 on 24 March
-  and the Landsting's 64 to 8 on the 25th; the signature on 4 April. Hedtoft's
-  base declaration of 23 June 1953 and H.C. Hansen's "under the present
-  circumstances" in Paris in December 1957.
-- **The Norwegian comparison.** Store norske leksikon, *landssvikoppgjøret*:
-  92,805 cases, 46,085 convicted (30,002 men, 16,083 women), thirty death
-  sentences on Norwegians of which twenty-five were carried out, twelve on men of
-  the occupying forces. **That membership of
-  Nasjonal Samling was itself made criminal by the exile government is the
-  mechanism the entry uses.**
+- **The Council, and the arming.** lex.dk's *Danmarks Frihedsråd* for the date,
+  the membership, the Soviet recognition and the Western non-recognition;
+  *Gyldendal og Politikens Danmarkshistorie* for a different membership and the
+  nine seats; Niels-Birger Danielsen for the borrowed office, which is his alone.
+  *Dansk Biografisk Leksikon* on Carl Johan Bruhn and Mogens Hammer for the night
+  of 27/28 December 1941, and milhist.dk for Torpeskoven, the Whitley and the
+  hundred and fifty metres; DBL on Muus for Nibe and for the 1946 conviction;
+  lex.dk's *SOE* and *ventegrupper* for the tonnages, the seven regions, the
+  Swedish weapons and the sixty thousand; lex.dk's *Hvidstengruppen* for Mustard
+  Point, the arrests of 11 March 1944 and the executions of 29 June.
+  DBL and Frihedsmuseet's catalogue on Kim Malthe-Bruun; the Ryvangen roll from
+  krigeren.dk.
+- **The counter-terror and the strike.** lex.dk's *clearingmord* for the
+  etymology from the *clearingkonto* and for the newspapers printing the two
+  kinds of notice side by side; Martin Göllnitz in *Sønderjydske Årbøger* 135
+  (2023) and danmarkshistorien.lex.dk on Werner Best for the two readings of the
+  ratio; DBL and danmarkshistorien on Kaj Munk; danmarkshistorien's *Peter-gruppen*
+  for the group and for the convicted totals. *Gyldendal og Politikens
+  Danmarkshistorie*, "Folkestrejken", for the allotments, the state of siege, and
+  the 23 and 203 — which is single-source — and the hundred and six hundred.
+  lex.dk's *Shellhuset* and *Den Franske Skole* for the raid and the school.
+- **Bornholm.** lex.dk's *Bornholms besættelse 1940–1946* for the raids, the
+  landing and the eleven months; Bornholms Museum for the building counts;
+  natmus.dk for nine dead in Rønne and one in Nexø; koldkrig-online.dk for
+  Montgomery's question of 4 May and for the note of 5 March 1946.
+- **The police, verified since.** The action of 19 September 1944 began at eleven
+  in the morning, signalled by a false air-raid alarm, and was Pancke's plan
+  rather than Hitler's — Himmler approved it afterwards. Of a force just under
+  ten thousand, about two thousand were seized and 1,960 deported, first to
+  Neuengamme and then to Buchenwald; some seven thousand went underground. The
+  count of the dead is two numbers and not one: about eighty died in the camps,
+  and a calculation of 1968 reaches 131 by including the men who died afterwards
+  of what the camps had done to them.
+- **Monica Wichfeld.** Born Monica Emily Massy-Beresford in London on 12 July
+  1894 to an Anglo-Irish family; married the Danish landowner Jørgen Adalbert
+  Wichfeld on 15 June 1916; lived mainly at Rapallo from 1929 and returned to
+  Engestofte near Maribo after the occupation. Raised money for the illegal
+  press, worked with Hilmar Wulff, and from early 1943 led the underground's work
+  on Lolland-Falster, moving and hiding weapons with her daughter Varinka.
+  Arrested at Engestofte in January 1944, interrogated at Dagmarhus, held in
+  Vestre Fængsel, sentenced to death by a German court martial in May 1944.
+  **She refused to petition for clemency and submitted one only at her family's
+  insistence, written in English on lavatory paper**; the sentence was commuted,
+  she was moved to Cottbus with three other Danish women and died at Waldheim on
+  27 February 1945. Her grave has never been located. *Dansk Kvindebiografisk
+  Leksikon* and the National Museum's resistance database.
+- **Kristian L. Rasmussen.** A policeman in Odense, taken on 19 September 1944,
+  held at Frøslev and then Neuengamme and Buchenwald, home on **3 May 1945**. He
+  kept a diary in captivity, which was forbidden, and hid it; his son gave it to
+  Odense Stadsarkiv in 1995. Among its entries is the arrival of a transport of
+  **fourteen hundred Jews from Auschwitz, a hundred of them dead**. From the
+  source bank *Det danske politi i Buchenwald* (historielab / aldrigmere.dk),
+  which also carries the accounts of Anton Guldbæk of Aalborg, Flemming Hinsch,
+  Ingolf Gildam and Aage Nielsen of the Copenhagen police. **His birth and death
+  dates are not established in that material and are not given here.**
+- **Norway, for the *Meanwhile*.** Milorg's integration into the exile
+  government's high command in November 1941, the coordination with SOE from the
+  end of 1942, the caution attributed to the Telavåg reprisal of 1942, and the
+  forty thousand trained and supplied by 8 May 1945.
 
 ---
 
 ## Visit
 
-**Politimuseet, Fælledvej, Copenhagen.** The watch corps's armbands, caps and
-whistles are there, and so are the registers. The museum is in a former police
-station, and the deportation of September 1944 is its own history rather than a
-subject it took up.
+**Mindelunden i Ryvangen, Hellerup.** The execution ground and the graves. One
+hundred and five men are buried there and a hundred and fifty-one more are named
+on the wall because their bodies were never found.
 
-**Bådsmandsstrædes Kaserne, Christianshavn.** The barracks where the first
-executions were carried out in 1946. It is Christiania now, which is a thing to
-know while standing in it.
+**Frederiksberg Allé, Copenhagen.** The Institut Jeanne d'Arc stood beside the
+Aveny Theatre. The school never reopened. The memorial went up in 1953 and the
+names were added to it in 2015.
 
-**Hotel Dana, Rønne.** The building is still there. Nothing marks what happened
-in it on the night of 22–23 May 1945, and no list of the eighteen women exists to
-put on a marker if anyone wanted one.
+**Rønne and Nexø, Bornholm.** Both town centres are post-war and look it; the
+Swedish timber houses given to Bornholm in 1945 and 1946 are still standing and
+are still called the Swedish houses.
 
-**Allinge kirkegård, Bornholm.** Thirty Soviet soldiers are buried there. None of
-them was killed in fighting on the island.
+**Engestofte, Lolland.** Monica Wichfeld's house, on the lake south of Maribo.
+She is not buried anywhere; the family memorial is here.
 
-**Flensborghus, Flensburg.** The Danish minority's house, in the town Denmark
-twice declined to ask for. The library and the archive of the Sydslesvigsk
-Forening are in it, and both are open.
+**Politimuseet, Fælledvej, Copenhagen.** In a former police station. The
+deportation of September 1944 is the museum's own history rather than a subject
+it took up, and the watch corps's armbands and whistles are there too.

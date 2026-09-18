@@ -1,6 +1,6 @@
-# Chapter 42 — Rupture, rescue, resistance, 1943–1945
+# Chapter 42 — 1943: the year the policy broke
 
-*Draft, eleven sections. Prose only; apparatus follows.*
+*Draft, six sections. Prose only; apparatus follows.*
 
 ---
 
@@ -345,6 +345,34 @@ choose between those. It is going to set them beside each other, which is what
 
 ---
 
+> **Vignette · Horserød, 4 October 1943**
+>
+> He is thirteen. He was born Paul Efim Rabinowitsch in Hamburg in 1930, and his
+> mother and stepfather brought him to Copenhagen in 1936 to get him away from
+> what Germany was becoming. He learned the trumpet. He plays in the Tivoli Boys'
+> Guard, which is about as Danish as a boy can be.
+>
+> The family is caught trying to cross to Sweden. On 4 October they are sent to
+> Horserød, and on the 13th they go to Theresienstadt, where he is put in the
+> youth dormitory L 414 and recruited into the ghetto orchestra because he can
+> play. He appears in the propaganda film. He plays in more than fifty
+> performances of a children's opera called *Brundibár*, in which the children
+> defeat a bully, staged by a camp the Germans are using to prove how well Jews
+> are treated.
+>
+> The Red Cross buses take him out on 15 April 1945. He goes back to Copenhagen,
+> studies music, directs opera in Rome, and in 1972 takes the name Paul Aron
+> Sandfort. He spends the rest of his life writing about the place, and starts a
+> project that has children across Europe performing *Brundibár* again. He dies
+> at Hornbæk in 2007.
+>
+> **He escaped Germany as a small boy and Denmark sent him back into it at
+> thirteen.**
+>
+> Paul Aron Sandfort · Horserød, then Theresienstadt · October 1943 · [n]
+
+---
+
 ## Danmarks Frihedsråd
 
 On 16 September 1943, eighteen days after the government stopped functioning,
@@ -401,361 +429,8 @@ the capital out on strike and, harder, call it back in. By May 1945 it took
 **nine of the eighteen seats** in the liberation government, the politicians
 taking the other nine and the premiership.
 
-That is the fact chapter 43 cannot be told without, and it was settled in a
+That is the fact chapter 44 cannot be told without, and it was settled in a
 borrowed room by seven men, three of whose names are not agreed.
-
----
-
-## How the underground was armed
-
-A resistance can decide to fight with what it has. Denmark had almost nothing:
-the army had been interned in August and its weapons taken, and a country that
-deliberately made itself unable to fight in 1939 had laid nothing by. Nearly
-everything the saboteurs used after 1943 came from outside, and the getting of
-it is a story chapter 41 deliberately did not begin.
-
-Britain's Special Operations Executive set up a Danish section in October 1940
-under Ralph Hollingworth, who had lived in Denmark. Ebbe Munck, a newspaper
-correspondent with an arrangement with officers of the general staff's
-intelligence section, reached Stockholm the same month, and SOE put a contact
-man beside him there in February 1941. Denmark stayed low on SOE's list of
-priorities for a long time, for the sound reason that it was not resisting.
-
-The first attempt went wrong in the most complete way available. On the night of
-27 and 28 December 1941 a converted Whitley dropped two men blind over
-Torpeskoven near Haslev, at about three in the morning, from a hundred and fifty
-metres. Carl Johan Bruhn was a physician of thirty-seven who had been chosen to
-lead SOE's work in Denmark and had helped plan the drop and pick the ground,
-which he knew. His parachute did not open. Mogens Hammer, the radio operator,
-landed safely and found the body. The man Britain had spent a year training to
-organise Danish resistance was killed by his own equipment before he had done
-anything at all.
-
-Flemming Muus came down by parachute south of Nibe on 11 March 1943 and ran SOE
-in Denmark until December 1944; Ole Lippmann had it from February 1945. Muus's
-later history is not creditable — he refused to cooperate with an audit of his
-funds and a Danish court convicted him of embezzlement in 1946 — and it is worth
-saying, because the alternative is a chapter in which everyone on the right side
-is also admirable.
-
-The machinery, once it existed, was strikingly domestic. The BBC broadcast a
-coded greeting to a person who did not exist; the reception group heard its own
-phrase and went out that night. Drops were made around the full moon and not at
-midsummer, when the Danish nights are too light. The ground party laid three
-white lights and one red to show the pilot the wind. A container took four men
-to carry and one drop could be fifteen of them, so a reception needed dozens of
-people, vehicles, a barn, and somebody to sink the parachutes in a bog before
-morning. In Jutland these were run from April 1944 by Anton Toldstrup, who used
-something like two hundred and eighty-nine different fields.
-
-The best-known group worked out of an inn. Hvidsten Kro stands on the road
-between Randers and Mariager, and the group around the innkeeper Marius Fiil and
-his family took its first drop on Trinderup Hede on 12 March 1943, then moved to
-a field they called Mustard Point; in four drops that April and May they
-received seven agents and fifty containers. In December 1943 two agents were
-taken in Aarhus and one talked under torture. On 11 March 1944 the Gestapo
-walked into the inn and arrested Fiil, his son Niels, his daughters Kirstine and
-Gerda, and Kirstine's husband Peter. A court-martial on 26 and 27 June sentenced
-eight men to death, and on the morning of the 29th they were shot at Ryvangen.
-
-The totals are large and they do not agree. Four reputable accounts give 620
-tonnes dropped over the whole war, about 650 tonnes from August 1944 alone,
-about 700, and about a thousand received altogether — and the first two cannot
-both be true. The one figure everybody agrees on is the cost: **eighteen
-aircraft lost and sixty-nine Allied airmen killed** delivering it.
-
-Weapons came the short way too. From Sweden the resistance obtained something
-like 7,500 Husqvarna submachine guns and carbines, ten thousand hand grenades
-and at least 4.6 million rounds — more small arms than the whole Danish army had
-been able to field on 9 April 1940.
-
-What it added up to was the waiting groups: a few thousand men organised
-illegally at the end of 1943, about ten thousand by December 1944, and something
-near **sixty thousand in May 1945**, which is one and a half per cent of the
-population. Every source that discusses their equipment uses the same word,
-*underbevæbnet*, and they never fought a battle. On 5 May 1945 they came out of
-their houses with armbands and rifles and took over the policing of a country
-that had had no police since September 1944.
-
-That matters for what comes next. The 21,800 people interned in Denmark in the
-weeks after the liberation were arrested by men who had been civilians four days
-earlier, armed by a foreign air force, and authorised by a council that had
-constituted itself in a borrowed office.
-
-> **Vignette · Ryvangen, 6 April 1945**
->
-> He was born in Edmonton, Alberta, in 1923, and came to Denmark at nine when
-> his parents separated. He went to sea at eighteen as a merchant seaman, which
-> is a trade and not a gesture.
->
-> From September 1944 he ran weapons across the Øresund for the Students'
-> Intelligence Service. In October he and another man took a customs boat out of
-> Vordingborg to Sweden and came back a week later on a transport ship. The
-> Gestapo arrested him on 19 December 1944. He kept track of the cells and put
-> them in his letters: 252, then 585, then 37, then 411.
->
-> On 4 April 1945 a court-martial sentenced him to death with three others and
-> he wrote to his mother the same day from cell 411. *Jeg er sammen med Jørgen,
-> Niels og Ludvig i dag blevet stillet for en krigsret. Vi blev dømt til døden.*
-> And then: *Tiden er kort, jeg kan ikke rigtigt forklare det, men mit sind er
-> fuldkommen roligt.* He wrote to his girlfriend Hanne the same day, telling her
-> never to let the thought of him stand between her and her life.
->
-> On the morning of the 6th he was shot at Ryvangen. The memorial roll for that
-> day gives Jørgen Frederik Winther and Ludvig Alfred Otto Reventlow — and Peter
-> Wessel Fyhn, who is not a Niels. Nobody has reconciled it.
->
-> His mother published the letters that autumn as *Kim. Uddrag af Dagbog og
-> Breve*: excerpts, chosen by her, four months after he was shot. They were
-> translated into seven languages. There is still no critical edition and nobody
-> has collated the print against the manuscripts.
->
-> Kim Malthe-Bruun · Ryvangen · 6 April 1945 · [n]
-
----
-
-## Sabotage, and the counter-terror
-
-The series runs: seventy-three industrial sabotage actions in 1940, 1941 and
-1942 together; 816 in 1943; 988 in 1944; and 924 in the four months of 1945
-before the capitulation. Those add to 2,801, which is the published total, so
-the column checks against itself.
-
-Railway sabotage runs: two actions in 1942, 111 in 1943, 311 in 1944, and — in
-the same four months of 1945 — one thousand one hundred and three. The published
-total is 1,526 and the four figures add to 1,527. That column does **not** check
-against itself, and the missing one is left standing here rather than smoothed,
-because a series quietly adjusted to its own total is worth less than one that
-has not been.
-
-The shape is the argument. Sabotage was negligible while the war looked German,
-substantial once it did not, and overwhelming in the final months, when cutting
-the railways was militarily useful to an invasion of Germany that was coming
-from the other direction. The saboteurs of 1943 were mostly communists and
-mostly young. BOPA had about a hundred and seventy-five members at the end and
-Holger Danske about three hundred, which are very small numbers for a national
-myth and the right ones.
-
-The occupier's answer was designed by Hitler in person, at the Wolfsschanze on
-30 December 1943. He rejected the obvious instrument, public hostage executions,
-on the explicit ground that they create martyrs. What he ordered instead was
-murder: Danes of standing, killed anonymously by men in plain clothes, so that
-the deaths would read as the resistance's fault rather than the occupier's
-policy.
-
-The ratio is where the accounts come apart, and since it is quoted constantly it
-should be quoted carefully. Martin Göllnitz gives the order's wording as
-requiring every act of terror to be punished fivefold; Niels Wium Olesen gives
-it as tenfold; Best is then said to have moderated it in Denmark to two-for-one
-by the first and one-for-one by the second. The familiar formula — one prominent
-Dane for every German — describes the practice and is not the text of the order,
-and no number can be stated here without naming which historian is being
-followed.
-
-The name is the most revealing thing about it. *Clearingmord*: the first element
-from the English word for settling an account, coined by analogy with the
-**clearingkonto**, the account at the Nationalbank against which German purchases
-of Danish goods were entered and largely never paid — which chapter 41 spent a
-section on. And the occupier enforced the metaphor typographically. Danish
-newspapers were required to print the notices of these murders and the notices of
-the resistance's killings of informers **side by side and in the same layout**,
-so that a reader would take in two columns of the same kind of thing and
-understand that an account was being settled.
-
-It did not work, and the first killing is why. Kaj Munk was a parish priest at
-Vedersø in west Jutland and the most performed playwright in the country, a man
-who had admired authoritarian government in the thirties, said so in print, and
-then turned on it in the most public way available to him. On 4 January 1944 men
-showed false Danish police badges at the parsonage door and took him. The next
-morning a mason walking to work found him in the ditch at Hørbylunde Bakke, shot
-three times. A country whose newspapers could tell it nothing understood this
-immediately.
-
-The killing was done by the group Otto Bovensiepen formed the following month
-under the motto *terror mod terror*: officially *Sonderkommando Dänemark*,
-called the Peter group after its operational leader's cover name. It was mixed
-German and Danish, recruited from the Schalburg Corps and from men back from the
-Eastern Front, and over about fifteen months it killed more than a hundred and
-fifty people — or the ninety-four murders and twenty-five attempted murders its
-members were actually convicted of, which is the only figure of the several in
-circulation with an evidentiary basis. Seven of its Danish members were
-sentenced to death in 1947 and executed. Some worked with silenced Welrod
-pistols captured from SOE drops and reissued by the Gestapo, which is as exact
-an image of the ledger as the period produced.
-
-The other half of the counter-terror was bombing, and Danes named that too:
-*schalburgtage*, on the pattern of sabotage, after the corps that took part. The
-targets were chosen to damage civil life rather than war production — Tivoli's
-concert hall, a student hall of residence, the Conservatives' Borgernes Hus, the
-Royal Porcelain factory. In Aarhus the tram depot went up on 22 August 1944 with
-sixty-five vehicles in it.
-
-None of it was aimed at the resistance. It was aimed at the public, to make the
-resistance intolerable to it, and the measure of its failure is that sabotage
-rose in every year it continued.
-
----
-
-## The People's Strike, June 1944
-
-On 22 June 1944 BOPA blew up Riffelsyndikatet, in the largest single act of
-sabotage of the Danish occupation. The next day eight resistance men were
-executed. Then the Peter group burned Tivoli's concert hall, the student
-residence on Tagensvej, Borgernes Hus and the Royal Porcelain factory, and
-Werner Best imposed a curfew from eight at night until five in the morning.
-
-What happened next began as a joke and did not stay one. The men at Burmeister &
-Wain, the largest workplace in Copenhagen, walked off at noon and said they had
-to go home early to look after their allotments. The detail is genuine and the
-standard national history prints it in those words — *deres livsvigtige
-kolonihaver*, their vitally important allotment gardens. The labour movement's
-own account gives the formal slogan instead, *eight hours' work and eight hours'
-rest*. Both are probably true and the joke is the one that spread, because a
-curfew answered by an announcement that the beans need watering is not a
-demonstration that can be fired on.
-
-It was a hot summer and nobody went indoors. Within days there were bonfires at
-the crossroads and furniture across the streets, and by 29 June the strike was
-citywide. On the 30th the announcement of the Hvidsten executions turned it into
-a general strike and stopped the transport altogether, and the Freedom Council —
-which had called none of this — issued the first of its proclamations, demanding
-the removal of the Schalburg Corps from Denmark and the end of the curfew, and
-asking that electricity, gas, water, bread and milk be maintained.
-
-On 1 July the three senior Germans in Denmark declared the capital in a state of
-siege. The water, gas and electricity were cut. The roads out were closed and no
-supplies came in. Patrols fired into the streets from vehicles and from the air,
-and the Germans demanded, under threat of bombarding the city, that the Danish
-authorities stop it. Twenty-three people were killed that day and two hundred
-and three wounded.
-
-On 2 July the mayors of Copenhagen, Frederiksberg and Gentofte, the employers'
-association, the chamber of commerce, the shipowners and the executive of the
-trade union federation published a joint appeal to go back to work. It said,
-accurately, that the food was already failing. It had no effect whatever, which
-is the most precise statement available of where authority in Denmark had gone.
-Best reopened the municipal works the same day after a single alteration to the
-Danish text.
-
-When the Council called the city back is not settled — one standard work says
-work resumed on the morning of 3 July, another that the order came on the 4th
-and was obeyed on the 5th, and the site that publishes the primary documents
-says the 5th and does not publish the final proclamation. Over the whole strike
-more than a hundred people were killed and more than six hundred wounded.
-
-What was won was small and specific: the Schalburg Corps off the streets, and
-the curfew lifted. The executions did not stop, and more than half of the
-hundred and two resistance members executed in Denmark were shot after January
-1945.
-
-What was actually won was not on the list of demands. A body with no legal
-existence had told a capital city to stop and it stopped, and told it to start
-and it started. The elected mayors and the trade union leadership had asked for
-the same thing three days earlier and been ignored. From the first week of July
-1944 the question of who governed Denmark had an answer, and it was not the
-permanent secretaries.
-
----
-
-## Shellhus
-
-The Gestapo took over the Shell company's Copenhagen office building in 1944 and
-made it their headquarters in Denmark. Prisoners were interrogated there, and
-about two dozen were held in cells in the attic — the *gidseletage*, the hostage
-floor — put at the top of the building deliberately, so that the British could
-not bomb it without killing them. Among them by March 1945 were Mogens Fog and
-Aage Schoch of the Freedom Council.
-
-The resistance asked for the building to be bombed anyway.
-
-On the morning of 21 March 1945 eighteen Mosquitos of the RAF's 140 Wing —
-British, Australian and New Zealand squadrons — left Norfolk with a Mustang
-escort and flew three hundred and fifty miles across the North Sea at the height
-of a rooftop. The first bomb hit Shellhuset at a quarter past eleven.
-
-In the first wave an aircraft flown by Wing Commander Peter Kleboe struck a
-thirty-metre light mast over a railway ground, dropped its bombs early and
-crashed beside Frederiksberg Allé. The second and third waves took the smoke and
-fire for the target. Seven of the twelve aircraft behind bombed it — and it was
-the Institut Jeanne d'Arc, the French school, a mile and a half from Shellhuset,
-with four hundred and eighty-two children in its cellars.
-
-Eighty-six children were killed, and eighteen adults: ten nuns, four teachers,
-two firemen and two fathers who had come to help dig.
-
-Inside Shellhuset about a hundred Germans and Danish Gestapo staff died and the
-archives burned. Of the twenty-six prisoners in the attic, eighteen got out and
-eight did not. Nine Allied airmen were killed.
-
-It is usually offered as a choice between a triumph and a tragedy, and it is not
-one, because the two are joined in a way that is hard to look at. Martin
-Sundstrøm has put it most exactly: the men in the attic survived *because* so
-many bombs went into the school, since a full weight of bombs on Shellhuset
-would have left fewer of the eighteen to walk out. Having established that, he
-declines to call the raid a military error and questions instead the decision to
-ask for it, the British planners having said beforehand that it would cause
-heavy civilian casualties.
-
-The judgement here is narrower. The raid did what it was asked to do: the
-Gestapo's Danish records were destroyed and its effectiveness against the
-organised resistance never recovered in the six weeks that were left. The
-foreseeable cost was stated in advance by the men who would have to fly it, and
-it was accepted by Danes on behalf of Danish children whose parents were not
-consulted and could not have been. That is not a scandal and it is not a
-triumph. It is what asking to be liberated turned out to involve.
-
----
-
-## 4 May 1945 — and Bornholm
-
-At twenty past eight on the evening of 4 May 1945 the BBC's Danish service
-announced that the German forces in Holland, north-west Germany and Denmark had
-surrendered, to take effect at eight the next morning. Danes took the blackout
-paper down and put candles in the windows, and the photographs of that night are
-the ones the country has used ever since. The waiting groups came out with
-armbands. In the morning the occupation was over.
-
-It was not over on Bornholm.
-
-The instrument signed on Lüneburg Heath covered the German forces in Denmark and
-named no islands beyond the Frisians and Heligoland; Bornholm fell under a
-general clause about all other islands, a hundred and fifty kilometres east of
-the rest of the country and much nearer a front that was still moving.
-Montgomery asked on 4 May who was responsible for liberating it and was told not
-to act without Eisenhower's approval. The approval never came, and nobody told
-the Danes.
-
-The German commandant, Kapitän zur See Gerhard von Kamptz, had instructions from
-the naval command and followed them: he would surrender to the Western Allies
-and not to the Red Army or to the Bornholm resistance. He also had his
-anti-aircraft guns fire on Soviet reconnaissance aircraft. At half past twelve
-on 7 May Soviet bombers appeared over Nexø and minutes later over Rønne, and
-came back at a quarter to seven that evening.
-
-They dropped leaflets demanding that the Germans capitulate by ten the following
-morning. At four in the morning on 8 May the Danish authorities began evacuating
-both towns, and when the heaviest raid came in at ten they were all but empty.
-
-In Rønne two hundred and twelve buildings were destroyed and about two thousand
-nine hundred damaged, out of three thousand two hundred. In Nexø a hundred and
-seventy-five were destroyed and eight hundred and fifty-six damaged, out of nine
-hundred and fifty-nine. The hospital at Rønne was hit through the red cross
-painted on its roof.
-
-**Ten Danes were killed.** Nine died in Rønne on the 7th and one in Nexø, and
-nobody at all was killed on the 8th, which was the day the towns were flattened.
-The low number is the most misunderstood fact about the bombing. It is not
-evidence that the raids were light and it is not luck: it is the evacuation of
-the 8th, ordered at four in the morning by Danish officials on an island nobody
-in London or Moscow had thought to mention to anyone.
-
-On the afternoon of 9 May five Soviet motor torpedo boats put a hundred men into
-Rønne harbour and the German garrison surrendered without resistance. The main
-force, some seven and a half thousand men, arrived from Kolberg on the 11th.
-They stayed eleven months.
-
-Danish radio was not permitted to broadcast news of the bombing of Rønne and
-Nexø. The reason given was that it would spoil the liberation.
 
 ---
 
@@ -764,14 +439,12 @@ Nexø. The reason given was that it would spoil the liberation.
 ## Danish terms, by section
 
 **§01 — August**
-
 - **augustoprøret** — the August rising: the wave of strikes, street fighting and
   sabotage that ran through the Danish provincial towns in August 1943 and ended
   the cooperation policy. Not a rising against anybody's government; there was
   nobody to call it and nobody to call it off.
 
 **§02 — 29 August**
-
 - **undtagelsestilstand** — a state of emergency. The occupier demanded that
   Denmark declare one on 28 August 1943 and imposed a military one of its own the
   next morning when Denmark refused.
@@ -781,56 +454,21 @@ Nexø. The reason given was that it would spoil the liberation.
   committee of politicians. A government in everything but responsibility.
 
 **§03 — the warning**
-
 - **jødeaktionen** — the Jewish action: the German operation against the Jews of
   Denmark, proposed on 8 September 1943 and carried out on the night of 1 October.
 
 **§05 — those who stayed**
-
 - **de hvide busser** — the white buses: the Swedish Red Cross convoys of spring
   1945 which brought Scandinavian prisoners out of German camps, including the
   survivors of the Theresienstadt transports.
 
 **§06 — the Council**
-
 - **Frihedsrådet** — the Freedom Council: the body constituted on 16 September
   1943 by representatives of the resistance organisations, which had no legal
   existence and by 1945 supplied half the government.
 - **illegale blade** — the illegal papers: the underground press, which by 1945
   was printing in the hundreds of thousands and was the only way most Danes
   learned anything the occupier had not approved.
-
-**§07 — the arming**
-
-- **modtagegruppe** — a reception group: the people who went out at night to a
-  marked field to take in a parachute drop, carry the containers away and sink
-  the parachutes before morning.
-- **ventegrupper** — the waiting groups: the armed formations of the resistance,
-  held back from fighting and brought out on 5 May 1945 to keep order. About
-  sixty thousand people who never fought a battle.
-
-**§08 — the counter-terror**
-
-- **clearingmord** — a clearing murder: the killing of a prominent Dane by the
-  occupier in reprisal for an act of resistance. From the English word for
-  settling an account, by analogy with the *clearingkonto*.
-- **clearingkonto** — *glossed in chapter 41 — reference, do not re-gloss.*
-- **schalburgtage** — the occupier's reprisal bombings of Danish civil targets,
-  named on the pattern of *sabotage* after the Schalburg Corps that took part.
-- **stikker** — an informer. The word carried a death sentence from 1944 and the
-  resistance's killing of informers is the other column of §08's ledger.
-
-**§09 — the strike**
-
-- **folkestrejke** — a people's strike: a general strike that is political rather
-  than industrial and is not called by a union. Copenhagen's ran from the last
-  week of June 1944 into the first week of July.
-
-**§10 — Shellhus**
-
-- **gidseletage** — the hostage floor: the top storey of a building where
-  prisoners were held so that it could not be bombed. The Gestapo used one in
-  Copenhagen and it did not work.
 
 ---
 
@@ -849,38 +487,22 @@ a neutral country four kilometres away, and an occupier who had spent three year
 deciding that the Danish government was worth more than the Danish Jews. Remove
 any one of them and October 1943 reads like February 1941.
 
-**Warsaw, 1 August 1944.** While Copenhagen was two weeks past a general strike
-that won a curfew back, the Polish Home Army rose against the German garrison in
-Warsaw and fought for sixty-three days in the expectation of Soviet help that did
-not come. About two hundred thousand people died and the city was demolished
-street by street afterwards. The Danish waiting groups, armed by the same British
-organisation, were told to wait, and waited, and came out on 5 May 1945 to direct
-traffic. Both decisions were taken by resistance leaderships with a claim to
-speak for their nations. Only one of those nations still had its capital in 1945.
+**Rome, 16 October 1943.** Germany occupied Rome on 10 September, two days after
+Italy surrendered, and found about eight thousand Jews in the city. On 26
+September the SS commander demanded fifty kilograms of gold within thirty-six
+hours or two hundred heads of families would be deported. **The community raised
+it, with help from Roman gentiles, and delivered it at midday on 28 September** —
+which is the same day, the same hours, that Georg Ferdinand Duckwitz was telling
+Hans Hedtoft what was coming in Copenhagen. Three weeks later, at dawn on
+16 October, the Germans took **1,259 people** from the old ghetto — 363 men, 689
+women and 207 children. They went to Auschwitz on the 18th from Tiburtina
+station. **Sixteen came back.**
 
----
-
-## Checkpoints
-
-**Before §03.** Where we are: the strikes the government could not stop have made
-it refuse a German ultimatum, the ministers have stopped functioning without
-resigning, the fleet is on the bottom of its own harbours and the country is
-being run by civil servants. The next section is about what that made possible.
-Hold one question: who had been protecting the Jews of Denmark, and what were
-they protecting them with?
-
-**Before §07.** Where we are: about seven thousand people have crossed to Sweden
-in three weeks, four hundred and seventy-two have gone to Theresienstadt, and a
-council nobody elected has declared itself the voice of Danish resistance. Before
-the next section, notice what the resistance did not have. It had no army, no
-weapons and no money, and the country's own weapons had been confiscated in
-August. Ask where the guns came from, and what accepting them cost.
-
-**Before §11.** Where we are: a country with no police, an underground army of
-sixty thousand that has never fought, a counter-terror that has killed about a
-hundred prominent Danes, and a school in Frederiksberg with eighty-six children
-dead in it. The last section is the liberation. Ask who it was not a liberation
-for, and why nobody was told.
+Set that against Denmark in the same month: about 7,400 people across four
+kilometres of water, 472 deported, 419 home. The Roman community paid, and was
+taken. The Danish community was warned, and was not. **The difference is not
+courage and it is not decency. It is a fortnight's notice and a neutral country
+in sight of the shore** — and the gold says what happens where those are absent.
 
 ---
 
@@ -909,59 +531,45 @@ only figure behind which there is a named archive is roughly 7,400, from Swedish
 police arrival reports, and the museum that holds them says the material is
 incomplete.
 
-**"The resistance liberated Denmark."** Denmark was liberated by the German
-surrender of forces in north-west Europe, signed on a heath in Germany by men who
-had never been to Denmark. The waiting groups never fought a battle. What the
-resistance actually did was govern — it took nine of eighteen seats in the
-government of 5 May and it had been able to stop and start the capital since July
-1944 — and that is a larger claim than the military one, not a smaller.
-
-**"Bornholm was bombed because the Soviet Union wanted the island."** The
-Soviet Union asked for a German surrender and the German commandant refused to
-give it to them, having been told to surrender to the Western Allies instead. He
-also had his guns fire on Soviet reconnaissance aircraft. What the Soviet Union
-then did was disproportionate and it was not unprovoked, and the Danish
-government was never consulted about any of it.
-
 ---
 
 ## Carry-forward
 
-**→ 43.** The *retsopgør*'s arrests were made by the waiting groups: 21,800 people
-interned by men who had been civilians four days before, armed by a foreign air
-force and authorised by a council that had constituted itself in a borrowed room.
+**→ 43.** The Freedom Council constituted in September 1943 has no weapons, no
+money and no army. Where the guns came from, and what accepting them cost the
+air forces that dropped them, is the next chapter's opening.
 
-**→ 43.** The Freedom Council took nine of the eighteen seats in the government
-of 5 May 1945, and Christmas Møller, who had spent three years telling Denmark to
-resist, got the foreign ministry and not the premiership.
+**→ 43.** The occupier answers the sabotage of 1943 by murdering prominent Danes
+rather than by catching saboteurs. Hitler orders it on 30 December, and Kaj Munk
+is taken from his parsonage five days later.
 
-**→ 43.** The counter-terror and the informer killings are two columns of one
-ledger, and the occupier printed them side by side on purpose. Which column gets
-tried after the liberation, and which does not, is chapter 43's question.
+**→ 44.** The *retsopgør* will punish informing with death and building for the
+Wehrmacht with a bill. Both columns of that ledger are opened in this chapter,
+by the same people, in the same year.
 
-**→ 43.** The Soviet Union leaves Bornholm on 5 April 1946 on one condition, that
-Denmark hold the island with no foreign troops whatever. Denmark joins NATO three
-years later.
-
-**→ 44.** The constitution of 1953 is written by a commission of men who had
-spent 1943 to 1945 deciding whether a government that has stopped functioning is
-still a government.
+**→ 45.** The government that stopped functioning on 29 August 1943 without
+resigning left a constitutional question nobody had a procedure for. The
+commission appointed in 1946 is still arguing about it, and 1953 answers it.
 
 ---
 
 ## Summary
 
-The war turned elsewhere in 1943 and Denmark felt it. Industrial sabotage went
-from seventy-three actions in three years to 816 in one. Strikes ran through the
+The war turned elsewhere in 1943 and Denmark felt it. Strikes ran through the
 provincial towns from Odense at the end of July to Aalborg at the end of August,
 called by nobody and stoppable by nobody, and on 28 August the occupier demanded
 a state of emergency, a curfew, censorship, special courts and the death penalty
-for sabotage — and that Denmark protect the Danes who had worked for Germany. The
-government refused half an hour inside the deadline. Christian X declined to sign
-its resignation, so the ministers stopped functioning without leaving a vacancy.
+for sabotage — and that Denmark protect the Danes who had worked for Germany.
+The government refused half an hour inside the deadline. Christian X declined to
+sign its resignation, so the ministers stopped functioning without leaving a
+vacancy, and the country passed to its permanent secretaries.
+
 At four the next morning the army and navy were interned, and at 04.08 Vice
 Admiral Vedel signalled the fleet to scuttle: thirty-two ships sunk at their
-moorings, thirteen away to Sweden, fourteen taken.
+moorings, thirteen away to Sweden, fourteen taken. It was the largest single act
+of Danish defiance of the occupation and it was also the destruction of the
+Danish navy, carried out by the Danish navy, which is the shape most of this
+chapter takes.
 
 On 8 September Werner Best proposed the deportation of Denmark's Jews and argued
 that it had to be done while the emergency lasted, because later it would cost
@@ -969,41 +577,23 @@ him the government, the king and the Rigsdag. The protection had been leverage,
 and August had knocked it over. Best told his shipping attaché, Georg Ferdinand
 Duckwitz, who warned Hans Hedtoft on 28 September; the acting chief rabbi told
 the congregation in Krystalgade the next morning. On the night of 1 October the
-Gestapo found most of the addresses empty. About 284 people were taken that night
-and the rest over the following weeks.
+Gestapo found most of the addresses empty.
 
 Something over seven thousand people crossed to Sweden in three weeks, in fishing
 boats, mostly for money. The best archival estimate is about 7,400, from Swedish
 arrival reports the holding museum says are incomplete, and the 7,742 in
-circulation is a sum somebody performed on two separate statements; more than a
-thousand of those registering gave their religion as Protestant, Lutheran or
-Christian. Four hundred and seventy-two were deported and 470 reached
-Theresienstadt, where fifty-one died; 419 of the 472 came home. On 2 October
-about a hundred and fifty communists went from Horserød to Stutthof, and
-twenty-two of them died.
+circulation is a sum somebody performed on two separate statements. Four hundred
+and seventy-two were deported and 470 reached Theresienstadt, where fifty-one
+died; 419 of the 472 came home. On 2 October about a hundred and fifty communists
+went from Horserød to Stutthof, and twenty-two of them died — the same state, the
+same week, delivering one group of its own people while another got away.
 
-On 16 September 1943 seven men constituted the Freedom Council in a borrowed
-office. It had no law behind it, was recognised by the Soviet Union and never by
-the Western allies, and by May 1945 held nine of eighteen seats in the
-government. The resistance was armed from outside: SOE's first agent died when
-his parachute failed over Haslev in December 1941, and by 1945 something between
-620 and a thousand tonnes had been dropped, at a cost of eighteen aircraft and
-sixty-nine Allied airmen. The waiting groups reached about sixty thousand and
-never fought. Hitler ordered the counter-terror on 30 December 1943; Kaj Munk was
-taken from his parsonage on 4 January 1944 and found shot in a ditch the next
-morning.
-
-In late June 1944 Copenhagen struck, over a curfew, and held out through a state
-of siege in which the water, gas and power were cut and more than a hundred
-people were killed; it won the curfew back, and it established who governed. On
-21 March 1945 the RAF destroyed the Gestapo headquarters and its archives, and
-seven aircraft of the second and third waves bombed a school by mistake, killing
-eighty-six children and eighteen adults. On 4 May the surrender was announced and
-Danes put candles in their windows. On Bornholm, which the surrender did not
-reach, Soviet aircraft bombed Rønne and Nexø on 7 and 8 May: 387 buildings
-destroyed and ten Danes killed, nine of them on the first day, because the towns
-were evacuated at four on the morning of the second. Danish radio was not allowed
-to report it, on the ground that it would spoil the liberation.
+On 16 September, in a borrowed office, seven men constituted Danmarks Frihedsråd.
+It had no law behind it, no mandate and no army; it was recognised by the Soviet
+Union and never by the Western allies; and by May 1945 it held nine of the
+eighteen seats in the government of Denmark. The year that began with a ratified
+cooperation policy ended with a self-appointed council claiming to speak for the
+country, and with the country largely agreeing.
 
 ---
 
@@ -1015,18 +605,17 @@ to report it, on the ground that it would spoil the liberation.
    demands was about Danes rather than about Germans?
 2. How many people were deported from Denmark to Theresienstadt, how many
    arrived, and how many came home?
-3. What did the People's Strike of June 1944 actually obtain, and what did it
-   fail to obtain?
+3. What was Danmarks Frihedsråd, who recognised it, and what did it have instead
+   of a mandate?
 
 **Causal.**
 
 1. Explain how the strikes of August 1943 led to the attempt on the Danish Jews
    in October, using Best's own argument of 8 September.
-2. Denmark's resistance had no weapons in 1943 and about sixty thousand armed
-   people in May 1945. Set out the chain, and say at which link it could most
-   easily have been broken.
-3. Ten Danes died in a bombing that destroyed 387 buildings in two small towns.
-   Explain the number.
+2. Christian 10. refused to sign his government's resignation. Explain what that
+   denied the occupier, and what it cost Denmark.
+3. About 7,400 people crossed the Sound and 472 did not. Account for the
+   difference without appealing to luck or to character.
 
 **Counterfactual.**
 
@@ -1035,19 +624,19 @@ to report it, on the ground that it would spoil the liberation.
 2. Suppose no warning had reached Hans Hedtoft on 28 September 1943. Estimate
    what October 1943 looks like, and say which of your assumptions is doing the
    most work.
-3. Suppose the Freedom Council had ordered the waiting groups into the streets in
-   the summer of 1944, as the Home Army rose in Warsaw. Argue the case for it,
-   then against.
+3. Suppose the fleet had been ordered to Sweden a week earlier rather than
+   scuttled. Argue the case for it, then against.
 
 **Contested.**
 
 1. Was 29 August 1943 a break or a continuation? Argue both, using the exports,
    the administration and the fleet.
-2. Was the Shellhus raid justified? Make the strongest case each way, and say
-   what you would need to know that nobody knows.
-3. Denmark saved almost all of its Jews and delivered about a hundred and fifty
+2. Denmark saved almost all of its Jews and delivered about a hundred and fifty
    communists to Stutthof in the same week. Argue that these express one policy,
    and then that they express two.
+3. Werner Best proposed the action against the Jews and appears to have arranged
+   for it to leak. Argue that he was saving himself, then that the distinction
+   does not matter to the outcome.
 
 ---
 
@@ -1095,31 +684,6 @@ to report it, on the ground that it would spoil the liberation.
   thousand who registered as Protestant, Lutheran or Christian**. Museum
   Nordsjælland for Gilleleje and for the informer never being established.
   danmarkshistorien.lex.dk for the arrest breakdown.
-- **The Council, and the arming.** lex.dk's *Danmarks Frihedsråd* for the date,
-  the membership, the Soviet recognition and the Western non-recognition;
-  *Gyldendal og Politikens Danmarkshistorie* for a different membership and the
-  nine seats; Niels-Birger Danielsen for the borrowed office, which is his alone.
-  *Dansk Biografisk Leksikon* on Carl Johan Bruhn and Mogens Hammer for the night
-  of 27/28 December 1941, and milhist.dk for Torpeskoven, the Whitley and the
-  hundred and fifty metres; DBL on Muus for Nibe and for the 1946 conviction;
-  lex.dk's *SOE* and *ventegrupper* for the tonnages, the seven regions, the
-  Swedish weapons and the sixty thousand; lex.dk's *Hvidstengruppen* for Mustard
-  Point, the arrests of 11 March 1944 and the executions of 29 June.
-  DBL and Frihedsmuseet's catalogue on Kim Malthe-Bruun; the Ryvangen roll from
-  krigeren.dk.
-- **The counter-terror and the strike.** lex.dk's *clearingmord* for the
-  etymology from the *clearingkonto* and for the newspapers printing the two
-  kinds of notice side by side; Martin Göllnitz in *Sønderjydske Årbøger* 135
-  (2023) and danmarkshistorien.lex.dk on Werner Best for the two readings of the
-  ratio; DBL and danmarkshistorien on Kaj Munk; danmarkshistorien's *Peter-gruppen*
-  for the group and for the convicted totals. *Gyldendal og Politikens
-  Danmarkshistorie*, "Folkestrejken", for the allotments, the state of siege, and
-  the 23 and 203 — which is single-source — and the hundred and six hundred.
-  lex.dk's *Shellhuset* and *Den Franske Skole* for the raid and the school.
-- **Bornholm.** lex.dk's *Bornholms besættelse 1940–1946* for the raids, the
-  landing and the eleven months; Bornholms Museum for the building counts;
-  natmus.dk for nine dead in Rønne and one in Nexø; koldkrig-online.dk for
-  Montgomery's question of 4 May and for the note of 5 March 1946.
 - **Open questions this chapter carries.** The start of the August unrest is
   dated four ways. The Danish dead of 29 August are 23 or 24 and the wounded
   three numbers. The Freedom Council's founding membership is recorded three ways
@@ -1129,14 +693,25 @@ to report it, on the ground that it would spoil the liberation.
   reachable. The "Niels" of Kim Malthe-Bruun's last letter is not on the
   memorial roll. The number Ellen Nielsen helped is given from two to seven
   hundred and is documented nowhere.
-- **The police, verified since.** The action of 19 September 1944 began at eleven
-  in the morning, signalled by a false air-raid alarm, and was Pancke's plan
-  rather than Hitler's — Himmler approved it afterwards. Of a force just under
-  ten thousand, about two thousand were seized and 1,960 deported, first to
-  Neuengamme and then to Buchenwald; some seven thousand went underground. The
-  count of the dead is two numbers and not one: about eighty died in the camps,
-  and a calculation of 1968 reaches 131 by including the men who died afterwards
-  of what the camps had done to them.
+- **Paul Aron Sandfort.** Born Paul Efim Rabinowitsch in Hamburg on 12 July 1930
+  to Aron Rabinowitsch and Maria Warschavsky; brought to Copenhagen in 1936 by
+  his mother and stepfather; trumpet in the Tivoli Boys' Guard. Caught attempting
+  the crossing, sent to Horserød on **4 October 1943** and to Theresienstadt on
+  the **13th**, aged thirteen, into youth dormitory L 414; recruited to the ghetto
+  orchestra, played in more than fifty performances of Hans Krása's *Brundibár*
+  and appeared in the propaganda film; freed by the Scandinavian Red Cross on
+  **15 April 1945**. Studied musicology in Copenhagen, trained as an opera
+  director in Rome, took the name Paul Aron Sandfort in 1972, wrote *Ben. Vogel
+  aus der Fremde*, and died at Hornbæk on 29 December 2007. From the Hamburg
+  university LexM biographical database and the Danish Jewish Information
+  Centre's material on the Danes in Theresienstadt.
+- **Rome, for the *Meanwhile*.** The occupation of Rome on 10 September 1943, the
+  fifty-kilogram gold demand of 26 September and its delivery at midday on the
+  28th, the raid of 16 October — 1,259 taken, of whom 363 men, 689 women and 207
+  children — the deportation from Tiburtina on the 18th and the sixteen
+  survivors. **That the gold was handed over on the same day Duckwitz warned
+  Hedtoft is arithmetic on two separately sourced dates, not a claim either
+  source makes.**
 
 ---
 
@@ -1150,14 +725,14 @@ a line of moorings.
 Nielsen knew. There is a stone in the pavement at Rønne Allé 42, laid in 2024,
 the first in the town.
 
-**Mindelunden i Ryvangen, Hellerup.** The execution ground and the graves. One
-hundred and five men are buried there and a hundred and fifty-one more are named
-on the wall because their bodies were never found.
+**Krystalgade synagogue, Copenhagen.** Where the congregation was told, on the
+morning of 29 September 1943, not to be at home. It was built in 1833 and it has
+never been destroyed, which in European terms is the whole story.
 
-**Frederiksberg Allé, Copenhagen.** The Institut Jeanne d'Arc stood beside the
-Aveny Theatre. The school never reopened. The memorial went up in 1953 and the
-names were added to it in 2015.
+**Horserød, North Zealand.** The camp that held Danish communists from 1941 and
+Jews caught on the coast in October 1943, and from which both were sent onward.
+It is still a prison.
 
-**Rønne and Nexø, Bornholm.** Both town centres are post-war and look it; the
-Swedish timber houses given to Bornholm in 1945 and 1946 are still standing and
-are still called the Swedish houses.
+**Gilleleje and the North Zealand coast.** The harbours the boats went from, and
+the church loft at Gilleleje where about eighty people were taken by the Gestapo
+after somebody told. The crossing is four kilometres at its shortest and looks it.
