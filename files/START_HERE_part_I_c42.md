@@ -8,7 +8,6 @@ git status --short
 python3 tidy.py
 python3 mapfixture.py
 python3 seamcheck.py
-export DK_CHAPTERS="$PWD/.."
 python3 debuild.py verify ../[0-9][0-9]-*.html
 python3 bookstats.py
 python3 vignettes.py . ; python3 vignettes.py --selftest
@@ -57,7 +56,7 @@ python3 index_generator.py
 python3 narrative.py ../42-*.html
 python3 bookstats.py
 
-`linkindex.py` and `index_generator.py` both take the chapter directory from `DK_CHAPTERS` and default to the working directory, so export it before you run them or they will report no chapters found and write the index into the container. Take the chapter's length from bookstats.py after linkindex.py (build_part_i.py prints six words short, every time). Never take it from PLAN_I's model and never from the markdown (item 96, PLAN_I §1.6).
+`linkindex.py` and `index_generator.py` both take the chapter directory from `DK_CHAPTERS` and otherwise derive it from their own location, so run them from `files/` with `DK_CHAPTERS` **unset**. Do not export it. `export DK_CHAPTERS="$PWD/.."` is correct only in the directory you happen to be standing in when you type it, and stays in the shell after you leave: run from the repository root it resolves one level too high, and the build writes the chapters into the folder *containing* the repository (HANDOFF items 134 and 137). `dkpaths.py` warns rather than refuses, because building elsewhere is sometimes deliberate — so the warning is the only thing between you and a book that no longer matches its source. If you see it and did not mean it: `unset DK_CHAPTERS DK_OUT DK_SRC`, delete whatever landed in the wrong folder, and build again. Take the chapter's length from bookstats.py after linkindex.py (build_part_i.py prints six words short, every time). Never take it from PLAN_I's model and never from the markdown (item 96, PLAN_I §1.6).
 
 **Check the index blurb at source.** `index_generator.py` carries a one-line blurb and a key list for every chapter in the 44-chapter spine, written before the chapters were. Chapter 41's said "Occupied in six hours", which is false and had been published. Read chapter 42's entry against what you have actually drafted and correct it in `index_generator.py`, not on the page (item 117).
 

@@ -8,7 +8,6 @@ git status --short
 python3 tidy.py
 python3 mapfixture.py
 python3 seamcheck.py
-export DK_CHAPTERS="$PWD/.."
 python3 debuild.py verify ../[0-9][0-9]-*.html
 python3 bookstats.py
 python3 vignettes.py . ; python3 vignettes.py --selftest
