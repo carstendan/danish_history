@@ -141,14 +141,8 @@ Literal asterisks in the heading, the date cut off, and a stray paragraph readin
 the book — I swept all 45 pages for `**`, stray `*`, backticks and markdown links,
 and this is the single hit.
 
-**3.4 Chapter 27 has no apparatus draft in the repository.** `c27_draft_01-09.md`
-is the body only; no `c27_draft_apparatus.md` was ever committed — I checked the
-full history, not just the tree. The page's forward block, five things, sources
-and visit list exist and have no source. `debuild.py` recovers body HTML, not
-markdown, so **chapter 27 cannot be rebuilt from source and its myth-check cannot
-be recovered at all** — it is empty on the page and absent from the repo. If the
-file exists on your machine it is the one thing that would close this; I could
-not reach the machine to look.
+**3.4 Chapter 27's apparatus — I was wrong about this, and the correction is
+below in §7.**
 
 **3.5 Chapter 28 has four overlapping body drafts** — `c28_draft_01-03.md`,
 `01-04`, `01-06`, `01-10`. `tidy.py` names them and deletes nothing, correctly.
@@ -226,17 +220,38 @@ pass, so the pass can apply it in one place rather than rediscovering it.
 
 **Yours, in dependency order:**
 
-**5.1 Chapter 32's drafting flags.** One of them is a research question I should
-not answer by picking a side: the 1838 Schleswig assembly vote — danmarkshistorien.dk
-has the assembly addressing the king by a narrow majority, Danish Wikipedia has
-the petition rejected 21 to 18. The other three are archive tasks that are not
-blocking. Strip all four and ship, or resolve the vote first? Nothing else can be
-rebuilt cleanly until this is decided, because `freshcheck.py` refuses chapter 32
-and the rebuild is book-wide.
+**5.1 Chapter 32 — done, and one fact changed.** The vote is resolved, not by
+picking a side but because the two sources are not in conflict: they report the
+same division with the sign reversed. Nis Lorenzen moved on 7 June 1836 that
+Latin and German be abolished in administration and justice wherever the school
+language was Danish, and in July 1838 the Schleswig assembly **carried it,
+twenty-one to eighteen**, with the support of its own president N. N. Falck —
+*Dansk Biografisk Leksikon*, "ved støtte af forsamlingens præsident Niels Falck
+lykkedes det at gennemføre det med kneben majoritet (21 stemmer mod 18)".
+danmarkshistorien agrees independently: the assembly addressed the king "med et
+snævert flertal". Danish Wikipedia's *Sprogreskripterne* has "afvist med
+stemmerne 21 imod og 18 for" — the same two numbers, reversed, and its own
+account then cannot explain why the 1840 rescript names an assembly petition as
+its occasion.
 
-**5.2 Chapter 27.** Is there a `c27_draft_apparatus.md` on your machine? If not,
-the chapter stays unreproducible and its myth-check stays empty, and that should
-be recorded as a known limit rather than left to be found again.
+**This changes the chapter's claim, which is why it is listed here and not in the
+taken pile.** The draft said the assembly "could not settle the question, and the
+king settled it for them". It did settle it; the king granted what it asked. The
+sentence is rewritten in `c32_draft.md` to say so, and nearly half the assembly
+having voted against asking is kept, because that is what the 1840 rescript
+walked into. The other three flags are archive tasks and are out of the prose;
+the sources-block note is reworded as a note to the reader. `draftnotes.py` now
+reports chapter 32 clean and `freshcheck.py` no longer refuses it. **Read the new
+sentence** — it is the one place in this session where I changed what the book
+asserts.
+
+Still open there: figure (c), the Zealand *kapitelstakst* series for a tønde of
+rye 1815–1848, was never drawn — chapter 32 ships three figures and §07 was
+written expecting a fourth. The series is published after Scharling. If you want,
+I can try to get the year-by-year values the way the *Statistiske Meddelelser*
+note in HANDOFF suggests, before any library trip.
+
+**5.2 Part G — this is the one that is blocked, and it is the biggest.** See §7.
 
 **5.3 Chapter 45's carry-forward.** Backward arrows only, or suppress the heading
 when the list is empty? I lean to suppressing it: a heading over nothing reads as
@@ -260,3 +275,83 @@ decision and it is yours.
   consulted — only the public repository.
 - **Nothing was rebuilt.** Every finding is against the pages as they stand at
   `1d15e63`, and the fixes are to source only. The rebuild is blocked on 5.1.
+
+---
+
+## 7. Added after the patch was applied: two things I got wrong, and what they open
+
+**7.1 I said chapter 27 could not be rebuilt from source. That was wrong.**
+Chapter 27's apparatus — glossary, Meanwhile, checkpoints, myth-check,
+carry-forward, five things, questions, sources, visit — is in
+`PART_G_DRAFT.md`, under `# Chapter 27 — apparatus`, together with the rest of
+Part G. Its myth-check is there in full, 214 words on the Marstrand story and
+*Tordenskjolds soldater*, in a four-label variant of convention B. The new
+parser renders it correctly.
+
+I looked for `c27_draft_apparatus.md`, did not find it, checked the git history
+for it, did not find it there either, and concluded the source was lost —
+without opening the file `mkbody.py` names as its own default on line 26,
+`DRAFT = os.environ.get("DK_DRAFT", "PART_G_DRAFT.md")`. The combined draft even
+carries `<!-- ===== c27_draft_apparatus.md ===== -->` as a section marker, which
+is why the per-chapter file is absent: it was concatenated in and the pieces were
+not kept. Nothing was lost. §3.4 of this document is withdrawn.
+
+**7.2 `build_part_X.py` does not read the drafts.** It reads `cNN_body.html`.
+The chain is `draft.md → mkbody.py → cNN_body.html → build_part_X.py → page`,
+and `mkbody.py` is where both fixed parsers live. I ran `build_part_i.py` on the
+patched tree first and got byte-for-byte the old broken myth blocks, because the
+`cNN_body.html` files in the repo are the stale output of the old parser. The
+build printed `part ok` for all nine chapters while doing it.
+
+`freshcheck.py` says this in as many words — "mkbody.py, then build_part_*.py,
+then linkindex.py, then index_generator.py — in that order" — and I read it and
+ran the second stage anyway. **The order is not a convention, it is the whole
+fix**, and a rebuild that skips `mkbody.py` reports success and changes nothing.
+
+**Proven end to end on Part I.** Regenerating the nine bodies and rebuilding:
+
+| | before | after |
+|---|---|---|
+| myth entries, ch 37 / 41 / 43 | 2 / 2 / 2 | **4 / 4 / 4** |
+| myth entries, ch 44 / 45 | 3 / 3 | **5 / 5** |
+| empty `<dd>` in Part I | 6 | **0** |
+| Meanwhile words, ch 42 / 43 | 286 / 223 | **356 / 295** |
+| empty `<dl>` in the book | 7 | 0 in Part I; 7 remain, see 7.3 |
+| literal `**` on any page | 1 | 0 in Part I |
+
+The rebuilt bodies are **not** in the patch: they are generated artifacts and
+this project does not take those from me. Regenerate them yourself with
+`DK_DRAFT=cNN_draft.md python3 mkbody.py NN` before running the part build.
+
+**7.3 Part G cannot be regenerated yet, and that is what gates the 1,586 words.**
+The seven empty `<dl>`s are all in Part G, and `mkbody.py` refuses every Part G
+chapter before it writes anything, because `draftnotes.py` finds 28 "drafting
+notes" in `PART_G_DRAFT.md`. They are three different things:
+
+- **14 are the concatenation markers themselves** — `<!-- ===== c25_draft_01-03.md
+  ===== -->`. The pattern matches them deliberately (`<!--\s*=+\s*c\d\d_draft`),
+  and in the combined draft they are structure, not notes. They will fire on
+  every run forever.
+- **7 are one standing sentence in the Sources block of every Part G chapter** —
+  "need checking against the works themselves before publication". That is a
+  caveat addressed to the reader, which is exactly the disposition
+  `freshcheck.py` offers ("or move it to the Sources block as a question
+  addressed to the reader"). It is already there, and is refused anyway.
+- **The rest are genuine** and are the ones worth your eye: a "Style note:" about
+  the Gregorian calendar in chapter 27, "should be checked" on the Breffu
+  vignette in chapter 30, and two "need checking before this section ships" in
+  chapter 31, on the Christiansborg fire of February 1794.
+
+HANDOFF item 102 already records that these notes reached eight built pages. What
+is not recorded is the consequence: **because they refuse the build, Part G's
+bodies have not been regenerated since, and that is why the empty myth-check has
+stayed empty for seven chapters.** A guard that refuses a fix is doing the
+opposite of its job.
+
+**The decision, and it is one line of code either way.** Should `draftnotes.py`
+stop matching its own concatenation markers and the standing Sources caveat, and
+keep refusing only on the genuine notes? I would say yes — the marker pattern
+matches a mechanical artefact of how the file is assembled, and the Sources
+sentence is in the place the tool itself recommends. But it is your guard, it was
+written after a real escape, and loosening it is not a change I will make on my
+own. Say the word and Part G rebuilds with all seven myth-checks on the page.

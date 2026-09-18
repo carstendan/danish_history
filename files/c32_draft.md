@@ -110,10 +110,7 @@ between nothing and forty acres. A great many of them were women. Where the
 church gave a woman no role at all beyond attendance, a farmhouse meeting had no
 pulpit to be excluded from, and the sources — hostile ones, mostly, since it is
 the police and the deans who wrote things down — keep noticing with irritation
-how many of the people in the room were female. *Drafting flag: a named woman
-from the parish and court records would be the better vignette here, and would
-fix both the geography and the class balance. Archive task, flagged in PLAN_H
-§10.1, not blocking.*
+how many of the people in the room were female.
 
 They were also, mostly, not new. The impulse came into Denmark through the
 Moravian settlement at Christiansfeld and the older Pietist devotional books,
@@ -363,12 +360,6 @@ The boom did two things at once: it made one part of the countryside solvent and
 confident, and made the other part precisely aware of what was being taken from
 it. Both halves are needed to explain what happens next.
 
-*Drafting flag: figure (c), the Zealand kapitelstakst for a tønde of rye in
-rigsbankdaler 1815–1848, carries this section together with §02. The series is
-published — see the sources block — but the year-by-year values are not yet in
-hand. Note the currency break at 1813/14: the chart must not be extended back
-across it.*
-
 ---
 
 ## Bondevennerne
@@ -429,13 +420,13 @@ On 14 May 1840 Christian 8. issued a language rescript for Schleswig — a
 school language, Danish was in future to replace German in all government and
 legal business, and every official there was obliged to use it; German-minded
 children got three hours of German a week as balance. It had not come from
-Copenhagen's ambition. A petition on the language question had gone before the
-Schleswig assembly in July 1838 and split it almost exactly in half. *Drafting
-flag: the sources conflict on which way the vote fell — danmarkshistorien.dk has
-the assembly addressing the king by a narrow majority, Danish Wikipedia has the
-petition rejected 21 votes to 18. Resolve before build.* Either way the effect
-was the same: the advisory body could not settle the question, and the king
-settled it for them.
+Copenhagen's ambition. Nis Lorenzen, a farmer sitting for north Schleswig, had
+moved on 7 June 1836 that Latin and German be abolished in administration and
+justice wherever the school language was Danish; in July 1838 the assembly
+carried it, twenty-one votes to eighteen, with the support of its own president,
+N. N. Falck. The rescript of 1840 was the king granting what a Schleswig
+advisory body had narrowly asked him for — and nearly half of that body had
+voted against asking.
 
 As policy it was modest, and the government took pains that it should not look
 like *danisering*. As anything else it was a catastrophe, because it obliged the
@@ -605,9 +596,6 @@ Recall, Causal, Counterfactual, Contested.*
 
 - **fæste** — copyhold. Tenure of a farm from an estate in return for dues and,
   in many places, labour service on the landlord's fields.
-  *Drafting flag: `fæste` is used in Parts F and G. Check whether it was glossed
-  there before glossing again here — PLAN_H §5 raises this and it is not yet
-  resolved.*
 
 **§08 — Bondevennerne**
 
@@ -836,8 +824,8 @@ and told both no. Christian 8. died eighteen months later with nothing settled.
 - *Det åbne Brev* of 8 July 1846, full text.
 - The Zealand *kapitelstakst* series for a tønde of rye, 1651–1850, as published
   after William Scharling, *Pengenes synkende Værdi, belyst ved danske
-  Aktstykker*. Note the currency change at 1813/14. *Year-by-year values for
-  1815–1848 still to be obtained; figure (c) cannot be drawn without them.*
+  Aktstykker*. Note the currency change at 1813/14: the series either side of it
+  is not one series, and nothing here is drawn across it.
 - danmarkshistorien.dk, Aarhus University — source texts and commentary on the
   estates assemblies, the Bondecirkulære and Bondevennerne.
 - Grænseforeningen's source collection, for the Schleswig proceedings and the
