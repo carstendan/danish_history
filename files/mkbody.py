@@ -1095,9 +1095,26 @@ def paras(md):
 
 
 def vig_html(md):
+    """A vignette block.
+
+    THE TITLE MAY WRAP. This took the first line as the whole title, and a title
+    long enough to wrap in the markdown - `**Vignette · Johann Friedrich
+    Struensee, Christiansborg, before dawn on 17 / January 1772**` in
+    c29_draft_01-10.md - was cut at the line break. Chapter 29 shipped with
+    literal asterisks in its <h4>, the heading ending "on 17", and a stray
+    paragraph reading `January 1772**` as the vignette's first line. It is the
+    only leaked markdown in the 45 built pages, which is the only reason it went
+    unnoticed: one instance looks like a typo rather than a parser.
+
+    So the title is taken as however many lines it needs to close its `**`.
+    """
     lines = [l for l in md.split('\n')]
-    head = inline(lines[0]).replace('<strong>', '').replace('</strong>', '')
-    rest = "\n".join(lines[1:]).strip()
+    take = 1
+    if lines and lines[0].lstrip().startswith('**'):
+        while take < len(lines) and lines[take - 1].count('**') % 2:
+            take += 1
+    head = inline(' '.join(lines[:take])).replace('<strong>', '').replace('</strong>', '')
+    rest = "\n".join(lines[take:]).strip()
     ps = [p for k, p in paras(rest) if k == 'p']
     who = ps.pop() if len(ps) > 1 else ''
     o = ['<div class="vig">', '<h4>%s</h4>' % head]

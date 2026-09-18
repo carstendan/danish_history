@@ -139,7 +139,12 @@ and the page shows:
 Literal asterisks in the heading, the date cut off, and a stray paragraph reading
 `January 1772**` as the vignette's first line. It is the only leaked markdown in
 the book — I swept all 45 pages for `**`, stray `*`, backticks and markdown links,
-and this is the single hit.
+and this is the single hit, which is the only reason it passed for a typo rather
+than a parser.
+
+**Fixed in `vig_html`**, not in the draft: the title is now taken as however many
+lines it needs to close its `**`. Re-run over all 80 vignette titles in every
+draft in the repo, none is malformed.
 
 **3.4 Chapter 27's apparatus — I was wrong about this, and the correction is
 below in §7.**
