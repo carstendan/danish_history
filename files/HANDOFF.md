@@ -463,9 +463,13 @@ unclaimed land points, which is what it was built for.
    colour as BAD. `build_part_e.py` raises loudly on a missing token instead, which is
    the better behaviour; copy it into the other two. One line each.
 5. **The project mirror has been stale before**, and was again in August 2026:
-   `/mnt/project` held a `build_part_e.py` with chapter 16 unsplit and no coda. The
-   iCloud folder is the source of truth. If the two disagree, the shipped chapters are
-   the tiebreaker.
+   `/mnt/project` held a `build_part_e.py` with chapter 16 unsplit and no coda.
+   **The working folder is the source of truth, and on 18 September 2026 it MOVED OUT
+   OF iCLOUD**: it is now `~/Documents/Danish History`, not
+   `~/Library/Mobile Documents/com~apple~CloudDocs/Documents/Danish History`. If any
+   copy still exists at the old path it is not the book — check the git log before
+   believing a file found there. If two copies disagree, the shipped chapters are the
+   tiebreaker.
 5a. ~~**Chapters 16–19 as published still carry the seam.**~~ **CLOSED, August 2026**,
    in the ledger pass. Parts E and F were rebuilt; 1397 and 1500 were regenerated from
    source and passed all four fixture layers, and chapters 17, 18 and 23 came out
