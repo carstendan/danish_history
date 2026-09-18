@@ -53,7 +53,43 @@ RUNGS = [
 
 TOP = 78
 STEP = 92
-H = TOP + STEP * len(RUNGS) + 46
+
+# The footnote used to be one unfolded line and it was CLIPPED on the shipped page,
+# losing "re." off the end of "before." - the sentence's whole point, which is that
+# no woman in Scandinavia had been given the word. Item 105 predicted it by
+# arithmetic; the raster confirms it.
+#
+# It folds now, and the canvas height is DERIVED from the number of lines rather
+# than being the constant 46 that assumed one. Folding is at the LARGER of the
+# table and measured widths, which wraps earlier than necessary and can therefore
+# only ever be safe - the cost of a conservative width is a slightly short line,
+# and the cost of an optimistic one is a sentence that loses its ending.
+MEASURED = {"mapt": 6.36, "mapx": 5.32, "mapl": 6.61}
+CW = {k: max(M.CHAR_W[k], MEASURED[k]) for k in M.CHAR_W}
+LEAD = 13
+
+NOTE = ("husbond is husband in the older sense \u2014 the head of a household, the one who "
+        "runs the estate. No woman in Scandinavia had been given the word before.")
+
+
+def fold(text, cls, avail):
+    room = int(avail / CW[cls])
+    out, line = [], ""
+    for word in text.split():
+        if line and len(line) + 1 + len(word) > room:
+            out.append(line)
+            line = word
+        else:
+            line = (line + " " + word).strip()
+    if line:
+        out.append(line)
+    return out
+
+
+NOTE_LINES = fold(NOTE, "mapt", (W - 26) - 26)
+assert all(len(l) * CW["mapt"] + 26 <= W - 26 for l in NOTE_LINES), NOTE_LINES
+
+H = TOP + STEP * len(RUNGS) + 46 + LEAD * (len(NOTE_LINES) - 1)
 
 
 def t(x, y, s, cls="mapx", fill=MUTED, anchor="start", extra=""):
@@ -104,12 +140,12 @@ def build():
                      'stroke-width=".6" opacity=".8"/>' % (y + STEP - 16, W - 26,
                                                            y + STEP - 16, RULE))
 
+    first = H - 22 - LEAD * (len(NOTE_LINES) - 1)
     o.append('<line x1="26" y1="%d" x2="%d" y2="%d" stroke="%s" stroke-width=".8"/>'
-             % (H - 40, W - 26, H - 40, RULE))
-    o.append(t(26, H - 22,
-               "husbond is husband in the older sense \u2014 the head of a household, the one who "
-               "runs the estate. No woman in Scandinavia had been given the word before.",
-               "mapt", MUTED))
+             % (first - 18, W - 26, first - 18, RULE))
+    for k, line in enumerate(NOTE_LINES):
+        o.append(t(26, first + k * LEAD, line, "mapt", MUTED))
+    assert first + (len(NOTE_LINES) - 1) * LEAD + 6 <= H
     o.append('</svg>')
     return "\n  ".join(o)
 

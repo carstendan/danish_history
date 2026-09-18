@@ -2475,7 +2475,10 @@ split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see it
    be about a ninth wider, and the table has them nearly equal. Chapter 39's
    figure 2 ran off the canvas with every guard clean, and was found in the
    raster. At measured widths, one shipped figure crosses the canvas edge:
-   `svg_titles.txt`, the *husbond* line.
+   `svg_titles.txt`, the *husbond* line. **CONFIRMED AND FIXED, item 131** - it
+   was losing "re." off "before." on the shipped page. A sweep of every figure now
+   returns zero. **The CHAR_W correction itself is still open and is now the only
+   thing left in this session**, item 129 having closed the `fill=` half.
 
    **Not changed in `mapspine`, and it needs a decision.** Every `fold()` in
    `figs_37.py` and `figs_38.py` reads `CHAR_W`; correcting it re-wraps their text
@@ -3354,6 +3357,66 @@ split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see it
    glossary block nobody would have re-read. The book-wide audit of all 350 is a
    separate task and is **not** urgent — chapter 37 was the one with a known fault
    pointing at it.
+
+131. **`svg_titles.txt` was clipped on the shipped page and is fixed. One figure
+   in the book had the fault — and the way I nearly got it wrong twice is the
+   more useful half of this entry.**
+
+   **The fault.** Chapter 16's figure 2 ended with an unfolded footnote at
+   `class="mapt"`, 149 characters from x=26 on a 900-unit canvas. It ran past the
+   viewBox and the last three characters were cut: the page read *"...had been
+   given the word befo"*. What was lost is the point of the sentence — the
+   footnote exists to say that no woman in Scandinavia had been given the word
+   *before*.
+
+   **The fix.** `fig_titles.py` now folds the note, at the larger of the table and
+   measured widths, and **derives the canvas height from the number of folded
+   lines** instead of the constant 46 that assumed one. Both are asserted: every
+   line fits the available width, and the last baseline plus descender sits inside
+   `H`. The canvas grew 584 to 597; chapter 16 rebuilt; page words unchanged,
+   because folding a line does not change its words.
+
+   **A sweep of every figure at measured widths now returns zero.** It returned
+   exactly one before, which is this one, so item 105's prediction was right and
+   its scope was right.
+
+   **Now the part worth keeping. I reached the right conclusion twice by wrong
+   routes, and each is a trap that will catch the next person.**
+
+   **First: a bare `svg2png` of a `.txt` figure is not what the page renders.**
+   `mapspine.rasterise()` injects the `.mapt/.mapl/.mapx` stylesheet before
+   rendering, because the figures carry no styles of their own — they inherit them
+   from `style.css` on the page. I cropped the footnote with a plain
+   `cairosvg.svg2png` call, got no stylesheet, and cairosvg fell back to a ~16px
+   default. The line then appeared to lose **45** characters instead of three, and
+   the crop showed it cut mid-word at *"No woman i"*. **Right conclusion, wrong
+   magnitude, entirely wrong reason.** Anything that inspects a figure outside
+   `rasterise()` must inject the same CSS or it is looking at a different picture.
+   Measured: with the stylesheet the glyphs are 9px tall, without it 12px.
+
+   **Second: an ink bounding box that stops short of the canvas edge is not proof
+   that the text fits.** I measured the footnote's ink at 27..893 on a 900-unit
+   canvas and read it as fitting with seven units to spare. That is exactly what a
+   clip looks like when the final visible glyph is itself partly cut — the ink
+   ends a little before the boundary because the boundary is where it was
+   severed. **The only reliable check is to read the last characters and compare
+   them with the string**, which is what finally settled it.
+
+   Both failures are the same species as item 47 and item 110: a number that
+   passes while the picture is wrong. The difference here is that the number was
+   mine and the picture was also mine, and neither was of the thing on the page.
+
+   **A note for item 105, which is still open.** Its measurement of `mapt` at
+   6.36 units per character reproduces exactly in this container — rendering 100
+   characters through `rasterise()`'s own CSS gives 6.360, and `mapl` 6.610 and
+   `mapx` 5.320, all three as recorded. But the *effective* advance in this real
+   149-character line works out near **5.95**, between the table's 5.68 and the
+   measured 6.36. So the table under-estimates and the measured value
+   over-estimates, and the true figure depends on the string. **That is an argument
+   for keeping the conservative `max(table, measured)` fold** that figs_39 onward
+   use and that `fig_titles.py` now uses too: wrapping early costs a short line,
+   wrapping late costs a sentence its ending. Fixing `CHAR_W` properly is still
+   item 105's job, and it is now the only thing left in that session.
 
 ---
 
