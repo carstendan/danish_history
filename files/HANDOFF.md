@@ -2426,7 +2426,8 @@ split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see it
    figs_38.py". Both are item 99's class in milder form. (c) **Chapter 37 says
    Munch "would hold the foreign ministry for twenty years".** He held it from
    30 April 1929 to 8 July 1940, eleven years; lex.dk, the Norwegian national
-   encyclopedia and Wikipedia agree.
+   encyclopedia and Wikipedia agree. **FIXED, item 130** - and the sweep that
+   fixed it found a second error in the same chapter.
 
    **A house form, settled rather than drifted into.** Forward arrows inside the
    current part use `→ N`, the form the cross-reference table already gives.
@@ -3299,6 +3300,60 @@ split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see it
    still cosmetically wrong in the way D-11 describes. None of them is a
    legibility failure, so they can wait for the CHAR_W session — which is now the
    only thing that session has to do.
+
+130. **Item 103's Munch error is fixed, and sweeping the rest of chapter 37 under
+   D-8 found a second one.**
+
+   - **Munch held the foreign ministry for eleven years, not twenty.** 30 April
+     1929 to 8 July 1940 is 11 years and 4,087 days, computed. The other reading
+     anyone might have meant does not rescue it either: defence ministry June
+     1913 to March 1920 is six years, so his whole ministerial service is
+     seventeen. Corrected in `c37_draft.md`; chapter 37 rebuilt.
+   - **NEW: the *mellemskole* was four years, not three.** Chapter 37's §01
+     glossary said "three years between the primary school and the gymnasium".
+     The *Lov om højere Almenskoler* of 24 April 1903 created a **fireårig**
+     middle school, entered by examination normally after the fifth class of the
+     folkeskole, with the *mellemskoleeksamen* after 4. mellem giving access to
+     the gymnasium or to the **one-year** realklasse (lex.dk, *mellemskole*).
+     Corrected.
+
+   Both changes are one word each, so chapter 37's page and narrative counts are
+   unchanged at 7,902 and 4,207 and the profile stays 3L/4M/3H.
+
+   **The sweep, and why it is not finished.** D-8 says treat every "N years" as a
+   claim. There are **350 such claims in years, decades or centuries across 29
+   drafts**, so auditing the book is a session of its own and not a line item.
+   Chapter 37's own **29** were checked because the chapter was being rebuilt
+   anyway. Most compute exactly and several are better than they look: the seven
+   F's "lasted sixty-six years" is 1849 to 1915 exactly; Alberti resigned "seven
+   years to the day" after his appointment, 24 July 1901 to 24 July 1908; "the
+   system of 1901 was seven years old"; "nineteen years in which almost nothing
+   had passed" is Estrup, June 1875 to August 1894.
+
+   **Three in chapter 37 are roundings rather than errors, and they are Carsten's
+   call because changing them changes the cadence of his prose, not its truth.**
+   Recorded with the computed figure so the decision is not taken twice:
+
+   - *"Viggo Hørup, dead in 1902 after **thirty years** of asking what a Danish
+     army was for."* He joined *Morgenbladet* in **October 1873** and died
+     **15 February 1902** — **28 years**. And the specific question, *Hvad skal
+     det nytte?*, is his Rigsdag speech of **29 March 1883**, which is **19**.
+     Thirty is defensible only for "in politics", not for "asking that".
+   - *"Denmark held **three islands** for **two hundred and fifty years**."*
+     St Thomas from 1672 is **245** years to 1917; St John from 1718 is **199**;
+     St Croix from 1733 is **184**. Denmark held *three* islands for **184**
+     years. The 250 works only for the enterprise as a whole, rounded up from 245.
+   - *"The regulation was meant to be temporary. It **ran for thirty years**."*
+     The Labour Act is 1849 and Contract Day 1878 — **29 years**. The same
+     paragraph's "the rising began thirty years later" is right, because that one
+     counts from emancipation in 1848.
+
+   **The rule this earns, and it is cheap:** when a chapter is being rebuilt for
+   any reason, sweep its own duration claims. Twenty-nine of them took a few
+   minutes and turned up an error that had been shipped since Part I opened, in a
+   glossary block nobody would have re-read. The book-wide audit of all 350 is a
+   separate task and is **not** urgent — chapter 37 was the one with a known fault
+   pointing at it.
 
 ---
 

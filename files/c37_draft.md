@@ -55,7 +55,7 @@ the urban salaried — teachers, journalists, doctors.
 
 Their inheritance was Viggo Hørup, dead in 1902 after thirty years of asking what
 a Danish army was for; their leaders were Carl Theodor Zahle, a lawyer, and Peter
-Munch, a historian who would hold the foreign ministry for twenty years. Their
+Munch, a historian who would hold the foreign ministry for eleven years. Their
 newspaper was Hørup's *Politiken*, which in 1908 destroyed the government by
 refusing to stop asking about a savings bank.
 
@@ -557,7 +557,7 @@ series: Recall, Causal, Counterfactual, Contested.*
 
 **§01 — what the change of system actually changed**
 
-- **mellemskole** — the middle school created in 1903: three years between the
+- **mellemskole** — the middle school created in 1903: four years between the
   primary school and the gymnasium, and the first continuous ladder from a village
   classroom to a university in Danish history.
 - *`Systemskiftet`, `Folketinget`, `Landstinget` and `hartkorn` are glossed in
