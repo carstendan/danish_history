@@ -1,0 +1,103 @@
+<svg viewBox="0 0 700 359" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The Danish constitutional referendums of 1939 and 1953 measured against a floor of 45 per cent of the whole electorate. In 1939 the yes vote reached 44.46 per cent and failed. In 1953 it reached 45.76 per cent and passed, by 19,682 votes.">
+  <rect x="0" y="0" width="700" height="359" fill="#F4F1EA"/>
+  <text x="14" y="24" class="mapl">1939 AND 1953 AGAINST THE FORTY-FIVE PER CENT FLOOR</text>
+  <text x="14" y="40" class="mapt">yes, no and those who did not vote, as shares of the whole electorate</text>
+  <text x="14" y="62" class="mapx" opacity=".75">The more popular proposal is the one that failed.</text>
+  <line x1="338.6" y1="86" x2="338.6" y2="222.0" stroke="#2A2A28" stroke-width="1.4" stroke-dasharray="4 3"/>
+  <text x="344.6" y="82" class="mapt" style="fill:#2A2A28">45% floor</text>
+  <text x="14" y="132.0" class="mapl" style="fill:#2A2A28">1953</text>
+  <rect x="55.9" y="108.0" width="287.4" height="34" fill="#2E6B5E" opacity=".88"/>
+  <rect x="343.3" y="108.0" width="77.5" height="34" fill="#9A3B2E" opacity=".80"/>
+  <rect x="420.9" y="108.0" width="263.1" height="34" fill="#5F6157" opacity=".28"/>
+  <text x="55.9" y="156.0" class="mapx" style="fill:#2A2A28">yes 1,183,292 = 45.76% of the electorate</text>
+  <text x="645.8" y="156.0" class="mapt" style="fill:#2E6B5E">PASSED</text>
+  <text x="14" y="206.0" class="mapl" style="fill:#2A2A28">1939</text>
+  <rect x="55.9" y="182.0" width="279.2" height="34" fill="#2E6B5E" opacity=".88"/>
+  <rect x="335.2" y="182.0" width="24.8" height="34" fill="#9A3B2E" opacity=".80"/>
+  <rect x="359.9" y="182.0" width="324.1" height="34" fill="#5F6157" opacity=".28"/>
+  <line x1="60" y1="216.0" x2="26" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="69" y1="216.0" x2="35" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="78" y1="216.0" x2="44" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="87" y1="216.0" x2="53" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="96" y1="216.0" x2="62" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="105" y1="216.0" x2="71" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="114" y1="216.0" x2="80" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="123" y1="216.0" x2="89" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="132" y1="216.0" x2="98" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="141" y1="216.0" x2="107" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="150" y1="216.0" x2="116" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="159" y1="216.0" x2="125" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="168" y1="216.0" x2="134" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="177" y1="216.0" x2="143" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="186" y1="216.0" x2="152" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="195" y1="216.0" x2="161" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="204" y1="216.0" x2="170" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="213" y1="216.0" x2="179" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="222" y1="216.0" x2="188" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="231" y1="216.0" x2="197" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="240" y1="216.0" x2="206" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="249" y1="216.0" x2="215" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="258" y1="216.0" x2="224" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="267" y1="216.0" x2="233" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="276" y1="216.0" x2="242" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="285" y1="216.0" x2="251" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="294" y1="216.0" x2="260" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="303" y1="216.0" x2="269" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="312" y1="216.0" x2="278" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="321" y1="216.0" x2="287" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="330" y1="216.0" x2="296" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="339" y1="216.0" x2="305" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="348" y1="216.0" x2="314" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="357" y1="216.0" x2="323" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="366" y1="216.0" x2="332" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="375" y1="216.0" x2="341" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="384" y1="216.0" x2="350" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="393" y1="216.0" x2="359" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="402" y1="216.0" x2="368" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="411" y1="216.0" x2="377" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="420" y1="216.0" x2="386" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="429" y1="216.0" x2="395" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="438" y1="216.0" x2="404" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="447" y1="216.0" x2="413" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="456" y1="216.0" x2="422" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="465" y1="216.0" x2="431" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="474" y1="216.0" x2="440" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="483" y1="216.0" x2="449" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="492" y1="216.0" x2="458" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="501" y1="216.0" x2="467" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="510" y1="216.0" x2="476" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="519" y1="216.0" x2="485" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="528" y1="216.0" x2="494" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="537" y1="216.0" x2="503" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="546" y1="216.0" x2="512" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="555" y1="216.0" x2="521" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="564" y1="216.0" x2="530" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="573" y1="216.0" x2="539" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="582" y1="216.0" x2="548" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="591" y1="216.0" x2="557" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="600" y1="216.0" x2="566" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="609" y1="216.0" x2="575" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="618" y1="216.0" x2="584" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="627" y1="216.0" x2="593" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="636" y1="216.0" x2="602" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="645" y1="216.0" x2="611" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="654" y1="216.0" x2="620" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="663" y1="216.0" x2="629" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="672" y1="216.0" x2="638" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <line x1="681" y1="216.0" x2="647" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
+  <text x="55.9" y="230.0" class="mapx" style="fill:#2A2A28">yes 966,277 = 44.46% of the electorate</text>
+  <text x="645.8" y="230.0" class="mapt" style="fill:#9A3B2E">FAILED</text>
+  <rect x="14.0" y="254.0" width="14" height="8" fill="#2E6B5E" opacity=".88"/>
+  <text x="34.0" y="262.0" class="mapx" opacity=".9">yes</text>
+  <rect x="68.9" y="254.0" width="14" height="8" fill="#9A3B2E" opacity=".80"/>
+  <text x="88.9" y="262.0" class="mapx" opacity=".9">no</text>
+  <rect x="118.2" y="254.0" width="14" height="8" fill="#5F6157" opacity=".28"/>
+  <text x="138.2" y="262.0" class="mapx" opacity=".9">did not vote (counts as no)</text>
+  <rect x="308.2" y="254.0" width="14" height="8" fill="none" stroke="#2A2A28" stroke-width=".8" stroke-dasharray="2 2"/>
+  <text x="328.2" y="262.0" class="mapx" opacity=".9">electorate derived, not counted</text>
+  <text x="14" y="286" class="mapx" opacity=".85">Each bar is the WHOLE ELECTORATE, not the votes cast, because that is the denominator the rule used. The floor is 45 per</text>
+  <text x="14" y="299" class="mapx" opacity=".85">cent of it. In 1939 the yes vote was 91.85 per cent of those who voted and the revision FAILED; in 1953 it was 78.76 per</text>
+  <text x="14" y="312" class="mapx" opacity=".85">cent and it PASSED. The difference is the third block - the people who did not vote - which a threshold on the</text>
+  <text x="14" y="325" class="mapx" opacity=".85">electorate counts as a no - 1,083,373 of them in 1953 alone. 1953 cleared the line by 19,682 votes. The 1939 electorate</text>
+  <text x="14" y="338" class="mapx" opacity=".85">is DERIVED from its published 44.46 per cent and is drawn hatched; every other quantity here is counted.</text>
+  </svg>

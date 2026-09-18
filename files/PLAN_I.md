@@ -272,8 +272,8 @@ one `[f]` and one `[n]`, as D-9 requires. Lazy backfill permitted.
 | 43 | [n] | ~~*unnamed* · Rønne · 7–8 May 1945~~ → **Anna Lund Lorentzen · Københavns byret · 1947** | **written.** The Rønne subject was moot once chapter 42 took the bombing (item 123). Sentenced to death in 1947, reprieved against her own stated wish |
 | 43 | [-] | **Flemming Helweg-Larsen · Bådsmandsstrædes Kaserne · 5 January 1946** | **verified and written.** First of the forty-six, and the first execution in Denmark for a civil crime since Horsens on 8 November 1892 — 19,415 days, computed |
 | 44 | [n] | Helene Thiesen · Nuuk, then a colony near Faxe · May 1951 | **sourced** |
-| 44 | [f] | *unnamed* · a polling station · 28 May 1953 | **needs a subject — this is the ending** |
-| 44 | [-] | the commission's adviser on §20 · 1952–53 | **needs a name** |
+| 44 | [f] | ~~*unnamed* · a polling station~~ → **Helga Pedersen · Christiansborg · 28 May 1953** | **written, and a departure from decision 2.9, agreed with Carsten.** Rather than invent an anonymous voter, the ending is the first woman justice minister — who argued inside the commission for *unconditional* female succession and lost, and became the first woman judge of the European Court of Human Rights in 1971. 2.9's real requirement, a person rather than a signature, is met. **No archive access was needed** |
+| 44 | [-] | **Max Sørensen · Aarhus · 1952** | **named and verified.** Not merely an adviser: he **put the §20 provision to the commission himself**, in a written response, aged thirty-nine. In 1973 — the year Denmark went through §20 into the European Communities — he became **Denmark's first judge at its Court of Justice** |
 
 **What is sourced, and what it gives.** Johanne Marie Braren was nine, the foster
 daughter of the vicar's household at Aastrup; her mother lifted her up to hand
@@ -294,7 +294,7 @@ children sent to Denmark to be made into Danes, returned unable to speak
 Greenlandic to her own mother, then placed in a Danish-speaking orphanage in Nuuk
 until 1960. Two years before the constitution ended the colony.
 
-**Two have no named subject: 44[f] and 44[-].** ~~Three: 43[n], 44[f], 44[-].~~ ~~Six: 38[n], 39[n], 40[f],
+**None. All 132 vignettes have named subjects.** ~~Two: 44[f] and 44[-].~~ ~~Three: 43[n], 44[f], 44[-].~~ ~~Six: 38[n], 39[n], 40[f],
 41[f], 43[n], 44[f].~~ Of the original six, five of them were `[f]` or `[n]`. That is not a coincidence and it is the whole reason
 D-9 exists: `[-]` subjects name themselves, because ministers and bank directors
 are indexed. Every hour of research this roster needs falls on the two categories
@@ -656,6 +656,13 @@ Faroese independence referendum of 1946, annulled by the king.
 **3L / 5M / 2H → 3,877 narrative + 3,786 → 7,663 → 36 minutes**, with room for a
 coda of up to ~700 words at 38. See decision 2.8.
 
+> **BUILT — see HANDOFF item 135.** Ten sections plus the part coda. Measured on
+> the page: **8,503 page words, 4,106 narrative (the 510-word coda inside it), 40
+> minutes, 4L/5M/1H.** The model was 840 page words low, which is the smallest
+> miss in Part I; **no length surgery was needed at any point**, which is item
+> 132's lesson applied — the apparatus was held to house norms from the start
+> (Sources 904 words against the ~965 norm) instead of being cut back twice.
+
 **What 1953 closes, and why the chapter is structured by it.** The Landsting is
 abolished and Denmark becomes unicameral, which discharges chapters 34 and 36
 completely — Estrup's privileged franchise, the deadlock nobody wrote a procedure
@@ -676,6 +683,17 @@ and legalised parliamentarism got over the line because voters wanted Margrethe
 to be queen.** It is load-bearing and it is exactly the kind of good story that
 turns out to be tidier than the record. Verify properly, and if it does not hold,
 §03 says so and the chapter is better for it.
+
+> **VERIFIED, AND IT DOES NOT HOLD.** The succession was **not a separate
+> ballot** — it sat inside the package, and the second ballot that day was on the
+> voting age, 23 against 21. *Gyldendal og Politikens Danmarkshistorie* addresses
+> the story in terms and declines it: the speculation can be neither confirmed
+> nor denied, and it points at the opposition campaigns instead. The regional
+> shares do not rescue it either. **The chapter states it as an undemonstrated
+> claim and the myth-check says so.** What replaced it is stronger and it
+> reconciles: the constitution passed by **19,682 votes**, computed, and 1939 —
+> which 91.85 per cent of voters supported — failed. **A threshold on the whole
+> electorate measures attendance, not agreement.**
 
 **§07 is the chapter's irony and the reason it is not triumphal.** Greenland's
 colonial status was ended by legal reclassification decided in Copenhagen, and
@@ -732,9 +750,10 @@ order above. The chapter 38 rows were written before its sections were fixed.
 | 43 | Fig. 2 · **Bornholm: occupied 335 days longer** | computed from the dates | **built** — 1,852 days against 2,187; nothing in it is a typed interval |
 | 43 | ~~Which way to lean, 1945–49~~ | schematic | **dropped.** A schematic of a decision is a diagram of an argument, not evidence for it |
 | 43 | Fig. 3 · **South Slesvig: members, meals and votes** | Grænseforeningen; *Sønderjyllands historie* | **built instead** — two readings per series, so it draws the multiplier on a log axis rather than a line nobody measured |
-| 44 | **1953 against 1939: the same threshold, cleared** | referendum returns | **the key figure** |
-| 44 | Two chambers to one: the Landsting 1849–1953 | Rigsdag statistics | located |
-| 44 | What §20 installed, and what walked through it in 1973 | schematic | n/a |
+| 44 | Fig. 2 · **1939 and 1953 against the forty-five per cent floor** | Nohlen & Stöver; Interior Ministry tables via lex.dk | **built, and it was the key figure.** Drawn against the *whole electorate*, so the abstentions are visible; the 1939 electorate is derived from its own percentage and drawn hatched |
+| 44 | Fig. 1 · **The Landsting, 1849–1953: who chose it** | lex.dk, *Landstinget i den danske Rigsdag* | **built** — three franchise regimes, spans computed from dates |
+| 44 | ~~What §20 installed, and what walked through it in 1973~~ | schematic | **dropped**, for chapter 43's reason |
+| 44 | Fig. 3 · **Two ballots, one Thursday** | Nohlen & Stöver | **built instead** — two registers 229,300 apart, and a table that overshoots its own total by 200 |
 
 ### 13.1 The source route, which is new
 

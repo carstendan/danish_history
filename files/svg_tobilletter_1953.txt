@@ -1,0 +1,32 @@
+<svg viewBox="0 0 700 351" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The two ballots of 28 May 1953. The constitution had an electorate of 2,585,800; the voting-age question had 2,815,100, a difference of 229,300. Twenty-three beat twenty-one by 840,815 to 700,122.">
+  <rect x="0" y="0" width="700" height="351" fill="#F4F1EA"/>
+  <text x="14" y="24" class="mapl">TWO BALLOTS, ONE THURSDAY</text>
+  <text x="14" y="40" class="mapt">28 May 1953: the constitution, and the voting age</text>
+  <text x="14" y="62" class="mapx" opacity=".75">The second question was open to the people it was about.</text>
+  <text x="107.0" y="129.0" class="mapt" text-anchor="end" style="fill:#2A2A28">the constitution</text>
+  <rect x="115.0" y="108.0" width="522.6" height="30" fill="none" stroke="#5F6157" stroke-width=".9" opacity=".7"/>
+  <rect x="115.0" y="108.0" width="308.8" height="30" fill="#2E6B5E" opacity=".85"/>
+  <text x="115.0" y="151.0" class="mapx" style="fill:#2A2A28">2,585,800 on the register, 1,527,658 voted - turnout 59.1%</text>
+  <text x="107.0" y="191.0" class="mapt" text-anchor="end" style="fill:#2A2A28">the voting age</text>
+  <rect x="115.0" y="170.0" width="569.0" height="30" fill="none" stroke="#5F6157" stroke-width=".9" opacity=".7"/>
+  <rect x="115.0" y="170.0" width="169.9" height="30" fill="#2E6B5E" opacity=".85"/>
+  <rect x="285.0" y="170.0" width="141.5" height="30" fill="#9A3B2E" opacity=".80"/>
+  <rect x="426.5" y="170.0" width="13.7" height="30" fill="#5F6157" opacity=".45"/>
+  <text x="115.0" y="213.0" class="mapx" style="fill:#2A2A28">2,815,100 on the register, 1,608,625 voted - turnout 57.1%</text>
+  <line x1="637.7" y1="96.0" x2="684.0" y2="96.0" stroke="#2A2A28" stroke-width=".9"/>
+  <line x1="637.7" y1="92.0" x2="637.7" y2="100.0" stroke="#2A2A28" stroke-width=".9"/>
+  <line x1="684.0" y1="92.0" x2="684.0" y2="100.0" stroke="#2A2A28" stroke-width=".9"/>
+  <text x="528.4" y="88.0" class="mapx" style="fill:#2A2A28">229,300 more on the register</text>
+  <rect x="14.0" y="228.0" width="14" height="8" fill="#2E6B5E" opacity=".85"/>
+  <text x="34.0" y="236.0" class="mapx" opacity=".9">voted; on the age ballot, 23 years</text>
+  <rect x="243.4" y="228.0" width="14" height="8" fill="#9A3B2E" opacity=".80"/>
+  <text x="263.4" y="236.0" class="mapx" opacity=".9">21 years</text>
+  <rect x="326.5" y="228.0" width="14" height="8" fill="#5F6157" opacity=".45"/>
+  <text x="346.5" y="236.0" class="mapx" opacity=".9">spoiled</text>
+  <text x="14.0" y="256.0" class="mapx" style="fill:#5F6157">age ballot components overshoot its published total by 200</text>
+  <text x="14" y="278" class="mapx" opacity=".85">Two questions, one Thursday, and two different electorates. The voting-age ballot was open to 229,300 more people than</text>
+  <text x="14" y="291" class="mapx" opacity=".85">the constitutional one, because it was open to those who would be enfranchised if the lower age won. They came, and</text>
+  <text x="14" y="304" class="mapx" opacity=".85">twenty-three beat twenty-one 840,815 to 700,122. On the day Denmark abolished the chamber of property it declined to</text>
+  <text x="14" y="317" class="mapx" opacity=".85">admit the twenty-one-year-olds. Note that the age ballot's own components overshoot its published total by 200 votes -</text>
+  <text x="14" y="330" class="mapx" opacity=".85">the constitutional ballot's reconcile exactly - and the discrepancy is marked rather than averaged away.</text>
+  </svg>

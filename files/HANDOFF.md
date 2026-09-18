@@ -36,18 +36,18 @@ written — see Lessons.
 | F | 21–24 | 1536–1660 | **built, reviewed, revised, closed; online** |
 | G | 25–31 | 1660–1814 | **built, reviewed, revised; all seven round-trip clean** |
 | H | 32–36 | 1814–1901 | **built, verified, indexed, closed — see `PLAN_H.md`** |
-| I | 37–44 | 1901–1955 | **in progress — see `PLAN_I.md`**; 37–41 built, verified and indexed; **42 built at 11,684 page words / 56 min, OUTSIDE the 25–50 band; 43 built at 10,514 / 50, inside it by four words.** Both trip decision 2.7 and the partition is deferred to the Part I boundary pass — items 128 and 132; 44 to draft |
+| I | 37–44 | 1901–1955 | **ALL EIGHT BUILT, VERIFIED AND INDEXED — the book is drafted.** 44 built at 8,503 page words / 40 min, first build, no length surgery. **42 remains OUTSIDE the 25–50 band at 11,684 / 56**; 43 is inside it by four words. Both trip decision 2.7 and **the Part I boundary pass — item 128 — is now unblocked and is the next task** |
 
-**Book, after chapter 43: 43 of 44, 321,970 page words, 25.6 h; 1 remaining.**
+**BOOK COMPLETE: 44 of 44, 330,473 page words, 26.2 h; 0 remaining.**
 Read off `bookstats.py` after `linkindex.py`, not carried forward — see item 112.
 The previous figure, 42 of 44 at 311,456 and 24.7 h, is superseded; note that the
 State block above carried 311,351 for it, which was the pre-`linkindex.py` number
 and is exactly the fault item 128 was written about.
 
-**The 43 in that count is provisional, and so is every chapter number above it.**
+**The 44 in that count is provisional, and so is every chapter number from 42 up.**
 Chapter 42 is 11,684 page words and 56 minutes and chapter 43 is 10,514 and 50,
-and Part I's internal boundaries from 1943 onward are to be redrawn once the part
-is drafted — item 128. The word total barely moves whatever the partition,
+and Part I's internal boundaries from 1943 onward are to be redrawn now that the
+part is drafted — item 128, which this chapter unblocks. The word total barely moves whatever the partition,
 because the words are written either way; the chapter COUNT does. **Do not
 re-plan against a 44-chapter spine, and do not carry 321,970 forward by
 addition** — item 112.
@@ -62,6 +62,7 @@ Part I as built:
 41  9 April 1940 and samarbejdspolitikken            8,707 page (41 min)  4L/4M/3H
 42  Rupture, rescue, resistance                     11,684 page (56 min)  1M/8H/2 OVER
 43  Settling accounts and choosing a side           10,514 page (50 min)  1L/5M/5H
+44  1953: the new constitution and the modern realm  8,503 page (40 min)  4L/5M/1H + coda
 ```
 
 Chapter 41 is the only one outside the 40-minute advisory of decision 2.1 (Part
@@ -3643,6 +3644,107 @@ split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see it
    running the scripts from the repository with the variables unset — every one
    of them defaults correctly to its own location — and reach for the variables
    only when deliberately building somewhere else.
+135. **Chapter 44 is built and the book is complete at 44 of 44, 330,473 page
+   words, 26.2 hours. PLAN_I §12's load-bearing claim did not survive
+   verification, which is what the plan asked for.**
+
+   **THE CLAIM THE PLAN MOST WANTED TESTED IS NOT ESTABLISHED.** PLAN_I §12 said
+   the succession clause supplied just enough turnout to clear the 45 per cent
+   threshold, and that if it held, "the constitution that abolished the upper
+   house and legalised parliamentarism got over the line because voters wanted
+   Margrethe to be queen." It also said: *verify properly, and if it does not
+   hold, §03 says so and the chapter is better for it.* It does not hold.
+
+   - **The succession was not a separate ballot.** It was one clause inside the
+     constitutional package. The second ballot that day was on the **voting
+     age**, 23 against 21.
+   - ***Gyldendal og Politikens Danmarkshistorie* addresses the story directly
+     and declines it**: it is difficult to confirm or deny the speculation, and
+     the article points instead at the opposition campaigns — Knud Kristensen's
+     and the communists' — as what brought people out at all.
+   - The regional pattern does not rescue it. Yes took **52.6 per cent of the
+     electorate on the islands** against 43.6 in Copenhagen and 41.8 in Jutland,
+     and nobody has shown the islands were the more monarchist.
+
+   The chapter states it as a claim that may well be true and has never been
+   demonstrated. **It is repeated everywhere as though it had been**, which is
+   the myth-check entry.
+
+   **WHAT REPLACED IT IS BETTER, AND IT RECONCILES.** The full 1953 returns —
+   electorate 2,585,800, yes 1,183,292, no 319,135, invalid 25,231, cast
+   1,527,658 — **add up exactly**, which is why they are used. Yes is 45.76 per
+   cent of the electorate against a floor of 45, so the constitution of Denmark
+   **passed by 19,682 votes, computed**, which reproduces the "about 20,000" the
+   Danish sources assert without showing their working. Set against 1939, where
+   **91.85 per cent of those voting said yes and the revision failed**, the whole
+   logic of §93 falls out: **a threshold counted against the electorate measures
+   attendance, not agreement, and counts every abstention as a no.** That is the
+   chapter's spine and figure 2.
+
+   **ITEM 108'S OPEN QUESTION IS ANSWERED: 1961.** It asked when the poor-relief
+   disqualification actually ended and left the trail to this chapter. lex.dk's
+   *Danmark - social sikring*: "indskrænkningerne blev dog først totalt afskaffet
+   med Lov om offentlig forsorg i 1961." So the chain is 1915 §30(b) → 1933
+   redefines → **1953 delegates** (§29's sentence is in the constitution today,
+   unused) → **1961 abolishes**. The third of the seven F's got the vote back
+   **forty-six years after two of them did and eight years after the constitution
+   stopped naming them**, and debt 3 closes on a social statute rather than a
+   constitution, which is a better ending than the plan expected.
+
+   **THE THREE VIGNETTE SUBJECTS ARE NAMED AND NONE NEEDED ARCHIVE ACCESS.**
+   PLAN_I flagged 44[f] and 44[-] as unnamed and 2.9 warned that the ending
+   "may need physical access". It did not.
+
+   - **44[-] Max Sørensen.** Not merely "the commission's adviser on §20" — he
+     **put the provision to the commission himself**, in a written response, aged
+     thirty-nine. In 1973, the year Denmark walked through §20 into the European
+     Communities, he became **Denmark's first judge at its Court of Justice.**
+   - **44[n] Helene Thiesen**, as planned.
+   - **44[f] Helga Pedersen**, and this is a **DEPARTURE FROM DECISION 2.9**,
+     taken with Carsten's agreement. 2.9 wanted an unnamed woman voting at a
+     polling station. Rather than invent an anonymous subject, the ending is
+     Denmark's first woman justice minister, who argued inside the commission for
+     **unconditional** female succession and was beaten to the conditional
+     version, and who became the **first woman judge of the European Court of
+     Human Rights** in 1971. 2.9's real requirement — a person, not a
+     signature — is met.
+   - **A connection worth having, and it is an inference.** Helga Pedersen held
+     the Danish seat at Strasbourg until her death in January 1980; Max Sørensen
+     held it from 1980 until his own in October 1981. **That the seat passed from
+     one to the other is deduced from two date ranges that meet** and is not
+     stated in either source. Flagged as such in the chapter's Sources.
+
+   **THE THIRD FIGURE WAS DROPPED, FOR CHAPTER 43'S REASON.** PLAN_I §13's "What
+   §20 installed, and what walked through it in 1973" was a schematic, and a
+   schematic of a decision is a diagram of an argument rather than evidence for
+   it. Replaced by **the two ballots of 28 May 1953** — two questions, one day,
+   and **two different registers**, the voting-age one 229,300 larger because it
+   was open to the people the question was about. They turned out and lost.
+   **That table does not reconcile: its components overshoot its published total
+   by exactly 200**, where the constitutional ballot's reconcile exactly. Marked
+   on the figure, not averaged away.
+
+   **TWO FIGURE FAULTS THAT ONLY THE RASTER SHOWED, both the item 47 family.**
+   Figure 2 drew 1953's third block as *cast minus yes minus no* — the 25,231
+   spoiled ballots — while 1939's used *electorate minus yes minus no*. **Two
+   denominators in one figure**: the 1953 bar stopped three quarters of the way
+   across and the picture understated the very quantity it exists to show. Fixed,
+   with an assertion that each row's blocks sum to its electorate. And figure 1's
+   second marker fell at 99.9 per cent of the span, indistinguishable from the
+   bar's own right edge, so it marked nothing while its label sat far away
+   pointing at blank paper; **a tick that cannot be told from the end of the bar
+   is not a tick**, and it was replaced by an end label.
+
+   **An assertion also caught the prose.** The Landsting's span was written as
+   104 years and asserted as such; measured to its **last sitting** on 15 May 1953
+   it is 103.94. Both facts are true and they are not the same fact: the chamber
+   ran **constitution to constitution, 5 June 1849 to 5 June 1953 — exactly
+   104 years** — and stopped sitting three weeks early. The figure now says so.
+
+   **The apparatus stayed at house norms this time**, which item 132 asked for:
+   Sources 904 words against the ~965 norm, where chapter 43's first assembly
+   came in at 1,991 and had to be cut twice. **Chapter 44 needed no length
+   surgery at all** — 8,503 page words, 40 minutes, first build.
 ---
 
 ## Convention D-12: draft prose is never written through a shell heredoc

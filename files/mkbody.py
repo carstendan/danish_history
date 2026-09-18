@@ -942,6 +942,59 @@ HAND = {
           "its endpoints are two years apart from the others'. The argument is the shape, "
           "not the levels.")],
  ),
+ 44: dict(
+   file='c44_body.html',
+   part='Part I', band='The small state', num=44, dates='1949 \u2013 1955',
+   coda_part='Part I', coda_span='1901 \u2013 1955',
+   title='1953: the new constitution and the modern realm',
+   people='Helga Pedersen \u00b7 Max S\u00f8rensen \u00b7 Frederik 9. \u00b7 '
+          'Helene Thiesen \u00b7 Hans Hedtoft \u00b7 Erik Eriksen',
+   hook="A constitution could only be replaced if forty-five per cent of everyone on the "
+        "register voted for it, and in 1939 a revision that ninety-two per cent of voters "
+        "supported had died of the people who stayed at home. In 1953 a less popular "
+        "proposal cleared the same bar by nineteen thousand votes. It abolished the upper "
+        "house, wrote down parliamentary government, gave a princess a conditional place, "
+        "stopped calling Greenland a colony, and installed the paragraph through which "
+        "Denmark would walk into Europe twenty years later.",
+   keys=['45-procents-reglen', 'Forfatningskommissionen af 1946',
+         'Landstingets afskaffelse', 'parlamentarisme i grundloven',
+         'betinget kvindelig arvef\u00f8lge', 'grundlovens \u00a7 20',
+         'suver\u00e6nitetsafgivelse', 'Gr\u00f8nland som amt 1953',
+         'eksperimentb\u00f8rnene 1951', 'Thulesagen 1953',
+         'folkeafstemningen 28. maj 1953', 'valgretsalderen 23 \u00e5r',
+         'grundloven af 5. juni 1953'],
+   qs=["A revision supported by 91.85 per cent of those who voted failed in 1939 and one "
+       "supported by 78.76 per cent passed in 1953. What was the rule, and what was it "
+       "actually measuring?",
+       "The Landsting voted for its own abolition. What had each reform since 1866 done "
+       "to it that left it without an argument?",
+       "\u00a7 20 was drafted in 1952 for the United Nations and the Atlantic alliance. "
+       "How did it come to be the clause Denmark joined the European Communities under?",
+       "Greenland stopped being a colony in 1953. Who decided that, and who was not "
+       "asked?",
+       "The 1953 constitution is usually said to have ended the loss of the vote for poor "
+       "relief. What did it actually do, and when did that disqualification end?"],
+   figs=[("s03", "SVG_LANDSTING",
+          "Figure 1 \u00b7 The Landsting, 1849\u20131953: who chose it",
+          "Three franchise regimes on one axis, every span computed from its two dates "
+          "rather than from anybody's rounding. The chamber's life runs constitution to "
+          "constitution, 5 June 1849 to 5 June 1953 \u2014 exactly 104 years; its last "
+          "sitting is three weeks earlier."),
+         ("s08", "SVG_GULV",
+          "Figure 2 \u00b7 1939 and 1953 against the forty-five per cent floor",
+          "Each bar is the whole electorate, because that is the denominator the rule "
+          "used. The third block is everyone who did not vote yes or no, which a "
+          "threshold on the electorate treats as a no. The 1939 electorate is not "
+          "published in any source reached and is derived from its own percentage; it is "
+          "drawn hatched and labelled as derived."),
+         ("s10", "SVG_TOBILLETTER",
+          "Figure 3 \u00b7 Two ballots, one Thursday",
+          "The same day, two questions and two different registers. The voting-age ballot "
+          "was open to 229,300 more people than the constitutional one, because it was "
+          "open to those the lower age would have enfranchised. Its own components "
+          "overshoot its published total by 200 votes, which is marked rather than "
+          "averaged away.")],
+ ),
 }
 
 

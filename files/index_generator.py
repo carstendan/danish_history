@@ -188,8 +188,8 @@ E = [
  "A country whose police the occupier had deported, arresting twenty-two thousand of its own with no law to try them under; then a retroactive statute, forty-six men shot, a Soviet garrison on Bornholm — and the end of the neutrality Denmark had held since 1864.",
  ["politiaktionen september 1944","retsopgøret og straffelovstillægget","Soviet Bornholm May 1945 – April 1946","Sydslesvig: the border not moved","Marshall aid","NATO 4 April 1949"]),
 (44,8,"1953: the new constitution and the modern realm","1949 – 1955",1952,
- "The Landsting goes, female succession comes, Greenland stops being a colony on paper — and §20 quietly installs the door Denmark walks through in 1973.",
- ["Grundloven 1953","Landstinget abolished","female succession","Greenland made a county 1953","§20 on sovereignty transfer"]),
+ "A constitution carried by 19,682 votes: the Landsting votes itself out of existence, a princess is given a place behind every brother, Greenland stops being a colony on paper — and §20 quietly installs the door Denmark walks through in 1973.",
+ ["Grundloven 1953","Landstinget abolished","conditional female succession","Greenland made a county 1953","§20 on sovereignty transfer","the 45 per cent rule"]),
 ]
 
 THREADS = [

@@ -345,6 +345,44 @@ CFG = {
         "What did the Marshall counterpart kroner mostly pay for in Denmark, and whose "
         "debt was it?"]),
     ]),
+ 44: dict(
+    name='44-1953-the-new-constitution-and-the-modern-realm.html',
+    body='c44_body.html',
+    svgs={'SVG_GULV': 'svg_gulv_1953.txt',
+          'SVG_LANDSTING': 'svg_landsting_1953.txt',
+          'SVG_TOBILLETTER': 'svg_tobilletter_1953.txt'},
+    sec=[("s01", "01", 'Why anyone wanted a new constitution'),
+         ("s02", "02", 'The commission, and the lawyers in it'),
+         ("s03", "03", 'The Landsting votes itself out of existence'),
+         ("s04", "04", 'A daughter who could inherit'),
+         ("s05", "05", '\u00a720: the door'),
+         ("s06", "06", 'Greenland stops being a colony'),
+         ("s07", "07", 'What Greenland got instead'),
+         ("s08", "08", '28 May 1953'),
+         ("s09", "09", 'The composite state, ended'),
+         ("s10", "10", 'The woman at the polling station')],
+    checks=[
+      ("A daughter who could inherit", [
+        "The constitution of 1915 could only be replaced under one rule. What did that "
+        "rule require, and why is it a test of turnout rather than of agreement?",
+        "What had each reform of the Landsting since 1866 done to the question of who "
+        "chose it?",
+        "\u00a729 of the 1953 constitution did not abolish the loss of the vote for poor "
+        "relief. What did it do instead, and is that sentence still in force?"]),
+      ("Greenland stops being a colony", [
+        "Why did ordinary Danes have an opinion about the succession clause when they had "
+        "none about most of the rest of the document?",
+        "What does \u00a720 permit, what majority does it require, and what happens when "
+        "that majority cannot be found?",
+        "Max S\u00f8rensen drafted \u00a720 in 1952. What did he have in mind, and what "
+        "was it used for twenty years later?"]),
+      ("The composite state, ended", [
+        "Greenland became a Danish county by a constitution approved in a referendum. Who "
+        "voted in that referendum, and who did not?",
+        "What argument did Denmark make to the United Nations about when a territory "
+        "stops being non-self-governing, and why did it succeed?",
+        "What was announced on 25 May 1953, and what happened three days afterwards?"]),
+    ]),
 }
 
 def block(qs):

@@ -1,0 +1,28 @@
+<svg viewBox="0 0 700 303" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The Danish Landsting from 1849 to 1953 in three franchise regimes: indirect election from men over forty, then Estrup's privileged franchise with twelve royal appointees, then voters over thirty-five with a quarter co-opted. It voted for its own abolition on 13 May 1953.">
+  <rect x="0" y="0" width="700" height="303" fill="#F4F1EA"/>
+  <text x="14" y="24" class="mapl">THE LANDSTING, 1849 - 1953: WHO CHOSE IT</text>
+  <text x="14" y="40" class="mapt">three franchise regimes on one axis, spans computed from the dates</text>
+  <text x="14" y="62" class="mapx" opacity=".75">Each reform answered the objection and removed a reason to exist.</text>
+  <rect x="16.0" y="112" width="110.1" height="30" fill="#8C5A3C" opacity=".85"/>
+  <text x="16.0" y="104" class="mapt" style="fill:#2A2A28">1849</text>
+  <text x="16.0" y="157" class="mapx" opacity=".85">electors, from men</text>
+  <text x="16.0" y="169" class="mapx" opacity=".85">over 40 with an</text>
+  <text x="16.0" y="181" class="mapx" opacity=".85">income</text>
+  <rect x="126.1" y="112" width="313.8" height="30" fill="#9A3B2E" opacity=".85"/>
+  <text x="126.1" y="104" class="mapt" style="fill:#2A2A28">1866</text>
+  <text x="126.1" y="157" class="mapx" opacity=".85">Estrup's privileged franchise; 12 of 66 named by the</text>
+  <text x="126.1" y="169" class="mapx" opacity=".85">king</text>
+  <rect x="439.9" y="112" width="244.1" height="30" fill="#2E6B5E" opacity=".85"/>
+  <text x="439.9" y="104" class="mapt" style="fill:#2A2A28">1915</text>
+  <text x="439.9" y="157" class="mapx" opacity=".85">voters over 35; a quarter co-opted by the</text>
+  <text x="439.9" y="169" class="mapx" opacity=".85">outgoing chamber</text>
+  <text x="684.0" y="104" class="mapt" text-anchor="end" style="fill:#2A2A28">1953</text>
+  <line x1="572.1" y1="108" x2="572.1" y2="146" stroke="#2A2A28" stroke-width="1.2"/>
+  <line x1="572.1" y1="146" x2="572.1" y2="196.0" stroke="#2A2A28" stroke-width=".7" opacity=".6"/>
+  <text x="449.5" y="205" class="mapx" style="fill:#2A2A28">1936: its majority matches the Folketing's</text>
+  <text x="353.8" y="219" class="mapx" style="fill:#2A2A28">13 May 1953: votes to abolish itself; last sits on the 15th</text>
+  <text x="14" y="243" class="mapx" opacity=".85">Days on one axis, every span computed from its two dates. The chamber sat 37,985 days - 104.0 years - and each reform</text>
+  <text x="14" y="256" class="mapx" opacity=".85">made it more like the Folketing and less able to say why it was separate. By 1936 its majority matched the lower</text>
+  <text x="14" y="269" class="mapx" opacity=".85">house's. On 13 May 1953, at the first reading of the bill abolishing it, it voted for its own abolition, and it sat for</text>
+  <text x="14" y="282" class="mapx" opacity=".85">the last time two days later.</text>
+  </svg>
