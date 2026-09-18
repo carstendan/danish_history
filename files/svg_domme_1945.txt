@@ -1,0 +1,60 @@
+<svg viewBox="0 0 700 376" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="What the 13,521 convictions of the Danish retsopgoer were for. Service in the German forces 7,277; service in the German police 1,638; building for the Wehrmacht 1,139; informing 413; the Danish Nazi leadership about fifty; and 3,004 in categories the published summary does not name.">
+  <rect x="0" y="0" width="700" height="376" fill="#F4F1EA"/>
+  <text x="14" y="24" class="mapl">WHAT THE 13,521 CONVICTIONS WERE FOR</text>
+  <text x="14" y="40" class="mapt">the official table at final instance, with the women's share inset</text>
+  <text x="14" y="62" class="mapx" opacity=".75">More than half of the reckoning is service in a uniform.</text>
+  <text x="310.6" y="100.0" class="mapt" text-anchor="end" style="fill:#2A2A28">service in the German forces</text>
+  <rect x="318.6" y="88.0" width="323.7" height="15" fill="#8C5A3C" opacity=".85"/>
+  <rect x="318.6" y="88.0" width="15.4" height="15" fill="#2A2A28"/>
+  <text x="648.2" y="100.0" class="mapx" style="fill:#2A2A28">7,277</text>
+  <text x="310.6" y="126.0" class="mapt" text-anchor="end" style="fill:#2A2A28">service in the German police</text>
+  <rect x="318.6" y="114.0" width="72.9" height="15" fill="#8C5A3C" opacity=".85"/>
+  <rect x="319.1" y="114.5" width="7.0" height="14" fill="none" stroke="#2A2A28" stroke-width="1" stroke-dasharray="2 2" opacity=".85"/>
+  <text x="397.4" y="126.0" class="mapx" style="fill:#2A2A28">1,638</text>
+  <text x="310.6" y="152.0" class="mapt" text-anchor="end" style="fill:#2A2A28">building for the Wehrmacht</text>
+  <rect x="318.6" y="140.0" width="50.7" height="15" fill="#8C5A3C" opacity=".85"/>
+  <rect x="318.6" y="140.0" width="1.1" height="15" fill="#2A2A28"/>
+  <text x="375.2" y="152.0" class="mapx" style="fill:#2A2A28">1,139</text>
+  <text x="310.6" y="178.0" class="mapt" text-anchor="end" style="fill:#2A2A28">informing</text>
+  <rect x="318.6" y="166.0" width="18.4" height="15" fill="#8C5A3C" opacity=".85"/>
+  <rect x="318.6" y="166.0" width="4.8" height="15" fill="#2A2A28"/>
+  <text x="342.9" y="178.0" class="mapx" style="fill:#2A2A28">413</text>
+  <text x="310.6" y="204.0" class="mapt" text-anchor="end" style="fill:#2A2A28">the Danish Nazi leadership</text>
+  <rect x="318.6" y="192.0" width="2.2" height="15" fill="#8C5A3C" opacity=".85"/>
+  <text x="326.8" y="204.0" class="mapx" style="fill:#2A2A28">about 50</text>
+  <text x="310.6" y="230.0" class="mapt" text-anchor="end" style="fill:#2A2A28">categories the published summary does not name</text>
+  <rect x="318.6" y="218.0" width="133.6" height="15" fill="#5F6157" opacity=".85"/>
+  <line x1="322" y1="233.0" x2="307" y2="218.0" stroke="#F4F1EA" stroke-width=".7" opacity=".55"/>
+  <line x1="329" y1="233.0" x2="314" y2="218.0" stroke="#F4F1EA" stroke-width=".7" opacity=".55"/>
+  <line x1="336" y1="233.0" x2="321" y2="218.0" stroke="#F4F1EA" stroke-width=".7" opacity=".55"/>
+  <line x1="343" y1="233.0" x2="328" y2="218.0" stroke="#F4F1EA" stroke-width=".7" opacity=".55"/>
+  <line x1="350" y1="233.0" x2="335" y2="218.0" stroke="#F4F1EA" stroke-width=".7" opacity=".55"/>
+  <line x1="357" y1="233.0" x2="342" y2="218.0" stroke="#F4F1EA" stroke-width=".7" opacity=".55"/>
+  <line x1="364" y1="233.0" x2="349" y2="218.0" stroke="#F4F1EA" stroke-width=".7" opacity=".55"/>
+  <line x1="371" y1="233.0" x2="356" y2="218.0" stroke="#F4F1EA" stroke-width=".7" opacity=".55"/>
+  <line x1="378" y1="233.0" x2="363" y2="218.0" stroke="#F4F1EA" stroke-width=".7" opacity=".55"/>
+  <line x1="385" y1="233.0" x2="370" y2="218.0" stroke="#F4F1EA" stroke-width=".7" opacity=".55"/>
+  <line x1="392" y1="233.0" x2="377" y2="218.0" stroke="#F4F1EA" stroke-width=".7" opacity=".55"/>
+  <line x1="399" y1="233.0" x2="384" y2="218.0" stroke="#F4F1EA" stroke-width=".7" opacity=".55"/>
+  <line x1="406" y1="233.0" x2="391" y2="218.0" stroke="#F4F1EA" stroke-width=".7" opacity=".55"/>
+  <line x1="413" y1="233.0" x2="398" y2="218.0" stroke="#F4F1EA" stroke-width=".7" opacity=".55"/>
+  <line x1="420" y1="233.0" x2="405" y2="218.0" stroke="#F4F1EA" stroke-width=".7" opacity=".55"/>
+  <line x1="427" y1="233.0" x2="412" y2="218.0" stroke="#F4F1EA" stroke-width=".7" opacity=".55"/>
+  <line x1="434" y1="233.0" x2="419" y2="218.0" stroke="#F4F1EA" stroke-width=".7" opacity=".55"/>
+  <line x1="441" y1="233.0" x2="426" y2="218.0" stroke="#F4F1EA" stroke-width=".7" opacity=".55"/>
+  <line x1="448" y1="233.0" x2="433" y2="218.0" stroke="#F4F1EA" stroke-width=".7" opacity=".55"/>
+  <rect x="318.6" y="218.0" width="7.3" height="15" fill="#2A2A28"/>
+  <text x="458.2" y="230.0" class="mapx" style="fill:#2A2A28">3,004</text>
+  <rect x="14.0" y="262.0" width="14" height="8" fill="#8C5A3C" opacity=".85"/>
+  <text x="34.0" y="270.0" class="mapx" opacity=".9">convictions</text>
+  <rect x="115.9" y="262.0" width="14" height="8" fill="#2A2A28" opacity="1"/>
+  <text x="135.9" y="270.0" class="mapx" opacity=".9">women, where the source gives a figure</text>
+  <rect x="369.9" y="262.0" width="14" height="8" fill="none" stroke="#2A2A28" stroke-width="1" stroke-dasharray="2 2"/>
+  <text x="389.9" y="270.0" class="mapx" opacity=".9">no women's figure published</text>
+  <text x="14" y="290" class="mapx" opacity=".85">The named categories add to 10,517 of 13,521. The remaining 3,004 convictions - more than a fifth of the whole reckoning</text>
+  <text x="14" y="303" class="mapx" opacity=".85">- are in categories the published summary does not itemise, and they are drawn rather than dropped. The women's insets</text>
+  <text x="14" y="316" class="mapx" opacity=".85">do the same: 479 of the 644 women convicted are inside the three categories with a published women's figure, and 165 are</text>
+  <text x="14" y="329" class="mapx" opacity=".85">not. Two bars carry a dashed mark instead of an inset because the source gives no women's figure for them, which is not</text>
+  <text x="14" y="342" class="mapx" opacity=".85">the same as a figure of none; and the 25 women among the Wehrmacht's builders are two per cent of that bar and are drawn</text>
+  <text x="14" y="355" class="mapx" opacity=".85">to scale, which at this width is a hairline.</text>
+  </svg>

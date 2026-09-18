@@ -1,0 +1,18 @@
+#!/bin/sh
+# danish_history: refuse a commit whose pages do not follow from their drafts.
+#
+# WHY. Twice on 18 September 2026 a source-only commit landed without the rebuild
+# it implied, and the remote went on shipping a wrong date in chapter 41, both of
+# item 130's corrections in chapter 37, and no chapter 43 at all. The second time
+# was the commit that added freshcheck.py. The rule "patch of source only" and a
+# repository that tracks build outputs are individually right and together leave a
+# gap that only discipline closes - so this closes it instead.
+#
+# Install:  cp files/pre-commit .git/hooks/pre-commit && chmod +x .git/hooks/pre-commit
+# Bypass:   git commit --no-verify     (for a source-only commit you will rebuild next)
+python3 "$(git rev-parse --show-toplevel)/files/freshcheck.py" || {
+  echo
+  echo "  COMMIT REFUSED. Rebuild first, or commit with --no-verify if you are"
+  echo "  deliberately landing source ahead of its build."
+  exit 1
+}
