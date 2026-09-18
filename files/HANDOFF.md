@@ -68,7 +68,8 @@ Chapter 41 is the only one outside the 40-minute advisory of decision 2.1 (Part
 H), deliberately and with the cut named in item 118 if it has to come down.
 
 All of 01–24 are published to a web folder. Chapter pages carry two links back to
-the index, inserted by `linkindex.py` — see Tools.
+the index, inserted by `linkindex.py` — see Tools. **`freshcheck.py` joins the cold run and must pass before any commit: it is the only check that compares a
+build output with its source rather than with another build output — item 133.**
 
 Part E as built:
 
@@ -3520,6 +3521,76 @@ split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see it
    must not be sent to the boundary pass as one.** Chapter 42 at 11,684 is a
    partition problem; chapter 43 was not, and the check is to measure the
    apparatus against the norm before concluding anything about the prose.
+133. **The repository passed every verifier while shipping a wrong date in
+   chapter 41, both of item 130's corrections still uncorrected on chapter 37's
+   page, and no chapter 43 at all. `freshcheck.py` is the guard that closes it.**
+
+   **What was actually wrong at `caadf9e`, found by cold-running the push.**
+
+   - **Chapter 37's page still said "three years" for the *mellemskole* and
+     "twenty years" for Munch's foreign ministry.** Both were corrected in
+     `c37_draft.md` at `b8d55c8`, committed, and **never built**. Item 130 is
+     written as closed. It was closed in the draft and open on the page, for two
+     commits.
+   - **Chapter 41's page still said the Kauffmann treaty was ratified on 12 May
+     1945, seven days after the liberation.** The draft says 16 May, eleven days,
+     unanimously in both chambers, with the FRUS citation. Shipped page: the old,
+     wrong version.
+   - **Chapter 43 had a draft, a figure script and config entries, and no body,
+     no page and no index entry.** `danish-history-index.html` still carried the
+     old blurb with its two faults — the 1945 date and "150 years of neutrality".
+
+   **THE POINT IS NOT THE THREE FAULTS. IT IS THAT NOTHING COULD HAVE CAUGHT
+   THEM,** and I confirmed that by running the whole suite against the pushed
+   tree before rebuilding anything:
+
+   - `debuild.py verify` — **clean.** It round-trips a PAGE against its own BODY.
+     Both were stale together, so the comparison agreed with itself. **This is
+     item 110's trap in its purest form: a thing compared with itself always
+     passes.**
+   - `figcheck.py` — **81 figures match, nothing disagrees.** It compares figures
+     against their SVG sources. The figures were fine. The prose was wrong.
+   - `draftnotes.py`, `seamcheck.py` — clean, and correctly so; neither looks at
+     this.
+   - `bookstats.py` — "42 of 44", which **reads as "43 is not written yet"** when
+     the truth was "43 is written and was never built". The one number that could
+     have hinted at it says the opposite of what was true.
+
+   **THE CAUSE IS STRUCTURAL AND WILL RECUR EVERY SINGLE HANDOVER.** The standing
+   rule is *patch of source only, never a generated file*. The repository
+   **tracks the generated files**. Those two facts are both right and together
+   they guarantee that every accepted patch leaves the tree internally
+   inconsistent until somebody remembers to rebuild — and until now nothing could
+   tell the difference between a chapter that was never written and a chapter
+   that was never built.
+
+   **The guard: `files/freshcheck.py`.** For every chapter with a single-file
+   draft and a `mkbody.HAND` entry it rebuilds the body from the draft in a
+   scratch directory and compares byte-for-byte with the body on disk. Four
+   states, three of them faults: **FRESH**, **STALE** (draft moved, body did
+   not), **MISSING** (draft with no body), **REFUSED** (`mkbody` will not build
+   this draft at all). It also reports **NO PAGE** for a fresh body with no
+   `NN-*.html`. Exit 1 on any fault. **Chapters 25–31 and 1–24 are skipped and
+   NAMED rather than silently passed** — item 64's rule, that a checker which
+   covers less than it appears to is worse than none.
+
+   **It should join the cold run, and it should run before every commit and every
+   handover.** It is the only check in the suite that compares a build output
+   with its source rather than with another build output.
+
+   **A FOURTH THING IT FOUND, WHICH I WAS NOT LOOKING FOR: chapter 32 can no
+   longer be rebuilt at all.** `mkbody` refuses it over the five unresolved
+   drafting flags that item 102 wired the guard for — the guard did not exist
+   when chapter 32's page was built, so the page on disk **cannot be reproduced
+   from its own source**. That is not staleness and pressing rebuild will not fix
+   it; it is reported as REFUSED for exactly that reason. Item 102's "not fixed:
+   the prose" now has a harder consequence than it did when it was written:
+   **until those five flags are resolved, chapter 32 is a page with no
+   reproducible source.** It is the only such chapter in the book.
+
+   **After rebuilding 37, 41, 42 and 43 the tree is clean**: freshcheck 11 fresh
+   and only 32 refused; figcheck 84 match, 0 disagree; D-9 3/3 on 40–43; seams
+   pass; debuild clean; **43 of 44, 321,970 page words, 25.6 h**.
 ---
 
 ## Convention D-12: draft prose is never written through a shell heredoc
