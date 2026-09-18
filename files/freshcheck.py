@@ -39,8 +39,16 @@ states, and only two of them are acceptable:
 It also checks that every chapter with a body has a PAGE, because a body with no
 page is the same fault one stage later.
 
-HOW IT FAILS. Exit 1 on any STALE or MISSING. That is the point: this is meant to
-be run before a commit and before a handover, and to refuse.
+HOW IT FAILS. Exit 1 on STALE, MISSING or NO PAGE — the faults a rebuild fixes.
+This is meant to run before a commit and before a handover, and to refuse.
+
+REFUSED IS DELIBERATELY NOT FATAL, and the reason matters. Chapter 32 has been
+REFUSED since item 102 wired the drafting-flag guard, and it stays REFUSED until
+five open research questions are answered. A rebuild cannot clear it. If that set
+the exit code, the pre-commit hook would refuse every commit in the repository,
+`--no-verify` would become reflex within a day, and the guard would be dead — so
+a standing condition nobody can act on today would have disabled the check for
+the faults people CAN act on. REFUSED is printed loudly on every run instead.
 
 WHAT IT DELIBERATELY DOES NOT DO. It does not rebuild pages, because
 `build_part_*.py` injects checkpoints from its own config and a page comparison
@@ -137,9 +145,11 @@ def main():
             print("     chapter %-3s %s" % (n, why))
     print()
 
-    bad = len(stale) + len(missing) + len(pageless) + len(refused)
-    if bad:
-        print("  %d chapter(s) whose page does not follow from its draft." % bad)
+    # See the docstring: REFUSED is loud but does not set the exit code.
+    bad = len(stale) + len(missing) + len(pageless)
+    if bad or refused:
+        if bad:
+            print("  %d chapter(s) whose page does not follow from its draft." % bad)
         if stale or missing or pageless:
             print("  Rebuild before committing: mkbody.py, then build_part_*.py,")
             print("  then linkindex.py, then index_generator.py - in that order.")

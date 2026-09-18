@@ -16,14 +16,15 @@ import os
 import re
 
 from pagewords import pagewords   # one definition, shared
+import dkpaths
 
 # Paths resolve relative to this script, not to wherever it is run from, and both
 # can be overridden. The container paths that used to be hardcoded here meant the
 # script only ran in one place; sources live beside it in files/ and built pages
 # go to the parent, which is the layout on disk.
 HERE = os.path.dirname(os.path.abspath(__file__))
-G = os.environ.get('DK_SRC', HERE) + os.sep
-OUT = os.environ.get('DK_OUT', os.path.dirname(HERE)) + os.sep
+G = dkpaths.resolve('DK_SRC', HERE, 'the folder holding the bodies and figures') + os.sep
+OUT = dkpaths.resolve('DK_OUT', os.path.dirname(HERE), 'where built chapter pages are written') + os.sep
 
 PART_COLOUR = {'A': '#8E9182', 'B': '#B8761F', 'C': '#96591A'}
 

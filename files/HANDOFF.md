@@ -3582,6 +3582,17 @@ split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see it
    handover.** It is the only check in the suite that compares a build output
    with its source rather than with another build output.
 
+   **CORRECTED SAME DAY: REFUSED must not set the exit code, and the first
+   version did.** `freshcheck.py` exited 1 on a perfectly clean tree, because
+   chapter 32 is REFUSED and stays REFUSED until five open research questions are
+   answered. A pre-commit hook built on that would have refused *every* commit in
+   the repository, `--no-verify` would have become reflex, and the guard would
+   have been dead inside a day — **a standing condition nobody can act on today
+   disabling the check for the faults people can act on.** Exit 1 is now STALE,
+   MISSING and NO PAGE only; REFUSED prints loudly on every run. Verified both
+   ways: clean tree exits 0, and sixteen bytes appended to `c43_body.html` is
+   caught as STALE and exits 1.
+
    **A FOURTH THING IT FOUND, WHICH I WAS NOT LOOKING FOR: chapter 32 can no
    longer be rebuilt at all.** `mkbody` refuses it over the five unresolved
    drafting flags that item 102 wired the guard for — the guard did not exist
@@ -3595,6 +3606,43 @@ split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see it
    **After rebuilding 37, 41, 42 and 43 the tree is clean**: freshcheck 11 fresh
    and only 32 refused; figcheck 84 match, 0 disagree; D-9 3/3 on 40–43; seams
    pass; debuild clean; **43 of 44, 321,970 page words, 25.6 h**.
+134. **The scripts were never wrong about the path. The shell was, and the loud
+   failure was the lucky one.**
+
+   The working folder moved out of iCloud to `~/Documents/Danish History` on
+   18 September 2026 and Part H, Part I and `linkindex.py` all died with
+   `FileNotFoundError` pointing at the old location. **Nothing in the repository
+   held that path.** Every script derives its own location from `__file__`. What
+   held it was `DK_CHAPTERS` and `DK_OUT`, still exported in the shell, because
+   the START_HERE documents set them with `export DK_CHAPTERS="$PWD/.."` — which
+   is correct at the moment you run it and stale for the rest of the session.
+
+   **The crash was the good outcome.** The same mistake with a folder that still
+   exists — an old copy, a mirror, a duplicate — does not crash. It builds the
+   chapters into the wrong tree and the shipped book quietly stops matching its
+   source. **Known-issue 5 records that this has already happened to this project
+   once**, and it took a `build_part_e.py` with chapter 16 unsplit to notice.
+
+   **The guard: `files/dkpaths.py`,** wired into all seven `build_part_*` scripts
+   plus `linkindex.py`, `bookstats.py` and `index_generator.py` — 18 call sites.
+   `DK_SRC`, `DK_OUT` and `DK_CHAPTERS` now go through `dkpaths.resolve()`:
+
+   - **a target that does not exist is a refusal**, naming the variable and
+     printing `unset DK_OUT` rather than a traceback;
+   - **a target outside this repository is a loud warning** on stderr, not a
+     silent success. It is not forbidden — `index_generator.py`'s own default is
+     a container path and building elsewhere is sometimes deliberate — but it can
+     no longer happen by accident.
+
+   Both paths were tested against the real stale value that caused the crash and
+   against an existing-but-foreign directory, and **a clean rebuild afterwards was
+   byte-identical: no built page changed.**
+
+   **The START_HERE documents are the root cause and should stop teaching the
+   pattern.** `export DK_CHAPTERS="$PWD/.."` bakes a moment into a shell. Prefer
+   running the scripts from the repository with the variables unset — every one
+   of them defaults correctly to its own location — and reach for the variables
+   only when deliberately building somewhere else.
 ---
 
 ## Convention D-12: draft prose is never written through a shell heredoc

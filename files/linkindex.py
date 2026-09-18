@@ -21,8 +21,9 @@ any rebuild, because a rebuilt page comes out of the build script without them.
 import os
 import re
 import sys
+import dkpaths
 
-DIR = os.environ.get("DK_CHAPTERS", os.getcwd())
+DIR = dkpaths.resolve("DK_CHAPTERS", os.getcwd(), "the folder holding the chapter pages")
 INDEX = os.environ.get("DK_INDEX", "danish-history-index.html")
 
 # The crumb's own styling: band colour, semibold, as `.crumb-in b` already uses.

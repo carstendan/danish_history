@@ -20,8 +20,9 @@ import re
 import sys
 
 from pagewords import pagewords, textwords
+import dkpaths
 
-DIR = os.environ.get("DK_CHAPTERS", os.getcwd())
+DIR = dkpaths.resolve("DK_CHAPTERS", os.getcwd(), "the folder holding the chapter pages")
 WPM = 210
 TOTAL_PLANNED = 44
 DENSE = {42}

@@ -8,11 +8,12 @@ import glob
 import html as H
 import os
 import re
+import dkpaths
 
 # Chapter pages are discovered on disk rather than hard-coded, so a chapter gets
 # a working link the moment it is built and never a broken one before that. Point
 # this at wherever the built pages live.
-CHAPTER_DIR = os.environ.get("DK_CHAPTERS", "/mnt/user-data/outputs")
+CHAPTER_DIR = dkpaths.resolve("DK_CHAPTERS", "/mnt/user-data/outputs", "the folder holding the chapter pages")
 
 
 def built_chapters(d=CHAPTER_DIR):
@@ -735,7 +736,7 @@ DOC = f'''<!DOCTYPE html>
 # discovering the chapters use the same folder unless deliberately separated.
 # Override with DK_OUT. Hardcoding the container path here was the counterpart of
 # the CHAPTER_DIR default, and failed the same way when run anywhere else.
-OUT_DIR = os.environ.get("DK_OUT", CHAPTER_DIR)
+OUT_DIR = dkpaths.resolve("DK_OUT", CHAPTER_DIR, "where the index is written")
 _out = os.path.join(OUT_DIR, "danish-history-index.html")
 open(_out, "w", encoding="utf-8").write(DOC)
 print("wrote %s" % _out)
