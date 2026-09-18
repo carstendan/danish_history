@@ -1029,7 +1029,41 @@ def load():
 
 
 def chapter(src, n):
-    """(prose, apparatus) for chapter n."""
+    """(prose, apparatus) for chapter n.
+
+    A CONTINUATION SEGMENT'S PREAMBLE IS NOT PROSE. PART_G_DRAFT.md is several
+    per-chapter files concatenated, and a chapter written in two sittings appears
+    as two `# Chapter NN` segments. Joining them kept the second one's preamble -
+    the `<!-- ===== cNN_draft_04-09.md ===== -->` marker the concatenation left
+    behind, the repeated `# Chapter NN —` line, its `*Draft, sections 04-09 of
+    09.*` header and any placement note under it.
+
+    Nothing downstream removed it. `sections()` splits on `##`, so a preamble
+    sitting between the previous segment's last `##` and the next one belongs, as
+    far as the splitter is concerned, to the section that was already open. It
+    shipped: chapter 25 §03 carries a draft-file header and a placement note
+    mid-narrative on the live page, and chapter 26 §05 the same, both between two
+    paragraphs of the book's own prose. HANDOFF item 102 recorded this in the
+    chapter 39 session and it was never traced to the line that causes it.
+
+    So a continuation segment starts at its first `##`. The FIRST segment needs
+    no such treatment - everything before the first `##` was already outside
+    every section and was never emitted.
+
+    The concatenation markers themselves are dropped wherever they fall, not only
+    in a preamble: one lands at the END of a chapter's last segment, ahead of the
+    next `# Chapter` line, which is how chapters 25, 26, 27, 29, 30 and 31 each
+    carry one in their final section too. A marker is a comment naming a file on
+    disk. It is never prose, in any position.
+
+    Author notes are a different thing and are deliberately not swept up here:
+    `draftnotes.py` must go on refusing a draft that still contains them, so they
+    are resolved rather than quietly dropped. Removing the markers is what lets
+    that refusal mean something - of the 28 notes it reported in this file, 14
+    were these markers, and a guard whose output is half artefact is one nobody
+    reads to the end.
+    """
+    src = re.sub(r'^[ \t]*<!--\s*=+\s*c\d\d_draft[^\n]*-->[ \t]*\n?', '', src, flags=re.M)
     ms = [m for m in re.finditer(r'^# Chapter (\d+)(.*)$', src, re.M)]
     body = app = None
     for i, m in enumerate(ms):
@@ -1039,8 +1073,26 @@ def chapter(src, n):
         seg = src[m.start():end]
         if 'apparatus' in m.group(2):
             app = seg
+        elif body is None:
+            body = seg
         else:
-            body = (body or "") + seg
+            first = re.search(r'^## ', seg, re.M)
+            preamble = seg[:first.start()] if first else seg
+            # REFUSE RATHER THAN DISCARD. The preamble is structural and is
+            # dropped - but chapter 25's carried a real placement note, and
+            # dropping that silently would be the very fault this function is
+            # being fixed for. Anything in it that reads as an author note stops
+            # the build instead.
+            notes = draftnotes.find(preamble)
+            if notes:
+                raise SystemExit(
+                    "!! chapter %d: the continuation segment's preamble carries %d "
+                    "author note(s). The preamble is not emitted, so these would be "
+                    "dropped rather than shipped. Resolve each and delete it from the "
+                    "preamble, or move it into the prose:\n%s"
+                    % (n, len(notes),
+                       "\n".join("   - %s%s..." % (m, c[:60]) for m, c in notes)))
+            body += seg[first.start():] if first else ''
     return body, app
 
 

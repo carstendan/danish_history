@@ -118,8 +118,11 @@ mid-paragraph, in §03, §07 (twice) and §09. A reader meets:
 
 and, in §09, *"the sources conflict on which way the vote fell… **Resolve before
 build**."* The guard that catches this exists and works; the chapter was built
-before it did. **This is the most visible fault in the book and it is one
-chapter.** It needs your decision, not mine — see §5.
+before it did.
+
+**I then wrote that this was "the most visible fault in the book and it is one
+chapter". That was wrong — see §8.** It is at least four chapters, and the other
+three are worse.
 
 **3.2 Chapter 45 has an empty `<ul class="calls">`.** "WHERE THIS GOES / What to
 carry forward" renders as a heading with nothing under it. The draft has no
@@ -360,3 +363,83 @@ matches a mechanical artefact of how the file is assembled, and the Sources
 sentence is in the place the tool itself recommends. But it is your guard, it was
 written after a real escape, and loosening it is not a change I will make on my
 own. Say the word and Part G rebuilds with all seven myth-checks on the page.
+
+---
+
+## 8. The third correction, and it is the same mistake as the first two
+
+**Chapter 32 was not the only chapter with author notes on the page.** Part G
+pages carry worse ones, mid-narrative, between two paragraphs of the book's own
+prose:
+
+- **Chapter 25 §03**, after "They had been fetched to speak, and were not asked
+  to write.": `<!-- ===== c25_draft_04-09.md ===== --> # Chapter 25 — The kingdom
+  made hereditary, 1660–1670 Draft, sections 04–09 of 09. Placement note: the
+  Nansen vignette belongs in §03, after the 8 October paragraph; it is set out
+  first below. The Amager vignette sits in §06…`
+- **Chapter 26 §05**, after "Griffenfeld had told them so, from a cell.": the
+  same shape — marker, repeated title, "Draft, sections 06–10 of 10."
+- **Chapter 27 §07**: "Style note: Denmark had been on the Gregorian calendar
+  since 1 March 1700… Under D-6 the series gives the Gregorian." An internal
+  decision number, in the narrative.
+- And a stray marker in the last section of 25, 26, 27, 29, 30 and 31.
+
+**How I missed it.** I swept the pages for the literal string `Drafting flag` and
+for leaked markdown, and reported what those two sweeps found. I did not run
+`draftnotes.py` against the built pages — the project's own tool for exactly this
+question, listed in the START_HERE cold run, whose docstring describes finding "a
+whole draft-file header inside chapter 25's section 03". I quoted HANDOFF item
+102 in `appcheck.py`'s own docstring while writing `it is one chapter` in this
+document.
+
+That is three times in one session: I built a bespoke check and skipped the tool
+that already existed. §7.1 (chapter 27's apparatus, found by not opening the file
+`mkbody.py` names as its default) and §7.2 (running the second build stage after
+reading the instruction that names the first) are the same error.
+
+**The cause, and it is one line.** `chapter()` concatenates a chapter written in
+two sittings from two `# Chapter NN` segments. `sections()` splits on `##`, so
+the second segment's preamble — marker, repeated `# Chapter` line, `*Draft,
+sections 04–09 of 09.*`, placement note — belongs to whichever section was open
+when it arrived, which is why chapter 25's lands in §03 rather than anywhere it
+would have been noticed.
+
+**Fixed, three ways, and the third matters most:**
+
+1. A continuation segment now starts at its first `##`. The preamble is
+   structural and is not emitted.
+2. The `<!-- ===== cNN_draft…md ===== -->` markers are dropped wherever they
+   fall, including the one at the end of a chapter's last segment. A marker names
+   a file on disk; it is not prose in any position.
+3. **A preamble containing anything `draftnotes.py` recognises REFUSES the
+   build.** Chapter 25's placement note is real authored text, and dropping it
+   silently would be precisely the fault the rest of this document is about.
+   `mkbody.py 25` now stops and prints it.
+
+**What this does to the Part G decision — and it retracts my recommendation in
+§7.3.** I said `draftnotes.py` should stop matching its own concatenation
+markers. That was wrong, and wrong for a reason worth keeping: the markers were
+not merely noise in the draft, they were **on the pages**. The guard was right to
+refuse; loosening it would have let them ship again. Fixing the builder, not the
+guard, was the correct move, and it leaves the refusals honest:
+
+| chapter | what still refuses |
+|---|---|
+| 25 | the placement note (now surfaced, was silently dropped) |
+| 26 | "needs settling" · the Sources caveat |
+| 27 | the Gregorian "Style note:" · the Sources caveat |
+| 28, 29 | the Sources caveat |
+| 30 | "should be checked" on the Breffu vignette · the Sources caveat |
+| 31 | "before this ships" ×1 · the Sources caveat ×2 |
+
+Four genuine author notes to resolve — 25's placement note, 26's, 27's, 30's, and
+31's — and then one question that is properly yours: **the standing sentence
+"need checking against the works themselves before publication" appears in the
+Sources block of all seven Part G chapters.** It is a caveat addressed to the
+reader, sitting in the place `freshcheck.py` itself recommends, and it is refused
+anyway. Either the pattern should not match inside the Sources block, or the
+sentence should be reworded as I reworded chapter 32's. Your call; it is the last
+thing between Part G and a rebuild.
+
+Regression: regenerating all fourteen Part H and I bodies with this change
+produces files byte-identical to the ones you just built and pushed.
