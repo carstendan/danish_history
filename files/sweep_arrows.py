@@ -113,7 +113,9 @@ def main():
     for p in pages:
         calls = p.calls()
         if calls is None:
-            rows["empty"].append((p.n, "no carry-forward block at all"))
+            if p.n != max(P):
+                rows["empty"].append((p.n, "no carry-forward block at all"))
+            # the last chapter leaves an empty carry-forward out by design (D-C)
             continue
         if not calls:
             rows["empty"].append((p.n, "heading over an empty list"))

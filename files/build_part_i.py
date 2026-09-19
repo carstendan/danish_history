@@ -62,6 +62,12 @@ TAIL = [("myth", "", "Myth-check"), ("forward", "", "What to carry forward"),
         ("summary", "", "The page in five"), ("questions", "", "Questions &amp; discussion"),
         ("sources", "", "Sources"), ("visit", "", "Places you can visit")]
 
+def tail_of(c):
+    """The terminal units this chapter has: all of TAIL, less the carry-forward
+    for a chapter that declares no_forward (decision D-C)."""
+    return [t for t in TAIL if not (t[0] == 'forward' and c.get('no_forward'))]
+
+
 STUB = ('<svg viewBox="0 0 700 120" xmlns="http://www.w3.org/2000/svg" role="img" '
         'aria-label="Placeholder: this figure has not been drawn yet.">'
         '<rect x="1" y="1" width="698" height="118" fill="none" stroke="#2F4C7A" '
@@ -344,6 +350,7 @@ CFG = {
     ]),
  45: dict(
     name='45-choosing-a-side-and-the-constitution.html',
+    no_forward=True,      # the last page: nothing to carry forward (decision D-C)
     body='c45_body.html',
     svgs={'SVG_LANDSTING': 'svg_landsting_1953.txt',
           'SVG_GULV': 'svg_gulv_1953.txt',
@@ -408,8 +415,12 @@ def build(n, c, stub):
     rail = ['<nav class="rail" aria-label="Sections of this page">'
             '<p class="rail-h">On this page</p><ol>']
     toc = ['<details class="toc"><summary>Contents</summary><ol>']
+    has_fwd = '<h2 id="forward"' in h
+    if has_fwd == bool(c.get('no_forward')):
+        raise SystemExit("!! chapter %s: no_forward=%s in CFG but the body %s a carry-forward"
+                         % (n, bool(c.get('no_forward')), 'has' if has_fwd else 'lacks'))
     for sid, num, lab in ([("intro", "", "Introduction")] + c['sec']
-                          + TAIL + c.get('tail_extra', [])):
+                          + tail_of(c) + c.get('tail_extra', [])):
         rail.append('<li><a href="#%s"><span class="rn">%s</span>%s</a></li>' % (sid, num, lab))
         toc.append('<li><a href="#%s">%s</a></li>' % (sid, lab))
     rail.append('</ol></nav>')
@@ -466,7 +477,7 @@ if __name__ == "__main__":
         rail = re.search(r'<nav class="rail".*?</nav>', h, re.S).group(0)
         toc = re.search(r'<details class="toc">.*?</details>', h, re.S).group(0)
         tail_ok = all(('#%s' % t[0]) in rail and ('#%s' % t[0]) in toc
-                      for t in TAIL + c.get('tail_extra', []))
+                      for t in tail_of(c) + c.get('tail_extra', []))
         print("\nchapter %s  %s" % (n, c['name']))
         print("  braces %d | placeholders %d | anchors %s | tags %s"
               % (css.count('{') - css.count('}'), h.count('{{'),

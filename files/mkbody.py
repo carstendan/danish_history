@@ -1565,11 +1565,21 @@ def build(n):
         if sid in mw_at:
             o += [mw[mw_at[sid]], '']
 
-    o += ['<hr class="div">', '', myth_html(app), '',
-          '<p class="kicker">Threads and links</p>',
-          '<h2 id="forward" style="margin-top:0"><span class="n">WHERE THIS GOES</span>'
-          'What to carry forward</h2>', calls_html(app), '',
-          '<p class="kicker">Summary</p>',
+    o += ['<hr class="div">', '', myth_html(app), '']
+    # AN EMPTY CARRY-FORWARD IS LEFT OUT, NOT PRINTED EMPTY (decision D-C, 19 Sept
+    # 2026). Chapter 45 is the last page and has nothing to carry forward; it
+    # shipped a heading over an empty list. The build script must agree: a chapter
+    # whose body has no carry-forward declares no_forward=True in its CFG, and
+    # build_part_i.py refuses a page where the declaration and the body disagree,
+    # so a list lost by accident cannot pass as a list left out on purpose.
+    calls = calls_html(app)
+    if '<li>' in calls:
+        o += ['<p class="kicker">Threads and links</p>',
+              '<h2 id="forward" style="margin-top:0"><span class="n">WHERE THIS GOES</span>'
+              'What to carry forward</h2>', calls, '']
+    else:
+        print("  carry-forward: no arrows in the draft; heading left out")
+    o += ['<p class="kicker">Summary</p>',
           '<h2 id="summary" style="margin-top:0"><span class="n">IF YOU REMEMBER FIVE THINGS'
           '</span>The page in five</h2>']
     fh, nfive = five_html(app)
