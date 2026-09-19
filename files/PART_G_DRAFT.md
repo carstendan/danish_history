@@ -1779,15 +1779,11 @@ Slesvig's remaining estates followed later.
 
 ## Frederiksborg, 1720 — the Sound kept, Skåne not
 
-The peace was signed at Frederiksborg on 14 July 1720 — 3 July by the Julian
-reckoning Sweden still kept, which is how the treaty is almost always cited — and
-ratified later that month.
-
-*Style note: Denmark had been on the Gregorian calendar since 1 March 1700 and
-Sweden had reverted to the Julian in 1712, so a Dano-Swedish instrument of 1720
-carries two dates. Under D-6 the series gives the Gregorian. The ratification,
-recorded as 23 July, has not been checked for style and may be Julian; if it is,
-it is 3 August.*
+The peace was signed at Frederiksborg in the summer of 1720 and ratified within
+weeks. It is cited as 3 July, and the Treaty of Kiel names it by that date in
+1814. One Danish source edition prints the subscript as 3 June and calls the July
+date a misprint, which may be a confusion with the preliminary peace signed at
+Stockholm on 3 June.
 
 What it settled is not in doubt. Denmark kept the Gottorp share of Slesvig under
 guarantee. Denmark got no part of Skåne, Halland or Blekinge, and formally

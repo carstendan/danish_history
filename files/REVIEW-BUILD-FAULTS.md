@@ -530,3 +530,22 @@ refusals drop to one — chapter 27's calendar note — and a trial rebuild of P
 puts all six other myth-checks on the page (159–283 words each), removes every
 concatenation marker and draft header, and gives chapter 29's Struensee vignette
 its whole title. Chapter 27 stays as it is until 9.6 is settled.
+
+**9.8 Chapter 27, settled — and 9.6 overstated the case.** When I raised the
+Frederiksborg date I had read danmarkshistorien's footnote and not the chapter's
+own Sources block, which cites the Treaty of Kiel of 14 January 1814: its article
+27 "names the earlier Dano-Swedish instruments by date and distinguishes
+Stockholm of 3 June 1720 from Frederiksborg of 3 July". A treaty text naming
+Frederiksborg as 3 July is stronger evidence than an editor's footnote, and the
+Stockholm preliminaries of 3 June are a plausible source of the June reading.
+9.6 presented the two as evenly matched. They are not.
+
+What is still not settled is what the chapter originally asserted: that 3 July is
+the *Julian* date and 14 July the Gregorian. Kiel is a Danish instrument of 1814
+and would give the Gregorian, which suggests 3 July is Gregorian and the "14 July"
+came from the English-language reference works. The rewritten opening of §07 no
+longer asserts either: signed in the summer of 1720, ratified within weeks, cited
+as 3 July and named so at Kiel, printed once as 3 June, possibly by confusion with
+Stockholm. The Style note is gone and chapter 27 builds: 214 words of myth-check,
+no markers, no rule, no notes. The Tordenskjold passages' "four months after the
+war ends" holds on the 3 July reading and is unchanged.
