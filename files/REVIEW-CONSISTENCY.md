@@ -611,3 +611,210 @@ the reading is disputed; 42's Sources listing 43's open questions.
 
 **Book after the session:** 45 of 45, **336,690 page words**, 26.7 h; Part I
 74,233. The fall from 336,857 is I-1 and I-3.
+
+**All three closed in session 3** — §7.3.
+
+---
+
+## 7. Session 3 — chapters 01–15 unblocked, and Part A read
+
+*19 September 2026, from `START_HERE_review_3.md`. Cold run on a fresh clone of
+`6aed653`: every figure as expected. Four commits: the recovery alone, then the A–D
+fixes, then the Part I items, then Part A.*
+
+### 7.1 The recovery (D-A)
+
+`debuild.py extract` for 01–15 gave fifteen bodies, now `c01`–`c15_body.html`,
+**authored source from here on**, as 16–24 are. Four things the recovery found on
+the way, none of them in the plan:
+
+- **`build_parts_abc.py` already existed.** START_HERE asked for A–C build scripts
+  to be written; there was one, with every section list already matching the pages.
+  It could not run for the reason HANDOFF open item 4 gives: it replaced a `--part`
+  token that `style.css` had renamed `--band`, and so did `build_part_d.py`. Both
+  now refuse on a missing token, as `build_part_e.py` does. Open items 3 and 4 close.
+- **Page 14 has three figures; `build_part_d.py` knew two.** The Skåne herring
+  market diagram is now `svg_herring.txt`: eleven SVGs written out, not ten.
+  `svg_plague.txt` already matched page 15 byte for byte.
+- **Chapter 14's config listed an eleventh section**, "What it was actually for",
+  that the page has never had. Both builders now refuse a config whose section ids
+  disagree with the body.
+- **Chapter 12's third checkpoint had been corrected on the page and never in
+  the script** — an artifact-only edit, the class HANDOFF has closed four of before.
+  The page's wording is kept.
+
+The rebuilt pages differ from what shipped in two places only: the stylesheet
+(current `style.css`; it renders the same, except that 01–11's "← Index" crumb
+now gets its part colour, which `var(--band)` could not give a page that defined
+`--part`) and the "about N minutes" stamp, recomputed by `pagewords` and one or two
+minutes lower. **debuild: 45 identical.** Verified again by applying the commit
+to a fresh clone and rebuilding: byte-identical to the working tree.
+
+`vignettes.py` reads bodies, so it saw 01–15 for the first time: 109 vignettes
+with a place, 79 distinct (was 89/61). `figcheck` 98 match, 30 sourceless (was
+87/41): the eleven Part D figures now have sources.
+
+### 7.2 The A–D findings
+
+All fifteen fixed; the state columns in §1.4, §2.1, §4.2 and §4.5 say how, and
+§4.3 lists the D-1 re-pointings. Three things beyond the list:
+
+- **07's Golden Horns arrow was insolvent at any number.** Chapter 32 names
+  Oehlenschläger once, at the head of a list, and never the horns. Arrow and
+  prose now promise only that the Golden Age is Part H's subject.
+- **07 and 08 both called 1864 "chapter 33"** inside Thread notes, where the
+  arrow sweep does not look. It is 34; both now say Part H.
+- **Pages 18, 19 and 20 carried "17 ·", "18 ·", "19 ·" in `<title>`** since the
+  August renumbering. `sweep_arrows.py` check 9 stripped the number before
+  comparing; check 9b now compares it, and reports three on the old tree, none now.
+
+`14 → 20, Part F, Part G` and `4 → Part E, Part G` are combinations of the seventh
+and eighth forms in CONVENTIONS' conflict 3; the sweep parses both.
+
+### 7.3 The three Part I items — closed
+
+- **38 §06, Sønderborg: two votes, not ten.** *Statistiske Efterretninger* 1920
+  nr. 23 is the constitutional referendum of 6 September 1920 (item 104 found
+  this; START_HERE_review_3 and 38's Sources had not caught up). The town totals,
+  2,029 and 2,601, are confirmed again. The 349/919 outvoter split is Sønderborg
+  Lokalhistoriske Arkiv's booklet on the vote, which prints the Danish total as
+  2,021 — whence 1,672 — while its own district table sums to 2,029. 1,680 to
+  1,682. Its German column also sums 200 over the confirmed 2,601; the 919 is on
+  its district-6 row, in its text, and fits its "tilrejsende i alt 28%". All of this
+  is now in 38's Sources.
+- **38 §06, Tønder** is still two returns, 761 of 3,265 and 750 of 3,198. The prose
+  no longer prints one as fact: it gives both and what they agree on.
+- **38 §04's Ribe clause** now quotes 1460's words, says the meaning is disputed
+  and that chapter 19 leaves it open, and keeps its argument.
+- **42's Sources:** three of its eight open questions were 43's (the July 1944
+  return to work and the final proclamation, the Malthe-Bruun "Niels", the railway
+  column). They are in 43's Sources now; 42 keeps its own four.
+
+### 7.4 Part A, read — errors of fact, fixed
+
+Each checked against a source before it was changed; the sources are in the
+research note behind item 141, and an agent that had not seen the work checked
+every hunk afterwards (§7.8).
+
+| ch | the page said | it is | ground |
+|---|---|---|---|
+| 01 §03 | the Hamburg culture "is named for the Ahrensburg tunnel valley"; glossary "named after Meiendorf" | named after finds at Hamburg; Meiendorf and Stellmoor are its type sites in that valley | the Ahrensburg culture is the one named for the valley |
+| 01 §04 | flint mines "in four thousand years" | eight thousand | Hov is Early Neolithic (Trap: 3950–3301 BCE); Jels c. 12,100 |
+| 01 §05 | "Denmark's first contribution to world science" was the Bølling/Allerød chronology | "a fitting Danish contribution" | Tycho, Steno, Rømer and Ørsted all came first |
+| 01 §06 | radiocarbon and calendar years "differ by thousands of years"; 13,008 BP is "fifteen thousand years old" | nearly two thousand; thirteen thousand | the page's own Trollesgave figures |
+| 01 §06–08, myth | Laacher See "a century and a half" before the Younger Dryas (four places); the cold at 10,900 BCE | about two hundred years; 10,850 | Reinig et al. 2021: 13,006 and 12,807 BP. **Figure 3 still draws the old gap** (§7.6) |
+| 01 §10 | "Four thousand years separate" Slotseng from the last Ahrensburg camps, "the distance to Stonehenge", "a hundred and sixty generations" | about two and a half thousand; the distance to Plato; about a hundred | c. 12,100 to c. 9,700 BCE |
+| 01 §03 | the Slotseng box sat on a shelf "for thirty years"; Danes had hoped for a Hamburg site "for half a century" | more than twenty; more than thirty | collected 1962, shown to Holm 1985; Rust dug in the 1930s, Fynbo's find 1968 |
+| 01 §10 | the herd came "in the second half of October" | in late autumn | §03's own season, mid-October to early December |
+| 02 header | five thousand years is "an eighth of the whole span" | a third | 5,050 of 14,950 years |
+| 02 §02 | Hammelev gives "the first identifiable Dane", said of Åmosen | the oldest grave, which is elsewhere | chapter 1's myth-check rejects "the first Danes"; Hammelev is in Jutland |
+| 02 §03 | "the next ten thousand years of Danish history" | eight thousand | from c. 6,500 BCE |
+| 02 §07 | dogs "ten thousand years before" livestock | four thousand | §02 says four; Maglemose to 3,950 BCE |
+| 02 §07 | amber is "found in quantity nowhere else in northern Europe" | only on these shores and the eastern Baltic's | Sambia |
+| 02 §08 | "In 1850 the government appointed a commission"; Mejlgård in 1851; "three professors" | 1848, the Royal Danish Academy; 1850–51; three scholars | DBL on Steenstrup and Worsaae; Worsaae was titular professor from 1854 |
+| 02 §09 | Lola's genome was "the oldest yet recovered in Denmark"; her meal included eel | neither | Allentoft 2024 includes Koelbjerg, c. 8,500 BCE; the study found mallard and hazelnut |
+| 02 §06 | "an infant who never drew breath" | who may never have | the same page: "born or unborn" |
+| 03 intro, fig. 3 | the ice line becomes a frontier "three thousand years later" | seventeen thousand | c. 20,000 BCE to c. 2,850 |
+| 03 fig. 1 | Funnel Beaker and Single Grave overlapped "perhaps fifty years" | fifty in west Jutland, a couple of centuries on the islands | §09 and §11 of the same page |
+| 03 §04 | Barkær "dug in the 1930s" | 1931–49; the village reading is the late 1940s' | lex.dk |
+| 03 §05 | about 1,800 twelfth-century churches | more than two thousand, after 1100 | chapter 12 |
+| 03 §05 | Bronze Age burials "a thousand years" after, Viking "three thousand" | more than a thousand; four thousand | the myth-check says four |
+| 03 §07, §10, Meanwhile | copper first appears "at the very end of the Funnel Beaker period"; imported "for eight hundred years"; Denmark "only just beginning to import" it in Ötzi's day | it came with the first farmers, c. 4,000 BCE; imports all but stopped c. 3,300–2,350 | Gebauer et al., PLOS ONE 2023; the Lønt crucible |
+| 03 §10 | "heirs to five thousand years" of flint working | ten thousand | c. 12,100 to c. 2,000 BCE |
+| 03 Meanwhile | the first Danish written word "more than four thousand years away" | some three and a half thousand | Vimose, c. 160 CE — chapter 6 |
+| 03 §11 | Indo-European, "the ancestor of the language this page is *not* written in" | is written in | English is Indo-European |
+| 03 Sources | Allentoft 2024 is "the backbone of sections 02, 07 and 11" | 02, 04, 08 and 11 | section numbers from an older order |
+
+### 7.5 Part A — repetition and drag, fixed
+
+Each cut removes something the reader has just read, and says so (D-16).
+
+- **02 §10 said its violence paragraph twice** — the triple grave, Skateholm and the
+  bone point, in two consecutive paragraphs. Merged into one.
+- **02 §07 repeated §04 and §05**: the Værebro Å axe-haft, the daggers and the
+  paddles, "none of this is necessary"; then §06's ochre, "heaviest around the
+  head", and the colour of blood. The decoration paragraph is gone; the ochre keeps
+  what is new (the clothing, and the religious reading).
+- **03 §08 had the Yersinia sentence twice**, end of one paragraph and start of the
+  next. Merged.
+- **03 §12 gave the 2,500 surviving tombs twice** in adjacent paragraphs, and "the
+  Vikings of chapter 10 sometimes buried their own dead in them" for the third time
+  on the page (§05 and the myth-check also have it) — and the only D-1 prose break
+  left in the book. Both gone.
+- **03 §05 described the rollers, levers and ramps twice** in adjacent paragraphs.
+  The first is trimmed to the scale.
+- **01 §03**: the body restated the schoolteacher vignette's half-century wait and
+  pre-empted the 21 May 2001 vignette's vertebra. Trimmed from the body; the
+  shoulder blade moved into the vignette.
+- **03 §07's "Instead they were given away"** followed a paragraph about axes
+  being traded — a mines paragraph had been inserted between it and "never used".
+  Now "Many of the finest were given away".
+- **"chapter 01"** twice (02 §02, 03 §05), padded; now "chapter 1".
+- **02's Recall asked about "the double grave at Bøgebakken"**; the page's double
+  grave is Gøngehusvej. Now asks about Gøngehusvej, which also stops it duplicating
+  the checkpoint.
+- **Who-lines**: five had two fields where `vignettes.py` expects three. Separated.
+
+### 7.6 Found, recorded, not changed
+
+- **01 Figure 3 draws the Younger Dryas at c. 10,900 BCE**, a 150-year gap after
+  Laacher See where the prose now says two hundred. It is an inline SVG with no
+  generator, and its caption says the boundaries "carry real uncertainty".
+  Hand-editing typed coordinates is what "compute, never type" forbids; if a figure
+  script is ever written for Part A, draw it from Reinig 2021.
+- **01 §04 names Trollesgave and the Bromme culture three sections before §07
+  introduces them.** Order, not error.
+- **03's *kulthus* is glossed in §05 and used only in §06's vignette.**
+- **Recall questions that repeat the checkpoints** run through the whole book (3 of
+  5 in 01, 5 of 5 in 07, none in 26–32): a pattern through A–F that stops in Part G,
+  which reads like deliberate spaced repetition. Not a Part A fault. Chapter 07's 5 of 5 is for the Part B reading.
+- **01's Dansgaard "at the Niels Bohr Institute"** is the institution's present name,
+  not his. **01's "A 2025 study … 13,008 ± 8"** could not be opened to check.
+  **Hammelev's "young woman"**: Trap Danmark says young, ZBSA "adult, presumably
+  female". **01's Lascaux "about four thousand years old"** at Jels depends on which
+  Lascaux date is used (three to five thousand).
+
+### 7.7 D-15 and D-13 in Part A
+
+**D-15: nothing to change.** Part A names no Schleswig and no Skåne town; its
+places are Jutland, Zealand, Funen, Skåne as a region, Aarhus and the rest in the
+forms D-15 prescribes. "Schleswig-Holstein" in 01 §08 is the modern German state.
+
+**D-13: no case.** Every vignette in 01–03 sits in a section named for a process.
+The nearest is **02 §06, *Vedbæk: people we can look at***, named for the place
+its vignette is set: but the vignette is the finding of the cemetery in 1975 and
+the body is the graves, so nothing is restated. Kept as it is.
+
+### 7.8 Checked by a separate agent
+
+An agent that had not seen the work checked every hunk of the Part A and Part I
+diffs against sources and against the rest of the book. It confirmed the facts in
+§7.4 and found eleven slips, ten in my own edits: the "shoulder blade" left in 01
+§10 after §03 was changed; the Rome comparison (2,780 years against 2,400); 02's
+glossary still saying "government-appointed"; "three professors"; an ambiguous
+"the first person"; 03's new overlap clashing with its own glossary dates; "began
+to make its own" when local copper-working existed before 3,300 BCE; "the twelfth
+century" against chapter 12's "after 1100 … more than two thousand"; 43's "the
+railway column" when the tonnages are also unsettled; 38's "last digits" for a
+67-vote gap. All corrected. The eleventh is 01 Figure 3 (§7.6).
+
+### 7.9 A decision for Carsten — R-1
+
+**R-1. D-9 and L9a in the prehistoric chapters.** Part A has never been tagged.
+D-9 says tag a part when it is next touched, and every chapter must carry an `[f]`
+and an `[n]`. L9a says the who-line names a person or says on the page why it
+cannot. In 01–03:
+
+- **01 has no woman anywhere in its evidence** — not a single human bone survives
+  from its four thousand years. Its two vignettes are the modern finders, both men.
+- **03's three vignettes are Iversen, a building and a stone cist.** No woman.
+- **Four who-lines name a thing**: Tybrind Vig 1, the Bøgebakken cemetery, the
+  Tustrup kulthus, the Gjerrild cist. None says on the page why it cannot name a
+  person, because in prehistory the reason is the period.
+
+*Recommendation:* **tag Part A now, and record in CONVENTIONS that in a chapter
+whose evidence names no one, the `[f]` requirement is met by the part, not by the
+chapter, and a who-line may name the find.** Part A would then carry its `[f]` in
+02 (Lola; the young mother at Bøgebakken is in the body, not a vignette). The
+alternative is a new vignette in 01 and 03 built round a woman — in 01 it could
+only be a modern archaeologist, which would be a vignette written for its tag.

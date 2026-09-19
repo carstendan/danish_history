@@ -203,7 +203,8 @@ vignette, which repeats the section's sourcing paragraph.
 **Agreed** by Carsten, 19 September 2026 (review session 2, decision D-D). The
 seven cases are decided under it as each part's review reaches them: 42 §03 with
 Part I; 22 §08 with Part F; 26 §09, 27 §05, 27 §09 and 29 §03 with Part G; 35 §03
-with Part H.
+with Part H. **Part A, read in review session 3: no case** (`REVIEW-CONSISTENCY.md`
+§7.7; 02 §06 is named for its vignette's place but restates nothing, and is kept).
 
 **Checked by.** Reading. `REVIEW-BUILD-FAULTS.md` §4's overlap measure is a way of
 choosing what to read, not a test — it scores healthy vignettes about the same
@@ -248,7 +249,8 @@ Danish form: *Slesvigsk Parti* (not "Slesvig Party"), *Flensborg Avis*.
 **Applied** to Part I on the day it was agreed: 37, 38, 44 and 45 in prose, 39's
 "Slesvig Party", and three figures — `figs_38` (map labels Flensburg, Schleswig),
 `figs_39` (Slesvigsk Parti), `figs_43` (South Schleswig, and a stale "section 07"
-that is §06). Every other part takes it in its own reading pass. Maps (`map_*.py`)
+that is §06). Every other part takes it in its own reading pass. **Part A, review
+session 3: read, and nothing needed changing.** Maps (`map_*.py`)
 label in Danish throughout and are left for a decision of their own when Part A–D
 maps are next touched.
 
