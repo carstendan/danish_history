@@ -1,0 +1,68 @@
+<svg viewBox="0 0 900 468" role="img" aria-label="Timeline of Danish reigns from 1047 to 1157. Sweyn Estridsen is followed by five of his sons ruling one after another to 1134, then by twenty-six years of overlapping and disputed reigns ending at Grathe Hede in 1157. Six of the eleven rulers shown died violently.">
+  <line x1="168.0" y1="104.0" x2="686.0" y2="104.0" stroke="#9CA294" stroke-width="1"/>
+  <line x1="190.5" y1="100.0" x2="190.5" y2="108.0" stroke="#9CA294" stroke-width="1"/>
+  <text x="190.5" y="94.0" class="mapt" text-anchor="middle">1050</text>
+  <line x1="190.5" y1="112.0" x2="190.5" y2="400.5" stroke="#C9CDC4" stroke-width=".8"/>
+  <line x1="303.1" y1="100.0" x2="303.1" y2="108.0" stroke="#9CA294" stroke-width="1"/>
+  <text x="303.1" y="94.0" class="mapt" text-anchor="middle">1075</text>
+  <line x1="303.1" y1="112.0" x2="303.1" y2="400.5" stroke="#C9CDC4" stroke-width=".8"/>
+  <line x1="415.7" y1="100.0" x2="415.7" y2="108.0" stroke="#9CA294" stroke-width="1"/>
+  <text x="415.7" y="94.0" class="mapt" text-anchor="middle">1100</text>
+  <line x1="415.7" y1="112.0" x2="415.7" y2="400.5" stroke="#C9CDC4" stroke-width=".8"/>
+  <line x1="528.3" y1="100.0" x2="528.3" y2="108.0" stroke="#9CA294" stroke-width="1"/>
+  <text x="528.3" y="94.0" class="mapt" text-anchor="middle">1125</text>
+  <line x1="528.3" y1="112.0" x2="528.3" y2="400.5" stroke="#C9CDC4" stroke-width=".8"/>
+  <line x1="641.0" y1="100.0" x2="641.0" y2="108.0" stroke="#9CA294" stroke-width="1"/>
+  <text x="641.0" y="94.0" class="mapt" text-anchor="middle">1150</text>
+  <line x1="641.0" y1="112.0" x2="641.0" y2="400.5" stroke="#C9CDC4" stroke-width=".8"/>
+  <path d="M180.0 137.5 l7 0 l0 119.5 l-7 0" fill="none" stroke="#6C6E63" stroke-width="1.1" opacity=".75"/><text x="193.0" y="200.8" class="mapx" fill="#6C6E63">FIVE SONS IN TURN</text>
+  <path d="M180.0 265.0 l7 0 l0 119.5 l-7 0" fill="none" stroke="#8A2B2B" stroke-width="1.1" opacity=".75"/><text x="193.0" y="328.2" class="mapx" fill="#8A2B2B">TWENTY-SIX YEARS OF WAR</text>
+  <text x="156.0" y="130.0" class="mapl" text-anchor="end">Svend Estridsen</text>
+  <rect x="177.0" y="121.0" width="121.6" height="11" fill="#3E8474" fill-opacity=".38" stroke="#3E8474" stroke-width="1"/>
+  <text x="156.0" y="155.5" class="mapl" text-anchor="end">Harald Hen</text>
+  <rect x="298.6" y="146.5" width="27.0" height="11" fill="#3E8474" fill-opacity=".38" stroke="#3E8474" stroke-width="1"/>
+  <text x="156.0" y="181.0" class="mapl" text-anchor="end">Knud den Hellige</text>
+  <rect x="325.7" y="172.0" width="27.0" height="11" fill="#8A2B2B" fill-opacity=".30" stroke="#8A2B2B" stroke-width="1"/>
+  <path d="M348.2 177.0 l4.5 -5.5 l4.5 5.5 l-4.5 5.5 Z" fill="#8A2B2B"/>
+  <text x="363.7" y="181.0" class="mapx" fill="#8A2B2B">killed, Odense</text>
+  <text x="156.0" y="206.5" class="mapl" text-anchor="end">Oluf Hunger</text>
+  <rect x="352.7" y="197.5" width="40.5" height="11" fill="#3E8474" fill-opacity=".38" stroke="#3E8474" stroke-width="1"/>
+  <text x="156.0" y="232.0" class="mapl" text-anchor="end">Erik Ejegod</text>
+  <rect x="393.2" y="223.0" width="36.0" height="11" fill="#3E8474" fill-opacity=".38" stroke="#3E8474" stroke-width="1"/>
+  <text x="440.3" y="232.0" class="mapx" fill="#6C6E63">died on pilgrimage</text>
+  <text x="156.0" y="257.5" class="mapl" text-anchor="end">Niels</text>
+  <rect x="433.8" y="248.5" width="135.1" height="11" fill="#8A2B2B" fill-opacity=".30" stroke="#8A2B2B" stroke-width="1"/>
+  <path d="M564.4 253.5 l4.5 -5.5 l4.5 5.5 l-4.5 5.5 Z" fill="#8A2B2B"/>
+  <text x="579.9" y="257.5" class="mapx" fill="#8A2B2B">killed, Slesvig</text>
+  <text x="156.0" y="283.0" class="mapl" text-anchor="end">Erik Emune</text>
+  <rect x="568.9" y="274.0" width="13.5" height="11" fill="#8A2B2B" fill-opacity=".30" stroke="#8A2B2B" stroke-width="1"/>
+  <path d="M577.9 279.0 l4.5 -5.5 l4.5 5.5 l-4.5 5.5 Z" fill="#8A2B2B"/>
+  <text x="593.4" y="283.0" class="mapx" fill="#8A2B2B">killed at a thing</text>
+  <text x="156.0" y="308.5" class="mapl" text-anchor="end">Erik Lam</text>
+  <rect x="582.4" y="299.5" width="40.5" height="11" fill="#3E8474" fill-opacity=".38" stroke="#3E8474" stroke-width="1"/>
+  <text x="633.9" y="308.5" class="mapx" fill="#6C6E63">abdicated</text>
+  <text x="156.0" y="334.0" class="mapl" text-anchor="end">Svend Grathe</text>
+  <rect x="622.9" y="325.0" width="49.5" height="11" fill="#8A2B2B" fill-opacity=".30" stroke="#8A2B2B" stroke-width="1"/>
+  <path d="M668.0 330.0 l4.5 -5.5 l4.5 5.5 l-4.5 5.5 Z" fill="#8A2B2B"/>
+  <text x="683.5" y="334.0" class="mapx" fill="#8A2B2B">Grathe Hede</text>
+  <text x="156.0" y="359.5" class="mapl" text-anchor="end">Knud Magnussen</text>
+  <rect x="622.9" y="350.5" width="49.5" height="11" fill="#8A2B2B" fill-opacity=".30" stroke="#8A2B2B" stroke-width="1"/>
+  <path d="M668.0 355.5 l4.5 -5.5 l4.5 5.5 l-4.5 5.5 Z" fill="#8A2B2B"/>
+  <text x="683.5" y="359.5" class="mapx" fill="#8A2B2B">killed, Roskilde</text>
+  <text x="156.0" y="385.0" class="mapl" text-anchor="end">Valdemar</text>
+  <rect x="659.0" y="376.0" width="22.5" height="11" fill="#3E8474" fill-opacity=".38" stroke="#3E8474" stroke-width="1"/>
+  <path d="M681.5 375.5 l11 5.5 l-11 5.5 Z" fill="#3E8474" fill-opacity=".55"/>
+  <text x="692.5" y="385.0" class="mapx" fill="#6C6E63">sole 1157; to 1182</text>
+  <line x1="352.7" y1="112.0" x2="352.7" y2="412.5" stroke="#8A2B2B" stroke-width="1" stroke-dasharray="3 2" opacity=".8"/>
+  <text x="352.7" y="424.5" class="mapx" fill="#8A2B2B" text-anchor="middle">Knud murdered</text>
+  <line x1="429.3" y1="112.0" x2="429.3" y2="427.5" stroke="#8A2B2B" stroke-width="1" stroke-dasharray="3 2" opacity=".8"/>
+  <text x="429.3" y="439.5" class="mapx" fill="#8A2B2B" text-anchor="middle">Lund archbishopric</text>
+  <line x1="555.4" y1="112.0" x2="555.4" y2="412.5" stroke="#8A2B2B" stroke-width="1" stroke-dasharray="3 2" opacity=".8"/>
+  <text x="555.4" y="424.5" class="mapx" fill="#8A2B2B" text-anchor="middle">Knud Lavard killed</text>
+  <line x1="568.9" y1="112.0" x2="568.9" y2="427.5" stroke="#8A2B2B" stroke-width="1" stroke-dasharray="3 2" opacity=".8"/>
+  <text x="568.9" y="439.5" class="mapx" fill="#8A2B2B" text-anchor="middle">Fodevig</text>
+  <line x1="672.5" y1="112.0" x2="672.5" y2="427.5" stroke="#8A2B2B" stroke-width="1" stroke-dasharray="3 2" opacity=".8"/>
+  <text x="672.5" y="439.5" class="mapx" fill="#8A2B2B" text-anchor="middle">Grathe Hede</text>
+  <text x="18" y="34" style="font-family:'Iowan Old Style',Palatino,Georgia,serif;font-size:22px;fill:#221E18">One family, a hundred and ten years</text>
+  <text x="18" y="52" class="mapt">REIGNS FROM SVEND ESTRIDSEN TO GRATHE HEDE</text>
+</svg>

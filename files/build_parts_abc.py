@@ -407,6 +407,17 @@ def build(n, c):
         a = '<h2 id="%s">' % hit[0]
         h = h.replace(a, block(qs) + a, 1)
 
+    # the section list in the config must match the page, or the rail lies.
+    # After build_part_e.py, but on ids only: in these parts the rail label is a
+    # shortened form of the heading, so labels cannot be compared. Chapter 14's
+    # config carried an eleventh section the page has never had, and nothing
+    # here noticed.
+    want = [sid for sid, num, lab in c['sec']]
+    got = [sid for sid, t in heads]
+    if got != want:
+        raise SystemExit("!! chapter %s: config has sections %s, page has %s"
+                         % (n, want, got))
+
     rail = ['<nav class="rail" aria-label="Sections of this page">'
             '<p class="rail-h">On this page</p><ol>']
     toc = ['<details class="toc"><summary>Contents</summary><ol>']
@@ -417,10 +428,12 @@ def build(n, c):
     toc.append('</ol></details>')
 
     style = open(G + 'style.css', encoding='utf-8').read()
-    if '--part:#96591A;' not in style:
+    # Open item 4: the token was renamed --band in style.css and this replace
+    # silently no-oped. Now it refuses, as build_part_e.py does.
+    if '--band:#96591A;' not in style:
         raise SystemExit("!! part colour token missing from style.css")
-    h = h.replace('{{STYLE}}', style.replace('--part:#96591A;',
-                                             '--part:%s;' % PART_COLOUR[c['part']]))
+    h = h.replace('{{STYLE}}', style.replace('--band:#96591A;',
+                                             '--band:%s;' % PART_COLOUR[c['part']]))
     h = h.replace('{{RAIL}}', "\n".join(rail)).replace('{{TOC}}', "\n".join(toc))
     h = h.replace('{{JS}}', '<script>' + open(G + 'rail.js', encoding='utf-8').read() + '</script>')
 
@@ -458,7 +471,7 @@ for n in sorted(CFG):
              h.count('<figure>'), h.count('class="terms"')))
     print("  part %s %s | vocabulary %s | words %d (~%d min)"
           % (c['part'],
-             'ok' if '--part:%s;' % PART_COLOUR[c['part']] in h else 'BAD',
+             'ok' if '--band:%s;' % PART_COLOUR[c['part']] in h else 'BAD',
              'clean' if not stale else 'STALE ' + str(stale), w, round(w / 210)))
     fail += bool(bad) + bool(stale) + (links > ids) + bool(h.count('{{'))
 print("\n%s" % ('all eleven built clean' if not fail else '!! %d problems' % fail))

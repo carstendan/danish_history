@@ -23,7 +23,7 @@ TAIL = [("myth", "", "Myth-check"), ("forward", "", "What to carry forward"),
 CFG = {
  12: dict(
     name='12-kingdom-and-church-take-shape.html',
-    body='e12_body.html',
+    body='c12_body.html',
     svgs={'SVG_TERR1050': 'svg_terr_1050.txt', 'SVG_DIOCESES': 'svg_dioceses.txt',
           'SVG_REIGNS': 'svg_reigns.txt'},
     sec=[("s01", "01", "The king Adam came to see"), ("s02", "02", "Eight dioceses"),
@@ -44,14 +44,14 @@ CFG = {
         "can be shown to have been paid?",
         "Who was Herman, and what would have happened in 1133 without him?"]),
       ("Haraldsted, 7 January 1131", [
-        "The Danish <i class=\"dk\">tiende</i> was split three ways. Which share did the rest of "
-        "Europe give to the poor, and who got it in Denmark?",
+        "The Danish <i class=\"dk\">tiende</i> was split three ways. Which share did canon law "
+        "assign to the poor, and who got it in Denmark instead?",
         "Two thousand churches over a hundred and fifty years is how many a year?",
         "What does a village named Hastrup tell you that a village named Gudme does not?"])]),
 
  13: dict(
     name='13-the-valdemar-age-and-the-baltic-crusades.html',
-    body='e13_body.html',
+    body='c13_body.html',
     svgs={'SVG_BALTIC': 'svg_baltic.txt', 'SVG_LEDING': 'svg_leding.txt',
           'SVG_TERR1250': 'svg_terr_1250.txt'},
     sec=[("s01", "01", "Off Grathe Hede"), ("s02", "02", "Ringsted, 1170"),
@@ -79,14 +79,14 @@ CFG = {
         "they did it?"])]),
  14: dict(
     name='14-law-regicide-and-the-mortgaged-realm.html',
-    body='e14_body.html',
-    svgs={'SVG_DESCENT': 'svg_descent.txt', 'SVG_PAWN': 'svg_pawn.txt'},
+    body='c14_body.html',
+    svgs={'SVG_DESCENT': 'svg_descent.txt', 'SVG_HERRING': 'svg_herring.txt',
+          'SVG_PAWN': 'svg_pawn.txt'},
     sec=[("s01", "01", "Vordingborg, 1241"), ("s02", "02", "The last thralls"),
          ("s03", "03", "Slien, 1250"), ("s04", "04", "An archbishop in a cap"),
          ("s05", "05", "Nyborg, 1282"), ("s06", "06", "Finderup, 1286"),
          ("s07", "07", "The most expensive reign"), ("s08", "08", "Towns, friars and herring"),
-         ("s09", "09", "The country with no king"), ("s10", "10", "Randers, 1340"),
-         ("s11", "11", "What it was actually for")],
+         ("s09", "09", "The country with no king"), ("s10", "10", "Randers, 1340")],
     checks=[
       ("Slien, August 1250", [
         "Which part of Denmark did <i class=\"dk\">Jyske Lov</i> apply to, and what did the rest "
@@ -109,7 +109,7 @@ CFG = {
         "calendar?"])]),
  15: dict(
     name='15-plague-and-reconquest-valdemar-atterdag.html',
-    body='e15_body.html',
+    body='c15_body.html',
     svgs={'SVG_PLAGUE': 'svg_plague.txt', 'SVG_ARITHMETIC': 'svg_arithmetic.txt',
           'SVG_RECONQUEST': 'svg_reconquest.txt'},
     sec=[("s01", "01", "A quarter of Jutland"), ("s02", "02", "Selling Estonia"),
@@ -144,9 +144,10 @@ def block(qs):
 
 
 def build(n, c):
-    # Open item 4: this script asks for e12_body.html while every other part uses
-    # the cNN convention, a leftover from before it was renamed. Accept either, so
-    # a rebuild does not depend on which generation of the filename is on disk.
+    # Open item 3: this script asked for e12_body.html while every other part used
+    # the cNN convention. The bodies recovered in September 2026 are cNN, and the
+    # config now says so. Either is still accepted, so a rebuild does not depend on
+    # which generation of the filename is on disk.
     body = c['body']
     if not os.path.exists(G + body):
         alt = 'c' + body[1:] if body[0] == 'e' else 'e' + body[1:]
@@ -165,6 +166,17 @@ def build(n, c):
         a = '<h2 id="%s">' % hit[0]
         h = h.replace(a, block(qs) + a, 1)
 
+    # the section list in the config must match the page, or the rail lies.
+    # After build_part_e.py, but on ids only: in these parts the rail label is a
+    # shortened form of the heading, so labels cannot be compared. Chapter 14's
+    # config carried an eleventh section the page has never had, and nothing
+    # here noticed.
+    want = [sid for sid, num, lab in c['sec']]
+    got = [sid for sid, t in heads]
+    if got != want:
+        raise SystemExit("!! chapter %s: config has sections %s, page has %s"
+                         % (n, want, got))
+
     rail = ['<nav class="rail" aria-label="Sections of this page">'
             '<p class="rail-h">On this page</p><ol>']
     toc = ['<details class="toc"><summary>Contents</summary><ol>']
@@ -175,17 +187,17 @@ def build(n, c):
     toc.append('</ol></details>')
 
     style = open(G + 'style.css', encoding='utf-8').read()
-    if '--part:#96591A;' not in style:
-        raise SystemExit("!! band colour token missing from style.css")
-    h = h.replace('{{STYLE}}', style.replace('--part:#96591A;', '--part:%s;' % PART_D))
+    if '--band:#96591A;' not in style:
+        raise SystemExit("!! part colour token missing from style.css")
+    h = h.replace('{{STYLE}}', style.replace('--band:#96591A;', '--band:%s;' % PART_D))
     h = h.replace('{{RAIL}}', "\n".join(rail)).replace('{{TOC}}', "\n".join(toc))
     h = h.replace('{{JS}}', '<script>' + open(G + 'rail.js', encoding='utf-8').read() + '</script>')
     for k, f in c['svgs'].items():
         h = h.replace('{{%s}}' % k, open(G + f, encoding='utf-8').read())
 
     w = pagewords(h)
-    h = re.sub(r'Era page \u00b7 about \d+ minutes',
-               'Era page \u00b7 about %d minutes' % round(w / 210), h)
+    h = re.sub(r'Era chapter \u00b7 about \d+ minutes',
+               'Era chapter \u00b7 about %d minutes' % round(w / 210), h)
     open(OUT + c['name'], 'w', encoding='utf-8').write(h)
     return h
 
@@ -209,7 +221,7 @@ for n in sorted(CFG):
           % (h.count('class="check"'), h.count('class="vig"'), h.count('class="meanwhile"'),
              h.count('<figure>'), h.count('class="terms"')))
     print("  band %s | words %d (~%d min)"
-          % ('ok' if '--part:%s;' % PART_D in h else 'BAD', w, round(w / 210)))
+          % ('ok' if '--band:%s;' % PART_D in h else 'BAD', w, round(w / 210)))
     for m in re.finditer(r'<div class="check">.*?</div>\s*<h2 id="(s\d\d)">(.*?)</h2>', h, re.S):
         print("  checkpoint before %s  %s"
               % (m.group(1), re.sub(r'<[^>]+>', '', m.group(2)).strip()))
