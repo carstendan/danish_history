@@ -51,9 +51,30 @@ def normalise(text):
     return re.sub(r"\s+", " ", text)
 
 
+# ONE BLOCK IS EXEMPT, AND ONLY ONE. The Sources apparatus ends with "Where the
+# argument stands", and in Part G and H it opens with a caveat to the reader -
+# "Attributions below need checking against the works themselves before
+# publication; they are set down here as the shape of the debate, not as reading
+# claimed." That sentence is true, it is addressed to the reader rather than the
+# author, and it sits exactly where mkbody's own refusal tells an author to put
+# an unresolved question ("move it to the Sources block as a question addressed
+# to the reader"). The pattern refused it anyway, in all seven Part G chapters,
+# and a guard that refuses the disposition it recommends leaves no way through
+# but rewording true sentences until they stop matching.
+#
+# Decided 18-19 September 2026: that block is not scanned. It runs from the
+# words "Where the argument stands" to the end of the Sources block - a `---`
+# rule or a `#`/`##` heading in a draft, the next <h2> on a built page. The cost
+# is known and accepted: a genuine note parked inside that block will pass. Every
+# other block, including the rest of Sources, is scanned exactly as before.
+EXEMPT = re.compile(
+    r"Where the argument stands.*?(?=^[ \t]*---[ \t]*$|^#{1,2} |<h2\b|\Z)",
+    re.S | re.M)
+
+
 def find(text, width=70):
     """Return (match, following context) for every drafting note in text."""
-    flat = normalise(text)
+    flat = normalise(EXEMPT.sub(" ", text))
     out, last = [], -10 ** 9
     for m in PATTERN.finditer(flat):
         # one note often trips two wordings ("need checking ... before

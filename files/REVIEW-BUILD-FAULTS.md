@@ -520,3 +520,13 @@ different instruments. Settling it needs the printed treaty itself. Until then
 the safe move is the one REVIEW-PART-G took with *Jammers Minde* — write the
 sentence so it survives either answer — and the note stays in the draft, which
 means chapter 27 goes on refusing.
+
+**9.7 Decided: the "Where the argument stands" block is exempt from
+`draftnotes.py`.** From that heading to the end of the Sources block — a `---`
+rule or `#`/`##` heading in a draft, the next `<h2>` on a page. Tested both ways:
+a note before the block and a note after it are still caught; the caveat inside
+it is not; the same caveat under any other heading is. With it, Part G's own
+refusals drop to one — chapter 27's calendar note — and a trial rebuild of Part G
+puts all six other myth-checks on the page (159–283 words each), removes every
+concatenation marker and draft header, and gives chapter 29's Struensee vignette
+its whole title. Chapter 27 stays as it is until 9.6 is settled.
