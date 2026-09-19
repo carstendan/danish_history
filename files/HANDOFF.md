@@ -39,6 +39,10 @@ written — see Lessons.
 | H | 32–36 | 1814–1901 | **built, verified, indexed, closed — see `PLAN_H.md`** |
 | I | 37–45 | 1901–1955 | **NINE CHAPTERS, ALL BUILT, VERIFIED AND INDEXED. The boundary pass is done — item 136 — and item 128 is CLOSED.** The 1943–1955 run was repartitioned from three chapters into four at the material's own seams; no chapter in the part is outside the 25–50 band |
 
+**After item 139's rebuild the book is expected at 336,857 page words, 26.7 h**
+— measured on a container rebuild of E–I from a fresh clone, to be confirmed on
+the author's machine by the next cold run. The figures below are item 138's.
+
 **BOOK COMPLETE: 45 of 45, 336,231 page words, 26.7 h; 0 remaining.** Read off
 `bookstats.py` after `linkindex.py` on 19 September 2026, after the item 138
 rebuild. The rise from item 136's 333,337 is prose that was always in the drafts
@@ -4068,6 +4072,111 @@ split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see it
      rebuilds them from source.
    - **Chapter 28 has four overlapping body drafts** (`01-03`, `01-04`, `01-06`,
      `01-10`); which is authoritative is not recorded.
+
+
+139. **The consistency review, session 1: conventions collected, four sweeps
+   built and run, Part I read. The August ledger pass was never in the
+   repository, and eighteen author's notes were on the Part I pages as glossary
+   definitions. Full record in `REVIEW-CONSISTENCY.md`; the rules it checks
+   against are in the new `CONVENTIONS.md`.** 19 September 2026.
+
+   **Cold run on a fresh clone of `c5775cf`: every figure matched START_HERE_review.**
+
+   **STEP 1 — `CONVENTIONS.md`.** D-1 to D-12, each with rule, reason, status and
+   where defined, plus the unnumbered rules (L-lessons, the Part E settlements,
+   the index's own conventions list). Three proposals: **D-13** the vignette rule
+   of item 138; **D-14** regnal numbers in the Danish style for Scandinavian
+   rulers (409 on the pages, counted; seven Roman forms in G and I, now fixed);
+   **D-15** place names, which needs Carsten (REVIEW-CONSISTENCY §5, D-B). Found
+   while collecting: **D-6's "one line in the index's conventions list" was never
+   added**, and the index promises Danish terms "glossed on first use in each
+   page", which Part I had stopped doing.
+
+   **STEP 2 — four sweeps, each a script over the built pages** (`reviewlib.py`,
+   `sweep_glossary.py`, `sweep_names.py`, `sweep_facts.py`, `sweep_arrows.py`,
+   standard library only). Findings in `REVIEW-CONSISTENCY.md` §1–§4; the ones that
+   matter:
+
+   - **THE AUGUST LEDGER PASS IS NOT ON DISK.** *Debts — Part F closed* lists
+     sixteen arrows from 20–24 "as they now stand in the shipped files … the state
+     on disk, not the plan". **Eight of them were not** — the bodies and pages
+     carried the pre-pass targets: Trankebar to the Great Northern War, the
+     Atlantic trade to 27, Skåne's snaphaner to Struensee. Item 112's rule with the
+     sign reversed: the repository was right about itself and the ledger was
+     wrong. Fixed in `c20`–`c24_body.html` to exactly what the ledger records,
+     each read against its target; `c18`'s Bergen arrow and "which is chapter 28"
+     with them.
+   - **EIGHTEEN GLOSSARY ENTRIES IN 40–45 READ "glossed in chapter N — reference,
+     do not re-gloss."** as the whole definition — an instruction to the next
+     drafter, on the page. Two pointed at the wrong chapter. All now carry a
+     one-line definition and "(chapter N)". **`draftnotes.py` refuses the phrase**,
+     and on its first run found nine more in drafts 32–40 that `mkbody` had
+     silently dropped — two of them wrapped across a line break my own grep missed.
+     Those in 32, 33 and 36 are now real glosses; 32's pointed at the wrong
+     chapter *and* the wrong institution.
+   - ***fæste* was "tenancy" in 17, 21, 28 and 29 and "copyhold" in 32** — PLAN_H
+     had asked for exactly that check and it was not made. 32 now says tenancy.
+     *Håndfæstning* is "hand-fastening" and "almost every" king in 14, "a
+     handshake" and "every Danish king from 1320" in 25; 25 aligned.
+   - **Schleswig / Slesvig drifts by drafting session** (105 against 129), with
+     Flensburg/Flensborg and five smaller pairs; **"Ditmarschen"**, 14 times in 19–21,
+     is neither language. Decision D-B.
+   - **Dates and figures: no cross-chapter disagreement the method reaches**,
+     and REVIEW-CONSISTENCY §3 says what the method cannot reach.
+   - **Chapter 37 pointed `→ Part I` five times from inside Part I**; re-pointed.
+     Pages 04, 06, 07 carry stale Part G numbers the pass never reached, and 05–07
+     have an `<h1>` that is not their title — blocked pages, decision D-A.
+
+   **STEP 3 — Part I read in full, 37 to 45.** Nine boundary-pass leftovers fixed
+   (section numbers from the three-chapter draft, "forty-three chapters", "eight
+   chapters", a Fanny Jensen set-up whose pay-off had moved to 44, and **"occupied
+   in six hours" — item 117's struck claim, alive in 45**). Twenty-one corrections
+   of fact or of the book against itself, of which **three change what the book
+   asserts — read these**:
+
+   - **45: the 1953 succession.** Women were barred by the **succession law of
+     1853**, not "the royal law of 1665", which chapter 33 rightly says had a
+     cognatic fallback. §06 rewritten on that basis; its argument survives and is
+     sharper.
+   - **42: the Horserød prisoners went in the same ship as the Jews**, not a
+     second ship (42) or a train (41). "One ship out of Copenhagen, and only half
+     of what it carried is in the story Denmark tells."
+   - **42: the Theresienstadt visit** was the ICRC and two Danish officials, not "a
+     Danish and Swedish Red Cross delegation".
+
+   The rest — turnout records that contradicted each other across 38/41/45, the
+   8-billion/3-billion clearing figures, 38's "constitution of 1866" in 1920,
+   Kanslergade's head-count, three D-8 intervals — are listed in §6.2.
+
+   **VERIFIED:** fresh clone, the patch applied, `figs_41.py` → `mkbody` for 25,
+   31–34, 36–45 (no `!!`) → `build_part_e` to `_i` → `linkindex` →
+   `index_generator`, then the whole suite: **debuild 30 identical / 15
+   style-only; 45 of 45, 336,857 page words, 26.7 h; vignettes 89/61, selftest
+   passes; figcheck 87/41/0; draftnotes clean on pages and drafts; appcheck 159;
+   freshcheck 14; seams pass.** The one changed figure, `svg_valg_1943`, was
+   rasterised and looked at.
+
+   **`cNN_body.html` WAS EDITED FOR 18 AND 20–24, AND THAT IS DELIBERATE.** For
+   16–24 the body is the only source there is (`LEDGER_PASS.md`: "authored
+   bodies"); START_HERE's rule is about the bodies `mkbody` generates.
+
+   **DECISIONS WAITING, in REVIEW-CONSISTENCY §5 and §6.3:** D-A unblock 01–15 via
+   `debuild.py extract`; D-B Schleswig; D-C 45's empty carry-forward; D-D agree
+   D-13; I-1 cut 43's repetitions of 44; I-2 move 43 §06; I-3 the seventh
+   vignette; I-4 45's last section title; I-5 accept 44 and 45 over the advisory.
+
+   **CHECKED BY A SEPARATE AGENT** that had not seen the work: it confirmed every
+   factual claim put to it and found five slips in the fixing, all corrected
+   (REVIEW-CONSISTENCY §6.2, last paragraph).
+
+   **LESSON, and it is the same one, twice.** I changed chapter 45's "June 1849 to
+   June 1953" to agree with its last sitting in May, and then found the figure
+   caption beside it defining the 104 years as constitution to constitution. And I
+   changed 43's "a fortnight's warning" to "three days'" without reading chapter
+   42, which says a fortnight three times and counts from Duckwitz's first
+   warnings on the 17th. Both reverted; the second only because the independent
+   check caught it. *Before disputing a claim, read what the chapter already has
+   for it — including its figures and its neighbour.*
 
 ---
 

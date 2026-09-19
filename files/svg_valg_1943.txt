@@ -26,9 +26,9 @@
   <text x="513.5" y="243" class="mapx" opacity=".9">blank and invalid 29,800 (1.3%)</text>
   <rect x="510.4" y="250" width="14" height="8" fill="#5F6157" opacity=".16"/>
   <text x="530.4" y="258" class="mapx" opacity=".9">did not vote 240,133 (10.5%)</text>
-  <text x="14" y="287" class="mapx" opacity=".85">Turnout 89.47 per cent of the electorate, the highest in Danish history. The four cooperating parties took 92.91 per</text>
-  <text x="14" y="300" class="mapx" opacity=".85">cent of the valid votes. The Danish Nazi party took 2.15 per cent of them and the same three seats it had won in 1939 —</text>
-  <text x="14" y="313" class="mapx" opacity=".85">on a vote that had risen from 31,032 to 43,309, by 39.6 per cent, in the years a German army stood in the country. What</text>
-  <text x="14" y="326" class="mapx" opacity=".85">held it to three seats was that everyone else came out. Dansk Samling, founded against the occupation, finished 58 votes</text>
-  <text x="14" y="339" class="mapx" opacity=".85">ahead of it. The German minority's party, which had held a seat since 1920, did not stand.</text>
+  <text x="14" y="287" class="mapx" opacity=".85">Turnout 89.47 per cent of the electorate, the highest at any Danish general election. The four cooperating parties took</text>
+  <text x="14" y="300" class="mapx" opacity=".85">92.91 per cent of the valid votes. The Danish Nazi party took 2.15 per cent of them and the same three seats it had won</text>
+  <text x="14" y="313" class="mapx" opacity=".85">in 1939 — on a vote that had risen from 31,032 to 43,309, by 39.6 per cent, in the years a German army stood in the</text>
+  <text x="14" y="326" class="mapx" opacity=".85">country. What held it to three seats was that everyone else came out. Dansk Samling, founded against the occupation,</text>
+  <text x="14" y="339" class="mapx" opacity=".85">finished 58 votes ahead of it. The German minority's party, which had held a seat since 1920, did not stand.</text>
   </svg>

@@ -464,11 +464,13 @@ For seven and a half months that was the law in Denmark.
 - **clearingmord** — a clearing murder: the killing of a prominent Dane by the
   occupier in reprisal for an act of resistance. From the English word for
   settling an account, by analogy with the *clearingkonto*.
-- **clearingkonto** — *glossed in chapter 41 — reference, do not re-gloss.*
+- **clearingkonto** — the clearing account through which Danish exporters were
+  paid in kroner against a claim on Germany that Germany largely never settled
+  (chapter 41).
 - **schalburgtage** — the occupier's reprisal bombings of Danish civil targets,
   named on the pattern of *sabotage* after the Schalburg Corps that took part.
 - **stikker** — an informer. The word carried a death sentence from 1944 and the
-  resistance's killing of informers is the other column of §08's ledger.
+  resistance's killing of informers is the other column of §02's ledger.
 
 **§03 — the strike**
 - **folkestrejke** — a people's strike: a general strike that is political rather
@@ -486,7 +488,8 @@ For seven and a half months that was the law in Denmark.
 - **vagtværn** — a watch corps: the municipal guard raised after the police were
   deported. Its men had a citizen's powers and no others: detain someone caught
   in the act, investigate nothing, carry no firearm.
-- **grænsegendarm** — *glossed in chapter 41 — reference, do not re-gloss.*
+- **grænsegendarm** — a border gendarme: the lightly armed corps that policed the
+  Danish side of the 1920 frontier, and not part of the army (chapter 41).
 
 ---
 

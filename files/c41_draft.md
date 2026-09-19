@@ -329,7 +329,7 @@ By the time the law passed, a hundred and sixteen men were still inside. Over th
 next two years the camp filled again — some six hundred people passed through it —
 and in August 1943, when the cooperation policy collapsed and the Germans took
 the camp over, about ninety got away in the confusion. In October 1943 roughly a
-hundred and fifty of those who had not were put on a train to Stutthof. Twenty-two
+hundred and fifty of those who had not were shipped to Stutthof. Twenty-two
 of them died: six in the camp, nine on the death marches at the end, seven of what
 the camp had done to them, after they got home.
 
@@ -418,7 +418,7 @@ cooperation manufactured the opposition that would eventually end it.
 
 ## The king's telegram, and the wireless
 
-On 26 September 1942 Hitler sent Christian X a long telegram for his
+On 26 September 1942 Hitler sent Christian 10. a long telegram for his
 seventy-second birthday. The king replied: *Spreche Meinen besten Dank aus. Chr.
 Rex.* Five words and a signature.
 
@@ -479,7 +479,7 @@ On 23 March 1943, one thousand and seventy-eight days into the occupation,
 Denmark held a general election. No other occupied country in Europe did.
 
 Of an electorate of 2,280,716, some 2,040,583 voted: 89.5 per cent, the highest
-turnout in Danish history before or since. Everybody understood what was being
+turnout at any Danish general election before or since. Everybody understood what was being
 counted. The four cooperating parties took 92.91 per cent of the valid votes
 between them. The Slesvigsk Parti, which had held a seat continuously since 1920,
 did not stand at all, because by then seven and a half thousand of the minority
@@ -503,8 +503,8 @@ votes separated the party that wanted Denmark to resist from the party that
 wanted Denmark to be German, and both of them were rounding errors beside the
 parties that wanted neither.
 
-Five months later the policy the election had ratified was over. And seven months
-after the election, about a hundred and fifty men were loaded onto a train for
+Five months later the policy the election had ratified was over. And on 2
+October, about a hundred and fifty prisoners were put into a ship's hold for
 Stutthof: Danes, arrested by Danish police, on a German list, under a Danish law
 that a parliament elected by 89.5 per cent of its people had passed without a
 single vote against.
@@ -534,7 +534,8 @@ single vote against.
   arrangement with the occupying power from 9 April 1940, under which Denmark
   kept its parliament, courts, police and king and undertook to keep order and
   deliver goods.
-- **hjemmetysker** — *glossed in chapter 40 — reference, do not re-gloss.*
+- **hjemmetysker** — a home German: a German-minded inhabitant of the territory
+  that became Danish in 1920 (chapter 40).
 
 **§05 — the realm**
 
@@ -570,7 +571,8 @@ single vote against.
 
 **§11 — 1943**
 
-- **Rigsdag** — *glossed in chapter 33 — reference, do not re-gloss.*
+- **Rigsdag** — the parliament, in two chambers, the Folketing and the Landsting
+  (chapter 33).
 - **valgdeltagelse** — turnout: the share of the electorate that votes, as
   distinct from the share of votes cast that any party receives. The distinction
   decided the referendum of 1939 and the election of 1943 both.
@@ -582,7 +584,7 @@ single vote against.
 **Oslo and Narvik, April–June 1940.** The invasion that took Denmark in one
 morning took Norway for two months. Norway was attacked the same day, fought,
 lost its capital, kept its king, and went on fighting in the north until 7 June
-with British, French and Polish help. Haakon VII refused the German demand to
+with British, French and Polish help. Haakon 7. refused the German demand to
 appoint Vidkun Quisling and left for London with the government and the gold
 reserve; Norway spent the war as an occupied country with a legal government
 abroad and a *Reichskommissar* at home. Denmark spent it with its own government
@@ -631,7 +633,7 @@ correction that matters runs the other way: they died because the decision not t
 be able to fight had been taken years before, and they are its cost rather than
 evidence against it.
 
-**"King Christian X wore a yellow star."** He did not, and no Danish Jew was ever
+**"King Christian 10. wore a yellow star."** He did not, and no Danish Jew was ever
 required to wear one, so there was no star to wear. The story has displaced
 something better. Most mornings the king rode out through Copenhagen unescorted,
 at a predictable hour, and people stopped on the pavement; an old man on a horse
@@ -717,7 +719,7 @@ Denmark acceded to the Anti-Comintern Pact on 25 November 1941 under an ultimatu
 after Scavenius threatened to resign if the cabinet refused. The king's five-word
 reply to Hitler's birthday telegram of 26 September 1942 brought Werner Best to
 Copenhagen and made Scavenius prime minister. At the election of 23 March 1943
-turnout was 89.5 per cent, the highest in Danish history; the cooperating parties
+turnout was 89.5 per cent, the highest at any Danish general election; the cooperating parties
 took 92.91 per cent of the valid vote; the German minority did not stand; and the
 DNSAP kept three seats on a vote that had risen by nearly two-fifths since 1939.
 

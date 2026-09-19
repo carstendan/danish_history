@@ -514,7 +514,6 @@ Recall, Causal, Counterfactual, Contested.*
   December 1863. Legally quite different from the invasion of Slesvig that
   followed, which is why Prussia and Austria had to step outside the Confederation
   to do it.
-- *`helstat` is glossed in chapter 33 — cross-reference, do not re-gloss.*
 
 **§03 — Dannevirke**
 

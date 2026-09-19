@@ -74,7 +74,7 @@ deadline, and its ground was capacity rather than principle: the measures
 demanded would destroy the government's own ability to keep order, which was the
 one thing the arrangement existed to supply.
 
-The ministers then asked to resign and Christian X did not sign the request.
+The ministers then asked to resign and Christian 10. did not sign the request.
 This looks like hesitation and is the opposite. A government that has not
 resigned cannot be replaced, and the missing signature denied the occupier the
 vacancy it needed to install anything of its own. The ministers stopped
@@ -314,19 +314,22 @@ number is to print the definition with it.
 
 They survived at a rate nobody else deported to Theresienstadt survived at, and
 the reason is bureaucratic rather than miraculous. The Danish authorities went on
-asking after them by name, parcels went in, and in June 1944 a Danish and
-Swedish Red Cross delegation was allowed to visit — the visit for which the camp
+asking after them by name, parcels went in, and in June 1944 two Danish officials
+and a delegate of the International Red Cross were allowed to visit — the visit
+for which the camp
 was cleaned, painted and partly emptied by a further deportation to Auschwitz,
 so that the delegation could be shown a model town. The Danes were kept alive
 partly because they were being watched, and the show that kept them alive was
 staged by murdering other people. Both halves belong in the same sentence.
 
-The same days carry another transport. On 2 October the men from Horserød — about
-a hundred and fifty, communists interned by Danish police in 1941 under a law
-the Rigsdag wrote afterwards to cover it — went to Stutthof, and twenty-two of
-them died: six in the camp, nine on the death marches, seven after liberation.
-Two ships out of Copenhagen in one week, and only one of them is in the story
-Denmark tells about October 1943.
+The ship that took the Jews seized in the raids of 1 October carried someone
+else as well. On 2 October the prisoners from Horserød — about a hundred and
+fifty, communists interned by Danish police in 1941 under a law the Rigsdag
+wrote afterwards to cover it — were put into its hold beside them, landed at Swinemünde and
+sent on in cattle trucks to Stutthof, and twenty-two of them died: six in the
+camp, nine on the death marches, seven after liberation. One ship out of
+Copenhagen, and only half of what it carried is in the story Denmark tells about
+October 1943.
 
 The crossing killed people too. Bak's count, which does not separate the
 categories because the sources will not support separating them, is at least
@@ -560,7 +563,7 @@ provincial towns from Odense at the end of July to Aalborg at the end of August,
 called by nobody and stoppable by nobody, and on 28 August the occupier demanded
 a state of emergency, a curfew, censorship, special courts and the death penalty
 for sabotage — and that Denmark protect the Danes who had worked for Germany.
-The government refused half an hour inside the deadline. Christian X declined to
+The government refused half an hour inside the deadline. Christian 10. declined to
 sign its resignation, so the ministers stopped functioning without leaving a
 vacancy, and the country passed to its permanent secretaries.
 
@@ -619,7 +622,7 @@ country, and with the country largely agreeing.
 
 **Counterfactual.**
 
-1. Suppose Christian X had signed the government's resignation on 28 August 1943.
+1. Suppose Christian 10. had signed the government's resignation on 28 August 1943.
    What would the occupier have been able to do that it could not?
 2. Suppose no warning had reached Hans Hedtoft on 28 September 1943. Estimate
    what October 1943 looks like, and say which of your assumptions is doing the
@@ -683,7 +686,15 @@ country, and with the country largely agreeing.
   reports, the estimate near 7,400, the incompleteness, and the **more than a
   thousand who registered as Protestant, Lutheran or Christian**. Museum
   Nordsjælland for Gilleleje and for the informer never being established.
-  danmarkshistorien.lex.dk for the arrest breakdown.
+  danmarkshistorien.lex.dk for the arrest breakdown. **The Horserød prisoners
+  sailed in the same ship as the Jews taken in the raids**, to Swinemünde and on
+  by cattle truck to Stutthof: Horserød-Stutthof Foreningen, *Den historiske
+  baggrund* (corrected 19 September 2026; the chapter had said two ships). The
+  Theresienstadt visit of 23 June 1944 was Maurice Rossel of the International
+  Committee of the Red Cross, Eigil Juel Henningsen of Sundhedsstyrelsen and
+  Frants Hvass of the Foreign Ministry: USHMM, *Theresienstadt: the Red Cross
+  visit* (corrected the same day from "a Danish and Swedish Red Cross
+  delegation").
 - **Open questions this chapter carries.** The start of the August unrest is
   dated four ways. The Danish dead of 29 August are 23 or 24 and the wounded
   three numbers. The Freedom Council's founding membership is recorded three ways

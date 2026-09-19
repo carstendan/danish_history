@@ -6,9 +6,10 @@
 
 ## The first week
 
-What that produced is not measurable in the ordinary way, because the body that
-compiles crime statistics was in Buchenwald. The registers the watch corps kept
-themselves are what survive. Copenhagen's took **eighteen thousand reports** and
+What seven and a half months without a police force produced is not measurable
+in the ordinary way, because the body that compiles crime statistics was in
+Buchenwald. The registers the municipal watch corps kept themselves are what
+survive. Copenhagen's took **eighteen thousand reports** and
 made **3,397 arrests**. The Aarhus watch recorded **6,491 offences** between
 October 1944 and July 1945, among them 55 murders, 418 burglaries and 2,038
 thefts, more than half of the thefts bicycles.
@@ -137,7 +138,10 @@ that single fact decided who was never in danger from it.
 
 Now the other column. The *værnemagere* were the Danish firms and contractors who
 built for the Wehrmacht, and the scale of what they did is not in dispute: the
-clearing accounts closed the war more than **eight billion kroner** overdrawn.
+Nationalbank closed the war about **eight billion kroner** out of pocket — some
+three billion for Danish goods delivered to Germany and never paid for, and some
+five billion advanced for the Wehrmacht's airfields and fortifications, most of
+it built by Danish contractors.
 
 The audit committee for German payments examined **fifty thousand cases**. It
 found a duty of repayment in about **ten thousand**. About **1,100** people were
@@ -461,7 +465,7 @@ occupied and could not negotiate anything. The result was 99.47 per cent for
 ending the union and 98.51 per cent for a republic, on a turnout near
 ninety-eight. The republic was proclaimed at Þingvellir on **17 June 1944**.
 
-Christian X had said he would not recognise a constitutional change made while
+Christian 10. had said he would not recognise a constitutional change made while
 both countries were occupied, and the Danish press argued that Iceland was
 morally obliged to wait. Then, on the day, he sent a telegram of good wishes,
 which was read out and received with four cheers for the king of Denmark. The
@@ -521,7 +525,8 @@ third of the kingdom.
 - **retsopgøret** — the legal reckoning: the prosecution from 1945 to 1955 of
   Danes who had served, worked for, built for or informed to the occupier. The
   word is *settling of accounts* rather than *justice*, and it was chosen.
-- **ventegrupper** — *glossed in chapter 43 — reference, do not re-gloss.*
+- **ventegrupper** — the waiting groups: the resistance's armed formations, held
+  back from fighting and brought out on 5 May 1945 to keep order (chapter 43).
 
 **§02 — the law made backwards**
 - **straffelovstillægget** — the supplement to the penal code: Law 259 of 1 June
@@ -539,8 +544,9 @@ third of the kingdom.
 - **den parlamentariske kommission** — the Rigsdag's inquiry of 1945 into the
   conduct of Danish governments under the occupation, composed almost entirely of
   members of the parties that had formed them.
-- **værnemager** — *glossed in chapter 41 — reference, do not re-gloss.*
-- **stikker** — *glossed in chapter 43 — reference, do not re-gloss.*
+- **værnemager** — literally a maker for the *Wehrmacht*: a Dane who took paid
+  work building for the occupier (chapter 41).
+- **stikker** — an informer (chapter 43).
 
 **§04 — the women**
 - **tyskerpige** — "German girl": a woman who had a relationship with a German
@@ -563,7 +569,9 @@ third of the kingdom.
 - **modværdimidler** — counterpart funds: the kroner Danish importers paid for
   Marshall goods. They did not go to the Americans — they accumulated in a
   blocked account and were released for agreed purposes.
-- **clearingkonto** — *glossed in chapter 41 — reference, do not re-gloss.*
+- **clearingkonto** — the clearing account through which Danish exporters were
+  paid in kroner against a claim on Germany that Germany largely never settled
+  (chapter 41).
 
 **§08 — the realm**
 - **Lagtinget** — the Faroese assembly: the body that declared independence in
@@ -571,7 +579,9 @@ third of the kingdom.
 - **hjemmestyre** — home rule: an arrangement under which a territory legislates
   for itself in a listed set of fields while the realm keeps the rest, with a
   second list left open. The Faroes got one on 23 March 1948.
-- **forbundsloven** — *glossed in chapter 38 — reference, do not re-gloss.*
+- **forbundsloven** — the Act of Union of 1918 between Denmark and Iceland: a
+  union of two sovereign states under one king, with the terms for ending it
+  (chapter 38).
 
 ---
 
@@ -786,7 +796,7 @@ in a New York hotel room to buy Greenland outright and was refused.
   (1,114 / 25); informing 413 (306 / 107). 103 death sentences, 78 at final
   instance, 46 carried out, 32 commuted.
 - **The women.** Ditlev Tamm's 107 against Anette Warring's "around four hundred
-  of the 644". **§05's reading — that the national total of 413 has been taken
+  of the 644". **§04's reading — that the national total of 413 has been taken
   for the women's figure — is mine, an inference and not a citation**, offered
   because 347 plus 400 exceeds 644. Warring, *Tyskerpiger* (1994), for the
   fifty-thousand estimate and the 5,579 registered war children; Bornholms Museum
@@ -834,10 +844,13 @@ in a New York hotel room to buy Greenland outright and was refused.
   kroner, about 1,700 million by the end of 1953 with nearly nine hundred million
   retiring German-clearing state debt; production, agriculture, the 1946 deficit
   and the tractor counts. **The rejection of "the end of
-  self-sufficiency" rests on chapter 30's material.**
+  self-sufficiency" rests on chapter 35's material** — the turn from selling
+  grain to buying and feeding it. The eight billion of §03 and its division into
+  about three billion of unpaid exports and about five billion advanced for the
+  Wehrmacht's building are lex.dk's, *Danmarks historie 1940–1945*.
 - **Iceland, the Faroes, Greenland.** The Act of Union of 1918 and its revision
   clause; the Icelandic referendum of May 1944, the proclamation at Þingvellir on
-  17 June and Christian X's telegram. The Faroese referendum of 14 September 1946, the
+  17 June and Christian 10.'s telegram. The Faroese referendum of 14 September 1946, the
   declaration, the dissolution of the Lagting, the November election and the home
   rule act of 23 March 1948. For Greenland: the Kauffmann agreement of 9 April 1941, his
   dismissal and charge, his reinstatement on 8 May 1945 and the unanimous

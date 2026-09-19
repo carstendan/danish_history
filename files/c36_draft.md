@@ -555,8 +555,10 @@ Causal, Counterfactual, Contested.*
   party of the farmers and the Folketing; Højre of the landowners, officials and
   the Landsting. Venstre is the ancestor of today's Venstre, Højre of today's
   Konservative.
-- *`Folketinget` and `Landstinget` are glossed in chapter 33 — reference, do not
-  re-gloss.*
+- **Folketinget, Landstinget** — the lower and upper chambers of the Rigsdag;
+  after 1866 the first elected by every man of thirty with his own household, the
+  second partly appointed by the king and partly elected on a privileged
+  franchise (chapters 33 and 34).
 
 **§02 — the question nobody had answered**
 

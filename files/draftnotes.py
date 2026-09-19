@@ -12,6 +12,12 @@ section 03, 'Style note:' citing decision D-6 in chapter 27, 'needs checking
 before this section ships' twice in chapter 31, and 'Attributions need
 checking ... before publication' in the Sources of every Part G chapter.
 
+'do not re-gloss' was added on 19 September 2026 (HANDOFF item 139): eighteen
+glossary entries in chapters 40-45 shipped "glossed in chapter N - reference,
+do not re-gloss." as the whole definition of a term. The wording list had not
+seen it, the long-italic advisory printed every one of them, and the advisory
+was skimmed - which is what an advisory is for, and why this is now a pattern.
+
 The pattern is matched on WHITESPACE-NORMALISED text (item 69): a note wrapped
 across a line break in the markdown is otherwise invisible to it, and one of
 chapter 32's four was.
@@ -39,6 +45,7 @@ PATTERN = re.compile(
     r"|\bneeds?\s+(?:checking|settling|verifying)\b"
     r"|\bshould\s+be\s+(?:checked|verified)\b"
     r"|\bstill\s+to\s+be\s+(?:obtained|confirmed|checked|verified)\b"
+    r"|\bdo\s+not\s+re-?gloss\b"
     r"|<!--\s*=+\s*c\d\d_draft"
     r"|\bTODO\b|\bTBD\b|\bFIXME\b)",
     re.I)

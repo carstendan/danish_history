@@ -827,7 +827,7 @@ HAND = {
        "What did the Rigsdag do about that two months later?",
        "The realm came apart in the North Atlantic in the thirteen months after 9 April "
        "1940. Name the three territories and the three different ways they went.",
-       "Turnout in March 1943 was the highest in Danish history and the Danish Nazi party "
+       "Turnout in March 1943 was the highest at any Danish general election and the Danish Nazi party "
        "kept its three seats on a larger vote than in 1939. Explain both facts at once."],
    figs=[("s03", "SVG_MORGEN",
           "Figure 1 \u00b7 9 April 1940, hour by hour",

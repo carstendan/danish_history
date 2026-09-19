@@ -327,7 +327,7 @@ former head of military intelligence, working with Venstre's J. C. Christensen.
 The king agreed with the campaign. A day later he appointed a caretaker under
 Otto Liebe, a barrister who had never sat in the Rigsdag, to hold an election.
 
-Read the constitution of 1866 and the king was entitled to do it. The ministers
+Read the constitution of 1915 and the king was entitled to do it. The ministers
 served at his pleasure; the text said so. Read the practice of the previous
 nineteen years and he was not. The change of system of 1901, which chapter 37
 spent a section insisting had altered no word of the constitution, had
@@ -362,7 +362,7 @@ government since.** The prerogative was not abolished, amended or argued away. I
 was used once, in Easter week 1920, against a ministry with a majority, and the
 country's answer was to threaten to stop working. That is the authority
 question, settled — not in a constitution but in a strike notice, and by a king
-who discovered on a Wednesday what he was actually allowed to do.
+who discovered in one Easter week what he was actually allowed to do.
 
 ---
 
@@ -407,8 +407,8 @@ carried. Stauning's calculation, which he made under pressure and in public,
 was that a movement which brought down the monarchy in 1920 would spend the next
 twenty years being the party that brought down the monarchy, and would govern
 nothing. What he wanted was the rule established and the king kept. He got both.
-The threat of the general strike was the instrument; the settlement of 31 March
-was the object; and the Social Democrats went into the April election as the
+The threat of the general strike was the instrument; the settlement of Easter
+Sunday was the object; and the Social Democrats went into the April election as the
 party that had defended parliamentary government rather than the party that had
 tried to abolish the crown.
 
@@ -508,8 +508,6 @@ series: Recall, Causal, Counterfactual, Contested.*
   became Danish in 1920. *Sønderjylland* is the same ground under the name Danish
   writers prefer, and the two words carry an argument, which is why this chapter
   uses whichever one the person speaking would have used.
-- *`Slesvig`, `hertugdømme` and `Kongeåen` are glossed in chapters 21, 16 and 34 —
-  reference, do not re-gloss.*
 
 **§02 — Iceland**
 
@@ -628,7 +626,7 @@ morning nobody arranged is the child on the saddle, and it is the part that
 lasted.
 
 **"The Easter Crisis was a coup."** *Social-Demokraten* said so on the day and it
-made the phrase stick. Under the constitution of 1866 the ministers served at the
+made the phrase stick. Under the constitution of 1915 the ministers served at the
 king's pleasure and the text said so plainly; dismissing Zahle broke no article.
 What it broke was nineteen years of practice established in 1901 and never
 written down. The crisis matters precisely because nothing illegal happened: it
@@ -681,7 +679,7 @@ three small polling places on Før. Each country ended the two votes holding abo
 a quarter of the other's people, and neither of them moved.
 
 The king agreed with the losing side. On 29 March he dismissed a ministry that had
-a majority, which the constitution of 1866 permitted and nineteen years of
+a majority, which the constitution of 1915 permitted and nineteen years of
 practice did not. The trade union federation called a general strike for 6 April.
 On Easter Sunday he gave way, and no Danish monarch has dismissed a government
 since. The rule was not written down until 1953; it was enforced in 1920 by people

@@ -441,8 +441,9 @@ Recall, Causal, Counterfactual, Contested.*
 - **rigsråd** — the council of the realm. Around twenty noblemen who governed with
   the king, chose his successor, and wrote the charter he signed. It was not
   abolished in 1660; it stopped being summoned.
-- **håndfæstning** — literally a handshake, in practice a charter of accession.
-  Every Danish king from 1320 signed one before his coronation, setting out what
+- **håndfæstning** — literally 'hand-fastening', in practice a charter of
+  accession. The first was forced on Erik Klipping in 1282 (chapter 14), and
+  almost every Danish king from 1320 signed one before his coronation, setting out what
   he could not do without the council. It was the constitution, and giving it up
   was the whole of the change.
 - **konsumtionsskat** — a duty on goods entering a town. It fell on the towns, and
@@ -5262,7 +5263,7 @@ them.
 >
 > He has been a Danish diplomat for forty years and he has not always been an easy
 > one: the Sicilian envoy is supposed to have asked more than once for his recall.
-> He was in Stockholm in 1801 and carried his share of Gustav IV Adolf's ill will
+> He was in Stockholm in 1801 and carried his share of Gustav 4. Adolf's ill will
 > after the battle in the King's Deep. Now he is in a Holstein town negotiating
 > simultaneously with Sweden and with Britain, and he will sign both treaties in the
 > same week.

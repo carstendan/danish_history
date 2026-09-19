@@ -439,7 +439,7 @@ def electorate():
     below, gap_h = stack(below_src, 15, "mapx", left=12 + SWATCH + 6)
 
     LAB_TOP = bar_y + bar_h + 26
-    note = ("Turnout %.2f per cent of the electorate, the highest in Danish history. The "
+    note = ("Turnout %.2f per cent of the electorate, the highest at any Danish general election. The "
             "four cooperating parties took %.2f per cent of the valid votes. The Danish "
             "Nazi party took %.2f per cent of them and the same three seats it had won in "
             "1939 — on a vote that had risen from %s to %s, by %.1f per cent, in the "

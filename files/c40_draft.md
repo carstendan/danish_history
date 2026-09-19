@@ -107,7 +107,8 @@ January. And the employers had already given notice.
 
 The government had gone to the country on 16 November 1932 and come back with
 the thinnest possible mandate. The Social Democrats took 62 seats and the
-Radicals 14: seventy-six of a hundred and forty-nine, a majority of one. Venstre
+Radicals 14: seventy-six of a hundred and forty-nine, one more than the bare
+seventy-five a majority needs. Venstre
 had 38 and the Conservatives 27, and between them they had the Landsting. Every
 bill the government wanted had to pass a chamber controlled by the parties it
 had just beaten. The Danish Nazis, in the worst year of the depression, polled
@@ -147,9 +148,9 @@ something the others needed more than they needed their own principle.
 
 > **Vignette · Kanslergade 10, 29–30 January 1933**
 >
-> There are ten people in the flat and nine of them are politicians. The tenth
-> is Augusta Erichsen, who is thirty-four, who lives there, and who is the
-> reason anyone knows what the room was like.
+> There are eleven people in the flat and ten of them are politicians. The
+> eleventh is Augusta Erichsen, who is thirty-four, who lives there, and who is
+> the reason anyone knows what the room was like.
 >
 > She feeds them through the day and into the evening. Some time after midnight
 > Stauning comes out to her: *Jamen kære Gugge — der er ikke mere whisky!*
@@ -157,8 +158,8 @@ something the others needed more than they needed their own principle.
 > The whisky is in the cellar. She is afraid of the cellar, of the dark in it
 > and of the rats, and she goes down anyway and comes up with a bottle, and
 > pours it into a crystal decanter rather than serve the men of three parties
-> from the bottle at four in the morning. When it is over, Hartvig Frisch asks
-> if he may have the decanter. It is, he says, *en historisk karaffel i dag*.
+> from the bottle at four in the morning. The next day Hartvig Frisch asks if he
+> may have the decanter. It is, he says, *en historisk karaffel i dag*.
 >
 > Afterwards she makes them *pølsemad*.
 >
@@ -512,7 +513,7 @@ and the first thing the Rigsdag did in that constitution's name after 9 April
 years, a war, an occupation and a purge to ask the question again. In 1953 the
 same threshold was put to the same country, and 45.8 per cent of the electorate
 voted yes: the rule was cleared by eight-tenths of a percentage point, and the
-chamber went. Chapter 44 has that vote.
+chamber went. Chapter 45 has that vote.
 
 The margin in May 1939 was eleven thousand seven hundred and sixty-two votes,
 and the ballots spoiled or left blank that day numbered eleven thousand seven
@@ -526,7 +527,8 @@ hundred and seventy.
 
 **§01 — 1929**
 
-- **racehygiejne** — *glossed in chapter 39 — reference, do not re-gloss.*
+- **racehygiejne** — race hygiene: the Danish word of the period for eugenics
+  (chapter 39).
 
 **§02 — the crash**
 
@@ -548,7 +550,6 @@ hundred and seventy.
 
 - **devaluering** — devaluation: lowering a currency's official value against
   others, to make exports cheaper abroad and imports dearer at home.
-- *`Septemberforliget` is glossed in chapter 35 — reference, do not re-gloss.*
 
 **§05 — the reform**
 
@@ -575,8 +576,10 @@ hundred and seventy.
 
 **§09 — 1935**
 
-- **Landsting** — *glossed in chapter 33 — reference, do not re-gloss.*
-- **tillægsmandater** — *glossed in chapter 39 — reference, do not re-gloss.*
+- **Landsting** — the upper chamber of the Rigsdag, from 1866 elected on a
+  privileged franchise that made it a conservative brake (chapters 33 and 34).
+- **tillægsmandater** — supplementary seats, shared out after the district
+  results so that each party's total matches its national vote (chapter 39).
 
 **§11 — 1939**
 

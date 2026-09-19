@@ -539,8 +539,12 @@ Recall, Causal, Counterfactual, Contested.*
   Agnatic: from man to man only. Cognatic: allowed to pass through a woman. The
   Kongelov was agnatic with a cognatic fallback if the male line failed; the
   duchies' law had no such fallback. The whole crisis is in that difference.
-- *`Kongeloven` is glossed in chapter 25 and `up ewig ungedeelt` in chapter 19 —
-  cross-reference, do not re-gloss.*
+- **Kongeloven** — the King's Law of 1665, the written constitution of absolute
+  monarchy, and the law of succession the crisis turns on (chapter 25).
+- **up ewig ungedeelt** — "for ever undivided": a nineteenth-century
+  Schleswig-Holstein slogan, A. W. Neuber's of 1841, made from a clause of the
+  Ribe charter of 1460 and read as a promise that the two lands would never be
+  parted. What the clause meant in 1460 is disputed (chapter 19).
 
 **§03 — March 1848**
 
@@ -573,7 +577,7 @@ Recall, Causal, Counterfactual, Contested.*
   Denmark's first.
 - **Rigsdagen, Folketinget, Landstinget** — the parliament and its two chambers.
   In 1849 both were elected on the same franchise; the privileged franchise that
-  made the Landsting a conservative brake came in 1866 (chapter 36).
+  made the Landsting a conservative brake came in 1866 (chapter 34).
 - **de syv F'er** — "the seven F's", the popular name for the excluded:
   *fruentimmere, folkehold, fattige, fremmede, fallenter, fjolser, forbrydere*.
 

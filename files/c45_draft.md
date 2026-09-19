@@ -16,7 +16,7 @@ genuinely outside both alliances, which is what Swedish neutrality had been for 
 century and a half and what had kept Sweden out of two wars. Norway had been
 occupied for five years by a power that a neutral Sweden had not deterred, and
 wanted a link to the west and American weapons, which the Americans would not
-supply to a neutral bloc. Denmark, which had been occupied in six hours, sat
+supply to a neutral bloc. Denmark, which had been occupied between four and eight one morning, sat
 between them and preferred the Scandinavian answer for as long as there was one.
 
 The ministers met at Karlstad on 5 and 6 January 1949, in Copenhagen later that
@@ -65,10 +65,6 @@ in the Baltic whose return had been conditioned on keeping foreign troops off it
 with a third of its territory under American runways, and with the last vote of
 the upper house its constitution would ever record.
 
-The government that signed had been formed eighteen months earlier, and it
-contained something Denmark had seen once before, twenty-three years and six
-months earlier, and never like this.
-
 ---
 
 ## Why anyone wanted a new constitution
@@ -108,8 +104,8 @@ The third was Greenland, which was still a colony in law, and the United Nations
 had begun asking about colonies.
 
 And the fourth was a family. Frederik 9. had three daughters — Margrethe born in
-1940, Benedikte in 1944, Anne-Marie in 1946 — and no sons, and under the royal
-law of 1665 none of them could inherit anything.
+1940, Benedikte in 1944, Anne-Marie in 1946 — and no sons, and under the
+succession law of 1853 none of them could inherit anything.
 
 The reason not to try was the forty-five per cent, which had killed the last
 attempt and would very nearly kill this one.
@@ -131,13 +127,13 @@ own freedom of action with no provision in its constitution for doing so.
 The commission's members included the sitting justice minister, **Helga
 Pedersen**, who had taken the ministry in 1950 and was the first woman to hold
 it. She argued inside the commission for something the commission did not give
-her, and §04 is about what she lost.
+her, and §06 is about what she lost.
 
 The clause with the longest reach was not written by a member at all. The
 commission put questions to outside lawyers, and **Max Sørensen**, professor of
 public law at Aarhus since 1947 and thirty-eight years old, answered one of them
 with a draft provision allowing Denmark to hand powers to authorities outside
-itself. That draft became §20. It is the subject of §05 and it is the most
+itself. That draft became §20. It is the subject of §07 and it is the most
 consequential paragraph any Dane wrote in the twentieth century.
 
 What the commission chose not to do is as characteristic as what it did. It wrote
@@ -170,7 +166,7 @@ bill, **the Landsting voted for its own abolition.** It held its last sitting tw
 days later, on 15 May.
 
 Chambers do not ordinarily do this, and the book has now watched the same one do
-it twice: in 1915 it voted away the privileged franchise that had created it, and
+it twice: in 1915 it voted away the privileged franchise it had run on since 1866, and
 in 1953 it voted away itself. Both times the argument was the same and it was
 unanswerable. A chamber that no longer represents anything the other chamber does
 not represent cannot explain what it is for.
@@ -201,15 +197,16 @@ relief entail loss of the vote.**
 That is not an abolition. It is a delegation. The constitution stopped naming the
 poor and handed the question to ordinary legislation — and **the sentence is
 still in the Danish constitution today**, doing nothing, available. The poor did
-not get the vote back in 1953. They got it back in 1961, and §10 says so.
+not get the vote back in 1953. They got it back in 1961, and §12 says so.
 
 ---
 
 ## A daughter who could inherit
 
-The royal law of 1665 was agnatic and emphatic: the crown passed through men. By
-1953 that rule was 288 years old and about to collide with a family of three
-girls.
+The succession law of 1853 was agnatic and emphatic: the crown passed through
+men, from Christian 9. down. It had been written to end the crisis of chapter 33,
+and it ended it by writing women out. By 1953 that rule was a hundred years old
+and about to collide with a family of three girls.
 
 If nothing changed, the throne would go on Frederik 9.'s death to his younger
 brother, Prince Knud. Knud was not disliked so much as not wanted, and his nieces
@@ -223,24 +220,23 @@ displace an elder sister. Helga Pedersen argued inside the commission for
 unconditional equality between princes and princesses and did not get it; the
 Conservatives held out for male preference and won.
 
-So the clause that is remembered as the modernising one is also the first time a
-Danish constitution wrote male precedence into the succession *as a considered
-choice* rather than inheriting it from 1665. Before 1953 women were excluded by
-an old law nobody had revisited. After 1953 they were subordinated by a new one
-that had been argued about and voted on.
+So the clause that is remembered as the modernising one also wrote male
+precedence into the succession *as a considered choice*. Before 1953 women were
+excluded by a law made to settle a crisis. After 1953 they were
+subordinated by a new one that had been argued about and voted on.
 
 This book has been here before, from the other side. Chapter 33 set out the
-Kongelov's agnatic rule; chapter 34 is a war that began, in part, in a succession
-crisis — a throne that had to be handed sideways because it could not pass
-through a woman, and a rival claim that took its chance in the gap. **Denmark
-lost two duchies and a fifth of its territory inside a dynastic question about
-female inheritance**, and then took eighty-nine years to change the rule, and
-changed it only half way.
+difference between the Kongelov, which let the crown pass through a woman when
+the male line failed, and the duchies' law, which did not; chapter 34 is a war
+that began, in part, in that difference — a throne that could go one way and two
+duchies that had to go another, and a rival claim that took its chance in the
+gap. **Denmark lost two duchies and a fifth of its territory inside a dynastic
+question about female inheritance**, answered it in 1853 by shutting women out,
+and then took a century to let one in, and let her in only half way.
 
 It lasted **fifty-six years** in that half-changed form. Absolute primogeniture
 came in 2009, by referendum, and Margrethe — who had by then been queen for
-thirty-seven years, which is rather longer than the male line managed between
-1863 and 1947 — signed it.
+thirty-seven years — signed it.
 
 ---
 
@@ -298,7 +294,7 @@ And that second limb — ordinary majority plus the people — is the one Denmar
 actually used.
 
 It was used on **2 October 1972**. Ninety point one per cent of the electorate
-turned out, which is the highest participation in any Danish vote in this book,
+turned out, which is the highest participation in any Danish referendum,
 and **1,958,115 voted yes against 1,135,691** — 63.3 per cent to 36.7. Denmark
 acceded on 1 January 1973.
 
@@ -455,7 +451,7 @@ thousand came.**
 
 ## The composite state, ended
 
-This book has spent forty-three chapters on a state that was never a
+This book has spent forty-four chapters on a state that was never a
 nation-state, and this is the chapter where it becomes one.
 
 Denmark governed Skåne, Halland and Blekinge, and lost them. It governed Estonia
@@ -474,8 +470,8 @@ kingdom's.
 
 By 1953 the three roughly coincide, for the first time in the recorded history of
 the place. Iceland has gone. The Faroes legislate for themselves in listed
-fields. Slesvig's border has been fixed by the people living on it and twice
-declined when it was offered again.
+fields. Slesvig's border has been fixed by the people living on it, and twice
+Denmark has declined to move it when more was within reach.
 
 *Roughly*, though, is doing real work in that sentence. Greenland is inside the
 constitution and was not asked. That is not the composite state ended. It is the
@@ -515,7 +511,7 @@ thing passed by nineteen thousand votes.
 Part I began with a country that had just sold the last of its tropical empire
 and believed that being harmless was a policy, and it ends with one that has
 joined a military alliance, written down how to give its powers away, and stopped
-calling Greenland a colony. Fifty-four years, eight chapters, and the whole of it
+calling Greenland a colony. Fifty-four years, nine chapters, and the whole of it
 is one argument about how small a state can be and still decide things.
 
 The answer the period gives is not flattering and it is not simple. Denmark was
@@ -559,7 +555,7 @@ people approved without discussing it.
 > **Vignette · Christiansborg, 28 May 1953**
 >
 > She is forty-one, a farmer's daughter from Hulby Møllegård outside Korsør, and
-> she is the minister of justice. She was four years old when Danish women got
+> she is the minister of justice. She was not quite four when Danish women got
 > the vote, and she read law in a country that had only just built the first
 > college where a woman student could live.
 >
@@ -573,7 +569,7 @@ people approved without discussing it.
 > she becomes the **first woman judge of the European Court of Human Rights**,
 > and she holds the Danish seat there until she dies in January 1980 — after
 > which it passes to Max Sørensen, who wrote §20, and who dies in it himself
-> twenty-one months later.
+> in October 1981.
 >
 > Two Danes, one clause and one constitution between them, ending in the same
 > chair in Strasbourg.
@@ -595,7 +591,9 @@ people approved without discussing it.
   constitution required a constitutional referendum's yes vote to reach at least
   forty-five per cent of the *whole electorate*, not of those voting. It killed
   the 1939 revision and very nearly killed this one.
-- **grundlovsændring** — *glossed in chapter 33 — reference, do not re-gloss.*
+- **grundlovsændring** — a constitutional amendment: under the constitution of
+  1915, passage by the Rigsdag, a general election, passage again, and then a
+  referendum (chapter 40).
 
 **§04 — the commission**
 - **Forfatningskommissionen af 1946** — the constitutional commission: appointed
@@ -607,14 +605,17 @@ people approved without discussing it.
 - **mindretalsreferendum** — the minority referendum: §42 of the 1953
   constitution, by which one third of the Folketing can send a bill already
   passed to the voters. Used once, in 1963.
-- **Landsting** — *glossed in chapter 33 — reference, do not re-gloss.*
-- **fattighjælp** — *glossed in chapter 35 — reference, do not re-gloss.*
+- **Landsting** — the upper chamber of the Rigsdag since 1849, elected on a
+  privileged franchise from 1866 (chapters 33 and 34).
+- **fattighjælp** — poor relief in the strict sense: after 1933 the residual
+  assistance that still cost the recipient his civil rights (chapter 40).
 
 **§06 — the succession**
 - **tronfølgeloven** — the act of succession: the statute governing who inherits
   the throne. The one of 1953 introduced female succession *conditionally*, a
   daughter inheriting only where there was no son.
-- **Kongeloven** — *glossed in chapter 25 — reference, do not re-gloss.*
+- **Kongeloven** — the King's Law of 1665, the written constitution of absolute
+  monarchy (chapter 25).
 
 **§07 — the door**
 - **suverænitetsafgivelse** — the surrender of sovereignty: the Danish term for
@@ -642,8 +643,10 @@ people approved without discussing it.
   litigation that followed.
 
 **§12 — the count**
-- **de syv F'er** — *glossed in chapters 33 and 37 — reference, do not re-gloss.*
-- **offentlig forsorg** — *glossed in chapter 40 — reference, do not re-gloss.*
+- **de syv F'er** — "the seven F's", the popular name for the categories the 1849
+  franchise excluded (chapters 33 and 37).
+- **offentlig forsorg** — public provision: the 1933 name for what had been poor
+  relief (chapter 40).
 
 ---
 
@@ -710,7 +713,7 @@ Its status changed by a clause in a constitution approved by an electorate that
 did not include Greenlanders, ratified internationally under a criterion Denmark
 itself had proposed to the UN, in the same fortnight that a Greenlandic
 settlement was cleared for an American air base. Whether that is decolonisation
-is the question §07 exists to put.
+is the question §08 and §09 exist to put.
 
 ---
 
@@ -848,7 +851,11 @@ own name in the same fortnight it acted, one last time, exactly as it always had
 - **§42 in practice.** The land-laws referendum of 25 June 1963, the only
   occasion on which a third of the Folketing has sent a passed bill to the
   voters; all four laws were rejected, by 61.6, 61.4, 60.4 and 57.4 per cent.
-- **The succession.** The Kongelov of 1665 for the agnatic rule (chapter 25);
+- **The succession.** The succession law of 1853 for the agnatic rule in force
+  until 1953 — danmarkshistorien.lex.dk, *Grundlovsændringen 1953*, "den
+  hidtidige tronfølgelov" — and the Kongelov of 1665 for the cognatic fallback it
+  replaced, as chapter 33 glosses it (corrected 19 September 2026; the chapter
+  had put the 1953 exclusion under the Kongelov);
   *Dansk Kvindebiografisk Leksikon* for Helga Pedersen's argument inside the
   commission for unconditional female succession and the conditional outcome;
   the 2009 referendum for absolute primogeniture.
@@ -886,7 +893,7 @@ own name in the same fortnight it acted, one last time, exactly as it always had
   thousand Greenlanders who did not vote and were heard through the Landsråd,
   and the General Assembly's acceptance on 8 September 1954. **That Denmark
   proposed the integration criterion to the UN and then used it is stated in that
-  source and is the mechanism §06 turns on.**
+  source and is the mechanism §08 turns on.**
 - **The experiment children and Thule.** Helene Thiesen's account — taken in
   1951 at seven, one of twenty-two, eighteen months at Red Barnet's colony at
   Faxe Ladeplads, forbidden Greenlandic, placed afterwards in a children's home,

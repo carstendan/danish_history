@@ -220,7 +220,7 @@ What the constitution did not do matters as much. Poor-relief recipients stayed
 out until 1933. Convicts stayed out until 1959. Those under guardianship are out
 still.
 
-There was also no election. The sitting Rigsdag served out its term and the first
+There was also no election on the new rolls. The Rigsdag elected in May served out its term and the first
 Folketing election on the new rolls was not held until **1918**. So the first
 national vote in which Danish women and servants cast a ballot was not a general
 election at all. It was a referendum, eighteen months later, on whether to sell a
@@ -511,7 +511,7 @@ flatters the occasion.
 Both sides campaigned hard, on posters and postcards and stamps. The conservative
 case was that the islands could still be made to pay and that Denmark had a
 responsibility for them. It was the better argument, and two-thirds of a
-two-fifths turnout disagreed.
+turnout under two-fifths disagreed.
 
 ---
 
@@ -535,7 +535,7 @@ preferred the other one. The vote had no legal standing whatever. Nobody in
 Copenhagen was obliged to read it and nobody counted it into anything.
 
 That is the composite state in one transaction. Denmark held three islands for
-two hundred and fifty years, freed their people at those people's insistence,
+the better part of two hundred and fifty years, freed their people at those people's insistence,
 bound them by regulation for thirty years afterwards, repealed it only when they
 burned Frederiksted, and sold them at last by a ballot they were absent from —
 while the people most concerned held a vote of their own that nobody had to look
@@ -560,8 +560,6 @@ series: Recall, Causal, Counterfactual, Contested.*
 - **mellemskole** — the middle school created in 1903: four years between the
   primary school and the gymnasium, and the first continuous ladder from a village
   classroom to a university in Danish history.
-- *`Systemskiftet`, `Folketinget`, `Landstinget` and `hartkorn` are glossed in
-  chapters 36, 33 and 26 — reference, do not re-gloss.*
 
 **§02 — the Radicals, 1905**
 
@@ -702,19 +700,19 @@ excluded categories. Poor-relief recipients waited until 1933, convicts until
 
 ## Carry-forward
 
-**→ Part I.** The men of Nordslesvig conscripted in 1914 come home in 1920, to a
+**→ 38.** The men of Nordslesvig conscripted in 1914 come home in 1920, to a
 border drawn by the people who survived.
 
-**→ Part I.** The twenty-five million dollars bought American recognition of
+**→ 44.** The twenty-five million dollars bought American recognition of
 Danish sovereignty over Greenland. Chapter 44 settles what that was worth.
 
-**→ Part I.** The seven categories: poor relief restored in 1933, the voting age
-in 1953.
+**→ 40, 45.** The seven categories: the poor-relief disqualification redefined in
+1933 and ended only in 1961, and the voting age put to the people in 1953.
 
-**→ Part I.** The Landsting kept a quarter of its seats in its own gift and a
+**→ 45.** The Landsting kept a quarter of its seats in its own gift and a
 voting age of thirty-five. Both go in 1953.
 
-**→ Part I.** Zahle's ministry, the war government, meets the king in 1920 and
+**→ 38.** Zahle's ministry, the war government, meets the king in 1920 and
 does not survive the meeting.
 
 ---

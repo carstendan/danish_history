@@ -353,7 +353,7 @@ that mattered more to a farmer near Ringsted than anything decided at Roskilde
 in the same decade.
 
 And it is worth naming what did not change. A large part of Danish farmland was
-still held on *fæste*, copyhold, from an estate; a copyholder paid his dues and
+still held on *fæste*, tenancy, from an estate; a tenant paid his dues and
 in many places still owed *hovarbejde*, labour service, on the landlord's fields.
 He watched the grain price rise and watched somebody else collect the difference.
 The boom did two things at once: it made one part of the countryside solvent and
@@ -368,7 +368,7 @@ The government created the Danish peasant movement by trying to stop it.
 
 Through the early 1840s a movement had been forming on Zealand and Lolland-Falster
 around a single demand: that the state intervene in the relationship between
-landlord and tenant, and ultimately end *fæstevæsenet*, the copyhold system
+landlord and tenant, and ultimately end *fæstevæsenet*, the tenancy system
 itself — the *fæste* of §07, seen from underneath. The demands reached the Roskilde assembly in 1844 and were heard there,
 which was precisely the problem, because Roskilde was where the National Liberals
 sat.
@@ -386,7 +386,7 @@ damage was done, and on 5 May 1846 — six months after it was issued — the
 by landowners' tenants and liberal townsmen together.
 
 Its programme was the fusion of the two groups that made it: the peasants'
-demand for the end of copyhold and for security against the landlord, the
+demand for the end of *fæste* and for security against the landlord, the
 liberals' demand for a constitution, and — added by both — a demand for better
 popular education, which is the awakening's fingerprint on a political document.
 Universal conscription came onto the list too, on the reasoning that a state
@@ -586,16 +586,19 @@ Recall, Causal, Counterfactual, Contested.*
 
 **§06 — four assemblies**
 
-- *`stænderforsamling` is glossed in chapter 25 — cross-reference, do not
-  re-gloss here.*
+- **stænderforsamling** — an assembly of the estates. In 1660 a single meeting
+  of nobility, clergy and burghers (chapter 24); here, the four advisory
+  provincial assemblies of the 1830s, elected by property owners, which could
+  discuss and propose but not decide.
 - **hartkorn** — "hard grain". The Danish unit of taxable land value, by which
   the franchise for the assemblies was set: four tønder of hartkorn to vote in
   the countryside, eight to stand.
 
 **§07 — the countryside gets rich**
 
-- **fæste** — copyhold. Tenure of a farm from an estate in return for dues and,
-  in many places, labour service on the landlord's fields.
+- **fæste** — tenancy: the holding of a farm from an estate for life, in return
+  for dues and, in many places, labour service on the landlord's fields
+  (chapter 17).
 
 **§08 — Bondevennerne**
 

@@ -490,7 +490,6 @@ follow the series: Recall, Causal, Counterfactual, Contested.*
 
 - **lavkonjunktur** — a downturn: the fall in prices and trade that began
   internationally in 1920 and ended the wartime boom.
-- *`gullaschbaron` is glossed in chapter 37 — reference, do not re-gloss.*
 
 **§02 — Sønderjylland**
 
@@ -521,7 +520,6 @@ follow the series: Recall, Causal, Counterfactual, Contested.*
   call-up. Denmark had those of 1909, 1922, 1932 and 1937.
 - **eksistensforsvar** — a defence for national survival, fought to the end, as
   against a neutrality guard meant to mark the border and deter.
-- *`sikringsstyrke` is glossed in chapter 37 — reference, do not re-gloss.*
 
 **§06 — 1924**
 
