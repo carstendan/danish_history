@@ -183,7 +183,7 @@ generate prose reads its text from a UTF-8 file.
 
 **Defined.** `HANDOFF.md`, *Convention D-12*.
 
-### D-13 · A vignette is the particular inside a general section — PROPOSED
+### D-13 · A vignette is the particular inside a general section — in force
 
 **Rule.** A vignette is the particular inside a general section. **When the
 section is named for the vignette's subject or its exact moment, the vignette
@@ -200,8 +200,14 @@ vignette supplies a person inside it".
 was found in the Part I reading (item 139): 42 §03 *The warning* and its Duckwitz
 vignette, which repeats the section's sourcing paragraph.
 
-**Needs.** Carsten's agreement. Once agreed, the six are decided under it in Part
-G/H/E–F order as each part's review comes up.
+**Agreed** by Carsten, 19 September 2026 (review session 2, decision D-D). The
+seven cases are decided under it as each part's review reaches them: 42 §03 with
+Part I; 22 §08 with Part F; 26 §09, 27 §05, 27 §09 and 29 §03 with Part G; 35 §03
+with Part H.
+
+**Checked by.** Reading. `REVIEW-BUILD-FAULTS.md` §4's overlap measure is a way of
+choosing what to read, not a test — it scores healthy vignettes about the same
+subject as high as broken ones.
 
 ### D-14 · Regnal numbers in the Danish style for Scandinavian rulers — PROPOSED, and already applied
 
