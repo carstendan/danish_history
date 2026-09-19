@@ -344,6 +344,8 @@ prose, and if so, whether the declared span should say so.
 
 ## 5. Decisions this opens — for Carsten, one at a time, each with a recommendation
 
+*All four answered on 19 September 2026, with Part I's five: see §6.4.*
+
 **D-A. Unblock chapters 01–15?** `debuild.py extract` recovers their bodies
 losslessly; Part D also needs its ten SVGs written out from the pages. Without it,
 fifteen findings above stay on the pages for good: five stale arrows and prose
@@ -562,3 +564,28 @@ inside the band, and I-1 and I-3 already take words out of the part.*
 - **37 §09** calls the case for keeping the West Indies "the better argument"
   without saying why. A judgement the book should either defend or drop — for the
   Part I prose read Carsten has said he will do.
+
+### 6.4 What was decided — session 2, 19 September 2026
+
+Each decision was put on its own, with its recommendation, and applied before
+the next one was put. One commit each, all pushed.
+
+| decision | answer | where it landed |
+|---|---|---|
+| **D-D** agree D-13 | **yes** | `CONVENTIONS.md`: D-13 in force. The seven cases it names are decided part by part: 42 §03 now (I-3); 22 §08 (F), 26 §09, 27 §05, 27 §09, 29 §03 (G), 35 §03 (H) wait for their parts' reading passes |
+| **I-1** 43 repeats 44 | **yes** | the three repeats cut; the tonnages and the railway column moved to 43's Sources; Bornholm ends on the radio ban |
+| **I-2** 43's order | **yes** | *The policeless country* follows the strike: June 1944, September 1944, March 1945, May 1945. The checks in `build_part_i.py` were re-keyed so none asks about a section not yet read |
+| **I-3** the seventh vignette | **yes** | 42 §03's Duckwitz vignette lost its sourcing paragraph. What is left is the clerk and the date |
+| **I-4** 45's last section | **yes** | retitled *The last of the seven F's*; the closing line anchored to the evening of 28 May |
+| **I-5** 44 and 45 over the advisory | **accepted, and more than accepted** | Carsten's rule, now **D-16**: length is never a reason to cut. Keep what the story needs; move material between chapters where that is better; leave what is good. The 40-minute figure is an advisory, not a limit. No cut was made to 44 or 45 |
+| **D-C** 45's empty carry-forward | **yes** | `mkbody.py` leaves the heading out when the draft has no arrows; `build_part_i.py` requires `no_forward=True` on that chapter and refuses a page where declaration and body disagree, in either direction. Tested both ways |
+| **D-B** Schleswig or Slesvig | **Schleswig**, as recommended | **D-15 in force.** Applied to Part I: 23 prose changes in 37, 38, 44, 45; "Slesvigsk Parti" in 39 and its figure; `figs_38` (Flensburg, Schleswig), `figs_43` (South Schleswig, and a stale section number). Bare "Slesvig" remains in 12, 19, 26–29, 31–34 and 36, 104 times: each part's own pass. The spine maps (`map_*.py`) still label in Danish: a separate decision, not taken |
+| **D-A** unblock 01–15 | **yes** | its own session, next, before the Part A reading. `START_HERE_review_3.md` |
+
+**Still open, and mine** — carried to session 3, unchanged from §6.3: 38's
+Sønderborg arithmetic and Tønder figure (*Statistiske Efterretninger* 1920 nr. 23
+not yet opened); 38 §04's Ribe clause stated as territorial when chapter 19 says
+the reading is disputed; 42's Sources listing 43's open questions.
+
+**Book after the session:** 45 of 45, **336,690 page words**, 26.7 h; Part I
+74,233. The fall from 336,857 is I-1 and I-3.

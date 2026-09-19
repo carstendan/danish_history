@@ -39,9 +39,10 @@ written — see Lessons.
 | H | 32–36 | 1814–1901 | **built, verified, indexed, closed — see `PLAN_H.md`** |
 | I | 37–45 | 1901–1955 | **NINE CHAPTERS, ALL BUILT, VERIFIED AND INDEXED. The boundary pass is done — item 136 — and item 128 is CLOSED.** The 1943–1955 run was repartitioned from three chapters into four at the material's own seams; no chapter in the part is outside the 25–50 band |
 
-**After item 139's rebuild the book is expected at 336,857 page words, 26.7 h**
-— measured on a container rebuild of E–I from a fresh clone, to be confirmed on
-the author's machine by the next cold run. The figures below are item 138's.
+**After item 140 the book is 336,690 page words, 26.7 h; Part I 74,233** —
+read off `bookstats.py` on a fresh clone of the pushed repository, 19 September
+2026. (Item 139's 336,857 fell by the cuts of I-1 and I-3.) The figures below are
+item 138's.
 
 **BOOK COMPLETE: 45 of 45, 336,231 page words, 26.7 h; 0 remaining.** Read off
 `bookstats.py` after `linkindex.py` on 19 September 2026, after the item 138
@@ -4177,6 +4178,44 @@ split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see it
    warnings on the 17th. Both reverted; the second only because the independent
    check caught it. *Before disputing a claim, read what the chapter already has
    for it — including its figures and its neighbour.*
+
+140. **The consistency review, session 2: all nine decisions answered and
+   applied. D-13 and D-15 are in force; D-16 is new — length is never a reason to
+   cut. Chapters 01–15 are to be unblocked next, as their own session.** 19
+   September 2026. Full table in `REVIEW-CONSISTENCY.md` §6.4.
+
+   **Cold run on a fresh clone after item 139's rebuild: every figure matched
+   START_HERE_review_2.** Each decision was then put on its own, answered, applied,
+   verified from a fresh clone and pushed before the next was put. Nine commits.
+
+   - **D-D, yes:** D-13 in force. Six of its seven vignettes wait for their
+     parts (22 §08; 26 §09, 27 §05, 27 §09, 29 §03; 35 §03).
+   - **I-1 to I-4, yes:** 43 no longer repeats 44 (two methodological columns
+     moved to its Sources); *The policeless country* moved into chronological
+     order, with its checks re-keyed; 42's Duckwitz vignette lost the paragraph
+     that restated its section; 45's last section retitled *The last of the seven
+     F's* and its closing line anchored to 28 May.
+   - **I-5, and more: D-16.** Carsten, verbatim: *"do not trim for the sake of
+     time. 1. if it makes sense for the story, keep it. 2. If restructuring /
+     moving between chapters, makes sense, do it 3. if it is good as is, keep it.
+     It is within limits."* The 40-minute advisory is not a reason to cut, and
+     no future session should propose a cut on length alone.
+   - **D-C, yes:** an empty carry-forward is left out, and the build refuses a
+     chapter where the `no_forward` declaration and the body disagree.
+   - **D-B, Schleswig: D-15 in force**, applied to Part I prose and figures.
+     The rest of the book is fixed in each part's pass (104 bare "Slesvig" in
+     eleven chapters). The spine maps still label in Danish: undecided.
+   - **D-A, yes:** next session.
+
+   **Book: 45 of 45, 336,690 page words, 26.7 h.** debuild 30 identical / 15
+   style-only; figcheck 87/41/0; vignettes 89/61; draftnotes clean; appcheck 159;
+   freshcheck 14; seams pass.
+
+   **NOT DONE, carried to session 3:** 38's Sønderborg arithmetic (2,029 − 349 is
+   1,680, not 1,672) and Tønder figure; 38 §04's Ribe clause; 42's Sources listing
+   43's open questions. And **narrative.py marks 17 §08, *Kalmar, 17 June*, OVER
+   at 849 narrative words.** That was there before this review and nothing in it
+   has changed. Under D-16 it is a matter for the Part E reading, not a cut.
 
 ---
 
