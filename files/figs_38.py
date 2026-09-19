@@ -100,8 +100,8 @@ TOWNS = [
     ("Sønderborg", 9.79, 54.91, 2029, 2601, "start", DE),
     ("Tønder",     8.87, 54.94, None, None, "start", DE),
     ("Højer",      8.62, 54.99,  219,  581, "end",   DE),
-    ("Flensborg",  9.44, 54.78, None, None, "start", DE),
-    ("Slesvig",    9.57, 54.56, None, None, "start", DE),
+    ("Flensburg",  9.44, 54.78, None, None, "start", DE),
+    ("Schleswig",    9.57, 54.56, None, None, "start", DE),
 ]
 
 
@@ -118,7 +118,7 @@ def zones():
     H = 52 + mh + 20 + 15 + 13 * len(A) + 3 + 13 * len(B) + 14
     f = M.detail_frame(ZBOX, mw, mh)
     o = ['<svg viewBox="0 0 %d %d" xmlns="http://www.w3.org/2000/svg" role="img" '
-         'aria-label="Map of Slesvig showing the two plebiscite zones of 1920. Zone one, '
+         'aria-label="Map of Schleswig showing the two plebiscite zones of 1920. Zone one, '
          'between the old 1864 border on the Kongeaa and a line running south of Toender '
          'and Tinglev and north of Flensburg, voted on 10 February as a single unit and '
          'returned about three-quarters for Denmark. Zone two, from that line south to a '

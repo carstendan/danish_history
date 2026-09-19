@@ -457,7 +457,7 @@ nation-state, and this is the chapter where it becomes one.
 Denmark governed Skåne, Halland and Blekinge, and lost them. It governed Estonia
 and sold it. It governed Norway for four centuries and was made to hand it over.
 It governed Iceland, the Faroes and Greenland from a parenthesis in article four
-of a constitution written for somewhere else. It governed Slesvig, Holstein and
+of a constitution written for somewhere else. It governed Schleswig, Holstein and
 Lauenburg under three different legal orders at once, and that arrangement
 destroyed it. It governed three islands in the Caribbean with slave labour and
 sold them for twenty-five million dollars.
@@ -470,7 +470,7 @@ kingdom's.
 
 By 1953 the three roughly coincide, for the first time in the recorded history of
 the place. Iceland has gone. The Faroes legislate for themselves in listed
-fields. Slesvig's border has been fixed by the people living on it, and twice
+fields. Schleswig's border has been fixed by the people living on it, and twice
 Denmark has declined to move it when more was within reach.
 
 *Roughly*, though, is doing real work in that sentence. Greenland is inside the

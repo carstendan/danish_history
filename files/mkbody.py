@@ -961,7 +961,7 @@ HAND = {
           "2,187, of which the last 331 were Soviet. The gap between the Danish request "
           "and the Soviet departure is 32 days, and is marked."),
          ("s06", "SVG_SYDSLESVIG",
-          "Figure 3 \u00b7 South Slesvig: members, meals and votes, 1945\u20131954",
+          "Figure 3 \u00b7 South Schleswig: members, meals and votes, 1945\u20131954",
           "Three series that are not on one scale and are not drawn as though they were. "
           "Each is indexed to its own first reading, and the food line is dashed because "
           "its endpoints are two years apart from the others'. The argument is the shape, "

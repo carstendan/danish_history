@@ -253,7 +253,7 @@ At the election of Friday 11 April 1924 the party became the largest in the
 Folketing, in votes and in seats, for the first time. It would stay the largest
 at every election until 2001. The Statistical Department's count was 55 Social
 Democrats, 44 Venstre, 28 Conservatives, 20 Radicals and one member for the
-Slesvig Party, 148 in all, with a Venstre member returned unopposed for the
+Slesvigsk Parti, 148 in all, with a Venstre member returned unopposed for the
 Faroes to make 149. Turnout was 78.6 per cent.
 
 The machinery that turned those votes into seats was new, made by the electoral

@@ -41,7 +41,7 @@ Venstre had been one thing while it was out of power. In office it was three.
 
 The party that took government in 1901 held Zealand landowners' sons and west
 Jutland schoolmasters, rifle-club veterans and Copenhagen editors, men who wanted
-an army and men who thought armies had lost Denmark Slesvig. What held them
+an army and men who thought armies had lost Denmark Schleswig. What held them
 together was Estrup, and he was gone.
 
 The break came over defence and was widened by Alberti. In 1905 the government

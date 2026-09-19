@@ -1,4 +1,4 @@
-<svg viewBox="0 0 700 414" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The Folketing elected on 11 April 1924, drawn as 149 squares, one per seat: 55 Social Democrats, 20 Radicals, 44 Venstre plus one Venstre member for the Faroes, 28 Conservatives and one member for the Slesvig Party. Social Democrats and Radicals together fill the first three rows, 75 seats, a majority of one. In 1884 the Social Democrats had two seats.">
+<svg viewBox="0 0 700 414" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The Folketing elected on 11 April 1924, drawn as 149 squares, one per seat: 55 Social Democrats, 20 Radicals, 44 Venstre plus one Venstre member for the Faroes, 28 Conservatives and one member for the Slesvigsk Parti. Social Democrats and Radicals together fill the first three rows, 75 seats, a majority of one. In 1884 the Social Democrats had two seats.">
   <rect x="0" y="0" width="700" height="414" fill="#F4F1EA"/>
   <text x="14" y="24" class="mapl">THE FOLKETING OF 11 APRIL 1924</text>
   <text x="14" y="40" class="mapt">one square a seat: the party of two seats in 1884 is now the largest</text>
@@ -166,7 +166,7 @@
   <rect x="14" y="318" width="12" height="12" fill="#2F4C7A" opacity="1.0"/>
   <text x="34" y="328" class="mapx">Conservatives · 28</text>
   <rect x="364" y="318" width="12" height="12" fill="#5F6157" opacity="1.0"/>
-  <text x="384" y="328" class="mapx">Slesvig Party · 1</text>
+  <text x="384" y="328" class="mapx">Slesvigsk Parti · 1</text>
   <text x="14" y="358" class="mapx">148 seats on the mainland and one for the Faroes. Turnout 78.6 per cent. Source: the Statistical Department's count,</text>
   <text x="14" y="371" class="mapx">whose two tables agree.</text>
   </svg>

@@ -222,7 +222,7 @@ be rebuilt yet.
 
 **Defined.** Here. Evidence in `REVIEW-CONSISTENCY.md` §2.1.
 
-### D-15 · Place names — PROPOSED, needs Carsten (REVIEW-CONSISTENCY D-B)
+### D-15 · Place names — in force
 
 **Rule as proposed.** *Schleswig* for the duchy and the region throughout; Danish
 forms only where they are Danish words or names (*Sydslesvig*, *Slesvigsk Parti*,
@@ -239,7 +239,16 @@ drafting session rather than by rule (§2.2 of the review), and the same drift r
 through Flensburg/Flensborg, Holstein/Holsten and the rest. An English-language book
 whose chapter titles and index already say "Schleswig" should say it in the prose.
 
-**Defined.** Here, once agreed. Applied part by part with each reading pass.
+**Agreed** by Carsten, 19 September 2026 (decision D-B), with "Dithmarschen"
+for the misspelling "Ditmarschen" in 19–21. Party and newspaper names keep their
+Danish form: *Slesvigsk Parti* (not "Slesvig Party"), *Flensborg Avis*.
+
+**Applied** to Part I on the day it was agreed: 37, 38, 44 and 45 in prose, 39's
+"Slesvig Party", and three figures — `figs_38` (map labels Flensburg, Schleswig),
+`figs_39` (Slesvigsk Parti), `figs_43` (South Schleswig, and a stale "section 07"
+that is §06). Every other part takes it in its own reading pass. Maps (`map_*.py`)
+label in Danish throughout and are left for a decision of their own when Part A–D
+maps are next touched.
 
 ### D-16 · Length is never a reason to cut — in force
 

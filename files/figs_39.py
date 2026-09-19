@@ -235,7 +235,7 @@ def krak():
 # ------------------------------------------------------------------ figure 3
 SEATS = [("Social Democrats", 55, OX, 1.0), ("Radicals", 20, DE, 1.0),
          ("Venstre", 44, DK, 1.0), ("Venstre, Faroes", 1, DK, .45),
-         ("Conservatives", 28, IND, 1.0), ("Slesvig Party", 1, GREY, 1.0)]
+         ("Conservatives", 28, IND, 1.0), ("Slesvigsk Parti", 1, GREY, 1.0)]
 PER_ROW = 25
 
 
@@ -267,7 +267,7 @@ def ting():
     o = ['<svg viewBox="0 0 %d %d" xmlns="http://www.w3.org/2000/svg" role="img" '
          'aria-label="The Folketing elected on 11 April 1924, drawn as 149 squares, one per seat: '
          '55 Social Democrats, 20 Radicals, 44 Venstre plus one Venstre member for the Faroes, '
-         '28 Conservatives and one member for the Slesvig Party. Social Democrats and Radicals '
+         '28 Conservatives and one member for the Slesvigsk Parti. Social Democrats and Radicals '
          'together fill the first three rows, 75 seats, a majority of one. In 1884 the Social '
          'Democrats had two seats.">' % (W, H)]
     o.append('<rect x="0" y="0" width="%d" height="%d" fill="%s"/>' % (W, H, PAPER))

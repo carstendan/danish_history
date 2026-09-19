@@ -1,6 +1,6 @@
-<svg viewBox="0 0 700 324" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="South Slesvig, 1945 to 1954, as multipliers between two readings. Members of the Danish organisation multiply about twenty-three times, pupils about thirty, people fed by Danish relief about twenty-one - and the Danish vote falls to about four tenths of itself.">
+<svg viewBox="0 0 700 324" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="South Schleswig, 1945 to 1954, as multipliers between two readings. Members of the Danish organisation multiply about twenty-three times, pupils about thirty, people fed by Danish relief about twenty-one - and the Danish vote falls to about four tenths of itself.">
   <rect x="0" y="0" width="700" height="324" fill="#F4F1EA"/>
-  <text x="14" y="24" class="mapl">SOUTH SLESVIG: MEMBERS, MEALS AND VOTES</text>
+  <text x="14" y="24" class="mapl">SOUTH SCHLESWIG: MEMBERS, MEALS AND VOTES</text>
   <text x="14" y="40" class="mapt">the multiplier between each series' two published readings, on a logarithmic scale</text>
   <text x="14" y="62" class="mapx" opacity=".75">Three things multiplied by about the same amount. Then one of them went back.</text>
   <line x1="309.0" y1="102" x2="309.0" y2="250.0" stroke="#5F6157" stroke-width=".5" opacity=".35"/>
@@ -33,6 +33,6 @@
   <text x="232.2" y="242.0" class="mapx" text-anchor="end" opacity=".75">99,500 (1947) to 42,242 (1954)</text>
   <text x="14" y="264" class="mapx" opacity=".85">Each row is a MULTIPLIER between two readings, not a curve: every series here has two published points and joining them</text>
   <text x="14" y="277" class="mapx" opacity=".85">with a line would draw a trajectory nobody measured. The periods differ and are printed on each row. The membership and</text>
-  <text x="14" y="290" class="mapx" opacity=".85">the food relief multiply by 22.8 and 21.4 over overlapping periods, which is the coincidence section 07 is about; the</text>
+  <text x="14" y="290" class="mapx" opacity=".85">the food relief multiply by 22.8 and 21.4 over overlapping periods, which is the coincidence section 06 is about; the</text>
   <text x="14" y="303" class="mapx" opacity=".85">vote then falls to 0.42 of itself in seven years.</text>
   </svg>

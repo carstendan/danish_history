@@ -313,7 +313,7 @@ just got an island back does not test how far the words reach.
 
 ## The border Denmark did not move
 
-South Slesvig came back in 1945 in a way nobody had planned for.
+South Schleswig came back in 1945 in a way nobody had planned for.
 
 The Danish minority there had been small and beleaguered for twenty-five years.
 In May 1945 its organisation had **three thousand** members. By January 1947 it
@@ -323,14 +323,14 @@ Danish list took **99,500 votes** — a third of the vote in Schleswig, and more
 than half among the people who had lived there before the war.
 
 That last qualification is the difficulty, and without its denominator it
-misleads. South Slesvig's population had gone from 383,000
+misleads. South Schleswig's population had gone from 383,000
 before the war to 703,500 by mid-1948, because Germany's expelled millions had to
 go somewhere and Schleswig-Holstein took nearly a million of them. Denmark asked
 Britain to move the refugees out, and Britain refused. The Danish-minded were a
 majority of the natives and a minority of the inhabitants.
 
 And the movement's own numbers tell a second story. Danish food relief in South
-Slesvig went from 3,700 recipients in July 1945 to **79,000 in August 1947**, a
+Schleswig went from 3,700 recipients in July 1945 to **79,000 in August 1947**, a
 curve that tracks the membership curve almost exactly. The German word for it was
 *Speckdäne* — bacon Dane — and it was a slur coined at the plebiscite of 1920,
 not an observation made in 1946. But between 1947 and 1954 the Danish vote fell
@@ -375,7 +375,7 @@ Denmark told the British the same thing.
 That is not a first refusal. It is one doctrine, held for twenty-seven years,
 with a primary document at every node: **Denmark will not take Germans who do not
 want to be Danish** — and it was formulated, precisely, by the generation that
-had spent fifty years wanting Slesvig back. The thread that runs from Ribe in
+had spent fifty years wanting Schleswig back. The thread that runs from Ribe in
 1460 through 1864 and 1920 does turn over here — because a country that had
 defined itself by a lost province decided twice, in 1919 and in 1946, that it did
 not want it back on the only terms available.
@@ -562,7 +562,7 @@ third of the kingdom.
   most of what needs saying about that occupation's character.
 
 **§06 — the border**
-- **Sydslesvig** — South Slesvig: the part of the duchy that stayed German after
+- **Sydslesvig** — South Schleswig: the part of the duchy that stayed German after
   the plebiscites of 1920, between the new frontier and the Eider.
 
 **§07 — Marshall aid**
@@ -643,7 +643,7 @@ thirty-two days after Denmark asked. The delay was Danish: liberation on 5 May
 was granted withdrawal at once. Ten months of the eleven-month occupation ran
 while Copenhagen had not yet put the question.
 
-**"In 1946 Denmark turned down the offer of South Slesvig."** What the primary
+**"In 1946 Denmark turned down the offer of South Schleswig."** What the primary
 record carries is a British enquiry whether Denmark *wished to exert itself to
 secure* a frontier rectification. That is an invitation to make a case, not a
 province on a table, and the three-option version told in Denmark cannot be
@@ -712,7 +712,7 @@ Bornholm was held by the Red Army for eleven months and handed back on one
 written condition, that Denmark garrison it without foreign troops or foreign
 administrators. Denmark did not ask for the island until 4 March 1946, ten months
 after its own liberation, and the Soviet Union was gone thirty-two days later. In
-South Slesvig the Danish organisation went from three thousand members to 68,317
+South Schleswig the Danish organisation went from three thousand members to 68,317
 and the Danish vote to 99,500, and in October 1946 Denmark declined to ask
 Britain for a frontier further south. That refusal was not the first: in 1919 the
 Danish envoy had asked the peace conference to strike out a third plebiscite zone
@@ -747,7 +747,7 @@ in a New York hotel room to buy Greenland outright and was refused.
 
 1. Explain why forty-six men were shot and seventy-five *værnemagere* went to
    prison, using the statute rather than the public mood.
-2. The Danish vote in South Slesvig rose to 99,500 in 1947 and fell to 42,242 by
+2. The Danish vote in South Schleswig rose to 99,500 in 1947 and fell to 42,242 by
    1954. Set out the available explanations, and say which of them the food
    figures support and which they do not.
 3. Norway convicted 16,083 women and Denmark 644. Account for the difference
@@ -831,7 +831,7 @@ in a New York hotel room to buy Greenland outright and was refused.
   mainland was occupied 1,852 days and Bornholm 2,187, a difference of 335; the
   Soviet occupation ran 331 days; Denmark waited 303 days before asking, and the
   Soviet Union was gone 32 days after the note.**
-- **South Slesvig.** Grænseforeningen and *Sønderjyllands historie* for the
+- **South Schleswig.** Grænseforeningen and *Sønderjyllands historie* for the
   membership, the schools, the Landtag votes of 1947 and 1954, the food relief
   and the population. **The British enquiry is taken from Hansard rather than
   from the Danish retellings** — the statements to the Commons in March and

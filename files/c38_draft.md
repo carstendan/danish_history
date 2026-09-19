@@ -91,13 +91,13 @@ of Tønder and Tinglev and north of Flensburg, and that anywhere further south b
 allowed to vote if its own people demanded it. Both halves were granted.
 
 The Clausen line is worth a moment. It is named after H. V. Clausen, a Copenhagen
-schoolmaster and amateur topographer who had walked Slesvig parish by parish in
+schoolmaster and amateur topographer who had walked Schleswig parish by parish in
 the 1890s recording where Danish was spoken at home, and had drawn a line on that
 evidence long before anybody could act on it. The border Denmark holds today is
 within a few kilometres of a line a private scholar drew on foot, thirty years
 early, for no official body at all.
 
-Articles 109 to 114 of the Treaty of Versailles wrote it into the peace. Slesvig
+Articles 109 to 114 of the Treaty of Versailles wrote it into the peace. Schleswig
 would be divided into voting zones. An International Commission would take over
 the administration, German troops and officials would withdraw, and the people
 would vote. Whatever they decided, the border would follow.
@@ -123,7 +123,7 @@ everybody involved knew it.
 
 Zone I — Nordslesvig, from the Kongeå down to a line just north of Flensburg —
 would vote **en bloc**. One count, one answer, the whole zone going one way. Zone
-II — Flensburg and the country around it, down to a line north of Slesvig town —
+II — Flensburg and the country around it, down to a line north of Schleswig town —
 would vote **commune by commune**, each parish counted separately, and would be
 assigned accordingly.
 
@@ -157,11 +157,11 @@ over on the strength of it was to ratify what 1864 had done.
 Both were arguments about the same thing: whether nationality is what people say
 it is, or something underneath that can be measured against what they say.
 
-The book has been here before. In 1460 the Ribe settlement bound Slesvig and
+The book has been here before. In 1460 the Ribe settlement bound Schleswig and
 Holstein to be *up ewig ungedeelt* — forever undivided — and the promise was made
 to a nobility, by a king who needed their votes, about land whose inhabitants
 were not consulted and would not have been understood to have a view. Every
-Slesvig crisis in this book since has been an argument about who that promise was
+Schleswig crisis in this book since has been an argument about who that promise was
 made to. **In 1920 it is finally answered by asking them, and the answer divides
 the thing that was sworn to be undividable.** Four hundred and sixty years, and
 the resolution is not a better reading of the charter. It is a decision to stop
@@ -259,7 +259,7 @@ about seventy-five per cent German and twenty-five per cent Danish — somewhere
 near twenty-seven thousand votes against somewhere near nine thousand.
 
 Twenty-five per cent is not a small number. It is one person in four in the
-largest town in Slesvig, and it is close to the German share of Zone I that
+largest town in Schleswig, and it is close to the German share of Zone I that
 Denmark had just absorbed. Each side ended the two votes holding roughly a quarter
 of the other's people.
 
@@ -479,7 +479,7 @@ years being used. Both were still there in 1940 when the question of what a
 minority is for became a great deal sharper.
 
 And there were people the vote produced who belonged to neither. The treaty
-tied nationality to the border, and men who had been born in Slesvig, served in
+tied nationality to the border, and men who had been born in Schleswig, served in
 the German army, and found themselves after 1920 on the wrong side of a line
 their papers did not recognise spent years as *hjemløse* — homeless in the legal
 sense, holding a passport from no country, unable to work where they lived or to
@@ -504,7 +504,7 @@ series: Recall, Causal, Counterfactual, Contested.*
 
 **§01 — November 1918**
 
-- **Nordslesvig** — North Slesvig: the northern part of the duchy, the area that
+- **Nordslesvig** — North Schleswig: the northern part of the duchy, the area that
   became Danish in 1920. *Sønderjylland* is the same ground under the name Danish
   writers prefer, and the two words carry an argument, which is why this chapter
   uses whichever one the person speaking would have used.
@@ -570,7 +570,7 @@ series: Recall, Causal, Counterfactual, Contested.*
 
 ## Meanwhile in Europe
 
-**Versailles and the other plebiscites, 1920–21.** Slesvig was one of six border
+**Versailles and the other plebiscites, 1920–21.** Schleswig was one of six border
 plebiscites the peace settlement ordered. Allenstein and Marienwerder voted in
 July 1920, Carinthia in October, Upper Silesia in March 1921, Sopron in December.
 Denmark's is the only one that produced a border nobody afterwards tried to
@@ -608,7 +608,7 @@ entitled to — he was — but what stops a thing that is permitted.
 ## Myth-check
 
 **"Genforeningen — the Reunion."** Nordslesvig had never been part of the Kingdom
-of Denmark. It was the northern half of the duchy of Slesvig, held by the Danish
+of Denmark. It was the northern half of the duchy of Schleswig, held by the Danish
 king as duke, governed under its own law, and lost in 1864 from a composite state
 rather than from the kingdom. In 1920 it joined the kingdom for the first time.
 The Danish word for 1920 asserts a prior union that this book has spent eight
@@ -667,7 +667,7 @@ left without a war, and the only constitutional settlement in this book that was
 built with an exit in it.
 
 Denmark asked at Versailles for less than it could have had. The treaty divided
-Slesvig into two voting zones, and the rule for counting them was not the same:
+Schleswig into two voting zones, and the rule for counting them was not the same:
 Zone 1 en bloc, Zone 2 commune by commune. That asymmetry, and not the campaign
 or the votes, is what fixed the border, and everybody involved knew it before
 anyone voted.

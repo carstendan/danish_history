@@ -6,7 +6,7 @@ note said the fix was to convert the schematics into data figures, and that is
 what is built here. "Bornholm: liberated last, occupied longest" becomes an axis
 in days computed from the dates; "Which way to lean, 1945-49" is dropped, because
 a schematic of a decision is a diagram of an argument and not evidence for it,
-and South Slesvig - which has real series - takes its place.
+and South Schleswig - which has real series - takes its place.
 
 FIGURE 1 · What the 13,521 convictions were for.
   Source: lex.dk, "retsopgoeret i Danmark", the official table at final instance.
@@ -38,7 +38,7 @@ FIGURE 2 · Bornholm: occupied 335 days longer.
   "N years" as a claim; the cheapest way to keep that promise in a figure is to
   make the figure do the arithmetic.
 
-FIGURE 3 · South Slesvig: members, meals and votes, 1945-1954.
+FIGURE 3 · South Schleswig: members, meals and votes, 1945-1954.
   EVERY SERIES HERE HAS TWO READINGS, NOT A CURVE, and drawing two points joined
   by a line would assert a trajectory nobody measured. So the figure draws the
   MULTIPLIER between the two readings, on a log axis about 1, with both readings
@@ -414,7 +414,7 @@ def sydslesvig():
             "here has two published points and joining them with a line would draw a "
             "trajectory nobody measured. The periods differ and are printed on each "
             "row. The membership and the food relief multiply by %.1f and %.1f over "
-            "overlapping periods, which is the coincidence section 07 is about; the "
+            "overlapping periods, which is the coincidence section 06 is about; the "
             "vote then falls to %.2f of itself in seven years."
             % (mults[0], mults[2], mults[3]))
     note_lines = fold(note, "mapx", 14, W)
@@ -423,12 +423,12 @@ def sydslesvig():
     H = NOTE_TOP + len(note_lines) * 13 + 8            # HEIGHT COMPUTED
 
     o = ['<svg viewBox="0 0 %d %d" xmlns="http://www.w3.org/2000/svg" role="img" '
-         'aria-label="South Slesvig, 1945 to 1954, as multipliers between two readings. '
+         'aria-label="South Schleswig, 1945 to 1954, as multipliers between two readings. '
          'Members of the Danish organisation multiply about twenty-three times, pupils '
          'about thirty, people fed by Danish relief about twenty-one - and the Danish '
          'vote falls to about four tenths of itself.">' % (W, H)]
     o.append('<rect x="0" y="0" width="%d" height="%d" fill="%s"/>' % (W, H, PAPER))
-    header(o, "SOUTH SLESVIG: MEMBERS, MEALS AND VOTES",
+    header(o, "SOUTH SCHLESWIG: MEMBERS, MEALS AND VOTES",
            "the multiplier between each series' two published readings, "
            "on a logarithmic scale",
            "Three things multiplied by about the same amount. Then one of them "
