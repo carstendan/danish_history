@@ -1114,11 +1114,23 @@ def sections(body):
 
 
 def apparatus_part(app, heading):
+    """The markdown under `## heading`, up to the next `##`.
+
+    A `---` RULE IS NOT TEXT, and it is removed here rather than in each
+    builder. The drafts close every apparatus block with a markdown rule before
+    the next heading. The Questions builder appends any unnumbered line to the
+    question above it, and the Sources builder splits items on `- ` and `**`,
+    which `---` is neither - so the rule was printed as the end of the last
+    question on twenty pages and the end of the last source on twenty-one, as a
+    literal "---". `paras()` already skipped a bare rule, which is why the other
+    blocks never showed it.
+    """
     m = re.search(r'^## %s\s*$' % re.escape(heading), app, re.M)
     if not m:
         return ""
     nxt = re.search(r'^## ', app[m.end():], re.M)
-    return app[m.end():m.end() + (nxt.start() if nxt else len(app))]
+    blk = app[m.end():m.end() + (nxt.start() if nxt else len(app))]
+    return re.sub(r'^[ \t]*-{3,}[ \t]*$', '', blk, flags=re.M)
 
 
 # ---------------------------------------------------------------- inline md
