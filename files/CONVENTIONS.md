@@ -217,8 +217,10 @@ numerals: Frederick II of Prussia, George III.
 
 **Reason.** It is what the book does — 409 Danish-style regnal numbers on the
 pages at `c5775cf`, counted, not estimated — and it has never been written down. The review found seven Roman forms for Scandinavian kings in Parts G and I
-and fixed them to the majority; five more are on pages 05, 07 and 10, which cannot
-be rebuilt yet.
+and fixed them to the majority; four more — not five, recounted — were on pages 05,
+07 and 10 and were fixed in review session 3, when those pages could be rebuilt. 13's
+two "Frederick II" are the Emperor and are right. No page now has a Roman form for a
+Scandinavian ruler.
 
 **Defined.** Here. Evidence in `REVIEW-CONSISTENCY.md` §2.1.
 

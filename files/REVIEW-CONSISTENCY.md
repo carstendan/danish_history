@@ -20,8 +20,8 @@ the page text, and where it cites the ledger, against `HANDOFF.md`.*
 
 | chapters | source | a fix goes into | state |
 |---|---|---|---|
-| 01–11 | none in the repo | — | **blocked**: no body (`tidy` §4) |
-| 12–15 | none; `e12`–`e15` missing, ten SVGs with no generator | — | **blocked** (open item 3) |
+| 01–11 | none in the repo | — | ~~**blocked**: no body (`tidy` §4)~~ **unblocked, session 3**: `c01`–`c11_body.html`, authored; `build_parts_abc.py` |
+| 12–15 | none; `e12`–`e15` missing, ten SVGs with no generator | — | ~~**blocked** (open item 3)~~ **unblocked, session 3**: `c12`–`c15_body.html`, authored, and eleven `svg_*.txt` written out of the pages; `build_part_d.py` |
 | 16–24 | `cNN_body.html`, **authored**, no draft exists | the body | fixable; rebuild E and F |
 | 25–31 | `PART_G_DRAFT.md` | the draft | fixable; `mkbody` then G |
 | 32–45 | `cNN_draft.md` | the draft | fixable; `mkbody` then H/I |
@@ -116,7 +116,10 @@ convention.** Recorded so the whole-book read does not rediscover it.
 
 03 *landnam* (§01, §03), 03 *langhus* (§04, §10), 14 *Danehof* (§04, §05 — the first
 entry even says "It becomes central in the next section", which then glosses it
-again). All three are on blocked pages.
+again). All three are on blocked pages. **Fixed, session 3**: in each pair the gloss that
+stands at the term's first use in prose was kept and the other folded into it — *landnam* §03
+(it is not used in §01's prose at all), *langhus* §04, *Danehof* §05 (the §04 entry was a
+forward note: "It becomes central in the next section").
 
 ---
 
@@ -136,9 +139,9 @@ The book writes Danish and Scandinavian kings in the Danish style — "Christian
 | 44 | Christian X ×2 | — | **fixed** |
 | 41 | Haakon VII | (Karl 12., Karl 10. Gustav elsewhere) | **fixed**: Haakon 7. |
 | 31 | Gustav IV Adolf | | **fixed**: Gustav 4. Adolf |
-| 05 | Frederik VI ×2 | | blocked |
-| 07 | Christian IV | | blocked |
-| 10 | Frederik VII | | blocked |
+| 05 | Frederik VI ×2 | | **fixed**, session 3 |
+| 07 | Christian IV | | **fixed**, session 3 |
+| 10 | Frederik VII | | **fixed**, session 3 |
 
 Chapter 22's hit ("Jens Christian V. Johansen", a historian) is a name, not a king.
 
@@ -254,11 +257,11 @@ chapters short. Each read against its target:
 
 | page | arrow or prose | points at | should be | state |
 |---|---|---|---|---|
-| 04 | → 27, 29 "The overseas empire…", "The flourishing trade period…" | the Sound war; Struensee | 30, 31 → **Part G** | blocked |
-| 06 | → 27 "The overseas empire and the slave trade" | the Sound war | 30 → **Part G** | blocked |
-| 07 | → 31 "Golden Age and national awakening" | the Napoleonic wars | 32 → **Part H** | blocked |
-| 06 §01 | "the Napoleonic wars in 30" | the Atlantic | **31** | blocked |
-| 07 §03 | "chapter 31 will pick the thread up when it deals with the Golden Age" | | **32** | blocked |
+| 04 | → 27, 29 "The overseas empire…", "The flourishing trade period…" | the Sound war; Struensee | 30, 31 → **Part G** | **fixed**, session 3: the arrow's own text names the Sound Dues and the neutrality trade, so `→ Part E, Part G` |
+| 06 | → 27 "The overseas empire and the slave trade" | the Sound war | 30 → **Part G** | **fixed**, session 3 |
+| 07 | → 31 "Golden Age and national awakening" | the Napoleonic wars | 32 → **Part H** | **fixed**, session 3 — and it was insolvent at any number: 32 names Oehlenschläger once, at the head of a list, and never the horns. The arrow and 07 §03 now promise only that the Golden Age is Part H's subject |
+| 06 §01 | "the Napoleonic wars in 30" | the Atlantic | **31** | **fixed**, session 3: the numbers dropped from the whole list (18, 20, 30), which is D-1 extended to prose |
+| 07 §03 | "chapter 31 will pick the thread up when it deals with the Golden Age" | | **32** | **fixed**, session 3, as the arrow above |
 | 18 | → 28 "The Bergen treaty of 1450 ties Norway to Denmark until 1814" | the bound countryside | → **Part G** | **fixed** |
 | 18 §10 | "until 1814, which is chapter 28" | | Part G | **fixed** |
 
@@ -274,6 +277,14 @@ did not.** Rewriting correct arrows to part letters buys nothing now; rewriting
 them when their pages are next rebuilt is free. The two in chapter 20 are fixed
 with 4.1 because the ledger already prescribes them. The rest are listed for when
 Parts A–D are unblocked.
+
+**Fixed, session 3**, each read against its target first: `2 → 5, Part C`; `6 → 9,
+Part E`; `9 → Part E`; `14 → 20, Part F, Part G` (and its quoted "title", which was a
+description, is now 20's title; "every Danish king" is "nearly every", as 14's own
+glossary says); `15 → Part G, Part I` (30 does carry the Tranquebar and Guinea sales);
+`17 → Part G`. Two more the sweep cannot see, because they sit in Thread notes: 07 and
+08 both said 1864 was "chapter 33". It is 34; both now say Part H. And 08's discussion
+question pointed at "the colonial period of chapter 27", now Part G.
 
 ### 4.4 Chapter 37 points at its own part five times
 
@@ -300,6 +311,17 @@ the index spine, the footer of the previous page and every arrow into them say
 "Pre-Roman Iron Age: bogs, war-boats and the Celtic world"; the page's own heading
 says "Bogs, war-boats and the Celtic world". Same for 06 and 07. That looks like a
 retitling made on the heading only. Blocked pages; recorded.
+
+**Fixed, session 3, in the direction of the title**: the title is what the index, the
+footers and every arrow use, and every other page's `<h1>` is its title. Chapter 07's
+filename (`gold-catastrophe-and-a-people-with-a-name`) keeps the heading's wording; it
+is a URL and is not renamed.
+
+**Found beside it, session 3: pages 18, 19 and 20 carried the wrong number in
+`<title>`** — "17 ·", "18 ·", "19 ·", the browser tab only; crumb, footer and index were
+right. Residue of the August renumbering. Check 9 strips the number before comparing,
+so it could not see this; `sweep_arrows.py` now has a check 9b for it. Fixed in the
+three authored bodies.
 
 ### 4.6 Forms the cross-reference table does not list
 

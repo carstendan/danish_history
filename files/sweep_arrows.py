@@ -33,6 +33,7 @@ census and it was done by grep handle and by hand; this reads every
   8. FOOTERS. "next: N - Title, span" must name the next chapter's current title.
   9. H1. The <h1> on the page against the <title> and index spine title, which
      are the ones arrows and footers quote.
+  9b. The number at the head of <title> against the page's own number.
 
 Standard library only.
 """
@@ -102,6 +103,13 @@ def main():
         return re.sub(r",\s*(?:c\.\s*)?[\d,]+(?:\s*BCE)?\s*[\u2013-].*$|,\s*\d{4}$", "", t).strip()
     TITLE = {p.n: doc_title(p) for p in pages}
     h1_rows = [(p.n, p.title, TITLE[p.n]) for p in pages if fold(p.title) != fold(TITLE[p.n])]
+    # doc_title() throws the number away, so a <title> carrying the wrong
+    # number passed check 9. Pages 18, 19 and 20 said 17, 18 and 19 in the
+    # browser tab from the August renumbering until review session 3.
+    def title_no(p):
+        m = re.search(r"<title>\s*(\d+)\s*·", p.html)
+        return int(m.group(1)) if m else None
+    num_rows = [(p.n, title_no(p)) for p in pages if title_no(p) != p.n]
     last = max(P)
 
     rows = {k: [] for k in ("form", "direction", "d1", "d1info", "title", "solvency", "empty",
@@ -256,6 +264,13 @@ def main():
     for r in h1_rows:
         print("  %2d  h1: %s\n      title: %s" % r)
     print("  %d" % len(h1_rows))
+    print()
+    print("=" * 78)
+    print("9b. <title> carries the wrong chapter number")
+    print("=" * 78)
+    for r in num_rows:
+        print("  %2d  <title> says %s" % r)
+    print("  %d" % len(num_rows))
     if show_ok:
         print()
         print("SOLVENT")
