@@ -693,12 +693,8 @@ country, and with the country largely agreeing.
 - **Open questions this chapter carries.** The start of the August unrest is
   dated four ways. The Danish dead of 29 August are 23 or 24 and the wounded
   three numbers. The Freedom Council's founding membership is recorded three ways
-  by three respectable sources. The railway sabotage column adds to 1,527 against
-  a published 1,526. The date Copenhagen went back to work in July 1944 is 3, 4
-  or 5 July and the Council's final proclamation is not published anywhere
-  reachable. The "Niels" of Kim Malthe-Bruun's last letter is not on the
-  memorial roll. The number Ellen Nielsen helped is given from two to seven
-  hundred and is documented nowhere.
+  by three respectable sources. The number Ellen Nielsen helped is given from two
+  to seven hundred and is documented nowhere.
 - **Paul Aron Sandfort.** Born Paul Efim Rabinowitsch in Hamburg on 12 July 1930
   to Aron Rabinowitsch and Maria Warschavsky; brought to Copenhagen in 1936 by
   his mother and stepfather; trumpet in the Tivoli Boys' Guard. Caught attempting

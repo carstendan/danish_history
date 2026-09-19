@@ -681,6 +681,11 @@ spoil the liberation.
   published total of 2,801. The railway column does not: its four figures add to
   1,527 against a published 1,526, and it is printed unadjusted, because a series
   quietly fitted to its own total is worth less than one that has not been.
+- **Open questions this chapter carries.** The day Copenhagen went back to work
+  in July 1944 is the 3rd, the 5th, or ordered on the 4th and obeyed on the 5th,
+  and the Council's final proclamation is not published anywhere reachable. The
+  "Niels" of Kim Malthe-Bruun's last letter is not on the memorial roll. And the
+  two columns above.
 - **Bornholm.** lex.dk's *Bornholms besættelse 1940–1946* for the raids, the
   landing and the eleven months; Bornholms Museum for the building counts;
   natmus.dk for nine dead in Rønne and one in Nexø; koldkrig-online.dk for

@@ -157,13 +157,16 @@ over on the strength of it was to ratify what 1864 had done.
 Both were arguments about the same thing: whether nationality is what people say
 it is, or something underneath that can be measured against what they say.
 
-The book has been here before. In 1460 the Ribe settlement bound Schleswig and
-Holstein to be *up ewig ungedeelt* — forever undivided — and the promise was made
-to a nobility, by a king who needed their votes, about land whose inhabitants
-were not consulted and would not have been understood to have a view. Every
-Schleswig crisis in this book since has been an argument about who that promise was
-made to. **In 1920 it is finally answered by asking them, and the answer divides
-the thing that was sworn to be undividable.** Four hundred and sixty years, and
+The book has been here before. In 1460 the Ribe settlement promised that Schleswig
+and Holstein would remain *ewich tosamende ungedelt* — forever together undivided.
+What that meant in 1460 is disputed, and chapter 19 leaves it open; the nineteenth
+century read it as territorial, sang it as *up ewig ungedeelt*, and built the
+Schleswig-Holstein case on it. The promise was made to a nobility, by a king who
+needed their votes, about land whose inhabitants were not consulted and would not
+have been understood to have a view. Every Schleswig crisis in this book since has
+been an argument about what that promise meant and who it was made to. **In 1920 it
+is finally answered by asking them, and the answer divides the thing the nineteenth
+century said was sworn to be undividable.** Four hundred and sixty years, and
 the resolution is not a better reading of the charter. It is a decision to stop
 reading the charter.
 
@@ -212,14 +215,15 @@ border they were arguing about.
 
 What they were worth can be measured in one town. Of the votes cast at Sønderborg,
 349 Danish and 919 German were cast by people who had travelled in to vote. Take
-them out and the town divides 1,672 Danish to 1,682 German — ten votes apart, in
+them out and the town divides 1,680 Danish to 1,682 German — two votes apart, in
 a place the published figure records as German by nearly six hundred. The
 outvoters did not decide the zone. In the towns, which are the only places the
 zone was close, they decided which way the town is remembered.
 
 Inside the total, the map is not the map the total implies, and this is the part
-worth drawing. Tønder town returned 761 Danish votes against 2,504 German. Højer
-returned 219 against 581. Aabenraa went German by 2,725 to 2,224 and Sønderborg
+worth drawing. Tønder town voted German by more than three to one; its two
+published returns disagree by a few dozen votes, 761 Danish of 3,265 or 750 of
+3,198, but not about that. Højer returned 219 against 581. Aabenraa went German by 2,725 to 2,224 and Sønderborg
 by 2,601 to 2,029, both of them narrowly. Taken together the market towns had a German
 majority, a bare one near 51 per cent, while the countryside voted Danish by
 better than five to one. The rest of the German majorities were small districts
@@ -746,7 +750,14 @@ verified for this draft. Items marked* unresolved *are flagged in the prose.*
 - Commune returns confirmed by two appearances agreeing digit for digit: Aabenraa
   2,224/2,725, Sønderborg 2,029/2,601, Højer 219/581. **Tønder unresolved** —
   761 of 3,265 in one source and 750 of 3,198 in another, disagreeing in both
-  numerator and denominator. Carries no figure on the map.
+  numerator and denominator. Carries no figure on the map, and §06 gives both.
+- Sønderborg's outvoters, 349 Danish and 919 German: Sønderborg Lokalhistoriske
+  Arkiv, *Afstemningen i Sønderborg 10. februar 1920* (2nd ed.), district 6. That
+  booklet prints the town's Danish total as 2,021 and so arrives at 1,672 without
+  them; its own district table sums to 2,029, the figure both commune returns give,
+  and 2,029 less 349 is 1,680. Its German column sums 200 over its stated 2,601,
+  which is confirmed elsewhere; the 919 is on its district 6 row and in its text
+  alike.
 - Sønderjysk war dead: about 5,270 from the present-day Sønderjylland, of whom
   roughly three-quarters Danish-minded; over 6,400 on the wider definition
   covering everyone connected with the land between the 1864 and 1920 borders,
@@ -755,8 +766,10 @@ verified for this draft. Items marked* unresolved *are flagged in the prose.*
 - Election identifiers, Danmarks Statistik: Folketingsvalget 26 April 1920,
   *Stat. Medd.* 4. R., 60. Bd., H. 3; Rigsdagsvalgene July–August 1920, 4. R.,
   61. Bd., H. 1; Rigsdagsvalgene Sept–Oct 1920, 4. R., 62. Bd., H. 1.
-  Folkeafstemningen 1920, *Statistiske Efterretninger* 1920, nr. 23 — **not yet
-  opened**, and it is the Danish official publication of the plebiscite returns.
+  *Statistiske Efterretninger* 1920, nr. 23 is **not** the plebiscite: it is the
+  constitutional referendum of 6 September 1920, and that year's *Efterretninger*
+  carries no plebiscite return. The International Commission's own publication is
+  the route.
 - **Party seat totals for the three 1920 elections are unresolved** and appear on
   no figure. See the note in `figs_38.py`.
 **Still unresolved. Each of these was an inline drafting note until the guard in
