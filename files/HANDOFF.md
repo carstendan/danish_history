@@ -10,9 +10,10 @@ the argument.
 ## Vocabulary — settled, do not drift
 
 - **Part** — a lettered span, A to I. Part E is chapters 16–20; Part F is 21–24.
-- **Chapter** — a numbered page, 01 upward. There are 44: Part G took seven
+- **Chapter** — a numbered page, 01 upward. There are 45: Part G took seven
   chapters rather than six (decision D-2, Aug 2026), so everything from the old 29
-  upward shifted by one, and Part I took eight (D-10, Sept 2026).
+  upward shifted by one; Part I was planned at eight (D-10, Sept 2026) and the
+  boundary pass made it nine (item 136).
 - **Section** — a numbered unit inside a chapter, 01 to about 12.
 
 *Band* and *entry* are retired, in the index too as of August 2026. The only
@@ -38,19 +39,12 @@ written — see Lessons.
 | H | 32–36 | 1814–1901 | **built, verified, indexed, closed — see `PLAN_H.md`** |
 | I | 37–45 | 1901–1955 | **NINE CHAPTERS, ALL BUILT, VERIFIED AND INDEXED. The boundary pass is done — item 136 — and item 128 is CLOSED.** The 1943–1955 run was repartitioned from three chapters into four at the material's own seams; no chapter in the part is outside the 25–50 band |
 
-**BOOK COMPLETE AND REPARTITIONED: 45 of 45, 333,337 page words, 26.5 h; 0 remaining.**
-Read off `bookstats.py` after `linkindex.py`, not carried forward — see item 112.
-The previous figure, 42 of 44 at 311,456 and 24.7 h, is superseded; note that the
-State block above carried 311,351 for it, which was the pre-`linkindex.py` number
-and is exactly the fault item 128 was written about.
-
-**The 44 in that count is provisional, and so is every chapter number from 42 up.**
-Chapter 42 is 11,684 page words and 56 minutes and chapter 43 is 10,514 and 50,
-and Part I's internal boundaries from 1943 onward are to be redrawn now that the
-part is drafted — item 128, which this chapter unblocks. The word total barely moves whatever the partition,
-because the words are written either way; the chapter COUNT does. **Do not
-re-plan against a 44-chapter spine, and do not carry 321,970 forward by
-addition** — item 112.
+**BOOK COMPLETE: 45 of 45, 336,231 page words, 26.7 h; 0 remaining.** Read off
+`bookstats.py` after `linkindex.py` on 19 September 2026, after the item 138
+rebuild. The rise from item 136's 333,337 is prose that was always in the drafts
+and had never reached the pages — the myth-checks of Parts G and H and two
+Meanwhile paragraphs — not new writing. Part G is 53,013, Part H 41,035, Part I
+73,949.
 
 Part I as built:
 
@@ -60,18 +54,31 @@ Part I as built:
 39  Deflation, Landmandsbanken, the first government 7,455 page (36 min)  3L/4M/3H
 40  Depression, Stauning, the welfare state's seeds  8,358 page (40 min)  3L/5M/3H
 41  9 April 1940 and samarbejdspolitikken            8,707 page (41 min)  4L/4M/3H
-42  1943: the year the policy broke                  7,508 page (36 min)
-43  The underground and the liberation               7,659 page (36 min)
-44  The reckoning, and the accounts                  9,044 page (43 min)
-45  Choosing a side, and the constitution            9,354 page (45 min) + coda
+42  1943: the year the policy broke                  7,577 page (36 min)  0L/1M/5H
+43  The underground and the liberation               7,728 page (37 min)  0L/1M/3H/2 OVER
+44  The reckoning, and the accounts                  9,044 page (43 min)  0L/3M/5H
+45  Choosing a side, and the constitution            9,354 page (45 min)  5L/6M/1H + coda
 ```
 
-Chapter 41 is the only one outside the 40-minute advisory of decision 2.1 (Part
-H), deliberately and with the cut named in item 118 if it has to come down.
+Profiles for 42–45 are read off `narrative.py` on a fresh clone of the item 138
+build, per item 120; 37–41 are as recorded at their build. **Chapter 43 has two
+of the book's three sections over `narrative.py`'s heavy ceiling** (834 and 820
+words; the third is chapter 16's Kalmar, 849), and 42 and 44 have no light
+section at all. Nothing fails — the band is 25–50 — but the part item 136
+describes as cut at the material's own seams carries its weight very unevenly,
+and the consistency review should look at that before anything else in Part I.
+
+**Six chapters are over the 40-minute advisory of decision 2.1, not one:** 21 (47),
+28 (44), 33 (42), 41 (41), 44 (43) and 45 (45). 41 is the one with a defended cut,
+item 118. 44 and 45 have no defence on record yet. 28 and 33 rose from 43 and 41
+in the item 138 rebuild, because their myth-checks are now on the page.
 
 All of 01–24 are published to a web folder. Chapter pages carry two links back to
 the index, inserted by `linkindex.py` — see Tools. **`freshcheck.py` joins the cold run and must pass before any commit: it is the only check that compares a
 build output with its source rather than with another build output — item 133.**
+**`appcheck.py` joins it (item 138): freshcheck asks whether a page is newer than
+its draft, appcheck asks whether the draft's words reached the page. Neither can see
+what the other catches.**
 
 Part E as built:
 
@@ -154,7 +161,7 @@ their verification); the rest are chapter-scale maps and non-map diagrams.
 | `debuild.py` | recovery from a built page |
 | `index_generator.py` | the index |
 | `style.css`, `rail.js` | extracted from chapter 11, byte-identical to what it ships |
-| `c16_body.html` … `c31_body.html` | see below. Sixteen retained bodies, 16–31; the `c16a`/`c16b` names are retired |
+| `c16_body.html` … `c45_body.html` | see below. Thirty retained bodies, 16–45; the `c16a`/`c16b` names are retired. **They are build inputs, regenerated by `mkbody.py` — a part build never reads a draft (item 138)** |
 
 **Why the bodies are kept.** `debuild.py` recovers a working body from any
 shipped page, but with the SVGs **inlined** rather than as `{{SVG_*}}`
@@ -213,7 +220,8 @@ python3 build_all.py e          # one part
 ```
 
 Each part build verifies itself and exits non-zero on failure. `build_all.py`
-adds up the result and flags any chapter outside the 25–45 minute band.
+adds up the result and fails any chapter outside the 25–50 minute band
+(`BAND` in `build_all.py`; widened from 25–45 in August 2026).
 
 Figures are regenerated by running their scripts, which write `svg_*.txt` next to
 themselves; the part build inlines those. Rasterise and **look at** anything
@@ -453,9 +461,14 @@ unclaimed land points, which is what it was built for.
    `index_generator.py` discovers built chapters on disk (`DK_CHAPTERS`) and writes
    beside them (`DK_OUT`, defaulting to the same place). Both used to be hardcoded to
    the container; the second only surfaced in August 2026, when the script built the
-   whole document and then failed on its last line. Anchors are `part-*` and
-   `c01`–`c42`; counts are computed. **Run it with `DK_CHAPTERS` pointed at the folder
-   holding the chapter files**, or the link count will be wrong.
+   whole document and then failed on its last line. **The first did exactly the same
+   thing in September 2026 and is now fixed at the source** — both default to this
+   repository, derived from `__file__`, and `dkpaths.py` refuses a default that does
+   not exist instead of failing at the write. See item 137: this paragraph had
+   described the failure a month before it recurred. Anchors are `part-*` and
+   `c01`–`c45`; counts are computed. **Run it from `files/` with `DK_CHAPTERS`
+   unset** — it derives the chapter folder from its own location (item 137), and
+   an exported variable is what sent the item 138 rebuild into `~/Documents`.
 3. **`build_part_d.py` reads `e12_body.html`–`e15_body.html`** on the old `e`
    prefix, while A–C and E use `c`. Harmless until someone tries to rebuild D and
    has the files under the other name. `build_all.py --check` reports it.
@@ -1377,7 +1390,7 @@ not reappear.
 
 ---
 
-## Decision D-10: Part I takes eight chapters; the book is 44
+## Decision D-10: Part I takes eight chapters; the book is 44 — SUPERSEDED by item 136: nine, and 45
 
 *Taken at the Part I planning session, Sept 2026, and parallel to D-2, which is how
 Part G got its seventh.*
@@ -1501,7 +1514,7 @@ months after the Copenhagen homage of October 1660, rather than as an interval.
 
 `overruns()` tests text against the canvas edge and `overflows()` against the canvas
 foot. Neither can see text crossing an internal column divider, which has now caused
-three faults: text overflowing a container in chapter 26 (Lesson L?, recorded in
+three faults: text overflowing a container in chapter 26 (never given a lesson number; recorded in
 `STATE_G.md` §4), and twice in `figs_29.py`'s column figure, where a 36-character
 label was written into a 23-character label column and the guard passed it clean.
 
@@ -1513,7 +1526,7 @@ none of them currently do. **Infrastructure task, not a quick fix.**
 
 ## REQUIRES PHYSICAL / ARCHIVE ACCESS — cannot be done from this end
 
-*Three blocking apparatus gaps in Part G need a person at a screen reading gothic
+*Three blocking apparatus gaps in Part G, and one non-blocking date (E4) need a person at a screen reading gothic
 handwriting. None of them can be reached by web search, and the container's network
 allowlist is npm and PyPI only. Listed with exactly where to look so the work is
 one sitting rather than a search.*
@@ -1547,6 +1560,19 @@ balance without giving the chapter a labouring subject. **Do not write the vigne
 from this note.** Confirm against the newspaper first; the project has already had
 one vignette survive nineteen revisions describing a woman who was in Rome at the
 time.
+
+**E4 — the date of the peace of Frederiksborg, chapter 27 §07.** *Added 19 Sept
+2026, item 138.* Near-universally 3 July 1720, and the Treaty of Kiel, art. 27,
+names it so. danmarkshistorien.lex.dk prints the treaty's own subscript as
+"undertegnet til Friderichsborg den 3 Jun. og ratificeret den 23 Jul. 1720" with
+the editorial note "Ved en Trykfeil er den trykte Freds-Tractat dateret: 3 Jul." —
+possibly a confusion with the Stockholm preliminaries of 3 June, which Kiel names
+separately. Also unsettled: whether 3 July is Gregorian (as a Danish instrument
+would be, and as Kiel implies) or Julian with 14 July Gregorian (as English
+reference works have it, and as the chapter used to say). **Where:** the printed
+treaty in Schou's *Forordninger*, 2. del, 1699–1730, and the Rigsarkivet original.
+**The chapter no longer depends on the answer** — §07 was rewritten to assert only
+what is documented — so this is a correction to make when found, not a block.
 
 
 ---
@@ -3060,7 +3086,11 @@ split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see it
      categories where the figure has two and an uncertainty. **Redrawn as a
      whisker with end caps below the bar**, which cannot be read as a quantity.
      This is item 118's legend fault in a new dress: the guards are geometric and
-     cannot see a shape that means the wrong thing.
+     cannot see a shape that means the wrong thing. *(Pointer checked 19 Sept
+     2026: item 118 is chapter 41's length and says nothing about legends, and no
+     item in this ledger records a legend fault under any number. The nearest
+     recorded lesson is item 47, a key swatch run through by a line. The rule the
+     sentence means is real; the reference is not.)*
    - **Figure 3 shipped an axis of fourteen unlabelled ticks.** A reader could
      not find a date on it. An unlabelled tick is valid markup that collides with
      nothing, so nothing complained. Day labels added, and the index-to-date
@@ -3140,7 +3170,7 @@ split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see it
    found it — compare every generated heading against the thing it claims to
    describe, once, per part.
 
-128. **OPEN, AND THE LARGEST THING IN THE PART: the Part I boundary pass.**
+128. **CLOSED by item 136. ~~OPEN, AND THE LARGEST THING IN THE PART:~~ the Part I boundary pass.**
    Carsten's decision, taken after chapter 42 was built and measured. It is not
    "split chapter 42". **It is to draft the rest of Part I and then partition the
    whole 1943–1955 run at the seams the material actually has**, rather than at
@@ -3834,6 +3864,213 @@ split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see it
    three vignettes, two *Meanwhile* entries, four carry-forward sets, four
    summaries and the questions — apparatus, not argument.
 ---
+
+137. **`dkpaths.py` checked the variable and not the default, so the one script
+   whose default was still a container path went on failing after the move. The
+   docstring named that default as an example and walked past it.**
+
+   The boundary pass would not commit. The pre-commit hook was right to refuse
+   and was refusing the true state of the tree: `freshcheck.py` reported **NO
+   PAGE for chapters 42, 43, 44 and 45** — four fresh bodies with no page built
+   from them. The cause was three steps back. `index_generator.py` had died with
+   a bare `FileNotFoundError` on
+   `/mnt/user-data/outputs/danish-history-index.html`, and the chain that was
+   supposed to run after it never did.
+
+   **THE BUG IS IN THE FIX FOR ITEM 134.** `dkpaths.resolve()` validated
+   `DK_CHAPTERS` / `DK_OUT` / `DK_SRC` when they were set and **returned an unset
+   default unlooked at**:
+
+   ```python
+   raw = os.environ.get(var)
+   if not raw:
+       return default          # <- never checked
+   ```
+
+   Every call site but one defaults to something derived from `__file__`, so this
+   was invisible. `index_generator.py` line 16 defaulted to
+   `/mnt/user-data/outputs`, left in the source from the era when this book was
+   built in a container. After the move out of iCloud the correct thing to do was
+   **unset the variables** — item 134's own advice — and doing the correct thing
+   is what re-armed the fault: with `DK_CHAPTERS` unset the script aimed at a
+   folder that does not exist on the author's machine, found no chapters, built a
+   full index anyway, and died seven hundred lines later at the write.
+
+   **THE DOCSTRING CITED THE FAULT AS A REASON NOT TO FIX IT.** `dkpaths.py` as
+   written said a path outside the repository is a warning rather than a refusal
+   because "building into another folder is sometimes legitimate — *index_
+   generator.py's own default is a container path*". The one line in the project
+   that names the defect names it as justification. Seeing a thing and
+   classifying it is not the same as checking it, and the check is cheap.
+
+   **FOUR EDITS.**
+
+   - `dkpaths.resolve()` now resolves variable-or-default to one path and
+     `isdir`-checks both, with **two different refusals**: a set variable is the
+     author's shell and says `unset`, an unset one is the script's own default
+     and says the default is wrong and which script asked for it. A bare
+     `FileNotFoundError` at a write is now a named refusal at import.
+   - `index_generator.py` defaults to the repository, from `__file__`, like
+     everything else here.
+   - `linkindex.py` and `bookstats.py` defaulted to `os.getcwd()`, which is not a
+     stale-path bug but the same family: run either from `files/` by mistake and
+     a cwd default **finds no chapters and reports an empty book** rather than
+     refusing. Both now derive the repository from `__file__`.
+
+   **WHAT THE HOOK IS WORTH.** This is the first time `freshcheck.py` and the
+   pre-commit hook have caught something in anger, and they caught exactly what
+   they were written for in item 133: a tree whose pages do not follow from its
+   source, passing every other verifier. `debuild verify` was clean throughout —
+   it compares a page with its own body, and here there were no pages at all.
+   Without the hook the boundary pass would have committed 45 chapters of source
+   with 41 chapters of built book and an index still listing 44.
+
+   **REBUILT AND RE-VERIFIED ON THE AUTHOR'S MACHINE**, not in a container: 45 of
+   45, **333,337 page words, 26.5 h**, identical to the fresh-clone figures taken
+   before delivery. freshcheck 13 fresh, exit 0, chapter 32 the only REFUSED.
+   figcheck 87 match / 0 disagree. Seams pass. debuild clean.
+
+   ~~**STILL OPEN, AND IT IS ITEM 134's TAIL.** The START_HERE documents still
+   teach `export DK_CHAPTERS="$PWD/.."`.~~ **CLOSED in item 138** — after it fired
+   a third time.
+
+
+138. **Half the book's myth-check prose had never reached the pages, and nothing
+   in the suite could see it. Found 18 September 2026, fixed and rebuilt by the
+   morning of the 19th. Every page 01–45 now passes every check. Full detail in
+   `REVIEW-BUILD-FAULTS.md`; this is the ledger's record of it.**
+
+   Carsten reported two things: pieces missing from the HTML, and the same text
+   repeated in body and vignette. Both were real.
+
+   **2,719 WORDS OF WRITTEN MYTH-CHECK — 49% OF IT — WERE NOT ON THE PAGES.** One
+   function in `mkbody.py`, `myth_html`, read claim/correction in strict pairs.
+   The drafts use four conventions and it understood one:
+
+   - **25–31** (`**The myth.**` / `**What can be shown.**` / `**What cannot.**`):
+     nothing matched. Seven pages shipped the MYTH-CHECK heading over `<dl></dl>`.
+   - **32–36** (one claim, several correction paragraphs): the first sentence of
+     the correction shipped and 85–92% of each block was dropped.
+   - **37–45** (claim and correction in one paragraph): the whole paragraph became
+     the `<dt>` and the *next claim* its `<dd>` — every Part I page printed claims
+     in the correction's type and corrections in the claim's, offset by half an
+     entry, with six stray empty `<dd>`s. Word counts matched, so only reading the
+     page shows it.
+
+   **A second parser, `meanwhile_html`, dropped 141 words** — the unlabelled
+   closing paragraph of chapters 42's and 43's Meanwhile block, which is the
+   paragraph that draws the comparison the two boxes exist for. The refusal
+   directly beneath that function already said "refuse rather than discard
+   authored prose". It covered the count of boxes and not the paragraphs between
+   them.
+
+   **Chapters 25, 26 and 27 carried draft-file headers mid-narrative.** A chapter
+   written in two sittings is two `# Chapter NN` segments in `PART_G_DRAFT.md`;
+   `chapter()` joined them keeping the second segment's preamble, and `sections()`
+   splits on `##`, so the concatenation marker, the repeated title, `*Draft,
+   sections 04–09 of 09.*` and a placement note landed inside whichever section
+   was open — chapter 25 §03, chapter 26 §05. Item 102 recorded the symptom in
+   the chapter 39 session; it had never been traced to the line. **Chapter 32**
+   carried four "Drafting flag:" notes on the page, including "Resolve before
+   build".
+
+   **Smaller, same family:** chapter 29's Struensee vignette title wrapped in the
+   draft and shipped with literal `**`, cut at "on 17", with "January 1772**" as
+   its first paragraph (`vig_html` took one line as the title); and every page
+   25–45 ended its Questions and its Sources with a literal `---`, the markdown
+   rule glued to the last item (fixed once, in `apparatus_part`).
+
+   **WHY NOTHING SAW IT.** Every verifier the project owns compares a page with
+   itself or with another build output. `debuild verify` reconstructs the draft
+   *from the page*, so prose that never reached the page is invisible to it by
+   construction. All of them passed, on all 45 chapters, throughout.
+
+   **THE NEW GUARD: `appcheck.py`,** in the cold run beside `freshcheck.py`. For
+   every apparatus block it compares the draft's words with the page's and
+   refuses a shortfall. Terms are compared by entry; Checkpoints are exempt, named
+   in the file, because the build scripts rewrite them as questions and a guard
+   that cries wolf eight times a run gets skimmed. It reported exactly the 13 real
+   losses and nothing else, and reports nothing now.
+
+   **THE REBUILD ORDER IS THE FIX, NOT A CONVENTION.** `build_part_X.py` reads
+   `cNN_body.html`, not the drafts. The first rebuild of Part I re-wrapped the
+   stale bodies byte-for-byte and printed `part ok` nine times; the first rebuild
+   of Part G did the same because `mkbody` was refusing and the build ran anyway.
+   **`mkbody.py` for each chapter first; if any line prints `!!`, stop** — the part
+   build will wrap the old body and report success.
+
+   **THE STALE VARIABLE FIRED A THIRD TIME,** in this session: `DK_CHAPTERS`
+   resolved to `~/Documents` and the build wrote the chapters beside the
+   repository. `dkpaths.py` warned, as designed. The export is now removed from
+   all four START_HERE documents, closing item 137's tail.
+
+   **FACTS CHANGED IN THE PROSE — read these two:**
+
+   - **Chapter 32 §09, the 1838 language vote.** The draft said the Schleswig
+     assembly "could not settle the question, and the king settled it for them",
+     and flagged a conflict between sources. There was no conflict: Nis Lorenzen's
+     motion of 7 June 1836 **carried in July 1838, 21 to 18**, with the support of
+     the assembly's president N. N. Falck (*Dansk Biografisk Leksikon*: "lykkedes
+     det at gennemføre det med kneben majoritet (21 stemmer mod 18)";
+     danmarkshistorien agrees). Danish Wikipedia reverses the sign. The rescript
+     of 1840 granted what the assembly asked for.
+   - **Chapter 31, the 1807 governing commission.** The draft said the machinery
+     "did not have to be dismantled afterwards, because seven years later Norway
+     kept it". It was dismantled: the Regjeringskommisjonen ran **24 August 1807
+     to 1810** and Frederik 6. dissolved it partly because it "fremmet norske
+     selvstendighetstanker" (Store norske leksikon; norgeshistorie.no). What ran
+     on to 1814 was the *stattholder* office, revived in 1809.
+
+   **Resolved from sources, no change to the argument:** Christiansborg burned 26
+   February 1794 and the city 5–7 June 1795, 941 houses (ch 31); *Jammers Minde*
+   was first published in 1869, ed. Sophus Birket Smith, per Det Kgl. Bibliotek
+   (ch 26) — REVIEW-PART-G §0's "nearly two centuries" can be made exact again;
+   the St Jan attack was 23 November 1733, as the chapter had it (ch 30); chapter
+   25's placement note was spent. **Chapter 27 §07** no longer asserts a calendar
+   style for the Frederiksborg date — see E4 in REQUIRES ARCHIVE ACCESS.
+
+   **DECIDED BY CARSTEN:** `draftnotes.py` does not scan the "Where the argument
+   stands" block, whose standing caveat to the reader sits where mkbody's own
+   refusal tells authors to put unresolved questions. Tested both sides of the
+   boundary. The accepted cost: a genuine note parked in that block will pass.
+
+   **LESSON, AND IT IS MINE FOUR TIMES OVER.** In one session I built a bespoke
+   check and skipped the tool that already existed, four times: I reported
+   chapter 27's apparatus lost without opening `PART_G_DRAFT.md`, which `mkbody`
+   names as its default; I ran the second build stage after reading the
+   instruction that names the first; I called chapter 32's flags "one chapter"
+   without running `draftnotes.py` on the pages, whose docstring describes chapter
+   25's header; and I raised the Frederiksborg date without reading chapter 27's
+   own Sources, which cite the Treaty of Kiel against the reading I was pressing.
+   **Before building a check, run the one the project has. Before disputing a
+   claim, read what the chapter already cites for it.**
+
+   **STILL OPEN, in the order I would take them:**
+
+   - **The consistency review**, item 128's successor, now that nothing is
+     missing from the pages. Start with Part I's profile (State, above).
+   - **Six vignettes repeat their own section body** — 27 §05 Tordenskjold (the
+     vignette holds nothing the body does not), 27 §09 Gertrud Rask (two sentences
+     identical), 29 §03 Caroline Mathilde, 26 §09 Leonora Christina (its last
+     third), 35 §03 Uhd (the four dairy rules, twice), 22 §08 Tommesis (against
+     the figure beside it). **The rule they break is unwritten and has held 126
+     times out of 132: a vignette is the particular inside a general section. When
+     the section is named for the vignette's subject or its exact moment, the
+     vignette has nowhere to stand and restates the body in the present tense.**
+     Write it down as a convention before the review, so the review applies it in
+     one place.
+   - **Chapter 45's carry-forward** renders as a heading over an empty list.
+   - **Chapter 32's figure (c)**, the Zealand kapitelstakst for rye 1815–1848, was
+     never drawn; the section was written expecting it.
+   - **`cNN_body.html` for chapters 01–24 have no drafts in the repository,** so
+     the four-convention parser is verified against their pages only. Their pages
+     are correct; nothing is known to be wrong. Worth knowing before anyone
+     rebuilds them from source.
+   - **Chapter 28 has four overlapping body drafts** (`01-03`, `01-04`, `01-06`,
+     `01-10`); which is authoritative is not recorded.
+
+---
+
 
 ## Convention D-12: draft prose is never written through a shell heredoc
 
