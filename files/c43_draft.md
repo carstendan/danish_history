@@ -56,11 +56,9 @@ walked into the inn and arrested Fiil, his son Niels, his daughters Kirstine and
 Gerda, and Kirstine's husband Peter. A court-martial on 26 and 27 June sentenced
 eight men to death, and on the morning of the 29th they were shot at Ryvangen.
 
-The totals are large and they do not agree. Four reputable accounts give 620
-tonnes dropped over the whole war, about 650 tonnes from August 1944 alone,
-about 700, and about a thousand received altogether — and the first two cannot
-both be true. The one figure everybody agrees on is the cost: **eighteen
-aircraft lost and sixty-nine Allied airmen killed** delivering it.
+How much was dropped is given four ways, from 620 tonnes to about a thousand.
+The one figure everybody agrees on is the cost: **eighteen aircraft lost and
+sixty-nine Allied airmen killed** delivering it.
 
 Weapons came the short way too. From Sweden the resistance obtained something
 like 7,500 Husqvarna submachine guns and carbines, ten thousand hand grenades
@@ -74,11 +72,6 @@ population. Every source that discusses their equipment uses the same word,
 *underbevæbnet*, and they never fought a battle. On 5 May 1945 they came out of
 their houses with armbands and rifles and took over the policing of a country
 that had had no police since September 1944.
-
-That matters for what comes next. The 21,800 people interned in Denmark in the
-weeks after the liberation were arrested by men who had been civilians four days
-earlier, armed by a foreign air force, and authorised by a council that had
-constituted itself in a borrowed office.
 
 > **Vignette · Ryvangen, 6 April 1945**
 >
@@ -116,15 +109,9 @@ constituted itself in a borrowed office.
 
 The series runs: seventy-three industrial sabotage actions in 1940, 1941 and
 1942 together; 816 in 1943; 988 in 1944; and 924 in the four months of 1945
-before the capitulation. Those add to 2,801, which is the published total, so
-the column checks against itself.
-
-Railway sabotage runs: two actions in 1942, 111 in 1943, 311 in 1944, and — in
-the same four months of 1945 — one thousand one hundred and three. The published
-total is 1,526 and the four figures add to 1,527. That column does **not** check
-against itself, and the missing one is left standing here rather than smoothed,
-because a series quietly adjusted to its own total is worth less than one that
-has not been.
+before the capitulation, 2,801 in all. Railway sabotage ran two actions in
+1942, 111 in 1943, 311 in 1944, and — in the same four months of 1945 — one
+thousand one hundred and three.
 
 The shape is the argument. Sabotage was negligible while the war looked German,
 substantial once it did not, and overwhelming in the final months, when cutting
@@ -183,10 +170,9 @@ an image of the ledger as the period produced.
 
 The other half of the counter-terror was bombing, and Danes named that too:
 *schalburgtage*, on the pattern of sabotage, after the corps that took part. The
-targets were chosen to damage civil life rather than war production — Tivoli's
-concert hall, a student hall of residence, the Conservatives' Borgernes Hus, the
-Royal Porcelain factory. In Aarhus the tram depot went up on 22 August 1944 with
-sixty-five vehicles in it.
+targets were chosen to damage civil life rather than war production: in
+Copenhagen the buildings the next section names, and in Aarhus the tram depot,
+which went up on 22 August 1944 with sixty-five vehicles in it.
 
 None of it was aimed at the resistance. It was aimed at the public, to make the
 resistance intolerable to it, and the measure of its failure is that sabotage
@@ -373,11 +359,6 @@ The low number is the most misunderstood fact about the bombing. It is not
 evidence that the raids were light and it is not luck: it is the evacuation of
 the 8th, ordered at four in the morning by Danish officials on an island nobody
 in London or Moscow had thought to mention to anyone.
-
-On the afternoon of 9 May five Soviet motor torpedo boats put a hundred men into
-Rønne harbour and the German garrison surrendered without resistance. The main
-force, some seven and a half thousand men, arrived from Kolberg on the 11th.
-They stayed eleven months.
 
 Danish radio was not permitted to broadcast news of the bombing of Rønne and
 Nexø. The reason given was that it would spoil the liberation.
@@ -693,6 +674,13 @@ spoil the liberation.
   Danmarkshistorie*, "Folkestrejken", for the allotments, the state of siege, and
   the 23 and 203 — which is single-source — and the hundred and six hundred.
   lex.dk's *Shellhuset* and *Den Franske Skole* for the raid and the school.
+- **Two columns that do not settle, moved here from the prose.** The tonnage
+  dropped is 620 over the whole war, about 650 from August 1944 alone, about 700,
+  and about a thousand received altogether, in four reputable accounts — and the
+  first two cannot both be true. The industrial sabotage column adds to its
+  published total of 2,801. The railway column does not: its four figures add to
+  1,527 against a published 1,526, and it is printed unadjusted, because a series
+  quietly fitted to its own total is worth less than one that has not been.
 - **Bornholm.** lex.dk's *Bornholms besættelse 1940–1946* for the raids, the
   landing and the eleven months; Bornholms Museum for the building counts;
   natmus.dk for nine dead in Rønne and one in Nexø; koldkrig-online.dk for
