@@ -191,13 +191,8 @@ action to make it fail, is not settled and may not be settleable this century.
 > hands it to a man who will twice be prime minister of Denmark. Then he goes
 > back to his desk and processes shipping.
 >
-> Almost everything else about him is contested. The trip to Sweden is
-> contradicted by the visa records. The memoirs do not survive examination. The
-> papers that would settle it are sealed until 2048, and what the catalogue
-> lists is a calendar and not a diary.
->
-> What is not contested is that on the night of 1 October the Gestapo went to
-> addresses in Copenhagen and found most of them empty.
+> On the night of 1 October the Gestapo go to addresses in Copenhagen and find
+> most of them empty.
 >
 > Georg Ferdinand Duckwitz · Copenhagen · 28 September 1943 · [-]
 
