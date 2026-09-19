@@ -268,6 +268,70 @@ permanent secretaries.
 
 ---
 
+## The policeless country
+
+At eleven in the morning on 19 September 1944 the air-raid sirens sounded over
+Denmark. They were not warning of aircraft. The alarm was the signal, arranged by
+the occupier, for a simultaneous assault on every police station in the country,
+and it worked because Danes had been trained for four years to go indoors when
+they heard it.
+
+The plan was Günther Pancke's, the senior SS and police officer in Denmark, and
+it was his own rather than Berlin's; Himmler approved it afterwards and called it
+absolutely correct. The reasoning was that the Danish police could not be relied
+on to hold the country if the Allies landed — that they would, in the phrase used
+at the time, turn on the occupier's back. This was not paranoia. Police officers
+had been sheltering the resistance for a year.
+
+The Danish force was just under ten thousand men. About two thousand were taken that day and
+**1,960 of them were deported**, first to Neuengamme and then to Buchenwald; the border gendarmes were
+disarmed and interned the same day, and a hundred and forty-one of them went to
+Germany too. In December the survivors were reclassified as prisoners of war and sixteen
+hundred moved to Mühlberg, which is what saved most of them.
+How many died is two numbers rather than one, and the difference is a definition:
+about **eighty** died in the camps themselves, and a count made in 1968 reaches
+**131** by including the men who died afterwards of what the camps had done to
+them. Thirty-eight or thirty-nine of the gendarmes did not come back.
+
+Around seven thousand policemen went underground. A thousand reached Sweden and
+something like five and a half thousand ended the war inside the resistance,
+which is the largest single transfer of trained men it ever received — and the
+occupier's own doing.
+
+What replaced them was a municipal watch. The Copenhagen *vagtværn* was
+authorised by circular in October 1944, put about a thousand men on the street
+against a police strength of three thousand, and was given no police authority at
+all: its men had the powers of any citizen, could detain someone caught in the
+act, could not investigate anything, and were expressly forbidden firearms. They
+were issued caps, armbands, whistles, batons, bicycles and fifteen taxis.
+
+For seven and a half months that was the law in Denmark.
+
+---
+
+> **Vignette · Buchenwald, winter 1944**
+>
+> He is a policeman in Odense. On 19 September 1944 he is taken with the rest of
+> them, and he goes to Frøslev, then Neuengamme, then Buchenwald.
+>
+> He keeps a diary, which is forbidden, and he hides it. It is mostly weather,
+> rations, illness and who has died — the accounting of a man trained to write
+> down what he sees. Then one entry records a transport coming in: **fourteen
+> hundred Jews from Auschwitz, a hundred of them already dead.**
+>
+> He is not in the resistance. He has not collaborated. He is in a German camp
+> because of the uniform he wore for a Danish state that had told him for four
+> years that wearing it was the responsible thing to do — and he is standing
+> there watching the thing that Denmark's own Jews got away from, thirteen months
+> earlier, by a fortnight's warning and four kilometres of water.
+>
+> He comes home on 3 May 1945. The diary stays in a drawer for half a century,
+> and in 1995 his son gives it to the Odense city archive.
+>
+> Kristian L. Rasmussen · Buchenwald · winter 1944 · [-]
+
+---
+
 ## Shellhus
 
 The Gestapo took over the Shell company's Copenhagen office building in 1944 and
@@ -365,70 +429,6 @@ Nexø. The reason given was that it would spoil the liberation.
 
 ---
 
-## The policeless country
-
-At eleven in the morning on 19 September 1944 the air-raid sirens sounded over
-Denmark. They were not warning of aircraft. The alarm was the signal, arranged by
-the occupier, for a simultaneous assault on every police station in the country,
-and it worked because Danes had been trained for four years to go indoors when
-they heard it.
-
-The plan was Günther Pancke's, the senior SS and police officer in Denmark, and
-it was his own rather than Berlin's; Himmler approved it afterwards and called it
-absolutely correct. The reasoning was that the Danish police could not be relied
-on to hold the country if the Allies landed — that they would, in the phrase used
-at the time, turn on the occupier's back. This was not paranoia. Police officers
-had been sheltering the resistance for a year.
-
-The Danish force was just under ten thousand men. About two thousand were taken that day and
-**1,960 of them were deported**, first to Neuengamme and then to Buchenwald; the border gendarmes were
-disarmed and interned the same day, and a hundred and forty-one of them went to
-Germany too. In December the survivors were reclassified as prisoners of war and sixteen
-hundred moved to Mühlberg, which is what saved most of them.
-How many died is two numbers rather than one, and the difference is a definition:
-about **eighty** died in the camps themselves, and a count made in 1968 reaches
-**131** by including the men who died afterwards of what the camps had done to
-them. Thirty-eight or thirty-nine of the gendarmes did not come back.
-
-Around seven thousand policemen went underground. A thousand reached Sweden and
-something like five and a half thousand ended the war inside the resistance,
-which is the largest single transfer of trained men it ever received — and the
-occupier's own doing.
-
-What replaced them was a municipal watch. The Copenhagen *vagtværn* was
-authorised by circular in October 1944, put about a thousand men on the street
-against a police strength of three thousand, and was given no police authority at
-all: its men had the powers of any citizen, could detain someone caught in the
-act, could not investigate anything, and were expressly forbidden firearms. They
-were issued caps, armbands, whistles, batons, bicycles and fifteen taxis.
-
-For seven and a half months that was the law in Denmark.
-
----
-
-> **Vignette · Buchenwald, winter 1944**
->
-> He is a policeman in Odense. On 19 September 1944 he is taken with the rest of
-> them, and he goes to Frøslev, then Neuengamme, then Buchenwald.
->
-> He keeps a diary, which is forbidden, and he hides it. It is mostly weather,
-> rations, illness and who has died — the accounting of a man trained to write
-> down what he sees. Then one entry records a transport coming in: **fourteen
-> hundred Jews from Auschwitz, a hundred of them already dead.**
->
-> He is not in the resistance. He has not collaborated. He is in a German camp
-> because of the uniform he wore for a Danish state that had told him for four
-> years that wearing it was the responsible thing to do — and he is standing
-> there watching the thing that Denmark's own Jews got away from, thirteen months
-> earlier, by a fortnight's warning and four kilometres of water.
->
-> He comes home on 3 May 1945. The diary stays in a drawer for half a century,
-> and in 1995 his son gives it to the Odense city archive.
->
-> Kristian L. Rasmussen · Buchenwald · winter 1944 · [-]
-
----
-
 # Chapter 43 — apparatus
 
 ## Danish terms, by section
@@ -458,12 +458,7 @@ For seven and a half months that was the law in Denmark.
   than industrial and is not called by a union. Copenhagen's ran from the last
   week of June 1944 into the first week of July.
 
-**§04 — Shellhus**
-- **gidseletage** — the hostage floor: the top storey of a building where
-  prisoners were held so that it could not be bombed. The Gestapo used one in
-  Copenhagen and it did not work.
-
-**§06 — the policeless country**
+**§04 — the policeless country**
 - **politiaktionen** — the police action: the German seizure of the Danish police on
   19 September 1944, signalled by a false air-raid alarm.
 - **vagtværn** — a watch corps: the municipal guard raised after the police were
@@ -471,6 +466,11 @@ For seven and a half months that was the law in Denmark.
   in the act, investigate nothing, carry no firearm.
 - **grænsegendarm** — a border gendarme: the lightly armed corps that policed the
   Danish side of the 1920 frontier, and not part of the army (chapter 41).
+
+**§05 — Shellhus**
+- **gidseletage** — the hostage floor: the top storey of a building where
+  prisoners were held so that it could not be bombed. The Gestapo used one in
+  Copenhagen and it did not work.
 
 ---
 

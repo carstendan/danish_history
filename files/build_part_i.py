@@ -297,22 +297,22 @@ CFG = {
     sec=[("s01", "01", 'How the underground was armed'),
          ("s02", "02", 'Sabotage, and the counter-terror'),
          ("s03", "03", 'The People\'s Strike, June 1944'),
-         ("s04", "04", 'Shellhus'),
-         ("s05", "05", '4 May 1945 — and Bornholm'),
-         ("s06", "06", 'The policeless country')],
+         ("s04", "04", 'The policeless country'),
+         ("s05", "05", 'Shellhus'),
+         ("s06", "06", '4 May 1945 — and Bornholm')],
     checks=[
       ("Sabotage, and the counter-terror", [
         "Where did the resistance\'s weapons come from, and what did the deliveries cost the air forces that made them?",
         "What were the ventegrupper, roughly how many people did they number, and what were they told to do?",
         "Industrial sabotage went from 73 actions in three years to 816 in one. What changed?"]),
-      ("Shellhus", [
+      ("The policeless country", [
         "What is a clearingmord, and where does the word come from?",
         "What did the People\'s Strike of June 1944 obtain, and what did it demonstrate that was not among its demands?",
-        "Why did the occupier deport the Danish police in September 1944, on its own stated reasoning?"]),
-      ("The policeless country", [
-        "Why was the Gestapo headquarters in Copenhagen bombed, and what else was hit?",
-        "Bornholm was bombed on 7 and 8 May 1945, after the rest of Denmark was free. Why, and why were only ten Danes killed?",
-        "Danish radio was not allowed to report the bombing of Rønne and Nexø. On what ground?"]),
+        "Who asked Copenhagen to go back to work on 2 July 1944, and why did nobody listen?"]),
+      ("4 May 1945", [
+        "Why did the occupier deport the Danish police in September 1944, on its own stated reasoning?",
+        "What replaced the police, and what was it forbidden to do?",
+        "Why was the Gestapo headquarters in Copenhagen bombed, and what else was hit?"]),
     ]),
  44: dict(
     name='44-the-reckoning-and-the-accounts.html',
