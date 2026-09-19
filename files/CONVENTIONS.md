@@ -241,6 +241,29 @@ whose chapter titles and index already say "Schleswig" should say it in the pros
 
 **Defined.** Here, once agreed. Applied part by part with each reading pass.
 
+### D-16 · Length is never a reason to cut — in force
+
+**Rule.** Inside the 25–50 minute band, a chapter is not cut to meet the 28–40
+advisory. What decides a change is the story:
+
+1. if it makes sense for the story, keep it;
+2. if restructuring, or moving material between chapters, makes sense, do it;
+3. if it is good as it is, keep it — it is within limits.
+
+Cuts that remove repetition, or move method out of the prose into Sources, are
+made because they improve the reading, and say so. The advisory is a reason to
+*read* a long chapter closely, never a reason to shorten it.
+
+**Reason.** Carsten, 19 September 2026, answering I-5 (chapters 44 and 45 over
+the advisory): "do not trim for the sake of time."
+
+**Applied.** 44 (44 min) and 45 (45 min) are kept as they are: both read as the
+story needs, and neither has material that belongs elsewhere. This is the defence
+item 138 said they lacked.
+
+**Defined.** Here. It qualifies L1a: the hard band still binds; the soft advisory
+is diagnostic only.
+
 ---
 
 ## Standing rules that are not numbered
