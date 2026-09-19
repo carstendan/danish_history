@@ -479,7 +479,7 @@ composite state's last act, performed in the language of equality.
 
 ---
 
-## The woman at the polling station
+## The last of the seven F's
 
 The constitution was signed on **5 June 1953**, the anniversary of 1849 and of
 1915, which is the kind of thing Denmark arranges.
@@ -500,9 +500,8 @@ So the last person let into Danish democracy was not let in by a constitution at
 all. They were let in by a social statute, eight years after the document that
 was supposed to have finished the job, and nobody made a speech.
 
-
-That evening the count came in at forty-five point seven six per cent, and the
-thing passed by nineteen thousand votes.
+On the evening of 28 May the count had come in at forty-five point seven six per
+cent, and the thing had passed by nineteen thousand votes.
 
 ---
 

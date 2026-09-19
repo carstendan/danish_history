@@ -359,7 +359,7 @@ CFG = {
          ("s09", "09", 'What Greenland got instead'),
          ("s10", "10", '28 May 1953'),
          ("s11", "11", 'The composite state, ended'),
-         ("s12", "12", 'The woman at the polling station')],
+         ("s12", "12", 'The last of the seven F\'s')],
     checks=[
       ("The Landsting votes itself out of existence", [
         "Why did the Scandinavian defence union fail, and which of the three governments could not move?",
