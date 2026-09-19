@@ -8,7 +8,7 @@
 
   :root{
     --ground:#E4E7E4; --paper:#F0F2EE; --peat:#221E18; --muted:#6C6E63;
-    --rule:#C9CDC4; --verdigris:#2E6B5E; --amber:#A9601C; --oxblood:#8A2B2B; --part:#8E9182;
+    --rule:#C9CDC4; --verdigris:#2E6B5E; --amber:#A9601C; --oxblood:#8A2B2B; --indigo:#2F4C7A; --slate:#4F6470; --moss:#4A5A46; --band:#8E9182;
     --serif:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua","URW Palladio L",Georgia,serif;
     --mono:"IBM Plex Mono",ui-monospace,"SF Mono",SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;
   }
@@ -24,7 +24,7 @@
   .crumb{border-bottom:1px solid var(--rule);background:rgba(228,231,228,.94)}
   .crumb-in{max-width:1000px;margin:0 auto;padding:10px 28px;display:flex;gap:14px;
     font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
-  .crumb-in b{color:var(--part);font-weight:600}
+  .crumb-in b{color:var(--band);font-weight:600}
 
   header.hd{padding:62px 0 0}
   .eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.22em;text-transform:uppercase;
@@ -37,7 +37,7 @@
     border:1px solid var(--rule);border-radius:2px;padding:3px 8px}
 
   h2{font-size:27px;font-weight:400;letter-spacing:-.015em;margin:56px 0 4px;line-height:1.2}
-  h2 .n{font-family:var(--mono);font-size:12px;color:var(--part);letter-spacing:.1em;
+  h2 .n{font-family:var(--mono);font-size:12px;color:var(--band);letter-spacing:.1em;
     display:block;margin:0 0 8px;font-weight:600}
   h3{font-size:19px;font-weight:600;margin:34px 0 6px;letter-spacing:-.008em}
   .kicker{font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;
@@ -46,9 +46,9 @@
   i.dk{font-style:italic}
 
   /* per-section glossary */
-  .terms{background:var(--paper);border-left:3px solid var(--part);padding:16px 20px;margin:22px 0 28px}
+  .terms{background:var(--paper);border-left:3px solid var(--band);padding:16px 20px;margin:22px 0 28px}
   .terms h4{font-family:var(--mono);font-size:10px;letter-spacing:.16em;text-transform:uppercase;
-    color:var(--part);margin:0 0 12px;font-weight:600}
+    color:var(--band);margin:0 0 12px;font-weight:600}
   .terms dl{margin:0;display:grid;grid-template-columns:1fr 1fr;gap:10px 26px}
   .terms dl.one{grid-template-columns:1fr}
   .terms .t{min-width:0}
@@ -74,18 +74,20 @@
   .myth dt{font-weight:600;font-size:16.5px;margin:16px 0 3px}
   .myth dt:first-child{margin-top:0}
   .myth dd{margin:0;font-size:16px;color:var(--muted)}
+  .myth dd p{font-size:16px;margin:0 0 .8em}
+  .myth dd p:last-child{margin-bottom:0}
 
   ul.calls{list-style:none;margin:0;padding:0;border-top:1px solid var(--rule)}
   ul.calls li{display:flex;gap:18px;padding:12px 0;border-bottom:1px solid var(--rule);align-items:baseline}
-  ul.calls b{font-family:var(--mono);font-size:11px;letter-spacing:.06em;color:var(--part);
+  ul.calls b{font-family:var(--mono);font-size:11px;letter-spacing:.06em;color:var(--band);
     width:74px;flex:none;font-weight:600}
   ul.calls span{font-size:16px;color:var(--muted)}
 
   ol.five{list-style:none;margin:0;padding:0;counter-reset:f}
-  ol.five li{counter-increment:f;background:var(--paper);border-left:2px solid var(--part);
+  ol.five li{counter-increment:f;background:var(--paper);border-left:2px solid var(--band);
     padding:15px 18px;margin:0 0 2px;display:flex;gap:14px;align-items:baseline}
   ol.five li::before{content:counter(f,decimal-leading-zero);font-family:var(--mono);font-size:11px;
-    color:var(--part);font-weight:600;flex:none}
+    color:var(--band);font-weight:600;flex:none}
   ol.five p{margin:0;font-size:16.5px}
 
   .qgroup{margin:0 0 26px}
@@ -95,7 +97,7 @@
   .qgroup ul{margin:0;padding:0 0 0 20px}
   .qgroup li{margin:0 0 8px;font-size:16.5px}
 
-  figure{margin:34px 0;background:var(--paper);padding:20px 20px 16px;border-top:2px solid var(--part)}
+  figure{margin:34px 0;background:var(--paper);padding:20px 20px 16px;border-top:2px solid var(--band)}
   figure svg{width:100%;height:auto;display:block}
   figcaption{font-size:14.5px;color:var(--muted);margin:14px 0 0;line-height:1.55}
   figcaption b{font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;
@@ -143,16 +145,16 @@
     font-family:var(--mono);font-size:10.5px;line-height:1.35;letter-spacing:.01em;
     padding:5px 0 5px 11px;margin-left:-1px;border-left:2px solid transparent}
   .rail a:hover{color:var(--peat)}
-  .rail .rn{color:var(--part);font-weight:600;flex:none;width:13px}
+  .rail .rn{color:var(--band);font-weight:600;flex:none;width:13px}
   .rail a.active{color:var(--peat);border-left-color:var(--amber);font-weight:600}
   .rail a.active .rn{color:var(--amber)}
   @media (max-width:1239px){.rail{display:none}}
 
   /* collapsible contents, narrow screens only */
-  .toc{display:none;background:var(--paper);border-left:3px solid var(--part);
+  .toc{display:none;background:var(--paper);border-left:3px solid var(--band);
     padding:12px 18px;margin:34px 0 0}
   .toc summary{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;
-    color:var(--part);font-weight:600;cursor:pointer}
+    color:var(--band);font-weight:600;cursor:pointer}
   .toc ol{margin:12px 0 2px;padding:0 0 0 20px}
   .toc li{margin:0 0 5px;font-size:15.5px}
   @media (max-width:1239px){.toc{display:block}}
@@ -212,10 +214,10 @@
 <div class="wrap">
 
 <header class="hd">
-  <p class="eyebrow">Era chapter · about 35 minutes</p>
+  <p class="eyebrow">Era chapter · about 34 minutes</p>
   <h1>Coast and forest: the hunter Stone Age</h1>
   <p class="dates">c. 9,000 – 3,950 BCE · Mesolithic · <i class="dk">ældre stenalder</i> · <i class="dk">jægerstenalderen</i></p>
-  <p class="why">Five thousand years — an eighth of the whole span of this series — in which nobody
+  <p class="why">Five thousand years — a third of the whole span of this series — in which nobody
   farmed anything, and which produced some of the richest hunter-gatherer archaeology on earth.
   This is also where Denmark stops being a peninsula and starts being a country made of coastline.</p>
   <ul class="keys">
@@ -328,10 +330,10 @@ lakes and rivers were the roads.</p>
 partnership with people here — some four thousand years before any other.</p>
 
 <p>The archaeology is concentrated in <i class="dk">Åmosen</i> on west Zealand, a huge bog basin
-where waterlogged conditions preserve wood, bark, bast and bone. It is also where the first
-identifiable Dane appears. At Hammelev in southern Jutland, a young woman was cremated and buried
+where waterlogged conditions preserve wood, bark, bast and bone. The oldest grave, though, is
+elsewhere. At Hammelev in southern Jutland, a young woman was cremated and buried
 around 8,250 BCE — the oldest known grave in the country. After four thousand years in which chapter
-01 could not produce a single human bone, we now have a burial. It is not much. But it is a person,
+1 could not produce a single human bone, we now have a burial. It is not much. But it is a person,
 and somebody put her there deliberately.</p>
 
 <h2 id="s03"><span class="n">03 / NARRATIVE</span>The sea takes the country</h2>
@@ -410,7 +412,7 @@ page.</p>
 <p>The consequence for Denmark was not simply that it got smaller. It got infinitely more coastal.
 Every fjord and inlet on the map today was cut then, and many more that have since silted up. A
 peninsula with a lot of interior became an archipelago in which almost nowhere is far from salt
-water. If you want one geographical fact to explain the next ten thousand years of Danish history —
+water. If you want one geographical fact to explain the next eight thousand years of Danish history —
 the boats, the trade, the tolls, the fleets, the fact that a country this small was ever a naval
 power — it is this one.</p>
 
@@ -667,7 +669,7 @@ her chest were two bone netting needles and the foot bones of roe deer, from a h
 wrapped around her.</p>
 
 <p>The technical term for all this is grave goods. The plainer description is that people took
-trouble. A swan's wing for an infant who never drew breath is not a subsistence strategy.</p>
+trouble. A swan's wing for an infant who may never have drawn breath is not a subsistence strategy.</p>
 
 <h2 id="s07"><span class="n">07 / NARRATIVE</span>Amber, ornament and the dog</h2>
 
@@ -687,18 +689,13 @@ an elk, reduced to a few confident planes. They are Ertebølle work, and they ar
 representational art securely known from Danish ground.</p>
 
 <p>Amber matters beyond these figures. It washes up on the west Jutland beaches, it is light, it is
-warm to the touch, it burns, and it is found in quantity nowhere else in northern Europe. In this
+warm to the touch, it burns, and it is found in quantity only on these shores and those of the
+eastern Baltic. In this
 chapter it is being carved into beads and animals for local use. Three thousand years later it will be
 travelling to Mycenae, and Denmark's whole Bronze Age will be paid for with it.</p>
 
-<p>The decoration on everyday objects points the same way. Kongemose bone daggers carry incised
-geometric bands; the antler axe-haft from Værebro Å has chequerboards and triangles; Ertebølle
-paddle blades are painted or carved with symmetrical designs. None of this is necessary. Somebody
-spent hours on it.</p>
-
-<p>So does the ochre. Nearly every grave at Bøgebakken had <i class="dk">okker</i> in it, heaviest
-around the head and hips, and it may have coloured the clothing rather than the body directly. It is
-red, which is to say it is the colour of blood, and people across Eurasia were using it in graves
+<p>The <i class="dk">okker</i> in the Bøgebakken graves may have coloured the clothing rather than
+the body directly. People across Eurasia had been putting it in graves
 for tens of thousands of years before this. It is the closest thing to a religious statement that
 survives from Mesolithic Denmark.</p>
 
@@ -709,7 +706,7 @@ being buried. There is a dog grave at Gøngehusvej in Vedbæk; across the Sound 
 cemeteries of Skateholm in Skåne, dogs were interred with grave goods, in some cases more carefully
 than some of the humans. Isotope work shows that dogs ate what people ate, marine diet and all.</p>
 
-<p>It is worth pausing on that. Ten thousand years before anyone in Denmark kept a cow, a sheep or a
+<p>It is worth pausing on that. Four thousand years before anyone in Denmark kept a cow, a sheep or a
 pig, there was already one animal that lived in the camp, ate the same fish, worked with the hunters
 and was put in the ground with something to take along.</p>
 
@@ -718,7 +715,7 @@ and was put in the ground with something to take along.</p>
 <div class="terms">
   <h4>Danish terms in this section</h4>
   <dl>
-    <div class="t"><dt>køkkenmøddingkommissionen</dt><dd>The Kitchen Midden Commission — a government-appointed research team, the first of its kind.</dd></div>
+    <div class="t"><dt>køkkenmøddingkommissionen</dt><dd>The Kitchen Midden Commission — a research team appointed by the Royal Danish Academy of Sciences, the first of its kind.</dd></div>
     <div class="t"><dt>affaldsdynge</dt><dd>Refuse heap; the neutral Danish description of what a midden is.</dd></div>
   </dl>
 </div>
@@ -737,9 +734,9 @@ had come to gather oysters off a bank.</p>
 already the man who had proved Thomsen's three-age sequence stratigraphically, thought they were
 something else entirely: communal eating places, the accumulated rubbish of tribes living nearby in
 the remotest antiquity.</p>
-<p>They argued from 1848. In 1850 the government appointed a commission to settle it — Worsaae the
-archaeologist, Steenstrup the zoologist and <b>Georg Forchhammer</b> the geologist, three professors
-sent out to dig together. At Mejlgård on Djursland in 1851 the answer became plain. The shells were
+<p>In 1848 the Royal Danish Academy of Sciences set up a committee to settle it — Worsaae the
+archaeologist, Steenstrup the zoologist and <b>Georg Forchhammer</b> the geologist, three scholars
+sent out to dig together. At Mejlgård on Djursland in 1850–51 the answer became plain. The shells were
 sorted by species and size in ways no tide produces; the layers alternated with charcoal and ash;
 the bones were of eaten animals. Steenstrup changed his mind and published that he had.</p>
 <p>He also supplied the word. He called the heaps <i class="dk">køkkenmøddinger</i> — kitchen
@@ -747,10 +744,10 @@ middens — and the term entered scientific English, French, German and Portugue
 use worldwide. Not everyone was pleased at the time: one contemporary writer thought the name
 malodorous and tasteless, and a newspaper joked that Denmark could now boast to the world of its
 national rubbish heaps.</p>
-<p class="who">Forchhammer, Steenstrup and Worsaae · the First Kitchen Midden Commission, 1848–51</p>
+<p class="who">Forchhammer, Steenstrup and Worsaae, the first Kitchen Midden Commission · Mejlgård, Djursland · 1848–51</p>
 </div>
 
-<p>It is hard to overstate what this was. Three disciplines, appointed by a government, digging the
+<p>It is hard to overstate what this was. Three disciplines, appointed by the national academy, digging the
 same site together to answer a question none of them could answer alone. It is generally taken as
 the beginning of interdisciplinary archaeology anywhere in the world, and it happened in Denmark in
 1851 because a zoologist and an archaeologist could not agree about oysters. A Second Kitchen Midden
@@ -789,14 +786,14 @@ farmers and with the steppe migrations of chapter 3 and beyond.</p>
 <div class="vig">
 <h4>Lola</h4>
 <p>Somewhere on the shore of a shallow lagoon on what is now Lolland, a young woman finished a meal
-of duck, eel and hazelnuts, and then chewed a lump of birch pitch. Birch bark, heated, yields a
+of duck and hazelnuts, and then chewed a lump of birch pitch. Birch bark, heated, yields a
 black tar that goes soft when warm and sets hard when cool; people had used it as glue for
 arrowheads for tens of thousands of years, and they also chewed it — to soften it for use, possibly
 for the taste, possibly for the teeth. When she had finished, she spat it into the water.</p>
 <p>It was dug up in 2015 by archaeologists from Museum Lolland-Falster working ahead of the Fehmarn
 tunnel. There are no tooth marks in it, but it is folded and twisted in exactly the way a chewed
 lump is. Somebody had the idea of testing it for DNA.</p>
-<p>It yielded a complete human genome — the oldest yet recovered in Denmark, and the first time
+<p>It yielded a complete human genome — the first time
 anywhere that an entire genome had been extracted from something other than bone or teeth. One
 researcher not involved in the work observed that the pitch held as much DNA as the best bones they
 normally get. She had dark skin, dark hair and blue eyes. She was lactose intolerant, like almost
@@ -826,15 +823,12 @@ the mouth as a tool, but essentially free of caries: no cereals, no sugar. Again
 is common and starts early, and life expectancy was not long by any modern standard.</p>
 
 <p>And there was violence. The triple grave at Bøgebakken held a man killed by a bone point. The
-woman at Gøngehusvej had taken a serious blow to the head and lived. Across the water at Skateholm
-in Skåne, the contemporary cemeteries tell similar stories. Sedentary, territorial societies with
-valuable fixed resources — a good weir site, an oyster bank, a fjord narrows — are societies with
-something to fight over, and the record suggests they sometimes did.</p>
-
-<p>The Skateholm cemeteries in Skåne, contemporary with Vedbæk, have produced several individuals
-with embedded points or healed cranial injuries. At Bøgebakken itself the triple grave held a man
-killed by a bone point. Across the wider Baltic Mesolithic the rate of skeletal trauma is high
-enough that it cannot be dismissed as accident.</p>
+woman at Gøngehusvej had taken a serious blow to the head and lived. The Skateholm cemeteries in
+Skåne, across the water and contemporary with Vedbæk, have produced several individuals with
+embedded points or healed cranial injuries, and across the wider Baltic Mesolithic the rate of
+skeletal trauma is high enough that it cannot be dismissed as accident. Sedentary, territorial
+societies with valuable fixed resources — a good weir site, an oyster bank, a fjord narrows — are
+societies with something to fight over, and the record suggests they sometimes did.</p>
 
 <p>Think about why that should be. A mobile forager who runs into trouble can walk away from it.
 A community with a fixed weir at a fjord narrows, an oyster bed it has worked for generations, a
@@ -971,7 +965,7 @@ standard Danish periodisation and are more gradual in reality than any bar chart
     was 120 m low is now at modern height.</span></li>
   <li><b>→ 3</b><span><i>First farmers and the megalith builders</i> — The farming transition, the population question, and what Lola's date really
     implies. Also the first monumental architecture in Danish history.</span></li>
-  <li><b>→ 5, 8</b><span><i>Pre-Roman Iron Age: bogs, war-boats and the Celtic world</i> · <i>Ships and raids: the Viking Age opens</i> — The boats start here. Ten-metre logboats on the Little Belt become the
+  <li><b>→ 5, Part C</b><span><i>Pre-Roman Iron Age: bogs, war-boats and the Celtic world</i> — The boats start here. Ten-metre logboats on the Little Belt become the
     Hjortspring boat, and eventually the longship.</span></li>
   <li><b>Thread</b><span>"The sea as income" begins in earnest. A country of fjords and narrows, with
     everyone within reach of salt water, is set up for everything from oyster beds to the Sound
@@ -1011,7 +1005,7 @@ standard Danish periodisation and are more gradual in reality than any bar chart
     <li>What is a køkkenmødding, and why does bone survive in one when it dissolves elsewhere?</li>
     <li>Why are Ertebølle settlements underwater in southern Denmark but on dry land in the
       north?</li>
-    <li>What was found in the double grave at Bøgebakken?</li>
+    <li>What was found in the double grave at Gøngehusvej?</li>
     <li>What was Lola chewing, and what did it turn out to contain?</li>
   </ul>
 </div>

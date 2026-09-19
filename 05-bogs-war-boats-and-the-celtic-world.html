@@ -8,7 +8,7 @@
 
   :root{
     --ground:#E4E7E4; --paper:#F0F2EE; --peat:#221E18; --muted:#6C6E63;
-    --rule:#C9CDC4; --verdigris:#2E6B5E; --amber:#A9601C; --oxblood:#8A2B2B; --part:#B8761F;
+    --rule:#C9CDC4; --verdigris:#2E6B5E; --amber:#A9601C; --oxblood:#8A2B2B; --indigo:#2F4C7A; --slate:#4F6470; --moss:#4A5A46; --band:#B8761F;
     --serif:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua","URW Palladio L",Georgia,serif;
     --mono:"IBM Plex Mono",ui-monospace,"SF Mono",SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;
   }
@@ -24,7 +24,7 @@
   .crumb{border-bottom:1px solid var(--rule);background:rgba(228,231,228,.94)}
   .crumb-in{max-width:1000px;margin:0 auto;padding:10px 28px;display:flex;gap:14px;
     font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
-  .crumb-in b{color:var(--part);font-weight:600}
+  .crumb-in b{color:var(--band);font-weight:600}
 
   header.hd{padding:62px 0 0}
   .eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.22em;text-transform:uppercase;
@@ -37,7 +37,7 @@
     border:1px solid var(--rule);border-radius:2px;padding:3px 8px}
 
   h2{font-size:27px;font-weight:400;letter-spacing:-.015em;margin:56px 0 4px;line-height:1.2}
-  h2 .n{font-family:var(--mono);font-size:12px;color:var(--part);letter-spacing:.1em;
+  h2 .n{font-family:var(--mono);font-size:12px;color:var(--band);letter-spacing:.1em;
     display:block;margin:0 0 8px;font-weight:600}
   h3{font-size:19px;font-weight:600;margin:34px 0 6px;letter-spacing:-.008em}
   .kicker{font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;
@@ -46,9 +46,9 @@
   i.dk{font-style:italic}
 
   /* per-section glossary */
-  .terms{background:var(--paper);border-left:3px solid var(--part);padding:16px 20px;margin:22px 0 28px}
+  .terms{background:var(--paper);border-left:3px solid var(--band);padding:16px 20px;margin:22px 0 28px}
   .terms h4{font-family:var(--mono);font-size:10px;letter-spacing:.16em;text-transform:uppercase;
-    color:var(--part);margin:0 0 12px;font-weight:600}
+    color:var(--band);margin:0 0 12px;font-weight:600}
   .terms dl{margin:0;display:grid;grid-template-columns:1fr 1fr;gap:10px 26px}
   .terms dl.one{grid-template-columns:1fr}
   .terms .t{min-width:0}
@@ -74,18 +74,20 @@
   .myth dt{font-weight:600;font-size:16.5px;margin:16px 0 3px}
   .myth dt:first-child{margin-top:0}
   .myth dd{margin:0;font-size:16px;color:var(--muted)}
+  .myth dd p{font-size:16px;margin:0 0 .8em}
+  .myth dd p:last-child{margin-bottom:0}
 
   ul.calls{list-style:none;margin:0;padding:0;border-top:1px solid var(--rule)}
   ul.calls li{display:flex;gap:18px;padding:12px 0;border-bottom:1px solid var(--rule);align-items:baseline}
-  ul.calls b{font-family:var(--mono);font-size:11px;letter-spacing:.06em;color:var(--part);
+  ul.calls b{font-family:var(--mono);font-size:11px;letter-spacing:.06em;color:var(--band);
     width:74px;flex:none;font-weight:600}
   ul.calls span{font-size:16px;color:var(--muted)}
 
   ol.five{list-style:none;margin:0;padding:0;counter-reset:f}
-  ol.five li{counter-increment:f;background:var(--paper);border-left:2px solid var(--part);
+  ol.five li{counter-increment:f;background:var(--paper);border-left:2px solid var(--band);
     padding:15px 18px;margin:0 0 2px;display:flex;gap:14px;align-items:baseline}
   ol.five li::before{content:counter(f,decimal-leading-zero);font-family:var(--mono);font-size:11px;
-    color:var(--part);font-weight:600;flex:none}
+    color:var(--band);font-weight:600;flex:none}
   ol.five p{margin:0;font-size:16.5px}
 
   .qgroup{margin:0 0 26px}
@@ -95,7 +97,7 @@
   .qgroup ul{margin:0;padding:0 0 0 20px}
   .qgroup li{margin:0 0 8px;font-size:16.5px}
 
-  figure{margin:34px 0;background:var(--paper);padding:20px 20px 16px;border-top:2px solid var(--part)}
+  figure{margin:34px 0;background:var(--paper);padding:20px 20px 16px;border-top:2px solid var(--band)}
   figure svg{width:100%;height:auto;display:block}
   figcaption{font-size:14.5px;color:var(--muted);margin:14px 0 0;line-height:1.55}
   figcaption b{font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;
@@ -143,16 +145,16 @@
     font-family:var(--mono);font-size:10.5px;line-height:1.35;letter-spacing:.01em;
     padding:5px 0 5px 11px;margin-left:-1px;border-left:2px solid transparent}
   .rail a:hover{color:var(--peat)}
-  .rail .rn{color:var(--part);font-weight:600;flex:none;width:13px}
+  .rail .rn{color:var(--band);font-weight:600;flex:none;width:13px}
   .rail a.active{color:var(--peat);border-left-color:var(--amber);font-weight:600}
   .rail a.active .rn{color:var(--amber)}
   @media (max-width:1239px){.rail{display:none}}
 
   /* collapsible contents, narrow screens only */
-  .toc{display:none;background:var(--paper);border-left:3px solid var(--part);
+  .toc{display:none;background:var(--paper);border-left:3px solid var(--band);
     padding:12px 18px;margin:34px 0 0}
   .toc summary{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;
-    color:var(--part);font-weight:600;cursor:pointer}
+    color:var(--band);font-weight:600;cursor:pointer}
   .toc ol{margin:12px 0 2px;padding:0 0 0 20px}
   .toc li{margin:0 0 5px;font-size:15.5px}
   @media (max-width:1239px){.toc{display:block}}
@@ -211,8 +213,8 @@
 <div class="wrap">
 
 <header class="hd">
-  <p class="eyebrow">Era chapter · about 32 minutes</p>
-  <h1>Bogs, war-boats and the Celtic world</h1>
+  <p class="eyebrow">Era chapter · about 31 minutes</p>
+  <h1>Pre-Roman Iron Age: bogs, war-boats and the Celtic world</h1>
   <p class="dates">c. 500 BCE – 1 CE · <i class="dk">førromersk jernalder</i> · the Pre-Roman Iron Age</p>
   <p class="why">The poorest-looking period in Danish prehistory is also the one that produces the
   first villages, the first permanent fields, the first army we can count — and the first Danish
@@ -632,7 +634,7 @@ to the hospital in Vejle, where the district physician examined her.</p>
 <p>The historian Niels Matthias Petersen then proposed, in an article of 1836–37, that she was
 Queen Gunhild of Norway — lured to Denmark by Harald Bluetooth with a promise of marriage and
 murdered in a bog instead, according to the sagas. The find spot was ten kilometres from Jelling.
-The identification was accepted. King Frederik VI paid for a fine coffin, and the woman was given a
+The identification was accepted. King Frederik 6. paid for a fine coffin, and the woman was given a
 Christian royal burial in Sankt Nicolai Church in Vejle, where the coffin still stands.</p>
 <p>A young archaeologist from Vejle disagreed. J.J.A. Worsaae — the same man who would later argue
 with Steenstrup about oyster shells in chapter 2 — had studied bog finds in England and knew that
@@ -823,7 +825,7 @@ pretending to be like everybody else.</p>
 <dl>
   <dt>"The Haraldskær woman is Queen Gunhild."</dt>
   <dd>Disproved in 1842 and again by radiocarbon in 1977: she died around 490 BCE, roughly fourteen
-  centuries before Gunhild. The coffin Frederik VI paid for is still in the church in Vejle, and the
+  centuries before Gunhild. The coffin Frederik 6. paid for is still in the church in Vejle, and the
   name is still in use.</dd>
 
   <dt>"Bog bodies were all human sacrifices."</dt>
