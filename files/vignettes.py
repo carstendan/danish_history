@@ -57,6 +57,14 @@ Sept 2026 — two additions: open item 27, and convention D-9.
    carries a bracket and none carries [f] is a failure and says so.
 
    [-] alongside [f] or [n] is a contradiction, and is reported as malformed.
+
+   R-1, agreed 20 Sept 2026 (REVIEW-CONSISTENCY 7.9). In a chapter whose
+   evidence names no one, the [f] requirement is met by the part, not by the
+   chapter. NAMES_NO_ONE lists those chapters, each with the chapters of its
+   part. Such a chapter without [f] reports "part" instead of FAIL, but only
+   if some chapter of the part really carries [f]; if none does, it still
+   fails. [n] is not waived. The list is closed: a chapter is added by a
+   decision recorded in CONVENTIONS.md, never to make this report pass.
 ------------------------------------------------------------------------------
 """
 
@@ -66,6 +74,11 @@ import os
 import re
 import sys
 from collections import Counter, defaultdict
+
+# R-1: chapters whose evidence names no one, each with the chapters of its
+# part. Their [f] is met by the part. See the docstring; add only by decision.
+_PART_A = ('01', '02', '03')
+NAMES_NO_ONE = {'01': _PART_A, '03': _PART_A}
 
 VIG = re.compile(r'<div class="vig">(.*?)</div>', re.S)
 H4 = re.compile(r'<h4[^>]*>(.*?)</h4>', re.S)
@@ -343,6 +356,7 @@ def main():
     # ---- D-9 balance layer ------------------------------------------------
     print('\n  D-9 balance (woman as agent . non-elite subject):')
     failures, partials, untagged = [], [], []
+    f_by_num = {num: f for num, _, _, f, _ in balance}
     for num, n_vigs, n_tagged, has_f, has_n in balance:
         if n_vigs == 0:
             continue
@@ -351,13 +365,15 @@ def main():
             untagged.append(num)
             continue
         miss = []
-        if not has_f:
+        by_part = (not has_f and num in NAMES_NO_ONE
+                   and any(f_by_num.get(c) for c in NAMES_NO_ONE[num]))
+        if not has_f and not by_part:
             miss.append('no woman as agent')
         if not has_n:
             miss.append('no non-elite subject')
         line = ('     %s   %d/%d tagged   [f] %s   [n] %s   %s'
                 % (num, n_tagged, n_vigs,
-                   'yes' if has_f else 'NO ',
+                   'yes' if has_f else ('part' if by_part else 'NO '),
                    'yes' if has_n else 'NO ',
                    'ok' if not miss else 'FAIL'))
         if miss:

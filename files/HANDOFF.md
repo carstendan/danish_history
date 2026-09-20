@@ -39,8 +39,8 @@ written — see Lessons.
 | H | 32–36 | 1814–1901 | **built, verified, indexed, closed — see `PLAN_H.md`** |
 | I | 37–45 | 1901–1955 | **NINE CHAPTERS, ALL BUILT, VERIFIED AND INDEXED. The boundary pass is done — item 136 — and item 128 is CLOSED.** The 1943–1955 run was repartitioned from three chapters into four at the material's own seams; no chapter in the part is outside the 25–50 band |
 
-**After item 141 the book is 336,699 page words, 26.7 h; Part A 21,392, Part I
-74,403** — read off `bookstats.py` after the item 141 rebuild, 19 September 2026.
+**After item 141 and R-1 the book is 336,704 page words, 26.7 h; Part A 21,397,
+Part I 74,403** — read off `bookstats.py` after the R-1 rebuild, 20 September 2026.
 **Every chapter now has an authored or generated source in `files/`: 01–15 were
 recovered in item 141.** (Item 140's figure was 336,690; item 139's 336,857 fell by
 the cuts of I-1 and I-3.) The figures below are item 138's.
@@ -4280,8 +4280,12 @@ split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see it
    0 D-1 breaks, 0 prose-reference breaks, 0 same-page glosses, 0 `<h1>`, 0 title
    numbers.** narrative.py's one OVER is still 17 §08.
 
-   **DECISION WAITING: R-1** (REVIEW-CONSISTENCY §7.9) — D-9 tags and L9a who-lines
-   in chapters whose evidence names no one. Part A is untagged until it is answered.
+   **R-1 ANSWERED, 20 September, as recommended** (REVIEW-CONSISTENCY §7.9): where a
+   chapter's evidence names no one, the part meets `[f]` and the who-line may name
+   the find. Recorded under D-9; built into `vignettes.py` as a closed list
+   (`NAMES_NO_ONE` = 01, 03) that still fails if the part has no `[f]`. Part A
+   tagged: nine vignettes, balance ok in all three chapters. The visible tags add
+   five page words: **336,704, Part A 21,397.**
 
    **LESSON.** START_HERE said to *write* A–C build scripts, and one had existed
    since the first build; START_HERE said to *open* SE 1920 nr. 23, and item 104 had

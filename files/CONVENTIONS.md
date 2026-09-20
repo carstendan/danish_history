@@ -138,7 +138,16 @@ untagged elite men does not look like a chapter nobody tagged.
 **Defined.** `HANDOFF.md`, *Convention D-9*; `PLAN_H.md` §4 (the Part H roster);
 restated in `PLAN_I.md`.
 
-**Checked by.** `vignettes.py` balance layer.
+**Where the evidence names no one (R-1, agreed by Carsten 20 September 2026).**
+In a chapter whose evidence names no individual, the `[f]` requirement is met by
+the part, not by the chapter, and the who-line may name the find instead of a
+person (L9a). `[n]` is still required of every chapter. The chapters it covers
+are listed, closed, in `vignettes.py` (`NAMES_NO_ONE`): **01 and 03**, whose part
+carries its `[f]` in 02 (Lola). A chapter joins the list by a decision recorded
+here, never to make the check pass. Part A tagged on the same day.
+
+**Checked by.** `vignettes.py` balance layer, which reports such a chapter as
+"[f] part" — and still as FAIL if no chapter of its part carries `[f]`.
 
 ### D-10 · Part I takes eight chapters — superseded by item 136 (nine; book is 45)
 

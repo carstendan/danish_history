@@ -19,12 +19,12 @@ python3 appcheck.py
 python3 freshcheck.py
 python3 sweep_glossary.py ; python3 sweep_names.py ; python3 sweep_facts.py ; python3 sweep_arrows.py
 
-Expected, as run after item 141's rebuild. `mapfixture.py` takes several minutes; do not kill it.
+Expected, as run after item 141's rebuild and the R-1 tagging of Part A. `mapfixture.py` takes several minutes; do not kill it.
 
 - **tidy:** reports, deletes nothing. No collisions, no orphans, **no missing figures**; all 45 bodies present.
 - **mapfixture / seamcheck:** curated panel all correct; FIXTURE PASSES; SEAM LAYER PASSES.
 - **debuild:** **45 identical**, all round-trip.
-- **bookstats:** 45 of 45, **336,699 page words, 26.7 h**, 0 remaining. Part A 21,392; Part B 25,666; Part I 74,403.
+- **bookstats:** 45 of 45, **336,704 page words, 26.7 h**, 0 remaining. Part A 21,397; Part B 25,666; Part I 74,403.
 - **vignettes:** 114 carry a place, 84 distinct; selftest passes. (It reads bodies, so 01–15 count now.)
 - **figcheck:** 98 match, 30 sourceless (A–C, expected), 0 disagree.
 - **narrative:** one OVER, 17 §08 *Kalmar, 17 June*, 849. Known; not for cutting (D-16).
@@ -43,7 +43,7 @@ Since item 141, **01–24 are authored bodies** (`cNN_body.html` is the source; 
 
 THIS SESSION:
 
-1. **R-1, if Carsten has not answered it** (REVIEW-CONSISTENCY §7.9): D-9 tags and L9a who-lines in chapters whose evidence names no one. Put it once, with its recommendation. If answered, apply it to Part A before anything else, as its own commit.
+1. **R-1 is answered and applied** (REVIEW-CONSISTENCY §7.9; CONVENTIONS D-9): Part A is tagged, and the balance layer reports 01 and 03 as "[f] part". Tag Part B as you read it — D-9 backfill is due when a part is touched. Part B's nine vignettes are modern finders and excavators, plus Kirsten Svendsdatter (1639) in 07 — its only woman. Several of its who-lines have two fields where three are expected. `NAMES_NO_ONE` does not extend to Part B unless a chapter's evidence really names no one and Carsten agrees; say which chapters have no `[f]` and put that to him as a decision.
 
 2. **Part B's reading pass, chapters 04–07.** Read for errors of fact, repetition within and across chapters (including back into Part A: 04 repeats several of 03's lines), and drag, against CONVENTIONS.md and the sweeps. Check every date arithmetic and every "N years later" (D-8) by computing it; Part A had twenty-six factual errors and most were intervals. Apply D-15 to Part B as you go (Schleswig appears in 06 and 07), and decide any D-13 vignette that falls in it (none of the seven named cases does). Chapter 07's Recall repeats all five of its checkpoints; decide whether that is the book's pattern or a fault. Put findings in a new §8 of REVIEW-CONSISTENCY.md. Any decision goes to Carsten one at a time, with a recommendation.
 

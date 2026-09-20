@@ -818,3 +818,22 @@ chapter, and a who-line may name the find.** Part A would then carry its `[f]` i
 02 (Lola; the young mother at Bøgebakken is in the body, not a vignette). The
 alternative is a new vignette in 01 and 03 built round a woman — in 01 it could
 only be a modern archaeologist, which would be a vignette written for its tag.
+
+**Answered 20 September 2026: as recommended.** Recorded under D-9 in
+`CONVENTIONS.md` and built into `vignettes.py` (`NAMES_NO_ONE` = 01, 03; "[f]
+part" only when the part really has an `[f]` — tested by removing Lola's tag, when
+01, 02 and 03 all fail). Part A tagged:
+
+| ch | vignette | tag | why |
+|---|---|---|---|
+| 01 | Jørn Fynbo, the schoolteacher | `[n]` | an amateur, and the find is his |
+| 01 | Jørgen Holm, 21 May 2001 | `[-]` | a professional excavator |
+| 02 | Tybrind Vig 1 | `[n]` | the boat's makers, anonymous hunter-fishers |
+| 02 | Bøgebakken | `[n]` | the amateurs who stopped the bulldozer, and the dead |
+| 02 | the Kitchen Midden Commission | `[-]` | three academics |
+| 02 | Lola | `[f][n]` | a woman, and the agent of her own vignette |
+| 03 | Iversen at Draved | `[-]` | a professional scientist |
+| 03 | the Tustrup kulthus | `[-]` | a building; nobody in it is identified |
+| 03 | the Gjerrild cist | `[n]` | five ordinary people |
+
+Balance: 01 `[f]` part, `[n]` yes; 02 both; 03 `[f]` part, `[n]` yes.
