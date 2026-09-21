@@ -29,7 +29,12 @@ census and it was done by grep handle and by hand; this reads every
   6. EMPTY BLOCKS. A "What to carry forward" heading over no arrows.
   7. PROSE REFERENCES. "chapter N" / "chapters N and M" in reading text: N must
      exist, and a forward reference beyond the next part breaks D-1 as extended
-     to prose (HANDOFF item 15).
+     to prose (HANDOFF item 15). Also the bare parenthetical form Parts A-D use,
+     "the Viking Age (8)", "1864 (33)", "(8-11)". Review session 4 widened this
+     from the narrative to every section a reader reads - vignettes, glossaries,
+     myth-checks, questions - after thirteen references were found that it could
+     not see, eleven of them to numbers the renumbering had made wrong. It tests
+     that a target exists and obeys D-1, not that it is the right chapter.
   8. FOOTERS. "next: N - Title, span" must name the next chapter's current title.
   9. H1. The <h1> on the page against the <title> and index spine title, which
      are the ones arrows and footers quote.
@@ -207,8 +212,16 @@ def main():
                 solvent.append((p.n, c["arrow"], label, look, miss))
 
         # 7. prose references
-        for sid, head, t in p.prose():
-            for m in re.finditer(r"\b[Cc]hapters?\s+((?:\d{1,2})(?:(?:,\s*|\s+and\s+|\s*[–-]\s*)\d{1,2})*)", t):
+        # "chapter N" and "(N)" anywhere a reader reads, vignettes and apparatus
+        # included - both forms sit in vignettes, Contested questions and
+        # myth-checks as often as in the prose (review session 4).
+        join = r"(?:,\s*|\s+and\s+|\s+to\s+|\s*[–-]\s*)"
+        pats = (r"\b[Cc]hapters?\s+(\d{1,2}(?:" + join + r"\d{1,2})*)",
+                r"(?<=[\w’'.,)\"”]) \((\d{1,2}(?:" + join + r"\d{1,2})*)\)")
+        scans = [(sid, t, pat) for label, sid, t in p.blocks_text() if label == "section"
+                 for pat in pats]
+        for sid, t, pat in scans:
+            for m in re.finditer(pat, t):
                 nums = [int(x) for x in re.findall(r"\d+", m.group(1))]
                 for x in nums:
                     ctx = t[max(0, m.start() - 70):m.end() + 50]

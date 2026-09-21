@@ -30,7 +30,9 @@ target was unplanned.
 **Defined.** `PLAN_G.md` §6; `HANDOFF.md`, *How a cross-reference is written*
 (with the table of the six cross-reference forms).
 
-**Checked by.** The arrow sweep (`REVIEW-CONSISTENCY.md` §4).
+**Checked by.** The arrow sweep (`REVIEW-CONSISTENCY.md` §4). Check 7 reads prose references in
+every section a reader reads, in both forms ("chapter N" and "(N)"), since review
+session 4 (§8.6, §8.8).
 
 ### D-2 · Part G is seven chapters — spent
 
@@ -145,6 +147,8 @@ person (L9a). `[n]` is still required of every chapter. The chapters it covers
 are listed, closed, in `vignettes.py` (`NAMES_NO_ONE`): **01 and 03**, whose part
 carries its `[f]` in 02 (Lola). A chapter joins the list by a decision recorded
 here, never to make the check pass. Part A tagged on the same day.
+**Extended to 04 and 05 (R-2, agreed by Carsten 21 September 2026)**, whose part carries
+its `[f]` in 07 (Kirsten Svendsdatter). 06 is not covered: its evidence names people.
 
 **Checked by.** `vignettes.py` balance layer, which reports such a chapter as
 "[f] part" — and still as FAIL if no chapter of its part carries `[f]`.
@@ -213,7 +217,9 @@ vignette, which repeats the section's sourcing paragraph.
 seven cases are decided under it as each part's review reaches them: 42 §03 with
 Part I; 22 §08 with Part F; 26 §09, 27 §05, 27 §09 and 29 §03 with Part G; 35 §03
 with Part H. **Part A, read in review session 3: no case** (`REVIEW-CONSISTENCY.md`
-§7.7; 02 §06 is named for its vignette's place but restates nothing, and is kept).
+§7.7; 02 §06 is named for its vignette's place but restates nothing, and is kept). **Part B, review session 4: one case, 05 §04 *Hjortspring*, decided by
+re-scoping the body to the army** (§8.4); 07 §02 and §03 are named for their vignettes'
+subjects but restate nothing, and are kept.
 
 **Checked by.** Reading. `REVIEW-BUILD-FAULTS.md` §4's overlap measure is a way of
 choosing what to read, not a test — it scores healthy vignettes about the same
@@ -259,7 +265,8 @@ Danish form: *Slesvigsk Parti* (not "Slesvig Party"), *Flensborg Avis*.
 "Slesvig Party", and three figures — `figs_38` (map labels Flensburg, Schleswig),
 `figs_39` (Slesvigsk Parti), `figs_43` (South Schleswig, and a stale "section 07"
 that is §06). Every other part takes it in its own reading pass. **Part A, review
-session 3: read, and nothing needed changing.** Maps (`map_*.py`)
+session 3: read, and nothing needed changing.** **Part B, review session 4:** one wrong use (06's
+Nydam boat "in Schleswig ever since" — it was in Kiel; now "in Germany"); the rest right. Maps (`map_*.py`)
 label in Danish throughout and are left for a decision of their own when Part A–D
 maps are next touched.
 

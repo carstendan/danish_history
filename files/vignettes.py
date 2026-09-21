@@ -78,7 +78,8 @@ from collections import Counter, defaultdict
 # R-1: chapters whose evidence names no one, each with the chapters of its
 # part. Their [f] is met by the part. See the docstring; add only by decision.
 _PART_A = ('01', '02', '03')
-NAMES_NO_ONE = {'01': _PART_A, '03': _PART_A}
+_PART_B = ('04', '05', '06', '07')   # R-2, agreed 21 Sept 2026
+NAMES_NO_ONE = {'01': _PART_A, '03': _PART_A, '04': _PART_B, '05': _PART_B}
 
 VIG = re.compile(r'<div class="vig">(.*?)</div>', re.S)
 H4 = re.compile(r'<h4[^>]*>(.*?)</h4>', re.S)

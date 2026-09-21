@@ -535,7 +535,7 @@ single vote against.
   kept its parliament, courts, police and king and undertook to keep order and
   deliver goods.
 - **hjemmetysker** — a home German: a German-minded inhabitant of the territory
-  that became Danish in 1920 (chapter 40).
+  that became Danish in 1920 (chapter 38).
 
 **§05 — the realm**
 

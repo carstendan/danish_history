@@ -4293,6 +4293,54 @@ split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see it
    repository and the instruction was older than it. *A START_HERE is a plan made
    before the session; read the ledger it points at before carrying it out.*
 
+142. **The consistency review, session 4: Part B read, tagged and checked; check 7's
+   blind spot closed.** 21 September 2026. Full record in `REVIEW-CONSISTENCY.md` §8.
+
+   **Cold run on a fresh clone of `b528394`: every figure matched START_HERE_review_4.**
+
+   **PART B READ.** About seventy errors of fact and of the book against itself fixed
+   (§8.1). Among them: the three-aisled house "appears in the later Bronze Age" (it is
+   early, and the same paragraph's Bjerre is period II); Illerup's "thirty thousand or
+   more still down there" (the page's own ratio gives 22,500); "the deposits … get
+   bigger" (Illerup A is by far the largest, as §06 says); Nydam "in Schleswig ever
+   since" (Kiel, Holstein, for seventy years); 06's war-and-wealth line "is the ice
+   margin" (Illerup, Vimose and Nydam are all east of it); 05's Rome "fighting
+   Carthage" in 350 BCE and "an empire after this chapter closes"; 07's "Charlemagne's
+   grandfather" in 750, Christian kingdoms "immediately south of Denmark", Jelling "three
+   centuries after this page ends", a Jelling palisade among the chapter's own finds, and
+   "the next thirty-three chapters". Repetition and drag cut and named (§8.2); D-15 one
+   use (§8.4); **D-13: 05 §04 Hjortspring, decided by re-scoping the body**; 07's
+   Recall, 5 of 5 checkpoints against a book norm of 0–3, is a fault: two questions
+   replaced (§8.5).
+
+   **CHECK 7 COULD NOT SEE THE PARENTHETICAL FORM.** "the overseas empire (27)",
+   "1864 (33)" — thirteen forward references in 06–17, eleven to numbers the
+   renumbering had made wrong, all D-1 breaks. All re-pointed to part letters. Check 7
+   now reads "chapter N" and "(N)" in every section a reader reads. Two glossary pointers
+   wrong by renumbering (34, 41) fixed in the drafts; three more listed for their parts.
+
+   **R-1 IN PART B.** Tagged; seven of nine who-lines had two fields. **R-2 answered, 21
+   September: as recommended** — 04 and 05 join `NAMES_NO_ONE`, Part B's `[f]` in 07.
+   **R-3 answered: as recommended** — 06 gets two vignettes (Juellinge `[f]`, Vorbasse
+   `[n]`) in session 5; until then it is the book's one D-9 failure, correctly.
+
+   **CHECKED BY A SEPARATE AGENT**, which found twelve slips, eight in my own edits —
+   among them the 1996 Trundholm find I had wrongly dropped, Willumsen "smallholder" (he
+   was the bog's overseer), and check 7's remaining gap. All corrected (§8.8).
+
+   **VERIFIED:** `mkbody` 34 and 41 (no `!!`), build A–E, H and I, `linkindex`,
+   `index_generator`, then the whole suite: **debuild 45 identical; 45 of 45, 336,720
+   page words, 26.7 h (Part B 25,666); vignettes 119/88, D-9 failure 06 only, selftest
+   passes; figcheck 98/30/0; draftnotes clean; appcheck 159; freshcheck 14; tidy clean;
+   sweeps: 0 D-1, 0 prose references, 0 same-page glosses, Schleswig 169.** One OVER,
+   still 17 §08. mapfixture and seams not re-run: no map or figure script changed.
+
+   **LESSON.** Every check the project has passed Part B, and Part B had thirteen
+   references pointing at the wrong chapter. The check looked for one spelling of a
+   reference in one kind of text. *A check that reports 0 has only looked where it was
+   told to look. Before trusting a 0, find one case by hand that the check should have
+   caught, and make sure it does.*
+
 ---
 
 

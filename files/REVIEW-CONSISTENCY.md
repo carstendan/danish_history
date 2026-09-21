@@ -837,3 +837,280 @@ part" only when the part really has an `[f]` — tested by removing Lola's tag, 
 | 03 | the Gjerrild cist | `[n]` | five ordinary people |
 
 Balance: 01 `[f]` part, `[n]` yes; 02 both; 03 `[f]` part, `[n]` yes.
+
+## 8. Session 4 — Part B read (chapters 04–07)
+
+*21 September 2026, from `START_HERE_review_4.md`. Cold run on a fresh clone of
+`b528394`: every figure as expected — tidy clean, fixture and seams pass, debuild 45
+identical, 336,704 page words, vignettes 114/84, figcheck 98/30/0, one OVER (17 §08),
+draftnotes clean, appcheck 159, freshcheck 14, sweeps as listed.*
+
+Every claim below was checked against a source before it was changed; three research
+agents gathered the sources, and a fourth agent that had not seen the work checked every
+hunk afterwards (§8.8).
+
+### 8.1 Part B, read — errors of fact and of the book against itself, fixed
+
+| ch | the page said | it is | ground |
+|---|---|---|---|
+| 04 §02 | amber: "Chapter 3 saw it carved into small animals" | chapters 2 and 3, carved and strung | 02 §07; 03 §07 |
+| 04 Meanwhile | Nebra and Trundholm "four hundred kilometres" apart | about 515 | computed from the find spots |
+| 04 §04 | the coffins' contents "survived for three and a half thousand years"; the yarrow "three and a half thousand years on" | some 3,300 (c. 1400–1300 BCE to 1871–1935); nearly 3,400 to now | D-8; the same page gives Trundholm "three thousand three hundred" |
+| 04 §04 | Borum Eshøj "opened in 1875" | first dug into 1871 (the woman); the men 1875 | natmus; lex |
+| 04 §05 | a wheel piece found "in 1996" by a detectorist, more "in 1998" | one campaign, November 1998, 21 pieces | natmus, *New parts for the sun chariot* |
+| 04 §07 | "the Copenhagen school associated with Kristian Kristiansen" | Kristiansen has been at Gothenburg since 1994 | gu.se |
+| 04 §07 | the isotope evidence "under dispute in section 09" | section 10 | the page |
+| 04 §08 | the three-aisled house "appears in the later Bronze Age", dominant "for the next two thousand years" | early Bronze Age (period II — Bjerre, cited in the same paragraph, is period II); until the end of the Viking Age, some 2,500 | lex *langhus*; Bech & Mikkelsen |
+| 04 §08 + glossary | "one end housed people, the other end cattle", of the type as a whole | stall traces in some Late Bronze Age houses, commonness uncertain | Trap, *Bronzealderens huse*; 05 §03 |
+| 04 §10, Contested | the strontium exchange "has run for a decade" | since 13 March 2019 | *Science Advances* |
+| 04 myth-check | the lur "about two thousand years older" than the longships | 1,500–2,000 | lex: lurs 1300–600 BCE, most after 1000 |
+| 04 ← 2 | the Hjortspring boat "the first one we can actually examine" | the first plank-built one; 02's Tybrind Vig logboat is examined in a vignette | 02 |
+| 05 §03 | Hodde held "perhaps a hundred and fifty to two hundred people" | two to three hundred | Danmarks Oldtid |
+| 05 §03 + glossary | stall partitions "the first hard evidence that cattle were housed" | present in some Late Bronze Age houses; standard now | Trap |
+| 05 §04 | the vignette's "three or four others" against the body's "probably four boats" | probably three others | the page |
+| 05 §04 | "around fifty wooden shields; swords" | at least 64 shields (probably 80–100); eleven swords; some 170 spearheads, 138 of iron | danmarkshistorien (the page's own source) |
+| 05 Meanwhile | at Hjortspring (c. 350) "Rome was fighting Carthage" | the first war with Carthage is 264; in 348 they renewed a treaty | |
+| 05 Meanwhile | "Rome becomes an empire in the decades after this chapter closes" | 27 BCE, inside the chapter | |
+| 05 §07 | Worsaae, 1842, "had studied bog finds in England" | his British journey was 1846–47; he argued from Danish Early Iron Age bog finds | DBL; Wikipedia |
+| 05 §08 | the deposition rule "three thousand years old" by the cauldron's day | nearly four thousand | 03 §07's own "four thousand" |
+| 05 §10 | the Hoby burial "within a few generations of the turn of the era" | within one or two | 06 §04: "within a generation" of Silius's command, 14–21 |
+| 05 myth-check | Haraldskær "roughly fourteen centuries before Gunhild" | more than fourteen (1,454) | D-8 |
+| 05 Contested | Tacitus "writing a century later", "a near-contemporary outside source", of the Tollund Man | some five centuries later | the page's own dates |
+| 05 intro, Five | "the first Danes we can look at" | the first faces from Danish ground | 01's myth-check; §7.4's Hammelev precedent |
+| 05 → 7, 10 | the Nydam boat's chapter | 6 (§08) | 06 |
+| 06 §02 | "The overseas empire (27)" | chapter 30; Part G under D-1 | §8.6 |
+| 06 §04 | the Hoby cups show "scenes from the *Iliad*" | Priam is the *Iliad*; Philoctetes is not — the Trojan War | |
+| 06 §04 | isotopes "say he grew up on Lolland" | "most probably of local origin" | *Danish Journal of Archaeology* 2021 |
+| 06 §04 | "He cannot have known what the pictures meant" | may never have (L8: hedge) | |
+| 06 §06 | "Moesgaard Museum sent P.V. Glob" in 1950 | Forhistorisk Museum, Aarhus; Moesgaard from 1970 | lex, *P.V. Glob* |
+| 06 §06 | the second campaign "ran for eleven years" (1975–85) | ran until 1985 | D-8 |
+| 06 §06 | 15,000 objects from 40 per cent, so "thirty thousand or more are still down there" | 22,500 on the page's own ratio: more than twenty thousand | arithmetic |
+| 06 §06 | "nearly two hundred swords", "over three hundred spear and lance heads", "124 combs", "fire-strikers, one per soldier" | c. 150 swords; at least 869 spears and lances; c. 300 shields; c. 140 combs; c. 130 fire-strikers — one man in eight | Moesgaard; danmarkshistorien |
+| 06 §06 | Illerup's deposit shows "what they gambled with" | the gaming pieces are Vimose's, as the same paragraph says | the page |
+| 06 §08 | a mast "for another three hundred years" after Nydam | four hundred | 07 §06: Nydam c. 310, the sail c. 700 |
+| 06 §08 | Dybbøl "some fifteen kilometres from the bog" | about six | coordinates |
+| 06 §08 | the boat "has been in Schleswig ever since" | Flensburg, then Kiel (Holstein) from 1877, Gottorf since the late 1940s: in Germany | de.wikipedia *Nydamboot*; lex |
+| 06 §08, visit | Gottorf "a little over an hour" / "an hour" from the border | 35–40 km: under an hour | |
+| 06 §08 | "another twenty-five chapters. 1864 (33)" | 28 chapters; 34; Part H under D-1 | §8.6 |
+| 06 visit | Nydam and Thorsberg "both were Danish finds in 1863" | Thorsberg was dug 1858–61: Engelhardt dug both before 1864 | geschichte-s-h.de |
+| 06 §09 | Illerup's "nine runic inscriptions"; WAGNIJO "once scratched, once in raised relief", "the same name appears at Vimose" | about ten; both stamped at manufacture; the Vimose one is a third lance head | Imer; Ilkjær |
+| 06 fig. 2 | war west, wealth east "is, once again, the ice-margin line of chapter 1" | Illerup, Vimose and Nydam all lie east of the ice margin; the line is the Great Belt | 01 |
+| 06 §12 | the armies "get, if anything, larger"; "The deposits do not get smaller. They get bigger." | Illerup A (205) is by far the largest (§06 says so); D is a dozen objects | Danmarks Oldtid |
+| 06 Meanwhile | Denmark's population "would have fitted comfortably inside Teotihuacan" | Teotihuacan 100–200,000; later Iron Age Denmark a few hundred thousand, perhaps half a million — removed | Gyldendal/Politiken, *Befolkningen* |
+| 06 ← 5 | Hjortspring "six centuries earlier" than Illerup | 554 years: more than five | D-8 |
+| 07 §01 | "Lotte Hedeager's figure … over fifty kilograms — more than … the entire Bronze Age, … Viking Age … and … Middle Ages combined" | neither the attribution nor the comparison could be found; Jensen (Danmarks Oldtid, in Sources): nearly 50 kg, the largest group of gold finds from any single period | lex, *En nordisk Guldalder* |
+| 07 §02 | Schytz: "It was the first time he had used it" | he "hadn't been out ten times" | tvSyd |
+| 07 §02 | Vejlemuseerne excavated "in August 2021" | March and August 2021 | Vejlemuseerne |
+| 07 §02, §10 | the reading: "thirty-four runes, eight words"; §10's "gold disc the size of a saucer with eight words on it" | about 34 runes, no clean word count; on IK 738, a 5 cm disc — not the 13.8 cm one | Imer & Vasshus, *NOWELE* 2023 |
+| 07 §02, myth, Five | Odin named "in the early 400s"; "four hundred years before the Viking Age"; "eight hundred" before the Icelandic texts | the paper dates IK 738 to 450–490 (Axboe): the fifth century; three centuries and more; eight centuries | *NOWELE* 2023 |
+| 07 §03 | "Ninety-five years later" (20 July 1639 → 21 April 1734) | 94 years 9 months: nearly ninety-five | D-8 |
+| 07 §03 | the king "awarded him 200 rigsdaler" | the sources disagree whether Lassen or the count got the 200: "Lassen was rewarded" | en/no Wikipedia; natmus |
+| 07 §03 | "the historian Ole Worm recorded … people were drinking out of it" | physician and antiquarian; his letter says he was handed it full of wine | Worm's letter |
+| 07 §03 | Heidenreich a "convicted forger"; "five pounds of melted metal at his sister's house"; two earrings, "probably the last surviving gold", "in a museum on Funen" | convicted of coin counterfeiting (1788); the gold became counterfeit coins and jewellery; two *pairs*, presumed not proved, one at Ringe, one at the National Museum | lex, *Niels Heidenreich*; natmus |
+| 07 §03 | Oehlenschläger's poem "within weeks" | written 1802, out at the year's end (*Digte*, dated 1803) | danmarkshistorien |
+| 07 Meanwhile | at 750 "Christian kingdoms lie immediately south of Denmark, and Charlemagne's grandfather is in power" | the pagan Saxons lay between; Charles Martel died 741; Pepin was crowned 751 | |
+| 07 §07 | Lejre's halls "the largest around fifty metres"; *Beowulf* "places Heorot" there | up to c. 61 m; the poem names no Lejre — the identification is scholars' | Lejre Museum |
+| 07 §08 | Jordanes says the Dani were "of notable height", "quoted for the next fifteen centuries" | the clause is generally read as the Heruli's — removed | Mierow's translation |
+| 07 §08, myth | *Danmark* "not attested until chapter 10, on a stone at Jelling and in a king's mouth in England"; "for another four hundred years" | first in the Old English Orosius (Ohthere, c. 890), then Gorm's stone; more than three centuries | *Etymology of Denmark* |
+| 07 §10 | "Everything in the next thirty-three chapters" | thirty-eight | |
+| 07 §10 | "the three permanent facts that chapter 1 identified: … a position on the water that everyone else has to pass through" | chapter 1's third is the far northern end of a continental system; the water is Part B's addition (06 §05) | 01 |
+| 07 §10 | Jelling's monuments "three centuries after this page ends" | about two | |
+| 07 §10 | Vindelev buried "around the year 500"; "between the hoard and the stones lie the two centuries this chapter has just described" | first half of the sixth century (§04 of the same page ties it to 536); four centuries lie between, two of them this chapter's | Vejlemuseerne |
+| 07 §10 | "A rhombus of oak posts laid out around a grave" among this chapter's finds | the Jelling palisade, c. 968, chapter 10 — replaced by Sorte Muld's gold foils | |
+| 07 §10 | the three dates "known to the year" | Ribe is 704–710 | lex |
+| 07 visit | "Genforeningen's story (37)" | 38; Part I under D-1 | §8.6 |
+| 07 Sources | Bede "three centuries after the events" | 449 → 731: nearly three | D-8 |
+| 07 glossary | the sail "the single most consequential technical change in this series" | a series that reaches steam and the co-operative dairy: "of the period" | |
+
+### 8.2 Part B — repetition and drag, fixed
+
+Each cut removes something the reader has just read, and says so (D-16).
+
+- **05 §04, the D-13 case (§8.4).** The body after the Hjortspring vignette restated its
+  landing, loss, holing and sinking, and put the lake "three or four kilometres" inland
+  where the vignette had said three. The body now carries the inventory and the count —
+  "four boatloads, at twenty paddlers a boat" — and nothing the vignette has told.
+- **06 §05 said its two Himlingøje arguments twice** in five paragraphs: the same
+  workshops, and the redistribution "exactly as Rome had done", each stated and then
+  restated under "Two details carry most of the weight"; "If that is right" twice. The
+  first statements are gone.
+- **06 §04's Hoby vignette listed §03's drinking service item for item.** It now points
+  back to it.
+- **06 §06 counted the combs, fire-strikers and horses in one paragraph and described
+  them in the next.** Once each, with the counts where the description is.
+- **06 §12 re-listed §06's four deposition dates.** Now "its four deposits".
+- **04 Figure 3's caption gave the evidence the body gives next, and the vignette's
+  two-face mechanics** ("A figure must not summarise prose the reader has just read").
+  The caption is a label now.
+- **07 §10 said "from here on there are documents, mostly by foreigners" twice** in the
+  same section. Once.
+- **07 §10's "kings who claim descent from gods"** — the Vindelev reading is belonging,
+  not descent. "Rulers who claim a god's backing", as Five Things says.
+
+### 8.3 Found, recorded, not changed
+
+- **The "valuables in wet ground" thread** is in every Part B carry-back (04 ← 3, 05 ← 3, 4,
+  07 ← 3, 4, 5) as well as 03 §07 and 03 → 4, 5, 6. It is threading, and each states
+  what the chapter adds. Kept. This is most of what START_HERE meant by "04 repeats
+  several of 03's lines"; the one that was wrong (the amber) is fixed.
+- **04 §11 and its myth-check both say the Vikings buried their dead in the mounds** —
+  two on the page, as 03 keeps for the tombs after session 3's trim. Kept.
+- **04 §04's lead-in names "the contents of a birch-bark bucket and the flowers"** before
+  the Egtved vignette does. Slight; kept.
+- **Not verifiable online, kept:** *Tilia Alsie*'s Polish lime and "nearly fifty
+  kilometres in five hours" (the 1999 launch is confirmed); Hjortspring "three kilometres
+  inland"; Schytz and Antonsen "friends since childhood"; Imer's "hardest inscription in
+  twenty years" (the Golden Horns comparison is confirmed); the long horn's "litre and a
+  quarter"; "melted down within days".
+- **Source ranges the page now sits inside:** Hjortspring's bone and antler spearheads,
+  38 (danmarkshistorien) or 31 (lex, Wikipedia) — the page says "some 170, 138 of them
+  iron". Illerup's swords, 100 (Danmarks Oldtid), c. 150 (Moesgaard), over 200
+  (danmarkshistorien) — the page follows Moesgaard. Illerup's objects, 15,000+ or
+  22,000+ (Trap).
+- **02 §07's Engesvang amber as Ertebølle**, checked because popular sources say
+  Maglemose: Trap and Danmarks Oldtid both say Ertebølle. Correct.
+- **Parts C and D: thirteen who-lines in 08–14 have two fields** (`vignettes.py` lists
+  them). For those parts' passes, with their D-9 backfill.
+
+### 8.4 D-15 and D-13 in Part B
+
+**D-15.** Part B names Schleswig four times: 06's "duchy of Schleswig" (right);
+06's "in Schleswig ever since" (wrong in fact — the boat spent seventy years in Kiel —
+now "in Germany"); 06's and 07's "Schloss Gottorf, Schleswig" and "Danevirke Museum,
+Schleswig" (the German town, right). 07's Angeln "between Flensburg and the Schlei" is
+right. Schleswig 170 → 169. Nothing else.
+
+**D-13.** One case, decided. **05 §04, *Hjortspring: the oldest army***, is named for
+its vignette's subject, and the body restated the vignette (§8.2). The vignette is the
+boat's making and fate; the section is re-scoped so that the body is the army. The
+others: **07 §02 *Vindelev*** and **07 §03 *The Golden Horns*** are named for their
+vignettes' subjects but restate nothing — the bodies carry the inscription and the poem —
+and are kept, as 02 §06 was. **06 §04 *Hoby*** is named for its subject; the body is the
+Silius argument, kept (the vignette's repeat of §03's list is §8.2's). 04 §04, 04 §05,
+05 §07, 06 §06 and 06 §08 are process-named or add without restating.
+
+### 8.5 07's Recall — a fault, not the pattern
+
+Measured (a Recall question counts as a checkpoint repeat at token overlap ≥ 0.4): 01
+2/5, 02 2/5, 03 3/5, 04 3/5, 05 2/5, 06 3/5, **07 5/5**, 08 3/5, then 0–2 through the rest
+of the book (15 is 4/6). §7.6's reading — spaced repetition through A–F — holds at two
+or three of five; five of five is the outlier. Two questions replaced with ones on
+material no checkpoint asks: the Golden Horns, and the sail. 07 is 3/5 now.
+
+### 8.6 Check 7 could not see the parenthetical form
+
+Parts A–D refer forward as "the Viking Age (8)". `sweep_arrows.py` check 7 read only
+"chapter N", in the narrative only, so **twelve such references were invisible to it —
+eleven to numbers the renumbering had made wrong**, all breaking D-1:
+
+| ch | said | is |
+|---|---|---|
+| 06 §02 | the overseas empire (27) | 30 → Part G |
+| 06 §08 | 1864 (33) | 34 → Part H |
+| 07 visit | Genforeningen's story (37) | 38 → Part I |
+| 08 §12 | Iceland's Act of Union (36), the realm of 1953 (42) | 38, 45 → Part I |
+| 11 Contested | the slave trade (27) | 30 → Part G |
+| 12 §10 | the agrarian reforms of the 1780s (28) | 29 → Part G |
+| 13 myth-check | the Atlantic slave trade (27) | 30 → Part G |
+| 14 §02 | the Atlantic slave trade (27) | 30 → Part G |
+| 15 §02 | the sale of the West Indies (36) | 37 → Part I |
+| 15 §04 | the Lutheran nobility (21), the agrarian reforms (28) | Part F; 29 → Part G |
+| 17 §03 vignette | Hans Egede "— chapter 27 —" (found by §8.8) | Part G |
+
+All re-pointed to part letters; 08–15 were read for these lines only, not for their
+passes. **Check 7 now reads "(N)" and "(N–M)" everywhere a reader reads, apparatus
+included**, and reported exactly these twelve on the shipped pages before the fix; 0
+after. Same class as §4.1's Thread notes: a check that passes because it looks in fewer
+places than the book writes.
+
+### 8.7 R-1 in Part B — tagged
+
+Seven of the nine who-lines had two fields, or a place where the person belongs; all now
+person · place · date · tag.
+
+| ch | vignette | tag | why |
+|---|---|---|---|
+| 04 | Peter Platz, Egtved | `[n]` | a farmer, and the find is his decision |
+| 04 | Frederik Willumsen, Trundholm | `[n]` | a smallholder at the plough |
+| 05 | Gustav Rosenberg, Hjortspring | `[-]` | a museum professional |
+| 05 | the Haraldskær woman, and Worsaae | `[n]` | an ordinary woman is the subject — the point of the vignette — but not its agent, so not `[f]` |
+| 06 | the Hoby man | `[-]` | an elite burial |
+| 06 | Glob, Andersen, Ilkjær at Illerup | `[-]` | professional excavators |
+| 06 | Conrad Engelhardt at Nydam | `[-]` | a professional |
+| 07 | Schytz and Antonsen, Vindelev | `[n]` | a detectorist and a farmer |
+| 07 | Svendsdatter, Lassen, Heidenreich | `[f][n]` | the girl who found the horn; a smallholder |
+
+Balance: **04 `[f]` NO, `[n]` yes; 05 `[f]` NO, `[n]` yes; 06 `[f]` NO, `[n]` NO;
+07 both.** `vignettes.py` reports D-9 FAILURES 04, 05, 06 — true, and not to be made to
+pass by tagging. §8.9 puts it to Carsten.
+
+### 8.8 Checked by a separate agent
+
+An agent that had not seen the work checked every hunk against sources and against the
+rest of the book. It confirmed the facts in §8.1 and §8.6 and found twelve slips — eight in
+my own edits, as in session 3. All corrected:
+
+- **04 §05: the 1996 find was real.** I had dropped it on the National Museum's page,
+  which mentions only 1998; Trap Danmark has both (a detectorist's wheel piece in 1996,
+  then Odsherreds Museum and the National Museum's detector survey in 1998). Restored.
+- **04 §05: Willumsen was not a smallholder** (the old text's word, which I had copied
+  into the who-line) but the overseer of the state's drained bog, employed since 1897; land
+  of his own came in 1922. Body and who-line corrected; `[n]` stands.
+- **04 §04: "nearly three and a half thousand years on"** — 3,395 years; D-8 wants the
+  completed count: "some three thousand four hundred".
+- **05 §04: "probably three others"** — the source says *at least* four boats. "At least
+  three others"; "at least four boatloads".
+- **06 §06: "Some three hundred shields, belts, scabbards …"** read as three hundred of
+  each; and "the battle behind it" had lost its antecedent when "the deposit" became
+  plural. Both mended. A four-dash sentence in the vignette untangled.
+- **07 §02: "a disc about five centimetres across"** — the research gave 5.2 cm for IK 738,
+  Wikipedia gives 11.8; I could not settle it and the size is gone. §10's "a smaller one
+  that names Odin" is true on either figure.
+- **07 §02: "by about a century and a half"** went with the press release's early-400s
+  dating that I had dropped; on the paper's 450–490, about a century.
+- **07 Five things still said "a first-time detectorist"** after §02 was corrected.
+- **07 Meanwhile: "only by the pagan Saxons"** — the Obodrites and free Frisia also lay
+  between. "Chiefly".
+- **Check 7 still missed "chapter N" outside the narrative.** `c17` §03's vignette sends
+  Hans Egede "— chapter 27 —" from Part E: a D-1 break. Check 7 now reads both forms, and
+  "(N, M)", "(N and M)", "chapters N to M" and a number after a closing quotation mark,
+  in every section a reader reads. It reports exactly that one on the old pages; 17 now
+  says Part G.
+- **Two glossary pointers were wrong by the renumbering** — a class no check can test,
+  because check 7 asks only whether a target exists and obeys D-1: **34's *Dannevirke*
+  "begun in the eighth century (chapter 5)"** — 7; **41's *hjemmetysker* "became Danish
+  in 1920 (chapter 40)"** — 38. Fixed in the drafts and rebuilt through `mkbody.py`.
+
+**Found by following that up, not changed** (for those parts' passes): a heuristic —
+does the glossed term appear on the chapter its entry points to? — lists a dozen, most of
+them inflection. Three are real: **24's *Hammershus* "from chapter 14"** (the name is on
+no page but 24), **20's *krongods* "run through this series since chapter 14"** (the
+phrase is on 12 and 16, not 14), and **19's *orlogsflåde*** pointing at 22 (to read).
+
+### 8.9 Decisions for Carsten — Part B, one at a time
+
+**R-2. 04 and 05: does R-1 extend to them?** Neither chapter's evidence names an
+individual. 04's women — the Egtved girl, the Skrydstrup woman, Borum Eshøj's — are known
+and unnamed; 05's names are Roman ones for peoples whose origin is itself in doubt. Women
+are present in both as subjects, never as agents, because Part B's vignettes are the
+modern finders'. *Recommendation:* **add 04 and 05 to `NAMES_NO_ONE`, with Part B's `[f]`
+in 07** — the same ground as 01 and 03. The alternative is a modern woman: 04 has one
+ready in Karin Frei, who led the 2015 study, but §10 already tells her study, so the
+vignette would restate the body (D-13) — a vignette written for its tag.
+
+**Answered 21 September 2026: as recommended.** `NAMES_NO_ONE` now holds 01, 03, 04 and
+05; `vignettes.py` reports 04 and 05 as "[f] part", and 06 alone as a D-9 failure.
+
+**R-3. 06 is outside R-1 and fails both flags.** Its evidence names people — Silius,
+*harja*, WAGNIJO, *Nithijo* — all men, and its three vignettes are an elite burial and two
+excavations. *Recommendation:* **two new vignettes, drafted in a later session:** the
+**Juellinge woman** (Lolland, c. 200 CE), buried holding the ladle and strainer of the
+Roman wine service §03 describes — `[f]`, the particular inside a process-named section;
+and an **ordinary Vorbasse household** in §10, *The farm that moved* — `[n]`. About 600
+words; 06 stays near 34 minutes. The alternative is to record 06 as a known D-9 failure
+until then.
+
+**Answered 21 September 2026: as recommended.** Two vignettes for 06 — the Juellinge woman
+in §03 (`[f]`) and an ordinary Vorbasse household in §10 (`[n]`) — to be drafted, sourced
+and checked in review session 5. Until then `vignettes.py` reports 06 as its one D-9
+failure, and that is correct.
