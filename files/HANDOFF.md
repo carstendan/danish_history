@@ -4383,7 +4383,10 @@ split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see it
    142's lesson again, found by hand.
 
    **D-9 IN PART C.** Eleven two-field who-lines fixed (and 12's and 14's). Tagged: 09 and 11
-   carry both; **08 has no `[f]`, 10 no `[n]`** — R-4 and R-5, §9.9, for Carsten.
+   carry both; **08 has no `[f]`, 10 no `[n]`** — R-4 and R-5, §9.9, **both answered as
+   recommended the same evening**: Ragnhild at Glavendrup (08) and Trelleborg's dead (10), for
+   session 6. Item 143's pages were first pushed without a rebuild again; Carsten builds only
+   when told to, so **every handover ends with an explicit instruction to build**.
 
    **THREE GLOSSARY POINTERS (§8.8), done.** 24's *Hammershus* (on no page but 24: the entry now
    dates it; the ← 14 arrow points at the church–crown struggle 14 tells); 20's *krongods*

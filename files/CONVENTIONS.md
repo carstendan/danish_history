@@ -153,7 +153,9 @@ its `[f]` in 07 (Kirsten Svendsdatter). 06 is not covered: its evidence names pe
 **06 carried out (R-3), review session 5:** the Juellinge woman `[f]` and a smith's household at
 Vorbasse `[n]`; Parts A and B have no D-9 failure. **Part C tagged the same day:** 09 and 11 carry
 both; **08 lacks `[f]` and 10 lacks `[n]`** — true failures, put to Carsten as R-4 and R-5
-(`REVIEW-CONSISTENCY.md` §9.9), not tagged away.
+(`REVIEW-CONSISTENCY.md` §9.9), not tagged away. **Both answered 21 September 2026 as
+recommended:** Ragnhild at Glavendrup (08 §04, `[f]`) and the Trelleborg garrison's dead (10 §08,
+`[n]`), for review session 6.
 
 **Checked by.** `vignettes.py` balance layer, which reports such a chapter as
 "[f] part" — and still as FAIL if no chapter of its part carries `[f]`.

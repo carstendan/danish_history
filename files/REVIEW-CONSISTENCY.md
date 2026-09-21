@@ -1361,6 +1361,9 @@ king's retinue; she called on Thor to hallow the runes and cursed whoever moved 
 Danish, and she is the agent. It sits a generation after 08's span, as §04's Adam and Snorri
 already do. About 250 words.
 
+**Answered 21 September 2026: as recommended.** Ragnhild at Glavendrup in 08 §04, `[f]`, to be
+sourced, drafted and checked in review session 6.
+
 **R-5. 10 has no non-elite subject.** Its vignettes are a chronicler's miracle and a seeress
 buried as a woman of standing. *Recommendation:* **a vignette for 10 §08 *Who lived in them*:
 the garrison's dead at Trelleborg** — a cemetery of young men, a few women and children, with
@@ -1368,3 +1371,7 @@ mass graves of five and eleven; strontium isotopes put much of it abroad, in Nor
 Slav lands (Price, Frei et al., *Antiquity* 85, 2011). `[n]`: the rank and file of the ring
 fortresses, which §09's reading of them turns on. To be sourced detail by detail before
 drafting, as R-3 was. About 300 words.
+
+**Answered 21 September 2026: as recommended.** The Trelleborg garrison's dead in 10 §08, `[n]`,
+to be sourced, drafted and checked in review session 6. Until then `vignettes.py` reports 08 and 10
+as D-9 failures, and that is correct.
