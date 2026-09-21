@@ -306,7 +306,7 @@ CFG = {
     ],
     checks=[
       ('What a king wanted with a town', [
-        'What tells us Ribe was laid out rather than grown?',
+        "What did Ribe's workshops make, and where did their raw materials come from?",
         'Why is Hedeby where it is? Name the two routes that cross there.',
       ]),
       ('Seen from outside', [
@@ -327,7 +327,7 @@ CFG = {
          ('s01', '01', 'What Harald inherited'),
          ('s02', '02', 'The monuments'),
          ('s03', '03', 'The two stones'),
-         ('s04', '04', "Poppo's glove"),
+         ('s04', '04', "Poppo's iron"),
          ('s05', '05', 'Why a king converts'),
          ('s06', '06', 'The building programme'),
          ('s07', '07', 'Reading the geometry'),
@@ -338,7 +338,7 @@ CFG = {
          ('s12', '12', 'What Jelling means now'),
     ],
     checks=[
-      ("Poppo's glove", [
+      ("Poppo's iron", [
         'What does each of the two Jelling stones say, and who raised them?',
         'Which word on the small stone is the first of its kind in Denmark?',
       ]),
@@ -460,7 +460,10 @@ for n in sorted(CFG):
     prose = re.sub(r'<script>.*?</script>', '', h, flags=re.S)
     stale = {k: len(re.findall(p, prose)) for k, p in
              [('Band X', r'\bBand [A-I]\b'), ('entry', r'\b[Ee]ntr(?:y|ies)\b'),
-              ('Era page', r'Era page'), ('padded', r'\b[Cc]hapters? 0\d\b')]}
+              # \s+, not a space: 08 carried "chapter\n07" and "chapters 3 to\n07"
+              # past this check for as long as it existed (review session 5)
+              ('Era page', r'Era page'),
+              ('padded', r'\b[Cc]hapters?\s+(?:\d+\s+(?:to|and|or)\s+)?0\d\b')]}
     stale = {k: v for k, v in stale.items() if v}
     print("\nchapter %d  %s" % (n, c['name']))
     print("  braces %d | placeholders %d | anchors %s | tags %s"

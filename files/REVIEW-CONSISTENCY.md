@@ -1114,3 +1114,257 @@ until then.
 in §03 (`[f]`) and an ordinary Vorbasse household in §10 (`[n]`) — to be drafted, sourced
 and checked in review session 5. Until then `vignettes.py` reports 06 as its one D-9
 failure, and that is correct.
+
+## 9. Session 5 — 06's two vignettes, and Part C read (chapters 08–11)
+
+*21 September 2026, from `START_HERE_review_5.md`.*
+
+**The first cold run failed, and the failure was the ledger's, not the book's.** On a fresh
+clone of `2baf157`: debuild 32 identical, 13 BODY DRIFT (04, 05, 06, 07, 08, 11, 12, 13,
+14, 15, 17, 34, 41); 336,704 page words, Part C 25,532; Schleswig 170; check 7, 13 prose
+references. The thirteen are exactly the chapters that commit's source patch touched: it
+had been pushed without its rebuilt pages. A rebuild in a throwaway copy reproduced every
+figure START_HERE expected, so the cause was that and nothing else. Carsten built and pushed
+(`43b98f8`); a second fresh clone matched every line — tidy clean, fixture and seams pass,
+debuild 45, 336,720, vignettes 119/88 with 06 the one D-9 failure, figcheck 98/30/0, one
+OVER (17 §08), draftnotes clean, appcheck 159, freshcheck 14, sweeps as listed.
+
+Three research agents gathered sources; a fourth, which had not seen the work, checked every
+hunk afterwards (§9.8).
+
+### 9.1 R-3 carried out — and two of its premises were wrong
+
+R-3 described the Juellinge woman as "c. 200 CE", "buried holding the ladle and strainer",
+"excavated 1909". The sources say otherwise, and the vignette follows the sources:
+
+| R-3 said | the sources say | ground |
+|---|---|---|
+| c. 200 CE | just after the birth of Christ; the same period as Hoby, early first century | natmus, *The woman from Juellinge*; Jensen, *Danmarks Oldtid*, "En lollandsk storhøvding"; Trap. Jensen's "Kostbarheder fra Syden" says the second century; McGovern's press release "200 BC" is a slip |
+| holding the ladle and strainer | the strainer in her right hand; the ladle lay in the cauldron | Jensen: "I kedlen lå en langskaftet øse af bronze. Den tilhørende bronzesi havde man derimod givet den døde i hånden"; McGovern et al. 2013 |
+| excavated 1909 | found 1908, by railway workers building the sugar-beet line; four graves, three women and a girl | natmus, *The discovery of the women from Juellinge* |
+
+Neither changes what the vignette is for. The residue matters more than either: Bille Gram's
+microscopy for Müller's 1911 publication found a fermented drink of barley, lingonberry,
+cranberry and bog myrtle, and McGovern's 2013 chemistry probably grape wine as well — a Roman
+strainer and a northern drink, which is §03's "the wine service matters more than the wine"
+made particular without restating it.
+
+**(a) The Juellinge woman, 06 §03 *What came north*, `[f]`.** After the paragraph on the wine
+service; the service is not re-listed. Every detail is from Jensen, the National Museum's four
+pages on her, and McGovern. The reading that she served drink is the museum's ("She had perhaps
+used these utensils to serve drinks for her fine guests"), and the vignette hedges it as such
+(L8).
+
+**(b) An ordinary Vorbasse household, 06 §10 *The farm that moved*, `[n]`.** No numbered
+Roman Iron Age farm is online: Hvass's farm-by-farm plans are in *Acta Archaeologica* 49
+(1978), which is not. What is online, in two sources that agree, is one farm: of the fourth
+century's twenty, **two farms of average size had a smithy**, with the smelting furnaces just
+outside the fence and "sporene efter smedens færdsel mellem ovn og værksted" (Hedeager,
+*Gyldendal og Politikens Danmarkshistorie*; Jensen, *Danmarks Oldtid*). The vignette is one of
+them. Nobody on it has a name, and the vignette says so (L9a).
+
+**D-13.** §10's fourth paragraph was the list the vignette now shows — "a fenced farmstead with a
+longhouse of perhaps thirty metres, a byre for twenty or more cattle …" — so the section is
+re-scoped: the list goes, the body leads into the vignette ("Here the ordinary unit is
+legible") and after it says only what the vignette does not: iron was made here from the
+first century. Three errors in §10 went with it: iron smelting "in the later phases" (four
+furnaces stood outside the first-century fences — Hvass 1983); "silverwork on the premises"
+(no source; none found); "a well" (attested for the eighth century, not the Roman). §10's
+"gulf" between farms is now measured: the largest fourth-century farm, a 45-metre house on
+almost 4,000 m², about twice the average.
+
+`vignettes.py`: **no D-9 failure in Parts A–B.** 06 is 35 minutes.
+
+### 9.2 Part C, read — errors of fact and of the book against itself, fixed
+
+| ch | the page said | it is | ground |
+|---|---|---|---|
+| 08 §04 | offerings in "chapters 3 to\n07"; "Gudme, in chapter\n07" | 3 to 7; Gudme is 06 §11 | the pages; §9.6 |
+| 08 §04 | Adam of Bremen "wrote a century later" | in the 1070s — two centuries after this chapter | |
+| 08 §04 | Odin named on gold "around the year 400" | the fifth century (07 since session 4) | 07 §02 |
+| 08 §04 | hammer amulets "by a wide margin the commonest religious object" in Denmark | no count supports a ranking; they are found across the Viking world, most densely in Denmark and southern Sweden | medieval.eu, *Thor's hammer* |
+| 08 §05 | "The Frankish chronicler … called Godfred the mad king" | no source calls him mad: Einhard, *Vita Karoli* 14, "adeo vana spe inflatus"; RFA 810 "inflatus" | Einhard |
+| 08 §07 | Repton: "around two hundred and fifty people"; the army "had lost a quarter of itself"; the men "still away three winters later" | at least 264; the quarter assumes an army of about a thousand, which §07 itself doubts; the army had been in England since 865 | Jarman et al., *Antiquity* 2018 |
+| 08 fig. 3 | Godfred fortifies "three years after" Saxony | 804 → 808: four | the figure's own dates |
+| 08 §09 | Charles the Fat "deposed within two years" of 886 | November 887: the next year | |
+| 08 §09 | William crossed "six days after" Stamford Bridge | 25 → 28 September: three | 11 §09 |
+| 08 Meanwhile | Faroes and Iceland "the first permanent human occupation of either" | the Faroes have earlier traces; Iceland's first permanent population | Church et al. 2013 |
+| 08 Sources | the RFA "for everything in section 04" | section 05 | the page |
+| 09 intro | three towns "at once" | 704, c. 800, the tenth century: within two centuries | the page |
+| 09 §02 | Ribe "with a rampart around it by the ninth century" | a low ditch in the ninth; a rampart in the tenth | Trap, *Ribes historie* |
+| 09 §03 | "under fifteen kilometres" to the Treene (also fig. 1, Five things) | about 16 km to Hollingstedt | haithabu-danewerk.de |
+| 09 §03 | 340,000 objects "from an area of twenty-four hectares" | from about five per cent of it | lex *Hedeby*; de.wikipedia |
+| 09 §04 | Aarhus "appears in the tenth century … fortified from early on"; three towns "all royal" | a settlement from c. 750–800, a town and rampart in the first half of the tenth; "probably all royal" — the page's own Contested question doubts Ribe | Trap, *Aarhus' historie*; Linaa, DJA 2024 |
+| 09 §05 | Ibn Fadlan's "bead necklaces, one bead bought for each ten thousand dirhams" | neck-rings, one for each 10,000 | Ibn Fadlan |
+| 09 §07 | Vorbasse "west Jutland"; "by the tenth century … seven or eight farmsteads … workshops for iron and precious metal … bigger" | central Jutland (06); seven farms from the 720s (dendro); a smithy, no precious metal; fewer farms than the fourth century | Hvass 1983; Jensen; Sawyer, *Vorbasse 700–1050* |
+| 09 §07 | "the bog-iron industry of chapter 5 has gone industrial … thousands of furnace pits" | the great sites belong to 200–700; in the Viking Age imports largely replace home production | Grænseforeningen, *Jernudvinding*; Snorup |
+| 09 §09 | Ottar "described paying tribute in furs, feathers, whalebone and ship-rope" | the Sami paid it to him | the Old English Orosius |
+| 09 §09, Meanwhile | al-Tartushi "from Córdoba" | from Tortosa; Córdoba was the caliph's capital | |
+| 09 §10 | "from the tenth century … one princely burial … the dead man and two companions … some twenty metres" | three men; a ship of at least 16 m (the east end is gone); end of the ninth or start of the tenth century | de.wikipedia *Bootkammergrab* |
+| 09 Meanwhile | Hedeby "perhaps one to fifteen hundred" | a thousand to fifteen hundred | |
+| 09 §12 | Hardrada "according to the sagas, sent fire-ships"; charred boats in the Schlei | Heimskringla says he took the town and burned it; the burnt Hedeby 1 wreck was built c. 985 and belongs to an attack c. 1000 — removed (and see §9.3 on 11) | Heimskringla, *Haralds saga* 34 |
+| 09 myth | Ribe "roughly eighty years before Lindisfarne"; Hedeby "struck the first Scandinavian coins" | 704 → 793: nearly ninety (D-8); §03 itself says the claim is contested | |
+| 10 §01 | "the present queen" | king, since January 2024 | |
+| 10 §02 | the palisade "in 2007 and after", "unknown until 2007"; "dated in 2013" | found 2006; the date is the dendrochronology's, not a year of publication | lex *Harald Blåtands palisade* |
+| 10 §03 | the large stone "text on one face and pictures on the other two"; "section 09 comes back to why" | the text runs onto both picture faces; section 10 | the stone; the page |
+| 10 §04 | "Poppo's glove": "An iron glove was heated … Poppo put his hand into it" | Widukind: he carried a heated iron; the glove is later, on the Tamdrup plates | Widukind III.65 (danmarkshistorien); Gyldendal, *Poppo og gudsdommen* |
+| 10 §06, §11, Five, ← 9 | "Ramparts thrown around Hedeby, Ribe and Aarhus" around 980, "all of it within a few seasons"; "Harald then walled all three" | Hedeby's is mid-tenth century (09 §03 says so), Aarhus's first half of the century, Ribe's tenth; none dated as closely as the fortresses | lex; Trap; Haithabu museum |
+| 10 §08 | Aggersborg's village "cleared to make room" | built on top of an older, abandoned settlement | lex *Aggersborg* |
+| 10 §08 | grave 4: "Foreign jewellery", "a bronze bowl", "Two toes from a bird" | silver toe rings; two bronze bowls, possibly Central Asian; owl pellets and small bird and mammal bones | natmus, *A seeress from Fyrkat* |
+| 10 §09 | Sweyn's campaigns "begin within a decade" of 980–81 | the 990s | |
+| 10 §09 | the reason "is on the next page but one" | two sections on, in the same page | |
+| 10 §12, Meanwhile | the stone's inscription "reproduced on Danish passports"; movable type "within decades of Jelling" | the Christ image; Bi Sheng, 1040s: within a century | |
+| 10 Sources | "Holst, Jessen, Andersen & Pedersen 2014" | Jessen, Holst, Lindblom, Bonde & Pedersen, NAR 47 (2014) | |
+| 11 header | "For nineteen years a Dane governed England, Denmark and Norway" | England nineteen; all three seven (the page's own figure 1) | |
+| 11 intro | "Two of the three claimants … of Norse descent" | four claimants (§09), and Harold's mother was Ulf's sister: both invaders | |
+| 11 §04 | "a decade of ferocious instability" after 1014 | three years | |
+| 11 §03 | Skuldelev 2 from "a Danish-ruled shipyard in Ireland"; sunk "thirty years later" | Norse Dublin; 1042 → c. 1070: nearly thirty | |
+| 11 §06 | Cnut "paid compensation to the church and to his own sister" | Heimskringla: land to the church; Estrid's share is only in modern literature | Heimskringla |
+| 11 §08, §09 fig. 3 | "step-nephew"; "the two who actually fought at Stamford Bridge and Hastings" | nephew by marriage; the two with no blood link met at Stamford Bridge | |
+| 11 §09 | Harold marched "four hundred kilometres in under a week" | London to Yorkshire, about 300 km in four or five days | |
+| 11 §09, myth, Five | fleets "launched … as late as 1085", "kept sailing until 1085"; the last planned invasion "twenty years after Hastings" | 1069, 1070, 1075; Cnut IV's 1085 fleet never sailed; 1066 → 1085: eighteen (D-8) | ASC 1075 |
+| 11 §10 | "a hereditary Christian monarchy" | §03 of the same page: elected, "not straightforwardly hereditary" — "held within one dynasty" | |
+| 11 §10 | Sweyn Estridsen "will reign for nearly thirty years" from 1066 | until 1074 (12's date) | 12 |
+| 11 vignette | titled *Tóki, who went west*; Tóki is nowhere in it; "Around a tenth of Danish stones were raised by women"; "the century this chapter covers"; "Nobody higher up wrote a word about them" | *Skarthi, who went west*; the share is unverified — "some"; the decades either side of 1000; Skarthi's stone was raised by a king — "no chronicler" | Imer, DJA; DR 1, 3, 55 |
+| 11 visit | "Forty Danish monarchs" at Roskilde | forty kings and queens | roskildedomkirke.dk |
+
+### 9.3 Part C — repetition and drag, fixed
+
+- **09 §02 re-argued 07 §09's Ribe** — "laid out … not a settlement that grew; it is a
+  decision" is 07's paragraph, a chapter later. 09 now opens by pointing back to it and goes
+  straight to what filled the plots; the checkpoint and Recall question on "laid out rather
+  than grown" are replaced (the checkpoint in `build_parts_abc.py`, which is where it lives —
+  §9.6).
+- **08 §12 and 09 §11 both told Ansgar's churches** (with different dates, c. 850 and c. 848)
+  and both said he converted almost nobody. 08 now leaves the churches to 9.
+- **08 §12 re-deferred Ribe "properly to the trading towns (9)"**, as 07 had. Once.
+- **08's Meanwhile said Verdun and the weak successors, and §09 said them again at once.** The
+  box keeps the coronation.
+- **10 §05 restated 08 §04's close almost word for word** ("hierarchical by construction",
+  "abolished at a stroke"). 08 set it up for Jelling; 10 now says so and states it once.
+- **09 §12 and 11 §08 both told the burning of Hedeby with the fire-ships.** The fire-ships were
+  wrong (§9.2); the burning is 11's, and 09 points there.
+- **11 §01 and §02 both said Sweyn was first to put his name on a coin.** Once.
+- **11 §07 had "Three Scottish kings submitted to him in 1031" stranded** between the
+  succession and Cnut's sons. Moved to §05, where his reach is.
+- **11 §07 and §10 both gave Sweyn Estridsen "nearly thirty years".** §10 now says until 1074.
+
+**Found, kept.** 07 → 8, 9 promises Kanhave; neither chapter tells it beyond 08's carry-back —
+the arrow's claim is that the three works are infrastructure, and 08 ← 7 says so. 11 §10 lists
+the Danelaw's names and ridings after 08 §08 did, and says "Chapter 8 listed some" — kept.
+
+### 9.4 Found, recorded, not changed
+
+- **Not verifiable online, kept:** Ravning Enge's "about five tonnes"; Hedeby's 340,000 objects
+  (lex gives it; nothing else found); 06's Vorbasse gates, which Jensen describes for the third
+  century, applied to the fourth-century farm.
+- **12's and 14's who-lines** had two fields (§8.3); now three. **14's vignette places
+  Jyske Lov's reading at "the Viborg assembly"**, and says "a hundred and sixty chapters" — the
+  law was given at Vordingborg in March 1241, and its chapter count wants checking. For Part D.
+- **The build's "padded chapter" guard exists only in `build_parts_abc.py`** (§9.6); parts D–I
+  have no such check. A scan of every body found one more case, 13's "chapters\n07 and 10"
+  (fixed), and none after 13.
+
+### 9.5 D-15, D-13 and Recall in Part C
+
+**D-15.** Part C names Schleswig four times, all the German town (08 visit, 09 §12 twice, 09
+visit). Danevirke, Hedeby, Aarhus throughout. Viking-age kings under their English names.
+Nothing to change. Schleswig stays 169.
+
+**D-13.** No case. **08 §01** *The customs officer at Portland* and **10 §04** *Poppo's iron*
+are named for their vignettes' subjects and restate nothing — the bodies go on to Lindisfarne
+and to Widukind's reliability — and are kept, as 07 §02 was. The rest are process-named.
+
+**Recall.** Measured as §8.5 did (a Recall question is a checkpoint repeat at Jaccard overlap of
+content words ≥ 0.4 — which reproduces §8.5's figures for seven of its nine chapters): **08 2/5,
+09 2/5, 10 1/5, 11 1/5**. Within the book's norm; 09's Ribe question replaced for §9.3's reason,
+not this one.
+
+### 9.6 The padded-chapter guard could not see a line break
+
+`build_parts_abc.py` refuses "chapter 07" — but with a space, so 08's "chapter\n07" and
+"chapters 3 to\n07", where the line wrap falls inside the phrase, passed it for as long as it
+existed. The guard now reads `\s+` and the "N to/and/or 0M" form. **Tested:** it reports
+`padded: 2` on 08 as shipped and nothing on any body now. The checker notes it still misses a
+list form ("chapters 7, 8 and 09"); none exists.
+
+The same reading found that **`build_parts_abc.py` strips every body's checkpoints and
+re-inserts them from its config.** A checkpoint edited in a body alone is overwritten by the next
+build. 09's changed checkpoint and 10's renamed §04 are in both.
+
+### 9.7 D-9 in Part C — tagged
+
+Eleven who-lines in 08–11 had two fields (§8.3 counted thirteen in 08–14; two of them are 12's
+and 14's). All now person · place · date · tag.
+
+| ch | vignette | tag | why |
+|---|---|---|---|
+| 08 | Beaduheard at Portland | `[-]` | a royal official |
+| 08 | Godfred, 808 | `[-]` | a king |
+| 08 | the Repton dead | `[n]` | the army's rank and file, unnamed |
+| 09 | Ibn Fadlan | `[-]` | an envoy |
+| 09 | Ottar | `[-]` | a wealthy man, by his own account |
+| 09 | al-Tartushi | `[-]` | a merchant-diplomat |
+| 09 | Frideborg and Catla | `[f][n]` | a widow disposing of her own property, her daughter carrying it out; the page itself calls her "an ordinary northerner … not a king" |
+| 10 | Widukind on Poppo | `[-]` | a chronicler, a priest, a king |
+| 10 | the woman in grave 4, Fyrkat | `[f]` | a religious specialist; a woman of standing, so not `[n]` |
+| 11 | St Brice's Day | `[-]` | the king's order |
+| 11 | Skuldelev 2 | `[-]` | a ship; builders and crews unnamed |
+| 11 | Emma | `[f]` | |
+| 11 | Skarthi, Erik and Tófa | `[f][n]` | Tófa raised her stone; a king's retainer and a shipmaster are the vignette's subject. The weakest `[n]` in the part: Skarthi's stone is a king's |
+
+Balance: **08 `[f]` NO; 10 `[n]` NO.** 09 and 11 both. `vignettes.py` reports D-9 FAILURES 08,
+10 — true, and not to be made to pass by tagging. §9.9 puts them to Carsten.
+
+### 9.8 Checked by a separate agent
+
+An agent that had not seen the work checked every hunk against sources and the rest of the book.
+It confirmed the facts in §9.1 and §9.2 and found nine slips, seven in my own edits. All
+corrected:
+
+- **08: the Repton vignette's heading still said "two hundred and fifty"** after the body said
+  260.
+- **11: "he will reign another ten years"** — 12 gives Sweyn Estridsen 1074. "Until 1074".
+- **11: "nineteen years after Hastings"** — October 1066 to 1085 is eighteen completed years
+  (D-8), and I had written the interval I was correcting.
+- **10 §11: "with town walls besides"** undercut §06's new hedge. "On top of the town ramparts of
+  the same decades".
+- **08: "the Faroes in the first half of the century"** — the box names no century. "The ninth,
+  by the traditional dating".
+- **10: "a bronze cup"** — the museum says two bronze bowls.
+- **06: Juellinge and Hoby told the same find story a paragraph apart** — workmen, then the
+  National Museum. Juellinge's is a clause now. And the Vorbasse vignette opened by repeating
+  "about twenty farms" from the sentence above it.
+- Three lost antecedents: Einhard's "him"; "Hollingstedt, which flows"; Aarhus's "its first half".
+
+The two D-9 failures it listed are §9.7's. It could not find the National Museum's "hostess"
+reading on the English pages; it is on *The hospitable housewife from Juellinge* ("She had
+perhaps used these utensils to serve drinks for her fine guests"), checked.
+
+**The three glossary pointers (§8.8), for their parts but done now.** **24's *Hammershus* "from
+chapter 14"**: the name is on no page but 24. The entry now says who built it and when (the
+archbishops of Lund, probably the 1290s — lex), and the ← 14 arrow points at the struggle
+between church and crown that 14 does tell. **20's *krongods* "run through this series since
+chapter 14"**: the thing runs from 12's *kongelev*, the word first appears in 16; the entry says
+both. **19's *orlogsflåde*** pointed at "the navy of chapters 22 and 24": the navy is in 21
+(thirty warships at Bremerholm), 22 and 23; 24 has only the Dutch fleet. "21 to 23".
+
+### 9.9 Decisions for Carsten — Part C, one at a time
+
+**R-4. 08 has no woman as agent.** Its evidence is Frankish and English annals and an army's
+bones; 08 is not a chapter whose evidence names no one, so R-1 does not reach it. *Recommendation:*
+**a vignette for 08 §04 *What they believed*: Ragnhild at Glavendrup** — on north Funen, in the
+first half of the tenth century, a woman raised the longest runic inscription in Denmark, 210
+runes, inside a sixty-metre ship setting, for Alle, *goði* of the sanctuary and thegn of the
+king's retinue; she called on Thor to hallow the runes and cursed whoever moved the stone (lex,
+*Glavendrupstenen*). It is the particular inside a section about cult led by chieftains, it is
+Danish, and she is the agent. It sits a generation after 08's span, as §04's Adam and Snorri
+already do. About 250 words.
+
+**R-5. 10 has no non-elite subject.** Its vignettes are a chronicler's miracle and a seeress
+buried as a woman of standing. *Recommendation:* **a vignette for 10 §08 *Who lived in them*:
+the garrison's dead at Trelleborg** — a cemetery of young men, a few women and children, with
+mass graves of five and eleven; strontium isotopes put much of it abroad, in Norway and the
+Slav lands (Price, Frei et al., *Antiquity* 85, 2011). `[n]`: the rank and file of the ring
+fortresses, which §09's reading of them turns on. To be sourced detail by detail before
+drafting, as R-3 was. About 300 words.

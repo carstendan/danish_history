@@ -39,6 +39,10 @@ written — see Lessons.
 | H | 32–36 | 1814–1901 | **built, verified, indexed, closed — see `PLAN_H.md`** |
 | I | 37–45 | 1901–1955 | **NINE CHAPTERS, ALL BUILT, VERIFIED AND INDEXED. The boundary pass is done — item 136 — and item 128 is CLOSED.** The 1943–1955 run was repartitioned from three chapters into four at the material's own seams; no chapter in the part is outside the 25–50 band |
 
+**After item 143 the book is 337,491 page words, 26.8 h; Part A 21,397, Part B 26,326,
+Part C 25,619, Part I 74,403** — read off `bookstats.py` after a rebuild of A–F, `linkindex.py`
+and `index_generator.py` in a scratch clone, 21 September 2026 (item 142's was 336,720).
+
 **After item 141 and R-1 the book is 336,704 page words, 26.7 h; Part A 21,397,
 Part I 74,403** — read off `bookstats.py` after the R-1 rebuild, 20 September 2026.
 **Every chapter now has an authored or generated source in `files/`: 01–15 were
@@ -4340,6 +4344,68 @@ split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see it
    reference in one kind of text. *A check that reports 0 has only looked where it was
    told to look. Before trusting a 0, find one case by hand that the check should have
    caught, and make sure it does.*
+
+143. **The consistency review, session 5: 06's two vignettes written, Part C read, tagged and
+   checked.** 21 September 2026. Full record in `REVIEW-CONSISTENCY.md` §9.
+
+   **THE FIRST COLD RUN FAILED: item 142's source patch had been pushed without its pages.**
+   A fresh clone of `2baf157` gave debuild 32 identical and 13 BODY DRIFT — exactly the
+   thirteen chapters that commit touched — with 336,704 words, Schleswig 170 and 13 prose
+   references to match. A rebuild in a throwaway copy reproduced START_HERE's figures, so that
+   was the whole cause. Carsten built and pushed (`43b98f8`); the second fresh clone matched
+   every line. **A commit that carries a source patch carries its rebuilt pages; the cold run
+   is what notices when it does not.**
+
+   **R-3 CARRIED OUT, with two of its premises corrected by the sources.** The Juellinge woman
+   (06 §03, `[f]`) is early first century, not c. 200; she held the strainer, and the ladle lay
+   in the cauldron; railway workers found her in 1908. A smith's household at Vorbasse (06 §10,
+   `[n]`) is one of the two fourth-century farms of average size that had a smithy, from
+   Jensen and Hedeager — Hvass's numbered plans are not online. §10's body re-scoped around it
+   (D-13), losing three errors: "silverwork", a Roman-period "well", and smelting "in the later
+   phases" (it is first-century). **No D-9 failure in Parts A–B.**
+
+   **PART C READ.** Forty-eight entries in §9.2, some seventy errors of fact and of the book
+   against itself, nine of them intervals. Among them: Godfred "the mad king" (no source says it — Einhard's
+   *inflatus*); Ottar "paying tribute" (the Sami paid him); Ibn Fadlan's beads (neck-rings);
+   Hedeby's portage "under fifteen kilometres" (sixteen); Viking-age iron "gone industrial"
+   (the great bog-iron sites are 200–700); Harald's town walls "around 980" against 09's own
+   mid-tenth century; Poppo's glove (Widukind has him carry the iron); "the present queen";
+   Cnut governing all three kingdoms "for nineteen years" (seven); Danish fleets "kept sailing
+   until 1085" (1075; 1085's never sailed); a runestone vignette titled for a man it never
+   mentions. Repetition cut and named (§9.3), including 09 re-arguing 07's Ribe and 10
+   restating 08's close. D-15: nothing to change. D-13: no case. Recall 08 2/5, 09 2/5,
+   10 1/5, 11 1/5.
+
+   **THE BUILD'S PADDED-CHAPTER GUARD COULD NOT SEE A LINE BREAK.** 08 carried "chapter\n07"
+   and "chapters 3 to\n07" past it. It reads `\s+` now and reports both on the shipped page;
+   13 had one more ("chapters\n07"), fixed. **`build_parts_abc.py` re-inserts every checkpoint
+   from its own config**: a checkpoint edited only in a body is lost on the next build. Item
+   142's lesson again, found by hand.
+
+   **D-9 IN PART C.** Eleven two-field who-lines fixed (and 12's and 14's). Tagged: 09 and 11
+   carry both; **08 has no `[f]`, 10 no `[n]`** — R-4 and R-5, §9.9, for Carsten.
+
+   **THREE GLOSSARY POINTERS (§8.8), done.** 24's *Hammershus* (on no page but 24: the entry now
+   dates it; the ← 14 arrow points at the church–crown struggle 14 tells); 20's *krongods*
+   (the thing since 12, the word from 16); 19's *orlogsflåde* (the navy is 21–23, not "22
+   and 24").
+
+   **CHECKED BY A SEPARATE AGENT**, which found nine slips, seven in my own edits — among them
+   "nineteen years after Hastings", which I wrote while correcting "twenty" (October 1066 to
+   1085 is eighteen), Sweyn Estridsen reigning "another ten years" against 12's 1074, and the
+   Repton heading left at 250 above a body saying 260. All corrected (§9.8).
+
+   **VERIFIED** in a scratch clone: build A–F (no `!!`, no STALE), `linkindex`,
+   `index_generator`, then the whole suite: **debuild 45 identical; 45 of 45, 337,491 page
+   words, 26.8 h; vignettes 134/102, D-9 failures 08 and 10, selftest passes; figcheck 98/30/0;
+   draftnotes clean; appcheck 159; freshcheck 14; tidy clean; seams pass; sweeps: 0 D-1, 0
+   prose references, 0 same-page glosses, 2 pointers solvent, Schleswig 169.** One OVER, still
+   17 §08. mapfixture not re-run: no map or figure script changed.
+
+   **LESSON.** R-3 was agreed on a summary that said "c. 200 CE" and "holding the ladle and
+   strainer"; both came from somewhere, and neither was in the sources. *A decision records
+   what was agreed, not what is true: the facts it rests on are checked again when it is
+   carried out.*
 
 ---
 

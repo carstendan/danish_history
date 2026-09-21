@@ -123,7 +123,8 @@ misleading in Part G at first build.
 **Defined.** `HANDOFF.md`, *Convention D-8*; applied in `PLAN_H.md`.
 
 **Checked by.** Nothing mechanical. `sweep_facts.py` compares dates and counts
-across chapters but does not test intervals; the reading pass does.
+across chapters but does not test intervals; the reading pass does. Part C's pass (session 5)
+found nine wrong intervals, and the fixes' checker found one of them re-broken by the fix.
 
 ### D-9 · Vignette balance tags — in force
 
@@ -149,6 +150,10 @@ carries its `[f]` in 02 (Lola). A chapter joins the list by a decision recorded
 here, never to make the check pass. Part A tagged on the same day.
 **Extended to 04 and 05 (R-2, agreed by Carsten 21 September 2026)**, whose part carries
 its `[f]` in 07 (Kirsten Svendsdatter). 06 is not covered: its evidence names people.
+**06 carried out (R-3), review session 5:** the Juellinge woman `[f]` and a smith's household at
+Vorbasse `[n]`; Parts A and B have no D-9 failure. **Part C tagged the same day:** 09 and 11 carry
+both; **08 lacks `[f]` and 10 lacks `[n]`** — true failures, put to Carsten as R-4 and R-5
+(`REVIEW-CONSISTENCY.md` §9.9), not tagged away.
 
 **Checked by.** `vignettes.py` balance layer, which reports such a chapter as
 "[f] part" — and still as FAIL if no chapter of its part carries `[f]`.
@@ -219,7 +224,9 @@ Part I; 22 §08 with Part F; 26 §09, 27 §05, 27 §09 and 29 §03 with Part G; 
 with Part H. **Part A, read in review session 3: no case** (`REVIEW-CONSISTENCY.md`
 §7.7; 02 §06 is named for its vignette's place but restates nothing, and is kept). **Part B, review session 4: one case, 05 §04 *Hjortspring*, decided by
 re-scoping the body to the army** (§8.4); 07 §02 and §03 are named for their vignettes'
-subjects but restate nothing, and are kept.
+subjects but restate nothing, and are kept. **06 §10, session 5:** the new Vorbasse vignette
+showed the list the body had given, and the body was re-scoped around it (§9.1). **Part C,
+session 5: no case** — 08 §01 and 10 §04 are named for their vignettes but restate nothing (§9.5).
 
 **Checked by.** Reading. `REVIEW-BUILD-FAULTS.md` §4's overlap measure is a way of
 choosing what to read, not a test — it scores healthy vignettes about the same
@@ -266,7 +273,8 @@ Danish form: *Slesvigsk Parti* (not "Slesvig Party"), *Flensborg Avis*.
 `figs_39` (Slesvigsk Parti), `figs_43` (South Schleswig, and a stale "section 07"
 that is §06). Every other part takes it in its own reading pass. **Part A, review
 session 3: read, and nothing needed changing.** **Part B, review session 4:** one wrong use (06's
-Nydam boat "in Schleswig ever since" — it was in Kiel; now "in Germany"); the rest right. Maps (`map_*.py`)
+Nydam boat "in Schleswig ever since" — it was in Kiel; now "in Germany"); the rest right. **Part C, review session 5:** four uses, all
+the German town; nothing to change. Maps (`map_*.py`)
 label in Danish throughout and are left for a decision of their own when Part A–D
 maps are next touched.
 
