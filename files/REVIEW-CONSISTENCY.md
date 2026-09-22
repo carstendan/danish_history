@@ -1682,6 +1682,9 @@ wedding, she refused to go home, refused the annulment, appealed to Rome and out
 her back in 1213. Danish royal marriage policy in the reign the section covers, and a woman who would
 not be disposed of. About 300 words.
 
+**Answered 22 September 2026: as recommended.** Ingeborg, queen of France, in 13 §09, `[f]`, to
+be sourced, drafted and checked in review session 7.
+
 **R-8. 14 has neither.** *Recommendation, in two parts:* (a) **`[f]`: Margrete Sambiria, 14 §04, by
 re-scoping the paragraph that is already there** (D-13's "re-scoped so the vignette has somewhere to
 stand") — regent from 1259 for a ten-year-old, beaten and taken prisoner at Lohede in 1261 with the
