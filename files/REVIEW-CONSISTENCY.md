@@ -1375,3 +1375,326 @@ drafting, as R-3 was. About 300 words.
 **Answered 21 September 2026: as recommended.** The Trelleborg garrison's dead in 10 §08, `[n]`,
 to be sourced, drafted and checked in review session 6. Until then `vignettes.py` reports 08 and 10
 as D-9 failures, and that is correct.
+
+
+---
+
+## 10. Session 6 — 08's and 10's missing tags, and Part D read (chapters 12–15)
+
+*22 September 2026, from `START_HERE_review_6.md`.*
+
+**The cold run matched every line.** A fresh clone of `a14a5e1`; the commit before it, `d56a15b`,
+carries item 143's rebuilt pages (06, 08–14, 19, 20, 24). git status clean; tidy reports and deletes
+nothing, 45 bodies; fixture and seams pass; debuild 45 identical; 45 of 45, 337,491 page words,
+26.8 h, parts A 21,397 · B 26,326 · C 25,619 · D 30,990 · I 74,403; vignettes 134/102, D-9 failures
+08 and 10, selftest passes; figcheck 98/30/0; one OVER, 17 §08; draftnotes clean in 45 pages and 14
+drafts; appcheck 159; freshcheck 14; sweeps: 2 pointers, 0 insolvent, 0 same-page glosses;
+Schleswig 169 in 26 against Slesvig 104 in 11; sweep_facts 5 count rows; arrows 254 and 37 thread
+notes, form 7, direction 0, D-1 0, titles 0, solvency 40, prose references 0, footers 0, `<h1>` 0,
+9b 0.
+
+Two research agents sourced the vignettes, two fact-checked about fifty of Part D's claims, and a
+fifth, which had not seen the work, checked every hunk afterwards (§10.8).
+
+### 10.1 R-4 and R-5 carried out — and two of R-5's premises were wrong
+
+Item 143's lesson, applied: the recommendations' facts were checked before the vignettes were
+written.
+
+| the recommendation said | the sources say | ground |
+|---|---|---|
+| R-4: the longest runic inscription in Denmark, 210 runes | right — the longest on a Danish runestone; 210 counted (with one uncertain rune) | lex *Glavendrupstenen*; DR 209 (runer.ku.dk) |
+| R-4: a sixty-metre ship setting | 45 m (Trap, *Skåltegn … Glavendrup-stenen*), 55–60 m (Trap; natmus), 60 m (lex; *Danmarks Oldtid*), 70 m between the prows as reconstructed (Trap). The page says "about sixty metres by most measurements" | as listed |
+| R-4: Alle the *goði*, thegn of the king's retinue | *goði vía*, "priest of the sanctuary", and *liðs þegn*, "thegn of the retinue" — no king named. "Salhaugar" is a different stone, Snoldelev | DR 209; Trap *Glavendrupstenen* |
+| R-4: first half of the tenth century | right: DR 900–950 | DR |
+| R-5: mass graves "of five and eleven" | **three** mass graves: eleven, five and five | Price et al., *Antiquity* 85 (2011) 476–89 |
+| R-5: "a cemetery of young men, a few women and children" | right, with a hedge the recommendation lacked: some of the 157 may belong to the settlement before the fortress | Price et al.; *Danmarks Oldtid*, *Ringborgene* |
+| R-5: strontium puts much of it "in Norway and the Slav lands" | 32 of 48 non-local; the four highest values fit Norway or central Sweden; the rest could come from several regions. The authors' own hedge ("perhaps from Norway or the Slavic regions"), and the later dispute over limed Danish farmland, go on the page | Price et al.; Frei & Price 2012; Thomsen & Andreasen 2019; Price, DJA 2021 |
+
+**(a) Ragnhild at Glavendrup, 08 §04 *What they believed*, `[f]`.** After the place-name paragraph
+("they are addresses"), so that Alli's *vi* follows Odense's. It shows the section's argument — cult
+and lordship held by one man — in one inscription, and adds the Thor formula and the curse. The
+Tryggevælde stone is given with the runologists' hedge. It sits a generation after 08's span, and
+says so. About 300 words.
+
+**(b) The dead outside Trelleborg's east gate, 10 §08 *Who lived in them*, `[n]`.** Between the
+Fyrkat paragraph and "So these were garrisoned places". **Not D-13**: §08 is named for its question,
+not the vignette's subject — but the vignette qualified the body, so the body moved with it. Its first
+sentence said the graves "do not support" a picture of barracks; Trelleborg's graves partly do, and
+it now says "support it only in part". "Garrisoned the way a lord's household is" keeps its point and
+adds "and, at Trelleborg, with outsiders". §09's "section 08 found households rather than barracks"
+still holds. The lime dispute points back to chapter 4, which tells it. About 330 words.
+
+**Found beside it:** grave 4 at Fyrkat was "buried in the 970s or 980s" in the cemetery of a fortress
+felled in 980–81, "within a decade" of a stone that lex dates only to after c. 965. Now "around 980,
+in the first years of a fortress". The vignette also opened "One burial in that cemetery", which after
+the new vignette pointed at Trelleborg; now "in the Fyrkat cemetery".
+
+`vignettes.py`: **no D-9 failure in Parts A–C.**
+
+### 10.2 Part D, read — errors of fact and of the book against itself, fixed
+
+| ch | the page said | it is | ground |
+|---|---|---|---|
+| 12 intro, §05, Five | Knud a saint "fifteen years later" | 10 July 1086 → 19 April 1101 is fourteen (D-8): "by 1101", "less than fifteen years after" | |
+| 12 §02 | Svend "failed. His son's son succeeded" | his son, Erik Ejegod (§06 of the same page) | |
+| 12 §02, fig. 2, ← 9 | Slesvig; Århus | Schleswig; Aarhus (D-15) | |
+| 12 §03 | "around twenty sons, none of them born of a marriage the church would recognise" | at least eighteen children, one by his wife Gunhild | lex *Svend Estridsen* |
+| 12 §04, Sources | the 1085 gift charter "survives and is the oldest original document preserved in Scandinavia … the period's own handwriting" | original and seal lost; the text survives in a copy, the oldest coherent text of Danish origin | danmarkshistorien, *Knud den Helliges gavebrev* |
+| 12 §04 | Knud "thirty-three or so" in 1086 | born c. 1042: about forty-four | lex *Knud den Hellige* |
+| 12 §06 | Hamburg-Bremen "nearly three hundred years" | 831 → 1104: more than two and a half centuries | |
+| 12 §06, §07 | "Erik agreed to [the tithe] in 1103"; "Thirty years elapsed" to 1135; "Erik's promise in 1103" | introduced shortly before the archbishopric, no source names Erik; 1103 → 1135 is more than thirty | danmarkshistorien, *Tiende* |
+| 12 §06 | "Archbishop Adalbert" obtained the bulls of 1133; Herman "a failed abbot" undid it | Adalbero (Adalbert died 1072); Herman was refused an abbacy more than once; his embassy's year is unknown and his biographer calls the matter "overmåde vigtig" — hedged | DBL *Herman*, *Asser* |
+| 12 glossary, §09; 13 §05 | brick arrives "in the second half of the 1100s, first in southern Jutland" (12) against "the middle of the twelfth century" (13) | around the middle of the century, possibly first at the Danevirke | lex *Kirker i Danmark ca. 850–1250*; lex *Valdemarsmuren* |
+| 12 §09 | "more than two thousand stone churches … Nearly all of them are still standing"; "the standard Danish account … about fifteen a year" | 1,800 to 2,000 built; 1,516 Romanesque village churches survive inside today's Denmark; 2,000 ÷ 150 is 13 (also Five things and 15 §03) | lex *Kirker i Danmark*; Kristeligt Dagblad |
+| 12 §09, visit | Gjellerup "the only one that carries a date"; "a semicircular granite slab" | the oldest dated building in Denmark, "one of the only" precisely dated Romanesque churches; a stone over the south door | Trap, lex *Gjellerup Kirke* |
+| 12 Meanwhile | Herrevad "the first Cistercian house in Scandinavia" | the first in Denmark; Alvastra and Nydala are 1143 | lex *Herrevad*; SFV |
+| 12 §11 | "the Emperor Lothar" in 1129 | king; emperor from 1133 | DBL *Knud Lavard* |
+| 12 fig. 3 caption and alt | "six of the eleven rulers … dying violently" | the chart shows five | the chart |
+| 12 §12 | "Eleven weeks later, on 23 October" | 9 August → 23 October is ten weeks and five days: the date alone | D-8 |
+| 12 §12 | Valdemar "king of a whole country for the first time in twenty-six years" | Erik Emune and Erik Lam were sole kings to 1146: "the first man in eleven years" | the page |
+| 12 §12 | "He brought the Cistercians to Denmark in 1144" — repeated from the Meanwhile box | once | |
+| 12 thread | Schleswig in 1157 "a duchy with its own dynasty" | held by a royal prince; the dynasty is Abel's, from 1250 (14 §03) | 14 |
+| 12 visit | Ringsted, "where his son buried him" | Valdemar was born a week after the killing; Knud was buried there, and canonised by his son in 1170 | |
+| 12 §10 | chapter 15 "arrives in 1349" | 1349–50, as 15 §03 and its Myth-check put it | 15 |
+| 13 intro | Valdemar "wounded … riding away from a battlefield" | wounded at Roskilde; he rode off Grathe Hede as victor | 12 |
+| 13 §01 | "rule for twenty-five years" | 1157 → May 1182 is twenty-four: "until 1182" | D-8 |
+| 13 §01 | Absalon "a year or two older" | born c. 1128: about three | DBL; natmus |
+| 13 §01 | "a monk … wrote the history" | Saxo, "a cleric in Absalon's household" (§08) | |
+| 13 §01 | "the king whose statue now sits on horseback in the middle of Copenhagen" | the Højbro Plads statue is Absalon's | lex *Absalon* |
+| 13 §03 | Jaromar's line "three hundred years of standing" | a century and a half, as the paragraph above it says | |
+| 13 §04 | "An archbishop of Lund would later die on campaign in Estonia" | none did; Anders Sunesen sailed to Lyndanisse and died on Ivø in 1228 | DBL *Anders Sunesen* |
+| 13 Meanwhile | Becket "five months after Ringsted" | 25 June → 29 December: six | |
+| 13 glossary | the ring fortresses "three centuries dead" by the 1160s | nearly two | |
+| 13 glossary, §05, visit | the Valdemarsmur "around 1170", "the largest brick structure in northern Europe", "nearly seven metres … almost four kilometres" | the 1160s; "among the largest" (as §05 already hedged); 5–7 m high, about 4 km | Danevirke Museum; Grænseforeningen |
+| 13 §05 | "In 1167 Valdemar granted the village of Havn" | around 1160; the castle by 1167 (lex ties the gift to 1167 — the sources disagree) | natmus; Trap *Middelalderen i København* |
+| 13 §05 | "every chapter from here to 1920 will return to it" | the thread does | |
+| 13 §07 | the assembly "the same institution that will produce Jyske Lov" | Jyske Lov was given at a royal meeting at Vordingborg; "the same legal culture" | lex *Jyske Lov* |
+| 13 §07, Myth, Five, checkpoint, counterfactual | Skåne 1180: "Absalon did not get his bishop's tithe"; "they lost, and they won"; "in the end were not made to pay it" | he gave it up in the 1181 settlement and restored it after the 1182 rising, without reprisals: they won for a year or so, then lost. The checkpoint "what did they nevertheless win?" is now "what did it take to make them pay?" (config and body); the counterfactual reversed | lex *Det Skånske Oprør*; DBL *Absalon* |
+| 13 §08 | "Grammaticus … three centuries later" | first in the Compendium Saxonis, c. 1345: a century and a half | medieval.wiki.uib.no |
+| 13 §08, Sources | "Nearly every specific thing on this page comes … from one man"; checked against "Henry of Livonia" | Saxo ends in 1185: "in the first half of this page"; Henry does not overlap him | |
+| 13 glossary, Myth | Dannebrog "first attested in a source of 1380"; oldest picture "1370s or 1380s" | *Denenbroec*, Bellenville armorial, mid-fourteenth century; the oldest coloured picture in Gelre, after 1370 | lex *Dannebrog*; navn.ku.dk |
+| 13 Meanwhile | the Mongols "within twenty years … two hundred kilometres from territory Valdemar had claimed" | 1219 → 1241 is twenty-two; the distance unsourced: "by 1241" | |
+| 13 §11, Recall | "two hundred kilometres from any frontier"; "held for nearly three years"; "a prisoner … for three years" | unsourced; 7 May 1223 → 25 December 1225: two and a half | DBL *Valdemar 2. Sejr* |
+| 13 §11, checkpoint | "a minor count with a grudge and thirty men" | "a handful of men" (Gyldendal); the checkpoint reworded to match | Gyldendal, *Jagten på Lyø* |
+| 13 §12 | 1219 "is a public holiday" | a flag day | lex *valdemarsdag* |
+| 13 §12, fig. 3 | "lived another fourteen years"; "Eighty years of campaigning" | 22 July 1227 → 28 March 1241: thirteen; 1159 → 1227: nearly seventy | D-8 |
+| 13 §12 | the provincial laws "were written down" after Bornhöved | Skånske Lov is c. 1202–16 | 14 §01 |
+| 13 Contested | "Ditmarsken" | Dithmarschen (D-15, decision D-B) | |
+| 14 §01 | Jyske Lov "carried afterwards to the assembly at Viborg and adopted there"; the vignette at "the Viborg assembly" | no source; the preamble has it given at Vordingborg with the consent of the king's sons, the bishops and "the best men". The who-line now reads Vordingborg · March 1241 | lex; danmarkshistorien, *Jyske Lovs fortale* |
+| 14 §01, Sources | "a hundred and sixty chapters"; "the other 160-odd chapters" | three books; the chapter count varies by manuscript (235 and 239 in two descriptions) and no reference work gives one: "over three books" | |
+| 14 §03 | "so does 1848 and 1864" | so do | |
+| 14 §04 | Jakob Erlandsen "died in 1274 [in Rome] still archbishop and still unreconciled" | a settlement in 1272 with large concessions from him; died on Rügen on the way home, 18 February 1274 | DBL *Jakob Erlandsen* |
+| 14 §04 | "remarkable people in this band" | this century | |
+| 14 §05 | "chapters 18 to 19 are largely a story about what kings had to sign" | Part E keeps coming back to it | the pages |
+| 14 §06, Myth | the ballads evidence of "the fifteenth century" (§06), "the fourteenth century" (Myth), "within a generation or two of 1286" (§06) | the oldest trace is c. 1454; scholars doubt they reach back to 1286: "later centuries", "later opinion" | lex *Marsk Stig-viserne* |
+| 14 §07 | 1313: "twenty-five leaders … every one of them was a farmer" | the peasants' leaders and implicated magnates were sentenced at the Viborg landsting | Gyldendal, *Guldkorn i Nørrejylland* |
+| 14 §07 | Grev Gert's "young cousin" | nephew, his sister's son | lex *Gerhard 3.* |
+| 14 §07, §09, §10; 15 §01 | "Gerhard 3.", "Johann 3." | Gerhard III, Johann III (D-14: German counts take Roman numerals, as the page's own figure captions already did) | |
+| 14 fig. 3 | "Ten weeks", "St Bartholomew to St Martin"; the bar ran 1 August–12 November | 24 August – 9 October, about six weeks; the bar recomputed from the dates in the script, not typed | en.wikipedia *Scania Market*; danmarkshistorien *Skånemarkedet* ("august-oktober") |
+| 14 §10 | "A chronicle puts it at eleven thousand men … nothing … could have fed a force that size" | 4,000 in Randers and 11,000 across Jutland | DBL *Niels Ebbesen*; Gyldendal |
+| 14 §10 | "the ballad says forty-seven men" | the Jutland chronicle; a Lübeck chronicle says sixty | DBL *Niels Ebbesen* |
+| 14 §10 | the Holsteiners married Valdemar "to the sister of the king of Sweden" | to Helvig, sister of the duke of Schleswig (15 §01 has it right) — and the whole 1340 deal is 15's opening; 14 now points there | DBL *Helvig* |
+| 14 Five | "Every king to 1660 signed something like it" | nearly every (the glossary's own "almost every accession") | |
+| 14 visit | Niels Ebbesen "on horseback" | a standing figure (E. F. Ring, 1882) | natmus; DBL |
+| 15 §01 | Helvig "bore Valdemar six children"; "spent her last years at Søborg … and she died there in 1374" | at least three documented (Gyldendal says six); she died at Esrum Abbey c. 1374; the Søborg confinement is later tradition | DBL *Helvig* |
+| 15 §03, Myth, checkpoint | Ribe "to seventeen in 1350" | "from about one a year to seventeen a year", not tied to 1350 (config and body) | danmarkshistorien, *Pest i middelalderen* |
+| 15 §03, ← 12 | "In 1357, building a castle at Randers, he took the stone from eleven demolished churches" | Randershus stood by 1357 (Trap); the eleven churches are a local tradition — hedged | Trap *Randers' historie*; historiskranders.dk |
+| 15 §04 | "ninety-eight farms and mills and seventy-one houses" vacant in Roskilde diocese | unsourced: the bishop's estates "full of deserted holdings" | Gyldendal, *Landbrugskrisen* |
+| 15 Meanwhile | Danish unrest through "noble-led risings, as in chapters 13 and 14" | 1180 and 1313 were farmers' risings; the noble one is this chapter's | 13, 14 |
+| 15 Meanwhile | Avignon "until 1377", twice in one chapter | once | |
+| 15 Meanwhile | Visby "burned nine people … confessions … given freely …" | nine arrested; at least one burned (Tidericus, 2 July 1350); letter to Rostock; the letters' authenticity questioned | executedtoday; sehepunkte (Cole) |
+| 15 §06, fig. 2 | redemption order "north Jutland, the rest of the peninsula, Funen, then Zealand" | north Jutland; Zealand (Copenhagen, August 1343); by 1348 eastern Funen, the islands, eastern Jutland; all Jutland 1354; western Funen 1365 | lex; AU; DBL |
+| 15 §07 | "A settlement was reached; the terms included concessions on taxation and … an annual assembly" — before Bugge's death | the Kalundborg peace of 24 May 1360, after it | danmarkshistorien, *Landefredsforordningen 1360* |
+| 15 §07 vignette | killed by "Middelfart ferrymen"; Valdemar "paid compensation to Niels Bugge's family" | a couple of local fishermen were sentenced; the burghers of Middelfart paid the annual *Buggespenge* until 1874 | danmarkshistorien; DBL *Niels Bugge* |
+| 15 §08 | "the whole of the old kingdom west of the Sound" by 1360 | almost: western Funen until 1365 | |
+| 15 §09 | "eighteen hundred bodies that can be measured"; "Every other vignette in this series is one named person at one named hour" | at least 1,185 excavated; 1,500–1,800 dead; and the claim is false — 08, 10 and 06 have unnamed vignettes | SO-rummet; Populär Historia |
+| 15 §09 | "Gotland was a Hanseatic town"; taken "three months after taking Skåne" | Visby was; a year after (summer 1360 → July 1361) | |
+| 15 §10 | "a association" | an | |
+| 15 §12 | "killing eighteen hundred farmers" | as many as | |
+| 15 → | "→ Part G, Part I … Estonia 1346, the Danish West Indies 1917" | Part G's claim is Tranquebar, sold 1845 (30 says so): named | 30 |
+| 16 §02 | Oluf died "in the middle of the herring season" on 3 August 1387 | the market opened on 24 August (14's figure): "as the herring season began" | 14 |
+
+**Sixteen intervals were wrong in Part D** (D-8, computed): 12's "fifteen years" (three times),
+"thirty years elapsed", "nearly three hundred", "eleven weeks", "the first time in twenty-six";
+13's "twenty-five years", "five months", "three centuries dead", "three centuries later", "three
+hundred years of standing", "within twenty years", "nearly three years", "fourteen years", "eighty
+years"; 14's "ten weeks"; 15's "three months". Part C had nine.
+
+**The 11 → 12 promise (START_HERE).** 11 promised "dioceses, stone churches, a written church law, and
+a saint" and "the English clergy Cnut sent north start it". 12 has the dioceses, the churches and the
+saint; no church law (the Skåne and Zealand church laws are Valdemarian and neither page tells them),
+and no English clergy. The arrow now promises "dioceses, stone churches, a tithe, and a saint". 12
+gives Sweyn Estridsen 1047–1074, and 11 now follows it (§9.8): confirmed, both pages.
+
+### 10.3 Part D — repetition and drag, fixed
+
+- **14 §10 and 15 §01 both told the 1340 settlement** — king, marriage, quarter of Jutland — and 14's
+  version had the wrong bride. 14 now hands over in a sentence: "it is where chapter 15 begins".
+- **15 §05 and §12 both said Margrete was brought up by Birgitta's daughter Merete.** §12 keeps "in the
+  household of Birgitta's daughter".
+- **12 §12 repeated the Meanwhile box's Cistercians of 1144.** Once.
+- **15 had Avignon "until 1377" in both Meanwhile boxes.** Once.
+- **15's Recall repeated a checkpoint word for word** ("What is an ødegård …", Jaccard 1.0). Replaced
+  with a question on Helvig, which no checkpoint asks.
+
+**Found, kept.** 13 has Estonia's "127 years" twice (§10 and the Meanwhile box) and 15 §02 once more;
+the chapters are a part apart in reading terms and 15 needs it. 14 §01's two corrections and its first
+two Myth-checks make the same points — the Myth-check form restates by design. 12's Myth-check calls
+Saxo "a house historian", and 13 §08 says it at length and acknowledges the series has said it before.
+The "country that had already stopped growing" runs 12 → 14 → 15, each time as a pointer, and is the
+part's argument.
+
+### 10.4 Found, recorded, not changed
+
+- **13's leding figures are unsourced.** The prose "between six and eight hundred ships", the figure's
+  "c. 600–800" and "c. 150–200" (`svg_leding.txt`) and "about three marks a year per *havne*" were not
+  found in any reference work reached. Gyldendal gives one ship per *herred*, "knap 200", and Saxo 260
+  ships in 1159 — which would make the full levy smaller than the figure's reduced one. The figure
+  says "Totals are modern estimates, and disputed"; it is not rebuilt from a number nobody can cite.
+  **For the library (E-series): Erslev and the *Jordebog* on the *leding***. The checkpoint "Roughly
+  how many ships was the full leding" stands on it.
+- **Arkona: 1168 or 1169.** lex gives 15 June 1168, DBL "1169 (or rather 1168)". The page keeps the
+  traditional 1169 in its heading and figures, with "1168–69" in §03's body. A Danish
+  historiographical choice; the page states it.
+- **Havn's grant: c. 1160 or 1167** — natmus and Trap c. 1160, lex 1167. The page now says around
+  1160, the castle by 1167.
+- **Saxo's sixteen books: eight and eight** (lex) or nine and seven (other scholarship). The page's
+  eight and eight has lex behind it.
+- **Helvig's children: three (DBL) or six (Gyldendal).** "At least three".
+- **Trelleborg: 133 graves (Price et al., after Nørlund) or 135 (Slots- og Kulturstyrelsen).** The
+  vignette follows Price, which it is built on.
+- **"Ditmarschen" in 19–25** (about seventeen uses) is D-B's misspelling, for Parts E–F's own
+  reading; 13 now has the agreed Dithmarschen.
+- **Maps keep Danish labels** (D-15): `svg_dioceses` and `svg_terr_1050` still say Slesvig and Århus,
+  `svg_pawn` and `svg_reconquest` HOLSTEN. The diagrams — `svg_reigns`, `svg_descent`,
+  `svg_arithmetic` — now follow the prose.
+- **Solvency 40 → 41.** The one new row is 11 → 12, which after its rewording has no anchor the sweep
+  can test. Read: 12 carries all four things it promises.
+
+### 10.5 D-15, D-13 and Recall in Part D
+
+**D-15.** 12 had Slesvig three times and Århus once: all four now Schleswig and Aarhus. 12 also had
+"Fyn" twice against Funen everywhere else (the checker's), and 13 "Mølln" for the German town Mölln.
+**Schleswig 172 in 26 chapters, Slesvig 101 in 10** (was 169 / 104 in 11): Part D no longer uses the
+Danish form. **Sweyn and Svend:** D-15 as written says "Viking-age kings under their English names,
+from Knud the Holy under their Danish ones", which would make 12's Svend Estridsen (1047–74) Sweyn.
+But the rule records practice ("as now"), and §2.3 found the practice — Sweyn in 8–11, Svend from 12 —
+"deliberate and right". The pages keep it; 12's first mention now says "(Sweyn, in chapter 11's
+English form)", both of 12's figure descriptions say Svend, and CONVENTIONS' wording is corrected to
+the page boundary. No decision: the rule's own reason is the practice.
+
+**D-13.** No case. 12 §04 *Odense, 10 July 1086*, 13 §03 *Arkona, June 1169*, 13 §11 *Lyø, a night in
+May 1223*, 14 §10 *Randers, 1 April 1340*, 15 §09 *Visby, 27 July 1361* and 15 §12 *The ten-year-old*
+are named for their vignettes' moments, and none restates the vignette: each body gives the context
+before and the consequence after, as 08 §01 does. 14 §04's Margrete Sambiria paragraph is a vignette
+in all but name — see R-8.
+
+**Recall** (content-word Jaccard ≥ 0.4 against the page's checkpoints). **12 2/6, 13 0/6, 14 2/6, 15
+3/6** — 15 was 4/6, §8.5's figure, and the exact repeat is replaced (§10.3). Within the norm. This
+session's tokenizer gives 08 3/5 and 09 1/5 where §9.5 had 2/5 and 2/5, so the method is not
+bit-identical to §8.5's; the Part D figures are relative to its own count.
+
+### 10.6 The padded-chapter guard, given to Part D
+
+`build_part_d.py` now runs the same retired-vocabulary check as `build_parts_abc.py` (§9.6) —
+"Band X", "entry", "Era page" and the padded chapter number, with `\s+` — counts failures, prints
+"all four built clean" or "!! N problems", and exits non-zero on a problem. Its own "Band D" and
+"entry" labels are gone. **Tested:** with "chapter\n07" planted in a scratch copy of `c13_body.html`
+it printed `vocabulary STALE {'padded': 1}` and `!! 1 problems`, exit 1; on the real bodies,
+`vocabulary clean` for all four.
+
+### 10.7 D-9 in Part D — tagged
+
+Every who-line in 12–15 is now person · place · date · tag.
+
+| ch | vignette | tag | why |
+|---|---|---|---|
+| 12 | Adam of Bremen at the Danish court | `[-]` | a canon, and a king |
+| 12 | Knud den Hellige, in Ælnoth's telling | `[-]` | a king |
+| 12 | an unnamed stonemason, Gjellerup | `[n]` | a craftsman, unnamed |
+| 13 | Jaromar, prince of the Rani | `[-]` | a prince |
+| 13 | Harald Skrænk and the farmers of Skåne | `[n]` | the farmers at their assembly |
+| 13 | Valdemar Sejr and Henry of Schwerin | `[-]` | a king and a count |
+| 14 | Gunner, bishop of Viborg | `[-]` | a bishop |
+| 14 | Jakob Erlandsen | `[-]` | an archbishop |
+| 14 | Niels Ebbesen of Nørreris | `[-]` | a squire — the page calls him "a person of no importance", but a *væbner* is of the armed landholding class; see R-8 |
+| 15 | Niels Bugge of Hald | `[-]` | one of the greatest landowners in Jutland |
+| 15 | the farmers of Gotland | `[n]` | |
+| 15 | Margrete, aged ten | `[-]` | the vignette's own point is that she is disposed of, not acting: "neither of whom expected the bride to matter" |
+
+**Balance: no chapter of Part D carries `[f]`, and 14 carries no `[n]`.** `vignettes.py` reports D-9
+FAILURES 12, 13, 14, 15. True, not to be tagged away; none of the four is a chapter whose evidence
+names no one. §10.9 puts them to Carsten.
+
+### 10.8 Checked by a separate agent
+
+An agent that had not seen the work checked all 118 hunks against sources and the rest of the book. It
+confirmed the Glavendrup and Trelleborg facts and most of §10.2, and found eighteen items. Fourteen
+were slips, nine of them in my own edits. All corrected:
+
+- **15: Visby's poisoners "confessed under torture"** — I had taken it from a fallback source; the
+  surviving letter records confession "without coercion". Now as the letters have it, with their
+  authenticity questioned.
+- **13: the checkpoint "How many men did it take …" had lost its answer** when "thirty men" became "a
+  handful". Reworded (config and body).
+- **14: "Seven weeks"** for 24 August–9 October, which is six complete weeks (D-8), and 16's Oluf dying
+  "in the middle of the herring season" on 3 August, three weeks before the market opened. The figure
+  says six, and 16 "as the herring season began".
+- **10: "157 people in some 135 graves"** — Price et al., the vignette's own source, say 133; and
+  "laid out as part of the fortress's plan" sat badly beside "some of the graves may be older". Now
+  133, "laid out, it seems, with the fortress", and the lime dispute points to chapter 4.
+- **08: "between forty-five and sixty metres"** (Trap also gives 70 between the reconstructed prows),
+  "no grave goods" (Trap: burnt bone and a piece of iron), the vignette's date outside the page's span
+  unremarked, and *vé* in a section that glosses *vi*. All fixed.
+- **12: "the thirty-year gap between the promise of 1103"** — I had hedged the promise two paragraphs
+  up and hardened it here. "More than thirty years … about 1103".
+- **13: "So they won, for two years"** — spring 1181 to 1182 is a year or so.
+- **15: "Through the 1340s and 1350s … western Funen not until 1365."** "And into the 1360s".
+- **`build_part_d.py` still said "Band D" and "entry"**, the vocabulary its new guard retires.
+- Beside hunks, not in them: `svg_reigns`' alt text "Six of the eleven" (the caption now five); 12's
+  figure-3 caption "Svend Estridsen and five of his sons, ruling … for sixty years" (Svend and his
+  sons are eighty-seven); 15's "Gotland was a Hanseatic town"; 12's "Fyn" twice; 13's "Mølln".
+
+**Declined, with reasons:** that Part D's D-9 failures are a slip (they are the finding; §10.9); that
+Svend should be Sweyn (§10.5); that 12's "1349–50" contradicts 15 (15 says "1349 or 1350 — the standard
+date is 1350" and its Myth-check "1349–50"); that "Dithmarschen" should follow the pages' majority
+"Ditmarschen" (D-B decided Dithmarschen; 19–25 are unread).
+
+### 10.9 Decisions for Carsten — Part D, one at a time
+
+Each recommendation is a subject to be sourced detail by detail before drafting, as R-3, R-4 and R-5
+were; the facts below are what a first search found, not what will be written.
+
+**R-6. 12 has no woman as agent.** Its three vignettes are a German canon, a murdered king and an
+unnamed mason. *Recommendation:* **Queen Bodil, 12 §06 *Lund, 1103*, `[f]`** — Erik Ejegod's queen, who
+went with him on the pilgrimage of 1103, went on to the Holy Land after he died on Cyprus, and died on
+the Mount of Olives. The page already gives her one line (§06's close); the vignette would be the
+particular inside a section about the price of an archbishopric, and the one woman the section names. About 250 words. *Alternative:* Ingeborg of Kiev naming her posthumous
+son after her grandfather, 12 §11 — agency in one act, and thinner.
+
+**R-7. 13 has no woman as agent.** *Recommendation:* **Ingeborg, Knud 6.'s sister, 13 §09 *The north
+German years*, `[f]`** — married to Philip II of France in August 1193, repudiated the day after the
+wedding, she refused to go home, refused the annulment, appealed to Rome and outlasted him; Philip took
+her back in 1213. Danish royal marriage policy in the reign the section covers, and a woman who would
+not be disposed of. About 300 words.
+
+**R-8. 14 has neither.** *Recommendation, in two parts:* (a) **`[f]`: Margrete Sambiria, 14 §04, by
+re-scoping the paragraph that is already there** (D-13's "re-scoped so the vignette has somewhere to
+stand") — regent from 1259 for a ten-year-old, beaten and taken prisoner at Lohede in 1261 with the
+boy, freed, and handing over a working monarchy in 1266. The paragraph says she "gets roughly a line
+in most accounts"; the vignette would be the fix. (b) **`[n]`: tag the Niels Ebbesen vignette `[n]`**
+on the page's own ground — "a landowner of no great standing and no royal blood whatever … a person of
+no importance" — as 09's Frideborg was tagged on "not a king". *Against (b):* a *væbner* is of the
+armed landholding class, and `[n]` would be the weakest in the book. *If (b) is refused:* a vignette
+for §02 *The last thralls* from Jyske Lov's thrall provisions, which name no one — the part's
+evidence here really is thin.
+
+**R-9. 15 has no woman as agent.** *Recommendation:* **extend 15 §12's vignette with Margrete's own
+letter from Akershus, c. 1370** — the *nødbrev* in the Norwegian National Archives, in which the
+queen, about seventeen, writes to Håkon that she and her household lack food. It turns the vignette
+from a girl disposed of into a young woman managing a household in her own words, inside 15's span and
+before 16's story begins; 16 does not use it. Retag `[f]`. About 150 words added.
+
+Until they are answered and carried out, `vignettes.py` reports 12, 13, 14 and 15 as D-9 failures,
+and that is correct.

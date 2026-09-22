@@ -4410,6 +4410,70 @@ split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see it
    what was agreed, not what is true: the facts it rests on are checked again when it is
    carried out.*
 
+144. **The consistency review, session 6: 08's and 10's vignettes written, Part D read, tagged and
+   checked.** 22 September 2026. Full record in `REVIEW-CONSISTENCY.md` §10.
+
+   **Cold run on a fresh clone of `a14a5e1`: every figure matched START_HERE_review_6**, and
+   `d56a15b` carries item 143's pages.
+
+   **R-4 AND R-5 CARRIED OUT, with R-5's premises corrected first.** Ragnhild at Glavendrup (08 §04,
+   `[f]`) and the dead outside Trelleborg's east gate (10 §08, `[n]`). R-5 said mass graves "of five
+   and eleven": there are three, of eleven, five and five (Price et al. 2011). R-4's "sixty-metre"
+   ship setting is 45 to 70 m depending on the source, and its Alle is "*goði* of the sanctuary,
+   thegn of the retinue" — no king. 10 §08's body said the graves "do not support" a garrison;
+   Trelleborg's partly do, and the body says so. Grave 4 at Fyrkat, "buried in the 970s", lay in a
+   fortress felled in 980–81. **No D-9 failure in Parts A–C.**
+
+   **PART D READ.** About eighty errors of fact and of the book against itself (§10.2), **sixteen of
+   them intervals** (Part C had nine). Among them: Svend Estridsen's archbishopric won by "his son's
+   son" (his son); Knud den Hellige "thirty-three" (about forty-four) and a saint "fifteen years
+   later" (fourteen); the 1085 charter "the oldest original document in Scandinavia" (the original is
+   lost); "Adalbert" in 1133 (Adalbero); two thousand churches at "fifteen a year" (thirteen);
+   Valdemar king of the whole country "for the first time in twenty-six years" (eleven); Valdemar's
+   statue in Copenhagen (it is Absalon's); an archbishop of Lund dying in Estonia (none did);
+   Absalon never getting his Skåne tithe (he got it after 1182 — the section's thesis, the checkpoint,
+   the Myth-check and a counterfactual rewritten); Dannebrog first named "in 1380" (a Dutch armorial,
+   mid-fourteenth century); 1219 "a public holiday" (a flag day); Jyske Lov "adopted at Viborg" and
+   "a hundred and sixty chapters" (neither sourced — given at Vordingborg, in three books); Jakob
+   Erlandsen dying "in Rome, unreconciled" (on Rügen, after a settlement); Valdemar Atterdag married
+   to "the sister of the king of Sweden" (of the duke of Schleswig); Helvig dying at Søborg (Esrum);
+   Niels Bugge killed by "ferrymen" and Valdemar paying "compensation" (fishermen; Middelfart paid,
+   until 1874); Gotland taken "three months after Skåne" (a year). The Skåne herring market figure
+   redrawn from its dates, 24 August to 9 October — and 16's Oluf, dying "in the middle of the
+   herring season" on 3 August, moved to its start. 11 → 12's "written church law" (12 has none)
+   is now "a tithe". Repetition cut (§10.3): 14 and 15 both told the 1340 settlement; 14 now hands
+   over. D-15: Part D has no Slesvig now (Schleswig 172 / Slesvig 101); Svend in 12, Sweyn in 11, as
+   §2.3 found right, and D-15's wording corrected to the page boundary. D-13: no case. Recall 12 2/6,
+   13 0/6, 14 2/6, 15 3/6 (its exact repeat replaced).
+
+   **THE PADDED-CHAPTER GUARD, GIVEN TO PART D.** `build_part_d.py` runs `build_parts_abc.py`'s
+   retired-vocabulary check, fails on it, and exits non-zero. **Shown firing:** "chapter\n07"
+   planted in a scratch `c13_body.html` gave `STALE {'padded': 1}` and `!! 1 problems`.
+
+   **D-9 IN PART D.** Twelve who-lines tagged. **No chapter of Part D has a woman as agent, and 14 has
+   no non-elite subject** — D-9 failures 12, 13, 14, 15, true, put to Carsten as R-6 to R-9 (§10.9):
+   Queen Bodil (12), Ingeborg, repudiated by Philip II (13), Margrete Sambiria re-scoped from 14's own
+   paragraph and Niels Ebbesen as `[n]` (14), and Margrete's letter from Akershus, c. 1370 (15).
+
+   **CHECKED BY A SEPARATE AGENT**, which found fourteen slips, nine in my own edits — among them
+   Visby's poisoners confessing "under torture", which I took from a fallback source against the
+   letter's "without coercion"; a checkpoint left without its answer; "seven weeks" for six; and 133
+   graves, not 135, in the source the vignette is built on. All corrected (§10.8).
+
+   **VERIFIED** in a scratch clone: build A–E (no `!!`, no STALE), `linkindex`, `index_generator`,
+   then the whole suite: **debuild 45 identical; 45 of 45, 338,244 page words, 26.8 h (Part C 26,228,
+   Part D 31,136); vignettes 136/105, D-9 failures 12, 13, 14, 15, selftest passes; figcheck 98/30/0;
+   draftnotes clean; appcheck 159; freshcheck 14; tidy clean; seams pass; sweeps: 2 pointers
+   solvent, 0 same-page glosses, Schleswig 172, D-1 0, prose references 0, solvency 41 (the new row,
+   11 → 12, read and solvent).** One OVER, still 17 §08. mapfixture not re-run: no map script changed.
+
+   **LESSON.** Part D's arrows, glosses and names all passed their sweeps, and it had eighty errors a
+   reader would meet — a statue attributed to the wrong man, a tithe reported unpaid that was paid, a
+   law adopted at an assembly no source mentions. The sweeps compare the book with itself; only
+   sources can say the book is wrong everywhere at once. And one of my fixes was wrong because I
+   trusted a fallback over the document it summarised. *A correction is a claim like any other: source
+   it from the best thing that says it, not from the first.*
+
 ---
 
 

@@ -1,4 +1,4 @@
-<svg viewBox="0 0 900 468" role="img" aria-label="Diagram of the Skaane herring market in three parts. A calendar strip shows the market running about ten weeks from late August to early November, with Lent marked in the spring. A plan shows the fenced plots at Skanoer and Falsterbo allotted to individual Hanseatic towns including Luebeck, Rostock, Stralsund and Danzig. A line shows the salted herring going south and west into Catholic Europe to be eaten on fast days, which took up close to a third of the year.">
+<svg viewBox="0 0 900 468" role="img" aria-label="Diagram of the Skaane herring market in three parts. A calendar strip shows the market running about six weeks, from 24 August to 9 October, with Lent marked in the spring. A plan shows the fenced plots at Skanoer and Falsterbo allotted to individual Hanseatic towns including Luebeck, Rostock, Stralsund and Danzig. A line shows the salted herring going south and west into Catholic Europe to be eaten on fast days, which took up close to a third of the year.">
   <text x="26" y="88" class="mapt" fill="#A9601C">THE YEAR</text>
   <rect x="96.0" y="98" width="62.0" height="30" fill="none" stroke="#C9CDC4" stroke-width=".8"/>
   <text x="127.0" y="118" class="mapl" text-anchor="middle" fill="#221E18">J</text>
@@ -17,20 +17,19 @@
   <rect x="468.0" y="98" width="62.0" height="30" fill="none" stroke="#C9CDC4" stroke-width=".8"/>
   <text x="499.0" y="118" class="mapl" text-anchor="middle" fill="#221E18">J</text>
   <rect x="530.0" y="98" width="62.0" height="30" fill="none" stroke="#C9CDC4" stroke-width=".8"/>
-  <rect x="530.0" y="98" width="27.9" height="30" fill="#A9601C" fill-opacity=".55"/>
+  <rect x="576.0" y="98" width="16.0" height="30" fill="#A9601C" fill-opacity=".55"/>
   <text x="561.0" y="118" class="mapl" text-anchor="middle" fill="#221E18">A</text>
   <rect x="592.0" y="98" width="62.0" height="30" fill="none" stroke="#C9CDC4" stroke-width=".8"/>
   <rect x="592.0" y="98" width="62.0" height="30" fill="#A9601C" fill-opacity=".55"/>
   <text x="623.0" y="118" class="mapl" text-anchor="middle" fill="#221E18">S</text>
   <rect x="654.0" y="98" width="62.0" height="30" fill="none" stroke="#C9CDC4" stroke-width=".8"/>
-  <rect x="654.0" y="98" width="62.0" height="30" fill="#A9601C" fill-opacity=".55"/>
+  <rect x="654.0" y="98" width="18.0" height="30" fill="#A9601C" fill-opacity=".55"/>
   <text x="685.0" y="118" class="mapl" text-anchor="middle" fill="#221E18">O</text>
   <rect x="716.0" y="98" width="62.0" height="30" fill="none" stroke="#C9CDC4" stroke-width=".8"/>
-  <rect x="716.0" y="98" width="24.8" height="30" fill="#A9601C" fill-opacity=".55"/>
   <text x="747.0" y="118" class="mapl" text-anchor="middle" fill="#221E18">N</text>
   <rect x="778.0" y="98" width="62.0" height="30" fill="none" stroke="#C9CDC4" stroke-width=".8"/>
   <text x="809.0" y="118" class="mapl" text-anchor="middle" fill="#221E18">D</text>
-  <text x="654.0" y="146" class="mapx" fill="#A9601C" text-anchor="middle">the market: about ten weeks</text>
+  <text x="624.0" y="146" class="mapx" fill="#A9601C" text-anchor="middle">the market: 24 August – 9 October</text>
   <text x="251.0" y="146" class="mapx" fill="#3E8474" text-anchor="middle">Lent</text>
   <text x="26" y="118" class="mapx" fill="#6C6E63">caught</text>
   <text x="26" y="192" class="mapt" fill="#A9601C">THE GROUND</text>
@@ -60,7 +59,7 @@
   <text x="26" y="390" class="mapt" fill="#8A2B2B">THE TRADE</text>
   <text x="26" y="410" class="mapx" fill="#221E18">Salted and barrelled on the spot, then south and west into Catholic Europe.</text>
   <text x="26" y="424" class="mapx" fill="#6C6E63">Eaten on fast days: Fridays, Lent, the vigils of the feasts — close to a third of the year.</text>
-  <text x="26" y="34" style="font-family:'Iowan Old Style',Palatino,Georgia,serif;font-size:22px;fill:#221E18">Ten weeks that paid for Skåne</text>
+  <text x="26" y="34" style="font-family:'Iowan Old Style',Palatino,Georgia,serif;font-size:22px;fill:#221E18">Six weeks that paid for Skåne</text>
   <text x="26" y="52" class="mapt">THE HERRING MARKET, c. 1200 – c. 1500</text>
-  <text x="26" y="458" class="mapx" fill="#6C6E63">Market dates are conventional — roughly St Bartholomew to St Martin; the herring varied.</text>
+  <text x="26" y="458" class="mapx" fill="#6C6E63">Market dates are conventional — roughly St Bartholomew (24 August) to St Denis (9 October); the herring varied.</text>
 </svg>

@@ -124,7 +124,8 @@ misleading in Part G at first build.
 
 **Checked by.** Nothing mechanical. `sweep_facts.py` compares dates and counts
 across chapters but does not test intervals; the reading pass does. Part C's pass (session 5)
-found nine wrong intervals, and the fixes' checker found one of them re-broken by the fix.
+found nine wrong intervals, and the fixes' checker found one of them re-broken by the fix. Part D's
+(session 6) found sixteen, and the checker two more in the fixes ("seven weeks", "for two years").
 
 ### D-9 · Vignette balance tags — in force
 
@@ -155,7 +156,9 @@ Vorbasse `[n]`; Parts A and B have no D-9 failure. **Part C tagged the same day:
 both; **08 lacks `[f]` and 10 lacks `[n]`** — true failures, put to Carsten as R-4 and R-5
 (`REVIEW-CONSISTENCY.md` §9.9), not tagged away. **Both answered 21 September 2026 as
 recommended:** Ragnhild at Glavendrup (08 §04, `[f]`) and the Trelleborg garrison's dead (10 §08,
-`[n]`), for review session 6.
+`[n]`), for review session 6. **Carried out in session 6: no D-9 failure in Parts A–C.** **Part D
+tagged the same day: no chapter carries `[f]`, and 14 carries no `[n]`** — R-6 to R-9
+(`REVIEW-CONSISTENCY.md` §10.9), not tagged away.
 
 **Checked by.** `vignettes.py` balance layer, which reports such a chapter as
 "[f] part" — and still as FAIL if no chapter of its part carries `[f]`.
@@ -229,6 +232,8 @@ re-scoping the body to the army** (§8.4); 07 §02 and §03 are named for their 
 subjects but restate nothing, and are kept. **06 §10, session 5:** the new Vorbasse vignette
 showed the list the body had given, and the body was re-scoped around it (§9.1). **Part C,
 session 5: no case** — 08 §01 and 10 §04 are named for their vignettes but restate nothing (§9.5).
+**Part D, session 6: no case** — six sections are named for their vignettes' moments and none
+restates it (§10.5); 14 §04's Margrete Sambiria paragraph is proposed for re-scoping under R-8.
 
 **Checked by.** Reading. `REVIEW-BUILD-FAULTS.md` §4's overlap measure is a way of
 choosing what to read, not a test — it scores healthy vignettes about the same
@@ -245,7 +250,9 @@ pages at `c5775cf`, counted, not estimated — and it has never been written dow
 and fixed them to the majority; four more — not five, recounted — were on pages 05,
 07 and 10 and were fixed in review session 3, when those pages could be rebuilt. 13's
 two "Frederick II" are the Emperor and are right. No page now has a Roman form for a
-Scandinavian ruler.
+Scandinavian ruler. The converse was found in session 6: 14 and 15 wrote the Holstein counts
+"Gerhard 3." and "Johann 3." in prose while their own figure captions said III; the prose now
+follows the rule.
 
 **Defined.** Here. Evidence in `REVIEW-CONSISTENCY.md` §2.1.
 
@@ -258,7 +265,10 @@ today (Flensburg; Haderslev, Aabenraa, Sønderborg). The Skåne towns in their
 Danish form in prose before 1658 and their Swedish form in visit blocks.
 English exonyms where English has one in common use (Copenhagen, Jutland, Zealand,
 Funen, the Sound). Viking-age kings under their English names, from Knud the Holy
-under their Danish ones, as now.
+under their Danish ones, as now. *Corrected in review session 6:* "as now" is the rule, and
+the practice switches at the page, not at Knud — Sweyn through chapter 11, Svend from chapter 12, so
+Svend Estridsen (1047–74) is Sweyn in 11 and Svend in 12, where his first mention gives both
+(`REVIEW-CONSISTENCY.md` §2.3, §10.5).
 
 **Reason.** The pages use the bare word Schleswig 105 times and Slesvig 129 (counted by
 `sweep_names.py`'s reader at `c5775cf`), switching by
@@ -276,7 +286,9 @@ Danish form: *Slesvigsk Parti* (not "Slesvig Party"), *Flensborg Avis*.
 that is §06). Every other part takes it in its own reading pass. **Part A, review
 session 3: read, and nothing needed changing.** **Part B, review session 4:** one wrong use (06's
 Nydam boat "in Schleswig ever since" — it was in Kiel; now "in Germany"); the rest right. **Part C, review session 5:** four uses, all
-the German town; nothing to change. Maps (`map_*.py`)
+the German town; nothing to change. **Part D, review session 6:** 12's three Slesvig and one Århus
+are Schleswig and Aarhus; 12's "Fyn" is Funen, 13's "Mølln" Mölln; the diagrams follow the prose,
+the maps keep Danish. Schleswig 172 in 26 chapters, Slesvig 101 in 10, none of them in Part D. Maps (`map_*.py`)
 label in Danish throughout and are left for a decision of their own when Part A–D
 maps are next touched.
 

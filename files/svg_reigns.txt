@@ -1,4 +1,4 @@
-<svg viewBox="0 0 900 468" role="img" aria-label="Timeline of Danish reigns from 1047 to 1157. Sweyn Estridsen is followed by five of his sons ruling one after another to 1134, then by twenty-six years of overlapping and disputed reigns ending at Grathe Hede in 1157. Six of the eleven rulers shown died violently.">
+<svg viewBox="0 0 900 468" role="img" aria-label="Timeline of Danish reigns from 1047 to 1157. Svend Estridsen is followed by five of his sons ruling one after another to 1134, then by twenty-six years of overlapping and disputed reigns ending at Grathe Hede in 1157. Five of the eleven rulers shown died violently.">
   <line x1="168.0" y1="104.0" x2="686.0" y2="104.0" stroke="#9CA294" stroke-width="1"/>
   <line x1="190.5" y1="100.0" x2="190.5" y2="108.0" stroke="#9CA294" stroke-width="1"/>
   <text x="190.5" y="94.0" class="mapt" text-anchor="middle">1050</text>
@@ -33,7 +33,7 @@
   <text x="156.0" y="257.5" class="mapl" text-anchor="end">Niels</text>
   <rect x="433.8" y="248.5" width="135.1" height="11" fill="#8A2B2B" fill-opacity=".30" stroke="#8A2B2B" stroke-width="1"/>
   <path d="M564.4 253.5 l4.5 -5.5 l4.5 5.5 l-4.5 5.5 Z" fill="#8A2B2B"/>
-  <text x="579.9" y="257.5" class="mapx" fill="#8A2B2B">killed, Slesvig</text>
+  <text x="579.9" y="257.5" class="mapx" fill="#8A2B2B">killed, Schleswig</text>
   <text x="156.0" y="283.0" class="mapl" text-anchor="end">Erik Emune</text>
   <rect x="568.9" y="274.0" width="13.5" height="11" fill="#8A2B2B" fill-opacity=".30" stroke="#8A2B2B" stroke-width="1"/>
   <path d="M577.9 279.0 l4.5 -5.5 l4.5 5.5 l-4.5 5.5 Z" fill="#8A2B2B"/>

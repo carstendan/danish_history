@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-"""Build Band D. Per-entry configs, one command, self-verifying - as build_all.py
-does for bands A to C."""
+"""Build Part D. Per-chapter configs, one command, self-verifying - as build_all.py
+does for Parts A to C."""
 import os
 import re
 
@@ -70,13 +70,13 @@ CFG = {
         "Roughly how many ships was the full <i class=\"dk\">leding</i>, and what fraction of it "
         "remained after 1169?",
         "What is a <i class=\"dk\">havne</i>, and what did it owe from about 1200?",
-        "The Sk\u00e5ne farmers lost the fighting. What did they nevertheless win?"]),
+        "The Sk\u00e5ne farmers refused the bishop's tithe at a lawful assembly. What did it take to make "
+        "them pay?"]),
       ("Bornh", [
         "What did the Emperor give Valdemar Sejr in 1214, and why could he afford to give it?",
         "Which contemporary chronicler describes the Estonian campaigns \u2014 and what does he "
         "never mention?",
-        "How many men did it take to bring down the Danish Baltic empire, and where were they when "
-        "they did it?"])]),
+        "Who brought down the Danish Baltic empire, with how large a party, and where?"])]),
  14: dict(
     name='14-law-regicide-and-the-mortgaged-realm.html',
     body='c14_body.html',
@@ -122,7 +122,7 @@ CFG = {
       ("What it did to the land", [
         "What did Valdemar actually hold in 1340, and how did he propose to enlarge it?",
         "Estonia was sold in 1346. To whom, for how much, and to pay for what?",
-        "The soul-masses at Ribe went from about one a year to seventeen in 1350. Why is that "
+        "The soul-masses at Ribe went from about one a year to seventeen a year. Why is that "
         "<em>not</em> a death toll?"]),
       ("1360", [
         "What is an <i class=\"dk\">\u00f8deg\u00e5rd</i>, and which villages produced most of "
@@ -162,7 +162,7 @@ def build(n, c):
     for frag, qs in c['checks']:
         hit = [sid for sid, t in heads if frag.lower() in t.lower()]
         if len(hit) != 1:
-            raise SystemExit("!! entry %d: anchor %r matched %d sections" % (n, frag, len(hit)))
+            raise SystemExit("!! chapter %d: anchor %r matched %d sections" % (n, frag, len(hit)))
         a = '<h2 id="%s">' % hit[0]
         h = h.replace(a, block(qs) + a, 1)
 
@@ -202,10 +202,21 @@ def build(n, c):
     return h
 
 
-print("--- Band D ---")
+print("--- Part D ---")
+fail = 0
 for n in sorted(CFG):
     c = CFG[n]
     h = build(n, c)
+    # Retired vocabulary, as build_parts_abc.py checks it (review session 5, §9.6),
+    # given to this part in review session 6: until then nothing here could see a
+    # padded "chapter 07" on a Part D page. \s+, not a space, so a line break inside
+    # the phrase does not hide it.
+    prose = re.sub(r'<script>.*?</script>', '', h, flags=re.S)
+    stale = {k: len(re.findall(p, prose)) for k, p in
+             [('Band X', r'\bBand [A-I]\b'), ('entry', r'\b[Ee]ntr(?:y|ies)\b'),
+              ('Era page', r'Era page'),
+              ('padded', r'\b[Cc]hapters?\s+(?:\d+\s+(?:to|and|or)\s+)?0\d\b')]}
+    stale = {k: v for k, v in stale.items() if v}
     css = h.split('<style>')[1].split('</style>')[0]
     ids = set(re.findall(r'id="([a-z0-9]+)"', h))
     links = set(re.findall(r'href="#([a-z0-9]+)"', h))
@@ -213,15 +224,21 @@ for n in sorted(CFG):
                        'dt', 'dd', 'a', 'figure', 'figcaption', 'text', 'g', 'tspan']
            if h.count('<' + t + ' ') + h.count('<' + t + '>') != h.count('</' + t + '>')]
     w = pagewords(h)
-    print("\nentry %d  %s" % (n, c['name']))
+    print("\nchapter %d  %s" % (n, c['name']))
     print("  braces %d | placeholders %d | anchors %s | tags %s"
           % (css.count('{') - css.count('}'), h.count('{{'),
              'ok' if links <= ids else 'BAD ' + str(links - ids), bad if bad else 'ok'))
     print("  checkpoints %d | vignettes %d | meanwhile %d | figures %d | terms %d"
           % (h.count('class="check"'), h.count('class="vig"'), h.count('class="meanwhile"'),
              h.count('<figure>'), h.count('class="terms"')))
-    print("  band %s | words %d (~%d min)"
-          % ('ok' if '--band:%s;' % PART_D in h else 'BAD', w, round(w / 210)))
+    print("  part colour %s | vocabulary %s | words %d (~%d min)"
+          % ('ok' if '--band:%s;' % PART_D in h else 'BAD',
+             'clean' if not stale else 'STALE ' + str(stale), w, round(w / 210)))
+    fail += (bool(bad) + bool(stale) + (not links <= ids) + bool(h.count('{{'))
+             + ('--band:%s;' % PART_D not in h))
     for m in re.finditer(r'<div class="check">.*?</div>\s*<h2 id="(s\d\d)">(.*?)</h2>', h, re.S):
         print("  checkpoint before %s  %s"
               % (m.group(1), re.sub(r'<[^>]+>', '', m.group(2)).strip()))
+print("\n%s" % ('all four built clean' if not fail else '!! %d problems' % fail))
+if fail:
+    raise SystemExit(1)
