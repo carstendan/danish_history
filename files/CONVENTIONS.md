@@ -158,7 +158,8 @@ both; **08 lacks `[f]` and 10 lacks `[n]`** — true failures, put to Carsten as
 recommended:** Ragnhild at Glavendrup (08 §04, `[f]`) and the Trelleborg garrison's dead (10 §08,
 `[n]`), for review session 6. **Carried out in session 6: no D-9 failure in Parts A–C.** **Part D
 tagged the same day: no chapter carries `[f]`, and 14 carries no `[n]`** — R-6 to R-9
-(`REVIEW-CONSISTENCY.md` §10.9), not tagged away.
+(`REVIEW-CONSISTENCY.md` §10.9), not tagged away. **R-6 answered 22 September 2026 as
+recommended:** Queen Bodil (12 §06, `[f]`), for review session 7.
 
 **Checked by.** `vignettes.py` balance layer, which reports such a chapter as
 "[f] part" — and still as FAIL if no chapter of its part carries `[f]`.

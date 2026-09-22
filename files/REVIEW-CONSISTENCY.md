@@ -1673,6 +1673,9 @@ the Mount of Olives. The page already gives her one line (§06's close); the vig
 particular inside a section about the price of an archbishopric, and the one woman the section names. About 250 words. *Alternative:* Ingeborg of Kiev naming her posthumous
 son after her grandfather, 12 §11 — agency in one act, and thinner.
 
+**Answered 22 September 2026: as recommended.** Queen Bodil in 12 §06, `[f]`, to be sourced,
+drafted and checked in review session 7.
+
 **R-7. 13 has no woman as agent.** *Recommendation:* **Ingeborg, Knud 6.'s sister, 13 §09 *The north
 German years*, `[f]`** — married to Philip II of France in August 1193, repudiated the day after the
 wedding, she refused to go home, refused the annulment, appealed to Rome and outlasted him; Philip took
