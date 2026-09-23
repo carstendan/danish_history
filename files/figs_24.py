@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 """Chapter 24's three figures.
 
-  svg_icemarch.txt   the six crossings, 30 January to 8 February 1658
+  svg_icemarch.txt   the six crossings, 30 January to 11 February 1658
   svg_lost1658.txt   Roskilde against the Peace of Copenhagen
-  svg_collapse.txt   thirty-two months, at the scale it happened on
+  svg_collapse.txt   forty months, at the scale it happened on
 
 Run: python3 figs_24.py
 """
@@ -62,11 +62,11 @@ LEGS = [
     ((9.78, 55.30), (10.02, 55.38), "30 Jan", "Little Belt \u2014 Jutland to Funen"),
     ((10.02, 55.38), (10.35, 55.22), "", ""),
     ((10.35, 55.22), (10.61, 55.04), "", ""),
-    ((10.61, 55.04), (10.80, 54.95), "5 Feb", "Funen to Langeland, by T\u00e5singe"),
+    ((10.61, 55.04), (10.80, 54.95), "5\u20136 Feb", "Funen to Langeland, by T\u00e5singe"),
     ((10.80, 54.95), (11.15, 54.83), "6 Feb", "Langeland to Lolland"),
     ((11.15, 54.83), (11.80, 54.80), "", ""),
-    ((11.80, 54.80), (11.95, 54.80), "7 Feb", "Lolland to Falster"),
-    ((11.95, 54.80), (11.90, 55.02), "8 Feb", "Falster to Zealand"),
+    ((11.80, 54.80), (11.95, 54.80), "8 Feb", "Lolland to Falster"),
+    ((11.95, 54.80), (11.90, 55.02), "11 Feb", "Falster to Zealand"),
     ((11.90, 55.02), (12.50, 55.64), "", ""),
 ]
 IBOX = (9.0, 54.3, 13.3, 56.4)
@@ -79,13 +79,13 @@ def icemarch():
     f = M.detail_frame(IBOX, mw, mh)
     o = ['<svg viewBox="0 0 %d %d" xmlns="http://www.w3.org/2000/svg" role="img" '
          'aria-label="Map of the Danish islands showing the Swedish army\'s route across the '
-         'frozen belts between 30 January and 8 February 1658: from Jutland to Funen over the '
+         'frozen belts between 30 January and 11 February 1658: from Jutland to Funen over the '
          'Little Belt, then by Tasinge to Langeland, to Lolland, to Falster and finally to '
          'Zealand. The direct crossing of the Great Belt from Nyborg to Korsoer was not used."'
          '>' % (W, H)]
     o.append('<rect x="0" y="0" width="%d" height="%d" fill="%s"/>' % (W, H, PAPER))
     o.append('<text x="14" y="24" class="mapl">THE MARCH ACROSS THE BELT</text>')
-    o.append('<text x="14" y="40" class="mapt">30 January \u2013 8 February 1658</text>')
+    o.append('<text x="14" y="40" class="mapt">30 January \u2013 11 February 1658</text>')
     o.append('<g transform="translate(0,52)">')
     o.extend(M.detail_base(f, mw, mh, INEAR, scale=10, clip="ice"))
 
@@ -123,7 +123,7 @@ def icemarch():
     o.append('</g>')
 
     px = 486
-    o.append('<text x="%d" y="76" class="mapx">Six crossings in ten days</text>' % px)
+    o.append('<text x="%d" y="76" class="mapx">Six crossings in twelve days</text>' % px)
     y = 96
     for (_, _, date, what) in LEGS:
         if not date:
@@ -138,7 +138,7 @@ def icemarch():
              % (px, y, y, RULE))
     y += 18
     for line in wrap("The Great Belt was too wide and the ice too broken, so the army went "
-                     "round by four islands instead. The ice held for about a fortnight.", 30):
+                     "round by four islands instead, on ice that could have failed at any point.", 30):
         o.append('<text x="%d" y="%d" class="mapt">%s</text>' % (px, y, line))
         y += 13
     o.append('</svg>')
@@ -207,8 +207,8 @@ def lost1658():
     o.append('<text x="%d" y="62" class="mapx">Lost for good</text>' % (px + 24))
     y = 82
     for line in wrap("Sk\u00e5ne, Halland, Blekinge and Bohusl\u00e4n. The line drawn here is "
-                     "the Danish\u2013Swedish border today. Sk\u00e5ne alone held something "
-                     "near a third of the realm's people.", 30):
+                     "the Danish\u2013Swedish border today. With Halland and Blekinge, Sk\u00e5ne "
+                     "made about a third of the realm's land.", 30):
         o.append('<text x="%d" y="%d" class="mapt">%s</text>' % (px, y, line))
         y += 13
     y += 20
@@ -238,9 +238,9 @@ EVENTS = [
     (0, "Jun 1657", "Denmark declares war", True),
     (1, "Jul 1657", "Karl Gustav leaves Poland", False),
     (4, "24 Oct 1657", "Frederiksodde stormed", True),
-    (7, "30 Jan 1658", "the Little Belt", False),
-    (8, "5\u20138 Feb 1658", "four islands to Zealand", True),
-    (8.7, "26 Feb 1658", "Roskilde", False),
+    (7.97, "30 Jan 1658", "the Little Belt", False),
+    (8.2, "5\u201311 Feb 1658", "four islands to Zealand", True),
+    (8.87, "26 Feb 1658", "Roskilde", False),
     (14, "Aug 1658", "Sweden attacks again", True),
     (16, "29 Oct 1658", "Dutch force the Sound", False),
     (18, "8 Dec 1658", "Bornholm rises", True),
@@ -262,9 +262,9 @@ def collapse():
          'aria-label="Fourteen events between June 1657 and October 1660. A time ribbon on the '
          'left places each at its true distance in months; the list on the right gives each equal '
          'space, and lines connect the two. The events cluster: the march across the ice and the '
-         'Treaty of Roskilde fall within five weeks of each other in early 1658.">' % (W, H)]
+         'Treaty of Roskilde fall within four weeks of each other in early 1658.">' % (W, H)]
     o.append('<rect x="0" y="0" width="%d" height="%d" fill="%s"/>' % (W, H, PAPER))
-    o.append('<text x="26" y="28" class="mapl">THIRTY-TWO MONTHS</text>')
+    o.append('<text x="26" y="28" class="mapl">FORTY MONTHS</text>')
     o.append('<text x="26" y="44" class="mapt">left: real elapsed time \u2014 right: equal '
              'space, so the labels can be read</text>')
 
@@ -276,7 +276,7 @@ def collapse():
     o.append('<line x1="60" y1="%d" x2="60" y2="%d" stroke="%s" stroke-width="1.4"/>'
              % (t0 - 12, t1 + 12, MUTED))
     o.append('<rect x="47" y="%.1f" width="26" height="%.1f" fill="%s" opacity=".22"/>'
-             % (T(7), T(8.7) - T(7), OX))
+             % (T(7.97), T(8.87) - T(7.97), OX))
     for yr, m in (("1657", 0), ("1658", 7), ("1659", 19), ("1660", 31)):
         o.append('<text x="44" y="%.1f" class="mapt" text-anchor="end">%s</text>' % (T(m) + 3, yr))
         o.append('<line x1="54" y1="%.1f" x2="66" y2="%.1f" stroke="%s" stroke-width=".8" '
@@ -293,8 +293,8 @@ def collapse():
 
     b = t1 + 44
     o.append('<line x1="26" y1="%d" x2="674" y2="%d" stroke="%s" stroke-width="1"/>' % (b, b, RULE))
-    o.append('<text x="26" y="%d" class="mapt">The shaded band is five weeks: the Little Belt on '
-             '30 January, four islands to Zealand by 8 February,</text>' % (b + 20))
+    o.append('<text x="26" y="%d" class="mapt">The shaded band is four weeks: the Little Belt on '
+             '30 January, four islands to Zealand by 11 February,</text>' % (b + 20))
     o.append('<text x="26" y="%d" class="mapt">and Roskilde signed on 26 February. A third of the '
              'realm went in that band.</text>' % (b + 34))
     o.append('</svg>')

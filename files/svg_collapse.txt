@@ -1,9 +1,9 @@
-<svg viewBox="0 0 700 584" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Fourteen events between June 1657 and October 1660. A time ribbon on the left places each at its true distance in months; the list on the right gives each equal space, and lines connect the two. The events cluster: the march across the ice and the Treaty of Roskilde fall within five weeks of each other in early 1658.">
+<svg viewBox="0 0 700 584" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Fourteen events between June 1657 and October 1660. A time ribbon on the left places each at its true distance in months; the list on the right gives each equal space, and lines connect the two. The events cluster: the march across the ice and the Treaty of Roskilde fall within four weeks of each other in early 1658.">
   <rect x="0" y="0" width="700" height="584" fill="#F0F2EE"/>
-  <text x="26" y="28" class="mapl">THIRTY-TWO MONTHS</text>
+  <text x="26" y="28" class="mapl">FORTY MONTHS</text>
   <text x="26" y="44" class="mapt">left: real elapsed time — right: equal space, so the labels can be read</text>
   <line x1="60" y1="62" x2="60" y2="489" stroke="#5F6157" stroke-width="1.4"/>
-  <rect x="47" y="144.5" width="26" height="17.1" fill="#8A2B2B" opacity=".22"/>
+  <rect x="47" y="154.3" width="26" height="9.1" fill="#8A2B2B" opacity=".22"/>
   <text x="44" y="77.0" class="mapt" text-anchor="end">1657</text>
   <line x1="54" y1="74.0" x2="66" y2="74.0" stroke="#5F6157" stroke-width=".8" opacity=".7"/>
   <text x="44" y="147.5" class="mapt" text-anchor="end">1658</text>
@@ -27,18 +27,18 @@
   <circle cx="186" cy="136" r="3" fill="#8A2B2B"/>
   <text x="200" y="140" class="mapx">24 Oct 1657</text>
   <text x="320" y="140" class="mapt">Frederiksodde stormed</text>
-  <path d="M 68 144.5 C 110 144.5, 140 167.0, 182 167.0" fill="none" stroke="#8A2B2B" stroke-width="1" opacity=".5"/>
-  <circle cx="60" cy="144.5" r="3" fill="#8A2B2B"/>
+  <path d="M 68 154.3 C 110 154.3, 140 167.0, 182 167.0" fill="none" stroke="#8A2B2B" stroke-width="1" opacity=".5"/>
+  <circle cx="60" cy="154.3" r="3" fill="#8A2B2B"/>
   <circle cx="186" cy="167" r="3" fill="#8A2B2B"/>
   <text x="200" y="171" class="mapx">30 Jan 1658</text>
   <text x="320" y="171" class="mapt">the Little Belt</text>
-  <path d="M 68 154.6 C 110 154.6, 140 198.0, 182 198.0" fill="none" stroke="#8A2B2B" stroke-width="1" opacity=".5"/>
-  <circle cx="60" cy="154.6" r="3" fill="#8A2B2B"/>
+  <path d="M 68 156.6 C 110 156.6, 140 198.0, 182 198.0" fill="none" stroke="#8A2B2B" stroke-width="1" opacity=".5"/>
+  <circle cx="60" cy="156.6" r="3" fill="#8A2B2B"/>
   <circle cx="186" cy="198" r="3" fill="#8A2B2B"/>
-  <text x="200" y="202" class="mapx">5–8 Feb 1658</text>
+  <text x="200" y="202" class="mapx">5–11 Feb 1658</text>
   <text x="320" y="202" class="mapt">four islands to Zealand</text>
-  <path d="M 68 161.7 C 110 161.7, 140 229.0, 182 229.0" fill="none" stroke="#8A2B2B" stroke-width="1" opacity=".5"/>
-  <circle cx="60" cy="161.7" r="3" fill="#8A2B2B"/>
+  <path d="M 68 163.4 C 110 163.4, 140 229.0, 182 229.0" fill="none" stroke="#8A2B2B" stroke-width="1" opacity=".5"/>
+  <circle cx="60" cy="163.4" r="3" fill="#8A2B2B"/>
   <circle cx="186" cy="229" r="3" fill="#8A2B2B"/>
   <text x="200" y="233" class="mapx">26 Feb 1658</text>
   <text x="320" y="233" class="mapt">Roskilde</text>
@@ -83,6 +83,6 @@
   <text x="200" y="481" class="mapx">Sep–Oct 1660</text>
   <text x="320" y="481" class="mapt">the estates; hereditary crown</text>
   <line x1="26" y1="521" x2="674" y2="521" stroke="#C9CDC4" stroke-width="1"/>
-  <text x="26" y="541" class="mapt">The shaded band is five weeks: the Little Belt on 30 January, four islands to Zealand by 8 February,</text>
+  <text x="26" y="541" class="mapt">The shaded band is four weeks: the Little Belt on 30 January, four islands to Zealand by 11 February,</text>
   <text x="26" y="555" class="mapt">and Roskilde signed on 26 February. A third of the realm went in that band.</text>
   </svg>

@@ -4545,6 +4545,71 @@ split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see it
    the first honest page it met. *A fix is prose too, and a guard is a claim too: run both against
    the real thing before trusting either.*
 
+146. **The consistency review, session 8: Part E's five vignettes written, Part F read, tagged and
+   checked.** 23–24 September 2026. Full record in `REVIEW-CONSISTENCY.md` §12.
+
+   **Cold run on a fresh clone of `0ea812a`: every figure matched START_HERE_review_8.** Item 145's
+   pages are in their own commit (`e3232f3`), as item 144's were; no drift. The session saved its
+   state to the project after each stage (`claude/session8_state.md` and the WIP patch).
+
+   **R-10 TO R-14 CARRIED OUT, with the recommendations' facts checked first.** Margrete at Lund,
+   10 August 1387 — exact, a Saturday, cathedral then landsting, the letter headed by the archbishop
+   of Trondheim (16 §04, `[f]`, re-scoped); the Victual Brothers at Bergen, 22 April 1393 — the annal
+   *does* name their commander, Enis (16 §06, `[n]`); Kalundborg, 8 December 1411 — five receipts, not
+   one gift letter (17 §05, `[f]`); the peasants at Sankt Jørgensbjerg, 6 or 8 June 1441 — in Han
+   Herred, forty kilometres west of Aalborg, not near it (18 §08, `[n]`, re-scoped from Reventlow);
+   Anne Meinstrup at Ringsted, 20 January 1535 — her son had fallen on the other side three months
+   before (20 §06, `[f]`). **No D-9 failure in Parts A–E.**
+
+   **PART F READ.** Forty-five rows in §12.2, well over a hundred errors of fact and of the book
+   against itself, **sixty-six of them intervals and ages** (Part C nine, D sixteen, E thirty-four). Among them: **Lutter printed in the new style** (17 August 1626,
+   27 August new style — and CONVENTIONS D-6's own example was wrong); the Swedes on Zealand on
+   **11 February 1658**, not the 8th, in prose, figure and Five; the 1536 charter "the most
+   restrictive" (it laid *fewer* limits than its predecessors); the crown's land "a sixth to a half in
+   a single autumn" (a tenth to two-fifths–half, over decades; 20 and 21 now agree with Den Store
+   Danske); accounting fiefs already three-quarters of the land by 1559; Oxe seventeen years abroad
+   (five) and the author of the 1567 reform (tradition's, which DBL finds no source for); Dithmarschen
+   conquered by "the same three men" (Christian 3. was dead); 1611 "declared as duke" (the council
+   gave way to the threat; the device was used only in 1625); Munk "Jutland-born" (Arendal) with
+   sixty-five men (sixty-four); Frands Rantzau among the sons-in-law (only betrothed; Hedevig and
+   Ebbe Ulfeldt); Gotland Danish "since 1449" (1361, chapter 15's own date); Obdam "killed" in the
+   Sound (de With and Floriszoon); the storm of 1659 against a "refrozen" ditch (the moats were kept
+   open); a 1658 Bornholm condition never found; "eleven wars" from 1521 (twelve; now 1523).
+   **D-13: 22 §08 decided** — *Witchcraft and the state*, Johanne Tommesis alone, the list in the
+   figure. D-15, D-6, D-14 applied (§12.5). Recall: 21 0/6, 22 0/5, 23 0/5, 24 1/5.
+
+   **THE PADDED-CHAPTER GUARD, GIVEN TO PART F — AND IT FIRED ON THE FIRST REAL RUN.** Four ordinary
+   "entry" in 22 and 23, which my grep of the bodies had missed (the pattern wanted forty characters
+   before the word on the same line). Allowed by phrase; shown firing on planted "chapter\n07",
+   "this entry" and "The entries".
+
+   **D-9 IN PART F.** Twelve who-lines tagged and trimmed. **21 has no `[n]`**: R-15 (§12.9) —
+   Rasmus Pedersen, the Roskilde-canonry tenant Tycho put in irons on Hven in 1590, who won in the
+   king's court. Its first search also corrected 21 §08 ("a tenant and his family" on Hven).
+
+   **CHECKED BY A SEPARATE AGENT**, which found twenty-two slips, most of them mine — five intervals
+   among them: "since the new star of last November", written while removing "thirteen months";
+   "two weeks after Easter"; "some ten years later"; "some 450 years"; an age attached to the wrong
+   year — and "the next generation's three" for a king and his uncles. All resolved (§12.8).
+
+   **VERIFIED** in a scratch clone: figs_22, 23, 24 (rendered and looked at), build E and F (no `!!`,
+   no STALE), `linkindex`, `index_generator`, then the suite: **debuild 45 identical; 45 of 45,
+   340,724 page words, 27.0 h (Part E 36,388, Part F 29,659); vignettes 143/114, D-9 failure 21,
+   selftest passes; figcheck 98/30/0; draftnotes clean; appcheck 159; freshcheck 14; tidy clean; seams
+   pass; sweeps: 2 pointers solvent, 0 same-page glosses, Schleswig 178, sweep_facts 5, D-1 0, prose
+   references 0, solvency 41.** One OVER, 16 §08 (852). mapfixture not re-run: no map script changed.
+
+   **FOUND, NOT CHANGED** (§12.4): the Køge list's provenance (Olga Ravn's memorial list against the
+   town archive's fourteen); 20's land bars still unsourced (now called schematic); chapter 30's
+   Trankebar "two hundred and twenty-five years" — for Part G.
+
+   **LESSON.** The most consequential error of the session was not on a page but in the rulebook:
+   CONVENTIONS D-6 illustrated the calendar rule with Lutter "27 August or 6 September", and chapter
+   23, obeying the rule as it thought, printed the one new-style date in six parts. And my own check
+   that Part F had no "entry" for the guard to trip on was a 0 I had not tested — the guard found four.
+   *A rule's example is a claim too; and a clean result from a search you wrote is a search you have
+   not yet checked.*
+
 ---
 
 

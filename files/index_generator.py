@@ -131,7 +131,7 @@ E = [
  "The king every Dane can name, in the half of his reign that worked: towns founded, spires raised, companies chartered, Norway governed hard — and one war with Sweden that settles nothing.",
  ["formynderregeringen 1588–96","Kalmarkrigen 1611–13","Frederiksborg, Rosenborg, Børsen","Christianshavn 1618","Trankebar 1620"]),
 (23,5,"Christian 4.: the wars that broke him","1625 – 1648",1636,
- "Sixty years of building are undone in twenty. He enters the Thirty Years' War as a German prince, loses, and watches a Swedish army march into Jutland twice.",
+ "Nearly thirty years of building are undone in the twenty-two that follow. He enters the Thirty Years' War as a German prince, loses, and watches two foreign armies march into Jutland.",
  ["Lutter am Barenberge 1626","Wallenstein i Jylland 1627–29","Rundetårn 1637–42","Torstenssonkrigen 1643–45","Kolberger Heide 1644"]),
 (24,5,"Losing the eastern provinces","1645 – 1660",1652,
  "Brømsebro takes a bite; then a Swedish army walks across the frozen Belts and Roskilde 1658 amputates Skåne, Halland and Blekinge. Copenhagen holds — barely.",

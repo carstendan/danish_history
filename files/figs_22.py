@@ -74,7 +74,7 @@ def foundations():
     o.append('<circle cx="%d" cy="46" r="5" fill="%s"/>' % (px, OX))
     o.append('<text x="%d" y="50" class="mapl">Took</text>' % (px + 12))
     rows = [("Christiania 1624",
-             "Oslo burned for the fourteenth time; he moved the survivors under the "
+             "Oslo burned yet again; he moved the survivors under the "
              "guns of Akershus and gave them a grid."),
             ("Kongsberg 1624",
              "Silver found the year before. German miners imported within months; "
@@ -83,7 +83,7 @@ def foundations():
              "A capital that needed a defended harbour quarter, on a Dutch plan, with "
              "the bastions still walkable."),
             ("Christianstad 1614",
-             "Drained marsh in Sk\u00e5ne, replacing two towns he judged badly sited. "
+             "A fortress on drained marsh in Sk\u00e5ne, replacing V\u00e4, burned by the Swedes. "
              "Swedish since 1658 and still there.")]
     y = 70
     for name, why in rows:
@@ -102,7 +102,7 @@ def foundations():
     for name, why in [("Gl\u00fcckstadt 1617",
                        "Sited to take Hamburg's trade. Hamburg's trade rested on a "
                        "century of credit and connections that no charter could move "
-                       "sixty kilometres downriver."),
+                       "fifty kilometres down the Elbe."),
                       ("Christianopel 1599",
                        "Built to watch the Swedish border. It is a village.")]:
         o.append('<text x="%d" y="%d" class="mapx">%s</text>' % (px, y, name))
@@ -131,7 +131,7 @@ def wrap(text, n):
 # ------------------------------------------------------------------ figure 2
 # From the surviving list. fate: B burned, S suicide, A convicted in absentia.
 KOEGE = [
-    ("Johanne Tommesis", "24 Aug 1612", "B", "named four others under torture"),
+    ("Johanne Tommesis", "Aug/Sep 1612", "B", "named four others under torture"),
     ("Kirstine Lauridsdatter", "11 Sep 1612", "B", "Johanne's own servant"),
     ("Mette Banghors", "7 Dec 1612", "B", "said she met the Devil as a rat"),
     ("Volborg B\u00f8dkers", "7 Jun 1613", "A", "escaped; convicted anyway"),
@@ -150,20 +150,25 @@ KOEGE = [
 ]
 
 
+_N = {k: sum(1 for r in KOEGE if r[2] == k) for k in "BSA"}
+_WORD = {13: "thirteen", 14: "fourteen", 15: "fifteen", 16: "sixteen", 2: "two", 1: "one"}
+
+
 def koegechain():
     W = 700
     H = 96 + len(KOEGE) * 26 + 80
     o = ['<svg viewBox="0 0 %d %d" xmlns="http://www.w3.org/2000/svg" role="img" '
-         'aria-label="A list of the sixteen women who died in the Koege witch trials between '
-         'August 1612 and 1615, with their dates and fates. Fourteen were burned, two took their '
-         'own lives, one was convicted after escaping. Two of them are recorded as having named '
-         'further women under torture, which is what continued the chain.">' % (W, H)]
+         'aria-label="A list of the %s women accused in the Koege witch trials between '
+         '1612 and 1615, with their dates and fates. %s were burned, %s took their own lives, '
+         '%s was convicted after escaping. Two of them are recorded as having named further '
+         'women under torture, which is what continued the chain.">'
+         % (W, H, _WORD[len(KOEGE)], _WORD[_N["B"]].capitalize(), _WORD[_N["S"]], _WORD[_N["A"]])]
     o.append('<rect x="0" y="0" width="%d" height="%d" fill="%s"/>' % (W, H, PAPER))
     o.append('<text x="26" y="30" class="mapl">K\u00d8GE, AUGUST 1612 \u2013 NOVEMBER 1615</text>')
     o.append('<text x="26" y="46" class="mapt">one household\'s accusation, and everyone it '
              'reached</text>')
-    o.append('<text x="26" y="72" class="mapx">Hans Bartsk\u00e6r accuses a neighbour, '
-             'August 1612</text>')
+    o.append('<text x="26" y="72" class="mapx">Women from Eg\u00f8je name a K\u00f8ge widow, '
+             'winter 1611\u201312</text>')
 
     top = 96
     o.append('<line x1="38" y1="%d" x2="38" y2="%d" stroke="%s" stroke-width="1.5" '
@@ -199,10 +204,8 @@ def koegechain():
              % (b + 18, PAPER, MUTED))
     o.append('<text x="442" y="%d" class="mapt">escaped, convicted anyway \u2014 %s</text>'
              % (b + 22, word.get(n["A"], n["A"])))
-    o.append('<text x="26" y="%d" class="mapt">A confession was not complete until the accused '
-             'named others. That is what carried it forward.</text>' % (b + 44))
-    o.append('<text x="26" y="%d" class="mapt">Who named whom is only partly recoverable. The '
-             'names and the dates are not in doubt.</text>' % (b + 58))
+    o.append('<text x="26" y="%d" class="mapt">Who named whom is only partly recoverable, and '
+             'accounts differ on some dates.</text>' % (b + 44))
     o.append('</svg>')
     return "\n  ".join(o)
 
@@ -215,7 +218,7 @@ WORKS = [
     ("Rosenborg", 1606, 1624, "w"),
     ("Bremerholm, enlarged", 1600, 1625, "f"),
     ("Christianshavn", 1618, 1625, "f"),
-    ("B\u00f8rsen", 1619, 1624, "w"),
+    ("B\u00f8rsen", 1619, 1625, "w"),
     ("Kongsberg", 1624, 1630, "w"),
     ("Nyboder", 1631, 1641, "x"),
     ("Rundet\u00e5rn", 1637, 1642, "x"),
@@ -230,8 +233,8 @@ def ledger():
     o = ['<svg viewBox="0 0 %d %d" xmlns="http://www.w3.org/2000/svg" role="img" '
          'aria-label="Timeline of Christian the Fourth\'s major building works from 1596 to 1645, '
          'with the Kalmar War of 1611 to 1613 and the German war from 1625 shaded. Almost every '
-         'major work was under construction simultaneously before 1625; after 1625 building on '
-         'that scale stops.">' % (W, H)]
+         'major work was under construction simultaneously before 1625; the works begun after '
+         '1625 are fewer.">' % (W, H)]
     o.append('<rect x="0" y="0" width="%d" height="%d" fill="%s"/>' % (W, H, PAPER))
     o.append('<text x="26" y="28" class="mapl">WHAT WAS BEING BUILT, AND WHEN</text>')
 

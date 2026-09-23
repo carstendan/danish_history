@@ -22,9 +22,9 @@
   </g>
   </g>
   <text x="424" y="60" class="mapx" fill="#8A2B2B">Jämtland &amp; Härjedalen</text>
-  <text x="424" y="74" class="mapt">from Norway, held 600 years</text>
+  <text x="424" y="74" class="mapt">from Norway, held nearly 470 years</text>
   <text x="424" y="104" class="mapx" fill="#8A2B2B">Gotland</text>
-  <text x="424" y="118" class="mapt">Danish since 1449</text>
+  <text x="424" y="118" class="mapt">Danish since 1361</text>
   <text x="424" y="148" class="mapx" fill="#8A2B2B">Ösel</text>
   <text x="424" y="162" class="mapt">bought 1559</text>
   <text x="424" y="192" class="mapx" fill="#8A2B2B">Halland</text>

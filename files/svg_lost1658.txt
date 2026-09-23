@@ -29,9 +29,9 @@
   <text x="424" y="82" class="mapt">Skåne, Halland, Blekinge and</text>
   <text x="424" y="95" class="mapt">Bohuslän. The line drawn here</text>
   <text x="424" y="108" class="mapt">is the Danish–Swedish border</text>
-  <text x="424" y="121" class="mapt">today. Skåne alone held</text>
-  <text x="424" y="134" class="mapt">something near a third of the</text>
-  <text x="424" y="147" class="mapt">realm's people.</text>
+  <text x="424" y="121" class="mapt">today. With Halland and</text>
+  <text x="424" y="134" class="mapt">Blekinge, Skåne made about a</text>
+  <text x="424" y="147" class="mapt">third of the realm's land.</text>
   <rect x="424" y="171" width="16" height="11" fill="#2E6B5E" fill-opacity=".30" stroke="#2E6B5E" stroke-width="1.3" stroke-dasharray="4 3"/>
   <text x="448" y="180" class="mapx">Returned in 1660</text> 
   <text x="424" y="200" class="mapt">Trøndelag and Bornholm.</text>

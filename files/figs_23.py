@@ -58,8 +58,8 @@ def invasions():
          'aria-label="Two maps of Denmark side by side. In 1627 to 1629 imperial armies under '
          'Tilly and Wallenstein occupied the Jutland peninsula from the Elbe to Skagen. In 1643 '
          'to 1645 a Swedish army under Torstensson occupied the same ground by the same route. '
-         'In neither war were Zealand, Funen or Scania touched, because the Danish fleet held the '
-         'water.">' % (W, H)]
+         'In neither war were Zealand or Funen touched, because the Danish fleet held the '
+         'water; in 1644 a second Swedish army came over the land border into Sk\u00e5ne.">' % (W, H)]
     o.append('<rect x="0" y="0" width="%d" height="%d" fill="%s"/>' % (W, H, PAPER))
 
     panels = [(14, "1627\u201329", "Tilly and Wallenstein", OX, True),
@@ -101,19 +101,19 @@ def invasions():
              % (b - 14, b - 14, RULE))
     o.append('<text x="14" y="%d" class="mapt">Sixteen years apart, two different enemies took '
              'the same ground by the same road.</text>' % b)
-    o.append('<text x="14" y="%d" class="mapt">Neither crossed the water, and neither had to: '
-             'taking Jutland was enough to dictate terms both times.</text>' % (b + 14))
+    o.append('<text x="14" y="%d" class="mapt">Neither crossed the water to the islands, and neither '
+             'had to: taking Jutland was enough to dictate terms both times.</text>' % (b + 14))
     o.append('</svg>')
     return "\n  ".join(o)
 
 
 # ------------------------------------------------------------------ figure 2
 DAUGHTERS = [
-    ("Anne Cathrine", "1618\u201333", "Frands Rantzau", ""),
     ("Sophie Elisabeth", "1619\u201357", "Christian von Pentz", "governor, Gl\u00fcckstadt"),
     ("Leonora Christina", "1621\u201398", "Corfitz Ulfeldt", "steward of the realm 1643"),
     ("Elisabeth Augusta", "1623\u201377", "Hans Lindenov", ""),
     ("Christiane", "1626\u201370", "Hannibal Sehested", "governor of Norway 1642"),
+    ("Hedevig", "1626\u201378", "Ebbe Ulfeldt", ""),
 ]
 
 
@@ -122,8 +122,8 @@ def sonsinlaw():
     o = ['<svg viewBox="0 0 %d %d" xmlns="http://www.w3.org/2000/svg" role="img" '
          'aria-label="Family diagram. Christian the Fourth\'s first marriage produced Frederik the '
          'Third, who inherited the throne in 1648. His second, morganatic marriage to Kirsten Munk '
-         'produced daughters who could not inherit, but who married five of the greatest noblemen '
-         'in Denmark, including Corfitz Ulfeldt, steward of the realm, and Hannibal Sehested, '
+         'produced daughters who could not inherit, but five of whom married noblemen, '
+         'including Corfitz Ulfeldt, steward of the realm, and Hannibal Sehested, '
          'governor of Norway.">' % (W, H)]
     o.append('<rect x="0" y="0" width="%d" height="%d" fill="%s"/>' % (W, H, PAPER))
     o.append('<text x="26" y="28" class="mapl">ONE KING, TWO MARRIAGES, TWO KINDS OF CLAIM</text>')
@@ -186,8 +186,8 @@ JAMTLAND = [(12.10, 61.30), (13.05, 61.90), (14.45, 62.20), (14.65, 62.90),
             (15.45, 63.60), (14.35, 64.40), (13.10, 63.70), (12.30, 62.40)]
 SBOX = (8.0, 54.4, 25.0, 65.5)
 SNEAR = (0.0, 50.0, 34.0, 70.0)
-CEDED = [("J\u00e4mtland &amp; H\u00e4rjedalen", JAMTLAND, "from Norway, held 600 years"),
-         ("Gotland", M97.GOTLAND, "Danish since 1449"),
+CEDED = [("J\u00e4mtland &amp; H\u00e4rjedalen", JAMTLAND, "from Norway, held nearly 470 years"),
+         ("Gotland", M97.GOTLAND, "Danish since 1361"),
          ("\u00d6sel", M16.OESEL, "bought 1559"),
          ("Halland", HALLAND, "pledged 30 years; never returned")]
 

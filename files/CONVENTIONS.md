@@ -82,8 +82,10 @@ parentheses at the first divergence in a chapter. Helsingborg is 10 March 1710
 (28 February, Swedish style); Poltava 8 July 1709 (27 June, Russian style).
 
 **Reason.** Parts A–F are Old Style and nothing said so; a reader checking Lutter
-am Barenberge against a German source finds 27 August or 6 September depending on
-which state printed it.
+am Barenberge against a German source finds 17 August or 27 August depending on
+which state printed it. *Corrected in review session 8:* the example had "27 August or
+6 September", and chapter 23 printed the battle as 27 August — the new style. It is
+17 August (27 August, new style), and the page now says so (`REVIEW-CONSISTENCY.md` §12).
 
 **The fix the decision named, and whether it happened.**
 - *A `gammel og ny stil` glossary entry in chapter 27* — **done**, on the page.
@@ -127,7 +129,9 @@ across chapters but does not test intervals; the reading pass does. Part C's pas
 found nine wrong intervals, and the fixes' checker found one of them re-broken by the fix. Part D's
 (session 6) found sixteen, and the checker two more in the fixes ("seven weeks", "for two years").
 Part E's (session 7) found thirty-four, and the checker three more in the fixes ("thirty-six",
-"twenty-seven years of rule", "four months").
+"twenty-seven years of rule", "four months"). Part F's (session 8) found sixty-six, and the checker
+five more in the fixes (among them "since the new star of last November", written while removing
+"thirteen months").
 
 ### D-9 · Vignette balance tags — in force
 
@@ -177,7 +181,9 @@ as recommended:** Margrete's gift letter of 8 December 1411 (17 §05, `[f]`), fo
 recommended:** the Reventlow vignette re-scoped to the peasants at Sankt Jørgensbjerg, 1441 (18 §08,
 `[n]`), for review session 8. **R-14 answered the same day as recommended:** Anne Meinstrup at
 Ringsted, 20 January 1535 (20 §06, `[f]`), for review session 8. All five are for session 8; until
-they are carried out, `vignettes.py` reports 16, 17, 18 and 20 as D-9 failures, correctly.
+they are carried out, `vignettes.py` reports 16, 17, 18 and 20 as D-9 failures, correctly. **Carried
+out in session 8: no D-9 failure in Parts A–E** (`REVIEW-CONSISTENCY.md` §12.1). **Part F tagged the
+same day: 21 carries no `[n]`** — R-15 (§12.9), not tagged away.
 
 **Checked by.** `vignettes.py` balance layer, which reports such a chapter as
 "[f] part" — and still as FAIL if no chapter of its part carries `[f]`.
@@ -254,7 +260,11 @@ session 5: no case** — 08 §01 and 10 §04 are named for their vignettes but r
 **Part D, session 6: no case** — six sections are named for their vignettes' moments and none
 restates it (§10.5); 14 §04's Margrete Sambiria paragraph is proposed for re-scoping under R-8.
 **Re-scoped in session 7** (§11.1). **Part E, session 7: no case** (§11.5); 20's Rantzau vignette sits
-out of order in §06 and retells §05's Aalborg — for moving when 20 is next opened.
+out of order in §06 and retells §05's Aalborg — for moving when 20 is next opened. **Re-scoped in
+session 8:** 16 §04 (Margrete at Lund) and 18 §08 (the peasants at Sankt Jørgensbjerg), under R-10 and
+R-13 (§12.1). **Part F, session 8: 22 §08, one of the seven, decided by re-scoping** — the section is
+now *Witchcraft and the state*, the vignette Johanne Tommesis alone, the list in the figure only
+(§12.5). 20's Rantzau vignette was not moved (20 was opened only for R-14).
 
 **Checked by.** Reading. `REVIEW-BUILD-FAULTS.md` §4's overlap measure is a way of
 choosing what to read, not a test — it scores healthy vignettes about the same
@@ -313,7 +323,9 @@ the maps keep Danish. Schleswig 172 in 26 chapters, Slesvig 101 in 10, none of t
 19's two Slesvig (both the town) are Schleswig, 18's Flensborg Flensburg, 20's visit-block Malmø
 Malmö; and **D-B's Dithmarschen is carried out** in 19 (eleven), 20 (one), 21 (six) and the config,
 with 16–18's "Ditmarsken" in English prose (three) as 13's was — Danish words such as a glossary
-term stay Danish. Schleswig 178 in 26 chapters, Slesvig 99 in 9: none in Parts A–F. Maps (`map_*.py`)
+term stay Danish. Schleswig 178 in 26 chapters, Slesvig 99 in 9: none in Parts A–F. **Part F, review session 8:** no
+Slesvig; the noun "Scania" is Skåne (three), the adjective "Scanian" stays as in Part G; "Femern" is
+Fehmarn (23); Malmø before 1658 and Malmö after, as the rule says (§12.5). Maps (`map_*.py`)
 label in Danish throughout and are left for a decision of their own when Part A–D
 maps are next touched.
 

@@ -30,32 +30,31 @@
   <circle cx="452" cy="46" r="5" fill="#8A2B2B"/>
   <text x="464" y="50" class="mapl">Took</text>
   <text x="452" y="70" class="mapx">Christiania 1624</text>
-  <text x="452" y="84" class="mapt">Oslo burned for the fourteenth</text>
-  <text x="452" y="96" class="mapt">time; he moved the survivors under</text>
-  <text x="452" y="108" class="mapt">the guns of Akershus and gave them</text>
-  <text x="452" y="120" class="mapt">a grid.</text>
-  <text x="452" y="140" class="mapx">Kongsberg 1624</text>
-  <text x="452" y="154" class="mapt">Silver found the year before.</text>
-  <text x="452" y="166" class="mapt">German miners imported within</text>
-  <text x="452" y="178" class="mapt">months; worked until 1958.</text>
-  <text x="452" y="198" class="mapx">Christianshavn 1618</text>
-  <text x="452" y="212" class="mapt">A capital that needed a defended</text>
-  <text x="452" y="224" class="mapt">harbour quarter, on a Dutch plan,</text>
-  <text x="452" y="236" class="mapt">with the bastions still walkable.</text>
-  <text x="452" y="256" class="mapx">Christianstad 1614</text>
-  <text x="452" y="270" class="mapt">Drained marsh in Skåne, replacing</text>
-  <text x="452" y="282" class="mapt">two towns he judged badly sited.</text>
-  <text x="452" y="294" class="mapt">Swedish since 1658 and still</text>
-  <text x="452" y="306" class="mapt">there.</text>
-  <circle cx="452" cy="332" r="5" fill="#F0F2EE" stroke="#8A2B2B" stroke-width="1.6"/>
-  <text x="464" y="336" class="mapl">Did not</text>
-  <text x="452" y="360" class="mapx">Glückstadt 1617</text>
-  <text x="452" y="374" class="mapt">Sited to take Hamburg's trade.</text>
-  <text x="452" y="386" class="mapt">Hamburg's trade rested on a</text>
-  <text x="452" y="398" class="mapt">century of credit and connections</text>
-  <text x="452" y="410" class="mapt">that no charter could move sixty</text>
-  <text x="452" y="422" class="mapt">kilometres downriver.</text>
-  <text x="452" y="442" class="mapx">Christianopel 1599</text>
-  <text x="452" y="456" class="mapt">Built to watch the Swedish border.</text>
-  <text x="452" y="468" class="mapt">It is a village.</text>
+  <text x="452" y="84" class="mapt">Oslo burned yet again; he moved</text>
+  <text x="452" y="96" class="mapt">the survivors under the guns of</text>
+  <text x="452" y="108" class="mapt">Akershus and gave them a grid.</text>
+  <text x="452" y="128" class="mapx">Kongsberg 1624</text>
+  <text x="452" y="142" class="mapt">Silver found the year before.</text>
+  <text x="452" y="154" class="mapt">German miners imported within</text>
+  <text x="452" y="166" class="mapt">months; worked until 1958.</text>
+  <text x="452" y="186" class="mapx">Christianshavn 1618</text>
+  <text x="452" y="200" class="mapt">A capital that needed a defended</text>
+  <text x="452" y="212" class="mapt">harbour quarter, on a Dutch plan,</text>
+  <text x="452" y="224" class="mapt">with the bastions still walkable.</text>
+  <text x="452" y="244" class="mapx">Christianstad 1614</text>
+  <text x="452" y="258" class="mapt">A fortress on drained marsh in</text>
+  <text x="452" y="270" class="mapt">Skåne, replacing Vä, burned by the</text>
+  <text x="452" y="282" class="mapt">Swedes. Swedish since 1658 and</text>
+  <text x="452" y="294" class="mapt">still there.</text>
+  <circle cx="452" cy="320" r="5" fill="#F0F2EE" stroke="#8A2B2B" stroke-width="1.6"/>
+  <text x="464" y="324" class="mapl">Did not</text>
+  <text x="452" y="348" class="mapx">Glückstadt 1617</text>
+  <text x="452" y="362" class="mapt">Sited to take Hamburg's trade.</text>
+  <text x="452" y="374" class="mapt">Hamburg's trade rested on a</text>
+  <text x="452" y="386" class="mapt">century of credit and connections</text>
+  <text x="452" y="398" class="mapt">that no charter could move fifty</text>
+  <text x="452" y="410" class="mapt">kilometres down the Elbe.</text>
+  <text x="452" y="430" class="mapx">Christianopel 1599</text>
+  <text x="452" y="444" class="mapt">Built to watch the Swedish border.</text>
+  <text x="452" y="456" class="mapt">It is a village.</text>
   </svg>

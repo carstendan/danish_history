@@ -2101,3 +2101,291 @@ checked in review session 8. **All five are now answered.**
 
 Until they are answered and carried out, `vignettes.py` reports 16, 17, 18 and 20 as D-9 failures,
 and that is correct.
+
+**Carried out in session 8 (§12.1): no D-9 failure in Parts A–E.**
+
+## 12. Session 8 — Part E's missing vignettes, and Part F read (chapters 21–24)
+
+*23–24 September 2026, from `START_HERE_review_8.md`.*
+
+**The cold run matched every line.** A fresh clone of `0ea812a`: git status clean; tidy reports and
+deletes nothing, 45 bodies; FIXTURE PASSES; SEAM LAYER PASSES; debuild 45 identical; 45 of 45,
+339,260 page words, 26.9 h, parts A 21,397 · B 26,326 · C 26,228 · D 32,106 · E 35,086 · F 29,497 ·
+I 74,403; vignettes 139/109, selftest passes, 01, 03, 04, 05 "[f] part", D-9 failures 16, 17, 18, 20;
+figcheck 98/30/0; one OVER, 16 §08, 852; draftnotes clean in 45 pages and 14 drafts; appcheck 159;
+freshcheck 14; 2 pointers, 0 insolvent, 0 same-page glosses; Schleswig 178 in 26 against Slesvig 99 in
+9; sweep_facts 5; arrows 254, 37 thread notes, form 7, direction 0, D-1 0, titles 0, solvency 41, prose
+references 0, footers 0, `<h1>` 0, 9b 0. **One difference, harmless, as in session 7:** item 145's
+pages are in their own commit (`e3232f3`), not in `2a2ede4` with the sources; no drift.
+
+Four research agents sourced R-10 to R-14; four fact-checked chapters 21–24, one each; a ninth, which
+had not seen the work, checked every hunk (§12.8); a tenth made the first search for R-15 (§12.9).
+The session saved its state to the project at each stage (`claude/session8_*`).
+
+### 12.1 R-10 to R-14 carried out — and the recommendations' facts checked first
+
+| the recommendation said | the sources say | ground |
+|---|---|---|
+| R-10: Lund "about 10 August 1387" | exactly 10 August, St Laurence's day, a Saturday, one week to the day after Oluf's death; in Lund cathedral and, the same day, at the landsting | danmarkshistorien, *Margretes valg til fuldmægtig frue, 10. august 1387* (DRB 4:3 nr. 322); DBL *Margrete 1.* |
+| R-10: acclaimed by Skåne | the letter's first name is Vinald, archbishop of Trondheim; then the bishop of Aarhus, the drost Henning Podebusk, knights (Henrik Parow among them) and squires, "with many more … and common folk from all Denmark's lands"; in Danish, not Latin | the letter |
+| R-10: (page) "not 'queen', which she never was in Denmark" | the letter styles her queen of Norway and Sweden; now "not 'queen of Denmark'" | the letter |
+| R-10: coup or crisis | named: Christensen (DBL, "improviseret rigsmøde"), Dahlerup ("næsten kupagtig"), Hørby ("uden nogen hjemmel", yet unchallenged) | DBL; Gyldendal og Politikens |
+| R-11: "No leader is securely named" | the annal names the commander, Enis, Albrecht's kinsman, and a second, Mækinborg, killed; Jon Darre, the king's treasurer, led the defence and was mortally wounded; the banner-bearer Henrik Aslaksson shot through the face; churches robbed; the anchor Langbein left; gone within eight days; parts of the town burned (SNL) | Icelandic annal (heimskringla extract); SNL *vitaliebrødrene*; Bergen byleksikon |
+| R-11: "after Easter 1393" | landing 22 April 1393; the annal's arrival "in Easter week" is a variant reading, so the page says "in the spring … on 22 April they land" | annal; de.wikipedia (pointer) |
+| R-11: (page) 16 §06 | Gotland taken in 1394 by a Mecklenburg captain with their help; Lindholm's core term a ransom of 60,000 marks, which the Albrecht vignette presupposed | SBL *Albrekt*; de.wikipedia (pointer) |
+| R-12: "Margrete's gift letter" | five receipts, written by the recipients; her will is lost; about 2,356 kg of silver; about 130 pilgrims to more than fifty shrines; "til gengæld for det, som er sket i krigen" attaches to 5,000 marks east of the Sound; the women "krænkede og fornedrede øst for Øresund" — "voldtaget" is the editors' word; the dead "whether they were with the realm or against it" | danmarkshistorien, *Margrete 1.s testamentariske gaver 1411* |
+| R-12: (page) 17 §05 | Lodehat "the executor of her will" (the will is lost; he administered the 1411 gift); "the abbey she had chosen" (not found; "Sorø"); *sjælegave* "the largest single transfer of land" (the gifts were silver) | DBL *Peder Jensen Lodehat* |
+| R-13: "near Aalborg"; "May or 6 June" | Sankt Jørgensbjerg is in Han Herred, some forty kilometres west of Aalborg; the decisive fight is 6 or 8 June 1441 (Whitsun week), sources divided; the first, 3 May, killed Eske Brock; Skalk does not report two May engagements | DBL *Henrik Tagesen Reventlow*; Skalk 1967:5; Trap; Fabricius (HT 1899) |
+| R-13: the dead and the grave | Huitfeldt: "Af den gemene mand blev slagen 600. Andre vil sige 1800"; the 1964 dig: a pit ten by six metres, scattered bone, "Ikke en knap, ikke et spænde"; executions at Aalborg 12 June, on the wheel | Skalk; DBL |
+| R-13: (page) 18 §08 | *vendelboer* is Vendsyssel only; Christoffer born 1416 (22 or 23, not "twenty-two"); "About a week later" is 12 June; the Reventlow name is disputed (Hau 2016); his estates did not simply go "to the crown" | DBL; Hau |
+| R-14: "held Højstrup as a royal fief from 1507" | by 1507, as a *pantelen* against a loan to King Hans; lost in 1518 after her peasants complained, regained after 1523; mistress of the household to three queens | Kvindebiografisk *Anne Meinstrup*; DBL |
+| R-14: "sided with the count against her own son" | true of the sides; her son Holger fell at Svenstrup in October 1534, three months before Ringsted | DBL |
+| R-14: her death | "hugget ned af kbh.ske borgersoldater i grevens følge" after "uforsigtige ord" against Christian 2.'s men; her granddaughters saved in the church tower; her killers excluded from the amnesty of 1536; gravestone at Hornslet | Kvindebiografisk; DBL; Gyldendal og Politikens |
+| R-14: (page) 20 §06 | the Skåne nobility threw off the count in January 1535, not "meanwhile" after July | Gyldendal og Politikens |
+
+**(a) 16 §04, Margrete at Lund, `[f]`, by re-scoping (D-13).** The acclamation paragraphs are now
+the vignette; the body keeps one sentence and Norway's grant of 2 February 1388. Who-line *Margrete,
+daughter of Valdemar 4. · Lund cathedral and landsting · 10 August 1387*. About 330 words.
+
+**(b) 16 §06, the Victual Brothers at Bergen, `[n]`.** Between the privateers paragraph and
+Lindholm. Who-line *The townsmen of Bergen, and the Victual Brothers' crews · Vågsbunnen, Bergen ·
+22 April 1393*. The crews left no names; the page says so. About 280 words.
+
+**(c) 17 §05, Kalundborg, `[f]`.** After the Lodehat paragraph; §05's "gave land and money on a
+scale" is now the pointer. Who-line *Queen Margrete · Kalundborg · 8 December 1411*. About 300 words.
+
+**(d) 18 §08, the peasants at Sankt Jørgensbjerg, `[n]`, by re-scoping (D-13).** The Reventlow
+vignette is now the peasants', with Henrik Tagesen inside it; the political consequence moved into
+the body. Recall, Contested and the visit block follow. Who-line *The peasants of the Jutland rising ·
+Sankt Jørgensbjerg, Han Herred · June 1441*. No peasant is known by name; the page says so.
+
+**(e) 20 §06, Anne Meinstrup, `[f]`.** At the head of §06, after a new paragraph that puts the Skåne
+nobility's break in January 1535. Who-line *Anne Meinstrup, called fru Anne Holgers, holder of
+Højstrup · Ringsted · 20 January 1535*. About 330 words.
+
+`vignettes.py`: **no D-9 failure in Parts A–E.** 143 vignettes carry a place, 114 distinct.
+
+### 12.2 Part F, read — errors of fact and of the book against itself, fixed
+
+| ch | the page said | it is | ground |
+|---|---|---|---|
+| 21 §01, Five, → 22, 20 coda and → 21 | the crown's land "from roughly a sixth to roughly a half in a single autumn" | about a tenth to between two-fifths and a half — the bishops' estates at once, the monasteries' over decades | Den Store Danske *krongods* |
+| 21 §01 | the 1536 charter "the most restrictive in Danish history and the longest-lived" | it laid *fewer* limits on the king than earlier ones and was the model for 1559, 1596 and 1648 | danmarkshistorien *Håndfæstning* |
+| 21 §01 | the council "filling its own vacancies by nomination" (1536) | not found for 1536; cut | |
+| 21 §01, Myth | "roughly two hundred *len*", the *tjenestelen* "the commonest form … for most of the century", "a fixed rent"; Oxe's conversions the cause | some sixty great fiefs and many small; accounting fiefs already three-quarters of the land by 1559 | Gyldendal og Politikens *Lensadministrationen* |
+| 21 §02, checkpoint | Bugenhagen "in his first fortnight"; ordained "immediately afterwards"; the university reopened "on 2 September" | arrived 5 July; ordination 2 September, three weeks after the coronation; the university that autumn | DBL *Bugenhagen* |
+| 21 §02 | Palladius "a Ribe weaver's son" | a Ribe burgher's son | DBL *Palladius* |
+| 21 §03, glossary, Causal | Iceland: the Reformation "not by Danes"; Skriver killed "that spring"; "Nobody was ever punished"; "executed three men for [heresy]"; the encyclopedia "unfriendly" | Icelandic officials and Danish ships; killed early in 1551 at Kirkjuból on Reykjanes; the farmer and one of his men beheaded; a bishop and his sons, as outlaws; the encyclopedia calls him devoted to the Church | ferlir.is; Catholic Encyclopedia |
+| 21 §04 | "two half-brothers"; Dithmarschen "settled by the same three men … in June 1559"; Rantzau "sixty-seven" | three (Frederik had bishoprics); Frederik 2. and his uncles Hans and Adolf, 22 May 1559; sixty-six | DBL *Adolf*; DBL *Johan Rantzau* |
+| 21 §05, glossary | oxen "forty to fifty thousand", "by law a noble monopoly"; selvejere "perhaps a fifth" around 1500 | some forty thousand; landowners and merchants shared it, the 1550 law kept fattening for export to the manors; about a sixth c. 1536 | Den Store Danske *studehandel*; danmarkshistorien *Selvejerbønder* |
+| 21 §06, Myth, Five | Oxe abroad "seventeen years" in five countries; quarrelled with "Frederik 2." in 1557; "eleven younger siblings"; the author of the 1567 reform; Christina "the surviving daughter"; a "rose noble"; the registers "continuous" from 1497 | about five years, four countries; Christian 3.; unsourced; tradition's attribution, which DBL finds no source for; the younger daughter; a noble; long runs after 1536 | DBL *Peder Oxe*; Den Store Danske *Sundtolden* |
+| 21 §07 | Trolle "mortally wounded … off Mecklenburg"; Herlufsholm "for noble boys"; "Ivan 4." | wounded 4 June 1565 between Fehmarn and Mecklenburg, died three weeks later; noble and other honourable families' children; Ivan IV (D-14) | DBL *Herluf Trolle*, *Birgitte Gøye* |
+| 21 §08 | "Dutch and Flemish architects"; Stjerneborg "beneath" Uraniborg; Tycho famous "four years earlier"; guns in 1658; a tenant imprisoned "and his family" | Flemish; just south, half underground; his book of 1573; both castles Swedish in 1658; a tenant of his Roskilde canonry, held on Hven six weeks (§12.9) | lex *Kronborg*; DBL *Tyge Brahe*; Dreyer 1890 |
+| 21 vignette | Sophie Brahe: Tycho "seventeen years older", "the last thirteen months", "Uraniborg … three years", widowed "at twenty-nine", "told her not to take up astronomy" | nine or twelve; since the new star of November 1572; its foundation stone nearly three years off; widowed 1588; warned her off astrology, which she learned with Latin books translated | Kvindebiografisk *Sophie Brahe* |
+| 21 §09 | heir "ten"; the four regents for eight years; "some thirty warships" | a week short of eleven (D-8); Kaas died 1594, Rosenkrantz led after; unsourced, cut | DBL |
+| 21 visit | Ven "in summer"; Immervad a sixteenth-century bridge; Hólar's "sixteenth-century" church | all year; 1716/1786; the stone cathedral of 1763 | Trap *Immervad Bro* |
+| 22 §01, Five, Recall, checkpoints | a son "of ten"; Sophie excluded "for being German and a woman"; "the council had Christian declared of age" in 1593; the 1596 charter added "one thing more"; she "thirty-six" | a week short of eleven; grounds unsourced, cut; the emperor, for the duchies; word for word his father's; thirty-six or thirty-seven | DBL *Christian 4.*, *Sophie*; Kvindebiografisk |
+| 22 §02, §05 | Norway "seven times"; Bremerholm "the largest industrial establishment in the north", Kongsberg the largest in the northern kingdoms | probably some twenty-five visits, more than all other union kings together; unsourced superlatives cut | SNL *Christian 4* |
+| 22 §03, figs_22 | Børsen 1619–24; toll "raised repeatedly" before 1625 | 1619–23, spire 1624–25; the steep rises are 1638–40 (chapter 23) | lex *Børsen*; DBL |
+| 22 §04, fig. 1 | Christianstad "to replace two older towns he thought badly placed"; Oslo "for the fourteenth time"; Glückstadt "sixty kilometres"; the caption's fortress, mining and shipbuilding marks | a border fortress replacing Vä, burned 1612; "yet again"; fifty down the Elbe; the figure has none, cut | Britannica |
+| 22 §06 | Gjedde "about three hundred men", "two years to Ceylon", "sixty men left"; → "chapter 27"; Munk "Jutland-born", "sixty-five" (×3), died "of wounds"; Dansborg "two hundred and twenty-five years" | about four hundred; a year and a half; unsourced, cut; chapter 30; born near Arendal, sixty-four, cause unknown; 1620 to 1845 (D-8) | danmarkshistorien; DBL *Jens Munk*, *Ove Giedde* |
+| 22 §07, §09, Myth, Five, checkpoint, → 23 | 1611 "he declared war in his own name as duke … It did not"; "It worked twice"; "Charles 9."; Gustav Adolf "seventeen"; "fifteen years building a fleet"; Göteborg built "to trade without paying at Helsingør" | the council gave way to the *threat*, and Denmark declared war in April; carried out only in 1625; Karl 9.; sixteen; fourteen; Swedish ships were already exempt — a port no closure of the Sound could shut | danmarkshistorien *Christian 4.*; lex *Kalmarkrigen* |
+| 22 §08, fig. 2, Five, sources | see §12.5 (D-13); the alt text "Fourteen were burned … sixteen women who died"; "Hans Bartskær accuses a neighbour, August 1612"; Kruckow "twenty-five years … two separate scandals"; "in four months"; Brunsmand "sixty years later" | generated from the data (thirteen; sixteen accused, one escaped); the Egøje women named her, winter 1611–12; twenty-four years, accusations of 1596–97 and 1611; under a year; 1674 | Køge Arkiverne (after Kjeldsen); DBL *Christence Kruckow* |
+| 22 James, Henri, Meanwhile | "James 6.", "Henri 4."; Galileo "using the observational tradition Tycho Brahe had built" | James VI, Henri IV (D-14); Kepler's first two laws from Tycho's observations, 1609 | |
+| 23 §02 heading, body, Five, config | Lutter "27 August 1626" | **17 August (27 August, new style)** — the only off-style date in Parts A–F; CONVENTIONS D-6's example corrected | de.wikipedia *Schlacht bei Lutter* |
+| 23 §01, §02 | the German princes "chose Christian" as cheaper; the army "perhaps a fifth" Danish; Scots and English at Lutter; Tilly fighting "since 1618"; "a third to a half" lost; "his horse was shot under him"; "takes one paragraph" | England and the Dutch backed him as cheaper, the Circle elected him; unsourced, cut; they came after the battle; since 1620; a quarter to a third; he lost his horse and rode off on another's; cut | St Andrews SSNE; en/de.wikipedia (pointers); Gyldendal og Politikens |
+| 23 §03, fig. 1 | "from the Kongeå to Skagen"; cattle trade broken "for a generation"; fig. 1: Scania never touched in either war | the Elbe to Skagen; cut; Horn took most of Skåne in 1644 | en.wikipedia *Torstenson War* (pointer) |
+| 23 §04 | Lübeck's mildness Wallenstein's alone | and Ulvsbäck, February 1629 | lex *Kejserkrigen* |
+| 23 §05, fig. 2, Myth, Five | Kirsten Munk "eighteen"; "twelve children. Then …"; sons-in-law "Ulfeldt, Sehested, Lindenov, Pentz, Rantzau" | seventeen; eleven, then the twelfth; Frands Rantzau was only betrothed and drowned in 1632 — the fifth is Hedevig's husband, Ebbe Ulfeldt | Kvindebiografisk *Kirsten Munk*; DBL *Frants Rantzau*, *Hedevig* |
+| 23 vignette | Ellen Marsvin "the greatest landowner on Funen", "respected by the king … as a businesswoman", "raised the royal grandchildren herself"; Vibeke "nineteen years" | unsourced, cut; she was removed from Dorothea Elisabeth's upbringing; eighteen | Kvindebiografisk |
+| 23 §06 | Rundetårn "an observatory on top of a church on top of a university library", "Tycho Brahe's instruments were meant for it" | library above the church's vault; meant to succeed Stjerneborg | lex *Rundetårn* |
+| 23 §07, vignette | "the Dutch, who joined in"; "fifteen years"; "Femern"; Ewald "the same verse" | a fleet hired in the Netherlands by Louis de Geer; seventeen; Fehmarn (D-15); the same song | SNL *Hannibalfeiden*; lex |
+| 23 §08 | Sehested "thirty-three"; "Swedish Jämtland"; "negotiated in Copenhagen" | 32 or 33; Västergötland and Värmland; at Brømsebro, by Danes | SNL |
+| 23 §09, fig. 3 | Gotland Danish "since the fifteenth century"/"1449"; Jämtland "six hundred years"; "Four of the five losses are permanent" | 1361 (chapter 15's own date); nearly 470 years; all proved permanent | lex *Gotland*; SNL *Jämtland* |
+| 23 §10, Meanwhile, vignette | "ruled for fifty-two years"; "a fortnight" in 1660; "Denmark's nobility hands its king absolute power"; Ulfeldt *and Kirsten Munk* sealed Vibeke's estates; Ulrik Christian a defender "in 1659"; her daughter "twenty-one" | king for nearly sixty years, fifty-one in his own right; a few weeks; the estates; Ulfeldt; died December 1658; twenty or twenty-one | DBL *Ulrik Christian Gyldenløve*; Kvindebiografisk *Vibeke Kruse* |
+| 23 visit, Contested | "Sankt Paals Gade"; Boller "a private care home"; Tøjhusmuseet; "all three readings" | Sankt Pauls Gade; private; Krigsmuseet since 2018; two | |
+| 24 standfirst, §03–§05, fig. 1, fig. 3, Five, Myth | "thirty-two months"; "seven hundred years"; the ice march "30 January to 8 February", Falster–Zealand "8 February", "six crossings in ten days", ice "for a fortnight"; "eighteen days"; "six months after Roskilde"; "Jutland Swedish for the third time"; "eight hundred kilometres in six weeks"; fig. 3 "Thirty-two months … less than three years … five weeks" | twenty months (the events it lists); as long as there had been a Denmark; Zealand reached **11 February**, Lolland–Falster 8 February, twelve days; unsourced, cut; about two weeks; less than six; occupied a third time, by Swedes a second; unsourced, cut; forty months, three years four months, four weeks | danmarkshistorien *Tabet af Skåne*; Populär Historia; Den Store Danske *Karl Gustav-krigene* |
+| 24 §02, vignette | "eighteen months"; Dina "thirty", Gertzen her employer, she told Leonora Christina; executed "the seventh and the eleventh"; Ulfeldt left "a few days before"; party finished "within three years"; Ulfeldt to "the Netherlands, then … Karl 10. Gustav" | about half a year; about thirty, her stepfather, she told Ulfeldt; 11 July; three nights after; three and a half; he served Queen Christina first, Karl Gustav from 1657 | DBL *Dina Vinhofvers*, *Corfitz Ulfeldt* |
+| 24 §05 | Skåne "a third of the realm's population"; "the archbishopric at Lund" | a third of the land (the Scanian lands); the old see | danmarkshistorien |
+| 24 §06 | the storm "against the western wall", "the ditch … flooded and refrozen"; "lost every field engagement of both wars" | several points; the moats kept hacked free of ice; nearly every fight of the first war | en.wikipedia *Assault on Copenhagen* (pointer) |
+| 24 §07, vignette | Trøndelag "in the autumn"; the Malmö oath "in front of Corfitz Ulfeldt"; Printzensköld "shot in the street by Villum Clausen"; the gift "on the condition … never again be pledged" | by December; unsourced, cut; taken prisoner, then shot — Villum Clausen in tradition, Villum Kelou in DBL; a deed of 29 December, as a hereditary possession — the condition unsourced, cut | DBL *Jens Kofoed*; Den Store Danske *Bornholms historie* |
+| 24 §08, vignette | Dutch shipping "roughly half … passed the Sound"; "Obdam was killed later; Bjelke was in the line"; Nyborg's "imperial troops"; "five years"; Leonora Christina "watched him negotiate at Roskilde", "seventeen months", "four more years", "twenty-two years" | Dutch ships the greater part of the traffic; de With and Floriszoon killed, the Danish ships held in by the wind; unsourced, cut; four and a half; unsourced, cut; more than a year; Hammershus to the end of 1661; nearly twenty-two | en.wikipedia *Battle of the Sound* (pointer); DBL *Leonora Christina* |
+| 24 §09 | Bornholm and Trøndelag simply "recovered" | Bornholm paid for with 912 farms in Skåne and Blekinge | danmarkshistorien *Tabet af Skåne* |
+| 24 §10, Myth, Five, coda | tax exemption "held since 1536"; "within three weeks" (×3); "a hundred and twenty-four years"; "half the land"; "found one twice, in 1611 and 1625"; Lund archbishopric "five hundred years"; *Jammersminde* "decades later"; the Meanwhile's "chapter 27"; Aurangzeb | medieval, confirmed since 1536; about a month, with the gates shut; 1536 to 1660 (D-8); the church's land; threatened in 1611, worn in 1625; four hundred; some fifteen years; chapter 30; took the throne in 1658 | danmarkshistorien *Enevældens indførelse* |
+| 19 → 24 | "Eleven wars follow between 1521 and 1814" | 1523: from 1521 the war of liberation makes twelve (eleven counts the Great Northern War as two and leaves out 1666) | en.wikipedia *List of wars between Denmark and Sweden* (pointer) |
+| 20 → 21, coda, Myth, Five, fig. 3 caption | "half the land", "a third of the land", "a sixth to a half", "a hundred and twenty-four years"; pietism "in Part F" | between two-fifths and half; the church's land; the bars now called schematic, the prose at Den Store Danske's figures; until 1660; Part G | §11.4 |
+
+**Sixty-six intervals and ages were wrong in Part F** (D-8, computed): 21 twelve, 22 fifteen, 23
+sixteen, 24 twenty-three. Part C had nine, D sixteen, E thirty-four. The checker found five more in my
+own fixes (§12.8).
+
+**The 20 → 21 promise.** The Sound Dues and "no bishops in the council" are delivered (the council,
+"with the bishops gone, was noble and only noble"); "half the land" is now "between two-fifths and
+half" in both chapters; the fleet is thin in 21 — mentioned, never built — and is recorded (§12.4).
+**The 19 → 24 promise.** Eleven is right from 1523, on the book's count (the Great Northern War as two
+Danish wars, 1666 left out); 24 calls the Karl Gustav wars the fourth and fifth, as 21–23 number them.
+19 said "1521" and now says 1523. **21 → 22** said "sixty years … the next chapter"; the reign is
+nearly sixty and runs over two chapters, and 21 promised a council "that can stop him", which is
+22's thesis reversed: now "a council whose consent he needs for anything the toll cannot pay for".
+**22 → 23**'s Älvsborg promise was never picked up in 23; 24 §03 does, so the arrow is now → 24.
+
+### 12.3 Part F — repetition and drag, fixed
+
+- **22 §01 retold 21 §09** — the coronation, the charter, "the most expensive", the regents'
+  surplus, the "advertisement". 22 now points back in two sentences.
+- **23 §01 repeated 22 §09's council reasoning** near-verbatim. It points back.
+- **22 §09 told the 1625 manoeuvre twice** in consecutive paragraphs. Once.
+- **22's Glückstadt sentence** ("no charter could move it sixty kilometres") was in §04, fig. 1 and
+  the Myth-check. The Myth-check points to §04.
+- **22's Meanwhile repeated §01's Anne and James "against the council"**. Cut there.
+- **21's Greenland** ("a claim and nothing more … nobody the crown could reach") was in fig. 1's
+  caption and §03. §03 keeps the fact and points to the map.
+- **21's Kronborg** "designed to be seen by someone who has just paid" was in §08 and the visit
+  block. The visit block points back.
+- **23's "Both halves are true, and neither is the whole story"** and **s02's "takes one paragraph,
+  which is roughly the right proportion"**. Cut.
+- **24's "ice for a fortnight"** four times, unsourced. Gone.
+- **Recall** (content-word Jaccard ≥ 0.4 against the shipped checkpoints, measured on pages built in a
+  scratch copy). Before: **21 1/6, 22 1/5, 23 2/5, 24 2/5**, no exact repeat. Six replaced with
+  questions no checkpoint asks. After: **21 0/6, 22 0/5, 23 0/5, 24 1/5.**
+
+**Found, kept.** 24's "Bornholm and Trøndelag took themselves back" in §07, §09, fig. 2, Five and
+Recall, and "a third of the realm" throughout: the chapter's argument, restated by design in Five and
+the Myth-check. 24's Part F coda re-runs 21–24 — it is the part's close, and the one place that does.
+21's "revenue divided, not territory" in §04, fig. 2, Myth and Five, likewise.
+
+### 12.4 Found, recorded, not changed
+
+- **20's figure 3 bars** (crown 16 → 49 per cent) remain unsourced (§11.4). The caption now calls them
+  schematic and gives Den Store Danske's figures; 20's prose follows Den Store Danske. **For the
+  library (E-series): a sourced breakdown of Danish landholding c. 1525 and c. 1560.**
+- **The Køge list.** Figure 2's sixteen names and dates match Olga Ravn's memorial list (Paris Review,
+  2022) exactly; Køge Arkiverne, after Børge Kjeldsen (1995), counts fourteen burned and has Johanne
+  sentenced on 24 August and burned on 11 September with her servant. The page and figure now say
+  accounts differ. **For the library: the court record, or J.C.V. Johansen's count.**
+- **21's fleet** — the → 21 promise's "a fleet" is mentioned in 21 and never built there.
+- **21 is 48 minutes** (9,975 page words), inside the band, over the advisory. D-16: kept.
+- **Maps keep Danish labels** (D-15): `map_1600` has Slesvig, Holsten, Ditmarsken, Øsel; figs_24 JYLLAND,
+  FYN, SJÆLLAND.
+- **Outside Part F, found by the checker:** chapter 30 (from `PART_G_DRAFT.md`) still has Trankebar
+  held "two hundred and twenty-five years" (224 years 11 months: D-8, name the years) — for Part G's
+  reading; `map_1500.py` and `map_1600.py` carry a comment "Danish since 1449" for Gotland (it does not
+  print); `fixindex.py`, a spent one-off, still holds 23's old index summary (`index_generator.py`,
+  which is live, is corrected).
+- **"Two hundred and fifty families"** (21's standfirst, 24's coda) — not found in a reference work.
+- **The Hven tenant** (§12.9) rests on Dreyer (1890), citing the judgment and the king's letter in
+  *Danske Magazin*; the Danish text was not reached.
+
+### 12.5 D-15, D-13, D-6 and D-14 in Part F
+
+**D-15.** Part F has no Slesvig in prose; Dithmarschen is right (21's key *Ditmarsken 1559* is a
+Danish term). The Skåne towns: Malmø and Helsingør in prose before 1658, Malmö only after; no Skåne town
+in a Part F visit block before 1658 needed changing. "Scania" as a noun (21, twice; 23, once) is now
+Skåne; the adjective "Scanian" stays, as in Part G. "Femern" is Fehmarn (23, three places).
+Schleswig 178 / Slesvig 99.
+
+**D-13. 22 §08, one of the seven cases (D-D), decided by re-scoping.** The vignette was the figure
+written out as prose: every note in figure 2, the counts in the body a third time. Now the section is
+*Witchcraft and the state* (config and page); the body carries the household, the Egøje hunt, the
+figure, 1617 and Kruckow; the vignette is Johanne alone, from the quarrel to her burning; the figure
+alone carries the list and the totals; the caption takes the "ordinary document" observation.
+**20's Rantzau vignette** (out of order in §06, §11.5) is still there; 20 §06 now opens with Anne
+Meinstrup in January 1535, which puts Rantzau's December 1534 second — recorded, not moved.
+
+**D-6.** Every Part F date is Julian except one: Lutter, now 17 August 1626 (27 August, new style).
+24 now gives the first divergence in parentheses (the Sound, 29 October 1658 — 8 November by the
+Dutch reckoning). 21 and 22 have none to give.
+
+**D-14.** James VI, Henri IV and Ivan IV for 22's and 21's non-Scandinavian rulers; Karl 9. and
+Gustav 2. Adolf for 22's Swedes.
+
+### 12.6 The padded-chapter guard, given to Part F
+
+`build_part_f.py` had none, and no summary line. It now runs the same retired-vocabulary check as
+parts A–E, prints "all four built clean" or "!! N problems", and exits non-zero on either a problem or
+any failure its old checks counted. **It fired on the first real run, as Part E's had:** four ordinary
+uses of "entry" — Munk's journal in 22 (twice) and a ledger in 23 (twice). A grep of the bodies had
+told me there were none: the pattern needed forty characters before the word on the same line, and
+the four sit near line starts. Item 142's lesson — find by hand the case a 0 should have caught — in
+my own check of the guard. Those four phrases, and only they, are allowed (`ALLOWED_ENTRY`). **Tested
+in a scratch copy:** "chapter\n07" and "this entry" planted in 22 and "The entries go on" in 23 gave
+`STALE {'entry': 1, 'padded': 1}` and `STALE {'entry': 1}`, `!! 2 problems`, exit 1; the real bodies,
+"vocabulary clean" four times. The checker planted "chapter\n07" in 21 and "chapters 5 and\n 07":
+both caught.
+
+### 12.7 D-9 in Part F — tagged
+
+| ch | vignette | tag | why |
+|---|---|---|---|
+| 21 | Peder Palladius | `[-]` | a superintendent; the parish is any of four hundred |
+| 21 | Þórunn Jónsdóttir | `[f]` | she holds land and debts and brings her dead home; her hand in the Kirkjuból killing is tradition, and the page says so — the weakest `[f]` in Part F |
+| 21 | Sophie Brahe | `[f]` | |
+| 22 | Sophie of Mecklenburg | `[f]` | |
+| 22 | Jens Munk | `[-]` | a captain in royal service |
+| 22 | Johanne Tommesis | `[n]` | a widow of a market town |
+| 23 | Ellen Marsvin | `[f]` | |
+| 23 | Christian 4. at Kolberger Heide | `[-]` | |
+| 23 | Vibeke Kruse | `[n]` | a chambermaid |
+| 24 | Dina Vinhofvers | `[f][n]` | a silk-ironer who made the accusation |
+| 24 | Jens Kofoed | `[n]` | a farmer and militia captain |
+| 24 | Leonora Christina | `[f]` | she conducted the defence at Malmö |
+
+Who-lines trimmed to person · place · date · tag; what they carried besides is in the vignettes.
+**D-9 failure: 21 (no `[n]`)** — true, not tagged away. §12.9 puts it to Carsten.
+
+### 12.8 Checked by a separate agent
+
+An agent that had not seen the work checked every hunk against sources and the rest of the book and
+ran the guard. It found **twenty-two slips**, most of them mine, and three contradictions elsewhere.
+All are resolved except the three recorded in §12.4:
+
+- **Intervals in my fixes, again:** Sophie Brahe's brother famous "since the new star of last
+  November" — written while removing "thirteen months", and wrong by a year; "two weeks after Easter"
+  for the Victual Brothers' arrival (22 April is the landing); *Jammersminde* "some ten years later"
+  (fifteen, from Malmö); Jämtland "some 450 years" (nearly 470); Christoffer "twenty-three" attached
+  to the council's search of 1438 (now "born in 1416").
+- **Facts in my fixes:** Frederik 2. and his *uncles* made "the next generation's three"; "Adolf, as
+  the youngest of the three" two lines after Frederik was the youngest; the Icelandic "three men"
+  beheaded just after the page added two more; the selvejere "holding a sliver of the land" (a misread
+  of the 1688 figure); Louis de Geer "Dutch-born" (Liège); Huitfeldt "wrote in 1599" (Christoffer's
+  reign is in the volume of 1603 — the year is dropped); Sophie Brahe teaching herself "from books in
+  German and Latin" (she had the Latin translated); Henrik Tagesen "whom later genealogists made a
+  Reventlow" (unsourced) and "land in Thy" (his seat was Bjørnholm); Anne Meinstrup's "unguarded"
+  words were against Christian 2.'s men, and "the only noble there" is one account.
+- **Prose:** 22 "That winter" with no winter named; the Egøje naming told in body and vignette (D-13
+  again, in the re-scope); 23's Meanwhile left "occupation … they were … are"; 17 "one week" for a
+  vignette of one day, and "So did many other houses" following nothing; Darre "wounded" (mortally).
+- **Figures:** figs_24's shaded band drawn from month 7 to 8.7 while labelled four weeks (now
+  7.97–8.87); figs_22's ledger alt text still said building "stops"; the Køge alt text printed "16".
+- **Elsewhere:** 20 still said "a sixth to a half" in three places after its coda and arrow changed;
+  `index_generator.py` still had 23's "Sixty years … undone in twenty" and "a Swedish army … twice";
+  22's new checkpoint asked who governed until 1596, which 22 no longer says.
+
+**Verified** in a scratch clone: the three changed figure scripts (rendered and looked at: Køge,
+sons-in-law, forty months, the ice march, the foundations), `build_part_e.py`, `build_part_f.py` (no
+`!!`, no STALE), `linkindex`, `index_generator`, then the suite: **debuild 45 identical; 45 of 45,
+340,724 page words, 27.0 h (Part E 36,388, Part F 29,659); vignettes 143/114, D-9 failure 21 only,
+selftest passes; figcheck 98/30/0; one OVER, 16 §08, 852; draftnotes clean; appcheck 159; freshcheck
+14; tidy clean; seams pass; sweeps: 2 pointers solvent, 0 same-page glosses, Schleswig 178 / Slesvig
+99, sweep_facts 5, arrows 254, form 7, D-1 0, titles 0, prose references 0, solvency 41.** mapfixture
+not re-run: no map script changed.
+
+### 12.9 Decisions for Carsten — Part F, one at a time
+
+Each recommendation is a first search, not a text; its facts are checked again when it is carried out
+(item 143).
+
+**R-15. 21 has no non-elite subject.** *Recommendation:* **Rasmus Pedersen, a tenant of Tycho Brahe's
+Roskilde canonry, 1590–92, 21 §08, `[n]`** — Tycho took his farm in October 1590, had him put in irons
+and held on Hven "six weeks or more"; a court of four noblemen refused the eviction; the king's court
+in July 1591 found six weeks' prison punishment enough and forbade the eviction from a farm whose lease
+he had bought four years before and on which he had built a house; in November 1592 he complained that
+he was still kept out and his brother and servant still held, and the king ordered the Zealand
+*landsdommer* to settle it. Nothing more is known of him (Dreyer 1890, from *Danske Magazin* 4. rk.
+IV). It sits where §08 now says "a documented case", and makes §05's "his lord was increasingly also
+his judge" particular — the lord jailed him and the king's court still found for him. About 280 words.
+The village and the Danish wording are to be found first (Kancelliets Brevbøger 1588–92; Thoren;
+Christianson). *Alternative:* the peasants of Tuna on Hven and the commission of April 1597 — no one
+named, and after the chapter's end.
+
+Until it is answered and carried out, `vignettes.py` reports 21 as a D-9 failure, and that is correct.

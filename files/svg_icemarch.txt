@@ -1,7 +1,7 @@
-<svg viewBox="0 0 700 470" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Map of the Danish islands showing the Swedish army's route across the frozen belts between 30 January and 8 February 1658: from Jutland to Funen over the Little Belt, then by Tasinge to Langeland, to Lolland, to Falster and finally to Zealand. The direct crossing of the Great Belt from Nyborg to Korsoer was not used.">
+<svg viewBox="0 0 700 470" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Map of the Danish islands showing the Swedish army's route across the frozen belts between 30 January and 11 February 1658: from Jutland to Funen over the Little Belt, then by Tasinge to Langeland, to Lolland, to Falster and finally to Zealand. The direct crossing of the Great Belt from Nyborg to Korsoer was not used.">
   <rect x="0" y="0" width="700" height="470" fill="#F0F2EE"/>
   <text x="14" y="24" class="mapl">THE MARCH ACROSS THE BELT</text>
-  <text x="14" y="40" class="mapt">30 January – 8 February 1658</text>
+  <text x="14" y="40" class="mapt">30 January – 11 February 1658</text>
   <g transform="translate(0,52)">
   <defs><clipPath id="ice"><rect x="0" y="0" width="468" height="386"/></clipPath></defs>
   <g clip-path="url(#ice)">
@@ -33,28 +33,29 @@
   <text x="374.9" y="136.1" class="mapx" text-anchor="end">København</text>
   </g>
   </g>
-  <text x="486" y="76" class="mapx">Six crossings in ten days</text>
+  <text x="486" y="76" class="mapx">Six crossings in twelve days</text>
   <circle cx="490" cy="92" r="3.2" fill="#8A2B2B"/>
   <text x="502" y="96" class="mapx">30 Jan</text>
   <text x="502" y="109" class="mapt">Little Belt — Jutland to</text>
   <text x="502" y="122" class="mapt">Funen</text>
   <circle cx="490" cy="138" r="3.2" fill="#8A2B2B"/>
-  <text x="502" y="142" class="mapx">5 Feb</text>
+  <text x="502" y="142" class="mapx">5–6 Feb</text>
   <text x="502" y="155" class="mapt">Funen to Langeland, by</text>
   <text x="502" y="168" class="mapt">Tåsinge</text>
   <circle cx="490" cy="184" r="3.2" fill="#8A2B2B"/>
   <text x="502" y="188" class="mapx">6 Feb</text>
   <text x="502" y="201" class="mapt">Langeland to Lolland</text>
   <circle cx="490" cy="217" r="3.2" fill="#8A2B2B"/>
-  <text x="502" y="221" class="mapx">7 Feb</text>
+  <text x="502" y="221" class="mapx">8 Feb</text>
   <text x="502" y="234" class="mapt">Lolland to Falster</text>
   <circle cx="490" cy="250" r="3.2" fill="#8A2B2B"/>
-  <text x="502" y="254" class="mapx">8 Feb</text>
+  <text x="502" y="254" class="mapx">11 Feb</text>
   <text x="502" y="267" class="mapt">Falster to Zealand</text>
   <line x1="486" y1="287" x2="686" y2="287" stroke="#C9CDC4" stroke-width="1"/>
   <text x="486" y="305" class="mapt">The Great Belt was too wide</text>
   <text x="486" y="318" class="mapt">and the ice too broken, so the</text>
   <text x="486" y="331" class="mapt">army went round by four</text>
-  <text x="486" y="344" class="mapt">islands instead. The ice held</text>
-  <text x="486" y="357" class="mapt">for about a fortnight.</text>
+  <text x="486" y="344" class="mapt">islands instead, on ice that</text>
+  <text x="486" y="357" class="mapt">could have failed at any</text>
+  <text x="486" y="370" class="mapt">point.</text>
   </svg>

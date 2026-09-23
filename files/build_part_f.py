@@ -68,14 +68,14 @@ CFG = {
          ("s09", "09", "What Christian 4. inherited")],
     checks=[
       ("The edges", [
-        "The crown came out of 1536 holding about half the land of Denmark. Name three "
+        "The crown came out of 1536 holding two-fifths to half the land of Denmark. Name three "
         "reasons that did not translate into three times the income.",
         "What did the charter of 30 October 1536 forbid the king to do without the council's "
         "consent \u2014 four things?",
         "Bugenhagen was not a bishop. Why did Christian 3. have him perform the coronation "
-        "anyway, and what did he do a fortnight later?"]),
+        "anyway, and what did he do three weeks later?"]),
       ("Peder Oxe", [
-        "Norway kept three things after the recess of 1536 said it was no longer a kingdom. "
+        "Norway kept three things after Christian 3.'s charter of 1536 said it was no longer a kingdom. "
         "What were they?",
         "Why were three men beheaded at Sk\u00e1lholt in November 1550 without a trial \u2014 and "
         "what does the reason tell you about how Iceland was governed?",
@@ -102,13 +102,13 @@ CFG = {
          ("s05", "05", "Norway governed hard"),
          ("s06", "06", "The companies and the sea road east"),
          ("s07", "07", "The Kalmar War, 1611\u201313"),
-         ("s08", "08", "The devil in K\u00f8ge"),
+         ("s08", "08", "Witchcraft and the state"),
          ("s09", "09", "What the money was doing")],
     checks=[
       ("Building as policy", [
-        "Why was Sophie of Mecklenburg refused a place on the regency council, and what "
-        "position did she hold instead from 1590?",
-        "What did the accession charter of 1596 add to what earlier kings had conceded?",
+        "Sophie of Mecklenburg was kept off the regency council. What position did she hold "
+        "instead from 1590, and what ended it?",
+        "Where did Sophie of Mecklenburg withdraw to in 1594, and what did she hold as her dower?",
         "Roughly how many of Christian 4.'s letters in his own hand survive, and what makes "
         "them an unusual source?"]),
       ("The companies", [
@@ -119,7 +119,7 @@ CFG = {
         "What was the <i class=\"dk\">Norske Lov</i> of 1604, and why do Danish and Norwegian "
         "historians read it differently?"]),
       ("What the money", [
-        "How did Christian 4. make war in 1611 despite a charter forbidding it without the "
+        "How did Christian 4. get his war in 1611 despite a charter forbidding it without the "
         "council's consent?",
         "What did Sweden pay at Kn\u00e4red in 1613, and what did it get back?",
         "What did the ordinance of 1617 do, and what happened to the number of trials "
@@ -132,7 +132,7 @@ CFG = {
           'SVG_SONSINLAW': 'svg_sonsinlaw.txt',
           'SVG_LOSSES1645': 'svg_losses1645.txt'},
     sec=[("s01", "01", "Why a Danish king went to Germany"),
-         ("s02", "02", "Lutter am Barenberge, 27 August 1626"),
+         ("s02", "02", "Lutter am Barenberge, 17 August 1626"),
          ("s03", "03", "The occupation, 1627\u201329"),
          ("s04", "04", "The Peace of L\u00fcbeck, 1629"),
          ("s05", "05", "Kirsten Munk, Ellen Marsvin, and the sons-in-law"),
@@ -146,14 +146,14 @@ CFG = {
         "In what capacity did Christian 4. enter the German war in 1625, and why did that let "
         "him ignore the council?",
         "What was he counting on to pay for it, and how much of it arrived?",
-        "What did Lutter am Barenberge on 27 August 1626 cost him?"]),
+        "What did Lutter am Barenberge on 17 August 1626 cost him?"]),
       ("Building on a raised toll", [
         "Why did the Peace of L\u00fcbeck take no territory from Denmark?",
-        "Why was Jutland occupied while Zealand and Scania were not touched?",
+        "Why was Jutland occupied while Zealand and Funen were not touched?",
         "What did Ellen Marsvin do in 1629, and what are the two readings of why?"]),
       ("Br\u00f8msebro", [
-        "How did raising the Sound toll in the 1630s contribute to a Dutch fleet fighting "
-        "beside Sweden in 1644?",
+        "How did raising the Sound toll in the 1630s help Sweden hire a fleet in the "
+        "Netherlands in 1644?",
         "Name the territories ceded at Br\u00f8msebro, and the one clause that carried no "
         "territory at all.",
         "What did the accession charter of 1648 require of Frederik 3.?"]),
@@ -261,6 +261,8 @@ def build(n, c, stub):
 
 BAND = (25, 50)
 TARGET = (28, 40)
+ALLOWED_ENTRY = {22: ['the entries thin out', 'daily entries are the source'],
+                 23: ['small entry in that ledger', 'small entry in a much']}
 
 if __name__ == "__main__":
     stub = "--stub" in sys.argv
@@ -282,6 +284,23 @@ if __name__ == "__main__":
         toc = re.search(r'<details class="toc">.*?</details>', h, re.S).group(0)
         tail_ok = all(('#%s' % t[0]) in rail and ('#%s' % t[0]) in toc
                       for t in TAIL + c.get('tail_extra', []))
+        # Retired vocabulary, as build_parts_abc.py (review session 5, §9.6),
+        # build_part_d.py (session 6, §10.6) and build_part_e.py (session 7, §11.6)
+        # check it, given to this part in review session 8 (§12.6): until then nothing
+        # here could see a padded "chapter 07" on a Part F page. \s+, not a space, so a
+        # line break inside the phrase does not hide it. Part F uses "entry" in its
+        # ordinary sense four times — Munk's journal (22) and a ledger (23). Those
+        # phrases, and only they, are allowed, each removed once before counting, as
+        # build_part_e.py allows 18's toll register. A grep of the bodies had first said
+        # there were none; the guard found them on its first run (§12.6).
+        prose = re.sub(r'<script>.*?</script>', '', h, flags=re.S)
+        for ok in ALLOWED_ENTRY.get(n, []):
+            prose = prose.replace(ok, '', 1)
+        stale = {k: len(re.findall(p, prose)) for k, p in
+                 [('Band X', r'\bBand [A-I]\b'), ('entry', r'\b[Ee]ntr(?:y|ies)\b'),
+                  ('Era page', r'Era page'),
+                  ('padded', r'\b[Cc]hapters?\s+(?:\d+\s+(?:to|and|or)\s+)?0\d\b')]}
+        stale = {k: v for k, v in stale.items() if v}
         print("\nchapter %s  %s" % (n, c['name']))
         print("  braces %d | placeholders %d | anchors %s | tags %s"
               % (css.count('{') - css.count('}'), h.count('{{'),
@@ -292,14 +311,17 @@ if __name__ == "__main__":
                  h.count('<figure>'), h.count('class="terms"'), 'ok' if tail_ok else 'BAD'))
         band = 'ok' if BAND[0] <= m <= BAND[1] else 'OUTSIDE BAND'
         note = '' if TARGET[0] <= m <= TARGET[1] else '  <-- note'
-        print("  part %s | words %d (~%d min, %s)%s"
-              % ('ok' if '--band:%s;' % PART_F in h else 'BAD', w, m, band, note))
+        print("  part %s | vocabulary %s | words %d (~%d min, %s)%s"
+              % ('ok' if '--band:%s;' % PART_F in h else 'BAD',
+                 'clean' if not stale else 'STALE ' + str(stale), w, m, band, note))
         for mm in re.finditer(r'<div class="check">.*?</div>\s*<h2 id="(s\d\d)">(.*?)</h2>',
                               h, re.S):
             print("  checkpoint before %s  %s"
                   % (mm.group(1), re.sub(r'<[^>]+>', '', mm.group(2)).strip()))
         if stubbed:
             print("  !! STUBBED: %s" % ", ".join(stubbed))
-        fail += (bool(bad) or h.count('{{') or not (links <= ids) or not tail_ok
-                 or not (BAND[0] <= m <= BAND[1]) or bool(stubbed))
+        fail += (bool(bad) + bool(h.count('{{')) + (not links <= ids) + (not tail_ok)
+                 + (not BAND[0] <= m <= BAND[1]) + bool(stubbed) + bool(stale)
+                 + ('--band:%s;' % PART_F not in h))
+    print("\n%s" % ('all four built clean' if not fail else '!! %d problems' % fail))
     sys.exit(1 if fail else 0)

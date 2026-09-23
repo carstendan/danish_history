@@ -1,4 +1,4 @@
-<svg viewBox="0 0 700 472" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Two maps of Denmark side by side. In 1627 to 1629 imperial armies under Tilly and Wallenstein occupied the Jutland peninsula from the Elbe to Skagen. In 1643 to 1645 a Swedish army under Torstensson occupied the same ground by the same route. In neither war were Zealand, Funen or Scania touched, because the Danish fleet held the water.">
+<svg viewBox="0 0 700 472" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Two maps of Denmark side by side. In 1627 to 1629 imperial armies under Tilly and Wallenstein occupied the Jutland peninsula from the Elbe to Skagen. In 1643 to 1645 a Swedish army under Torstensson occupied the same ground by the same route. In neither war were Zealand or Funen touched, because the Danish fleet held the water; in 1644 a second Swedish army came over the land border into Skåne.">
   <rect x="0" y="0" width="700" height="472" fill="#F0F2EE"/>
   <text x="14" y="24" class="mapl">1627–29</text>
   <text x="14" y="40" class="mapt">Tilly and Wallenstein</text>
@@ -32,5 +32,5 @@
   </g>
   <line x1="14" y1="434" x2="686" y2="434" stroke="#C9CDC4" stroke-width="1"/>
   <text x="14" y="448" class="mapt">Sixteen years apart, two different enemies took the same ground by the same road.</text>
-  <text x="14" y="462" class="mapt">Neither crossed the water, and neither had to: taking Jutland was enough to dictate terms both times.</text>
+  <text x="14" y="462" class="mapt">Neither crossed the water to the islands, and neither had to: taking Jutland was enough to dictate terms both times.</text>
   </svg>
