@@ -1707,5 +1707,8 @@ queen, about seventeen, writes to Håkon that she and her household lack food. I
 from a girl disposed of into a young woman managing a household in her own words, inside 15's span and
 before 16's story begins; 16 does not use it. Retag `[f]`. About 150 words added.
 
+**Answered 23 September 2026: as recommended.** 15 §12's vignette extended with the *nødbrev* of
+c. 1370 and retagged `[f]`, to be sourced, drafted and checked in review session 7.
+
 Until they are answered and carried out, `vignettes.py` reports 12, 13, 14 and 15 as D-9 failures,
 and that is correct.

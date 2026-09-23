@@ -163,6 +163,9 @@ recommended:** Queen Bodil (12 §06, `[f]`), for review session 7. **R-7 answere
 as recommended:** Ingeborg, repudiated by Philip II (13 §09, `[f]`), for review session 7. **R-8
 answered 23 September as recommended, both parts:** Margrete Sambiria re-scoped into a vignette
 (14 §04, `[f]`) and Niels Ebbesen retagged `[n]`, the weakest in the book and recorded as such.
+**R-9 answered the same day as recommended:** 15 §12's vignette extended with Margrete's letter of
+c. 1370 and retagged `[f]`. All four are for review session 7; until they are carried out,
+`vignettes.py` reports 12, 13, 14 and 15 as D-9 failures, correctly.
 
 **Checked by.** `vignettes.py` balance layer, which reports such a chapter as
 "[f] part" — and still as FAIL if no chapter of its part carries `[f]`.
