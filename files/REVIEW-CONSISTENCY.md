@@ -2083,6 +2083,10 @@ Reventlow stays inside it. The May/June dating is checked first. *Alternative:* 
 sack of Bergen, 1429 (Bergen byleksikon) — a hired pirate captain, whose own origins are
 undocumented.
 
+**Answered 23 September 2026: as recommended.** The Reventlow vignette in 18 §08 re-scoped to the
+peasants at Sankt Jørgensbjerg, 1441, `[n]`, with Reventlow inside it and the May/June date checked
+first, to be sourced, drafted and checked in review session 8.
+
 **R-14. 20 has no woman as agent.** *Recommendation:* **Anne Meinstrup, Ringsted, 20 January 1535,
 20 §06, `[f]`** — a woman who held Højstrup on Stevns as a royal fief from 1507, sided with Count
 Christoffer against her own son, and was cut down at the Ringsted assembly by Copenhagen burgher
