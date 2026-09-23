@@ -175,7 +175,9 @@ from 16 §04's acclamation paragraphs (`[f]`), for review session 8. **R-11 answ
 recommended:** the Victual Brothers at Bergen, 1393 (16 §06, `[n]`), for review session 8. **R-12 answered the same day
 as recommended:** Margrete's gift letter of 8 December 1411 (17 §05, `[f]`), for review session 8. **R-13 answered the same day as
 recommended:** the Reventlow vignette re-scoped to the peasants at Sankt Jørgensbjerg, 1441 (18 §08,
-`[n]`), for review session 8.
+`[n]`), for review session 8. **R-14 answered the same day as recommended:** Anne Meinstrup at
+Ringsted, 20 January 1535 (20 §06, `[f]`), for review session 8. All five are for session 8; until
+they are carried out, `vignettes.py` reports 16, 17, 18 and 20 as D-9 failures, correctly.
 
 **Checked by.** `vignettes.py` balance layer, which reports such a chapter as
 "[f] part" — and still as FAIL if no chapter of its part carries `[f]`.

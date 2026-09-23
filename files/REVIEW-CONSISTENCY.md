@@ -2095,5 +2095,9 @@ her holding the fief and taking the side, not only her death. About 300 words. *
 Elisabeth, Christian 2.'s wife, taking communion in both kinds at Nürnberg in 1524 while pleading his
 cause (Kvindebiografisk) — outside Denmark, inside the span.
 
+**Answered 23 September 2026: as recommended.** Anne Meinstrup at Ringsted, 20 January 1535, as 20
+§06's `[f]` vignette, showing her holding the fief and taking the side, to be sourced, drafted and
+checked in review session 8. **All five are now answered.**
+
 Until they are answered and carried out, `vignettes.py` reports 16, 17, 18 and 20 as D-9 failures,
 and that is correct.
