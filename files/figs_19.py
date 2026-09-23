@@ -1,5 +1,9 @@
 # -*- coding: utf-8 -*-
-"""Figures for chapter 19."""
+"""Figures for chapter 20 (the file keeps its pre-renumbering name).
+
+Figure 2's land shares are schematic and unsourced (review session 7, §11.4): Den Store
+Danske gives the crown about a tenth before 1536 and 40-50 per cent after, to 1660.
+"""
 import mapspine as M
 
 PART_E = "#2E6B5E"
@@ -155,18 +159,19 @@ def transfer():
 def weeks():
     W, H = 900, 300
     o = ['<svg viewBox="0 0 %d %d" xmlns="http://www.w3.org/2000/svg" role="img" '
-         'aria-label="Timeline of twelve weeks in 1536: Copenhagen surrenders on 29 July, the '
-         'bishops are arrested on 12 August, and the assembly of 30 October transfers the church '
-         'to the crown and declares that Norway shall be a limb of Denmark.">' % (W, H),
+         'aria-label="Timeline of thirteen weeks in 1536: Copenhagen surrenders on 29 July, the '
+         'arrests of the bishops begin on 12 August, and on 30 October the assembly transfers the '
+         'bishops\' property to the crown and the king\'s charter declares that Norway shall be '
+         'under the Danish crown.">' % (W, H),
          '<rect x="0" y="0" width="%d" height="%d" fill="%s"/>' % (W, H, M.PAPER)]
-    o.append(t(26, 34, "TWELVE WEEKS", "mapt", PART_E))
+    o.append(t(26, 34, "THIRTEEN WEEKS", "mapt", PART_E))
     o.append('<text x="26" y="62" style="font-family:\'Iowan Old Style\',Palatino,Georgia,serif;'
              'font-size:19px;fill:%s">A siege ends, and a church is nationalised.</text>' % INK)
 
     o.append('<line x1="60" y1="118" x2="760" y2="118" stroke="%s" stroke-width="1.4"/>' % MUTED)
     stops = [(60, "29 July", ["Copenhagen surrenders after", "a year. The city has been", "eating horses."]),
-             (320, "12 August", ["The bishops are arrested on", "one night, in a coup agreed", "with the nobility."]),
-             (500, "30 October", ["The assembly transfers all", "church property to the crown", "and abolishes the bishops."]),
+             (320, "12 August", ["The arrests of the bishops", "begin, in a coup agreed", "with the nobility."]),
+             (500, "30 October", ["The assembly abolishes the", "bishops and gives their", "property to the crown."]),
              (720, "1537", ["Bugenhagen crowns the", "king and ordains seven", "superintendents."])]
     for x, date, lines in stops:
         o.append('<circle cx="%d" cy="118" r="6" fill="%s"/>' % (x, PART_E))
@@ -175,7 +180,7 @@ def weeks():
             o.append(t(x, 142 + i * 15, l, "mapx", MUTED))
     o.append('<line x1="26" y1="212" x2="%d" y2="212" stroke="%s" stroke-width=".8"/>'
              % (W - 26, RULE))
-    o.append(t(26, 240, "In the same recess: \u2018Norway shall hereafter be and remain under the "
+    o.append(t(26, 240, "In the king's charter of the same day: \u2018Norway shall hereafter be and remain under the "
                "crown of Denmark, like one of the other lands,", "mapx", MUTED))
     o.append(t(26, 256, "Jutland, Funen, Zealand or Sk\u00e5ne.\u2019 It was not enforced as written, "
                "and Norway kept its own law \u2014 but the sentence stood", "mapx", MUTED))

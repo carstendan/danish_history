@@ -126,6 +126,8 @@ misleading in Part G at first build.
 across chapters but does not test intervals; the reading pass does. Part C's pass (session 5)
 found nine wrong intervals, and the fixes' checker found one of them re-broken by the fix. Part D's
 (session 6) found sixteen, and the checker two more in the fixes ("seven weeks", "for two years").
+Part E's (session 7) found thirty-four, and the checker three more in the fixes ("thirty-six",
+"twenty-seven years of rule", "four months").
 
 ### D-9 · Vignette balance tags — in force
 
@@ -165,7 +167,9 @@ answered 23 September as recommended, both parts:** Margrete Sambiria re-scoped 
 (14 §04, `[f]`) and Niels Ebbesen retagged `[n]`, the weakest in the book and recorded as such.
 **R-9 answered the same day as recommended:** 15 §12's vignette extended with Margrete's letter of
 c. 1370 and retagged `[f]`. All four are for review session 7; until they are carried out,
-`vignettes.py` reports 12, 13, 14 and 15 as D-9 failures, correctly.
+`vignettes.py` reports 12, 13, 14 and 15 as D-9 failures, correctly. **Carried out in session 7: no
+D-9 failure in Parts A–D** (`REVIEW-CONSISTENCY.md` §11.1). **Part E tagged the same day: 16 carries
+neither, 17 and 20 no `[f]`, 18 no `[n]`** — R-10 to R-14 (§11.9), not tagged away.
 
 **Checked by.** `vignettes.py` balance layer, which reports such a chapter as
 "[f] part" — and still as FAIL if no chapter of its part carries `[f]`.
@@ -241,6 +245,8 @@ showed the list the body had given, and the body was re-scoped around it (§9.1)
 session 5: no case** — 08 §01 and 10 §04 are named for their vignettes but restate nothing (§9.5).
 **Part D, session 6: no case** — six sections are named for their vignettes' moments and none
 restates it (§10.5); 14 §04's Margrete Sambiria paragraph is proposed for re-scoping under R-8.
+**Re-scoped in session 7** (§11.1). **Part E, session 7: no case** (§11.5); 20's Rantzau vignette sits
+out of order in §06 and retells §05's Aalborg — for moving when 20 is next opened.
 
 **Checked by.** Reading. `REVIEW-BUILD-FAULTS.md` §4's overlap measure is a way of
 choosing what to read, not a test — it scores healthy vignettes about the same
@@ -295,7 +301,11 @@ session 3: read, and nothing needed changing.** **Part B, review session 4:** on
 Nydam boat "in Schleswig ever since" — it was in Kiel; now "in Germany"); the rest right. **Part C, review session 5:** four uses, all
 the German town; nothing to change. **Part D, review session 6:** 12's three Slesvig and one Århus
 are Schleswig and Aarhus; 12's "Fyn" is Funen, 13's "Mølln" Mölln; the diagrams follow the prose,
-the maps keep Danish. Schleswig 172 in 26 chapters, Slesvig 101 in 10, none of them in Part D. Maps (`map_*.py`)
+the maps keep Danish. Schleswig 172 in 26 chapters, Slesvig 101 in 10, none of them in Part D. **Part E, review session 7:**
+19's two Slesvig (both the town) are Schleswig, 18's Flensborg Flensburg, 20's visit-block Malmø
+Malmö; and **D-B's Dithmarschen is carried out** in 19 (eleven), 20 (one), 21 (six) and the config,
+with 16–18's "Ditmarsken" in English prose (three) as 13's was — Danish words such as a glossary
+term stay Danish. Schleswig 178 in 26 chapters, Slesvig 99 in 9: none in Parts A–F. Maps (`map_*.py`)
 label in Danish throughout and are left for a decision of their own when Part A–D
 maps are next touched.
 

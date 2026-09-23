@@ -15,7 +15,7 @@ RULE = "#C9CDC4"
 W = 900
 
 RUNGS = [
-    ("1375", "days after Valdemar Atterdag dies, she signs herself",
+    ("1375", "six weeks after Valdemar Atterdag dies, she signs herself",
      ["Norges og Sveriges dronning og hr. Valdemars",
       "datter og rette arving"],
      "Queen of Norway and Sweden, and Sir Valdemar's daughter and rightful heir",

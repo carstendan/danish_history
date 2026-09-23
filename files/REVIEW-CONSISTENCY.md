@@ -1712,3 +1712,362 @@ c. 1370 and retagged `[f]`, to be sourced, drafted and checked in review session
 
 Until they are answered and carried out, `vignettes.py` reports 12, 13, 14 and 15 as D-9 failures,
 and that is correct.
+
+**All four carried out in review session 7 (§11.1): no D-9 failure in Parts A–D.**
+
+
+## 11. Session 7 — Part D's missing women, and Part E read (chapters 16–20)
+
+*23 September 2026, from `START_HERE_review_7.md`.*
+
+**The cold run matched every line.** A fresh clone of `eed5803`: git status clean; tidy reports and
+deletes nothing, 45 bodies; fixture and seams pass; debuild 45 identical; 45 of 45, 338,244 page
+words, 26.8 h, parts A 21,397 · B 26,326 · C 26,228 · D 31,136 · E 35,042 · I 74,403; vignettes
+136/105, D-9 failures 12–15, selftest passes; figcheck 98/30/0; one OVER, *Kalmar, 17 June* at 849 — 16 §08, which START_HERE
+called 17; draftnotes clean in 45 pages and 14 drafts; appcheck 159; freshcheck 14; sweeps: 2 pointers, 0
+insolvent, 0 same-page glosses; Schleswig 172 in 26 against Slesvig 101 in 10; sweep_facts 5; arrows
+254 and 37 thread notes, form 7, direction 0, D-1 0, titles 0, solvency 41, prose references 0,
+footers 0, `<h1>` 0, 9b 0. **One difference, harmless:** item 144's pages are in their own commit,
+`5a60c3b Build pages`, not in `dcc12f7` with the sources; debuild shows no drift.
+
+Two research agents sourced the four vignettes; five fact-checked chapters 16–20, one each; a
+sixth, which had not seen the work, checked all 145 hunks (§11.8); a seventh made the first search
+for §11.9.
+
+### 11.1 R-6 to R-9 carried out — and the recommendations' facts checked first
+
+| the recommendation said | the sources say | ground |
+|---|---|---|
+| R-6: Bodil went with Erik "on the pilgrimage of 1103" | they left in 1102 or early 1103; Knud (Lavard) left with Skjalm Hvide at Fjenneslev, the kingdom with Asser and Harald Kesja (Erik's son by a concubine, not his brother) | DBL *Skjalm Hvide*, *Knud Lavard*, *Harald Kesja*; danmarkshistorien *Erik Ejegod* |
+| R-6: she "died on the Mount of Olives" | right, year only (1103); buried in the valley of Jehoshaphat. The ending comes through late tradition, and the page says so | DBL *Bodil*; Kvindebiografisk *Bodil* |
+| R-6: (not in the recommendation) | she and Erik stand together on Durham's list of benefactors; she is of Asser's kin on Saxo's account (lex: uncertain); one historian calls her going on "unique for a woman of the time" | Kvindebiografisk *Bodil*; DBL; lex |
+| R-7: married August 1193, repudiated the day after | married 14 August at Amiens; *she* was crowned the next day and repudiated straight after the coronation | DBL *Ingeborg – dronning*; Fenger (Gyldendal og Politikens) |
+| R-7: "she refused to go home" | she *and her escort* refused | DBL |
+| R-7: "Philip took her back in 1213" | as queen, "uden ægteskabelige rettigheder" | danmarkshistorien *Ingeborg* |
+| R-7: (dates the page needed) | interdict proclaimed December 1199, lifted 7 September 1200; Étampes from 1200; letters to Celestine III (1195) and Innocent III (1203) quoted from Epistolae; died 1237 or 1238 at Corbeil | Catholic Encyclopedia; DBL; Epistolae 430, 24140; lex |
+| R-8: regent "for a ten-year-old" | nine or ten (born 1249, month unknown) | DBL *Erik Klipping* |
+| R-8: "beaten and taken prisoner at Lohede with the boy, freed" | she *commanded* at Lohede, 28 July 1261; she was freed in 1262 through Albrecht of Brunswick, the boy only at the peace of 1264 | lex *Margrete Sambiria*; DBL |
+| R-8: 14 §04's paragraph | "archbishop in exile appealing to Rome" (he was in prison when she took over; Rome in 1264); "got them both released" (see above); "northern Estonia as her dower" (Estonia and Virland for life, 13 May 1266, run from Nykøbing Falster); *Sprænghest* "the pace at which she travelled" (the name first found some sixty years after her death, "the violent rider", with a legend) | DBL; lex; Kvindebiografisk |
+| R-8: (beside it) 14 §04's Jakob Erlandsen vignette | "arrested at Hagenskov" (seized outside Lund on 5 February 1259, imprisoned at Hagenskov); "the interdict came down" (declared, patchily kept); "went into exile" (freed that summer; Rome 1264); the poison rumour, "never proved" (DBL: late tradition) | DBL *Jakob Erlandsen*; lex; roskildehistorie.dk |
+| R-9: "the *nødbrev* … she, about seventeen, writes that she and her household lack food" | right: Akershus, St Luke's day (18 October), the year archive-dated c. 1370; "jeg og mine tjenere lider stor nød på mat og drikke"; she asks for credit with the merchant Vestfal; written by a secretary on parchment in a Swedish-Norwegian mixture; Håkon probably in Bohuslän; Riksarkivet AM fasc. 98 nr. 5 | Arkivverket; NDLA (Riksarkivet's translation); SNL |
+
+**(a) Queen Bodil, 12 §06 *Lund, 1103*, `[f]`.** After "died on Cyprus in July 1103", which lost its
+one-line Bodil; the vignette is her going on alone from Paphos. Who-line *Bodil, queen of the Danes ·
+Paphos, Cyprus · July 1103*. About 280 words. Not D-13: the section is named for Lund.
+
+**(b) Ingeborg, 13 §09 *The north German years*, `[f]`.** After the Knud 6. paragraph. Who-line
+*Ingeborg, queen of France · Amiens · 15 August 1193*. About 330 words.
+
+**(c) Margrete Sambiria, 14 §04, `[f]`, by re-scoping (D-13).** The paragraph that said she "gets
+roughly a line in most accounts" is now one sentence of body and a vignette at Lohede, 28 July 1261.
+About 330 words. **Niels Ebbesen retagged `[n]`**, on the page's own ground, and recorded as the
+weakest `[n]` in the book.
+
+**(d) 15 §12's vignette extended with the letter, `[f]`.** The two paragraphs that disposed of her
+are kept in shorter form; the letter is added, and the vignette ends where it did. Who-line
+*Margrete, queen of Norway · Akershus · 18 October, c. 1370*. Found beside it: 15 had Oluf "the
+five-year-old son" at Valdemar's death (October 1375, and Oluf was born at Christmas 1370): four.
+
+`vignettes.py`: **no D-9 failure in Parts A–D.** 139 vignettes carry a place, 109 distinct.
+
+### 11.2 Part E, read — errors of fact and of the book against itself, fixed
+
+| ch | the page said | it is | ground |
+|---|---|---|---|
+| 16 tagline, Five, fig. crowns | Oluf "dies at seventeen" | sixteen (born at Christmas 1370) | DBL *Oluf 2.* |
+| 16 tagline | "Twenty-two years later three kingdoms" (from 1387) | "By 1397" | D-8 |
+| 16 §01, glossary, ← 14 | a *håndfæstning* "at every accession … 1396, 1448, 1460" | none in 1396; Christoffer promised one and never sealed it; 1460 is the duchies'. "Most accessions" | danmarkshistorien *Håndfæstning* |
+| 16 §01 | "Both grandmothers' families" | both boys' — they had one grandmother | |
+| 16 §01 | Oluf "aged five" at Valdemar's death | four | DBL |
+| 16 §02 | canonisation "later in this chapter" | chapter 17 | |
+| 16 §02 | Oluf "aged ten" at Håkon's death, 1380 | nine | DBL |
+| 16 §03, glossary | the Atlantic lands "for a century and a half"; the North Atlantic "does not leave until 1944 and 1948" | Greenland 1261, Iceland 1262–64: "a century and more"; the Faroes and Greenland are still in the realm | |
+| 16 §03; 17 §02 | Orkney and Shetland "until 1468" | 1468 and 1469 | 19's own dates |
+| 16 §04 | Oluf died "as the herring season began … in front of witnesses from a dozen countries" | the timing is not sourced either way (14 has the market from 24 August; Swedish sources from late July) and the crowd rests on it: "at the castle above the herring ground". The rumours' sentence now names 1402. Myth-check likewise | 14; DBL |
+| 16 §05 | Bo Jonsson died "in 1387" | August 1386, as the vignette says (SBL: 20 August; not reachable) | the page |
+| 16 §05 | "In October 1389 she was formally installed as regent of Sweden" | not found; DBL: after Åsle all Sweden but Stockholm was hers | DBL *Margrete 1.* |
+| 16 Meanwhile | Kosovo "eight months before Åsle"; Åsle "killed almost nobody of note" | nearly four months after; Henrik Parow, her commander, fell | Britannica; DBL *Henrik Parow* |
+| 16 fig. 2 | "Ten years … 1387–1398" | eleven | |
+| 16 vignette | "the fifteenth century housed captive kings" (1389); Albrecht's son "died in captivity here in 1397" | fourteenth; Erik was freed with his father in 1395 and died on Gotland in 1397 | NE *Erik av Mecklenburg* |
+| 16 §07, glossary | *Dronning Margretes Fred*, "recorded at the assemblies of 1396" | no source uses the name; the ordinance lists six peaces — church, women, house, farmyard, plough, assembly | danmarkshistorien, the 1396 ordinance |
+| 16 §08 | "at least a month" (17 June to 13 July is 26 days); seals "hung" | "some four weeks at least"; the passage now says the seals are impressed in paper once, below | Gyldendal og Politikens *Kalmar sommeren 1397* |
+| 16 §08, Five, Contested, Sources | Erslev "1892", who "treated the union letter as the real settlement"; "Bagh (2003)"; "a hundred and thirty years" | 1882, and he thought Margrete let the letter go unratified rather than accept its limits; the recent reading is Markus Hedemann's (*Scandia*, 2011); Christensen 1980; "more than a hundred and forty years" | Hedemann, *Scandia*; Historisk Tidsskrift |
+| 16 Causal | her power became "*more* secure after her son died" | against §04 and the Myth-check; reworded | |
+| 16 fig. titles | 1375 claim "days after" Valdemar's death | six weeks, as §01 says | |
+| 17 intro, §03, Myth | the colony "stopped existing" in these years; "nobody in Copenhagen noticed for three hundred more"; "nobody … asked until Hans Egede" | fell silent; kings sent ships from 1472/73 (Pining and Pothorst), 1579, 1581; Christian 4.'s of 1605 and 1606 found Inuit | lex *Grønlandsekspeditioner* |
+| 17 §03 | "four or five thousand"; ivory "returned through Portuguese trade" | at most about three thousand; elephant ivory was reaching Europe from the thirteenth century | Trap Grønland; Barrett et al. 2020 (Cambridge) |
+| 17 Myth | "a wedding certificate from 1408" | the wedding of 1408, certified in April 1409 (as Sources said) | |
+| 17 §02 | "the recess of 1536 declares that Norway …" | §3 of Christian 3.'s accession charter (also 20 §07, Myth, arrow, fig. weeks; and 21) | snl *Norgesparagrafen* |
+| 17 glossary | *fæste* "until the 1780s" | the commonest way well into the nineteenth century (43 % of peasant land in 1835; abolished 1919) | lex *fæste* |
+| 17 §04, fig. 2, Five | the deserted-farm peak "in the twenty years after 1400" | around 1400 (the glossary's own date) | Gyldendal og Politikens *Den store landbrugskrise* |
+| 17 §05 | Margrete and her women "embroidered altar cloths" | not found; cut | |
+| 17 §06 | Lodehat's "stated ground … too Danish"; "the monks called it what it was" | Roskilde's own account: Sorø "for lille og for tæt forbundet med danske monarker"; he took her "næsten med vold mod munkene" | roskildedomkirke.dk |
+| 17 §06 | "What he built over her, and what Erik paid for in 1423" | Lodehat died 1416; Erik had the tomb made | DBL; roskildedomkirke.dk |
+| 17 §06, Sources | "Only the coffin and most of the effigy are medieval … reconstructed between 1862 and 1912" | the figure is original except the crown; the side figures c. 1900 | roskildedomkirke.dk |
+| 17 §06 | the gown "gilded silver thread on purple silk, probably woven at Lucca" | red and gold silk, woven in Italy | ROMU |
+| 17 visit | "the unbroken line of royal burials" | almost unbroken | roskildedomkirke.dk |
+| 17 Meanwhile | Gotland "taken from her in 1398"; "briefly three" popes | taken in 1398 and sold to her in 1408; three from 1409 | DBL; 16 |
+| 17 vignette | the false Oluf burned "in front of merchants from across northern Europe, which was the point" | unsourced; "at Falsterbo" | |
+| 18 §01 | "Over forty-seven years he founded towns" | twenty-six years of rule (1412–39) | D-8 |
+| 18 §03, glossary, Myth, visit | Krogen "pulled down" for Kronborg | rebuilt from 1574, and much of it is inside Kronborg's walls | Trap *Kronborg* |
+| 18 §03, fig. 1, Five, figs_17 | Erik "strengthened Kärnan"; "closed the Great and Little Belts to foreign shipping altogether" | Kärnan is Erik Menved's, c. 1313; the Belts were tolled — a ship that took the Great Belt paid at Nyborg | Helsingborg stadslexikon; lex *Sundtolden*; danmarkshistorien |
+| 18 §03 | "Both shores … Danish since 1360" (15 → 18 promises the Hanse's Sound castles) | the Hanse held the Skåne castles from 1370 to 1385; now said, and 15's arrow is solvent | 15 §11 |
+| 18 §04 | grievances "the toll … his attempt to stir up opposition inside Lübeck"; islands plundered in 1427 | the war began in 1426, before the toll is documented; Lübeck intrigue and island list unsourced: Schleswig and the Dutch, "the toll, once it came, was one more"; "Bornholm among them" | danmarkshistorien; Wikipedia (pointer) |
+| 18 vignette | Sorø "forty kilometres"; "first battle … artillery at range"; queen "for twenty-four years" | about seventy; unsourced, cut; twenty-three (1406–1430) | DBL *Philippa* |
+| 18 §05, visit | Flensborg; "outlast … the sailing ship" | Flensburg (D-15); cut | |
+| 18 vignette | Engelbrekt took complaints "to the council, twice" | to the king | |
+| 18 §07 | "In 1438 … Visborg since 1408"; Erik "very nearly outliving the man after that" | 1437 or 1438; Gotland since 1408; Christian 1. lived to 1481 — cut | danmarkshistorien; SNL |
+| 18 §08 | Katarina "one of the two Pomeranian grandchildren Margrete had brought south … in chapter 17" | Erik's sister, called north like him, married into the Wittelsbach house; 17 does not tell it | DBL *Catharina* |
+| 18 vignette | 1441 grievances "the tithe … reimposed after his coronation"; executed "six days later, on 12 June" | coronation 1 January 1443, after the rising; dues pressed by nobles, prelates and crown; "about a week later"; the bishop's tithe came in 1443 | DBL *Reventlow*, *Christoffer 3.* |
+| 18 §10 | Dorothea "eighteen" in 1449 | about nineteen | DBL *Dorothea* |
+| 18 §11 | 33½ million rigsdaler "fourteen years' income"; the Dutch "in 1650" | twelve years'; 1649 | danmarkshistorien *Øresundstolden* |
+| 18 Meanwhile | 1453 "closing the eastern Mediterranean to Genoese and Venetian trade" | "unsettling" | |
+| 18 Five | Engelbrekt "a mine-owner" | a minor nobleman from the mining country, as the vignette says | |
+| 18 §09 | *vornedskab* "formalised later in this century" | a custom that takes hold later in the century | lex *vornedskab* |
+| 18 fig. toll | aria-label describes a panel the figure no longer has | removed | the figure |
+| 19 §02, Five | "At Ribe on 5 March 1460 the knighthood elected"; a reserved right of resistance "since 1282" | elected 2 March, charter sealed 5 March; no resistance clause — no tax without consent, native officials, annual courts | danmarkshistorien *Ribebrevet* |
+| 19 §01 | Holstein reverting to "the Emperor" | to a lord inside the Empire | |
+| 19 §04 | married "in 1468"; Norse "for five hundred years"; Norn "over the next two hundred years" | agreed 1468, wedding 1469; some six centuries; three | |
+| 19 §05 | Notke's saint "is Sweden", princess Stockholm | the saint is Sten Sture, the princess Sweden | Stockholm konst |
+| 19 Meanwhile | Henry VI "deposed and restored twice"; 1494 "began forty years of war" | deposed twice; the Italian Wars ran to 1559 | |
+| 19 §06, glossary | *vornedskab* "Zealand and the islands", "formally bound"; Hans "hired Scottish and Dutch captains" | Zealand, Møn and Lolland-Falster, by custom from the late 1400s; unsourced, cut | lex *vornedskab* |
+| 19 §07 | Holstein count beaten "in 1309"; enfeoffed "in 1473"; Meldorf "on 14 February" | 1319; 1474 (as §02); date unsourced, dropped | geschichte-s-h.de; DBL *Christian 1.* |
+| 19 §07, Five | Dithmarschers "perhaps two thousand"; lost "fewer than a hundred"; "eleven Ahlefeldts, six Buchwalds"; "forty years earlier" | barely a thousand at the bank; losses unrecorded; seven Ahlefeldts or eleven by different counts, Buchwalds unsourced; 1460 (39 years 11 months: D-8) | dithmarschen-wiki; de.wikipedia (pointer) |
+| 19 vignette | Ahlefeldt "born about 1440"; "a road eight metres wide"; "Slesvig cathedral" | unsourced, cut; Schleswig (D-15) | |
+| 19 §08 | Sweden "held for four years out of a possible sixty" | "fewer than ten of the fifty-two years since 1448" | 18's Myth-check |
+| 19 §09, config | "Sigbrit Villumsdatter"; a court "where subjects could sue their lords"; who-line "keeper of the king's accounts" against a checkpoint answering "none" | Sigbrit Villoms (DBL); unsourced, cut; "the king's financier without an office" | DBL *Sigbrit Villoms* |
+| 19 §10 | burgomasters "hanged" and then "beheaded … So were fourteen members of the council, burgomasters" | the second list trimmed to what the first allows | Historisk tidskrift 2019:3 |
+| 19 vignette | Kristina held "until September"; "Ten weeks later"; imprisoned "with her mother-in-law … who dies there"; released 1524 | 5 September; nine weeks; with her mother and daughters — her half-sister Cecilia (Gustav Vasa's mother) and her own daughter died; released 1523 | SKBL |
+| 19 §11, glossary | sailed "20 April 1523"; "twenty-seven years" in captivity | 13 April; twenty-six (1 July 1532 – 25 January 1559) | DBL *Christian 2.* |
+| 19 §11 | Sweden governed "for eleven years out of seventy-five" between 1448 and 1520 | three spells, 1457–64, 1497–1501, 1520–21: about a dozen of seventy-five (to 1523) | 18 |
+| 19 Sources | Svaning "appointed in 1553 by Christian 3." as crown historian; Olaus Petri written "for" Gustav Vasa's regime | "with the government's approval but without an office" (DBL); "under" | DBL *Hans Svaning* |
+| 19 visit | "Gottorp Slot, Slesvig" | Schleswig (D-15) | |
+| 20 intro, Causal, Contested | Christian 2. deposed "thirteen years earlier"; "a prisoner for eleven years"; "in prison since 1523" | eleven; gone eleven years; in exile, then prison from 1532 | DBL |
+| 20 §03 | Christian 3. "thirty-nine" in April 1533 | twenty-nine (born 12 August 1503) | DBL |
+| 20 §03, glossary, config | the 1533 council did "something no Danish council had done before"; "the only time it ever tried" | it postponed the election a year and governed itself; the checkpoint asks what it did instead of electing | DBL *Christian 3.* |
+| 20 §03 | "Chapter 18 followed the town … to its defeat by Kong Hans in 1512" | chapters 18 and 19 | 19 |
+| 20 §04 | Ry: "the Jutland nobility and bishops"; Rantzau "put down Ditmarschen's neighbours"; peace with Lübeck in November 1534 "separating the town from its own expedition" | the councillors of Jutland and Funen; Lund, 1525; Stockelsdorf bound Lübeck in Holstein only, and the final peace was February 1536 (← 18 now 1536) | DBL *Rantzau*; milhist.dk; danmarkshistorien *Grevens Fejde* |
+| 20 §05, glossary | Clement born "to a farming family in Aaby parish"; recognised "at Storvorde"; "something over a hundred" manors | "by late tradition a man of Vendsyssel"; place and number unsourced, dropped | DBL *Clement* |
+| 20 §05, vignette, Myth, Five | "perhaps two thousand" dead at Aalborg (five times) | "many hundreds, perhaps as many as two thousand" | Nordjyske Museer |
+| 20 §06 | "Funen was over in a day"; "Copenhagen surrendered … and Malmø with it" | decided in a day, Odense hailed Christian on 3 July; Malmø gave up in April | Gyldendal og Politikens; danmarkshistorien |
+| 20 vignette | Rantzau "fifty-two … fought in Italy"; "his son Henrik built Breitenburg" | forty-two (born 12 November 1492); pilgrimage to Jerusalem; he built it himself | DBL *Johan Rantzau* |
+| 20 vignette | Rønnow "the man who had just prosecuted him" | argued for banishment rather than death, and carried it | danmarkshistorien *Rønnow* |
+| 20 §07, Myth, Five, fig. weeks | the bishops arrested "in one night, across the country"; "Twelve weeks" | begun that night in Copenhagen, carried through across the country; thirteen weeks (29 July – 30 October) | DBL *Christian 3.*; danmarkshistorien |
+| 20 §07 | Ove Bille "served three kings as chancellor"; "eighteen more" | King Hans's chancellor and, after Mogens Gøye, the leading statesman from 1523; nearly eighteen | DBL *Ove Bille* |
+| 20 §07, glossary | the Church Ordinance "three hundred years", "into the nineteenth century" | until the law code of 1683 | DBL *Christian 3.* |
+| 20 §09 | "Two of the arrested bishops went on to serve the new church" | none did; cut | DBL *Torben Bille* |
+| 20 §09, Causal | the images stayed, "which is why Danish churches still have their wall paintings while English ones do not" | they stayed until whitewashed in the next two centuries, which is how so many survived to be uncovered | kristendom.dk |
+| 20 Five, Myth | "all church property"; "the crown took the church's third" | the bishops' at once, the monasteries' by attrition (Sources already called "all" a myth) | danmarkshistorien *Reformationen* |
+| 20 Meanwhile | Henry VIII "in 1534 … began dissolving the monasteries"; Münster "1534–35"; Trent "two years from being summoned" | supremacy 1534, dissolution from 1536; fell 1535, cages 1536; summoned in 1536, opened 1545 | Britannica |
+| 20 visit | Tausen preached "from 1526" at Viborg Domkirke; Malmø in a visit block | from 1525, in his Johannite house; Malmö (D-15: Swedish form in visit blocks) | DBL *Hans Tausen* |
+| 20 header | "Ten years later" | "A decade later" | |
+
+**Thirty-four intervals and ages were wrong in Part E** (D-8, computed; one of them, 16's "aged
+five", found by the fixes' checker, which also found three wrong intervals in my own fixes, §11.8):
+16's "seventeen" (three places), "aged ten", "aged five", "twenty-two years later", "a century and a
+half", "eight months before", "thirty more to run", "a hundred and thirty years", "at least a month",
+"ten years"; 17's "fifteen years" (three places), "some years"; 18's "forty-seven years",
+"twenty-four years", "eighteen", "very nearly outliving", "six days later"; 19's "forty years
+earlier", "five hundred years", "two hundred years", "four of sixty", "eleven of seventy-five",
+"forty years of war", "ten weeks", "twenty-seven years" (twice), "three days later"; 20's "thirteen
+years", "thirty-nine", "fifty-two", "a prisoner for eleven years", "twelve weeks", "eighteen more",
+"three hundred years", "ten years later". Part C had nine, Part D sixteen.
+
+**The 15 → 16 and 15 → 18 promises (START_HERE).** 16 has Oluf's election of 1376 and opens on the
+realm reassembled: solvent. 18 had Erik's toll but not the Hanse's Sound castles; §03 now says the
+Hanse held the Skåne castles 1370–85, which is also the qualification its "both shores since 1360"
+needed.
+
+**The D-B carry-over, 19–21.** "Ditmarschen" is Dithmarschen in prose: 11 in 19, 1 in 20, 6 in 21,
+and the config's checkpoint; 16, 17 and 18 had the Danish "Ditmarsken" in English prose (three),
+now Dithmarschen as 13's was. Danish words stay Danish: 19's glossary term and 21's key
+*Ditmarsken 1559*. 24 and 25 have none.
+
+### 11.3 Part E — repetition and drag, fixed
+
+- **16 told Erik's selection twice** — §06's close and the §07 vignette, down to a near-identical
+  sentence about the name "Erik". §06 keeps the fact (February 1388, a small boy from Pomerania) and
+  points to the vignette.
+- **16 told the Lindholm terms twice** (§06 and the Albrecht vignette). The vignette points back.
+- **16 described the union letter as an object twice in §08** before the Myth-check and Five did it
+  again. The first description is gone; "described below".
+- **16's two Meanwhile boxes both had the truce and the schism.** Once, in the second.
+- **17 said "the men she trusted were increasingly Danish" in §01 and §02**, nearly word for word.
+  §01 points to §02.
+- **17 repeated 16's Iceland sentence** ("its own law and its own assembly …"). Cut in 17.
+- **17's vignette and Myth-check both told Oluf's death "transformed within a week … fifteen years
+  later"**. The Myth-check points to §01.
+- **17's figure 2 caption repeated §04's "one estate … not a national average"** (and the figure
+  itself says it a third time — recorded, §11.4). The caption is cut to what the figure adds.
+- **20's two Meanwhile boxes both had the Peasants' War and the Schmalkaldic League.** Once, in the
+  first.
+- **Recall repeated checkpoints word for word** in 17 (one), 18 (two) and 19 (one). Replaced with
+  questions no checkpoint asks (§11.5).
+
+**Found, kept.** 17's Greenland monopoly "since 1294" is in §03, the Myth-check and Five — the
+Myth-check and Five restate by design. 18's Krogen/Kronborg runs through the glossary, §11, the
+Myth-check and the visit block, each for its own reason. 19's partition of 1490 is the chapter's
+argument and recurs as one. 16 and 17 both gloss *skattland*: the rule is first use in each page.
+
+### 11.4 Found, recorded, not changed
+
+- **20's figure 3 land shares have no source.** The bars (crown 16 → 49 per cent, church 33,
+  nobility 43, freeholders 8) were not found in any reference work reached; Den Store Danske gives
+  the crown "ca. 10 %" before and "40–50 %" after, to 1660, counting the rebels' forfeited farms. The
+  Contested question now reports it; `figs_19.py`'s docstring says the shares are schematic and
+  unsourced. **For the library (E-series): a sourced breakdown of Danish landholding c. 1525 and
+  c. 1560.** The prose's "roughly a sixth" stands on the figure and should move with it.
+- **Margrete Sambiria and the pope.** DBL: she "har … været langt i at opnå" papal authorisation of
+  female succession; lex: "imødekom paven gerne, og brevet er i dag stadig bevaret". The vignette
+  follows lex, which names the surviving letter.
+- **The herring market's dates.** 14's figure has 24 August – 9 October (session 6); the checker
+  found Swedish accounts that open it at the end of July, and danmarkshistorien gives "august–oktober".
+  16 no longer times Oluf's death against it. 14 is not changed without a better source.
+- **Bo Jonsson Grip's share of Sweden**: 16 says "close to a third"; Kalmar läns museum says two
+  thirds, including all Finland. SBL was not reachable.
+- **The Sankt Jørgensbjerg date.** 18 has 6 June 1441 (DBL *Reventlow*); Skalk reports two
+  engagements in May. Kept to DBL.
+- **Dead checkpoint blocks in 16–20's bodies.** `build_part_e.py` strips every `<div
+  class="check">` in a body and inserts its config's. The body blocks are dead text, several
+  differ from what ships — 17's asks about Kalmar, which is 16's — and 20's coda block is lost
+  entirely. They do not reach a page. Remove them when Part E is next opened, or teach tidy to
+  report them.
+- **16 §08 is still OVER** (852 words, from 849: the historiography sentence is longer). D-16.
+- **Maps keep Danish labels** (D-15): `svg_terr_1397` says Slesvig; `svg_roads` Flensborg and
+  Hamborg.
+- **`figs_19.py` makes chapter 20's figures** and `figs_17.py` chapter 18's (pre-renumbering names);
+  the docstring of the first now says so.
+
+### 11.5 D-15, D-13 and Recall in Part E
+
+**D-15.** 19 had Slesvig twice, both the town: *Schleswig cathedral*, *Gottorp Slot, Schleswig*. 18
+had "Flensborg" once in prose. 20's visit block had Malmø: Malmö. 15's new vignette says Bohuslän.
+**Schleswig 178 in 26 chapters, Slesvig 99 in 9**: Parts A–F no longer use the Danish form in prose.
+18's *Sønderjylland* is glossed and deliberate.
+
+**D-13.** No case needing a change. 18 §06 *Engelbrekt, 1434* is named for its vignette's subject,
+and the vignette adds his background and death to a body about the rising; 19 §07 *Hemmingstedt* and
+§10 *Stockholm, November 1520* are named for their vignettes' moments and give the context before and
+the consequence after. 20's Rantzau vignette (18 December 1534) sits in §06 after events of 1536;
+out of order, and it retells §05's Aalborg — a candidate for moving when 20 is next opened.
+
+**Recall** (content-word Jaccard ≥ 0.4 against the page's shipped checkpoints, measured on pages
+built in a scratch copy). Before: 16 1/5, 17 2/5, 18 2/6, 19 2/6, 20 1/6, four of them exact repeats
+(Jaccard 1.0). After replacing the four: **16 1/5, 17 1/5, 18 0/6, 19 1/6, 20 1/6.**
+
+### 11.6 The padded-chapter guard, given to Part E
+
+`build_part_e.py` had none. It now runs `build_parts_abc.py`'s retired-vocabulary check — "Band X",
+"entry", "Era page", the padded chapter number with `\s+` — counts failures, prints "all five built
+clean" or "!! N problems", and exits non-zero on either a problem or a failure its old checks
+already counted. **It fired on the first run, falsely:** 18 §11 uses "entry" twice for a line in the
+toll register. The two phrases, and only they, are allowed (`LEDGER_ENTRY`); each is removed once
+before counting. **Tested in scratch copies:** "chapter\n07" and "this entry" planted in
+`c17_body.html` gave `STALE {'entry': 1, 'padded': 1}`, `!! 1 problems`, exit 1; a third "entry" in 18
+gave `STALE {'entry': 1}`, exit 1; the real bodies, "vocabulary clean" five times.
+
+### 11.7 D-9 in Part E — tagged
+
+| ch | vignette | tag | why |
+|---|---|---|---|
+| 16 | Bo Jonsson Grip, drots | `[-]` | a magnate |
+| 16 | Albrecht of Mecklenburg | `[-]` | a king |
+| 16 | Erik of Pomerania, aged seven | `[-]` | a king-to-be |
+| 17 | the false Oluf | `[n]` | poor, sick, unnamed |
+| 17 | Thorstein Olafsson and Sigrid Björnsdóttir | `[-]` | the vignette is about the paperwork; she does nothing the page can name, and Icelandic families who could keep certificates were not poor |
+| 17 | Abraham Brodersen Baad | `[-]` | a knight and councillor |
+| 18 | Philippa | `[f]` | |
+| 18 | Engelbrekt | `[-]` | lower nobility |
+| 18 | Henrik Tagesen Reventlow | `[-]` | a nobleman, whatever army he led |
+| 19 | Hans von Ahlefeldt | `[-]` | a knight |
+| 19 | Sigbrit Villoms | `[f][n]` | a commoner woman running the royal finances |
+| 19 | Kristina Gyllenstierna | `[f]` | she negotiated the surrender |
+| 20 | Hans Tausen | `[-]` | a monk and royal chaplain |
+| 20 | Skipper Clement | `[n]` | a skipper leading a peasant rising |
+| 20 | Johan Rantzau | `[-]` | |
+
+**D-9 failures: 16 (neither), 17 (no `[f]`), 18 (no `[n]`), 20 (no `[f]`).** True, not tagged away.
+None is a chapter whose evidence names no one. §11.9 puts them to Carsten.
+
+### 11.8 Checked by a separate agent
+
+An agent that had not seen the work checked all 145 hunks against sources and the rest of the book,
+confirmed the four vignettes and most of §11.2, and ran the guard. It found twelve slips, and two
+contradictions outside the diff. Eleven were mine or survived my rewriting, and all twelve are
+resolved:
+
+- **13: Ingeborg "crowned beside him"** — only she was crowned; Philip had been since 1179.
+- **15: the who-line said 1370** while the prose said "probably in 1370": "c. 1370". *Båhuslen*:
+  Bohuslän.
+- **16: "Oluf, aged five"** in October 1375 (four); **"a woman of thirty-six"** once I had anchored
+  the sentence to February 1388 (mid-thirties); **"three weeks before the market opened"** — which I
+  had written while correcting the herring season, from 14's date alone (§11.4); **"four months after
+  Åsle"** (nearly four).
+- **17: "nearly two centuries before a Danish king sent ships"** — Christian 1. sent Pining and
+  Pothorst in 1472/73 for this purpose; and "1605–07" is 1605 and 1606.
+- **18: "twenty-seven years of rule"** — October 1412 to 1439 is twenty-six; **the toll as a
+  grievance of 1426**, which I had kept while rewriting the sentence, three years before the toll is
+  documented; §03's "immediately, why the towns went to war" with it; **Katarina "brought north with
+  him"** — like him, not with him.
+- **20: Ove Bille** — I had cut "three kings" to two; DBL has him chancellor to Hans and the leading
+  statesman under Frederik 1. The page says that. **Tausen preached from 1525.**
+- **Outside the diff:** 21 had the Norway clause in "the recess of 1536", and Ditmarschen six times.
+  Both fixed (§11.2).
+
+**Declined, with a reason:** that Margrete Sambiria's request was only nearly granted, as I first
+wrote from DBL — the checker's lex, which names the surviving letter, is the better source, and DBL's
+dissent is recorded (§11.4). **Also taken, from its minor list:** Krogen was walled about 1400 and
+built up by Erik in the 1420s (Trap), not built by him; the gloss, §03 and the Myth-check say so.
+
+**Verified** in a scratch clone: the five changed figure scripts, `build_part_d.py`,
+`build_part_e.py`, `build_part_f.py` (no `!!`, no STALE), `linkindex`, `index_generator`, then the
+suite: **debuild 45 identical; 45 of 45, 339,256 page words, 26.9 h (Part D 32,106, Part E 35,082,
+Part F 29,497); vignettes 139/109, D-9 failures 16, 17, 18, 20, selftest passes; figcheck 98/30/0;
+draftnotes clean; appcheck 159; freshcheck 14; tidy clean; seams pass; sweeps: 2 pointers solvent, 0
+same-page glosses, Schleswig 178 / Slesvig 99, sweep_facts 5, arrows form 7, D-1 0, prose references
+0, solvency 41.** One OVER, 16 §08, 852. mapfixture not re-run: no map script changed.
+
+### 11.9 Decisions for Carsten — Part E, one at a time
+
+Each recommendation is a first search, not a text; its facts are checked again when it is carried out
+(item 143).
+
+**R-10. 16 has no woman as agent** — in the one chapter whose subject is a woman. *Recommendation:*
+**Margrete at the Lund landsting, about 10 August 1387, 16 §04, `[f]`, by re-scoping the acclamation
+paragraphs already there** (D-13, as R-8): a week after Oluf's death, taken and acclaimed
+*fuldmægtig frue og husbond og det ganske rige Danmarks formynder* (Kvindebiografisk *Margrete 1.*),
+the coup-or-crisis argument moving into the vignette's close. About 300 words. *Alternative:* her
+letter of 7 December 1375 in §01 — the same D-13 re-scope, and thinner. (The Akershus letter is 15's
+now.)
+
+**R-11. 16 has no non-elite subject.** *Recommendation:* **the Victual Brothers at Bergen, after
+Easter 1393, 16 §06, `[n]`** — eighteen ships from Wismar and Rostock, a landing on Nordnes, a fight
+with the townsmen at Vågsbunnen, the town plundered and burned (SNL *vitaliebrødrene*; Bergen
+byleksikon; Icelandic annals). §06 gives the privateers one general sentence; this is the particular.
+No leader is securely named. About 250 words. *Alternative:* the Käpplinge burning of Stockholm
+burghers, 1389 — its date and even its reality are argued.
+
+**R-12. 17 has no woman as agent.** *Recommendation:* **Margrete's gift letter, Kalundborg, 8 December
+1411, 17 §05, `[f]`** — masses, 130 pilgrims to more than fifty shrines, and payment "til gengæld for
+det, som er sket i krigen", including to women violated in her Swedish wars (danmarkshistorien, the
+letter's text). §05's "gave land and money on a scale that shows plainly in the records" becomes the
+pointer. About 300 words. *Alternative:* her instruction to Erik of 1405, in §02 (danmarkshistorien,
+the text): 53 points, "du maa ikke gøre noget før jeg kommer" — but §02 already paraphrases it.
+
+**R-13. 18 has no non-elite subject.** *Recommendation:* **re-scope the Reventlow vignette to the
+peasants at Sankt Jørgensbjerg, June 1441, `[n]`** — the rising's subject was the peasantry, and the
+mass grave excavated in 1964 and Huitfeldt's "600 … others say 1800" (Skalk) put them on the page;
+Reventlow stays inside it. The May/June dating is checked first. *Alternative:* Bartholomeus Voet's
+sack of Bergen, 1429 (Bergen byleksikon) — a hired pirate captain, whose own origins are
+undocumented.
+
+**R-14. 20 has no woman as agent.** *Recommendation:* **Anne Meinstrup, Ringsted, 20 January 1535,
+20 §06, `[f]`** — a woman who held Højstrup on Stevns as a royal fief from 1507, sided with Count
+Christoffer against her own son, and was cut down at the Ringsted assembly by Copenhagen burgher
+soldiers of the count's following (Kvindebiografisk *Anne Meinstrup*; lex). The vignette must show
+her holding the fief and taking the side, not only her death. About 300 words. *Alternative:* Queen
+Elisabeth, Christian 2.'s wife, taking communion in both kinds at Nürnberg in 1524 while pleading his
+cause (Kvindebiografisk) — outside Denmark, inside the span.
+
+Until they are answered and carried out, `vignettes.py` reports 16, 17, 18 and 20 as D-9 failures,
+and that is correct.

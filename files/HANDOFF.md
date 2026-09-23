@@ -4474,6 +4474,77 @@ split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see it
    trusted a fallback over the document it summarised. *A correction is a claim like any other: source
    it from the best thing that says it, not from the first.*
 
+145. **The consistency review, session 7: Part D's four vignettes written, Part E read, tagged and
+   checked.** 23 September 2026. Full record in `REVIEW-CONSISTENCY.md` §11.
+
+   **Cold run on a fresh clone of `eed5803`: every figure matched START_HERE_review_7.** Item 144's
+   pages were pushed in their own commit (`5a60c3b`) rather than with the sources; no drift.
+
+   **R-6 TO R-9 CARRIED OUT, with the recommendations' facts checked first.** Queen Bodil going on
+   alone from Paphos after Erik's death, July 1103 (12 §06, `[f]`); Ingeborg, crowned at Amiens and
+   repudiated the same day, 15 August 1193, who would not go home (13 §09, `[f]`); Margrete
+   Sambiria commanding at Lohede, 28 July 1261, re-scoped out of 14 §04's paragraph (D-13, `[f]`),
+   with Niels Ebbesen retagged `[n]`; and 15 §12's vignette extended with the Akershus letter of 18
+   October, c. 1370 (`[f]`). The recommendations had Erik's son Harald Kesja as his brother, Ingeborg
+   crowned "beside" Philip, Margrete Sambiria freed "with the boy" (she in 1262, he in 1264) and
+   "came close" to papal authorisation (lex: the letter granting it survives). 14 §04's Jakob
+   Erlandsen vignette lost three errors on the way: arrested "at Hagenskov", the interdict that "came
+   down", and "exile". **No D-9 failure in Parts A–D.**
+
+   **PART E READ.** Eighty-seven entries in §11.2, well over a hundred errors of fact and of the book
+   against itself, **thirty-four of them intervals and ages** (Part C nine, Part D sixteen). Among them: Oluf dying "at seventeen"
+   (sixteen) and "in front of witnesses from a dozen countries" three weeks before the market; a
+   *håndfæstning* "at every accession", including 1396, which had none; Margrete "installed as
+   regent of Sweden in October 1389" and "Dronning Margretes Fred" (neither found); Erslev's study
+   "1892" (1882) and his reading reversed, and "Bagh (2003)" for Hedemann (2011); Greenland "stopping
+   existing" and "nobody in Copenhagen noticing" (kings sent ships from 1472/73); *fæste* ending in
+   the 1780s (1919); Erik of Pomerania closing the Belts (they were tolled at Nyborg) and
+   strengthening Kärnan (Erik Menved's); Krogen "pulled down" for Kronborg (rebuilt around it); the
+   toll a grievance of 1426, three years before it is documented; the buy-out "fourteen years'
+   income" (twelve); Katarina "brought south … in chapter 17"; the Ribe election dated to the charter
+   and given a resistance clause it lacks; Kristina Gyllenstierna's "mother-in-law"; Christian 3.
+   "thirty-nine" (twenty-nine) and Rantzau "fifty-two" (forty-two); the Norway clause of 1536 put in
+   the recess (it is Christian 3.'s charter — also fixed in 21); "two of the arrested bishops went on
+   to serve the new church" (none did); Ove Bille chancellor to "three kings". D-B carried out:
+   **Dithmarschen** in 19 (11), 20 (1), 21 (6) and the config, and 16–18's "Ditmarsken" in prose. D-15:
+   Parts A–F have no Slesvig in prose (Schleswig 178 / Slesvig 99). D-13: no case. Recall's four
+   exact repeats replaced: 16 1/5, 17 1/5, 18 0/6, 19 1/6, 20 1/6.
+
+   **THE PADDED-CHAPTER GUARD, GIVEN TO PART E — AND IT FIRED FALSELY FIRST.** 18 §11 uses "entry"
+   twice for a line in the toll register; those two phrases, and only they, are allowed. **Shown
+   firing** on "chapter\n07" and "this entry" planted in a scratch 17, and on a third "entry" in 18.
+
+   **D-9 IN PART E.** Fifteen who-lines tagged. **16 has neither `[f]` nor `[n]` — in the chapter
+   whose subject is Margrete — 17 and 20 no `[f]`, 18 no `[n]`**: R-10 to R-14 (§11.9), put to
+   Carsten one at a time: Margrete at Lund, August 1387, re-scoped from 16 §04; the Victual Brothers
+   at Bergen, 1393; Margrete's gift letter of 8 December 1411; the peasants at Sankt Jørgensbjerg,
+   1441, re-scoped from the Reventlow vignette; Anne Meinstrup at Ringsted, 20 January 1535.
+
+   **CHECKED BY A SEPARATE AGENT**, which found twelve slips, most of them mine: "a woman of
+   thirty-six" once I had anchored her to 1388; "three weeks before the market opened", written while
+   removing a date the sources do not support; "twenty-seven years of rule"; the toll kept as a 1426
+   grievance while I rewrote the sentence; "nearly two centuries" before a Danish king sent ships;
+   and 21's recess and Ditmarschen, outside the diff. All resolved (§11.8).
+
+   **FOUND, NOT CHANGED** (§11.4): 20's land-share figure has no source (Den Store Danske: the crown
+   about a tenth before, 40–50 per cent after) — for the library; the herring market's opening (14
+   says 24 August, Swedish accounts late July); dead checkpoint blocks in 16–20's bodies, stripped by
+   the build, one of them (20's coda) never shipped.
+
+   **VERIFIED** in a scratch clone: the five changed figure scripts, build D, E and F (no `!!`, no
+   STALE), `linkindex`, `index_generator`, then the whole suite: **debuild 45 identical; 45 of 45,
+   339,256 page words, 26.9 h (Part D 32,106, Part E 35,082, Part F 29,497); vignettes 139/109, D-9
+   failures 16, 17, 18, 20, selftest passes; figcheck 98/30/0; draftnotes clean; appcheck 159;
+   freshcheck 14; tidy clean; seams pass; sweeps: 2 pointers solvent, 0 same-page glosses, Schleswig
+   178, sweep_facts 5, D-1 0, prose references 0, solvency 41.** One OVER, 16 §08 (852) — which
+   START_HERE_review_7 called 17 §08. mapfixture not re-run: no map script changed.
+
+   **LESSON.** The checker found that three of my corrections were themselves wrong intervals, and one
+   of them I had made while taking out an unsourced date: I replaced it with a precise one computed
+   from another chapter's figure, which was the same error at one remove. And the new guard failed
+   the first honest page it met. *A fix is prose too, and a guard is a claim too: run both against
+   the real thing before trusting either.*
+
 ---
 
 

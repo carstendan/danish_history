@@ -128,7 +128,7 @@ CFG = {
         "Who was Engelbrekt, what class did he come from, and why did the Swedish council join a "
         "rising it had every reason to fear?"]),
       ("What the toll bought", [
-        "Who deposed Erik of Pommern, on what instrument, and what did he do afterwards?",
+        "Who deposed Erik of Pomerania, on what instrument, and what did he do afterwards?",
         "What did Christoffer of Bavaria concede to get three crowns \u2014 and what did he manage "
         "<em>not</em> to concede?",
         "Why did cattle rather than grain become Jutland's export, and which class was placed to "
@@ -160,13 +160,13 @@ CFG = {
         "made the second out of the first?"]),
       ("Denmark in 1500", [
         "How did Orkney and Shetland leave the Danish realm, and in which years?",
-        "What was the ground at Hemmingstedt, and what did the Ditmarschers do with it?",
+        "What was the ground at Hemmingstedt, and what did the Dithmarschers do with it?",
         "What was lost with Hans von Ahlefeldt, and why does chapter 13 care?"]),
       ("Stockholm, November 1520", [
         "What was <i class=\"dk\">vornedskab</i>, where did it apply, and where did it not?",
         "Name three things Christian 2.'s laws of 1521\u201322 did, and say whom each of them "
         "annoyed.",
-        "Who was Sigbrit Villumsdatter, and what office did she hold?"]),
+        "Who was Sigbrit Villoms, and what office did she hold?"]),
     ]),
  20: dict(
     name='20-reformation-and-the-counts-feud.html',
@@ -191,7 +191,7 @@ CFG = {
         "countryside or the court?",
         "What was the <i class=\"dk\">Confessio Hafnica</i>, and what was decided about it?"]),
       ("\u00d8ksnebjerg", [
-        "What did the council of the realm do in 1533 that no Danish council had done before?",
+        "What did the council of the realm do in 1533 instead of electing a king, and why?",
         "Why did the Jutland bishops in July 1534 vote for a king they knew was a Lutheran?",
         "What happened at Svenstrup on 16 October 1534, and at Aalborg two months later?"]),
       ("Where the land went", [
@@ -260,11 +260,28 @@ def build(n, c):
     return h
 
 
+LEDGER_ENTRY = {18: ['That is the whole entry', 'the entries get longer']}
+
 print("--- Part E ---")
 fail = 0
 for n in sorted(CFG):
     c = CFG[n]
     h = build(n, c)
+    # Retired vocabulary, as build_parts_abc.py (review session 5, §9.6) and
+    # build_part_d.py (session 6, §10.6) check it, given to this part in review
+    # session 7: until then nothing here could see a padded "chapter 07" on a Part E
+    # page. \s+, not a space, so a line break inside the phrase does not hide it.
+    # Chapter 18 uses "entry" in its ordinary sense, twice, for a line in the Sound
+    # toll register; those two phrases, and only those, are allowed. Any other use
+    # still fails, so a retired "this entry" meaning a chapter cannot hide behind them.
+    prose = re.sub(r'<script>.*?</script>', '', h, flags=re.S)
+    for ok in LEDGER_ENTRY.get(n, []):
+        prose = prose.replace(ok, '', 1)
+    stale = {k: len(re.findall(p, prose)) for k, p in
+             [('Band X', r'\bBand [A-I]\b'), ('entry', r'\b[Ee]ntr(?:y|ies)\b'),
+              ('Era page', r'Era page'),
+              ('padded', r'\b[Cc]hapters?\s+(?:\d+\s+(?:to|and|or)\s+)?0\d\b')]}
+    stale = {k: v for k, v in stale.items() if v}
     css = h.split('<style>')[1].split('</style>')[0]
     ids = set(re.findall(r'id="([a-z0-9]+)"', h))
     links = set(re.findall(r'href="#([a-z0-9]+)"', h))
@@ -283,10 +300,13 @@ for n in sorted(CFG):
     print("  checkpoints %d | vignettes %d | meanwhile %d | figures %d | terms %d | tail in rail+toc %s"
           % (h.count('class="check"'), h.count('class="vig"'), h.count('class="meanwhile"'),
              h.count('<figure>'), h.count('class="terms"'), 'ok' if tail_ok else 'BAD'))
-    print("  part %s | words %d (~%d min)"
-          % ('ok' if '--band:%s;' % PART_E in h else 'BAD', w, round(w / 210)))
+    print("  part %s | vocabulary %s | words %d (~%d min)"
+          % ('ok' if '--band:%s;' % PART_E in h else 'BAD',
+             'clean' if not stale else 'STALE ' + str(stale), w, round(w / 210)))
     for m in re.finditer(r'<div class="check">.*?</div>\s*<h2 id="(s\d\d)">(.*?)</h2>', h, re.S):
         print("  checkpoint before %s  %s"
               % (m.group(1), re.sub(r'<[^>]+>', '', m.group(2)).strip()))
-    fail += bool(bad) or h.count('{{') or not (links <= ids) or not tail_ok
+    fail += (bool(bad) + bool(stale) + (not links <= ids) + bool(h.count('{{'))
+             + (not tail_ok) + ('--band:%s;' % PART_E not in h))
+print("\n%s" % ('all five built clean' if not fail else '!! %d problems' % fail))
 sys.exit(1 if fail else 0)

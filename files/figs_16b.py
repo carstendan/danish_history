@@ -117,7 +117,7 @@ def brondum():
              % (yb + 34, W - 26, yb + 34, RULE))
     for i, l in enumerate([
             "One estate in one poor district of north-west Himmerland, and it must not be made a national average.",
-            "But deserted farms peak across Denmark in the twenty years after 1400, not in the plague decades \u2014 and",
+            "But deserted farms peak across Denmark around 1400, not in the plague decades \u2014 and",
             "this is the kind of document a landlord was reading when he decided what rent he could still ask."]):
         o.append(t(26, yb + 58 + i * 16, l, "mapx", MUTED))
     o.append('</svg>')

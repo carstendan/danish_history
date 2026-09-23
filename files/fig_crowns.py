@@ -17,7 +17,7 @@ NEAR = (2.0, 50.0, 26.0, 64.0)      # generous margin around the view
 
 STOPS = [
     (1, 12.85, 55.38, "Falsterbo", "start", 0, 13,
-     "3 Aug 1387 \u00b7 King Oluf dies at seventeen"),
+     "3 Aug 1387 \u00b7 King Oluf dies at sixteen"),
     (2, 13.19, 55.70, "Lund", "start", 0, 0,
      "a week later \u00b7 hailed <i>fuldm\u00e6gtig frue og husbond</i>"),
     (3, 10.75, 59.91, "Oslo", "start", 0, 0,

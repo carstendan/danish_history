@@ -41,7 +41,7 @@ def sound():
 
     for lon, lat, name, anchor, note in [
             (12.615, 56.038, "Helsing\u00f8r", "end", "Krogen, built for the toll"),
-            (12.700, 56.046, "Helsingborg", "start", "K\u00e4rnan, strengthened"),
+            (12.700, 56.046, "Helsingborg", "start", "K\u00e4rnan"),
             (12.575, 55.676, "K\u00f8benhavn", "end", "the king's residence"),
             (13.000, 55.605, "Malm\u00f8", "start", "Malm\u00f8hus"),
             (12.830, 55.870, "Landskrona", "start", "founded 1413"),
@@ -69,7 +69,7 @@ def sound():
     for i, s in enumerate([
             "Valdemar Atterdag recovered Sk\u00e5ne in 1360 (chapter 15). Without that, none of this",
             "is possible: a toll on a strait needs both banks, or the ships simply hug the other one.",
-            "Foreign ships were forbidden the Great and Little Belts, so there was no way round."]):
+            "A ship that took the Great Belt paid at Nyborg instead, so there was no free way round."]):
         o.append('<text x="14" y="%d" class="mapx" fill="%s">%s</text>' % (H + 44 + i * 16, MUTED, s))
     o.append('</svg>')
     return "\n  ".join(o), W, H + STRIP
@@ -81,8 +81,7 @@ def toll():
     o = ['<svg viewBox="0 0 %d %d" xmlns="http://www.w3.org/2000/svg" role="img" '
          'aria-label="Diagram of the Sound toll as introduced about 1429: one English noble per '
          'ship with a topmast, paid at Helsingor, with small craft exempt, Hanseatic towns '
-         'exempt by privilege, and union subjects not foreign. Below, what the toll became: a '
-         'cargo duty from 1567 and an income lasting to 1857.">' % (W, H),
+         'exempt by privilege, and union subjects not foreign.">' % (W, H),
          '<rect x="0" y="0" width="%d" height="%d" fill="%s"/>' % (W, H, M.PAPER)]
 
     o.append('<text x="26" y="34" class="mapt" fill="%s">THE RULE, c. 1429</text>' % PART_E)
@@ -96,8 +95,8 @@ def toll():
                              "a number of Hanseatic towns, later Dutch ones too"]),
             ("Where", ["At Helsing\u00f8r, under the guns of Krogen \u2014 moved there",
                        "from Helsingborg, where the Sk\u00e5ne toll had been taken"]),
-            ("Why it worked", ["Both banks Danish since 1360, and the Belts closed",
-                               "to foreigners. There was no other door into the Baltic"])]
+            ("Why it worked", ["Both banks Danish, and the Great Belt tolled at",
+                               "Nyborg. There was no free door into the Baltic"])]
     y = 96
     for i, (head, lines) in enumerate(rows):
         o.append('<text x="26" y="%d" class="mapl" fill="%s">%s</text>' % (y, PART_E, head))
