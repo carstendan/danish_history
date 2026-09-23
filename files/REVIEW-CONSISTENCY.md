@@ -2052,6 +2052,10 @@ the coup-or-crisis argument moving into the vignette's close. About 300 words. *
 letter of 7 December 1375 in §01 — the same D-13 re-scope, and thinner. (The Akershus letter is 15's
 now.)
 
+**Answered 23 September 2026: as recommended.** Margrete at the Lund landsting, about 10 August
+1387, as 16 §04's `[f]` vignette, by re-scoping the acclamation paragraphs already there, to be
+sourced, drafted and checked in review session 8.
+
 **R-11. 16 has no non-elite subject.** *Recommendation:* **the Victual Brothers at Bergen, after
 Easter 1393, 16 §06, `[n]`** — eighteen ships from Wismar and Rostock, a landing on Nordnes, a fight
 with the townsmen at Vågsbunnen, the town plundered and burned (SNL *vitaliebrødrene*; Bergen
