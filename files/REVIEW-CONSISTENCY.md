@@ -2063,6 +2063,9 @@ byleksikon; Icelandic annals). §06 gives the privateers one general sentence; t
 No leader is securely named. About 250 words. *Alternative:* the Käpplinge burning of Stockholm
 burghers, 1389 — its date and even its reality are argued.
 
+**Answered 23 September 2026: as recommended.** The Victual Brothers at Bergen, 1393, as 16 §06's
+`[n]` vignette, to be sourced, drafted and checked in review session 8.
+
 **R-12. 17 has no woman as agent.** *Recommendation:* **Margrete's gift letter, Kalundborg, 8 December
 1411, 17 §05, `[f]`** — masses, 130 pilgrims to more than fifty shrines, and payment "til gengæld for
 det, som er sket i krigen", including to women violated in her Swedish wars (danmarkshistorien, the

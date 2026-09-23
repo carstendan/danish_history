@@ -171,7 +171,8 @@ c. 1370 and retagged `[f]`. All four are for review session 7; until they are ca
 D-9 failure in Parts A–D** (`REVIEW-CONSISTENCY.md` §11.1). **Part E tagged the same day: 16 carries
 neither, 17 and 20 no `[f]`, 18 no `[n]`** — R-10 to R-14 (§11.9), not tagged away.
 **R-10 answered 23 September 2026 as recommended:** Margrete at the Lund landsting, 1387, re-scoped
-from 16 §04's acclamation paragraphs (`[f]`), for review session 8.
+from 16 §04's acclamation paragraphs (`[f]`), for review session 8. **R-11 answered the same day as
+recommended:** the Victual Brothers at Bergen, 1393 (16 §06, `[n]`), for review session 8.
 
 **Checked by.** `vignettes.py` balance layer, which reports such a chapter as
 "[f] part" — and still as FAIL if no chapter of its part carries `[f]`.
