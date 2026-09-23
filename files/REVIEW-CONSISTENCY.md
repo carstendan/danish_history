@@ -2073,6 +2073,9 @@ letter's text). §05's "gave land and money on a scale that shows plainly in the
 pointer. About 300 words. *Alternative:* her instruction to Erik of 1405, in §02 (danmarkshistorien,
 the text): 53 points, "du maa ikke gøre noget før jeg kommer" — but §02 already paraphrases it.
 
+**Answered 23 September 2026: as recommended.** Margrete's gift letter of 8 December 1411 as 17 §05's
+`[f]` vignette, to be sourced, drafted and checked in review session 8.
+
 **R-13. 18 has no non-elite subject.** *Recommendation:* **re-scope the Reventlow vignette to the
 peasants at Sankt Jørgensbjerg, June 1441, `[n]`** — the rising's subject was the peasantry, and the
 mass grave excavated in 1964 and Huitfeldt's "600 … others say 1800" (Skalk) put them on the page;
