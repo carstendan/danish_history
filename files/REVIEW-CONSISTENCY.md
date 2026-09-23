@@ -1696,6 +1696,11 @@ armed landholding class, and `[n]` would be the weakest in the book. *If (b) is 
 for §02 *The last thralls* from Jyske Lov's thrall provisions, which name no one — the part's
 evidence here really is thin.
 
+**Answered 23 September 2026: as recommended, both parts.** Margrete Sambiria as 14 §04's `[f]`
+vignette, by re-scoping the paragraph already there, and the Niels Ebbesen vignette retagged `[n]`
+on the page's own ground — the weakest `[n]` in the book, and recorded as such. For review
+session 7.
+
 **R-9. 15 has no woman as agent.** *Recommendation:* **extend 15 §12's vignette with Margrete's own
 letter from Akershus, c. 1370** — the *nødbrev* in the Norwegian National Archives, in which the
 queen, about seventeen, writes to Håkon that she and her household lack food. It turns the vignette

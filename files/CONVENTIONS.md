@@ -160,7 +160,9 @@ recommended:** Ragnhild at Glavendrup (08 §04, `[f]`) and the Trelleborg garris
 tagged the same day: no chapter carries `[f]`, and 14 carries no `[n]`** — R-6 to R-9
 (`REVIEW-CONSISTENCY.md` §10.9), not tagged away. **R-6 answered 22 September 2026 as
 recommended:** Queen Bodil (12 §06, `[f]`), for review session 7. **R-7 answered the same day
-as recommended:** Ingeborg, repudiated by Philip II (13 §09, `[f]`), for review session 7.
+as recommended:** Ingeborg, repudiated by Philip II (13 §09, `[f]`), for review session 7. **R-8
+answered 23 September as recommended, both parts:** Margrete Sambiria re-scoped into a vignette
+(14 §04, `[f]`) and Niels Ebbesen retagged `[n]`, the weakest in the book and recorded as such.
 
 **Checked by.** `vignettes.py` balance layer, which reports such a chapter as
 "[f] part" — and still as FAIL if no chapter of its part carries `[f]`.
