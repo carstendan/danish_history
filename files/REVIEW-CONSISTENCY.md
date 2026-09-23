@@ -1820,7 +1820,7 @@ five-year-old son" at Valdemar's death (October 1375, and Oluf was born at Chris
 | 18 §08 | Katarina "one of the two Pomeranian grandchildren Margrete had brought south … in chapter 17" | Erik's sister, called north like him, married into the Wittelsbach house; 17 does not tell it | DBL *Catharina* |
 | 18 vignette | 1441 grievances "the tithe … reimposed after his coronation"; executed "six days later, on 12 June" | coronation 1 January 1443, after the rising; dues pressed by nobles, prelates and crown; "about a week later"; the bishop's tithe came in 1443 | DBL *Reventlow*, *Christoffer 3.* |
 | 18 §10 | Dorothea "eighteen" in 1449 | about nineteen | DBL *Dorothea* |
-| 18 §11 | 33½ million rigsdaler "fourteen years' income"; the Dutch "in 1650" | twelve years'; 1649 | danmarkshistorien *Øresundstolden* |
+| 18 §11 | 33½ million rigsdaler, "fourteen years' income"; the Dutch "in 1650" | 30,476,325 rigsdaler, which the treaty's editors call fourteen years' income; 1649. *First changed to "twelve years'" from a secondary page's 33½ million; corrected from the treaty (§11.8a)* | danmarkshistorien *Øresundstraktaten, 14. marts 1857*, art. 4 |
 | 18 Meanwhile | 1453 "closing the eastern Mediterranean to Genoese and Venetian trade" | "unsettling" | |
 | 18 Five | Engelbrekt "a mine-owner" | a minor nobleman from the mining country, as the vignette says | |
 | 18 §09 | *vornedskab* "formalised later in this century" | a custom that takes hold later in the century | lex *vornedskab* |
@@ -2021,11 +2021,23 @@ built up by Erik in the 1420s (Trap), not built by him; the gloss, §03 and the 
 
 **Verified** in a scratch clone: the five changed figure scripts, `build_part_d.py`,
 `build_part_e.py`, `build_part_f.py` (no `!!`, no STALE), `linkindex`, `index_generator`, then the
-suite: **debuild 45 identical; 45 of 45, 339,256 page words, 26.9 h (Part D 32,106, Part E 35,082,
+suite: **debuild 45 identical; 45 of 45, 339,260 page words, 26.9 h (Part D 32,106, Part E 35,086,
 Part F 29,497); vignettes 139/109, D-9 failures 16, 17, 18, 20, selftest passes; figcheck 98/30/0;
 draftnotes clean; appcheck 159; freshcheck 14; tidy clean; seams pass; sweeps: 2 pointers solvent, 0
 same-page glosses, Schleswig 178 / Slesvig 99, sweep_facts 5, arrows form 7, D-1 0, prose references
 0, solvency 41.** One OVER, 16 §08, 852. mapfixture not re-run: no map script changed.
+
+**11.8a. Found after the check, in a second pass (session restarted).** A second set of
+fact-check agents, run over the unedited Part E, reported three things the patch had not settled:
+
+- **18 §11: the buy-out.** The treaty, art. 4, gives **30,476,325 rigsdaler**, and danmarkshistorien's
+  edition calls it fourteen years' income. The first pass had kept a secondary page's 33½ million and
+  changed "fourteen" to "twelve" to fit it — the right figure made wrong to match the wrong one. Now
+  "thirty and a half million … fourteen years' income". Item 144's lesson, a second time.
+- **17 and 19, visit blocks: Christian 2. at Sønderborg "seventeen years".** 9 August 1532 (DBL) to February
+  1549 (sonderborghistorier.dk; DBL gives the year only) is sixteen and a half (D-8): both now name the years, 1532 to 1549.
+- **20 and the config: *Confessio Hafnica*.** lex's headword, and the standard name, is *Confessio
+  Hafniensis*: four uses and one checkpoint.
 
 ### 11.9 Decisions for Carsten — Part E, one at a time
 

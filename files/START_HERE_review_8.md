@@ -25,7 +25,7 @@ Expected, as run after item 145's rebuild. `mapfixture.py` takes a few minutes; 
 - **tidy:** reports, deletes nothing. No collisions, no orphans, no missing figures; all 45 bodies present.
 - **mapfixture / seamcheck:** curated panel all correct; FIXTURE PASSES; SEAM LAYER PASSES.
 - **debuild:** 45 identical.
-- **bookstats:** 45 of 45, **339,256 page words, 26.9 h**. Part A 21,397; Part B 26,326; Part C 26,228; Part D 32,106; Part E 35,082; Part F 29,497; Part I 74,403.
+- **bookstats:** 45 of 45, **339,260 page words, 26.9 h**. Part A 21,397; Part B 26,326; Part C 26,228; Part D 32,106; Part E 35,086; Part F 29,497; Part I 74,403.
 - **vignettes:** **139 carry a place, 109 distinct**; selftest passes. Balance: 01, 03, 04, 05 "[f] part"; **D-9 FAILURES: 16, 17, 18, 20** (R-10 to R-14) unless they have been carried out; 21 onwards untagged.
 - **figcheck:** 98 match, 30 sourceless, 0 disagree.
 - **narrative:** one OVER, 16 §08 *Kalmar, 17 June*, 852. Known; not for cutting (D-16).

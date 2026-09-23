@@ -189,7 +189,7 @@ CFG = {
         "give his stated reason.",
         "Why did the Reformation arrive through the market towns rather than through the "
         "countryside or the court?",
-        "What was the <i class=\"dk\">Confessio Hafnica</i>, and what was decided about it?"]),
+        "What was the <i class=\"dk\">Confessio Hafniensis</i>, and what was decided about it?"]),
       ("\u00d8ksnebjerg", [
         "What did the council of the realm do in 1533 instead of electing a king, and why?",
         "Why did the Jutland bishops in July 1534 vote for a king they knew was a Lutheran?",

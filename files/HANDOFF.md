@@ -4500,8 +4500,8 @@ split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see it
    existing" and "nobody in Copenhagen noticing" (kings sent ships from 1472/73); *fæste* ending in
    the 1780s (1919); Erik of Pomerania closing the Belts (they were tolled at Nyborg) and
    strengthening Kärnan (Erik Menved's); Krogen "pulled down" for Kronborg (rebuilt around it); the
-   toll a grievance of 1426, three years before it is documented; the buy-out "fourteen years'
-   income" (twelve); Katarina "brought south … in chapter 17"; the Ribe election dated to the charter
+   toll a grievance of 1426, three years before it is documented; the buy-out "thirty-three and a half
+   million" (the treaty: 30,476,325 rigsdaler, fourteen years' income — first mis-corrected, §11.8a); Katarina "brought south … in chapter 17"; the Ribe election dated to the charter
    and given a resistance clause it lacks; Kristina Gyllenstierna's "mother-in-law"; Christian 3.
    "thirty-nine" (twenty-nine) and Rantzau "fifty-two" (forty-two); the Norway clause of 1536 put in
    the recess (it is Christian 3.'s charter — also fixed in 21); "two of the arrested bishops went on
@@ -4533,7 +4533,7 @@ split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see it
 
    **VERIFIED** in a scratch clone: the five changed figure scripts, build D, E and F (no `!!`, no
    STALE), `linkindex`, `index_generator`, then the whole suite: **debuild 45 identical; 45 of 45,
-   339,256 page words, 26.9 h (Part D 32,106, Part E 35,082, Part F 29,497); vignettes 139/109, D-9
+   339,260 page words, 26.9 h (Part D 32,106, Part E 35,086, Part F 29,497); vignettes 139/109, D-9
    failures 16, 17, 18, 20, selftest passes; figcheck 98/30/0; draftnotes clean; appcheck 159;
    freshcheck 14; tidy clean; seams pass; sweeps: 2 pointers solvent, 0 same-page glosses, Schleswig
    178, sweep_facts 5, D-1 0, prose references 0, solvency 41.** One OVER, 16 §08 (852) — which
