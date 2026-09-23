@@ -56,6 +56,6 @@
   <text x="214.0" y="293.0" class="mapx" fill="#6C6E63" text-anchor="start">34 lying waste — ødegårde</text>
   <line x1="26" y1="314" x2="874" y2="314" stroke="#C9CDC4" stroke-width=".8"/>
   <text x="26.0" y="338.0" class="mapx" fill="#6C6E63" text-anchor="start">One estate in one poor district of north-west Himmerland, and it must not be made a national average.</text>
-  <text x="26.0" y="354.0" class="mapx" fill="#6C6E63" text-anchor="start">But deserted farms peak across Denmark in the twenty years after 1400, not in the plague decades — and</text>
+  <text x="26.0" y="354.0" class="mapx" fill="#6C6E63" text-anchor="start">But deserted farms peak across Denmark around 1400, not in the plague decades — and</text>
   <text x="26.0" y="370.0" class="mapx" fill="#6C6E63" text-anchor="start">this is the kind of document a landlord was reading when he decided what rent he could still ask.</text>
   </svg>

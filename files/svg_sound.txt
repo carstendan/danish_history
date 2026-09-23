@@ -10,7 +10,7 @@
   <text x="313.7" y="183.1" class="mapx" text-anchor="end">Krogen, built for the toll</text>
   <circle cx="344.7" cy="163.9" r="3" fill="#221E18"/>
   <text x="350.7" y="167.3" class="mapl" text-anchor="start">Helsingborg</text>
-  <text x="350.7" y="178.9" class="mapx" text-anchor="start">Kärnan, strengthened</text>
+  <text x="350.7" y="178.9" class="mapx" text-anchor="start">Kärnan</text>
   <circle cx="307.7" cy="358.6" r="3" fill="#221E18"/>
   <text x="301.7" y="362.0" class="mapl" text-anchor="end">København</text>
   <text x="301.7" y="373.6" class="mapx" text-anchor="end">the king's residence</text>
@@ -36,5 +36,5 @@
   <text x="14" y="622" class="mapt" fill="#2E6B5E">BOTH SHORES, ONE HAND</text>
   <text x="14" y="644" class="mapx" fill="#6C6E63">Valdemar Atterdag recovered Skåne in 1360 (chapter 15). Without that, none of this</text>
   <text x="14" y="660" class="mapx" fill="#6C6E63">is possible: a toll on a strait needs both banks, or the ships simply hug the other one.</text>
-  <text x="14" y="676" class="mapx" fill="#6C6E63">Foreign ships were forbidden the Great and Little Belts, so there was no way round.</text>
+  <text x="14" y="676" class="mapx" fill="#6C6E63">A ship that took the Great Belt paid at Nyborg instead, so there was no free way round.</text>
   </svg>
