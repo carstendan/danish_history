@@ -183,7 +183,9 @@ recommended:** the Reventlow vignette re-scoped to the peasants at Sankt Jørgen
 Ringsted, 20 January 1535 (20 §06, `[f]`), for review session 8. All five are for session 8; until
 they are carried out, `vignettes.py` reports 16, 17, 18 and 20 as D-9 failures, correctly. **Carried
 out in session 8: no D-9 failure in Parts A–E** (`REVIEW-CONSISTENCY.md` §12.1). **Part F tagged the
-same day: 21 carries no `[n]`** — R-15 (§12.9), not tagged away.
+same day: 21 carries no `[n]`** — R-15 (§12.9), not tagged away. **R-15 answered 24 September 2026
+as recommended:** Rasmus Pedersen, Tycho Brahe's tenant, Hven 1590–92 (21 §08, `[n]`), for review
+session 9; until it is carried out, `vignettes.py` reports 21 as a D-9 failure, correctly.
 
 **Checked by.** `vignettes.py` balance layer, which reports such a chapter as
 "[f] part" — and still as FAIL if no chapter of its part carries `[f]`.

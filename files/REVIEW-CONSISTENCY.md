@@ -2388,4 +2388,8 @@ The village and the Danish wording are to be found first (Kancelliets Brevbøger
 Christianson). *Alternative:* the peasants of Tuna on Hven and the commission of April 1597 — no one
 named, and after the chapter's end.
 
-Until it is answered and carried out, `vignettes.py` reports 21 as a D-9 failure, and that is correct.
+**Answered 24 September 2026: as recommended.** Rasmus Pedersen, Tycho Brahe's tenant, 1590–92, as
+21 §08's `[n]` vignette, replacing "a documented case", to be sourced, drafted and checked in review
+session 9.
+
+Until it is carried out, `vignettes.py` reports 21 as a D-9 failure, and that is correct.
