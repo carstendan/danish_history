@@ -5,7 +5,7 @@
   <line x1="350" y1="64" x2="350" y2="392" stroke="#C9CDC4" stroke-width="1"/>
   <text x="26" y="86" class="mapl">JYSKE LOV, 1241</text>
   <text x="26" y="102" class="mapt">a full mandebod: 3 × 18 marks,</text>
-  <text x="26" y="116" class="mapt">and 3 more to the king — about an ox</text>
+  <text x="26" y="116" class="mapt">owed to the dead man's heirs and kin</text>
   <text x="26" y="146" class="mapx">PRICED AS A FRACTION OF IT</text>
   <rect x="26" y="168" width="96.0" height="10" fill="#2F4C7A" opacity=".55"/>
   <text x="130" y="176" class="mapt">Tongue, or nose</text>
@@ -16,7 +16,7 @@
   <rect x="26" y="234" width="24.0" height="10" fill="#2F4C7A" opacity=".55"/>
   <text x="130" y="242" class="mapt">An ear</text>
   <text x="26" y="266" class="mapt">An ear is a quarter, the law says,</text>
-  <text x="26" y="279" class="mapt">because it can be covered with a cap.</text>
+  <text x="26" y="279" class="mapt">because it can be covered by cap and hair.</text>
   <text x="26" y="308" class="mapx">AND PAID IN THREE SHARES</text>
   <rect x="26" y="319" width="52" height="12" fill="#2F4C7A" opacity=".45"/>
   <text x="88" y="328" class="mapt">1/3 — The killer himself</text>
@@ -45,6 +45,6 @@
   <text x="382" y="384" class="mapt">Compensation to a family is not part of that</text>
   <text x="382" y="398" class="mapt">arrangement anywhere.</text>
   <line x1="26" y1="406" x2="674" y2="406" stroke="#C9CDC4" stroke-width="1"/>
-  <text x="26" y="426" class="mapt">Roughly two thirds of Jyske Lov was carried forward into Danske Lov, and a few</text>
-  <text x="26" y="440" class="mapt">of its provisions are still in force. The kin's share of the debt was not.</text>
+  <text x="26" y="426" class="mapt">About a third of Danske Lov's provisions came from the old provincial laws.</text>
+  <text x="26" y="440" class="mapt">The kin's share of the debt was not among them.</text>
   </svg>

@@ -80,11 +80,11 @@ COLLEGES = [
 
 
 def routing():
-    W, H = 700, 480
+    W, H = 700, 412
     o = ['<svg viewBox="0 0 %d %d" xmlns="http://www.w3.org/2000/svg" role="img" '
          'aria-label="Diagram comparing how a decision was made before and after 1660. On the '
          'left, five different kinds of question - a tax, a fortress, a ship, an appeal, a '
-         'trading licence - all go to the single Council of the Realm, twenty noblemen who '
+         'trading licence - all go to the single Council of the Realm, twenty-odd noblemen who '
          'discussed everything, and only then to the king. On the right, each question goes to '
          'its own standing college of full-time officials, the colleges report to the Council of '
          'State, and the king decides alone. The council of noblemen has no place in the second '
@@ -96,7 +96,7 @@ def routing():
 
     o.append('<text x="26" y="76" class="mapl">BEFORE</text>')
     o.append('<text x="382" y="76" class="mapl">AFTER</text>')
-    o.append('<line x1="352" y1="64" x2="352" y2="410" stroke="%s" stroke-width="1"/>' % RULE)
+    o.append('<line x1="352" y1="64" x2="352" y2="396" stroke="%s" stroke-width="1"/>' % RULE)
 
     # ---- left: everything funnels into one body
     qy0, qgap = 104, 26
@@ -141,17 +141,11 @@ def routing():
     o.append('<path d="M 595 260 L 595 292" fill="none" stroke="%s" stroke-width="1.2"/>' % MUTED)
     o.append('<rect x="546" y="294" width="98" height="30" rx="3" fill="%s" opacity=".18"/>' % VERD)
     o.append('<text x="595" y="314" class="mapl" text-anchor="middle">the king</text>')
-    for i, line in enumerate(wrap("Standing offices, each with one subject, staffed by men who "
-                                  "came in every day. Half of H\u00f8jesteret's judges were not "
+    for i, line in enumerate(wrap("An office for each kind of business, with full-time staff. "
+                                  "Half of H\u00f8jesteret's judges were not "
                                   "noble, and the king appointed all of them.", 40)):
         o.append('<text x="382" y="%d" class="mapt">%s</text>' % (352 + i * 13, line))
 
-    b = 410
-    o.append('<line x1="26" y1="%d" x2="674" y2="%d" stroke="%s" stroke-width="1"/>' % (b, b, RULE))
-    o.append('<text x="26" y="%d" class="mapt">The council was never abolished. It stopped being '
-             'summoned, and after a while it had not met</text>' % (b + 20))
-    o.append('<text x="26" y="%d" class="mapt">for long enough that it was clear it was not going '
-             'to be.</text>' % (b + 34))
     o.append('</svg>')
     return "\n  ".join(o)
 
@@ -165,9 +159,11 @@ DUES = [
     ("Rye", "3 barrels", "1 barrel of rye = 1 barrel hartkorn", 3 * ALB_TDR),
     ("Barley", "2 barrels", "1 barrel of barley = 1 barrel hartkorn", 2 * ALB_TDR),
     ("Oats", "5 barrels", "2 barrels of oats = 1 barrel hartkorn", 5 * ALB_TDR // 2),
-    ("Butter", "1 lispund", "valued and converted", 108),
+    # Butter and geese at the rates recorded for Antvorskov (1 td butter = 12 td hk;
+    # 2 geese = 1 skp hk), slaegtsbibliotek.dk/900059.pdf. Pig and carting illustrative.
+    ("Butter", "1/8 barrel", "1 barrel of butter = 12 barrels hartkorn", 12 * ALB_TDR // 8),
     ("A pig", "one", "valued and converted", 48),
-    ("Geese", "two", "valued and converted", 14),
+    ("Geese", "two", "2 geese = 1 skæppe hartkorn", 12),
     ("Carting", "4 days", "valued and converted", 24),
 ]
 
@@ -184,7 +180,7 @@ def hartkorn():
     W = 700
     top = 118
     gap = 30
-    H = top + len(DUES) * gap + 176
+    H = top + len(DUES) * gap + 128
     o = ['<svg viewBox="0 0 %d %d" xmlns="http://www.w3.org/2000/svg" role="img" '
          'aria-label="A worked example of the 1664 land register. The left column lists what one '
          'tenant farm actually owed its landlord: rye, barley, oats, butter, a pig, two geese and '
@@ -238,18 +234,11 @@ def hartkorn():
     o.append('<text x="150" y="%d" class="mapt">1 t\u00f8nde = 8 sk\u00e6pper &#183; '
              '1 sk\u00e6ppe = 4 fjerdingkar &#183; 1 fjerdingkar = 3 album</text>' % y)
     y += 24
-    for line in wrap("Nothing here was measured. No commissioner walked a field. The register of "
-                     "1662, redone in 1664, took the landlords' own estate books and turned every "
-                     "kind of obligation - grain, dairy, livestock, labour - into one artificial "
-                     "unit, so that a farm on Funen and a farm in Vendsyssel could be added "
-                     "together and taxed at the same rate. Denmark measured its ground for the "
-                     "first time in 1682. Land was valued in hartkorn until 1903.", 96):
+    for line in wrap("Butter and geese are converted at the rates recorded for Antvorskov; the "
+                     "pig and the carting are given illustrative values. No field was measured "
+                     "for this: the ground itself was first surveyed in 1681-83.", 96):
         o.append('<text x="26" y="%d" class="mapt">%s</text>' % (y, line))
         y += 14
-    y += 6
-    o.append('<text x="26" y="%d" class="mapt" fill="%s">The quantities are a worked example '
-             'built from the conversion rules, not a transcription of one entry.</text>'
-             % (y, MUTED))
     o.append('</svg>')
     return "\n  ".join(o)
 

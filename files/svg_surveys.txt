@@ -1,7 +1,7 @@
-<svg viewBox="0 0 700 452" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Three panels showing the same state surveying land three times in seventy years: the Danish land register of 1662 and 1664, which converted dues into a single unit without measuring anything; the field survey of 1682 to 1683, which measured every cultivated field in Denmark; and the division of St Croix in 1734 into uniform plantation lots on a grid. The third is the only one never counted as an achievement of the enlightened state.">
+<svg viewBox="0 0 700 452" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Three panels showing land written down three times between 1662 and 1734: the Danish land register of 1662 and 1664, which converted dues into a single unit without measuring anything; the field survey of 1681 to 1683, which measured every cultivated field in Denmark; and the division of St Croix in 1734 into uniform plantation lots on a grid by the chartered company. The third is the only one never counted as an achievement of the absolutist state.">
   <rect x="0" y="0" width="700" height="452" fill="#F0F2EE"/>
   <text x="26" y="30" class="mapl">THE SAME HABIT, THREE TIMES</text>
-  <text x="26" y="46" class="mapt">one state, seventy years, three ways of writing land down</text>
+  <text x="26" y="46" class="mapt">the state twice, then its company, 1662–1734: three ways of writing land down</text>
   <text x="26" y="78" class="mapl" fill="#2F4C7A">1662 / 1664</text>
   <text x="26" y="94" class="mapx">DENMARK</text>
   <rect x="26" y="108" width="150" height="150" fill="#3C3E36" opacity=".08"/>
@@ -23,7 +23,7 @@
   <text x="26" y="330" class="mapt">turned into a number that</text>
   <text x="26" y="343" class="mapt">could be added up in</text>
   <text x="26" y="356" class="mapt">Copenhagen.</text>
-  <text x="242" y="78" class="mapl" fill="#2E6B5E">1682–83</text>
+  <text x="242" y="78" class="mapl" fill="#2E6B5E">1681–83</text>
   <text x="242" y="94" class="mapx">DENMARK</text>
   <rect x="242" y="108" width="150" height="150" fill="#3C3E36" opacity=".08"/>
   <rect x="289.4" y="220.2" width="17.1" height="18.8" fill="#2E6B5E" opacity=".40" stroke="#2E6B5E" stroke-width=".5"/>
@@ -55,9 +55,9 @@
   <text x="242" y="278" class="mapt">Every cultivated field walked</text>
   <text x="242" y="291" class="mapt">and measured, its area</text>
   <text x="242" y="304" class="mapt">calculated and its soil</text>
-  <text x="242" y="317" class="mapt">graded, four sworn peasants</text>
-  <text x="242" y="330" class="mapt">per district going with the</text>
-  <text x="242" y="343" class="mapt">surveyors. On a Swedish model.</text>
+  <text x="242" y="317" class="mapt">graded, village by village and</text>
+  <text x="242" y="330" class="mapt">farm by farm. On a Swedish</text>
+  <text x="242" y="343" class="mapt">model.</text>
   <text x="458" y="78" class="mapl" fill="#A9601C">1734</text>
   <text x="458" y="94" class="mapx">ST CROIX</text>
   <rect x="458" y="108" width="150" height="150" fill="#3C3E36" opacity=".08"/>
@@ -94,6 +94,6 @@
   <text x="458" y="343" class="mapt">cane.</text>
   <line x1="26" y1="396" x2="674" y2="396" stroke="#C9CDC4" stroke-width="1"/>
   <text x="26" y="416" class="mapt">The first two are told in Denmark as the state learning to see itself: the foundation of</text>
-  <text x="26" y="429" class="mapt">modern administration. The third is the same instrument, in the same century, and it</text>
-  <text x="26" y="442" class="mapt">has never been counted as an achievement of the enlightened state.</text>
+  <text x="26" y="429" class="mapt">modern administration. The third is the same instrument, in a company's hands, and it</text>
+  <text x="26" y="442" class="mapt">has never been counted as an achievement of the absolutist state.</text>
   </svg>

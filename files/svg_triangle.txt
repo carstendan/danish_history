@@ -1,7 +1,7 @@
-<svg viewBox="0 0 700 560" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A diagram of the triangular trade. From Copenhagen, ships carried Indian cotton, other textiles, firearms, gunpowder, brandy and small goods to the Danish forts on the Gold Coast. From there they carried people across the Atlantic to the Danish West Indies, a crossing of two to three months on which about one in five died. From the islands they carried raw sugar home to Copenhagen, where it was refined under monopoly. Between the 1660s and 1803 Danish ships carried about 100,000 to 111,000 people on some 430 voyages.">
+<svg viewBox="0 0 700 560" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A diagram of the triangular trade. From Denmark, ships carried Indian cotton, other textiles, firearms, gunpowder, brandy and small goods to the Danish forts on the Gold Coast. From there they carried people across the Atlantic to the Danish West Indies, a crossing of two to three months on which between one in six and one in five died. From the islands they carried raw sugar home to Copenhagen, where it was refined under monopoly. Between the 1660s and 1803 Danish ships carried about 111,000 people on some 430 voyages, under one per cent of the 12.5 million carried across the Atlantic in all: the smallest of the seven national carriers the SlaveVoyages database distinguishes.">
   <rect x="0" y="0" width="700" height="560" fill="#F0F2EE"/>
   <text x="26" y="30" class="mapl">THE TRIANGLE, WEIGHED</text>
-  <text x="26" y="46" class="mapt">every Danish voyage began and ended in Copenhagen</text>
+  <text x="26" y="46" class="mapt">the route most Danish slave voyages took, out from Denmark and home again</text>
   <path d="M 201.4 137.7 L 490.7 181.1" fill="none" stroke="#2F4C7A" stroke-width="2.4" opacity=".85"/>
   <path d="M 490.7 181.1 l -10.7 4.0 l 1.6 -10.9 Z" fill="#2F4C7A"/>
   <path d="M 502.3 210.7 L 305.1 296.1" fill="none" stroke="#8A2B2B" stroke-width="3.6" opacity=".85"/>
@@ -28,9 +28,9 @@
   <rect x="244" y="398" width="22" height="9" fill="#8A2B2B" opacity=".75"/>
   <text x="274" y="406" class="mapx" fill="#8A2B2B">THE MIDDLE PASSAGE</text>
   <text x="244" y="426" class="mapt">2–3 months.</text>
-  <text x="244" y="439" class="mapt">About one in five of</text>
-  <text x="244" y="452" class="mapt">the people put aboard</text>
-  <text x="244" y="465" class="mapt">did not arrive.</text>
+  <text x="244" y="439" class="mapt">Between one in six and</text>
+  <text x="244" y="452" class="mapt">one in five of the people</text>
+  <text x="244" y="465" class="mapt">put aboard did not arrive.</text>
   <rect x="462" y="398" width="22" height="9" fill="#A9601C" opacity=".75"/>
   <text x="492" y="406" class="mapx" fill="#A9601C">THIRD LEG</text>
   <text x="462" y="426" class="mapt">raw sugar, refined in</text>
@@ -38,9 +38,9 @@
   <text x="462" y="452" class="mapt">monopoly and sold in</text>
   <text x="462" y="465" class="mapt">two kingdoms</text>
   <line x1="26" y1="486" x2="674" y2="486" stroke="#C9CDC4" stroke-width="1"/>
-  <text x="26" y="500" class="mapl">100,000–111,000</text>
+  <text x="26" y="500" class="mapl">c. 111,000</text>
   <text x="210" y="500" class="mapt">people carried in Danish ships, on about 430 voyages, 1660s–1803</text>
-  <text x="26" y="520" class="mapl">2.3%</text>
-  <text x="210" y="520" class="mapt">of the Atlantic traffic — which made Denmark the seventh largest</text>
-  <text x="210" y="533" class="mapt">of the nations that did it.</text>
+  <text x="26" y="520" class="mapl">under 1%</text>
+  <text x="210" y="520" class="mapt">of the 12.5 million carried across the Atlantic, 1501–1866 —</text>
+  <text x="210" y="533" class="mapt">the smallest of the seven national carriers counted.</text>
   </svg>

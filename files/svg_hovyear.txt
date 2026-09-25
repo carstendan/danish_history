@@ -1,6 +1,6 @@
-<svg viewBox="0 0 700 516" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A grid of three hundred and sixty-five squares, one for each day of the year. One hundred and ten of them are marked as days a Zealand tenant owed his landlord: forty requiring a wagon and a team, seventy on foot. A second reckoning from another estate gives a hundred and twenty-two days. The marked squares are grouped together for counting and do not show which days of the year were owed, because the sources give annual totals and not dates.">
+<svg viewBox="0 0 700 516" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A schematic: a grid of three hundred and sixty-five squares, one for each day of the year. One hundred and ten of them are marked, after one commonly quoted reckoning of the days a Zealand tenant with a full holding owed his landlord: forty requiring a wagon and a team, seventy on foot. The reckoning has not been traced to its source. The marked squares are grouped together for counting and do not show which days of the year were owed, and the unmarked ones include Sundays and holy days.">
   <rect x="0" y="0" width="700" height="516" fill="#F0F2EE"/>
-  <text x="26" y="30" class="mapl">A BOUND MAN'S YEAR</text>
+  <text x="26" y="30" class="mapl">A BOUND MAN'S YEAR — A SCHEMATIC</text>
   <text x="26" y="46" class="mapt">every square is one day; the marked ones belong to somebody else</text>
   <rect x="26" y="74" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".72"/>
   <rect x="44" y="74" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".72"/>
@@ -373,13 +373,12 @@
   <rect x="26" y="386" width="15" height="15" rx="1.5" fill="#2F4C7A" opacity=".34"/>
   <text x="48" y="398" class="mapx">70 gangdage — a person on foot; a girl or a boy would do</text>
   <rect x="26" y="408" width="15" height="15" rx="1.5" fill="#5F6157" opacity=".13"/>
-  <text x="48" y="420" class="mapx">255 days that were his own</text>
+  <text x="48" y="420" class="mapx">255 days not owed — Sundays and holy days among them</text>
   <text x="430" y="376" class="mapl">110 of 365</text>
-  <text x="430" y="392" class="mapt">roughly two days in seven</text>
-  <text x="430" y="412" class="mapt">A second reckoning, from an estate at</text>
-  <text x="430" y="425" class="mapt">Antvorskov, gives 122 — 34 and 88.</text>
+  <text x="430" y="392" class="mapt">one commonly quoted reckoning,</text>
+  <text x="430" y="405" class="mapt">not traced here to its source</text>
   <text x="26" y="450" class="mapt">The squares are grouped for counting. Which days of the year were owed is not recorded: the</text>
-  <text x="26" y="463" class="mapt">figures come from specimen reckonings made when the government tried to regulate hoveri,</text>
-  <text x="26" y="476" class="mapt">and they give totals. What is agreed is that the demand fell hardest at ploughing, sowing</text>
+  <text x="26" y="463" class="mapt">reckoning is of the kind made when the government tried to regulate hoveri, and gives</text>
+  <text x="26" y="476" class="mapt">a total and a split. What is agreed is that the demand fell hardest at ploughing, sowing</text>
   <text x="26" y="489" class="mapt">and harvest — the only weeks when a man's own crop could not wait.</text>
   </svg>

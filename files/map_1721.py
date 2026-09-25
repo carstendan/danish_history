@@ -13,10 +13,10 @@ Four decisions:
   - THE CEDED PROVINCES ARE NO LONGER DRAWN. The 1660 map gives Skaane, Halland,
     Blekinge, Bohuslaen, Jaemtland, Haerjedalen, Gotland and Oesel their own tone,
     because a part opening on what was left cannot be silent about what went. By
-    1721 they are not a loss being absorbed but a settled fact: Denmark renounced
-    them formally at Frederiksborg in 1720, and the last army that tried to take
+    1721 they are not a loss being absorbed but a settled fact: Denmark did not
+    recover them at Frederiksborg in 1720, and the last army that tried to take
     them back came home in 1710. Sweden is uncoloured here exactly as on the 1600
-    map, and the legend says the renunciation is what changed, so that a reader
+    map, and the legend says they were not recovered, so that a reader
     comparing the two maps is not left to guess.
 
   - SLESVIG IS ONE COLOUR AND SO IS HOLSTEN, but they no longer mean the same
@@ -68,7 +68,7 @@ def build():
            'ducal share having been taken in 1713 and confirmed by the peace of 1720; Holstein '
            'is still shared with the dukes of Gottorp, whose parcels are interleaved with the '
            'royal ones and cannot honestly be drawn as an area. Sweden is not coloured: the '
-           'eastern provinces were formally renounced in 1720. The western panel carries '
+           'eastern provinces were not recovered in 1720. The western panel carries '
            'Greenland, Iceland and the Faroes as dependencies, Greenland for the first time, '
            'Hans Egede having landed in July 1721.">' % (M.W, M.H),
            M.base(f, polys),
@@ -95,7 +95,7 @@ def build():
         out.append(M.note(f, lon, lat, t, cls="mapl"))
     out.append(M.note(f, 17.5, 60.6, "SVERIGE", cls="mapt"))
     out.append(M.note(f, 17.5, 60.05, "the eastern provinces", cls="mapt"))
-    out.append(M.note(f, 17.5, 59.5, "renounced, 1720", cls="mapt"))
+    out.append(M.note(f, 17.5, 59.5, "not recovered, 1720", cls="mapt"))
 
     for lon, lat, t, a in [(24.5, 62.5, "FINLAND", "middle"),
                            (9.20, 54.85, "Slesvig", "middle"),
@@ -104,7 +104,7 @@ def build():
         out.append(M.note(f, lon, lat, t, cls="mapt", anchor=a))
 
     for lon, lat, t, a, dx, dy in [(12.57, 55.68, "K\u00f8benhavn", "end", -5, 4),
-                                   (10.75, 59.91, "Oslo", "start", 5, 3),
+                                   (10.75, 59.91, "Christiania", "end", -5, 3),
                                    (10.40, 63.43, "Trondhjem", "start", 5, 3),
                                    (9.56, 54.52, "Gottorp", "end", -5, 3),
                                    (8.95, 54.32, "T\u00f8nning", "end", -5, 10)]:
@@ -113,7 +113,7 @@ def build():
     out.append(M.legend([("Ruled directly", M.CORE, CORE_OP),
                          ("Slesvig: wholly the king's, 1721", M.DEP, DEP_OP),
                          ("Holsten: shared with Gottorp to 1773", None, 0),
-                         ("Sweden: the east renounced, 1720", None, 0)], x=14, y=190))
+                         ("Sweden: the east not recovered, 1720", None, 0)], x=14, y=190))
     out.append(M.note(f, 27.9, 68.35, "no fixed border", cls="mapt", anchor="middle"))
     out.append(M.note(f, 27.0, 54.6, "1721", cls="mapl", anchor="middle"))
     out.append('</svg>')

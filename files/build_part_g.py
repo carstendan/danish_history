@@ -32,12 +32,14 @@ TWO DIVERGENCES FROM THE DRAFT, both deliberate and both worth knowing about:
 --stub exits non-zero even when everything else passes, so a stubbed page cannot be
 mistaken for a finished one.
 """
+import html
 import os
 import re
 import sys
 
 from pagewords import pagewords   # one definition, shared
 import dkpaths
+import freshcheck   # the body-against-draft comparison, run before every page
 
 # Paths resolve relative to this script, not to wherever it is run from, and both
 # can be overridden. The container paths that used to be hardcoded here meant the
@@ -84,10 +86,10 @@ CFG = {
         "summoned?",
         "The proposal to make the crown hereditary came from the burghers and the clergy, not "
         "from the king's side of the room. Why would townsmen do that?",
-        "Hereditary did not have to mean absolute. In which six days did the one become the "
+        "Hereditary did not have to mean absolute. In which five days did the one become the "
         "other, and what survives to tell us why?"]),
       ("The council disappears", [
-        "The visible revolution took six weeks. What took four years, and what did it "
+        "The visible revolution took five weeks. What took four years, and what did it "
         "produce?",
         "What is <i class=\"dk\">hartkorn</i>, and what did the registers of 1662 and 1664 "
         "measure?",
@@ -113,7 +115,7 @@ CFG = {
          ("s06", "06", 'K\u00f8ge Bugt, 1 July 1677'),
          ("s07", "07", 'The snaphaner in the G\u00f6inge woods'),
          ("s08", "08", 'Making Sk\u00e5ne Swedish'),
-         ("s09", "09", 'The Blue Tower'),
+         ("s09", "09", "The state's prisoners"),
          ("s10", "10", 'Fontainebleau, and Munkholmen')],
     checks=[
       ("The law and the land", [
@@ -128,7 +130,7 @@ CFG = {
         "How does a country win command of the sea and lose the war it was fighting?",
         "What was happening to the population of Sk\u00e5ne while the two armies fought over "
         "it?"]),
-      ("The Blue Tower", [
+      ("The state's prisoners", [
         "Name the six things the <i class=\"dk\">f\u00f6rsvenskning</i> of Sk\u00e5ne took: a "
         "university, a war, and four more.",
         "How long did it take, and how do we know it had worked by 1720?",
@@ -140,15 +142,15 @@ CFG = {
     body='c27_body.html',
     svgs={'SVG_TERR1721': 'svg_terr_1721.txt', 'SVG_PLAGUE': 'svg_plague_1711.txt',
           'SVG_SCHOOLS': 'svg_schools.txt'},
-    sec=[("s01", "01", 'Travendal, 1700 \u2014 out in three months'),
+    sec=[("s01", "01", 'Travendal, 1700 \u2014 out in one campaign'),
          ("s02", "02", 'Poltava changes the arithmetic, 1709'),
          ("s03", "03", 'Helsingborg, 10 March 1710'),
          ("s04", "04", 'The plague, 1711'),
-         ("s05", "05", 'Tordenskjold'),
+         ("s05", "05", 'The war at sea'),
          ("s06", "06", 'The Gottorp share taken, 1713\u20131721'),
          ("s07", "07", 'Frederiksborg, 1720 \u2014 the Sound kept, Sk\u00e5ne not'),
          ("s08", "08", 'Two hundred and forty schoolhouses'),
-         ("s09", "09", 'Egede sails')],
+         ("s09", "09", 'The Greenland mission')],
     checks=[
       ("The plague", [
         "Denmark rejoined the war in 1709 to recover a province. How long did that purpose "
@@ -158,15 +160,15 @@ CFG = {
         "does that do to how you should read the settlement of 1720?"]),
       ("The Gottorp share", [
         "The army lost the only battle that mattered in this war. What did it do to its own "
-        "horses on the beach at Helsingborg, and why?",
-        "What did Tordenskjold destroy at Dynekilen on 8 July 1716, and what did that end?",
+        "horses at Helsingborg, and why?",
+        "What did Tordenskjold destroy at Dynekilen on 8 July 1716, and what did it hasten?",
         "Two ways of measuring the same twenty years. Which of Denmark's two services was "
         "the problem in this period, and which was not?"]),
       ("Two hundred and forty", [
         "Frederik 4. was a poor commander. Name two things he nonetheless finished his reign "
         "holding that he did not start with.",
-        "Which wound in the southern border did he close, and how many previous reigns had "
-        "failed to close it?",
+        "Which sovereign share of Schleswig did he end, and since when had it been "
+        "sovereign?",
         "A reign can be a failure by its own stated aim and a success by almost any other. "
         "Make the case both ways."]),
     ]),
@@ -175,7 +177,7 @@ CFG = {
     body='c28_body.html',
     svgs={'SVG_HOVYEAR': 'svg_hovyear.txt', 'SVG_NORWAY': 'svg_norway.txt',
           'SVG_CATECHISM': 'svg_catechism.txt'},
-    sec=[("s01", "01", 'A king who closed the theatres'),
+    sec=[("s01", "01", 'A king who kept the theatre shut'),
          ("s02", "02", 'The parish under pietism \u2014 1735, 1736, 1737'),
          ("s03", "03", 'Stavnsb\u00e5nd, 1733 \u2014 and why'),
          ("s04", "04", 'A week of hoveri'),
@@ -192,17 +194,19 @@ CFG = {
         "why?",
         "Name three things that were true of <i class=\"dk\">hoveri</i> and not of the bond: "
         "no ceiling, and two more.",
-        "Why did rising grain prices from mid-century make the labour service worse rather "
-        "than better for the man performing it?"]),
+        "Why did rising grain prices make the labour service worse rather than better for "
+        "the man performing it?"]),
       ("How Norway was governed", [
         "Two pietisms reached Denmark. Which one could be administered through parishes, and "
         "what three compulsory things did it become?",
-        "The Moravians met in farmhouses and were banned. Why did the same state import a "
-        "whole Moravian town thirty years later?",
+        "The Moravians met in farmhouses; their meetings were put under the priest in 1741 "
+        "and their emissaries shut out in the 1740s. Why did the same state import a whole "
+        "Moravian town a generation later?",
         "What does that reversal tell you about what the state's interest in religion "
         "actually was?"]),
       ("A state that could not price", [
-        "Describe the 1740s and 1750s as they look from Copenhagen \u2014 three things.",
+        "Describe the middle decades of the century as they look from Copenhagen \u2014 three "
+        "things.",
         "Describe the same decades as they look from the countryside, where four-fifths of "
         "Danes lived.",
         "Which of the two has Danish popular memory kept, and what follows from that?"]),
@@ -214,8 +218,8 @@ CFG = {
           'SVG_COLUMN': 'svg_column.txt'},
     sec=[("s01", "01", 'A sick king and his doctor'),
          ("s02", "02", 'Sixteen months of cabinet orders'),
-         ("s03", "03", 'Caroline Mathilde, governing'),
-         ("s04", "04", '17 January 1772'),
+         ("s03", "03", 'The court under Struensee'),
+         ("s04", "04", 'The fall, 1772–75'),
          ("s05", "05", "Guldberg's Denmark, and indf\u00f8dsret 1776"),
          ("s06", "06", 'The commission, 1786'),
          ("s07", "07", 'Udskiftning'),
@@ -231,45 +235,45 @@ CFG = {
       ("Udskiftning", [
         "Struensee ruled by cabinet order. Guldberg overthrew him and ruled by cabinet order. "
         "What does the repetition tell you?",
-        "Three regimes in twelve years. How did each of them actually get its hands on the "
-        "king's authority?",
+        "Three regimes between 1770 and 1784. How did each of them actually get its hands on "
+        "the king's authority?",
         "What is the constitutional problem underneath all three, and which chapter built "
         "it?"]),
       ("The column", [
         "The ordinance of 20 June 1788 did three things at once. Name them.",
-        "Which of the three does the monument commemorate, and which one explains why the "
-        "landowners did not fight it?",
-        "The tie to the home district was moved rather than removed. Moved to whom, and "
-        "until when?"]),
+        "Which of the three does the monument commemorate, and which one gave the landowners "
+        "something back?",
+        "The tie to the home district was moved rather than removed. Moved to whom, and what "
+        "could a young countryman still not do?"]),
     ]),
  30: dict(
     name='30-the-danish-atlantic.html',
     body='c30_body.html',
     svgs={'SVG_TRIANGLE': 'svg_triangle.txt', 'SVG_SURVEYS': 'svg_surveys.txt',
           'SVG_PAPERS': 'svg_papers.txt'},
-    sec=[("s01", "01", 'Before the Atlantic \u2014 Trankebar 1620, the Gold Coast 1661'),
+    sec=[("s01", "01", 'Before the Atlantic \u2014 Trankebar 1620, the Gold Coast 1658\u201361'),
          ("s02", "02", 'St Thomas, 1672'),
          ("s03", "03", 'The triangle, in tons and in people'),
          ("s04", "04", 'The crossing'),
-         ("s05", "05", 'St Jan, November 1733'),
+         ("s05", "05", 'The Akwamu rising on St Jan, 1733\u201334'),
          ("s06", "06", 'St Croix bought, 1733'),
          ("s07", "07", 'The law of the plantation'),
-         ("s08", "08", 'The Crown takes the islands, 1754'),
+         ("s08", "08", 'The Crown takes the islands, 1754\u201355'),
          ("s09", "09", 'What the sugar built in Copenhagen'),
          ("s10", "10", 'The ordinance of 16 March 1792')],
     checks=[
-      ("St Jan, November 1733", [
+      ("The Akwamu rising", [
         "Roughly how many people did Denmark carry across the Atlantic, and on about how many "
         "voyages?",
         "About what proportion did not survive the crossing?",
-        "The enslaved population of the islands never once reproduced itself in a hundred and "
-        "seventy years. What follows from that, both for the ships and for the trade's "
-        "ending?"]),
+        "The enslaved population of the islands never once reproduced itself. What follows "
+        "from that, both for the ships and for the trade's ending?"]),
       ("The Crown takes the islands", [
-        "Three things happened in 1733. Put them in order and say which came first.",
+        "Three things happened in 1733: St Croix was bought, Gardelin issued his code, and "
+        "St Jan rose. Put them in order, with the month of each.",
         "What penalties did the September code make legal for resistance?",
-        "The Akwamu took the fort at Coral Bay in November and held most of St Jan for six "
-        "months. Why does the order of the three events matter to how you read the rising?"]),
+        "Why does it matter to how you read the rising that the code came before it and not "
+        "after?"]),
       ("The ordinance of 16 March", [
         "What did the sugar of these islands pay for in Copenhagen \u2014 name three things "
         "still standing?",
@@ -291,20 +295,20 @@ CFG = {
          ("s05", "05", 'September 1807'),
          ("s06", "06", 'The gunboat war'),
          ("s07", "07", '5 January 1813'),
-         ("s08", "08", 'Kiel, 14 January 1814'),
+         ("s08", "08", 'Norway ceded'),
          ("s09", "09", 'Eidsvoll, and the refusal'),
          ("s10", "10", 'Every child, 29 July 1814')],
     checks=[
       ("The Norwegian half", [
-        "What was a neutral flag worth between 1793 and 1807, and what was Denmark carrying "
-        "under it?",
+        "What was a neutral flag worth between the American war and 1807, and what was "
+        "Denmark carrying under it?",
         "Denmark knew the practice was against the conventions and did it anyway, with the "
         "state's protection. What was the battle of 1801 the bill for?",
         "Denmark's escape in 1801 had nothing to do with the fighting. What ended the "
         "crisis, and where did it happen?"]),
-      ("Kiel, 14 January 1814", [
-        "Name the four things the British took or destroyed in September 1807 besides the "
-        "ships that sailed.",
+      ("Norway ceded", [
+        "Besides the ships that sailed, what did the British take or destroy in September "
+        "1807, and why?",
         "What replaced the fleet, and what kind of war could it fight?",
         "The reform of 5 January 1813 is remembered as the state bankruptcy. What was "
         "actually declared, and what was made security for the new notes?"]),
@@ -312,8 +316,8 @@ CFG = {
         "Norway was ceded at Kiel in January 1814. What did the Norwegians do between then "
         "and November?",
         "What did Norway keep, and what did it not?",
-        "Four hundred years in one realm ended in an afternoon's treaty. Which article of "
-        "Kiel did the Norwegians treat as void, and on what argument?"]),
+        "More than four hundred years in one realm ended in one treaty. What part of Kiel "
+        "did the Norwegians accept, what did they reject, and on what argument?"]),
     ]),
 }
 
@@ -385,6 +389,10 @@ def build(n, c, stub):
 
 BAND = (25, 50)
 TARGET = (28, 40)
+# Part G's ordinary uses of "entry", found by hand in review session 9 (§13.6) in the built
+# pages, markup and figure text included, with line breaks joined: two, both in chapter
+# 25's figure 3, which is about a register. Each phrase is removed once before counting.
+ALLOWED_ENTRY = {25: ['not a transcription of one entry', 'the seven entries are added']}
 
 if __name__ == "__main__":
     stub = "--stub" in sys.argv
@@ -392,6 +400,16 @@ if __name__ == "__main__":
     fail = 0
     for n in sorted(CFG):
         c = CFG[n]
+        # THE BODY MUST BE WHAT THE DRAFT BUILDS, and this is asked BEFORE the page is
+        # written. When mkbody refused a draft, this script went on building the page from
+        # the previous body and said "built clean" (the session 9 checker); the first repair
+        # asked after writing, so a stale body still reached the page (the second checker).
+        fresh = freshcheck.check(n)
+        if fresh[0] != 'FRESH':
+            print("\nchapter %s  %s\n  !! NOT BUILT: the body is %s against its draft (%s). "
+                  "Run mkbody.py %s and read what it says." % (n, c['name'], fresh[0], fresh[1], n))
+            fail += 1
+            continue
         h, stubbed = build(n, c, stub)
         css = h.split('<style>')[1].split('</style>')[0]
         ids = set(re.findall(r'id="([a-z0-9]+)"', h))
@@ -406,6 +424,41 @@ if __name__ == "__main__":
         toc = re.search(r'<details class="toc">.*?</details>', h, re.S).group(0)
         tail_ok = all(('#%s' % t[0]) in rail and ('#%s' % t[0]) in toc
                       for t in TAIL + c.get('tail_extra', []))
+        # Retired vocabulary, as build_parts_abc.py (review session 5, §9.6),
+        # build_part_d.py (§10.6), build_part_e.py (§11.6) and build_part_f.py (§12.6)
+        # check it, given to Part G in review session 9 (§13.6): until then nothing here
+        # could see a padded "chapter 07" on a Part G page. \s+, not a space, so a line
+        # break inside the phrase does not hide it.
+        # Whitespace is joined BEFORE the allowed phrases are removed, so a re-wrapped
+        # caption does not turn an allowed "one entry" into a false alarm; and an allowed
+        # phrase that is no longer on the page is itself reported, so the allow-list
+        # cannot quietly outlive what it allows (both from the session 9 checker, §13.6).
+        # The text is READ, not the markup: the second checker of session 9 got
+        # "chapter&#160;07", "Chapter <i>07</i>", "Era&#8209;page", "Band&#160;C" and
+        # "entr&shy;y" past a guard that matched raw HTML. So tags are dropped (their
+        # aria-label, alt and title text kept), entities decoded, soft hyphens removed,
+        # every dash and space folded to one form, and whitespace joined.
+        raw = re.sub(r'<(script|style)\b.*?</\1>', '', h, flags=re.S)
+        attrs = ' '.join(re.findall(r'(?:aria-label|alt|title)="([^"]*)"', raw))
+        prose = html.unescape(re.sub(r'<[^>]+>', '', raw) + ' ' + attrs)
+        prose = prose.replace('\u00ad', '')
+        prose = re.sub(r'[\u2010\u2011\u2012\u2013\u2014]', '-', prose)
+        prose = re.sub(r'\s+', ' ', prose.replace('\u00a0', ' '))
+        gone = []
+        for ok in ALLOWED_ENTRY.get(n, []):
+            if ok in prose:
+                prose = prose.replace(ok, '', 1)
+            else:
+                gone.append(ok)
+        stale = {k: len(re.findall(p, prose)) for k, p in
+                 [('Band X', r'\b[Bb]and [A-I]\b'),
+                  ('entry', r'(?i)\bentr(?:y|ies)\b'),
+                  ('Era page', r'(?i)\bera[ -]+page\b'),
+                  ('padded', r'(?i)\b(?:chapters?|ch\.)(?: no\.)? +'
+                             r'(?:\d+ *(?:,|&|-|to|and|or)? *(?:and |or )?)*0\d+\b')]}
+        stale = {k: v for k, v in stale.items() if v}
+        if gone:
+            stale['allow-list phrase not on the page'] = len(gone)
         print("\nchapter %s  %s" % (n, c['name']))
         print("  braces %d | placeholders %d | anchors %s | tags %s"
               % (css.count('{') - css.count('}'), h.count('{{'),
@@ -416,14 +469,17 @@ if __name__ == "__main__":
                  h.count('<figure>'), h.count('class="terms"'), 'ok' if tail_ok else 'BAD'))
         band = 'ok' if BAND[0] <= m <= BAND[1] else 'OUTSIDE BAND'
         note = '' if TARGET[0] <= m <= TARGET[1] else '  <-- note'
-        print("  part %s | words %d (~%d min, %s)%s"
-              % ('ok' if '--band:%s;' % PART_G in h else 'BAD', w, m, band, note))
+        print("  part %s | vocabulary %s | words %d (~%d min, %s)%s"
+              % ('ok' if '--band:%s;' % PART_G in h else 'BAD',
+                 'clean' if not stale else 'STALE ' + str(stale), w, m, band, note))
         for mm in re.finditer(r'<div class="check">.*?</div>\s*<h2 id="(s\d\d)">(.*?)</h2>',
                               h, re.S):
             print("  checkpoint before %s  %s"
                   % (mm.group(1), re.sub(r'<[^>]+>', '', mm.group(2)).strip()))
         if stubbed:
             print("  !! STUBBED: %s" % ", ".join(stubbed))
-        fail += (bool(bad) or h.count('{{') or not (links <= ids) or not tail_ok
-                 or not (BAND[0] <= m <= BAND[1]) or bool(stubbed))
+        fail += (bool(bad) + bool(h.count('{{')) + (not links <= ids) + (not tail_ok)
+                 + (not BAND[0] <= m <= BAND[1]) + bool(stubbed) + bool(stale)
+                 + ('--band:%s;' % PART_G not in h))
+    print("\n%s" % ('all seven built clean' if not fail else '!! %d problems' % fail))
     sys.exit(1 if fail else 0)

@@ -55,10 +55,12 @@ WHAT IT DELIBERATELY DOES NOT DO. It does not rebuild pages, because
 would fail for reasons that are not staleness. Body-level is where the draft's
 prose lives, and prose drift is the fault being hunted.
 
-Chapters 25-31 are built from PART_G_DRAFT.md plus per-chapter fragment files
-rather than one `cNN_draft.md`, and chapters 1-24 predate the draft convention
-entirely. Both are SKIPPED and NAMED, because a checker that silently covers less
-than it appears to is worse than no checker (item 64).
+Chapters 25-31 are built from PART_G_DRAFT.md, and are checked against it since
+review session 9 (the per-chapter fragment files beside it are not read by any
+build). Chapters 1-24 predate the draft convention entirely and are SKIPPED and
+NAMED, because a checker that silently covers less than it appears to is worse
+than no checker (item 64). `check(n)` is also called by build_part_g.py before it
+builds each page.
 
 USAGE
     python3 files/freshcheck.py            # from the repository root
@@ -83,46 +85,71 @@ def page_for(n, name_hint):
     return hits[0] if len(hits) == 1 else None
 
 
+def draft_for(n):
+    """The draft chapter n is built from, or None.
+
+    Chapters 25-31 are built from PART_G_DRAFT.md (mkbody's default draft) and were
+    skipped here until review session 9, when the part's own build learned to ask this
+    question before every page (REVIEW-CONSISTENCY section 13.6): a page could be built
+    from a body its draft no longer produced, because mkbody refused and nothing
+    downstream noticed."""
+    # PART_G_DRAFT.md FIRST for 25-31, because it is what mkbody builds them from (its
+    # default draft). A stray c27_draft.md used to win here and become the witness while
+    # the page was built from PART_G_DRAFT.md - the second checker of session 9 made one
+    # and every check passed while an edit never reached the page.
+    if 25 <= n <= 31 and os.path.exists(os.path.join(HERE, "PART_G_DRAFT.md")):
+        return os.path.join(HERE, "PART_G_DRAFT.md")
+    single = os.path.join(HERE, "c%d_draft.md" % n)
+    if os.path.exists(single):
+        return single
+    return None
+
+
+def check(n):
+    """(state, detail) for chapter n: FRESH, STALE, MISSING, REFUSED or SKIPPED."""
+    cfg = mkbody.HAND[n]
+    draft = draft_for(n)
+    body = os.path.join(HERE, cfg["file"])
+    if draft is None:
+        return "SKIPPED", "no single-file draft (c%d_draft.md)" % n
+    if not os.path.exists(body):
+        return "MISSING", "draft exists, %s does not" % cfg["file"]
+
+    tmp = tempfile.mkdtemp(prefix="freshcheck")
+    try:
+        # mkbody writes HAND[n]['file'] relative to the working directory, so
+        # it is run in a scratch directory and cannot touch the repository.
+        shutil.copy(draft, os.path.join(tmp, os.path.basename(draft)))
+        env = dict(os.environ)
+        env["DK_DRAFT"] = os.path.basename(draft)
+        env["PYTHONPATH"] = HERE + os.pathsep + env.get("PYTHONPATH", "")
+        r = subprocess.run([sys.executable, os.path.join(HERE, "mkbody.py"), str(n)],
+                           cwd=tmp, env=env, capture_output=True, text=True)
+        built = os.path.join(tmp, cfg["file"])
+        if r.returncode != 0 or not os.path.exists(built):
+            first = ([l for l in (r.stdout + r.stderr).splitlines()
+                      if l.strip().startswith("!!")] or ["mkbody exited %d"
+                                                         % r.returncode])[0]
+            return "REFUSED", first.strip().lstrip("! ")
+        a = open(built, "rb").read()
+        b = open(body, "rb").read()
+        if a == b:
+            return "FRESH", ""
+        return "STALE", "%s is %d bytes, the draft builds %d" % (cfg["file"], len(b), len(a))
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+
+
 def main():
     fresh, stale, missing, refused, skipped = [], [], [], [], []
 
     for n in sorted(mkbody.HAND):
-        cfg = mkbody.HAND[n]
-        draft = os.path.join(HERE, "c%d_draft.md" % n)
-        body = os.path.join(HERE, cfg["file"])
-        if not os.path.exists(draft):
-            skipped.append((n, "no single-file draft (c%d_draft.md)" % n))
-            continue
-        if not os.path.exists(body):
-            missing.append((n, "draft exists, %s does not" % cfg["file"]))
-            continue
-
-        tmp = tempfile.mkdtemp(prefix="freshcheck")
-        try:
-            # mkbody writes HAND[n]['file'] relative to the working directory, so
-            # it is run in a scratch directory and cannot touch the repository.
-            shutil.copy(draft, os.path.join(tmp, os.path.basename(draft)))
-            env = dict(os.environ)
-            env["DK_DRAFT"] = os.path.basename(draft)
-            env["PYTHONPATH"] = HERE + os.pathsep + env.get("PYTHONPATH", "")
-            r = subprocess.run([sys.executable, os.path.join(HERE, "mkbody.py"), str(n)],
-                               cwd=tmp, env=env, capture_output=True, text=True)
-            built = os.path.join(tmp, cfg["file"])
-            if r.returncode != 0 or not os.path.exists(built):
-                first = ([l for l in (r.stdout + r.stderr).splitlines()
-                          if l.strip().startswith("!!")] or ["mkbody exited %d"
-                                                             % r.returncode])[0]
-                refused.append((n, first.strip().lstrip("! ")))
-                continue
-            a = open(built, "rb").read()
-            b = open(body, "rb").read()
-            if a == b:
-                fresh.append(n)
-            else:
-                stale.append((n, "%s is %d bytes, the draft builds %d"
-                              % (cfg["file"], len(b), len(a))))
-        finally:
-            shutil.rmtree(tmp, ignore_errors=True)
+        state, why = check(n)
+        if state == "FRESH":
+            fresh.append(n)
+        else:
+            {"STALE": stale, "MISSING": missing, "REFUSED": refused,
+             "SKIPPED": skipped}[state].append((n, why))
 
     # A body with no page is the same fault one stage later.
     pageless = [n for n in fresh if page_for(n, mkbody.HAND[n]["file"]) is None]

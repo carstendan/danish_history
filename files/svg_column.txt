@@ -2,7 +2,7 @@
   <rect x="0" y="0" width="700" height="604" fill="#F0F2EE"/>
   <text x="26" y="30" class="mapl">WHAT THE COLUMN SAYS</text>
   <text x="26" y="46" class="mapt">Frihedsstøtten, Vesterbrogade, 1792–97 — twenty metres of Bornholm sandstone</text>
-  <text x="26" y="60" class="mapt">subscription opened 1791 · foundation stone 31 July 1792 · finished September 1797</text>
+  <text x="26" y="60" class="mapt">foundation stone 31 July 1792 · reported finished 6 November 1797</text>
   <path d="M 83 86 L 101 86 L 109 354 L 75 354 Z" fill="#2F4C7A" opacity=".16"/>
   <path d="M 83 86 L 101 86 L 109 354 L 75 354 Z" fill="none" stroke="#3C3E36" stroke-width="1.3"/>
   <rect x="62" y="354" width="60" height="26" fill="#3C3E36" opacity=".22"/>
@@ -24,17 +24,17 @@
   <text x="168" y="317" class="mapt">happy</text>
   <line x1="26" y1="416" x2="674" y2="416" stroke="#C9CDC4" stroke-width="1"/>
   <text x="26" y="436" class="mapx" fill="#2F4C7A">“The King commanded”</text>
-  <text x="212" y="436" class="mapt">Christian 7. was incapable. It was done by Reventlow, Colbjørnsen,</text>
-  <text x="212" y="449" class="mapt">Bernstorff and a crown prince of twenty.</text>
+  <text x="212" y="436" class="mapt">Christian 7. was incapable. It was done by the Reventlows,</text>
+  <text x="212" y="449" class="mapt">Colbjørnsen, Bernstorff and a crown prince of twenty.</text>
   <text x="26" y="470" class="mapx" fill="#2F4C7A">“shall cease”</text>
-  <text x="212" y="470" class="mapt">By cohort, over twelve years. The last men were free on 1 January</text>
-  <text x="212" y="483" class="mapt">1800, three years after the column was finished.</text>
+  <text x="212" y="470" class="mapt">A birth-year at a time. The last bound men went free on 1 January</text>
+  <text x="212" y="483" class="mapt">1800, more than two years after the column was finished.</text>
   <text x="26" y="504" class="mapx" fill="#2F4C7A">“the free peasant”</text>
-  <text x="212" y="504" class="mapt">The gårdmænd. The cottagers got the hoveri limits of 1799 only for</text>
-  <text x="212" y="517" class="mapt">holders, and a weaker ordinance of their own in 1807.</text>
+  <text x="212" y="504" class="mapt">The gårdmand. The hoveri ordinance of 1799 dealt with him; the</text>
+  <text x="212" y="517" class="mapt">cottagers' labour was regulated only in 1807, and not fixed.</text>
   <text x="26" y="538" class="mapx" fill="#2F4C7A">not on the stone</text>
-  <text x="212" y="538" class="mapt">The subscription opened in 1791, among Copenhagen burghers; the</text>
-  <text x="212" y="551" class="mapt">crown prince laid the foundation stone on 31 July 1792. The</text>
-  <text x="212" y="564" class="mapt">landowners were pushing back and the government had stopped</text>
-  <text x="212" y="577" class="mapt">reforming.</text>
+  <text x="212" y="538" class="mapt">Paid for by a collection among Copenhagen's citizens, to hold the</text>
+  <text x="212" y="551" class="mapt">government to its reforms while the nobility's discontent grew. The</text>
+  <text x="212" y="564" class="mapt">crown prince laid the foundation stone on 31 July 1792, the second</text>
+  <text x="212" y="577" class="mapt">anniversary of his wedding.</text>
   </svg>

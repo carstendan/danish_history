@@ -56,7 +56,7 @@
   <circle cx="237.8" cy="597.5" r="2.4" fill="#3C3E36"/><text x="232.8" y="601.5" class="mapx" text-anchor="end">København</text>
   <circle cx="239.6" cy="584.5" r="2.4" fill="#3C3E36"/><text x="234.6" y="580.5" class="mapx" text-anchor="end">Helsingør</text>
   <circle cx="241.4" cy="584.1" r="2.4" fill="#3C3E36"/><text x="247.4" y="595.1" class="mapx" text-anchor="start">Helsingborg</text>
-  <circle cx="215.0" cy="439.3" r="2.4" fill="#3C3E36"/><text x="220.0" y="442.3" class="mapx" text-anchor="start">Oslo</text>
+  <circle cx="215.0" cy="439.3" r="2.4" fill="#3C3E36"/><text x="220.0" y="442.3" class="mapx" text-anchor="start">Christiania</text>
   <circle cx="221.8" cy="310.1" r="2.4" fill="#3C3E36"/><text x="226.8" y="313.1" class="mapx" text-anchor="start">Trondhjem</text>
   <circle cx="170.4" cy="634.4" r="2.4" fill="#3C3E36"/><text x="165.4" y="637.4" class="mapx" text-anchor="end">Gottorp</text>
   <rect x="14" y="181" width="19" height="10.5" fill="#2E6B5E" fill-opacity="0.62" stroke="#2E6B5E" stroke-width="1"/>

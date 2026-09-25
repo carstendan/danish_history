@@ -119,7 +119,44 @@ def page_words(h, key):
     return sum(words(detag(b)) for b in div_block(h, key))
 
 
+PART_G = range(25, 32)
+
+
+def part_g_apparatus(src, ch):
+    """Chapter ch's apparatus, read from PART_G_DRAFT.md by this file, not by mkbody.
+
+    Review session 9 (§13.6). Until then this read `c25_draft_apparatus.md` and its
+    siblings, which no build reads and which had drifted from PART_G_DRAFT.md: six
+    blocks in 26-31 "did not reach the page" because the witness was the wrong file.
+    The first repair read the apparatus through mkbody.chapter(), and the session's
+    checker showed why that is no witness either: mkbody kept only the LAST apparatus
+    segment, so a second one made the page lose its terms, its Meanwhiles and its
+    Myth-check and this check agreed with the loss. So the text is gathered here, from
+    EVERY `# Chapter NN — apparatus` segment, and a missing one is a refusal rather
+    than a fall-back to a per-chapter file.
+    """
+    p = os.path.join(src, 'PART_G_DRAFT.md')
+    t = open(p, encoding='utf-8').read()
+    ms = list(re.finditer(r'^# Chapter (\d+)(.*)$', t, re.M))
+    segs = [t[m.start():(ms[i + 1].start() if i + 1 < len(ms) else len(t))]
+            for i, m in enumerate(ms) if int(m.group(1)) == ch and 'apparatus' in m.group(2)]
+    return "\n".join(segs), len(segs)
+
+
+def unknown_headings(app):
+    """`##` headings in an apparatus that this check cannot see: unknown ones, and known
+    ones that occur twice (mkbody reads the first of a pair, so a `## Visit` renamed
+    `## Sources` silently dropped the whole Visit block - the second checker of session 9)."""
+    known = {h for h, _ in PARTS} | set(UNCHECKED)
+    hs = [h.strip() for h in re.findall(r'^## (.+)$', app, re.M)]
+    return ([h for h in hs if h not in known]
+            + ['%s (twice)' % h for h in sorted(set(hs)) if h in known and hs.count(h) > 1])
+
+
 def draft_text(src, ch):
+    if ch in PART_G and os.path.exists(os.path.join(src, 'PART_G_DRAFT.md')):
+        app, nseg = part_g_apparatus(src, ch)
+        return (app, 'PART_G_DRAFT.md') if nseg else (None, 'PART_G_DRAFT.md')
     for name in ('c%d_draft_apparatus.md' % ch, 'c%d_draft.md' % ch):
         p = os.path.join(src, name)
         if os.path.exists(p):
@@ -148,9 +185,23 @@ def main():
     for ch in want:
         app, name = draft_text(src, ch)
         page = page_path(out, ch)
+        if app is None and name == 'PART_G_DRAFT.md':
+            bad.append((ch, 'apparatus', 0, 0))
+            print('%-4d %-26s %8s %8s   !! no `# Chapter %d — apparatus` segment in %s'
+                  % (ch, 'apparatus', '-', '-', ch, name))
+            continue
         if app is None:
             skipped.append((ch, 'no apparatus draft in the repo'))
             continue
+        if name == 'PART_G_DRAFT.md':
+            for hd in unknown_headings(app):
+                bad.append((ch, hd, 0, 0))
+                print('%-4d %-26s %8s %8s   !! a heading neither mkbody nor this check '
+                      'reads: it would not reach the page' % (ch, hd[:26], '-', '-'))
+            if not re.search(r'^## Summary\s*$', app, re.M):
+                bad.append((ch, 'Summary', 0, 0))
+                print('%-4d %-26s %8s %8s   !! no `## Summary` heading in the apparatus'
+                      % (ch, 'Summary', '-', '-'))
         if page is None:
             skipped.append((ch, 'no built page'))
             continue

@@ -10,8 +10,6 @@
 
 # Chapter 25 — The kingdom made hereditary, 1660–1670
 
-*Draft, sections 01–03 of 09. For register check before the remaining six.*
-
 ---
 
 ## The city that had just survived
@@ -19,22 +17,22 @@
 Copenhagen in the summer of 1660 was a city of about thirty thousand people that
 had spent two winters expecting to be killed.
 
-The Swedish army had come across the ice in February 1658 and taken half the
-kingdom in three weeks. It had come back in August, without warning and without a
-declaration, and sat down outside the walls. The assault came in the dark on the
-night of 10 February 1659, on ladders, against a rampart the burghers had spent
-the autumn deepening; and the burghers, who were tailors and brewers and
-shipwrights and had never been soldiers, held it. The peace was not signed until
-27 May 1660. For twenty-two months the ordinary business of the city had been
-survival.
+The Swedish army had come across the frozen Belts in the winter of 1658 and forced
+a peace that cost a third of the realm. It had come back in August, without warning
+and without a declaration, and sat down outside the walls. The assault came in the
+dark on the night of 10–11 February 1659 (20–21 February, new style), on ladders,
+against a rampart the burghers had spent the autumn deepening; and the burghers,
+who were tailors and brewers and shipwrights and had never been soldiers, held it.
+The peace was not signed until 27 May 1660. From August 1658 until then the
+ordinary business of the city had been survival.
 
 Two things came out of that. The first was a bill. The war had emptied a treasury
 that was already empty, and the crown now owed money to men who were standing in
-the street outside. The second was a claim. On 10 August 1658, with the Swedes
-three miles away, Frederik 3. had granted the citizens of Copenhagen privileges
-that no Danish king had granted a town before — among them the right to buy land
-that until then only nobles could own. A king under siege had paid for loyalty
-with the one currency he had left, which was rank.
+the street outside. The second was a claim. On 10 August 1658, with the Swedish
+king looking down on the city from Valby Bakke, Frederik 3. had promised the
+citizens of Copenhagen privileges that put them on a footing with the nobility —
+among them the right to buy land that until then only nobles could own. A king
+under siege had paid for loyalty with the one currency he had left, which was rank.
 
 Neither the king nor the burghers understood in 1658 what the second of those
 would be worth. They found out in October 1660.
@@ -45,7 +43,7 @@ would be worth. They found out in October 1660.
 
 The summons went out on 2 August. It ordered the three estates — the nobility,
 the clergy, the burghers — to appear in Copenhagen on 8 September. The fourth
-estate, the peasants, who were four-fifths of the country, was not invited, and
+estate, the peasants, who were most of the country, was not invited, and
 nobody at the time appears to have thought this needed explaining.
 
 They assembled on the Monday, 10 September, in the great hall of Copenhagen
@@ -65,17 +63,18 @@ its soldiers.
 What they wanted in return was one sentence long. Everyone should pay.
 
 This was not a radical demand and it was not phrased as one. The nobility of
-Denmark held roughly half the land in the kingdom and paid almost no tax on it,
+Denmark held a great part of the land in the kingdom and paid almost no tax on it,
 by right, as nobility; the exemption was not a loophole but the definition. The
 burghers were asking the *rigsråd* — the council of the realm, twenty-odd noblemen
 who governed with the king and had chosen him — to give up the thing that made
 them noble, in order to pay for a war they had lost.
 
-At a joint meeting on 19 September the answer came back plainly. The nobility, one
-of the councillors told Hans Nansen, was not a body to which anybody prescribed
-anything.
+At a joint meeting on 19 September the answer came back plainly. The councillor
+Otte Krag blamed the burghers and the clergy for the delay; Hans Nansen answered
+that the delay was the nobility's; and Krag told him that nobody was to prescribe
+anything to the nobility.
 
-He was right about the law and wrong about the room. Nansen was the senior mayor
+Krag was right about the law and wrong about the room. Nansen was the senior mayor
 of a city that had just held a rampart with its own hands, and he was standing in
 a castle the nobility could no longer defend.
 
@@ -90,40 +89,56 @@ a castle the nobility could no longer defend.
 > siege and the loyalty of the city. It is a careful speech, and every man
 > listening knows what is underneath it, because Gersdorff negotiated the peace of
 > Roskilde two and a half years earlier and signed away Skåne, Halland, Blekinge
-> and Bohuslän with his own hand. Nine of the estates he owned were in Skåne. He
-> did not get them back. He is standing in front of the assembly explaining a
+> and Bohuslän with his own hand. Nine of the estates he owned were in Skåne, and
+> he and his heirs will be compensated for them out of what is left. He is standing in front of the assembly explaining a
 > catastrophe he put his name to, on behalf of a king who is about to be handed
 > everything Gersdorff's order has.
 >
 > Six weeks later that king will make him *rigsdrost* and president of the new
 > Statskollegiet — the highest office in the machine built to replace the office
-> he currently holds. He will hold it for six months. He is dead on 19 April 1661.
+> he currently holds. He will hold it for not quite six months. He is dead on 19
+> April 1661.
 >
 > Joachim Gersdorff, steward of the realm · the great hall, Copenhagen Castle ·
-> 10 September 1660
+> 10 September 1660 · [-]
 
 ---
 
 ## Hereditary, then absolute
 
-The deadlock broke over stamped paper.
+The deadlock broke on 8 October, and not over the tax. The burghers and the clergy
+stopped arguing about who should pay and changed the question; how they did it,
+that day, is the vignette below.
 
-On 7 October the mayors of Copenhagen refused to publish the ordinance. The tax
-would fall on the burghers; the nobility would not share it; the city would not
-proclaim it. It was a small act of obstruction by four men with municipal
-authority and it did not look like the beginning of anything.
-
-On 8 October Hans Nansen put a different proposal to Copenhagen's *magistrat*, and
-the magistrat adopted it the same day: that the estates should offer Frederik 3.
-the crown of Denmark as an inheritance for his house, in perpetuity. Nansen
-carried it to the burgher representatives and Hans Svane, bishop of Zealand,
-carried it to the clergy. Both estates adopted it at once.
+> **Vignette · Hans Nansen, Copenhagen, 8 October 1660**
+>
+> He is sixty-one. He has been one of Copenhagen's mayors since 1644 and the
+> senior one since 1654, and before that he was a merchant. As a boy, in 1614, he
+> went with an uncle on a trading voyage to the Kola coast; he went to Russia again
+> and again after that, and learned the language well enough that the government
+> used him as an interpreter. Every summer from 1621 to 1639 he sailed to Iceland
+> for the Iceland Company, which he later ran. He wrote a book about the shape of
+> the world in
+> 1633, out of what he had seen of it. He is not a lawyer and not a courtier. He
+> knows what a cargo is worth, what a rampart costs, and what a city will bear.
+>
+> He has watched the nobility refuse to pay since the assembly opened. Today
+> Copenhagen's *magistrat*, the mayors and councillors he leads, puts a different
+> proposition: give the king the crown for his heirs, for ever.
+>
+> He takes it to the burgher estate and Hans Svane, bishop of Zealand, takes it to
+> the clergy, and both accept it the same day. He will be given titles and seats
+> for it, and little power: his influence ends with the homage, ten days from now. Seven years
+> later he is dead, a rich man.
+>
+> Hans Nansen, senior mayor of Copenhagen · Copenhagen · 8 October 1660 · [-]
 
 It is worth being exact about what this was, because it is easy to read backwards.
 Denmark was an elective monarchy. Each new king was chosen by the *rigsråd* and,
-before his coronation, signed a *håndfæstning* — a charter of accession, a
-contract setting out what he might not do without the council's consent. Every
-Danish king since 1320 had signed one. The håndfæstning was the constitution, and
+before his coronation, signed a *håndfæstning* — a charter of accession, a contract
+setting out what he might not do without the council's consent. Every Danish king
+since 1448 had signed one, and three had in the fourteenth century. The
+håndfæstning was the constitution, and
 the council's power to write it was the council's power. To make the crown
 hereditary was to abolish the election; to abolish the election was to abolish the
 charter; and to abolish the charter was to leave the king holding a kingdom with
@@ -145,51 +160,20 @@ incriminating fact in the record, and it is not quite proof of anything, because
 king with a bankrupt treasury and an armed city had reasons to close a gate that
 had nothing to do with a plot.
 
-The rigsråd gave way on 13 October. Svane made the offer formally that evening. On
+The rigsråd gave way on 13 October. Svane had told the estates that day that a
+hereditary crown meant the charter must be annulled and the government ordered
+afresh, and he made the offer formally that evening. On
 16 October the håndfæstning was given up. On 18 October, on the square between the
 castle and the Børsen, the estates swore homage to Frederik 3. and his heirs in
 order of rank.
 
-The peasants had very nearly been forgotten. A small group of farmers was fetched
-in from Amager at the last minute so that it could be said afterwards that the
-whole Danish people had made the king their hereditary lord. Nobody wrote down
-their names. When the *Enevoldsarveregeringsakt* — the act of absolute hereditary
-government — went round the country over the following winter to be signed by
-representatives of every estate, they were not asked to sign it.
-
-They had been fetched to speak, and were not asked to write.
+The peasants had very nearly been forgotten. A few farmers were fetched in from
+Amager at the last minute to swear for them; their morning is the vignette in §06.
 
 
 <!-- ===== c25_draft_04-09.md ===== -->
 
 # Chapter 25 — The kingdom made hereditary, 1660–1670
-
-*Draft, sections 04–09 of 09.*
-
-**
-
----
-
-> **Vignette · Hans Nansen, Copenhagen, 8 October 1660**
->
-> He is sixty-two and he has been mayor of Copenhagen for sixteen years, and
-> before that he was a merchant of the Iceland Company who went out to the White
-> Sea as a young man and traded up the Russian rivers. He wrote a book about the
-> shape of the world in 1633, out of what he had seen of it. He is not a lawyer
-> and not a courtier. He knows what a cargo is worth, what a rampart costs, and
-> what a city will bear.
->
-> He has spent three weeks watching the nobility refuse to pay. On the seventh of
-> October his fellow mayors refused to publish the stamp duty, which was
-> obstruction and would have gone nowhere. On the eighth he puts a different
-> proposition to the magistrat: give the king the crown for his heirs, for ever.
->
-> They adopt it that day. He takes it to the burgher estate and Hans Svane takes
-> it to the clergy, and both accept before the light goes. Seven years later he
-> is dead, a rich man, mayor to the end, in a city whose privileges he had won
-> twice — once on the rampart and once in a room.
->
-> Hans Nansen, senior mayor of Copenhagen · Copenhagen's rådhus · 8 October 1660
 
 ---
 
@@ -197,58 +181,62 @@ They had been fetched to speak, and were not asked to write.
 
 For five years the most complete absolutism in Europe existed without a text.
 
-The homage of October 1660 made the crown hereditary. The act signed round the
-country that winter made the king's power absolute in a sentence. Neither said
-what absolute meant, and the men who had voted it were themselves unsure: the
-committees that met through 1661 to draft something permanent produced nothing
-anyone kept.
+The homage of October 1660 made the crown hereditary. The act of 10 January 1661,
+signed round the country that winter, made the king's power absolute in a sentence. Neither said
+what absolute meant, and the men who had voted it were themselves unsure. A
+constitutional committee first met on 14 October 1660, the day after the council
+gave way, and nothing written for it set out a constitution until the crown lawyer
+Søren Kornerup was consulted and a short Latin draft called *Lex Regia Frederici
+Tertii* appeared.
 
-What was eventually written was written by two men and shown to almost nobody. A
-short Latin draft called *Lex Regia Frederici Tertii* appears once the crown
-lawyer Søren Kornerup is consulted; the final wording is the king's own, worked
-out with his chamber secretary, Peder Schumacher. Schumacher was thirty-one, the
-son of a Copenhagen wine merchant, and had been abroad at Oxford and Leiden. He
-wrote out both fair copies himself.
+What was eventually written was written by two men and shown to almost nobody. The
+final wording is the king's own, worked out with his chamber secretary, Peder
+Schumacher. Schumacher was thirty, the son of a Copenhagen wine merchant, and had
+been abroad at Oxford and Leiden. The parchment is in his hand.
 
 The law he wrote is short and it is almost entirely permissive. The king is
 answerable to God alone. He makes law, war, peace and appointments; he is above
 every court; no assembly limits him. Against this there are three restrictions and
 no more. He must hold to the Augsburg Confession. He must keep the realm
-undivided. And the succession must run in his house by the order the law sets
-down. That is all. Denmark is the only absolute monarchy in Europe that wrote its
+undivided. And he must keep this law, and the absolute power it gives him, as it
+stands. That is all. Much of the rest of its length fixes the succession: in the
+male line first and, if that fails, through the female line. Denmark is the only absolute monarchy in Europe that wrote its
 absolutism into a constitution, and what the constitution mostly does is decline
 to constrain.
 
-Then it was put away. The seals — gold, in silver caskets — were not attached until
-1669, and the date on the parchment, 14 November 1665, has been argued to be
-later than the writing; the argument has generally been rejected and cannot be
-settled either way. Until Frederik 3. died, by the accounts we have, two men knew
-the thing existed: Christoffer Gabel, who had carried the king's messages during
-the crisis, and Schumacher, who had written it and kept it.
+Then it was put away, under a gold seal, in a silver casket. The date on the
+parchment is 14 November 1665. Whether the copy now in the Rigsarkiv was written
+then is less certain: one recent study thinks it was probably written out in 1669
+and dated back. While Frederik 3. lived the text was kept locked away. Extracts
+went to foreign princes who might one day inherit, but by the best account the
+only man at home who knew the whole of it, besides the king, was Schumacher, who
+had written it — and perhaps Christoffer Gabel, the king's old confidant.
 
-Both were commoners. The document that ended the Danish nobility's power was known
-to a wine merchant's son and a customs officer's son, and to no one else.
+The document that ended the Danish nobility's power was known to a wine merchant's
+son and, perhaps, to a man who had been made a nobleman the year before.
 
 ---
 
 ## Colleges instead of a council, amter instead of len
 
-A council can be abolished in an afternoon. Replacing it takes a decade, and the
-work had started before anyone abolished anything.
+A council can be set aside in an afternoon. Replacing it takes a decade, and the
+work had started before anyone set anything aside.
 
-Krigskollegiet, the war college, was set up in 1658 — two years before the
-estates met — because a kingdom being invaded needs someone to count muskets full
+The admiralty had been run by a college since 1655, and Krigskollegiet, the war
+college, was set up in the middle of the war — in 1658 by one account, 1660 by
+another — because a kingdom being invaded needs someone to count muskets full
 time. That is the shape of the whole reform: not a new idea imposed in October
 1660 but an unfinished wartime expedient that October 1660 finished. Where the
-*rigsråd* had been twenty noblemen who met, deliberated and decided everything,
+*rigsråd* had been twenty-odd noblemen who met, deliberated and decided everything,
 the colleges were standing offices, each with one subject, staffed by men who came
 in every day.
 
 Statskollegiet received its instruction on 18 November 1660 and sat above the
 others; the treasury, the chancery, the war college and the admiralty ran under
-it, their presidents sitting in it. Kommercekollegiet followed in 1668 for trade.
-And in February 1661 the supreme court, Højesteret, was given its final form, with
-a detail in it that says more than the Kongelov does: half its judges were to be
+it, their presidents sitting in it. Kommercekollegiet followed in 1670 for trade.
+And on 14 February 1661 an ordinance created the supreme court, Højesteret, in
+place of the old king's court, with a detail in it that says more than the
+Kongelov does: half its judges were to be
 noble and half learned or burgher, and every one of them was to be appointed by
 the king himself. The nobility kept half the bench and lost the right to put
 anyone on it.
@@ -262,24 +250,27 @@ entirely. The len became *amter*, districts, run by *amtmænd*, salaried officia
 who could be moved, audited and dismissed. Many of the first amtmænd were the same
 noblemen. They were now employees.
 
-Over all of it, for ten years, stood Christoffer Gabel. He was not the author of
-the revolution and he never claimed to be, but between 1660 and 1670 he was the
-most influential man at the Danish court: enriched, ennobled, and made governor of
-Copenhagen in 1664. His father had been a cartographer in Glückstadt who rose to
-be the town's recorder and was killed at its siege in 1628.
+Over all of it stood Christoffer Gabel. He was the king's servant before he was
+anything else, and nobody has shown that he was the author of the revolution, but
+he stood at the centre of it in 1660, and the years from 1665 until Frederik 3.
+died in 1670 were his years of power at court. He was enriched, ennobled in 1664,
+and made statholder of Copenhagen the same year. His father had
+been a land surveyor in Glückstadt who rose to be the town's clerk and the king's
+provision master there, and died in 1628.
 
-A mapmaker's son, presiding over a state that had begun to measure things.
+A surveyor's son, presiding over a state that had begun to measure things.
 
 ---
 
 ## The land written down
 
-On 13 December 1660, seven weeks after the homage, a royal letter went to Joachim
+On 13 December 1660, eight weeks after the homage, a royal letter went to Joachim
 Gersdorff instructing Statskollegiet to work out how a register of the realm might
 best be arranged.
 
-The crown had already begun. Since October, landowners public and private had been
-ordered to send in their *jordebøger* — the estate books in which they recorded
+The crown had already begun. On 28 September, while the estates were still
+sitting, lensmen, chapters and landowners had been ordered to send in copies of
+their *jordebøger* — the estate books in which they recorded
 what each tenant farm owed. There were thousands of them and they were all
 different. A farm on Funen paid so many barrels of rye, so many geese, so many
 days' carting; a farm in Vendsyssel paid butter and firewood and a pig; a farm on
@@ -295,12 +286,7 @@ rye or barley, or two of oats; it divided into eight *skæpper*, each of four
 *fjerdingkar*, each of three *album*. Butter became hartkorn. Carting days became
 hartkorn. A goose became a fraction of a skæppe.
 
-The *landgildematrikel* came into force in 1662 and covered every property in the
-kingdom except one. Bornholm was left out — the island that had thrown out its
-Swedish governor in December 1658 and handed itself back to the crown on
-its own terms was not, as it turned out, on the list.
-
-The 1662 register was full of errors, and the whole thing was done again on the
+The *landgildematrikel* was finished in 1662. The 1662 register was full of errors, and the whole thing was done again on the
 same principles as the *amtstuematrikel* of 1664. That is the one the century used.
 Land in Denmark would be valued in hartkorn until 1903.
 
@@ -313,7 +299,7 @@ uniform rate, and compared with the number for any other farm in the country. It
 is the same operation the Kongelov performed on politics: many old arrangements,
 replaced by one thing that could be stated on a page.
 
-Eleven years later, when Christian 5. built his new nobility, he set the price of a
+In 1671, when Christian 5. built his new nobility, he set the price of a
 countship at 2,500 barrels of hartkorn. The unit invented to weigh a peasant's rye
 became the unit that weighed a count.
 
@@ -324,15 +310,14 @@ became the unit that weighed a count.
 > the Dutch families had farmed the king's vegetables since Christian 2.'s time.
 >
 > They are fetched in because somebody has noticed a problem. The estates are
-> about to swear homage to the king and his heirs, on the square between the
-> castle and the Børsen, in order of rank: nobility, clergy, burghers. There is no
-> fourth estate present. There has been no fourth estate present since the
-> beginning, in September, because nobody summoned one. And it will be said
-> afterwards — it is said afterwards, in the act itself — that the whole Danish
-> people made Frederik 3. their hereditary lord.
+> about to swear homage to the king and his heirs, in order of rank: nobility,
+> clergy, burghers. There is no fourth estate present. There has been no fourth
+> estate present since the beginning, in September, because nobody summoned one.
+> And it is to be said afterwards that the whole Danish people made Frederik 3.
+> their hereditary lord.
 >
 > So a few farmers stand at the back, at the end of the ranks, and swear on behalf
-> of four-fifths of the population of Denmark. Then they go home.
+> of most of the population of Denmark. Then they go home.
 >
 > Over that winter the *Enevoldsarveregeringsakt* travels round the country to be
 > signed, estate by estate, by representatives of the nobility, the clergy and the
@@ -340,7 +325,8 @@ became the unit that weighed a count.
 > asked to write, and within two years every farm they worked had been reduced to
 > a number in a book in Copenhagen.
 >
-> The farmers of Amager · the square before Copenhagen Castle · 18 October 1660
+> The farmers of Amager · the square before Copenhagen Castle · 18 October 1660 ·
+> [n]
 
 ---
 
@@ -350,13 +336,13 @@ There was no abolition of the *rigsråd*. There was no decree, no last session, 
 scene. The council simply stopped being called, and after a while it had not met
 for so long that it was clear it was not going to.
 
-Its members did not all fall. Gersdorff took the presidency of Statskollegiet;
+Its members did not all fall. Gersdorff's new office is in the vignette in §02;
 others became presidents of colleges, amtmænd, judges of the new supreme court.
 What ended was not their careers but the thing that had made them a body: the
 right to choose the king, and the charter they made him sign. The Danish nobility
 kept its land, its titles and most of its offices, and lost the constitution.
 
-It would be compensated, eleven years later, with a different kind of rank
+It would be compensated, in 1671, with a different kind of rank
 altogether — one the king awarded rather than one a man was born to. That is the
 next chapter's business, and it did not feel like compensation to everyone.
 
@@ -364,8 +350,8 @@ next chapter's business, and it did not feel like compensation to everyone.
 
 ## A church of royal officers
 
-Hans Svane got his reward first. The bishop of Zealand who had carried the
-proposal to the clergy on 8 October was made archbishop of Denmark — a title that
+Hans Svane's reward was the strangest. The bishop of Zealand was made archbishop
+of Denmark — a title that
 had not existed in the kingdom since the Reformation abolished it, revived for one
 man, and abolished again when he died in 1668.
 
@@ -394,31 +380,28 @@ The bill did not go away. That was the whole reason the estates had met.
 
 Absolutism did not make Denmark solvent; it made Denmark able to tax without
 asking. The consumption duties stayed. The land tax, now assessed in hartkorn,
-fell on noble and peasant land alike. A standing army was kept up in peacetime,
-which no Danish king had managed before, and paid for out of *ryttergods* — crown
+fell on the tenant farms of noble estates as on everyone else's, though the
+manors' own home farms kept their old exemption. A standing army was kept up in
+peacetime, and from the 1670s part of it was paid for out of *ryttergods* — crown
 estates whose revenue was assigned directly to cavalry districts, so that a
 regiment sat on the land that fed it. Copenhagen's landward fortifications were
-extended. Christianshavn was walled. Kastellet was rebuilt on the harbour mouth,
-its guns commanding the approach, and also, as it happened, the city.
+extended. Kastellet was rebuilt on the harbour mouth, its guns commanding the
+approach, and also, as it happened, the city.
 
-Frederik 3. died on 9 February 1670, at fourteen minutes past four in the
-afternoon, in the castle where the estates had assembled nine and a half years before. He had
-been the second son of a king, sent into the church, never meant to reign; he had
-lost half the kingdom and gained all of it.
+Frederik 3. died on 9 February 1670, in the castle where the estates had assembled
+in September 1660. He had been the second son of a king, sent into the church,
+never meant to reign; he had lost a third of the kingdom and gained all of it.
 
-His son was told about the law. The two originals came out of their caskets and
-were read aloud at Christian 5.'s anointing at Frederiksborg in June 1671, and put
-away again.
+His son was told about the law: at Christian 5.'s anointing in 1671 it was read
+aloud to the whole church, which is where chapter 26 begins.
 
-The Kongelov was not printed for forty-four years. When Frederik 4. finally
-published it, on 4 September 1709, it was not set in type: the entire text was cut
-into copper plates, page by page, and issued as an engraved folio in an edition of
-five hundred — which were given away, to those thought suitable, and could not be
-bought.
+The Kongelov was not printed in Frederik 3.'s lifetime, or in his son's. When
+Frederik 4. finally published it, on 4 September 1709, it was not set in type:
+the entire text was engraved on copper plates and issued in an edition of five
+hundred, which were sent round to the princely houses of Europe.
 
-The most complete constitution of royal power in Europe. Locked in a silver box
-for a generation by two commoners, and then engraved like a monument, in an
-edition no subject could purchase.
+A constitution of royal power, kept in a silver box through two reigns, and then
+engraved like a monument for an audience of princes.
 
 
 <!-- ===== c25_draft_apparatus.md ===== -->
@@ -436,16 +419,15 @@ Recall, Causal, Counterfactual, Contested.*
 **§02 — the estates meet**
 
 - **stændermøde** — an assembly of the estates. Not a parliament: it met when the
-  king summoned it, discussed what he put before it, and dispersed. The last one
-  before 1660 had met in 1652.
-- **rigsråd** — the council of the realm. Around twenty noblemen who governed with
-  the king, chose his successor, and wrote the charter he signed. It was not
-  abolished in 1660; it stopped being summoned.
+  king summoned it, discussed what he put before it, and dispersed.
+- **rigsråd** — the council of the realm. Twenty-odd noblemen who governed with
+  the king, chose his successor, and wrote the charter he signed.
 - **håndfæstning** — literally 'hand-fastening', in practice a charter of
-  accession. The first was forced on Erik Klipping in 1282 (chapter 14), and
-  almost every Danish king from 1320 signed one before his coronation, setting out what
-  he could not do without the council. It was the constitution, and giving it up
-  was the whole of the change.
+  accession. Its forerunner was the agreement forced on Erik Klipping in 1282
+  (chapter 14); the first given at an election was Christoffer 2.'s in 1320, and
+  every king from 1448 signed one before he was crowned, setting out what he could
+  not do without the council. It was the constitution, and giving it up was the
+  whole of the change.
 - **konsumtionsskat** — a duty on goods entering a town. It fell on the towns, and
   the towns voted for it.
 
@@ -458,7 +440,7 @@ Recall, Causal, Counterfactual, Contested.*
 - **enevælde** — literally "sole rule": absolutism. The Danish word carries no
   suggestion of tyranny, only of undivided authority.
 - **magistrat** — a town's governing body of mayors and councillors. Copenhagen's
-  adopted Nansen's proposal on 8 October and set the week in motion.
+  is where the proposal of 8 October began.
 
 **§04 — the Kongelov**
 
@@ -490,20 +472,19 @@ Recall, Causal, Counterfactual, Contested.*
 
 ## Meanwhile in Europe
 
-**1660 — London.** In the same month that Denmark's estates gathered to hand a
-king unlimited power, England took a king back on terms. Charles 2. landed at
-Dover on 25 May 1660 after eleven years without a monarchy, and the settlement
-that restored him was a negotiation: an indemnity for most of his father's
-enemies, and a revenue voted by Parliament rather than owned by the crown. Two
-kingdoms of comparable size, in the same eighteen months, moved in opposite
-directions — and each move was made by an assembly that thought it was solving a
-financial problem.
+**1660 — London.** In the month that Denmark made its peace with Sweden, England
+took a king back on terms. Charles II landed at Dover on 25 May 1660 after eleven
+years without a monarchy, and the settlement that restored him was a negotiation:
+an indemnity for most of his father's enemies, and a revenue voted by Parliament
+rather than owned by the crown. Two kingdoms, within the same year, moved in
+opposite directions — and each move was made by an assembly that thought it was
+solving a financial problem.
 
-**1661 — Paris.** Cardinal Mazarin died on 9 March 1661, and Louis 14., then
-twenty-two, told his ministers he would govern without a first minister. The
-French absolutism that Denmark is usually said to have copied was therefore
-declared in March 1661, five months after the Copenhagen
-homage of October 1660 and four years before the Kongelov was written. Denmark did not import a French model. It arrived at
+**1661 — Paris.** Cardinal Mazarin died on 27 February 1661, and the next day
+Louis XIV, then twenty-two, told his ministers he would govern without a first
+minister. The French absolutism that Denmark is usually said to have copied was
+therefore declared four months after the Copenhagen homage of October 1660, and
+four years before the date on the Kongelov. Denmark did not import a French model. It arrived at
 something more complete than the French one, because Louis never wrote his powers
 down and never had to: France had no charter of accession to abolish.
 
@@ -516,10 +497,10 @@ The estates met to solve a debt, not to change the constitution. The proposal to
 make the crown hereditary came from the burghers and the clergy, not from the
 king's side of the room, at least so far as anything written survives. And
 hereditary did not have to mean absolute — that it came to mean it was decided in
-the six days between 13 and 18 October, by men who did not leave an account of
+the five days between 13 and 18 October, by men who did not leave an account of
 their reasoning.
 
-**Checkpoint (after §06)** — The visible revolution took six weeks. The one that
+**Checkpoint (after §06)** — The visible revolution took five weeks. The one that
 lasted took four years and produced a book of numbers. If you remember one thing
 about the 1660s in Denmark, make it this: a state that could not previously add up
 what it owned taught itself to do so, and every later thing this part describes —
@@ -539,22 +520,21 @@ room and were not asked.
 **The myth.** Frederik 3. seized absolute power in a coup, using the army and the
 militia to overawe the estates.
 
-**What can be shown.** The proposal came from the burgher and clerical estates.
-The mayors of Copenhagen adopted it on 8 October and both estates accepted it the
-same day. The council of the realm resisted for five days and then gave way. The
+**What can be shown.** The proposal came from the burgher and clerical estates, on
+8 October, by way of Copenhagen's magistrat (§03). The council of the realm
+resisted for five days and then gave way. The
 gates of the city were closed on the evening of 10 October and warships were moved
 to the harbour mouth, and no one has ever explained that away.
 
 **What cannot.** Whether the king's household organised the proposal before it
 was made. The negotiations that mattered were not minuted. The confident account
 of a royal conspiracy — the queen driving her husband, Gabel running messages,
-Svane and Nansen acting to a script — took its modern shape from material
-gathered decades later by people hostile to those involved, and it cannot be
-tested against anything contemporary.
+Svane and Nansen acting to a script — rests on accounts written down afterwards,
+and it cannot be tested against anything contemporary.
 
 **Where that leaves it.** Both of the tidy stories are too tidy. It was not a coup
 in the sense of soldiers in the chamber, and it was not a spontaneous gift from
-grateful subjects. It was a fortnight in which a group of men with an immediate
+grateful subjects. It was ten days in which a group of men with an immediate
 grievance about taxation offered something enormous, and a king who had been
 waiting a long time for exactly that did not ask them to think it over.
 
@@ -562,21 +542,17 @@ waiting a long time for exactly that did not ask them to think it over.
 
 ## Carry-forward
 
-**← 24.** Joachim Gersdorff negotiated the peace of Roskilde in 1658 and gave away
-nine of his own estates in Skåne doing it. He opens the meeting that ends his
-office. — Bornholm threw out its Swedish governor in December 1658 and handed
-itself to the crown on its own terms; it is the one part of the kingdom left out
-of the 1662 land register.
+**← 24.** Joachim Gersdorff, who negotiated the peace of Roskilde in 1658, opens
+the meeting that ends his office.
 
-**→ 26.** Peder Schumacher, who wrote the Kongelov and kept it, becomes Griffenfeld
+**→ 26.** Peder Schumacher, who wrote the Kongelov out in his own hand, becomes Griffenfeld
 and runs the state. — The nobility, having lost the constitution, is compensated
 with a rank order in 1671 priced in the hartkorn this chapter invented. — The land
 registers of 1662 and 1664 converted dues; the survey that actually measures
 Denmark comes in 1681–83.
 
-**→ 27.** The burghers' programme in 1660 included abolishing *vornedskab*, the
-bond tying Zealand peasants to the estate of their birth. It was not abolished in
-1660. It goes in 1702.
+**→ 27.** *Vornedskab*, the bond tying Zealand peasants to the estate of their
+birth, survived 1660. It goes in 1702.
 
 **→ 28.** The parish clergy became royal officials with a register in front of
 them and a pulpit in every village in the country. What that machinery could do
@@ -591,25 +567,25 @@ Denmark takes to 1848.
 ## Summary
 
 Denmark's estates met in September 1660 to find money for a war it had lost. The
-nobility, which held about half the land and paid almost nothing on it, refused
+nobility, which held much of the land and paid almost nothing on it, refused
 to share a tax. The burghers and clergy, who had just defended Copenhagen
 themselves, responded on 8 October by offering the king something the nobility
 could not refuse without appearing disloyal: the crown, for his heirs, for ever.
 
 Making the crown hereditary abolished the election, the election's abolition
-abolished the charter of accession, and by 18 October Frederik 3. held a kingdom
-with nothing written down against him. Whether that consequence was intended, and
+abolished the charter of accession, and by 18 October no charter bound
+Frederik 3. at all. Whether that consequence was intended, and
 by whom, cannot be established from what survives.
 
 The five years that followed built the state that lasted. Standing colleges
 replaced a council that had discussed everything; a supreme court was created with
 half its judges non-noble and all of them royal appointees; the fiefs became
 salaried districts; and every farm in the kingdom was converted into a single
-accounting unit that made national taxation possible for the first time. In 1665
-the king's chamber secretary wrote the whole arrangement into a law, which was
-sealed, hidden, and not printed for forty-four years.
+accounting unit, so that the land could be taxed evenly. In 1665 the king's
+chamber secretary wrote the whole arrangement into a law, which was sealed, kept
+from print, and not published until 1709.
 
-The peasants, four-fifths of the country, were not summoned in September, were
+The peasants, most of the country, were not summoned in September, were
 fetched in from Amager to swear in October, and were not asked to sign in January.
 
 Nobody was executed and nobody's land was taken. That is what makes 1660 hard to
@@ -623,18 +599,19 @@ third.
 
 **Recall** — *Did the facts land?*
 
-1. What were the estates summoned to Copenhagen in September 1660 to decide?
-2. Who put the proposal for a hereditary crown to Copenhagen's magistrat, and on
-   what date?
+1. Who opened the assembly of 1660 on the king's behalf, and what treaty had he
+   put his name to in 1658?
+2. Which body first put the proposal for a hereditary crown, who carried it to
+   the burghers, and on what date?
 3. What is *hartkorn*, and what problem was it invented to solve?
-4. How many people are known to have been aware of the Kongelov before Frederik
-   3.'s death, and who were they?
+4. Who is known to have been aware of the Kongelov before Frederik 3.'s death,
+   and how sure can we be?
 
 **Causal** — *Why did that follow from this?*
 
 5. Why did the abolition of the elective monarchy also abolish the limits on royal
    power? Set out the steps.
-6. The privileges granted to Copenhagen's citizens in August 1658 are usually
+6. The privileges promised to Copenhagen's citizens in August 1658 are usually
    treated as a footnote to the siege. Explain how they made October 1660
    possible.
 7. Why did a state that wanted to tax evenly have to invent a new unit of
@@ -665,27 +642,30 @@ third.
 **Worked from**
 
 - The Kongelov of 1665, in the engraved edition published by Frederik Rostgaard in
-  1709; both original parchments survive, one in the Rigsarkiv and one at
-  Rosenborg.
+  1709; two parchment copies survive, the gold-sealed one in Rigsarkivet and the
+  king's own at Rosenborg.
 - The Enevoldsarveregeringsakt of 10 January 1661.
 - danmarkshistorien.dk, Aarhus University — source texts and commentary on the
-  estates meeting, the Kongelov and the land registers.
+  estates meeting, the Kongelov and the land registers. *Its article on the
+  Kongelov of 1665 contains two errors — it gives 14 November as Frederik 3.'s
+  birthday (he was born on 18 March), and dates Christian 5.'s anointing, at which
+  the law was read aloud, to 1670 rather than June 1671 — which is a reminder
+  about single-source reference works.*
 - Dansk Biografisk Leksikon, for Gersdorff, Nansen, Svane, Gabel and Schumacher.
-- lex.dk / Den Store Danske, for the matrikel series and the college reform. *Its
-  article on the Kongelov contains two errors — it gives 14 November as Frederik
-  3.'s birthday, and dates the first public reading to 1670 rather than the
-  anointing of June 1671 — which is a reminder about single-source reference
-  works.*
-- The Gyldendal og Politikens Danmarkshistorie, for the sequence of the six weeks.
+- lex.dk / Den Store Danske, for the matrikel series and the college reform.
+- The Gyldendal og Politikens Danmarkshistorie, for the sequence of the five
+  weeks, the exchange between Otte Krag and Nansen, and the reading of the Kongelov
+  at the anointing of 1671.
+- Rasmus Gottschalck, "Kongeloven (1665) – retorik og romerret", *Aigis*, for the
+  secrecy of the drafting, the probable later writing of the Rigsarkiv copy, and
+  the edition of 1709.
 
 **Where the argument stands**
 
-*Attributions below need checking against the works themselves before
-publication; they are set down here as the shape of the debate, not as reading
-claimed.*
+*Named as positions in a historiography, not as books this page has read.*
 
 - The question of whether the change was organised from the palace has been
-  argued for a century and a half. The older Danish tradition, running through
+  argued since the nineteenth century. The older Danish tradition, running through
   Edvard Holm's work on the internal history of the absolutist state, treated the
   king's circle as the moving force.
 - Sebastian Olden-Jørgensen has written extensively on 1660 and on the ceremonial
@@ -705,53 +685,57 @@ claimed.*
 ## Visit
 
 **Christiansborg Slotsplads, Copenhagen.** The homage of 18 October 1660 was sworn
-on this square, between the castle and the Børsen. The castle is gone — burnt in
-1794, rebuilt, burnt again in 1884 — but the Børsen's spire of four dragons' tails
-was there and is in the contemporary paintings, and the ground is the ground.
+on this square, between the castle and the Børsen. The castle is gone — pulled
+down in the 1730s for the first Christiansborg, which burnt in 1794, as the second
+did in 1884 — but the Børsen was there and is in the contemporary paintings, and
+the ground is the ground. Its spire of four dragons' tails fell in the fire of
+April 2024 and is being rebuilt.
 
-**Rosenborg Castle.** One of the two original Kongelov parchments, with its gold
-seal, in its silver casket.
+**Rosenborg Castle.** The king's own copy of the Kongelov, kept with the regalia.
 
 **Kastellet, Copenhagen.** Rebuilt in the 1660s on the harbour mouth. Walk the
 ramparts and note which way the guns face. It is a fortress against a Swedish
 fleet; it is also a fortress inside a city.
 
 **Store Magleby, Amager.** The Dutch farming village whose church and street plan
-still show what the king's vegetable growers built. From here it is four miles to
-Christiansborg Slotsplads, which is roughly how far a group of farmers walked in
+still show what the king's vegetable growers built. From here to Christiansborg
+Slotsplads is a morning's walk, which is roughly what a group of farmers made in
 October 1660 to make the constitution unanimous.
 
 **Rigsarkivet, Copenhagen.** The 1664 matrikel is here. It is not on display and
 it is not beautiful. It is a very large number of farms, each reduced to a figure
-in barrels, skæpper, fjerdingkar and album, in a hand that does not vary.
+in barrels, skæpper, fjerdingkar and album, in a hand that does not vary. The
+copy of the Kongelov that was laid out when the absolute kings were anointed is
+here too, in its silver casket under its gold seal, and is kept in the vaults.
 
 
 <!-- ===== c26_draft_01-05.md ===== -->
 
 # Chapter 26 — Law, rank, and the war for Skåne, 1670–1699
 
-*Draft, sections 01–05 of 10. §06 (Køge Bugt) and §09 (the Blue Tower) are held
-back pending research; §07–08 and §10 follow.*
+*Draft, sections 01–05 of 10.*
 
 ---
 
 ## A king who crowned himself
 
-Frederik 3. died on 9 February 1670 and his son was king that morning. Nobody
+Frederik 3. died on 9 February 1670 and his son was king the moment he died. Nobody
 elected him, nobody offered him a charter to sign, and there was nothing for him
 to promise. It was the first accession in Danish history at which the nation had
 no part to play, and the point of the ceremony that followed was to say so.
 
-Christian 5. was anointed at Frederiksborg on 7 June 1671. He was twenty-five. The
-ritual had been written for him by his father's chamber secretary, Peder
-Schumacher, who understood exactly what it needed to do: not confer the crown —
-the crown had been his since February of the previous year — but display a
-sovereignty that no longer came from anyone. And on the altar, through the whole
-service, lay a copy of the King's Law that almost nobody in the church had read,
-and that would not be printed for another thirty-eight years.
+Christian 5. was anointed in the chapel of Frederiksborg on 7 June 1671. He was
+twenty-five. The ceremony was the one the Kongelov, the King's Law of 1665, itself
+prescribed, and what it had to do was not confer the crown — the crown had been
+his since February of the previous year — but display a sovereignty that no
+longer came from anyone. He put the crown on his own head before he walked into
+the church. And before the anointing the Kongelov was read out, in the words of
+the account, "from beginning to end, audibly, for all" who were there: a law
+known until then to a narrow circle of officials, heard once by a congregation,
+and not to be printed for another thirty-eight years.
 
-It was there at every anointing after that, too. A constitution as a liturgical
-object: present, closed, and not to be discussed.
+A constitution as a liturgical object: read out to a congregation, then kept from
+print, and not to be discussed.
 
 ---
 
@@ -763,8 +747,8 @@ The first created two ranks that had never existed in Denmark, *greve* and
 *friherre* — count and baron — with their own privileges. The second, the
 *gemaksordinans*, set out who might stand in which room of the palace. The third
 was the *rangforordning*, the rank order, and it is the one that mattered. It
-listed fifty-five posts and named persons at the top of the state's service, in
-order of precedence, from the king's household downward.
+listed fifty-five offices at the top of the state's service, in order of
+precedence, from the king's household downward.
 
 The old nobility of birth did not appear in it at all.
 
@@ -783,49 +767,45 @@ arrangement. The man who designed the ladder was among the first knights of it.
 
 > **Vignette · Peder Schumacher, Copenhagen, 25 May 1671**
 >
-> He is thirty-five, and he is not a nobleman. His father sold wine on
+> He is thirty-five, and he was not born a nobleman. His father sold wine on
 > Købmagergade and his mother ran the shop after the father died. He went to
-> school at four and matriculated at twelve with the most glowing testimonials
-> anyone could remember. He spent eight years abroad — the Netherlands, England,
-> France, Spain, Italy, Germany — and he happened to be in England in 1660 when
-> the monarchy came back, and in France in 1661 when Louis 14. told his ministers
-> he would rule alone. He is the only man in Denmark who watched both of the
-> events its own revolution is usually compared to.
+> school at four and matriculated at twelve with the most outstanding testimonials. He spent eight years abroad — the Netherlands, England, France, Spain,
+> Italy, Germany — and he was in England to see both the republic and the Stuarts'
+> return, and in Paris in the autumn of 1660, the year before Louis XIV took the
+> government into his own hands.
 >
-> He has been the king's librarian, and the king's chamber secretary, and he wrote
-> the King's Law in 1665 and has kept it since. Today he issues three ordinances
-> that rebuild the Danish aristocracy around state service, and leave the nobility
-> of birth off the list entirely.
+> He has been the king's librarian, and the king's chamber secretary, and he
+> drafted the Kongelov in 1665 and has kept it since. Today he issues three
+> ordinances that rebuild the Danish aristocracy around state service, and leave
+> the nobility of birth off the list entirely.
 >
-> In July the king will ennoble him. He will take the name Griffenfeld. He wrote
-> the ladder in May and was placed on it in July, and both facts were true of the
-> same man, which is roughly the argument his enemies would use against him five
-> years later.
+> He is on the ladder himself. The reference works date his ennoblement, under
+> the name Griffenfeld, to 1670 or to 1671, but either way the man who wrote the
+> ladder and the man who climbed it were the same man, which is roughly the
+> argument his enemies would use against him in 1676.
 >
-> Peder Schumacher, chamber secretary, later count Griffenfeld · Copenhagen ·
-> 25 May 1671
+> Peder Schumacher · Copenhagen · 25 May 1671 · [-]
 
 ---
 
 ## Griffenfeld
 
-For six years he ran Denmark, and the story of how he did it is also the story of
-what the new state was for.
+From 1670 until the spring of 1676 he ran Denmark, and the story of how he did it
+is also the story of what the new state was for.
 
 He had come into Frederik 3.'s service in 1663 as librarian and archivist, which
 sounds minor and was not: it gave him the king's ear daily. By May 1670 he was
 secretary of the newly created *gehejmekonseil*, the privy council that replaced
 Statskollegiet at the top of the machine. A year later he was a privy councillor
 himself. In November 1673 he was made count of Griffenfeld and knight of the
-Elephant. In March 1674 he bought the island of Samsø. And in June 1674, when
-Peter Reedtz died, he took the office Reedtz had held — *rigskansler*, chancellor
-of the realm — and the presidency of the supreme court with it. His instruction as
+Elephant. In March 1674 he bought the island of Samsø. He also became
+*rigskansler*, chancellor of the realm, with the presidency of the supreme court
+that went with the office, and the reference works do not agree when: some give
+November 1673, with the countship, and others 1674, after the old chancellor,
+Peder Reedtz, died that summer. Reedtz's own biography settles what mattered:
+from November 1673 he had in fact been pushed aside. Griffenfeld's instruction as
 chancellor gave him complete direction of both the Danish and the German chancery.
 He was, in practice, the government.
-
-The 1673 date one often sees for the chancellorship is the ennoblement with the
-office folded into it. He was made a count seven months before he had the job,
-because the job was occupied.
 
 What he did with it was consistent, and it followed from what he was. Everywhere he
 built — the administrative colleges, the trading companies — he enforced parity
@@ -838,11 +818,12 @@ knew it.
 He also took bribes for appointments, on a scale that was unacceptable by the
 standards of the 1670s, which were not strict. He advanced his relatives openly.
 He married Karen Nansen, granddaughter of the mayor who had proposed the
-hereditary crown, in 1670; she died in childbirth in 1672, aged sixteen, and it
-brought him a great deal of property. He bought Samsø from Jørgen Bielke — the
-husband of Joachim Gersdorff's daughter, and, by the account of his biographers,
-his own mistress. The two commoners of 1660, Nansen and Gersdorff, are both tied to
-him by household within fourteen years of the estates meeting. Absolutism had
+hereditary crown, in 1670, and the marriage brought him a great deal of property,
+among it the Norwegian estate that was given noble rights under the name
+Griffenfeld, which he took for himself; she died in 1672, aged sixteen. He bought
+Samsø from Jørgen Bielke — the husband of Joachim Gersdorff's daughter, and, by
+the account of his biographers, his own mistress. The burgher and the steward of 1660,
+Nansen and Gersdorff, were both tied to him by household by 1674. Absolutism had
 produced a governing class very quickly, and it was intermarrying.
 
 The enemies were the generals. From January 1676 they had a determined leader in
@@ -860,13 +841,14 @@ wartime looks like something else.
 
 On the morning of 11 March 1676 he was arrested at Copenhagen Castle and taken to
 Kastellet. The charges were corruption, abuse of office and treason. He was
-condemned to death, and reprieved at the block. He spent four years in Kastellet
-and was then moved to Munkholmen, the island fortress off Trondheim, where he
-stayed for eighteen more.
+condemned to death, and reprieved at the block. He was held in Kastellet until
+1680 and then moved to Munkholmen, the island fortress off Trondheim, where he
+stayed until 1698.
 
 The most brilliant administrator of the Danish absolutism served twenty-two years
-for it. He was released in 1698 and died the following March, and was buried at
-Vær church near Horsens.
+for it. In 1698 he was allowed to move into Trondheim, and he died there the
+following March; he was buried in the town, and his coffin was later taken to Vær
+church near Horsens.
 
 ---
 
@@ -886,7 +868,8 @@ the law to replacing it. The jurists Peder Lassen and Rasmus Vinding did most of
 the drafting.
 
 *Danske Lov* is dated 15 April 1683, the king's birthday, which was the deadline
-it was written to. It is in six books — possibly after Jyske Lov's three — running
+it was written to. It is in six books — possibly on the model of Jyske Lov, which
+had three — running
 from procedure through religion, the estates, maritime law, property and debt, to
 crime. The sixth book is arranged on the Ten Commandments. There are no paragraph
 marks: a provision is cited by book, chapter and article, so that 3-19-2 means the
@@ -897,19 +880,17 @@ Danish courts today. A sentence written in 1683 decides cases now.
 Two things about it are worth more than its size.
 
 The first is what opens it. Book One's first chapter is titled "On the obedience
-one owes the law and the lawgiver", and it is based in part on the King's Law of
-1665. The constitution that had been locked in a silver casket and shown to a
-narrow circle of high officials made its first public appearance in 1683, inside
-the law book, as the reason everybody had to obey — and still not as a text anyone
+one owes the law and the lawgiver", and it is based in part on the Kongelov. The
+constitution that had been locked in a silver casket, and read aloud in the
+chapel at Frederiksborg in 1671, made its first appearance in print in 1683, inside the
+law book, as the reason everybody had to obey — and still not as a text anyone
 could read whole. That waited until 1709.
 
 The second is where it stopped. *Danske Lov* created one legal realm out of the
 three the kingdom had been divided into since the Middle Ages. It was not fully
-valid in Slesvig and had no force at all in Holstein. Sønderjylland went on being
-governed by Jyske Lov of 1241 until 1900. The law that unified Denmark could not
-cross the Kongeå, which is the same border chapter 25 spent a section drawing, and
-the duchy kept its thirteenth-century code for another two hundred and seventeen
-years.
+valid in Schleswig and had no force at all in Holstein. Sønderjylland went on
+being governed by Jyske Lov of 1241 until 1900. The law that unified Denmark could
+not cross the Kongeå, which is the same border chapter 25 spent a section drawing.
 
 Norway got its own version. *Norske Lov* was passed on 15 April 1687 — the king's
 birthday again — and came into force at Michaelmas 1688, replacing Christian 4.'s
@@ -919,15 +900,14 @@ important is *odelsret*, the ancestral family right to land. Denmark and Norway
 now had one law in two versions, which is a great deal more union than they had
 had under two.
 
-Then the ground. In 1681 commissioners went out to measure every cultivated field
-in Denmark. Their instruction required each district to provide four peasants,
-experienced in the soil, to go with the surveyors and assess the quality of the
-land on oath. The field books were compiled in 1682 and 1683: every field
-measured, its area calculated, its soil graded. Out of it came Christian 5.'s
-*Store Matrikel*, in force from 1688, which is the first Danish land register
-built on measurement rather than on converting what landlords said they were owed.
+Then the ground. In 1681 surveyors went out to measure every cultivated field in
+Denmark. The field books were compiled in 1682 and 1683: every field measured, its
+area calculated, its soil graded for what it would yield, village by village and
+farm by farm. Out of it came Christian 5.'s *Store Matrikel*, in force from 1688,
+which is the first Danish land register built on measurement rather than on
+converting what landlords said they were owed.
 
-The model was Swedish. Twenty-three years after losing a third of the kingdom to
+The model was Swedish. Within a generation of losing a third of the kingdom to
 Sweden, the Danish state surveyed what was left using the method its conqueror had
 worked out first.
 
@@ -958,12 +938,13 @@ Swedish hold on Skåne, and everything that followed — three more years, a sie
 another battle at Landskrona in July 1677 — was fought over a question that had
 already been answered.
 
-The peace was made at Fontainebleau in 1679, and it was made by Louis 14., who had
-no interest in his ally losing provinces and simply required them back. Denmark
+The peace was made by Louis XIV, who had no interest in his ally losing provinces
+and simply required them back. Denmark accepted his terms at Fontainebleau in
+August 1679 and made its peace with Sweden at Lund at the end of September, and
 gave up everything it had taken. Four years of war, tens of thousands of dead, and
 the map at the end of it was the map at the beginning.
 
-Griffenfeld had told them so, from a cell.
+Griffenfeld had told them so, before they locked him up.
 
 
 <!-- ===== c26_draft_06-10.md ===== -->
@@ -980,50 +961,51 @@ While the army was losing Skåne, the navy was winning the Baltic, and the two
 facts belong in the same chapter because together they explain why the war ended
 where it did.
 
-Niels Juel was forty-eight in 1677 and had learned his trade abroad. At fourteen
-he had been a page to the archbishop of Bremen — the man who later became Frederik
-3. — and in 1650 he went to Holland to learn how sea war was done, serving under
-Maarten Tromp and Michiel de Ruyter through the English wars and taking the
-opportunity to study Dutch shipbuilding while he was there. The Danish navy of the
+Niels Juel was forty-eight in 1677 and had learned his trade abroad. At thirteen
+or so he had become a page to Duke Frederik, archbishop of Bremen — the man who
+later became Frederik 3. — and in 1649 he was sent abroad, to Germany, France and
+Holland, above all to learn the sea. He served in the Dutch navy under Maarten
+Tromp until Tromp was killed in 1653, fighting the English, and then under Michiel
+de Ruyter, and came home to a Danish captaincy in 1656. The Danish navy of the
 1670s was, in a real sense, a Dutch education brought home.
 
-On 1 June he caught the Swedish Gothenburg squadron off Møn before it could join
-the main fleet and destroyed it: eight ships lost, fifteen hundred Swedes killed,
-wounded or taken, including their admiral, against negligible Danish losses. Then
-he withdrew into Køge Bay to repair and resupply, and to wait for Cornelis Tromp,
-who held the overall command and was coming from Holland with a relief fleet.
+At the end of May 1677 he caught the Swedish Gothenburg squadron south of Gedser
+before it could join the main fleet, fought it through the night up towards Møn,
+and made its admiral, Erik Sjöblad, surrender. Then he withdrew into Køge Bugt to
+repair and resupply, and to wait for Cornelis Tromp, who held the overall command
+and was coming from Holland with a relief fleet.
 
-His orders were explicit. He was not to engage before Tromp arrived.
+His instructions were not to engage a superior enemy.
 
-On 29 June the Swedish main fleet came in sight. It had thirty ships of the line
-and seventeen smaller, about eight thousand six hundred men; Juel had twenty-seven
-of the line, five frigates and some six thousand seven hundred, and he was short
-of crew. The Swedes had come precisely because the Dutch had not yet arrived. If
-they broke him, the relief fleet could be dealt with afterwards at leisure and the
-Baltic was theirs.
+On 30 June the Swedish main fleet came in sight, and it was the superior enemy:
+by the count in Den Store Danske, thirty ships of the line and 8,200 men against
+Juel's twenty-five and 6,500. Other accounts give other figures, and all of them
+give the Swedes the larger fleet. The Swedes had come precisely because the Dutch
+had not yet arrived. If they broke him, the relief fleet could be dealt with
+afterwards at leisure and the Baltic was theirs.
 
-He fought. Early on the morning of 1 July, in the water between Stevns and
-Falsterbo — not in the shallow bay the battle is named after — he outmanoeuvred
-Henrik Horn's fleet and destroyed it.
+He fought. Through the morning of 1 July, in the water between Stevns and
+Falsterbo — not in the shallow bay the battle is named after — he broke through
+Henrik Horn's line. Seven of the largest Swedish ships were taken, and Horn
+drew off north round Bornholm with the rest.
 
-It gave Denmark undisputed command of the sea for the rest of the war. Charles 2.
-of England sent Christian 5. his congratulations. And it is worth being plain
-about what it did not do: it did not get Skåne back. Lund had settled that seven
-months earlier. Command of the sea kept the Danish army in Skåne supplied while it
-failed to hold the province, and kept the war going for two more years so that it
-could be ended by a French decision.
+It gave Denmark undisputed command of the sea for the rest of the war. And it is
+worth being plain about what it did not do: it did not get Skåne back. Lund had
+settled that the previous December. Command of the sea kept the Danish army in
+Skåne supplied while it failed to hold the province, and kept the war going for
+two more years so that it could be ended by a French decision.
 
-Juel had disobeyed an order and won the most complete naval victory in Danish
-history. He is on Kongens Nytorv and on the hundred-krone note, and the reason he
-is there is that this was the last occasion for two centuries on which Denmark
-was clearly the stronger power in its own sea.
+Juel had been told not to fight a stronger fleet, and had fought one and beaten it.
+Copenhagen remembers him for it in bronze: his statue by Theobald Stein has stood
+on Holmens Kanal since 1881, and he is buried in Holmens Kirke on the same
+street.
 
 ---
 
 ## The snaphaner in the Göinge woods
 
-The country the Danish army marched into in 1676 had been Swedish for eighteen
-years and Danish for eight hundred, and a good deal of it rose.
+When the Danish army marched into Skåne in 1676, a good deal of the country rose
+with it.
 
 Some of the risers were regular: *friskytter*, free-shooters, organised units paid
 by the Danish crown and operating under Danish military command. Others were
@@ -1042,25 +1024,25 @@ their strongest ground in the northern forests.
 The Swedish response was collective. Captured snaphaner were executed by methods
 that neither tradition disputes and that neither is anxious to describe. And in
 1678 Karl 11. ordered the army into Örkened parish to burn every farm in it and
-kill every man between fifteen and sixty.
+kill its men.
 
 It worked. Not immediately, and not because the parish was persuaded of anything,
 but because the calculation of what it cost to shelter a man in the woods had been
 altered in a way everybody in northern Skåne now understood. Local support fell
-away. When Denmark came back thirty-two years later, nobody went into the forest at
-all.
+away. When Denmark came back, in 1709, nobody went into the forest at all.
 
 Not all of it was resistance, and the Danish crown knew it. The Løsholt raid is
 attributed by tradition to snaphaner, and several researchers read it instead as a
 robbery; the trumpeter who led the Danish riders on it was afterwards executed for
-breaking the king's ban on private plundering. Denmark hanged its own man for what
+breaking the king's ban on private plundering. Denmark executed its own man for what
 the patriotic version counts as partisan warfare.
 
-> **Vignette · Svend Poulsen, Skåne, summer 1676**
+> **Vignette · Svend Poulsen, Skåne, 1676**
 >
-> He is about sixty-eight, and he is the most famous guerrilla captain in Danish
-> history, although almost nothing anybody knows about him is true yet, because
-> the novel that will invent him is a hundred and seventy-seven years away.
+> He was born around 1600, perhaps a few years later, so he is an old man, and he
+> is the most famous guerrilla captain in Danish history, although almost nothing
+> anybody knows about him is true yet, because the novel that will invent him will
+> not appear until 1853.
 >
 > What is on record is this. He fought the Swedes in the border country in the
 > 1650s, and a Swedish report of 1657 calls him a runaway, a perjured burgher and
@@ -1070,17 +1052,16 @@ the patriotic version counts as partisan warfare.
 > in the hartkorn of the register chapter 25 watched being built — and was given a
 > modest pension instead.
 >
-> At the outbreak of this war he is taken on as a land captain on Stevns. On 13
-> July 1676, despite his age, he is commissioned major, and he goes across to
-> Skåne to raise men. In November he is lying ill in Copenhagen, and after that he
-> is not mentioned again in connection with the war. He was alive in 1679. Nobody
-> recorded when he died.
+> At the outbreak of this war he is taken on as a land captain. In 1676, despite
+> his age, he is commissioned major, and he goes across to Skåne to raise men. In
+> November he is lying ill in Copenhagen, and after that he is not mentioned again
+> in connection with the war. He was alive in 1679. Nobody recorded when he died.
 >
-> Even his name is disputed: he was probably not from Göinge at all, and the
-> by-name he is remembered by seems to have been attached to him during this war,
-> possibly by confusion with an older man.
+> Even his name is disputed: he may not have been from Göinge at all, and the
+> by-name he is remembered by is not found before 1673, and may have come to him
+> by confusion with an older man.
 >
-> Svend Poulsen, land captain, later major · Skåne · summer 1676
+> Svend Poulsen · Skåne · 1676 · [n]
 
 ---
 
@@ -1088,32 +1069,27 @@ the patriotic version counts as partisan warfare.
 
 The war ended in 1679 and the serious work started before it.
 
-Lund university was founded in 1666 — eight years after Roskilde and nine years
-before the war — expressly as an instrument of *försvenskning*, the making-Swedish
-of the eastern provinces. A Danish-speaking population that had been in the
-archdiocese of Lund since the twelfth century needed clergy trained in Sweden, and
-the fastest way to get them was to train them in Skåne.
+Lund university was founded in 1666 — eight years after Roskilde and eight before
+the war — expressly as an instrument of *försvenskning*, the making-Swedish of the
+eastern provinces. A Danish-speaking population that had been in the archdiocese
+of Lund since the twelfth century needed clergy and officials trained in Sweden's
+ways, and the fastest way to get them was to train them in Skåne.
 
 After 1679 the programme became systematic. Swedish was introduced in the churches
-and the schools. The church and the courts were put under Swedish law. The parish
-clerk was replaced by a Swedish schoolmaster who could actually speak the language
-he was teaching. A *uniformitetsinspektör* went round fining those who missed
-divine service, and since the population was poor, it could afford neither to miss
-the service nor to keep its children out of the Swedish lessons. By 1687 more than
-seven thousand country children in Skåne could read a running text, and eight
-hundred and seventy of them could write as well.
+and the schools. The church and the courts were put under Swedish law. The state also
+forbade trade and traffic with Denmark, a prohibition that stayed on the books
+into the 1820s.
 
-That is not a story of oppression alone, and it should not be told as one. The
-Swedish state schooled Skåne more thoroughly than the Danish state had ever
-schooled it. It also forbade trade and traffic with Denmark, a prohibition that
-stayed on the books into the 1820s.
+Whether that is a story of oppression alone is still argued, and it should not be
+told as one without saying so: the same programme that took Danish out of the
+parishes put a schooling in Swedish into them.
 
 The demographic cost is the part that does not usually get into either national
 story. Between 1675 and 1718 the population of Skåne fell by twenty-six per cent,
-from about 180,000 to 132,800. Fifteen thousand fled across the Sound to Denmark.
-Thirty thousand were conscripted into the Swedish army and sent to the Baltic
-provinces, where many of them died. War, flight and conscription between them
-removed one Scanian in four.
+from about 180,000 to 132,800. Some fled across the Sound to Denmark. Some thirty
+thousand young Scanians were taken into the Swedish army, many of them sent to the
+Baltic provinces. War, flight and conscription between them removed one Scanian in
+four.
 
 By about 1720 it is likely that the people of Skåne thought of themselves as
 Swedish subjects. That is sixty-two years after Roskilde: two generations, one
@@ -1121,106 +1097,98 @@ university, one war, one massacre, a school system and a closed border.
 
 ---
 
-## The Blue Tower
+## The state's prisoners
 
-On 8 August 1663 a woman of forty-two was brought into the Blue Tower of
-Copenhagen Castle. She was released on 19 May 1685. She counted the interval
-herself, exactly: twenty-one years, nine months and eleven days, in which she was
-not once outside in the open air.
+The absolutist state kept its most important prisoners in its own house. The
+Blue Tower, *Blåtårn*, was the great keep of Copenhagen Castle, and its cells were
+the state prison.
 
-Leonora Christina was Christian 4.'s daughter by Kirsten Munk, and the wife of
-Corfitz Ulfeldt, who had been steward of the realm and became the most notorious
-traitor in Danish history. She had followed him into exile in 1651 and stayed with
-him through everything after. In 1663 she went to England to collect a debt from
-Charles 2., a cousin of sorts; he handed her back. Ulfeldt died the next year on a
-boat on the Rhine near Basel.
+The Kongelov had made the king answerable to nobody on earth, and what that meant
+for a prisoner depended on whether the king wanted a court's word beside his own.
+Griffenfeld, as we have seen, got one. So did Otto Sperling, a physician who had found his patron in Corfitz Ulfeldt. He
+was lured out of Hamburg's territory in January 1664 and brought to Copenhagen in
+chains, chiefly because the government wanted Ulfeldt's property and a confession
+about what Ulfeldt and his wife had planned, and in July a court condemned him for
+crimes against the king's majesty. The sentence of death was never carried out.
+He was kept in the Blue Tower until he died there, on 26 December 1681.
 
-She was never charged. There was no trial and no sentence. She was held for
-twenty-two years on the strength of her marriage, and the older Danish view of the
-case as a judicial murder rested on her own account of it. Modern historians are
-not in much doubt that she knew what her husband was doing and was involved in it
-to some degree — which changes what she was imprisoned for, and not the fact that
-nobody ever had to prove it.
+Ulfeldt's wife, Leonora Christina, never saw a court at all. Nobody charged her; there was no trial and no sentence.
+She was held on the strength of her marriage. The older Danish tradition, which
+took her own account at its word, saw her as a pure victim. Modern historians
+think she was party to her husband's schemes to some degree — how far, in
+Kvindebiografisk leksikon's words, is pointless to argue — and that changes what
+she was held for, not the fact that nobody ever had to prove it.
 
-Her conditions were hard while Frederik 3. lived and improved substantially under
-his son. What did not change was the queen. Sophie Amalie had been her enemy since
-before the Ulfeldts fled, and Leonora Christina was let out on 19 May 1685,
-three months after Sophie Amalie died, on a petition written in verse on the back of a hand-coloured
-engraving of her father, in a frame she had made herself.
-
-And she wrote. A French autobiography, smuggled out to persuade educated Europe of
-her innocence, urged on her by the son of a fellow prisoner. *Hæltinners Pryd* — an
-ornament of heroines — comparing women from every historical period she could
-reach, written across thirteen years of the imprisonment. And from 1674, in
-Danish, addressed to her children, *Jammers Minde*: an account of the cell.
+What a state prisoner's days were like depended on the royal family, not on any
+rule. Under Frederik 3. she was held hard. Christian 5. gave her a second room
+beside the first and, from 1672, a yearly allowance, which she spent partly on
+books. What did not change was the queen mother: Sophie Amalie had been her enemy
+since before the Ulfeldts fled, and kept her old hatred to the end. The door opened
+only after Sophie Amalie died, in February 1685. With Louis XIV and Ulrik Frederik
+Gyldenløve interceding, Christian 5. ordered the prison opened on 19 May.
 
 > **Vignette · Leonora Christina, Blåtårn, 1674**
 >
-> She has been in the tower eleven years. She is fifty-two or fifty-three. She has
-> already written one book in French, smuggled out to persuade educated Europe that
-> she was innocent, and a second comparing heroic women of every period she could
-> reach from memory. Now she starts a third, in Danish, and this one is not for
-> Europe. It is for her children.
+> She came into the tower on 8 August 1663, aged forty-two, and she is fifty-two or
+> fifty-three now. She is Christian 4.'s daughter by Kirsten Munk and the wife of
+> Corfitz Ulfeldt, whose treason is chapter 24's story; he has been dead since 1664,
+> on a boat on the Rhine, and she is still here.
 >
-> *Jammers Minde* — a memorial of woe. It is an account of a room, and the strangest
-> thing about it is what it does not do. She accuses nobody. The queen who put her
-> there and keeps her there is not indicted. Every humiliation is set down as a trial
-> divinely appointed, and she calls herself Christ's cross-bearer, chosen to carry
-> it. The narrative almost never leaves the cell, because for eleven years neither
-> has she.
+> She has already written one book, in French: the story of her life, set down in
+> 1673 for Otto Sperling the younger, whose father lies on another floor of this
+> tower. She is also at work on a long book in praise of heroic women,
+> *Hæltinners Pryd*, which she probably reworked after she was let out and of which
+> only fragments survive. Now she starts another, in Danish, and this one is for her
+> children.
 >
-> Nobody had charged her with anything. There was no trial and no sentence. She was
-> held on the strength of her marriage to a man who had been dead ten years by the
-> time she began writing.
+> *Jammers Minde* — a memorial of woe. It is an account of the prison, and every
+> humiliation in it is set down as a trial divinely appointed: she calls herself
+> Christ's cross-bearer, and sets her sufferings beside Job's. It is also a case
+> against her enemies, and the chief of them, the most powerful and the least
+> worthy, is the queen. She will go on adding to it for years after the door opens.
 >
-> She would be let out in 1685, three months after the queen died, and the book
-> would not be printed until 1869. When it appeared it made her reputation and
-> destroyed Sophie Amalie's — a verdict delivered by a prisoner, published nearly
-> two centuries after she wrote it and long after both women were dead.
+> The manuscript went abroad after her death, through her son, and turned up in an
+> Austrian family's keeping in 1868; it was printed in Copenhagen in 1869. It made
+> her reputation, and it made Sophie Amalie's. The queen as the driving malice
+> behind Danish absolutism, the portrait Danish readers carried into the twentieth
+> century, was drawn by the prisoner she had kept in the tower, and nobody read it
+> until both women had been dead for the better part of two centuries.
 >
-> Leonora Christina Ulfeldt, king's daughter, state prisoner · Blåtårn, Copenhagen
-> Castle · from 1674
-
-
-The manuscript went abroad after her death with her son, and was not published
-until 1869. When it appeared it caused a sensation, and it has governed her
-posthumous reputation ever since — which is worth noticing, because the portrait
-of Sophie Amalie that Danish readers carried into the twentieth century, the queen
-as the driving malice behind Danish absolutism, was drawn by a prisoner she had
-kept in a tower for twenty-two years, and was not read by anybody until both
-women had been dead for the better part of two centuries.
+> Leonora Christina Ulfeldt · Blåtårn, Copenhagen Castle · 1674 · [f]
 
 Leonora Christina spent her last years at the convent at Maribo, from 1688 with her
-daughter for company, and died there in 1698. She was seventy-six, and she had spent
-more than a quarter of her life in a single room.
+daughter for company, and died there on 16 March 1698, aged seventy-six. More than
+a quarter of her life had been spent in the tower.
 
 ---
 
 ## Fontainebleau, and Munkholmen
 
-Christian 5. reigned for another twenty years after the peace, and did nothing
+Christian 5. reigned until 1699, and after the peace of 1679 he did nothing
 comparable again.
 
 The reign's achievement is not the war. It is the two books — one that told
 Denmark what its law was, one that told the state what its ground was worth — and
 the rank order, which told everybody where they stood. All three were the work of
-a system rather than a man, but the man who had designed most of it was on an
-island in the Trondheimsfjord for the entire time it operated.
+a system rather than a man, but the man who had designed most of it was in prison
+before the law book and the land register were finished, and on an island in the
+Trondheimsfjord when they came into force.
 
-Griffenfeld outlived his own reforms' first generation. Released in 1698 after
-twenty-two years, he died in March 1699, a year after Leonora Christina died
-at Maribo, in the same week of the same month. The two of them had been the most conspicuous prisoners of the Danish
-absolutism, held for a combined forty-four years, neither of them ever having been
-much of a danger to it by the time the doors shut.
+Griffenfeld outlived his own reforms' first generation. Let out into Trondheim in
+1698 after twenty-two years, he died there on 12 March 1699, four days short of a
+year after Leonora Christina died at Maribo. The two of them had been the most
+conspicuous prisoners of the Danish absolutism, held for a combined forty-four
+years, neither of them ever having been much of a danger to it by the time the
+doors shut.
 
-The map at the end of the reign was the map at the beginning. Skåne was gone and
-would stay gone; the Gottorp share of Slesvig was still there, still sovereign,
-still a hole in the southern border that any enemy could reach through. Christian
-5. died in 1699 after a hunting accident, and left his son a state that worked
-beautifully and a strategic position that had not improved in forty years.
+Skåne was gone and would stay gone; the Gottorp share of Schleswig was still
+there, still sovereign, still a hole in the southern border that any enemy could
+reach through. Christian 5. died in 1699 after a hunting accident, and left his
+son a state that worked beautifully and a strategic position that had not
+improved since the peace of 1660.
 
-The next king would spend twenty-one years trying to fix the second thing, and
-would only manage half of it.
+The next king would spend twenty years trying to fix the second thing, and would
+only manage half of it.
 
 
 <!-- ===== c26_draft_apparatus.md ===== -->
@@ -1236,12 +1204,10 @@ Counterfactual, Contested.*
 
 **§02 — rank instead of blood**
 
-- **rangforordning** — the rank order of 25 May 1671. It listed fifty-five posts
-  and named persons in order of precedence, and the nobility of birth did not
-  appear in it.
+- **rangforordning** — the rank order of 25 May 1671: fifty-five offices in order
+  of precedence.
 - **greve / friherre** — count and baron, ranks invented in Denmark on the same
-  day. A countship required at least 2,500 barrels of hartkorn, a barony a
-  thousand.
+  day, each with a price in hartkorn.
 - **gemaksordinans** — the ordinance governing which rooms of the palace a man of
   a given rank might enter. Precedence made architectural.
 
@@ -1249,8 +1215,9 @@ Counterfactual, Contested.*
 
 - **gehejmekonseil** — the privy council created in 1670 above the colleges.
   Griffenfeld was its secretary before he was a member of it.
-- **rigskansler** — chancellor of the realm. Griffenfeld took the office in June
-  1674 on Peter Reedtz's death, together with the presidency of the supreme court.
+- **rigskansler** — chancellor of the realm, with the presidency of the supreme
+  court. Griffenfeld's appointment is dated November 1673 or 1674, depending on
+  the reference work.
 
 **§04 — the law and the land**
 
@@ -1258,8 +1225,8 @@ Counterfactual, Contested.*
   for the whole kingdom. Cited by book, chapter and article: 3-19-2.
 - **odelsret** — the ancestral family right to land that Norske Lov of 1687 kept
   when it followed Danske Lov in almost everything else.
-- **markbog** — a field book. The 1682–83 survey recorded every cultivated field
-  in Denmark, its area and the grade of its soil.
+- **markbog** — a field book: the record, farm by farm, of the survey begun in
+  1681.
 - **Store Matrikel** — Christian 5.'s land register, in force 1688, the first
   built on measurement rather than on converting dues.
 
@@ -1276,37 +1243,35 @@ Counterfactual, Contested.*
 
 - **försvenskning** — the deliberate making-Swedish of the conquered provinces:
   language, church, law, schooling and a closed border.
-- **uniformitetsinspektör** — the official who fined those who missed divine
-  service, in a population that could not afford the fine.
 
-**§09 — the Blue Tower**
+**§09 — the state's prisoners**
 
 - **Blåtårn** — the Blue Tower of Copenhagen Castle, the state prison.
-- **Jammers Minde** — Leonora Christina's account of her imprisonment, begun in
-  1674, addressed to her children, and not published until the nineteenth century.
+- **Jammers Minde** — "a memorial of woe": Leonora Christina's account of her
+  imprisonment.
 
 ---
 
 ## Meanwhile in Europe
 
-**1683 — Vienna.** In September 1683, while the commissioners of Christian 5. were
-measuring Danish fields and the printers were setting Danske Lov, an Ottoman army
-of perhaps 150,000 was two months into the siege of Vienna, and was broken on 12
-September by a relief force under the king of Poland. It is worth holding the two
+**1683 — Vienna.** In 1683, the year Danske Lov was issued and Christian 5.'s
+surveyors were compiling their field books, an Ottoman army of perhaps 150,000
+laid siege to Vienna in July, and was broken on 2 September (12 September, new
+style) by a relief force under the king of Poland. It is worth holding the two
 pictures together. The same decade in which a small northern kingdom could afford
 to spend three years measuring the quality of its soil was the decade in which the
 Habsburg capital nearly fell. Denmark's obsessive interior order was a luxury of
 strategic irrelevance: nobody was coming for Copenhagen except Sweden, and Sweden
 had what it wanted.
 
-**1685 — Fontainebleau.** On 22 October 1685 Louis 14. revoked the Edict of Nantes
+**1685 — Fontainebleau.** On 12 October 1685 Louis XIV revoked the Edict of Nantes
 and made Protestantism illegal in France; something like 200,000 Huguenots left,
 taking their trades to the Dutch Republic, Brandenburg and England. The place-name
 should stop a Danish reader. Six years earlier, in the same palace, the same king
 had ended Denmark's war and handed Skåne back to Sweden over Christian 5.'s head.
 Fontainebleau is where Denmark learned that its own wars were settled by a monarch
-who had never visited it — and Griffenfeld, who had said so and been imprisoned
-for saying it, was by 1685 nine years into his sentence.
+who had never visited it — and Griffenfeld, who had said so, was by 1685 nine
+years into his sentence.
 
 ---
 
@@ -1319,15 +1284,16 @@ who destroyed him were soldiers who wanted a war he thought Denmark could not wi
 He was right about the war. That did not save him, and it is not obvious that it
 should have.
 
-**Checkpoint (after §06)** — Two results, seven months apart, and they point
-opposite ways. Lund on 4 December 1676 decided that Skåne would stay Swedish.
+**Checkpoint (after §06)** — Two results, one in December and one the following
+July, and they point opposite ways. Lund on 4 December 1676 decided that Skåne would stay Swedish.
 Køge Bugt on 1 July 1677 gave Denmark undisputed command of the sea. A country can
 win at sea and lose the war, and the reason is that the thing being fought over was
 on land and had a population on it that had begun to make up its mind.
 
 **Checkpoint (after §08)** — The försvenskning of Skåne is the clearest case in
 this book of a national identity being made rather than found. It took a
-university, a war, a massacre, a school system, a closed border and sixty years.
+university, a war, a massacre, a school system, a closed border and two
+generations.
 Nothing about it was inevitable, and by 1720 it had worked.
 
 ---
@@ -1337,22 +1303,15 @@ Nothing about it was inevitable, and by 1720 it had worked.
 **The myth.** Svend Poulsen, the Gøngehøvding, led the snaphaner of Göinge in a
 heroic partisan war against the Swedish occupation of Skåne.
 
-**What can be shown.** He existed. He fought the Swedes in the border country in
-the 1650s and a Swedish report of 1657 calls him a runaway and a Halland rebel. He
-was commissioned major in July 1676 and went to Skåne to recruit. He fell ill in
-November and is not heard of again in the war.
+**What can be shown.** He existed; the §07 vignette gives the record.
 
 **What cannot.** Almost everything else. He played no large part in the Scanian
-War, and is known chiefly for the Karl Gustav wars of 1657–60. The by-name Gønge
-appears to attach to him only during this war, possibly by confusion with an older
-man of the same name; he may well have been from Halland, and not from Göinge at
-all.
+War, and is known chiefly for the Karl Gustav wars of 1657–60.
 
 **Where it comes from.** Carl Brosbøll, writing as Carit Etlar, published
 *Gjøngehøvdingen* in 1853, and it has governed the Danish picture ever since. It
-ends with Svend Poulsen receiving Lundbygård. He did receive it — in 1661, for a
-debt the crown could not pay — and lost it in 1673 because he could not meet the
-tax arrears.
+ends with Svend Poulsen receiving Lundbygård, which is the one part of the ending
+the record bears out.
 
 **And there is a Swedish version.** Carl August Cederborg, himself from Göinge,
 published *Göingehövdingen* in 1899 with the same man as its hero. In that one he
@@ -1365,21 +1324,19 @@ to have been.
 
 ## Carry-forward
 
-**← 24.** Corfitz Ulfeldt's treason put his wife in the Blue Tower for
-twenty-two years without a charge.
+**← 24.** Leonora Christina, seized in England in 1663, is in the Blue Tower until
+1685; the book she wrote there is in §09.
 
-**← 25.** Hartkorn, invented to price a farm, now prices a nobleman: 2,500 barrels
-for a count. — Both of chapter 25's commoners end up in Griffenfeld's household:
-he married Hans Nansen's granddaughter, and bought Samsø from the husband of
-Joachim Gersdorff's daughter. — Svend Poulsen lost his farm to arrears assessed in
-the register of 1664. — The King's Law, sealed and unread in chapter 25, lies on
-the altar at the anointing of 1671 and supplies the opening chapter of Danske Lov
-in 1683.
+**← 25.** Hartkorn, invented to price a farm, now prices a nobleman. — Both of
+chapter 25's men of 1660, the burgher and the steward, end up in Griffenfeld's household: he married Hans
+Nansen's granddaughter, and bought Samsø from the husband of Joachim Gersdorff's
+daughter. — Svend Poulsen lost his farm to arrears assessed in the register
+of 1664. — The Kongelov, read aloud at the anointing of 1671 and kept from print,
+supplies the opening chapter of Danske Lov in 1683.
 
 **→ 27.** No snaphane movement formed at the last Danish invasion in 1709–10;
 Helsingborg went over and the rest of Skåne waited. That absence is how the
-försvenskning is measured. — The Gottorp share of Slesvig is still sovereign and
-still a hole in the southern border. — Griffenfeld is on Munkholmen until 1698.
+försvenskning is measured. — The Gottorp question in Schleswig is still open.
 
 **→ 28.** Norske Lov of 1687 replaced Christian 4.'s Norwegian law of 1604 and is
 the code Norway is actually administered under thereafter — which corrects the way
@@ -1387,7 +1344,7 @@ the Norwegian apparatus is usually described.
 
 **→ Part H.** A single code for the kingdom that could not cross the Kongeå.
 Sønderjylland kept Jyske Lov of 1241 until 1900, and the legal border became one
-more thing the Slesvig question was made of.
+more thing the Schleswig question was made of.
 
 ---
 
@@ -1396,33 +1353,35 @@ more thing the Slesvig question was made of.
 Christian 5. came to a throne nobody had to offer him, and spent his reign
 furnishing it. In May 1671 three ordinances rebuilt the Danish aristocracy around
 state service and left the nobility of birth off the list; the man who wrote them,
-Peder Schumacher, was a wine merchant's son, and was ennobled two months later as
-Griffenfeld. For six years he governed. He built parity between noble and burgher
+Peder Schumacher, was a wine merchant's son, ennobled as Griffenfeld at about the
+same time. Until 1676 he governed. He built parity between noble and burgher
 into everything he touched, sold offices, married into the family of the mayor who
 had proposed the hereditary crown, and opposed the war the court wanted. He was
 arrested in March 1676 and spent twenty-two years in prison.
 
 The war proved him right and did not help him. Denmark invaded Skåne in 1676 and
 most of the province came over; the battle outside Lund on 4 December settled that
-it would not stay. Niels Juel destroyed the Swedish fleet off Stevns on 1 July 1677
+it would not stay. Niels Juel broke the Swedish fleet off Stevns on 1 July 1677
 and gave Denmark command of its own sea, which kept the war going for two more
-years without changing what it was about. Louis 14. ended it at Fontainebleau in
-1679 and required every conquest returned.
+years without changing what it was about. Louis XIV ended it in 1679 and required
+every conquest returned.
 
 What Sweden did next was more effective than anything either army achieved. Between
-the university at Lund, the burning of Örkened, the Swedish schoolmasters and a
-border closed to Danish trade, the population of Skåne fell by a quarter and
+the university at Lund, the burning of Örkened, Swedish in the churches and schools
+and a border closed to Danish trade, the population of Skåne fell by a quarter and
 changed its mind. When Denmark came back in 1709 nobody rose.
 
 At home the reign wrote down its law and measured its ground. Danske Lov of 1683
 made one legal realm of three, opened with a chapter drawn from the secret
-constitution, and stopped at the Kongeå. The survey of 1682–83 measured every field
+constitution, and stopped at the Kongeå. The survey of 1681–83 measured every field
 in the country, on a Swedish model.
 
-Two of the reign's best-known stories were written down long afterwards by people
-with an argument to make. Sophie Amalie's reputation rests on a prisoner's memoir
-and an English envoy's hearsay; Griffenfeld's on his own defence. Both are worth
-reading, and neither is evidence in the way it is usually treated.
+The state could keep a prisoner without needing to prove anything, and one of them
+had the last word. Sophie Amalie's reputation rests on the memoir of a woman she
+kept in the Blue Tower, published nearly two centuries later; Griffenfeld's has
+swung between the indictment of 1676 and the rehabilitation of the nineteenth
+century. Both are worth reading, and neither is evidence in the way it is usually
+treated.
 
 ---
 
@@ -1432,19 +1391,19 @@ reading, and neither is evidence in the way it is usually treated.
 
 1. What three ordinances were issued on 25 May 1671, and who was left out of the
    rank order?
-2. What office did Griffenfeld take in June 1674, and why could he not have taken
-   it earlier?
+2. Which offices and titles did Griffenfeld hold by 1674, and why do the
+   reference works disagree about when he became chancellor?
 3. Where did Danske Lov not apply, and what law was used there instead?
 4. What happened at Lund on 4 December 1676, and what happened off Stevns on 1
    July 1677?
 
 **Causal** — *Why did that follow from this?*
 
-5. Explain how a rank order priced in hartkorn depended on the land register of
-   1664. What could the crown do in 1671 that it could not have done in 1659?
+5. Explain how a rank order priced in hartkorn depended on the land register
+   of 1664. What could the crown do in 1671 that it could not have done in 1659?
 6. Niels Juel's victory gave Denmark command of the sea and Denmark still lost the
    war. Why did command of the sea not decide it?
-7. Why did the Swedish state found a university in Skåne in 1666, nine years
+7. Why did the Swedish state found a university in Skåne in 1666, eight years
    before the war it is usually associated with?
 
 **Counterfactual** — *What if it had gone otherwise?*
@@ -1460,12 +1419,13 @@ reading, and neither is evidence in the way it is usually treated.
 10. Snaphane or friskytte: the same men, two words, two national traditions.
     Set out what each word claims, and identify the evidence that would
     distinguish a partisan from a bandit — if any would.
-11. Leonora Christina was imprisoned for twenty-two years without charge or trial,
-    and modern historians think she probably was involved in her husband's
-    treason. Does the second fact change your judgement of the first?
-12. The försvenskning of Skåne schooled a province more thoroughly than Denmark
-    ever had, and killed or drove out a quarter of its people. How should a
-    history judge a policy that did both?
+11. Leonora Christina was held for more than twenty-one years without trial,
+    and modern historians think she was party to her husband's schemes to some
+    degree. Does the second fact change your judgement of the first?
+12. The försvenskning of Skåne brought Swedish schooling into a province's
+    parishes, and in the same decades a quarter of its people were killed, fled
+    or were taken for soldiers. How should a history judge a policy that did
+    both?
 
 ---
 
@@ -1479,18 +1439,22 @@ reading, and neither is evidence in the way it is usually treated.
   Frederiksborg. First published in 1869, edited by Sophus Birket Smith.
 - danmarkshistorien.dk, Aarhus University, on the snaphaner, on Svend Poulsen and
   on the rank ordinance.
-- Dansk Biografisk Leksikon, for Griffenfeld, Niels Juel, Svend Poulsen and
-  Leonora Christina.
+- Dansk Biografisk Leksikon, for Griffenfeld, Peder Reedtz, Niels Juel, Svend
+  Poulsen, Otto Sperling and Leonora Christina; Kvindebiografisk leksikon and
+  Dansk litteraturs historie for Leonora Christina and *Jammers Minde*.
+- Gyldendal og Politikens Danmarkshistorie on the anointing of 1671, where the
+  Kongelov was read aloud, and on the Scanian War.
 
 **Where the argument stands**
 
-*Attributions need checking against the works themselves before publication.*
+*Named as positions in a historiography, not as books this page has read.*
 
 - Alf Åberg's work on the struggle for Skåne is the standard Swedish account of
   how the province changed sides, and describes the peasantry settling to the new
   situation after Lund.
-- Kim A. Wagner's military-historical biography of Svend Poulsen (2003) is the
-  place to go for the distance between the officer and the legend.
+- Kim A. Wagner, *Snaphanelederen Svend Poulsen: en militærhistorisk biografi*
+  (Tøjhusmuseet, 2003), is the place to go for the distance between the officer
+  and the legend.
 - Knud J.V. Jespersen on the Danish military state, for why a kingdom this size
   could sustain a fleet of that quality.
 - On Griffenfeld the Danish tradition has swung between the corrupt careerist of
@@ -1502,27 +1466,28 @@ reading, and neither is evidence in the way it is usually treated.
 
 ## Visit
 
-**Munkholmen, Trondheim.** The island in the fjord where Griffenfeld spent
-eighteen years, reachable by boat in summer. It is very small. That is the point
+**Munkholmen, Trondheim.** The island in the fjord where Griffenfeld was held
+from 1680 to 1698, reachable by boat in summer. It is very small. That is the point
 of going.
 
 **Frederiksborg Slot, Hillerød.** Leonora Christina's manuscript of *Jammers
-Minde* is here, in her own hand, and so is the portrait of Niels Juel with his
-telescope and the ships of 1677 behind him.
+Minde* is here, in her own hand, and so is the chapel where Christian 5. was
+anointed.
 
 **Christiansborg Slotsplads, Copenhagen.** The Blue Tower stood at the castle
 whose foundations are under the present building, on the same square where the
 estates swore homage in 1660. The ruins beneath Christiansborg are open.
 
-**Lund Cathedral and the university.** Founded in 1666 to make Skåne Swedish, and
-it did.
+**Lund Cathedral and the university.** The cathedral was the seat of the old
+archdiocese; the university beside it was founded in 1666 to make Skåne Swedish,
+and it did.
 
 **Örkened, Skåne.** In the forest country north-east of Hässleholm. There is a
 statue of the snaphane "Lille Mads" in the Hembygdspark at Hässleholm, put up in
 1934, which is worth seeing for what a country builds statues of and when.
 
-**Kongens Nytorv, Copenhagen.** Niels Juel's statue. He is also on the
-hundred-krone note.
+**Holmens Kanal, Copenhagen.** Niels Juel's statue, by Theobald Stein, unveiled in 1881, and
+Holmens Kirke, where he is buried.
 
 
 <!-- ===== c27_draft_01-09.md ===== -->
@@ -1533,69 +1498,72 @@ hundred-krone note.
 
 ---
 
-## Travendal, 1700 — out in three months
+## Travendal, 1700 — out in one campaign
 
-Frederik 4. was twenty-eight when he came to the throne in 1699 and he had one
-inherited problem, which was a hole in his southern border.
+Frederik 4. was twenty-seven when he came to the throne in 1699 and he had one
+inherited problem, which was on his southern border.
 
-The duke of Gottorp held a third of Slesvig in full sovereignty — that was the
-1658 settlement, made when Denmark had no capacity to refuse — and he had married
-a sister of Karl 12. of Sweden. A hostile duchy inside the duchies, backed by the
+The duke of Gottorp held a large share of Schleswig, scattered through the duchy,
+in full sovereignty — that was the 1658 settlement, made when Denmark had no
+capacity to refuse — and he had married a sister of Karl 12. of Sweden. A hostile duchy inside the duchies, backed by the
 power that already held the eastern provinces, meant that Denmark could be
 attacked from the south and the east at once by a single ally. Christian 5. had
 tried three times to force Gottorp to give up its independent foreign policy and
 failed three times.
 
-In the spring of 1700 Frederik tried again, with an army. It went well for four
-months. Then an Anglo-Dutch fleet forced the Sound, a Swedish army landed on
-Zealand, and on 18 August at Travendal he signed away everything he had gained
-and guaranteed Gottorp's sovereignty in writing.
+In the spring of 1700 Frederik tried again, with an army. It went well until the
+summer. Then an Anglo-Dutch fleet forced the Sound, a Swedish army landed on
+Zealand, and on 18 August (8 August, Swedish style) at Travendal he signed away
+everything he had gained, paid a war indemnity, and guaranteed Gottorp's
+sovereignty in writing.
 
-Three months, one campaign, and the border was as it had been. Karl 12. then took
-his army to Poland and did not come back for nine years.
+One campaign, and the border was as it had been. Karl 12. then took his army east,
+and Denmark stayed out of the war for nine years.
 
 ---
 
 ## Poltava changes the arithmetic, 1709
 
-On 8 July 1709, at Poltava in the Ukraine, the Russian army destroyed the
-Swedish one. Karl 12. escaped south into Ottoman territory with a few hundred men
-and stayed there five years.
+On 8 July 1709, at Poltava in Ukraine, the Russian army destroyed the Swedish
+one. Karl 12. escaped south into Ottoman territory with a few thousand men and
+stayed there five years.
 
 Every court in northern Europe did the same arithmetic that autumn. The Swedish
-empire had been held together for a century by the reputation of its field army,
-and the field army no longer existed. Denmark had a peace treaty from 1700 that
-it had signed at gunpoint, an unaltered claim to Skåne, Halland and Blekinge, and
-a neighbour that had just lost twenty thousand men eight hundred miles away.
+empire had been held together for most of a century by the reputation of its
+field army, and the field army no longer existed. Denmark had a peace treaty from
+1700 that it had signed at gunpoint, an unaltered claim to Skåne, Halland and Blekinge, and
+a neighbour that had just lost twenty thousand men a thousand miles away.
 
 Frederik declared war in the autumn. In November a Danish army of about fifteen
 thousand crossed into Skåne without serious opposition and went into winter
-quarters. It had taken forty-nine years to get an opportunity like this. What
-happened next took four months.
+quarters. It was Denmark's first chance at the province since the war that ended
+in 1679. What happened next took four months.
 
 ---
 
 ## Helsingborg, 10 March 1710
 
-The Danish commander was Jørgen Rantzau. The Swedish commander who came south to
-meet him was Magnus Stenbock, who raised a scratch force of militia and recruits
-in the Swedish provinces — the professionals were dead at Poltava or prisoners in
+The Danish commander-in-chief, Reventlow, fell gravely ill at the end of February,
+and the army was Jørgen Rantzau's when the battle came. The Swedish commander who
+came south to meet him was Magnus Stenbock, who raised a scratch force of militia
+and recruits in the Swedish provinces — the professionals were dead at Poltava or prisoners in
 Russia — and drilled them through the winter.
 
 They met outside Helsingborg on 10 March 1710. In the Swedish calendar the date
-was 28 February; Denmark had gone over to the Gregorian reckoning in 1700 and
-Sweden had reverted to the Julian in 1712, so the same battle carries two dates
-eleven days apart depending on which country's papers you are reading.
+was 28 February. Denmark had gone over to the Gregorian reckoning in 1700, while
+Sweden, from 1700 to 1712, kept a calendar of its own one day ahead of the Julian,
+so the same battle carries two dates ten days apart depending on which country's
+papers you are reading.
 
-Rantzau lost. He got the survivors into Helsingborg and then found he could not
-get them out again by any route that would let him keep the army's horses. There
-were not enough boats, and the boats there were had to make the crossing under
-threat. So on the beach below the town the Danish army killed its own cavalry
-mounts — several thousand of them — and left the carcasses on the shore, and
-sailed back to Zealand with what could be carried.
+The battle was lost, and Rantzau was badly wounded and had to leave the field. The
+survivors got into Helsingborg and then found they could not get out again by any
+route that would let them keep the army's horses. There were not enough boats, and
+the boats there were had to make the crossing under threat. So in Helsingborg the
+Danish army killed its own horses — several thousand of them — so that the Swedes
+would not have them, and sailed back to Zealand with what could be carried.
 
 That is the end of the Danish attempt to recover Skåne. Not the end of the war,
-which had eleven years still to run, but the end of the thing the war had been
+which had ten years still to run, but the end of the thing the war had been
 declared for. No Danish army would ever again stand on Scanian ground with the
 intention of keeping it, and the border drawn at Roskilde in 1658 became the
 border that is there now.
@@ -1604,13 +1572,14 @@ Chapter 26 described a province being made Swedish by a university, a massacre
 and a school system. This is the measurement of whether it had worked. In 1676
 most of Skåne had come over to the Danish army within weeks. In 1710 no rising
 formed, no irregulars took to the Göinge woods, and the peasantry stayed where it
-was and waited to see who would win. Thirty-four years had done it.
+was and waited to see who would win. The years between 1676 and 1710 had done
+it.
 
 ---
 
 ## The plague, 1711
 
-The Danish state had been watching the plague come for two years, and had done
+The Danish state had been watching the plague come since 1709, and had done
 more to stop it than any Danish government had ever done about anything.
 
 It had reached Danzig in 1709. From that year Copenhagen's health commission was
@@ -1618,7 +1587,8 @@ putting travellers into quarantine on the island of Saltholm for forty days. Shi
 from infected ports were refused. Anyone arriving from a town where the disease
 had broken out was held before being allowed in. It was, so far as anyone can
 tell, the first time the apparatus of the absolutist state had been turned on a
-disease, and it held the plague out of the country for over a year.
+disease, and it held the plague out of the country until about the end of 1710,
+when it broke out in Helsingør.
 
 It got into Copenhagen in the late spring of 1711 anyway.
 
@@ -1641,9 +1611,9 @@ the prisons to dig, and the army was put to work opening mass graves beyond
 How many died is genuinely uncertain, and the sources are not close. The city's
 own archive says about 25,000 in a few months; other accounts say 20,000; the
 proportion of the population is given variously as a third and as forty per cent,
-against a population itself put at somewhere between sixty and seventy thousand.
-What is not in dispute is the order of magnitude. In a city of that size, in about
-five months, something between a fifth and two fifths of everybody died.
+of a city of about sixty thousand. What is not in dispute is the order of
+magnitude. In a single summer and autumn, from a third to over forty per cent of
+everybody in Copenhagen died.
 
 For a few months Copenhagen's Jews were buried alongside Protestants, which was
 otherwise unthinkable in 1711, because there was no longer time to keep them
@@ -1656,56 +1626,53 @@ that, and the thanksgiving was not for the last time but for this time.
 
 > **Vignette · Marie Grubbe, Borrehuset on Falster, summer 1711**
 >
-> She is about sixty, and she keeps the ferry across the Grønsund with her third
-> husband, who is twenty years younger than she is and has been in prison for
-> manslaughter.
+> She is about sixty-eight, and she keeps the ferry across the Grønsund with her
+> third husband, a former coachman a good deal younger than she is, who this May
+> shot a skipper dead in a drinking bout at the ferry and is now waiting on the
+> courts.
 >
-> She was born at Tjele in Jutland to one of the great families of the realm.
+> She grew up at Tjele in Jutland, in one of the great families of the realm.
 > Her first husband was Ulrik Frederik Gyldenløve, the king's half-brother and
 > viceroy of Norway, whom she married at seventeen and divorced. Her second was a
-> squire who beat her, whom she also left, under the divorce provisions of a law
-> chapter 26 has just described. She came down through the whole social order of
-> Denmark and stopped at the bottom of it, running a ferry.
+> nobleman, Palle Dyre; that marriage was dissolved by royal decree in 1691, on
+> her own father's complaint of her adultery, and she left it with nothing. She
+> came down through the whole social order of Denmark and stopped at the bottom
+> of it, running a ferry.
 >
 > This summer a young man is stranded at the ferry house because Copenhagen is
 > shut and the university with it, and the students have scattered. His name is
-> Ludvig Holberg. He talks to her, and thirty-seven years later he will write
-> about her, in the eighty-ninth of his *Epistler* — a woman who told him she was happier with the ferryman than she had been
-> with the king's brother, and who did not appear to regret anything.
+> Ludvig Holberg. He talks to her, and decades later he will write about her, in
+> the eighty-ninth of his *Epistler* — a woman who told him she was happier with
+> the ferryman than she had been with the king's brother, and who did not appear
+> to regret anything.
 >
 > The plague that closed the city put the future founder of Danish literature in a
 > ferry house on Falster, in the same room as the most spectacular social descent
 > of the century.
 >
 > Marie Grubbe, ferryman's wife, formerly vicereine of Norway · Borrehuset,
-> Falster · summer 1711
+> Falster · summer 1711 · [f]
 
 
 ---
 
-## Tordenskjold
+## The war at sea
 
-Peter Wessel was a tailor's son from Trondheim, the tenth of eighteen children,
-who ran away to sea and entered the Danish navy as a cadet in 1710.
+After Helsingborg the part of the war that Denmark is remembered for was fought at
+sea, and it is remembered through a single officer: Peter Wessel Tordenskjold, the
+one figure of this war whom every Danish schoolchild can name.
 
-He is the one figure of this war whom every Danish schoolchild can name, and the
-reason is that he fought in a way that made sense to people who did not follow
-strategy. He took risks that his superiors thought were insubordination until
-they worked. He attacked convoys, harbours and shore batteries — the parts of a
-war where a small fast ship and a captain willing to go in first could decide
-something.
-
-On 8 July 1716 he took a squadron into Dynekilen, a narrow inlet on the
-Bohuslän coast, and destroyed the supply convoy that Karl 12. needed for the
-campaign he was running in Norway. It was not a fleet action. It was a raid up a
-creek against ships that could not manoeuvre, and it ended the invasion of Norway,
-because an army in winter is its supply train.
+The reason is that he fought in a way that made sense to people who did not
+follow strategy. He attacked convoys, harbours and shore batteries — the parts of
+a war where a small fast ship and a captain willing to go in first could decide
+something. The day that made him is in the vignette below.
 
 > **Vignette · Peter Wessel, Dynekilen, 8 July 1716**
 >
-> He is twenty-five, a tailor's son from Trondheim and the tenth of eighteen
-> children, and he has been in the navy six years. He was ennobled the previous
-> year as Tordenskjold — thunder-shield — which is the name that will survive.
+> He is twenty-five, a merchant's son from Trondheim and the fourteenth of
+> eighteen children, and he has been in the navy since he was taken on as a cadet
+> in 1709. He has lately been ennobled as Tordenskjold — thunder-shield — which is
+> the name that will survive.
 >
 > Dynekilen is a narrow inlet on the Bohuslän coast, and what is lying up it is not
 > a fleet. It is the supply convoy for the army Karl 12. has in Norway. Ships in a
@@ -1713,95 +1680,95 @@ because an army in winter is its supply train.
 > there and why going in is a thing his superiors would have called insubordination
 > if it had failed.
 >
-> It does not fail. The convoy is destroyed, and the invasion of Norway ends —
-> not because a battle was lost but because an army in winter is its supply train,
-> and Karl 12.'s had just been burned at the head of an inlet by a captain of
-> twenty-five.
+> It does not fail. The convoy is destroyed, and the next day Karl 12.'s army,
+> which was already preparing to go, marches back over the border into Sweden. The
+> invasion of Norway is over, and its supplies have been burned at the head of an
+> inlet by a captain of twenty-five.
 >
-> He will bring the king the news of Karl 12.'s death at Fredriksten in December
-> 1718 and be made rear-admiral on the spot. He will be killed in a duel in
-> November 1720, four months after the war ends.
->
-> Peter Wessel Tordenskjold, naval captain · Dynekilen, Bohuslän · 8 July 1716
+> Peter Wessel Tordenskjold, naval captain · Dynekilen, Bohuslän · 8 July 1716 · [-]
 
 
-He was ennobled as Tordenskjold — thunder-shield — after Rügen the year before.
-On 26 December 1718 he brought Frederik 4. the news that Karl 12. was dead in the
+At Christmas 1718 he brought Frederik 4. the news that Karl 12. was dead in the
 trenches at Fredriksten, and was made rear-admiral on the spot, at twenty-eight.
-
-He was killed in a duel in November 1720, four months after the war he had made
-his name in came to an end.
+He was killed in a duel in November 1720, a few months after the peace that ended
+the war he had made his name in.
 
 ---
 
 ## The Gottorp share taken, 1713–1721
 
-The war Denmark could not win in Skåne it won in Slesvig, and it won it mostly
+The war Denmark could not win in Skåne it won in Schleswig, and it won it mostly
 by waiting.
 
 Gottorp had been dragged onto the Swedish side in 1713 rather against its will,
 which was all the excuse required. Danish troops occupied Gottorp Castle,
 Eckernförde and Kiel, and an occupation patent took every Gottorp possession in
-Slesvig. In May of that year Stenbock — the victor of Helsingborg — was penned up
-in the Gottorp fortress of Tønning and capitulated with his whole army.
+Schleswig. In May of that year Stenbock — the victor of Helsingborg — was penned
+up at the Gottorp fortress of Tönning and capitulated with his whole army.
 
-Then came eight years of diplomacy, which is the part that decided it. Sweden was
+Then came years of diplomacy, which is the part that decided it. Sweden was
 losing everywhere and had to choose what to give up. It chose Gottorp, because
-Gottorp was only an ally and Skåne was Swedish soil. England and France were
-willing to guarantee a Danish gain in Slesvig because it cost them nothing and
+Gottorp was only an ally and Skåne was Swedish soil. Britain and France were
+willing to guarantee a Danish gain in Schleswig because it cost them nothing and
 tidied up a chronic instability on the Baltic approaches.
 
-So the settlement, when it came, gave Frederik 4. the duke's share of Slesvig as
-a forfeited fief, under English and French guarantee — and did not give him
+So the settlement, when it came, gave Frederik 4. the duke's share of Schleswig
+as a forfeited fief, under British and French guarantee — and did not give him
 Holstein. The great powers required him to evacuate the Holstein possessions, and
 the Gottorp dukes kept them until 1773. Half the problem was solved and the half
-that remained went on dominating Danish foreign policy for another fifty-two
-years.
+that remained went on dominating Danish foreign policy until then.
 
-**And here is the thing that mattered most, which nobody noticed for a hundred
-and ten years.** The instruments drawn up for the homage were unclear. They did
+**And here is the thing that mattered most, which nobody noticed for more than a
+century.** The instruments drawn up for the homage were unclear. They did
 not say plainly whether the Gottorp parts had been incorporated into the rest of
-Slesvig, or the whole duchy into Denmark. And they did not say whether the
-Kongelov — chapter 25's sealed law, with its provisions for succession through the
-female line of the royal house — had thereby been extended to Slesvig at all.
+Schleswig, or the whole duchy into Denmark. And they did not say whether the
+Kongelov — chapter 25's law, with its provisions for succession through the
+female line of the royal house — had thereby been extended to Schleswig at all.
 
 Nobody needed an answer in 1721. The question became urgent in the 1830s, when it
 became clear that the male line of the Danish royal house would die out with the
-prince who became Frederik 7. What Slesvig was, and who could inherit it, then
+prince who became Frederik 7. What Schleswig was, and who could inherit it, then
 turned on the wording of an oath sworn at Gottorp Castle by men who had been
 thinking about something else.
 
 The oath was sworn at Gottorp on 4 September 1721, by the dukes of Augustenborg
-and Glücksborg, the prelates, the knighthood, the other holders of noble estates
+and Glücksburg, the prelates, the knighthood, the other holders of noble estates
 and the provosts, who put their names to an *arvehyldningsed*. Representatives of
-Slesvig's remaining estates followed later.
+Schleswig's remaining estates followed later.
 
 ---
 
 ## Frederiksborg, 1720 — the Sound kept, Skåne not
 
-The peace was signed at Frederiksborg in the summer of 1720 and ratified within
-weeks. It is cited as 3 July, and the Treaty of Kiel names it by that date in
-1814. One Danish source edition prints the subscript as 3 June and calls the July
-date a misprint, which may be a confusion with the preliminary peace signed at
-Stockholm on 3 June.
+The peace was signed at Frederiksborg on 3 July 1720 and ratified on 23 July. The
+date is not quite settled: one Danish source edition prints the treaty as of 3
+June and calls July a misprint. But the preliminary peace had been signed at
+Stockholm on 14 June (3 June, Swedish style), and a treaty of 3 June
+would come before its own preliminaries, so the edition's correction may itself be
+a confusion with the Stockholm date. English reference works give 3 July as well,
+but as a Julian date, which would make it 14 July in the Danish style; the Danish
+accounts followed here do not.
 
-What it settled is not in doubt. Denmark kept the Gottorp share of Slesvig under
-guarantee. Denmark got no part of Skåne, Halland or Blekinge, and formally
-renounced them. Sweden paid six hundred thousand rigsdaler. And Sweden lost the
-exemption from the Sound dues that it had won at Brömsebro in 1645.
+What it settled is not in doubt. Denmark kept the Gottorp share of Schleswig, and
+Sweden undertook not to support the Gottorp dukes against Denmark again. Denmark
+got no part of Skåne, Halland or Blekinge back, and after this war no Danish army
+went for them again. It handed back what it had taken from Sweden in the war —
+part of Swedish Pomerania with Stralsund and Rügen, taken in 1715, Wismar, taken
+in 1716, and Marstrand — and Sweden paid six
+hundred thousand rigsdaler for them. And Sweden lost the exemption from the Sound
+dues that it had won at Brömsebro in 1645.
 
-That last clause closes an argument this series opened two chapters ago. Chapter
-23 made the case that Sweden's exemption had turned the Sound toll from a fact of
+That last clause closes an argument this series opened in chapter 23, which made
+the case that Sweden's exemption had turned the Sound toll from a fact of
 geography into something a rival state could negotiate a share of. In 1720 the
-exemption went, and the toll was a fact of geography again — for another hundred
-and thirty-seven years, until it was bought out.
+exemption went, and the toll was a fact of geography again, until it was bought
+out in 1857.
 
 So the war that was declared to recover the eastern provinces recovered none of
-them, and delivered instead a southern border, a restored revenue and a treaty
-guaranteed by two great powers. Frederik 4. has generally been judged a poor
-commander, and he was; his officers said so at the time. He was also the first
-Danish king in a century to end a war holding more than he began it with.
+them, and delivered instead a southern border, a Sound toll that Sweden now paid,
+and a treaty guaranteed by two great powers. Frederik 4. has generally been judged a
+poor commander, and he was. He was also the first Danish king in a century to end
+a war holding more than he began it with.
 
 ---
 
@@ -1810,16 +1777,14 @@ Danish king in a century to end a war holding more than he began it with.
 Before the schools there were two other things done to the same people, and they
 belong in the same section because they are the same policy.
 
-In 1701 Frederik 4. created a national land militia. Every twenty farms of a
-district had to produce and equip one soldier, drawn from the young men working
-the land. It gave the crown an army it did not have to hire, raised off the
-countryside it already owned.
+In 1701 Frederik 4. created a national land militia. Its soldiers were young
+farmhands, supplied by the landowners from the men working the land. It gave the
+crown an army it did not have to hire.
 
 And in 1702 he began abolishing *vornedskab*, the bond that had tied a peasant
-born on a Zealand, Lolland, Falster or Møn estate to that estate for life — the
-thing the burghers' programme of 1660 had asked for and not got. It had been in
-place since the late Middle Ages, it applied to women as well as men, and it
-lasted a lifetime.
+born on a Zealand, Lolland or Falster estate to that estate (Møn's had gone in
+1696). It had been in place since the late Middle Ages and had survived 1660; it
+bound the men of the estate, and it lasted a lifetime.
 
 "Began" is the necessary word. The ordinance freed only boys born after his
 accession in 1699, so the bond expired by attrition rather than by decree, one
@@ -1832,10 +1797,8 @@ by twenties, and shortly to be compelled into a schoolroom at five. Absolutism d
 not distribute freedom. It centralised the claim on people.
 
 And the unit it used to count them was the one chapter 25 watched being invented:
-every twenty barrels of hartkorn had to produce a man. Thirty-one years later,
-when the recruiting broke down, the same logic produced *stavnsbånd* — narrower
-than vornedskab, since it bound only men and only from fourteen to thirty-six, and
-in every other respect a heavier hand. That is chapter 28's business.
+every twenty barrels of hartkorn had to produce a man. In 1731 and 1733 the same
+logic produced *stavnsbånd*, which is chapter 28's business.
 
 On 28 March 1721 he signed four instructions, and they are the reason his reign
 is remembered for something other than the war.
@@ -1845,20 +1808,20 @@ whose farms supplied men, horses and fodder for twelve squadrons. The instructio
 ordered a school built in every parish of every district: twenty to a district,
 two hundred and forty in all. Brick walls and a tiled roof, in a countryside of
 clay-daubed walls and thatch. Thirteen metres by seven and a half, with two metres
-eighty from floor to ceiling. All of them to the same drawing and all at the same
-price, five hundred and fifty rigsdaler each.
+eighty from floor to ceiling. All of them to the same drawing, and the builders
+were paid five hundred and fifty to six hundred rigsdaler for each.
 
-The building was tendered at the end of 1721 and the craftsmen started in March
-1722. The royal architect Johan Cornelius Krieger and a brickworks owner at Nivå
-put up a hundred and forty-nine of them between them. Two hundred and forty-one
-were finished by 1727.
+The building was tendered at the end of 1721 and the craftsmen started in
+March 1722. The royal master mason Lars Eriksen built more than half of them, and
+may have drawn them too; the design has also been credited to the royal architect
+Johan Cornelius Krieger. Two hundred and forty-one were finished by 1727.
 
 Attendance was compulsory in the districts from the age of five, for girls as well
 as boys. Christian instruction and reading were free. Writing and arithmetic cost
 eight skilling a month, which many families did not have. The parish priest
-inspected, the church tithe paid the running costs, and the children read two to
-four articles of Danske Lov aloud every day — chapter 26's law book, recited by
-five-year-olds in every village of the crown estates.
+inspected, the church tithe paid the running costs, and every day the children
+read aloud from Danske Lov — chapter 26's law book, recited by five-year-olds in
+every village of the crown estates.
 
 The king was not doing this only out of piety, and said so: he wanted soldiers who
 could read and count to twenty, and the districts that built the schools were the
@@ -1873,14 +1836,14 @@ Sickness, war and plague. He is naming the last twenty years of this chapter, an
 the schools are what he put up in exchange for having survived them.
 
 The districts were unevenly spread, so West Jutland and north-western Zealand got
-nothing. But the design became the model for Danish village schools for the next
-hundred and eighty years, and a good many of the buildings are still standing.
+nothing. But the design became the model for Danish village schools until
+about 1900, and a good many of the buildings are still standing.
 
 ---
 
-## Egede sails
+## The Greenland mission
 
-He had been asking since 1711.
+He had been asking since 1710.
 
 Hans Egede was a Norwegian parish priest at Vågan in the Lofoten islands who had
 read, in an old description of Norway, that Greenland had been Christian for
@@ -1890,25 +1853,23 @@ been left to lapse for three hundred years while Denmark-Norway did nothing abou
 it would not leave him alone. He wrote to his bishops. In 1711 he wrote to the
 king. He was refused, and kept asking.
 
-In 1719 he got royal backing, and in 1720 a group of Bergen merchants formed a
-company to run the ships and the trade. His salary was set at three hundred
-rigsdaler.
+In 1719 he got royal backing, and Bergen merchants formed a company to run the
+ships and the trade. His salary was set at three hundred rigsdaler.
 
-He sailed from Bergen in May 1721 with his wife Gertrud Rask, their four children
-— Poul twelve, Niels eleven, Kirstine seven, Petronelle six — and a party of
-craftsmen and labourers. They came round Cape Farewell into trouble, took the
-survivors of the consort ship aboard, and on 3 July 1721 landed on a small island
-at the mouth of the fjord the Danes would call Godthåb and the Greenlanders call
+He sailed from Bergen in May 1721 with his family and a party of craftsmen and
+labourers, for the fjord the Danes would call Godthåb and the Greenlanders call
 Nuup Kangerlua. A boatswain off a Dutch whaler helped them in. Kayaks came out to
-watch.
+watch. The landing, and the colony's first years, are his wife's in the vignette
+below. From 1733 the Moravians set up a mission of their own beside his, and in
+competition with it.
 
 > **Vignette · Gertrud Rask, Håbets Ø, 3 July 1721**
 >
 > She has four children on the ship: Poul is twelve, Niels eleven, Kirstine seven,
-> Petronelle six. They sailed from Bergen in May, came round Cape Farewell into
-> trouble, took aboard the survivors of the ship that was supposed to be sailing
-> with them, and are now standing on a small island at the mouth of a fjord that
-> nobody aboard has a name for. Her husband names it Hope Island.
+> Petronelle six. They came round Cape Farewell into trouble, took aboard the
+> survivors of the ship that was supposed to be sailing with them, and are now
+> standing on a small island at the mouth of the fjord the whalers call Baals
+> Revier. Her husband names the place after their ship, the *Haabet*: Hope Island.
 >
 > It is poor ground — fog, damp, and the Davis Strait on the doorstep. After one
 > winter of scurvy most of the colonists take the first ship home. She does not.
@@ -1918,17 +1879,13 @@ watch.
 > neighbours is the difference between a mission and four dead children. Her
 > husband's diaries record the mission. They do not record her days.
 >
-> She died of smallpox just before Christmas 1735, in the epidemic that killed
-> hundreds of the people she had come to live among. Egede went home the year
-> after and took her coffin on the ship with him, so that he could be buried
-> beside her.
+> She will nurse the sick through the smallpox epidemic of 1733–34, which kills most
+> of the people around the colony, and she will die on 21 December 1735, worn out.
+> Egede will go home the next summer and take her coffin on the ship with him, so
+> that he can be buried beside her.
 >
-> Gertrud Rask, of Kvæfjord, colonist · Håbets Ø, Nuup Kangerlua · 3 July 1721
+> Gertrud Rask, of Kvæfjord, colonist · Håbets Ø, Nuup Kangerlua · 3 July 1721 · [f]
 
-
-He named the island Håbets Ø, Hope Island. It was a poor choice of ground — fog,
-damp, and the Davis Strait on its doorstep — and after one winter of scurvy most
-of the colonists went home on the first ship.
 
 He never found a single descendant of the Norse. He found ruins, and he found
 Inuit, and after a while he stopped looking for the people he had come for and
@@ -1941,11 +1898,6 @@ inhabitants could be held under discipline.
 He is where Greenland re-enters the Danish state, and where a claim on the maps of
 this series since 1500 stops being a claim.
 
-Gertrud Rask ran the colony's household for fourteen years and died of smallpox
-just before Christmas 1735, in the epidemic that killed hundreds of the people she
-had come to live among. Egede went home the following year, and took her coffin
-with him on the ship, so that he could be buried beside her.
-
 
 <!-- ===== c27_draft_apparatus.md ===== -->
 
@@ -1954,34 +1906,27 @@ with him on the ship, so that he could be buried beside her.
 *Draft. Glossary blocks are per-section. Question tiers: Recall, Causal,
 Counterfactual, Contested.*
 
-**Gap in the prose draft, to fix in §08:** the `25 → 27` arrow promises
-*vornedskab* — the bond tying Zealand peasants to the estate of their birth, which
-the burghers' 1660 programme wanted abolished. It went in 1702, and the draft of
-§§01–09 does not mention it. It belongs at the head of §08 with the land militia
-of 1701, which is the same policy: a crown remaking its own tenants into soldiers
-it could recruit and schoolchildren it could teach. Without it the arrow does not
-pay.
-
 ---
 
 ## Danish terms, by section
 
 **§01 — Travendal**
 
-- **det gottorpske** — the Gottorp share: the third of Slesvig, and parts of
-  Holstein, held by the ducal line since 1544 and held in full sovereignty since
-  1658.
-- **suverænitet** — sovereignty. What the duke had and what Denmark spent seventy
-  years trying to take back.
+- **det gottorpske** — the Gottorp share: the ducal part of Schleswig, and parts
+  of Holstein, held by the ducal line since 1544 and held in full sovereignty
+  since 1658.
+- **suverænitet** — sovereignty. What the duke had, and what Denmark tried from
+  1658 until 1720 to take back.
 
 **§03 — Helsingborg**
 
 - **gammel og ny stil** — old and new style. Denmark went over to the Gregorian
-  calendar in 1700; Sweden kept its own reckoning until 1712 and then reverted to
-  the Julian. The same day in 1710 is 28 February in Swedish papers and 10 March
-  in Danish ones.
-- **landgang** — an amphibious landing. Denmark attempted three in this period and
-  none of them held ground.
+  calendar in 1700, when 18 February was followed by 1 March. Sweden ran a
+  calendar of its own from 1700 to 1712, one day ahead of the Julian, and then
+  went back to the Julian until 1753. The same day in 1710 is 28 February in
+  Swedish papers and 10 March in Danish ones.
+- **landgang** — an amphibious landing, like the Swedish army's on Zealand in 1700
+  and the Danish army's in Skåne in November 1709.
 
 **§04 — the plague**
 
@@ -1993,7 +1938,7 @@ pay.
 - **dødeliste** — the bill of mortality, kept parish by parish. The numbers in
   this chapter come from these and do not agree with each other.
 
-**§05 — Tordenskjold**
+**§05 — the war at sea**
 
 - **kaper** — a privateer: a private ship licensed to take enemy shipping.
 - **orlogsskib** — a warship of the line, as against the small fast vessels
@@ -2003,19 +1948,19 @@ pay.
 
 **§06–07 — the settlement**
 
-- **arvehyldning** — the homage sworn to a hereditary lord. Slesvig's estates swore
+- **arvehyldning** — the homage sworn to a hereditary lord. Schleswig's estates swore
   it to Frederik 4. at Gottorp Castle in 1721, in words that would be argued over
   in the 1830s.
 - **len** — a fief. The Gottorp share was taken as a *forbrudt len*, a forfeited
   fief, rather than as a conquest — a legal form that mattered later.
-- **stadfæstelsestraktat** — the treaty of confirmation. England and France
+- **stadfæstelsestraktat** — the treaty of confirmation. Britain and France
   guaranteed the Danish gain, which is why it stuck.
 
 **§08 — the schools**
 
 - **rytterdistrikt** — a cavalry district: crown land whose farms supplied men,
-  horses and fodder for one squadron. Twelve of them, and a thirteenth on Møn from
-  1726.
+  horses and fodder for one squadron. Twelve of them, and a thirteenth on Møn
+  from 1726.
 - **rytterskole** — one of the schools built in those districts, 1722–27. Nothing
   to do with riding; the name is later.
 - **vornedskab** — the bond tying a Zealand peasant to the estate where he was
@@ -2031,16 +1976,17 @@ pay.
 
 ## Meanwhile in Europe
 
-**1713 — Utrecht.** The treaties signed at Utrecht in the spring of 1713 ended the
-War of the Spanish Succession, the war that had occupied England, France, Spain,
-Austria and the Dutch Republic for eleven years. It is easy to read Denmark's
-Slesvig settlement as a Danish achievement, and it was one; but it was possible
-because the western powers had finished their own war and had attention to spare.
-The English and French guarantee that made the 1721 gain permanent was underwritten
+**1713 — Utrecht.** The treaties signed at Utrecht in the spring of 1713 ended
+most of the War of the Spanish Succession, the war that had occupied England,
+France, Spain, Austria and the Dutch Republic since 1701; Austria made its own
+peace the next year. It is easy to read Denmark's Schleswig settlement as a Danish
+achievement, and it was one; but it was possible because the western powers had
+finished their own war and had attention to spare. The British and French
+guarantee that made the 1721 gain permanent was underwritten
 by men who had just spent a decade unable to look at the Baltic at all.
 
 **1720 — London and Paris.** In the same months that Frederik 4. was concluding
-the peace, the South Sea Company's stock rose roughly tenfold and collapsed, and
+the peace, the South Sea Company's stock rose roughly eightfold and collapsed, and
 John Law's scheme in France collapsed with it. Thousands of investors were ruined
 in what is usually called the first modern financial crash. It is worth setting the
 two events beside each other: the same summer produced Europe's first speculative
@@ -2053,21 +1999,21 @@ off the second.
 ## Checkpoints
 
 **Checkpoint (after §03)** — The war's declared purpose failed in four months.
-Everything after March 1710 is a war Denmark went on fighting for eleven years
+Everything after March 1710 is a war Denmark went on fighting for ten more years
 without any prospect of the thing it had gone to war for. Hold that, because the
 settlement of 1720 looks like a success only if you have forgotten what was asked
 for in 1709.
 
 **Checkpoint (after §05)** — Two ways of measuring the same twenty years. The
-army lost the only battle that mattered and killed its own horses on a beach. The
-navy produced the most celebrated officer in Danish history and ended an invasion
-of Norway by burning a supply convoy in a creek. Denmark's problem in this period
+army lost the only battle that mattered and killed its own horses in Helsingborg. The
+navy produced the most celebrated officer in Danish history and hastened the end
+of an invasion of Norway by burning a supply convoy in a creek. Denmark's problem in this period
 was never the quality of its sailors.
 
 **Checkpoint (after §07)** — Frederik 4. is usually marked down, and as a
-commander he deserves it. But he is the first Danish king since Christian 4.'s
-youth to finish a war holding more than he started with, and he closed a wound in
-the southern border that three previous reigns had failed to close. The reign is a
+commander he deserves it. But he is the first Danish king in a century to finish
+a war holding more than he started with, and he ended the Gottorp share of
+Schleswig, sovereign since 1658. The reign is a
 failure by its own stated aim and a success by almost any other.
 
 ---
@@ -2078,10 +2024,9 @@ failure by its own stated aim and a success by almost any other.
 surrendering a fortress he could not have taken, by marching the same small body of
 men past the walls again and again so that they looked like an army.
 
-**What the story has become.** *Tordenskjolds soldater* is still an ordinary idiom
-in Danish and Norwegian for the same few people produced repeatedly to look like
-many. That is the phrase's origin, and the phrase has long outlived any interest in
-what happened at Marstrand.
+**What the story has become.** It became an idiom, *Tordenskjolds soldater* (see
+the glossary). The story is the phrase's origin, and the phrase has long
+outlived any interest in what happened at Marstrand.
 
 **What can be said.** He took Marstrand and the fortress of Carlsten in July 1719
 and was made vice-admiral for it, and he did it with a force that ought not to have
@@ -2092,8 +2037,7 @@ actions — Dynekilen in 1716 was not a trick.
 that attaches itself to a successful commander afterwards, and the more colourful
 versions — the drink sent to the commandant, the marching in circles — should be
 told as what the eighteenth and nineteenth centuries made of him rather than as
-what he did. The chapter should be explicit that the idiom is better evidence of
-the legend than of the siege.
+what he did. The idiom is better evidence of the legend than of the siege.
 
 ---
 
@@ -2103,27 +2047,21 @@ the legend than of the siege.
 abolished at Frederiksborg in 1720. The toll is a fact of geography again.
 
 **← 25.** The Kongelov's provisions for succession through the female line —
-sealed in a casket in 1665, unread — are what the 1721 homage may or may not have
-extended to Slesvig. — *Vornedskab*, which the burghers wanted abolished in 1660,
-went in 1702.
+sealed in a casket in 1665 and kept from print — are what the 1721 homage may or
+may not have extended to Schleswig. — *Vornedskab*, which survived 1660, went in
+1702.
 
 **← 26.** The försvenskning of Skåne is measured here: in 1676 the province came
 over to a Danish army within weeks; in 1710 nobody rose at all. — Danske Lov of
-1683 is read aloud, two to four articles a day, by five-year-olds in two hundred
-and forty village schools.
+1683 is read aloud every day by five-year-olds in two hundred and forty village
+schools.
 
 **→ 28.** The rytterskoler are the machinery that confirmation in 1736 and the
-school ordinances of the 1730s are built on. — The crown begins selling the
-ryttergods, and what replaces the bond of 1702 is the *stavnsbånd* of 1733. — The
-Gottorp dukes keep their Holstein possessions until 1773. — Greenland is now a
-mission and a colony, and the maps stop calling it a claim.
+school ordinances of the 1730s are built on. — What replaces the bond of 1702 is
+the *stavnsbånd* of 1733. — Greenland is now a mission and a colony, and the maps stop calling it a claim.
 
-**→ 30.** The Moravians who took Egede's Greenland mission over reached the Danish
-West Indies in 1732 and Greenland in 1733, and are on the plantation islands for
-the rest of the century.
-
-**→ Part H.** What Slesvig legally became in 1721, and whether the Kongelov's
-female-line succession ran there, is the question the whole Slesvig crisis of the
+**→ Part H.** What Schleswig legally became in 1721, and whether the Kongelov's
+female-line succession ran there, is the question the whole Schleswig crisis of the
 nineteenth century is argued out of. The wording was left vague because in 1721
 nobody needed it to be exact.
 
@@ -2133,35 +2071,35 @@ nobody needed it to be exact.
 
 Frederik 4. inherited a sovereign hostile duchy inside his own southern border and
 a claim to three provinces held by Sweden. He attacked the first in 1700 and was
-forced out in three months. When Karl 12.'s army was destroyed at Poltava in 1709
+forced out the same summer. When Karl 12.'s army was destroyed at Poltava in 1709
 he took the opportunity to attack the second, and in March 1710 his army was beaten
-outside Helsingborg and evacuated to Zealand, killing its own cavalry horses on the
-beach. That is the last Danish attempt on Skåne. The province had been made Swedish
+outside Helsingborg and evacuated to Zealand, killing its own horses before it
+left. That is the last Danish attempt on Skåne. The province had been made Swedish
 in the interval, and this time nobody rose to meet the Danish army.
 
-In 1711 the plague reached Copenhagen despite two years of quarantine, and killed
-somewhere between a fifth and two fifths of the city in about five months.
+In 1711 the plague reached Copenhagen despite quarantine since 1709, and killed
+from a third to over forty per cent of the city in a single summer and autumn.
 
 What Denmark could not win by fighting it won by outlasting. Gottorp was dragged
-onto the Swedish side in 1713 and its Slesvig lands were occupied; Sweden, losing
-everywhere, preferred to sacrifice an ally rather than its own soil; England and
+onto the Swedish side in 1713 and its Schleswig lands were occupied; Sweden, losing
+everywhere, preferred to sacrifice an ally rather than its own soil; Britain and
 France guaranteed the result. The peace of 1720 gave Denmark the ducal share of
-Slesvig, no part of Skåne, six hundred thousand rigsdaler, and the end of Sweden's
-exemption from the Sound dues. The instruments of the 1721 homage were left vague
-about what exactly had been incorporated into what, and that vagueness became the
-Slesvig question.
+Schleswig, no part of Skåne, six hundred thousand rigsdaler for the conquests it
+handed back, and the end of Sweden's exemption from the Sound dues. The
+instruments of the 1721 homage were left vague about what exactly had been
+incorporated into what, and that vagueness became the Schleswig question.
 
 In 1721 the same king ordered two hundred and forty schools built in the cavalry
-districts, in brick, to one drawing, at one price, with a verse over each door
-thanking God that sickness, war and plague had not killed him. And a Norwegian
-parish priest who had been petitioning for ten years finally sailed for Greenland,
+districts, in brick, to one drawing, with a verse over each door thanking God
+that sickness, war and plague had not killed him. And a Norwegian parish priest
+who had been petitioning since 1710 finally sailed for Greenland,
 looking for a Christian people who had vanished three hundred years earlier, and
 found somebody else.
 
 The reign failed at the thing it set out to do and succeeded at nearly everything
 else. Skåne was never recovered and never seriously attempted again after 1710. The
-southern border was closed for the first time in two hundred years, the Sound dues
-were restored, and a state that could date every measure it took against the plague
+southern border was closed for the first time since 1544, and a state that could
+date every measure it took against the plague
 still could not say how many of its people it had lost.
 
 ---
@@ -2179,17 +2117,17 @@ still could not say how many of its people it had lost.
 
 **Causal** — *Why did that follow from this?*
 
-5. Explain why the destruction of the Swedish army at Poltava, eight hundred miles
+5. Explain why the destruction of the Swedish army at Poltava, a thousand miles
    away, made a Danish invasion of Skåne look sensible in 1709.
-6. Denmark failed against Gottorp by force in 1700 and succeeded by diplomacy in
-   1720. What changed, and how much of it was Denmark's doing?
+6. Denmark failed against Gottorp by force in 1700 and succeeded by diplomacy
+   in 1720. What changed, and how much of it was Denmark's doing?
 7. Why did a king who wanted soldiers build schools?
 
 **Counterfactual** — *What if it had gone otherwise?*
 
 8. Suppose Rantzau had won outside Helsingborg in 1710. What would Denmark have
    needed in order to hold Skåne, and did it have any of it?
-9. Suppose the 1721 homage instruments had said plainly that Slesvig was
+9. Suppose the 1721 homage instruments had said plainly that Schleswig was
    incorporated into Denmark and the Kongelov extended to it. What argument would
    the nineteenth century have had to find instead?
 
@@ -2210,11 +2148,11 @@ still could not say how many of its people it had lost.
 **Worked from**
 
 - The treaty of Frederiksborg, 1720, in Schou's *Forordninger*, 2. del,
-  1699–1730, and the peace of Kiel of 14 January 1814, whose article 27 names the
-  earlier Dano-Swedish instruments by date and distinguishes Stockholm of 3 June
-  1720 from Frederiksborg of 3 July.
-- The instruments of the Slesvig homage of 1721; A.D. Jørgensen, *Sønderjyllands
-  indlemmelse i den danske krone 1721*, and Holger Hjerholt on the incorporation
+  1699–1730. (The peace of Kiel of 14 January 1814 is said to name the earlier
+  Dano-Swedish instruments by date in its article 27; that was not checked for
+  this page.)
+- The instruments of the Schleswig homage of 1721; A.D. Jørgensen, *Sønderjyllands
+  indlemmelse i den danske krone 1721*, and Holger Hjelholt on the incorporation
   of the Gottorp share.
 - The health commission's protocols and the plague hospital register, Københavns
   Stadsarkiv's plague archive, 1710–11.
@@ -2228,7 +2166,7 @@ still could not say how many of its people it had lost.
 
 **Where the argument stands**
 
-*Attributions need checking against the works themselves before publication.*
+*Named as positions in a historiography, not as books this page has read.*
 
 - Karl-Erik Frandsen's work on the plague of 1709–11 in the Baltic is the standard
   account of how the epidemic moved and how the Danish quarantine regime performed.
@@ -2253,7 +2191,7 @@ tablet with the verse is over the door.
 were — the priest inspected the school, and the tithe paid for it.
 
 **Gottorp Castle, Schleswig.** Where the estates swore in 1721. It became the seat
-of the Danish governor in Slesvig, and its library and much of its art collection
+of the Danish governor in Schleswig, and its library and much of its art collection
 went to Copenhagen.
 
 **Frederiksborg Slot, Hillerød.** Where the peace was signed.
@@ -2265,7 +2203,7 @@ ramparts. Among the skeletons excavated was a pregnant woman.
 **Saltholm.** The quarantine island, visible from the Øresund bridge, where
 travellers sat out forty days from 1709.
 
-**Kangeq, Greenland.** Håbets Ø. The Greenlandic name, Illuerunnerit, means
+**Illuerunnerit, Nuup Kangerlua, Greenland.** Egede's Håbets Ø. The Greenlandic name means
 roughly "where there are no houses" — it was given after the colony left.
 
 
@@ -2278,22 +2216,24 @@ at v16 for why the confirmand was replaced.*
 
 ---
 
-## A king who closed the theatres
+## A king who kept the theatre shut
 
-Frederik 4. died in October 1730 and his son shut the playhouse.
+Frederik 4. died in October 1730, and his son made sure the playhouse stayed dark.
 
-Christian 6. was thirty-one, and he had been raised by a mother who thought her
+Christian 6. was thirty, and he had been raised by a mother who thought her
 husband's court was a moral catastrophe — which, given that Frederik 4. married
 his mistress to the left hand while the queen was still alive and then to the
 right hand the day after her funeral, was a defensible position. The son took the
 lesson entirely. He was pious, withdrawn, German-speaking, uneasy in public, and
-he governed for sixteen years without once giving the impression of enjoying it.
+he governed from 1730 to 1746 without once giving the impression of enjoying it.
 
-The theatre in Grønnegade closed. There was never a formal statute banning the
-stage, which is why historians say a theatre ban "in effect": it was done by
-withdrawing permission, by pressure, and by a court that made it plain what it
-thought. It held until he died in 1746, and Danish theatre lost sixteen years at
-precisely the point when it had begun to exist.
+The theatre in Grønnegade, where Holberg's comedies had first been played, had
+already gone dark: its audience fell away within a few years, and after the fire
+of 1728 it did not play again. The new king saw that nothing replaced it. There was never a formal statute banning the stage, which is why
+historians say a theatre ban "in effect": it was done by withholding permission,
+by pressure, and by a court that made it plain what it thought. It held until he
+died in 1746, and Danish theatre, which had only just begun to exist, had no stage
+from the late 1720s until 1748.
 
 His father had held a weekly audience at which any subject could bring a
 complaint. Christian 6. did not. What he did instead was more consequential than
@@ -2309,12 +2249,13 @@ an adult.
 Pietism was originally a movement of the heart. It held that Lutheran orthodoxy
 had become a matter of correct formulas recited by people who felt nothing, and
 that what mattered was inward conversion, personal scripture reading, and small
-gatherings of the genuinely awakened. It came to Denmark from Halle in Saxony, and
-in its first form it was a criticism of the state church rather than an instrument
-of it.
+gatherings of the genuinely awakened. It came to Denmark from Halle, in
+Brandenburg-Prussia, and in its first form it was a criticism of the state church
+rather than an instrument of it.
 
-Within a decade the Danish crown had turned it into law, and it is worth watching
-how, because the mechanism is the same one this part keeps describing.
+Within five years of Christian 6.'s accession the crown had turned it into law,
+and it is worth watching how, because the mechanism is the same one this part
+keeps describing.
 
 **12 March 1735.** The Sabbath ordinance made attendance at divine service on
 Sundays and holy days a legal duty. Not an expectation — a duty, enforceable.
@@ -2330,14 +2271,14 @@ involved will have missed.
 **1737.** Erik Pontoppidan, court preacher, produced the textbook at the king's
 own request: *Sandhed til Gudfrygtighed*, truth unto godliness, an explanation of
 Luther's Little Catechism. It contains seven hundred and fifty-nine questions and
-answers. A candidate was expected to have them by heart, and could be asked up to
-fifty of them, standing in front of the congregation.
+answers. A candidate was expected to have them by heart, and to answer from them
+standing in front of the congregation.
 
 Consider what that required. It was made a legal obligation for every child in two
 kingdoms to memorise several hundred theological questions in a language many of
 them could not read — and there was, in most of the country, no school. Chapter 27
-described two hundred and forty-one schoolhouses built in the cavalry districts;
-the cavalry districts were where the crown happened to own land. The confirmation
+described the schoolhouses built in the cavalry districts; the cavalry districts
+were where the crown happened to own land. The confirmation
 ordinance obliged the state to reach everywhere else, and it is the reason
 compulsory schooling in Denmark begins here rather than in 1814. It also reached
 the children whose parents had kept them out of any teaching because the family
@@ -2347,14 +2288,16 @@ And it was made an obligation in law three years later. The school ordinance of
 1739 required schooling for all children — the first time a Danish government had
 said so — and it followed directly from the confirmation ordinance, because a
 state that compels an examination has to provide the teaching for it. The
-instruction was the memorising of set religious texts, which is not what a modern
-reader means by education. It is nevertheless where Danish literacy comes from,
-and in time Danish writing as well.
+landowners, in the depth of a farm crisis, pushed back, and a placard of 29
+April 1740 left where the schools stood, what the teacher was paid and how the
+cost was recovered to the landowner's own choice, so that the duty was kept in law
+and left to goodwill in practice. The instruction was the memorising of set
+religious texts, which is not what a modern reader means by education. It is
+nevertheless where Danish literacy comes from, and in time Danish writing as well.
 
-*Sandhed til Gudfrygtighed* remained the legally required catechism until 1794. It
-was authorised afresh by three kings in succession, in 1738, 1748 and 1768. It was
-used in Danish religious teaching throughout the eighteenth century and in Norway
-through the nineteenth as well, and it is probably the book by a Danish author
+*Sandhed til Gudfrygtighed* was prescribed by royal order in 1738 and remained the
+legally required catechism until 1794. It was used in Danish religious teaching
+throughout the eighteenth century and in Norway through the nineteenth as well, and it is probably the book by a Danish author
 that has been printed in more copies than any other.
 
 Two things followed that were not in the original idea at all.
@@ -2367,38 +2310,39 @@ the awakened should meet in small groups outside the official church ended by
 making such meetings legal only under the official church's eye. The institution
 had won.
 
-> **Vignette · Sophie Magdalene, Vallø, 28 November 1737**
+> **Vignette · Sophie Magdalene, Vallø, 1737**
 >
-> The queen is thirty-seven, and today she signs the foundation of the grandest
-> convent for unmarried noblewomen in Denmark.
+> The queen was born in Bayreuth in 1700, and this year she founds a convent for
+> unmarried noblewomen on her own estate at Vallø, south of Køge.
 >
-> Vallø came to her in 1731, when her husband took it from his father's second
-> wife and gave it to his own. She has had Lauritz de Thurah rebuild it. Next May
-> it will be inaugurated with a great ceremony. It will keep twelve *stiftsfrøkener*
-> — three of them royal ladies-in-waiting — and until 1799 every one of them will
-> have to document sixteen noble ancestors. The abbess must come of a princely
-> house and the dean of a comital one. The abbess will have the right to appoint
-> the parish priests on the estate.
+> Vallø came to her in 1731. Frederik 4. had given it to Anna Sophie Reventlow, the
+> mistress he made his second wife; when he died, his son took from her almost
+> everything she had been given, Vallø with the rest, and gave the estate to his
+> own queen. Sophie Magdalene has carried on the building her father-in-law left
+> unfinished, and the foundation will be inaugurated with a ceremony next year.
+> Until 1799 every *stiftsfrøken* admitted will have to document sixteen noble
+> ancestors. The abbess must come of a princely house and the dean of a comital
+> one.
 >
-> It is a pietist act, and it is also a family arrangement. The first abbess is her
-> own younger sister, Sophie Caroline, on a pension of sixteen thousand six hundred
-> thalers a year. And there is a letter in the archives in which the queen asks her
-> husband to send that sister back to Germany, because she is convinced — on what
-> evidence nobody knows — that Sophie Caroline and the king are lovers. He answers
-> that he would let her go with all his heart if it would win his wife's confidence,
-> but that it would hurt the princess. The sister stayed. So did the pension.
+> It is a pietist act, and it is also an act of rank: a house of devotion that only
+> the oldest nobility can enter.
 >
 > Sophie Magdalene directed the foundation herself until she died in 1770. The
 > woman who took over the protectorate the following March was Caroline Mathilde,
-> and what happened to her is chapter 29.
+> and what happened to her is chapter 29. Copenhagen came to remember Sophie
+> Magdalene as Charlotte Dorothea Biehl drew her — the cold, poor German princess
+> turned splendour-loving, extravagant queen — a portrait taken up by the
+> nationalism of the years after 1864, and one her modern biographer calls
+> undeserved.
 >
-> Sophie Magdalene, queen · Vallø · 28 November 1737
+> Sophie Magdalene, queen · Vallø · 1737 · [f]
 
-What was left of the heart of it was the hymns. Hans Adolph Brorson, bishop of
-Ribe, wrote the best Danish devotional poetry of the century in these years, and
-it is not administrative at all: it is about the sweetness and the suffering of
-Christ, addressed to one soul at a time. The same decade produced the Conventicle
-Placard and *Her kommer, Jesus, dine små*, and both are pietism.
+What was left of the heart of it was the hymns. Hans Adolph Brorson, later bishop
+of Ribe, wrote what many readers still think the best Danish devotional poetry of
+the century in these years, and it is not administrative at all: it is about the
+sweetness and the suffering of Christ, addressed to one soul at a time. The same
+years produced the Conventicle Placard and *Her kommer, Jesus, dine små*, and both
+are pietism.
 
 ---
 
@@ -2406,56 +2350,57 @@ Placard and *Her kommer, Jesus, dine små*, and both are pietism.
 
 On 4 February 1733 the government issued an ordinance for the establishment of a
 new land militia in Denmark. That is its title and that is what it was for. The
-thing it is remembered by is a clause inside it.
+thing it is remembered by is a clause inside it — though the tie itself was older.
+Christian 6. had abolished his father's militia on 30 October 1730,
+the young men had taken the chance to leave the estates, and an ordinance of 5
+March 1731 forbade any peasant or farmhand to leave the estate where he lived
+without the owner's permission. Ole Feldbæk counts that as the real beginning of
+stavnsbånd; the ordinance of 1733 is the one the textbooks name.
 
-Under the ordinance, no young man of the peasantry between the ages of fourteen
-and thirty-six could leave the estate where he was born without his landlord's
-permission. Sons of clergy and of landowners were exempt.
+Under the ordinance of 1733, no young man of the peasantry between the ages of
+fourteen and thirty-six could leave the estate where he was born without his
+landlord's permission.
 
 The reason it was in a militia ordinance is administrative and worth following,
 because it explains why a measure that looks like a landowners' conspiracy was in
 fact a bargain. National conscription was being reintroduced. The unit of
-recruitment was the *lægd* — a parcel of land assessed at twenty barrels of
-hartkorn, in the register chapter 25 watched being made — and from every lægd the
-landowner had to produce one man for the session, where the final selection was
-done. If he could not produce one, he was fined.
+recruitment was the *lægd*, reckoned in the hartkorn of the register chapter 25
+watched being made: for every sixty barrels of hartkorn — every forty from 1741 —
+the landowner had to produce one man for the session, where the final selection
+was done.
 
 The landowners' objection was practical. Young men ran away when they were called.
-A landlord who was fined for failing to produce a man he could not find would
-naturally demand the power to stop the men leaving. So the crown gave it to him,
+A landlord who had to produce a man he could not find would naturally demand the
+power to stop the men leaving. So the crown gave it to him,
 and the price of a national army raised off the land was that the men on the land
 stopped being able to move.
 
 Behind that sat a second reason, which the ordinance does not state. Danish
 agriculture was in a severe crisis through the 1730s. Grain could not be sold,
 prices fell, tenancies stood empty, and young men would not take on a farm on the
-terms available. The bond solved that too: a man who could not leave could be
-required to take the vacant holding the landlord wanted filled. One historian's
-summary is blunt — it functioned as a rescue package for the estates.
+terms available. The bond solved that too, and from 1739 it was made explicit: a
+young man who refused a vacant holding the landlord assigned him could be sent
+into long military service. In effect the bond worked as a rescue for the estates.
 
 It got worse rather than better. In 1742 the age range was widened to nine to
 forty. In 1764 it was widened again, to four to forty. A man could be bound to the
-estate of his birth from the year he learned to walk until he was past working
-age.
+estate of his birth from infancy to middle age.
 
 It is often said that stavnsbånd was serfdom returning, and the comparison needs
 handling carefully in both directions. It was not the same as the *vornedskab* it
-replaced, and in one respect it was narrower: vornedskab had bound women as well
-as men, and had bound them for life. Stavnsbånd bound only men, and only for
-twenty-two years of their lives. In every other respect it was heavier, because it
-was national — vornedskab had applied on Zealand, Lolland, Falster and Møn, and
-this applied everywhere — and because it was new, and deliberate, and made by a
+replaced, and in one respect it was narrower: vornedskab had bound a man to the
+estate of his birth for life, and stavnsbånd, as the ordinance of 1733 drew it,
+bound him only from fourteen to thirty-six. In every other respect it was heavier, because it was
+national — vornedskab had applied on Zealand, Lolland, Falster and Møn, and this
+applied everywhere — and because it was new, and deliberate, and made by a
 government that could have done otherwise.
 
 What it actually did to the Danish countryside is less settled than the outrage
 suggests. Ole Feldbæk's position is that we know remarkably little about its
 economic and social effects, and it is worth holding that alongside the
 indignation, because the indignation came later and had work to do. The bond was
-abolished on 20 June 1788, and the abolition became the founding story of modern
-Danish rural life — which is chapter 29's business, and a story with an interest
-in the thing it abolished having been as bad as possible.
-
-It was not fully wound up until 1800.
+abolished in 1788, and how its abolition became the founding story of modern
+Danish rural life is chapter 29's business.
 
 
 ---
@@ -2470,10 +2415,9 @@ heavier burden by a long way, and that it is the thing an eighteenth-century
 peasant would have named first if anyone had asked him.
 
 The older word for a man who owed it was *ugedagstjener*, week-day servant, which
-tells you what it originally was: one day a week. By the middle of the seventeenth
-century some estates were taking around a hundred days a year. By the end of the
-eighteenth there are estates where it had reached something close to every working
-day.
+tells you what it originally was: one day a week. By the eighteenth century many
+estates took a great deal more than that, though how much more is exactly what
+nobody wrote down, for a reason that comes at the end of this section.
 
 Two features made it what it was.
 
@@ -2488,11 +2432,9 @@ judgement of how much he could get.
 against a particular holding and had been written into the register of 1664.
 Hoveri was owed by the tenant as the landlord's servant rather than for any
 specific piece of ground, so it could be increased without breaking anything
-written down. From the middle of the century grain prices rose, landlords
+written down. Once grain prices rose again, landlords
 intensified their home farms to catch the rise, and the labour they took to do it
 came out of the same weeks in which their tenants needed to work their own land.
-That was understood at the time to be an unfortunate consequence, and accepted as
-unavoidable.
 
 The work came in named kinds. A *spanddag* meant turning out with a wagon and a
 team; a *pløjedag* meant bringing a plough; a *gangdag* meant a person on foot
@@ -2503,26 +2445,26 @@ tenants had a *hovlod*, a defined strip of the manor's field that was theirs to
 plough, sow, harrow and harvest, so that the obligation was measured in ground
 rather than in days.
 
-When the government of Christian 7. finally tried to find out how much was being
-demanded, its surveyors worked out specimen figures. One reckoning for a Zealand
-tenant with a full holding came to a hundred and ten days a year — forty of them
-spanddage with horses and a wagon, seventy of them gangdage on foot. Another,
-comparing an estate at Antvorskov with Holstein practice, came to a hundred and
-twenty-two: thirty-four and eighty-eight. Call it two days out of every seven,
-concentrated into ploughing, sowing and harvest — which are the only weeks in the
-year when a man's own farm cannot wait.
+Figures are quoted for what a full holding owed once the government of
+Christian 7. began asking. One, for a Zealand tenant, comes to a hundred and ten days a year — forty of
+them spanddage with horses and a wagon, seventy of them gangdage on foot — though
+this book has not traced it to the returns themselves, and Figure 1 draws it as a
+schematic. What is agreed is where the days fell: in ploughing, sowing and
+harvest, which are the only weeks in the year when a man's own farm cannot wait.
 
 That is the arithmetic behind the phrase "bound countryside", and it is worth
 being clear that it was not the binding that did most of the damage. A man bound
 to an estate who owed a day a week could live. A man bound to an estate who owed
-a hundred and ten days, at the seasons when his own crop needed him, could not
-get ahead however long he stayed.
+whatever the home farm needed, at the seasons when his own crop needed him, could
+not get ahead however long he stayed.
 
 We have no reliable measure of any of this before the late eighteenth century,
 because nobody was required to write it down until the government wanted to
-regulate it. The law on the determination of hoveri came in 1769. Untangling the
-knot afterwards came close to bringing a revolution to the Danish countryside,
-with both sides as participants — and that is chapters 29 and 30.
+regulate it. The first law to require it was the ordinance of 6 May 1769, which
+made the landowners state in days what they took. Untying the knot afterwards, in
+the judgement of one modern account, came close to bringing revolution to the
+Danish countryside; the first attempt to fix it, in 1771, and the rules of 1799
+are in chapter 29.
 
 
 ---
@@ -2530,36 +2472,30 @@ with both sides as participants — and that is chapters 29 and 30.
 ## The cattle plague
 
 In the spring of 1745 the cattle began to die at Trolleborg on Funen, and then
-everywhere.
+across the whole island.
 
-Rinderpest is a morbillivirus, a cousin of measles, and it is one of the most
-contagious diseases that has ever existed. It does not infect people. Nobody in
-1745 knew any of that. What they knew was the mortality, which ran at about
-ninety-five per cent of the animals it reached.
+Rinderpest is a morbillivirus, a cousin of measles, and it is fiercely contagious.
+It does not infect people. Nobody in 1745 knew any of that. What they knew was the
+mortality.
 
 Ludvig Holberg — who appears in this chapter again in another capacity — wrote a
-treatise on it that December, and put the horror of the thing exactly. Ordinary
+treatise on it, printed in 1746, and put the horror of the thing exactly. Ordinary
 contagions, he wrote, spare half the animals or at the least a third. This one
 generally made a clean table wherever it came, so that in most places nothing was
 left but perhaps a calf or an old cow; and manor houses had been seen where a
 whole healthy herd was dead within twenty-four hours.
 
-The first wave ran from 1745 to 1752 and is reckoned to have killed something in
-the order of two million head of cattle across the country. A second came in
-1764–67, and there were further outbreaks into the 1780s. Local figures give the
-texture: one Funen district had lost three thousand and eighty-seven beasts by
-the end of 1745 alone; a neighbouring one lost over four thousand during 1746, and
-then lost many of the replacements it had bought in 1747.
+On Funen it went on in wave after wave until 1748; there was a new epidemic in
+the 1760s, and the disease was not gone until the 1780s. Across the century more
+than a million cattle are thought to have died of it.
 
 Nothing that was tried worked, because nothing available could have worked. The
 animals were bled, on the general principle that bleeding was what one did. They
-were driven through need-fire — a flame kindled by friction, an older remedy than
-Christianity in Denmark — and fed gunpowder. An apothecary's bill from Tønder
-lists sulphur balsam, four pounds of powder, fumigating powder, oil for anointing,
-and twenty small bags to hang round the animals' necks. Beneath the official
-remedies ran the unofficial ones: bury a horse alive and drive the sick ones over
-the grave; put a dead dog under the byre floor and its ghost will keep sickness
-out.
+were driven through need-fire — a flame kindled by friction — and fed gunpowder.
+An apothecary's bill from Tønder lists sulphur balsam, four pounds of powder,
+fumigating powder, oil for anointing, and twenty small bags to hang round the
+animals' necks. Beneath the official remedies ran the unofficial ones: put a dead
+dog under the byre floor and its ghost will keep sickness out.
 
 > **Vignette · Anders Pedersen, Ørsted in Oksenvad parish, about 1750**
 >
@@ -2569,7 +2505,8 @@ out.
 > return.
 >
 > He records the disease taking most of the village's animals. He records what was
-> done about it. One of the treatments went like this. Two men hold the sick cow in
+> done about it. One treatment of the time, as folk tradition preserved it, went
+> like this. Two men hold the sick cow in
 > her stall. A third reaches into her mouth, takes hold of her tongue and draws it
 > out as far as it will come, then binds a rag tightly round it to stop the blood.
 > Then a boy — one still young enough to have a sound sharp set of teeth — is
@@ -2578,22 +2515,22 @@ out.
 >
 > It is not superstition and it is not cruelty for its own sake. It is a man trying
 > to save the animal that ploughs his field, using the only theory of disease
-> available to him, in a year when ninety-five of every hundred cattle that took it
-> died.
+> available to him, in years when most of the cattle that took it died.
 >
-> Anders Pedersen, farmer · Ørsted, Oksenvad sogn, Haderslev Amt · about 1750
+> Anders Pedersen, farmer · Ørsted, Oksenvad sogn, Haderslev Amt · about 1750 · [n]
 
-The state remitted a year's taxes so that the farms could get back on their feet,
-which tells you what it cost in a countryside where the plough team and the milk
-and the manure all walked on the same four legs.
+In 1747 the Funen farmers were let off part of their taxes, which tells you what it cost
+in a countryside where the plough team and the milk and the manure all walked on
+the same four legs.
 
 Two things came out of it in the end. Isolating herds turned out to be the method
-that worked, and after about 1780 it was practised deliberately; the disease was
-gone from Denmark by 1782. And in 1773 a veterinary school was founded in
-Copenhagen — the state's response to having watched its livestock die twice
-without understanding why. The two men sent to study at Lyon are said to have come
-back having learned a great deal about horses and nothing whatever about cattle
-plague, because in France it was old news that everybody already knew.
+that worked; the disease was last seen in Denmark in 1782. And in 1773 a
+veterinary school was founded in Copenhagen — the answer to having watched the
+livestock die twice without understanding why. During the outbreak of 1762 three
+young physicians had been sent with royal support to the new veterinary
+school at Lyon. One of them, Peter Christian Abildgaard, found it strong on the
+anatomy of the horse and weak on curing anything; it was he who founded the
+Copenhagen school, at his own expense.
 
 ---
 
@@ -2612,49 +2549,48 @@ emotional, organised around small communities of the awakened rather than around
 parishes.
 
 They were extraordinarily good at going places. The first Moravian missionaries
-sailed for the Danish West Indies in 1732 and for Greenland in 1733 — two years
-after Zinzendorf's visit, and a decade after Hans Egede had landed on Håbets Ø.
+sailed for the Danish West Indies in 1732 and for Greenland in 1733 — within two
+years of Zinzendorf's visit, to the country where Hans Egede had landed on Håbets Ø
+in 1721.
 Wherever the Danish state had planted a flag, the Brethren turned up shortly
 afterwards with a mission. A Brethren society was formed in Copenhagen in 1739,
 and from it lay emissaries went out to hold devotional gatherings, particularly in
 Jutland and on Funen.
 
-And that was the problem. Chapter 28's state church had just spent the 1730s
-making religion a legal duty performed in a specified building at a specified
-hour. Gatherings of the awakened in a farmhouse were the precise opposite. The
-pietists had split in 1734 between Halle and Herrnhut, the Danish crown had chosen
-Halle, and between 1744 and 1746 it issued a series of ordinances against the
-Brethren. The Conventicle Placard of 1741 had already put private assemblies under
-the parish priest.
+And that was the problem. The state church had just spent the 1730s making
+religion a legal duty performed in a specified building at a specified hour.
+Gatherings of the awakened in a farmhouse were the precise opposite. The crown had
+already chosen Halle, and had put private assemblies under the parish priest in
+1741, as the second section of this chapter tells. Between 1744 and 1746 it went
+further against the Brethren themselves: its subjects were forbidden to travel to
+the German congregations, and the Brethren's emissaries were barred from staying
+in the kingdom.
 
-Then, thirty years later, the state changed its mind entirely, and for reasons
+Then, a generation later, the state changed its mind entirely, and for reasons
 that had nothing to do with religion.
 
-Christian 7. and his physician Struensee travelled through Europe in 1768–69 and
-were impressed by the Herrnhuter towns of Germany and the Netherlands — clean,
-orderly, industrious, and commercially successful. In 1771, at Struensee's
-prompting, the king invited the Brethren to found such a town in the duchy of
-Slesvig. In 1773 they began building Christiansfeld, between Kolding and
-Haderslev, on the fields of a disused manor, and named it after him.
+On the European tour of 1768–69 that chapter 29 describes, Christian 7. and his
+physician Struensee were impressed by the Herrnhuter towns of Germany and the
+Netherlands — clean, orderly, industrious, and commercially successful. In 1771,
+at Struensee's prompting, the king invited the Brethren to found such a town in
+the duchy of Schleswig. In 1773 they began building Christiansfeld, between
+Kolding and Haderslev, and named it after him.
 
-The terms were remarkable. The ordinances of 1744–46 were repealed. They received
-ten years' exemption from tax, a state subsidy toward the cost of building, freedom
-of religion, equality with the state church, the right to admit Danes to their
-congregation, and permission to build a church with bells. The government's own
-reasoning was economic development: the duchies needed trade and craft, and the
-Brethren were known to be skilled and honest at both.
+The terms were remarkable. They received ten years' exemption from tax, a state
+subsidy toward the cost of building, freedom of religion, and the right to admit
+outsiders to their congregation. The government's own reasoning was economic
+development: the duchies needed trade and craft, and the Brethren were known to be
+skilled and honest at both.
 
 The town they built is laid out to the standard Moravian plan — the church square
 at the centre, two straight parallel streets — and organised by the choir system,
 in which every member belonged to a group by sex, age and marital status, with a
 brothers' house, a sisters' house and a widows' house to match. By 1806 it had
-seven hundred and fifty-six inhabitants. Until the middle of the next century, only
-members were allowed to sleep in the town; visitors stayed at a guest house on the
-edge of it, and the landlord reported to the minister who had spent the night.
+seven hundred and fifty-six inhabitants.
 
-A state that had criminalised private prayer meetings in the 1740s imported a
-whole town of them in the 1770s, because by then it wanted the linen and the
-clockmaking. Christiansfeld is now on the UNESCO World Heritage list, which is
+A state that had put prayer meetings under the priest in 1741 and shut the
+Brethren's emissaries out in the 1740s imported a whole town of them in the 1770s, because by
+then it wanted the linen and the clockmaking. Christiansfeld is now on the UNESCO World Heritage list, which is
 about the last thing anyone in 1744 would have predicted.
 
 
@@ -2666,7 +2602,7 @@ The principle was simple and it was stated plainly: all power, political, milita
 and economic, was to be gathered in the hands of the absolute king in Copenhagen,
 and the two realms governed from there as one state.
 
-In practice Norway is six hundred miles long, and Copenhagen is at the wrong end
+In practice Norway is more than a thousand miles long, and Copenhagen is at the wrong end
 of it.
 
 So there was a *stattholder*, a royal governor — an office that had existed since
@@ -2696,8 +2632,7 @@ German miners from Saxony and the Harz. A mint was set up at Christiania in 1628
 and moved to Kongsberg in 1686, along with the mining administration. Through the
 eighteenth century the works expanded steadily, and in 1770 they employed four
 thousand and seventy-five people, with a couple of thousand farmers besides in
-seasonal work hauling and cutting. It was the largest industrial enterprise in
-either kingdom.
+seasonal work hauling and cutting. It was the largest mining works in Norway.
 
 Copper came from Trøndelag: Røros from 1644, Løkken from 1654, later Selbu and
 Folldal. Røros was the second largest works in the country and was privately held
@@ -2705,9 +2640,9 @@ by a partnership of Trondheim burghers rather than by the crown. The ore was got
 by *fyrsetting* — building fires against the rock face until it cracked — which
 consumed enormous quantities of wood and filled the galleries with smoke.
 
-And the coin was Norwegian. The daler struck at Kongsberg was about twenty-eight
-grams of silver, with the king on one face and the Norwegian lion on the other,
-divided into ninety-six skilling. Norway made its own money, out of its own
+And the coin was Norwegian. The daler struck at Kongsberg was a heavy silver
+piece, with the king on one face and the Norwegian lion on the other, divided into
+ninety-six skilling. Norway made its own money, out of its own
 metal, from the bottom up.
 
 The cost of all this fell on the farms in the form of duty. Hauling silver from
@@ -2724,37 +2659,30 @@ Norwegians did not invent for nothing.
 
 The best single image of the relationship is a journey. In 1733 — the year of the
 stavnsbånd ordinance — Christian 6. and Queen Sophie Magdalene made the royal
-progress through Norway that absolutist kings were expected to make. It took four
-months and eleven days, covered three thousand two hundred and seventy kilometres,
-and moved a retinue of a hundred and eighty-eight people, including the descent
-from the Dovre mountains to Trondheim, which the travel journal records as the
-most dangerous part of the whole undertaking. Special coins were struck in
-Copenhagen for the king to distribute on the way. Those coins usually carried an
-inscription flattering the Norwegians. This one did not, which may have been the
-pietism.
+progress through Norway that his father had made in 1704, with a court that
+Norwegian accounts put at anything from over a hundred and fifty to nearly two
+hundred people. They landed at Christiania on 3 June, were at Trondheim from
+19 to 28 July, and sailed from Larvik on 4 September, handing out coins along the
+way. What the king saw from the road is the vignette.
 
-> **Vignette · Christian 6. on the Dovre descent, 16 July 1733**
+> **Vignette · Christian 6. on the Dovre road, July 1733**
 >
-> He is thirty-three, he does not like being looked at, and he is four weeks into
-> a journey of three thousand two hundred and seventy kilometres.
+> He is thirty-three, he does not like being looked at, and he has been in Norway
+> for some six weeks.
 >
-> The progress through Norway is an obligation of his office. An absolute king who
-> is never seen in half his realm is an idea rather than a ruler, so the court
-> moves: the king, the queen, and a hundred and eighty-eight people, for four
-> months and eleven days. A journal is kept. It survives, and was printed in 1992.
+> The progress is an obligation of his office. An absolute king who is never seen
+> in half his realm is an idea rather than a ruler, so the court moves: the king,
+> the queen, and everyone it takes to keep them. Trondheim is ahead of them, over
+> Dovrefjell. When his father crossed these
+> mountains in 1704 he went in two-wheeled carts; the road has been improved since,
+> and the son's party crosses in four-wheeled carriages.
 >
-> Today is the part the journal calls the most dangerous of the whole undertaking:
-> the descent from the Dovre mountains to Trondheim. Somewhere on that road are
-> the farmers whose standing obligation it is to haul the silver down from
-> Kongsberg and the copper from Røros, and who this year have also been told, by an
-> ordinance issued in February in a language most of them do not read, that their
-> Danish counterparts may no longer leave the estates where they were born.
+> The people along the road are Norwegian farmers, and the ordinance he signed in
+> February, binding the young men of the Danish peasantry to the estates where they
+> were born, does not run here. Norway had no stavnsbånd. What it owed the crown
+> was different: soldiers for the regiments, and carting for the mines.
 >
-> He has coins in his baggage struck for the purpose of being given away on this
-> road. The ones his father and his son had struck for their journeys carry a line
-> flattering the Norwegians. His do not.
->
-> Christian 6., king · the Dovre road to Trondheim · 16 July 1733
+> Christian 6., king · the Dovre road to Trondheim · July 1733 · [-]
 
 
 ---
@@ -2765,27 +2693,30 @@ Between about seven and half past eight on the evening of Wednesday 20 October
 1728, a fire started in a house opposite Vesterport, where Frederiksberggade now
 comes out onto the town hall square. It burned for sixty hours.
 
-When it stopped on the Saturday morning it had taken something like twenty-eight
-per cent of Copenhagen — and forty-seven per cent of the plots in the medieval
-core, which is the figure that matters, because that is where the city actually
-was. A contemporary count put the losses at one thousand six hundred and seventy
-houses out of four thousand and eighty-seven. Five churches and two hospitals
-went. Two thousand six hundred and fifty families lost their homes, which is
-something approaching a fifth of everybody in the city.
+When it stopped on the Saturday morning it had taken more than a third of
+Copenhagen, and most of the medieval town, which is where the city actually was.
+A contemporary count put the losses at one thousand six hundred and seventy houses
+out of four thousand and eighty-seven, which is two in five; a modern count makes
+it one thousand four hundred and fifty. Five churches went. An unfavourable wind
+and a shortage of water had made it as bad as it was.
 
-It was stopped in the end by the wind dropping and by thirty-six buildings being
-deliberately pulled down to make firebreaks.
+The worst loss to learning was in the loft of Trinitatis church, which housed the
+university library. When the loft fell in, some thirty-five thousand books went
+with it, and with them medieval manuscripts now known almost only from copies —
+*Kringla*, one of the chief manuscripts of Snorri's *Heimskringla*, of which a
+single leaf survives, among them.
+The fire also took *Fagrskinna*, the history of the Norwegian kings, whose text
+survives only in transcripts.
 
-The worst single loss was in the loft of Trinitatis church, which housed the
-university library. Árni Magnússon had spent forty years assembling the collection
-of Icelandic manuscripts kept there. He had, by luck, recently had the wheels of
-his cart repaired. In about six hours that cart carried out what survives today of
-the medieval literature of Iceland. Most of his collection did not get out: some
-five thousand transcripts of letters and charters for which no originals exist,
-and both manuscripts of *Fagrskinna*, the history of the Norwegian kings.
+A few streets away, in his house in Store Kannikestræde, Professor Árni Magnússon
+kept his own collection of Icelandic manuscripts. He and his helpers got four or
+five cartloads out, and with them most of the oldest and most valuable vellums; he
+lost about a dozen parchment manuscripts, many later ones on paper, and almost all
+his printed books. What he saved is the core of the collection that still bears
+his name.
 
-Professor Ludvig Holberg was burned out of his lodgings in Købmagergade that
-night, and he wrote about it afterwards. When the fire was finally out, he said,
+Professor Ludvig Holberg was burned out of his lodgings that night, and he wrote
+about it afterwards. When the fire was finally out, he said,
 people began to feel their losses: men who had lately been rich were reduced to
 the beggar's staff, and condemned far too late the luxury they had lived in, the
 wealth now gone, of which they had nothing left but the memory, as of something
@@ -2793,25 +2724,21 @@ they had woken from.
 
 He is the reason this chapter can hear the eighteenth century at all. Holberg
 wrote the first Danish comedies, a satirical epic, essays, a history of the
-kingdom, two autobiographies in Latin, and — as chapter 28 has already noted — a
-treatise on the cattle plague of 1745. He is Norwegian by birth, Danish by career,
-and the single most prolific mind the union produced.
+kingdom, three autobiographical letters in Latin, and — as this chapter has
+already noted — a treatise on the cattle plague of 1745. He is Norwegian by birth,
+Danish by career, and as prolific a mind as the union produced.
 
 The rebuilding is where this section joins the rest of the chapter. In 1729 the
-royal building master, Johan Cornelius Krieger, published drawings for a plain,
+royal building master, Johan Cornelius Krieger, presented drawings for a plain,
 serviceable standard townhouse that anyone could build without paying an architect.
 They went up in large numbers and are still called *ildebrandshuse*, fire-houses;
-many are still standing. Krieger is usually named as the man who a few years
-earlier drew the cavalry-district schoolhouses of chapter 27 and, with the
-brickworks owner Laurits Eriksen at Nivå, put up a hundred and forty-nine of them
-between them, to a single drawing at a single price. The attribution is contested:
-Allan Tønnesen makes Eriksen the architect rather than the draughtsman's partner,
-and credits him with over half the two hundred and forty on his own. The Danish eighteenth century has one
-architect for its village schools and its burnt-out capital, and in both cases the
-job was the same: a decent building, repeatable, cheap.
+many are still standing. Chapter 27 leaves open whether Krieger or the master
+mason Lars Eriksen drew the cavalry-district schoolhouses. If Krieger drew both, the Danish eighteenth century had one architect for its village
+schools and its burnt-out capital, and in both cases the job was the same: a
+decent building, repeatable, cheap.
 
-Christian 6. then pulled down the old Copenhagen Castle — the building where the
-estates had met in 1660 — and put the first Christiansborg in its place. It burned
+Christian 6. then pulled down the old Copenhagen Castle and put the first
+Christiansborg in its place. It burned
 in 1794.
 
 ---
@@ -2825,9 +2752,8 @@ reminder that the character of an absolute monarch is a matter of public policy.
 Where his father had governed by prohibition, he governed mostly by not minding.
 The effect was immediate and it was cultural.
 
-The theatre came back. It had been lost twice: the playhouse in Grønnegade burned
-in the fire of 1728, and the pietist reign then made sure nothing replaced it. In
-1746 the ban lapsed with the king who had imposed it, and a comedy house was built
+The theatre came back. The dark house in Grønnegade had been pulled down in 1738;
+in 1746 the ban lapsed with the king who had imposed it, and a comedy house was built
 on Kongens Nytorv to designs by Nicolai Eigtved. It opened in 1748, and it is the
 beginning of Den Danske Skueplads and so of the Royal Theatre. Holberg — by then
 in his sixties, and the author of most of what there was to perform — was a
@@ -2839,16 +2765,17 @@ the naval yards at Holmen were extended; the Academy of Art was founded. All of 
 employed foreign craftsmen and artists in large numbers, and Copenhagen spent the
 middle of the century becoming a capital that looked like one.
 
-It is worth being clear about what did not change. Stavnsbånd stayed, and was
-extended in 1742 and again in 1764. Hoveri went up rather than down, because grain
-prices were rising and the estates were intensifying to catch them. The
-confirmation ordinance stayed, and Pontoppidan's seven hundred and fifty-nine
-questions were re-authorised by this king in 1748 and by his son in 1768.
+It is worth being clear about what did not change. Stavnsbånd stayed: widened
+once already under his father, in 1742, it was widened again under him in 1764.
+Hoveri went up rather than down, because grain prices were rising and the estates
+were intensifying to catch them. The confirmation ordinance stayed, and so did
+Pontoppidan's seven hundred and fifty-nine questions.
 
 The loosening was in the capital, and it was a loosening of manners. In the
-countryside, where four-fifths of Danes lived, the 1740s and 1750s were the years
-in which the bond tightened and the labour service grew. Those are two histories
-of the same decades, and Danish popular memory has generally kept the first one.
+countryside, where four-fifths of Danes lived, the middle decades of the century
+were the years in which the bond held and the labour service grew. Those are two
+histories of the same decades, and Danish popular memory has generally kept the
+first one.
 
 
 ---
@@ -2859,12 +2786,11 @@ Everything in this chapter happens inside an economy that was failing, and it is
 worth putting the failure in one place at the end, because the government's answer
 to it is the thread that ties the sections together.
 
-The causes were mostly not Danish. The climate had worsened. Wars and epidemics
-had taken people. The tax burden had grown. The Dutch put a duty on Danish cattle,
-and the herring fishery collapsed. Grain prices, which had been falling since the
-wars ended, reached their lowest point in the 1730s. Danish market towns shrank.
-Landowners' incomes from their tenants fell, because the tenants had less surplus
-to sell — and peasant surplus was the foundation the whole economy stood on, since
+The causes were mostly not Danish. When the great wars ended, demand for grain
+fell across Europe and prices fell with it, and a country on the edge of the
+market whose exports were mostly farm produce felt it badly. Grain prices reached
+their lowest point in the 1730s. Landowners' incomes from their tenants fell,
+because the tenants could not pay their rents and taxes — and peasant surplus was the foundation the whole economy stood on, since
 peasants were more than eighty per cent of the population.
 
 The state's response was a package, and by now it should look familiar. The grain
@@ -2877,24 +2803,21 @@ That last measure is the one with a long tail. It gave Danish agriculture a
 monopoly on the sale of grain in Denmark — and in *søndenfjeldske Norge*, southern
 Norway, which is where most Norwegians lived. Norway had timber and iron and fish
 and not enough grain, and it was now required to buy its bread from Danish
-landowners at prices a Danish law protected. The quantity involved grew from about
-a hundred and thirty thousand barrels a year around 1730 to five hundred and
-twenty-five thousand by the end of the century.
+landowners at prices a Danish law protected.
 
 Denmark's first bank followed in 1736. The Kurantbank was chartered with the right
 to issue notes that were legal tender for the state, convertible into silver on
-demand. It was nationalised in 1773, and it is the institution that will be
-destroyed in chapter 31, when the notes stop being convertible and the state goes
-bankrupt.
+demand. It was nationalised in 1773, and it is the bank whose notes are written
+down to a sixth in chapter 31.
 
-Did any of it work? Prices did rise from the early 1740s, and land values with
-them. But the rise was probably international, working through a closed system
-rather than caused by it, and Feldbæk's judgement on the whole crisis package is
-that its significance is uncertain. The monopoly was in practice suspended, wholly
-or partly, about as often as it was in force. It was effectively dead by 1784 and
-formally abolished in 1788, on the same day's business as stavnsbånd, and the
-government did not trouble to present the abolition as a liberal gesture: by then
-it was simply more profitable to sell Danish grain abroad.
+Did any of it work? Prices did begin to rise again from the end of the 1730s, and
+land values with them. But the rise was probably international, working through a
+closed system rather than caused by it, and Feldbæk's judgement on the whole crisis
+package is that its significance is uncertain. The monopoly never worked as the
+total ban it was meant to be: it was relaxed again and again after failed harvests
+and dear years, though always reluctantly and late. It was abolished in 1788, the
+same year as the bond, after the Lofthus rising in Norway, at a time when the double
+monarchy as a whole was short of grain and free trade had become the new doctrine.
 
 What the monopoly did achieve was political, and it was achieved in the wrong
 country. It became a standing grievance against the union, and after 1814 one of
@@ -2903,8 +2826,7 @@ fiercely by Nicolai Wergeland in 1816, in a book whose title calls it Denmark's
 political crimes against the kingdom of Norway.
 
 A grain law passed in Copenhagen in 1735 to rescue Danish landowners from a price
-collapse turns up eighty-one years later as evidence in the case for Norwegian
-independence. That is the sort of thing this part is about.
+collapse turns up in 1816 as evidence in the case for Norwegian independence. That is the sort of thing this part is about.
 
 
 <!-- ===== c28_draft_apparatus.md ===== -->
@@ -2935,11 +2857,12 @@ Counterfactual, Contested.*
 - **stavnsbånd** — from *stavn*, the place one belongs to. The bond of 4 February
   1733, tying men of the peasantry to the estate of their birth from fourteen to
   thirty-six; widened to nine–forty in 1742 and four–forty in 1764.
-- **lægd** — the recruiting unit: a parcel of land assessed at twenty barrels of
-  hartkorn, which had to produce one man for the session.
+- **lægd** — the recruiting unit, reckoned in hartkorn: from 1733 every sixty
+  barrels of hartkorn, from 1741 every forty, had to produce one man for the
+  session.
 - **session** — the board that made the final selection of conscripts.
-- **vornedskab** — the older bond, on Zealand, Lolland, Falster and Møn. It held
-  women as well as men and lasted a lifetime; it was ended by attrition from 1702.
+- **vornedskab** — the older bond, on Zealand, Lolland, Falster and Møn. It tied a
+  man to the estate of his birth for life; it was ended by attrition from 1702.
 
 **§04 — hoveri**
 
@@ -2956,7 +2879,8 @@ Counterfactual, Contested.*
 
 **§05 — the cattle plague**
 
-- **kvægpest** — rinderpest. About ninety-five per cent of infected animals died.
+- **kvægpest** — rinderpest, which killed most of the cattle it reached. It was
+  last seen in Denmark in 1782.
 - **nødild** — need-fire, kindled by friction, through which cattle were driven.
 - **optegnelsesbog** — a notebook. Two families in Oksenvad parish kept one across
   two centuries, which is why this chapter can hear a farmer's voice at all.
@@ -2980,7 +2904,7 @@ Counterfactual, Contested.*
 **§08 — after the fire**
 
 - **ildebrandshus** — a fire-house: one of the plain standard townhouses built to
-  Krieger's published drawings after the fire of 1728, which anyone could put up
+  Krieger's drawings after the fire of 1728, which anyone could put up
   without paying an architect. Many are still standing and still called that.
 
 **§10 — the crisis**
@@ -2996,8 +2920,8 @@ Counterfactual, Contested.*
 
 **1740 — Berlin and Vienna.** Frederick II succeeded in Prussia in May 1740 and
 invaded Silesia in December; Maria Theresa succeeded in Austria in October and
-spent eight years fighting to keep her inheritance. The War of the Austrian
-Succession set most of Europe on fire for a decade. Denmark sat it out entirely,
+fought from 1740 to 1748 to keep her inheritance. The War of the Austrian
+Succession set most of Europe on fire through the 1740s. Denmark sat it out entirely,
 as it sat out the Seven Years' War after it, and the contrast is the point of this
 chapter: the same decades in which the great powers spent themselves on
 battlefields were the decades in which the Danish state turned inward and
@@ -3008,9 +2932,8 @@ question. It was certainly cheaper.
 tsunami and a fire destroyed Lisbon and killed tens of thousands of people at
 prayer. The disaster broke something in European thought: it became very hard,
 afterwards, to argue that catastrophe was God's judgement on the wicked, since the
-churches had come down on the devout. Ten years earlier the Danish government had
-met the cattle plague with days of prayer and penitence alongside the bleeding and
-the need-fires. The generation that founded a veterinary school in 1773 had
+churches had come down on the devout. Ten years earlier Denmark had met the cattle
+plague with a day of prayer alongside the bleeding and the need-fires. The generation that founded a veterinary school in 1773 had
 stopped expecting the first to work.
 
 ---
@@ -3021,22 +2944,22 @@ stopped expecting the first to work.
 Danish countryside are the bond and the labour. Popular memory ranks them in that
 order and the specialists reverse it. Hoveri had no legal ceiling, was never
 written into the tenancy, and could be increased whenever the landlord's home farm
-needed more — and from mid-century, when grain prices rose, it was. A man bound to
-an estate who owed one day a week could live. A man owing a hundred and ten days,
-in the weeks his own crop needed him, could not get ahead however long he stayed.
+needed more — and as grain prices rose, it was. The bond fixed where a man lived;
+the labour decided whether he could ever do more than survive there.
 
 **Checkpoint (after §06)** — Watch what happened to the two pietisms. The Halle
 version could be administered through parishes and became compulsory church
 attendance, compulsory confirmation and a compulsory textbook. The Moravian
-version met in farmhouses and was banned. Thirty years later the same state
-imported a whole Moravian town on privileged terms, because by then it wanted the
-linen and the clockmaking. The state's interest in religion was never doctrinal.
+version met in farmhouses; it was put under the parish priest in 1741, and its
+emissaries were shut out in the 1740s. A generation later the same state imported
+a whole Moravian town on privileged terms, because by then it wanted their trades.
+The state's interest in religion was never doctrinal.
 
 **Checkpoint (after §09)** — Two histories of the same decades. In Copenhagen the
-1740s and 1750s are the theatre reopening, Frederiksstaden going up, the Academy
-of Art. In the countryside, where four-fifths of Danes lived, they are the bond
-being widened twice and the labour service growing. Danish popular memory has
-generally kept the first.
+middle of the century is the theatre reopening, Frederiksstaden going up, the
+Academy of Art. In the countryside it is the bond holding, widened in 1742 and
+again in 1764, and the labour service growing. The capital's version is the one
+that was remembered.
 
 ---
 
@@ -3050,77 +2973,75 @@ peasantry.
 was forty.
 
 **What the myth gets wrong in one direction.** It was narrower than what it
-replaced. *Vornedskab* had bound women as well as men, for their whole lives, and
-was still expiring cohort by cohort when the new bond came in.
+replaced. *Vornedskab* had held a man for his whole life, and was still expiring
+cohort by cohort when the new bond came in.
 
 **And in the other.** The heavier burden was not the bond but the labour. Hoveri
 had no ceiling, and it grew through exactly the decades the bond was in force.
 
 **Why the story is shaped this way.** Because the abolition of 1788 became the
-founding story of modern rural Denmark, complete with a monument, and a founding
-story has an interest in the thing it abolished having been as bad as possible.
-Ole Feldbæk's position is that we know remarkably little about the bond's actual
-economic and social effects. That is an uncomfortable sentence to set beside a
-column in the middle of Copenhagen, and it should be set there anyway. Chapter 29
-builds the column.
+founding story of modern rural Denmark, and a founding story has an interest in
+the thing it abolished having been as bad as possible. Against it stands Feldbæk's
+caution from the third section: nobody knows with any precision what the bond did
+to the economy or to the people it held.
 
 ---
 
 ## Carry-forward
 
-**← 25.** Every twenty barrels of hartkorn had to produce one man for the session:
-the accounting unit invented in 1662 now conscripts. — Sophie Magdalene's
-posthumous reputation was made by a hostile writer serving a later nationalism,
-exactly as Sophie Amalie's was; both demolitions were published in the wake of a
-national defeat.
+**← 25.** Every sixty barrels of hartkorn — every forty from 1741 — had to produce
+one man for the session: the accounting unit of the registers of 1662 and 1664 now
+conscripts.
 
 **← 26.** Danske Lov of 1683 is read aloud by five-year-olds in the cavalry-district
 schools. — Norway's law from 1688 is Christian 5.'s Norske Lov, not Christian 4.'s
-of 1604, which corrects how the Norwegian apparatus is usually described.
+of 1604, which corrects how the Norwegian apparatus is usually described. —
+Sophie Magdalene's bad name comes from Charlotte Dorothea Biehl, taken up by the
+nationalism that followed 1864; Sophie Amalie's comes from a prisoner's memoir
+printed in 1869. Both reached print long after the women were dead.
 
 **← 27.** *Vornedskab*, abolished from 1702, was still expiring when stavnsbånd
 arrived. — The rytterskoler of 1721 covered the crown's own districts; the
 confirmation ordinance of 1736 and the school ordinance of 1739 obliged the state
-to reach everywhere else. — Egede sailed in 1721; the Moravians followed to
-Greenland in 1733 and to the West Indies in 1732. — Krieger built the schools and
-then the fire-houses.
+to reach everywhere else. — Egede sailed in 1721, and the Moravians followed him
+to Greenland in 1733. — Krieger drew the
+fire-houses; whether he drew the schools is the question chapter 27 leaves open.
 
-**→ 29.** Christian 7. and Struensee's European journey of 1768–69 produced
-Christiansfeld. — Caroline Mathilde took the protectorate of Vallø in March 1771.
-— The hoveri knot came close to bringing revolution to the countryside, and the
-attempt to untie it starts with the law of 1769. — The bond is abolished on 20
-June 1788 and the monument goes up.
+**→ 29.** The European tour of 1768–69, on which Christian 7. and Struensee saw
+the Herrnhuter towns, is the journey for which the king was given his doctor. —
+The hoveri this chapter calls the heavier burden is fixed by law in 1771, made
+unlimited again in 1773, and given lasting rules in 1799, for the gårdmænd only. — The bond is abolished on 20 June 1788 and the monument goes up.
 
-**→ 30.** The Moravians reached the Danish West Indies in 1732, before the crown
-bought St Croix.
+**→ 30.** The Moravians reached the Danish West Indies in 1732, the year before
+the West India and Guinea Company bought St Croix.
 
-**→ 31.** The Kurantbank of 1736 is the institution the state bankruptcy destroys.
-— The grain monopoly of 1735 becomes the central charge in the Norwegian
-indictment of Danish rule, set out by Wergeland in 1816.
+**→ 31.** The Kurantbank of 1736 is the bank whose notes are written down in 1813.
 
 ---
 
 ## Summary
 
-Christian 6. came to the throne in 1730 and shut the theatre. What his reign did
-instead reached further into ordinary Danish lives than anything absolutism had
-managed: the Sabbath ordinance of 1735 made churchgoing a legal duty, the
+Christian 6. came to the throne in 1730 and kept the theatre shut. What his reign
+did instead reached further into ordinary Danish lives than anything absolutism
+had managed: the Sabbath ordinance of 1735 made churchgoing a legal duty, the
 confirmation ordinance of 1736 made public examination compulsory before
-adulthood, Pontoppidan's seven hundred and fifty-nine questions became the
-required textbook in 1737, and the school ordinance of 1739 obliged the state to
-teach every child, because it had already obliged every child to be examined.
+adulthood, Pontoppidan's seven hundred and fifty-nine questions, published in
+1737, were prescribed the next year, and the school ordinance of 1739 obliged the
+state to teach every child, because it had already obliged every child to be
+examined — though the landowners had the obligation softened in 1740.
 
 In the same decade the countryside was tied down. An agricultural crisis had
-emptied tenancies and collapsed grain prices; the ordinance of 4 February 1733
-reintroduced conscription and, as its mechanism, bound men of the peasantry to
-the estates of their birth. The grain import ban of 1735 gave Danish landowners a
+emptied tenancies and collapsed grain prices; an ordinance of 1731 forbade men to
+leave the estates, and the ordinance of 4 February 1733 reintroduced conscription
+and, as its mechanism, bound young men of the peasantry to the estates of their
+birth. The grain import ban of 1735 gave Danish landowners a
 protected market that included southern Norway. Neither measure's effect is well
 established, and the heavier burden on the peasant was neither of them but hoveri,
 the labour service that had no legal ceiling and grew as grain prices rose.
 
-Then the animals died. Rinderpest killed something like two million cattle between
-1745 and 1752, at ninety-five per cent of everything it reached, and nothing that
-was tried made any difference.
+Then the animals died. Rinderpest reached Funen in 1745 and killed most of the
+cattle it touched; across the century more than a million are thought to have
+died, and nothing the farmers tried made any difference.
 
 Norway paid for the arrangement in silver, copper, timber, soldiers and carting
 duty, and received in exchange a law, a coin, a governor who mattered only when the
@@ -3128,7 +3049,7 @@ sea was closed, and an obligation to buy Danish bread.
 
 Christian 6. died in 1746 and Copenhagen was let out: the theatre reopened,
 Frederiksstaden was laid out, the Academy of Art was founded. In the countryside
-the bond was widened in 1742 and again in 1764.
+nothing was let out at all.
 
 ---
 
@@ -3138,8 +3059,8 @@ the bond was widened in 1742 and again in 1764.
 
 1. What did the ordinance of 4 February 1733 say, and what was it formally an
    ordinance about?
-2. What three measures of 1735, 1736 and 1737 changed what was legally required of
-   every Dane, and what did each require?
+2. What did the Sabbath ordinance of 1735, the confirmation ordinance of 1736 and
+   the catechism of 1737 require of every Dane?
 3. What was hoveri, and why could its extent not be looked up?
 4. What did Norway send south, and what was it obliged to buy?
 
@@ -3153,8 +3074,8 @@ the bond was widened in 1742 and again in 1764.
 
 **Counterfactual** — *What if it had gone otherwise?*
 
-8. Suppose grain prices had risen in 1730 rather than 1755. Would there have been
-   a stavnsbånd?
+8. Suppose grain prices had begun to rise in 1730 rather than at the end of that
+   decade. Would there have been a stavnsbånd?
 9. Suppose the Danish state had chosen the Moravians over Halle in 1734. What
    would eighteenth-century Danish religion have looked like?
 
@@ -3164,8 +3085,8 @@ the bond was widened in 1742 and again in 1764.
     effects. What sort of evidence would settle it, and why might it not exist?
 11. Was Norway a kingdom in a union or a province being worked? Argue both from
     the same facts — the coin, the law, the mines, the grain ban.
-12. The state banned Moravian assemblies in the 1740s and invited a Moravian town
-    in 1771. What does the reversal show about what absolutism wanted from
+12. The state put private assemblies under the priest in 1741, shut the Moravian
+    emissaries out in the 1740s, and invited a Moravian town in 1771. What does the reversal show about what absolutism wanted from
     religion, and is that a fair conclusion to draw from one case?
 
 ---
@@ -3182,16 +3103,20 @@ the bond was widened in 1742 and again in 1764.
 - Bjørn Poulsen and Inger Biehl Hansen, *Med egen hånd: Optegnelser fra Fladsten
   og Ørsted 1592–1809* (1994), for Anders Pedersen's notebook; and Biehl Hansen on
   the Ørsted evidence in *Sønderjydske Årbøger* 102 (1990).
-- Ludvig Holberg, *Betænkning over den nu regierende Qvæg-Syge*, 1745.
-- The journal of the royal progress through Norway in 1733, printed 1992.
-- The hoveri reckonings prepared for the commission of Christian 7.'s government,
-  and the law on the determination of hoveri, 1769.
-- danmarkshistorien.dk, Aarhus University, on the agricultural crisis, the bond
-  and the Brethren.
+- Ludvig Holberg, *Betænkning over den nu regierende Qvæg-Syge*, printed 1746.
+- Kierulf's journal of the royal progress through Norway in 1733, as quoted in the
+  Norwegian local literature; the dates of the progress are from the Sogn og
+  Fjordane county archive's *Kringom* lexicon.
+- The hoveri ordinance of 6 May 1769. The specimen reckoning behind Figure 1 is
+  the one commonly quoted and has not been traced here to the returns.
+- Ole Feldbæk, "Stavnsbåndet og kornmonopolet", in *Gyldendal og Politikens
+  Danmarkshistorie*, for the ordinance of 1731, the lægd and the monopoly.
+- danmarkshistorien.dk, Aarhus University, on the agricultural crisis, the bond,
+  the school placard of 1740, hoveri and the Brethren.
 
 **Where the argument stands**
 
-*Attributions need checking against the works themselves before publication.*
+*Named as positions in a historiography, not as books this page has read.*
 
 - Ole Feldbæk's *Danmarks økonomiske historie 1500–1840* is the standard account of
   the crisis measures, and the source of the caution this chapter repeats twice:
@@ -3213,12 +3138,13 @@ church square, the brothers' house and the sisters' house still standing, and th
 graveyard laid out in choirs — men on one side, women on the other, every stone
 the same size.
 
-**Vallø Slot**, south of Køge. Thurah's building of 1736–38, endowed by the queen
-in the same year Pontoppidan's catechism appeared.
+**Vallø Slot**, south of Køge. The house the queen went on building after 1731,
+and the convent she founded there in the same year Pontoppidan's catechism
+appeared.
 
 **Kongsberg.** The silver mines at Saggrenda, eight kilometres out of town, with a
-train into the King's Mine. Norway's largest enterprise for two centuries, and in
-1770 the country's second city after Bergen.
+train into the King's Mine. Norway's largest mine, and in 1770 its town was the
+country's second after Bergen.
 
 **Røros.** The copper town, also on the World Heritage list, kept in wood.
 
@@ -3237,33 +3163,14 @@ confirmed.
 
 # Chapter 29 — Struensee, and the village taken apart, 1770–1788
 
-*Draft, complete: sections 01–10 of 10. Two vignettes placed (§03, §04). The third
-belongs in §07 and needs a name — see below.*
-
-**Third vignette, actionable lead.** On 14 September 1788, Countess Sybille's
-birthday, the tenants of Brahetrolleborg on Funen were gathered in the castle
-courtyard to receive individually drawn hereditary tenancy letters, the udskiftning
-of the estate having been completed between 1786 and 1788. Six farms in one village
-received theirs that day. In 1777, on coming of age and taking over the
-running of the estate he had inherited two years before, Johan Ludvig Reventlow
-had called the same tenants into the same courtyard and given them
-leave to destroy the wooden horse, the pillory and the bailiff's whip. He also set
-up an *ottemandsråd* of eight ordinary men of the parish, who met under his
-chairmanship to discuss the reforms.
-
-The Trolleborg parish history (digitised) lists those farms and their holders by
-name. A named recipient from that list is the vignette this chapter needs — it is
-non-elite, dated, placed, and it carries §10's argument, because the same history
-follows some of those farms to foreclosure for debt to the estate within a
-generation. Without it, chapter 29 has three elite vignettes, which would be the
-worst balance in the part.*
+*Draft, complete: sections 01–10 of 10.*
 
 ---
 
 ## A sick king and his doctor
 
-Christian 7. was seventeen when he came to the throne in 1766 and he was already
-ill. What was wrong with him has been argued about ever since — schizophrenia is
+Christian 7., born on 29 January 1749, came to the throne on 14 January 1766, and
+he was already ill. What was wrong with him has been argued about ever since — schizophrenia is
 the usual modern guess, and it cannot be confirmed — but the practical facts are
 not in dispute. He suffered from delusions and violent episodes, he could not
 sustain the business of government, and by his early twenties the machinery of the
@@ -3271,25 +3178,26 @@ Danish state was arranged around the problem of a king who had to sign things.
 
 Absolutism had no provision for this. The Kongelov of 1665 vested every power in
 the person of the monarch and set up nothing to exercise those powers if the
-monarch could not. For a hundred and five years that had not mattered. Now it did,
+monarch could not. For more than a century that had not mattered. Now it did,
 and it turned out that a constitution which puts everything in one pair of hands
 has no answer to the hands shaking.
 
 The king was sent on a long European tour in 1768 to see whether travel would
-help. Somewhere on that journey he acquired a physician: Johann Friedrich
-Struensee, thirty-one, the son of a Halle clergyman and professor, raised in deep
+help, and for the journey he was given a physician, engaged at Altona in April
+of that year: Johann Friedrich Struensee, thirty, the son of a Halle clergyman
+and professor, raised in deep
 piety and converted at university to the Enlightenment. He was a good doctor. He
 managed the king better than anyone had — calmly, without deference, treating him
 as a patient rather than as a sacred office — and by the time the party returned to
 Copenhagen in January 1769 he was indispensable.
 
-In the spring of 1770 he became the queen's lover. From May of that year he and
+By the spring of 1770 he was the queen's lover. From May of that year he and
 Caroline Mathilde governed Denmark in the king's name.
 
 The arrangement had no legal form whatever, and that is the point of the next two
-sections. Struensee never held an office that entitled him to rule. He simply
+sections. In 1770 Struensee held no office that entitled him to rule. He simply
 stood next to the only person in the kingdom whose signature meant anything, and
-in the autumn of 1770 he persuaded that person to dissolve the privy council.
+in December 1770 he persuaded that person to dissolve the privy council.
 
 After that there was nothing between him and the state.
 
@@ -3302,34 +3210,39 @@ his signature, bypassing the colleges entirely. It was a legitimate instrument.
 Nobody had ever used it like this.
 
 On 4 September 1770 two went out together. The first limited the award of orders
-and titles, which the absolutism had been handing out for a century to secure
+and titles, which the absolutism had been handing out since the 1670s to secure
 loyalty — an attempt to make state service professional rather than decorative.
 The second abolished censorship. The rescript that followed on 14 September
 declared unrestricted freedom of the press, and made Denmark-Norway the first
-state in the world to do so: even England, the Dutch Republic and Sweden, which
-had comparatively free laws, kept reservations about anonymity and defamation.
+state in the world to do so without reservation: Sweden's press law of 1766, the
+first of its kind, had kept theological writing under censorship.
 
 Both orders carried Christian 7.'s signature. So did those that followed, until
 the spring of 1771, when Struensee began signing them himself, on the strength of
-what he said was the king's spoken authorisation.
+what he said was the king's spoken authorisation. In July 1771 the king made him
+cabinet minister, with the formal right to issue cabinet orders in his own name.
 
-How many there were is genuinely disputed. The figures in circulation include
-1,069, more than 1,800, about 2,000, and more than 2,200 — the last counting from
-1769. Any of them describes the same thing: a storm of legislation issued over
-roughly sixteen months by one man who had never been elected, appointed or
-confirmed in any office that carried the power he was using.
+How many there were is genuinely disputed; the counts in circulation run from
+just over a thousand to more than two thousand, and the Myth-check sets them side
+by side. Any of them describes the same thing: a storm of legislation issued over
+roughly sixteen months by one man whose only title to the power he was using was
+the signature of a king who could not use it himself.
 
 What was in them was, on the whole, admirable. Torture was abolished. The courts
 of Copenhagen were consolidated into a single Hof- og Stadsret to make practice
-uniform. Monopolies and import bans went, on liberal economic principles. Public
+uniform. Some monopolies and import bans were lifted, on liberal economic principles. Public
 expenditure was cut hard, pensions with it, and the army reduced. Foreign policy
 became deliberately peaceful. The building of the enormously expensive
 Frederikskirke was stopped. The nobility's privileges were trimmed. Administrative
 procedure was rebuilt on what were understood to be scientific principles, with
 Prussia as the model state.
 
-He also considered abolishing stavnsbånd, and did not, because a commission
-resisted and he never reached a decision.
+The countryside got one law, and it touched the knot chapter 28 left tied. In
+1769 the old administration had required every estate to draw up and send in a
+regulation of its hoveri. A general agrarian commission set up under Struensee in
+November 1770 produced a single result, the ordinance of 20 February 1771, which
+decreed that hoveri be fixed in proportion to the farm's hartkorn. It did not
+survive his fall: an ordinance of 1773 made the field labour indefinite again.
 
 Two things went wrong with all of this, and neither was that the reforms were bad.
 
@@ -3349,71 +3262,61 @@ used against him.
 
 ---
 
-## Caroline Mathilde, governing
+## The court under Struensee
 
-She was fifteen when she was married. Her father had died before she was born; her
-mother had withdrawn from court life and raised the children away from it, so she
-arrived in Copenhagen in 1766 less polished than princesses usually were, and
-without the training that a court demands. She was the sister of George III of
-Great Britain and the wife of a man who was already unwell.
+The regime had no legal form, and so it had no public face except a private one.
+The council was gone. What stood around the king's signature was a household, and
+the queen was at the centre of it.
 
-For four years she was ignored. Then, in the spring of 1770, she fell in love with
-her husband's doctor — fourteen years older than she was — and stopped being
-ignored entirely.
+Caroline Mathilde was the sister of George III of Great Britain. Her father had
+died before she was born, and her mother had withdrawn with the children from
+court life, so she came to Copenhagen in 1766 without the training a court
+demands, married to a man who was already unwell. The vignette follows her into
+the summer of 1771.
 
-What she did with the next twenty months is the part usually swallowed by the
-romance. She and Struensee governed together in the king's name; the sources say
-so plainly, and the chapter should too. She was visible everywhere, self-possessed
-and unembarrassed, and rode astride in the newest fashion, which scandalised
-people more than the affair did. At Hirschholm she constructed something close to
-a bourgeois family life — herself, Struensee and her son Frederik — and had the
-rooms redecorated, oddly, with Hogarth prints showing social worlds she can have
-had no conception of from her own upbringing. She was laying out a small country
-house at Frydenlund near Vedbæk as a summer home for the family arrangement she
-preferred to being queen.
+From May 1770, as the chapter began by saying, the two of them governed in the
+king's name, and the sources say so plainly. What they do not settle is how much of the
+governing was hers. Her part in the reform policy itself is not known with any
+certainty: some historians see a young woman in love and uninterested in
+politics, others an active partner. What can be said is that the regime's
+authority ran through her rooms as much as through the king's closet, and that
+its enemies treated the two of them as one.
 
-The crown prince was raised meanwhile on Rousseau's principles of natural
-education, which she supported and Struensee designed — and the rumours about how
-the boy was being treated did as much as anything to turn opinion against her.
+That is why the private life of the court became a political fact. The crown
+prince, Frederik, was brought up on a plan of Struensee's, on Rousseau's
+principles — plain food, scant clothing, exposure to the weather — and the rumours
+about how the boy was being treated did as much as anything to turn opinion
+against the regime. What went on in the queen's household gave the pamphleteers
+their best material, and they did not let it go.
 
-In July 1771 she gave birth to a daughter, Louise Augusta. Struensee was
-unquestionably the father. Christian 7. accepted the paternity, and the court
-accepted the child, who was known privately as *la petite Struensee*, without any
-particular difficulty. It was the pamphlets rather than the palace that could not
-let it alone.
-
-She was twenty years old.
+A government that could show no legal title to rule showed instead how it lived,
+and Copenhagen read that as the answer.
 
 > **Vignette · Caroline Mathilde, Hirschholm, summer 1771**
 >
-> She is nineteen, she is queen of Denmark and Norway, and she is arranging a
-> household.
+> She turns twenty this summer, she is queen of Denmark and Norway, and she is
+> keeping a household rather than a court.
 >
-> Hirschholm this summer is not a court. It is her, Struensee, and her three-year-old
-> son, living something close to the private family life of prosperous people, which
-> is the thing she has wanted since she arrived here at fifteen and was ignored for
-> four years. She is redecorating the rooms. Among what she chooses are prints by
-> Hogarth, showing London social worlds she cannot possibly have known anything
-> about from her own upbringing. She is laying out a small house at Vedbæk to be a
-> summer place for the same arrangement.
+> The king, the queen and Struensee spend a long summer at Hirschholm, north of
+> Copenhagen, with plays put on in a theatre built to be taken down and carried.
+> For her first years in the country her husband took little interest in her. Now
+> she has Struensee, and her son is three.
 >
-> The boy is being raised on Rousseau's principles, which Struensee designed and she
-> supports, and rumours about how he is being treated are doing her more damage than
-> the affair.
+> She is seen everywhere, sure of herself. She rides astride, in the newest
+> fashion, in buckskin breeches and men's boots, and Copenhagen talks about it.
 >
-> She rides astride, in the newest fashion. This scandalises Copenhagen more than
-> the adultery does.
+> She is fitting out a small country house, Frydenlund at Vedbæk, as a summer place
+> for herself and Struensee.
 >
-> In July she gives birth to a daughter, Louise Augusta. Struensee is the father;
-> the king accepts the paternity; the court accepts the child. It is the pamphlets —
-> printed under the freedom Struensee decreed eleven months ago — that will not let
-> it alone.
+> In July she gives birth to a daughter, Louise Augusta. Struensee is
+> unquestionably the father. The court accepts the child as a princess without
+> further ado, and privately calls her *la petite Struensee*.
 >
-> Caroline Mathilde, queen · Hirschholm · summer 1771
+> Caroline Mathilde · Hirschholm · summer 1771 · [f]
 
 ---
 
-## 17 January 1772
+## The fall, 1772–75
 
 The opposition took shape in the autumn of 1771. Its material was the cuts to the
 army, which had made enemies of the officers, and a rumour — that Struensee and
@@ -3425,57 +3328,49 @@ hereditary prince Frederik. With those two names on it, a palace coup could be
 presented as a rescue of the monarch from his captors rather than as what it was.
 
 The court gave its first masked ball of the season at the theatre at Christiansborg
-on the evening of 16 January. That night the conspirators went to the king's
-apartments, woke him, and obtained his signature on the arrest warrants — the same
-instrument Struensee had been using for sixteen months, turned round.
-
-Struensee was taken to Kastellet in irons. Enevold Brandt was taken with him.
+on the evening of 16 January. After it, in the small hours, the conspirators went
+to the king's apartments; what they took away, and what it did to Struensee, is
+the vignette. Enevold Brandt was taken the same night.
 
 > **Vignette · Johann Friedrich Struensee, Christiansborg, before dawn on 17
 > January 1772**
 >
 > He is thirty-four. He has been the effective ruler of Denmark and Norway for
-> sixteen months and he holds no office that entitles him to any of it.
+> sixteen months, and everything he holds, his title included, came from one
+> signature.
 >
-> The masked ball ended a few hours ago. The conspirators have already been to the
-> king's apartments and woken him, and they have what they came for: his signature
-> on the warrants. It is the same instrument Struensee has used more than a
-> thousand times — an order issued from the closet, over that signature, requiring
-> no council and no college to agree. Tonight it is pointed at him.
+> The masked ball ended a few hours ago. The conspirators have been to the king's
+> apartments and woken him, and they have what they came for: his signature on the
+> warrants. It is the same instrument Struensee has used more than a thousand
+> times — an order issued from the closet, over that signature, needing no council
+> and no college to agree. Tonight it is pointed at him.
 >
 > He is taken to Kastellet and put in irons. He has abolished torture in this
 > country, which is one of the reasons the interrogation that follows will be
 > conducted without it, and one of the reasons it will not matter.
 >
-> A commission will condemn him. Ove Høegh-Guldberg, an undertaker's son from
-> Horsens who taught the hereditary prince his letters, will sit on it. On 28 April
-> he will be executed on Øster Fælled for lèse-majesté.
->
-> Johann Friedrich Struensee, physician and cabinet minister · Christiansborg ·
-> 17 January 1772
-Caroline Mathilde was arrested in her rooms on the morning of the seventeenth, and
-of everyone in the palace that night she was the only person who physically
-resisted.
+> Johann Friedrich Struensee · Christiansborg · 17 January 1772 · [-]
 
-She was taken to Kronborg and held there for four months. They let her have her
-infant daughter with her. She had no adviser and no counsel, and the commission of
-inquiry worked on her for weeks; she denied the relationship for as long as she
-could, on the calculation — correct, and useless — that a confession would help to
-kill him. On 9 March 1772 she signed one. It is in the Rigsarkiv.
+Caroline Mathilde was arrested in her rooms on the morning of the seventeenth and
+taken to Kronborg, where she was held for four months. They let her have her
+infant daughter with her. She had no adviser and no counsel, and the interrogators
+worked on her; she denied the relationship for as long as she could, on the
+calculation — correct, and useless — that a confession would help to kill him. On
+9 March 1772 she signed one. It is in Rigsarkivet.
 
 The marriage was dissolved in early April on the ground of her adultery. Struensee
 was tried, and the outcome was decided before it began. He was executed on Øster
 Fælled on 28 April 1772 for lèse-majesté.
 
-On the day of the coup itself, a new Copenhagen newspaper appeared for the first
-time, the *Kiøbenhavns Aften-Post*. Its opening leader was about Struensee, and it
-took barely any trouble to hide its pleasure. The press freedom he had granted
-outlived him by twenty-one months, and its last service to him was to celebrate.
+His fall was celebrated in print, under the freedom he had granted, and that
+celebration was its last service to him. The press freedom outlived him until 20
+October 1773, when the new government laid down rules for what might not be
+printed.
 
 Caroline Mathilde left Denmark on 30 May 1772, after a parting from her infant
 daughter that observers found hard to watch. She was allowed to keep the title of
-queen, and to live at Celle in Hanover, where she spent three years giving money
-to the town's sick and poor and never saw either of her children again. There were
+queen, and from October 1772 she lived at Celle in Hanover, giving money to the
+town's sick and poor; she never saw either of her children again. There were
 people in Denmark who intended to bring her back as regent for her son; the plan
 was barely begun when she died of a fever on 10 May 1775.
 
@@ -3511,7 +3406,7 @@ chapter 31.
 
 The measure he is remembered for is the *Indfødsret* of 1776, drafted with J.O.
 Schack-Rathlou. It reserved public office in the state to those born in Denmark,
-Norway or Slesvig-Holstein, or reckoned their equals. Its target was not really
+Norway or Schleswig-Holstein, or reckoned their equals. Its target was not really
 foreigners in general. The Danish court had been dominated by German-speaking
 aristocratic officials for a century and more, and it had just been ruled outright
 by a German doctor from Halle. The law was the bourgeois answer to Struensee, and
@@ -3525,8 +3420,8 @@ years, defined against German in the administration, is substantially his work.
 It is also where a certain kind of Danish nationalism starts, and it starts as an
 employment policy.
 
-He toppled A.P. Bernstorff as foreign minister in the autumn of 1780 and ran
-foreign affairs himself. And he made one miscalculation. The crown prince would
+He toppled A.P. Bernstorff as foreign minister in the autumn of 1780 and from then on
+directed foreign affairs himself, with another man holding the office. And he made one miscalculation. The crown prince would
 one day have to exercise the power his father could not, and Guldberg assumed that
 when the boy was admitted to the council of state everything would go on as
 before.
@@ -3543,46 +3438,41 @@ unexpected move. Guldberg was out. There was no violence and no reprisal; he was
 given a dignified retreat as stiftamtmand in Århus, where he went back to writing
 history.
 
-What followed is the most productive twelve years in the domestic history of the
-Danish absolutism, and it was done by four men around a teenager: the brothers
+What followed is the great reform period of the Danish absolutism, and it was
+done by four men around a teenager: the brothers
 Christian Ditlev and Johan Ludvig Reventlow, the jurist Christian Colbjørnsen, and
 Andreas Peter Bernstorff, restored to office.
 
 They began small. On 3 November 1784 a Little Agrarian Commission was set up to
 find out how the tenants' position might be improved on the crown estates in
 Frederiksborg and Kronborg districts — a corner of the country where the crown was
-the only landlord and could therefore do as it liked. The tenants there had their
-land consolidated, their farms converted to freehold or hereditary tenancy, and
-the tithe in kind replaced by a fixed money due. It was meant as a demonstration
+the only landlord and could therefore do as it liked. Its programme, which Johan
+Ludvig Reventlow had put to the crown prince that July, was to end the village
+community of the fields, consolidate the land and move the farms out, and to give
+the tenants what he called freedom and property. It was meant as a demonstration
 for the rest of the country's landowners.
 
 The larger machine came in 1786. It grew out of a proposal sent up in 1783 by a
 district judge in Viborg, Jens Bjerring, which had been circulated to the county
-governors; after the change of government Reventlow sent it to the crown's senior
-law officers, and their opinions of 1785 became the formal basis for what was
+governors; after the change of government it went to two senior law officers,
+and their opinions of 1785 became the formal basis for what was
 established that summer as the Great Agrarian Commission.
 
 Its remit was to propose a clearer legal position between landowner and tenant. It
 was formally wound up only in 1816 and stopped meeting in 1802. Officials and
-lawyers were in the majority; several of them were also landowners; there was a
-representative of the army, because the bond was a military institution before it
-was anything else.
+lawyers were in the majority, and several of them were also landowners.
 
 And the instruction that set it up said that the legal position after the
 abolition of *vornedskab* in 1702 was to be the basis of its work — which reaches
 back over eighty-four years to chapter 27, and concedes in a subordinate clause
 that the intervening arrangement had been an aberration.
 
-Reventlow put his opening paper before it on 24 October 1786. It asked three
-questions. Would abolishing the bond infringe the landowners' rights? Should
-conscription be assessed on hartkorn or on the number of people? And who should be
-exempt?
-
-The army fought it. The general staff's four deputies declared Colbjørnsen's
-proposal to rest on misunderstandings and to be impractical. But when the paper
-went out to the four Danish conscription chiefs — the men who actually had to
-raise the soldiers — only one of them thought the bond was necessary in order to
-do it.
+The question underneath was military, because the bond was a military institution
+before it was anything else. It existed to fill the army, so
+lifting it meant deciding who would raise the soldiers instead, on what basis, and
+who would be exempt — which is why the commission had a military member, the
+army's judge-advocate general, and why its answer on the bond, when it came, came
+wrapped in a new rule for conscription.
 
 ---
 
@@ -3607,29 +3497,35 @@ pattern. Where the land would not take that shape, the farm itself was pulled do
 and rebuilt out on its own ground, which is *udflytning*, and which broke up
 villages that had stood in one place since the Middle Ages.
 
-The commission's ordinances of 8 June 1787 set the terms: what rights and duties
-held between landlord and tenant when a farm changed hands, in what circumstances
-a tenant could be deprived of part of his land against compensation, and how far
-he could be compelled to have his farm moved out of the village.
+The law it ran on was older than the commission. Ordinances from 1758 onward had
+begun to dissolve the common fields, and the ordinance of 23 April 1781 laid down
+the rules for a complete udskiftning between the individual holders; about nine in
+ten of all Danish udskiftninger were carried out under it.
 
-That last question is the one to hold on to. Somebody had to decide whether a man
+The commission's first two ordinances, signed on 8 June 1787, set the terms
+between landlord and tenant. A tenant was entitled to an impartial valuation when
+he took over a farm and when he gave it up; he could not be put off it without a
+court's judgment; the wooden horse, the dog-hole and the neck-iron were forbidden.
+In return he owed obedience, and he was bound to move his farm out of the village
+if the landowner demanded it.
+
+That last clause is the one to hold on to. Somebody had to decide whether a man
 could be made to demolish his house and rebuild it a mile away in a field, and the
-answer arrived as a clause in an ordinance.
+ordinance's answer was yes, if his landlord wished it.
 
 > **Vignette · Hans Knudsen, Bækkelund in Højrup, 14 September 1788**
 >
-> He is about sixty-five, he was born at Sølvbjerg, and he has farmed Bækkelund as
-> a tenant since 1772. Today he is one of six men in Højrup who receive a
-> hereditary tenancy letter from Count Ludvig Reventlow, the udskiftning of the
-> village having been finished that summer. The other five are Niels Hansen Møller
-> at Skjelbo, Hans Jensen at Lykkenssæde, Søren Nielsen at Æresæde, Rasmus Hansen
-> at Engesyn and Jens Nielsen at Frydenshjem. Jens Nielsen will be dead within the
-> year.
+> He is in his middle sixties or older, he was born at Sølvbjerg, and he has farmed Bækkelund
+> as a tenant since 1772. Today, the udskiftning of the village done, he is one of
+> six men in Højrup who receive a hereditary tenancy letter from Count Ludvig
+> Reventlow. The other five are Niels Hansen Møller at Skjelbo, Hans Jensen at
+> Lykkenssæde, Søren Nielsen at Æresæde, Rasmus Hansen at Engesyn and Jens Nielsen
+> at Frydenshjem. Jens Nielsen will be dead the next year.
 >
-> Hereditary tenancy is the thing the Liberty Column will be raised to
-> commemorate. It means the farm passes to his heir and cannot be taken back on a
-> landlord's whim, and it is as close to owning land as most Danish countrymen had
-> ever come.
+> Hereditary tenancy is the other half of the reform, beside the ordinance the
+> Liberty Column will commemorate. It means the farm passes to his heir and cannot
+> be taken back on a landlord's whim, and it is as close to owning land as most
+> Danish countrymen had ever come.
 >
 > In 1793 he sells it.
 >
@@ -3637,16 +3533,13 @@ answer arrived as a clause in an ordinance.
 > buildings on it, free of dues, for his own lifetime and his son's. Sixteen loads
 > of peat a year. And security that the son shall not be taken for a soldier.
 >
-> Five years after the stavnsbånd ended, a man who has just been given hereditary
-> title to his ground trades it away, and the first thing he buys with it is his
-> son's exemption from conscription — because 1788 did not end conscription. It
-> moved it from the landlord to the state, and left it falling on country youth
-> alone.
+> So a man given hereditary title to his ground in the year of the great ordinance
+> trades it away, and the first thing he buys with it is his
+> son's exemption from conscription — because 1788 did not end conscription.
 >
-> He lived to about ninety, and gave up the last six tønder to that son in 1813.
+> He was ninety before he handed the house over to that son, in 1813.
 >
-> Hans Knudsen, hereditary tenant, of Bækkelund · Højrup, Hillerslev parish ·
-> 14 September 1788
+> Hans Knudsen · Bækkelund, Højrup, Hillerslev parish · 14 September 1788 · [n]
 
 
 ---
@@ -3656,35 +3549,37 @@ answer arrived as a clause in an ordinance.
 The ordinance abolishing the stavnsbånd was issued on 20 June 1788, and three
 things about it are usually left out.
 
-**The landowners barely objected.** They were relieved of the duty of producing
-conscripts at the same time, and that duty had been the reason they wanted the
-bond in 1733. The bargain chapter 28 described was simply unwound from both ends.
+**The landowners were given something back.** They were relieved of the duty of
+producing conscripts at the same time, and that duty had been the reason they
+wanted the bond in 1733. The bargain chapter 28 described was unwound from both
+ends. It did not make all of them content: when the council of state agreed to end
+the bond, J.O. Schack-Rathlou and F.C. Rosenkrantz left it in protest, Schack-Rathlou
+on 6 June 1788, a fortnight before the king signed.
 
-**It was immediate for some and slow for most.** The bound ages went back at once
-to the fourteen-to-thirty-six of 1733, and men already too old for service or
-discharged from it were given their passes there and then. Everyone else was
-released by cohort, one birth-year at a time, and the last of them were not free
-until 1800 — twelve years, which is the same mechanism by which Frederik 4. had
-ended vornedskab from 1702.
+**It was immediate for some and slow for most.** Boys under fourteen were to be
+bound for three months more and no longer, and men past the age of service, or
+already discharged from it, were given their freedom passes at once. The rest
+stayed bound until they were discharged or reached that age. Since no boy joined
+them, the bound were now a closed set of birth-years, released one birth-year a
+year, and the last of them went free on 1 January 1800. It is the
+same kind of birth-year cut-off by which Frederik 4. had ended vornedskab
+from 1702.
 
 **And it was not an abolition.** The tie to the home district was not removed; it
 was transferred. The state took it over in connection with military service, so
 that a man still could not simply leave, though it was now the crown rather than
-the landlord who held him. The binding of country men to the place they were born
-was not actually ended until universal conscription came in 1848.
-
-That is sixty years after the date on the monument.
+the landlord who held him. How long that lasted is the column's story, in the next
+section.
 
 None of which makes 1788 small. A tenant could now negotiate, move, and be bid for;
 market forces replaced compulsion as the thing that kept men on the land, and the
 Danish reforms — unlike the English enclosures they are often compared to — reached
 the ordinary tenant rather than consolidating the great estates over his head. On
-15 August 1788 Reventlow stood on the crown estate in north Zealand and handed
-hereditary tenancy letters to the men farming it, and made a speech about what
-kind of country he thought was being built.
+15 August 1788 Christian Ditlev Reventlow stood in the courtyard of Frederiksborg
+and handed the first hereditary tenancy letters to tenants of the crown estates,
+and made a speech about what kind of country he thought was being built.
 
-But the sentence on the column in Copenhagen is shorter than the truth, and the
-next section is about the column.
+But the sentence on the column in Copenhagen is shorter than the truth.
 
 
 ---
@@ -3692,7 +3587,7 @@ next section is about the column.
 ## The column, 1792–97
 
 It stands on Vesterbrogade, opposite the central station, where the Vesterport
-used to be: twenty metres of red Bornholm sandstone on a base of white Norwegian
+used to be: twenty metres of red Bornholm sandstone on a base of Norwegian
 marble. Nicolai Abildgaard designed it. Four allegorical figures stand at the
 corners — fidelity, civic virtue, valour and agricultural diligence — with two
 reliefs, one of bondage being abolished and one of the genius of justice, by
@@ -3702,28 +3597,30 @@ cease, and that the agrarian laws be given order and force, so that the free
 peasant may become bold and enlightened, industrious and good, an honourable
 citizen, happy.
 
-A subscription was got up by a circle of Copenhagen citizens in 1791. The crown
-prince laid the foundation stone in 1792. It was finished in 1797.
+The money was raised by a collection among the citizens of Copenhagen. The crown
+prince laid the foundation stone on 31 July 1792, the second anniversary of his
+wedding, and in November
+1797 the committee could report that the column stood finished.
 
 Read at face value it is the country's gratitude to a king who freed the
 peasantry. Almost none of that is right.
 
 The abolition was not the king's work: Christian 7. was incapable, and the men who
-did it were Reventlow, Colbjørnsen, Bernstorff and a crown prince in his teens.
+did it were the Reventlows, Colbjørnsen, Bernstorff and a crown prince of twenty.
 The column nevertheless says *the King commanded*, and it succeeded in fixing the
 reforms in the national memory as primarily royal, which is what it was for.
 
-Nor was it raised in a moment of triumph. By 1791 a body of landowners had begun
-to say publicly that the abolition and the other restrictions on their authority
-over the country people had gone too far, and the government had drawn back from
-further reform in the peasants' direction. The column went up in the middle of that
-retreat. It is not a monument to a completed victory; it is a demonstration made
-by a government that had stopped advancing, put up by its own supporters, in
-honour of itself.
+Nor was it raised in a moment of triumph. The ordinance had cost the government
+two ministers, and through the 1790s the discontent of the nobility
+at the loss of its authority over the country people grew. The column went up
+against that. It is not a monument to a completed victory; it is a demonstration
+by the Copenhagen middle class, meant to hold the crown prince and his ministers to
+a course the landowners wanted them to leave, and dressed as thanks to the king.
 
-And it commemorates something that had not finished happening. The last men were
-not released until 1800, three years after the obelisk was completed, and the tie
-to the home district survived in the state's hands until 1848.
+And it commemorates something that had not finished happening. When the column
+was finished, the last of the bound men had more than two years still to wait. The tie to the home district, held by the state after 1788, ended only with
+universal conscription — a provisional ordinance of September 1848, made law in
+February 1849 — sixty years after the date on the monument.
 
 *(One popular source credits the column to Frederik 7., who was born in 1808. It
 is worth naming that error because it is in circulation.)*
@@ -3744,15 +3641,14 @@ democracy is built on them.
 
 Below them were the *husmænd*, the cottagers, with a house and a garden and little
 or no land. The reforms did almost nothing for them, and the detail proves it: the
-hoveri ordinance of 1799, which finally put limits on the labour service, applied
-only to the gårdmænd. A separate ordinance for cottagers followed in 1807 and did
-not give them the same rights. In the course of the reforms that are remembered as
+hoveri ordinance of 1799, which at last laid down rules for fixing the labour
+service, dealt with the gårdmænd. The cottagers' labour was regulated only in
+1807, by an ordinance that fixed neither its kind nor its amount. In the course of the reforms that are remembered as
 the freeing of the Danish peasant, the cottagers were legally constituted as a
 rural underclass.
 
 And their number was about to explode. Denmark's population roughly doubled
-between 1780 and 1860. The number of villages stayed at about five thousand and the
-number of farms stayed nearly constant, because the reforms had fixed the holdings
+between 1780 and 1860. The number of farms stayed nearly constant, because the reforms had fixed the holdings
 in permanent boundaries. Everybody born after that had to go somewhere, and where
 they went was into the cottages and the day-labouring. The udskiftning that gave
 the gårdmand a consolidated farm also closed the door behind him.
@@ -3761,10 +3657,12 @@ Real emancipation for the husmænd did not begin until the cottagers' movement o
 the early twentieth century, a hundred and twenty years later.
 
 There is one more group the column does not mention. When the state took over
-conscription from the landowners in 1788, it drew far more young countrymen into
-the army than the old system ever had — and young men in the market towns remained
-exempt until 1849. So the ordinance that is remembered as freeing the peasantry
-also made military service heavier for peasants, and for them alone.
+conscription from the landowners in 1788, it moved the levy onto the new censuses
+and the parish muster rolls, the *lægdsruller*,
+and it went on falling on the young men of the peasantry alone: the young men of
+the market towns were not called until universal conscription. The
+ordinance that is remembered as freeing the peasantry left military service a
+peasant's burden.
 
 The inscription says *that the free peasant may become bold and enlightened,
 industrious and good, an honourable citizen, happy*. It is worth standing in front
@@ -3786,16 +3684,16 @@ Counterfactual, Contested.*
 
 - **kabinetsordre** — an instruction issued from the king's closet over his
   signature, bypassing the colleges. A legitimate instrument until somebody used
-  it a thousand times in sixteen months.
+  it more than a thousand times in sixteen months.
 - **trykkefrihed** — freedom of the press. Declared without restriction on 14
-  September 1770, the first such law anywhere.
-- **gehejmekonseil** — the privy council, dissolved in 1770 at Struensee's
+  September 1770, the first unrestricted press freedom anywhere.
+- **gehejmekonseil** — the privy council, dissolved in December 1770 at Struensee's
   prompting, leaving nothing between him and the state.
 
 **§05 — Guldberg**
 
 - **indfødsret** — the right of the native-born. The law of 1776 reserved public
-  office to those born in Denmark, Norway or Slesvig-Holstein.
+  office to those born in Denmark, Norway or Schleswig-Holstein.
 - **gehejmestatsråd** — the council of state, where the crown prince took his seat
   on 14 April 1784 and ended the regime at his first meeting.
 
@@ -3841,17 +3739,17 @@ read together, and far enough apart that neither caused the other. It is worth h
 flattering either. Denmark dismantled a system of rural compulsion by commission
 and ordinance, with the landowners largely compensated and the crown prince
 presiding, and no one was killed for it. France did something incomparably more
-violent and incomparably more thorough, and abolished the seigneurial system
-outright in a single night that August. The Danish reforms were the more humane
+violent and incomparably more thorough, and set about dismantling the seigneurial
+system in a single night that August. The Danish reforms were the more humane
 process and the less complete result: the cottagers got nothing, and the tie to
-the home district lasted until 1848.
+the home district was moved rather than cut.
 
 ---
 
 ## Checkpoints
 
 **Checkpoint (after §04)** — Sixteen months. Torture abolished, censorship
-abolished, the courts consolidated, monopolies removed, the army cut, and almost
+abolished, the courts consolidated, some monopolies lifted, the army cut, and almost
 none of it in force when he fell, because the administration slow-walked
 everything and because a man ruling on a sick king's signature has no defence when
 someone else obtains that signature at four in the morning.
@@ -3860,16 +3758,17 @@ someone else obtains that signature at four in the morning.
 cabinet order through his hold on an incapable king. Guldberg overthrew him and
 ruled by cabinet order through his hold on that king's guardians. The crown prince
 overthrew Guldberg at a council meeting and governed through a commission. Three
-regimes in twelve years, and the constitutional problem underneath all of them is
+regimes between 1770 and 1784, and the constitutional problem underneath all of them is
 the one chapter 25 built: everything in one pair of hands, and no provision for
 the hands failing.
 
 **Checkpoint (after §08)** — The ordinance of 20 June 1788 did three things at
 once and popular memory keeps only the first. It released the young men of the
-countryside — the band back to 1733 at once, the over-age freed on the spot, the
-rest a cohort a year to 1800. It relieved the landowners of raising
-conscripts, which is why they did not fight it. And it moved the tie to the home
-district from the landlord to the state, where it stayed until 1848.
+countryside — the boys within three months, the over-age and the discharged at
+once, the rest a birth-year at a time.
+It relieved the landowners of raising conscripts, which was what they had wanted
+the bond for. And it moved the tie to the home district from the landlord to the
+state.
 
 ---
 
@@ -3884,12 +3783,10 @@ is that he legislated at a rate nobody before or since has attempted in Denmark,
 over roughly sixteen months, and that the exact number is disputed.
 
 **The larger myth.** That Struensee and Caroline Mathilde are a love story with
-some politics attached. They governed. She was not a decorative accomplice: the
-sources say the two of them ruled in the king's name, she was the only person in
-the palace who physically resisted the arrest, and she held out against the
-interrogators for weeks in the hope of saving him. The romance is the version that
-survived because it is the version the victors published, in pamphlets, under the
-press freedom he had granted.
+some politics attached. They governed: the sources say the two of them ruled in
+the king's name, even if how much of the policy was hers is still argued. The
+romance is the version that survived because it is the version the victors
+published, in pamphlets, under the press freedom he had granted.
 
 ---
 
@@ -3897,8 +3794,8 @@ press freedom he had granted.
 
 **← 25.** The Kongelov vested every power in the person of the king and made no
 provision for a king who could not exercise them. In 1770 that failed for the first
-time, and the next fourteen years are three different men solving it by standing
-next to the signature.
+time, and from then until 1784 three different men solved it by standing next to
+the signature.
 
 **← 27.** The instruction establishing the Great Agrarian Commission in 1786 said
 that the legal position after the abolition of *vornedskab* in 1702 was to be the
@@ -3907,10 +3804,8 @@ aberration.
 
 **← 28.** The bargain of 1733 is unwound from both ends: the landowners lose the
 bond and are relieved of producing conscripts in the same ordinance. — The hoveri
-that chapter 28 argued was the heavier burden is finally capped in 1799, for the
-gårdmænd only. — Christiansfeld, founded 1773, came out of Christian 7. and
-Struensee's European journey of 1768–69. — Caroline Mathilde took over the
-protectorate of Vallø from Sophie Magdalene in March 1771.
+that chapter 28 argued was the heavier burden is fixed by law in 1771, made
+indefinite again in 1773, and given rules in 1799, for the gårdmænd only.
 
 **→ 30.** Ernst Schimmelmann and the reform ministry that frees the peasant in
 1788 are the same men who abolish the slave trade in 1792, with a ten-year delay.
@@ -3920,9 +3815,8 @@ war. — The crown prince who took power at sixteen in 1784 is Frederik 6., and 
 holds it until 1839.
 
 **→ Part H.** The tie of country men to their birthplace, transferred from the
-landlord to the state in 1788, is not ended until universal conscription in 1848 —
-and town-dwellers are exempt from military service until 1849. — The gårdmænd
-become a political class; the husmænd become a rural proletariat whose numbers
+landlord to the state in 1788, ends only with universal conscription in 1848–49.
+The gårdmænd become a political class; the husmænd become a rural proletariat whose numbers
 grow as the population doubles and the number of farms does not.
 
 ---
@@ -3931,9 +3825,10 @@ grow as the population doubles and the number of farms does not.
 
 Christian 7. was mentally ill, and the constitution of 1665 had no provision for
 it. From May 1770 his physician Johann Friedrich Struensee and his wife Caroline
-Mathilde governed in his name. In sixteen months Struensee issued something
-between one and two thousand cabinet orders: he abolished torture and censorship,
-consolidated the Copenhagen courts, cut the army and the pensions, removed
+Mathilde governed in his name. In the sixteen months from September 1770
+Struensee issued somewhere between one and two thousand cabinet orders. He
+abolished torture and censorship,
+consolidated the Copenhagen courts, cut the army and the pensions, lifted some
 monopolies, and made Denmark-Norway the first state in the world to declare
 unrestricted freedom of the press. The administration obstructed nearly all of it,
 and the press freedom filled the country with pamphlets about his affair with the
@@ -3949,19 +3844,20 @@ overthrown Struensee for using, and passed the Indfødsret of 1776 reserving off
 to the native-born. In April 1784 the sixteen-year-old crown prince took his seat
 in the council and removed him at the first meeting.
 
-What followed was the most productive period in the domestic history of Danish
-absolutism. The Great Agrarian Commission of 1786 drafted the legislation; the
-villages were taken apart and the strips consolidated into single holdings; and on
-20 June 1788 the stavnsbånd was ended — the bound ages put back at once to the
-range of 1733, the over-age and the discharged freed on the spot, everyone else
-released a cohort a year until 1800 — with the landowners relieved of conscription
-in the same stroke, and with the tie to the
-home district transferred to the state, where it remained until 1848.
+What followed was the great reform period of Danish absolutism. The Great
+Agrarian Commission of 1786 drafted the legislation; the villages were taken apart
+and the strips consolidated into single holdings; and on 20 June 1788 the
+stavnsbånd was ended — the boys within three months and the over-age and the
+discharged at once, everyone else
+released a birth-year at a time until 1 January 1800 — with the landowners
+relieved of conscription in the same stroke, and with the tie to the home district
+transferred to the state, where it remained until universal conscription in
+1848–49.
 
-The Liberty Column went up between 1792 and 1797, paid for by subscription, saying
-that the King commanded it. He had not; and it was raised not in triumph but
-during a retreat, while the landowners were pushing back and the government had
-stopped advancing.
+The Liberty Column went up between 1792 and 1797, paid for by a collection among
+Copenhagen's citizens, saying that the King commanded it. He had not; and it was
+raised not in triumph but as a demonstration, to hold the government to its
+reforms while the landowners pushed back.
 
 ---
 
@@ -3974,12 +3870,13 @@ stopped advancing.
 2. What did the rescript of 14 September 1770 do, and why was Struensee
    restricting it by October 1771?
 3. What did the Indfødsret of 1776 require?
-4. Name the three things the ordinance of 20 June 1788 did, and say which one is
-   remembered.
+4. Who paid for the Liberty Column, and on what day was its foundation stone
+   laid?
 
 **Causal** — *Why did that follow from this?*
 
-5. Explain why the landowners did not resist the abolition of the stavnsbånd.
+5. What did the landowners get back in the ordinance of 1788, and why did two
+   ministers still walk out over it?
 6. Why did unrestricted press freedom damage the man who granted it?
 7. Why did the udskiftning of a village make it nearly impossible for the next
    generation to become farmers?
@@ -4017,11 +3914,16 @@ stopped advancing.
 - The proceedings of the commission for agrarian affairs, I–II, 1788–89.
 - The Trolleborg parish history, for the Brahetrolleborg tenants and their farms.
 - Thomas Thaarup's inscriptions on the Liberty Column.
-- danmarkshistorien.dk, Aarhus University, on Struensee, Guldberg and the reforms.
+- danmarkshistorien.lex.dk, on Struensee, Caroline Mathilde, the commission, the
+  ordinance of 1788 and universal conscription.
+- Dansk Biografisk Leksikon and Dansk Kvindebiografisk Leksikon (lex.dk) on
+  Struensee, Caroline Mathilde, Frederik 6. and Ludvig Reventlow; Gyldendal og
+  Politikens Danmarkshistorie on the commission; lex.dk on hoveri, udskiftning and
+  Frihedsstøtten.
 
 **Where the argument stands**
 
-*Attributions need checking against the works themselves before publication.*
+*Named as positions in a historiography, not as books this page has read.*
 
 - Birgit Løgstrup, *Bondens frisættelse: de danske landboreformer 1750–1810*
   (2015), is the current standard account and the source of the argument that the
@@ -4039,8 +3941,8 @@ stopped advancing.
 ## Visit
 
 **Frihedsstøtten, Vesterbrogade.** Opposite the central station, where the
-Vesterport stood. Read the inscription, then read it again knowing the last men
-were not released until 1800 and the tie to the home district lasted to 1848.
+Vesterport stood. Read the inscription, then read it again for what it leaves
+out.
 
 **Hirschholm.** The palace is gone — demolished in the 1810s — but the site at
 Hørsholm is there, and the church stands where the palace did.
@@ -4068,39 +3970,45 @@ any Danish reform has left.
 
 ---
 
-## Before the Atlantic — Trankebar 1620, the Gold Coast 1661
+## Before the Atlantic — Trankebar 1620, the Gold Coast 1658–61
 
 A word before the story, because this chapter does not follow the one before it in
 time. It runs from 1620 to 1803: chapter 29 stopped at 1788 and chapter 31 will
-open in 1784. The Danish Atlantic was one institution working continuously for a
-hundred and eighty years, and cutting it into chronological slices would break the
+open in 1784. The Danish Atlantic trade was one institution working continuously
+from the 1650s to 1803, and cutting it into chronological slices would break the
 thing it has to show. So the clock goes back here, once, and then forward again.
 
 Denmark went east before it went west, and the eastern venture is the one that
-lasted longest and mattered least.
+matters least to this story.
 
 In 1620 Ove Gjedde negotiated a treaty with the ruler of Tanjore for a strip of
 the Coromandel coast, and the Danish East India Company built a fort at Tranquebar
 — Trankebar in Danish, Tharangambadi in Tamil, the place of the singing waves. It
-held for two hundred and twenty-five years and was sold to Britain in 1845. What
-came home from it was pepper, saltpetre and above all cotton textiles, and it is
-worth registering that last one now, because the coloured cottons of India turn
+was Danish from 1620 to 1845, with two spells of British occupation, in 1801–02
+and 1808–15, and in 1845 it was sold to Britain. What came home from it was
+pepper, saltpetre and above all cotton textiles, and it is worth registering that last one now, because the coloured cottons of India turn
 out to be the thing Danish ships would later carry to Africa to exchange for
 people.
 
-The move to Africa began as a gold trade. Danish seamen took a fort in the Gulf of
-Guinea in 1661 and named it Christiansborg; it stands outside what is now Accra.
+The move to Africa began as a gold trade, and it began three times over. In
+January 1658, as part of the war with Sweden, the Danes took the Swedish fort of
+Carolusborg on the Gold Coast. Late in 1659 they agreed with the king of Fetu to
+build a fort of their own, Frederiksborg, which had to be given up to the English
+in 1685. And in 1661 they bought from the Ga ruler of Accra the
+site at Osu on which they built Christiansborg, which stands in what is now Accra.
 Around it in time came Fort Fredensborg and the smaller lodges of Augustaborg,
-Kongensten and Prinsensten. Denmark never held a colony on that coast. It held a
-narrow strip of shoreline with forts on it, and it sat there — as the English, the
-Dutch, the Portuguese and the Brandenburgers sat along the same coast — waiting for
+Kongensten and Prinsensten.
+
+What Denmark held there was never a territory in the way the islands would be. It
+was a narrow strip of shoreline with forts on it, and it sat there — as the Dutch
+and the English, and for a time the Swedes, sat along the same coast — waiting for
 African merchants to arrive from inland with people to sell.
 
-The economic historians divide the Danish presence on the Gold Coast into three
-periods, and the division tells the story without commentary. From 1658 to about
-1690 the principal business was gold. From 1690 to 1803 the principal business was
-people. After 1803 it was an attempt at plantations, which failed. The possessions
-were sold to Britain in 1850.
+The Danish presence on the Gold Coast falls into three periods, and the division
+tells the story without commentary. Until the end of the seventeenth century the
+principal business was gold and ivory. From about 1700 until the trade ban took
+effect in 1803 the principal business was people. After that it was chiefly an
+attempt at plantations, which failed. The forts were sold to Britain in 1850.
 
 ---
 
@@ -4131,8 +4039,8 @@ required it, by men who knew exactly what they were founding.
 
 ## The triangle, in tons and in people
 
-The route is called the triangular trade, and all Danish voyages in it began and
-ended in Copenhagen.
+The route is called the triangular trade, and most Danish slave voyages followed
+it, out from Denmark and home again.
 
 **The first leg** carried manufactured goods to the Gold Coast. What sold there is
 listed in the company records with the flatness of any commercial inventory:
@@ -4146,25 +4054,27 @@ people.
 
 **The third leg** came home to Copenhagen with raw sugar.
 
-The scale is documented and the figures are close to each other. Danish ships
-carried somewhere between a hundred thousand and a hundred and eleven thousand
+The scale is documented. Danish ships carried about a hundred and eleven thousand
 Africans across the Atlantic, on about four hundred and thirty voyages, between
-the 1660s and 1803. Europeans as a whole carried about twelve and a half million
-between 1525 and 1866. The Danish share of the traffic to the West Indies in the
-relevant period was about 2.3 per cent, which made Denmark the seventh largest
-slave-trading nation in the Atlantic.
+the 1660s and the ban of 1803. Europeans as a whole carried about twelve and a half
+million between 1501 and 1866. The Danish share of the traffic to the West Indies
+in the Danish period was about 2.3 per cent; of the whole Atlantic trade it was
+under one per cent. By the number of people carried, Denmark was the smallest of
+the seven national carriers the SlaveVoyages database distinguishes (it files the
+Danish figure as "Denmark/Baltic").
 
-Seventh of the nations that did it at all. That is the number to hold, because the
-Danish national memory has generally preferred the percentage.
+A small share, then; but a carrier nation in its own right, with its own forts,
+its own companies and its own flag in the trade. That is the thing to hold,
+because the Danish national memory has generally preferred the percentage.
 
 A series of chartered companies ran it — the West India and Guinea Company from
-about 1674 to 1734, the Guinea Company in the 1760s and 1770s, the Baltic and
-Guinea Company in the 1780s — with private traders running a shuttle between
-Africa and the islands alongside them.
+1674, when it took over the Guinea trade, until it was dissolved in 1754; the
+Guinea Company in the 1760s and 1770s; the Baltic and Guinea Company in the 1780s
+— with private traders running a shuttle between Africa and the islands alongside
+them.
 
-The company's standing instruction to its crews was that the enslaved should be
-treated properly. The reason was stated in the same document: they were to be sold
-in the West Indies at the greatest possible profit.
+The ships carried surgeons, and the effort to keep the captives alive had a plain
+commercial reason: a person who died at sea could not be sold in the West Indies.
 
 ---
 
@@ -4172,60 +4082,66 @@ in the West Indies at the greatest possible profit.
 
 The middle passage took two to three months on average.
 
-About one in five of the people put aboard died on it.
+Between one in six and one in five of the people put aboard died on it.
 
 Those two sentences are the whole of what most Danish readers have been told, and
 they are both true, and they conceal the thing that matters — which is that the
 mortality was not an accident of the weather or a failure of navigation. It was a
 known and priced feature of the business. A merchant fitting out a voyage
-calculated for it. The instruction to treat the cargo properly was a calculation
-about the same figure from the other end: every percentage point of mortality was
-a percentage point of the return.
+calculated for it. The surgeon's work was a calculation about the same figure from
+the other end: every percentage point of mortality was a percentage point of the
+return.
 
-They were held before embarkation in the casemates below Christiansborg — in dark
-cells on either side of the great staircase, under the offices and the governor's
-airy upper floor, alongside the rest of the trade goods, because that is what the
-building was for and how it was arranged. Many had already died on the caravan
-routes from the interior before they ever saw the sea.
+They were held before embarkation in the casemates below Christiansborg — dark
+cells under the rooms where the governor lived and worked, alongside the rest of
+the trade goods, because that is what the building was for. Many had already died
+on the caravan routes from the interior before they ever saw the sea.
 
 On arrival in the West Indies they were sold at auction, to owners on the
 plantations and in the towns.
 
 > **Vignette · Christian Runge, aboard the *Fredensborg*, April to July 1768**
 >
-> He is a Norwegian sailor. He signed on at Arendal, and his name is in the papers
-> because everybody's name is in the papers: the captain Espen Kønig, the forty men
-> of the crew, the carpenter Axel Antoni who died in January. We know what they ate
-> and when the wind changed.
+> He is a Norwegian sailor from Arendal, taken on there when the ship called on
+> her way south, in place of a man who had fallen ill. His name is in the papers
+> because everybody's name is in the papers: the forty men who sailed from
+> Copenhagen; the carpenters, nearly all of whom died on the Gold Coast; the
+> captain, Espen Kønig, who died at Christiansborg at half past eleven on the night
+> of 15 December 1767 and never saw the crossing; the first mate, Johan Frantzen
+> Ferentz, who took the ship over. That December Runge himself was made third mate
+> and steward, which put the ship's food and drink in his accounts. We know what
+> they ate and when the wind changed.
 >
-> This is the best-documented slave ship in the world. The *Fredensborg* left
-> Copenhagen on 19 June 1767, reached the Gold Coast on 1 October, sailed from
-> there on 23 April 1768, and came into St Croix on 9 July — seventy-seven days
-> across. When she was wrecked off Tromøya near Arendal that December, the ship's
-> journal and the assistant's protocol were carried ashore, and they survive. The
-> wreck itself was found by divers in 1974. Between the two, the last voyage can be
-> followed day by day and in places hour by hour.
+> Of all the slave ships found as wrecks, this is the best documented. The
+> *Fredensborg* left Copenhagen late in June 1767, reached the Gold Coast on 1
+> October, sailed from there on 22 or 23 April 1768 — the accounts differ by a
+> night — and came into St Croix on 9 July, eleven weeks across. When she was
+> wrecked off Tromøya near Arendal that December, the ship's journal and the
+> assistant's protocol were carried ashore, and they survive. The wreck itself was
+> found by divers in 1974. Between the two, the last voyage can be followed day by
+> day and in places hour by hour.
 >
-> The people in the hold for those seventy-seven days are in the same documents.
-> They are counted. They are entered as numbers, as cargo, and when they die they
-> are entered as losses.
+> The people in the hold for those eleven weeks are in the same documents. They
+> are counted. They are entered as numbers, as cargo, and when they die they are
+> entered as losses.
 >
 > Christian Runge is in this chapter because the archive that keeps him is the
 > archive that does not keep them, and it is the same archive, written by the same
 > hand, on the same page.
 >
-> Christian Runge, sailor, of Arendal · the middle passage aboard the
-> *Fredensborg* · April to July 1768
+> Christian Runge, third mate and steward, of Arendal · aboard the *Fredensborg*,
+> the Gold Coast to St Croix · April to July 1768 · [n]
 
 The mortality of the enslaved population in the Danish islands was always higher
 than its birth rate, throughout the whole period. That single fact does more work
 than any description: the colony could not sustain its own population and never
 came close to doing so, which is why the ships had to keep sailing, and which is
-also — a chapter later — the argument that finally moved a Danish finance minister.
+also — as the end of this chapter shows — the argument that finally moved a Danish
+finance minister.
 
 ---
 
-## St Jan, November 1733
+## The Akwamu rising on St Jan, 1733–34
 
 At dawn on 23 November 1733, a party of enslaved men walked up to the little
 star-shaped redoubt at Fortsberg, above the entrance to Coral Bay on St Jan,
@@ -4258,16 +4174,14 @@ people who made it, and it was not a bid for the abolition of slavery, and a
 history that leaves the second part out in order to make the first part cleaner is
 not doing the dead any favours.
 
-The rising was co-ordinated by a drum signal agreed at the full moon, which the
-Danish and Norwegian troops never identified because it sounded like the ordinary
-dance drums.
-
 They held most of the island for six months. What broke them was not the colony:
-it was several hundred better-armed French and Swiss troops sent from Martinique
-in April 1734. The planters had regained control by the end of May. The militia
-went on hunting maroons through the summer, and the rising was declared over at
-the end of August 1734. It ended in a collective suicide, which is still
-commemorated on the islands.
+it was about two hundred better-armed French troops sent from Martinique in
+April 1734. The planters had regained control by the end of May. By then many of
+the rebels, cornered, had killed themselves rather than be taken — eleven at Ram
+Head in early May, more on the north side of the island later that month — and
+those deaths are still commemorated on the islands. The militia went
+on hunting maroons through the summer, and the rising was declared over at the end
+of August 1734.
 
 > **Vignette · Breffu, St Jan, November 1733**
 >
@@ -4282,19 +4196,19 @@ commemorated on the islands.
 > a woman almost invisible to history, which is a fair description of the evidence
 > and an unfair description of her.
 >
-> What can be said is that she was not a follower. She is named as one of the
-> leaders of a rising that took an island for six months, held it against the
-> colony that owned it, and was broken only when a European power sent professional
-> soldiers from another island entirely.
+> What can be said is that she was not a follower. She is named among the leaders,
+> in a record kept by men who had no reason to credit an enslaved woman with
+> anything.
 >
-> Breffu · St Jan, Danish West Indies · November 1733
+> Breffu · St Jan, Danish West Indies · November 1733 · [f][n]
 
 
 ---
 
 ## St Croix bought, 1733
 
-In the same year the company bought an island.
+In June 1733, before the governor's slave code of September and the rising of
+November, the company had bought an island.
 
 St Croix lay forty miles south of St Thomas, it was larger and far more fertile
 than either of the existing possessions, and the French crown was willing to sell.
@@ -4302,19 +4216,20 @@ It was also almost uncultivated, which from the company's point of view was the
 attraction: there was nothing on it to work around.
 
 So it was surveyed, and the survey is the thing to look at. The island was measured
-and divided into uniform square plantation lots, laid out on a grid, and the lots
-were distributed to the company's shareholders, who either worked them or sold
+and divided into uniform rectangular plantation lots, laid out on a grid, and the
+lots were distributed to the company's shareholders, who either worked them or sold
 them on. The printed map of 1754 — respectfully dedicated to the company's
-president — shows the whole island as a chequerboard, each square with its windmill
+president — shows the whole island as a chequerboard, each lot with its windmill
 or horse mill marked, and the regular street plans of Christiansted and Frederiksted
 set into the coast.
 
-It is worth putting that map beside two others this part has already described. In
-1662 the Danish state reduced every farm in Denmark to a figure in barrels of
-hartkorn. In 1682 it went out and measured every field in the kingdom. In 1734 it
-ruled a grid over a Caribbean island and handed out the squares. The same habit of
-mind, in three places, within seventy years — and the third one is the only one
-that has never been celebrated as an achievement of the enlightened state.
+It is worth putting that map beside two other acts this part has already
+described. In 1662 the Danish state reduced every farm in Denmark to a figure in
+barrels of hartkorn. In 1681 it went out and measured every field in the kingdom.
+From 1734 a chartered company ruled a grid over a Caribbean island and handed out
+the lots. The same habit of mind in three places between 1662 and 1734, the third
+in a company's hands (§08 says why that matters), and the third is the only one
+that has never been celebrated as an achievement of the absolutist state.
 
 ---
 
@@ -4351,33 +4266,31 @@ considerably better in general: better clothing and food, a small plot of ground
 which to grow vegetables, a duty on owners to teach them and to missionise among
 them, and provision for the old and those unable to work.
 
-The company shelved it without discussion. Gardelin was dismissed in November 1735
-with effect from the following February, went back to Copenhagen, became a brewer
-on Christianshavn and died in 1740.
+The company shelved it without discussion. Gardelin, who had been a brewer on
+Christianshavn before he was ever a governor, died in Copenhagen in 1740.
 
-The man who wrote the harshest slave code in Danish history changed his mind, put
-it in writing, and was ignored — by a commercial company answerable to its
-shareholders, on the grounds that the question was not interesting.
+The man who wrote the code changed his mind, put it in writing, and was ignored —
+by a commercial company answerable to its shareholders.
 
 ---
 
-## The Crown takes the islands, 1754
+## The Crown takes the islands, 1754–55
 
-For eighty years the Danish West Indies were not governed by Denmark. They were
-governed by a chartered company, and the distinction is not a technicality.
+From 1672 until 1755 the Danish West Indies were not governed by Denmark. They
+were governed by a chartered company, and the distinction is not a technicality.
 
-The West India and Guinea Company held the islands from 1671, occupied St Jan in
-1718, bought St Croix in 1733, and in February 1734 obtained a new charter
-granting it a monopoly on the import and refining of raw sugar in Denmark and
-Norway. Its supreme authority in the colony was a governor it appointed. Its
-obligations ran to its shareholders. When its own former governor proposed
-treating the enslaved better, it filed the proposal.
+The West India and Guinea Company held the islands from 1672, occupied St Jan in
+1718 and bought St Croix in 1733. Its supreme authority in the colony was a
+governor it appointed. Its obligations ran to its shareholders. When its own former
+governor proposed treating the enslaved better, it filed the proposal.
 
-In 1754 the Crown bought the company out and the islands became royal colonies.
+In 1754 the state bought out the company's shareholders, on terms very favourable to
+them, and the company was dissolved. From 1755 the islands were administered by the
+Crown.
 
 The change is easy to underrate and it is the hinge of the second half of this
 chapter. As long as the islands belonged to a company, what happened on them was
-commercial conduct, and the responsibility ran to a board. From 1754 the sugar
+commercial conduct, and the responsibility ran to a board. From 1755 the sugar
 islands were the direct possession of the Danish state, the enslaved were held
 under the authority of the Danish king, and the code that governed them was
 enforced in his name.
@@ -4401,22 +4314,19 @@ commodities of the century — a luxury turning into a staple across Europe — 
 Denmark had a share of it that was small by Atlantic standards and very large by
 Danish ones.
 
-The name to follow is Schimmelmann. Heinrich Carl Schimmelmann, a merchant and
-financier who had made himself indispensable to the Danish crown, bought plantations
-on St Croix, and the family combined them with the refining business and the state
-finances until the three were difficult to tell apart. His son Ernst inherited the
-plantations, the enslaved people on them, and the fortune, and became Denmark's
-finance minister.
+The name to follow is Schimmelmann: a family that combined plantations, the
+refining business and the state finances until the three were difficult to tell
+apart.
 
 > **Vignette · Heinrich Carl Schimmelmann, Copenhagen, 1763**
 >
-> He is thirty-nine, he is not Danish, and he has been in the king's service for two
-> years.
+> He is not yet forty, he is not Danish, and he has been in the king's service
+> since 1761.
 >
 > He came from Pomerania by way of Dresden, where he made his first fortune
 > supplying the Prussian army, and took part of his payment from the king of Prussia
 > in the form of the Meissen porcelain works and its stock. In 1759 he bought an
-> estate in Holstein, which made him a subject of the Danish crown. In 1761
+> estate in Holstein, which made him a subject of the Danish crown. Then
 > Copenhagen — which had heard of him as a financial magician — brought him in to
 > advise on the state's finances.
 >
@@ -4425,34 +4335,36 @@ finance minister.
 > the Danish West Indies.
 >
 > This year he buys them. He buys them at a notably advantageous price, and Denmark's
-> largest sugar refinery on Christianshavn with them. He becomes, at a stroke, the
-> largest slave owner in the Danish realm: La Grange and Grande Princesse, the two
-> biggest estates on St Croix, Thomas on St Thomas, Carolina on St Jan. At his death
-> there are 1,028 people held on them.
+> largest sugar refinery on Christianshavn with them. He becomes, at a stroke, one
+> of the largest slave owners in the Danish realm: La Grange and Grande Princesse,
+> the two biggest estates on St Croix, Thomas on St Thomas, Carolina on St Jan. By
+> the end of his life about a thousand people are held on them.
 >
-> In 1768 he acquires the Kronborg gun factory at Hellebæk, sweeping aside a rival
-> bid the state had already accepted.
+> Before long he acquires the Kronborg gun factory at Hellebæk as well, sweeping
+> aside a rival bid the state had already accepted.
 >
 > Follow the circle once. Indian cotton and guns from his own factory in north
 > Zealand are shipped to the Gold Coast and exchanged for people. The people are
 > carried to his plantations. The sugar they cut is refined in his works on
-> Christianshavn and sold under monopoly in Denmark and Norway. The profit is
-> advised upon by him, in his capacity as the king's treasurer.
+> Christianshavn and sold under monopoly in Denmark and Norway. The state that
+> takes its share of the profit is advised by him, and from 1768 he is the king's
+> treasurer.
 >
-> He is painted in 1773 sitting between a portrait of his wife, a bust of Christian
-> 7., and a black serving boy, presumably brought from one of the plantations. He
-> died in 1782 the largest taxpayer in the kingdom.
+> He is painted in 1773 sitting between a portrait of his wife, a bust of
+> Christian 7., and a black serving boy, presumably brought from one of the
+> plantations. He died in 1782 the largest taxpayer in the kingdom.
 >
-> His son Ernst inherited all of it, and wrote the memorandum that abolished the
-> trade.
+> His son Ernst took charge of the plantations and the works, held together as a
+> family fideikommis, became Denmark's finance minister, and wrote the memorandum that
+> abolished the trade.
 >
-> Heinrich Carl Schimmelmann, treasurer · Copenhagen · 1763
+> Heinrich Carl Schimmelmann, financier · Copenhagen · 1763 · [-]
 
-The palace the family built on Bredgade is still there. So is the sugar house
-quarter on Christianshavn, and so are a good many of the merchant houses along the
-canals that were paid for out of the same trade. Copenhagen's most admired
-eighteenth-century architecture is, to a degree that has only recently been said out
-loud in Denmark, a Caribbean building programme executed in the Baltic.
+The Berckentin palace on Bredgade, which Schimmelmann bought, is still there. So is
+the sugar house quarter on Christianshavn, and so are a good many of the merchant
+houses along the canals that were paid for out of the same trade. Much of
+Copenhagen's admired eighteenth-century architecture is, to a degree that has only
+recently been said out loud in Denmark, a Caribbean building programme executed in the Baltic.
 
 ---
 
@@ -4473,18 +4385,20 @@ to the Danish islands, and any trade against the prohibition would be unlawful.
 
 **And what it also says.** From now until the end of 1802, it shall be permitted
 for all nations without distinction and under all flags to import men and women
-from the coast to Our West Indian islands. Further clauses granted export
-advantages on quantities of raw sugar for every healthy person landed during that
-window.
+from the coast to Our West Indian islands. Further clauses granted an export
+concession on two thousand pounds of raw sugar for every healthy adult landed
+during that window and half that for every half-grown child, and waived the head
+tax on women brought in.
 
 The ten years were not an administrative delay. They were a subsidised
 stocking-up. The state's reasoning was that the enslaved population of the islands
-died faster than it reproduced — a fact this chapter established four sections ago
+died faster than it reproduced — the fact this chapter set down after the crossing
 — so that when the ban took effect, the colony would need a population large enough
 to sustain itself without further imports. The way to achieve that was to bring in
 as many people as possible first, and to pay planters to do it.
 
-Imports rose sharply in the decade of the ban.
+In those years, from 1793 to 1802, the Danes fetched more people from Africa than
+ever before or after.
 
 **Where it came from.** A commission on the slave trade was set up by royal
 resolution on 5 August 1791, largely at Ernst Schimmelmann's instigation, and it
@@ -4494,8 +4408,7 @@ December 1791.
 **And why.** The commission's own arguments were substantially economic. Its
 calculations set out the trade's costs — in the purchase of people, in the
 transport, and in lives, not least the lives of the sailors, who died on those
-voyages at rates that alarmed the admiralty. There was a political calculation too:
-the debate in England was running hot, Denmark correctly judged that Britain was
+voyages as well. There was a political calculation too: the debate in England was running hot, Denmark correctly judged that Britain was
 moving toward abolition, and a small carrying nation had reason to be first rather
 than last. And there was a moral argument, which was real. Schimmelmann was
 probably a sincere opponent of the trade. He had worked through the physician Paul
@@ -4508,20 +4421,20 @@ That is the figure to end on, and he is not a hypocrite in any simple sense — 
 what the Danish Enlightenment actually looked like when it had to pay for itself. A
 man of genuine humane conviction, who abolished the trade in people and kept the
 people, who reasoned from the Enlightenment and from the balance sheet in the same
-memorandum, and who twenty-one years later, as finance minister, would preside over
-the bankruptcy of the Danish state.
+memorandum, and who would be finance minister in 1813, when the currency reform
+remembered as the state bankruptcy came, and was dismissed after it.
 
 **What was abolished, and what was not.** The trade, not slavery. Buying people in
-Africa and shipping them across the Atlantic became illegal for Danish subjects in
-1803. Owning people in the Danish West Indies, buying and selling them within the
-islands, working them, and punishing them under the code of 1733 remained entirely
+Africa and shipping them across the Atlantic became illegal for Danish subjects
+in 1803. Owning people in the Danish West Indies, buying and selling them within
+the islands, working them, and punishing them under the code of 1733 remained entirely
 lawful for another forty-five years. Slavery in the Danish colonies ended in 1848,
 and it ended because the enslaved of St Croix rose and forced it.
 
 The 1792 ordinance is taught in Denmark as a first. It was a first. It was a first
 that carried a ten-year exemption designed to increase the number of people held in
-bondage, taken by a government that owned plantations, and it left the institution
-itself standing for two generations.
+bondage, taken by a government whose finance minister owned plantations, and it
+left the institution itself standing for two generations.
 
 Both halves are the record. A history that keeps only one of them is not describing
 Denmark; it is doing what the column on Vesterbrogade does, one chapter earlier, for
@@ -4535,12 +4448,6 @@ somebody else.
 *Draft. Glossary blocks are per-section. Question tiers: Recall, Causal,
 Counterfactual, Contested.*
 
-**A note on language.** This chapter uses *enslaved* rather than *slave* for
-people, and keeps the eighteenth century's own words only inside quotation, where
-they are evidence. Gardelin's code calls the people it governs "our Negroes" and
-the ordinance of 1792 is called *Forordning om Negerhandelen*; both are named
-accurately here because a chapter that tidies the titles is hiding the documents.
-
 ---
 
 ## Danish terms, by section
@@ -4552,14 +4459,14 @@ accurately here because a chapter that tidies the titles is hiding the documents
 - **Trankebar** — the Danish post on the Coromandel coast from 1620 to 1845.
   Tharangambadi, the place of the singing waves.
 - **Guldkysten** — the Gold Coast, in what is now Ghana. Denmark held forts on a
-  narrow coastal strip and never a colony.
+  narrow coastal strip, never a territory like the islands.
 
 **§03–04 — the triangle**
 
 - **trekantshandel** — the triangular trade: goods to Africa, people to the West
-  Indies, sugar to Copenhagen. Every Danish voyage began and ended there.
-- **mellempassagen** — the middle passage. Two to three months; about one in five
-  of those aboard died.
+  Indies, sugar home.
+- **mellempassagen** — the middle passage: the second leg, from Africa to the West
+  Indies, with people as the cargo.
 - **kasematter** — the casemates: the cells beneath Fort Christiansborg where
   people were held with the rest of the trade goods until a ship came.
 
@@ -4569,13 +4476,14 @@ accurately here because a chapter that tidies the titles is hiding the documents
   including some of its elite, onto Danish ships.
 - **maron** — a person who had escaped and lived beyond the plantations. Hunted by
   the colony's militia.
-- **Gardelins reglement** — the slave code of 5 September 1733: nineteen
-  paragraphs, issued two months before the rising and not in response to it.
+- **Gardelins reglement** — the slave code of 5 September 1733, in nineteen
+  paragraphs, issued by the governor Philip Gardelin.
 
 **§08–10 — the state and the trade**
 
-- **Vestindisk-guineisk Kompagni** — the chartered company that held the islands
-  from 1671 until the Crown bought it out in 1754.
+- **Vestindisk-guineisk Kompagni** — the chartered company, founded in 1671, that
+  held the islands until the state bought it out in 1754; the Crown took over the
+  administration in 1755.
 - **fideikommis** — an entailed fortune: the capital tied up, the income assigned
   to a family's maintenance. The Schimmelmann holdings were held this way.
 - **Forordning om Negerhandelen** — the ordinance of 16 March 1792, banning the
@@ -4586,18 +4494,17 @@ accurately here because a chapter that tidies the titles is hiding the documents
 ## Meanwhile in Europe
 
 **1730s — the Atlantic at scale.** While Denmark was buying St Croix and dividing
-it into squares, Britain and France were running slave economies an order of
+it into lots, Britain and France were running slave economies an order of
 magnitude larger. Saint-Domingue alone would become the most profitable colony in
 the world, and by the 1780s it was importing tens of thousands of people a year.
-The Danish share of the Atlantic traffic was about 2.3 per cent. That figure is
-frequently produced in Denmark as though it were a defence, and it is worth being
-exact about what it means: it means Denmark was the seventh largest of the nations
-that did this, not that it was a bystander.
+Against that scale the Danish share looks small, which is why it is so often
+produced in Denmark as a defence. §03 gives the share, and the fact that Denmark
+carried under its own flag; the second is the fairer of the two.
 
 **1791 — Saint-Domingue.** In August 1791 the enslaved population of the French
-colony rose, and the revolution that followed produced the republic of Haiti in
-1804. It is the essential context for the Danish ordinance of March 1792, and not
-because anyone in Copenhagen was frightened into virtue. It is context because it
+colony rose, and the revolution that followed produced the republic of Haiti
+in 1804. It is the essential context for the Danish ordinance of March 1792, and
+not because anyone in Copenhagen was frightened into virtue. It is context because it
 shows what the alternative to reform looked like from a planter's chair, and
 because the Danish commission was working through the winter of 1791 in a world
 where the largest sugar colony in the Caribbean was on fire.
@@ -4607,22 +4514,20 @@ where the largest sugar colony in the Caribbean was on fire.
 ## Checkpoints
 
 **Checkpoint (after §04)** — Hold three figures before going on. Denmark carried
-between a hundred thousand and a hundred and eleven thousand people across the
-Atlantic. About one in five of them died on the crossing. And the enslaved
-population of the islands never once, in a hundred and seventy years, reproduced
-itself — which is why the ships had to keep going, and which is the fact that
-eventually ended the trade.
+about a hundred and eleven thousand people across the Atlantic. Between one in six
+and one in five of them died on the crossing. And the enslaved population of the
+islands never once reproduced itself — which is why the ships had to keep going,
+and which is the fact that eventually ended the trade.
 
-**Checkpoint (after §07)** — Three things happened in 1733. In September the
-governor issued a code that made execution, amputation and red-hot tongs the legal
-penalties for resistance. Later that year the company bought St Croix and ruled it
-into squares. In November the Akwamu of St Jan took the fort at Coral Bay and held
-most of the island for six months. The order is not incidental: the code came
-first.
+**Checkpoint (after §07)** — Three things happened in 1733. In June the company
+bought St Croix, which it would rule into lots. In September the governor
+issued a code that made execution, amputation and red-hot tongs the legal
+penalties for resistance. In November the Akwamu of St Jan took the fort at Coral
+Bay. The order is not incidental: the code came before the rising, not after it.
 
 **Checkpoint (after §10)** — Denmark was the first slave-trading nation to legislate
 against the trade. The same instrument licensed all flags to import people for a
-further ten years and paid a sugar bounty for each one landed, and imports rose. The
+further ten years and granted a sugar concession for each adult landed. The
 correct answer to "was Denmark first?" is yes, and the correct answer to "was
 Denmark good?" is a different question that the first answer has often been used to
 avoid.
@@ -4640,21 +4545,18 @@ Slavery in the Danish West Indies remained entirely lawful, and people continued
 be bought and sold within the islands, until 1848.
 
 *It was not immediate.* The ban took effect from the beginning of 1803, and the
-intervening decade was not a wind-down. The ordinance expressly permitted all
-nations under all flags to import people until the end of 1802, and granted sugar
-export advantages for each healthy person landed. Imports rose. The stated aim was
-to build the enslaved population large enough to sustain itself once imports
-stopped.
+decade before it was not a wind-down but, as §10 sets out, a licensed and
+subsidised stocking-up of the islands.
 
-*And it did not end because Denmark decided.* Slavery in the Danish colonies ended
-in 1848 because the enslaved of St Croix rose and forced it.
+*And it did not end because Denmark decided.* Emancipation in 1848 was forced
+from below, by a rising.
 
 **What is true.** Denmark-Norway was the first slave-trading nation in the world to
 resolve to end its transatlantic trade, and it did so fifteen years before Britain.
 The decision was made by a commission whose arguments were substantially economic,
-in a government that owned plantations, at the urging of a minister who owned more
-than a thousand people. All of that is the same fact, and a Danish history that
-reports the first sentence without the rest is not describing what happened.
+at the urging of a minister whose family's plantations held about a thousand
+people. All of that is the same fact, and a Danish history that reports the
+first sentence without the rest is not describing what happened.
 
 ---
 
@@ -4664,12 +4566,11 @@ reports the first sentence without the rest is not describing what happened.
 liberation. Breffu's rising on St Jan in 1733 is the same beat played on the other
 side of the ledger, and this chapter names the earlier one deliberately.
 
-**← 25.** The state that reduced every Danish farm to a number in 1662 ruled St
-Croix into uniform squares in 1734 and gave them out to shareholders. The third
-survey is the only one never counted as an achievement of the enlightened state.
+**← 25.** The hartkorn register of 1662 has a Caribbean relative: the grid the
+company laid over St Croix from 1734 (§06, Figure 2).
 
 **← 27.** The Moravians reached the Danish West Indies in 1732 and Greenland in
-1733, a decade after Egede.
+1733, where Egede had been since 1721.
 
 **← 28.** The Brethren whom Christian 6.'s Denmark banned at home were missionising
 on the Danish islands throughout. — Ernst Schimmelmann's father bought the crown's
@@ -4677,15 +4578,15 @@ four plantations in 1763, at the point where chapter 28's economy was recovering
 
 **← 29.** The reform ministry that ended the stavnsbånd in June 1788 is the ministry
 that abolished the slave trade in March 1792, with a ten-year delay in one case and
-a twelve-year phasing in the other. The same men, the same method, and a monument
+a phasing that ran from 1788 to 1800 in the other. The same men, the same method, and a monument
 for one of them.
 
 **→ 31.** Ernst Schimmelmann, who wrote the memorandum of 1791, is the finance
-minister who presides over the state bankruptcy of 1813. — The neutral carrying
+minister of the 1813 reform, and is dismissed over it. — The neutral carrying
 trade that made Copenhagen rich in these decades is the trade that ends in 1807.
 
 **→ Part I.** Slavery in the Danish West Indies ends in 1848, after a rising. The
-islands are sold to the United States on 31 March 1917.
+islands are sold to the United States and handed over on 31 March 1917.
 
 ---
 
@@ -4694,29 +4595,29 @@ islands are sold to the United States on 31 March 1917.
 Denmark chartered a West India company in 1671, occupied St Thomas in 1672, added
 St Jan in 1718, and bought St Croix from France in 1733. On the African coast it
 held forts — Christiansborg from 1661 and others — on a narrow strip of shoreline,
-where the business was gold until about 1690 and people thereafter.
+where the business was gold until about 1700 and people thereafter.
 
-Danish ships carried something between a hundred thousand and a hundred and eleven
-thousand Africans across the Atlantic on about four hundred and thirty voyages.
-About one in five died on a crossing that took two to three months. The Danish share
-of the Atlantic traffic was about 2.3 per cent, which made Denmark the seventh
-largest of the slave-trading nations.
+Danish ships carried about a hundred and eleven thousand Africans across the
+Atlantic on about four hundred and thirty voyages, and between one in six and one
+in five died on the crossing. Denmark's share of the whole trade was small, but it
+was a carrier nation in its own right.
 
 In September 1733 the governor Philip Gardelin issued a code of nineteen paragraphs
 declaring the enslaved to have been made so by God and to be their owners' money,
 with execution, amputation and red-hot tongs among the penalties. In November the
 Akwamu of St Jan took the fort at Coral Bay, held most of the island for six months,
-and intended to run the plantations themselves. They were defeated by French and
-Swiss troops from Martinique.
+and intended to run the plantations themselves. They were defeated by French troops
+from Martinique.
 
-The Crown bought out the company in 1754, and from then the islands were the direct
+The state bought out the company in 1754, and from 1755 the islands were the direct
 possession of the Danish state. The fortunes came home: Heinrich Carl Schimmelmann
 advised the crown to sell its plantations, bought them himself in 1763 with the
 country's largest sugar refinery, and died in 1782 the realm's biggest taxpayer.
 
-On 16 March 1792 his son Ernst carried an ordinance abolishing the trade from 1803
-— the first such decision by any slave-trading nation — which licensed unrestricted
-importation until the end of 1802 and paid a bounty for it.
+On 16 March 1792 an ordinance his son Ernst had pressed for abolished the trade
+from 1803 — the first such decision by any slave-trading nation — which licensed unrestricted
+importation until the end of 1802 and granted a sugar-export concession for each
+adult landed.
 
 ---
 
@@ -4725,7 +4626,7 @@ importation until the end of 1802 and paid a bounty for it.
 **Recall** — *Did the facts land?*
 
 1. What went out on each of the three legs of the triangular route, and where did
-   Danish voyages begin and end?
+   most Danish slave voyages begin and end?
 2. Roughly how many people did Danish ships carry, on how many voyages, and what
    proportion died on the crossing?
 3. What did Gardelin's code of September 1733 say about why the enslaved were
@@ -4755,9 +4656,10 @@ importation until the end of 1802 and paid a bounty for it.
 10. Was Ernst Schimmelmann a hypocrite? Set out the case that he was, the case that
     he was a man doing what was possible from inside a system he profited by, and
     say what evidence would distinguish them.
-11. Denmark's share of the Atlantic trade was 2.3 per cent, and Denmark was the
-    seventh largest nation engaged in it. Which of those two true statements
-    belongs in a school textbook, and why?
+11. Denmark's share of the whole Atlantic trade was under one per cent, and
+    Denmark was a carrier nation in its own right, with its own forts, companies
+    and flag. Which of those two true
+    statements belongs in a school textbook, and why?
 12. The St Jan rising was a bid for freedom by people who intended to enslave
     others. How should that be told — and does the answer change depending on who
     is telling it?
@@ -4781,7 +4683,7 @@ importation until the end of 1802 and paid a bounty for it.
 
 **Where the argument stands**
 
-*Attributions need checking against the works themselves before publication.*
+*Named as positions in a historiography, not as books this page has read.*
 
 - Erik Gøbel, *Det danske slavehandelsforbud 1792* (2008), is the standard account
   of how and why the ban was made, and the source for the economic reading of the
@@ -4796,12 +4698,18 @@ importation until the end of 1802 and paid a bounty for it.
   treatments — which lean on the 1792 "first" and on the small percentage — are
   still the ones most Danes were taught from.
 
+**A note on language.** This chapter uses *enslaved* rather than *slave* for
+people, and keeps the eighteenth century's own words only inside quotation, where
+they are evidence. Gardelin's code calls the people it governs "our Negroes" and
+the ordinance of 1792 is called *Forordning om Negerhandelen*; both are named
+accurately here because a chapter that tidies the titles is hiding the documents.
+
 ---
 
 ## Visit
 
-**Christiansborg, Accra.** Osu Castle, on the Ghanaian coast. The casemates are
-below the staircase, under the rooms where the governor lived.
+**Christiansborg, Accra.** Osu Castle, on the Ghanaian coast, now a memorial and a
+museum. The casemates are under the rooms where the governor lived.
 
 **Christiansted and Frederiksted, St Croix.** The two towns of the 1734 grid, with
 the street plans as they were surveyed. Fort Frederik at Frederiksted is where
@@ -4825,26 +4733,15 @@ that began the process, in a house paid for by the plantations.
 
 # Chapter 31 — The flourishing trade and the wreck of it, 1784–1814
 
-*Draft, complete: sections 01–10 of 10 and the part coda. Two vignettes placed
-(§03, §05). One outstanding — see below.*
-
-**Friederike Brun is out, and the plan was wrong from v1.** She could not have
-watched the bombardment from Sophienholm: she and her family were living in Rome
-from 1807 to 1810, in Thorvaldsen's circle. **Kamma Rahbek replaces her** and is
-better placed — the Rahbeks had to abandon Bakkehuset because the British lines ran
-through Frederiksberg, and she sat out the three nights almost alone in her father's
-house in Nørregade until it burned.
-
-**[Third vignette placed: Edmund Bourke, §08.]** The schoolteacher was dropped —
-unnameable without a parish appointment record — and Bourke replaces him. He is
-confirmed as plenipotentiary on both treaties, and the vignette is built on the
-demolition of the legend rather than on the legend.*
+*Draft, complete: sections 01–10 of 10 and the part coda. Three vignettes placed
+(§03, §05, §08).*
 
 ---
 
 ## Neutral bottoms
 
-For about thirty years, being small and staying out of it made Denmark rich.
+From the American war of the late 1770s until 1807, being small and staying out
+of it made Denmark rich.
 
 The wars of the second half of the eighteenth century were fought by the great
 naval powers — Britain, France, the Dutch Republic — and they did not stop trade.
@@ -4907,7 +4804,7 @@ wider streets, corner-cut junctions to give firebreaks and turning room, and the
 plain, well-proportioned bourgeois houses of the period. A city with money rebuilt
 itself in the taste of the men who had the money.
 
-Twelve years later the British burned a third of it again.
+Twelve years later the British set it burning again.
 
 ---
 
@@ -4934,25 +4831,23 @@ batteries, some of them old hulls without rigging, commanded by Olfert Fischer.
 Against 1,058 British guns the Danes had 630. The fighting lasted more than four
 hours.
 
-Casualties are genuinely uncertain, and the reason is that the Danish line was
-manned in haste by volunteers who were not on any establishment. Fischer's official
-report gives between 1,600 and 1,800 Danes and Norwegians killed or wounded;
-modern estimates range from 1,135 to 2,215. The British reported 264 killed and
-689 wounded.
+Casualties are genuinely uncertain. About a quarter of the men in the Danish line
+were volunteers rather than enrolled seamen, and the counts have never agreed.
+Fischer's official report gives between 1,600 and 1,800 Danes and Norwegians killed
+or wounded; later estimates differ widely. The British reported 264 killed and 689
+wounded.
 
 It ended with a letter. Nelson sent a note ashore offering a truce and stating that
 if the resistance continued he would be obliged to burn the Danish floating
-batteries without being able to save the men aboard them. The crown prince accepted,
-without consulting either Fischer or Steen Bille.
+batteries without being able to save the men aboard them. The crown prince, watching
+the battle with his military advisers, accepted.
 
 The negotiations then went on for over a week, with both sides repeatedly close to
-resuming. Prime minister C.D.F. Reventlow — the man of chapter 29, the reformer —
-had a nervous collapse at the prospect of the city being bombarded, and the foreign
-minister Christian Bernstorff conducted the talks. Denmark span them out.
+resuming, and Denmark spun them out.
 
-Then the news arrived that Tsar Paul had been murdered in St Petersburg on 24
-March, nine days before the battle. The League had lost the man who made it and was
-finished. The British demand had become irrelevant, and Denmark could concede it
+Then the news arrived that Tsar Paul had been murdered in St Petersburg on the
+night of 23 to 24 March (11 to 12 March, Russian style), little more than a week
+before the battle. The League had lost the man who made it and was finished. The British demand had become irrelevant, and Denmark could concede it
 without penalty. An armistice was signed on 9 April and a settlement on 23 April.
 
 **And this is where the myth begins.** The Danish national version has the battle
@@ -4969,24 +4864,22 @@ inflicted nearly a thousand casualties on it, and lost.
 
 > **Vignette · Peter Willemoes, Flådebatteri nr. 1, 2 April 1801**
 >
-> He is seventeen years old and he is commanding a raft.
+> He is seventeen years old, a sub-lieutenant, and he is commanding a raft.
 >
 > Floating Battery No. 1 is not a ship. It has no rig and it cannot move; it is a
 > hull with guns in it, warped into position in the King's Deep and moored there.
-> It is stationed close inshore, near the northern end of the Danish line, and it
-> is manned largely by volunteers.
+> It lies in the Danish line between the ship of the line *Sjælland* and the
+> blockship *Dannebrog*.
 >
-> He is not on *Prøvestenen*, whatever the popular version says — that is a
-> blockship, further south, under Lorentz Fisker. He is on a platform with no
-> means of retreat, in front of ships of the line, and he stays on it for the whole
-> action.
+> It is not even a blockship, like *Prøvestenen* at the southern end of the line
+> under Lorentz Lassen. He is on a platform with no means of retreat, in front of
+> ships of the line, Nelson's own *Elephant* among them, and he stays on it for the
+> whole action.
 >
-> He is made a national hero for it, which is the part that lasted, and he is dead
-> at twenty-four — killed in 1808 aboard *Prins Christian Frederik* off Sjællands
-> Odde, in the war that this chapter is about to describe.
+> He is made a national hero for it, which is the part that lasted. He will not
+> survive the war this chapter is about to describe.
 >
-> Peter Willemoes, sub-lieutenant · Flådebatteri nr. 1, Kongedybet, Copenhagen ·
-> 2 April 1801
+> Peter Willemoes · Flådebatteri nr. 1, Kongedybet, Copenhagen · 2 April 1801 · [-]
 
 
 ---
@@ -4998,13 +4891,12 @@ was the fact the union ran on.
 
 Chapter 28 described the arrangement. The import ban of 1735 gave Danish
 landowners a protected market that included southern Norway, where most Norwegians
-lived, and the quantity shipped north grew from about a hundred and thirty thousand
-barrels a year around 1730 to five hundred and twenty-five thousand by the end of
-the century. It was a grievance in good years — a law passed in Copenhagen to
-rescue Danish landowners from a price collapse, paid for at the Norwegian dinner
-table.
+lived. It was a grievance in good years — a law passed in Copenhagen to rescue
+Danish landowners from a price collapse, paid for at the Norwegian dinner table.
+The ban itself went in 1788, but the dependence it had deepened did not: southern
+Norway still ate Danish grain, brought across the Skagerrak.
 
-In a war at sea it was something else.
+In a war at sea that was something else.
 
 Norway's other trade ran the opposite way. Its timber went to Britain, in enormous
 quantities, and had done for a century; British houses and British ships were built
@@ -5029,7 +4921,7 @@ in 1810, on the ground that it was no longer needed and because he had come to
 suspect it of encouraging Norwegians to think of themselves as a country. He was
 not wrong about that, and dissolving it did not undo it: the office of
 *stattholder*, vacant since 1771, had been revived in 1809 for Christian
-August himself, and it was still the supreme authority in Norway when the war and
+August himself, and it was still the supreme authority in Norway when hunger and
 the blockade came back in 1812 and no new commission was formed. Copenhagen could
 take the institution away. It could not take away the fact that Norway had spent
 three years governing itself and had found that it worked.
@@ -5054,11 +4946,11 @@ Holstein guarding the southern border against a threat that never came.
 Through late August they set up artillery in a ring around the city, from
 Svanemøllen in the north to Kalveboderne in the south.
 
-At half past seven on the evening of Friday 2 September they opened fire on
+At half past seven on the evening of Wednesday 2 September they opened fire on
 Copenhagen. They kept firing for three nights.
 
-The target was the city. This is why the bombardment of 1807 is often called the
-first terror bombardment in history: the aim was not to breach the defences but to
+The target was the city. This is why the bombardment of 1807 is called the first
+terror bombardment of a European capital: the aim was not to breach the defences but to
 make the civil population unbearable to the men defending them, and it worked. The
 commandant, Ernst Peymann, capitulated on 7 September.
 
@@ -5066,43 +4958,42 @@ The damage: about three hundred buildings totally destroyed and more than fiftee
 hundred damaged, much of the south-western quarter burnt out, and Vor Frue Kirke —
 the cathedral — in ruins. The death toll has never been settled. The traditional
 figure is about sixteen hundred killed and as many wounded; recent research puts
-the dead at around four hundred. The difference matters and the chapter should give
-both.
+the dead at around four hundred. The difference matters, and both figures belong in
+the account.
 
 > **Vignette · Kamma Rahbek, Nørregade, Copenhagen, 2–5 September 1807**
 >
-> She is thirty-one. She and her husband have owned Bakkehuset out at Frederiksberg
-> for five years, and this summer they have had to leave it, because the British
-> army is on that side of the city and their house is inside its lines.
+> She is thirty-one. Her home since 1798 has been Bakkehuset, out at Frederiksberg
+> beyond the ramparts, which her husband bought outright in 1802.
 >
-> So she is in town, at her father's house in Nørregade, in the quarter the shells
-> are falling on.
+> But in these days she is in town, at her father's house in Nørregade, in the
+> quarter the shells are falling on.
 >
 > Her biographers record that she stayed there through the bombardment almost
 > entirely alone, and that she did it with great boldness, until the house was
 > burned to the ground.
 >
 > She is not yet the woman she will be remembered as. That comes later: the
-> drawing-room at Bakkehuset where Oehlenschläger, Ørsted, Grundtvig, Ingemann and
+> drawing-room at Bakkehuset where Oehlenschläger, Grundtvig, Ingemann, Heiberg and
 > in time Hans Christian Andersen will come out along a bad dark road to sit and
 > talk, and where the correspondence that documents the Danish Golden Age better
-> than any other source will be written. She reads and speaks most of the European
-> languages, makes boxes by hand, keeps a romantic garden, and is ill a great deal.
+> than any other source will be written. She commands several languages, makes
+> boxes by hand, keeps a romantic garden, and is ill a great deal.
 >
 > The city she grew up in — the eighteenth-century Copenhagen of her childhood in
 > Nørregade — is destroyed in these three nights. The Golden Age is what gets built
 > on top of it, and she is one of the people who builds it.
 >
-> Kamma Rahbek · her father's house in Nørregade, Copenhagen · 2–5 September 1807
+> Kamma Rahbek · Nørregade, Copenhagen · 2–5 September 1807 · [f]
 
-Then they took the fleet. Seventeen ships of the line, seventeen frigates, nineteen
-smaller vessels and twenty-six gunboats sailed for England. The British stripped
-nearly everything else out of the naval establishments and destroyed the hulls
-standing on the stocks, so that what was left could not be rebuilt quickly.
+Then they took the fleet. Sixteen ships of the line, fifteen frigates and corvettes
+and fourteen smaller vessels sailed for England on 21 October, with the naval stores
+loaded into ninety-two merchant ships behind them. The British broke up the ships
+building on the stocks, so that what was left could not be rebuilt quickly.
 
-Denmark had been a naval power since the fifteenth century. In six weeks it stopped
-being one, and the neutral carrying trade that had made Copenhagen rich for thirty
-years ended with it. The florissante period is dated to 1807 for this reason.
+Denmark had kept a navy since 1510. In six weeks it stopped being a naval power, and
+the neutral carrying trade that had made Copenhagen rich since the American war
+ended with it. The florissante period is dated to 1807 for this reason.
 
 Two consequences followed at once, and both run to the end of this chapter.
 
@@ -5111,11 +5002,10 @@ only ruler in Europe willing to guarantee that Danish territory would stay Danis
 That alliance is what puts Denmark on the losing side at the Congress of Vienna, and
 what costs it Norway at Kiel.
 
-And Peymann was destroyed. Frederik 6. — by then king in all but name — had him
-arrested in July 1808 and tried before a court martial for having negotiated with
-the enemy at all. On 16 November he was condemned to lose his honour, his life and
-his property. Contemporaries argued, and have gone on arguing, that he had saved
-several hundred lives and the rest of the city by surrendering when he did.
+And Peymann was destroyed. A court martial condemned him to lose his honour, his
+life and his property; the sentence was changed to dismissal in disgrace without a
+pension, and only after the war was he given one. It has been argued ever since that by surrendering when he did he saved the
+rest of the city.
 
 
 ---
@@ -5131,22 +5021,23 @@ cross an ocean. In the Danish waters it did not have to. The Sound and the Belts
 are narrow, they are frequently calm, and a becalmed ship of the line cannot
 manoeuvre while a boat under oars can choose its angle and stay out of the arc of
 the broadside. Through 1808 and 1809 flotillas of them went out against British
-convoys passing into the Baltic, and they took prizes.
+convoys passing into the Baltic.
 
 Alongside them ran a licensed privateering war. Danish and Norwegian owners fitted
-out small fast vessels under royal commission to take British merchant shipping,
-and for a few years it was profitable.
+out small fast vessels under royal commission to take British merchant shipping.
+Neither the boats nor the many privateers took more than a few British ships.
 
 None of it was strategy. It was what a maritime nation does after its navy has been
 carried away: it harasses, it makes the passage expensive, and it waits. It could
 not reopen the sea lanes, which is what Norway needed, and it could not protect the
-trade, which is what Copenhagen needed. The war ran on for seven years and Denmark
-never had the means to end it on its own terms.
+trade, which is what Copenhagen needed. The war ran on until January 1814 and
+Denmark never had the means to end it on its own terms.
 
-Peter Willemoes was killed in it. On 22 March 1808 the ship of the line *Prins
-Christian Frederik* — one of the few large vessels the British had missed, because
-she had been at sea in September 1807 — was caught by a British squadron off
-Sjællands Odde and beaten to pieces. He was twenty-four.
+Peter Willemoes, the boy on the floating battery of 1801, was killed in it. On 22
+March 1808 the ship of the line *Prins Christian Frederik* — one of the few large
+vessels the British had missed, because she had been in Norway in September 1807 —
+was caught by a British squadron off Sjællands Odde and beaten to pieces. He was
+twenty-four.
 
 ---
 
@@ -5154,22 +5045,24 @@ Sjællands Odde and beaten to pieces. He was twenty-four.
 
 From 1807 the Danish state paid for the war by printing money.
 
-The instrument was the Kurantbank of 1736 — chapter 28's bank, the first in
-Denmark, chartered to issue notes convertible into silver on demand. By 1813 the
-convertibility was a fiction and the quantity of notes was absurd. The kurantdaler
+The instrument was the paper of the Kurantbank — chapter 28's bank of 1736, the
+first in Denmark to issue notes, a state bank since 1773, and still the source of
+the country's notes although it had been marked for closure in 1791. By 1813 the
+quantity of notes was absurd. The kurantdaler
 was trading at six per cent of its face value in silver. A wage earner's savings
 had lost nineteen twentieths of their value; farmers, being largely self-sufficient,
 did better than anyone paid in money.
 
 The ordinance of 5 January 1813 — *Forordning om Forandring i Pengevæsenet* for
-Denmark, Norway, Slesvig and Holstein — did four things.
+Denmark, Norway, Schleswig and Holstein — did four things.
 
 It created a new bank, the Rigsbank, and a new currency, the rigsbankdaler, at
 eighteen and a half to a mark of fine silver, divided into six mark or ninety-six
 skilling. It bought in the old kurantdaler notes at six for one, which is to say it
 wrote off five sixths of the paper money in the kingdom. It capped the new issue at
-forty-six million rigsbankdaler — twenty-seven million for the exchange, fifteen
-million as a war fund. And it raised the silver to back it by a tax of six per cent
+forty-six million rigsbankdaler — twenty-seven million to take in the old notes, the
+rest partly for lending and partly as a reserve fund for the state's extraordinary
+expenses. And it raised the silver to back it by a tax of six per cent
 on the value of all fixed property in the state, payable in silver, immediately or
 as a first mortgage on the property at six and a half per cent a year.
 
@@ -5189,31 +5082,35 @@ then, after 1814, on replacing the revenue Norway had provided. The Rigsbank cou
 not honour convertibility, and the new daler fell too. The principles survived to
 1818, when the Nationalbank was founded as the realm's first modern central bank.
 
-And it destroyed the men who had made the reforms. Ernst Schimmelmann — chapter
-30's finance minister, who wrote the memorandum against the slave trade in 1791 —
-was dismissed over it. Later in the same year Christian Ditlev Reventlow — chapter
-29's reformer, who handed out the hereditary tenancy letters in 1788 — left the
-Rentekammer.
+And the men who had made the reforms went with it. Ernst Schimmelmann — chapter
+30's finance minister — was dismissed as finance minister immediately afterwards,
+as a sacrifice to public feeling, though he kept his seat in the council. On 6
+December the same year Christian Ditlev Reventlow — chapter 29's reformer, who had
+spent the war years mostly on the state's finances — was dismissed from all his
+offices, keeping only a seat in the council. His biographer gives no reason; he
+had been pushed out of the inner circle during the war, when the king went back to
+ruling through his cabinet.
 
 The two men who between them freed the Danish peasant and abolished the Danish
-slave trade were both finished by a currency reform.
+slave trade were both dismissed before the year of the reform was over.
 
 
 ---
 
-## Kiel, 14 January 1814
+## Norway ceded
 
-Napoleon lost, and Denmark had tied itself to him in 1807 because he was the only
-ruler who would guarantee that Danish territory stayed Danish.
+Napoleon lost, and Denmark had tied itself to him.
 
-In 1813 Russian and Swedish armies came into Holstein and Slesvig. The Swedish
+In 1813 Russian and Swedish armies came into Holstein and Schleswig. The Swedish
 force was commanded by Sweden's own crown prince, Karl Johan — the former French
 marshal Bernadotte — who had wanted Norway for years and whose troops the coalition
 needed for the final reckoning with Napoleon. That was the price the allies were
 willing to pay, and it was not theirs to pay.
 
-Frederik 6. was brought to Kiel and made to sign on 14 January 1814. He joined the
-coalition. He ceded Helgoland to Britain. And by article four he gave up Norway.
+The peace was made at Kiel, in two treaties, one with Sweden and one with Britain;
+the vignette below has the day and the man who signed them for Frederik 6. By them
+Denmark joined the coalition. It ceded Helgoland to Britain. And by article four of
+the Swedish treaty the king gave up Norway.
 
 The wording of that article repays reading. Norway went to the king of Sweden not
 as a province but as "a kingdom united with the Swedish", which is a distinction
@@ -5222,7 +5119,7 @@ his successors and for the whole kingdom of Denmark, never to make any claim dir
 or indirect upon Norway, and released its inhabitants from the oath of homage and
 fealty they had sworn to him.
 
-Four hundred and thirty-four years of union, and about nine hundred thousand
+Four hundred and thirty-three years of union, and about nine hundred thousand
 people, ended in one sentence of a treaty signed in a Holstein town.
 
 Article four also contains a parenthesis that is the reason a good deal of this
@@ -5233,60 +5130,45 @@ come into the realm with Norway in 1380 and were Norwegian dependencies, not Dan
 ones. They stayed with the Danish crown, and Denmark is a North Atlantic state
 today because of that clause.
 
-**The story about how it got there is not true, and it is worth dismantling
-carefully, because it is one of the best-loved anecdotes in Danish history.** The
-version everyone knows has Edmund Bourke, Frederik 6.'s chief negotiator, exploiting
-the exhaustion of days and nights of talks and the supposed ignorance of the Swedish
-plenipotentiary, Baron Gustav af Wetterstedt, to slip the exception in at the last
-moment. A diplomatic coup by a tired clever man.
-
-Bourke was certainly the negotiator; he signed both the Swedish and the British
-treaties. But his biographers record that the claim rested on very thin evidence,
-that later research reduced his part to a supporting one, and — drily — that he does
-not appear to have been a diplomat capable of coups or given to tricks. The wording
-of the insertion is probably his, added to the Swedish draft. The wish to specify
-the exception seems to have come out of British policy, through his conversations
-with Edward Thornton over the Anglo-Danish treaty being negotiated in the same town
-in the same week.
-
-And the simplest objection is the strongest. The Atlantic islands were never in the
-Swedish demands at all. Sweden wanted the Norwegian mainland and had asked for
-nothing else.
-
-Denmark kept Greenland, Iceland and the Faroes because nobody was trying to take
-them.
+How the parenthesis got there is one of the best-loved anecdotes in Danish history,
+and it is not true; the vignette below takes it apart. The point to keep here is
+the consequence. If the exception came out of British policy rather than Danish wit,
+then the North Atlantic stayed Danish because that suited the power that had just
+taken the fleet.
 
 > **Vignette · Edmund Bourke, Kiel, 14 January 1814**
 >
-> He is sixty-three, he was born into an Irish family and brought up in England, and
-> he is about to put his name to the end of Denmark-Norway.
+> He is fifty-two. He was born on St Croix, into an Irish family, and brought up in
+> England, and today, as Frederik 6.'s plenipotentiary and a chamberlain of the
+> Danish court, he puts his name to the end of Denmark-Norway.
 >
-> He has been a Danish diplomat for forty years and he has not always been an easy
-> one: the Sicilian envoy is supposed to have asked more than once for his recall.
-> He was in Stockholm in 1801 and carried his share of Gustav 4. Adolf's ill will
-> after the battle in the King's Deep. Now he is in a Holstein town negotiating
-> simultaneously with Sweden and with Britain, and he will sign both treaties in the
-> same week.
+> He has been a Danish diplomat for twenty-four years and he has not always been an
+> easy one. He was well liked in Poland and less so at the Sicilian court, whose
+> envoy more than once had the unpleasant task of asking the foreign minister, A.P. Bernstorff, to
+> recall him. He was in Stockholm in 1801 and carried his share of Gustav 4. Adolf's
+> ill will after the battle in the King's Deep. Now he is in Kiel negotiating with
+> Sweden and with Britain at once, and today he signs both treaties — the Swedish
+> one with Baron Gustaf af Wetterstedt.
 >
-> What he signs today hands nine hundred thousand people to another king, and
-> contains a secret article paying Denmark a million daler for it — secret because
-> the Danish side insisted, so that nobody could say the king had sold the
-> Norwegians.
+> Danish tradition remembers him for a parenthesis. The version everyone knows has
+> him exploiting the exhaustion of days and nights of talks, and the supposed
+> ignorance of Wetterstedt, to slip Greenland, Iceland and the Faroes out of the
+> cession at the last moment: a diplomatic coup by a tired clever man.
 >
-> Danish tradition remembers him for a parenthesis: that he outwitted an exhausted
-> Swede into leaving Greenland, Iceland and the Faroes out of the cession. It is a
-> good story and his own biographers do not believe it. He probably drafted the
-> words. The idea seems to have come from the British negotiator across the
-> corridor, and the Swedes had never asked for the islands in the first place.
+> His own biographers do not believe it. They record that the credit given him rests on very
+> thin ground, that later research has reduced his part to a supporting one, and —
+> drily — that he does not seem to have been a diplomat capable of coups or given
+> to tricks. The wording of the insertion is probably his, added to the Swedish
+> draft. The wish for it seems to have grown out of his conversations with Edward
+> Thornton, the British diplomat negotiating the Anglo-Danish treaty in the same
+> town.
 >
-> He was made a count in 1819. Thorvaldsen had already made a bust of him in Rome.
+> He will be made a count in 1819. Thorvaldsen made a bust of him in 1801.
 >
-> Edmund Bourke, chamberlain and plenipotentiary · Kiel · 14 January 1814
+> Edmund Bourke · Kiel · 14 January 1814 · [-]
 
 There were also secret provisions. One dealt with the king's private property in
-Norway. The other provided compensation to Denmark of one million daler, and the
-Danish side insisted it be kept secret — expressly so that nobody could say the
-king had sold the Norwegians for money.
+Norway. The other provided compensation to Denmark of one million daler.
 
 Denmark was to receive Swedish Pomerania and Rügen in exchange, which it swapped in
 1815 for the duchy of Lauenburg, next to Holstein. A kingdom for a small German
@@ -5339,10 +5221,10 @@ towns. The parish had to provide the school and the teacher; attendance was
 compulsory and the parents could be fined.
 
 It is not a fresh idea. It is the last term of a series this part has been
-following for a hundred and fifty years. The state made confirmation compulsory in
+following since 1721. The state made confirmation compulsory in
 1736 and thereby made teaching necessary; it ordered schooling in the cavalry
 districts in 1721 and across the country in 1739; it built two hundred and
-forty-one schoolhouses to one drawing at one price. What 1814 does is finish it —
+forty-one schoolhouses to one drawing. What 1814 does is finish it —
 and it finishes it in the worst year the Danish state had had since 1660.
 
 That is the fact to end on. A government with no money, no fleet, no Norway and no
@@ -5353,25 +5235,22 @@ what remained should be able to read.
 
 ## Coda — Part G
 
-*(unnumbered, after the visit block)*
-
 In September 1660 an assembly of subjects handed a bankrupt king everything, and by
-January 1814 his great-great-grandson had spent it: the fleet gone, the currency
-written down to a sixth, the eastern provinces renounced, Norway ceded, the state
-mortgaged on every house in the kingdom.
+January 1814 his descendant in the sixth generation had spent it: the fleet gone, the
+currency written down to a sixth, Norway ceded, the state mortgaged on every house
+in the kingdom.
 
-That is one way to read a hundred and fifty-four years, and it is not wrong.
+That is one way to read the years from 1660 to 1814, and it is not wrong.
 
 But the crown that took everything also spent the whole period counting, measuring
 and writing down. It reduced every farm to a number in 1664 and measured every field
-in 1682. It wrote one law for the kingdom in 1683 and put a schoolhouse in two
-hundred and forty parishes in 1721. It bound the countryside in 1733 and unbound it
-in 1788, and enclosed the villages so that a man farmed his own ground. And in the
+from 1681. It wrote one law for the kingdom in 1683 and ordered schools for the
+cavalry districts in 1721. It bound the countryside in 1733 and unbound it in 1788, and enclosed the villages so that a man farmed his own ground. And in the
 year it lost half itself it required that every child be taught to read.
 
 Denmark in 1814 was poor, beaten and small. It was also, for the first time,
 legible to itself — a country whose land was surveyed, whose law was one law, whose
-people were counted, and most of whom could read. Almost none of that was done for
+people were counted, and whose schools were now to reach every child. Almost none of that was done for
 the reasons we would give now. It was done to raise soldiers, collect taxes and save
 souls. It lasted anyway.
 
@@ -5382,15 +5261,13 @@ The freedom was uneven. The men who got farms in 1788 became a political class; 
 cottagers beside them became a rural proletariat, and the tie to the birthplace
 merely moved from the landlord to the state, where it stayed until 1848.
 
-And the money was not all Danish. The same state that surveyed its own fields ruled
-a Caribbean island into squares and handed them out; the same Enlightenment that
-freed the peasant abolished the slave trade with a ten-year exemption designed to
-increase the number of people held. Copenhagen's finest eighteenth-century
-architecture was paid for out of the Atlantic.
+And the money was not all Danish. Chapter 30 has already set the grid over St Croix
+beside the surveys at home, and the slave-trade ordinance of 1792 beside the reforms
+of 1788; the whole of this part has to be read with that chapter open.
 
-The kingdom that walks into 1814 is therefore two things at once: the most
-thoroughly administered small state in Europe, and one that had spent a century and
-a half learning to be so partly on other people's labour. Both are Part H's
+The kingdom that walks into 1814 is therefore two things at once: a thoroughly
+administered small state, and one that had spent the years since 1660 learning to be
+so partly on other people's labour. Both are Part H's
 inheritance.
 
 
@@ -5464,7 +5341,7 @@ Britain could simply remove. The bombardment of 1807 was possible because
 Trafalgar had already happened.
 
 **1815 — Vienna.** The Congress redrew Europe between September 1814 and June 1815,
-and Denmark attended as a defeated ally of Napoleon. What it got was the small
+and Denmark attended as a defeated former ally of Napoleon. What it got was the small
 duchy of Lauenburg, exchanged for the Swedish Pomerania it had been promised at
 Kiel. There is a wider point in the arithmetic. Denmark left Vienna with a
 German-speaking population risen from about a quarter of the realm to about two
@@ -5480,14 +5357,14 @@ material the nineteenth century will make Schleswig-Holstein out of.
 neither. The battle was the bill for something: a decade of carrying belligerent
 cargoes under a neutral flag, which Denmark knew was against the conventions and did
 anyway, with the state's protection. And Denmark's escape had nothing to do with the
-fighting — it came from the murder of Tsar Paul in St Petersburg nine days before,
-which dissolved the League the British had come to break.
+fighting — it came from the murder of Tsar Paul in St Petersburg little more than a
+week before, which dissolved the League the British had come to break.
 
 **Checkpoint (after §07)** — Follow the money from chapter 28. The Kurantbank was
 chartered in 1736 to steady a country in an agricultural crisis. From 1807 the state
 used it to print war finance. By 1813 its notes were worth six per cent of face
 value, and the reform that replaced them mortgaged every house, farm and workshop in
-the realm to the new bank. Seventy-seven years from a rescue to a lien on the whole
+the realm to the new bank. From a rescue in 1736 to a lien in 1813 on the whole
 country.
 
 **Checkpoint (after §09)** — Norway did not simply pass from one king to another. It
@@ -5505,25 +5382,17 @@ observation that Norway acquired institutions every time the sea route closed.
 Swedish counterpart and slipped Greenland, Iceland and the Faroes out of the cession
 at the last moment. A diplomatic coup that made Denmark a North Atlantic power.
 
-**What is true.** The exception is really there, as a parenthesis in article four of
-the French text — *la Groenlande, les îles de Ferröe et l'Islande non comprises* —
-and Bourke really was the Danish plenipotentiary, signing both the Swedish and the
-British treaties in the same week. The wording of the insertion was probably his.
+**What is true.** The exception is really there, in article four, and Bourke
+really did sign the treaty; the wording was probably his. §08 has the clause and
+the vignette has the man.
 
-**What is not.** His own biographers record that the claim rested on very thin
-evidence, that later research reduced his role to a supporting one, and that he does
-not appear to have been a diplomat capable of coups or given to tricks. The wish to
-specify the exception seems to have come out of British policy, reaching him through
-his conversations with Edward Thornton, who was negotiating the Anglo-Danish treaty
-in the same town that week.
-
-**And the objection that settles it.** The Atlantic islands were never part of the
-Swedish demands. Sweden had asked for the Norwegian mainland and nothing else.
+**What is not.** The coup. The exception seems to have come out of British policy
+rather than Danish wit, and Bourke's part in it was a supporting one.
 
 **Why the story survives.** Because 1814 is otherwise a chapter of unrelieved loss,
 and a story in which a clever Dane wins something back by wit is a great deal easier
-to tell than one in which the country kept three dependencies because no one had
-thought to ask for them.
+to tell than one in which the country kept three dependencies because, it seems,
+the power that had just taken its fleet preferred it that way.
 
 *(A second myth is handled inside §03 rather than here: that the battle of 1801 was
 fought by hulks manned at the last minute by farm boys, and that Nelson had to ask
@@ -5541,22 +5410,22 @@ constitutionally able to tell him he is wrong.
 Frederik 6. lost the northern half of the realm in 1814. The composite monarchy is
 now kingdom plus duchies, with no Norway to balance the German-speaking half.
 
-**← 28.** The Kurantbank of 1736 is what fails in 1813. — The grain monopoly of
-1735 is what starves Norway in 1807–14 and what Wergeland indicts in 1816. — Norway's
+**← 28.** The Kurantbank of 1736 is the bank whose notes are written down in 1813. —
+The grain monopoly of
+1735 ended in 1788; what starves Norway in 1807–14 is the blockade. — Norway's
 habit of improvising its own institutions whenever the sea closed is why it has a
 state ready in 1814.
 
-**← 29.** C.D.F. Reventlow, who handed out the tenancy letters in 1788, leaves the
-Rentekammer in 1813 over the currency reform.
+**← 29.** C.D.F. Reventlow, who handed out the tenancy letters in 1788, is dismissed
+from all his offices but his council seat in December 1813.
 
-**← 30.** Ernst Schimmelmann, who wrote the memorandum against the slave trade in
-1791, is dismissed as finance minister over the same reform.
+**← 30.** Chapter 30's finance minister, Ernst Schimmelmann, is the minister of the
+reform of 1813, and is dismissed over it.
 
-**→ Part H.** The German-speaking share of the realm rises from about a quarter to
-about two fifths with the loss of Norway, and the Slesvig question — whose legal
-origin is the ambiguity of the 1721 homage — becomes the only composite problem
-left. — The tie of countrymen to their birthplace, transferred to the state in 1788,
-lasts until universal conscription in 1848. — The Nationalbank is founded in 1818. —
+**→ Part H.** With Norway gone, the German-speaking share of the realm rises sharply,
+and the Schleswig question — whose legal origin is the ambiguity of the
+1721 homage — becomes the only composite problem left. — The Nationalbank is founded
+in 1818. —
 The school ordinances of 1814 produce, within two generations, a population that can
 read what it is being told, which is the precondition for everything the 1840s do.
 
@@ -5567,7 +5436,7 @@ in article four.
 
 ## Summary
 
-For about thirty years, neutrality made Denmark rich. Copenhagen merchants took over
+From the American war to 1807, neutrality made Denmark rich. Copenhagen merchants took over
 the routes the belligerents could not sail and also carried belligerent cargoes
 under a Danish flag, which was against the conventions and was done with the state's
 protection. The Asiatic Company's Asian cargoes between 1772 and 1807 were worth
@@ -5575,22 +5444,22 @@ roughly the entire state revenue of the kingdom over the same years.
 
 The bill came in two instalments. On 2 April 1801 a British fleet destroyed the
 Danish line in the King's Deep in four hours; Denmark escaped the consequences only
-because Tsar Paul had been murdered nine days earlier and the League of Armed
+because Tsar Paul had been murdered little more than a week earlier and the League of Armed
 Neutrality collapsed with him. In September 1807, after an ultimatum was refused,
 British troops landed at Vedbæk and shelled Copenhagen for three nights, killing
 somewhere between four hundred and sixteen hundred people, destroying about three
-hundred buildings and damaging fifteen hundred, and then sailed away with the entire
-Danish fleet.
+hundred buildings and damaging fifteen hundred, and then sailed away with the Danish
+fleet.
 
 Denmark joined Napoleon, because he was the only ruler who would guarantee Danish
 territory. From 1807 the state printed money to fight, and on 5 January 1813 the
 currency was written down to a sixth of its value, with every property in the realm
-charged six per cent in silver to back the new one. It finished both Schimmelmann
-and Reventlow.
+charged six per cent in silver to back the new one. Schimmelmann and Reventlow
+were both dismissed before the year was over.
 
-At Kiel on 14 January 1814 Frederik 6. ceded Norway, after four hundred and
-thirty-four years of union, and released nine hundred thousand people from their
-oath. Norway refused the treaty, adopted a constitution at Eidsvoll on 17 May, lost
+At Kiel on 14 January 1814 Frederik 6.'s plenipotentiary ceded Norway, after four
+hundred and thirty-three years of union, and the king released nine hundred thousand
+people from their oath. Norway refused the treaty, adopted a constitution at Eidsvoll on 17 May, lost
 the war, and joined Sweden in November as a kingdom rather than a province.
 
 Six months after Kiel the same bankrupt government made schooling compulsory for
@@ -5604,16 +5473,16 @@ every child in what was left.
 
 1. What two things did Danish merchants do with the neutral flag, and which of them
    was unlawful?
-2. What ended the crisis of April 1801, and where did it happen?
-3. What did the British take away in September 1807?
+2. What was Floating Battery No. 1, and who commanded it on 2 April 1801?
+3. What two figures are given for the dead of the bombardment of 1807?
 4. What did the currency reform of 5 January 1813 do to the old notes, and what
    backed the new ones?
 
 **Causal** — *Why did that follow from this?*
 
 5. Explain why Trafalgar in 1805 made the bombardment of 1807 possible.
-6. Why did Norway suffer famine between 1807 and 1814? Trace it back to a Danish law
-   of 1735.
+6. Why did Norway suffer famine between 1807 and 1814, and why was its grain
+   coming from Denmark in the first place?
 7. Why did Norway enter the Swedish union as a kingdom with a constitution rather
    than as a conquered province?
 
@@ -5654,7 +5523,7 @@ every child in what was left.
 
 **Where the argument stands**
 
-*Attributions need checking against the works themselves before publication.*
+*Named as positions in a historiography, not as books this page has read.*
 
 - Ole Feldbæk's work on the flourishing trade and on Danish neutrality policy is the
   standard account, and the source of the argument that the exploitation of
@@ -5683,17 +5552,16 @@ firing over in September 1807.
 form it has now, with Thorvaldsen's apostles. The Golden Age begins in a building
 that the war knocked down.
 
-**Bakkehuset, Frederiksberg.** The Rahbeks' house, which they had to leave in 1807
-and returned to. It is a museum, and the drawing room is the room.
+**Bakkehuset, Frederiksberg.** The Rahbeks' home from 1798. It is a museum, and the drawing room is the room.
 
 **Sjællands Odde.** The memorial to the crew of *Prins Christian Frederik*, lost in
 March 1808, with Grundtvig's inscription. Willemoes is among them.
 
-**Eidsvollsbygningen, Norway.** Where the constitution was written in the spring of
-1814. It is worth a Danish reader's time precisely because it is the other side of
+**Eidsvollsbygningen, Norway.** Where the constitution was written in the spring
+of 1814. It is worth a Danish reader's time precisely because it is the other side of
 this chapter.
 
 **Any village school of the nineteenth century.** There are thousands, and they are
 the direct descendants of the ordinances of 1814 — which are themselves the
-descendants of the confirmation ordinance of 1736 and the two hundred and forty-one
-schoolhouses of 1721. That line is the longest single thread in this part.
+descendants of the confirmation ordinance of 1736 and the two hundred and forty
+schoolhouses ordered in 1721. That line is the longest single thread in this part.

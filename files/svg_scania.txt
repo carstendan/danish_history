@@ -57,7 +57,7 @@
   <text x="470" y="326" class="mapt">returned</text>
   <line x1="470" y1="346" x2="686" y2="346" stroke="#C9CDC4" stroke-width="1"/>
   <text x="470" y="364" class="mapt">Denmark won at sea and lost</text>
-  <text x="470" y="377" class="mapt">the province. Louis 14. ended</text>
+  <text x="470" y="377" class="mapt">the province. Louis XIV ended</text>
   <text x="470" y="390" class="mapt">the war and required every</text>
   <text x="470" y="403" class="mapt">conquest given back.</text>
   </svg>

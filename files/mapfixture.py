@@ -360,7 +360,7 @@ CURATED = {
     ("Itzehoe", 9.52, 53.92, "HOLSTEN"),
     ("Meldorf", 9.07, 54.09, "DITMARSKEN"), ("Heide", 9.10, 54.20, "DITMARSKEN"),
     ("Brunsb\u00fcttel", 9.14, 53.90, "DITMARSKEN"),
-    # renounced in 1720 and no longer coloured on this map
+    # not recovered in 1720, and no longer coloured on this map
     ("Malm\u00f6", 13.00, 55.60, None), ("Helsingborg", 12.694, 56.046, None),
     ("Halmstad", 12.86, 56.67, None), ("Uddevalla", 11.94, 58.35, None),
     ("\u00d6stersund", 14.64, 63.18, None), ("Visby", 18.29, 57.64, None),

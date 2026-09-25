@@ -1584,8 +1584,16 @@ separately. Also unsettled: whether 3 July is Gregorian (as a Danish instrument
 would be, and as Kiel implies) or Julian with 14 July Gregorian (as English
 reference works have it, and as the chapter used to say). **Where:** the printed
 treaty in Schou's *Forordninger*, 2. del, 1699–1730, and the Rigsarkivet original.
-**The chapter no longer depends on the answer** — §07 was rewritten to assert only
-what is documented — so this is a correction to make when found, not a block.
+**Superseded in part, review session 9 (item 147):** the chapter now DOES state a
+date. §07 gives 3 July 1720 (Danish style, Gregorian), ratified 23 July, and then
+all three readings in one passage: Schou's edition's 3 June (which would come before
+the Stockholm preliminaries of 14 June, 3 June Swedish style, so the edition's
+"correction" may itself be a confusion with Stockholm), and the English reference
+works' 3 July Julian = 14 July Danish style, which the Danish accounts followed
+(Gyldendal og Politikens *Fred og sikkerhed*: "den 3. juli 1720") do not give. The
+Kiel art. 27 claim was **not** verified in session 9 and is marked so in the
+chapter's Sources. Every dependent interval holds under all three readings. Still
+open, still not a block: the original's subscript and the style of "23 July".
 
 
 ---
@@ -4609,6 +4617,67 @@ split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see it
    that Part F had no "entry" for the guard to trip on was a 0 I had not tested — the guard found four.
    *A rule's example is a claim too; and a clean result from a search you wrote is a search you have
    not yet checked.*
+
+147. **The consistency review, session 9: 21's tenant written, Part G read, tagged and checked
+   twice.** 24–25 September 2026. Full record in `REVIEW-CONSISTENCY.md` §13.
+
+   **Cold run on a fresh clone of `af7352e`: every figure matched START_HERE_review_9.** Item 146's
+   pages are in its own commit, with the sources. **The session ran twice:** the first run was lost
+   after its checker had reported; its state, patch and reports had been saved to the project as item
+   145 asked (`claude/session9_*`), and the second run applied them to a fresh clone, found the one
+   change the last save had not carried (`appcheck.py`), and finished from there.
+
+   **R-15 CARRIED OUT, with the recommendation's facts checked first.** Rasmus Pedersen of
+   **Gundsømagle**, at the king's court in Copenhagen Castle, 10 July 1591 (21 §08, `[n]`). The
+   recommendation had the ruling wrong: the six-weeks-enough, no-eviction judgment was the four
+   commissioners' of 20 April 1591, and the king's court heard **Tycho's appeal against them** and let
+   it stand; the 1592 letter is a draft, in *Danske Magazin* 3. række IV, not 4. række. **No D-9 failure
+   in Parts A–F.**
+
+   **PART G READ.** Seven fact-checks and seven fixers, one per chapter; **ninety-five intervals and ages
+   wrong** (C nine, D sixteen, E thirty-four, F sixty-six) among well over a hundred corrections. Among them:
+   **25's Nansen vignette had never shipped** — it sat in a continuation segment's preamble, which mkbody
+   drops — and **30's "note on language" had never shipped either**, from the apparatus preamble (found
+   by hand writing the guard); 26's Kongelov "on the altar, unread" (read aloud to the whole church in
+   1671); Juel's statue 1878 (unveiled 1881); 27's "renounced" Skåne (no such clause), horses killed "on
+   the beach", Dynekilen "ending" an invasion already being given up; 28's king who "closed the
+   theatres" (kept one shut), Árni's collection in the church loft (his house); 29's hoveri ordinance
+   of **20 February 1771** (DBL's 20 January is against the document), the discharged men left out of
+   1788, a "wedding day" two years after the wedding; 30's Kønig captain of a crossing he died before,
+   "seventh largest" (seventh of seven); 31's grain monopoly starving Norway 19 years after its abolition.
+   **D-13: 26 §09, 27 §05, 27 §09 and 29 §03 decided by re-scoping** (six of the seven now decided);
+   D-15, D-6 (first divergences; one allowed second parenthesis), D-14 applied. E4 updated: 27 now states
+   3 July with both rival readings. Recall: 25, 29 and 31 had repeats; all seven now 0/4.
+
+   **THE PART G BUILD COULD NOT SEE WHAT IT LOST, IN FIVE WAYS; NOW IT CAN.** `build_part_g.py` gets the
+   padded-chapter guard, reading text rather than markup, after a hand search found exactly two "entry"
+   in 25–31; mkbody refuses prose in any segment preamble and a second apparatus segment, and a short
+   Summary exits; appcheck reads `PART_G_DRAFT.md` itself; freshcheck covers 25–31 and runs **before**
+   each Part G page is written. Every hole planted and shown firing; the real pages built clean.
+
+   **D-9 IN PART G.** Twenty-one who-lines tagged. **25 has no `[f]`, 27 and 31 no `[n]`** — R-16 to
+   R-18 (§13.9), to Carsten one at a time: Charlotte Amalie at Nykøbing, 25 June 1667; Kari Hiran at
+   Krokskogen, April 1716; Hans Andersen, Odense, 1812–13.
+
+   **CHECKED TWICE BY SEPARATE AGENTS.** The first found some seventy slips in the fixers' work, eleven
+   tooling holes and eight slips in 21's vignette; the second, given the repairs, fifteen more and five
+   holes — **one of them mine and false: Denmark "one of only seven" carrier nations** (Brandenburg and
+   Sweden carried too). All resolved (§13.8).
+
+   **VERIFIED** in the working clone: figs 25–31, maps 1660/1721/1814, mkbody 25–32, build F, G and H,
+   `linkindex`, `index_generator`, then the suite: **debuild 45 identical; 45 of 45, 340,840 page words,
+   27.1 h (Part F 30,153, Part G 52,644, Part H 41,195); vignettes 145/114, D-9 failures 25, 27, 31,
+   selftest passes; figcheck 98/30/0; one OVER, 16 §08 (852); draftnotes clean; appcheck 167 in 21
+   chapters; freshcheck 21 fresh (25–45); tidy clean; seams pass; sweeps: 2 pointers solvent, 0 same-page
+   glosses, Schleswig 212 / Slesvig 65, sweep_facts 5, arrows 253, D-1 0, prose references 0, solvency
+   40.** 21 is now 50 minutes, at the top of the band (D-16: kept).
+
+   **LESSON.** Two vignettes' worth of the book's prose had been written, and read, and never shipped,
+   because a builder threw away what came before the first heading and nothing counted what it did not
+   emit; and the check built to count it, repaired once, was made to read through the builder's own eyes
+   and so agreed with its losses. And the reviewer's own fix of "seventh largest" was a false fact in
+   better prose. *A guard must have its own witness, not the builder's; and a correction is a claim that
+   needs a source, not only a better sentence.*
 
 ---
 

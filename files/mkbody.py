@@ -33,22 +33,22 @@ HAND = {
    file='c25_body.html',
    part='Part G', band='Absolutism', num=25, dates='1660 – 1670',
    title='The kingdom made hereditary',
-   people='Frederik 3. · Hans Nansen · Hans Svane · Joachim Gersdorff · Peder Griffenfeld',
-   hook="In six days in October 1660 an assembly called to settle a war debt handed the "
+   people='Frederik 3. · Hans Nansen · Hans Svane · Joachim Gersdorff · Peder Schumacher',
+   hook="In ten days in October 1660 an assembly called to settle a war debt handed the "
         "king of Denmark more power than any monarch in Europe, and did it by a vote. "
         "Nobody stormed anything. What replaced the charter was a state of standing "
         "offices, a register that reduced every farm in the kingdom to a single number, "
-        "and a law sealed in a casket that almost nobody read for forty years.",
+        "and a law kept in a silver casket and not printed for more than forty years.",
    keys=['stændermøde 1660', 'arvehyldning 18. oktober 1660', 'enevælde',
          'Kongeloven 1665', 'kollegier', 'amter og amtmænd',
          'matriklen 1662 og 1664', 'hartkorn', 'rangforordningen 1671'],
    qs=["Denmark's estates met to raise a tax. How did that end with an absolute monarchy?",
        "The proposal came from the burghers and the clergy, not from the king. Why would "
        "townsmen hand a king unlimited power?",
-       "Hereditary did not have to mean absolute. Where, in six days, did the one become "
+       "Hereditary did not have to mean absolute. Where, in five days, did the one become "
        "the other?",
-       "What did the <i class=\"dk\">Kongelov</i> of 1665 actually say, and why did so few "
-       "people read it?",
+       "What did the <i class=\"dk\">Kongelov</i> of 1665 actually say, and why was it kept "
+       "out of print for so long?",
        "How do you tax a kingdom whose land you have never measured — and what did the "
        "answer cost the people on it?"],
    figs=[("s03", "SVG_TERR1660",
@@ -62,21 +62,15 @@ HAND = {
          ("s05", "SVG_ROUTING",
           "Figure 2 · Where a decision travelled, before 1660 and after 1665",
           "The same five questions — a town tax, a fortress, a warship, an appeal, a trading "
-          "licence — before and after. On the left they all go to one body of about twenty "
-          "noblemen who met when summoned and discussed everything. On the right each goes "
-          "to a standing office with one subject, staffed by men who came in every day. This "
-          "is not a change of furniture but a change of topology, and the council of the "
-          "realm has no place in the second diagram."),
+          "licence — before and after. On the left they all go to one body; on the right "
+          "each goes to an office of its own. This is not a change of furniture but a change "
+          "of topology, and the council of the realm has no place in the second diagram."),
          ("s07", "SVG_HARTKORN",
           "Figure 3 · One farm, reduced to a number",
           "What a tenant actually owed, and what the commissioners of 1662 and 1664 wrote "
-          "down instead. Nothing was measured and no commissioner walked a field: the "
-          "registers took the landlords' own estate books and converted grain, dairy, "
-          "livestock and labour into one artificial unit, so that a farm on Funen and a farm "
-          "in Vendsyssel could be added together. The quantities here are a worked example "
-          "built from the conversion rules, not a transcription of one entry. Denmark "
-          "measured its ground for the first time in 1682; land was valued in "
-          "<i class=\"dk\">hartkorn</i> until 1903."),],
+          "down instead: grain, dairy, livestock and labour, each converted and then added "
+          "into one figure. The quantities here are a worked example built from the "
+          "conversion rules, not a transcription of one entry."),],
  ),
 
  26: dict(
@@ -107,24 +101,23 @@ HAND = {
           "Four years, and the border did not move. Denmark landed in Skåne in 1676 and most "
           "of the province came over within weeks; Lund on 4 December decided the land war "
           "and Køge Bugt on 1 July 1677 decided the sea. Neither decided the province. At "
-          "Fontainebleau in 1679 Louis 14. ended the war and required every conquest to be "
-          "given back, so the map at the end is the map at the start."),
+          "Fontainebleau in 1679 Louis XIV ended the war and required every conquest to be "
+          "given back."),
          ("s04", "SVG_MANDEBOD",
           "Figure 2 · Who owed for a killing, 1241 and 1683",
           "The change between the two codes is not severity. Jyske Lov priced a man, priced "
           "the parts of him as fractions of that, and split the debt three ways between the "
           "killer, his father's kin and his mother's kin — a family owed for what a member "
           "had done. Danske Lov has no tariff of body parts and no shares. The killer answers "
-          "alone. Roughly two thirds of Jyske Lov was carried forward into the new code; the "
-          "kin's share of the debt was not."),
+          "alone. About a third of Danske Lov's provisions came from the old provincial "
+          "laws; the kin's share of the debt was not among them."),
          ("s09", "SVG_CELL",
           "Figure 3 · Seven of my paces long and six broad",
           "The room as Leonora Christina measured it, having nothing to measure it with. Two "
           "beds, a table, two chairs; newly whitewashed when she came in, and a floor so "
           "thick with filth she took it for clay. Her bed faced the doors, and with all three "
-          "open she could see as far as the stair door, which was the fourth. She was there "
-          "from 8 August 1663 to 19 May 1685 — 7,955 days — and no charge was ever brought "
-          "and no trial ever held."),],
+          "open she could see as far as the stair door, which was the fourth. She was in the "
+          "tower 7,955 days."),],
  ),
 
  27: dict(
@@ -133,9 +126,9 @@ HAND = {
    title='The last war for the Sound',
    people='Frederik 4. · Peter Wessel Tordenskjold · Marie Grubbe · Hans Egede · Gertrud Rask',
    hook="Denmark enters the Great Northern War to get Skåne back and comes out of it with "
-        "none of it — and with a southern border closed for the first time in two hundred "
-        "years, a restored toll, two hundred and forty village schools, and a mission in "
-        "Greenland. In between, plague takes something between a third and two fifths of "
+        "none of it — and with a southern border closed for the first time since 1544, a "
+        "Sound toll that Sweden now paid, two hundred and forty village schools, and a "
+        "mission in Greenland. In between, plague takes something from a third to over forty per cent of "
         "Copenhagen, and the state counts the measures it took but not the dead.",
    keys=['Travendalfreden 1700', 'Poltava 1709', 'pesten 1711',
          'Dynekilen 1716', 'Frederiksborgfreden 1720', 'arvehyldningen 1721',
@@ -152,29 +145,27 @@ HAND = {
        "and what did the vagueness cost a century later?"],
    figs=[("s07", "SVG_TERR1721",
           "Figure 1 · The realm in 1721",
-          "The southern border closed. The whole of Slesvig is now the king's, the Gottorp "
+          "The southern border closed. The whole of Schleswig is now the king's, the Gottorp "
           "share having been taken in 1713 and confirmed in 1720; Holstein is not, and the "
           "ducal and royal parcels there are interleaved parish by parish, which is why the "
           "legend carries the distinction the map cannot. The eastern provinces are no longer "
           "drawn in their own tone: by 1721 they are not a loss being absorbed but a settled "
-          "fact, formally renounced. Greenland stops being a claim in July of this year."),
+          "fact, and no Danish army went for them again. Greenland stops being a claim in "
+          "July of this year."),
          ("s04", "SVG_PLAGUE",
           "Figure 2 · What the state did, and what it could not count",
           "The upper panel is what can be established: a dated sequence of measures, from the "
           "Saltholm quarantine of 1709 to the reopening of the gates in April 1712. The lower "
           "panel is what cannot. Four published death tolls are shown disagreeing rather than "
-          "averaged, against a city whose population is itself given as sixty or sixty-nine "
-          "thousand. The planned weekly burial curve is not drawn, because reference works "
+          "averaged, against a city of about sixty thousand. The planned weekly burial curve is not drawn, because reference works "
           "differ by a factor of three or four on the same months and inventing weekly values "
           "for real deaths is the one place a plausible-looking figure would do most harm."),
          ("s08", "SVG_SCHOOLS",
-          "Figure 3 · Two hundred and forty-one, in six years",
+          "Figure 3 · Two hundred and forty-one, 1722–27",
           "Twelve cavalry districts at twenty schools each were planned and two hundred and "
-          "forty-one were built between 1722 and 1727, every one to the same drawing and every "
-          "one at 550 rigsdaler. The districts were where the crown held land, so West Jutland "
-          "and north-west Zealand got none at all. Attendance was compulsory from five, girls "
-          "as well as boys; reading and Christian learning were free, and writing and "
-          "arithmetic cost eight skilling a month, which many could not find."),],
+          "forty-one were built between 1722 and 1727, every one to the same drawing, the "
+          "builders paid 550 to 600 rigsdaler for each. The plan of the standard building is "
+          "drawn to scale."),],
  ),
 
  28: dict(
@@ -183,10 +174,11 @@ HAND = {
    title='The bound countryside and the pious state',
    people='Christian 6. · Frederik 5. · Erik Pontoppidan · Ludvig Holberg · Anders Pedersen',
    hook="For half a century the Danish state is at peace and its countrymen are not free. "
-        "In 1733 every man of the peasantry is tied to the estate where he was born, to solve "
-        "a problem of army recruitment and landlord debt at one stroke. At the same time a "
-        "pietist king closes the theatres, makes confirmation compulsory, and puts a book of "
-        "seven hundred and fifty-nine questions into every parish in two kingdoms.",
+        "In 1733 the young men of the peasantry are tied to the estates where they were born, "
+        "to solve a problem of army recruitment and a landowners' crisis at one stroke. At the "
+        "same time a pietist king keeps the theatre shut, makes confirmation compulsory, and "
+        "puts a book of seven hundred and fifty-nine questions into every parish in two "
+        "kingdoms.",
    keys=['stavnsbånd 1733', 'hoveri', 'spanddag og gangdag', 'konfirmation 1736',
          'Pontoppidans katekismus 1737', 'skoleforordningen 1739', 'kvægpesten',
          'Herrnhuterne', 'Kongsberg', 'kornmonopolet 1735'],
@@ -202,30 +194,31 @@ HAND = {
        "written down as a single number?"],
    figs=[("s04", "SVG_HOVYEAR",
           "Figure 1 · A bound man's year",
-          "Three hundred and sixty-five squares, one for each day, with the hundred and ten a "
-          "Zealand tenant owed his landlord marked: forty requiring a wagon and a team, "
-          "seventy on foot, where a girl or a boy would do. A second reckoning from an estate "
-          "at Antvorskov gives a hundred and twenty-two. This is not a calendar. The "
-          "reckonings give annual totals and the split, not dates, and drawing the days in "
-          "particular months would invent the one thing a reader would take from it. What is "
-          "agreed is that the demand fell hardest at ploughing, sowing and harvest — the only "
-          "weeks when a man's own crop could not wait."),
+          "A schematic. Three hundred and sixty-five squares, one for each day, with the "
+          "hundred and ten days of one commonly quoted reckoning for a Zealand tenant with a "
+          "full holding marked: forty requiring a wagon and a team, seventy on foot, where a "
+          "girl or a boy would do. The reckoning has not been traced here to the returns, and "
+          "the unmarked squares include Sundays and holy days. Nor is this a calendar: the "
+          "figure gives a total and a split, not dates, and drawing the days in particular "
+          "months would invent the one thing a reader would take from it. What is agreed is "
+          "that the demand fell hardest at ploughing, sowing and harvest — the only weeks when "
+          "a man's own crop could not wait."),
          ("s07", "SVG_NORWAY",
           "Figure 2 · What Norway sent south",
           "Silver from Kongsberg, copper from Røros, Løkken and Folldal, timber, iron, "
-          "regiments and carting duty. Kongsberg employed 4,075 people in 1770 and was the "
-          "largest enterprise in either kingdom, its town second in Norway only to Bergen. "
-          "What came the other way was Danish grain — and after 1735 no other kind was "
-          "permitted. Norway kept its own law, its own coin and its own regiments. It was not "
+          "regiments and carting duty. Kongsberg employed 4,075 people in 1770 and was "
+          "Norway's largest mine, its town second in the country only to Bergen. What came "
+          "the other way was Danish grain — and after 1735 southern Norway was meant to buy "
+          "no other kind, though the ban was relaxed in bad years. Norway kept its own law, its own coin and its own regiments. It was not "
           "a colony. The metal still went south."),
          ("s02", "SVG_CATECHISM",
           "Figure 3 · Seven hundred and fifty-nine questions",
-          "Pontoppidan's <i class=\"dk\">Sandhed til Gudfrygtighed</i> of 1737, the required "
-          "book for every child in two kingdoms. Any fifty of them could be asked at the "
-          "public examination in front of the congregation, and you did not know which fifty, "
-          "so you learned them all. Re-authorised by three kings in succession and required by "
-          "law until 1794; it is probably the book by a Danish author printed in more copies "
-          "than any other."),],
+          "Pontoppidan's Sandhed til Gudfrygtighed of 1737, the required "
+          "book for every child in two kingdoms: one square for each question and answer, "
+          "every one of them to be had by heart before the public examination in front of "
+          "the congregation. Prescribed by royal order in 1738 and required by law until "
+          "1794; it is probably the book by a Danish author printed in more copies than any "
+          "other."),],
  ),
 
  29: dict(
@@ -234,10 +227,10 @@ HAND = {
    title='Struensee, and the village taken apart',
    people='Christian 7. · J.F. Struensee · Caroline Mathilde · C.D.F. Reventlow · Hans Knudsen',
    hook="A German doctor governs Denmark for sixteen months through a king who cannot, "
-        "issues something like a thousand cabinet orders, and is executed for it. The men who "
+        "issues more than a thousand cabinet orders, and is executed for it. The men who "
         "overthrow him rule the same way. Then, in the 1780s, the state takes the Danish "
-        "village apart field by field and unties the bond of 1733 — and raises a column to "
-        "itself for doing it, three years before the last man was actually free.",
+        "village apart field by field and unties the bond of 1733 — and Copenhagen raises a "
+        "column to the king for doing it while the last bound men are still waiting to be free.",
    keys=['kabinetsordrer', 'trykkefrihed 1770', 'indfødsretten 1776',
          'Den Store Landbokommission 1786', 'udskiftning', 'stjerneudskiftning',
          'udflytning', 'arvefæste', 'stavnsbåndets ophævelse 1788', 'Frihedsstøtten'],
@@ -263,76 +256,62 @@ HAND = {
           "Figure 2 · The bound years",
           "The ages at which a countryman could not leave the estate he was born on. The bond "
           "was imposed on 4 February 1733 for men of fourteen to thirty-six, widened to nine "
-          "to forty in 1742 and four to forty in 1764. The ordinance of 20 June 1788 worked "
-          "three ways at once: it put the band back to the range of 1733, gave immediate "
-          "freedom passes to men already too old for service and to those discharged from "
-          "it, and released one cohort in each following year, the last on 1 January 1800 "
-          "— three years after the column was finished. Conscription itself was not "
-          "abolished but moved on "
-          "to the new censuses, and it went on falling only on country youth: young men in the "
-          "market towns were exempt until 1849."),
+          "to forty in 1742 and four to forty in 1764. After the ordinance of 20 June 1788 "
+          "nobody entered it: the wedge is the closed set of birth-years left bound, "
+          "growing older year by year and released one birth-year a year until 1 January "
+          "1800. Men discharged from service also went free, so the wedge is the most the rule "
+          "could hold: it is drawn from the rule, not from a count of men."),
          ("s09", "SVG_COLUMN",
           "Figure 3 · What the column says",
-          "<i class=\"dk\">Frihedsstøtten</i> on Vesterbrogade, 1792–97: twenty metres of "
-          "Bornholm sandstone, raised by public subscription in 1791 while the landowners were "
-          "pushing back and the government had stopped reforming. The inscription is given "
-          "here line by line with what each line leaves out. The king it credits was incapable; "
-          "the free peasant it promises is the <i class=\"dk\">gårdmand</i>, not the cottager; "
-          "and the bond it says shall cease had twelve years to run."),],
+          "*Frihedsstøtten* on Vesterbrogade, 1792–97: twenty metres of Bornholm sandstone, "
+          "paid for by a collection among Copenhagen's citizens while the landowners were "
+          "pushing back. The inscription is given here line by line with what each line leaves "
+          "out. The king it credits was incapable; the free peasant it promises is the "
+          "*gårdmand*, not the cottager; and the bond it says shall cease still held men when "
+          "the column was finished."),],
  ),
 
  30: dict(
    file='c30_body.html',
    part='Part G', band='Absolutism', num=30, dates='1620 – 1803',
    title='The Danish Atlantic',
-   people='Frederik 5. · Ernst Schimmelmann · Hans Egede Saabye · Breffu · Espen Kønig',
-   hook="For a hundred and eighty years Denmark ran forts on the Gold Coast, islands in the "
-        "Caribbean and ships between them. About a hundred thousand people were carried in "
-        "Danish bottoms. In 1792 Denmark became the first state in Europe to order the trade "
-        "ended — with a ten-year delay written into the ordinance, during which the traffic "
-        "was larger than it had ever been.",
+   people='Christian Runge · Breffu · Philip Gardelin · Heinrich Carl Schimmelmann · Ernst Schimmelmann',
+   hook="Between 1658 and 1803 Denmark came to run forts on the Gold Coast, islands in the "
+        "Caribbean and the ships between them. About a hundred and eleven thousand people were "
+        "carried in Danish bottoms. In 1792 Denmark became the first slave-trading nation to "
+        "decide to end its trade — with a ten-year delay written into the ordinance, during "
+        "which Danish ships fetched more people from Africa than ever before.",
    keys=['Trankebar 1620', 'Christiansborg på Guldkysten', 'Sankt Thomas 1672',
          'Vestindisk-guineisk Kompagni', 'Sankt Jan 1733', 'Sankt Croix 1733',
-         'plantageloven', 'trekantshandelen', 'Fredensborg', 'forordningen af 16. marts 1792'],
-   qs=["Denmark held Atlantic possessions for a hundred and eighty years. What were the three "
-       "legs of the trade, and what went on each?",
+         'Gardelins reglement', 'trekantshandelen', 'Fredensborg', 'forordningen af 16. marts 1792'],
+   qs=["Danish ships ran the triangular trade from the 1660s to 1803. What were its three "
+       "legs, and what went on each?",
        "The rising on St Jan in 1733 and the rising on Bornholm in 1658 are told very "
        "differently in Danish history. Why?",
        "What did the ordinance of 16 March 1792 actually order, and what happened in the ten "
        "years that followed?",
-       "The state measured every Danish farm in 1662, every Danish field in 1682, and ruled St "
-       "Croix into lots in 1734. Why is only the third never counted as an achievement of the "
-       "enlightened state?",
-       "The <i class=\"dk\">Fredensborg</i> is the best-documented slave ship in the world. "
-       "What do its papers record, and what do they not?"],
+       "Why is the company's grid on St Croix so seldom set beside the Danish land surveys of "
+       "1662 and 1681, and what does the comparison show?",
+       "Of the slave ships found as wrecks, the <i class=\"dk\">Fredensborg</i> is the best "
+       "documented. What do its papers record, and what do they not?"],
    figs=[("s03", "SVG_TRIANGLE",
           "Figure 1 · The triangle, weighed",
-          "Every Danish voyage began and ended in Copenhagen. Out went Indian cotton above "
-          "all, then other textiles, firearms, gunpowder and brandy; across went people, two "
-          "to three months, about one in five of whom did not arrive; home came raw sugar, "
-          "refined in Copenhagen under monopoly and sold in two kingdoms. Between the 1660s "
-          "and 1803, something between a hundred thousand and a hundred and eleven thousand "
-          "people were carried in Danish ships on about 430 voyages — 2.3 per cent of the "
-          "Atlantic traffic, which made Denmark the seventh largest of the nations that did it."),
+          "The triangle as the traders' books saw it: goods out, people across, sugar home. "
+          "The legs are drawn by what they carried, not to scale. The figures at the foot count "
+          "all Danish slave voyages from the 1660s to 1803, set against the whole Atlantic "
+          "trade as the SlaveVoyages database estimates it for 1501–1866."),
          ("s06", "SVG_SURVEYS",
           "Figure 2 · The same habit, three times",
-          "One state, seventy years, three ways of writing land down. In 1662–64 every farm in "
-          "the kingdom was converted into one unit, <i class=\"dk\">hartkorn</i>, without "
-          "anything being measured. In 1682–83 every cultivated field was walked and measured "
-          "and its soil graded, four sworn peasants per district going with the surveyors. In "
-          "1734 an island bought the year before was ruled into uniform lots on a grid and "
-          "handed to shareholders, who cleared it and planted cane. The first two are told in "
-          "Denmark as the state learning to see itself. The third is the same instrument in the "
-          "same century."),
+          "Three ways of writing land down: converting (1662–64), measuring (1681–83) and "
+          "dividing (from 1734). The emblems are schematic. The lots on St Croix were each two "
+          "thousand by three thousand Danish feet, a hundred and fifty of the island's acres, "
+          "and the survey that fixed them ran on into the 1740s."),
          ("s04", "SVG_PAPERS",
           "Figure 3 · What the papers keep",
-          "The <i class=\"dk\">Fredensborg</i>, 1767–68, is the best-documented slave ship in "
-          "the world. Its papers record the master, the carpenter who died on 4 January 1768, "
-          "the other thirty-odd of the crew by name, the wind and the ship's position every "
-          "day, and the cargo itemised. They do not record the names of the people in the hold, "
-          "where in Africa they were taken from, what languages they spoke, who among them was "
-          "related to whom, or anything any of them said. The asymmetry is not a gap in the "
-          "archive. It is what the archive was for."),],
+          "The *Fredensborg*'s papers, 1767–68, set beside what they leave "
+          "out. The captain's journal and the assistant's protocol are in Rigsarkivet in "
+          "Copenhagen and have been transcribed by KUBEN in Arendal, which also shows what "
+          "divers raised from the wreck."),],
  ),
 
  31: dict(
@@ -340,17 +319,18 @@ HAND = {
    part='Part G', band='Absolutism', num=31, dates='1784 – 1814',
    title='The flourishing trade and the wreck of it',
    people='Frederik 6. · Ernst Schimmelmann · Peter Willemoes · Kamma Rahbek · Edmund Bourke',
-   hook="Twenty years of neutrality make Copenhagen rich carrying other people's cargo. Then "
-        "the British take the fleet in three nights of bombardment, the state currency is "
-        "written down to a sixth in a single ordinance, and Norway — four hundred years in the "
-        "same realm — is signed away in an afternoon at Kiel. In the same year Denmark orders "
+   hook="From the American war to 1807, neutrality makes Copenhagen rich carrying other "
+        "people's cargo. Then the British take the fleet after three nights of bombardment, "
+        "the state currency is written down to a sixth in a single ordinance, and Norway — "
+        "more than four hundred years in the same realm — is signed away in one treaty at "
+        "Kiel. In the same year Denmark orders "
         "seven years of school for every child in the country.",
    keys=['den florissante handelsperiode', 'væbnet neutralitet',
          'slaget på Reden 1801', 'Københavns bombardement 1807', 'kanonbådskrigen',
          'statsbankerotten 1813', 'rigsbankdaler', 'Kieltraktaten 1814',
          'Eidsvoll 1814', 'skoleloven 1814'],
-   qs=["What was a neutral bottom worth between 1793 and 1807, and why did that make "
-       "Copenhagen rich?",
+   qs=["What was a neutral bottom worth between the American war and 1807, and why did "
+       "that make Copenhagen rich?",
        "The British attacked a neutral country and took its fleet. On what argument — and "
        "what would Denmark have had to do to avoid it?",
        "The reform of 5 January 1813 is remembered as the state bankruptcy. Why is that name "
@@ -369,21 +349,17 @@ HAND = {
           "Peymann capitulated on the 7th and the fleet sailed for England."),
          ("s06", "SVG_FLEET",
           "Figure 2 · What sailed away",
-          "The prize of September 1807, by rate: seventeen ships of the line, seventeen "
-          "frigates, nineteen smaller vessels and twenty-six gunboats — seventy-nine hulls, "
-          "together with nearly everything in the naval stores. The ships standing on the "
-          "stocks were destroyed where they stood, so that what remained could not be rebuilt "
-          "quickly. Denmark had been a naval power since the fifteenth century. It stopped "
-          "being one in six weeks."),
+          "The prize of September 1807: forty-five hulls, each drawn as a mark sized by its "
+          "rate, from the ships of the line down to the smaller craft. The naval stores that "
+          "went with them are not drawn."),
          ("s07", "SVG_DALER",
           "Figure 3 · Six for one, 5 January 1813",
-          "Six old <i class=\"dk\">kurantdaler</i> notes exchanged for one new "
-          "<i class=\"dk\">rigsbankdaler</i>: five sixths of the paper money written off at a "
-          "stroke, against a note that had already fallen to about six per cent of face value "
-          "in silver. What backed the new one was a charge of six per cent on the value of all "
-          "fixed property in Denmark, Norway, Slesvig and Holstein, payable in silver or "
-          "standing as a first mortgage at 6.5 per cent a year. Every house, farm and workshop "
-          "in the realm was made security for the new notes."),],
+          "Six old *kurantdaler* notes exchanged for one new *rigsbankdaler*, against a note "
+          "that had already fallen to about six per cent of face value in silver. The new "
+          "issue was capped at forty-six million, and the ordinance says where all of it was "
+          "to go: twenty-seven million to take in the old notes, the other nineteen million "
+          "partly to lending and partly to a reserve fund for the state's extraordinary "
+          "expenses."),],
  ),
  32: dict(
    file='c32_body.html',
@@ -1028,6 +1004,43 @@ def load():
     return open(DRAFT, encoding="utf-8").read()
 
 
+# A SEGMENT'S PREAMBLE - everything between its `# Chapter NN` line and its first `##` -
+# is never emitted, whichever kind of segment it heads. Review session 9 (§13.6) found
+# two things there that were meant for the reader and never reached a page: chapter 25's
+# Nansen vignette (258 words, in a continuation preamble) and chapter 30's "note on
+# language" (70 words, in the APPARATUS preamble, which the first guard did not look at).
+# So every preamble is held to its structural shape: the `# Chapter NN` line itself, which
+# carries the chapter's title from HAND and nothing after it but its dates (or the word
+# "apparatus"); blank lines and rules; and italic header notes that begin "*Draft" or
+# "*Notes", of at most PREAMBLE_HEADER_WORDS words together - a header states what the
+# segment holds, and anything longer is prose that would vanish.
+PREAMBLE_HEADER_WORDS = 60
+
+
+def preamble_leftover(preamble, n):
+    """Lines of a segment preamble that are not structure. [] means the preamble is clean."""
+    lines = preamble.splitlines()
+    left = []
+    if lines:
+        m = re.match(r'^# Chapter %d — (.*?)\s*$' % n, lines[0])
+        rest0 = m.group(1) if m else None
+        title = HAND[n]['title'] if n in HAND else None
+        if rest0 == 'apparatus':
+            pass
+        elif (rest0 is None or title is None or not rest0.startswith(title)
+              or not re.fullmatch(r'(?:,\s*(?:c\.\s*)?\d{4}\s*[–-]\s*\d{4})?', rest0[len(title):])):
+            left.append(lines[0])
+    rest = "\n".join(ln for ln in lines[1:] if ln.strip() and not re.match(r'^\s*-{3,}\s*$', ln))
+    if rest:
+        spans = re.fullmatch(r'(?:\s*\*(?:Draft|Notes)\b[^*]*\*)+\s*', rest, re.S)
+        if not spans:
+            left += [ln for ln in rest.splitlines() if ln.strip()]
+        elif len(rest.split()) > PREAMBLE_HEADER_WORDS:
+            left.append("%d words of italic header notes (the limit is %d): %s"
+                        % (len(rest.split()), PREAMBLE_HEADER_WORDS, " ".join(rest.split())[:60]))
+    return left
+
+
 def chapter(src, n):
     """(prose, apparatus) for chapter n.
 
@@ -1065,19 +1078,54 @@ def chapter(src, n):
     """
     src = re.sub(r'^[ \t]*<!--\s*=+\s*c\d\d_draft[^\n]*-->[ \t]*\n?', '', src, flags=re.M)
     ms = [m for m in re.finditer(r'^# Chapter (\d+)(.*)$', src, re.M)]
+    # THE FILE'S OWN HEAD is not emitted either: everything before the first `# Chapter`
+    # line. It may hold a `# PART ...` title and italic notes about the file, and nothing
+    # else (the second checker of session 9 found it unguarded).
+    head = src[:ms[0].start()] if ms else ''
+    left = [ln for ln in head.splitlines()
+            if ln.strip() and not re.match(r'^\s*(?:# PART [A-Z]\b.*|\*[^*]+\*|-{3,})\s*$', ln)]
+    if left:
+        raise SystemExit(
+            "!! %s: %d line(s) before the first `# Chapter` line that are not a title or an "
+            "italic file note. Nothing there is emitted. Move it into a chapter:\n%s"
+            % (DRAFT, len(left), "\n".join("   - %s" % ln[:70] for ln in left[:5])))
     body = app = None
     for i, m in enumerate(ms):
         if int(m.group(1)) != n:
             continue
         end = ms[i + 1].start() if i + 1 < len(ms) else len(src)
         seg = src[m.start():end]
-        if 'apparatus' in m.group(2):
+        kind = ('apparatus' if 'apparatus' in m.group(2)
+                else 'first body' if body is None else 'continuation')
+        first = re.search(r'^## ', seg, re.M)
+        preamble = seg[:first.start()] if first else seg
+        # AND REFUSE PROSE, in every kind of segment (see preamble_leftover above).
+        # draftnotes only knows what an author note looks like, and chapter 25's
+        # continuation preamble carried something else: a whole vignette, dropped on
+        # every build since the chapter was drafted and never missed, because no guard
+        # counts what is not emitted. Chapter 30's apparatus preamble did the same with
+        # its note on language. Anything beyond the structural lines stops the build.
+        left = preamble_leftover(preamble, n)
+        if left:
+            raise SystemExit(
+                "!! chapter %d: the %s segment's preamble carries %d line(s) of text "
+                "before its first `##`. The preamble is not emitted, so this would be "
+                "dropped rather than shipped. Move it into a section:\n%s"
+                % (n, kind, len(left), "\n".join("   - %s" % ln[:70] for ln in left[:5])))
+        if kind == 'apparatus':
+            # ONE APPARATUS SEGMENT. A second `# Chapter NN — apparatus` line used to
+            # replace the first here (`app = seg`), silently: the checker of review
+            # session 9 planted one in chapter 27 and the page lost its terms, both
+            # Meanwhiles and the whole Myth-check while mkbody, the part build and
+            # appcheck all passed.
+            if app is not None:
+                raise SystemExit(
+                    "!! chapter %d: two `# Chapter %d — apparatus` segments. The build keeps "
+                    "one; merge them." % (n, n))
             app = seg
         elif body is None:
             body = seg
         else:
-            first = re.search(r'^## ', seg, re.M)
-            preamble = seg[:first.start()] if first else seg
             # REFUSE RATHER THAN DISCARD. The preamble is structural and is
             # dropped - but chapter 25's carried a real placement note, and
             # dropping that silently would be the very fault this function is
@@ -1625,9 +1673,13 @@ def build(n):
     # and a Summary of one renders a single item numbered 01. Chapters 25, 26 and 27
     # shipped with four (open item 19) and chapter 32 shipped with ONE, which nobody
     # noticed for a session, because this line printed the number and judged nothing.
+    # It printed and exited 0 until review session 9, when the checker renamed a Summary
+    # heading and the body was written with an empty "five things" and the part build
+    # still said "built clean". A body that breaks the heading's promise is a failed
+    # build, so it now stops (the body is already written, and says what is wrong).
     if nfive < 5:
-        print("  !! chapter %d: Summary yields %d item(s); the heading promises five"
-              % (n, nfive))
+        raise SystemExit("  !! chapter %d: Summary yields %d item(s); the heading promises five"
+                         % (n, nfive))
     print("  summary items %d (of %d paragraphs) | questions %d | placeholders %s"
           % (min(5, nfive), nfive, nq, sorted(set(re.findall(r'\{\{([A-Z0-9_]+)\}\}', out)))))
     bad = [t for t in ['div', 'p', 'h2', 'h4', 'ul', 'ol', 'li', 'dl', 'dt', 'dd',

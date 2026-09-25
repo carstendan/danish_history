@@ -1,4 +1,4 @@
-<svg viewBox="0 0 700 452" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A plan of Leonora Christina's room in the Blue Tower, drawn to the measurement she gives in Jammers Minde: seven of her paces long and six wide, containing two beds, a table and two chairs. Four doors are marked in sequence between her bed and the stair. She was held in the tower for 7955 days without once going outside.">
+<svg viewBox="0 0 700 452" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A plan of Leonora Christina's room in the Blue Tower, drawn to the measurement she gives in Jammers Minde: seven of her paces long and six wide, containing two beds, a table and two chairs. Four doors are marked in sequence between her bed and the stair. She was held in the tower for 7955 days.">
   <rect x="0" y="0" width="700" height="452" fill="#F0F2EE"/>
   <text x="26" y="30" class="mapl">SEVEN OF MY PACES LONG AND SIX BROAD</text>
   <text x="26" y="46" class="mapt">the room as she measured it, having nothing to measure it with</text>
@@ -50,11 +50,9 @@
   <text x="470" y="248" class="mapt">which was the fourth.</text>
   <line x1="470" y1="280" x2="686" y2="280" stroke="#C9CDC4" stroke-width="1"/>
   <text x="470" y="304" class="mapl">7,955 DAYS</text>
-  <text x="470" y="320" class="mapt">8 August 1663 to 19 May 1685.</text>
-  <text x="470" y="334" class="mapt">She counted it herself as 21</text>
-  <text x="470" y="348" class="mapt">years, 9 months and 11 days,</text>
-  <text x="470" y="362" class="mapt">and never once went outside in</text>
-  <text x="470" y="376" class="mapt">any of them.</text>
+  <text x="470" y="320" class="mapt">8 August 1663 to 19 May 1685:</text>
+  <text x="470" y="334" class="mapt">twenty-one years, nine months</text>
+  <text x="470" y="348" class="mapt">and eleven days.</text>
   <line x1="26" y1="364" x2="440" y2="364" stroke="#C9CDC4" stroke-width="1"/>
-  <text x="26" y="384" class="mapt">No charge was ever brought and no trial was ever held.</text>
+  <text x="26" y="384" class="mapt">Nine ells high, with one small barred window at the top.</text>
   </svg>

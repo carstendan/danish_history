@@ -1,4 +1,4 @@
-<svg viewBox="0 0 700 632" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Two panels on the Copenhagen plague of 1711. The upper panel is a dated sequence of the measures the state took, from the Saltholm quarantine of 1709 through the health commission of July 1711 to the reopening of the gates in April 1712. The lower panel shows four published estimates of the death toll as bars, ranging from twenty thousand to about twenty-seven thousand six hundred, against a city whose population is itself given as between sixty and sixty-nine thousand. The estimates are shown disagreeing rather than averaged.">
+<svg viewBox="0 0 700 632" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Two panels on the Copenhagen plague of 1711. The upper panel is a dated sequence of the measures the state took, from the Saltholm quarantine of 1709 through the health commission of July 1711 to the reopening of the gates in April 1712. The lower panel shows four published estimates of the death toll as bars, ranging from twenty thousand to twenty-five thousand, against a city of about sixty thousand. The estimates are shown disagreeing rather than averaged.">
   <rect x="0" y="0" width="700" height="632" fill="#F0F2EE"/>
   <text x="26" y="30" class="mapl">WHAT THE STATE DID</text>
   <text x="26" y="46" class="mapt">the first time the machinery of 1660 was turned on a disease</text>
@@ -50,7 +50,7 @@
   <text x="150" y="388" class="mapt">A national day of thanksgiving.</text>
   <line x1="26" y1="434" x2="674" y2="434" stroke="#C9CDC4" stroke-width="1"/>
   <text x="26" y="458" class="mapl">WHAT IT COULD NOT COUNT</text>
-  <text x="26" y="474" class="mapt">four published figures for the same five months, shown disagreeing</text>
+  <text x="26" y="474" class="mapt">four published figures for the same months, shown disagreeing</text>
   <text x="200" y="496" class="mapt" text-anchor="end">Københavns Stadsarkiv</text>
   <rect x="210" y="487" width="333.3" height="11" fill="#2F4C7A" opacity=".50"/>
   <text x="551.3" y="496" class="mapt">25,000</text>
@@ -58,13 +58,11 @@
   <rect x="210" y="509" width="266.7" height="11" fill="#2F4C7A" opacity=".50"/>
   <text x="484.7" y="518" class="mapt">20,000</text>
   <text x="200" y="540" class="mapt" text-anchor="end">"every third inhabitant"</text>
-  <rect x="210" y="531" width="306.7" height="11" fill="#2F4C7A" opacity=".50"/>
-  <rect x="210" y="531" width="266.7" height="11" fill="#2F4C7A" opacity=".30"/>
-  <text x="524.7" y="540" class="mapt">20,000–23,000</text>
+  <rect x="210" y="531" width="266.7" height="11" fill="#2F4C7A" opacity=".50"/>
+  <text x="484.7" y="540" class="mapt">20,000</text>
   <text x="200" y="562" class="mapt" text-anchor="end">"about 40 per cent"</text>
-  <rect x="210" y="553" width="368.0" height="11" fill="#2F4C7A" opacity=".50"/>
-  <rect x="210" y="553" width="320.0" height="11" fill="#2F4C7A" opacity=".30"/>
-  <text x="586.0" y="562" class="mapt">24,000–27,600</text>
-  <text x="26" y="600" class="mapt">Population of the city: given as 60,000 in some accounts and 69,000 in others.</text>
+  <rect x="210" y="553" width="320.0" height="11" fill="#2F4C7A" opacity=".50"/>
+  <text x="538.0" y="562" class="mapt">24,000</text>
+  <text x="26" y="600" class="mapt">Population of the city: about 60,000. The two proportions are drawn as shares of that.</text>
   <text x="26" y="614" class="mapt">The bills of mortality survive in the city archive. Nobody in this chapter has counted them.</text>
   </svg>

@@ -96,7 +96,16 @@ which state printed it. *Corrected in review session 8:* the example had "27 Aug
 
 **Known limit.** It does not resolve the Frederiksborg peace of 1720 (3 June or 3
 July — a disagreement about the month, not the style). See E4 in *REQUIRES
-PHYSICAL / ARCHIVE ACCESS*.
+PHYSICAL / ARCHIVE ACCESS*. *Review session 9:* chapter 27 now gives 3 July 1720
+(Danish style), ratified 23 July, and states both rival readings — Schou's 3 June, and
+the English reference works' 3 July Julian, 14 July in the Danish style.
+
+**Applied to Part G, review session 9.** The part's first divergence is 25 §01 (10–11
+February 1659, 20–21 new style); each chapter gives its own first (26 Vienna, 27
+Travendal, 31 Tsar Paul's murder; 28–30 have none). **One exception, decided in session
+9:** a second parenthesis is allowed where the chapter's argument needs the foreign date
+on the page — 27 §07's Stockholm preliminaries, 14 June (3 June, Swedish style), without
+which the Frederiksborg dating cannot be followed (`REVIEW-CONSISTENCY.md` §13.5).
 
 **Defined.** `PLAN_G.md` §6; `HANDOFF.md`, *Dates: old style and new style*.
 
@@ -131,7 +140,8 @@ found nine wrong intervals, and the fixes' checker found one of them re-broken b
 Part E's (session 7) found thirty-four, and the checker three more in the fixes ("thirty-six",
 "twenty-seven years of rule", "four months"). Part F's (session 8) found sixty-six, and the checker
 five more in the fixes (among them "since the new star of last November", written while removing
-"thirteen months").
+"thirteen months"). Part G's (session 9) found ninety-five; the two checkers found five more in the
+fixes, and the reviewer wrote and caught a sixth ("three months before" for 15 June to 5 September).
 
 ### D-9 · Vignette balance tags — in force
 
@@ -185,7 +195,11 @@ they are carried out, `vignettes.py` reports 16, 17, 18 and 20 as D-9 failures, 
 out in session 8: no D-9 failure in Parts A–E** (`REVIEW-CONSISTENCY.md` §12.1). **Part F tagged the
 same day: 21 carries no `[n]`** — R-15 (§12.9), not tagged away. **R-15 answered 24 September 2026
 as recommended:** Rasmus Pedersen, Tycho Brahe's tenant, Hven 1590–92 (21 §08, `[n]`), for review
-session 9; until it is carried out, `vignettes.py` reports 21 as a D-9 failure, correctly.
+session 9; until it is carried out, `vignettes.py` reports 21 as a D-9 failure, correctly. **Carried
+out in session 9** (Gundsømagle; the king's court, 10 July 1591): **no D-9 failure in Parts A–F**
+(`REVIEW-CONSISTENCY.md` §13.1). **Part G tagged the same session: 25 carries no `[f]`, 27 and 31 no
+`[n]`** — 25's and 31's are the two failures this entry names as found by hand at drafting, still
+there — R-16 to R-18 (§13.9), not tagged away.
 
 **Checked by.** `vignettes.py` balance layer, which reports such a chapter as
 "[f] part" — and still as FAIL if no chapter of its part carries `[f]`.
@@ -266,7 +280,11 @@ out of order in §06 and retells §05's Aalborg — for moving when 20 is next o
 session 8:** 16 §04 (Margrete at Lund) and 18 §08 (the peasants at Sankt Jørgensbjerg), under R-10 and
 R-13 (§12.1). **Part F, session 8: 22 §08, one of the seven, decided by re-scoping** — the section is
 now *Witchcraft and the state*, the vignette Johanne Tommesis alone, the list in the figure only
-(§12.5). 20's Rantzau vignette was not moved (20 was opened only for R-14).
+(§12.5). 20's Rantzau vignette was not moved (20 was opened only for R-14). **Part G, session 9: the
+four remaining Part G cases decided by re-scoping** — 26 §09 *The state's prisoners*, 27 §05 *The war
+at sea*, 27 §09 *The Greenland mission*, 29 §03 *The court under Struensee* (with 29 §04 *The fall,
+1772–75*); also 30 §05 *The Akwamu rising on St Jan, 1733–34* and 31 §08 *Norway ceded*, which were
+named for their vignettes' moments (§13.5). Six of the seven are decided; 35 §03 waits for Part H.
 
 **Checked by.** Reading. `REVIEW-BUILD-FAULTS.md` §4's overlap measure is a way of
 choosing what to read, not a test — it scores healthy vignettes about the same
@@ -327,7 +345,10 @@ Malmö; and **D-B's Dithmarschen is carried out** in 19 (eleven), 20 (one), 21 (
 with 16–18's "Ditmarsken" in English prose (three) as 13's was — Danish words such as a glossary
 term stay Danish. Schleswig 178 in 26 chapters, Slesvig 99 in 9: none in Parts A–F. **Part F, review session 8:** no
 Slesvig; the noun "Scania" is Skåne (three), the adjective "Scanian" stays as in Part G; "Femern" is
-Fehmarn (23); Malmø before 1658 and Malmö after, as the rule says (§12.5). Maps (`map_*.py`)
+Fehmarn (23); Malmø before 1658 and Malmö after, as the rule says (§12.5). **Part G, review session
+9:** every Slesvig in prose is Schleswig (26, 27, 29, 31, figure texts and captions); Tönning,
+Glücksburg; Christiania on the maps of 1660, 1721 and 1814. Schleswig 212 in 29 chapters, Slesvig 65
+in 4, none in Parts A–G (§13.5). Maps (`map_*.py`)
 label in Danish throughout and are left for a decision of their own when Part A–D
 maps are next touched.
 

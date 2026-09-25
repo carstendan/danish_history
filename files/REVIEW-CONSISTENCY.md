@@ -2393,3 +2393,297 @@ named, and after the chapter's end.
 session 9.
 
 Until it is carried out, `vignettes.py` reports 21 as a D-9 failure, and that is correct.
+
+## 13. Session 9 — 21's missing tenant, and Part G read (chapters 25–31)
+
+*24–25 September 2026, from `START_HERE_review_9.md`.*
+
+**The cold run matched every line.** A fresh clone of `af7352e`: git status clean; tidy reports and
+deletes nothing, 45 bodies; FIXTURE PASSES; SEAM LAYER PASSES; debuild 45 identical; 45 of 45,
+340,724 page words, 27.0 h, parts A 21,397 · B 26,326 · C 26,228 · D 32,106 · E 36,388 · F 29,659 ·
+I 74,403; vignettes 143/114, selftest passes, 01, 03, 04, 05 "[f] part", D-9 failure 21, 25–31
+untagged (32–45 tagged); figcheck 98/30/0; one OVER, 16 §08, 852; draftnotes clean in 45 pages and 14
+drafts; appcheck 159; freshcheck 14; `build_part_f.py` "all four built clean"; 2 pointers, 0
+insolvent, 0 same-page glosses; Schleswig 178 in 26 against Slesvig 99 in 9; sweep_facts 5; arrows
+254, 37 thread notes, form 7, direction 0, D-1 0, titles 0, solvency 41, prose references 0, footers
+0, `<h1>` 0, 9b 0. Item 146's pages and svg files are in its own commit (`765067b`), with the sources.
+
+**The session ran twice.** The first run (24 September, evening) carried out R-15, read Part G with
+one fact-checker and one fixer per chapter, and had its fixes checked by a separate agent; it was
+lost before the handover. Its state, its work as a patch and the checker's report had been saved to
+the project (`claude/session9_*`), as item 145's instruction asked. The second run (25 September)
+cloned afresh, re-ran the cold run, applied the saved patch, found what the patch did not carry (an
+`appcheck.py` change made after the last save), applied the checker's report, and had the result
+checked by a second agent that had seen neither. Both reports are in §13.8.
+
+### 13.1 R-15 carried out — and the recommendation's facts checked first
+
+| the recommendation said | the sources say | ground |
+|---|---|---|
+| *Danske Magazin* "4. rk. IV" for the 1592 letter | **3. række** IV pp. 263–64; the 1591 judgment is in the first series, II (1746) pp. 271–79 | the volumes (archive.org); Dreyer's own footnote |
+| "the king's court in July 1591 found six weeks' prison punishment enough and forbade the eviction" | that was the **four commissioners'** judgment, Copenhagen, 20 April 1591; the *retterting* of 10 July 1591 heard **Tycho's appeal against the four**, found they had done him no wrong and let their judgment stand in full | DM II pp. 273–78 |
+| "a court of four noblemen refused the eviction" | Erik Valkendorf, Niels Parsberg, Christen Friis of Borreby, Oluf Bille; Friis became chancellor in 1596 and was given the Roskilde prebend after Tycho left | DM II p. 274; DBL *Christian Friis* |
+| village to be found | **Gundsømagle**, Sømme herred: "Rassmus Pederssen vdi Gunssemagle"; a farm of the Hellig Tre Kongers prebend | DM 3.IV p. 263; Trap |
+| "on which he had built a house" | a life lease Tycho himself granted, bought "for fire Aar siden" for 220 daler, and a house of forty bays (OCR) | DM II p. 275 |
+| "put in irons … six weeks or more" | irons "ved hans Bord-Ende", carried to Hven, "6. Ugers Fongsel", as Tycho's punishment for Rasmus's refusal to appear; the four horses hauled on Hven about a month and two died | DM II pp. 274–76 |
+| the bond | signed in prison; the commissioners freed him from it so far as it reached beyond the main case — the first draft had this backwards, as the bond's own words (§13.8) | DM II p. 276 |
+| "in November 1592 … the king ordered the Zealand *landsdommer* to settle it" | a **draft** royal letter ("Concept"), repeating Rasmus's complaint that he still could not go onto his farm and that his brother and farmhand were held, and ordering the case before Lage Beck with other men | DM 3.IV pp. 263–64 |
+
+**21 §08.** Sophie Brahe's vignette moved up to follow the Uraniborg paragraphs it belongs to;
+"a documented case" became the pointer ("his quarrel with one of its tenants went as far as the
+king's court") and the vignette follows it (D-13). Who-line *Rasmus Pedersen, tenant at Gundsømagle ·
+Copenhagen Castle · 10 July 1591 · [n]*. The Sources carry the two volumes. About 420 words.
+**`vignettes.py`: no D-9 failure in Parts A–F.**
+
+### 13.2 Part G, read — errors of fact and of the book against itself, fixed
+
+Seven fact-checks (one per chapter) and seven fixers; their full tables are in the project
+(`claude/session9_factcheck_25..31.md`, `claude/session9_fixlogs.md`). The principal corrections:
+
+| ch | the page said | it is | ground |
+|---|---|---|---|
+| 25 §01 | "half the kingdom in three weeks"; the Swedes "three miles away"; privileges "granted … that no Danish king had granted a town before"; the night of "10 February 1659" | a third of the realm; Karl Gustav on Valby Bakke; *promised* privileges on a footing with the nobility; 10–11 February (20–21, new style) — the part's first D-6 divergence | lex *Roskildefreden*, *Københavns belejring*; DBL *Nansen* |
+| 25 §02–§03 | "four-fifths of the country", "half the land"; an unnamed councillor's retort; a 7 October stamp-paper refusal; Nansen "sixty-two", "mayor for sixteen years", defending the rampart | "most of the country"; Otte Krag and Nansen on 19 September; the stamp paper found nowhere, cut; sixty-one, mayor since 1644, senior since 1654, and in the siege a withdrawn role, so the rampart is cut (and 24's "organised the city's defence" with it) | GP *Uden stands forskel*; DBL *Nansen* |
+| 25 §03 | **the Nansen vignette had never shipped**: it sat in a continuation segment's preamble, which mkbody drops | placed in §03; the guard that would have caught it is §13.6 | |
+| 25 §03 | *håndfæstning* "since 1320", "at his election" (the fixer's) | before his coronation; three in the fourteenth century and every king from 1448 (Christian 4., chosen in 1580, signed in 1596) | lex *håndfæstning*; DBL *Christian 4.* |
+| 25 §04 | Schumacher "thirty-one", "wrote out both fair copies"; the third restriction "the succession must run in his house"; seals "not attached until 1669" | thirty; the parchment is in his hand; he must keep the law as it stands; the Rigsarkiv copy probably written in 1669 and antedated; the succession clauses now said to fill much of the law | GP *Kongeloven*; Gottschalck, *Aigis*; lex *Kongeloven* |
+| 25 §05–§09 | Kommercekollegiet 1668; Gabel "a mapmaker's son"; the land tax "on noble and peasant land alike"; "fourteen minutes past four"; "two originals read aloud"; "forty-four years" | 1670; a surveyor's son; tenant farms taxed, home farms exempt; cut; the reading of 1671 is 26's, and 25 points to it; not printed in Frederik 3.'s or his son's lifetime | lex; DBL *Gabel*; GP *Tronskifte* |
+| 26 §01 | the Kongelov "on the altar … that almost nobody in the church had read" | read aloud "fra begyndelsen til enden … lydeligen for alle" before the anointing; he crowned himself before entering the church | GP *Tronskifte* |
+| 26 §03 | Griffenfeld chancellor "in June 1674"; "four years in Kastellet … eighteen more"; Karen Nansen "died in childbirth" | the sources split (November 1673 or 1674), both given; Kastellet to 1680, Munkholmen to 1698; the cause is not in DBL | DBL *Griffenfeld*, *Reedtz* |
+| 26 §06 | Møn "1 June … eight ships lost"; Juel's orders "not to engage before Tromp arrived"; Køge Bugt 29 June; "destroyed" Horn's fleet; statue "Kongens Nytorv", "1878" | the end of May, Sjöblad's surrender; not to engage a superior enemy; 1 July, the Swedes sighted 30 June; seven of the largest ships taken; Holmens Kanal, **unveiled 1881** (the second checker) | DBL *Juel*; lex *Køge Bugt*; Trap *Niels Juel-statuen* |
+| 26 §08–§09 | seven thousand Scanian conscripts, a *uniformitetsinspektör*, fifteen thousand fled; Leonora Christina "not once outside"; released "on a petition written in verse" | cut or softened (no reference work has them); cut; after Sophie Amalie's death, with Louis XIV and Gyldenløve interceding, 19 May 1685; Otto Sperling, tried and condemned, now beside her | DBL; Kvindebiografisk; DLH *Jammers Minde* |
+| 27 §01–§03 | Frederik 4. "twenty-eight"; "out in three months"; Karl 12. "did not come back for nine years"; "a few hundred" escaped Poltava; Rantzau "the Danish commander"; Sweden "reverted in 1712 … eleven days"; horses killed "on the beach" | twenty-seven; one campaign; Denmark stayed out nine years; a few thousand; Reventlow was ill and the army Rantzau's; Sweden one day ahead of Julian 1700–12, ten days from Gregorian; in Helsingborg | DBL; DSD *Poltava*, *Hestemassakren* |
+| 27 §04–§05 | the plague "a fifth to two fifths", population "sixty or sixty-nine thousand"; Marie Grubbe "about sixty", husband "in prison for manslaughter"; Tordenskjold "a tailor's son", "tenth of eighteen"; Dynekilen "ended the invasion" | from a third to over forty per cent of about sixty thousand; about sixty-eight, her husband awaiting the courts for a killing that May; a merchant's son, fourteenth; Karl 12. was already preparing to go and went the next day | danmarkshistorien; DBL *Marie Grubbe*, *Tordenskiold*; SNL |
+| 27 §07–§09 | "formally renounced" Skåne; the peace date; *vornedskab* "the burghers' programme of 1660" and "women as well"; "Krieger and a brickworks owner put up 149"; Egede "since 1711"; Visit "Kangeq" | no renunciation clause — not recovered; §13.5; unsourced, cut, and Møn's went in 1696; Lars Eriksen built more than half, Krieger possibly the designer; since 1710; Illuerunnerit, Egede's Håbets Ø | danmarkshistorien *Frederiksborgfreden*; lex *vornedskab*; Historiske Huse; navn.ku.dk |
+| 28 §01, §09 | "a king who closed the theatres"; the playhouse "burned in 1728" | it kept the theatre shut; Grønnegade was undamaged and did not play again | Teaterleksikon |
+| 28 §03–§05 | the *lægd* "twenty barrels"; *vornedskab* "women as well"; hoveri "two days in seven", Antvorskov 122 days; rinderpest "two million", "95 per cent" | one man per sixty (1733), forty (1741); men only; the 110-day reckoning labelled untraced and figure 1 schematic; more than a million across the century, most of the cattle it reached | G&P (Feldbæk); lex *kvægpest* |
+| 28 §08 | the 1728 fire "28 per cent" of the town; Árni's collection in the Trinitatis loft; "both Fagrskinna manuscripts in his collection" | two in five by the old count; the university library was in the loft, Árni's in his house, and he saved most of the oldest vellums; Kringla lost bar a leaf | lex *Københavns brande*; arnastofnun; handritinheima |
+| 29 §01–§02 | Christian 7. "seventeen"; Struensee "thirty-one", met on the tour; council dissolved "in the autumn"; "never held an office" | 29 January 1749 to 14 January 1766, dates named (D-8); thirty, engaged at Altona in April 1768; December 1770; cabinet minister July 1771 | DBL *Struensee*, *Christian 7.* |
+| 29 §02 | Struensee "considered abolishing stavnsbånd"; hoveri ordinance "20 January 1771" | unsourced, cut; the 1769 returns, the agrarian commission and the ordinance of **20 February 1771** (danmarkshistorien prints the document; DBL says 20.1 — the document wins) | danmarkshistorien *Hoveri* |
+| 29 §07–§09 | the 1788 ordinance "at once back to fourteen-to-thirty-six"; walk-out "the day after the king signed"; the column "a subscription of 1791", stone "on his wedding day" | boys three months, the over-age and discharged at once, the rest by birth-year to 1 January 1800; Schack-Rathlou on 6 June, a fortnight before; a collection among Copenhagen's citizens, stone on 31 July 1792, the second anniversary of the wedding | danmarkshistorien (ordinance §§1–4); DBL *Schack-Rathlou*; dengang.dk |
+| 30 §01, §03 | Christiansborg "taken in 1661"; "all voyages began and ended in Copenhagen"; 100,000–111,000 carried; "seventh largest" | Carolusborg 1658, Frederiksborg 1659, Christiansborg bought 1661; most voyages; about 111,000; the smallest of the seven national carriers SlaveVoyages distinguishes, and a carrier in its own right (the first fix, "one of only seven", was false: Brandenburg and Sweden carried too) | duda.dk; danmarkshistorien *Den danske slavehandel*; SlaveVoyages |
+| 30 §04–§10 | Kønig captain of the crossing; mortality "one in five"; "the harshest slave code in Danish history"; "the Crown bought out the company, from 1754"; "waived the import duty on women"; Schimmelmann "presided over the bankruptcy" | Kønig died on the Gold Coast, Ferentz commanded; one in six to one in five; cut; bought out 1754, crown rule from 1755; the head tax; finance minister of the 1813 reform, and dismissed after it | KUBEN; danmarkshistorien *VGK*, *Forordning om negerhandelen* |
+| 31 §03–§08 | "near the northern end" for the Willemoes battery; seventeen ships of the line and 79 hulls taken; the Rahbeks "had to leave" Bakkehuset; "Friday 2 September"; Bourke "sixty-three … forty years" | between *Sjælland* and *Dannebrog*; 45 hulls and 92 merchantmen of stores; unsourced, cut; Wednesday; fifty-two, twenty-four years | DBL *Willemoes*, *Bourke*; milhist *Flådens ran* |
+| 31 §04, §07 | the grain monopoly as the famine's cause; Schimmelmann and Reventlow "out of office" | the ban went in 1788, the dependence did not; both dismissed, both keeping a council seat | lex *kornmonopolet*; DBL |
+| 24 (for 25–26) | *Jammersminde*; *stænderforsamling*; the council "voted itself out of existence"; "twenty-one months"; "nearly twenty-two years" | *Jammers Minde*; *stændermøde* (and 32's back-reference); gave way and surrendered the charter; the peace of May 1660 and 1663 to 1685 named (D-8) | DBL; GP |
+
+**Ninety-five intervals and ages were wrong in Part G** (D-8, computed, by the fixers' counts): 25
+seventeen, 26 seventeen, 27 sixteen, 28 eight, 29 fourteen, 30 fourteen, 31 nine. Part C had nine, D
+sixteen, E thirty-four, F sixty-six. The first checker found four more in the fixes (a "twenty-one
+months" within a fortnight of twenty-two, Maria Theresa's "eight years", Christian 7.'s "sixteen" a
+fortnight from seventeen, Hans Knudsen "sixty-five or more"), and the second found my repair of
+Christian 7.'s age restating an interval where D-8 asks for the dates. I wrote one more myself — "three
+months before" for 15 June to 5 September — and caught it before the build.
+
+**The promises into Part G.** **24 → 25** (the estates of 1660, the hereditary crown, the Kongelov of
+1665) is delivered in 25 §02–§04; 24's own §10 retells the assembly briefly, which 25's Myth-check
+takes further — kept, as 24's close. **24 → 26** (Leonora Christina and *Jammers Minde*) is delivered
+in 26 §09, and the two chapters now agree on 1663 to 1685 and on the spelling. **24 → 26, 27** (the
+snaphane war and the last attempt on Skåne) is delivered in 26 §07–§08 and 27 §02–§03. **21 → 27**
+(the Gottorp question to 1720–21) is delivered in 27 §01, §06 and §07. Inside the part: 26 → 27 lost
+"Griffenfeld is on Munkholmen until 1698" (27 has nothing to hang it on); 27 → 30 (the Moravians) was
+insolvent and is gone, the Greenland rivalry now in 27 §09's body; 28 → 31 lost Wergeland (31 does not
+carry him); 28 → 29 and 28 §04 now match 29 on hoveri (fixed 1771, unlimited again 1773, rules 1799);
+30 → 31 and 31 ← 30 now agree that Schimmelmann was dismissed after the 1813 reform, not that he
+"presided over a bankruptcy" 31 says was not one.
+
+### 13.3 Part G — repetition and drag, fixed
+
+- **25's 8 October** was told six times (body, glossary, Myth-check, Summary, a question and the
+  unshipped vignette); now once, in the vignette, with pointers.
+- **The 1671 reading of the Kongelov** was told in full in both 25 and 26; now in 26 §01, and 25 points.
+- **27's plague toll, Tordenskjold and Egede**; **29's aftermath of 1788** (told about ten times; now in
+  §09 and the Summary); **30's 2.3 per cent and rank** (six times); **31's Bourke myth** (three times) and
+  Willemoes's death (twice): each now told once, pointers elsewhere.
+- **26's Svend Poulsen Myth-check** précised the §07 vignette (the first checker); now "the §07 vignette
+  gives the record". **30's "filed the proposal"**, three times in five paragraphs; once.
+- **27 §08 and 28 §03** made the same *vornedskab*/*stavnsbånd* comparison; 28 keeps it.
+- **Recall** (content-word Jaccard ≥ 0.4 against the shipped checkpoints, measured on built pages).
+  Before: **25 1/4, 29 1/4, 31 1/4** (31 2/4 after the fixers, whose new checkpoint question on what
+  the British took in 1807 matched Recall 3); the rest 0/4. Four replaced with questions no checkpoint
+  asks (Gersdorff and Roskilde; who paid for the Liberty Column and when its stone was laid; what
+  Floating Battery No. 1 was; the two death tolls of 1807). After: **0/4 in all seven.**
+
+**Found, kept.** Saltholm and the forty days (27; event, term, sequence, place); "Lund decided the land,
+Køge Bugt the sea" (26, the argument); the Guldberg "same instrument" irony (29); the school series from
+1721 to 1814 (27, 28, 31, the part's thread); 31's coda, the part's close.
+
+### 13.4 Found, recorded, not changed
+
+- **21 is now 50 minutes** (10,491 page words) with the Rasmus Pedersen vignette — inside the band, at
+  its top. D-16: kept; anything added to 21 later must be paid for inside it.
+- **28 is 44 minutes**, as before; D-16, kept.
+- **The per-chapter fragment files** (`c25_draft_01-03.md` … `c31_draft_apparatus.md`) are read by no
+  build and by no check now that `appcheck.py` reads `PART_G_DRAFT.md`. They have drifted. Candidates for
+  deletion — Carsten's call, since two generations of one file is how this project has lost work.
+- **Maps keep Danish labels** (D-15): `map_1721` has "Slesvig: wholly the king's, 1721" in its legend.
+- **Not verified, kept hedged or as they were:** Frederik Rostgaard as the 1709 edition's editor (25);
+  the 1747 Funen tax relief (28, local chronicle only); Hans Knudsen's age (29, from a parish history);
+  the Stadsarkiv plague anecdotes (27); the Kiel art. 27 dating (27, marked in Sources); DLH's 18 against
+  DBL's 19 May 1685 for the release (26); the Asiatic Company's cargoes "roughly equal to the entire state
+  revenue" (31 §01, probably Feldbæk — **for the library**); the rytterskole schoolmasters (27, no life
+  found).
+- **`build_part_h.py` has no retired-vocabulary guard** and no summary line either. For Part H's reading.
+- **The same Band/Era/padded regexes** as Part G's first version are in `build_parts_abc.py`,
+  `build_part_d.py`, `build_part_e.py` and `build_part_f.py`, with the gaps §13.6 closed in Part G.
+  They pass on their real pages; they should get Part G's text normalisation when next opened.
+- **24 → 25** still calls 1660 "the most complete absolutism in Europe"; 25 no longer says so. An arrow's
+  superlative, recorded.
+
+### 13.5 D-15, D-13, D-6 and D-14 in Part G
+
+**D-15.** Every Slesvig in Part G prose is Schleswig (26, 27, 29, 31; figure texts and captions too);
+Tönning, Glücksburg; Christiania on the maps of 1660, 1721 and 1814 (Oslo was renamed in 1624). The
+Skåne towns are Swedish after 1658 and "Scanian" is the adjective. **Schleswig 212 in 29 chapters,
+Slesvig 65 in 4 (32–34, 36), none in Part G.**
+
+**D-13 — the four Part G cases of the seven, decided by re-scoping.** **26 §09** is now *The state's
+prisoners*: the body argues the Blue Tower as state prison (Griffenfeld and Otto Sperling had courts;
+Leonora Christina never did); the vignette, in 1674, is her writing. **27 §05** is *The war at sea*:
+the body says why Tordenskjold is remembered; the vignette is Dynekilen. **27 §09** is *The Greenland
+mission*: the body keeps the petitions, the backing and the Moravian rivalry; the landing, the children
+and the fourteen years are Gertrud Rask's. **29 §03** is *The court under Struensee* (and §04 *The fall,
+1772–75*): the body is the regime as a household; the vignette is Caroline Mathilde's summer of 1771.
+Also re-scoped: 30 §05 *The Akwamu rising on St Jan, 1733–34* and 31 §08 *Norway ceded*, both named for
+their vignettes' moments. **With 42 §03 (Part I) and 22 §08 (Part F), six of the seven are decided;
+35 §03 waits for Part H.**
+
+**D-6.** The part's first divergence is 25 §01's assault on Copenhagen (10–11 February 1659, 20–21 new
+style). Each chapter gives its own first: 26 Vienna, 2 September 1683 (12 September, new style); 27
+Travendal, 18 August 1700 (8 August, Swedish style); 31 Tsar Paul's murder (23–24 March 1801, 11–12
+Russian style); 25's Meanwhile gives Mazarin in Danish style (27 February 1661). 28–30 have no divergent
+day date. **One exception kept:** 27 §07 gives Stockholm as 14 June (3 June, Swedish style) although it
+is not the chapter's first divergence, because the argument about the Frederiksborg date needs the
+Swedish date on the page. **The Frederiksborg peace (E4)** is given as 3 July 1720, ratified 23 July,
+with Schou's 3 June and the English reference works' 3 July Julian (14 July) both stated; HANDOFF E4 is
+updated.
+
+**D-14.** Louis XIV, Charles II and George III; Christian 5., Karl 12., Gustav 4. Adolf; no numerals for
+the tsars.
+
+### 13.6 The padded-chapter guard, given to Part G — and what else the build could not see
+
+`build_part_g.py` had no retired-vocabulary check and no summary line. It now has both, and exits
+non-zero on a problem. **Before trusting its clean first run, every "entry" in 25–31 was found by hand**
+— on the built pages, figure text and attributes included, whitespace joined and case ignored: two,
+both in 25's figure 3 about a register ("not a transcription of one entry", "the seven entries are
+added"), plus the JavaScript's `entries`. Those two phrases are `ALLOWED_ENTRY`.
+
+The first checker found the guard matched markup rather than text, and three more places where the Part
+G build could not see what it lost. The second checker, given the repairs, found five more. All closed,
+each **planted in a scratch copy and shown firing**, and the real pages built clean afterwards:
+
+| hole | now |
+|---|---|
+| prose in a segment's preamble is dropped silently — **chapter 25's Nansen vignette (258 words) never shipped, and chapter 30's "note on language" (70 words, in the apparatus preamble) never shipped either**; the second was found by hand while writing this guard | `mkbody.preamble_leftover()` checks every segment (first, continuation, apparatus): the `# Chapter` line must carry HAND's title and dates only; italic `*Draft`/`*Notes` headers up to 60 words; the file's own head likewise. The note on language is now in 30's Sources |
+| a second `# Chapter NN — apparatus` segment replaced the first | refused |
+| a Summary of fewer than five items printed `!!` and exited 0 | exits |
+| `appcheck.py` read `cNN_draft_apparatus.md` files no build reads (six false shortfalls), then — in the first run's repair — mkbody's own reader | reads `PART_G_DRAFT.md` itself, every apparatus segment, never falls back; reports unknown headings, and known headings used twice (a `## Visit` renamed `## Sources` dropped the whole Visit list) |
+| when mkbody refused, the part build went on from the old body and said "built clean"; the first repair asked only after writing the page | `freshcheck.check(n)` runs **before** each page is built; a stale body is "NOT BUILT"; `freshcheck.py` now covers 25–31, preferring `PART_G_DRAFT.md` (a stray `c27_draft.md` had become the witness) |
+| the vocabulary check read raw HTML: `chapter&#160;07`, `Chapter <i>07</i>`, "chapters 5, 6, and 07", `ch. 07`, `Era&#8209;page`, `Band&#160;C`, `entr&shy;y` all passed | it reads the text: tags dropped (aria-label, alt, title kept), entities decoded, dashes, spaces and soft hyphens folded; an allow-listed phrase no longer on the page is itself reported |
+
+**Known limits, by design:** up to 60 words of italic `*Draft` notes pass; an HTML comment in the
+concatenation-marker shape is stripped wherever it is. Parts H and I (32–45) build unchanged.
+
+### 13.7 D-9 in Part G — tagged
+
+| ch | vignette | tag | why |
+|---|---|---|---|
+| 25 | Joachim Gersdorff | `[-]` | *rigshofmester* |
+| 25 | Hans Nansen | `[-]` | senior mayor, a rich merchant |
+| 25 | the Amager farmers | `[n]` | |
+| 26 | Peder Schumacher | `[-]` | at the top of the state |
+| 26 | Svend Poulsen | `[n]` | a border fighter who lost his farm to arrears; a major's commission makes it weaker than a peasant |
+| 26 | Leonora Christina | `[f]` | the writer |
+| 27 | Marie Grubbe | `[f]` | born high; not tagged `[n]`, which would be tagging to pass |
+| 27 | Tordenskjold | `[-]` | |
+| 27 | Gertrud Rask | `[f]` | |
+| 28 | Sophie Magdalene | `[f]` | founder of Vallø |
+| 28 | Anders Pedersen | `[n]` | a farmer |
+| 28 | Christian 6. on the Dovre road | `[-]` | |
+| 29 | Caroline Mathilde | `[f]` | |
+| 29 | Struensee | `[-]` | |
+| 29 | Hans Knudsen | `[n]` | a tenant farmer |
+| 30 | Christian Runge | `[n]` | a sailor, third mate and steward |
+| 30 | Breffu | `[f][n]` | |
+| 30 | H.C. Schimmelmann | `[-]` | |
+| 31 | Peter Willemoes | `[-]` | a naval officer |
+| 31 | Kamma Rahbek | `[f]` | |
+| 31 | Edmund Bourke | `[-]` | |
+
+**D-9 failures: 25 (no `[f]`), 27 (no `[n]`), 31 (no `[n]`)** — true, not tagged away. 25's and 31's
+are the two CONVENTIONS D-9 names as found by hand at drafting; they are still there. §13.9 puts all
+three to Carsten.
+
+### 13.8 Checked by separate agents
+
+**First checker** (first run; the fixers' hunks): **some seventy slips in Part G's fixes (79 rows, a few
+of them one slip seen from two chapters), eleven holes in the tooling, eight slips in 21's vignette and
+five in 24 and elsewhere**, among them *håndfæstning* "at his election" (a correct phrase made wrong), a Recall question
+the page no longer answered, 27's back-pointers to a vornedskab claim 25 had cut and to a succession
+clause 25 no longer carried, Gersdorff called a commoner in 26, the D-13 repeats left in 26 §09 and 27 §09,
+Dynekilen "ended" the invasion, "between a third and two fifths" against the page's own 41.7 per cent, the
+1799 "cap" 29 does not describe, the Kurantbank "destroyed" by a bankruptcy 31 denies, "seventh largest"
+meaning seventh of seven, the 1682 survey against 26's 1681, a "wedding day" two years after the wedding,
+the discharged men missing from the 1788 release, and 28's and 30's built bodies stale in the commit; in
+21, the case reversed in the Sources, "the man he is appealing against", the letter a draft, the order of
+irons and seizure asserted. All applied in the second run.
+
+**Second checker** (second run; the repairs): **fifteen slips and five tooling holes** — among them
+**my "one of only seven" carrier nations, which was false**; Schack-Rathlou's walk-out dated after the
+king signed when DBL has it two weeks before; the Rasmus bond's wording invented from the judgment's
+limit on it, and the irons' cause; Gersdorff compensated before the compensation; the Juel statue's
+1878 (unveiled 1881); an arrow left half insolvent by a deletion; "freed again" for hoveri made unlimited;
+a "because" that turned an observation into a cause. All applied (§13.6 for the tooling).
+
+**Verified** in the working clone after every fix: figs 25–31, maps 1660/1721/1814, mkbody 25–32, build
+F, G and H (no `!!`, no STALE), `linkindex`, `index_generator`, then the suite: **debuild 45 identical; 45
+of 45, 340,840 page words, 27.1 h (Part F 30,153, Part G 52,644, Part H 41,195); vignettes 145/114, D-9
+failures 25, 27, 31, selftest passes; figcheck 98/30/0; one OVER, 16 §08, 852; draftnotes clean in 45
+pages and 14 drafts; appcheck 167 blocks in 21 chapters; freshcheck 21 fresh (25–45); tidy clean; seams
+pass; sweeps: 2 pointers solvent, 0 same-page glosses, Schleswig 212 / Slesvig 65, sweep_facts 5, arrows
+253 (27 → 30 dropped), 37 thread notes, form 7, D-1 0, titles 0, prose references 0, solvency 40.**
+mapfixture not re-run: map scripts changed only labels and comments; seams pass.
+
+### 13.9 Decisions for Carsten — Part G, one at a time
+
+Each recommendation is a first search, not a text; its facts are checked again when it is carried out
+(item 143). Research in `claude/session9_research_R16.md`, `_R17.md`, `_R18.md`.
+
+**R-16. 25 has no woman as agent.** *Recommendation:* **Charlotte Amalie of Hesse-Kassel · Nykøbing
+Slot, Falster · 25 June 1667 · `[f]`, in 25 §08 *A church of royal officers*.** The crown prince's bride,
+seventeen, refused to become a Lutheran; the Hessian side made her free Reformed worship a condition,
+and Denmark gave way reluctantly — her own chaplain, her household and their families, but no baptisms
+or weddings; she had learned Danish before she came. Kvindebiografisk: this cost her the clergy's
+goodwill, which "probably" explains the modest wedding at Nykøbing and her not being anointed with
+Christian 5. in 1671. It makes §08's state church particular from inside the royal house, and links to
+26 §01's anointing. About 280 words. *Alternative:* Sophie Amalie at the window during the execution of
+Kaj Lykke's effigy on the castle square, 5 September 1661 (the new Højesteret's first great case) — a
+strong scene, but her agency is "seems to have pressed" (DBL) and it risks the malicious-queen picture
+26 takes apart.
+
+**R-17. 27 has no non-elite subject.** *Recommendation:* **Kari Rasmusdatter Hiran, cottar's wife ·
+Nordkleiva, Krokskogen (Ringerike) · April 1716 · `[f][n]`, in 27 §05, re-scoped as *Norway, and the war at
+sea*.** After the skirmish at Nordkleiva on 16 April 1716 she went to the Swedish post at Jonsrud, was
+seized and questioned, and told them more than a thousand Norwegian peasants and soldiers held the pass;
+Karl 12. gave up the attempt there. We have only her word, in her petition of 1717 for a reward (two
+rigsdaler); the page would say so, and keep the 1905 rediscovery apart from the record. It gives Norway,
+half the monarchy, a person in a chapter that has it only as a coastline, and the body gains three
+general sentences on the invasion of 1716 (Christiania taken, Akershus and the Gjellebekk line held, the
+levies called out) before Dynekilen. About 300 words (SNL *Kari Hiran*; SNL on the invasion of 1716).
+*Alternative:* the brewer Poul Olsen of Helsingør, who buried his wife and seven children between 25 July
+and 20 August 1711 (27 §04) — powerful, but from one newspaper feature, to be checked against Frandsen
+(2010) first.
+
+**R-18. 31 has no non-elite subject.** *Recommendation:* **Hans Andersen, shoemaker · Odense ·
+1812–January 1813 · `[n]`, in 31 §07 *5 January 1813*.** A *friskomager* who in 1812 was paid to enlist
+as a musketeer in place of a farmer's son — the sum "presumably about 1,000 rigsdaler" (the H.C. Andersen
+Centre; to be confirmed before drafting, and kept hedged) — and saw it written down to a sixth by the
+ordinance of 5 January 1813; his regiment got no further than Holstein, and he came home sick in January
+1814. It is §07's "a wage earner's savings" as one man's price for his body, and it adds the substitute
+system the section does not mention. His son is one line. *Alternative:* the three Jutland brothers of
+*Prins Christian Frederik*, the hulk *Bahama* at Chatham, 1808–10 (31 §06) — the stronger story and a
+real gap (the prison hulks), but the brothers' names are in a 1963 *Fra Holbæk Amt* article no one has
+yet read.
+
+Until they are carried out, `vignettes.py` reports 25, 27 and 31 as D-9 failures, and that is correct.

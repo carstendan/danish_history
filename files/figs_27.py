@@ -15,7 +15,8 @@ burial curve from the parish bills. The bills are in Koebenhavns Stadsarkiv and
 the reference works do not agree with each other closely enough to reconstruct one
 from them: the same period is given as over a hundred deaths a day and as two to
 three thousand a week, and the total as 20,000, as about 25,000, as a third of the
-city and as forty per cent, against a population itself put at 60,000 or 69,000.
+city and as forty per cent, of a population of about 60,000. (An upper figure of
+69,000 once drawn here was found in no source in review session 9 and is gone.)
 
 A worked example can be labelled as constructed and still be honest, as the
 hartkorn page in chapter 25 is. A mortality curve cannot: inventing weekly values
@@ -98,10 +99,10 @@ MEASURES = [
 ESTIMATES = [
     ("K\u00f8benhavns Stadsarkiv", 25000, 25000),
     ("\"about 20,000\"", 20000, 20000),
-    ("\"every third inhabitant\"", 20000, 23000),
-    ("\"about 40 per cent\"", 24000, 27600),
+    ("\"every third inhabitant\"", 20000, 20000),
+    ("\"about 40 per cent\"", 24000, 24000),
 ]
-POP_LO, POP_HI = 60000, 69000
+POP = 60000
 
 
 def plague():
@@ -114,8 +115,8 @@ def plague():
          'sequence of the measures the state took, from the Saltholm quarantine of 1709 through '
          'the health commission of July 1711 to the reopening of the gates in April 1712. The '
          'lower panel shows four published estimates of the death toll as bars, ranging from '
-         'twenty thousand to about twenty-seven thousand six hundred, against a city whose '
-         'population is itself given as between sixty and sixty-nine thousand. The estimates are '
+         'twenty thousand to twenty-five thousand, against a city of about sixty thousand. '
+         'The estimates are '
          'shown disagreeing rather than averaged.">' % (W, H)]
     o.append('<rect x="0" y="0" width="%d" height="%d" fill="%s"/>' % (W, H, PAPER))
     o.append('<text x="26" y="30" class="mapl">WHAT THE STATE DID</text>')
@@ -140,7 +141,7 @@ def plague():
     b = top + len(MEASURES) * gap + 16
     o.append('<line x1="26" y1="%d" x2="674" y2="%d" stroke="%s" stroke-width="1"/>' % (b, b, RULE))
     o.append('<text x="26" y="%d" class="mapl">WHAT IT COULD NOT COUNT</text>' % (b + 24))
-    o.append('<text x="26" y="%d" class="mapt">four published figures for the same five months, '
+    o.append('<text x="26" y="%d" class="mapt">four published figures for the same months, '
              'shown disagreeing</text>' % (b + 40))
 
     x0, xw = 210, 400
@@ -160,9 +161,9 @@ def plague():
                  % (x0 + xw * hii / hi + 8, y, lab))
 
     yy = b + 62 + len(ESTIMATES) * 22 + 16
-    o.append('<text x="26" y="%d" class="mapt">Population of the city: given as %s in some '
-             'accounts and %s in others.</text>'
-             % (yy, format(POP_LO, ",d"), format(POP_HI, ",d")))
+    o.append('<text x="26" y="%d" class="mapt">Population of the city: about %s. The two '
+             'proportions are drawn as shares of that.</text>'
+             % (yy, format(POP, ",d")))
     o.append('<text x="26" y="%d" class="mapt">The bills of mortality survive in the city '
              'archive. Nobody in this chapter has counted them.</text>' % (yy + 14))
     o.append('</svg>')
@@ -173,7 +174,7 @@ def plague():
 DISTRICTS = 12
 PER_DISTRICT = 20
 BUILT = 241     # 240 in the twelve districts, plus Bogoe outside them, 11 June 1727
-PRICE = 550                      # rigsdaler, every school the same
+PRICE_LO, PRICE_HI = 550, 600    # rigsdaler paid the builders per school (Historiske Huse)
 YEARS = [1722, 1723, 1724, 1725, 1726, 1727]
 LEN_M, WID_M, HGT_M = 13.2, 7.5, 2.8
 
@@ -181,7 +182,7 @@ LEN_M, WID_M, HGT_M = 13.2, 7.5, 2.8
 def schools():
     W, H = 700, 506
     planned = DISTRICTS * PER_DISTRICT
-    total = BUILT * PRICE
+    tot_lo, tot_hi = BUILT * PRICE_LO, BUILT * PRICE_HI
     o = ['<svg viewBox="0 0 %d %d" xmlns="http://www.w3.org/2000/svg" role="img" '
          'aria-label="Diagram of the royal cavalry-district schools ordered in March 1721. '
          'Twelve districts at twenty schools each were planned, two hundred and forty in all, and '
@@ -189,12 +190,11 @@ def schools():
          'district: the number built per district varied while the total held. One more went up '
          'on Bog\u00f8 by '
          'royal resolution of 11 June 1727, outside the twelve districts, making two hundred '
-         'and forty-one. Every one was to the same drawing, 13.2 metres by 7.5, and the budget '
-         'figure was 550 rigsdaler each, though a costing of March 1722 put a single building '
-         'at 651. A plan of the standard building is shown with the sandstone '
-         'tablet that went over its door.">' % (W, H)]
+         'and forty-one. Every one was to the same drawing, 13.2 metres by 7.5, and the builders '
+         'were paid 550 to 600 rigsdaler for each. A plan of the standard building is shown '
+         'to scale.">' % (W, H)]
     o.append('<rect x="0" y="0" width="%d" height="%d" fill="%s"/>' % (W, H, PAPER))
-    o.append('<text x="26" y="30" class="mapl">TWO HUNDRED AND FORTY-ONE, IN SIX YEARS</text>')
+    o.append('<text x="26" y="30" class="mapl">TWO HUNDRED AND FORTY-ONE, 1722–27</text>')
     o.append('<text x="26" y="46" class="mapt">signed 28 March 1721; tendered that winter; '
              'built 1722\u201327</text>')
 
@@ -224,7 +224,7 @@ def schools():
     y0 = 274
     o.append('<line x1="26" y1="%d" x2="674" y2="%d" stroke="%s" stroke-width="1"/>'
              % (y0 - 16, y0 - 16, RULE))
-    o.append('<text x="26" y="%d" class="mapx">ONE DRAWING, ONE PRICE</text>' % y0)
+    o.append('<text x="26" y="%d" class="mapx">ONE DRAWING</text>' % y0)
     px_m = 11.0
     o.append('<rect x="26" y="%d" width="%.1f" height="%.1f" fill="%s" opacity=".18"/>'
              % (y0 + 26, LEN_M * px_m, WID_M * px_m, IND))
@@ -240,14 +240,15 @@ def schools():
              % (y0 + 55 + WID_M * px_m))
 
     px = 380
-    o.append('<text x="%d" y="%d" class="mapx">%d rigsdaler each, budgeted</text>' % (px, y0 + 20, PRICE))
-    o.append('<text x="%d" y="%d" class="mapl">%s rigsdaler</text>'
-             % (px, y0 + 42, format(total, ",d")))
-    o.append('<text x="%d" y="%d" class="mapt">at the budget rate. A costing of</text>' % (px, y0 + 58))
-    o.append('<text x="%d" y="%d" class="mapt">March 1722 put one at 651.</text>' % (px, y0 + 71))
-    yy = y0 + 92
-    for line in wrap("Krieger, the royal architect, and a brickworks owner at Niv\u00e5 put up a "
-                     "hundred and forty-nine of them between them. Attendance compulsory from "
+    o.append('<text x="%d" y="%d" class="mapx">%d\u2013%d rigsdaler to the builders, each</text>'
+             % (px, y0 + 20, PRICE_LO, PRICE_HI))
+    o.append('<text x="%d" y="%d" class="mapl">%s\u2013%s rigsdaler</text>'
+             % (px, y0 + 42, format(tot_lo, ",d"), format(tot_hi, ",d")))
+    o.append('<text x="%d" y="%d" class="mapt">for all of them, at those rates.</text>' % (px, y0 + 58))
+    yy = y0 + 79
+    for line in wrap("The master mason Lars Eriksen built more than half, and may have drawn "
+                     "them; the design is also credited to Krieger, the royal architect. "
+                     "Attendance compulsory from "
                      "five, girls as well as boys. Reading and Christian learning free; writing "
                      "and arithmetic eight skilling a month, which many could not find.", 48):
         o.append('<text x="%d" y="%d" class="mapt">%s</text>' % (px, yy, line))

@@ -46,7 +46,7 @@
   <text x="234.0" y="646.6" class="mapx" text-anchor="start">THE GERMAN CONFEDERATION</text>
   <text x="233.4" y="655.1" class="mapt" text-anchor="start">begins at the Eider, 8 June 1815</text>
   <circle cx="237.8" cy="597.5" r="2.4" fill="#3C3E36"/><text x="232.8" y="601.5" class="mapx" text-anchor="end">København</text>
-  <circle cx="215.0" cy="439.3" r="2.4" fill="#3C3E36"/><text x="220.0" y="442.3" class="mapx" text-anchor="start">Oslo</text>
+  <circle cx="215.0" cy="439.3" r="2.4" fill="#3C3E36"/><text x="210.0" y="442.3" class="mapx" text-anchor="end">Christiania</text>
   <circle cx="169.0" cy="624.6" r="2.4" fill="#3C3E36"/><text x="163.0" y="635.6" class="mapx" text-anchor="end">Flensburg</text>
   <circle cx="193.4" cy="667.4" r="2.4" fill="#3C3E36"/><text x="198.4" y="670.4" class="mapx" text-anchor="start">Lauenborg</text>
   <rect x="14" y="181" width="19" height="10.5" fill="#2E6B5E" fill-opacity="0.62" stroke="#2E6B5E" stroke-width="1"/>

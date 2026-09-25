@@ -65,27 +65,27 @@ def overruns(svg, W):
 
 
 # ------------------------------------------------------------------ figure 1
-CARRIED_LO, CARRIED_HI = 100000, 111000
+CARRIED = 111000
 VOYAGES = 430
 ALL_EUROPEAN = 12500000
-DIED_PCT = 20
 CROSSING_LO, CROSSING_HI = 2, 3
 
 
 def triangle():
     W, H = 700, 560
     o = ['<svg viewBox="0 0 %d %d" xmlns="http://www.w3.org/2000/svg" role="img" '
-         'aria-label="A diagram of the triangular trade. From Copenhagen, ships carried Indian '
+         'aria-label="A diagram of the triangular trade. From Denmark, ships carried Indian '
          'cotton, other textiles, firearms, gunpowder, brandy and small goods to the Danish forts '
          'on the Gold Coast. From there they carried people across the Atlantic to the Danish '
-         'West Indies, a crossing of two to three months on which about one in five died. From '
-         'the islands they carried raw sugar home to Copenhagen, where it was refined under '
-         'monopoly. Between the 1660s and 1803 Danish ships carried about 100,000 to 111,000 '
-         'people on some 430 voyages.">' % (W, H)]
+         'West Indies, a crossing of two to three months on which between one in six and one in '
+         'five died. From the islands they carried raw sugar home to Copenhagen, where it was '
+         'refined under monopoly. Between the 1660s and 1803 Danish ships carried about 111,000 '
+         'people on some 430 voyages, under one per cent of the 12.5 million carried across the '
+         'Atlantic in all: the smallest of the seven national carriers the SlaveVoyages database distinguishes.">' % (W, H)]
     o.append('<rect x="0" y="0" width="%d" height="%d" fill="%s"/>' % (W, H, PAPER))
     o.append('<text x="26" y="30" class="mapl">THE TRIANGLE, WEIGHED</text>')
-    o.append('<text x="26" y="46" class="mapt">every Danish voyage began and ended in '
-             'Copenhagen</text>')
+    o.append('<text x="26" y="46" class="mapt">the route most Danish slave voyages took, out '
+             'from Denmark and home again</text>')
 
     import math
     R = 48
@@ -117,8 +117,9 @@ def triangle():
                                 "firearms, gunpowder,", "brandy; mirrors, coral,",
                                 "hats, tobacco pipes"]),
             (OX, "THE MIDDLE PASSAGE", ["%d\u2013%d months." % (CROSSING_LO, CROSSING_HI),
-                                       "About one in five of",
-                                       "the people put aboard", "did not arrive."]),
+                                       "Between one in six and",
+                                       "one in five of the people",
+                                       "put aboard did not arrive."]),
             (AMBER, "THIRD LEG", ["raw sugar, refined in", "Copenhagen under",
                                   "monopoly and sold in", "two kingdoms"])]
     for i, (col, head, lines) in enumerate(cols):
@@ -133,15 +134,15 @@ def triangle():
     y = b + 104
     o.append('<line x1="26" y1="%d" x2="674" y2="%d" stroke="%s" stroke-width="1"/>'
              % (y - 14, y - 14, RULE))
-    o.append('<text x="26" y="%d" class="mapl">%s\u2013%s</text>'
-             % (y, format(CARRIED_LO, ",d"), format(CARRIED_HI, ",d")))
+    o.append('<text x="26" y="%d" class="mapl">c. %s</text>' % (y, format(CARRIED, ",d")))
     o.append('<text x="210" y="%d" class="mapt">people carried in Danish ships, on about %d '
              'voyages, 1660s\u20131803</text>' % (y, VOYAGES))
     y += 20
-    o.append('<text x="26" y="%d" class="mapl">2.3%%</text>' % y)
-    o.append('<text x="210" y="%d" class="mapt">of the Atlantic traffic \u2014 which made Denmark '
-             'the seventh largest</text>' % y)
-    o.append('<text x="210" y="%d" class="mapt">of the nations that did it.</text>' % (y + 13))
+    o.append('<text x="26" y="%d" class="mapl">under 1%%</text>' % y)
+    o.append('<text x="210" y="%d" class="mapt">of the 12.5 million carried across the Atlantic, '
+             '1501\u20131866 \u2014</text>' % y)
+    o.append('<text x="210" y="%d" class="mapt">the smallest of the seven national carriers '
+             'counted.</text>' % (y + 13))
     o.append('</svg>')
     return "\n  ".join(o)
 
@@ -151,9 +152,9 @@ SURVEYS = [
     ("1662 / 1664", "DENMARK", "Every farm in the kingdom converted into one unit, hartkorn. "
      "Nothing measured; the landlords' own books turned into a number that could be added up "
      "in Copenhagen.", "convert", IND),
-    ("1682\u201383", "DENMARK", "Every cultivated field walked and measured, its area "
-     "calculated and its soil graded, four sworn peasants per district going with the "
-     "surveyors. On a Swedish model.", "measure", VERD),
+    ("1681\u201383", "DENMARK", "Every cultivated field walked and measured, its area "
+     "calculated and its soil graded, village by village and farm by farm. On a Swedish "
+     "model.", "measure", VERD),
     ("1734", "ST CROIX", "An island bought the year before, ruled into uniform lots on a grid "
      "and handed to the company's shareholders, who cleared it and planted cane.", "divide",
      AMBER),
@@ -163,16 +164,16 @@ SURVEYS = [
 def surveys():
     W, H = 700, 452
     o = ['<svg viewBox="0 0 %d %d" xmlns="http://www.w3.org/2000/svg" role="img" '
-         'aria-label="Three panels showing the same state surveying land three times in seventy '
-         'years: the Danish land register of 1662 and 1664, which converted dues into a single '
-         'unit without measuring anything; the field survey of 1682 to 1683, which measured every '
+         'aria-label="Three panels showing land written down three times between 1662 and 1734: '
+         'the Danish land register of 1662 and 1664, which converted dues into a single '
+         'unit without measuring anything; the field survey of 1681 to 1683, which measured every '
          'cultivated field in Denmark; and the division of St Croix in 1734 into uniform '
-         'plantation lots on a grid. The third is the only one never counted as an achievement '
-         'of the enlightened state.">' % (W, H)]
+         'plantation lots on a grid by the chartered company. The third is the only one never '
+         'counted as an achievement of the absolutist state.">' % (W, H)]
     o.append('<rect x="0" y="0" width="%d" height="%d" fill="%s"/>' % (W, H, PAPER))
     o.append('<text x="26" y="30" class="mapl">THE SAME HABIT, THREE TIMES</text>')
-    o.append('<text x="26" y="46" class="mapt">one state, seventy years, three ways of writing '
-             'land down</text>')
+    o.append('<text x="26" y="46" class="mapt">the state twice, then its company, 1662–1734: '
+             'three ways of writing land down</text>')
 
     pw = 200
     for i, (yr, where, what, kind, col) in enumerate(SURVEYS):
@@ -219,9 +220,9 @@ def surveys():
     o.append('<text x="26" y="%d" class="mapt">The first two are told in Denmark as the state '
              'learning to see itself: the foundation of</text>' % (b + 20))
     o.append('<text x="26" y="%d" class="mapt">modern administration. The third is the same '
-             'instrument, in the same century, and it</text>' % (b + 33))
+             'instrument, in a company\'s hands, and it</text>' % (b + 33))
     o.append('<text x="26" y="%d" class="mapt">has never been counted as an achievement of the '
-             'enlightened state.</text>' % (b + 46))
+             'absolutist state.</text>' % (b + 46))
     o.append('</svg>')
     return "\n  ".join(o)
 
@@ -230,16 +231,20 @@ def surveys():
 # (text, is_continuation). Continuation lines take no bullet: the first version
 # gave the three-line date entry three bullets and it read as three records.
 RECORDED = [
-    ("Espen K\u00f8nig, master", False),
-    ("Christian Runge, sailor, of Arendal", False),
-    ("Axel Antoni, carpenter \u2014 died 4 January 1768", False),
-    ("the other thirty-odd of the crew, by name", False),
-    ("the wind, every day", False),
-    ("the ship's position, every day", False),
+    ("Espen K\u00f8nig, captain \u2014 died at Christiansborg", False),
+    ("15 December 1767, before the crossing", True),
+    ("Johan Frantzen Ferentz, first mate, then captain", False),
+    ("Christian Runge, of Arendal, sailor, then", False),
+    ("third mate and steward", True),
+    ("the carpenters, nearly all of whom died", False),
+    ("on the Gold Coast", True),
+    ("the rest of the forty who sailed, by name", False),
+    ("the wind and the ship's position, every day", False),
     ("the cargo, itemised", False),
-    ("the dates: Copenhagen 19 June 1767; the Gold", False),
-    ("Coast 1 October; sailed 23 April 1768; St Croix", True),
-    ("9 July; sailed 15 September; wrecked 1 December", True),
+    ("the dates: Copenhagen, late June 1767; the Gold", False),
+    ("Coast 1 October; sailed 22 or 23 April 1768;", True),
+    ("St Croix 9 July; sailed for home in September;", True),
+    ("wrecked 1 December 1768", True),
 ]
 NOT_RECORDED = [
     "the names of the people in the hold",
@@ -254,15 +259,16 @@ def papers():
     W, H = 700, 470
     o = ['<svg viewBox="0 0 %d %d" xmlns="http://www.w3.org/2000/svg" role="img" '
          'aria-label="Two columns comparing what the surviving papers of the slave ship '
-         'Fredensborg record and what they do not. The left column lists the master, the crew by '
-         'name including the carpenter who died, the daily wind and position, the itemised cargo '
+         'Fredensborg record and what they do not. The left column lists the captain, who died on '
+         'the Gold Coast before the crossing, the mate who took over, the crew by name, the '
+         'carpenters who died, the daily wind and position, the itemised cargo '
          'and the dates of every stage of the voyage. The right column lists what is absent: the '
          'names of the people in the hold, where they were taken from, their languages, their '
          'relationships, and anything any of them said.">' % (W, H)]
     o.append('<rect x="0" y="0" width="%d" height="%d" fill="%s"/>' % (W, H, PAPER))
     o.append('<text x="26" y="30" class="mapl">WHAT THE PAPERS KEEP</text>')
     o.append('<text x="26" y="46" class="mapt">the <tspan font-style="italic">Fredensborg</tspan>, '
-             '1767\u201368 \u2014 the best-documented slave ship in the world</text>')
+             '1767\u201368 \u2014 the best-documented slave ship found as a wreck</text>')
     o.append('<line x1="350" y1="70" x2="350" y2="390" stroke="%s" stroke-width="1"/>' % RULE)
 
     o.append('<text x="26" y="92" class="mapx" fill="%s">RECORDED</text>' % IND)
@@ -289,7 +295,7 @@ def papers():
     b = 400
     o.append('<line x1="26" y1="%d" x2="674" y2="%d" stroke="%s" stroke-width="1"/>' % (b, b, RULE))
     o.append('<text x="26" y="%d" class="mapt">The journals were carried ashore when the ship '
-             'struck off Troms\u00f8ya on 1 December 1768.</text>' % (b + 20))
+             'struck off Trom\u00f8ya on 1 December 1768.</text>' % (b + 20))
     o.append('<text x="26" y="%d" class="mapt">The wreck was found by divers in 1974. Both are '
              'now transcribed and public. The asymmetry</text>' % (b + 33))
     o.append('<text x="26" y="%d" class="mapt">above is not a gap in the archive. It is what the '

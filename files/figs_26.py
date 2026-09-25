@@ -172,7 +172,7 @@ def scania():
     o.append('<line x1="%d" y1="%d" x2="686" y2="%d" stroke="%s" stroke-width="1"/>'
              % (px, y, y, RULE))
     y += 18
-    for line in wrap("Denmark won at sea and lost the province. Louis 14. ended the war and "
+    for line in wrap("Denmark won at sea and lost the province. Louis XIV ended the war and "
                      "required every conquest given back.", 30):
         o.append('<text x="%d" y="%d" class="mapt">%s</text>' % (px, y, line))
         y += 13
@@ -213,7 +213,7 @@ def mandebod():
     # ---- left: 1241
     o.append('<text x="26" y="86" class="mapl">JYSKE LOV, 1241</text>')
     o.append('<text x="26" y="102" class="mapt">a full mandebod: 3 \u00d7 18 marks,</text>')
-    o.append('<text x="26" y="116" class="mapt">and 3 more to the king \u2014 about an ox</text>')
+    o.append('<text x="26" y="116" class="mapt">owed to the dead man\'s heirs and kin</text>')
 
     y = 146
     o.append('<text x="26" y="%d" class="mapx">PRICED AS A FRACTION OF IT</text>' % y)
@@ -227,7 +227,7 @@ def mandebod():
     y += 10
     o.append('<text x="26" y="%d" class="mapt">An ear is a quarter, the law says,</text>'
              % (y + 14))
-    o.append('<text x="26" y="%d" class="mapt">because it can be covered with a cap.</text>'
+    o.append('<text x="26" y="%d" class="mapt">because it can be covered by cap and hair.</text>'
              % (y + 27))
 
     y += 56
@@ -272,10 +272,10 @@ def mandebod():
 
     b = 406
     o.append('<line x1="26" y1="%d" x2="674" y2="%d" stroke="%s" stroke-width="1"/>' % (b, b, RULE))
-    o.append('<text x="26" y="%d" class="mapt">Roughly two thirds of Jyske Lov was carried '
-             'forward into Danske Lov, and a few</text>' % (b + 20))
-    o.append('<text x="26" y="%d" class="mapt">of its provisions are still in force. The kin\'s '
-             'share of the debt was not.</text>' % (b + 34))
+    o.append('<text x="26" y="%d" class="mapt">About a third of Danske Lov\'s provisions came '
+             'from the old provincial laws.</text>' % (b + 20))
+    o.append('<text x="26" y="%d" class="mapt">The kin\'s share of the debt was not among '
+             'them.</text>' % (b + 34))
     o.append('</svg>')
     return "\n  ".join(o)
 
@@ -295,8 +295,7 @@ def cell():
          'aria-label="A plan of Leonora Christina\'s room in the Blue Tower, drawn to the '
          'measurement she gives in Jammers Minde: seven of her paces long and six wide, '
          'containing two beds, a table and two chairs. Four doors are marked in sequence between '
-         'her bed and the stair. She was held in the tower for %d days without once going '
-         'outside.">' % (W, H, days)]
+         'her bed and the stair. She was held in the tower for %d days.">' % (W, H, days)]
     o.append('<rect x="0" y="0" width="%d" height="%d" fill="%s"/>' % (W, H, PAPER))
     o.append('<text x="26" y="30" class="mapl">SEVEN OF MY PACES LONG AND SIX BROAD</text>')
     o.append('<text x="26" y="46" class="mapt">the room as she measured it, having nothing to '
@@ -374,15 +373,15 @@ def cell():
     y += 24
     o.append('<text x="%d" y="%d" class="mapl">%s DAYS</text>' % (px, y, format(days, ",d")))
     y += 16
-    for line in wrap("8 August 1663 to 19 May 1685. She counted it herself as 21 years, 9 months "
-                     "and 11 days, and never once went outside in any of them.", 30):
+    for line in wrap("8 August 1663 to 19 May 1685: twenty-one years, nine months and eleven "
+                     "days.", 30):
         o.append('<text x="%d" y="%d" class="mapt">%s</text>' % (px, y, line))
         y += 14
 
     b = oy + rh + 74
     o.append('<line x1="26" y1="%d" x2="440" y2="%d" stroke="%s" stroke-width="1"/>' % (b, b, RULE))
-    o.append('<text x="26" y="%d" class="mapt">No charge was ever brought and no trial was '
-             'ever held.</text>' % (b + 20))
+    o.append('<text x="26" y="%d" class="mapt">Nine ells high, with one small barred window '
+             'at the top.</text>' % (b + 20))
     o.append('</svg>')
     return "\n  ".join(o)
 

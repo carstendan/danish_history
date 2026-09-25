@@ -161,22 +161,24 @@ def campaign():
 
 
 # ------------------------------------------------------------------ figure 2
-# The prize of September 1807, by rate. Counted, not estimated.
-# (name, count, mark size). Sizes are chosen so the widest row fits the canvas:
-# 17 marks at 22+4 is exactly the 442px available from x=232 to the margin.
-PRIZE = [("Ships of the line", 17, 22), ("Frigates", 17, 16),
-         ("Smaller vessels", 19, 12), ("Gunboats", 26, 8)]
+# The prize of September 1807, by rate: milhist.dk, "Flådens ran", gives 16 ships
+# of the line, 15 frigates and corvettes and 14 smaller vessels, plus 92 merchant
+# ships carrying the stores; lex.dk, Søværnets historie, agrees on 16 and 15. The
+# earlier 17/17/19/26 (79 hulls) had no source and is gone, gunboats with it.
+# (name, count, mark size). The widest row, 16 marks at 22+4, is 416px from x=232.
+PRIZE = [("Ships of the line", 16, 22), ("Frigates, corvettes", 15, 16),
+         ("Smaller vessels", 14, 12)]
 
 
 def fleet():
-    W, H = 700, 452
+    W, H = 700, 340
     total = sum(n for _, n, _ in PRIZE)
     o = ['<svg viewBox="0 0 %d %d" xmlns="http://www.w3.org/2000/svg" role="img" '
-         'aria-label="A tally of the Danish fleet taken by Britain in September 1807: seventeen '
-         'ships of the line, seventeen frigates, nineteen smaller vessels and twenty-six '
-         'gunboats, seventy-nine hulls in all, each drawn as a mark sized by rate. The British '
-         'also stripped the naval establishments and destroyed the ships standing on the '
-         'stocks.">' % (W, H)]
+         'aria-label="A tally of the Danish fleet taken by Britain in 1807: sixteen ships of '
+         'the line, fifteen frigates and corvettes and fourteen smaller vessels, forty-five '
+         'hulls in all, each drawn as a mark sized by rate. They sailed for England on 21 '
+         'October with the naval stores in ninety-two merchant ships, and the ships building '
+         'on the stocks were broken up.">' % (W, H)]
     o.append('<rect x="0" y="0" width="%d" height="%d" fill="%s"/>' % (W, H, PAPER))
     o.append('<text x="26" y="30" class="mapl">WHAT SAILED AWAY</text>')
     o.append('<text x="26" y="46" class="mapt">the prize of September 1807, by rate</text>')
@@ -195,14 +197,12 @@ def fleet():
     b = y - 24
     o.append('<line x1="26" y1="%d" x2="674" y2="%d" stroke="%s" stroke-width="1"/>' % (b, b, RULE))
     o.append('<text x="26" y="%d" class="mapl">%d hulls</text>' % (b + 26, total))
-    o.append('<text x="200" y="%d" class="mapt">sailed for England, together with nearly '
-             'everything in the naval</text>' % (b + 26))
-    o.append('<text x="200" y="%d" class="mapt">stores. The ships standing on the stocks were '
-             'destroyed where they</text>' % (b + 39))
-    o.append('<text x="200" y="%d" class="mapt">stood, so that what remained could not be '
+    o.append('<text x="200" y="%d" class="mapt">sailed for England on 21 October 1807, with the '
+             'naval stores loaded</text>' % (b + 26))
+    o.append('<text x="200" y="%d" class="mapt">into ninety-two merchant ships. The ships building '
+             'on the stocks were</text>' % (b + 39))
+    o.append('<text x="200" y="%d" class="mapt">broken up, so that what remained could not be '
              'rebuilt quickly.</text>' % (b + 52))
-    o.append('<text x="26" y="%d" class="mapt">Denmark had been a naval power since the fifteenth '
-             'century. It stopped being one in six weeks.</text>' % (b + 78))
     o.append('</svg>')
     return "\n  ".join(o)
 
@@ -213,8 +213,11 @@ PROPERTY_TAX_PCT = 6
 MORTGAGE_PCT = 6.5
 CAP_TOTAL = 46
 CAP_EXCHANGE = 27
-CAP_WAR = 15
-CAP_REST = CAP_TOTAL - CAP_EXCHANGE - CAP_WAR   # computed, not typed: 4
+# Ordinance of 5 January 1813, section 8: 46 m, of which 27 m to take in the old
+# notes and the rest "deels til Udlaan og deels som Reservefond til overordentlige
+# Udgifter for Finantserne". The earlier "15 m war fund" and its "4 m not accounted
+# for" were not in the ordinance.
+CAP_REST = CAP_TOTAL - CAP_EXCHANGE   # computed, not typed: 19
 COURSE_PCT = 6
 
 
@@ -226,9 +229,9 @@ def daler():
          'aria-label="A diagram of the Danish currency reform of 5 January 1813. Six old '
          'kurantdaler notes were exchanged for one new rigsbankdaler, writing off five sixths of '
          'the paper money. The new issue was capped at forty-six million rigsbankdaler, of which '
-         'twenty-seven million were for the exchange and fifteen million a war fund; the '
-         'remaining four million is not accounted for in the sources used here. The silver '
-         'behind it was raised by a charge of six per cent on the value of all fixed property in '
+         'twenty-seven million were for taking in the old notes and the other nineteen million '
+         'partly for lending and partly a reserve fund for the state\'s extraordinary expenses. '
+         'The silver behind it was raised by a charge of six per cent on the value of all fixed property in '
          'the realm.">' % (W, H)]
     o.append('<rect x="0" y="0" width="%d" height="%d" fill="%s"/>' % (W, H, PAPER))
     o.append('<text x="26" y="30" class="mapl">SIX FOR ONE</text>')
@@ -257,7 +260,7 @@ def daler():
     y = 268
     for line in ["A charge of %d per cent on the value of all fixed property in Denmark, Norway,"
                  % PROPERTY_TAX_PCT,
-                 "Slesvig and Holstein, payable in silver \u2014 at once, or standing as a first",
+                 "Schleswig and Holstein, payable in silver \u2014 at once, or standing as a first",
                  "mortgage on the property at %.1f per cent a year." % MORTGAGE_PCT]:
         o.append('<text x="26" y="%d" class="mapt">%s</text>' % (y, line))
         y += 14
@@ -269,27 +272,22 @@ def daler():
     o.append('<text x="26" y="%d" class="mapx">AND A CEILING</text>' % y)
     y += 16
     barw = 500
-    # Full-width track, as the course bar above has, so that the part of the
-    # ceiling neither figure accounts for reads as a shortfall and not as absent.
-    o.append('<rect x="26" y="%d" width="%d" height="22" fill="%s" opacity=".14"/>'
-             % (y, barw, MUTED))
     o.append('<rect x="26" y="%d" width="%.1f" height="22" fill="%s" opacity=".50"/>'
              % (y, barw * CAP_EXCHANGE / float(CAP_TOTAL), IND))
     o.append('<rect x="%.1f" y="%d" width="%.1f" height="22" fill="%s" opacity=".50"/>'
              % (26 + barw * CAP_EXCHANGE / float(CAP_TOTAL), y,
-                barw * CAP_WAR / float(CAP_TOTAL), OX))
+                barw * CAP_REST / float(CAP_TOTAL), OX))
     o.append('<text x="%.1f" y="%d" class="mapt" text-anchor="middle">%d m \u2014 the '
              'exchange</text>' % (26 + barw * CAP_EXCHANGE / float(CAP_TOTAL) / 2, y + 15,
                                   CAP_EXCHANGE))
-    o.append('<text x="%.1f" y="%d" class="mapt" text-anchor="middle">%d m \u2014 war</text>'
-             % (26 + barw * (CAP_EXCHANGE + CAP_WAR / 2.0) / CAP_TOTAL, y + 15, CAP_WAR))
-    o.append('<text x="%.1f" y="%d" class="mapt" text-anchor="middle">%d m</text>'
-             % (26 + barw * (CAP_EXCHANGE + CAP_WAR + CAP_REST / 2.0) / CAP_TOTAL,
-                y + 15, CAP_REST))
-    o.append('<text x="%d" y="%d" class="mapt">%d million rigsbankdaler, and never more \u2014 of '
-             'which %d m is not accounted</text>' % (26, y + 40, CAP_TOTAL, CAP_REST))
-    o.append('<text x="%d" y="%d" class="mapt">for in the sources used here.</text>'
-             % (26, y + 54))
+    o.append('<text x="%.1f" y="%d" class="mapt" text-anchor="middle">%d m \u2014 loans and '
+             'reserve</text>' % (26 + barw * (CAP_EXCHANGE + CAP_REST / 2.0) / CAP_TOTAL, y + 15,
+                                 CAP_REST))
+    o.append('<text x="%d" y="%d" class="mapt">%d million rigsbankdaler, and never more \u2014 '
+             '%d m to take in the old notes, the other</text>'
+             % (26, y + 40, CAP_TOTAL, CAP_EXCHANGE))
+    o.append('<text x="%d" y="%d" class="mapt">%d m partly for lending and partly as a reserve '
+             'fund for the state\'s extraordinary expenses.</text>' % (26, y + 54, CAP_REST))
 
     b = H - 52
     o.append('<line x1="26" y1="%d" x2="674" y2="%d" stroke="%s" stroke-width="1"/>' % (b, b, RULE))

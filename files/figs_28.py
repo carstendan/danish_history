@@ -3,7 +3,7 @@
 
   svg_hovyear.txt   a bound man's year, counted rather than dated
   svg_norway.txt    what Norway sent south
-  svg_catechism.txt seven hundred and fifty-nine questions, fifty of them asked
+  svg_catechism.txt seven hundred and fifty-nine questions, all to be learned
 
 THE FIRST FIGURE IS NOT A CALENDAR, and the plan called for one. A calendar wheel
 would have to place the hoveri days in particular weeks, and the sources do not
@@ -66,25 +66,27 @@ def land_clip(f, polys, near, w, h, cid):
 
 # ------------------------------------------------------------------ figure 1
 DAYS = 365
+# A schematic (review session 9): the 110-day Zealand reckoning is the one commonly
+# quoted and has not been traced to the 1769 returns. The second, "Antvorskov"
+# reckoning of 122 days that the first version drew could not be sourced and is gone.
 SPAND, GANG = 40, 70            # the Zealand reckoning: 110 days
-ALT_SPAND, ALT_GANG = 34, 88    # the Antvorskov reckoning: 122 days
 
 
 def hovyear():
     owed = SPAND + GANG
-    alt = ALT_SPAND + ALT_GANG
     W, H = 700, 516
     cols, cell, gap = 25, 15, 3
     rows = (DAYS + cols - 1) // cols
     o = ['<svg viewBox="0 0 %d %d" xmlns="http://www.w3.org/2000/svg" role="img" '
-         'aria-label="A grid of three hundred and sixty-five squares, one for each day of the '
-         'year. One hundred and ten of them are marked as days a Zealand tenant owed his '
-         'landlord: forty requiring a wagon and a team, seventy on foot. A second reckoning from '
-         'another estate gives a hundred and twenty-two days. The marked squares are grouped '
-         'together for counting and do not show which days of the year were owed, because the '
-         'sources give annual totals and not dates.">' % (W, H)]
+         'aria-label="A schematic: a grid of three hundred and sixty-five squares, one for each '
+         'day of the year. One hundred and ten of them are marked, after one commonly quoted '
+         'reckoning of the days a Zealand tenant with a full holding owed his landlord: forty '
+         'requiring a wagon and a team, seventy on foot. The reckoning has not been traced to '
+         'its source. The marked squares are grouped together for counting and do not show which '
+         'days of the year were owed, and the unmarked ones include Sundays and holy days.">'
+         % (W, H)]
     o.append('<rect x="0" y="0" width="%d" height="%d" fill="%s"/>' % (W, H, PAPER))
-    o.append('<text x="26" y="30" class="mapl">A BOUND MAN\'S YEAR</text>')
+    o.append('<text x="26" y="30" class="mapl">A BOUND MAN\'S YEAR — A SCHEMATIC</text>')
     o.append('<text x="26" y="46" class="mapt">every square is one day; the marked ones belong '
              'to somebody else</text>')
 
@@ -118,20 +120,20 @@ def hovyear():
     y += 22
     o.append('<rect x="26" y="%d" width="15" height="15" rx="1.5" fill="%s" opacity=".13"/>'
              % (y - 12, MUTED))
-    o.append('<text x="48" y="%d" class="mapx">%d days that were his own</text>' % (y, DAYS - owed))
+    o.append('<text x="48" y="%d" class="mapx">%d days not owed \u2014 Sundays and holy days '
+             'among them</text>' % (y, DAYS - owed))
 
     px = 430
     o.append('<text x="%d" y="%d" class="mapl">%d of %d</text>' % (px, b + 22, owed, DAYS))
-    o.append('<text x="%d" y="%d" class="mapt">roughly two days in seven</text>' % (px, b + 38))
-    o.append('<text x="%d" y="%d" class="mapt">A second reckoning, from an estate at</text>'
-             % (px, b + 58))
-    o.append('<text x="%d" y="%d" class="mapt">Antvorskov, gives %d \u2014 %d and %d.</text>'
-             % (px, b + 71, alt, ALT_SPAND, ALT_GANG))
+    o.append('<text x="%d" y="%d" class="mapt">one commonly quoted reckoning,</text>'
+             % (px, b + 38))
+    o.append('<text x="%d" y="%d" class="mapt">not traced here to its source</text>'
+             % (px, b + 51))
     o.append('<text x="26" y="%d" class="mapt">The squares are grouped for counting. Which days '
              'of the year were owed is not recorded: the</text>' % (b + 96))
-    o.append('<text x="26" y="%d" class="mapt">figures come from specimen reckonings made when '
-             'the government tried to regulate hoveri,</text>' % (b + 109))
-    o.append('<text x="26" y="%d" class="mapt">and they give totals. What is agreed is that the '
+    o.append('<text x="26" y="%d" class="mapt">reckoning is of the kind made when the government '
+             'tried to regulate hoveri, and gives</text>' % (b + 109))
+    o.append('<text x="26" y="%d" class="mapt">a total and a split. What is agreed is that the '
              'demand fell hardest at ploughing, sowing</text>' % (b + 122))
     o.append('<text x="26" y="%d" class="mapt">and harvest \u2014 the only weeks when a man\'s own '
              'crop could not wait.</text>' % (b + 135))
@@ -152,7 +154,7 @@ SITES = [
     (9.72, 63.11, "L\u00f8kken", "copper from 1654", "c", "end", 0),
     (10.00, 62.13, "Folldal", "copper from 1748", "c", "end", 0),
     (10.75, 59.91, "Christiania", "mint 1628\u201386", "m", "start", -14),
-    (10.40, 63.43, "Trondhjem", "the copper burghers", "t", "start", -14),
+    (10.40, 63.43, "Trondheim", "the copper burghers", "t", "start", -14),
     (5.32, 60.39, "Bergen", "the largest town", "t", "start", 0),
 ]
 
@@ -165,7 +167,7 @@ def norway():
          'aria-label="Map of southern and central Norway marking the mining places that supplied '
          'the Danish crown: the silver works at Kongsberg from 1623, the copper works at Roeros '
          'from 1644, Loekken from 1654 and Folldal from 1748, with the mint at Christiania and '
-         'later Kongsberg, and the towns of Trondhjem and Bergen. A panel lists what went south '
+         'later Kongsberg, and the towns of Trondheim and Bergen. A panel lists what went south '
          'and what Norway received in return.">' % (W, H)]
     o.append('<rect x="0" y="0" width="%d" height="%d" fill="%s"/>' % (W, H, PAPER))
     o.append('<text x="14" y="24" class="mapl">WHAT NORWAY SENT SOUTH</text>')
@@ -206,8 +208,7 @@ def norway():
 
     y += 28
     o.append('<text x="%d" y="%d" class="mapx">NORTH</text>' % (px, y))
-    for line in ["Danish grain, and after 1735",
-                 "no other kind was allowed",
+    for line in ["Danish grain, by law from 1735",
                  "Norske Lov, 1687",
                  "a governor, when the sea closed"]:
         y += 15
@@ -220,8 +221,8 @@ def norway():
     y += 20
     o.append('<text x="%d" y="%d" class="mapl">4,075</text>' % (px, y))
     for line in wrap("people employed at Kongsberg in 1770, with a couple of thousand farmers "
-                     "besides in seasonal work. It was the largest enterprise in either kingdom, "
-                     "and the town was the second in Norway after Bergen.", 28):
+                     "besides in seasonal work. It was Norway's largest mine, and the town was "
+                     "the second in Norway after Bergen.", 28):
         y += 14
         o.append('<text x="%d" y="%d" class="mapt">%s</text>' % (px, y, line))
     y += 22
@@ -235,8 +236,10 @@ def norway():
 
 # ------------------------------------------------------------------ figure 3
 QUESTIONS = 759
-ASKED = 50
-AUTHORISED = [(1738, "Christian 6."), (1748, "Frederik 5."), (1768, "Christian 7.")]
+# Review session 9: the first version marked fifty squares as "any fifty of them could be
+# asked" and listed re-authorisations in 1748 and 1768. Neither could be sourced; DBL gives
+# one royal order prescribing the book, of 22 August 1738. The figure now draws the whole
+# book, which is what was to be learned.
 
 
 def catechism():
@@ -245,47 +248,32 @@ def catechism():
     rows = (QUESTIONS + cols - 1) // cols
     cell, gap = 11, 3
     top = 96
-    H = top + rows * (cell + gap) + 148
+    H = top + rows * (cell + gap) + 130
     o = ['<svg viewBox="0 0 %d %d" xmlns="http://www.w3.org/2000/svg" role="img" '
-         'aria-label="Seven hundred and fifty-nine small squares, one for each question in '
-         'Pontoppidan\'s catechism of 1737. Fifty of them are marked, being the number a '
-         'candidate could be asked at the public examination in church. The marked ones are '
-         'scattered through the whole set, because the candidate did not know which would be '
-         'chosen and had to learn them all.">' % (W, H)]
+         'aria-label="Seven hundred and fifty-nine small squares, one for each question and '
+         'answer in Pontoppidan\'s catechism of 1737, every one of them to be learned by heart '
+         'before the public examination in church.">' % (W, H)]
     o.append('<rect x="0" y="0" width="%d" height="%d" fill="%s"/>' % (W, H, PAPER))
     o.append('<text x="26" y="30" class="mapl">SEVEN HUNDRED AND FIFTY-NINE QUESTIONS</text>')
     o.append('<text x="26" y="46" class="mapt">Pontoppidan, <tspan font-style="italic">Sandhed '
              'til Gudfrygtighed</tspan>, 1737 \u2014 the required book for every child in two '
              'kingdoms</text>')
-    o.append('<text x="26" y="72" class="mapx">Any fifty of them, in front of the congregation. '
-             'You did not know which fifty.</text>')
+    o.append('<text x="26" y="72" class="mapx">Every one of them to be had by heart, and answered '
+             'in front of the congregation.</text>')
 
-    # A seeded draw, not modular arithmetic. The first version stepped by a fixed
-    # interval and produced neat diagonal stripes across the grid, which implied a
-    # pattern in the examination that did not exist. Seeded so the figure is
-    # reproducible; the seed is the year of publication.
-    import random
-    marked = set(random.Random(1737).sample(range(QUESTIONS), ASKED))
     for i in range(QUESTIONS):
         r, c = divmod(i, cols)
         x = 26 + c * (cell + gap)
         y = top + r * (cell + gap)
-        if i in marked:
-            o.append('<rect x="%d" y="%d" width="%d" height="%d" rx="1" fill="%s" '
-                     'opacity=".85"/>' % (x, y, cell, cell, IND))
-        else:
-            o.append('<rect x="%d" y="%d" width="%d" height="%d" rx="1" fill="%s" '
-                     'opacity=".16"/>' % (x, y, cell, cell, MUTED))
+        o.append('<rect x="%d" y="%d" width="%d" height="%d" rx="1" fill="%s" '
+                 'opacity=".55"/>' % (x, y, cell, cell, IND))
 
     b = top + rows * (cell + gap) + 12
     o.append('<line x1="26" y1="%d" x2="674" y2="%d" stroke="%s" stroke-width="1"/>' % (b, b, RULE))
     y = b + 22
-    o.append('<text x="26" y="%d" class="mapx">Re-authorised by three kings in succession</text>'
+    o.append('<text x="26" y="%d" class="mapx">Prescribed by royal order, 22 August 1738</text>'
              % y)
-    for i, (yr, who) in enumerate(AUTHORISED):
-        o.append('<text x="%d" y="%d" class="mapt">%d \u2014 %s</text>'
-                 % (26 + i * 150, y + 18, yr, who))
-    y += 46
+    y += 28
     for line in wrap("Required by law until 1794. Used in Danish religious teaching through the "
                      "whole eighteenth century and in Norway through the nineteenth as well. It "
                      "is probably the book by a Danish author that has been printed in more "

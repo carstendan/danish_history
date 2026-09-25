@@ -145,7 +145,7 @@ def build():
                       anchor="start"))
 
     for lon, lat, t, a, dx, dy in [(12.57, 55.68, "K\u00f8benhavn", "end", -5, 4),
-                                   (10.75, 59.91, "Oslo", "start", 5, 3),
+                                   (10.75, 59.91, "Christiania", "end", -5, 3),
                                    (9.44, 54.78, "Flensburg", "end", -6, 11),
                                    (LAUENBURG_AT[0], LAUENBURG_AT[1], "Lauenborg",
                                     "start", 5, 3)]:

@@ -587,7 +587,7 @@ Recall, Causal, Counterfactual, Contested.*
 **§06 — four assemblies**
 
 - **stænderforsamling** — an assembly of the estates. In 1660 a single meeting
-  of nobility, clergy and burghers (chapter 24); here, the four advisory
+  of nobility, clergy and burghers, a *stændermøde* (chapters 24, 25); here, the four advisory
   provincial assemblies of the 1830s, elected by property owners, which could
   discuss and propose but not decide.
 - **hartkorn** — "hard grain". The Danish unit of taxable land value, by which

@@ -12,12 +12,21 @@ precedent is chapter 21's partition figure, which uses a deliberately schematic
 outline "so that nobody measures it". The reader is sent to a real map in the
 visit block.
 
-THE BAND FIGURE REPLACES the cohort staircase the plan called for. The ordinance
-of 1788 did not release men by year of birth: it reverted the bound ages to the
-original 1733 range at once, gave immediate freedom passes to those too old for
-service and to those already discharged, and ended the bond altogether on 1
-January 1800. What that history actually looks like is a band that widens twice,
-snaps back, and stops - which is a better figure and a truer one.
+THE BAND FIGURE AFTER 1788 IS A CLOSED SET OF BIRTH-YEARS, not a band. An
+earlier version drew a constant 14-36 band from 1788 to 1800, on the reading that
+the ordinance "put the ages back to 1733", and this docstring said it "did not
+release men by year of birth". Both were wrong. The ordinance's section 3 let
+every boy under fourteen go after three months; section 2 gave men past the age
+of service, and men already discharged from it, their freedom passes at once;
+section 4 held those who had turned fourteen until they were discharged or
+reached that age, and at the latest until 1800, and section 1 fixed the end at 1 January 1800
+(danmarkshistorien.lex.dk, "Forordning om stavnsbaandets ophaevelse, 20. juni
+1788", and "Ophaevelse af stavnsbaandet 1788-1800": under-14s and over-36s freed
+at once, "en aargang hvert af de folgende aar", all the rest in 1800). So nobody
+entered the bond after June 1788. The bound are the men who were 14-36 then, and
+the shape is a wedge: its lower edge rises one year of age per year of time, one
+birth-year a year leaves at the top (at 36), and it ends on 1 January 1800. It is
+drawn from the rule, not from a count of men.
 
 Run: python3 figs_29.py
 """
@@ -182,18 +191,18 @@ EN = ["The King commanded", "that the stavnsb\u00e5nd shall cease",
       "an honourable citizen", "happy"]
 CORRECTIONS = [
     ("\u201cThe King commanded\u201d",
-     "Christian 7. was incapable. It was done by Reventlow, Colbjørnsen, Bernstorff "
-     "and a crown prince of twenty."),
+     "Christian 7. was incapable. It was done by the Reventlows, Colbjørnsen, "
+     "Bernstorff and a crown prince of twenty."),
     ("\u201cshall cease\u201d",
-     "By cohort, over twelve years. The last men were free on 1 January 1800, three "
-     "years after the column was finished."),
+     "A birth-year at a time. The last bound men went free on 1 January 1800, more "
+     "than two years after the column was finished."),
     ("\u201cthe free peasant\u201d",
-     "The gårdmænd. The cottagers got the hoveri limits of 1799 only for holders, and "
-     "a weaker ordinance of their own in 1807."),
+     "The gårdmand. The hoveri ordinance of 1799 dealt with him; the cottagers' labour "
+     "was regulated only in 1807, and not fixed."),
     ("not on the stone",
-     "The subscription opened in 1791, among Copenhagen burghers; the crown prince laid "
-     "the foundation stone on 31 July 1792. The landowners were pushing back and the "
-     "government had stopped reforming."),
+     "Paid for by a collection among Copenhagen's citizens, to hold the government to "
+     "its reforms while the nobility's discontent grew. The crown prince laid the "
+     "foundation stone on 31 July 1792, the second anniversary of his wedding."),
 ]
 
 
@@ -208,8 +217,8 @@ def column():
     o.append('<text x="26" y="30" class="mapl">WHAT THE COLUMN SAYS</text>')
     o.append('<text x="26" y="46" class="mapt">Frihedsst\u00f8tten, Vesterbrogade, 1792\u201397 '
              '\u2014 twenty metres of Bornholm sandstone</text>')
-    o.append('<text x="26" y="60" class="mapt">subscription opened 1791 \u00b7 foundation '
-             'stone 31 July 1792 \u00b7 finished September 1797</text>')
+    o.append('<text x="26" y="60" class="mapt">foundation stone 31 July 1792 \u00b7 reported '
+             'finished 6 November 1797</text>')
 
     # the obelisk in outline, to its own proportions
     bx, by, bh = 92, 86, 268
@@ -251,9 +260,15 @@ BANDS = [
     (1733, 14, 36, "1733"),
     (1742, 9, 40, "1742"),
     (1764, 4, 40, "1764"),
-    (1788, 14, 36, "1788"),
+    (1788, None, None, "1788"),
     (1800, None, None, "1800"),
 ]
+# After 20 June 1788 (1788.47) nobody enters: the bound are those then 14 to 36.
+# Their lowest age rises with time; one birth-year a year leaves at 36; all go
+# on 1 January 1800. A closed set of birth-years, drawn as a wedge.
+ORD = 1788 + (31 + 29 + 31 + 30 + 31 + 19) / 366.0
+END = 1800.0
+WEDGE = [(ORD, 14), (ORD, 36), (END, 36), (END, 14 + (END - ORD))]
 Y0, Y1 = 1728, 1806
 AGE_MAX = 44
 
@@ -265,9 +280,11 @@ def band():
     o = ['<svg viewBox="0 0 %d %d" xmlns="http://www.w3.org/2000/svg" role="img" '
          'aria-label="A chart of the ages at which a man of the Danish peasantry was bound to '
          'the estate of his birth. From February 1733 the band ran from fourteen to thirty-six; '
-         'in 1742 it widened to nine to forty; in 1764 to four to forty; the ordinance of 20 '
-         'June 1788 returned it at once to fourteen to thirty-six, and the bond ended altogether '
-         'on 1 January 1800.">' % (W, H)]
+         'in 1742 it widened to nine to forty; in 1764 to four to forty. The ordinance of 20 '
+         'June 1788 let the boys under fourteen go and freed the men past the age of service. '
+         'Nobody entered the bond after that, so from 1788 the chart shows a narrowing wedge: '
+         'the men who had been fourteen to thirty-six in June 1788, growing older, released '
+         'one birth-year a year, until the last went free on 1 January 1800.">' % (W, H)]
     o.append('<rect x="0" y="0" width="%d" height="%d" fill="%s"/>' % (W, H, PAPER))
     o.append('<text x="26" y="30" class="mapl">THE BOUND YEARS</text>')
     o.append('<text x="26" y="46" class="mapt">the ages at which a countryman could not leave '
@@ -290,10 +307,20 @@ def band():
         if lo is None:
             continue
         nxt = BANDS[i + 1][0]
+        if nxt == 1788:
+            nxt = ORD
         o.append('<rect x="%.1f" y="%.1f" width="%.1f" height="%.1f" fill="%s" opacity=".45"/>'
                  % (X(yr), Y(hi), X(nxt) - X(yr), Y(lo) - Y(hi), IND))
         o.append('<text x="%.1f" y="%.1f" class="mapt" text-anchor="middle">%d\u2013%d</text>'
                  % ((X(yr) + X(nxt)) / 2, Y(hi) - 7, lo, hi))
+
+    # 1788-1800: the closed set of birth-years, a wedge, not a band
+    o.append('<path d="M %s Z" fill="%s" opacity=".45"/>'
+             % (" L ".join("%.1f %.1f" % (X(a), Y(b)) for a, b in WEDGE), VERD))
+    o.append('<text x="%.1f" y="%d" class="mapt" text-anchor="end">after June 1788: no one '
+             'enters, one birth-year leaves each year</text>' % (X(END), T - 22))
+    o.append('<line x1="%.1f" y1="%d" x2="%.1f" y2="%.1f" stroke="%s" stroke-width=".8"/>'
+             % (X((ORD + END) / 2), T - 16, X((ORD + END) / 2), Y(36) - 2, MUTED))
 
     for yr, lo, hi, lab in BANDS:
         o.append('<line x1="%.1f" y1="%d" x2="%.1f" y2="%d" stroke="%s" stroke-width="1" '
@@ -308,13 +335,13 @@ def band():
     o.append('<line x1="26" y1="%d" x2="674" y2="%d" stroke="%s" stroke-width="1"/>'
              % (y - 18, y - 18, RULE))
     for line in wrap("The bond was imposed on 4 February 1733 and ended on 1 January 1800. The "
-                     "ordinance of 20 June 1788 did not free anybody at a stroke. It put the "
-                     "bound ages back to the range of 1733, gave immediate freedom passes to men "
-                     "already too old for service and to those discharged from it, and set the "
-                     "end at 1 January 1800 \u2014 three years after the Liberty Column was "
-                     "finished. Conscription itself was moved onto the new censuses instead of "
-                     "the land assessment, and it went on falling only on country youth: young "
-                     "men in the market towns were exempt until 1849.", 104):
+                     "ordinance of 20 June 1788 let the boys under fourteen go after three months "
+                     "and gave men past the age of service, or discharged from it, their freedom "
+                     "passes at once. Nobody entered the bond after that: the men who had been "
+                     "fourteen to thirty-six in June 1788 stayed bound as they grew older, one "
+                     "birth-year was released each year, and the last went free on 1 January "
+                     "1800. Men discharged from service went free too, so the wedge is the most "
+                     "the rule could hold, drawn from the rule, not from a count of men.", 104):
         o.append('<text x="26" y="%d" class="mapt">%s</text>' % (y, line))
         y += 14
     o.append('</svg>')
