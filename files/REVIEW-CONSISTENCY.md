@@ -2689,4 +2689,8 @@ yet read.
 **R-16 answered 25 September 2026: as recommended.** Charlotte Amalie at Nykøbing Slot, 25 June 1667,
 as 25 §08's `[f]` vignette, to be sourced, drafted and checked in review session 10.
 
+**R-17 answered 25 September 2026: as recommended.** Kari Rasmusdatter Hiran at Nordkleiva,
+Krokskogen, April 1716, as 27 §05's `[f][n]` vignette, §05 re-scoped as *Norway, and the war at sea*,
+to be sourced, drafted and checked in review session 10.
+
 Until they are carried out, `vignettes.py` reports 25, 27 and 31 as D-9 failures, and that is correct.

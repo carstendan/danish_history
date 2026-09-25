@@ -201,7 +201,9 @@ out in session 9** (Gundsømagle; the king's court, 10 July 1591): **no D-9 fail
 `[n]`** — 25's and 31's are the two failures this entry names as found by hand at drafting, still
 there — R-16 to R-18 (§13.9), not tagged away. **R-16 answered 25 September 2026 as recommended:**
 Charlotte Amalie at Nykøbing Slot, 25 June 1667 (25 §08, `[f]`), for review session 10; until it is
-carried out, `vignettes.py` reports 25 as a D-9 failure, correctly.
+carried out, `vignettes.py` reports 25 as a D-9 failure, correctly. **R-17 answered the same day as
+recommended:** Kari Rasmusdatter Hiran at Nordkleiva, Krokskogen, April 1716 (27 §05, `[f][n]`, §05
+re-scoped as *Norway, and the war at sea*), for review session 10; until then 27 is a D-9 failure, correctly.
 
 **Checked by.** `vignettes.py` balance layer, which reports such a chapter as
 "[f] part" — and still as FAIL if no chapter of its part carries `[f]`.
