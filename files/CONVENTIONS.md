@@ -203,7 +203,9 @@ there — R-16 to R-18 (§13.9), not tagged away. **R-16 answered 25 September 2
 Charlotte Amalie at Nykøbing Slot, 25 June 1667 (25 §08, `[f]`), for review session 10; until it is
 carried out, `vignettes.py` reports 25 as a D-9 failure, correctly. **R-17 answered the same day as
 recommended:** Kari Rasmusdatter Hiran at Nordkleiva, Krokskogen, April 1716 (27 §05, `[f][n]`, §05
-re-scoped as *Norway, and the war at sea*), for review session 10; until then 27 is a D-9 failure, correctly.
+re-scoped as *Norway, and the war at sea*), for review session 10; until then 27 is a D-9 failure, correctly. **R-18 answered the same day as
+recommended:** Hans Andersen, shoemaker, Odense, 1812 to January 1813 (31 §07, `[n]`), for review
+session 10; until then 31 is a D-9 failure, correctly.
 
 **Checked by.** `vignettes.py` balance layer, which reports such a chapter as
 "[f] part" — and still as FAIL if no chapter of its part carries `[f]`.

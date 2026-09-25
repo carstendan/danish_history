@@ -2693,4 +2693,7 @@ as 25 §08's `[f]` vignette, to be sourced, drafted and checked in review sessio
 Krokskogen, April 1716, as 27 §05's `[f][n]` vignette, §05 re-scoped as *Norway, and the war at sea*,
 to be sourced, drafted and checked in review session 10.
 
+**R-18 answered 25 September 2026: as recommended.** Hans Andersen, shoemaker, Odense, 1812 to January
+1813, as 31 §07's `[n]` vignette, to be sourced, drafted and checked in review session 10.
+
 Until they are carried out, `vignettes.py` reports 25, 27 and 31 as D-9 failures, and that is correct.
