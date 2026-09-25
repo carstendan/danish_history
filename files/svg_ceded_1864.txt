@@ -6,7 +6,7 @@
   <text x="26" y="100" class="mapt">Ceded to the duchies: Ribe Amt parishes</text>
   <rect x="342" y="90" width="147.6" height="12" fill="#4F6470"/>
   <text x="674" y="100" class="mapl" text-anchor="end">13,053</text>
-  <text x="26" y="124" class="mapt">Received from Slesvig: Ærø and mainland</text>
+  <text x="26" y="124" class="mapt">Received from Schleswig: Ærø and mainland</text>
   <rect x="342" y="114" width="236.0" height="12" fill="#4F6470"/>
   <text x="674" y="124" class="mapl" text-anchor="end">20,864</text>
   <text x="26" y="148" class="mapt">The exchange therefore moved this many MORE people into the kingdom</text>

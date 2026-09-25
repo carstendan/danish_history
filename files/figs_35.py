@@ -93,19 +93,18 @@ CHAIN = [
     ("1881", "Germany bans live cattle imports",
      "The nearest market for the animal itself closes. What is left is the milk."),
     ("1882", "Hjedding writes the rules",
-     "Twenty-six farmers in \u00d8lgod; within twenty years more than a thousand dairies."),
+     "Farmers near \u00d8lgod write the statutes; by 1894 more than nine hundred dairies."),
     ("1887", "The first cooperative slaughterhouse",
      "Horsens, 14 July: 23,400 pigs and 1.1 million kilos of pork in the first year."),
-    ("1901", "The state stamps the butter",
-     "The Lur mark registered, and handed to the government as the quality stamp."),
+    ("1901", "The butter gets its mark",
+     "The Lur mark registered on 23 October; compulsory on exported butter from 1906."),
 ]
 
+# SHORTENED in review session 10: the old five-line tail repeated section 02's
+# "reversal" paragraph almost word for word. The body keeps the argument.
 TAIL1 = [
-    "The reversal is the part that is easy to miss. A country that had exported grain for",
-    "centuries ended the period importing it \u2014 buying foreign grain cheaply, feeding it to",
-    "Danish animals, and exporting what the animals produced. The cheap American harvest",
-    "that ruined the Danish grain farmer became the raw material of the Danish dairy farmer,",
-    "and it arrived on the same ships that took the butter out.",
+    "Net effect: by 1882 Denmark was no longer a net exporter of grain. It fed imported",
+    "grain to its animals and sold what they produced.",
 ]
 
 
@@ -118,12 +117,13 @@ def omlaegning():
             'The loss of 1864 has already put a customs frontier on the land route south. '
             'The continuous cream separator arrives at the end of the 1870s and makes joint '
             'dairying workable. Germany bans imports of live cattle in 1881, closing the '
-            'nearest market for the animal itself. In 1882 twenty-six farmers at Hjedding '
-            'in \u00d8lgod parish write the rules that a thousand cooperative dairies then '
-            'copy. In 1887 the first cooperative slaughterhouse opens at Horsens. In 1901 '
-            'the Lur mark is registered as the official quality stamp for butter. The net '
-            'effect is that Denmark stopped exporting grain and began importing it, to feed '
-            'to animals whose product it exported instead.">' % W)
+            'nearest market for the animal itself. In 1882 farmers at Hjedding in '
+            '\u00d8lgod parish write the statutes that more than nine hundred cooperative '
+            'dairies had copied by 1894. In 1887 the first cooperative slaughterhouse is '
+            'founded at Horsens. In 1901 the Lur mark is registered for butter, and a law '
+            'of 1906 makes it compulsory on exported butter. The net effect is that by '
+            '1882 Denmark was no longer a net exporter of grain: it fed imported grain to '
+            'animals whose product it exported instead.">' % W)
     o = []
     o.append('<text x="26" y="30" class="mapl">WHY DANISH FARMING TURNED ROUND</text>')
     o.append('<text x="26" y="46" class="mapt">the chain from falling grain prices to butter '
@@ -156,41 +156,47 @@ def omlaegning():
 
 
 # ====================================================================== figure 2
+# REVIEW SESSION 10. The shares are the sources' own words, drawn at their floor
+# ("over fire ud af ti", "hver fjerde"), and labelled in words, not as 42% and 33%,
+# which the sources never gave. The annual points are the two the sources state
+# (faktalink: "naesten 12.000" in 1882, "mere end 10.000 ... hvert aar" in the early
+# 1890s); the 1885 trough and the Nordic totals had no source and are gone. The
+# Nordic comparison is now the share the sources give: "ca. 15%".
 OCCUPATIONS = [
-    ("Agricultural labourers", 42, "more than four in ten"),
-    ("Urban working class", 25, "about one in four; for women, above all servants"),
-    ("Everyone else", 33, "farmers' sons without a farm, artisans, families, the devout"),
+    ("Agricultural labourers", 40, "over 40%", "more than four in ten"),
+    ("Urban working class", 25, "about 25%", "one in four; for women, above all servants"),
+    ("Everyone else", 35, "the rest", "craftsmen, nearly one emigrant in five, and the rest"),
 ]
 
-POINTS = [("1882", 11400, "the peak"),
-          ("1885", 4200, "the trough three years later"),
-          ("1891\u201392", 9700, "the second peak")]
+POINTS = [("1882", 12000, "nearly 12,000", "the peak"),
+          ("early 1890s", 10000, "over 10,000", "a year, the second peak")]
 
-NORDIC = [("Denmark", 309000), ("Norway", 754000), ("Sweden", 1105000)]
+NORDIC_SHARE = 15
 
 
 def udvandring():
     W = 700
     head = ('<svg viewBox="0 0 %d %%d" xmlns="http://www.w3.org/2000/svg" role="img" '
-            'aria-label="Chart of Danish overseas emigration between 1868 and 1900. About '
-            '309,000 Danes left, against 754,000 Norwegians and 1,105,000 Swedes. By '
-            'occupation, more than four in ten were agricultural labourers and about one in '
-            'four were urban working class, among women above all servants. Three points in '
-            'the annual series are attested: about 11,400 emigrants in 1882, about 4,200 in '
-            '1885, and about 9,700 at the second peak in 1891 and 1892. The occupational '
-            'figures are the argument of the chart: the people leaving were not the '
-            'freeholders who founded the cooperative dairies.">' % W)
+            'aria-label="Chart of Danish overseas emigration between 1868 and 1900. More '
+            'than 170,000 Danes left before 1900, out of some two million; Denmark gave '
+            'about 15 per cent of all Scandinavian emigration. By occupation, more than '
+            'four in ten were agricultural labourers and one in four were urban working '
+            'class, among women above all servants. Two points in the annual series are '
+            'attested: nearly 12,000 emigrants in 1882, and more than 10,000 a year in the '
+            'early 1890s. The occupational figures are the argument of the chart: the '
+            'people leaving were not the freeholders who founded the cooperative '
+            'dairies.">' % W)
     o = []
     o.append('<text x="26" y="30" class="mapl">WHO LEFT</text>')
     o.append('<text x="26" y="46" class="mapt">Danish overseas emigration, 1868\u20131900: '
-             'about 309,000 people out of some two million</text>')
+             'more than 170,000 people out of some two million</text>')
 
     y = 78
     o.append('<text x="26" y="%d" class="mapx">BY OCCUPATION \u2014 THE POINT OF THIS '
              'CHART</text>' % y)
     y += 22
     bx, bw = 250, 300
-    for lbl, pct, note in OCCUPATIONS:
+    for lbl, pct, shown, note in OCCUPATIONS:
         o.append('<text x="26" y="%d" class="mapt">%s</text>' % (y, esc(lbl)))
         # TONE BY MEANING, NOT BY SIZE. The first version picked the emphasis tone
         # for any bar over 30 per cent, which put the residual "everyone else" row
@@ -198,7 +204,7 @@ def udvandring():
         o.append('<rect x="%d" y="%d" width="%.1f" height="12" fill="%s"/>'
                  % (bx, y - 10, bw * pct / 100.0 + 0.0,
                     QUIET if lbl.startswith("Everyone") else SLATE))
-        o.append('<text x="%d" y="%d" class="mapl">%d%%</text>' % (bx + bw + 12, y, pct))
+        o.append('<text x="%d" y="%d" class="mapl">%s</text>' % (bx + bw + 12, y, esc(shown)))
         y += 15
         o.append('<text x="26" y="%d" class="mapt" opacity=".75">%s</text>' % (y, esc(note)))
         y += 22
@@ -210,47 +216,51 @@ def udvandring():
              % (y, y, RULE))
 
     y += 22
-    o.append('<text x="26" y="%d" class="mapx">THE THREE YEARS THAT CAN BE ATTESTED</text>' % y)
+    o.append('<text x="26" y="%d" class="mapx">THE TWO PEAKS THAT CAN BE ATTESTED</text>' % y)
     y += 16
     o.append('<text x="26" y="%d" class="mapt">Drawn as points and not joined. The '
              'year-by-year run exists in the Copenhagen police</text>' % y)
     y += 14
     o.append('<text x="26" y="%d" class="mapt">registers and was not obtained; a line '
-             'through three known values would invent thirty.</text>' % y)
+             'through two known values would invent thirty.</text>' % y)
     y += 20
     # THE AXIS MAXIMUM IS THE AXIS MAXIMUM, not the data maximum. The first
     # version scaled to the largest point and then labelled the end of the line
     # 12,000, so the axis said one thing and the geometry said another. Caught by
     # looking, and it is the kind of error that makes a chart quietly lie.
-    top = 12000.0
+    top = 14000.0
     o.append('<line x1="110" y1="%d" x2="370" y2="%d" stroke="%s" stroke-width="1"/>'
              % (y, y, RULE))
     o.append('<text x="110" y="%d" class="mapt" opacity=".7">0</text>' % (y + 12))
-    o.append('<text x="370" y="%d" class="mapt" opacity=".7" text-anchor="end">12,000 in a '
+    o.append('<text x="370" y="%d" class="mapt" opacity=".7" text-anchor="end">14,000 in a '
              'year</text>' % (y + 12))
     y += 26
-    for when, n, note in POINTS:
+    for when, n, shown, note in POINTS:
         o.append('<text x="26" y="%d" class="mapx">%s</text> ' % (y, esc(when)))
         o.append('<circle cx="%.1f" cy="%d" r="5" fill="%s"/>'
                  % (110 + 260 * n / float(top) + 0.0, y - 4, WARM))
-        o.append('<text x="410" y="%d" class="mapl">%s</text> ' % (y, "{:,}".format(n)))
-        o.append('<text x="486" y="%d" class="mapt">%s</text>' % (y, esc(note)))
+        o.append('<text x="400" y="%d" class="mapl">%s</text> ' % (y, esc(shown)))
+        o.append('<text x="500" y="%d" class="mapt">%s</text>' % (y, esc(note)))
         y += 20
 
     y += 8
     o.append('<line x1="26" y1="%d" x2="674" y2="%d" stroke="%s" stroke-width="1"/>'
              % (y, y, RULE))
     y += 22
-    o.append('<text x="26" y="%d" class="mapx">AND FOR SCALE, 1868\u20131900</text>' % y)
+    o.append('<text x="26" y="%d" class="mapx">AND FOR SCALE: DENMARK\'S SHARE OF '
+             'SCANDINAVIAN EMIGRATION</text>' % y)
     y += 22
-    top2 = max(n for _, n in NORDIC)
-    for lbl, n in NORDIC:
-        o.append('<text x="26" y="%d" class="mapt">%s</text>' % (y, esc(lbl)))
-        o.append('<rect x="%d" y="%d" width="%.1f" height="11" fill="%s" opacity=".8"/>'
-                 % (bx, y - 9, bw * n / float(top2) + 0.0, GREEN))
-        o.append('<text x="%d" y="%d" class="mapl">%s</text>'
-                 % (bx + bw + 12, y, "{:,}".format(n)))
-        y += 19
+    o.append('<text x="26" y="%d" class="mapt">Denmark, Norway and Sweden</text>' % y)
+    o.append('<rect x="%d" y="%d" width="%.1f" height="11" fill="%s" opacity=".5"/>'
+             % (bx, y - 9, float(bw), QUIET))
+    o.append('<rect x="%d" y="%d" width="%.1f" height="11" fill="%s" opacity=".9"/>'
+             % (bx, y - 9, bw * NORDIC_SHARE / 100.0, GREEN))
+    o.append('<text x="%d" y="%d" class="mapl">about %d%%</text>'
+             % (bx + bw + 12, y, NORDIC_SHARE))
+    y += 15
+    o.append('<text x="26" y="%d" class="mapt" opacity=".75">the darker part is Denmark\'s: '
+             'about one emigrant in seven</text>' % y)
+    y += 19
     H = int(y + 8)
     o.append('</svg>')
     return wrap(head, o, W, H)
@@ -261,17 +271,18 @@ RULES = [
     ("Deliver everything",
      "All the milk your cows give goes to the dairy, clean, unskimmed, none from a sick "
      "cow and none from a newly calved one before the seventh milking.",
-     "Adulterate it and you are expelled and fined ten kroner a cow. These clauses read "
+     "Adulterate it and you are expelled and fined ten kroner. These clauses read "
      "as fussiness and are the product specification: England paid for sameness."),
     ("Be paid alike",
      "The same price per kande of milk for every supplier, whatever the quantity.",
      "The small farmer gets the large farmer's price. This is what made joining worth "
      "anything to a man with eight cows."),
-    ("One member, one vote",
-     "Each member has one vote at the general meeting regardless of how many cows he "
-     "owns. In Danish: not by heads of cattle, but by heads.",
-     "The general meeting is the highest authority. The wording was taken from the "
-     "rules of the parish savings bank and fire-insurance association."),
+    ("The general meeting decides",
+     "A general meeting of the members, held every May, decides by simple majority. "
+     "Hjedding's own §12 counted the votes by cows, one vote for each cow; the "
+     "movement came to vote by heads, not by cattle.",
+     "The wording was taken from the rules of the parish savings bank and "
+     "fire-insurance association."),
     ("Stand behind each other",
      "All the members are liable for the debts of all, alle som \u00e9n og \u00e9n som alle, "
      "with the whole of their property.",
@@ -286,10 +297,13 @@ def andel():
             'aria-label="Diagram of the four rules of the Hjedding cooperative dairy '
             'contract of 1882. First, every member delivers all his milk, clean and '
             'unskimmed and not from a sick cow, on pain of expulsion and a fine of ten '
-            'kroner a cow. Second, every supplier is paid the same price per measure '
-            'whatever the quantity. Third, every member has one vote at the general meeting '
-            'regardless of the size of his herd, the wording taken from the rules of the '
-            'parish savings bank and fire-insurance association. Fourth, and usually left '
+            'kroner. Second, every supplier is paid the same price per measure '
+            'whatever the quantity. Third, a general meeting of the members, held every '
+            'May, decides by simple majority; the contract itself counted votes by the '
+            'number of cows, one vote for each cow, and the movement later voted one '
+            'member one vote. The wording was taken from '
+            'the rules of the parish savings bank and fire-insurance association. Fourth, '
+            'and usually left '
             'out of popular accounts, all the members are jointly and unlimitedly liable '
             'for the debts of all with the whole of their property, which is what allowed '
             'farmers without capital to borrow for a steam engine and a separator, and '

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """Chapter 34's second and third figures. The map is map_1864.py.
 
-  svg_dybbol_1864.txt   the bombardment record, and six casualty returns
+  svg_dybbol_1864.txt   the bombardment record, and four casualty returns
   svg_ceded_1864.txt    what was lost: counted figures against disputed ones
 
 BOTH FIGURES ARE ABOUT THE SAME PROBLEM, which is that 1864 is one of the
@@ -9,11 +9,12 @@ best-documented events in Danish history and two of its headline numbers cannot
 be established.
 
 FIGURE 2 DOES NOT RECONCILE THE CASUALTY FIGURES, and refusing to is the point.
-Six published returns for 18 April 1864 are in circulation and they differ by a
-factor of nearly ten on the Danish dead. The temptation is to pick the official
-Danish return because it is official, or to average, or to quote a range. All
-three would be wrong, and the reason is visible once the returns are set beside
-each other with THEIR CATEGORIES SHOWN: they are not six answers to one question.
+Four Danish reference returns for 18 April 1864 are drawn (review session 10 cut
+an untraced "official return" of 379 killed and a misread "German account" of
+3,600 killed), and they differ by a factor of seven. The temptation is to pick one
+return, or to average, or to quote a range. All three would be wrong, and the
+reason is visible once the returns are set beside each other with THEIR
+CATEGORIES SHOWN: they are not four answers to one question.
 One counts dead; one counts dead and wounded together; one counts dead, wounded
 and missing; one counts total losses including unwounded prisoners. A range built
 across those is arithmetic performed on incommensurable things.
@@ -24,8 +25,8 @@ The plague-toll figure in Part G established the pattern; this is the same refus
 with a clearer cause.
 
 The bombardment record beside it is included precisely because it CAN be
-established. The shell counts, the dates, the range of the guns and the depth of
-the parallels are all attested and consistent. That contrast is the argument: the
+established. The dates, the range of the guns and the depth of the parallels are
+attested; the shell counts agree to within their rounding. That contrast is the argument: the
 engineering of the siege is better recorded than the number of men it killed.
 
 FIGURE 3 SEPARATES WHAT DANMARKS STATISTIK COMPUTED FROM WHAT THE SOURCES ARGUE
@@ -64,21 +65,19 @@ SIEGE = [
     ("1861\u201362", "Ten redoubts built in a three-kilometre arc, Vemmingbund to Als Sund"),
     ("7 Feb", "First Danish troops arrive from the Dannevirke. The position is unfinished"),
     ("15 Mar", "Rifled breech-loading guns emplaced on Broager Land, across the water"),
-    ("", "Danish artillery cannot reach them and does not reply again"),
+    ("", "Danish artillery on the position cannot reach them"),
     ("2 Apr", "Sønderborg shelled; much of the town is reduced to rubble"),
-    ("11 Apr", "Four thousand shells fall on the redoubts in one day"),
+    ("8 Apr", "Broager batteries alone fire 1,150 rounds, perhaps 200–300 on the town"),
     ("mid-Apr", "Parallel trenches dug forward to three hundred metres"),
-    ("18 Apr", "Bombardment 04.00\u201310.00: more than eight thousand shells in six hours"),
+    ("18 Apr", "Bombardment 04.00\u201310.00: about eight thousand shells in six hours"),
     ("10.00", "Assault. The central and southern redoubts are gone in half an hour"),
-    ("11.30", "The 8th Brigade counter-attack breaks after ninety minutes"),
+    ("10.30", "8th Brigade counter-attack: 1,399 of some 3,000 men lost"),
 ]
 
 RETURNS = [
-    ("Danish official return", "379", "killed"),
     ("Nationalmuseet", "700", "dead"),
-    ("150th anniversary", "1,669", "dead AND wounded together"),
-    ("Dybb\u00f8l Banke", "~1,800", "killed, wounded OR missing"),
-    ("German account", "3,600", "killed"),
+    ("Dybbøl Banke centre", "1,669", "dead AND wounded together"),
+    ("Naturstyrelsen", "~1,800", "killed, wounded OR missing"),
     ("danmarkshistorien.dk", "~5,000", "total lost, prisoners included"),
 ]
 
@@ -88,24 +87,23 @@ def dybbol():
     o = []
     head = ('<svg viewBox="0 0 %d %%d" xmlns="http://www.w3.org/2000/svg" role="img" '
             'aria-label="Chart of the siege of the Dybb\u00f8l position in 1864 and of the '
-            'six published casualty returns for the assault of 18 April. The siege record '
-            'is consistent across sources: ten redoubts built in 1861 and 1862 in a '
-            'three-kilometre arc, rifled breech-loading guns emplaced on Broager Land on 15 '
-            'March which Danish artillery could not reach, four thousand shells on 11 April, '
-            'parallels dug forward to three hundred metres, and more than eight thousand '
-            'shells between four and ten in the morning of 18 April before the assault. The '
-            'casualty returns are not consistent: the Danish official return gives 379 '
-            'killed, Nationalmuseet 700 dead, a 150th-anniversary reckoning 1,669 dead and '
-            'wounded together, Dybb\u00f8l Banke about 1,800 killed, wounded or missing, a '
-            'German account 3,600 killed, and danmarkshistorien about 5,000 lost in total. '
-            'They differ because they count different things as well as because both sides '
-            'understated their own losses.">' % W)
+            'four Danish reference returns for the assault of 18 April. The siege record: '
+            'ten redoubts built in 1861 and 1862 in a three-kilometre arc, rifled '
+            'breech-loading guns emplaced on Broager Land on 15 March which Danish artillery '
+            'could not reach, 1,150 rounds from the Broager batteries alone on 8 April, '
+            'perhaps two or three hundred of them on the town of Sønderborg, parallels dug forward to three hundred metres, about eight thousand '
+            'shells between four and ten in the morning of 18 April before the assault, and '
+            'a counter-attack by the 8th Brigade that cost 1,399 of some 3,000 men. The '
+            'casualty returns differ: Nationalmuseet gives 700 dead, the Dybb\u00f8l Banke '
+            'history centre 1,669 dead and wounded together, Naturstyrelsen about 1,800 '
+            'killed, wounded or missing, and danmarkshistorien about 5,000 lost in total. '
+            'Most of the difference is in what they count.">' % W)
     o.append('<text x="26" y="30" class="mapl">WHAT FELL ON THE REDOUBTS</text>')
     o.append('<text x="26" y="46" class="mapt">the siege of the Dybb\u00f8l position, '
              'February to 18 April 1864</text>')
 
     y = 74
-    o.append('<text x="26" y="%d" class="mapx">ATTESTED, AND CONSISTENT ACROSS SOURCES</text>'
+    o.append('<text x="26" y="%d" class="mapx">THE SIEGE, AS RECORDED</text>'
              % y)
     y += 22
     for when, what in SIEGE:
@@ -118,11 +116,11 @@ def dybbol():
     o.append('<line x1="26" y1="%d" x2="674" y2="%d" stroke="%s" stroke-width="1"/>'
              % (y, y, RULE))
     y += 22
-    o.append('<text x="26" y="%d" class="mapx">DISPUTED \u2014 SIX RETURNS FOR ONE '
+    o.append('<text x="26" y="%d" class="mapx">DISPUTED \u2014 FOUR RETURNS FOR ONE '
              'MORNING</text>' % y)
     y += 20
     o.append('<text x="26" y="%d" class="mapt">The spread is a spread of definitions as much '
-             'as of facts. These are not six</text>' % y)
+             'as of facts. These are not four</text>' % y)
     y += 15
     o.append('<text x="26" y="%d" class="mapt">answers to one question, so no range is drawn '
              'across them and none should be.</text>' % y)
@@ -139,14 +137,11 @@ def dybbol():
     o.append('<line x1="26" y1="%d" x2="674" y2="%d" stroke="%s" stroke-width="1"/>'
              % (y, y, RULE))
     y += 18
-    o.append('<text x="26" y="%d" class="mapt">Both sides understated their own losses and '
-             'overstated the enemy\u2019s, which historians</text>' % y)
+    o.append('<text x="26" y="%d" class="mapt">Prussian losses are steadier: 1,201 dead and '
+             'wounded, or about 1,200. The engineering</text>' % y)
     y += 14
-    o.append('<text x="26" y="%d" class="mapt">give as the reason for the rest of the gap. '
-             'The engineering of the siege is better</text>' % y)
-    y += 14
-    o.append('<text x="26" y="%d" class="mapt">recorded than the number of men it '
-             'killed.</text>' % y)
+    o.append('<text x="26" y="%d" class="mapt">of the siege is better recorded than the '
+             'number of Danes it killed.</text>' % y)
 
     H = int(y + 12)
     o.append('</svg>')
@@ -198,7 +193,7 @@ def ceded():
     # ran under its own bar, and collisions() compares text with text and cannot see a
     # <rect> laid over a <text>. Same blind spot as chapter 33's franchise key.
     rows = [("Ceded to the duchies: Ribe Amt parishes", CEDED_POP),
-            ("Received from Slesvig: \u00c6r\u00f8 and mainland", GAINED_POP)]
+            ("Received from Schleswig: \u00c6r\u00f8 and mainland", GAINED_POP)]
     bw, bx = 236, 342
     top = max(n for _, n in rows)
     for lbl, n in rows:

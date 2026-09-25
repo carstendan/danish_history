@@ -90,20 +90,20 @@ def esc(s):
 # ====================================================================== figure 1
 # Each column: (heading, rule, [steps]). A step of None is a deliberate gap.
 COLS = [
-    ("KONGERIGET", "Kongeloven 1665.", [
+    ("THE KINGDOM", "Kongeloven 1665.", [
         "Agnatic \u2014 but the female",
         "line opens if the male",
         "line fails. It failed.",
         None,
         "Frederik 7., no children",
         "Prince Ferdinand, none",
-        "Louise Charlotte, d. 1824",
+        "Louise Charlotte, b. 1789",
         "m. Wilhelm of Hesse",
         "Louise of Hesse",
         "\u2192 her husband Christian",
         "of Gl\u00fccksburg",
     ]),
-    ("SLESVIG", "No instrument says.", [
+    ("SCHLESWIG", "No instrument says.", [
         "A fief of the Danish crown,",
         "not of the Empire.",
         None,
@@ -116,7 +116,7 @@ COLS = [
         "asserts the Kongelov runs",
         "here. It asserts it.",
     ]),
-    ("HOLSTEN", "Agnatic, and only that.", [
+    ("HOLSTEIN", "Agnatic, and only that.", [
         "Man to man. No female",
         "line, no opening, no",
         "exception.",
@@ -145,13 +145,13 @@ def descent():
     x0, colw, gap = 26, 208, 8
     o = ['<svg viewBox="0 0 %d %d" xmlns="http://www.w3.org/2000/svg" role="img" '
          'aria-label="Diagram of the Danish succession crisis as it stood in 1848. Three '
-         'columns: the kingdom of Denmark, the duchy of Slesvig and the duchy of Holstein. '
+         'columns: the kingdom of Denmark, the duchy of Schleswig and the duchy of Holstein. '
          'The kingdom followed the Kongelov of 1665, which was agnatic but opened the female '
          'line when the male line failed; with Frederik 7. childless and Prince Ferdinand '
          'without legitimate children, the claim ran through his aunt Louise Charlotte and '
          'her daughter Louise of Hesse to Louise\u2019s husband Christian of Gl\u00fccksburg. '
          'Holstein followed a purely agnatic law, under which the nearest heirs were the '
-         'dukes of Augustenborg. The Slesvig column is empty, because the incorporation of '
+         'dukes of Augustenborg. The Schleswig column is empty, because the incorporation of '
          '1721 was carried through without introducing the kingdom\u2019s law, courts or '
          'language, and nothing before the Open Letter of 1846 settled which succession '
          'applied there. The Treaty of London of 8 May 1852 resolved it by neither law: it '
@@ -174,7 +174,7 @@ def descent():
     top = ry + 40
     for i, (head, rule, steps) in enumerate(COLS):
         cx = x0 + i * (colw + gap)
-        blank = (head == "SLESVIG")
+        blank = (head == "SCHLESWIG")
         # column frame
         o.append('<rect x="%d" y="%d" width="%d" height="%d" fill="none" stroke="%s" '
                  'stroke-width="1"%s/>'
@@ -243,7 +243,7 @@ def sprog():
 
     W, H = 700, 512
     o = ['<svg viewBox="0 0 %d %d" xmlns="http://www.w3.org/2000/svg" role="img" '
-         'aria-label="Chart of P.C. Koch\u2019s language count for the duchy of Slesvig, '
+         'aria-label="Chart of P.C. Koch\u2019s language count for the duchy of Schleswig, '
          'published in 1839 as a Danish answer to Franz Geerz\u2019s German language map of '
          '1838. Koch divided the duchy\u2019s 338,192 inhabitants into six categories by '
          'setting the language spoken at home against the language of church and school. '
@@ -255,7 +255,7 @@ def sprog():
          'counted as Danish, the same survey makes the duchy 33, 43 or 57 per cent Danish.">'
          % (W, H)]
     o.append('<rect x="0" y="0" width="%d" height="%d" fill="%s"/>' % (W, H, PAPER))
-    o.append('<text x="26" y="30" class="mapl">HOW MANY DANES WERE THERE IN SLESVIG?</text>')
+    o.append('<text x="26" y="30" class="mapl">HOW MANY DANES WERE THERE IN SCHLESWIG?</text>')
     o.append('<text x="26" y="46" class="mapt">P.C. Koch\u2019s own count, 1839 \u2014 published '
              'to answer Franz Geerz\u2019s map of 1838</text>')
 

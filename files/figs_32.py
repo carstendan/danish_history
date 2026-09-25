@@ -17,8 +17,8 @@ it would look like data and there is no way for a reader to tell. So this figure
 draws only what the sources actually state - two ratios and a chronology - and
 says on its face that the continuous series exists and is not reproduced here.
 
-What IS attested: grain at about one fifth of the 1814-17 level by 1820-25; farm
-property down to a third or a quarter of its former price; the 1812 Zealand takst
+What IS attested: grain at between a quarter and a third of the pre-crisis level
+by 1822-25; one estate's two sale prices (Torstedlund); the 1812 Zealand takst
 at 61 rigsdaler 72 skilling, nearly twenty times the 1790s; prices nearly
 quadrupling from 1811 to 1812; the collapse running from 1818 and the recovery
 from about 1828 into the kornsalgsperiode. That is a shape, and the shape is the
@@ -48,8 +48,9 @@ chapter's sources block.
 
 WHAT THE FIGURE ARGUES. Two Danish bodies and two German ones, constituted the
 same week under the same law, with the same powers and no power. The franchise
-attached to them was the widest in Europe at the time - about one inhabitant in
-forty - and excluded every woman regardless of property. Both halves are the
+attached to them was wide for an estates franchise of its day - in the kingdom
+just under three in a hundred of the population - and excluded every woman
+regardless of property. Both halves are the
 point, so both are drawn at the same size.
 
 Run: python3 figs_32.py
@@ -77,7 +78,7 @@ SEAT_ROYAL = "#A8B2C2"
 ASSEMBLIES = [
     ("Roskilde", "the islands",      "Danish", 60,  10, 70, "decree",  "1 Oct 1835"),
     ("Viborg",   "north Jutland",    "Danish", 48,   7, 55, "decree",  "1836"),
-    ("Slesvig",  "Schleswig",        "German", None, None, 44, "list", "11 Apr 1836"),
+    ("Schleswig", "the duchy",       "German", None, None, 44, "list", "11 Apr 1836"),
     ("Itzehoe",  "Holstein",         "German", None, None, 48, "counted", "1 Oct 1835"),
 ]
 
@@ -94,10 +95,13 @@ def assemblies():
          'fifty-five, the town of Schleswig for the duchy of Schleswig with forty-four, and '
          'Itzehoe for Holstein with forty-eight. Two conducted business in Danish and two in '
          'German. All four were advisory only: they could be shown draft laws and could '
-         'propose laws, and the king could ignore them. About one inhabitant in forty could '
-         'vote, a wider share than any other country in Europe at the time, but every voter '
-         'had to own land, women were excluded whatever they owned, Jews could vote but not '
-         'be elected, and clergy could not be elected but could be appointed by the king. '
+         'propose laws, and the king could ignore them. In the kingdom just under three in a '
+         'hundred of the population could vote, a wide electorate by the standard of other '
+         'estates constitutions of the time, but every voter had to hold land, women were '
+         'excluded whatever they owned, and only Christians could be elected: Jews could vote '
+         'in the kingdom but not in the duchies. The clergy, the teachers of the grammar '
+         'schools and the university, and senior officials without land had neither vote nor '
+         'seat except by royal appointment. '
          'The Holstein figure is counted from a membership list rather than taken from the '
          'decree, and is marked on the figure as such.">' % (W, H)]
     o.append('<rect x="0" y="0" width="%d" height="%d" fill="%s"/>' % (W, H, PAPER))
@@ -143,19 +147,20 @@ def assemblies():
              % (b1, b1, RULE))
     o.append('<text x="26" y="%d" class="mapx">WHO COULD VOTE</text>' % (b1 + 22))
     for k, line in enumerate([
-            "Every voter a landowner. In the country, four t\u00f8nder hartkorn; five on",
-            "hereditary lease. In a market town, property worth a thousand rigsdaler.",
-            "Twice that to stand. Vote at twenty-five, stand at thirty-five.",
-            "About one inhabitant in forty \u2014 a wider share than any country in Europe."]):
+            "Every voter held land. In the country, four t\u00f8nder hartkorn owned, five",
+            "held as a tenant. In a market town, property worth a thousand rigsdaler.",
+            "Twice that to stand. Vote at twenty-five, stand at thirty.",
+            "In the kingdom, just under three in a hundred \u2014 wide, for an estates "
+            "franchise of its day."]):
         o.append('<text x="26" y="%d" class="mapt">%s</text>' % (b1 + 40 + k * 14, line))
 
     o.append('<text x="26" y="%d" class="mapx">AND WHO COULD NOT</text>' % (b1 + 114))
     for k, line in enumerate([
             "Women \u2014 whatever they owned, and with no exception.",
-            "Jews could vote. They could not be elected.",
-            "Clergy could not be elected either: a priest was to",
-            "attend to his teaching office and not to politics.",
-            "The king could appoint one."]):
+            "Only Christians could be elected. Jews could vote in the kingdom,",
+            "not in the duchies.",
+            "Clergy, grammar-school and university teachers, senior officials without",
+            "land: no vote and no seat by right. The king could appoint them."]):
         o.append('<text x="26" y="%d" class="mapt">%s</text>' % (b1 + 132 + k * 14, line))
 
     b2 = H - 70
@@ -163,10 +168,10 @@ def assemblies():
              % (b2, b2, RULE))
     o.append('<text x="26" y="%d" class="mapt">They could be shown draft laws and could propose '
              'laws. They could pass none, and the king</text>' % (b2 + 18))
-    o.append('<text x="26" y="%d" class="mapt">could ignore them. Sittings were closed. Eleven '
-             'years on, the argument the arrangement was</text>' % (b2 + 32))
+    o.append('<text x="26" y="%d" class="mapt">could ignore them. Sittings were closed. In 1842 '
+             'the argument the arrangement was</text>' % (b2 + 32))
     o.append('<text x="26" y="%d" class="mapt">built to disperse broke out inside the one at '
-             'Slesvig.</text>' % (b2 + 46))
+             'Schleswig.</text>' % (b2 + 46))
     o.append('</svg>')
     return "\n  ".join(o)
 
@@ -174,18 +179,26 @@ def assemblies():
 # ------------------------------------------------------------------ figure 2
 # Every number below is attested; see the docstring. Ranges are drawn as ranges
 # because that is what the sources give, and narrowing them would be inventing.
-BASE = "1814\u201317, the war-inflated level"
+# Corrected in review session 10: the sources found give grain at "between a
+# quarter and a third" of the pre-crisis level by 1822-25 (Gyldendal og Politikens
+# Danmarkshistorie), not "about a fifth"; no source was found for "farm property a
+# third or a quarter", so that bar is replaced by one estate's two recorded sale
+# prices (Torstedlund, same source). Corrected again by the fixes' checker: the
+# 1817 price was 112,250 rdl. in silver AND 35,000 rdl. in notes; 1826 was 12,050
+# in silver. The bar compares silver with silver only, is labelled so, and the
+# note under it says the notes are left out, so the real fall was steeper.
+BASE = "Before the crisis"
 BARS = [
     (BASE,                                  100, 100),
-    ("Grain, 1820\u201325",                  20,  20),
-    ("Farm property, the 1820s",              25,  33),
+    ("Grain, 1822\u201325",                  25,  33),
+    ("Torstedlund, 1826 (1817 silver = 100)", 11,  11),
 ]
 CHRONOLOGY = [
     ("5 Jan 1813",  "currency reform; the rigsbankdaler replaces the kurantdaler"),
-    ("1818",        "grain prices and grain exports begin falling together"),
+    ("1818",        "grain prices begin to fall steeply"),
     ("4 Jul 1818",  "Nationalbanken chartered; note circulation halves by the mid-1830s"),
-    ("1820\u201325",  "the trough. Estates to forced auction, others taken for unpaid tax"),
-    ("c. 1828",     "recovery begins. The kornsalgsperiode runs to the late 1850s"),
+    ("1822\u201325",  "the trough. Estates to forced auction; 53 fall to the state as lender"),
+    ("c. 1828",     "recovery begins; the kornsalgsperiode proper runs mid-1840s to late 1870s"),
     ("Jun 1846",    "Britain repeals the Corn Laws"),
 ]
 
@@ -194,9 +207,12 @@ def rye():
     W, H = 700, 470
     o = ['<svg viewBox="0 0 %d %d" xmlns="http://www.w3.org/2000/svg" role="img" '
          'aria-label="Diagram of the Danish agricultural collapse of 1818 to 1828 and the '
-         'recovery after it. Taking the war-inflated level of 1814 to 1817 as one hundred, '
-         'grain had fallen to about twenty by 1820 to 1825, and farm property to between '
-         'twenty-five and thirty-three of its former price. A dated list runs from the '
+         'recovery after it. Taking the level before the crisis as one hundred, grain had '
+         'fallen to between twenty-five and thirty-three by 1822 to 1825; one estate, '
+         'Torstedlund in Himmerland, sold in 1826 for about eleven per cent of the silver part '
+         'of its 1817 price, which also included 35,000 rigsdaler in notes, so the real fall '
+         'was steeper. '
+         'A dated list runs from the '
          'currency reform of 5 January 1813 through the chartering of Nationalbanken in July '
          '1818 and the trough of the early 1820s to the recovery from about 1828 and the '
          'repeal of the British Corn Laws in June 1846. The continuous annual series of '
@@ -204,8 +220,8 @@ def rye():
          'year-by-year values were not obtained; the figure says so rather than estimating '
          'them.">' % (W, H)]
     o.append('<rect x="0" y="0" width="%d" height="%d" fill="%s"/>' % (W, H, PAPER))
-    o.append('<text x="26" y="30" class="mapl">A FIFTH OF WHAT IT HAD BEEN</text>')
-    o.append('<text x="26" y="46" class="mapt">the war level of 1814\u201317 taken as 100</text>')
+    o.append('<text x="26" y="30" class="mapl">A QUARTER TO A THIRD OF WHAT IT HAD BEEN</text>')
+    o.append('<text x="26" y="46" class="mapt">the level before the crisis taken as 100</text>')
 
     x0, y = 250, 84
     xw = 400
@@ -224,12 +240,14 @@ def rye():
                  % (x0 + xw * hi / 100.0 + 8, y + 9, txt))
         y += 30
 
-    o.append('<text x="26" y="%d" class="mapt">Ranges are drawn as ranges: the sources give '
-             '"about a fifth" and "a third or a quarter",</text>' % (y + 14))
-    o.append('<text x="26" y="%d" class="mapt">and narrowing them would be inventing a '
-             'precision nobody recorded.</text>' % (y + 28))
+    o.append('<text x="26" y="%d" class="mapt">The grain range is drawn as a range: the source '
+             'gives "between a quarter and a third",</text>' % (y + 14))
+    o.append('<text x="26" y="%d" class="mapt">and narrowing it would be inventing a '
+             'precision nobody recorded. The estate is one case, not an average.</text>' % (y + 28))
+    o.append('<text x="26" y="%d" class="mapt">Its 1817 price also included 35,000 rigsdaler '
+             'in notes, left out of the bar: the real fall was steeper.</text>' % (y + 42))
 
-    b = y + 56
+    b = y + 60
     o.append('<line x1="26" y1="%d" x2="674" y2="%d" stroke="%s" stroke-width="1"/>'
              % (b, b, RULE))
     o.append('<text x="26" y="%d" class="mapx">WHAT HAPPENED, AND WHEN</text>' % (b + 22))

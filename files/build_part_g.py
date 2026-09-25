@@ -40,6 +40,7 @@ import sys
 from pagewords import pagewords   # one definition, shared
 import dkpaths
 import freshcheck   # the body-against-draft comparison, run before every page
+import pageguard    # body witness, figure freshness, reader's-text vocabulary (§14.6)
 
 # Paths resolve relative to this script, not to wherever it is run from, and both
 # can be overridden. The container paths that used to be hardcoded here meant the
@@ -146,7 +147,7 @@ CFG = {
          ("s02", "02", 'Poltava changes the arithmetic, 1709'),
          ("s03", "03", 'Helsingborg, 10 March 1710'),
          ("s04", "04", 'The plague, 1711'),
-         ("s05", "05", 'The war at sea'),
+         ("s05", "05", 'Norway, and the war at sea'),
          ("s06", "06", 'The Gottorp share taken, 1713\u20131721'),
          ("s07", "07", 'Frederiksborg, 1720 \u2014 the Sound kept, Sk\u00e5ne not'),
          ("s08", "08", 'Two hundred and forty schoolhouses'),
@@ -383,7 +384,7 @@ def build(n, c, stub):
     w = pagewords(h)
     h = re.sub(r'Era chapter \u00b7 about \d+ minutes',
                'Era chapter \u00b7 about %d minutes' % round(w / 210), h)
-    open(OUT + c['name'], 'w', encoding='utf-8').write(h)
+    # Not written here: __main__ writes the page only after its guards pass (§14.6).
     return h, stubbed
 
 
@@ -398,6 +399,12 @@ if __name__ == "__main__":
     stub = "--stub" in sys.argv
     print("--- Part G ---" + ("  [STUBBED FIGURES]" if stub else ""))
     fail = 0
+    # EVERY FIGURE MUST BE WHAT ITS SCRIPT WRITES, witnessed by running the script in a
+    # scratch copy, not by trusting the svg_*.txt on disk (review session 10, §14.6).
+    figs, nfigs = pageguard.figures_fresh(
+        HERE, G, sorted({f for c in CFG.values() for f in c['svgs'].values()}))
+    print("  figures: %d checked against their scripts, %s"
+          % (nfigs, 'all fresh' if not figs else '%d NOT' % len(figs)))
     for n in sorted(CFG):
         c = CFG[n]
         # THE BODY MUST BE WHAT THE DRAFT BUILDS, and this is asked BEFORE the page is
@@ -410,7 +417,28 @@ if __name__ == "__main__":
                   "Run mkbody.py %s and read what it says." % (n, c['name'], fresh[0], fresh[1], n))
             fail += 1
             continue
+        # AND THE BODY THIS BUILD READS MUST BE THE ONE FRESHCHECK READ (§14.6).
+        if not pageguard.same_body(G, HERE, c['body']):
+            print("\nchapter %s  %s\n  !! NOT BUILT: %s%s is not the body freshcheck checked "
+                  "(%s%s%s). Unset DK_SRC or copy the fresh body there."
+                  % (n, c['name'], G, c['body'], HERE, os.sep, c['body']))
+            fail += 1
+            continue
+        stalefigs = {f: v for f, v in figs.items()
+                     if f in c['svgs'].values() and v != 'SOURCELESS'}
+        if stalefigs:
+            print("\nchapter %s  %s\n  !! NOT BUILT: figures not what their scripts write: %s"
+                  % (n, c['name'], '; '.join('%s %s' % kv for kv in sorted(stalefigs.items()))))
+            fail += 1
+            continue
         h, stubbed = build(n, c, stub)
+        stale = pageguard.stale_vocabulary(h, ALLOWED_ENTRY.get(n, []))
+        if stale:
+            print("\nchapter %s  %s\n  !! NOT WRITTEN: retired vocabulary %s"
+                  % (n, c['name'], stale))
+            fail += 1
+            continue
+        open(OUT + c['name'], 'w', encoding='utf-8').write(h)
         css = h.split('<style>')[1].split('</style>')[0]
         ids = set(re.findall(r'id="([a-z0-9]+)"', h))
         links = set(re.findall(r'href="#([a-z0-9]+)"', h))
@@ -438,27 +466,8 @@ if __name__ == "__main__":
         # "entr&shy;y" past a guard that matched raw HTML. So tags are dropped (their
         # aria-label, alt and title text kept), entities decoded, soft hyphens removed,
         # every dash and space folded to one form, and whitespace joined.
-        raw = re.sub(r'<(script|style)\b.*?</\1>', '', h, flags=re.S)
-        attrs = ' '.join(re.findall(r'(?:aria-label|alt|title)="([^"]*)"', raw))
-        prose = html.unescape(re.sub(r'<[^>]+>', '', raw) + ' ' + attrs)
-        prose = prose.replace('\u00ad', '')
-        prose = re.sub(r'[\u2010\u2011\u2012\u2013\u2014]', '-', prose)
-        prose = re.sub(r'\s+', ' ', prose.replace('\u00a0', ' '))
-        gone = []
-        for ok in ALLOWED_ENTRY.get(n, []):
-            if ok in prose:
-                prose = prose.replace(ok, '', 1)
-            else:
-                gone.append(ok)
-        stale = {k: len(re.findall(p, prose)) for k, p in
-                 [('Band X', r'\b[Bb]and [A-I]\b'),
-                  ('entry', r'(?i)\bentr(?:y|ies)\b'),
-                  ('Era page', r'(?i)\bera[ -]+page\b'),
-                  ('padded', r'(?i)\b(?:chapters?|ch\.)(?: no\.)? +'
-                             r'(?:\d+ *(?:,|&|-|to|and|or)? *(?:and |or )?)*0\d+\b')]}
-        stale = {k: v for k, v in stale.items() if v}
-        if gone:
-            stale['allow-list phrase not on the page'] = len(gone)
+        # Since review session 10 the reader's text is pageguard.reader_text (§14.6).
+        stale = pageguard.stale_vocabulary(h, ALLOWED_ENTRY.get(n, []))
         print("\nchapter %s  %s" % (n, c['name']))
         print("  braces %d | placeholders %d | anchors %s | tags %s"
               % (css.count('{') - css.count('}'), h.count('{{'),

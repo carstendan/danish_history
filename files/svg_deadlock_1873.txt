@@ -4,7 +4,7 @@
   <text x="26" y="46" class="mapt">the deadlock of 1873–1901 as a structure, not as a quarrel between two men</text>
   <rect x="26" y="74" width="208" height="226" fill="none" stroke="#4F6470" stroke-width="1"/>
   <rect x="26" y="74" width="208" height="24" fill="#4F6470" opacity=".8"/>
-  <text x="36" y="91" class="mapl" fill="#F0F2EE">THE FOLKETING</text>
+  <text x="36" y="91" class="mapl" style="fill:#221E18">THE FOLKETING</text>
   <text x="36" y="118" class="mapx">could</text>
   <text x="36" y="136" class="mapt">reject the finance bill</text>
   <text x="36" y="164" class="mapt">reject a provisional law</text>
@@ -15,7 +15,7 @@
   <text x="36" y="262" class="mapt">majority</text>
   <rect x="242" y="74" width="208" height="226" fill="none" stroke="#8A7A5E" stroke-width="1"/>
   <rect x="242" y="74" width="208" height="24" fill="#8A7A5E" opacity=".8"/>
-  <text x="252" y="91" class="mapl" fill="#F0F2EE">THE LANDSTING</text>
+  <text x="252" y="91" class="mapl" style="fill:#221E18">THE LANDSTING</text>
   <text x="252" y="118" class="mapx">could</text>
   <text x="252" y="136" class="mapt">reject anything the Folketing</text>
   <text x="252" y="150" class="mapt">passed</text>
@@ -25,7 +25,7 @@
   <text x="252" y="234" class="mapt">moved</text>
   <rect x="458" y="74" width="208" height="226" fill="none" stroke="#A98C5F" stroke-width="1"/>
   <rect x="458" y="74" width="208" height="24" fill="#A98C5F" opacity=".8"/>
-  <text x="468" y="91" class="mapl" fill="#F0F2EE">THE KING</text>
+  <text x="468" y="91" class="mapl" style="fill:#221E18">THE KING</text>
   <text x="468" y="118" class="mapx">could</text>
   <text x="468" y="136" class="mapt">appoint whichever ministers he</text>
   <text x="468" y="150" class="mapt">chose</text>

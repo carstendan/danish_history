@@ -7,10 +7,26 @@ renaming a section breaks the build loudly instead of silently moving a checkpoi
 somewhere else (lesson L10). Any checkpoint already sitting in the body is stripped
 first, so the body and this file cannot disagree.
 
-Part H is chapters 32-36, 1814-1901. Only chapter 32 is configured; 33 to 36 are
-drafted but not written, and a config entry for a chapter with no body would fail
-loudly on the first run, which is the intended behaviour and not a bug to route
-around. Chapter 36 will carry the part coda via tail_extra, as 31 does for G.
+Part H is chapters 32-36, 1814-1901, all five configured and built from
+`c32_draft.md` ... `c36_draft.md` through mkbody.py. Chapter 36 carries the part
+coda, which mkbody places in the body.
+
+GUARDS, given to Part H in review session 10 (REVIEW-CONSISTENCY.md §14.6). Until
+then this script had no vocabulary check at all, and no summary line. Each is asked
+BEFORE the page is written, and a page that fails any of them is not written:
+
+  1. freshcheck.check(n): the body on disk is what the draft builds. If not
+     (mkbody refused, or nobody ran it), NOT BUILT.
+  2. pageguard.same_body: the body this build reads (DK_SRC) is the body
+     freshcheck checked. With DK_SRC at an old copy, an old body shipped "clean".
+  3. pageguard.figures_fresh: every figure is what its script writes, run in a
+     scratch copy. A hand-restored svg_*.txt shipped "clean".
+  4. pageguard.stale_vocabulary: retired vocabulary in the reader's text of the
+     page - every tag a space, attributes a reader or screen reader gets (any
+     case, any quoting), entities decoded, NFKC, invisible characters removed,
+     look-alike letters folded, dashes folded. Otherwise NOT WRITTEN.
+
+Part G got 1 in session 9 (§13.6) and 2-4 in session 10, from the same module.
 
 THE BAND COLOUR IS NEW. D and E are verdigris, F oxblood, G indigo; H is slate,
 added to style.css as --slate for this part. Adding a token to the stylesheet is
@@ -34,12 +50,15 @@ change to every shipped part, not to Part H alone.
 --stub exits non-zero even when everything else passes, so a stubbed page cannot be
 mistaken for a finished one.
 """
+import html
 import os
 import re
 import sys
 
 from pagewords import pagewords   # one definition, shared
 import dkpaths
+import freshcheck   # the body-against-draft comparison, run before every page
+import pageguard    # body witness, figure freshness, reader's-text vocabulary (§14.6)
 
 # Paths resolve relative to this script, not to wherever it is run from, and both
 # can be overridden. The container paths that used to be hardcoded here meant the
@@ -95,15 +114,15 @@ CFG = {
         "sentenced him to that, and what does the answer tell you about the state?",
         "Name three of the institutions the Golden Age ran through, and say who paid for "
         "them.",
-        "Two prosecutions in this chapter produced the opposite of what they intended. "
-        "Which two, and what did the state get instead?"]),
+        "How many of Grundtvig's writings did the censorship actually suppress, and what "
+        "did it cost him instead?"]),
       ("Two nations in one duchy", [
-        "About one Dane in forty could vote for the assemblies. Why is that figure "
-        "surprising, and who could not vote whatever they owned?",
+        "In the kingdom just under three people in a hundred could vote for the assemblies. "
+        "Who could not vote whatever they owned, and who could vote there but not be elected?",
         "The Bondecirkul\u00e6re of November 1845 was meant to keep peasants out of politics. "
         "What did it do instead, and how long did that take?",
         "The assemblies were designed to keep the political argument dispersed. Where did "
-        "the argument break out, and how many years after they were set up?"]),
+        "the argument break out, and in what year?"]),
     ]),
 
  33: dict(
@@ -113,7 +132,7 @@ CFG = {
           'SVG_SPROG': 'svg_sprog_1839.txt',
           'SVG_FRANCHISE': 'svg_franchise_1849.txt'},
     sec=[("s01", "01", 'A king with no heir'),
-         ("s02", "02", 'What Slesvig legally was'),
+         ("s02", "02", 'What Schleswig legally was'),
          ("s03", "03", 'March 1848'),
          ("s04", "04", 'The war begins'),
          ("s05", "05", "The soldier's war"),
@@ -131,8 +150,8 @@ CFG = {
         "Put these in order: the Casino meeting, the fall of the ministry, the provisional "
         "government at Kiel, the seizure of Rendsburg."]),
       ("5 June 1849", [
-        "Denmark beat the Schleswig-Holsteiners and never beat the Prussians. What stopped "
-        "Prussia in 1848, and whose interest was it serving?",
+        "Prussian and Schleswig-Holstein troops crossed into Jutland in May 1848 and were "
+        "taken back. Who made Prussia withdraw, and what was that power's interest?",
         "Before 1849 conscription fell on one class only. Which, and how had everybody else "
         "got out of it?",
         "The Law on Universal Conscription of 12 February 1849 drew its line by birth year. "
@@ -140,7 +159,7 @@ CFG = {
       ("London, 8 May 1852", [
         "Fifteen per cent of the population could vote in 1849 and all of it could worship "
         "as it chose. How can both be true of one document?",
-        "What did the constitution say about Slesvig on its first page, and where did it "
+        "What did the constitution say about Schleswig on its first page, and where did it "
         "never come into force?",
         "Isted was the largest battle in Danish history and Denmark won it. What did the "
         "victory settle?"]),
@@ -168,20 +187,21 @@ CFG = {
         "break, and why was he the worst-placed man in Denmark to sign it?",
         "Prussia and Austria crossed the Eider on 1 February 1864 without the German "
         "Confederation. Why did they have to step outside it?",
-        "The War Ministry's instruction of 22 January told de Meza what mattered most. "
-        "What was it, and what did the ministry telegraph him a fortnight later?"]),
+        "The War Ministry's instruction of 13 January told de Meza what mattered most. "
+        "What was it, and what did the war minister telegraph him on 6 February?"]),
       ("Vienna, 30 October", [
         "Dybb\u00f8l is remembered as a storm. What had already happened to the redoubts "
         "before a single Prussian went forward?",
-        "Denmark won at Heligoland and held the blockade to the end of the war. Why did "
-        "it change nothing?",
-        "At the London conference Britain proposed arbitration and Denmark refused. What "
+        "Denmark won the fleet action off Heligoland on 9 May. Why did it change "
+        "nothing?",
+        "At the London conference the neutral powers proposed arbitration and Denmark refused. What "
         "was the reasoning, and what did it cost?"]),
       ("The constitution of 1866", [
         "To whom did the king renounce the duchies at Vienna \u2014 and what did the "
         "Augustenborg claimant, whose right was the pretext, actually receive?",
-        "What was an optant, and what condition was attached to the choice?",
-        "Article 5 of the Peace of Prague promised a vote in North Slesvig. Who made the "
+        "What was an optant, and what did the Treaty of Vienna allow the people of the "
+        "ceded duchies to choose?",
+        "Article 5 of the Peace of Prague promised a vote in North Schleswig. Who made the "
         "promise, who cancelled it, and in what year?"]),
     ]),
 
@@ -193,29 +213,29 @@ CFG = {
           'SVG_ANDEL': 'svg_andel_1882.txt'},
     sec=[("s01", "01", 'Two chapters over one span'),
          ("s02", "02", 'The grain that stopped paying'),
-         ("s03", "03", 'Hjedding, 1882'),
+         ("s03", "03", 'The cooperative dairy'),
          ("s04", "04", 'Butter, bacon and the English breakfast'),
          ("s05", "05", 'Mission and meeting-house'),
          ("s06", "06", 'Leaving'),
          ("s07", "07", 'The city outside the walls'),
          ("s08", "08", 'F\u00e6lleden, 5 May 1872'),
          ("s09", "09", '1899'),
-         ("s10", "10", 'Nordslesvig under Prussia')],
+         ("s10", "10", 'North Schleswig under Prussia')],
     checks=[
       ("Mission and meeting-house", [
         "Grain stopped paying from about 1875. What did Danish farms start doing with "
         "grain instead of selling it, and where did the grain come from?",
         "Two things outside Denmark's control set the timing of the change. What were "
         "they, and which year did the second one happen?",
-        "Name the four rules written into the Hjedding contract in 1882 \u2014 and say "
-        "which of them the bank cared about."]),
+        "What did every member of the Hjedding dairy promise to deliver, and which clause "
+        "made the bank willing to lend to farmers with no capital?"]),
       ("F\u00e6lleden, 5 May 1872", [
         "Indre Mission and the Grundtvigians came out of the same revival. What did each "
         "build in a village, and what decided which one took hold?",
         "More than four in ten Danish emigrants between 1868 and 1900 had the same "
         "occupation. Which, and why does that matter for the previous three sections?",
         "Why does Denmark have unusually complete records of who emigrated?"]),
-      ("Nordslesvig under Prussia", [
+      ("North Schleswig under Prussia", [
         "The meeting on N\u00f8rre F\u00e6lled was called for a reason that had nothing to "
         "do with revolution. What was it?",
         "The lockout of 1899 ended without either side winning. What did they sign "
@@ -240,12 +260,15 @@ CFG = {
          ("s08", "08", 'The other opposition'),
          ("s09", "09", 'The settlement of 1894'),
          ("s10", "10", '1901')],
+    # The Part H coda is on the page (mkbody writes it, id="coda") and was missing from
+    # the rail and the contents until review session 10; 20, 24 and 31 list theirs.
+    tail_extra=[CODA],
     checks=[
       ("Ruling without a budget, 1885", [
         "The 1866 revision left two chambers returning two different countries. Which was "
         "which, and what did Venstre demand from 1873?",
-        "What did \u00a725 of the constitution allow, and how many times had it been used "
-        "before Estrup took office?",
+        "What did \u00a725 of the constitution (in 1849, \u00a730) allow, and how often "
+        "had it been used for a finance law before 1877?",
         "What was the visnepolitik meant to achieve, and what did it achieve instead?"]),
       ("21 October 1885", [
         "On 31 March and 1 April 1885 two things happened in sequence. What were they?",
@@ -322,20 +345,70 @@ def build(n, c, stub):
     w = pagewords(h)
     h = re.sub(r'Era chapter \u00b7 about \d+ minutes',
                'Era chapter \u00b7 about %d minutes' % round(w / 210), h)
-    open(OUT + c['name'], 'w', encoding='utf-8').write(h)
+    # Not written here: __main__ writes the page only after its guards pass (\u00a714.6).
     return h, stubbed
 
 
 BAND = (25, 50)
 TARGET = (28, 40)
+# Part H's ordinary uses of "entry": none. Found by hand in review session 10 (§14.6) on
+# the built pages, markup, figure text and attributes included, whitespace joined, case
+# ignored: the only matches were the JavaScript's `entries` (the script is not read).
+# The pages as they stood before the session had one, 35's Visit "Free entry", which the
+# reading pass rephrased. An allowed phrase goes here, per chapter, as in build_part_g.py;
+# one that is no longer on the page is itself reported.
+ALLOWED_ENTRY = {}
+
+
+def stale_vocabulary(n, h):
+    """Retired vocabulary in the reader's text of the page (pageguard.py, §14.6)."""
+    return pageguard.stale_vocabulary(h, ALLOWED_ENTRY.get(n, []))
+
 
 if __name__ == "__main__":
     stub = "--stub" in sys.argv
     print("--- Part H ---" + ("  [STUBBED FIGURES]" if stub else ""))
     fail = 0
+    # EVERY FIGURE MUST BE WHAT ITS SCRIPT WRITES, witnessed by running the script in a
+    # scratch copy, not by trusting the svg_*.txt on disk (§14.6).
+    figs, nfigs = pageguard.figures_fresh(
+        HERE, G, sorted({f for c in CFG.values() for f in c['svgs'].values()}))
+    print("  figures: %d checked against their scripts, %s"
+          % (nfigs, 'all fresh' if not figs else '%d NOT' % len(figs)))
     for n in sorted(CFG):
         c = CFG[n]
+        # THE BODY MUST BE WHAT THE DRAFT BUILDS, asked BEFORE the page is written, as
+        # build_part_g.py has asked since review session 9 (§13.6).
+        fresh = freshcheck.check(n)
+        if fresh[0] != 'FRESH':
+            print("\nchapter %s  %s\n  !! NOT BUILT: the body is %s against its draft (%s). "
+                  "Run DK_DRAFT=c%s_draft.md python3 mkbody.py %s and read what it says."
+                  % (n, c['name'], fresh[0], fresh[1], n, n))
+            fail += 1
+            continue
+        # AND THE BODY THIS BUILD READS MUST BE THE ONE FRESHCHECK READ: with DK_SRC set
+        # to an old copy, an old body shipped "clean" (§14.6).
+        if not pageguard.same_body(G, HERE, c['body']):
+            print("\nchapter %s  %s\n  !! NOT BUILT: %s%s is not the body freshcheck checked "
+                  "(%s%s%s). Unset DK_SRC or copy the fresh body there."
+                  % (n, c['name'], G, c['body'], HERE, os.sep, c['body']))
+            fail += 1
+            continue
+        stalefigs = {f: v for f, v in figs.items()
+                     if f in c['svgs'].values() and v != 'SOURCELESS'}
+        if stalefigs:
+            print("\nchapter %s  %s\n  !! NOT BUILT: figures not what their scripts write: %s"
+                  % (n, c['name'], '; '.join('%s %s' % kv for kv in sorted(stalefigs.items()))))
+            fail += 1
+            continue
         h, stubbed = build(n, c, stub)
+        stale = stale_vocabulary(n, h)
+        if stale:
+            print("\nchapter %s  %s\n  !! NOT WRITTEN: retired vocabulary %s"
+                  % (n, c['name'], stale))
+            fail += 1
+            continue
+        open(OUT + c['name'], 'w', encoding='utf-8').write(h)
         css = h.split('<style>')[1].split('</style>')[0]
         ids = set(re.findall(r'id="([a-z0-9]+)"', h))
         links = set(re.findall(r'href="#([a-z0-9]+)"', h))
@@ -365,14 +438,17 @@ if __name__ == "__main__":
         if nfive != 5:
             print("  !! SUMMARY IS %d ITEM%s, NOT FIVE \u2014 the heading promises five"
                   % (nfive, "" if nfive == 1 else "S"))
-        print("  part %s | words %d (~%d min, %s)%s"
-              % ('ok' if '--band:%s;' % PART_H in h else 'BAD', w, m, band, note))
+        print("  part %s | vocabulary %s | words %d (~%d min, %s)%s"
+              % ('ok' if '--band:%s;' % PART_H in h else 'BAD',
+                 'clean' if not stale else 'STALE ' + str(stale), w, m, band, note))
         for mm in re.finditer(r'<div class="check">.*?</div>\s*<h2 id="(s\d\d)">(.*?)</h2>',
                               h, re.S):
             print("  checkpoint before %s  %s"
                   % (mm.group(1), re.sub(r'<[^>]+>', '', mm.group(2)).strip()))
         if stubbed:
             print("  !! STUBBED: %s" % ", ".join(stubbed))
-        fail += (bool(bad) or h.count('{{') or not (links <= ids) or not tail_ok
-                 or not (BAND[0] <= m <= BAND[1]) or bool(stubbed) or nfive != 5)
+        fail += (bool(bad) + bool(h.count('{{')) + (not links <= ids) + (not tail_ok)
+                 + (not BAND[0] <= m <= BAND[1]) + bool(stubbed) + (nfive != 5)
+                 + bool(stale) + ('--band:%s;' % PART_H not in h))
+    print("\n%s" % ('all five built clean' if not fail else '!! %d problems' % fail))
     sys.exit(1 if fail else 0)

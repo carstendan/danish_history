@@ -39,6 +39,12 @@ written — see Lessons.
 | H | 32–36 | 1814–1901 | **built, verified, indexed, closed — see `PLAN_H.md`** |
 | I | 37–45 | 1901–1955 | **NINE CHAPTERS, ALL BUILT, VERIFIED AND INDEXED. The boundary pass is done — item 136 — and item 128 is CLOSED.** The 1943–1955 run was repartitioned from three chapters into four at the material's own seams; no chapter in the part is outside the 25–50 band |
 
+**After item 148 the book is 344,488 page words, 27.3 h; Part G 54,165, Part H 43,322, Part I
+74,403; no D-9 failure; all seven D-13 cases decided** — read off `bookstats.py` after the session 10
+rebuild in a fresh clone, 25 September 2026. The consistency review has now read every part; Part I
+was read first (§6 of the review), before the method of sessions 3–10 existed, and review session 11
+reads it again at that depth (`START_HERE_review_11.md`).
+
 **After item 143 the book is 337,491 page words, 26.8 h; Part A 21,397, Part B 26,326,
 Part C 25,619, Part I 74,403** — read off `bookstats.py` after a rebuild of A–F, `linkindex.py`
 and `index_generator.py` in a scratch clone, 21 September 2026 (item 142's was 336,720).
@@ -4678,6 +4684,78 @@ split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see it
    and so agreed with its losses. And the reviewer's own fix of "seventh largest" was a false fact in
    better prose. *A guard must have its own witness, not the builder's; and a correction is a claim that
    needs a source, not only a better sentence.*
+
+148. **The consistency review, session 10: Part G's last three vignettes written, Part H read, tagged
+   and checked twice, and one guard for both parts.** 25 September 2026. Full record in
+   `REVIEW-CONSISTENCY.md` §14.
+
+   **Cold run on a fresh clone of `f856117`: every figure matched START_HERE_review_10.** Item 147's
+   pages are in its own commit. **The session ran in four stretches** — run 1, run 2 (stopped by
+   Carsten to split usage), part A (the second check) and part B (this write-up) — and **each began
+   from a fresh clone and the last saved patch** (`claude/session10_wip.patch`), with its state in
+   `claude/session10_state.md`.
+
+   **R-16 TO R-18 CARRIED OUT, with the recommendations' facts checked first.** Charlotte Amalie at
+   Nykøbing Slot, 25 June 1667 (25 §08, `[f]`) — Hesse demanded worship for her household, and **the
+   families were in what Denmark granted**; Danish was a wish she met, not a bargain. Kari Rasmusdatter
+   Hiran at Nordkleiva and Jonsrud, April 1716 (27 §05, `[f][n]`, *Norway, and the war at sea*) — **her
+   petition was probably written and signed for her**, and the Swedes gave up on reports of which hers
+   was one. Hans Andersen, Odense, 1812 to January 1813 (31 §07, `[n]`) — the sum hedged, whether he
+   fought disputed, and his son heard the drums from a sickbed. **START_HERE_review_10's own "Sweden one
+   day ahead of Julian in 1716" was false**: Sweden was Julian from 1712 to 1753. **No D-9 failure in the
+   book.**
+
+   **PART H READ.** Five fact-checkers and fixers; **ninety-three intervals and ages wrong** (32
+   nineteen, 33 twenty-four, 34 twenty-three, 35 thirteen, 36 fourteen; C nine, D sixteen, E thirty-four,
+   F sixty-six, G ninety-five), and four more that went with cut claims. Among the rest: **the Hjedding
+   contract counts votes by cows** ("eller 1 Stemme for hver Ko"), against every encyclopaedia's one
+   member one vote — the page gives both and follows the document; Louise Charlotte "dead in 1824" (born
+   1789, alive in 1848); 1849 missing from 33's war; the 1851–52 promise "not bound more closely" (a
+   promise **not to incorporate**, made in notes beside the treaty) and 34's constitution "breaking the
+   Treaty of London"; Dybbøl's "3,600 Danes killed" (a misreading of a total); the September Compromise
+   "still in force, the oldest in the world" (revised 1960); Estrup "one of the twelve royal seats"
+   (elected, royal only from 1900); Jews voting "for the assemblies" (in the kingdom only); "defaulted"
+   and "insolvent" for 1813, against chapter 31. **D-13: 35 §03 decided by re-scoping, *The cooperative
+   dairy* — all seven cases decided.** D-15: Slesvig 2 in the book, both Danish titles in Sources. Recall:
+   33 1/3 and 34 1/3 before, 0/3 in all five after.
+
+   **ONE GUARD FOR BOTH PARTS: `pageguard.py`.** Part H's build gets Part G's guard, and the checker got
+   past the first version in three ways, each shown on a scratch copy printing "all five built clean": a
+   stale body through `DK_SRC`, retired words the text reader fused or could not see, and a stale figure.
+   Now four checks are asked **before** a page is written — freshcheck; `same_body` (the body the build
+   reads is the one freshcheck read); `figures_fresh` (each figure script re-run in a scratch copy and
+   compared byte for byte); and `stale_vocabulary` on `reader_text`, which reads as a reader does. The
+   first real run fired falsely on "1620 – 1803"; fixed. "entry" by hand in 32–36: none. 42 of 42 unit
+   cases; six planted end-to-end cases, all fired, pages untouched.
+
+   **CHECKED TWICE BY SEPARATE AGENTS.** The first: 98 rows on run 1, three of them tooling holes — among
+   them Kari "writing" her petition, Andersen "remembering" the march, and 34's broken treaty left in the
+   Summary, hook and question. The second, on run 2's repairs only: 18, one substantive — 35's Hanssen
+   vignette still "dissolving" the associations the body had corrected. All applied but three, rejected
+   with reasons (§14.8).
+
+   **VERIFIED** in part B on a fresh clone with the final patch: figs 32–36 and map_1864, mkbody 25–36,
+   build G (21 figures fresh, all seven clean) and H (15 fresh, all five clean), no `!!`; `linkindex`,
+   `index_generator`; then the whole suite, **mapfixture included: FIXTURE PASSES; seams pass; debuild 45
+   identical; 45 of 45, 344,488 page words, 27.3 h (Part G 54,165, Part H 43,322); vignettes 148/116, no
+   D-9 failure, selftest passes; figcheck 98/30/0; one OVER, 16 §08 (852); draftnotes clean; appcheck 167
+   in 21 chapters; freshcheck 21 fresh; tidy clean; build F "all four built clean"; sweeps: 2 pointers
+   solvent, 0 same-page glosses, Schleswig 297 in 31 / Slesvig 2 in 2, sweep_facts 6 (a false pairing of
+   1895 and 1929 seat counts), arrows 253, D-1 0, prose references 0, solvency 40.**
+
+   **FOUND, NOT CHANGED — for Part I** (§14.4): 37's "universal suffrage of chapter 33"; "Nordslesvig" in
+   37's and 38's English; 37 §01's 1903 "parish councils" as local government (church councils); 37 §05's
+   "twenty-four years" (23 years 9 months); 45's poor's vote in 1961 against danmarkshistorien's 1933;
+   38's 35,000 called up against 30,000. And: the 1900 US census figure; figure 32 §2's 44/48 seats; 36's
+   questions asked twice; Danevirke/Dannevirke; 35's ← 34 "heath".
+
+   **LESSON.** The guard Part G got in session 9 read text, and still let a stale body, a stale figure
+   and retired words hidden half a dozen ways through, because it read the page as a regular expression does and
+   trusted the files the build handed it. Each fix gave the thing the build trusts a witness of its own.
+   And the session was stopped twice and finished anyway, because everything it knew was in the project,
+   not in its context. *A guard that reads text must read it as the reader does, and the output a build
+   trusts must have a witness of its own: the body, the figure and the words. And a session's work lives
+   in its saves, not in the session.*
 
 ---
 

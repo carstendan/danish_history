@@ -1,5 +1,5 @@
-<svg viewBox="0 0 700 514" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagram of the chain of events by which Danish farming turned from grain to butter and bacon between 1875 and 1901. World grain prices fall from about 1875 under American and Russian competition carried by steam shipping. The loss of 1864 has already put a customs frontier on the land route south. The continuous cream separator arrives at the end of the 1870s and makes joint dairying workable. Germany bans imports of live cattle in 1881, closing the nearest market for the animal itself. In 1882 twenty-six farmers at Hjedding in Ølgod parish write the rules that a thousand cooperative dairies then copy. In 1887 the first cooperative slaughterhouse opens at Horsens. In 1901 the Lur mark is registered as the official quality stamp for butter. The net effect is that Denmark stopped exporting grain and began importing it, to feed to animals whose product it exported instead.">
-  <rect x="0" y="0" width="700" height="514" fill="#F0F2EE"/>
+<svg viewBox="0 0 700 472" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagram of the chain of events by which Danish farming turned from grain to butter and bacon between 1875 and 1901. World grain prices fall from about 1875 under American and Russian competition carried by steam shipping. The loss of 1864 has already put a customs frontier on the land route south. The continuous cream separator arrives at the end of the 1870s and makes joint dairying workable. Germany bans imports of live cattle in 1881, closing the nearest market for the animal itself. In 1882 farmers at Hjedding in Ølgod parish write the statutes that more than nine hundred cooperative dairies had copied by 1894. In 1887 the first cooperative slaughterhouse is founded at Horsens. In 1901 the Lur mark is registered for butter, and a law of 1906 makes it compulsory on exported butter. The net effect is that by 1882 Denmark was no longer a net exporter of grain: it fed imported grain to animals whose product it exported instead.">
+  <rect x="0" y="0" width="700" height="472" fill="#F0F2EE"/>
   <text x="26" y="30" class="mapl">WHY DANISH FARMING TURNED ROUND</text>
   <text x="26" y="46" class="mapt">the chain from falling grain prices to butter sold in England</text>
   <text x="26" y="82" class="mapx">since 1864</text> 
@@ -25,7 +25,7 @@
   <text x="26" y="266" class="mapx">1882</text> 
   <rect x="118" y="259" width="8" height="8" fill="#4F6470"/>
   <text x="138" y="266" class="mapl">Hjedding writes the rules</text>
-  <text x="138" y="281" class="mapt">Twenty-six farmers in Ølgod; within twenty years more than a thousand dairies.</text>
+  <text x="138" y="281" class="mapt">Farmers near Ølgod write the statutes; by 1894 more than nine hundred dairies.</text>
   <line x1="122" y1="269" x2="122" y2="299" stroke="#C9CDC4" stroke-width="1"/>
   <text x="26" y="312" class="mapx">1887</text> 
   <rect x="118" y="305" width="8" height="8" fill="#4F6470"/>
@@ -34,13 +34,10 @@
   <line x1="122" y1="315" x2="122" y2="345" stroke="#C9CDC4" stroke-width="1"/>
   <text x="26" y="358" class="mapx">1901</text> 
   <rect x="118" y="351" width="8" height="8" fill="#4F6470"/>
-  <text x="138" y="358" class="mapl">The state stamps the butter</text>
-  <text x="138" y="373" class="mapt">The Lur mark registered, and handed to the government as the quality stamp.</text>
+  <text x="138" y="358" class="mapl">The butter gets its mark</text>
+  <text x="138" y="373" class="mapt">The Lur mark registered on 23 October; compulsory on exported butter from 1906.</text>
   <text x="26" y="396" class="mapt" opacity=".8">The two marked in the warmer tone were decided outside Denmark.</text>
   <line x1="26" y1="418" x2="674" y2="418" stroke="#C9CDC4" stroke-width="1"/>
-  <text x="26" y="438" class="mapt">The reversal is the part that is easy to miss. A country that had exported grain for</text>
-  <text x="26" y="452" class="mapt">centuries ended the period importing it — buying foreign grain cheaply, feeding it to</text>
-  <text x="26" y="466" class="mapt">Danish animals, and exporting what the animals produced. The cheap American harvest</text>
-  <text x="26" y="480" class="mapt">that ruined the Danish grain farmer became the raw material of the Danish dairy farmer,</text>
-  <text x="26" y="494" class="mapt">and it arrived on the same ships that took the butter out.</text>
+  <text x="26" y="438" class="mapt">Net effect: by 1882 Denmark was no longer a net exporter of grain. It fed imported</text>
+  <text x="26" y="452" class="mapt">grain to its animals and sold what they produced.</text>
   </svg>

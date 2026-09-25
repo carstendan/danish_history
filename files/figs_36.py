@@ -39,7 +39,9 @@ Since the whole political point of the fortification is that it was paid for out
 a budget the elected chamber had refused, a cost figure would have been the single
 most useful number on the page, and inventing or rounding one would have been the
 worst possible place to do it. The figure carries the quantities, which are real,
-and states the absence.
+and states the absence. REVIEW SESSION 10: found - vestvolden.info, "Befaestningen
+i tal", from war minister Bahnson's figures: about 13.2 million kroner for the land
+fortification 1886-94. It is now a row, and the absence note is gone.
 
 FIGURE 1 IS THE ONE THE PLAN ASKED FOR and it needs no apology: both franchises are
 in the electoral law and the Landsting's composition is a list of small integers
@@ -85,7 +87,7 @@ def wrap(head, body, W, H):
 # ====================================================================== figure 1
 LANDSTING = [("chosen by the king, for life", 12),
              ("chosen by the Faroese Lagting", 1),
-             ("chosen by Bornholm's amtsr\u00e5d", 1),
+             ("elected on Bornholm", 1),
              ("chosen indirectly, through electors", 52)]
 LANDSTING_TOTAL = 66
 
@@ -117,10 +119,13 @@ def franchises():
             'man of unblemished reputation with Danish citizenship, aged thirty, with a '
             'household of his own, not in another\u2019s service without one, and never in '
             'receipt of unrepaid poor relief. The Landsting had sixty-six members: twelve '
-            'chosen by the king for life, one by the Faroese Lagting, one by Bornholm\u2019s '
-            'county council and fifty-two chosen indirectly through electors, of whom half '
+            'chosen by the king for life, one by the Faroese Lagting, one elected on '
+            'Bornholm and fifty-two chosen indirectly through electors, of whom half '
             'were chosen by the ordinary voters and half by the highest taxpayers alone, '
             'with the distribution of seats between town and country frozen into the law. '
+            'Folketing members sat for three years, about one to every 16,000 inhabitants; '
+            'the elected Landsting members for eight, half retiring every fourth year. '
+            'Only the king could dissolve either chamber. '
             'From 1872 the Folketing was carried by Venstre and the Landsting by '
             'H\u00f8jre.">' % W)
     o = []
@@ -175,14 +180,17 @@ def franchises():
     # x2: collisions() compares text with text and a <rect> over a <text> is not
     # tested. Fourth time this session. Folded to the column width instead.
     yy = 246
-    for line in fold("Neither chamber was unrepresentative. That is the difficulty: both "
-                     "reflected exactly the electorate they were designed to reflect, and "
-                     "those two electorates wanted opposite things.", 45):
+    # Session 10: this block had restated the section's prose ("Neither chamber was
+    # unrepresentative ..."); it now carries terms from the 1866 text (§§22, 32,
+    # 33, 39) that the prose does not give.
+    for line in fold("Folketing members sat for three years, about one to every 16,000 "
+                     "inhabitants. The Landsting's elected members sat for eight, half "
+                     "retiring every fourth year; the king's twelve sat for life.", 45):
         o.append('<text x="%d" y="%d" class="mapt">%s</text>' % (x1, yy, esc(line)))
         yy += 15
-    o.append('<text x="%d" y="%d" class="mapx">AND NEITHER COULD DISSOLVE,</text>'
+    o.append('<text x="%d" y="%d" class="mapx">ONLY THE KING COULD DISSOLVE</text>'
              % (x1, yy + 14))
-    o.append('<text x="%d" y="%d" class="mapx">DISMISS OR OUTVOTE THE OTHER</text>'
+    o.append('<text x="%d" y="%d" class="mapx">EITHER CHAMBER (§22)</text>'
              % (x1, yy + 30))
 
     H = int(max(y, 330) + 16)
@@ -299,23 +307,26 @@ VOLD = [
     ("Built", "1888\u20131892; the wider land defences from 1886"),
     ("Length", "14 km, Utterslev Mose to K\u00f8ge Bugt, continuous except where an"),
     ("", "existing road or railway passed through"),
-    ("Designed by", "Lieutenant-Colonel E.J. Sommerfeldt \u2014 a saw-toothed plan with the"),
-    ("", "guns in protected caponiers, known abroad as the Danish Front"),
-    ("Directed by", "J.J. Bahnson, Estrup's war minister"),
+    ("Built under", "E.J. Sommerfeldt, engineer officer, head from 1886 of the"),
+    ("", "engineering directorate set up for the western front"),
+    ("War minister", "J.J. Bahnson, in Estrup's government"),
+    ("Guns", "in heavy concrete caponiers along the rampart"),
     ("Earth moved", "about 3,150,000 cubic metres of earth and chalk"),
-    ("Workforce", "about 2,000 local contractors and day labourers"),
+    ("Workforce", "local contractors and about 2,000 workers, a third from Sweden"),
     ("Method", "shovels, wheelbarrows and tip-wagons; concrete mixed by hand in"),
     ("", "tubs, because mixing machines did not yet exist; a railway laid"),
     ("", "along the rampart road on worn-out track cast off by the state"),
+    ("Cost", "about 13.2 million kroner for the whole land fortification,"),
+    ("", "1886\u201394, by Bahnson's own figures"),
     ("Paid for by", "provisional finance law, against the vote of the Folketing"),
 ]
 
 AFTER = [
     ("1894", "The settlement stops further building"),
     ("1909", "Decided that the land fortification be abolished from 1922"),
-    ("1914", "A security force of 50,000 called up to hold it"),
-    ("1918", "Four years later, having seen no fighting, they go home"),
-    ("1920", "Abolished on 1 April, two years early"),
+    ("1914", "50,000 men called up to the Copenhagen fortress"),
+    ("1919", "The force, scaled down from 1915, is disbanded; no attack came"),
+    ("1920", "Abolished from 1 April, two years early"),
 ]
 
 
@@ -324,16 +335,18 @@ def vestvold():
     head = ('<svg viewBox="0 0 %d %%d" xmlns="http://www.w3.org/2000/svg" role="img" '
             'aria-label="Table of the Vestvold, the western rampart of the Copenhagen land '
             'fortification. Built between 1888 and 1892, fourteen kilometres long from '
-            'Utterslev Mose to K\u00f8ge Bugt, designed by Lieutenant-Colonel E.J. '
-            'Sommerfeldt and directed by Estrup\u2019s war minister J.J. Bahnson. About '
-            '3,150,000 cubic metres of earth and chalk were moved by some two thousand men '
-            'using shovels, wheelbarrows and tip-wagons, with the concrete mixed by hand '
-            'because mixing machines did not yet exist. It was paid for by provisional '
-            'finance law against the vote of the Folketing. Further building stopped with '
-            'the settlement of 1894; in 1909 it was decided to abolish the land '
-            'fortification from 1922; fifty thousand men were called up to hold it in 1914 '
-            'and saw no fighting; and it was abolished on 1 April 1920. Its money cost was '
-            'not obtained and is not given here.">' % W)
+            'Utterslev Mose to K\u00f8ge Bugt, built under the engineer officer E.J. '
+            'Sommerfeldt, with Estrup\u2019s J.J. Bahnson as war minister, and its guns in '
+            'concrete caponiers. About 3,150,000 cubic metres of earth and chalk were moved '
+            'by local contractors and some two thousand workers, a third of them from '
+            'Sweden, using shovels, wheelbarrows and tip-wagons, with the concrete mixed by '
+            'hand because mixing machines did not yet exist. The whole land fortification '
+            'cost about 13.2 million kroner between 1886 and 1894, by Bahnson\u2019s own '
+            'figures, and was paid for by provisional finance law against the vote of the '
+            'Folketing. Further building stopped with the settlement of 1894; in 1909 it '
+            'was decided to abolish the land fortification from 1922; fifty thousand men '
+            'were called up to the Copenhagen fortress in 1914, and the security force was '
+            'scaled down from 1915 and disbanded in 1919; no attack came; and it was abolished from 1 April 1920.">' % W)
     o = []
     o.append('<text x="26" y="30" class="mapl">THE RAMPART THE CONSTITUTION WAS BROKEN '
              'FOR</text>')
@@ -359,19 +372,9 @@ def vestvold():
         o.append('<text x="112" y="%d" class="mapt">%s</text>' % (y, esc(v)))
         y += 19
 
-    y += 8
-    o.append('<line x1="26" y1="%d" x2="674" y2="%d" stroke="%s" stroke-width="1"/>'
-             % (y, y, RULE))
-    y += 20
-    o.append('<text x="26" y="%d" class="mapt">The money cost is not given here because it '
-             'was not obtained. Since the political point of</text>' % y)
-    y += 14
-    o.append('<text x="26" y="%d" class="mapt">this rampart is that it was paid for out of '
-             'a budget the elected chamber had refused, the</text>' % y)
-    y += 14
-    o.append('<text x="26" y="%d" class="mapt">figure in kroner would be the most useful '
-             'number on the page, and the worst one to guess.</text>' % y)
-    H = int(y + 14)
+    # Session 10: the closing note said the cost had not been obtained. It has
+    # (vestvolden.info, "Befaestningen i tal", from Bahnson's figures) and is now a row.
+    H = int(y + 4)
     o.append('</svg>')
     return wrap(head, o, W, H)
 

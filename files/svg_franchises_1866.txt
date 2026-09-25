@@ -1,9 +1,9 @@
-<svg viewBox="0 0 700 375" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagram comparing the two chambers of the Danish Rigsdag as the constitutional revision of 1866 left them. The Folketing was elected by every man of unblemished reputation with Danish citizenship, aged thirty, with a household of his own, not in another’s service without one, and never in receipt of unrepaid poor relief. The Landsting had sixty-six members: twelve chosen by the king for life, one by the Faroese Lagting, one by Bornholm’s county council and fifty-two chosen indirectly through electors, of whom half were chosen by the ordinary voters and half by the highest taxpayers alone, with the distribution of seats between town and country frozen into the law. From 1872 the Folketing was carried by Venstre and the Landsting by Højre.">
+<svg viewBox="0 0 700 375" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagram comparing the two chambers of the Danish Rigsdag as the constitutional revision of 1866 left them. The Folketing was elected by every man of unblemished reputation with Danish citizenship, aged thirty, with a household of his own, not in another’s service without one, and never in receipt of unrepaid poor relief. The Landsting had sixty-six members: twelve chosen by the king for life, one by the Faroese Lagting, one elected on Bornholm and fifty-two chosen indirectly through electors, of whom half were chosen by the ordinary voters and half by the highest taxpayers alone, with the distribution of seats between town and country frozen into the law. Folketing members sat for three years, about one to every 16,000 inhabitants; the elected Landsting members for eight, half retiring every fourth year. Only the king could dissolve either chamber. From 1872 the Folketing was carried by Venstre and the Landsting by Højre.">
   <rect x="0" y="0" width="700" height="375" fill="#F0F2EE"/>
   <text x="26" y="30" class="mapl">TWO CHAMBERS, TWO ELECTORATES</text>
   <text x="26" y="46" class="mapt">the Rigsdag as the revision of 28 July 1866 left it</text>
   <rect x="26" y="66" width="310" height="30" fill="#4F6470" opacity=".8"/>
-  <text x="38" y="86" class="mapl" fill="#F0F2EE">FOLKETINGET</text>
+  <text x="38" y="86" class="mapl" style="fill:#221E18">FOLKETINGET</text>
   <text x="26" y="114" class="mapx">carried by Venstre from 1872</text>
   <text x="26" y="138" class="mapt">Every man of unblemished reputation</text>
   <text x="26" y="153" class="mapt">with Danish indfødsret</text>
@@ -12,7 +12,7 @@
   <text x="26" y="198" class="mapt">not in another's service without one</text>
   <text x="26" y="213" class="mapt">and never in receipt of unrepaid poor relief</text>
   <rect x="364" y="66" width="310" height="30" fill="#8A7A5E" opacity=".8"/>
-  <text x="376" y="86" class="mapl" fill="#F0F2EE">LANDSTINGET</text>
+  <text x="376" y="86" class="mapl" style="fill:#221E18">LANDSTINGET</text>
   <text x="364" y="114" class="mapx">carried by Højre</text>
   <text x="364" y="138" class="mapt">Half the electors chosen by all those voters</text>
   <text x="364" y="153" class="mapt">The other half chosen by the highest taxpayers alone</text>
@@ -93,14 +93,15 @@
   <text x="408" y="311" class="mapt">chosen by the Faroese Lagting</text>
   <rect x="364" y="320" width="8" height="8" fill="#A9B6BD"/>
   <text x="380" y="327" class="mapl"> 1</text> 
-  <text x="408" y="327" class="mapt">chosen by Bornholm's amtsråd</text>
+  <text x="408" y="327" class="mapt">elected on Bornholm</text>
   <rect x="364" y="336" width="8" height="8" fill="#8A7A5E"/>
   <text x="380" y="343" class="mapl">52</text> 
   <text x="408" y="343" class="mapt">chosen indirectly, through electors</text>
-  <text x="26" y="246" class="mapt">Neither chamber was unrepresentative. That is</text>
-  <text x="26" y="261" class="mapt">the difficulty: both reflected exactly the</text>
-  <text x="26" y="276" class="mapt">electorate they were designed to reflect, and</text>
-  <text x="26" y="291" class="mapt">those two electorates wanted opposite things.</text>
-  <text x="26" y="320" class="mapx">AND NEITHER COULD DISSOLVE,</text>
-  <text x="26" y="336" class="mapx">DISMISS OR OUTVOTE THE OTHER</text>
+  <text x="26" y="246" class="mapt">Folketing members sat for three years, about</text>
+  <text x="26" y="261" class="mapt">one to every 16,000 inhabitants. The</text>
+  <text x="26" y="276" class="mapt">Landsting's elected members sat for eight,</text>
+  <text x="26" y="291" class="mapt">half retiring every fourth year; the king's</text>
+  <text x="26" y="306" class="mapt">twelve sat for life.</text>
+  <text x="26" y="335" class="mapx">ONLY THE KING COULD DISSOLVE</text>
+  <text x="26" y="351" class="mapx">EITHER CHAMBER (§22)</text>
   </svg>

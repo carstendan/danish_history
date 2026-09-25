@@ -107,6 +107,13 @@ Travendal, 31 Tsar Paul's murder; 28–30 have none). **One exception, decided i
 on the page — 27 §07's Stockholm preliminaries, 14 June (3 June, Swedish style), without
 which the Frederiksborg dating cannot be followed (`REVIEW-CONSISTENCY.md` §13.5).
 
+**Part H, review session 10:** every date in 32–36 is Gregorian on both sides and there is no Russian
+date; nothing to add. **START_HERE_review_10's calendar remark was wrong**: it said Sweden was "one
+day ahead of Julian in 1716". Sweden ran that calendar from 1700 to 1712 and was **Julian from 1712 to
+1753**, eleven days behind Norway in 1716 — as chapter 27's own *gammel og ny stil* entry says. 27's
+Sources now give its 16 April 1716 as the Danish-Norwegian style (5 April, Swedish), checked against
+Fredriksten (night to 4 July; the Swedes' 22 June) (`REVIEW-CONSISTENCY.md` §14.1, §14.5).
+
 **Defined.** `PLAN_G.md` §6; `HANDOFF.md`, *Dates: old style and new style*.
 
 ### D-7 · The Atlantic chapter is 30, after the reforms — spent
@@ -142,6 +149,11 @@ Part E's (session 7) found thirty-four, and the checker three more in the fixes 
 five more in the fixes (among them "since the new star of last November", written while removing
 "thirteen months"). Part G's (session 9) found ninety-five; the two checkers found five more in the
 fixes, and the reviewer wrote and caught a sixth ("three months before" for 15 June to 5 September).
+Part H's (session 10) found ninety-three (32 nineteen, 33 twenty-four, 34 twenty-three, 35 thirteen,
+36 fourteen), and four more went with claims that were cut; the first checker found five more in the
+fixes (among them "two days before" the session of 1884, which opened three days later, and "when he
+was fifteen" for DBL's "fra det 15. år"), and the second a sixth that a fix exposed ("the same summer"
+for a treaty of 14 January) (`REVIEW-CONSISTENCY.md` §14.2).
 
 ### D-9 · Vignette balance tags — in force
 
@@ -205,7 +217,12 @@ carried out, `vignettes.py` reports 25 as a D-9 failure, correctly. **R-17 answe
 recommended:** Kari Rasmusdatter Hiran at Nordkleiva, Krokskogen, April 1716 (27 §05, `[f][n]`, §05
 re-scoped as *Norway, and the war at sea*), for review session 10; until then 27 is a D-9 failure, correctly. **R-18 answered the same day as
 recommended:** Hans Andersen, shoemaker, Odense, 1812 to January 1813 (31 §07, `[n]`), for review
-session 10; until then 31 is a D-9 failure, correctly.
+session 10; until then 31 is a D-9 failure, correctly. **R-16 to R-18 carried out in session 10**,
+their facts checked first (`REVIEW-CONSISTENCY.md` §14.1): Charlotte Amalie at Nykøbing Slot, 25 June
+1667 (25 §08, `[f]`); Kari Rasmusdatter Hiran at Nordkleiva and Jonsrud, Krokskogen, April 1716 (27
+§05, `[f][n]`, §05 re-scoped); Hans Andersen, shoemaker, Odense, 1812 to January 1813 (31 §07, `[n]`).
+**Part H, tagged at drafting, checked the same session:** 36's J.C. Christensen retagged `[-]` (§14.7).
+**No D-9 failure in the book.**
 
 **Checked by.** `vignettes.py` balance layer, which reports such a chapter as
 "[f] part" — and still as FAIL if no chapter of its part carries `[f]`.
@@ -291,6 +308,10 @@ four remaining Part G cases decided by re-scoping** — 26 §09 *The state's pri
 at sea*, 27 §09 *The Greenland mission*, 29 §03 *The court under Struensee* (with 29 §04 *The fall,
 1772–75*); also 30 §05 *The Akwamu rising on St Jan, 1733–34* and 31 §08 *Norway ceded*, which were
 named for their vignettes' moments (§13.5). Six of the seven are decided; 35 §03 waits for Part H.
+**Part H, session 10: 35 §03 decided by re-scoping** — *Hjedding, 1882* is now *The cooperative
+dairy*: the body is the institution (Kaslunde, a member's obligations, the vote, the liability, the
+spread), the vignette Uhd and the founding. **All seven cases are decided.** Also re-scoped in Part H:
+34 §01, 36 §09/§10; 32 §09's and 33 §06's overlaps cut (§14.5).
 
 **Checked by.** Reading. `REVIEW-BUILD-FAULTS.md` §4's overlap measure is a way of
 choosing what to read, not a test — it scores healthy vignettes about the same
@@ -354,7 +375,14 @@ Slesvig; the noun "Scania" is Skåne (three), the adjective "Scanian" stays as i
 Fehmarn (23); Malmø before 1658 and Malmö after, as the rule says (§12.5). **Part G, review session
 9:** every Slesvig in prose is Schleswig (26, 27, 29, 31, figure texts and captions); Tönning,
 Glücksburg; Christiania on the maps of 1660, 1721 and 1814. Schleswig 212 in 29 chapters, Slesvig 65
-in 4, none in Parts A–G (§13.5). Maps (`map_*.py`)
+in 4, none in Parts A–G (§13.5). **Part H, review session 10:** every Slesvig in prose, figure
+text, captions and questions is Schleswig; Nordslesvig is North Schleswig (35 §10's title and anchors
+follow), Flensborg Flensburg, the Slien the Schlei, Frederiksstad Friedrichstadt, Mysunde Missunde;
+`map_1864`'s aria-label and legend are English, its map-face labels Danish. **Schleswig 297 in 31
+chapters, Slesvig 2 in 2 — both Danish book titles in Sources (32, 33). No Slesvig in the book's
+English** (§14.5). Left for Part I: "Nordslesvig" in 37's and 38's English prose; and the earthwork is
+Danevirke in 7–13, 19 and 38 but Dannevirke in 33 and 34, where the English exonym gives Danevirke.
+Maps (`map_*.py`)
 label in Danish throughout and are left for a decision of their own when Part A–D
 maps are next touched.
 

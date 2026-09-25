@@ -338,7 +338,7 @@ HAND = {
        "Norway was ceded at Kiel and refused to go. What did the Norwegians do instead, and "
        "what did they keep?",
        "In the same year as Kiel, Denmark ordered seven years of school for every child. How "
-       "does a bankrupt state do that, and why then?"],
+       "does a state that has just written down its own money do that, and why then?"],
    figs=[("s05", "SVG_1807",
           "Figure 1 · August–September 1807",
           "They landed twenty kilometres up the coast and took three weeks. The ultimatum "
@@ -367,23 +367,24 @@ HAND = {
    title='Golden Age and national awakening',
    people='Christian 8. \u00b7 N.F.S. Grundtvig \u00b7 Peter Larsen Skr\u00e6ppenborg \u00b7 '
           'Johanne Luise P\u00e4tges \u00b7 Peter Hiort Lorenzen \u00b7 Christian Flor',
-   hook="A bankrupt state that has just lost Norway hands control of its money to a bank it "
-        "does not run, prosecutes farm servants for praying in the wrong room, and pays for "
-        "the finest art it will ever produce. Then it concedes four assemblies with the "
-        "widest franchise in Europe and no power at all \u2014 and in one of them a merchant "
-        "from Haderslev stands up and speaks Danish.",
+   hook="A state that has just lost Norway and written its paper money down to a sixth "
+        "hands control of its money to a bank it does not run, prosecutes farm servants for "
+        "praying in the wrong room, and pays for the finest art it will ever produce. Then "
+        "it concedes four assemblies, chosen, in the kingdom, by fewer than three people in a hundred and "
+        "with no power at all \u2014 and in one of them a merchant from Haderslev stands up "
+        "and speaks Danish.",
    keys=['guldalder', 'gudelige forsamlinger', 'Konventikelplakaten', 'Nationalbanken',
          'st\u00e6nderforsamling', 'hartkorn', 'kornsalgsperioden',
          'Bondevennernes Selskab', 'sprogreskript', 'sprogpatent',
          'slesvig-holstenisme', 'Ejderpolitik', 'folkeh\u00f8jskole', 'Det \u00e5bne Brev'],
-   qs=["Denmark swapped Swedish Pomerania for Lauenburg in 1815 and took cash as well. Why "
-       "was the smaller duchy worth more than the larger province?",
+   qs=["Denmark traded Swedish Pomerania to Prussia for Lauenburg in 1815 and took cash as "
+       "well. Why was the smaller duchy worth more than the larger province?",
        "An absolute monarchy gave away control of its currency in 1818 and control of "
        "nothing else. What was it buying, and from whom?",
        "The Konventikelplakat and the Bondecirkul\u00e6re were both used to stop people "
        "organising, and both failed the same way. What was the mistake they shared?",
-       "The Golden Age was produced by a state that could not pay its debts. Does that "
-       "explain the art, or merely accompany it?",
+       "The Golden Age was paid for by a state that had just written down its own paper "
+       "money. Does that explain the art, or merely accompany it?",
        "Christian 8.'s Open Letter of 1846 was meant to settle the succession. Why did it "
        "leave both national movements angrier than it found them?"],
    figs=[("s01", "SVG_TERR_1814",
@@ -395,13 +396,14 @@ HAND = {
          ("s06", "SVG_ASSEMBLIES",
           "Figure 2 \u00b7 Four assemblies, 1834",
           "Seats and franchise from the four decrees of 15 May 1834. Two Danish bodies and "
-          "two German ones, with the same powers and no power. About one Dane in forty "
-          "could vote, a wider share than any country in Europe; women could not, whatever "
-          "they owned, and Jews could vote but not be elected."),
+          "two German ones, with the same powers and no power. In the kingdom just under three "
+          "people in a hundred could vote; women could not, whatever they owned, and only "
+          "Christians could be elected: Jews could vote in the kingdom but not in the duchies."),
          ("s07", "SVG_RYE",
-          "Figure 3 \u00b7 A fifth of what it had been",
-          "The collapse of 1818\u201328 and the recovery after it, drawn from the ratios the "
-          "sources actually state rather than from an annual price line. The continuous "
+          "Figure 3 \u00b7 A quarter to a third of what it had been",
+          "The collapse of 1818\u201328 and the recovery after it, drawn from the ratio the "
+          "sources state and one estate's two sale prices rather than from an annual price "
+          "line. The continuous "
           "Zealand kapitelstakst for rye exists in print from 1651; its year-by-year values "
           "were not obtained, and the figure says so instead of estimating them.")],
  ),
@@ -413,7 +415,7 @@ HAND = {
    people='Frederik 7. \u00b7 Orla Lehmann \u00b7 D.G. Monrad \u00b7 Wilhelm Beseler \u00b7 '
           'Mathilde Fibiger \u00b7 A.D. Cohen',
    hook="A king dies leaving no heir and a succession that Danish and German law answer "
-        "differently. Eight weeks later absolutism has ended in Copenhagen without a shot, "
+        "differently. By the end of March absolutism has ended in Copenhagen without a shot, "
         "a provisional government has taken a fortress by railway timetable, and the two "
         "halves of the monarchy are at war. Denmark wins the war. The peace is written in "
         "London, and it is the trap that 1864 springs.",
@@ -423,24 +425,25 @@ HAND = {
          'de syv F-er', 'folkekirke', 'Isted 1850', 'Londontraktaten 1852'],
    qs=["Christian 8. left three instructions and no grandson. Which of the three could not "
        "be carried out, and what did that do to the monarchy?",
-       "Slesvig and Holstein were held by the same man under two different legal orders. "
+       "Schleswig and Holstein were held by the same man under two different legal orders. "
        "What were they, and why did a childless king make the difference fatal?",
        "The meeting that ended Danish absolutism was called on a report of a rising that "
        "had not yet begun. Does that change what happened in March 1848?",
        "Before 1849 the army was recruited from one class. What changed, where exactly was "
        "the line drawn, and what could a man still buy his way out of?",
-       "Denmark won every battle it fought alone and lost every point in the settlement. "
-       "Who decided the peace, and what did they require in writing?"],
+       "Denmark won the great battles against the Schleswig-Holsteiners and lost every "
+       "point in the settlement. Who decided the peace, and what did they require in "
+       "writing?"],
    figs=[("s02", "SVG_DESCENT",
           "Figure 1 \u00b7 Two laws, one king, and a column nobody could fill",
           "The succession as it stood when Frederik 7. came to the throne. The kingdom "
           "follows the Kongelov of 1665, which is agnatic but opens the female line when "
           "the male line fails; Holstein follows an agnatic law with no such opening, which "
-          "carries it to Augustenborg. Slesvig's column is empty, because the incorporation "
+          "carries it to Augustenborg. Schleswig's column is empty, because the incorporation "
           "of 1721 was carried through without introducing the kingdom's law. The blank is "
           "the argument, and the Treaty of London filled it by choosing a third rule."),
          ("s02", "SVG_SPROG",
-          "Figure 2 \u00b7 How many Danes were there in Slesvig?",
+          "Figure 2 \u00b7 How many Danes were there in Schleswig?",
           "P.C. Koch's own count of 1839, from the legend of his language map of the duchy "
           "\u2014 published by a Danish partisan as an answer to Franz Geerz's German map of "
           "the year before. Koch did not count Danes and Germans. He counted the language "
@@ -462,40 +465,39 @@ HAND = {
    title='1864',
    people='Christian 9. \u00b7 D.G. Monrad \u00b7 C.J. de Meza \u00b7 Otto von Bismarck \u00b7 '
           'Niels Kjeldsen \u00b7 J.B.S. Estrup',
-   hook="A king three days on the throne signs a constitution he knows breaks the treaty "
-        "that made him king. Eight months later Denmark has lost two fifths of its "
-        "territory, the army that abandoned an indefensible rampart has been vilified for "
-        "saving itself, and the bronze lion over the graves at Flensborg is on its way to "
-        "Berlin. The bill for the second loss is paid at home, in 1866, by Danes.",
+   hook="A king three days on the throne signs a constitution he knows breaks the promise "
+        "made beside the treaty that made him king. Within a year Denmark has lost the duchies, the army that "
+        "abandoned an indefensible rampart has been vilified for saving itself, and the "
+        "bronze lion over the graves at Flensburg has been taken down. The bill for the second loss is paid at home, in 1866, by Danes.",
    keys=['Novemberforfatningen 1863', 'forbundseksekution', 'Dannevirke',
          'skanserne ved Dybb\u00f8l', 'Helgoland 9. maj 1864', 'Londonkonferencen',
          'Als 29. juni 1864', 'Wienerfreden', 'optanter', 'Pragfredens artikel 5',
          'Den gennemsete Grundlov 1866', 'privilegeret valgret', 'Hedeselskabet'],
-   qs=["Christian 9. owed his throne to the Treaty of London and his first act broke it. "
+   qs=["Christian 9. owed his throne to the Treaty of London and his first act broke the "
+       "undertaking that came with it. "
        "Why did he sign, and what did he think would happen?",
-       "In 1848 the great powers stopped Prussia at the Konge\u00e5. In 1864 they did "
-       "nothing. What changed between those two wars \u2014 and whose doing was it?",
+       "In 1848 Russia made Prussia take its troops out of Jutland. In 1864 "
+       "nobody did. What changed between those two wars \u2014 and whose doing was it?",
        "The general who abandoned the Dannevirke was destroyed for it and had been "
        "following his written orders. Who needed him blamed?",
-       "Denmark won the only sea battle of the war and held the blockade to the end. Why "
-       "did it not matter?",
+       "Denmark won the fleet action off Heligoland in May 1864. Why did it not matter?",
        "Denmark lost territory to Prussia and Austria in October 1864 and lost the "
        "franchise of its upper house in July 1866. Which loss shaped the next forty years?"],
    figs=[("s07", "SVG_TERR_1864",
           "Figure 1 \u00b7 The realm after Vienna",
           "The frontier of 30 October 1864, on the same frame and projection as every other "
-          "map in this series. Slesvig, Holsten and Lauenborg are renounced to two monarchs "
-          "personally; the Kong\u00e5en, a line between kingdom and duchy since the "
-          "fourteenth century, becomes a state border. The exchanges ran both ways: the "
-          "royal enclaves inside Slesvig went south, and Ribe Herred, N\u00f8rre Tyrstrup "
-          "Herred and \u00c6r\u00f8 came north."),
+          "map in this series. Schleswig, Holstein and Lauenburg are renounced to two monarchs "
+          "personally; the Konge\u00e5, the old line between kingdom and duchy, becomes a "
+          "state border. The exchanges ran both ways: the royal enclaves south of it were "
+          "ceded with the duchies, all but Ribe Herred, and a string of border parishes "
+          "south of Kolding and \u00c6r\u00f8 came north."),
          ("s04", "SVG_DYBBOL",
           "Figure 2 \u00b7 What fell on the redoubts",
-          "The bombardment record for the Dybb\u00f8l position, and the six published "
-          "casualty returns for 18 April, drawn side by side because they cannot be "
-          "reconciled. The shell counts are attested; the losses differ by a factor of five "
-          "on the Danish dead, and this figure shows the disagreement rather than choosing "
-          "or averaging."),
+          "The bombardment record for the Dybb\u00f8l position, and four Danish reference "
+          "returns for 18 April, drawn side by side because they do not count the same "
+          "things. The shell counts are attested; the returns differ chiefly in what they "
+          "count as a loss, and this figure shows the disagreement rather than choosing or "
+          "averaging."),
          ("s08", "SVG_CEDED",
           "Figure 3 \u00b7 Counted, and disputed",
           "What Denmark lost in 1864, separating the figures Danmarks Statistik computed "
@@ -512,9 +514,9 @@ HAND = {
    people='Niels Hansen Uhd \u00b7 Vilhelm Beck \u00b7 Louis Pio \u00b7 Olivia Nielsen \u00b7 '
           'Ernst Matthias von K\u00f6ller',
    hook="Grain stops paying, and a parish in west Jutland answers it by writing a "
-        "constitution: deliver everything, be paid alike, one man one vote whatever the "
-        "size of your herd, and stand behind your neighbours' debts with all you own. "
-        "Within twenty years a thousand dairies run on those rules. The people they did "
+        "constitution: deliver everything, be paid alike for it, let the general meeting "
+        "decide, and stand behind your neighbours' debts with all you own. By 1894 more "
+        "than nine hundred dairies run on rules like those. The people they did "
         "not admit went to Nebraska, or to N\u00f8rrebro.",
    keys=['andelsbevægelsen', 'andelsmejeri', 'Hjedding 1882', 'centrifuge',
          'brugsforening', 'husmand', 'tyende', 'Indre Mission', 'forsamlingshus',
@@ -522,15 +524,15 @@ HAND = {
          'optanter', 'de hjeml\u00f8se', 'K\u00f8llerpolitikken'],
    qs=["Grain prices fell all over Europe. Why did Denmark answer with cooperatives when "
        "countries with the same problem did not?",
-       "The Hjedding rules gave every member one vote regardless of his herd. Who was not "
-       "a member, and why could they not be?",
-       "The same parishes that invented one-man-one-vote in the dairy built mission houses "
-       "run on the principle that voting causes schism. How did both come out of one "
-       "revival?",
+       "The cooperative dairies came to give every member one vote regardless of his herd. "
+       "Who was not a member, and why could they not be?",
+       "In the same parishes, the dairy ran on the vote of its general meeting and the "
+       "mission house belonged to an association that refused its own members a vote. "
+       "How did both come out of one revival?",
        "More than four in ten Danish emigrants were farm labourers. What does that say "
        "about the cooperative story told beside it?",
-       "A movement banned for high treason in 1872 signed an agreement with the employers "
-       "in 1899 that is still in force. What happened in between?"],
+       "A movement whose leaders were sent to prison after 1872 signed an agreement with "
+       "the employers in 1899 whose principles still hold. What happened in between?"],
    figs=[("s02", "SVG_OMLAEGNING",
           "Figure 1 \u00b7 Why Danish farming turned round",
           "The chain from falling grain prices to butter sold in England, with the dates "
@@ -540,10 +542,10 @@ HAND = {
           "plan asked for \u2014 see the note in figs_35.py."),
          ("s06", "SVG_UDVANDRING",
           "Figure 2 \u00b7 Who left",
-          "The composition of Danish overseas emigration, 1868\u20131900, set against the "
-          "three points in the year-by-year series that could be attested, and against "
-          "Norway and Sweden. The occupations are the argument: the people leaving were "
-          "not the people founding the dairies of figure 1."),
+          "The composition of Danish overseas emigration, 1868\u20131900, with the two "
+          "points in the year-by-year series that could be attested and Denmark's share of "
+          "Scandinavian emigration. The occupations are the argument: the people leaving "
+          "were not the people founding the dairies of figure 1."),
          ("s03", "SVG_ANDEL",
           "Figure 3 \u00b7 How a cooperative was owned",
           "The four rules of the Hjedding contract of 1882 and what each of them did, "
@@ -605,10 +607,10 @@ HAND = {
    people='J.B.S. Estrup \u00b7 Christian 9. \u00b7 Julius Rasmussen \u00b7 Line Luplau \u00b7 '
           'J.C. Christensen',
    hook="The constitution of 1849 never said whether a government answers to the king or "
-        "to the elected chamber. For nineteen years two men read that silence differently, "
-        "and Denmark was governed on emergency decrees, with a military police force in "
+        "to the elected chamber. For nineteen years two sides read that silence differently; "
+        "for nine of them Denmark was governed on emergency decrees, with a military police force in "
         "its villages and a fortress going up round its capital that would never be fired. "
-        "The rule that settled it was not written down for another fifty-two years.",
+        "The rule that settled it was not written down until 1953.",
    keys=['H\u00f8jre og Venstre', 'parlamentarisme', 'provisorisk lov', 'finanslov',
          'grundlovens § 25', 'visnepolitikken', 'Provisorietiden', 'Riffelloven 1885',
          'gendarmerne', 'Vestvolden', 'Forliget 1894', 'Systemskiftet 1901'],
@@ -621,7 +623,7 @@ HAND = {
        "One man fired two shots at Estrup in 1885. Why did everything that followed help "
        "Estrup?",
        "Denmark got parliamentary government in 1901 and did not write it into the "
-       "constitution until 1953. What held it in place for fifty-two years?"],
+       "constitution until 1953. What held it in place from 1901 to 1953?"],
    figs=[("s01", "SVG_FRANCHISES",
           "Figure 1 \u00b7 Two chambers, two electorates",
           "The Folketing and the Landsting side by side as the electoral laws left them "
@@ -631,14 +633,13 @@ HAND = {
           "alone. The chapter's central fact in one image."),
          ("s02", "SVG_DEADLOCK",
           "Figure 2 \u00b7 What each chamber could do, and what nobody could do",
-          "The deadlock drawn as a structure rather than as a quarrel between two men: "
+          "The deadlock drawn as a structure rather than as a quarrel between two sides: "
           "what the Folketing could do, what the Landsting could do, what the king could "
           "do \u2014 and the empty box, which is the procedure the constitution did not "
-          "contain for settling a disagreement between them. Not the seats-against-votes "
-          "series the plan asked for; see the note in figs_36.py."),
+          "contain for settling a disagreement between them."),
          ("s06", "SVG_VESTVOLD",
           "Figure 3 \u00b7 The rampart the constitution was broken for",
-          "The Vestvold in plan and in quantities: fourteen kilometres from Utterslev Mose "
+          "The Vestvold in quantities: fourteen kilometres from Utterslev Mose "
           "to K\u00f8ge Bugt, built 1888\u201392, some 3.15 million cubic metres of earth "
           "and chalk moved by about two thousand men with shovels and wheelbarrows. Never "
           "fired in anger; abolished in 1920.")],

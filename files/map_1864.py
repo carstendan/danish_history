@@ -25,7 +25,7 @@ Five decisions:
     behind it rather than a silent omission.
 
   - THE NEW STATE FRONTIER NEEDS NO NEW GEOMETRY, BECAUSE IT IS ALREADY HERE. The
-    Kongeå had divided kingdom from duchy since the fourteenth century, and on this
+    Kongeå had divided kingdom from duchy since the Middle Ages, and on this
     frame it is DK_SL, which has been in the series since the 1397 map. In 1864 it
     stops being an internal administrative line and becomes an international
     border, and it is drawn heavier and labelled for that reason. This is exactly
@@ -36,13 +36,15 @@ Five decisions:
     which is the check the fixture now makes explicitly.
 
   - THE BORDER ADJUSTMENTS ARE NOT DRAWN, AND THE NOTE SAYS SO WITH NUMBERS. The
-    treaty moved ground both ways: the royal enclaves inside Slesvig went south,
-    and Ribe Herred, Nørre Tyrstrup Herred and Ærø came north. None of it can be
+    treaty moved ground both ways: the royal enclaves inside Schleswig went south,
+    all but Ribe Herred, and a string of border parishes south of Kolding (seven
+    in lex.dk, eight in Grænseforeningen) and Ærø came north.
+    None of it can be
     drawn on this frame. The enclaves were scattered parcels of the kind map_1721
     refused to draw for Gottorp, on the ground that it would be a map of something
     that did not exist; Ærø resolves to no territory at all on the inherited
     geometry, so it cannot be shown changing hands without first inventing an
-    island; and Nørre Tyrstrup Herred is eight parishes. Rather than assert
+    island; and the border parishes are a handful of villages. Rather than assert
     outlines nobody has measured, the note carries the two figures Danmarks
     Statistik computed at the 1860 census: 13,053 people in the territory ceded and
     20,864 in the territory received. That is the whole exchange, stated exactly,
@@ -90,15 +92,16 @@ def build():
     polys = M.land(50)
     out = ['<svg viewBox="0 0 %d %d" xmlns="http://www.w3.org/2000/svg" role="img" '
            'aria-label="Territorial map of 1864. By the Peace of Vienna of 30 October 1864 '
-           'the king of Denmark renounced the duchies of Slesvig, Holsten and Lauenborg to '
+           'the king of Denmark renounced the duchies of Schleswig, Holstein and Lauenburg to '
            'the Emperor of Austria and the King of Prussia, and they are drawn here in the '
            'lost tone rather than omitted. What is left is Jutland, the islands and '
-           'Bornholm. The Kongeå, which had divided the kingdom from the duchy of Slesvig '
-           'since the fourteenth century, becomes an international frontier and is drawn '
+           'Bornholm. The Kongeå, the old line between the kingdom and the duchy of '
+           'Schleswig, becomes an international frontier and is drawn '
            'heavier for that reason. Norway, ceded fifty years earlier, is no longer shown. '
            'The border adjustments made by the treaty ran both ways and are too small to '
-           'draw at this scale: the royal enclaves inside Slesvig went south, and Ribe '
-           'Herred, Nørre Tyrstrup Herred and the island of Ærø came north, the ceded '
+           'draw at this scale: the royal enclaves south of the Kongeå were ceded with the '
+           'duchies, all but Ribe Herred, and a string of border parishes south of Kolding and '
+           'the island of Ærø came north, the ceded '
            'territory holding 13,053 people at the census of 1860 and the received '
            'territory 20,864. The western panel carries Greenland, Iceland and the Faroes, '
            'which are unaffected.">' % (M.W, M.H),
@@ -168,9 +171,9 @@ def build():
 
     out.append(M.legend([("Ruled directly", M.CORE, CORE_OP),
                          ("Ceded at Vienna, 1864", LOST, LOST_OP),
-                         ("Heavy line: the Konge\u00e5, an internal border", None, 0),
-                         ("since the 1300s and a state frontier from 1864", None, 0),
-                         ("Lauenborg: ceded too, marked not drawn", None, 0),
+                         ("Heavy line: the Konge\u00e5, an old internal border", None, 0),
+                         ("and a state frontier from 1864", None, 0),
+                         ("Lauenborg (Lauenburg): ceded, a dot only", None, 0),
                          ("Adjustments both ways: too small to draw", None, 0)],
                         x=14, y=190))
     out.append(M.note(f, 27.9, 68.35, "no fixed border", cls="mapt", anchor="middle"))

@@ -8,14 +8,17 @@
 ## The realm that was left
 
 What Denmark still owned in the summer of 1815 was decided by a treaty most
-Danes have never heard of, signed in Vienna on 4 June by Prussia, Sweden and
-Denmark. Frederik 6. had been given Swedish Pomerania and Rügen at Kiel as
-compensation for Norway. They were useless to him: a scatter of Baltic coast four
-hundred kilometres from Copenhagen, garrisoned by nobody, defensible by no one.
-He traded them to Prussia for the duchy of Lauenburg, which lay against Holstein
-and could be governed from the same desk, and for 2.6 million daler in cash.
-Prussia paid Sweden a further three million as war indemnity. Denmark did not
-actually take possession of Lauenburg until the following year.
+Danes have never heard of, signed in Vienna on 4 June between Denmark and
+Prussia. Frederik 6. had been given Swedish Pomerania and Rügen at Kiel as
+compensation for Norway. They were of no use to him: a strip of the south Baltic
+coast across the water from Zealand that Sweden had never handed over, and that
+Denmark could not have defended if it had. He traded them to Prussia for the
+duchy of Lauenburg, which lay against Holstein and could be governed from the
+same desk, and for a sum of money: two million thaler, by one Swedish account of
+the treaty. Prussia settled with Sweden
+separately, and in October the Swedish governor handed Pomerania straight to the
+Prussians. Denmark did not actually take possession of Lauenburg until the
+following year.
 
 Four days after that treaty, on 8 June 1815, the German Confederation was
 constituted. Holstein went into it, as it had gone into the old Empire before it.
@@ -36,14 +39,14 @@ needed one there.
 
 ## Paying for the war
 
-The state had defaulted on 5 January 1813. What followed was not recovery but
-five years of a currency nobody believed in, and then an institution designed to
-make belief unnecessary.
+The reform of 5 January 1813 (chapter 31) had written the paper money down to a
+sixth. What followed was not recovery but five years of a currency nobody
+believed in, and then an institution designed to make belief unnecessary.
 
 By an octroi of 4 July 1818 the Rigsbank was replaced by *Nationalbanken i
 Kjøbenhavn*. It was not a government department. It was a private *interessentskab*
 whose members were, on one side, those who had bought shares, and on the other
-the landowners who in 1813 had had a mortgage — the *bankhæftelse* — forced onto
+the property owners who in 1813 had had a mortgage — the *bankhæftelse* — forced onto
 their property at six per cent of its value to give the new notes something to
 stand on. Its charter told it plainly that the value of the currency came before
 the supply of credit to business, and it obeyed. It lent so cautiously that by
@@ -53,16 +56,19 @@ This is a stranger thing than it looks. An absolute monarchy, whose founding law
 of 1665 placed every instrument of power in the king's hand, had just handed
 control of the money to a self-governing body and written its independence from
 government into the charter. Nobody called it a constitutional concession. It was
-thirteen years before the king conceded anything that was called one.
+1831 before the king conceded anything that was called one.
 
-The cost fell on the countryside. From 1818 grain prices and grain exports fell
-together, and they kept falling: by 1820–25 corn was fetching about a fifth of
-what it had fetched in 1814–17, and farm property had dropped to a third or a
-quarter of its former price. The men ruined were the ones who had borrowed during
-the wartime boom to buy land at wartime prices — which meant the estate owners
-and the newest freeholders, the two groups the land reforms had been designed to
-create. Estates went to forced auction. Others were taken by the state for
-unpaid tax. Recovery did not begin until the last years of the 1820s.
+The cost fell on the countryside. From 1818 grain prices fell steeply, and they
+kept falling: by 1822–25 corn was fetching between a quarter and a third of what
+it had fetched before the crisis. Land went with it. The estate of Torstedlund in
+Himmerland, sold in 1817 for 112,250 rigsdaler in silver and 35,000 in notes,
+fetched 12,050 in silver in 1826. The men
+ruined were the ones who had borrowed during the wartime boom to buy land at
+wartime prices — which meant the estate owners and the newest freeholders, the
+two groups the land reforms had been designed to create. Estates went to forced
+auction. Fifty-three more fell to the state, which had lent to their owners after
+1818 and could not be repaid. Recovery did not begin until the last years of the
+1820s.
 
 The cruelty of a deflation is that it is invisible while it is happening. Nobody
 takes a farm away. The debt simply stops moving while everything that was
@@ -76,7 +82,7 @@ something that happened to it.
 
 ## The awakening in the parishes
 
-The law they were breaking was 74 years old. The *Konventikelplakat* of 1741
+The law they were breaking was older than anyone breaking it. The *Konventikelplakat* of 1741
 allowed laymen to meet for devotion only under the eye of the parish priest, and
 forbade the gatherings that met without him. It had been drafted against Pietist
 enthusiasm in the reign of Christian 6. Nobody had repealed it, because until the
@@ -91,9 +97,9 @@ state church, attack it, or ask anything of it. They simply stopped believing
 that the parish priest was necessary to the transaction, and met on a weekday
 evening in a room with a clay floor to say so.
 
-In 1834 the authorities reckoned there were sixteen lay preachers travelling the
-country holding these meetings. Later they made it twenty. That is the number an
-administration writes down when it has decided a thing is a problem and wants to
+In 1834 the authorities reckoned there were sixteen lay preachers arranging these
+meetings and travelling from district to district. Later they made it twenty.
+That is the number an administration writes down when it has decided a thing is a problem and wants to
 know how big.
 
 What it did about it was prosecute. Preachers were arrested, fined, and in some
@@ -104,13 +110,11 @@ a set of names known from Ribe to Bornholm.
 
 It is worth being exact about who was in these rooms, because the standard
 account of this period is written almost entirely about the other kind of Dane.
-The people at a *forsamling* were the ones the Golden Age did not paint: farm
-servants, cottagers, day labourers, smallholding families, the class that owned
-between nothing and forty acres. A great many of them were women. Where the
-church gave a woman no role at all beyond attendance, a farmhouse meeting had no
-pulpit to be excluded from, and the sources — hostile ones, mostly, since it is
-the police and the deans who wrote things down — keep noticing with irritation
-how many of the people in the room were female.
+The people at a *forsamling* were the ones the Golden Age did not paint:
+craftsmen and cottagers above all, farmers, farm servants, and a great many of the
+young. Women came forward in the meetings as well as men. Where the church gave a
+woman no role at all beyond attendance, a farmhouse meeting had no pulpit to be
+excluded from.
 
 They were also, mostly, not new. The impulse came into Denmark through the
 Moravian settlement at Christiansfeld and the older Pietist devotional books,
@@ -124,24 +128,24 @@ The consequence ran a long way past religion. A farm servant who had stood up in
 a neighbour's kitchen and spoken to thirty people, and who had watched the man
 beside him fined for doing it, had acquired two things the Danish countryside had
 not previously supplied: the experience of public speech, and a reason to
-distrust the parish authorities. Within fifteen years both would be wanted for
-something else entirely — and the men who turn up running the peasant political
-societies of the 1840s are, over and over, the same men, out of the same
-parishes.
+distrust the parish authorities. By the 1840s both would be wanted for politics
+(§08). Not every preacher went that way: in 1840 Peter Larsen spoke out against
+the calls for a free constitution.
 
 > **Vignette · Peter Larsen Skræppenborg, Funen, the 1830s**
 >
 > He is a farmer, and a good one. He came to the farm called Store Skræppenborg
-> in Brylle parish as a hired lad, married the widow's daughter at nineteen or
-> twenty, and got the place with her; and through the worst decade Danish
-> agriculture had seen in living memory he not only held it but made money on it.
+> in Brylle parish as a hired lad, married a daughter of the farm at twenty — she
+> was born in 1785, he in 1802 — and got the place with her; and through the
+> worst decade Danish agriculture had seen in living memory he not only held it but made money on it.
 > He is not a poor man and it would be dishonest to draw him as one. What he is,
 > is a farmer with no education, no orders, no licence and no permission,
 > standing in another man's kitchen explaining the Gospel to thirty people who
 > have walked there in the dark.
 >
 > He does it constantly. He does it across Funen and then across the water into
-> Jutland, alongside Christen Madsen and the others, in defiance of a plakat none
+> Jutland, carrying on what Christen Madsen, dead since 1829, had begun, in
+> defiance of a plakat none
 > of them has read and all of them know about. He is arrested for it repeatedly.
 > He is fined for it repeatedly. He pays, out of the profits of the farm, and
 > goes again the following week.
@@ -156,20 +160,25 @@ parishes.
 
 ## Grundtvig
 
-In September 1825 a 42-year-old curate at Vor Frelsers Kirke on Christianshavn
-read a new 800-page book by the theology professor H.N. Clausen, and wrote a
-thirty-page pamphlet about it in two or three days.
+In August 1825 a curate at Vor Frelsers Kirke on Christianshavn, born in 1783,
+was sent an early copy of an 800-page book by the theology professor H.N.
+Clausen, and answered it in a few days. His pamphlet came out on 5 September, two
+days after Clausen's book went on sale.
 
 *Kirkens Gienmæle* called Clausen a false teacher and demanded he resign his
-chair. It was a scandalous success; the story went that the Exchange emptied
-because everyone wanted to talk about it. Clausen did not answer the theology.
-He sued for libel.
+chair. It was a scandalous success; a letter of the time reports that little
+business was done on the Exchange that day, because the talk was all of
+Grundtvig's book. Clausen did not answer the theology. He sued for libel.
 
 He won. On 30 October 1826 the court found that Grundtvig had used improper and
-insulting expressions, declared them void, and fined him a modest sum — modest
-because the judges accepted that the attack came from zeal for the truth rather
-than a wish to injure. By then Grundtvig had already resigned his living, on 8
-May, after an earlier ruling went against him.
+insulting expressions, declared them void, and fined him a hundred rigsbankdaler
+for the city's poor, which his friends paid — a modest sum, because the judges
+accepted that the attack came from zeal for the truth rather than a wish to
+injure. By then Grundtvig had already resigned his living, in May, with the case
+still pending. A ruling of 10 April had let it go forward as a private libel suit;
+at an audience on 8 May he learnt that the king, too, was on Clausen's side; and
+hymns he had written had been banned from the festival due that year to mark a
+thousand years since Ansgar came to Denmark.
 
 And then came the thing everyone remembers and almost everyone gets wrong. He was
 placed under lifelong censorship: every word he wished to print had first to go
@@ -179,21 +188,24 @@ carried lifelong censorship automatically, for anybody, and it fell on him the w
 a machine falls on whatever is under it. The state had not singled out its most
 dangerous preacher. The state had not noticed.
 
-Nor was it lifelong. On 1 November 1837 the press law was changed so that only a
-third conviction would bring censorship; Grundtvig applied to be released, and was,
-on 27 December of the same year. Eleven years, not a life.
+Nor was it lifelong. On 1 November 1837 the press ordinance was changed, which
+let Grundtvig apply to be released; he was, on 27 December of the same year.
+Eleven years, not a life.
 
 Nor, in the end, did it silence much. Exactly one of his writings was actually
-suppressed — the third part of a treatise on religious freedom. He wrote and
-published throughout. What it did was humiliate him daily for eleven years, and
-his relief when it ended was enormous, and both of those things are true at once.
+suppressed — the third part of *Om Religions-Frihed*, a treatise on religious
+freedom, passed by the censor in March 1827 and seized by the police in April. He
+published more than a hundred works under censorship, some of his most important
+among them. What it cost him in practice, his modern editors judge, was delay; and
+he marked the end of it with a song in praise of the mother tongue, *Moders Navn er
+en himmelsk Lyd*.
 
 ---
 
 ## What the Golden Age was for
 
 Here is the difficulty with this period. The Danish word for it is *guldalder*,
-golden age, and it was applied long after the fact. Between the bankruptcy and
+golden age, and it was applied long after the fact. Between 1813 and
 1848 a country of about a million people produced Oehlenschläger, Thorvaldsen,
 Eckersberg, H.C. Ørsted, Hans Christian Andersen and Søren Kierkegaard, and the
 temptation is to write that down as a flowering and move on. It explains nothing.
@@ -202,15 +214,16 @@ Genius is not scarce enough to be an explanation.
 What is scarce is money, and the money is where the answer is. Almost every one
 of those careers ran through a very small number of state institutions: the Royal
 Academy of Fine Arts, the University, the Royal Theatre, and the travel stipends
-that sent young men south. Thorvaldsen went to Rome in 1797 on an Academy
-stipend and stayed forty years. Eckersberg taught at the Academy and formed a
-whole generation of painters in its rooms. The Theatre commissioned, paid and
+that sent young men south. Thorvaldsen reached Rome on an Academy stipend in
+1797 and lived there, apart from one visit home in 1819–20, until 1838.
+Eckersberg taught at the Academy and formed a whole generation of painters in its
+rooms. The Theatre commissioned, paid and
 housed the drama.
 
-All of it was funded by a treasury that had defaulted on its debts, in a state
-that could not pay its own way, during a decade when the country's estates were
-being auctioned for unpaid tax. The Golden Age was not what a confident nation
-produced with its surplus. It was subsidised, deliberately, by a government with
+All of it was funded by a treasury that had written down its own paper and put
+off its creditors, during a decade when the country's estates were going to
+forced auction. The Golden Age was not what a confident nation produced with its
+surplus. It was subsidised, deliberately, by a government with
 no surplus at all — because cultural prestige was the one great-power attribute
 Denmark could still afford after it had stopped being a great power.
 
@@ -247,7 +260,7 @@ which opened that door decided what he had to become to keep walking through it.
 > **Vignette · Johanne Luise Pätges, Hofteatret, 12 February 1826**
 >
 > She is thirteen. Her father is a Catholic from the Rhineland, her mother a Jew
-> from the country outside Copenhagen, and between them they have kept a public
+> from the country round Frankfurt, and between them they have kept a public
 > house and a dancing booth at Lille Ravnsborg by the Assistens cemetery, and for
 > a season a refreshment tent up at Dyrehavsbakken. She has been at the Royal
 > Theatre's ballet school since she was eight.
@@ -274,18 +287,20 @@ The July revolution in Paris in 1830 did not shake Denmark. It shook Holstein.
 
 In November 1830 a district administrator on Sylt named Uwe Jens Lornsen
 published a pamphlet arguing that Schleswig and Holstein should have a joint
-constitution and be governed from Kiel by their own council of state. It pleased
-nobody in authority — not the Danish government, not the Schleswig-Holstein
-knighthood — and it went off like a match in a dry room. By December senior
-officials in Copenhagen were recommending advisory assemblies, and not only for
-Holstein: for Schleswig and for the kingdom too.
+constitution and be governed from Kiel by their own council of state. The
+government had him arrested on 23 November, and in May 1831 a court took his
+office from him and gave him a year's fortress arrest. The knighthood of the
+duchies, the most influential body there, would have nothing to do with his
+liberal ideas either. But the pamphlet went off like a match in a dry room:
+within months of it Copenhagen was planning advisory assemblies, and not only for Holstein: for
+Schleswig and for the kingdom too.
 
 There was also an obligation. As Duke of Holstein, Frederik 6. was a member of
 the German Confederation, and article 13 of its founding act required its member
 states to have estates. He could go on refusing his Danish subjects a
 representative body. He could not go on refusing his German ones.
 
-The machinery took five years. Two ordinances of 28 May 1831 laid down the
+The machinery took more than four years. Two ordinances of 28 May 1831 laid down the
 principle and the geography; four decrees of 15 May 1834 supplied the detail;
 elections ran from September 1834 to January 1835; and the assemblies opened —
 Roskilde for the islands and Itzehoe for Holstein on 1 October 1835, Viborg for
@@ -301,25 +316,28 @@ Look at how they were built, though, because the design is the argument.
 Roskilde had seventy members — twelve from Copenhagen, eleven from the provincial
 towns, seventeen landowners, twenty farmers, and ten appointed by the king, among
 them a professor, two clergymen and three men for the Faroes and Iceland. Viborg
-had fifty-five on the same pattern. Every voter had to own land: at least four
-tønder *hartkorn* in the country, five if you held on hereditary lease, and double
-that to stand for election; in a market town, property worth a thousand
-rigsdaler. Voting at twenty-five, eligibility at thirty-five.
+had fifty-five on the same pattern. Every voter had to hold land: at least four
+tønder *hartkorn* in the country if he owned it, five if he held it as a tenant,
+and double that to stand for election; in a provincial market town, property
+worth a thousand rigsdaler, in Copenhagen four thousand. Voting at twenty-five,
+eligibility at thirty.
 
 The exclusions are more revealing than the thresholds. Women could not vote or
-stand however much land they owned. Jews could vote but could not be elected.
-Clergymen could not be elected either — on the reasoning that a priest should
-attend to his moral and religious teaching office and not meddle in politics —
-but the king could appoint one.
+stand however much land they owned. Only Christians could be elected: in the
+kingdom Jews could vote, in the duchies they could not. The clergy, the teachers
+of the grammar schools and the university, and the higher officials without
+land — the educated class, in short — got neither vote nor seat by right; it came in only by the
+king's appointment, as the professor and the two clergymen at Roskilde did.
 
-And yet: roughly one Dane in forty had the vote, a share no other country in
-Europe could match at the time. An absolutism with no legislature had just built
-the broadest franchise on the continent and attached it to a body with no power.
+And yet: some thirty-two thousand men in the kingdom had the vote, just under
+three in a hundred of the population — a wide electorate, by the standard of the
+other estates constitutions of the time. An absolutism with no legislature had
+just built that franchise and attached it to a body with no power.
 
 The siting was deliberate too. Four assemblies in four modest towns kept the
 political argument dispersed instead of concentrating it in the capital, and
 giving Schleswig and Holstein one each separated German-minded Holstein from a
-Schleswig that was nationally divided. It was clever. It worked for eleven years.
+Schleswig that was nationally divided. It was clever. It worked until 1842.
 Then the thing it was designed to prevent happened inside one of them, and this
 chapter's last two sections are about that.
 
@@ -327,12 +345,13 @@ chapter's last two sections are about that.
 
 ## The countryside gets rich
 
-From about 1828 the prices turned, and they kept turning for thirty years. Danish
-historians call the period that follows the *kornsalgsperiode*, the grain-selling
-years, and it runs to the late 1850s with only small interruptions.
+From about 1828 the prices turned. The long run of good grain years that came out
+of it is what Danish historians call the *kornsalgsperiode*, the grain-selling
+years, and one standard account dates it from the middle of the 1840s to the late
+1870s, where chapter 35 takes it up.
 
 The men who benefited were the ones chapter 29 left standing: a countryside in
-which a large minority of farms were now owned outright by the families working
+which more farms with every decade were owned outright by the families working
 them. What a freeholder does with a rising price is different from what a tenant
 does with one. He improves the asset, because it is his. The decades after 1828
 are full of the unglamorous evidence — marling to sweeten sour fields, draining,
@@ -347,13 +366,14 @@ another parish.
 
 It also made them exporters, which meant that from 1828 onward the Danish
 countryside had a direct financial interest in the tariff policy of countries it
-did not vote in. The largest of those markets was Britain, and the Corn Laws that
-governed access to it were repealed in 1846 — a decision taken in Westminster
+did not vote in. From the 1840s more and more of its wheat went to Britain, and
+the Corn Laws that governed access to it were repealed in 1846 — a decision taken in Westminster
 that mattered more to a farmer near Ringsted than anything decided at Roskilde
 in the same decade.
 
-And it is worth naming what did not change. A large part of Danish farmland was
-still held on *fæste*, tenancy, from an estate; a tenant paid his dues and
+And it is worth naming what did not change. A large part of the peasants' land
+was still held on *fæste*, tenancy, from an estate — forty-three per cent of it
+as late as 1835, most of it on the islands; a tenant paid his dues and
 in many places still owed *hovarbejde*, labour service, on the landlord's fields.
 He watched the grain price rise and watched somebody else collect the difference.
 The boom did two things at once: it made one part of the countryside solvent and
@@ -380,29 +400,30 @@ from the liberal lawyers of the towns.
 It did the opposite. Danish peasants had been reliably loyal to the crown for two
 generations; the crown had freed them, and they knew it. The circular taught them
 that the crown and the landlords were the same interest, and it pushed them
-towards the only allies available. By the time the circular was withdrawn the
-damage was done, and on 5 May 1846 — six months after it was issued — the
-*Bondevennernes Selskab*, the Society of the Friends of the Peasant, was founded
-by landowners' tenants and liberal townsmen together.
+towards the only allies available. On 5 May 1846 the *Bondevennernes Selskab*,
+the Society of the Friends of the Peasant, was founded by liberal townsmen and
+leaders of the peasant movement together. The government withdrew the circular a
+week later, on 12 May, when the damage was done.
 
 Its programme was the fusion of the two groups that made it: the peasants'
-demand for the end of *fæste* and for security against the landlord, the
-liberals' demand for a constitution, and — added by both — a demand for better
-popular education, which is the awakening's fingerprint on a political document.
-Universal conscription came onto the list too, on the reasoning that a state
-which required a peasant's son to serve should require everybody's.
+demand for the end of *fæste* — tenant farms turned into freeholds — and better
+conditions for the cottagers, the liberals' demand for an end to the
+privileges tied to land and for economic freedom in town and country, and a
+demand for better rural schools, which is the awakening's fingerprint on a
+political document. Universal conscription came onto the list too, on the
+reasoning that a state which required a peasant's son to serve should require
+everybody's.
 
 It grew past ten thousand members. It was a political party in everything but
-name, five years before Denmark had a parliament for parties to sit in, and when
-the constituent assembly was elected in 1848 it was the decisive force in the
-countryside.
+name, three years before the constitution of 1849 gave Denmark a parliament for
+parties to sit in, and at the elections to the constituent assembly in 1848 it
+counted for most in the countryside.
 
 Note the shape, because this chapter has now produced it twice. A prohibition
 that could not be enforced hard enough to work, and could not be withdrawn fast
 enough to matter, took a diffuse and largely apolitical body of country people
 and gave it a name, an organisation and an enemy. The Konventikelplakat did it to
-the awakening. The Bondecirkulære did it to the peasant movement. In several
-parishes they did it to the same men.
+the awakening. The Bondecirkulære did it to the peasant movement.
 
 ---
 
@@ -418,15 +439,14 @@ What changed it was that the government wrote the language down.
 On 14 May 1840 Christian 8. issued a language rescript for Schleswig — a
 *sprogreskript*. In those districts where Danish was already the church and
 school language, Danish was in future to replace German in all government and
-legal business, and every official there was obliged to use it; German-minded
-children got three hours of German a week as balance. It had not come from
-Copenhagen's ambition. Nis Lorenzen, a farmer sitting for north Schleswig, had
-moved on 7 June 1836 that Latin and German be abolished in administration and
-justice wherever the school language was Danish; in July 1838 the assembly
-carried it, twenty-one votes to eighteen, with the support of its own president,
-N. N. Falck. The rescript of 1840 was the king granting what a Schleswig
-advisory body had narrowly asked him for — and nearly half of that body had
-voted against asking.
+legal business: officials there who knew enough Danish were to begin using it
+from the first of January following, and a report was to be made on those who
+did not. Children whose parents asked for it were to be taught
+German three hours a week outside school time. It had not come from Copenhagen's
+ambition. Nis Lorenzen, a farmer sitting for north Schleswig, had moved much the
+same on 7 June 1836, and in 1838 the Schleswig assembly carried it, twenty-one
+votes to eighteen, with the support of its own president, N. N. Falck. The king
+granted what his own advisory body had narrowly asked for.
 
 As policy it was modest, and the government took pains that it should not look
 like *danisering*. As anything else it was a catastrophe, because it obliged the
@@ -463,51 +483,43 @@ His best-planned action was carried out by a merchant from Haderslev.
 > himself in German, as he does not command Danish. Lorenzen carries on in
 > Danish. The president says it is not his job to interpret; a man may speak
 > Danish if he likes, but whether he is understood is his own affair. Lorenzen
-> speaks Danish again. The secretariat then declares that it is not able to keep
-> the minutes in Danish, and the sitting is closed.
+> speaks Danish again. A deputy declares that the secretariat takes nothing in
+> Danish into the minutes: the language of the assembly is German.
 >
-> The clerk, who did understand Danish, had minuted the speech in German. The
-> next day the assembly refused to approve the minutes, on the ground that
-> Lorenzen had spoken Danish. The passage was struck out and replaced with four
-> words recording that he had spoken Danish — written, of course, in German.
+> His words were minuted all the same, translated into German by a secretary who
+> knew Danish. When the minutes came up for approval some days later, the majority
+> refused to pass them, on the ground that Lorenzen had spoken Danish, and the
+> passage was struck out. In its place the minutes recorded only that he had
+> spoken Danish.
 >
-> He kept on until the president ordered him to be silent. The exchange that has
-> come down from that moment — legendary, and repeated ever since — is four
-> words each way. *Must I be silent because I speak Danish?* Yes, because you
-> speak Danish.
->
-> He complained to the king. The king turned him down, on grounds worth reading twice: under the
-> assembly's own statutes Danish might be spoken only by deputies elected in
-> Danish-speaking districts who could not manage German. Lorenzen was elected in
-> Sønderborg and spoke perfectly good German. The right to speak Danish existed
-> only for men incapable of speaking German — a permission granted as a
-> disability, which is exactly the thing he had stood up to refuse.
+> The exchange that has come down from that day — legendary, and repeated ever
+> since — has the president ordering him to be silent. *Must I be silent because
+> I speak Danish?* Yes, because you speak Danish.
 >
 > Peter Hiort Lorenzen, merchant of Haderslev, deputy for Sønderborg · the
 > Schleswig estates assembly · 11 November 1842 · [-]
 
-The effect was out of all proportion to the act. Subscriptions to *Dannevirke* in
-Haderslev went from about three hundred to over seven hundred within weeks. On
-18 May 1843 the first of the great Danish open-air meetings was held on the
-Skamlingsbanke, the highest ground in the region, with some six thousand people
-and Orla Lehmann and the peasant orator Laurids Skau speaking; Hiort Lorenzen was
-honoured there. German meetings answered in the south.
+The effect was out of all proportion to the act. On 18 May 1843 the first of the
+great Danish open-air meetings was held on the Skamlingsbanke, the highest ground
+in the region, with some six thousand people; the peasant orator Laurids Skau
+spoke, in words Flor had written for him, and Hiort Lorenzen was given a drinking
+horn inscribed *Han vedblev at tale dansk* — he went on speaking Danish. German
+meetings answered in the south.
 
 The king tried to settle it and made it worse. A rescript of 2 December 1842
-invited the assembly to propose some workable means of letting Danish-speaking
-members take part. The assembly proposed nothing. So on 29 March 1844 Christian
-8. issued a *sprogpatent* of his own, which granted the right to speak Danish
-only to those members who did not consider themselves sufficiently master of
-German. It was drafted at Hiort Lorenzen and it hit him exactly: he spoke German,
-so he could not speak Danish. The Danish members walked out and boycotted the
-following sittings, which left the Schleswig-Holstein majority unopposed; the
-government answered by banning the Slesvigske Forening and prosecuting its
-board.
+declared that the natural rights of the Danish-speaking deputies were to be
+respected, and invited the assembly to propose some workable means of letting
+them take part. The assembly proposed nothing. So on 29 March 1844 Christian 8.
+issued a *sprogpatent* of his own, which granted the right to speak Danish only
+to those members who did not consider themselves sufficiently master of German.
+It hit Hiort Lorenzen exactly: he spoke German, so he could not speak Danish — a
+permission granted as a disability, which is the thing he had stood up to
+refuse. He and the other Danish members declared that they would not attend,
+which left the Schleswig-Holstein majority unopposed.
 
 The second Skamlingsbanke meeting followed on 4 July 1844. Grundtvig spoke, and
-about twelve thousand people came — twice the crowd of the year before. The
-king's attempt to define who was allowed to speak Danish had produced the largest
-Danish political gathering the duchy had ever seen.
+so did Orla Lehmann, and some nine or ten thousand people came, many of them
+from the kingdom.
 
 Four months later came the school. On 7 November 1844 a *folkehøjskole* opened at
 Rødding, north of the language boundary and on Flor's initiative: a boarding
@@ -515,7 +527,7 @@ school for adult peasants, built to wake the country population to being Danish.
 Every Danish reader is told it was the first high school in the country. It was
 the first to call itself a *folkehøjskole* — some twenty higher peasant schools
 were founded in the realm between 1842 and 1864, and the first of them opened at
-Rendsburg, in Holstein, two years earlier. What it becomes is chapter 35's
+Rendsburg, in Holstein, in 1842. What it becomes is chapter 35's
 subject.
 
 ---
@@ -530,15 +542,17 @@ claimants and the Schleswig-Holstein movement, who insisted the male line alone
 had a right there.
 
 In February 1845 Christian 8. appointed a commission under the foreign minister
-Reventlow-Criminil to settle the law. It took seventeen months.
+Reventlow-Criminil to settle the law. It worked for more than a year.
 
 On 8 July 1846 the king issued *Det åbne Brev*, the Open Letter. It declared the
 Kongelov's succession fully valid for Schleswig and for Lauenburg, admitted
 uncertainty for parts of Holstein, promised to resolve it, and undertook that the
 monarchy would pass undivided.
 
-It was written to calm the duchies. It enraged them; the unrest that followed in
-Holstein was read at the time as close to revolution. And because the same
+It was written to calm the duchies. It enraged them: the duke of Augustenborg
+protested, most of the Holstein deputies gave up their seats and the Schleswig
+ones followed, and the government sent soldiers against a protest meeting at
+Nortorf. And because the same
 document also refused the Ejderpolitik and reaffirmed the united monarchy, it
 told the Danish national liberals no in the same breath. A letter designed to
 close the question had managed to answer both national movements in the negative
@@ -572,17 +586,17 @@ Recall, Causal, Counterfactual, Contested.*
   held in private houses by lay people, without a clergyman present. Not a sect
   and not a secession: the people at them stayed in the state church and mostly
   held entirely orthodox views. What was radical was meeting without asking.
-- **Konventikelplakaten** — the Conventicle Edict of 1741, which permitted lay
+- **Konventikelplakaten** — the Conventicle Placard of 1741, which permitted lay
   devotional meetings only under the supervision of the parish priest. Drafted
-  against Pietism a century before it was used against the awakening, and still
-  on the books because nobody had needed to repeal it.
+  against Pietist separatism, used against the awakening in the 1820s and 1830s,
+  in practice dead from 1839 and formally repealed in 1848.
 
 **§05 — what the Golden Age was for**
 
 - **guldalder** — "golden age". A label applied to Danish art, letters and science
   of roughly 1800–1850 long after the fact, and one worth handling carefully: it
-  describes an output, not a mood, and the output was produced by an insolvent
-  state.
+  describes an output, not a mood, and the output was produced by a state that
+  had written down its own money.
 
 **§06 — four assemblies**
 
@@ -591,8 +605,8 @@ Recall, Causal, Counterfactual, Contested.*
   provincial assemblies of the 1830s, elected by property owners, which could
   discuss and propose but not decide.
 - **hartkorn** — "hard grain". The Danish unit of taxable land value, by which
-  the franchise for the assemblies was set: four tønder of hartkorn to vote in
-  the countryside, eight to stand.
+  the franchise for the assemblies was set: for an owner, four tønder of hartkorn
+  to vote in the countryside, eight to stand.
 
 **§07 — the countryside gets rich**
 
@@ -628,25 +642,26 @@ Recall, Causal, Counterfactual, Contested.*
 
 ## Meanwhile in Europe
 
-**July 1830 — Paris.** Charles 10. issued ordinances dissolving the new chamber
+**July 1830 — Paris.** Charles X issued ordinances dissolving the new chamber
 and gagging the press, and lost his throne in three days of street fighting. The
 shock travelled north through the German states all summer. In Denmark proper it
 changed almost nothing: the peasantry was loyal, the bourgeoisie was small, and
 there was no organised opposition for a revolution to attach itself to. It landed
 instead in the duchies, where a constitutional argument was already running — and
-Uwe Jens Lornsen's pamphlet appeared in November, four months downstream of the
+Uwe Jens Lornsen's pamphlet appeared that November, downstream of the
 barricades. The advisory assemblies that followed were Frederik 6.'s answer to a
 revolution that had happened somewhere else, to a problem he had in a province
 that was not Danish.
 
 **June 1846 — Westminster.** Britain repealed the Corn Laws, dismantling the
 tariff wall that had protected British grain growers since 1815 and splitting the
-Conservative party in the process. Peel's government fell within weeks of
-carrying it. The Danish countryside had no opinion about British party politics
+Conservative party in the process. The Lords passed it on 25 June, and the same
+night Peel's government was beaten in the Commons on another bill; he resigned
+four days later. The Danish countryside had no opinion about British party politics
 and every interest in the outcome: the *kornsalgsperiode* was built on selling
 grain into a market Denmark did not control, and the single most consequential
 decision for a Zealand farmer in the 1840s was taken in a parliament he could not
-vote for, in the same month that his own king was drafting the Open Letter.
+vote for, thirteen days before his own king issued the Open Letter.
 
 ---
 
@@ -658,15 +673,16 @@ Confederation. The countryside has spent a decade being ruined by deflation, and
 in the villages an illegal religious movement is meeting in kitchens and paying
 its fines out of farm profits. Nothing political has yet happened.
 
-**Before §06 — where we are.** A famous clergyman has been silenced by a statute
-that was not aimed at him, and a lay movement has been prosecuted by another one
-that was. Both prosecutions produced the opposite of what they intended. The
-state has not yet been asked for anything.
+**Before §06 — where we are.** A famous clergyman has been put under censorship
+by a statute that was not aimed at him, and it cost him mostly delay. A lay
+movement has been prosecuted under another statute that was aimed at it, and the
+prosecution built the movement it meant to stop. The state has not yet been asked
+for anything.
 
 **Before §09 — where we are.** The state has now conceded four advisory
 assemblies, and the grain price has turned; the countryside is solvent and
-organised and about to be told it may not organise. The assemblies are eleven
-years old and have decided nothing. In one of them, a merchant from Haderslev is
+organised and about to be told it may not organise. The assemblies have sat
+since 1835 and have decided nothing. In one of them, a merchant from Haderslev is
 about to change the language of the argument.
 
 ---
@@ -678,28 +694,24 @@ about to change the language of the argument.
 It is the most durable story about this period, and almost every element of the
 setting contradicts it.
 
-The output is real. Between the state bankruptcy and 1848 a country of about a
-million people produced Oehlenschläger, Thorvaldsen, Eckersberg, Ørsted, Andersen
-and Kierkegaard. But look at what surrounds it. The state had defaulted in 1813
-and could not pay its debts. It had lost Norway in 1814 and been paid off in a
-province it did not want and swapped away. Its countryside was in a ten-year
-collapse that put estates on the auction block for unpaid tax. Its most famous
+The output is real; §05 has the names. But look at what surrounds it. The state
+had written down its paper money and put off its creditors in 1813. It had lost
+Norway in 1814 and been paid off in a province it did not want and swapped away.
+Its countryside was in a ten-year collapse that put estates on the auction block
+and left the state holding fifty-three of them. Its most famous
 preacher spent eleven years having his manuscripts read by a policeman before
 they could be printed. Its farm servants were being fined for praying in the
 wrong room. Its king ruled two provinces that were constitutionally part of
 another country.
 
-That is not confidence. It is a small, broke, frightened state buying the one
+That is not confidence. It is a small, poor, frightened state buying the one
 great-power attribute still within reach, and the argument of §05 is that the art
 was subsidised precisely because nothing else could be.
 
 **A second myth, smaller and worth killing in passing.** That Grundtvig was
 sentenced to lifelong censorship for *Kirkens Gienmæle*. He was not sentenced to
-it by anybody. Under the Press Freedom Ordinance of 1799 a libel conviction
-carried censorship automatically, for any convict; the court fined him and that
-was the sentence. Nor was it lifelong — the press law changed on 1 November 1837
-and he was released from it on 27 December, after eleven years. And it suppressed
-exactly one of his writings. The story survives because it is a better story.
+it by anybody; §04 has the mechanism, the release after eleven years and the one
+writing it suppressed. The story survives because it is a better story.
 
 ---
 
@@ -707,10 +719,10 @@ exactly one of his writings. The story survives because it is a better story.
 
 **← 31.** The settlement of 1814 and what it left: this chapter opens on the
 transaction that finished it, the swap of Swedish Pomerania for Lauenburg in June
-1815, and on the German share of the realm rising as a proportion of what
-remained. — The compulsory schooling act of 29 July 1814 is the reason the
-farm servants in §03 could read the devotional books they were meeting to
-discuss.
+1815, and on the two duchies, Holstein and Lauenburg, that made the king a member
+of the German Confederation. — The school ordinances of 29 July 1814
+are part of why the generation that filled §03's kitchens could read the
+devotional books it met to discuss.
 
 **← 19.** Ribe 1460 and the sentence about Schleswig and Holstein being
 undivided: §09 is that sentence being used, four centuries later, by people who
@@ -734,18 +746,18 @@ won.
 
 ## Summary
 
-Denmark came out of 1814 smaller, insolvent, and holding two provinces that
-belonged constitutionally to Germany. Frederik 6. swapped Swedish Pomerania for
-Lauenburg and 2.6 million daler in June 1815; four days later Holstein and
+Denmark came out of 1814 smaller, its paper money written down to a sixth, and
+holding two provinces that belonged constitutionally to Germany. Frederik 6.
+swapped Swedish Pomerania for Lauenburg and a sum of money in June 1815; four days later Holstein and
 Lauenburg went into the German Confederation, and the king became an absolute
 monarch in Copenhagen and a German prince in Frankfurt.
 
-The state's answer to insolvency was to give control of the money away. The
+The state's answer to its broken currency was to give control of the money away. The
 octroi of 4 July 1818 chartered Nationalbanken as a private company with its
 independence written into the charter and the value of the currency placed above
-the supply of credit. It obeyed, and the cost fell on the countryside: by 1820–25
-grain fetched about a fifth of its wartime price and farms a third or a quarter
-of theirs.
+the supply of credit. It obeyed, and the cost fell on the countryside: by 1822–25
+grain fetched between a quarter and a third of its price before the crisis, and
+estates went to forced auction or to the state.
 
 Its answer to religious enthusiasm and to peasant organisation was to prosecute
 both, and in each case the prosecution built the movement it meant to suppress.
@@ -754,11 +766,11 @@ with a martyrology; the Bondecirkulære of November 1845 was followed within six
 months by Bondevennernes Selskab.
 
 Its answer to the revolution in Paris was four advisory assemblies, conceded in
-1831, sitting from 1835 and 1836, with the widest franchise in Europe and no
-power whatever. About one Dane in forty could vote for bodies that could be shown
-draft laws, could propose laws, and could pass none.
+1831, sitting from 1835 and 1836, with a wide franchise for its day and no power
+whatever. In the kingdom just under three people in a hundred could vote, for
+bodies that could be shown draft laws, could propose laws, and could pass none.
 
-The art was bought by a treasury that could not pay its debts, because prestige
+The art was bought by a treasury that had written down its own paper, because prestige
 was the last great-power attribute within reach. By the mid-1840s every one of
 these had produced an organised population with demands, and in Schleswig two of
 them wanted the same ground. The Open Letter of July 1846 tried to answer both
@@ -770,8 +782,8 @@ and told both no. Christian 8. died eighteen months later with nothing settled.
 
 **Recall.**
 
-1. What did Denmark exchange for the duchy of Lauenburg in June 1815, and what
-   else did it receive in the same transaction?
+1. What did the language rescript of 14 May 1840 require, in which districts of
+   Schleswig, and which assembly had asked for it?
 2. Where did the four advisory assemblies sit, and in which years did each of
    them first meet?
 3. What did the language patent of 29 March 1844 actually permit, and to whom?
@@ -813,8 +825,8 @@ and told both no. Christian 8. died eighteen months later with nothing settled.
 
 **Worked from**
 
-- The treaty of 4 June 1815 between Prussia, Sweden and Denmark, and the German
-  Federal Act of 8 June 1815, article 13.
+- The treaty of 4 June 1815 between Denmark and Prussia, and the German Federal
+  Act of 8 June 1815, article 13.
 - The octroi of 4 July 1818 establishing Nationalbanken i Kjøbenhavn.
 - The Konventikelplakat of 1741.
 - The Press Freedom Ordinance of 1799, and the amendment of 1 November 1837.
@@ -829,12 +841,23 @@ and told both no. Christian 8. died eighteen months later with nothing settled.
   after William Scharling, *Pengenes synkende Værdi, belyst ved danske
   Aktstykker*. Note the currency change at 1813/14: the series either side of it
   is not one series, and nothing here is drawn across it.
+- *Gyldendal og Politikens Danmarkshistorie*, vol. 10 — for the crisis figures in §02
+  (grain at a quarter to a third of its pre-crisis price by 1822–25; Torstedlund;
+  the fifty-three estates the state took over), the kingdom's electorate of 1834,
+  the Bondecirkulære and the Open Letter.
+- *Sverige på kongressen i Wien* (runeberg.org), for the two million thaler of
+  1815. No Danish reference work reached gives the sum, and the 2.6 million of
+  some English accounts is confirmed by none; Prussia also took over Denmark's
+  payments to Sweden (de.wikipedia, *Schwedisch-Pommern*).
+- Den Store Danske (lex.dk), *fæste*, for the share of peasant land still held on
+  *fæste* in 1835; Trap Danmark, 5th edition, *Haderslev*, for the Hiort Lorenzen
+  statue.
 - danmarkshistorien.dk, Aarhus University — source texts and commentary on the
   estates assemblies, the Bondecirkulære and Bondevennerne.
 - Grænseforeningen's source collection, for the Schleswig proceedings and the
-  Open Letter.
-- Dansk Biografisk Leksikon, for Hiort Lorenzen, Peter Larsen, Flor, Grundtvig
-  and Johanne Luise Heiberg.
+  Open Letter, and its lexicon article on Skamlingsbanken, for the obelisk.
+- Dansk Biografisk Leksikon, for Hiort Lorenzen, Nis Lorenzen, Lornsen, Peter
+  Larsen, Flor, Grundtvig, Thorvaldsen and Johanne Luise Heiberg.
 - Det Kgl. Bibliotek's Grundtvig text portal, for the chronology of the libel
   case and the censorship.
 
@@ -865,21 +888,26 @@ and told both no. Christian 8. died eighteen months later with nothing settled.
 ## Visit
 
 **Skamlingsbanken**, south of Kolding. The highest ground in southern Jutland and
-the site of the Danish national meetings from 1843. The memorial column raised to
-the language campaign was blown up by German nationalists in 1844 and re-erected;
-the fragments are still on the hill.
+the site of the Danish national meetings from 1843. The granite obelisk to the
+civilian champions of the Danish cause in Schleswig carries eighteen names, Hiort
+Lorenzen's and Laurids Skau's among them. It was unveiled in 1863, blown up by Prussian troops on 21 March 1864, and put back
+together in 1866.
 
-**Rødding Højskole**, Rødding. Still a working folk high school on the same site.
-Flor's House dates from 1832, which is to say it predates the school.
+**Rødding Højskole**, Rødding. Still a working folk high school on the same site;
+its Flors Hus is named for the founder.
 
-**The statue of Peter Hiort Lorenzen**, by the mill dam in Haderslev — a merchant
-in bronze, full length, for having gone on speaking.
+**The statue of Peter Hiort Lorenzen**, Haderslev, by Carl Mortensen (1929). The
+town council would not give it a public site, so it went up in the garden of the
+Højskolehjem, now Hotel Norden; when the Dampark by Haderslev Dam was laid out and
+the boundary between garden and park removed, it ended up standing in the park.
+A merchant honoured for having gone on speaking.
 
 **Skibelund Krat**, near Vejen. A memorial grove on the post-1864 border, which
 Peter Larsen Skræppenborg campaigned to buy. A stone was raised to him there.
 
-**Thorvaldsens Museum**, Copenhagen. Built 1839–48 by public subscription for one
-sculptor's own collection, by a city that had been bankrupt within living memory.
+**Thorvaldsens Museum**, Copenhagen. Opened in 1848 for one sculptor's own
+collection, paid for in part by a public collection, in a country whose paper
+money had been written down to a sixth within living memory.
 It is the argument of §05 as a building.
 
 **Det Kongelige Palæ**, Roskilde. The hall where the Østifter assembly sat from

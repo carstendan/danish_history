@@ -367,6 +367,37 @@ The church was the only institution that reached every village in Denmark. A sta
 that wanted to reach every village had one obvious instrument, and it did not have
 to build it.
 
+> **Vignette · Charlotte Amalie, Nykøbing Slot, 25 June 1667**
+>
+> She is seventeen, a princess of Hesse-Kassel, and she is marrying the heir to the
+> crown the estates made hereditary in 1660. She was brought up in the Reformed
+> church and means to keep to it until she dies. The Danish side tried to bring her
+> over to the Lutheran faith before the wedding, and failed.
+>
+> So the marriage treaty had to say what a Calvinist might do in a kingdom whose
+> king was bound by law to the Augsburg Confession. The Hessian side demanded free
+> worship not only for her but for her household, with a chaplain of their own and
+> a place to hold services. Copenhagen gave way, hesitantly, granted the same to
+> the household's families, and drew one line: her chaplain may preach, but he may
+> not baptise and he may not marry. Those stay with the state church.
+>
+> In one thing she has done as the Danish side wished. It asked during the
+> negotiations that she learn the language before she left Hesse, and she can read
+> Danish and speak it, though German stays the language of her days.
+>
+> The wedding is held here, at Nykøbing on Falster, and it is a modest one. Holding
+> to her faith has cost her the goodwill of the Danish clergy, and that probably
+> explains it — "probably" is the word of the account that makes the link, and
+> this page keeps it. It probably explains too why, when her husband is anointed at
+> Frederiksborg in 1671, she will not be anointed with him.
+>
+> She kept to it. The Reformed in Copenhagen were given privileges in 1685, among
+> them the right to build a church in Gothersgade, and she gave large sums of money
+> to keep their worship going.
+>
+> Charlotte Amalie of Hesse-Kassel, crown princess · Nykøbing Slot, Falster ·
+> 25 June 1667 · [f]
+
 There is no sign that anybody in 1665 thought of the pulpit as a branch of
 government. By the 1730s, when the same machinery was being used to compel
 attendance, examine children on a catechism and register every fourteen-year-old
@@ -651,7 +682,13 @@ third.
   birthday (he was born on 18 March), and dates Christian 5.'s anointing, at which
   the law was read aloud, to 1670 rather than June 1671 — which is a reminder
   about single-source reference works.*
-- Dansk Biografisk Leksikon, for Gersdorff, Nansen, Svane, Gabel and Schumacher.
+- Dansk Biografisk Leksikon, for Gersdorff, Nansen, Svane, Gabel and Schumacher,
+  and L. Laursen's article on Charlotte Amalie, for the marriage terms, her Danish,
+  the wedding at Nykøbing and her gifts to the Reformed worship.
+- Dansk Kvindebiografisk Leksikon, Jørgen Hein's article on Charlotte Amalie, for the
+  clergy's ill will and its "formentlig" link to the modest wedding and to her not
+  being anointed in 1671, for German as her daily language, and for the Reformed
+  privileges of 1685.
 - lex.dk / Den Store Danske, for the matrikel series and the college reform.
 - The Gyldendal og Politikens Danmarkshistorie, for the sequence of the five
   weeks, the exchange between Otte Krag and Nansen, and the reading of the Kongelov
@@ -1656,11 +1693,62 @@ that, and the thanksgiving was not for the last time but for this time.
 
 ---
 
-## The war at sea
+## Norway, and the war at sea
 
-After Helsingborg the part of the war that Denmark is remembered for was fought at
-sea, and it is remembered through a single officer: Peter Wessel Tordenskjold, the
-one figure of this war whom every Danish schoolchild can name.
+After Helsingborg the war came to the other half of the monarchy. In March 1716
+Karl 12. crossed the border into Norway and took Christiania, but not Akershus,
+the fortress above the town, whose guns drove his men off. The Norwegian army
+fell back west to a fortified line at Gjellebekk, between Asker and Drammen, which
+he judged he had not the men to storm, and the country districts were called out
+to hold the roads beside the soldiers. A force he sent round the line by way of
+Norderhov at the end of March was surprised there and went back the way it had
+come. In mid-April he tried again to get round to the north, over the forest of
+Krokskogen; what happened there is in the first vignette below. After a Norwegian
+force took his garrison at Moss behind him, he fell back east over the Glomma in
+May, and in July he tried the fortress of Fredriksten above Fredrikshald, now
+Halden, and failed.
+
+> **Vignette · Kari Rasmusdatter Hiran, Krokskogen, April 1716**
+>
+> She is in her middle fifties, a cottar's wife. She and her husband, Bent
+> Aslesen, who was a soldier when she married him, hold a small place called Hiran
+> on the road across Krokskogen — "in the middle of the highway", in her words —
+> and since the Swedes came he has been guiding the Norwegian side through the
+> forest.
+>
+> On the evening of 16 April the Swedish advance guard, sent to clear the road
+> down to Sundvollen, was met at Nordkleiva, the steep descent above it, by three
+> hundred men of Ringerike called out from the farms under their fogd, Lars
+> Michelsen, and a hundred and fifty soldiers and dragoons under Captain Anton
+> Jacob de Coucheron. It was driven back.
+>
+> A few days later the captain wants a woman to go to the Swedish camp at Jonsrud
+> and let herself be questioned. Nobody will, until she says she will. At a tarn
+> in the forest Swedish soldiers take her and threaten her life, and she tells
+> them what she was sent to tell: that Nordkleiva has been reinforced with large
+> forces, so that "the enemy could not possibly get through there", and that the
+> Norwegians mean to attack Jonsrud. The Swedes break camp and march back to
+> Bærums Verk, taking her with them, and there a general questions her again. She
+> adds that if the Norwegians learn what she has told him they will cut her into
+> small pieces, and they let her go.
+>
+> The Swedes gave up trying to break through at Nordkleiva, on reports that the
+> pass had been reinforced. Hers was one of those reports; whether it was the one
+> that decided it, nobody can say.
+>
+> Everything about her own part rests on one source, her own: a petition of May
+> 1717 asking to be paid. It is in a clear, practised hand, and someone probably
+> wrote and signed it for her. The fogd confirmed her story, but said that with the
+> enemy gone he could give no more than the three years free of tax that every
+> cottar and farmer hurt by the war was getting. The deputy viceroy, Frederik Krag,
+> ordered two riksdaler more for her and her husband. She and Bent lived on at
+> Hiran, and the petition lay in the archives until a schoolmaster found it in 1905.
+>
+> Kari Rasmusdatter Hiran, cottar's wife · Nordkleiva and Jonsrud, Krokskogen ·
+> April 1716 · [f][n]
+
+At sea the war is remembered through a single officer: Peter Wessel Tordenskjold,
+the one figure of this war whom every Danish schoolchild can name.
 
 The reason is that he fought in a way that made sense to people who did not
 follow strategy. He attacked convoys, harbours and shore batteries — the parts of
@@ -1938,8 +2026,10 @@ Counterfactual, Contested.*
 - **dødeliste** — the bill of mortality, kept parish by parish. The numbers in
   this chapter come from these and do not agree with each other.
 
-**§05 — the war at sea**
+**§05 — Norway, and the war at sea**
 
+- **fogd** — in Norway, the crown's officer for a district, who collected its taxes;
+  in 1716 Ringerike's also led its levy.
 - **kaper** — a privateer: a private ship licensed to take enemy shipping.
 - **orlogsskib** — a warship of the line, as against the small fast vessels
   Tordenskjold preferred.
@@ -2163,6 +2253,13 @@ still could not say how many of its people it had lost.
 - danmarkshistorien.dk, Aarhus University, on the epidemic response, the Gottorp
   question and Frederik 4.
 - Dansk Biografisk Leksikon, for Tordenskjold, Egede and Rantzau.
+- Store norske leksikon: Ola Teige, *Kari Hiran*, which quotes and summarises her
+  petition of May 1717 to Slottsloven with the fogd's endorsement — the only
+  source for what she did — and dates the skirmish at Nordkleiva to 16 April 1716;
+  and Skarstein and Teige, *Den svenske invasjonen av Norge i 1716*, for the
+  campaign. Neither says which calendar it uses, but their dates run eleven days
+  after the Swedish accounts' (the attack on Fredriksten in the night to 4 July, the
+  Swedes' 22 June), so they are the Danish-Norwegian style, and 16 April is 5 April in the Swedish.
 
 **Where the argument stands**
 
@@ -3816,8 +3913,8 @@ holds it until 1839.
 
 **→ Part H.** The tie of country men to their birthplace, transferred from the
 landlord to the state in 1788, ends only with universal conscription in 1848–49.
-The gårdmænd become a political class; the husmænd become a rural proletariat whose numbers
-grow as the population doubles and the number of farms does not.
+The gårdmænd become a political class; the husmænd and the farm labourers become a
+rural proletariat, and the labourers are the largest group among those who emigrate.
 
 ---
 
@@ -5077,6 +5174,32 @@ payments stopped, no creditor's claim extinguished. What it was, was a partial
 write-down of the state debt and a forced postponement of part of the state's
 obligations, imposed by a government on people who had no vote.
 
+> **Vignette · Hans Andersen, Odense, 1812 to January 1813**
+>
+> He is about thirty, a poor shoemaker in Odense who works outside the guild. On
+> 1 June 1812 he goes into the army as a musketeer, in the place of a farmer's son
+> from Måle, on Hindsholm, who has paid to be let off.
+>
+> That was how the army was filled. Its rank and file came from the countryside,
+> but a man on the roll who had money could buy a substitute, and a poor man in a
+> town could sell himself. What Hans Andersen was paid is not known exactly:
+> probably about a thousand rigsdaler, says one modern account, and another
+> supposes the farmer paid a thousand to thirteen hundred to be let off. Either way
+> it was more money than a shoemaker outside the guild would ever hold at once. He
+> went, his son says, in the hope of coming home a lieutenant.
+>
+> The ordinance of 5 January 1813 wrote his money down to a sixth, and whatever it
+> might have secured for the family went with the rest.
+>
+> His regiment got no further than Holstein before peace was made. Whether he
+> fought there is disputed: his son's biographer says he did not, and the Odense
+> museum's historian thinks it likely that he did. He came home in January 1814,
+> sick, and he died in 1816. His son, who lay alone in bed with measles the
+> morning the company left, and heard the drums as his mother followed his father
+> out of the town gate in tears, was Hans Christian Andersen.
+>
+> Hans Andersen, shoemaker · Odense · 1812 to January 1813 · [n]
+
 It did not work quickly. The state spent the silver fund on continuing the war and
 then, after 1814, on replacing the revenue Norway had provided. The Rigsbank could
 not honour convertibility, and the new daler fell too. The principles survived to
@@ -5212,8 +5335,8 @@ adopted by a country that was about to lose the war it was written for.
 
 ## Every child, 29 July 1814
 
-Six months after Kiel, the same government — bankrupt, defeated, half its realm
-gone — signed the school ordinances of 29 July 1814.
+The peace of Kiel was signed on 14 January 1814. On 29 July the same government —
+its money written down, defeated, half its realm gone — signed the school ordinances.
 
 They required schooling for every child in the kingdom: seven years of it, from the
 age of seven until confirmation, for girls and boys, in the countryside and in the
@@ -5228,7 +5351,7 @@ forty-one schoolhouses to one drawing. What 1814 does is finish it —
 and it finishes it in the worst year the Danish state had had since 1660.
 
 That is the fact to end on. A government with no money, no fleet, no Norway and no
-credit, in the same summer it gave up a kingdom, made it law that every child in
+credit, in the year it gave up a kingdom, made it law that every child in
 what remained should be able to read.
 
 ---
@@ -5341,13 +5464,14 @@ Britain could simply remove. The bombardment of 1807 was possible because
 Trafalgar had already happened.
 
 **1815 — Vienna.** The Congress redrew Europe between September 1814 and June 1815,
-and Denmark attended as a defeated former ally of Napoleon. What it got was the small
-duchy of Lauenburg, exchanged for the Swedish Pomerania it had been promised at
-Kiel. There is a wider point in the arithmetic. Denmark left Vienna with a
-German-speaking population risen from about a quarter of the realm to about two
-fifths, because Norway had gone and the duchies had not. The state that walks out of
-this chapter is far more German than the one that walked into it, and that is the
-material the nineteenth century will make Schleswig-Holstein out of.
+and Denmark attended as a defeated former ally of Napoleon. What it got, the small
+duchy of Lauenburg, is chapter 32's opening. The wider point is arithmetic: Norway
+had gone and the duchies had not, so the duchies — German-speaking Holstein and
+Lauenburg, and a Schleswig that spoke both languages — now held about two in every
+five of the king's subjects (chapter 33 gives the numbers for 1848, when the share
+was much the same). The state that walks out
+of this chapter is far more German than the one that walked into it, and that is
+the material the nineteenth century will make Schleswig-Holstein out of.
 
 ---
 
@@ -5408,7 +5532,7 @@ constitutionally able to tell him he is wrong.
 
 **← 27.** Frederik 4. closed the Gottorp hole in the southern border in 1721 and
 Frederik 6. lost the northern half of the realm in 1814. The composite monarchy is
-now kingdom plus duchies, with no Norway to balance the German-speaking half.
+now kingdom plus duchies, with no Norway to balance the German-speaking south.
 
 **← 28.** The Kurantbank of 1736 is the bank whose notes are written down in 1813. —
 The grain monopoly of
@@ -5422,8 +5546,8 @@ from all his offices but his council seat in December 1813.
 **← 30.** Chapter 30's finance minister, Ernst Schimmelmann, is the minister of the
 reform of 1813, and is dismissed over it.
 
-**→ Part H.** With Norway gone, the German-speaking share of the realm rises sharply,
-and the Schleswig question — whose legal origin is the ambiguity of the
+**→ Part H.** With Norway gone, the duchies' share of the realm rises to about two
+fifths, and the Schleswig question — whose legal origin is the ambiguity of the
 1721 homage — becomes the only composite problem left. — The Nationalbank is founded
 in 1818. —
 The school ordinances of 1814 produce, within two generations, a population that can
@@ -5462,8 +5586,8 @@ hundred and thirty-three years of union, and the king released nine hundred thou
 people from their oath. Norway refused the treaty, adopted a constitution at Eidsvoll on 17 May, lost
 the war, and joined Sweden in November as a kingdom rather than a province.
 
-Six months after Kiel the same bankrupt government made schooling compulsory for
-every child in what was left.
+In the July after Kiel the same government, its money written down, made schooling
+compulsory for every child in what was left.
 
 ---
 
@@ -5519,7 +5643,23 @@ every child in what was left.
 - The school ordinances of 29 July 1814.
 - danmarkshistorien.dk, Aarhus University, on the flourishing trade, the
   bombardment, the currency reform and the Kiel settlement.
-- Dansk Biografisk Leksikon, for Bourke, Kamma Rahbek and Willemoes.
+- Dansk Biografisk Leksikon, for Bourke, Kamma Rahbek and Willemoes, and
+  H. Topsøe-Jensen's article on H.C. Andersen, for his father as a *stillingsmand*
+  who came home sick from Holstein in 1814 without having fought, and for the
+  family's poverty.
+- For Hans Andersen's enlistment: the H.C. Andersen Centre's timeline for 1812
+  (about 1,000 rigsdaler, "antagelig", and the write-down to a sixth) and Palle
+  Bøgelund Petterson, "Musketer Hans Andersens krigsoplevelser", Museum Odense
+  (2015), which quotes his account book for 1 June 1812 and the man from Måle, and
+  supposes ("formodes") that the farmer paid 1,000–1,300 rigsdaler to be let off.
+  Neither says where its figure comes from; the sum was not checked against
+  Andersen's *Levnedsbogen* or Topsøe-Jensen's editions, and the page gives it as
+  an estimate. Petterson argues, against the biographers, that Hans Andersen on
+  balance probably fought ("overvejende sandsynligt"), while granting that it
+  cannot be settled.
+- H.C. Andersen, *Mit Livs Eventyr* (1855), chapter 1, for his father's hope of
+  coming home a lieutenant, the morning the company left, and the regiment that
+  got no further than Holstein.
 
 **Where the argument stands**
 

@@ -2697,3 +2697,319 @@ to be sourced, drafted and checked in review session 10.
 1813, as 31 §07's `[n]` vignette, to be sourced, drafted and checked in review session 10.
 
 Until they are carried out, `vignettes.py` reports 25, 27 and 31 as D-9 failures, and that is correct.
+
+**Carried out in review session 10** (§14.1): no D-9 failure in the book.
+
+## 14. Session 10 — Part G's last three vignettes, and Part H read (chapters 32–36)
+
+*25 September 2026, from `START_HERE_review_10.md`.*
+
+**The cold run matched every line** on a fresh clone of `f856117`: git status clean; tidy clean, 45 bodies; FIXTURE PASSES; SEAM LAYER PASSES; debuild
+45 identical; 45 of 45, 340,840 page words, 27.1 h; vignettes 145/114, D-9 failures 25, 27, 31;
+figcheck 98/30/0; one OVER, 16 §08, 852; draftnotes clean; appcheck 167 in 21 chapters; freshcheck
+21; F and G "built clean"; 2 pointers, 0 same-page glosses; Schleswig 212 in 29 against Slesvig 65
+in 4; sweep_facts 5; arrows 253, form 7, D-1 0, solvency 40. Item 147's pages are in its own commit.
+
+**The session ran in four stretches, and lived in its saves.** Run 1 carried out R-16 to R-18, read
+Part H with one fact-checker and fixer per chapter (`claude/session10_factcheck_32..36.md`), and had
+the work checked by a separate agent (`claude/session10_checker_report.md`). Run 2 applied that report
+with six fixers (`claude/session10_run2_fixlog_*.md`), made the shared-file edits itself and wrote
+`pageguard.py`; Carsten stopped it to split the usage. Part A had two new agents check run 2's repairs
+(`claude/session10_check2_A.md`, `_B.md`) and applied what they found. Part B — this write-up — made
+one verification run and no edits to the book. Each stretch began from a fresh clone and the last
+saved patch (`claude/session10_wip.patch`), never from memory.
+
+**Verified, part B**, on a fresh clone of `f856117` with the final patch, `cairosvg` installed, DK_*
+unset: figs 32–36 and map_1864; mkbody 25–31 and 32–36; build G "figures: 21 checked against their
+scripts, all fresh", "all seven built clean"; build H "figures: 15 … all fresh", "all five built
+clean"; no `!!`; `linkindex`, `index_generator`; then the whole suite, **mapfixture included**:
+
+- **tidy:** no collisions, orphans or missing figures; 45 bodies; nothing deleted.
+- **mapfixture:** every map's curated mainland and panel cases all correct (14 lines); coverage and
+  seams hold; no unclaimed land, no overlap; **FIXTURE PASSES**. **seamcheck:** SEAM LAYER PASSES.
+- **debuild:** 45 identical.
+- **bookstats:** 45 of 45, **344,488 page words, 27.3 h.** A 21,397 · B 26,326 · C 26,228 · D 32,106 ·
+  E 36,388 · F 30,153 · **G 54,165** · **H 43,322** · I 74,403. 21 is 50 minutes; 33 is 44.
+- **vignettes:** **148 carry a place, 116 distinct**; selftest passes; 01, 03, 04, 05 "[f] part";
+  **no D-9 failure.**
+- **figcheck:** 98 match, 30 sourceless, 0 disagree.
+- **narrative:** one OVER, 16 §08 *Kalmar, 17 June*, 852 (D-16, kept); 32 §09 749, heavy.
+- **draftnotes:** none in 45 pages, none in 14 drafts. **appcheck:** 167 blocks in 21 chapters.
+  **freshcheck:** 21 fresh (25–45).
+- **build_part_f:** "all four built clean". **build_part_g:** as above.
+- **sweep_glossary:** 2 pointer entries, 0 insolvent; 0 same-page double glosses.
+- **sweep_names:** **Schleswig 297 in 31 chapters, Slesvig 2 in 2** (32, 33: both Danish titles in
+  Sources).
+- **sweep_facts:** section 5 lists **6** (was 5). The new row pairs 36 §09's 114 Folketing seats
+  (1895) with 39's 149 (1929): different years, a false pairing.
+- **sweep_arrows:** 253 arrows, 37 thread notes; form 7, direction 0, D-1 0, quoted titles 0,
+  solvency 40, prose references 0, footers 0, `<h1>` 0, 9b 0.
+- **git status** after the builds: the 16 sources, their bodies, the 13 regenerated `svg_*.txt`, and
+  pages 25, 27, 29, 31 and 32–36. 26, 28, 30 and the index rebuild byte-identical.
+
+### 14.1 R-16 to R-18 carried out — and the recommendations' facts checked first
+
+| the recommendation said | the sources say | ground |
+|---|---|---|
+| R-16: Hesse "made her free Reformed worship a condition … her own chaplain, her household and their families" | Hesse demanded worship for her **and her household**, with a chaplain and a place; **the families were in what Denmark granted**, hesitantly; the chaplain could not baptise or marry | DBL (Laursen): "ikke alene for sig selv, men også for sine betjente" / "hendes hofbetjente og deres familier"; Kvindebiografisk (Hein): "Tøvende" |
+| R-16: "she had learned Danish before she came" | a **wish** the Danish side expressed in the negotiations, which she met; German stayed her daily language — not a bargain ("in return" was cut) | DBL: "udtalt ønske"; Hein: "hendes daglige sprog forblev tysk" |
+| R-16: the clergy's ill will "probably" explains the modest wedding and no anointing in 1671 | as recommended; the page keeps "probably" and says whose word it is | Hein: "Det forklarer formentlig …" |
+| R-16: seventeen, Nykøbing Slot, 25 June 1667 | right (born 27 April 1650) | DBL |
+| R-17: Kari "went to the Swedish post at Jonsrud … Karl 12. gave up the attempt there" on her word | sent by Captain de Coucheron "a few days" after the skirmish; seized at a tarn, taken to Bærums Verk and questioned by a general; the Swedes gave up **on reports** that the pass was reinforced — hers was one; whether it decided it, nobody can say | SNL *Kari Hiran*; SNL *Den svenske invasjonen av Norge i 1716* |
+| R-17: "her petition of 1717" (the page first said *she wrote it*) | May 1717, in a clear, practised hand — **someone probably wrote and signed it for her**; the fogd who endorsed it is unnamed (not "the same Lars Michelsen") | SNL: "har fått noen til å skrive og undertegne dokumentet for seg"; "Fogden bekreftet" |
+| R-17: two rigsdaler | from the deputy viceroy Frederik Krag, **for her and her husband**, beyond the three years' tax relief everyone war-damaged got | SNL |
+| R-17: the body's new sentences on 1716 | Christiania taken, Akershus held; the Gjellebekk line; **the Norderhov raid of late March**, which the first draft's "again" presupposed and did not tell; Moss; Fredriksten above **Fredrikshald, now Halden** | SNL *Den svenske invasjonen* |
+| START_HERE_review_10: "Norway Gregorian, **Sweden one day ahead of Julian in 1716**" | **false.** Sweden ran its own calendar, one day ahead of the Julian, from 1700 to 1712, and was **Julian from 1712 to 1753**. In 1716 Sweden was eleven days behind Norway. SNL's 16 April is Gregorian — 5 April in the Swedish style — as its campaign dates show against the Swedish accounts (Fredriksten: night to 4 July; the Swedes' 22 June). The page's own glossary (27 §03) had it right | PART_G_DRAFT 27 *gammel og ny stil*; aksf.se; SNL |
+| R-18: "the sum 'presumably about 1,000 rigsdaler'" | the H.C. Andersen Centre's "antagelig … ca. 1.000 rdl" for what he received; Petterson (Museum Odense) supposes **the farmer paid** 1,000–1,300 to be let off; neither says where its figure comes from. Levnedsbogen and Topsøe-Jensen not consulted — the page says the sum is not known exactly | Andersen Centre, *1812*; museumodense.dk |
+| R-18: "his regiment got no further than Holstein" (the draft: "peace came before it fought") | Andersen wrote that the regiment got no further than Holstein before peace; DBL (Topsøe-Jensen) that he never fought; **Petterson thinks it likely that he did**, while granting it cannot be settled. The page gives the dispute | *Mit Livs Eventyr* ch. 1; DBL; Petterson |
+| R-18: (the draft) the money "meant to see his wife and son through"; his son "remembered his mother walking beside the company" | invented purpose, cut; Andersen's own motive given ("in the hope of coming home a lieutenant"). The son **lay sick with measles and heard the drums** as his mother followed his father out of the town gate | *Mit Livs Eventyr* ch. 1 |
+| R-18: 1 June 1812, a farmer's son | from Måle on Hindsholm; born 14 September 1782, so "about thirty" (29 y 8 m) | Petterson; DBL |
+
+**25 §08, 27 §05, 31 §07.** Who-lines *Charlotte Amalie of Hesse-Kassel, crown princess · Nykøbing
+Slot, Falster · 25 June 1667 · [f]*; *Kari Rasmusdatter Hiran, cottar's wife · Nordkleiva and
+Jonsrud, Krokskogen · April 1716 · [f][n]*; *Hans Andersen, shoemaker · Odense · 1812 to January 1813
+· [n]*. 27 §05 is *Norway, and the war at sea* (build_part_g.py follows); its body points to Kari
+("what happened there is in the first vignette below") and does not tell the skirmish or her errand
+(D-13). His son is one line. **`vignettes.py`: no D-9 failure in the book.**
+
+### 14.2 Part H, read — errors of fact and of the book against itself, fixed
+
+Five fact-checks and fixers (run 1); the checker's report applied by six fixers (run 2); two more
+checkers on the repairs (part A). The principal corrections:
+
+| ch | the page said | it is | ground |
+|---|---|---|---|
+| 32 §01–§02 | the 1815 treaty signed "by Prussia, Sweden and Denmark"; Pomerania "four hundred kilometres" away; "2.6 million daler in cash"; "the state had **defaulted** on 5 January 1813" (and "insolvent" four times) | Denmark and Prussia only; across the water, never handed over; a sum of money, two million thaler by one Swedish account; the paper money written down to a sixth (chapter 31: not a bankruptcy) | runeberg *Sverige på kongressen i Wien*; de.wikipedia; PART_G 31 §07 |
+| 32 §02 | grain "a fifth", property "a third or a quarter"; estates "taken for unpaid tax"; Torstedlund "112,250 → 12,050" | a quarter to a third by 1822–25; 53 estates the state had lent to since 1818; 1817 was 112,250 in silver **and 35,000 in notes** — the figure's 11 is silver to silver, "the real fall was steeper" | GP vol. 10 |
+| 32 §03–§04 | lay preachers "the class that owned between nothing and forty acres … hostile sources … irritation"; Grundtvig "42", "September", "thirty pages in two or three days", "the Exchange emptied", "humiliated daily for eleven years"; resigned "on 8 May, after an earlier ruling" | craftsmen and cottagers above all, and women came forward; August 1825, an early copy, a few days, out 5 September; a letter of the time; "a hundred rigsbankdaler, which his friends paid"; what censorship cost him was **delay**, and one work seized; resigned in May **with the case still pending** and his hymns banned from the Ansgar jubilee | GP; KB tekstportal; Grundtvigsk Forum; DBL |
+| 32 §05–§06 | Thorvaldsen "stayed forty years"; Heiberg's mother "from outside Copenhagen"; eligibility "thirty-five"; "clergymen could not be elected"; "one Dane in forty … the broadest franchise on the continent"; Jews "could vote but not be elected" | reached Rome 1797, home 1819–20, back for good 1838; from round Frankfurt; thirty; the clergy, **the teachers of the grammar schools and the university and the higher officials** without land had no vote or seat by right; 32,000, just under three in a hundred; **in the kingdom** Jews could vote, in the duchies not at all | DBL; Indenrigsministeriet; Tønnesen; GP *Fra reskript til forordning* |
+| 32 §07–§09 | the kornsalgsperiode "to the late 1850s"; Bondevennerne founded "by tenants"; their programme "a constitution" and "better terms for tenants"; the 1840 rescript binding "every official"; the Hiort Lorenzen vignette's king "turning him down" in 1842; *Dannevirke* subscriptions; the Slesvigske Forening banned; 1844 "twelve thousand" | mid-1840s to late 1870s; liberals and peasant leaders; six points, **cottagers**, no constitution; officials who knew enough Danish from 1 January, a report on the rest; the rescript of 2 December 1842 upheld the Danish speakers — the grounds belonged to the 1844 patent, which the body tells; cut (not found); cut (not found); nine or ten thousand | GP; DH (text of the rescript; the Stændertidende extract); DBL; Grænseforeningen; Trap |
+| 32 Visit, Meanwhile | Skamlingsbanke column "blown up in 1844"; the statue "by Haderslev Dam"; Peel "fell within weeks" | obelisk to eighteen civilian champions, 1863, blown up by Prussian engineers 21 March 1864, re-erected 1866; the former højskolehjem's garden (now Hotel Norden); resigned four days after 25 June | Trap; Grænseforeningen; DBL |
+| 33 §01–§03 | "sat up in bed"; Louise Charlotte "dead in 1824"; the March ministry with Scheel-Plessen and without Hvidt, Lehmann, Zahrtmann; Rendsburg "an hour or so later … fire bell … largest garrison"; absolutism "ended in a week" | blood poisoning after a bloodletting; **born 1789**, alive in 1848; Moltke (finance minister since 1831) and Bardenfleth kept on, Knuth, Bluhme, Zahrtmann, Monrad, Hvidt, Lehmann, Tscherning; the 7 a.m. train, the church bells, the garrison assembled unarmed, without bloodshed; in two days | danmarkshistorien; lex *Martsministeriet*; DBL |
+| 33 §04 | Bov "a sixth taken"; Wrangel "32,000 and 74 guns"; the Danes "went back to Als"; Nybøl and Dybbøl Danish victories; **1849 absent** | 923 of 6,150; one reckoning of about 27,000; fell back north; a bridgehead won and held; Eckernförde, Kolding lost, Fredericia's sortie, the second armistice — 34's Ilia Fibiger vignette's "in the war of the previous chapter" now has something to point to | milhist.dk; Grænseforeningen; lex *de slesvigske krige* |
+| 33 §05–§07 | Cohen "a bookseller … first history of the Jews … his son continued"; Fibiger's "120 rigsdaler … twenty"; "enters the language"; "the first free election"; a 1853 commission "reported eleven years later" | catechist to the Jews of Funen and Lolland-Falster; half of the fee (DBL); cut; the first Folketing election; drafts in 1853–54 and five times since, none law | DBL; Kvindebiografisk; lex *folkekirken*; Rigsarkivet |
+| 33 §08–§10 | Isted "on Danish ground", "from two in the morning"; "Frederiksstad"; London Protocol "signed by Prussia and Austria because Russia required it"; the 1851–52 promise "that Schleswig would not be bound more closely than Holstein … the public was not told"; the Lion to Berlin "two years later" | the largest battle in Danish history; first shots early on the 24th, the main battle from the night; Friedrichstadt; Britain, Russia, France, Sweden-Norway, Austria later, **Prussia not**; a promise **not to incorporate Schleswig**, made in notes **beside** the treaty, of doubtful legal standing; taken down February 1864, set up in Berlin 1868 | danmarkshistorien; lex *Londonprotokollen*; *Kongelig erklæring 28. januar 1852* |
+| 34 §01–§03 | Augustenborg "a government in exile at Gotha"; the constitution "broke the Treaty of London" (Summary, hook, question); the Dannevirke "thirty kilometres, twice the army"; the instruction "of 22 January"; de Meza "dismissed within days … a language teacher … his clothes" | proclaimed himself from Gotha, came to Kiel 30 December; broke **the promise made beside the treaty**; needed at least fifty thousand, held by under forty; 13 January (both dates in Sources); the war minister called him to Copenhagen on 6 February, and on 28 February the king agreed to remove him from the high command | DBL; G&P; danmarkshistorien; Grænseforeningen |
+| 34 §04 | Kjeldsen "twenty-three", "the first issue of *Vort Forsvar*", the painting down "1912"; "four thousand shells on 11 April"; **the casualty paragraph** ("official return 379 killed … German accounts 3,600 killed") | twenty-four; an article of 1881; 1913; on 8 April the Broager batteries alone fired 1,150 rounds, perhaps 200–300 on the town (from a **letter** of Sønderborg's mayor to his wife, not a diary); four reference sets, each with what it counts — the "3,600 killed" is a misreading of a total, the 379/646 traced to no return | DBL; Housted (1864.dk); Natmus; Grænseforeningen; Naturstyrelsen |
+| 34 §05–§09 | the conference "two days after Dybbøl"; "the war's only fleet action"; "the blockade held"; "Britain proposed arbitration"; "said at the table"; Monrad's half-and-half "who had just resigned"; Estrup "one of the twelve royal seats … with one interruption" | 25 April, a week after; the larger of two (Jasmund); a tactical and moral victory that changed nothing; **the neutral powers**; most historians think it likely; dismissed in July 1864; elected for the 9th district 1864 and 1866, royal appointee from 1900 | Hansard 27 June 1864; milhist.dk; lex; DBL |
+| 35 §03 | **Hjedding's contract gave "one vote regardless of cows"**; the general meeting "the highest authority"; "twenty-six farmers"; "more than a thousand within twenty years" | **§12 counts votes by cows: "eller 1 Stemme for hver Ko"**; one member one vote was the movement's principle, and the encyclopaedias credit Hjedding with it — the page gives both and follows the document; "highest authority" is the encyclopaedia's, and said so; the number dropped; 244 in 1888, 907 in 1894, 1,168 by 1914 | the contract (danmarkshistorien, from *Mælkeritidende* 1902); lex; Trap |
+| 35 §05–§06 | Indre Mission "founded by a blacksmith"; 1861 "renamed"; Beck "ten thousand … a survival of absolutism"; "309,000 emigrants 1868–1900" | a lay association of 1853 at Stenlille, Jens Larsen one of its founders; at the meeting of 13 September 1861 the priests captured it and a new association was formed with a self-filling board; cut; more than 172,000 before 1900, nine in ten to the United States | DBL; lex; Beck (1901); Gyldendal |
+| 35 §08–§10 | the International "banned in 1872 as high treason"; the lockout "four months"; the September Compromise "still in force", "the oldest in the world"; Olivia Nielsen born 1854, a "bottle-washer"; associations "dissolved in series"; "ten thousand children" given a nationality in 1907 | leaders convicted of high treason in 1873; the International dissolved 14 August 1873; more than three months; revised in 1960, its principles still frame the labour market; 1852, probably a washerwoman; declared political and their meetings broken up (DBL Köller); most of about ten thousand stateless covered in 1907, **the *hjemløse* left out until 1916**; Jyske Lov in Schleswig until 1900 | DBL; danmarkshistorien; FAOS; KVINFO; dengang.dk; Grænseforeningen |
+| 36 §02–§05 | §25 used "exactly once … a gap of weeks"; Estrup "a Zealand landowner … tubercular all his life"; the 1877 law "followed shortly by a proper one"; Pontoppidan "four months … a priest"; Brønderslev "sabres … meetings banned across Vendsyssel" | for money once before Estrup (1853: §30 of the 1849 text), a stopgap to 31 August at the latest; born at Sorø, Skaføgård; tuberculosis from his mid-teens; rejected 7 November, a temporary law of the 8th; a højskole principal, three months; the gendarmes in the inn, the town under siege two days later, twenty-eight tried | Himmelstrup (1948); DBL; Nordjyske |
+| 36 §06–§10, coda | the Vestvold "designed by Sommerfeldt … known abroad"; fifty thousand "to hold it … four years"; the Reform party formed before 9 April 1895; Christensen "a schoolmaster six years earlier"; Hørup's appointment; "settles" Article 80; a silence "neither side had noticed"; "two-fifths of the territory"; "defaulted" | built under Sommerfeldt's directorate from 1886, 13.2 million kroner by Bahnson's figures; a security force called up to the whole fortress, scaled down from 1915 and gone in 1919; formed "during April", the page says "that month"; still at Stadil; Christensen gave way to a threat; a step towards what chapter 33 left open; "neither side had thought about" (§02's own words); the duchies, all three; written down its money | DBL; vestvolden.info; lex; danmarkshistorien |
+| map_1864 | aria-label and legend: "since the fourteenth century", "Slesvig, Holsten, Lauenborg", "Ribe Herred … came north", "eight parishes" | since the Middle Ages; Schleswig, Holstein, Lauenburg (legend "Lauenborg (Lauenburg)", to match the Danish label on the map); the enclaves ceded all but Ribe Herred, which stayed; **a string** of border parishes south of Kolding (lex says seven, Grænseforeningen eight) | lex *Wienerfreden*; Grænseforeningen |
+
+**Ninety-three intervals and ages were wrong in Part H** (D-8, computed, by the fact-checkers'
+counts): **32 nineteen, 33 twenty-four, 34 twenty-three, 35 thirteen, 36 fourteen**, and four more went
+with claims that were cut. Part C had nine, D sixteen, E thirty-four, F sixty-six, G ninety-five. The
+first checker found five more in the fixes (34's "within a week" where the dates were known, 18 → 25
+April; 35's "within a year" for 1875 → 1876; 36's "two days before" the session — 3 October 1884 was a
+Friday and the session opened on Monday the 6th; "when he was fifteen" for "fra det 15. år"; and a
+hook's "nineteen years … on emergency decrees", which were nine); the second checker one more exposed
+by a fix (31 §10's "the same summer" it gave up a kingdom, after the section now dates Kiel to 14
+January) and a false sequence ("within months" read after the verdict of 31 May 1831, when the
+ordinances were of the 28th).
+
+**The promises into Part H.** 31 → Part H's "German-speaking share … rising sharply" was, on the
+only figures found, the duchies' share of the population; 31 now says two in five of the king's
+subjects and points to 33's 1848 numbers. 31 → Part H (the Schleswig question from 1721) and 27 →
+Part H (the Kongelov's female line in Schleswig) are delivered in 33 §02. 29 → Part H (the tie to the
+home district until 1848–49) is delivered in 33 §05, once now. 26 → 35 (Jyske Lov in Sønderjylland
+until 1900) was insolvent and is now in 35 §10. 34 → 35's "war debt" and "the heath" were insolvent
+and are gone from 34 (35's own ← 34 still names the heath: §14.4). 32 ← 31 now says what 32 opens on.
+
+### 14.3 Part H — repetition and drag, fixed
+
+- **32:** the 1844 patent (vignette and body), Grundtvig's censorship (§04 and Myth-check), the
+  Golden Age names (§05 and Myth-check) — each once now. **32 §09 trimmed** of three things it said
+  twice (Nis Lorenzen's motion restating the rescript; "nearly half voted against"; an unsourced
+  causal sentence on the crowds): 797 → 749 words. That was repetition, and D-16 allows it; nothing was
+  cut for time.
+- **33:** Frankfurt's powerlessness (§04 and Meanwhile); §06's closing line retelling the Fibiger
+  vignette; the 1788 tie and the 1849 freedom to move, each twice in §05.
+- **34:** the Myth-check retold §03 almost line for line; now a paragraph and a pointer. The Isted
+  Lion is 33's; 34 points.
+- **35:** the four Hjedding rules (vignette, figure, checkpoint, Summary) — body once and the figure;
+  §09's party paragraph (36 §08 is its home); Askov three times; the war dead twice.
+- **36:** the German model (§05 and Meanwhile); §07 restating §05's laws; the Alberti story and the
+  1903 school law, which are 37's (pointers now); the coda's echo of 34 §09's close.
+- **Recall** (content-word Jaccard ≥ 0.4 against the shipped checkpoints, on the built pages, with
+  `claude/session10_recall.py`, which reproduces §13.3's Part G result of 0/4 in all seven — its
+  calibration). **Before: 33 1/3, 34 1/3**, the rest 0/3. The fact-checkers had found more by eye, at
+  a looser standard — all three of 34's and 36's, two of 33's and 35's, one of 32's — and replaced them. **After: 0/3 in
+  all five**, re-measured in part B on the final build: 25–31 0/4, 32–36 0/3.
+
+**Found, kept.** The 1851–52 promise in 33 (§09, §10, glossary, Myth-check, Summary, → 34), each place
+doing a different job; the 1866 Landsting composition in 34 §09 (how it was made) and 36 §01 (why it
+deadlocked); the Vestvold's end in 36 §06, because checkpoint 3.1 asks it before §10.
+
+### 14.4 Found, recorded, not changed
+
+**For Part I (START_HERE_review_11):**
+- **37's "the 'universal suffrage' of chapter 33"** — 33 never uses the phrase (it says "universal
+  conscription" and gives 15 per cent).
+- **"Nordslesvig" in English prose:** 37 three times, 38 fifteen — North Schleswig under D-15;
+  *Vælgerforeningen for Nordslesvig* and similar names stay Danish.
+- **37 §01: "the parish council law of 1903 put local government on an elected footing."** The
+  councils of 1903 were *menighedsråd*, church councils (36 §10 has them right; Kirkehistoriske
+  Samlinger; lex *menighedsråd*).
+- **37 §05: "Her association outlived her by twenty-four years and won."** 10 September 1891 to 5 June
+  1915 is 23 years 9 months (D-8: name the years), and Kvindevalgretsforeningen was dissolved in 1898.
+- **45: the poor's vote "in 1961"** (three places) against danmarkshistorien *De 7 F'er*'s 1933. 33 no
+  longer names any year after 1915, so the book does not yet contradict itself; 45 has to be sourced.
+- **38: "around thirty-five thousand men from Nordslesvig called up"** (twice) against Grænseforeningen's
+  30,000 and 37's thirty thousand; 38's "more than six thousand did not come back" against about 5,300.
+  35 now says "more than five thousand", which agrees with both of 38's death counts.
+
+**Also found, not changed:**
+- **The 1900 US census.** 35 gives danmarkshistorien's 159,000 born in Denmark, as "more than a
+  hundred and fifty thousand"; a checker recalled about 153,700 from the census table, which could not be
+  reached. The page's bound holds on either, and its Sources say the table was not checked. For the
+  library.
+- **Figure 32 §2's seat counts**, Schleswig 44 and Holstein 48, against da.wikipedia's 43 and 47. Neither
+  checked against the decrees; the figure keeps its own caveat. For the library.
+- **36's `qs[3]` duplicates checkpoint 3.2** (the attempt on Estrup: why did it help him?), and 36 asks
+  the January 1886 rejection three times (Causal 1, `qs[1]`, checkpoint 2.2) and the treasury twice; 35's
+  checkpoint 1.3 and Causal 2 share an answer. All predate the session. Whether a WHAT-THIS-PAGE-ANSWERS
+  question may preview a checkpoint is a book-wide rule, so it goes to review 11 to be measured across
+  the book, as Recall was — not patched page by page.
+- **Run 1's 33 agent reported "Frederiksstad" three times in Part G**, for D-15 (Friedrichstadt).
+  **False**: all three are in chapter 28 and are *Frederiksstaden* (PART_G_DRAFT 2859, 3056, 3148
+  now), the Copenhagen quarter laid out from 1749, whose Danish name is right. 33's own
+  "Frederiksstad" was the Schleswig town, and is Friedrichstadt.
+- **Danevirke / Dannevirke.** The earthwork is *Danevirke* in 7–13, 19 and 38 and *Dannevirke* in 33
+  and 34 (a section title in 34). D-15's English-exonym clause gives Danevirke; 32's *Dannevirke* is the
+  newspaper and stays. For review 11, with `build_part_h.py`'s section title.
+- **Unverified and hedged or kept:** Rendsburg's force (two sources differ; the page says "the Kiel
+  garrison and armed volunteers"); the Isted wounded; Cohen's totals; the first election's figures; the
+  provisional finance laws' wording; the Venstrereformparti's founding day in April 1895 against the
+  poll on the 9th; which chamber rejected the 1877 law.
+- **35's ← 34 promises "the heath"**, which nothing in 35 carries (34's → 35 dropped it in this
+  session). Drop the two words when 35 is next opened.
+- **`map_1864.py`'s docstring** still has Danish forms and "Nørre Tyrstrup Herred" in comments. Off
+  the page.
+
+### 14.5 D-15, D-13, D-6 and D-14 in Part H
+
+**D-15.** Every Slesvig in Part H's prose, figure text, captions and questions is Schleswig; Nordslesvig
+is North Schleswig (35's §10 title and its build anchors follow); Flensborg is Flensburg; the Slien is the
+Schlei in 33 and 34; Frederiksstad is Friedrichstadt; Mysunde is Missunde. Danish names stay Danish:
+*Slumrer sødt i Slesvigs Jord*, *Flensborg Gamle Kirkegård*, *Vælgerforening for Nordslesvig*.
+**Schleswig 297 in 31 chapters, Slesvig 2 in 2** — both Danish titles in Sources: *Tidende for
+forhandlingerne ved provindsialstænderne for Hertugdømmet Slesvig* (32) and Koch's *Udkast til et
+Sprog-Kort over Hertugdømmet Slesvig eller Sønderjylland* (33). No Slesvig is left in the book's
+English. The maps keep their Danish labels; `map_1864`'s aria-label and legend, which a reader hears or
+reads as prose, are English.
+
+**D-13 — 35 §03 decided by re-scoping, so all seven are decided.** The section *Hjedding, 1882* told the
+founding, and the vignette told it again from inside while holding the rules the body then commented
+on. It is now ***The cooperative dairy***: the body carries why joint dairies had failed (Kaslunde), a
+member's four obligations, the vote, the liability, the women's lost trade and the spread; the vignette
+carries Uhd, the unnamed young man, the statutes written in a night, Stilling-Andersen and 10 June 1882.
+The body no longer mentions the building (run 2 cut the last overlap, which the first checker found). **With 42 §03, 22 §08, 26 §09,
+27 §05, 27 §09 and 29 §03, all seven cases are decided.** Also re-scoped in Part H: 34 §01 (the body's
+Treaty-of-London sentence was the vignette's point); 36 §09/§10 (§09 keeps the Reform party and the seat
+count, the vignette Christensen); 32 §09's vignette lost its paragraph on the 1844 patent; 33 §06's
+closing line was cut.
+
+**D-6.** Every date in 32–36 is Gregorian on both sides; there is no Russian date in the part, so
+nothing to add. **START_HERE_review_10's calendar remark was wrong** (§14.1): Sweden was Julian from
+1712 to 1753, not one day ahead in 1716. 27's Sources now say its 16 April is the Danish-Norwegian style
+(5 April, Swedish), with Fredriksten as the check.
+
+**D-14.** 32's Meanwhile "Charles 10." is Charles X. The ship *Christian VIII* keeps its painted name.
+Nothing else to change.
+
+### 14.6 The guard: `pageguard.py`, shared by Part G and Part H
+
+`build_part_h.py` had no retired-vocabulary guard and no summary line (§13.4). It now has Part G's, and
+both builds import one module, `pageguard.py`, as every word counter imports `pagewords.py`. **Four
+checks, each asked before the page is written**, and a page that fails one is not written at all:
+
+1. **freshcheck** — the body on disk is exactly what its draft builds.
+2. **`same_body`** — the body the build will read (from `DK_SRC`) is byte-identical to the body
+   freshcheck read. This is the body's own witness.
+3. **`figures_fresh`** — every `figs_*`/`map_*` script that produces a figure the part needs is run in
+   a scratch copy of `files/`, and its output is compared byte for byte with the `svg_*.txt` the build
+   will read. This is the figure's own witness.
+4. **`stale_vocabulary`** on **`reader_text`** — the words a reader sees or a screen reader speaks:
+   every tag becomes a space; scripts, styles and comments go; attributes that reach a reader
+   (`aria-*`, `alt`, `title`, `placeholder`, `label`, `data-*`) are read in any case and any quoting;
+   entities are decoded twice; NFKC; invisible characters removed; look-alike letters folded; dashes
+   folded. Band X in any case (with a capital A–I, so "a brass band" passes), entry/entries, Era
+   page(s), and a zero-padded chapter number however it is joined ("chapter-07", "ch 07", "chapter
+   #07", "chapters 3 through 07").
+
+**The checker's holes.** Run 1's guard read text with the gaps §13.6 had closed for markup, and the
+checker got past it three ways, each shown on a scratch copy with the build printing "all five built
+clean": **a stale body** (with `DK_SRC` pointing at an old copy, freshcheck checked `files/` and the
+build read the other — inside the repository, with no warning at all); **the vocabulary** (tags removed
+with no separator, so "entry</li><li>Forliget" read "entryForliget"; zero-width characters; "BAND C" in a
+figure; the padded forms above; "Era pages"; only lower-case double-quoted attributes; homoglyphs; and
+the page written before the check); **a stale figure** (an old `svg_vestvold_1888.txt` restored,
+unnoticed, because nothing asked whether the script still wrote it). Checks 2–4 are the answers.
+
+**The false positive on the first real run.** Page 30's header reads "Chapter 30 1620 – 1803" once its
+tags are spaces and its dash folded, and the new padded pattern read "18" and "03" out of 1803. Numbers now need digit boundaries on both sides,
+not `\b`, so "chapter07" is still caught and a year is not split.
+
+**"entry" by hand, before trusting the clean run.** On the built pages 32–36 — text, figure text and
+attributes, whitespace joined, case ignored — **none**. The only matches are the JavaScript's `entries`,
+and `reader_text` drops scripts. Part H's `ALLOWED_ENTRY` is empty, and correctly so. (Part G keeps its
+two, §13.6.) Re-searched in part B on the final build: the same.
+
+**Tested.** `claude/session10_guardcases.py`: **42 of 42 unit cases right** — 31 that must fire (every
+hole above, plus the §13.6 forms) and 11 that must stay quiet (the year range, "a brass band",
+"entrenched", "centre", a new era, script `entries`, a style rule, a comment, "chapter 31, 1807") —
+re-run in part B. **Six planted end-to-end cases**, on a scratch copy — in H a stale `DK_SRC` body, the
+old `svg_vestvold` restored, and mkbody's key 'Vestvolden entry'; in G "chapter-07" in 29, a hand-edited
+`svg_norway`, and a `DK_SRC` pointing at an old c27 body — **all fired, and the pages were left
+untouched.** On the real pages both parts build clean: G 21 figures fresh, H 15.
+
+**Known limits, by design.** Homoglyphs are folded for the letters the retired words use, not for every
+script in Unicode. A figure no script in `files/` produces (Parts A–D's inline figures) is reported
+sourceless, as figcheck does. Parts A–F and I build as before; Part I's build has no vocabulary guard
+and no summary line yet (for review 11).
+
+### 14.7 D-9 — none in the book
+
+Part H was tagged at drafting; every tag was checked against its vignette. **36's J.C. Christensen
+retagged `[-]`**: by 1901 he had sat in the Folketing for eleven years and led a party, and the
+vignette's moment is his entry into the ministry. 36 keeps `[n]` in Julius Rasmussen and `[f]` in Line
+Luplau. 35's who-line is now *washerwoman and union president* (KVINFO: her trade "cannot be
+established with certainty"). 32 carries Peter Larsen `[n]` (a farmer, and the weakest `[n]` in the part,
+recorded as such), Johanne Luise Pätges `[f][n]`; 33 Morten Jørgensen `[n]`, Mathilde Fibiger `[f]`; 34
+Niels Kjeldsen `[n]`, Ilia Fibiger `[f]`; 35 Uhd `[n]`, Olivia Nielsen `[f][n]`. With R-16 to R-18
+carried out, **`vignettes.py` reports no D-9 failure anywhere in the book.**
+
+### 14.8 Checked by separate agents
+
+**Run 1's checker** (`claude/session10_checker_report.md`), given the fixers' hunks and logs as
+claims: **98 rows** — Part G's three vignettes 17, 32 eighteen, 33 ten, 34 fifteen, 35 eighteen, 36
+twenty, the last three of them tooling holes (§14.6) and one a pointer to a §14 that did not yet exist.
+Among them: Hjedding §12 read three times and **the fixer was right** — the contract counts votes by
+cows; Torstedlund's notes left out; Jews voting only in the kingdom; "insolvent" left three times after
+"defaulted" went; Kari Hiran "wrote" a petition someone else wrote; Andersen "remembering" what he heard
+from a sickbed; the Treaty of London still "broken" in 34's Summary, hook and question after 33 had put
+the promise beside it; 36's coda "still in force" against 35's 1960; a stale map beside a corrected
+caption. All applied in run 2 by six fixers, and the shared files by the lead.
+
+**Part A's two checkers** (`claude/session10_check2_A.md`, `_B.md`), given run 2's diff only: **18
+findings** — A seven, all minor; B eleven, one substantive: **35's Hanssen vignette still said his
+associations were being "dissolved"**, 25 lines below the body, glossary and Summary that run 2 had
+corrected. Fourteen applied, and one of A's "not verified" (32 §05's "a state that had no credit left",
+unsourced, and the 1825 London loan argues against it — cut). The one new fact, de Meza called to
+Copenhagen on 6 February, was checked against Grænseforeningen by the reviewer. **Rejected, with
+reasons:** B7 and B8 (questions asked twice or three times on a page; they predate the session and are a
+book-wide rule, §14.4); B11 (unwrapped source lines; mkbody joins lines, and only lines an edit touched
+were rewrapped). Neither report asked for any run-2 fact to be reverted. **Log errors, page right:**
+fixlog_G's Christiania date, fixlog_32's missing §09 trim, fixlog_34's "diary" and its "a string of"
+parishes that went into the map as "eight", fixlog_36's inference about the 1895 count. No third check:
+the changes were about twenty lines of prose, one aria phrase and one legend line.
+
+### 14.9 Decisions for Carsten
+
+**None.** D-13 is closed, D-9 has no failure, and everything found in §14.4 is either Part I's reading
+(review 11) or a rule already in CONVENTIONS to apply. The one open question of practice — may a
+WHAT-THIS-PAGE-ANSWERS question preview a checkpoint? — is measured across the book in review 11 first;
+if it needs a rule, it comes to Carsten then, with the numbers.
