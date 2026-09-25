@@ -199,7 +199,9 @@ session 9; until it is carried out, `vignettes.py` reports 21 as a D-9 failure, 
 out in session 9** (Gundsømagle; the king's court, 10 July 1591): **no D-9 failure in Parts A–F**
 (`REVIEW-CONSISTENCY.md` §13.1). **Part G tagged the same session: 25 carries no `[f]`, 27 and 31 no
 `[n]`** — 25's and 31's are the two failures this entry names as found by hand at drafting, still
-there — R-16 to R-18 (§13.9), not tagged away.
+there — R-16 to R-18 (§13.9), not tagged away. **R-16 answered 25 September 2026 as recommended:**
+Charlotte Amalie at Nykøbing Slot, 25 June 1667 (25 §08, `[f]`), for review session 10; until it is
+carried out, `vignettes.py` reports 25 as a D-9 failure, correctly.
 
 **Checked by.** `vignettes.py` balance layer, which reports such a chapter as
 "[f] part" — and still as FAIL if no chapter of its part carries `[f]`.

@@ -2686,4 +2686,7 @@ system the section does not mention. His son is one line. *Alternative:* the thr
 real gap (the prison hulks), but the brothers' names are in a 1963 *Fra Holbæk Amt* article no one has
 yet read.
 
+**R-16 answered 25 September 2026: as recommended.** Charlotte Amalie at Nykøbing Slot, 25 June 1667,
+as 25 §08's `[f]` vignette, to be sourced, drafted and checked in review session 10.
+
 Until they are carried out, `vignettes.py` reports 25, 27 and 31 as D-9 failures, and that is correct.
