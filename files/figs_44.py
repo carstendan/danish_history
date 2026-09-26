@@ -251,11 +251,10 @@ def landsting():
     # not a tick. The abolition is carried by the end label instead.
     MARKS = [(ALIGN, "1936: its majority matches the Folketing's")]
 
-    note = ("Days on one axis, every span computed from its two dates. The chamber sat "
-            "%s days - %.1f years - and each reform made it more like the Folketing and "
-            "less able to say why it was separate. By 1936 its majority matched the lower "
-            "house's. On 13 May 1953, at the first reading of the bill abolishing it, it "
-            "voted for its own abolition, and it sat for the last time two days later."
+    note = ("Days on one axis, every span computed from its two dates. The chamber existed "
+            "%s days - %.1f years - from the constitution of 5 June 1849 to that of 5 June "
+            "1953. It voted for its own abolition on 13 May 1953 and sat for the last time "
+            "on the 15th, three weeks before the end of the bar."
             % (n(total), years))
     nl = fold(note, "mapx", 14, W)
 
@@ -356,9 +355,8 @@ def two_ballots():
 
     note = ("Two questions, one Thursday, and two different electorates. The voting-age "
             "ballot was open to %s more people than the constitutional one, because it "
-            "was open to those who would be enfranchised if the lower age won. They came, "
-            "and twenty-three beat twenty-one %s to %s. On the day Denmark abolished the "
-            "chamber of property it declined to admit the twenty-one-year-olds. Note that "
+            "was open to those who would be enfranchised if the lower age won. They could "
+            "vote on it, and twenty-three beat twenty-one %s to %s. Note that "
             "the age ballot's own components overshoot its published total by %d votes - "
             "the constitutional ballot's reconcile exactly - and the discrepancy is marked "
             "rather than averaged away."

@@ -59,7 +59,7 @@ FIGURE 3 · The People's Strike, 22 June - 5 July 1944.
   decision figure 2 of chapter 41 took about the two arrest counts:
     - the curfew is imposed on 25 June (Gyldendal og Politikens; Københavns
       Biblioteker) or 26 June (Arbejderen; sn.dk);
-    - the return to work is 3 July (Gyldendal og Politikens), an order on the 4th
+    - the return to work is the morning of 4 July (Gyldendal og Politikens), an order on the 4th
       obeyed on the 5th (Arbejderen), or the 5th (danmarkshistorien.lex.dk, which
       publishes the Council's 30 June and 1 July appeals and the 2 July
       counter-appeal but NOT the text of the final proclamation, which is why the
@@ -215,20 +215,17 @@ def october():
     factor = sc2 / sc
     assert factor > 1
 
-    note = ("The two bars are not the same kind of number. The 472 is a nominal count, "
-            "built by Fracapane from the transport registration lists, and it is drawn "
-            "filled. The crossing to Sweden is an estimate and is drawn open: every "
-            "account says about 7,000, the only figure attached to a named archive is "
-            "roughly %s from the Danish Jewish Museum's Safe Haven database of Swedish "
-            "arrival reports, and the %s in circulation is an addition performed on two "
-            "separate statements. More than %s of those registering in Sweden gave their "
-            "religion as Protestant, Lutheran or Christian. At least %d people died "
-            "getting out or failing to, and they are in neither bar. Note what the "
-            "whisker shows: the spread on the Sweden figure is %d people, which is "
-            "wider than the entire deported count of %d."
-            % ("{:,}".format(SW_ARCHIVE), "{:,}".format(SW_HIGH),
-               "{:,}".format(SW_PROTESTANT), CROSSING_DEAD,
-               SW_HIGH - SW_LOW, DEPORTED))
+    # Session 11: the note no longer retells section 04's paragraph on the numbers
+    # (the figure sits directly after it). It keeps what the bars need and the one
+    # thing the figure alone shows: the whisker's width against the whole count.
+    note = ("Sources: Fracapane's count from the transport registration lists (%d); "
+            "the Danish Jewish Museum's Safe Haven estimate from Swedish arrival "
+            "reports (about %s); Sofie Lene Bak's two separate statements, added "
+            "together by others (%s). At least %d people died getting out or failing "
+            "to, and they are in neither bar. The whisker spans %d people, more than "
+            "the entire deported count of %d."
+            % (DEPORTED, "{:,}".format(SW_ARCHIVE), "{:,}".format(SW_HIGH),
+               CROSSING_DEAD, SW_HIGH - SW_LOW, DEPORTED))
     note_lines = fold(note, "mapx", 14, W)
 
     LEG_Y = row2_y + bar_h + 38
@@ -237,14 +234,14 @@ def october():
 
     o = ['<svg viewBox="0 0 %d %d" xmlns="http://www.w3.org/2000/svg" role="img" '
          'aria-label="October 1943. Roughly seven thousand four hundred people reached '
-         'Sweden, an estimate drawn as a band between seven thousand and seven thousand '
-         'seven hundred and forty-two; four hundred and seventy-two were deported, a '
+         'Sweden, an estimate drawn open with a whisker from seven thousand to seven '
+         'thousand seven hundred and forty-two; four hundred and seventy-two were deported, a '
          'nominal count, of whom four hundred and nineteen came home and fifty-three did '
          'not.">' % (W, H)]
     o.append('<rect x="0" y="0" width="%d" height="%d" fill="%s"/>' % (W, H, PAPER))
     header(o, "OCTOBER 1943",
            "to Sweden, to Theresienstadt, and the difference between the two numbers",
-           "An estimate and a count, drawn differently on purpose.")
+           "Open bar: an estimate. Filled bar: a count.")
 
     # ---- row 1: the whole, at one scale
     o.append('<text x="14" y="%d" class="mapt" style="fill:%s">%s</text>'
@@ -360,7 +357,7 @@ def sabotage():
     note = ("* 1945 is FOUR MONTHS, to the capitulation on 5 May. Read as a year it "
             "understates the last winter by a factor of three. The industrial column "
             "adds to its own published total of %s exactly. The railway column adds to "
-            "%s against a published %s, and the missing one is marked rather than "
+            "%s against a published %s, and the extra one is marked rather than "
             "averaged away: a series quietly adjusted to its own total is worth less "
             "than one that has not been."
             % ("{:,}".format(IND_TOTAL_PUB), "{:,}".format(rail),
@@ -451,7 +448,7 @@ def d(june_day):
 AX_LO, AX_HI = d(22), d(35)          # 22 June to 5 July
 STRIKE_ON    = d(26)                 # B&W walk out
 CURFEW_A, CURFEW_B = d(25), d(26)    # imposed: two dates in the sources
-BACK_A, BACK_B     = d(33), d(35)    # 3 to 5 July: not settled
+BACK_A, BACK_B     = d(34), d(35)    # 4 or 5 July: not settled
 SIEGE        = d(31)                 # 1 July, state of siege
 KILLED_1JUL, WOUNDED_1JUL = 23, 203
 KILLED_ALL,  WOUNDED_ALL  = 100, 600
@@ -498,14 +495,11 @@ def strike():
     labels, gap = stack([(ax(t), "middle", "%s  %s" % (tag, txt))
                          for t, tag, txt, _ in MARKS], 14, "mapx")
     LAB_TOP = axis_y + 42
-    note = ("Two dates in this fortnight are not settled and both are drawn as bands. "
-            "The curfew is imposed on 25 or 26 June depending on the source. The return "
-            "to work is 3 July on one standard account, an order on the 4th obeyed on the "
-            "5th on another, and the 5th on the site that publishes the Council's own "
-            "appeals - and which does not publish the text of the final proclamation, "
-            "which is why the question is open. On 1 July alone %d people were killed and "
-            "%d wounded; over the whole strike more than %d were killed and more than %d "
-            "wounded. The single-day pair rests on one source."
+    note = ("Two dates in this fortnight are not settled and both are drawn as bands: "
+            "the curfew's start, 25 or 26 June, and the return to work, 4 or 5 July. "
+            "The chapter's text gives the accounts. The %d killed and %d wounded of "
+            "1 July rest on one source; over the whole strike more than %d were killed "
+            "and more than %d wounded."
             % (KILLED_1JUL, WOUNDED_1JUL, KILLED_ALL, WOUNDED_ALL))
     note_lines = fold(note, "mapx", 14, W)
     LEG_Y = LAB_TOP + gap + 20
@@ -520,7 +514,7 @@ def strike():
     o.append('<rect x="0" y="0" width="%d" height="%d" fill="%s"/>' % (W, H, PAPER))
     header(o, "THE PEOPLE'S STRIKE, JUNE - JULY 1944",
            "an axis in days: the two disputed dates are bands, not ticks",
-           "A city stopped when a council with no legal existence asked it to.")
+           "A council with no legal existence kept a city out, then sent it back.")
 
     # the strike itself, as a bar with a duration
     o.append('<rect x="%.1f" y="%d" width="%.1f" height="12" fill="%s" opacity=".30"/>'
@@ -557,7 +551,7 @@ def strike():
     # the two bands get named where they are, by search against the marks
     band_lab, band_gap = stack(
         [((ax(CURFEW_A) + ax(CURFEW_B)) / 2, "middle", "curfew imposed: 25 or 26 June"),
-         ((ax(BACK_A) + ax(BACK_B)) / 2, "middle", "back to work: 3 to 5 July")],
+         ((ax(BACK_A) + ax(BACK_B)) / 2, "middle", "back to work: 4 or 5 July")],
         14, "mapx")
     for lx, row, t in band_lab:
         o.append('<text x="%.1f" y="%d" class="mapx" style="fill:%s">%s</text>'

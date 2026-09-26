@@ -104,6 +104,57 @@ def stale_vocabulary(h, allowed=()):
     return stale
 
 
+# ---------------------------------------------------------------------------------------
+# ASK ONCE (D-17, decided by Carsten in review session 11, REVIEW-CONSISTENCY.md §15).
+# A page asks each question once, across the five WHAT-THIS-PAGE-ANSWERS questions, the
+# checkpoints and the four end tiers. Session 11 measured 20 openers repeating a checkpoint in
+# 13 of 21 chapters, and 17 openers repeated in the end tiers, 9 of them word for word. The
+# measure is session 10's Recall measure: content-word Jaccard >= 0.4. It cannot see the
+# same question asked in different words; that is still the reading pass's job.
+_QSTOP = set("the a an and or of to in on at for by with from was were is are be been it its "
+             "this that which what who whom why how did does do had has have not but as into "
+             "than then there their they them he his she her one two three four five six "
+             "seven eight nine ten one's would could should will can may might more most many "
+             "much other same did".split())
+ASK_ONCE = 0.4
+
+
+def _qwords(s):
+    s = html.unescape(re.sub(r'<[^>]+>', ' ', s)).lower()
+    return {w for w in re.findall(r"[a-zæøåéü]+", s) if len(w) > 2 and w not in _QSTOP}
+
+
+def page_questions(h):
+    """[(label, text)] for every question a reader is asked on page `h`."""
+    out = []
+    m = re.search(r'<ol class="qs">(.*?)</ol>', h, re.S)
+    for i, q in enumerate(re.findall(r'<li>(.*?)</li>', m.group(1), re.S) if m else []):
+        out.append(('opener %d' % (i + 1), q))
+    for k, d in enumerate(re.findall(r'<div class="check">(.*?)</div>', h, re.S)):
+        for i, q in enumerate(re.findall(r'<li>(.*?)</li>', d, re.S)):
+            out.append(('checkpoint %d.%d' % (k + 1, i + 1), q))
+    for name, body in re.findall(r'<div class="qgroup">\s*<p class="qlabel">(.*?)</p>(.*?)</div>',
+                                 h, re.S):
+        for i, q in enumerate(re.findall(r'<li>(.*?)</li>', body, re.S)):
+            out.append(('%s %d' % (re.sub(r'<[^>]+>', '', name).strip(), i + 1), q))
+    return out
+
+
+def asked_twice(h, threshold=ASK_ONCE):
+    """Pairs of questions on page `h` that ask the same thing by the measure:
+    [(label_a, label_b, jaccard)], highest first."""
+    qs = [(lab, _qwords(q)) for lab, q in page_questions(h)]
+    hits = []
+    for i in range(len(qs)):
+        for j in range(i + 1, len(qs)):
+            a, b = qs[i][1], qs[j][1]
+            if a and b:
+                jac = len(a & b) / len(a | b)
+                if jac >= threshold:
+                    hits.append((qs[i][0], qs[j][0], round(jac, 2)))
+    return sorted(hits, key=lambda x: -x[2])
+
+
 def same_body(src_dir, here, body):
     """True if the body the build reads (src_dir/body) is the body freshcheck checked
     (here/body)."""

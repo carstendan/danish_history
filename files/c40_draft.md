@@ -9,10 +9,9 @@
 Thorvald Stauning took office for the second time on 30 April 1929, and this
 time the Radicals came inside. In 1924 they had supported his government from
 the benches; now they took seats at the table. Peter Munch went to the foreign
-ministry and stayed there until 8 July 1940, eleven years, longer than any
-Danish foreign minister before him and through every decision this chapter and
-the next will judge him by. K. K. Steincke went to social affairs, which he had
-been preparing for since 1920.
+ministry and stayed there until 8 July 1940, eleven years, through every
+decision this chapter and the next will judge him by. K. K. Steincke went to
+social affairs, which he had been preparing for since 1920.
 
 The arithmetic mattered more than the personalities. Together the two parties
 had a majority in the Folketing. They did not have one in the Landsting, and
@@ -25,7 +24,7 @@ and lost.
 
 What the new government did first is a warning about reading it forwards from
 1933. Within five weeks it passed the sterilisation law of 1 June 1929, the
-first statute of its kind in Europe, drafted as an experiment and carrying a
+first national statute of its kind in Europe, drafted as an experiment and carrying a
 clause requiring that it be laid before the Rigsdag for revision by the session
 of 1933–34. The plan chapter 39 left on Steincke's desk had two halves, and the
 government reached for the second one first.
@@ -40,10 +39,10 @@ Britain, paid for in sterling. When Britain left gold in September 1931 the
 pound fell, and every Danish farmer discovered that the same ton of bacon now
 came back as fewer kroner.
 
-Denmark followed within days. Gold redemption was suspended on 29 September
-1931 and the krone fixed at four-fifths of its gold parity, a dollar rate of
-4.70 — the same krone that the governments of the 1920s had spent the decade and
-one ministry pushing back up to par. What Madsen-Mygdal had achieved in 1927
+Denmark followed within days. The Rigsdag took the krone off gold on 29
+September 1931, and the krone went down with the pound and then below it — the
+same krone that the governments of the 1920s had spent the decade and one
+ministry pushing back up to par. What Madsen-Mygdal had achieved in 1927
 lasted four years.
 
 The state then did what states did that year. A *valutacentral* was set up to
@@ -60,16 +59,16 @@ not the one the histories of other countries describe. No Danish bank of
 consequence failed in the 1930s; that had already happened, in 1922, and chapter
 39 told it. There was no crash on the Copenhagen exchange to mark the beginning.
 What happened to Denmark was that the price of what it sold fell against the
-price of what it bought, and went on falling, for a country that had spent fifty
-years reorganising itself around selling food to Britain. The cooperative
+price of what it bought, and went on falling, for a country that had spent the
+time since the 1880s reorganising itself around selling food to Britain. The cooperative
 dairies and bacon factories of chapter 35 had been built on the assumption that
 the British market would always be there. It was there. It simply stopped paying.
 
 In the towns the insured unemployment rate reached levels that no Danish
 government had seen. Where a town lived off one industry, the figure stopped
 being a percentage. Nakskov on Lolland lived off its shipyard and its sugar
-refinery, and in the winter of 1930 roughly half the town's workers were out of
-work. A thousand were let go in January and February of 1931 alone.
+refinery, and in the winter of 1930–31 the number of its unemployed tripled. A
+thousand were let go in January and February of 1931 alone.
 
 > **Vignette · Nakskov, 2 February 1931**
 >
@@ -96,10 +95,6 @@ work. A thousand were let go in January and February of 1931 alone.
 > thing that could be un-voted.
 >
 > unnamed · Nakskov · 2 February 1931 · [n]
-
-By the winter of 1932–33 there were two deadlines in the calendar. The
-collective agreements covering the whole labour market ran out at the end of
-January. And the employers had already given notice.
 
 ---
 
@@ -132,8 +127,8 @@ wanted no devaluation at all. The Conservatives were not invited.
 
 They went to Stauning's flat. Kanslergade 10 on Østerbro was where he lived and
 not where he worked, and the negotiation that began there on 29 January ran
-about eighteen hours into the morning of the 30th. Four Social Democrats: Stauning, the
-agriculture minister Kristen Bording, C. N. Hauge and Niels Fisker. Three
+through the night into the morning of the 30th. Four Social Democrats:
+Stauning, the agriculture minister Kristen Bording, C. N. Hauge and Niels Fisker. Three
 Radicals: Munch, Bertel Dahlgaard and Niels Frederiksen. Three from Venstre:
 Oluf Krag, Henrik Hauch, and Thomas Madsen-Mygdal — the man chapter 39 left
 putting the krone back on gold and losing an election over the wreckage, now in
@@ -149,23 +144,23 @@ something the others needed more than they needed their own principle.
 > **Vignette · Kanslergade 10, 29–30 January 1933**
 >
 > There are eleven people in the flat and ten of them are politicians. The
-> eleventh is Augusta Erichsen, who is thirty-four, who lives there, and who is
-> the reason anyone knows what the room was like.
+> eleventh is Augusta Erichsen, born in 1898, who lives there, and who is the
+> reason anyone knows what the room was like.
 >
-> She feeds them through the day and into the evening. Some time after midnight
-> Stauning comes out to her: *Jamen kære Gugge — der er ikke mere whisky!*
+> She feeds them through the day and into the evening. Some time after midnight,
+> when she has gone to bed, Stauning knocks at her door: *Jamen kære Gugge — der
+> er ikke mere whisky!*
 >
 > The whisky is in the cellar. She is afraid of the cellar, of the dark in it
 > and of the rats, and she goes down anyway and comes up with a bottle, and
 > pours it into a crystal decanter rather than serve the men of three parties
-> from the bottle at four in the morning. The next day Hartvig Frisch asks if he
+> from the bottle. The next day Hartvig Frisch asks if he
 > may have the decanter. It is, he says, *en historisk karaffel i dag*.
 >
 > Afterwards she makes them *pølsemad*.
 >
-> She published the account in 1967, thirty-four years later, in a book about
-> her life with Stauning. The historians have used it ever since, because there
-> was no secretary in the flat and no minute was taken. The founding night of
+> She published the account in 1967, in a book about her life with Stauning.
+> The historians have used it ever since, because there was no secretary in the flat and no minute was taken. The founding night of
 > the Danish welfare state is known from the testimony of the woman who was not
 > invited to it.
 >
@@ -174,7 +169,7 @@ something the others needed more than they needed their own principle.
 It was concluded on the morning of 30 January 1933. Stauning's summary of it was
 that they had given up some principles and saved the country. There was no
 single signed treaty; what there was, was a package of bills that all three
-parties would now vote for, and a lockout that would not happen.
+parties had undertaken to let through, and a lockout that would not happen.
 
 ---
 
@@ -185,14 +180,15 @@ kroner; after it, 22.50. Put the other way, a Danish exporter who sent a pound's
 worth of bacon to Britain now got a sixth again as many kroner for it as he had
 a month earlier, and every Dane buying anything imported paid for that. How
 large a devaluation this was depends entirely on which side of the fraction you
-stand: the contemporary accounts say ten per cent, the scholarly ones twelve to
-thirteen, and the rates themselves give fourteen if you measure the krone's fall
+stand: the encyclopedias say ten per cent, Nissen's study twelve to thirteen,
+and the rates themselves give fourteen if you measure the krone's fall
 and seventeen if you measure sterling's rise. The farmers had asked for
 twenty-five kroner to the pound and did not get it.
 
 The labour market was frozen. Existing collective agreements were extended by
 law for a year, and for that year a strike or a lockout was forbidden. This is
-the second half of a debt this book has carried since chapter 35. The September
+the second of two things chapter 35 promised this part of the book; the first,
+the plebiscite of 1920, was chapter 38's. The September
 Compromise of 1899 had established that Danish wages were settled between the
 two sides of the labour market and not by the state; in January 1933 the state
 honoured that system by preserving its agreements and overrode it in the same
@@ -202,16 +198,17 @@ Notice who lost what. The employers lost the lockout they had called and the
 wage cut they had demanded, which is why the measure is usually counted a
 workers' victory. But the thing the law suspended was the strike as well, and it
 suspended it by statute, which is precisely what the trade unions had spent
-thirty-four years insisting the state must never do. The principle that wages
+thirty-three years insisting the state must never do. The principle that wages
 are none of the government's business survived 1933 in Denmark because the
 government broke it once, for a year, in the unions' favour. It has been broken
 the same way many times since, and each time the argument has been the argument
 of January 1933: this is an emergency, and it is only for a year.
 
 The farms got refinancing of their debts and relief on property taxes. And
-Venstre — the party of less government — voted for the largest expansion of
-public provision in Danish history, because that was Steincke's price and
-Stauning would not move without it.
+Venstre — the party of less government — undertook not to vote against the
+largest expansion of public provision in Danish history, and let it through the
+Landsting by abstaining, because that was Steincke's price and Stauning would not
+move without it.
 
 The Danish tradition remembers Kanslergade as the founding of the welfare state.
 It was a trade. Each side sold something it had told its voters it would never
@@ -224,7 +221,8 @@ sell, and the reason it is remembered as a founding is that it worked.
 The social reform was not written that night. It had been written, and it had
 been waiting. Steincke had set out the whole of it in *Fremtidens
 Forsørgelsesvæsen* in 1920, the book chapter 39 left him holding, and he had had
-since 1929 to turn it into bills. What Kanslergade did was buy it a majority.
+since 1929 to turn it into bills. What Kanslergade did was buy it a passage
+through the Landsting.
 
 It passed as four laws and came into force on 1 October 1933:
 
@@ -273,11 +271,12 @@ which was not repealed until 1967. A revising law of 11 May 1935 widened the
 likely to inherit a burden.
 
 Four laws and a principle, then, and a fifth law that the principle did not
-cover. They came out of one book and one man, thirteen months apart.
+cover. They came out of one book and one man, between 1932 and the spring of
+1934.
 
 ---
 
-## The vote given back
+## The vote given back, to most
 
 The constitution of 1915 gave the vote, in section 30, to every man and woman
 with Danish nationality who had turned twenty-five and lived in the country —
@@ -290,19 +289,21 @@ It was not only the vote. A person on poor relief lost the right to stand for
 the Rigsdag or a municipal council as well as to vote for them; a man could not
 marry without the poor authority's permission; parents could lose authority over
 their children; and the authority could decide how and where the household was
-to be kept. The 1849 constitution had made poverty a disqualification from
-citizenship, and every constitution since had kept it.
+to be kept. The 1849 constitution had made poor relief a disqualification from
+the vote, and every constitution since had kept it.
 
 The reform of 1933 did not repeal section 30. It could not: that needs a
 constitutional amendment, and this government could not get one, as the last
 section of this chapter will show at length. What it did instead was to make the
 clause fire at almost nobody. The Lov om offentlig Forsorg divided assistance
-into three. *Særhjælp* covered particular circumstances — childbirth, illness,
-temporary distress — and cost nothing. *Kommunehjælp* was temporary help to
-people in undeserved need, repayable in principle, and cost nothing. Only
-*fattighjælp*, now the residual category for the cases the law described as the
-hopeless ones, still carried the loss of rights. The constitutional trigger was
-left standing and nearly everyone was moved out from under it.
+into three. *Særhjælp* went to defined groups — the chronically ill who could
+not be taken into a sickness fund among them — and cost nothing. *Kommunehjælp*
+was temporary help to people in need through no fault of their own, repayable in
+principle, and cost nothing. Only *fattighjælp*, now the residual category, still
+carried the loss of rights, and it was kept for the groups the reform treated as
+beyond help: providers who neglected their families, the work-shy, alcoholics,
+homeless vagrants and prostitutes. The constitutional trigger was left standing
+and nearly everyone was moved out from under it.
 
 This is the half of 1933 that is almost never told, and it is worth being exact
 about what it was: not a restoration but a redefinition. The clause outlived it.
@@ -310,13 +311,16 @@ When the constitution was rewritten in 1953, section 29 stopped disqualifying
 the poor directly and instead provided that it should be settled by ordinary
 law how far punishment and *understøttelse, der i lovgivningen betragtes som
 fattighjælp* cost a man his vote. That sentence is in the Danish constitution
-today.
+today. The disqualification itself ended only in 1961, by a new Lov om
+offentlig forsorg that went on to replace the three tiers with a single kind of
+help, and with them the last *fattighjælp*; chapter 45 has it.
 
-And there were people the redefinition was not for. The same year the law
-divided assistance into three, and the year after it, the state was legislating
-to sterilise the group it had decided could not be helped into citizenship at
-all. The vote came back to almost everybody. It is worth knowing who was in the
-remainder.
+And there were people the redefinition was not for. The vote came back to almost
+everybody, and those it did not reach are worth knowing: the drinkers, the
+vagrants and the neglectful providers left on *fattighjælp* and off the rolls.
+And the year after the law divided assistance into three, the same minister's
+next law allowed the state to sterilise the mentally disabled without their
+consent.
 
 ---
 
@@ -325,7 +329,7 @@ remainder.
 The plebiscites of 1920 had made two minorities out of one border, and chapter
 38 left them there: Germans north of the line who had voted to stay German and
 were now Danish citizens, Danes south of it who had voted Danish and were now
-German ones. For a decade the arrangement had held, on the Danish side through a
+German ones. Since 1920 the arrangement had held, on the Danish side through a
 deliberately liberal policy on language, church and school.
 
 On 30 January 1933 — the morning the Kanslergade agreement was concluded —
@@ -340,16 +344,16 @@ claimed to speak for.
 That went quickly. The Slesvigsk Parti, formed in 1920 as the minority's
 political voice, was taken over by its own National Socialists during 1933, and
 in 1935 the minority's party organisation became a foreign branch of the NSDAP.
-The associations, the private schools and the credit institutions followed. A
+The minority's associations and private schools followed. A
 minority that had been a linguistic and confessional community with a grievance
-became, inside two years, an instrument of a foreign state — mostly by the
+became, between 1933 and 1935, an instrument of a foreign state — mostly by the
 decision of people who had not asked for it and could not now get out of it.
 
 The Danish state did not answer in kind. It did not ban the party, restrict the
 schools or prosecute the newspapers, and it kept the electoral arrangement that
 gave the minority its seat. The Slesvigsk Parti held one seat in the Folketing
-throughout: 12,617 votes in 1935, 15,016 in 1939. One member, elected by about
-four-fifths of one per cent of the Danish electorate, sitting in the chamber of
+throughout: 12,617 votes in 1935, 15,016 in 1939. One member, elected by less
+than one per cent of the votes cast in Denmark, sitting in the chamber of
 the country whose border his party existed to undo. On 9 April 1940 that
 restraint would look either like wisdom or like the last thing Denmark had to
 show for itself, and chapter 41 has to decide which.
@@ -361,15 +365,15 @@ show for itself, and chapter 41 has to decide which.
 In the same spring, at the other end of the realm, a different border question
 was settled the other way.
 
-On 10 July 1931 five Norwegian trappers raised a flag on the east coast of
-Greenland, and the Norwegian government ratified the act, proclaiming the coast
+Five Norwegian trappers raised a flag on the east coast of Greenland, and on 10
+July 1931 the Norwegian government made the act its own, proclaiming the coast
 between 71° and 75° north to be *Eirik Raudes Land*. The claim was not absurd:
 Norway had hunted that coast, and Denmark's declaration of sovereignty over the
 whole island dated only from 1921, which chapter 39 recorded.
 
 Denmark did not send anyone. It filed an application at the Permanent Court of
 International Justice at The Hague on 12 July, two days later, and then waited
-twenty-one months. On 5 April 1933 the court held the Norwegian occupation
+through the whole of 1932. On 5 April 1933 the court held the Norwegian occupation
 invalid and Danish sovereignty over the whole of Greenland good. Norway
 complied.
 
@@ -387,7 +391,7 @@ minister's face and three words: *Stauning eller kaos*.
 
 It worked better than any Danish campaign before or since. The Social Democrats
 took 759,102 votes, 46.11 per cent, and 68 of 149 seats — the largest share any
-Danish party has ever won, then or in the ninety years since. The Conservatives
+Danish party has ever won. The Conservatives
 asked in public who this Mr Chaos was supposed to be, which was funny and did
 not help them.
 
@@ -418,7 +422,7 @@ fifty-two years from their first two seats in 1884.
 
 It was a majority of one in a chamber they intended to abolish, which is the
 only kind of majority the Danish constitution would ever have given them for
-that purpose. They had three years to use it.
+that purpose. They used it in 1939.
 
 ---
 
@@ -436,13 +440,12 @@ when the war began.
 
 > **Vignette · Bovrup, 1933**
 >
-> The doctor at Bovrup, between Aabenraa and Sønderborg, is forty and has been
-> practising there since 1924. He was born in Aabenraa in 1893 to Danish-minded
+> The doctor at Bovrup, between Aabenraa and Sønderborg, is thirty-nine and has
+> been practising there since 1924. He was born in Aabenraa in 1893 to Danish-minded
 > parents. He served in the German army in the First World War and was a
 > prisoner in Russia, where he spoke for the other South Jutlanders in the
-> camps. Before 1920 he agitated for a Danish border at the Eider — the
-> furthest claim any Dane had made since 1864, further than the line his
-> neighbours actually voted for.
+> camps. Before 1920 he agitated for a Danish border at the Eider — far beyond
+> the line his neighbours actually voted for.
 >
 > In July 1933 Frits Clausen takes the leadership of the Danish Nazi party from
 > the man who founded it, and holds it with something close to absolute power
@@ -491,14 +494,14 @@ per cent.
 
 Of 1,063,764 ballots, 11,770 were blank or spoiled. Of the 1,051,994 that
 counted, 966,277 were yes and 85,717 were no. The proposal carried 91.85 per
-cent of the votes cast against it — a margin that in any ordinary contest would
+cent of the valid votes — a margin that in any ordinary contest would
 be called annihilation. Measured against the electorate the constitution
 required it to reach, it was 44.46 per cent. Forty-five per cent of 2,173,420 is
 978,039. The reform fell 11,762 votes short.
 
 It was not defeated. It was not attended. The same voters who had queued in
 April at a turnout of nearly eighty per cent stayed home in May in such numbers
-that a proposal nine-tenths of them supported could not be enacted; and the
+that a proposal nine-tenths of those who did vote supported could not be enacted; and the
 constitutional machinery, which had been designed in 1915 by men who wanted
 change to be difficult, did exactly what it was designed to do. Four years
 earlier, in the Saar, ninety-one per cent of voters had chosen to return to
@@ -560,9 +563,9 @@ hundred and seventy.
 
 **§06 — the vote**
 
-- **fattighjælp** — poor relief in the strict sense: after 1933 the residual
-  category of assistance, and the only one that still cost the recipient his
-  civil rights.
+- **fattighjælp** — poor relief in the strict sense: from 1933 until the law
+  of 1961 the residual category of assistance, and the only one that still
+  cost the recipient his civil rights.
 - **rettighedsfortabelse** — loss of rights: the forfeiture of the vote,
   eligibility for office, the freedom to marry and authority over one's children
   that followed from taking poor relief.
@@ -594,25 +597,24 @@ hundred and seventy.
 
 ## Meanwhile in Europe
 
-**Berlin and Stockholm, 1933.** On 30 January 1933, the morning the negotiators
-came out of Kanslergade 10, Adolf Hitler was appointed Reich Chancellor. Two
-countries met the same depression in the same week and the coincidence is not an
-argument, but the comparison that is an argument lies north-east. In Sweden, in
+**Stockholm, 1933.** That Kanslergade ended on the morning Hitler took office
+(§07) is a coincidence and not an argument; the comparison that is an argument
+lies north-east. In Sweden, in
 the same year, Per Albin Hansson's government — with Ernst Wigforss at the
 finance ministry, reading Keynes — made a bargain with the Agrarian League:
 public works and unemployment policy for the towns, price support for the farms.
 The Swedes called it *kohandeln*, the cow trade. The Danish word Nissen uses for
 Kanslergade is *studehandel*, which is the same joke. Two Scandinavian countries
 bought their way through the 1930s by pairing the industrial working class with
-the small farmer, and both got thirty years of government out of it.
+the small farmer, and both got decades of government out of it.
 
 **Saarbrücken, 13 January 1935.** The Saar Basin, governed by the League of
 Nations since 1920, voted on its future: 477,089 for return to Germany, 46,613
 for the status quo, 2,124 for France. Turnout was 97.86 per cent. It was the
 last of the plebiscites the peace of 1919 had promised and the first territorial
 gain of the Third Reich, achieved by the method Denmark had accepted in 1920 and
-was now hearing demanded against it. Four years later, Denmark's own referendum
-would return almost exactly the same majority on half the turnout, and fail.
+was now hearing demanded against it. §11 sets it beside Denmark's own vote of
+1939.
 
 ---
 
@@ -643,10 +645,10 @@ written in 1915 that counted silence as refusal.
 **"Kanslergade founded the Danish welfare state."** It paid for it. The social
 reform was written in 1920, drafted into bills from 1929 and ready; what it
 lacked was a majority in the Landsting, and what Kanslergade bought was
-Venstre's votes, in exchange for a devaluation and debt relief that Venstre's
-own voters needed. Calling it a founding tidies away the fact that the most
-important social legislation in Danish history passed as one item in a
-three-party trade, and that a party opposed to it in principle voted it through
+Venstre's abstention there, in exchange for a devaluation and debt relief that
+Venstre's own voters needed. Calling it a founding tidies away the fact that the
+most important social legislation in Danish history passed as one item in a
+three-party trade, and that a party opposed to it in principle let it through
 for reasons that had nothing to do with it.
 
 **"The social reform of 1933 gave the poor back the vote."** It did not touch
@@ -655,7 +657,9 @@ there. What it did was redefine most public assistance as something other than
 poor relief, so that the constitutional disqualification caught almost nobody.
 That is a large achievement and a different one. The clause survived the
 rewriting of 1953, which merely moved the question from the constitution to
-ordinary law, and the sentence is still in section 29 today.
+ordinary law, and the sentence is still in section 29 today. The last recipients
+of *fattighjælp* got the vote on 1 October 1961, from a social statute and not a
+constitution.
 
 **"Danish Nazism came from the German minority."** The minority was nazified,
 thoroughly and fast, from 1933. But the Danish Nazi party was a separate
@@ -672,7 +676,7 @@ came to Nazism from Danish nationalism, not from German.
 on 9 April 1940, and the Danish state that would not ban its party has to decide
 what to do about its members.
 
-**→ 41.** Munch's foreign policy, eleven years old by 1940, meets the thing it
+**→ 41.** Munch's foreign policy, in place since 1929, meets the thing it
 was designed to avoid.
 
 **→ 42.** The people the law of 1934 put outside the principle of 1933 are
@@ -684,6 +688,9 @@ question of what to do with him is the question of the whole *retsopgør*.
 
 **→ 45.** The same threshold that defeated the reform in 1939 — forty-five per
 cent of the whole electorate — is cleared in 1953, and the Landsting goes.
+
+**→ 45.** The poor-relief disqualification, which the constitution of 1953
+hands to ordinary law, ends with the Lov om offentlig forsorg of 1961.
 
 **→ 45.** Greenland, whose sovereignty The Hague confirmed in 1933 without
 asking anyone who lived there, is reclassified in 1953 without asking them
@@ -699,7 +706,7 @@ Steincke at social affairs; its first significant act was the sterilisation law
 of 1 June 1929. The depression then reached Denmark through its export market.
 Britain left gold in September 1931 and Denmark followed within days, farm debt
 contracted in cheap money became unpayable in dear, and in towns like Nakskov
-half the workforce was idle. On 2 February 1931 the Nakskov council voted the
+unemployment tripled in a single winter. On 2 February 1931 the Nakskov council voted the
 unemployed extra relief and withdrew it the next day; nine men went to prison
 after the May Day clashes that followed.
 
@@ -714,19 +721,20 @@ The reform was four laws, in force on 1 October 1933, resting on one sentence:
 public help restricts a recipient's civil standing only where the law expressly
 says. It did not repeal the constitutional clause that disqualified recipients
 of poor relief from voting; it redefined assistance so that the clause caught
-almost nobody. The clause is still in the constitution. The same minister
+almost nobody. The constitution of 1953 handed the question to ordinary law in a
+sentence still in force, and the disqualification ended in 1961. The same minister
 carried the law of 16 May 1934 permitting compulsory sterilisation of the
 mentally disabled, which stood until 1967.
 
-In 1933 the German minority in the north was nazified within two years of
-Hitler's appointment, and border revision returned as a demand; Denmark answered
+From 1933 the German minority in the north was nazified, by 1935 in its
+party organisation too, and border revision returned as a demand; Denmark answered
 by changing nothing. In April 1933 The Hague rejected Norway's occupation of
 eastern Greenland. In October 1935 the Social Democrats won 46.11 per cent, the
 largest share in Danish history, and still could not touch the Landsting. The
 Danish Nazis took three seats in 1939.
 
 On 23 May 1939 a proposal to abolish the Landsting won 91.85 per cent of the
-votes cast and failed, because only 48.9 per cent of the electorate voted and
+valid votes and failed, because only 48.9 per cent of the electorate voted and
 the yes votes came to 44.46 per cent of it against a required 45. It fell 11,762
 votes short.
 
@@ -736,20 +744,20 @@ votes short.
 
 **Recall.**
 
-1. Name the four laws of the social reform of 1933 and the date they came into
-   force.
-2. What did the Kanslergade agreement do to the krone, and what did it do to the
-   right to strike?
-3. How many votes did the constitutional proposal of 1939 receive, what
-   percentage of those voting was that, and why did it fail?
+1. What did the law of 16 May 1934 allow the state to do to the mentally
+   disabled, and until when did it stand?
+2. Who was in the flat at Kanslergade 10 on the night of 29–30 January 1933,
+   and how do we know what the room was like?
+3. How many yes votes did the constitutional proposal of 1939 receive, and by
+   how many votes did it miss the threshold?
 
 **Causal.**
 
 1. Explain how a fall in the price of bacon in Britain became a wave of forced
    sales of Danish farms, naming each step.
-2. The social reform of 1933 did not amend the constitution, and yet it restored
-   the vote to most of the people the constitution excluded. Explain the
-   mechanism.
+2. Kanslergade gave Venstre a cheaper krone and refinanced farms. Explain why
+   that was enough to get the social reform through a Landsting that Venstre
+   and the Conservatives controlled.
 3. Give the reasons a Danish smallholder in 1935 was less available to a
    nationalist party of protest than a German smallholder was.
 
@@ -768,12 +776,13 @@ votes short.
 
 1. Was the Kanslergade agreement a founding act of the welfare state or a
    crisis bargain that happened to contain one? Use what each party gained.
-2. Steincke's principle and Steincke's sterilisation laws came from the same
-   book. Argue that the second follows from the first, and then argue that it
-   does not.
-3. Denmark's restraint towards a minority organised by a hostile foreign state
-   has been called wisdom and has been called weakness. Make both cases, using
-   only what was known before April 1940.
+2. Steincke's reform replaced the poor law of 1891 but kept *fattighjælp* and
+   the rights it cost. Was 1933 a break with the old poor law, or a tidier
+   version of it?
+3. In 1933 Denmark's southern border rested on a plebiscite, and its claim to
+   eastern Greenland was upheld in court without consulting anyone who lived
+   there. Is there one principle that covers both, or were they two different
+   kinds of border?
 
 ---
 
@@ -803,9 +812,25 @@ votes short.
   farmers' approach of 11 January.
 - **The social reform.** lex.dk and danmarkshistorien.dk for the four laws and
   the commencement of 1 October 1933; §1 stk. 3 of the Lov om offentlig Forsorg
-  of 20 May 1933 and the three-way division of assistance from
-  danmarkshistorien.dk's source edition; the rights lost before 1933 from the
-  same site's "Fattighjælp og tab af rettigheder 1849–1933".
+  of 20 May 1933 and the three-way division of assistance, with the groups kept
+  on *fattighjælp*, from danmarkshistorien.dk's source edition; the rights lost
+  before 1933 from the same site's "Fattighjælp og tab af rettigheder
+  1849–1933". Venstre's abstention in the Landsting: danmarkshistorien.lex.dk,
+  *Socialreformen af 1933* ("ved at undlade at stemme"), and lex.dk,
+  *Kanslergadeforliget*, which also has Stauning's "ofret nogle principler, men
+  reddet landet".
+- **The poor's vote after 1933.** §30 b of the constitution of 1915 and §29 of
+  that of 1953 from danmarkshistorien.lex.dk's editions. The end in 1961, by the
+  Lov om offentlig forsorg (lov nr. 169 af 31. maj 1961), whose provisions
+  on the vote were lifted from 1 October 1961 (*Folketingstidende* 1960–61,
+  L 63, as chapter 45 quotes it): lex.dk, *Danmark — social sikring* ("først totalt afskaffet med Lov om offentlig forsorg i 1961"),
+  lex.dk, *Valgsystemer til folketings- og landstingsvalg, efter 1849*
+  ("fattighjælpsmodtagere opnåede valgret i ... 1961"), Gyldendal og Politikens
+  Danmarkshistorie, *Den lille socialreform*, and the introduction to
+  danmarkshistorien.lex.dk's edition of the 1933 law. One account disagrees:
+  danmarkshistorien.lex.dk, *De 7 F'er og den gradvise udvidelse af valgretten*,
+  says the poor got the vote with the election law of 1953; the four accounts
+  above, which name the law of 1961, are followed.
 - **Sterilisation.** The law of 1 June 1929 with its revision clause and the Lov
   om Foranstaltninger vedrørende aandssvage of 16 May 1934, both from
   danmarkshistorien.dk's source editions; the revising law of 11 May 1935 from
@@ -816,7 +841,11 @@ votes short.
   1936 and the 38–37 margin from Netavisen Pio, with danmarkshistorien.dk
   confirming only that the majority shifted in 1936. The DNSAP's foundation,
   Lembcke, Clausen's coup and the membership figure from danmarkshistorien.dk;
-  Clausen's life from Grænseforeningen.
+  Clausen's life from Grænseforeningen, and his birth date, 12 November 1893,
+  from Dansk Biografisk Leksikon.
+- **The krone in 1931.** Danmarks Nationalbank, *Kvartalsoversigt* 1999:3, for
+  29 September 1931; lex.dk, *Valutacentralen*, for the fall "også i forhold til
+  pundet" and the office's foundation in January 1932.
 - **The minority and Greenland.** danmarkshistorien.dk, "Det tyske mindretal i
   Nordslesvig 1920–", for *Påskeblæsten*, the 1933 takeover of the Slesvigsk
   Parti and the NSDAP branch of 1935. lex.dk's *Østgrønlandssagen* for 10 July
@@ -827,10 +856,15 @@ votes short.
   carried by three or more of Arbejdermuseet, *Folketidende*, Politiken Historie,
   Socialistisk Bibliotek and Arbejderen, which agree. Rigsarkivet's catalogue of
   Nakskov Politi's *straffeakter* 1931 confirms that file 1273 concerns "de 9
-  ledende personer i Nakskovurolighederne". Søren Kolstrup, *Nakskov '31* (1977),
+  ledende personer i Nakskovurolighederne". The tripling of the town's
+  unemployed in the winter of 1930–31 is Politiken Historie's; the thousand let
+  go in January and February 1931 is *Revolution*'s series on the labour
+  movement, one source. Søren Kolstrup, *Nakskov '31* (1977),
   is the standard study and has not been consulted.
 - **The room.** Augusta Erichsen, *Mit liv med Thorvald Stauning* (1967), pp.
-  45–47, by way of danmarkshistorien.dk's edition of the passage.
+  45–47, by way of danmarkshistorien.dk's edition of the passage, which gives her
+  dates as 1898–1971, the start at ten in the morning, Stauning's knock "efter
+  midnat" and Frisch's request "Dagen efter".
 - **Open questions this chapter carries.** The size of the January 1933
   devaluation is ten per cent in the encyclopedias and twelve to thirteen in
   Nissen, while the rates all of them print imply fourteen or seventeen depending
@@ -852,11 +886,11 @@ votes short.
 an unremarkable street; there is a plaque.
 
 **Nakskov.** The shipyard is gone and the sugar refinery is not. The town hall
-where the council voted the money and took it back the next morning is still
+where the council voted the money and took it back the next day is still
 the town hall.
 
 **Bovrup, between Aabenraa and Sønderborg.** Frits Clausen's village. The
-practice he kept for twenty years is a few minutes' walk from the church.
+practice he kept from 1924 is a few minutes' walk from the church.
 
 **Christiansborg, Copenhagen.** The Landsting's chamber, which survived the
 election of 1935 and the referendum of 1939, and which has been used since 1953

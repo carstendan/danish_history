@@ -91,8 +91,7 @@ called in, by the parish's own later account, one was presented.
 
 The small change was the least of it. Many people in the north took out loans
 in the years just after 1920, when the krone was cheap. §09 shows what happened
-when Danish governments decided to make it dear again: for many of those
-borrowers the burden doubled.
+to them when Danish governments decided to make it dear again.
 
 ---
 
@@ -100,8 +99,9 @@ borrowers the burden doubled.
 
 Den Danske Landmandsbank was founded in 1871 and run for thirty-eight years by
 Isak Glückstadt, a careful man who made it the largest bank in the country. His
-son Emil took it over in 1910, at thirty-five, trained in New York, London and
-Paris, and set out to make it an international house. By 1921 it was the largest
+son Emil, a director since 1907, took it over on his father's death in 1910. He
+had trained in New York, London and Paris, and he set out to make it an
+international house. By 1921 it was the largest
 bank in Scandinavia and did something like a third of all Danish banking. In
 February 1922 it paid a dividend of ten per cent.
 
@@ -178,7 +178,7 @@ and six hundred million kroner.
 > He was arrested in March and taken to Vestre Fængsel, already a sick man with
 > a weak heart. He has put his fortune at the bank's disposal, all but what his
 > wife brought to the marriage. He was born into the Jewish community his father
-> led for twenty-three years, and he has since become a Catholic.
+> would lead from 1887 until his death, and he has since become a Catholic.
 >
 > In June he needs an operation. He dies after it, on 23 June 1923, forty-seven
 > years old, with his trial still running. The court will find him guilty all
@@ -246,8 +246,9 @@ passed the Folketing. It did not become law.
 
 ## 1924: the party in office
 
-Chapter 36 left the Social Democrats with the two seats they had won in 1884.
-The men who sat in them were Peter Holm and Christen Hørdum.
+Chapter 36 followed the Social Democrats from the two seats they won in 1884 to
+eight in 1895. The men who sat in the first two were Peter Holm and Christen
+Hørdum.
 
 At the election of Friday 11 April 1924 the party became the largest in the
 Folketing, in votes and in seats, for the first time. It would stay the largest
@@ -264,7 +265,7 @@ size of an old single-member seat. After the district results, 31 supplementary
 seats were shared out so that each party's total came closer to its share of the
 national vote. Seven of the districts were Sønderjylland's, added by a law of 30
 August 1920 as a constituency of their own, with two extra supplementary seats
-for Jutland and three more seats in the Landsting. A party that had once needed
+for Jutland and four more seats in the Landsting. A party that had once needed
 to win districts outright now needed votes wherever they were.
 
 The chamber it produced was a portrait of the country's working politics. Of the
@@ -290,10 +291,9 @@ went to a party that wanted to abolish the armed forces it ran.
 
 The arithmetic was thin. Social Democrats and Radicals together held 75 of the
 149 seats, which is a majority of one, and the Radicals sat outside the
-government. On that base the disarmament bill got through the Folketing and no
-further. The king who had dismissed Zahle four years earlier appointed Stauning
-without incident, which is the Easter Crisis settled in practice rather than on
-paper.
+government. That was enough to carry the disarmament bill of §05 through the
+Folketing, and no further. The king who had dismissed Zahle four years earlier
+appointed Stauning without incident.
 
 The government did not survive the krone. Its handling of the currency deepened
 the slump in industry and farming, and in 1926 it could not find a majority for
@@ -319,12 +319,17 @@ been women.
 
 She was one of nine children of German immigrants. Her father was an army horn
 player who became a military bandmaster, the family moved to Helsingør, and her
-mother died young. Girls could not then go to the state grammar schools, so she
-was examined privately in 1889, and that year she was one of eight women among
-314 new students at the university. She read history and wrote her thesis on the
-Sound Toll, and she later published, with public and then private money, tables
-of the ships and cargoes that passed through the Sound from 1497 to 1660:
-chapter 18's subject, seen from inside the toll books.
+mother died young. She was taught by private tutors in Hillerød and Helsingør
+and examined as a privatist in 1889, and that year she was one of eight women
+among 314 new students at the university. She read history, finishing in 1894,
+and worked above all on the trade of the sixteenth century, which took her into
+the Sound Toll's records in the national archives. From them she published
+tables of the ships and cargoes that passed through the Sound from 1497 to 1660,
+the first volume in 1906 and the second in 1922, after she had asked states,
+cities and trading bodies in 1911–12, through a professor in Berlin, for money
+for a fund to carry the work on:
+chapter 18's subject, seen
+from inside the toll books.
 
 > **Vignette · Nina Bang, Copenhagen, 23 April 1924**
 >
@@ -365,7 +370,7 @@ worked in the poor-relief administration of Frederiksberg, and his handbook of
 1910, *Offentlig Hjælp*, became the standard work for the municipal officials
 who applied it. In 1919 the Ministry of the Interior asked him to set out the
 principles of a new system. His answer, *Fremtidens Forsørgelsesvæsen*, the
-social provision of the future, appeared in 1920. It waited thirteen years. When
+social provision of the future, appeared in 1920. It waited. When
 the social reform of 1933 was passed, with Steincke as social minister, it was
 built very largely on what he had proposed in 1920.
 
@@ -426,7 +431,7 @@ It also got a protest. Cornelius Petersen was a Frisian, born in Eiderstedt in
 come over to the Danish side in 1919. Speculation cost him money and the rising
 krone put him in real trouble. In 1925 he founded a self-government movement
 that demanded home rule for parishes and hundreds on hazy ideas of old Danish
-law, and from January 1926 he published a weekly, *Bondens Selvstyre*. On the
+law, and from 1926 he published a weekly, *Bondens Selvstyre*. On the
 Saturday before Whitsun 1927 his movement put its own money into circulation,
 seven or eight thousand kroner of S.O.S. notes. The one-krone note carried a
 picture of his farm. The National Bank did not think it worth pursuing.
@@ -436,9 +441,10 @@ did not matter if fifty thousand farmers left their farms, since there were
 fifty thousand unemployed to take them over. As far as this chapter can
 establish, the remark rests on that paper alone, and Petersen was fined two
 thousand kroner for the attack. It is still evidence of what the rising krone
-felt like on the land. At the election that December he won about two thousand
-votes. The paper closed in June 1928, and he died in Tønder in 1935, after time
-in a nerve clinic and a mental hospital.
+felt like on the land. At the Folketing election of December 1926 his
+self-government politics had won only about two thousand votes. The paper
+closed in June 1928, and he died in Tønder in 1935, after time in a nerve
+clinic and a mental hospital.
 
 Madsen-Mygdal's government lost the election of 24 April 1929. The usual telling
 of the return to gold is sound money restored, and in its own terms it was. The
@@ -567,8 +573,8 @@ its governments meant to make stronger, whatever it cost.
 towards half its pre-war value during a banking crisis in the early 1920s. From
 1925 the aim was the old gold value, reached on 1 May 1928, by which time
 unemployment was very high and farms were going to forced sale. A Labour
-government that took office that winter lasted only weeks and resigned on 15
-February 1928. Denmark and Norway ran the same experiment, and the country that
+government took office on 28 January 1928 and was gone on 15 February, eighteen
+days later. Denmark and Norway ran the same experiment, and the country that
 ran it longer paid more.
 
 ---
@@ -681,21 +687,19 @@ sterilisation law that came from Steincke's plan was passed within weeks.
 
 1. What was the *Udligningskassen for Sønderjylland*, how much did it hold, and
    how many people received compensation from it?
-2. What happened on the weekend of 8 and 9 July 1922, and what was left out of
-   the statement that followed?
-3. How many seats did the Social Democrats win on 11 April 1924, and how many
-   did they and the Radicals hold together out of 149?
+2. Who was Harald Plum, and what did the companies around the Transatlantic
+   Company owe the bank by 1922?
+3. How did the electoral law of 1920 turn votes into seats, and what were its
+   nomination districts and supplementary seats for?
 
 **Causal.**
 
-1. Explain why there was no single day on which Sønderjylland's marks were
-   exchanged for kroner, and why that made the German inflation matter so much
-   in the new province.
+1. Why did the new province run short of small change after 1920, and how did
+   the post office's encased stamps answer the shortage?
 2. A Venstre government rescued a private bank with state money in 1922. Give
    the reasons it was reluctant and the reasons it did so anyway.
-3. Trace how a policy all parties shared, the return of the krone to its old
-   gold value, brought down the first Social Democratic government and bore
-   hardest on Sønderjylland.
+3. Stauning's government won more votes in December 1926 and still lost office.
+   How had its handling of the krone brought it to that election?
 
 **Counterfactual.**
 
@@ -712,9 +716,8 @@ sterilisation law that came from Steincke's plan was passed within weeks.
 
 1. Was Emil Glückstadt the author of the Landmandsbank crash or its scapegoat?
    Use the commission's history in your answer.
-2. Munch held that a small state bordering a great power should not pretend it
-   could defend itself. Make the case that this was realism, and the case that
-   it was a failure of nerve.
+2. In the 1920s parliamentarism "was written nowhere. It was simply done." By
+   1929, was it secure, or only a habit that a future king could break?
 3. Steincke's plan of 1920 contained both the principle of help without
    humiliation and a programme of eugenics. Were these one idea or two?
 
@@ -750,6 +753,12 @@ sterilisation law that came from Steincke's plan was passed within weeks.
   statement and the guarantee; lex.dk on the prosecutions; Dansk Biografisk
   Leksikon on Glückstadt's death. Søren Mørch, *Det store bankkrak* (1986), is
   the standard study.
+- People: *Dansk Kvindebiografisk Leksikon* on Nina Bang (the tutors, the
+  examination of 1889, the toll tables and the fund); *Dansk Biografisk
+  Leksikon* on Isak and Emil Glückstadt and on Cornelius Petersen, which dates
+  *Bondens Selvstyre* from the autumn of 1926 and his two thousand votes to the
+  election of that year. Sønderjylland's seats: *Rigsdagsvalgene
+  september–oktober 1920*.
 - Defence: M. H. Clemmesen in *Fra Krig og Fred* (2021) on the 1922 army law and
   the interwar debate; Stauning's speech opening the Rigsdag, 5 October 1926, on
   the disarmament bill and the currency.

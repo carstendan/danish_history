@@ -10,7 +10,7 @@
 The revision of 1866 gave Denmark two chambers elected on different franchises,
 and by 1872 they were returning different countries.
 
-The Folketing kept universal suffrage and was carried, from 1872, by Venstre: the
+The Folketing kept the franchise of 1849 and was carried, from 1872, by Venstre: the
 heirs of chapter 32's Bondevennerne, the freeholders of chapter 35, the parishes, the meeting-houses, the folk high schools
 and the cooperative dairies. The Landsting was elected through electors of whom
 half were chosen by the highest taxpayers alone, with twelve members appointed by
@@ -761,15 +761,14 @@ majority anyway. Parliamentarism was not written into the constitution until 195
 
 **Causal.**
 
-1. The Folketing formally rejected the provisional finance law in January 1886 and
-   nothing changed. Why not, and what does that tell you about the 1849
-   constitution?
+1. Why did governing by provisional law oblige the government to keep sending the
+   Rigsdag home, and what does that say about what the clause was for?
 2. Elections to the Folketing went on through the provisional years, and Højre
    lost them one after another. Why did losing elections make no difference to who
    governed, and why did that turn a quarrel about a clause into a crisis about the
    state?
-3. The treasury was full and the fight was over money. Explain why both of those
-   statements are true.
+3. Christian 9. kept Estrup in office against the Folketing for years. On the
+   interpretation this chapter offers, why was he not disposed to give way?
 
 **Counterfactual.**
 

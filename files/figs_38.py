@@ -16,7 +16,7 @@ The design argument, which is also the chapter's: Zone I voted en bloc and Zone 
 commune by commune, and that asymmetry decided the border before a vote was cast.
 A choropleth would bury it under colour. Four German-majority towns inside the
 zone that went to Denmark, and a zone that was one-fifth Danish going to Germany
-with no Danish commune in it but three polling places on Før, is the whole of it.
+with no Danish commune in it but three polling places on Föhr, is the whole of it.
 
 SOURCED NUMBERS, and which of them survived a second appearance.
   Zone I, 10 February 1920
@@ -25,7 +25,7 @@ SOURCED NUMBERS, and which of them survived a second appearance.
     The 892-ballot gap between the two denominators is the spoiled papers.
   Zone II, 14 March 1920
     about 64,000 voted; about 80 per cent German; a German majority in every
-    voting district but three small polling places on Før.
+    voting district but three small polling places on Föhr.
   Communes — CONFIRMED by two independent appearances agreeing digit for digit:
     Aabenraa    2,224 Danish / 2,725 German   (4,949 voting)
     Sønderborg  2,029 Danish / 2,601 German   (4,630 voting)
@@ -70,7 +70,7 @@ def fold(text, cls, x, avail):
 
 LEGEND_A = ("Zone 1 went to Denmark whole, carrying four German-voting towns with it. "
             "No commune in Zone 2 returned a Danish majority \u2014 three small polling "
-            "places on F\u00f8r did, and stayed in Germany.")
+            "places on F\u00f6hr did, and stayed in Germany.")
 LEGEND_B = ("Lines are the legal zone boundaries at a scale where the border is two "
             "pixels wide, not traced survey. T\u00f8nder is marked German and carries no "
             "count: two sources give 761 of 3.265 and 750 of 3.198, and they do not "
@@ -249,23 +249,27 @@ def zones():
 # What the figure draws instead is the thing the chapter actually argues: that
 # Denmark held three general elections in one calendar year for three DIFFERENT
 # constitutional reasons, and that the reasons are the story. The first was
-# forced by a king dismissing a government; the second by a caretaker whose only
-# brief was to pass an electoral law and then go; the third by the constitution
-# requiring a fresh Rigsdag once Sønderjylland had been admitted to it.
+# forced by a king dismissing a government; the second by the constitution,
+# because an amendment had to pass a newly elected Rigsdag (lex.dk, Folketingsvalget
+# juli 1920); the third by the need to seat members from Sønderjylland once it
+# had been admitted (lex.dk, Folketingsvalget september 1920).
 #
-# Every date below is confirmed twice. The Folketing's growth of 8 seats on
-# 21 September is the one quantity on the figure, and it is the one that says
-# what the year was for.
+# Review session 11: the electoral law's day, 11 April, is Danmarks Statistik's
+# (Folketingsvalget 1920: "Valgloven af 11. April 1920"); lex.dk: the law "som
+# Friis' kortvarige forretningsministerium havde gennemført". The Folketing's growth on 21
+# September is 9 seats in lex.dk (139 to 148) and was 8 here; the figure now
+# carries no number. 15 June is the transfer of sovereignty (Grænseforeningen);
+# the demarcated line formally took effect on 1 January 1921.
 YEAR = [
     ("10 Feb", "Zone 1 votes. En bloc, and about three-quarters for Denmark.", "vote"),
     ("14 Mar", "Zone 2 votes, commune by commune, and about four-fifths German.", "vote"),
     ("29 Mar", "Christian 10. dismisses the Zahle ministry, which has a majority.", "crown"),
     ("30 Mar", "The trade union federation calls a general strike for 6 April.", "crown"),
-    ("4 Apr",  "Easter Sunday. The king gives way: Liebe out, Friis in, to hold a vote.", "crown"),
-    ("11 Apr", "A new electoral law.", "elec"),
+    ("4 Apr",  "Easter Sunday. The king gives way: Liebe goes, a caretaker under Friis is agreed.", "crown"),
+    ("11 Apr", "The Friis ministry passes a new electoral law: pure proportional representation.", "elec"),
     ("26 Apr", "ELECTION ONE — because the crown tried to use a power it had.", "elec"),
-    ("15 Jun", "The border comes into force. About 164,000 people change state.", "vote"),
-    ("6 Jul",  "ELECTION TWO — because the caretaker's only brief was to hold one.", "elec"),
+    ("15 Jun", "Sovereignty passes to Denmark. About 164,000 people change state.", "vote"),
+    ("6 Jul",  "ELECTION TWO — because a change to the constitution needs a new Rigsdag.", "elec"),
     ("10 Jul", "The king rides across the old border at Frederikshøj.", "crown"),
     ("6 Sep",  "A referendum approves the constitutional change admitting the north.", "vote"),
     ("21 Sep", "ELECTION THREE — because the new Rigsdag had to include the new land.", "elec"),
@@ -279,18 +283,19 @@ def year():
     # HEIGHT COMPUTED from the row count, as figure 1's is from its line count.
     H = top + row * len(YEAR) + 58
     o = ['<svg viewBox="0 0 %d %d" xmlns="http://www.w3.org/2000/svg" role="img" '
-         'aria-label="A calendar of 1920 in Denmark, twelve dated entries from the first '
-         'plebiscite in February to the third general election in September. Three of the '
-         'entries are general elections, each held for a different constitutional reason: '
-         'the first because the king had dismissed a government, the second because the '
-         'caretaker ministry existed only to call one, the third because the constitution '
-         'required a new Rigsdag once Soenderjylland had been admitted.">' % (W, H)]
+         'aria-label="A calendar of 1920 in Denmark, twelve dated events from the first '
+         'plebiscite in February to the third general election in September. Three of '
+         'them are general elections, each held for a different constitutional reason: '
+         'the first because the king had dismissed a government, the second because a '
+         'change to the constitution had to pass a newly elected Rigsdag, the third '
+         'because the Rigsdag had to include members from Soenderjylland once it had '
+         'been admitted.">' % (W, H)]
     o.append('<rect x="0" y="0" width="%d" height="%d" fill="%s"/>' % (W, H, PAPER))
     o.append('<text x="14" y="24" class="mapl">1920</text>')
     o.append('<text x="14" y="40" class="mapt">three general elections in one year, and no '
              'two of them for the same reason</text>')
-    o.append('<text x="14" y="62" class="mapx" opacity=".75">Party totals are deliberately '
-             'absent: see the note in the script. The dates are the argument.</text>')
+    o.append('<text x="14" y="62" class="mapx" opacity=".75">Party totals are left out: '
+             'they could not be confirmed twice. The dates are the argument.</text>')
     axis = left - 26
     o.append('<path d="M %d %d L %d %d" stroke="%s" stroke-width="1.2" opacity=".45"/>'
              % (axis, top - 12, axis, top + row * (len(YEAR) - 1) + 8, INK))
@@ -307,9 +312,9 @@ def year():
             o.append('<text x="%d" y="%.1f" class="%s" fill="%s">%s</text>'
                      % (left, y + j * 12, cls, col if big else INK, ln))
     fy = top + row * (len(YEAR) - 1) + 34
-    for ln in fold("On 21 September the Folketing grew by eight seats, which is what the "
-                   "whole year had been about: the new land had to be able to send people "
-                   "to the parliament that now governed it.", "mapx", 14, W):
+    for ln in fold("On 21 September the Folketing took in members from the north, which is "
+                   "what the whole year had been about: the new land had to be able to send "
+                   "people to the parliament that now governed it.", "mapx", 14, W):
         o.append('<text x="14" y="%d" class="mapx">%s</text>' % (fy, ln)); fy += 13
     o.append('</svg>')
     return "\n  ".join(o)

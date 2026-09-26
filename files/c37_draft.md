@@ -12,26 +12,30 @@ to about the change of system: the name promises more than the event delivered.
 
 Christian 9. appointed a ministry from the Folketing majority and refused to say
 that he was obliged to. The Landsting kept the franchise that had made it a Højre
-chamber, and would keep it for fourteen more years. The clause that had licensed
+chamber, and would keep it until 1915. The clause that had licensed
 the provisional laws was still in the text, unamended. If the king had chosen a
 different ministry in 1902 nobody could have pointed to a sentence forbidding it.
 
 What changed was that a government could now legislate, because for the first
 time since 1872 the two chambers were not designed to cancel each other.
 
-The Deuntzer ministry used its first two years hard. The ballot became written
-and secret in 1901, which sounds procedural and was not: it ended the open show
-of hands under a landlord's eye. The tax reform of 1903 finally replaced the land
-tax assessed on *hartkorn* — the rye-barrel valuation this book has been carrying
+One change came before the ministry did. The election of 3 April 1901 was the
+first held by written and secret ballot, which sounds procedural and was not: it
+ended the open show of hands under a landlord's eye.
+
+The Deuntzer ministry then used its first two years hard. The tax reform of 1903
+finally replaced the land tax assessed on *hartkorn* — the rye-barrel valuation this book has been carrying
 since the seventeenth century — with taxes on income and on property value. The
 school law of the same year built a ladder, the *mellemskole*, from the village
 classroom to the gymnasium, so that a clever child in a parish no longer needed a
-patron to climb. And the parish council law of 1903 put local government on an
-elected footing.
+patron to climb. And the church council law of 1903, whose story chapter 36
+tells, put an elected *menighedsråd* into every parish, with women voting
+on the same terms as men.
 
-Four laws in two years, after nineteen years in which almost nothing had passed
-at all. The system change was an administrative unblocking. The constitutional
-question it appeared to settle was not settled, and would be asked twice more.
+Three laws in one year, from a Rigsdag whose reform legislation had waited on the
+constitutional quarrel for a generation. The system change was an administrative
+unblocking. The constitutional question it appeared to settle was not settled, and
+would be asked twice more.
 
 ---
 
@@ -44,17 +48,18 @@ Jutland schoolmasters, rifle-club veterans and Copenhagen editors, men who wante
 an army and men who thought armies had lost Denmark Schleswig. What held them
 together was Estrup, and he was gone.
 
-The break came over defence and was widened by Alberti. In 1905 the government
-proposed a new military settlement; the anti-militarist wing would not have it,
-and the dissenters constituted themselves at Odense that year as **Det Radikale
+The break came over defence and was widened by Alberti. The anti-militarist
+members whom the Venstrereformparti had expelled, at odds with it above all over
+the army, constituted themselves at Odense in May 1905 as **Det Radikale
 Venstre**, the Radical Left. Their programme was disarmament by degrees,
 neutrality guaranteed by treaty rather than fortification, land for smallholders
 and the vote for everyone. Their constituency was the two groups nobody had built
 a party for: the *husmænd*, who had got the worst of the cooperative century, and
 the urban salaried — teachers, journalists, doctors.
 
-Their inheritance was Viggo Hørup, dead in 1902 after thirty years of asking what
-a Danish army was for; their leaders were Carl Theodor Zahle, a lawyer, and Peter
+Their inheritance was Viggo Hørup, dead in February 1902, who had answered the
+defence movement in a speech of 1883 with the question *Hvad skal det nytte?* —
+what use is it? Their leaders were Carl Theodor Zahle, a lawyer, and Peter
 Munch, a historian who would hold the foreign ministry for eleven years. Their
 newspaper was Hørup's *Politiken*, which in 1908 destroyed the government by
 refusing to stop asking about a savings bank.
@@ -93,7 +98,7 @@ father. He ran the butter export association that sold Zealand butter abroad. He
 sat for Køge. He was, in one body, the cooperative movement's money, its politics
 and its produce.
 
-He was also, by then, eleven years into a fraud.
+He was also, by then, more than a decade into a fraud.
 
 The mechanism was simple and almost entirely political. To keep the Zealand
 farmers loyal, Alberti paid them more for their butter than he could sell it for
@@ -107,14 +112,15 @@ He was warned about repeatedly, and protected. The head of the National Bank had
 found irregularities in the accounts and said so; a commission of inquiry was
 refused. **J.C. Christensen** — the schoolmaster from Stadil, now council
 president — had Alberti's word as a gentleman, and took a man's word seriously
-enough to disbelieve his own central bank. In May 1908 he lent him one and a half
-million kroner from the treasury.
+enough to disbelieve his own central bank. In May 1908 he lent Alberti's savings
+bank one and a half million kroner from the treasury.
 
 On 24 July 1908, seven years to the day after his appointment, Alberti resigned
 and was honoured with the title of *gehejmekonferensråd*. He had just carried the
-*Retsplejelov*, which gave Denmark public, oral and adversarial courts — the most
-consequential legal statute of the century, passed by a man who knew he was going
-to prison.
+*Retsplejelov* through both chambers — public and oral courts, separated from the
+police, with juries: the most consequential legal statute of the century. The
+Rigsdag passed it again in 1909 so that his name would not stand on it, and the
+courts it described opened only in 1919.
 
 On the morning of 8 September the treasury loan fell due, and a London bank
 refused him. He considered the two loaded revolvers in the office safe, put them
@@ -123,14 +129,15 @@ the duty sergeant wrote that the former minister of justice had reported himself
 guilty of forgery and fraud in respect of very large sums, the size of which
 could not at present be established.
 
-It was over fifteen million kroner: some forty per cent of the bank's deposits
-against a reserve of seven hundred thousand, and near a fifth of the state's
-revenue for a year, when a skilled hour of work was paid fifty øre.
+The savings bank alone had lost 14.7 million kroner, and the dairies and the
+treasury more than two million besides: near a fifth of the state's revenue for a
+year, when a skilled hour of work was paid fifty øre.
 
 Christensen's government fell on 12 October. A court of impeachment tried him and
 his interior minister Sigurd Berg; Berg was convicted, Christensen acquitted, and
-neither verdict repaired him. Alberti was sentenced on 17 December 1910 to eight
-years, and served them in Horsens, where in two years he lost sixty-two kilos.
+neither verdict repaired him. Alberti was sentenced shortly before Christmas 1910
+to eight years and sent to Horsens. He went in weighing 138½ kilos; by 1912 he
+weighed seventy. He was pardoned in August 1917.
 
 The system of 1901 was seven years old and had produced the largest fraud in
 Danish history from inside the cabinet. It survived, which is the point: the
@@ -141,25 +148,26 @@ proposed abandoning the experiment.
 
 ## The defence question, and a fortress never fired
 
-Vestvolden was finished in 1892 and obsolete before the mortar dried: fourteen
-kilometres of rampart west of Copenhagen, built to stop an army that would, when
-it came, not be stopped by earth.
+Chapter 36 left the Vestvold finished in 1892 and its further build-out stopped
+by the settlement of 1894. The question of what Copenhagen's fortifications were
+for outlived both, and the honest answer was that no arrangement of Danish
+concrete could survive a serious German decision.
 
-The question of what to do about it consumed Danish politics for two decades, and
-the honest answer was that no arrangement of Danish concrete could survive a
-serious German decision. The defence settlement of 1909 was the compromise: the
-land fortification of Copenhagen wound down, the sea defences kept, the army
-retained at a size that could assert neutrality without pretending to defend the
-country. The Radicals accepted it and hated it. The right accepted it and hated
-it.
+The defence laws of 1909, fifteen years after that settlement, were the
+compromise: the land fortification of Copenhagen to be abolished from 1922, the
+sea fortification strengthened with new forts and batteries, the army retained at
+a size that could assert neutrality without pretending to defend the country.
+Venstre and Højre carried them. The Radicals and the Social Democrats voted
+against them — and from October 1909 a Radical government under Zahle governed
+under them.
 
-Then in 1915 the government began building a new line anyway — the
-*Tunestilling*, twenty-two kilometres from Køge Bugt to Roskilde Fjord, dug
-through three years of war by men who could not be spared, to close the last
-land approach to the capital.
+Then in the autumn of 1915 the government began a new line anyway — the
+*Tunestilling*, some twenty-two kilometres of trenches, gun positions and wire
+from Køge Bugt to Roskilde Fjord, dug by conscripts of the security force until
+the war ended, to close the last land approach to the capital.
 
-It was never attacked. Not one gun on any Copenhagen fortification was fired at
-an enemy in either world war. That is not a verdict on the money. The whole
+It was never attacked, and no gun on any Copenhagen fortification was fired at
+an invader in the war it was built for. That is not a verdict on the money. The whole
 military function of these works was to be visible from Berlin — to make the cost
 of coming through Denmark non-zero, and so to make the argument for leaving
 Denmark alone. A fortress that is never fired has either failed completely or
@@ -169,23 +177,21 @@ worked perfectly, and there is no measurement that distinguishes the two.
 
 ## 5 June 1915: the seven categories, minus two
 
-The franchise of 1849 went to men over thirty of unblemished repute who held
-Danish citizenship and their own household. What it excluded was summarised by a
-joke that lasted sixty-six years: **de syv F'er**, the seven F's. *Fruentimmere*,
-women. *Folkehold*, servants living in another man's house. *Fattige*, those who
-had taken poor relief and not repaid it. *Fallenter*, bankrupts. *Fjolser*, the
-legally incapacitated. *Forbrydere*, convicts. *Fremmede*, foreigners. Between
-them they excluded about eighty-five people in every hundred, so the "universal
-suffrage" of chapter 33 was the suffrage of roughly one Dane in seven.
+The franchise of 1849, as chapter 33 set it out, went to men over thirty of
+unblemished repute who held Danish citizenship and their own household: 15 per
+cent of the population, roughly one Dane in seven. Popular speech named the
+excluded **de syv F'er**, the seven F's — women, servants in another man's house,
+those on unrepaid poor relief, bankrupts, the legally incapacitated, convicts and
+foreigners.
 
-The constitution signed at Amalienborg on 5 June 1915 let in two of them. Women
-got the vote and the right to stand, and so did servants without a household of
-their own. Both had been excluded by one piece of reasoning — that a person
+The constitution signed at Amalienborg on 5 June 1915, sixty-six years to the day
+after the first, let in two of them. Women got the vote and the right to stand,
+and so did servants without a household of their own. Both had been excluded by one piece of reasoning — that a person
 inside another's household was represented by its head. The master spoke for the
 maid and the husband for the wife, and 1915 ended both in a clause.
 
 It did three other things. It abolished the privileged franchise to the
-Landsting, so that whoever could vote for one chamber could vote for the other.
+Landsting, so that the highest taxpayers no longer chose half its electors.
 It moved the electoral system towards proportionality. And it required that any
 future change to the constitution go to the people, which is why every
 constitutional argument after this one ends at a ballot box.
@@ -212,16 +218,16 @@ chosen by the outgoing chamber: the last conservative ballast in the Danish
 constitution, and chapter 45 will throw it overboard.
 
 The proposal passed, the Rigsdag was dissolved, an election was held on 7 May
-1915, and the new Rigsdag passed it again. In December, Højre wound itself up and
-Det Konservative Folkeparti registered in its place: a conservative party built
-for universal suffrage, there being no other kind left.
+1915, and the new Rigsdag passed it again. Højre then remade itself as Det
+Konservative Folkeparti, whose founding council met on 22 February 1916: a
+conservative party built for a mass electorate, there being no other kind left.
 
-What the constitution did not do matters as much. Poor-relief recipients stayed
-out until 1933. Convicts stayed out until 1959. Those under guardianship are out
-still.
+What the constitution did not do matters as much, and figure 1 has it: five of
+the seven categories were still outside, and two of them are outside still.
 
-There was also no election on the new rolls. The Rigsdag elected in May served out its term and the first
-Folketing election on the new rolls was not held until **1918**. So the first
+There was also no election on the new rolls. The Rigsdag elected in May served
+out its term and the first Folketing election on the new rolls was not held until
+**1918**. So the first
 national vote in which Danish women and servants cast a ballot was not a general
 election at all. It was a referendum, eighteen months later, on whether to sell a
 colony.
@@ -246,11 +252,13 @@ colony.
 > the signed constitution to a joint session. Christian 10. issues an official
 > reply to the procession, and addresses it to the housewives.
 >
-> The next day she speaks on Himmelbjerget, and says that the thing to do is not
-> to resent those who fought it but to thank God for the victory.
+> On Himmelbjerget, where the women unveil a constitution oak of their own that
+> year, she gives the speech at the constitution festival.
 >
-> Line Luplau, who founded the first Danish women's suffrage society and died in
-> 1891, is not there. Her association outlived her by twenty-four years and won.
+> Line Luplau, who founded the first Danish association with women's suffrage and
+> nothing else on its programme, died in 1891 and is not there. Her association did
+> not see the century out — it was dissolved in 1898. The cause she founded it for
+> is won today.
 >
 > Jutta Bojsen-Møller, honorary chair · Copenhagen · 5 June 1915 · [f]
 
@@ -291,19 +299,19 @@ distinction held for four years.
 Inside the country the Rigsdag passed the **August laws** unanimously — powers to
 fix maximum prices, ban exports, and requisition. A parliament that had spent a
 generation unable to agree a budget agreed emergency economic control of the
-whole country in a fortnight.
+whole country on 7 August, within a week.
 
-And south of the Kongeå, thirty thousand Danish-minded men of Nordslesvig were
-conscripted into the German army, because they were German subjects and had been
-since chapter 34. The Danish government that mined the Belts to stay out of the
-war had no standing to ask for a single one of them back.
+And south of the Kongeå, some thirty thousand men of North
+Schleswig would be conscripted into the German army before the war was over,
+because they were German subjects and had been since chapter 34. The Danish
+government that mined the Belts to stay out of the war had no standing to ask for a single one of them back.
 
 > **Vignette · Kresten Andresen, the Somme, August 1916**
 >
 > He was born in 1890 at Ullerup on Sundeved, on a farm in a family that read. He
 > took his student examination in 1911, studied in Copenhagen, and came home in
 > 1913 to work for the language association that was trying to hold back the
-> Germanisation of Nordslesvig. In the summer of 1914 he finished the manuscript
+> Germanisation of North Schleswig. In the summer of 1914 he finished the manuscript
 > of his first book. On the last page, in a hurrying hand, he wrote that in the
 > same breath as he set down the final word his father had come in to say
 > mobilisation, God help those of us who have to go, and who knows when or whether
@@ -339,8 +347,9 @@ indifferent and sometimes appalling quality south. The men who made fortunes at
 it were called **gullaschbaroner**, and the word survives in Danish for a
 profiteer of any kind.
 
-Prices followed. A price regulation commission sat from 1914 and went on sitting
-until 1921. By 1917, with unrestricted submarine warfare closing the sea lanes
+Prices followed. The commission set up under the August laws, *Den Overordentlige
+Kommission*, fixed maximum prices, and inflation still ran at about twenty per cent a year. By
+1917, with unrestricted submarine warfare closing the sea lanes
 and the imported fodder that the whole export agriculture ran on no longer
 arriving, price control was not enough. Denmark issued its first ration cards —
 sugar, bread, flour, butter, pork, coffee — in a country that had spent thirty
@@ -371,7 +380,7 @@ service, **702 died** — one in fourteen. Two hundred and one of those were in
 sailing ships that left harbour and were never heard of again: no signal, no
 wreckage, no date of death but the date they should have arrived.
 
-That is the balance of Danish neutrality. Nobody was conscripted, nobody was
+That is the balance of Danish neutrality. Denmark sent nobody to fight, nobody was
 bombed, no foreign soldier crossed the border, and one civilian trade lost seven
 per cent of its men while the men ashore were called barons.
 
@@ -380,12 +389,12 @@ per cent of its men while the men ashore were called barons.
 ## What the islands were: 1848, 1878, and labour under the Danish flag
 
 The Danish account of 1917 is a transaction, and the islands were not an asset.
-They were three different places with three centuries of history, most of it made
+They were three different places with centuries of history, most of it made
 by people who do not appear in the Danish version. St Croix was the plantation
 island, flat enough to grow cane at scale. St Thomas was a harbour — a free port
 and coaling station living on other people's shipping, worked by dockers rather
-than field hands. St Jan was small, hilly and poor, its estates largely abandoned
-since the rising of 1733.
+than field hands. St Jan was small, hilly and poor, and chapter 30's rising of
+1733 had been fought there.
 
 And the colony lost money, which is what the sale argument rests on. Cane sugar
 had been losing to European beet since before chapter 31's world ended and never
@@ -400,8 +409,9 @@ On 2 and 3 July 1848 the enslaved of St Croix, some eight thousand of them,
 gathered at Frederiksted and demanded their freedom, the fort in front of them
 and the estates behind. The governor-general, Peter von Scholten, arrived, looked
 at what was in the square, and declared every unfree person in the Danish West
-Indies free from that day. He had no authority to do it and was recalled and
-court-martialled for it.
+Indies free from that day. He had no authority to do it. He laid down his office
+at once, and at home a special commission court sentenced him in 1851 to lose it;
+the Supreme Court acquitted him the next year.
 
 The Danish telling has made von Scholten the author of emancipation. He was its
 signatory. The authors were the eight thousand people who made the alternative
@@ -438,7 +448,7 @@ day.
 > He was born on St Croix in 1884, the son of two teachers, and became a teacher
 > himself until the Danish school authorities dismissed him for saying what he
 > thought; then a clerk, until he fell out with the governor. In 1913, with Ralph
-> Bough, he organised the first labour union the islands had ever had.
+> Bough, he began organising the first labour union the islands had ever had.
 >
 > Under Danish law no privately owned newspaper could be published in the colony.
 > In April 1915 the union sent Jackson to Denmark to argue about it. He met the
@@ -457,8 +467,8 @@ day.
 > history of the Danish West Indies, four pages, announcing that the people should
 > rule and not be ruled by a few selected bosses.
 >
-> He founded the St Croix Labour Union the same month. On 24 January 1916 he
-> called the islands' first general strike. It ended on 26 February with the day
+> On 24 January 1916 the St Croix Labour Union called the islands' first general
+> strike. It ended on 26 February with the day
 > wage raised from twenty cents to thirty-five and the working day cut to nine
 > hours.
 >
@@ -487,14 +497,16 @@ Zahle's Radical government opened secret talks with the American minister in
 Copenhagen in the autumn of 1915. The Danish press found out in July 1916 and the
 government nearly fell. The opposition demanded a general election; neither the
 king nor the government wanted a national campaign in the middle of a world war;
-and the way out, agreed on 30 September, was a three-part fudge — opposition
-"control ministers" taken into the cabinet, a commission of inquiry, and the whole
+and the way out, agreed on 30 September, was a three-part fudge — "control
+ministers" from Venstre, the Conservatives and the Social Democrats taken into the
+cabinet, a commission of inquiry, and the whole
 question put to the electorate.
 
 The treaty was signed on 4 August 1916. The price was twenty-five million dollars
 in gold, and one other thing that would matter more to this book than the money:
-the United States recognised Danish sovereignty over the whole of Greenland. One
-colony was sold and the claim to another was bought with the proceeds.
+the United States declared that it would not object to Denmark extending its
+political and economic interests to the whole of Greenland. One colony was sold,
+and in the same bargain the claim to another was secured.
 
 The referendum was held on **14 December 1916** and was the first in Danish
 history. It was also, as section five promised, the first national vote on the
@@ -504,21 +516,20 @@ twenty-nine.
 Two hundred and eighty-three thousand voted to sell. A hundred and fifty-eight
 thousand voted not to. That is 64.2 per cent against 35.8 — and a turnout of
 **37.4 per cent**, barely half what a general election drew. Two places returned
-a no majority: Gentofte, and Hjørring Amt. The figure is often rounded up to
-"about forty per cent"; Danmarks Statistik's own number is 37.4, and the rounding
-flatters the occasion.
+a no majority: Gentofte, and Hjørring Amt.
 
 Both sides campaigned hard, on posters and postcards and stamps. The conservative
 case was that the islands could still be made to pay and that Denmark had a
-responsibility for them. It was the better argument, and two-thirds of a
-turnout under two-fifths disagreed.
+responsibility for them. Two-thirds of a turnout under two-fifths were not
+persuaded.
 
 ---
 
 ## 31 March 1917
 
-The transfer took place at Christiansted on 31 March 1917. The Danish flag came
-down, the American flag went up, and the Danish West Indies became the Virgin
+The transfer took place on the afternoon of 31 March 1917, before Fort Christian
+at Charlotte Amalie on St Thomas and in ceremonies of their own at Christiansted
+and Frederiksted. The Danish flag came down, the American flag went up, and the Danish West Indies became the Virgin
 Islands of the United States.
 
 At the census of 1911 there had been 27,086 people on the three islands. Not one
@@ -528,10 +539,10 @@ thirty-seven per cent, and the people being transferred were not consulted,
 because they were not a people in the sense the question was being asked in. They
 were the thing being asked about.
 
-Except that they were asked, once, by one of their own. Jackson's union ran its
-own unofficial ballots among the field labourers of St Croix, and the labourers
-voted overwhelmingly to be sold — they had lived under the Danish flag and
-preferred the other one. The vote had no legal standing whatever. Nobody in
+Except that they were asked, once, unofficially. On 17 August 1916, thirteen days
+after the treaty was signed, a ballot was held in the islands themselves, and it
+went 4,027 to 7 for the sale — they had lived under the Danish flag and preferred
+the other one. The vote had no legal standing whatever. Nobody in
 Copenhagen was obliged to read it and nobody counted it into anything.
 
 That is the composite state in one transaction. Denmark held three islands for
@@ -541,8 +552,8 @@ burned Frederiksted, and sold them at last by a ballot they were absent from —
 while the people most concerned held a vote of their own that nobody had to look
 at.
 
-The money bought Greenland. What that was worth, and what it cost, is not settled
-in this chapter.
+The bargain secured Greenland. What that was worth, and what it cost, is not
+settled in this chapter.
 
 ---
 
@@ -560,6 +571,8 @@ series: Recall, Causal, Counterfactual, Contested.*
 - **mellemskole** — the middle school created in 1903: four years between the
   primary school and the gymnasium, and the first continuous ladder from a village
   classroom to a university in Danish history.
+- **menighedsråd** — church council: the elected parish body of the folkekirke,
+  created by the law of 1903 (chapter 36) and made permanent in 1912.
 
 **§02 — the Radicals, 1905**
 
@@ -576,10 +589,10 @@ series: Recall, Causal, Counterfactual, Contested.*
 - **gehejmekonferensråd** — privy councillor, the highest rank in the Danish table
   of precedence and by 1908 purely honorific. Conferred on Alberti six weeks
   before he confessed.
-- **Retsplejeloven** — the administration of justice act of 1908: public, oral and
-  adversarial proceedings, the separation of police and judiciary, and the jury.
-  Denmark's most important legal statute of the century, carried by the man in
-  this section.
+- **Retsplejeloven** — the administration of justice act: public and oral
+  proceedings, the separation of the courts from the administration, and the jury.
+  Carried in 1908 by the man in this section, passed again in 1909 without his
+  name, enacted in its final form in 1916 and in force from 1 October 1919.
 - **Rigsretten** — the court of impeachment, Rigsdag members sitting with supreme
   court judges, which tries ministers for their conduct in office. Convened over
   Alberti's protectors in 1910.
@@ -631,8 +644,8 @@ series: Recall, Causal, Counterfactual, Contested.*
 
 **§09 — selling them**
 
-- **kontrolminister** — "control minister": an opposition politician taken into a
-  government without portfolio, to watch it. The 1916 improvisation that avoided a
+- **kontrolminister** — "control minister": a politician of another party taken
+  into a government without portfolio, to watch it. The 1916 improvisation that avoided a
   wartime election, and a Danish constitutional curiosity with no clear parallel.
 
 ---
@@ -646,8 +659,8 @@ an isolated transaction; it is one item in a Caribbean enclosure, and the Danish
 question of whether to sell was in practice a question of when.
 
 **Petrograd and Berlin, 1917–18.** The franchise Denmark extended by negotiation
-in 1915, other countries extended in 1918 under the pressure of defeat or
-revolution — Germany, Austria, Russia. Denmark is an outlier in the timing of
+in 1915, other countries extended in 1917 and 1918 under the pressure of
+revolution or defeat — Russia, then Germany and Austria. Denmark is an outlier in the timing of
 women's suffrage but not in the decade, and the Danish route to it was a bargain
 struck by a chamber of landowners rather than a collapse.
 
@@ -656,7 +669,7 @@ struck by a chamber of landowners rather than a collapse.
 ## Checkpoints
 
 **Before §04.** Where we are: the change of system has produced a working
-legislature and, within seven years, the largest fraud in Danish history. The
+legislature and, seven years on, the largest fraud in Danish history. The
 question in front of the reader is whether a system that could produce Alberti
 could also survive him, and the answer so far is that it did.
 
@@ -672,42 +685,43 @@ conducted as if §08 had not happened, and that is the point of the ordering.
 
 ## Myth-check
 
-**"Denmark freed the slaves in 1848."** Denmark did not. Eight thousand enslaved
-people assembled at Frederiksted and demanded it, and a governor-general with no
-authority to grant it granted it on the spot and was court-martialled for it. A
-gradual emancipation had been legislated in 1847 and would have taken twelve
-years. The July rising took twelve hours. The Danish account that makes von
-Scholten the author of emancipation has confused the man who wrote the minute
-with the meeting that decided it.
+**"Denmark freed the slaves in 1848."** Denmark did not, and §08 says who did.
+What the Danish account also leaves out is Denmark's own plan: a gradual
+emancipation had been legislated in 1847, freeing children born from then on and
+everyone else only after twelve years. The rising of July 1848 replaced twelve
+years with a day.
 
-**"Jackson won his case before the king."** No record of the audience survives,
-and the Danish National Archives — which hold a great deal on the rest of his
-trip — have nothing on what was said in it. The judgement of the archivists is
-that nothing substantial came of it. What came home from Denmark was a printing
-press. The claim, repeated in the islands and in Denmark, that Jackson was the
-first Black man to address a Danish public audience is a celebratory invention
-and is not used here.
+**"Jackson won his case before the king."** §08's vignette gives the archive's
+answer: nothing was recorded, and nothing substantial came of the audience. The
+other claim made for the visit, repeated in the islands and in Denmark, that
+Jackson was the first Black man to address a Danish public audience, is a
+celebratory invention and is not used here.
 
 **"Only about forty per cent voted in 1916."** 37.4, on Danmarks Statistik's own
 figure. The rounding is common in Danish popular accounts and it flatters the
 occasion by two and a half points.
 
 **"1915 gave Denmark universal suffrage."** It gave the vote to two of the seven
-excluded categories. Poor-relief recipients waited until 1933, convicts until
-1959, and those under guardianship are waiting still.
+excluded categories. Convicts waited until the electoral law of 1953, and
+bankrupts until the constitution of the same year; most of the poor until the
+social reform of 1933, and the rest until 1961; and those under
+guardianship and those without Danish citizenship are waiting still.
 
 ---
 
 ## Carry-forward
 
-**→ 38.** The men of Nordslesvig conscripted in 1914 come home in 1920, to a
-border drawn by the people who survived.
+**→ 38.** The men of North Schleswig conscripted into the German army come home
+in November 1918, and in 1920 the border is drawn by asking the people who
+survived.
 
-**→ 44.** The twenty-five million dollars bought American recognition of
-Danish sovereignty over Greenland. Chapter 44 settles what that was worth.
+**→ 44.** The sale came with an American promise not to object to Danish claims
+over the whole of Greenland. Thirty years later, in chapter 44, the United States
+offers to buy Greenland outright.
 
-**→ 40, 45.** The seven categories: the poor-relief disqualification redefined in
-1933 and ended only in 1961, and the voting age put to the people in 1953.
+**→ 40, 45.** The seven categories: the poor-relief disqualification narrowed in
+1933, which gave most of the poor the vote back, and ended only in 1961; and the
+voting age put to the people in 1953.
 
 **→ 45.** The Landsting kept a quarter of its seats in its own gift and a
 voting age of thirty-five. Both go in 1953.
@@ -722,9 +736,10 @@ does not survive the meeting.
 The change of system of 1901 altered no word of the constitution. Christian 9.
 appointed a ministry from the Folketing majority and refused to concede that he
 had to, and the Landsting kept the franchise that made it a Højre chamber. What
-changed was that legislation became possible again, and the four laws of 1903 —
-the secret ballot, the tax reform that finally retired hartkorn, the school ladder
-and the elected parish council — are what it was for.
+changed was that legislation became possible again, and the three laws of 1903 —
+the tax reform that finally retired hartkorn, the school ladder and the elected
+church council — are what it was for. The secret ballot had come just before it,
+at the election of April 1901.
 
 Venstre in office turned out to be three parties. The Radicals constituted
 themselves at Odense in 1905 over defence and were confirmed in it by Alberti, and
@@ -734,43 +749,47 @@ alone, is the shape of Danish politics from here to the end of the book.
 
 P.A. Alberti was the new system's representative man — the savings bank, the
 butter export, the Folketing seat and the justice ministry in one body — and he
-had been eleven years into a fraud when he was appointed. He carried the
-administration of justice act and confessed three months later to more than
-fifteen million kroner. The government fell, a court of impeachment sat, and
+had been more than a decade into a fraud when he was appointed. He carried the
+administration of justice act in 1908 and confessed that September to a fraud that
+had cost his savings bank 14.7 million kroner. The government fell, a court of impeachment sat, and
 nobody proposed abandoning the experiment.
 
 The constitution of 5 June 1915 admitted two of the seven excluded categories,
 women and servants, and abolished the privileged franchise to the Landsting. The
 conservatives sold their agreement for proportional representation and a voting
-age lowered in stages, and Højre dissolved itself that December. Poor-relief
-recipients waited until 1933 and convicts until 1959.
+age lowered in stages, and Højre remade itself as the Conservative People's
+Party. Convicts waited until 1953; most of the poor waited until 1933, and the
+rest until 1961.
 
 Denmark stayed out of the war by mining its own straits at Germany's request, grew
 rich selling tinned meat to both sides, rationed its bread by 1917, and lost 702
 merchant seamen — one man in fourteen. Then it sold the Danish West Indies for
-twenty-five million dollars and American recognition of its claim to Greenland, by
-a referendum in which 37.4 per cent of Danes voted and none of the 27,086
+twenty-five million dollars and an American promise not to contest its claim to
+the whole of Greenland, by
+a referendum in which 37.4 per cent of the electorate voted and none of the 27,086
 islanders did.
 
 ## Questions
 
 **Recall.**
 
-1. Name the seven categories excluded by the franchise of 1849, and say which two
-   were admitted in 1915 and when each of the others followed.
-2. What did Denmark do in the Great Belt on 5 August 1914, at whose request, and
-   what reason did the foreign minister give for it?
-3. What was Contract Day, what did the labour regulation of 1849 bind a labourer
-   to, and when was it repealed?
+1. What did D. Hamilton Jackson bring home from Denmark in 1915, what came of it on
+   1 November, and what did the strike of January and February 1916 win?
+2. What powers did the August laws of 1914 give the government, and how long did
+   the Rigsdag take to pass them?
+3. What did the labour regulation of 1849 bind a freed labourer to, and which cost
+   did it move onto him that the owner had carried under slavery?
 
 **Causal.**
 
-1. The Landsting had to vote away the privileged franchise that made it powerful.
-   What made that rational for the men voting, and what did they charge for it?
-2. Denmark was neutral and grew rich, and one civilian trade lost seven per cent
-   of its men. Explain how both are consequences of the same policy.
+1. The Radicals and the Social Democrats wanted the same change to the franchise
+   for opposite reasons. What was each party's reason?
+2. In 1917 a Dane north of the Kongeå was rationed and did not die more, while
+   south of it women marched on Haderslev town hall for flour. Explain how one war
+   produced both on either side of the border of 1864.
 3. Alberti's fraud began as a way of keeping Zealand farmers loyal. Trace the
-   steps from an overpaid butter price to fifteen million kroner.
+   steps from an overpaid butter price to a savings bank short of 14.7 million
+   kroner.
 
 **Counterfactual.**
 
@@ -783,8 +802,8 @@ islanders did.
 **Contested.**
 
 1. Denmark held a national vote on the future of 27,086 people who had no vote in
-   it, and the one ballot those people were offered was organised by a union and
-   had no legal standing. Was the referendum of 1916 a democratic act?
+   it, and the one ballot those people held had no legal standing. Was the
+   referendum of 1916 a democratic act?
 2. Historians disagree about whether Scavenius's neutrality was statesmanship or
    submission dressed as statesmanship. On the evidence in this chapter, which?
 
@@ -809,6 +828,30 @@ items verified for this draft.*
   therefore uses the seamen figure only.**
 - *Statistiske Meddelelser*, Folketing election volumes: 2.R.12.Bd.H.III through
   4.R.10.Bd.H.II for the elections of 1872–1901.
+- lex.dk: *Folketingsvalget 1901* (the first by secret ballot, 3 April 1901);
+  *Danmarks historie 1901–1940* (the reforms of 1903, the 1909 settlement);
+  *Folketingsvalget 1906*; *Folketingsvalget 1910* (the parties against the
+  defence laws of 1909); *retspleje* (the laws of 1908, 1909 and 1916);
+  *Tunestillingen*; *Augustlovene 1914*; *Det Konservative Folkeparti*;
+  *Valgsystemer til folketings- og landstingsvalg, efter 1849*.
+- danmarkshistorien.lex.dk: *De 7 F'er og den gradvise udvidelse af valgretten*
+  (Nina Koefoed), for convicts and bankrupts in 1953 (it gives 1953 for the poor
+  too, which lex.dk's *Valgsystemer* page and the law of 1961 contradict; chapter
+  45); *Danske regeringer
+  1901–1924*.
+- Dansk Biografisk Leksikon on P.A. Alberti, Viggo Hørup and Peter von Scholten;
+  Gyldendal og Politikens Danmarkshistorie, *Magten og vanæren — gåden Alberti*;
+  Kristeligt Dagblad on the Rigsret of 1910 (National Bank director Strøm's
+  warning, Christensen's refusal of an inquiry).
+- Dansk Kvindebiografisk Leksikon on Line Luplau (Kvindevalgretsforeningen
+  dissolved 1898); vestvolden.info on the settlement of 1909 and the security force.
+- Mosede Fort (danmark1914-18.dk) on the minelaying of 5 August 1914, rationing
+  and the control ministers of 30 September 1916; Grænseforeningen on Kresten
+  Andresen (letters first published by his mother, 1919).
+- The National Museum of Denmark and St. Croix Landmarks Society on the Fireburn
+  and on Transfer Day; the unofficial vote of 17 August 1916 in the islands,
+  4,027 to 7, as tabulated in the standard referendum lists; its organiser is not
+  established in the sources used.
 
 ---
 

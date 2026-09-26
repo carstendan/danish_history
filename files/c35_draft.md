@@ -756,9 +756,9 @@ economy ending.
 **← 33.** *Sognebåndsløsning*, 1855, and the folkekirke that was made loose enough
 to hold two movements that disliked each other.
 
-**← 34.** The two hundred thousand — or a hundred and seventy thousand — and the
-heath. §10 takes up the first; §02 and §06 are the country that had to find a
-living without them.
+**← 34.** The two hundred thousand — or a hundred and seventy thousand — left on
+the other side of the new border, the optants among them; and the emigration. §10
+takes up the first and §06 the second.
 
 **→ 36.** The cooperative farmers of §03 as an electorate, and the party founded
 out of §08 arriving in the Rigsdag.
@@ -817,10 +817,11 @@ one and the price Denmark paid was the promise of a vote; the rest waited until
 
 **Causal.**
 
-1. Grain prices fell across all of Europe. Why did Denmark respond with
-   cooperatives when other countries with the same problem did not?
-2. The unlimited joint liability in the Hjedding rules is usually mentioned last
-   and explains most of the rest. Why?
+1. Denmark had a steamer route from Esbjerg to England from 1875. Why was it the
+   cooperative dairy, rather than the route, that made butter sellable there?
+2. The Lur mark was registered for butter in 1901, made compulsory on export
+   butter in 1906 and handed to the state in 1911. Why did the industry want the
+   state to hold it?
 3. The police ban on the meeting of 5 May 1872 was unconstitutional and the
    prosecution that followed was for high treason. Did the state's reaction weaken
    the Danish labour movement or make it?

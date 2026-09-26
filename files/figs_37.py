@@ -21,7 +21,7 @@ one guess would be the kind of figure this project refuses.
 
 So figure 1 draws what IS sourceable and what the section is actually about: the
 seven categories as a list, with the year each was admitted. Five of the seven
-dates are exact and two are "not yet", which is the argument - the chapter's claim
+have a year and two are "still out", which is the argument - the chapter's claim
 is that 1915 admitted two of seven and is routinely described as universal
 suffrage. A list of seven dates makes that unanswerable in a way a pair of bars
 would not. IF THE VOLUME IS FETCHED the before/after should be drawn as well, not
@@ -92,20 +92,27 @@ def wrap(head, body, W, H):
 # admitted to the Folketing franchise. "de syv F'er" is a popular name, not a
 # legal one; the exclusions are in the electoral law.
 #   1915: women and servants                 - Grundloven af 5. juni 1915
-#   1933: poor-relief recipients             - valglovsaendringen af 1933
-#   1959: convicts                           - valglovsaendringen af 1959
+#   1953: convicts                           - the electoral law of 1953
+#   1953: bankrupts                          - Grundloven 1953 limited the loss to
+#                                              guardianship
+#   1961: poor-relief recipients             - Lov om offentlig forsorg 1961; the
+#         reform of 1933 narrowed the disqualification without ending it (40, 45)
 #   under guardianship: still excluded
 #   foreigners: still excluded (citizenship requirement)
-# Bankrupts: the disqualification was tied to loss of control over one's estate
-# and lapsed with the insolvency law rather than by a franchise act, so it carries
-# no single year and is marked as such rather than given a guessed date.
+# Sources: danmarkshistorien.lex.dk, "De 7 F'er og den gradvise udvidelse af
+# valgretten" (Koefoed): convicts "med en ny valglov samme \u00e5r som den nye
+# grundlov"; bankrupts "Med 1953-grundloven blev tabet af valgret her begr\u00e6nset
+# til v\u00e6rgem\u00e5l". lex.dk, "Valgsystemer ... efter 1849": "forbrydere og
+# fattighj\u00e6lpsmodtagere opn\u00e5ede valgret i henholdsvis 1953 og 1961".
+# Review session 11 corrected 1933 -> 1961, 1959 -> 1953 and the bankrupts' "no
+# single year" -> 1953, all against those two pages.
 SEVEN = [
     ("Fruentimmere",  "women",                                  "1915", "in"),
     ("Folkehold",     "servants in another household",          "1915", "in"),
-    ("Fattige",       "those on unrepaid poor relief",          "1933", "in"),
-    ("Fallenter",     "bankrupts",                              "\u2014", "lapsed"),
+    ("Fattige",       "those on unrepaid poor relief",          "1961", "in"),
+    ("Fallenter",     "bankrupts",                              "1953", "in"),
     ("Fjolser",       "those under guardianship",               "still out", "out"),
-    ("Forbrydere",    "convicts",                               "1959", "in"),
+    ("Forbrydere",    "convicts",                               "1953", "in"),
     ("Fremmede",      "those without Danish citizenship",       "still out", "out"),
 ]
 ADMITTED_1915 = 2
@@ -122,10 +129,11 @@ def syvf():
             'aria-label="The seven groups excluded from the Danish franchise by the '
             'constitution of 1849, known popularly as the seven F\u2019s, with the year '
             'each was admitted. Women and servants in another household were admitted in '
-            '1915. Those on unrepaid poor relief were admitted in 1933. Convicts were '
-            'admitted in 1959. The disqualification of bankrupts lapsed without a '
-            'franchise act. Those under guardianship and those without Danish citizenship '
-            'remain excluded. The constitution of 1915 admitted two of the seven.">' % W)
+            '1915. Convicts and bankrupts were admitted in 1953. Most of those on poor '
+            'relief got the vote back in 1933 and the last of them in 1961. Those under '
+            'guardianship and those without Danish '
+            'citizenship remain excluded. The constitution of 1915 admitted two of the '
+            'seven.">' % W)
 
     o = []
     LEFT, ROW, GAP = 26, 30, 10
@@ -167,10 +175,11 @@ def syvf():
         y += 15
 
     y += 4
-    src = ("Dates from the franchise acts. The bankrupts' disqualification lapsed with "
-           "the insolvency law rather than by a franchise act and carries no single "
-           "year, so none is given. Electorate counts by category need Valgene til "
-           "Rigsdagen, Stat. Medd. \u2014 located, not fetched: see the docstring.")
+    src = ("Convicts: the electoral law of 1953. Bankrupts: the constitution of 1953, "
+           "which kept the loss of the vote only for those under guardianship. The "
+           "poor: 1961; the social reform of 1933 narrowed the disqualification but "
+           "did not end it. Sources: danmarkshistorien.lex.dk, De 7 F\u2019er (convicts, "
+           "bankrupts); lex.dk, Valgsystemer efter 1849 (the poor, 1961).")
     for line in fold(src, 92):
         o.append('<text x="%d" y="%d" class="mapx">%s</text>' % (LEFT, y, esc(line)))
         y += 13
@@ -295,8 +304,8 @@ def soefolk():
     o.append('<text x="%d" y="%d" class="mapl">THE PRICE OF A NEUTRAL FLAG, '
              '1914\u201318</text>' % (LEFT, y))
     y += 20
-    o.append('<text x="%d" y="%d" class="mapt">Danish merchant seamen. No Dane was '
-             'conscripted; no foreign soldier crossed the border.</text>' % (LEFT, y))
+    o.append('<text x="%d" y="%d" class="mapt">Danish merchant seamen. Denmark sent '
+             'nobody to fight; no foreign soldier crossed the border.</text>' % (LEFT, y))
     y += 26
 
     # a hundred-square grid: each cell is one per cent of the service
@@ -342,7 +351,7 @@ def soefolk():
         y += 14 * max(1, len(fold(rest, 70))) + 14
 
     y += 2
-    src = ("Deaths and service strength: Soforklaringer 1914\u201318, as tabulated; the "
+    src = ("Deaths and service strength: S\u00f8forklaringer 1914\u201318, as tabulated; the "
            "702 agrees with Den Store Danske. SHIPS LOST IS NOT DRAWN: 324 and 275 both "
            "circulate, tonnage lost is given as both 16 and 25 per cent, and choosing "
            "between them without a reason would be guessing. The men are counted.")

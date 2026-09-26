@@ -790,14 +790,12 @@ and told both no. Christian 8. died eighteen months later with nothing settled.
 
 **Causal.**
 
-1. The Konventikelplakat and the Bondecirkulære were both attempts to restrict
-   organisation, and both were followed by the movement in question growing
-   faster. What did the two prohibitions have in common that made them
-   counter-productive?
+1. Why did the Nationalbank's caution after 1818 fall hardest on the estate
+   owners and the newest freeholders?
 2. Why was fining Peter Larsen Skræppenborg an ineffective punishment
    specifically?
-3. An absolute monarchy gave away control of its currency in 1818 and conceded
-   four powerless assemblies in 1831. Why those two things, and not others?
+3. Frederik 6. could go on refusing his Danish subjects a representative body.
+   Why could he not go on refusing his German ones?
 
 **Counterfactual.**
 
@@ -810,11 +808,10 @@ and told both no. Christian 8. died eighteen months later with nothing settled.
 
 **Contested.**
 
-1. §05 argues the Golden Age was subsidised — that the state chose which work
-   got made and by whom, and that this explains more than talent does. The
-   objection is that funding does not produce genius and that the argument
-   mistakes a condition for a cause. Which is more convincing, and what evidence
-   would settle it?
+1. "Must I be silent because I speak Danish? Yes, because you speak Danish."
+   The exchange has come down as legend, and the minutes of 11 November 1842
+   record only that Hiort Lorenzen spoke Danish. What would count as evidence
+   that the words were said, and does it matter whether they were?
 2. This chapter gives two of its ten sections to religion and one to the whole
    of the Golden Age. Most accounts reverse that. Which weighting tells you more
    about what Denmark became?

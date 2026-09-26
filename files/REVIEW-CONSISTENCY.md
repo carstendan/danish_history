@@ -3013,3 +3013,222 @@ the changes were about twenty lines of prose, one aria phrase and one legend lin
 (review 11) or a rule already in CONVENTIONS to apply. The one open question of practice — may a
 WHAT-THIS-PAGE-ANSWERS question preview a checkpoint? — is measured across the book in review 11 first;
 if it needs a rule, it comes to Carsten then, with the numbers.
+
+---
+
+## 15. Session 11 — Part I read again, at depth (chapters 37–45), and one question asked once
+
+*25–27 September 2026, from `START_HERE_review_11.md`. The session lived in its saves
+(`claude/session11_state.md`, `claude/session11_wip.patch`) and was resumed once from them.*
+
+**The cold run matched every line** on a fresh clone of `fcfb4f8`: git status clean; item 148's
+commit carries pages 25, 27, 29, 31 and 32–36, the thirteen `svg_*.txt` and `pageguard.py`; tidy clean,
+45 bodies; FIXTURE PASSES; SEAM LAYER PASSES; debuild 45 identical; 45 of 45, 344,488 page words,
+27.3 h, every part as the brief; vignettes 148/116, 01/03/04/05 "[f] part", no D-9 failure, selftest
+passes; figcheck 98/30/0; one OVER, 16 §08 852, 32 §09 749; draftnotes clean; appcheck 167 in 21;
+freshcheck 21; builds F, G ("21 … all fresh", "all seven") and H ("15 … all fresh", "all five") clean,
+no `!!`; 2 pointers, 0 insolvent, 0 same-page glosses; Schleswig 297 in 31 against Slesvig 2 in 2;
+sweep_facts 6; arrows 253, 37 thread notes, form 7, direction 0, D-1 0, titles 0, solvency 40, prose
+references 0, footers 0, `<h1>` 0, 9b 0. After `linkindex` and `index_generator`, clean again.
+
+**How the session ran.** Nine fact-checkers and fixers, one per chapter (`claude/session11_factcheck_37..45.md`),
+each allowed to edit only its draft and figure script and to propose the rest; one integrator applied
+the proposals to `mkbody.py`, `build_part_i.py` and the other drafts (`session11_integrate_I.md`);
+one agent applied the new question rule to 25–36 (`session11_askonce_GH.md`); five checkers who had not
+seen the work read every hunk (`session11_check_A..E.md`); five fixers applied them; two more checkers
+read those fixes (`check2_F1`, `check2_F2`, in `.s11` of the working clone and summarised here), one
+fixer applied them, and a third checker read that last round (`check3`), whose ten findings the lead
+applied. Every stage built into a scratch folder first; the working clone was rebuilt and the whole
+suite run at the end.
+
+### 15.1 Recall, and the question asked twice (item 2) — a rule, D-17
+
+**Recall** (`claude/session10_recall.py`, extended to take globs), calibrated first: it reproduces
+25–31 0/4 and 32–36 0/3. **Part I before: 13 of 27** — 37 1/3, 38 1/3, 39 2/3, 40 1/3, 41 0/3, 42 2/3,
+43 3/3, 44 2/3, 45 1/3. **After: 0 in every chapter 25–45.**
+
+**The question asked twice, measured as Recall is** (`claude/session11_qsmeasure.py`: content-word
+Jaccard ≥ 0.4 against the shipped checkpoints, on the built pages): a WHAT-THIS-PAGE-ANSWERS question
+repeated a checkpoint **20 times in 13 of 21 chapters** (25 two, 29 two, 31 two, 34, 36, 40, 41, 42 two,
+43 four, 44 three, 45); a Causal question **4 times** (36, 42, 43, 45); and **17 opening questions were
+asked again in the end tiers, 9 of them word for word** (42, 43 and 45 copied theirs outright). Common,
+so a rule for Carsten, with the numbers.
+
+**D-17, decided by Carsten as recommended ("ask once"):** a page asks each question once, across the
+five opening questions, the checkpoints and the four end tiers. The opener keeps its question — it is
+the page's promise; the later checkpoint or end question is rewritten to test something else that is
+true, on the page, and (for a checkpoint) said before its anchor. **Carried out in 25–45:** 76 questions
+in Parts G and H (26 checkpoints, 50 end-tier, about 45 of them repeats the measure missed and a reader
+would not), and in Part I every end-tier repeat and 35 of the 81 checkpoints (37 three, 38 six, 39 three, 40 two, 41 two, 42 four, 43 seven, 44 five, 45 three), several of which were also
+false or asked ahead of their anchor (38's "constitution of 1866" in an opener and a checkpoint; 42's
+resignation "on 28 August"; 43's checkpoint asking §02's figures in front of §02). **After: 0 of 105
+openers, 0 of 64 Causal, 0 of 70 Recall repeat a checkpoint; 0 opener–tier pairs; no pair of questions
+on any page 25–45 at 0.4.** Parts A–F were not in scope: pages **20, 23 and 24** would fail the guard
+(20 checkpoint 2.3 ≈ Recall 4; 23 checkpoint 3.1 ≈ Causal 2; 24 checkpoint 3.2 ≈ Recall 4) — for review 12.
+
+### 15.2 Part I, read — errors of fact and of the book against itself, fixed
+
+Well over three hundred corrections (the nine reports' tables A); the principal ones:
+
+| ch | the page said | it is | ground |
+|---|---|---|---|
+| 37 | "the 'universal suffrage' of chapter 33"; the franchise "whoever could vote for one chamber could vote for the other"; the 1903 "parish council law put local government on an elected footing"; the secret ballot a Deuntzer law; Luplau's association "outlived her by twenty-four years and won"; convicts 1959, bankrupts "lapsed", the poor 1933; the 1909 defence laws; "nobody was conscripted"; Højre renamed "that December"; von Scholten "court-martialled"; "the better argument" for keeping the islands | 33's 15 per cent, one Dane in seven; 25 and 35; church councils (*menighedsråd*, 36 §10); the election of 3 April 1901, before the ministry; dissolved 1898, the cause won; 1953, 1953, most in 1933 and the rest in 1961; carried by Venstre and Højre against the Radicals and Social Democrats; the security force; 22 February 1916; a commission court, acquitted 1852; the judgement dropped (no source defends it) | lex *menighedsråd*, *Valgsystemer*; KS; DBL; Kvindebiografisk |
+| 38 | thirty-five thousand called up, more than six thousand dead, "one in eight disabled"; 2,500 "crossed rather than serve"; the *hjemløse* after 1920; "the last hundred metres drawn in Paris"; Johanne *Marie* Braren; "twenty-five thousand who voted German woke up Danish"; 36,000 queued in Flensburg; the Easter "procession"; a "motion for a republic"; the constitution "of 1866" in 1920 (opener, checkpoint) | about 30,000, more than 5,000, about 7,000 invalids (nearly one in four); about 2,400 deserters; the option rules of Versailles 112–113 and the treaty of 1922; the Tiedje line rejected, the boundary commission on the ground July–November 1920; *Martine*, a pastor's adopted daughter, eight, three weeks short of nine; a quarter of the votes, outvoters included; about 9,000 Danish votes; the city council's delegation (and see R-19); "open talk of a republic"; 1915 | Grænseforeningen; FRUS (the treaty); G&P; lex *Påskekrisen 1920*; gravsted.dk |
+| 38 | the renunciation of 1907 absent (35's → Part I insolvent); the king seizing on "the refusal" | the optant convention of 1907 accepted Article 5's cancellation — now §03; he seized on Zahle's apparently unconsidered remark that the king was free to dismiss the ministry | Grænseforeningen; G&P *Kup eller fadæser* |
+| 39 | Glückstadt "at thirty-five"; chapter 36 "left the Social Democrats with two seats"; "three more" Landsting seats; Nina Bang's thesis on the Sound Toll; Cornelius Petersen at an election "that December" (1927) | age removed (34 at his father's death, appointment undated); 36 takes them to eight in 1895; four; the 1894 degree, the volumes of 1906 and 1922, the fund she applied for in 1911–12; December 1926 | DBL; DST; Kvindebiografisk |
+| 40 | Venstre "voted for" the social reform; Munch the longest-serving foreign minister; the krone "fixed at four-fifths of parity, $4.70"; Nakskov "roughly half" out of work; 10 July 1931 the trappers' flag; Clausen forty; 91.85 per cent "of the votes cast"; the §06 title *The vote given back* | undertook not to vote against, let it through the Landsting by abstaining; Rosenørn-Lehn held it about 22 years; off gold on 29 September 1931, down with the pound and below it; unemployment tripled in the winter of 1930–31; Norway's proclamation; thirty-nine; of the valid votes; *The vote given back, to most* | danmarkshistorien; lex; Nationalbanken; DBL; Indenrigsministeriet |
+| 41 | the treaty renewed "for fifty more"; Kjølsen flew "on 1 March"; Prior refused "because of German distrust"; the four-party coalition "of 8 July"; Jens Møller led a party in 1933; "40,000 more Germans"; 7,000 Danes in German service, unqualified; pensions promised; the June 1941 prisoners "at Horserød"; *De frie Danske* the first illegal paper; Dansk Samling "founded against the occupation"; the Communist Law passed "by the Rigsdag elected in 1943"; "article four of the constitution of 1849" | ten-year periods; 1 April; "kunne fremkalde uro"; 10 April 1940; he did not; cut (no source); about 6,000 of 12,000 accepted, or about 7,000 in war service of every kind, the minority's 1,500 inside the 12,000; their places back; Vestre Fængsel, then Horserød after the law; the communists had one from October 1941; 1936; by the Rigsdag of 1939, without a vote against; the treaty of Kiel, 1814 (chapter 31) | danmarkshistorien; DBL; lex |
+| 42 | the government resigned on 28 August; the scuttled *Peder Skram* the museum ship; the navy's nine dead "at Holmen"; Rome 8,000 Jews, all 1,259 to Auschwitz; the Dutch in hiding 18,000; Duckwitz a party member from 1933, "selling coffee"; Martin Nielsen a sitting member in October 1943; the Freedom Council "calling" the strike; its founders | 29 August, after the German commander told Scavenius the government was deposed; the frigate of 1965; place not given; about 12,000, more than a thousand; 25–30,000; 1932, Kirchhoff's "branch director"; elected 1939, re-elected 1945; it kept a city that had struck without it out and called it back; four organisations, and the lists of members differ (lex, en.wikipedia) | G&P; lex; navalhistory.dk; USHMM; DBL |
+| 43 | the BBC "twenty past eight"; Bornholm's ten dead "nine of them on the first day"; the Peter group killed Munk; the return to work "3 July"; executions "did not stop … more than half after January 1945"; the Council told the city to stop; BOPA 175, Holger Danske 300; Hvidsten seven; the Shellhus school "a mile and a half" away, 482 children; the Swedish weapons outnumbering the 1940 army; **Danish radio "barred" from reporting the Bornholm bombing** | about half past eight; all ten on 7 May; formed a month after; the 4th (or 5th); none by court martial from the Hvidsten eight to March 1945; to stay out and then go back; about 150 and 700; eight; 1.5 km, more than five hundred people, most of them children; cut; **no source found in lex, danmarkshistorien, natmus or the press — replaced by what natmus sources: on 9 May the prime minister and the king spoke at the Rigsdag's reopening and neither mentioned the bombing** | danmarkshistorien; natmus; lex; DBL; Kvindebiografisk; folketinget |
+| 44 | the three Atlantic territories kept by "article four of the constitution of 1849"; Marshall aid "retired more than half" of the occupation debt; Christiani "never prosecuted" and "decorated" in 1954; 205 convictions in 1944; 19 absent in a chamber of 149; the minimum "cut to two" in June 1946; "the first executed since 1892"; twenty rapes on Bornholm; Norway "granted withdrawal at once"; Greenland "a third of the kingdom"; the 1991 disclosure by a US agency | the treaty of Kiel; nearly 900 million of 8 billion, about a ninth; charged 1946, case closed 7 February 1947, Commander 1st class 1954; black-market convictions; cut; the Supreme Court's practice and the revision's groups; the next execution by the Danish state; undercounted, as *Fra Krig og Fred* finds; the Red Army out of Finnmark by 25 September; about 98 per cent; a Danish newspaper | Nationalbanken; DBL; lex; Bundgård Christensen; norgeshistorie.no |
+| 45 | the poor's vote "in 1961", unsourced; the UN delisting "8 September"; 36's parliamentarism and 44's §71 promised and not carried; the Landsråd a body "the state created"; "the rule everybody had obeyed since 1901"; the treaty's twenty-three opponents only Communists and Radicals; "ten weeks"; Max Sørensen "thirty-eight"; the 1950 laws "rebuilt" the trade monopoly; the experiment children "eighteen months at the colony"; Marshall aid "more than half" in the coda; "fifty-four years" | 1 October 1961, lov nr. 169 af 31. maj 1961 (Folketingstidende 1960–61, L 63); 22 November 1954, resolution 849 (IX); §15 and §71 now on the page; elected by Greenlanders in 1951, approved the change in September 1952 — the UN's claim thin, not false; a king broke it once, Easter 1920 (chapter 38); part of the Justice Party too; nine; thirty-nine; abolished it; the summer at the colony, about fifteen months in Denmark; cut; the coda names no span | Folketingstidende; UN; lex; danmarkshistorien; ZaöRV 2009 |
+
+**The poor's vote, one story now in 33, 37, 40 and 45.** The constitution of 1915 excluded those on
+unrepaid, unremitted poor relief; Steincke's social reform (in force 1 October 1933) left only
+*fattighjælp* costing the vote, so most got it back then; §29 of 1953 handed the question to ordinary
+law, a sentence still in force; the last disqualification went on **1 October 1961**. danmarkshistorien's
+*De 7 F'er* gives 1953 for the poor; four sources and the bill itself are against it, and the pages say so.
+
+**Ninety-eight intervals and ages were wrong in Part I** (D-8, by the fact-checkers' counts): 37 six,
+38 twenty-one, 39 five, 40 ten, 41 eleven, 42 seven, 43 nine, 44 thirteen, 45 sixteen; and some twenty
+more that could not be verified were replaced. Part C had nine, D sixteen, E thirty-four, F sixty-six,
+G ninety-five, H ninety-three. The checkers found at least seven more in the fixes (40's "about eighteen
+hours", which put back the four in the morning the fixer had cut; "the springs of 1933 and 1934"; 45's
+Basic Law "four years and twelve days"; "eight years after" for 1953 to 1961; 37's "within seven years";
+Braren "nine" and then "not quite nine" — she was 8 years 11 months; now "eight, three weeks short of nine").
+
+**The promises into Part I.** 35 → Part I (the plebiscite and 1907) is now solvent in 38 §03, and the
+labour settlement in 40 §04; 36 → Part I (Luplau's cause, the Social Democrats from two seats to
+government, parliamentarism in 1953) in 37 §05, 39 §06 and 45 §03. Inside the part, 37 → 44 (the 1916
+Greenland declaration), 38 → 44 (the white horse), 41 → 45 (§71), 42 → 44 and 43 → 44 promised what the
+target did not carry; all rewritten to what it does. 36 §06 and 37 §04 now agree on the Vestvold (37
+points back and keeps 1909's politics).
+
+### 15.3 Repetition and drag
+
+Fixed within chapters: 37's seven F's told three times (once, with a pointer to 33); 39's disarmament
+bill told three times; 41 §05's Greenland ratification (a pointer to 44); 41 §08's Stutthof (a pointer to
+42); 43 §06's waiting groups with armbands (43 §01's); 44 §01's the same (cut); 42's Meanwhile Amsterdam
+strike (41's); several figure notes that restated the prose just read (40 figure 1, 42 figure 1, 43
+figure 2 and its caption). **42 §03, D-13 (I-3 of session 2), had drifted back**: body and vignette both
+told the 11th, Berlin, the 19th and the 28th; re-scoped — the body keeps the dated chronology the
+fortnight depends on (and Stockholm on the 21st), the vignette the man and the line of the 19th, and only
+the vignette tells the Hedtoft hand-over. Nothing was cut for length (D-16).
+
+**Four sections now over the heavy ceiling**, all by correction, none by padding: 16 §08 (852, known),
+**42 §02 (767), 43 §02 (780), 44 §03 (761)**. **45 is now 50 minutes, the top of the band**; 44 is 48.
+D-16 keeps them; but 45 can take no addition without leaving the band — for Carsten's read.
+
+### 15.4 Found, recorded, not changed
+
+- 40 §11 "both chambers passed it on 11 March 1939" — G&P has only the May passage; plausible (§93
+  needed two), not verified. For the library (Rigsdagstidende).
+- 41 §07: whether the minority's 1,500 volunteers are inside danmarkshistorien's 12,000 ("Desuden … i alt
+  12.000") — the page reads them as inside; two checkers could not settle it.
+- 39 Counterfactual 1, checkpoint 1.3 and opener 2 all turn on Green's figure of 144 million; they ask
+  different things, and are kept.
+- 38's → 40 promises both minorities; 40 carries only the German. For 38's arrow when next opened.
+- 43's many unverified details (report H): the 04.00 evacuation of Rønne, Munk's killers' number and
+  "mason", the Welrod pistols, Kleboe's mast, the Aarhus watch register.
+- 44 §07's Fanny Jensen vignette stands in *Marshall aid*, where no body sentence anchors her; left
+  (moving her to §04 *The women*, which is about convicted women, would be worse).
+- The Part I span stays 1901–1955 (44's retsopgøret runs to 1955); 45's own dates are now 1948–1954.
+- "Swinemünde (now Świnoujście)" in 42, following D-15.
+
+### 15.5 D-15, D-13, D-6, D-14 and D-9 in Part I
+
+**D-15.** Every "Nordslesvig" in English prose is North Schleswig (37 three, 38 twelve, others in
+figures); *Vælgerforeningen for Nordslesvig* and the glossary headword stay Danish; Før is Föhr (38,
+figure included). **Schleswig 316 in 31 chapters, Slesvig 4 in 3** — all names: the two Danish book
+titles (32, 33) and in 38 the commission's French name and a Danish article title. **Danevirke** is now
+Danevirke in 33 and 34 too (34 §03's title and its `build_part_h.py` entry together); 32's *Dannevirke*
+is the newspaper. **D-13:** 42 §03 re-scoped again (§15.3); 38 §08 re-scoped for R-19; no other case.
+**D-6:** no Russian date before February 1918 is on any Part I page (37's Meanwhile gives Russia's 1917
+by year). **D-14:** nothing to change. **D-9:** every tag checked against its vignette: 43's Rasmussen
+`[-]` → `[n]` (a rank-and-file policeman); 44's Anna Lund Lorentzen `[n]` → `[f][n]`; 42's Ellen Nielsen
+`[f][n]`; 38 see R-19. **No D-9 failure in the book.**
+
+### 15.6 R-19 — decided and carried out
+
+38's only `[f]` was Johanne Martine Braren, lifted onto the white horse on 10 July 1920 — the occasion,
+not the agent. The checker found a sourced one. **Carsten answered as recommended: Elna Munch at
+Amalienborg, Easter Saturday, 3 April 1920, replaces Zahle's vignette in 38 §08, `[f]`.** Facts first:
+lex.dk *Påskekrisen 1920* ("på initiativ af de radikale Elna Munch og Jesper Simonsen samt Stauning
+arrangeredes påskelørdag den 3. april et folketog"; "Følgerne kan få skæbnesvanger betydning for os alle,
+høje som lave. Det gjorde indtryk på kongen"); G&P *Kongen som forligsmand* (the delegation, the crowded
+study); lex.dk *Elna Munch* and *Karen Ankersted* (among the first four women elected to the Folketing in
+1918); DBL *P. Munch* (who claimed the idea of sending the council was his — the vignette gives both).
+Zahle's dismissal stays in the body, now following G&P *Kup eller fadæser* exactly; Borgbjerg is restored
+as the editor of *Social-Demokraten*, so 39's vignette points at someone. **Braren is tagged `[-]`, not
+`[n]` as the recommendation said**: the sources make her a pastor's adopted daughter at Aastrup, not a
+farm girl. 38 keeps its `[n]` in the unnamed man on the palace square.
+
+### 15.7 The guard — `build_part_i.py` gets `pageguard.py`, and `pageguard` asks once
+
+`build_part_i.py` had no vocabulary guard, no summary line, and wrote each page inside `build()`. It now
+imports freshcheck and pageguard and asks, **before** a page is written: freshcheck; `same_body`;
+`figures_fresh` (24 figures); `stale_vocabulary` on `reader_text`; and a new fifth check,
+**`pageguard.asked_twice`** (D-17), which parses the opening questions, checkpoints and the four tiers and
+refuses any pair at content-word Jaccard ≥ 0.4. It prints "all nine built clean". The same fifth check
+is wired into `build_part_g.py` and `build_part_h.py`.
+
+**"entry" by hand in 37–45, before trusting the clean run** (built pages, text, figure text and
+attributes, whitespace joined, case ignored): the first scratch build refused 37, correctly — **one
+ordinary use, Kresten Andresen's "letters and diary entries home"** — and otherwise only the JavaScript's
+`entries`, which a reader never gets. `ALLOWED_ENTRY = {37: ['letters and diary entries home']}`.
+
+**The check's own witness:** on the pages as shipped before the session, `asked_twice` finds pairs in 17
+of the 21 chapters 25–45 (all but 26, 27, 28 and 30); on the rebuilt pages, none.
+
+**Tested.** `claude/session11_guardcases.py`: session 10's 42 vocabulary cases and 8 ask-once cases
+(identical, near-identical through markup and entities, checkpoint = Causal, two tiers, and two that
+must stay quiet): **50 of 50 right.** **Six planted end-to-end cases** on a scratch copy of the
+repository: a stale `DK_SRC` body (NOT BUILT, `same_body`); an old `svg_syvf_1915.txt` restored (NOT
+BUILT, stale figure); "chapter 07" in a checkpoint (NOT WRITTEN, padded); a checkpoint copying an opener
+(NOT WRITTEN, asked twice, 1.00); a hand-edited body (NOT BUILT, freshcheck); "B​and C" behind a
+zero-width space in an aria-label (NOT BUILT, stale figure). **All fired; the real pages were untouched**;
+the clean run returned. **Known limit:** the measure cannot see one question asked in other words; the
+reading pass found about forty-five such in 25–36 and fixed them.
+
+### 15.8 Checked by separate agents, three times
+
+**Check 1** (five agents, one bundle each, none had seen the work): **86 findings — A 17, B 15, C 18,
+D 18, E 18; 16 substantive.** Among them: 37's Bojsen-Møller quotation, from 1908 and about the municipal
+vote, placed at Himmelbjerget in 1915 by the fix; 38's "correction" that cut Munch and Simonsen's
+procession, which lex.dk sources; 40 still having all three parties "vote for" the package; 41's
+minority "counted on its own" (it is inside the 12,000); 42 still "the highest turnout in its history"
+and Martin Nielsen "the communist member" in 1943; 43's radio line (above); 44's contractors "never faced
+it" beside Christiani's charge; 45's "rule everybody had obeyed since 1901" against chapter 38, its §71
+paragraph against 41, its Marshall "more than half" against 44, and the Landsråd. Applied by five fixers;
+one rejected (E16, no better question).
+
+**Check 2** (two agents, the fixes only): **27 findings, 2 substantive** — 38's new 29 March paragraph
+misread G&P (Zahle refused the election over the electoral law; the king seized on Zahle's remark, not
+on "the refusal"), and a Sources line said to have altered lex.dk's words (**false**: lex.dk has both the
+Folketing and the Rigsdag sentence; the fixer re-fetched it twice). All applied or adapted.
+
+**Check 3** (one agent, that round's changes only): **10 findings, 2 substantive, and one of them the
+lead's own**: 42 §06's founder lists, which the lead had "corrected" from five to four citing lex.dk —
+but lex.dk's sentence names *leading members*, and it founds the Council on four *organisations*, has
+Staffeldt at the founding, and Foss and Schoch in its captions. Now so, with Sources. And 41's "counting
+every kind of service" making the minority's 7,500 larger than all Danes' 7,000. All ten applied but the
+line-wrap hygiene (mkbody joins lines).
+
+**Verified**, in the working clone after the last edit: figures and bodies 25–45 rebuilt; build F "all four
+built clean", G "21 … all fresh", "all seven built clean", H "15 … all fresh", "all five built clean", I "24
+… all fresh", "all nine built clean", no `!!`, NOT BUILT or NOT WRITTEN; `linkindex`, `index_generator`;
+then the whole suite: **tidy clean, 45 bodies; FIXTURE PASSES; SEAM LAYER PASSES; debuild 45 identical;
+45 of 45, 350,394 page words, 27.8 h (G 54,240, H 43,460, I 80,096); 44 is 48 min, 45 is 50; vignettes
+148/116, no D-9 failure, selftest passes; figcheck 98/30/0; four OVER (16 §08 852, 42 §02 767, 43 §02 780,
+44 §03 761); draftnotes clean in 45 pages and 14 drafts; appcheck 167 in 21 chapters; freshcheck 21 fresh;
+sweeps: 2 pointers, 0 insolvent, 0 same-page glosses; Schleswig 316 in 31 / Slesvig 4 in 3 (all names);
+sweep_facts 2 (the Dybbøl and Danish-rescuers pair, and the known false pairing of 1895's 114 seats with 1924's 149); arrows 254 (40 → 45 new), 215 pass,
+solvency 39; form, direction, D-1, titles, prose references, footers, `<h1>`, 9b all 0. Recall 0 in all
+21; qs 0/105, Causal 0/64, Recall 0/70 against checkpoints; 0 opener–tier pairs; guardcases 50/50.**
+Pages that change: **25–45 and the index** (26, 28 and 30 for their questions alone; the index for 45's
+dates).
+
+### 15.9 Decisions for Carsten
+
+**Taken this session:** D-17 (ask once) and R-19 (Elna Munch), both as recommended. **None open.** For
+his read of the book: 45 at the top of the band; the four OVER sections; the Braren tag.

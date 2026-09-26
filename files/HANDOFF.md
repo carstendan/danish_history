@@ -39,6 +39,11 @@ written — see Lessons.
 | H | 32–36 | 1814–1901 | **built, verified, indexed, closed — see `PLAN_H.md`** |
 | I | 37–45 | 1901–1955 | **NINE CHAPTERS, ALL BUILT, VERIFIED AND INDEXED. The boundary pass is done — item 136 — and item 128 is CLOSED.** The 1943–1955 run was repartitioned from three chapters into four at the material's own seams; no chapter in the part is outside the 25–50 band |
 
+**After item 149 the book is 350,394 page words, 27.8 h; Part G 54,240, Part H 43,460, Part I
+80,096; no D-9 failure; D-17 (ask once) in force and carried out in 25–45** — read off `bookstats.py`
+after the session 11 rebuild, 27 September 2026. Every part has now been read at the depth of
+sessions 3–11; review 12 takes D-17 to Parts A–F (`START_HERE_review_12.md`).
+
 **After item 148 the book is 344,488 page words, 27.3 h; Part G 54,165, Part H 43,322, Part I
 74,403; no D-9 failure; all seven D-13 cases decided** — read off `bookstats.py` after the session 10
 rebuild in a fresh clone, 25 September 2026. The consistency review has now read every part; Part I
@@ -4756,6 +4761,71 @@ split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see it
    not in its context. *A guard that reads text must read it as the reader does, and the output a build
    trusts must have a witness of its own: the body, the figure and the words. And a session's work lives
    in its saves, not in the session.*
+
+149. **The consistency review, session 11: Part I read again at depth, a question asked once, and
+   the guard for the last part.** 25–27 September 2026. Full record in `REVIEW-CONSISTENCY.md` §15.
+
+   **Cold run on a fresh clone of `fcfb4f8`: every figure matched START_HERE_review_11.** Item 148's
+   pages, thirteen `svg_*.txt` and `pageguard.py` are in its commit. The session was interrupted once
+   and resumed from its saves (`claude/session11_state.md`, `claude/session11_wip.patch`).
+
+   **ASK ONCE — D-17, decided by Carsten as recommended.** Measured as Recall is, across 25–45: an
+   opening question repeated a checkpoint 20 times in 13 of 21 chapters, a Causal 4 times, and 17
+   openers were asked again in the end tiers, 9 word for word. Rule: a page asks each question once;
+   the opener keeps it, the later one is rewritten. Carried out in 25–45 (76 questions in G and H; in
+   Part I every end-tier repeat and 35 checkpoints, several also false or asked ahead of their anchor).
+   Recall 13/27 in Part I before, **0 in all 21 after**; no pair at 0.4 on any page 25–45. Parts A–F
+   not yet: 20, 23 and 24 fail it.
+
+   **PART I READ.** Nine fact-checkers and fixers, an integrator, five checkers, five fixers, two more
+   checkers, a fixer, a third checker. **Ninety-eight intervals and ages wrong** (37 six, 38 twenty-one,
+   39 five, 40 ten, 41 eleven, 42 seven, 43 nine, 44 thirteen, 45 sixteen; C nine … H ninety-three),
+   and well over three hundred other corrections. Among them: **the poor's vote, now one story in 33,
+   37, 40 and 45** — most back with the social reform of 1933, the last on 1 October 1961 (lov nr. 169
+   af 31. maj 1961), against danmarkshistorien's 1953; convicts 1953, not 1959; Venstre abstained on the
+   social reform, it did not vote for it; the government resigned on 29 August 1943, not the 28th; the
+   Atlantic territories kept by article four of the **treaty of Kiel**, not "the constitution of 1849"
+   (41, 44, 45); Marshall aid paid about a ninth of the occupation debt, not "more than half"; the UN
+   delisted Greenland on 22 November 1954 on the word of a council Greenlanders **had** elected — thin,
+   not false; 38's thirty thousand called up and more than five thousand dead; the renunciation of
+   1907 now in 38, making 35's arrow solvent; **43's "Danish radio barred from reporting the Bornholm
+   bombing", which nobody could source, replaced by what natmus sources**: on 9 May the prime minister
+   and the king spoke at the Rigsdag's reopening and neither mentioned it. **42 §03's D-13 decision of
+   session 2 had drifted back and was re-scoped again.** D-15: North Schleswig; Danevirke in 33 and 34;
+   Slesvig 4 in 3, all names. D-6: nothing. D-9: three retags.
+
+   **R-19, decided by Carsten as recommended and carried out:** 38's only `[f]` was a child on a horse;
+   **Elna Munch at Amalienborg, Easter Saturday 1920**, who took the initiative for the procession and
+   stood in the king's study, replaces Zahle's vignette (38 §08, `[f]`), facts from lex.dk, G&P, DBL and
+   Kvindebiografisk. Braren `[-]`, not `[n]`: a pastor's adopted daughter. **No D-9 failure in the book.**
+
+   **THE GUARD FOR PART I.** `build_part_i.py` gets `pageguard.py` — freshcheck, `same_body`,
+   `figures_fresh`, `stale_vocabulary` on `reader_text` — plus a fifth check, **`asked_twice`** (D-17),
+   now in G and H too; pages are written only after all five pass; "all nine built clean". "entry" by
+   hand in 37–45 first: one ordinary use (37's "diary entries"), allowed by phrase; the rest is the
+   JavaScript. 50 of 50 unit cases; six planted end-to-end cases all fired, pages untouched. And the two
+   Part H leftovers: 35's ← 34 no longer promises the heath; Danevirke with 34 §03's build title.
+
+   **CHECKED THREE TIMES.** 86 findings (16 substantive), then 27 (2), then 10 (2) — **one of the last
+   the lead's own**: 42's Freedom Council "names four" founders, from a lex.dk sentence that names
+   leading members of a changing body, while lex.dk founds it on four organisations. Fixed with the
+   quotations. And the second round's charge that a Sources line had altered lex.dk's words was false:
+   the page has both sentences.
+
+   **VERIFIED** in the working clone after the last edit: figures and bodies 25–45, build F, G (21
+   fresh), H (15 fresh) and I (24 fresh) clean, `linkindex`, `index_generator`, then the whole suite:
+   **FIXTURE PASSES; seams pass; debuild 45 identical; 45 of 45, 350,394 page words, 27.8 h (G 54,240,
+   H 43,460, I 80,096); vignettes 148/116, no D-9 failure, selftest passes; figcheck 98/30/0; four OVER
+   (16 §08 852; 42 §02 767, 43 §02 780, 44 §03 761, all grown by correction; D-16 keeps them); 44 is 48
+   minutes, **45 is 50, the top of the band**; draftnotes clean; appcheck 167 in 21; freshcheck 21;
+   tidy clean; sweeps: 2 pointers solvent, 0 same-page glosses, Schleswig 316 / Slesvig 4, sweep_facts 2,
+   arrows 254, solvency 39, D-1 0, prose references 0.** Pages that change: 25–45 and the index.
+
+   **LESSON.** A rule's example is a claim, and so is a count: the session measured 20 openers repeating
+   a checkpoint and found the reader's version of the fault forty-five more times where the measure
+   could not see it; and the lead, correcting a count from five to four, cited a source for a claim the
+   source did not make, and a third checker caught it. *A measure finds the fault it was written for and
+   no other; and a correction is checked by someone who did not write it, however small it is.*
 
 ---
 

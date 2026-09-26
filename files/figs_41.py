@@ -34,7 +34,9 @@ FIGURE 1 · 9 April 1940, hour by hour.
   18.30 the same evening. EVERY SPAN IS COMPUTED from those clock times: the
   figure prints no duration that is not derived here.
 
-FIGURE 2 · Who was handed over, 22 June 1941 - October 1943.
+FIGURE 2 · The interned communists, 22 June 1941 - October 1943. (Title was "Who
+  was handed over" until session 11: the Germans took Horserød on 29 August 1943,
+  so the Stutthof row was not a Danish handover; chapters 41 and 42 say so.)
   Source: lex.dk, "Kommunistinterneringerne under besættelsen, 1941-1945", for the
   195 arrested on 22 June 1941 as 60 in Copenhagen and 135 in the provinces, the
   German list of 72 names, the 116 still interned on 22 August 1941, the roughly
@@ -136,7 +138,7 @@ def hm(h, m):
 
 
 T_GEND    = hm(4, 0)      # the three gendarmes at the Padborg viaduct, "about four"
-T_BORDER  = hm(4, 15)     # Kruså, Padborg, Rens, Sæd; and Langelinie
+T_BORDER  = hm(4, 15)     # Kruså, Padborg, Rens, Sæd (Langelinie is 04.20, lex.dk)
 T_FIGHT   = hm(4, 50)     # Lundtoftbjerg, the first engagement
 T_FIGHT_E = T_FIGHT + 30  # "held the road for half an hour"
 T_MEET    = hm(5, 30)     # the king, the crown prince and the government
@@ -146,7 +148,7 @@ T_BBC     = hm(18, 30)    # the BBC's first broadcast in Danish
 AX_LO, AX_HI = hm(4, 0), hm(8, 30)
 
 MARKS = [(T_GEND,   "04.00", "three border gendarmes shot at the Padborg viaduct", OX),
-         (T_BORDER, "04.15", "the border crossed; landings at Langelinie", INK),
+         (T_BORDER, "04.15", "the border crossed at four points", INK),
          (T_FIGHT,  "04.50", "Lundtoftbjerg: the first engagement", OX),
          (T_MEET,   "05.30", "the king and the government meet", IND),
          (T_TERMS,  "06.00", "the German terms accepted", IND),
@@ -334,7 +336,7 @@ def handed():
          'through the camp at Horserød; about one hundred and fifty were sent to '
          'Stutthof in October 1943; twenty-two died.">' % (W, H)]
     o.append('<rect x="0" y="0" width="%d" height="%d" fill="%s"/>' % (W, H, PAPER))
-    header(o, "WHO WAS HANDED OVER, 1941 – 1943",
+    header(o, "THE INTERNED COMMUNISTS, 1941 – 1943",
            "Danes arrested by Danish police for a foreign government",
            "Counts, not shares. The four bars are not one cohort — see the note below.")
 
@@ -457,8 +459,8 @@ def electorate():
          'aria-label="The Danish general election of 23 March 1943 drawn as shares of the '
          'whole electorate of 2,280,716. The four cooperating parties took 81.9 per cent of '
          'the electorate, Dansk Samling and the Danish Nazi party 1.9 per cent each, and '
-         '10.5 per cent did not vote. Turnout was 89.5 per cent, the highest in Danish '
-         'history.">' % (W, H)]
+         '10.5 per cent did not vote. Turnout was 89.5 per cent, the highest at any '
+         'Danish general election.">' % (W, H)]
     o.append('<rect x="0" y="0" width="%d" height="%d" fill="%s"/>' % (W, H, PAPER))
     header(o, "23 MARCH 1943: THE WHOLE ELECTORATE AS ONE BAR",
            "the same denominator chapter 40 used for the referendum of 1939",

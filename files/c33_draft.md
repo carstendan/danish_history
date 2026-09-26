@@ -192,7 +192,7 @@ eleven thousand men under Hedemann met a Schleswig-Holstein force of some six
 thousand under General Krohn at Bov, north of the modern border, and broke it;
 more than nine hundred of the enemy were taken prisoner unwounded, and the rest
 went south in disorder. Within two days the Danish army stood on the line of the
-Schlei and the Dannevirke. Denmark had
+Schlei and the Danevirke. Denmark had
 apparently won its civil war in a month.
 
 It had not, because the war stopped being a civil war. Prussia and the German
@@ -523,7 +523,7 @@ himself, gave nothing, and did not come.
 
 To make room for it a large number of graves were levelled, among them a
 Schleswig-Holstein war grave from the Three Years' War itself. It stood for less
-than two years. In February 1864, after the retreat from the Dannevirke, it was
+than two years. In February 1864, after the retreat from the Danevirke, it was
 taken down, and in 1868 the Prussian king had it set up in Berlin as booty, in the
 arsenal and from 1878 outside the cadet school at Lichterfelde. It came back to
 Denmark in 1945 and back to Flensburg in 2011.
@@ -646,7 +646,8 @@ it.
 **September 1848 — Frankfurt.** The German National Assembly had claimed
 Schleswig-Holstein for Germany, and in September it was
 asked to ratify the armistice of Malmö, which handed the duchies back to a joint
-administration. It ratified, and in doing so admitted it had no army, no treasury
+administration. It voted against it first, then ratified it on the 16th, and in
+doing so admitted it had no army, no treasury
 and no obedience, and that Prussia would make war and peace in the north without
 consulting it. Riots followed and two deputies were murdered. The parliament that
 had opened in May proposing to unify Germany by consent closed the year having learned that
@@ -778,25 +779,26 @@ why a war Denmark won produced the war Denmark lost.
 
 1. Who compiled the register of the Danish dead of 1848–50, and what had his
    position been under the law when the war began?
-2. Which powers signed the London Protocol of 2 August 1850, and which German power
-   refused?
-3. What were the qualifications for the vote under the 1849 constitution, and what
-   proportion of the population met them?
+2. How many dead did each side lose at Isted, and which two Danish officers were
+   among them?
+3. In how many of the hundred seats was there a ballot at the first Folketing
+   election of 4 December 1849, and how many of the men entitled voted in them?
 
 **Causal.**
 
-1. The rescript of 28 January 1848 was a genuine constitutional concession, and it
-   made both national movements angrier. Why?
+1. By the middle of April 1848 Denmark had apparently won its civil war. Why had
+   it not?
 2. The provisional government declared that the king's will was no longer free
    rather than declaring independence. What did that formula buy it, and from whom?
-3. Denmark beat the Schleswig-Holsteiners in the great battles and got a settlement
-   it had not won. What made the difference, and where was it decided?
+3. In 1842 the state ruled that the children of Danish Baptists were to be
+   baptised by force. Why could a state church do nothing else, and what in the
+   constitution of 1849 ended it?
 
 **Counterfactual.**
 
-1. Suppose the reports reaching Copenhagen on 20 March 1848 had been accurate, and
-   the meeting had been told nothing had yet happened at Rendsburg. Does absolutism
-   still end that week?
+1. Suppose the Frankfurt National Assembly had held to its first vote against the
+   armistice of Malmö rather than accepting it on 16 September 1848. What could
+   it have done instead, and would the war have gone differently?
 2. Suppose the Kongelov of 1665 had been plainly agnatic, with no female fallback
    at all. Does the Schleswig question still arrive in 1848, and in what form?
 
@@ -804,8 +806,8 @@ why a war Denmark won produced the war Denmark lost.
 
 1. Did Orla Lehmann create the mood at the Casino by announcing a rising that had
    not begun, or did he only use a mood already there? Hans Vammen argued the
-   first, Bjørn Svensson the second. What evidence could settle it, and does the
-   answer change what one thinks of March 1848?
+   first, Bjørn Svensson the second. What evidence could settle it, and what in
+   the account of the evening would each of them point to?
 2. Kristian Erslev concluded that the Kongelov's succession had never been valid in
    Schleswig and that the Augustenborg claim was therefore good in law. His view has
    not been generally accepted. If he was right, what follows about 1848 and 1864 —
@@ -831,6 +833,12 @@ why a war Denmark won produced the war Denmark lost.
   provisions, and the opening reservation on Schleswig.
 - The Treaty of London, 8 May 1852, full text; and the London Protocol of 2 August
   1850.
+- The Frankfurt Assembly's two votes on the armistice of Malmö: *Encyclopedia of
+  1848 Revolutions* (ed. James Chastain), "Germany, September Crisis 1848": the
+  assembly "initially rejected the armistice of Malmö", then "reconsidered its
+  hasty action on September 16 and accepted the treaty by a narrow majority in a
+  second vote". That article dates the first vote 8 September and other accounts
+  5 September, so the page dates only the second.
 - A.D. Cohen, *Krigen 1848, 1849, 1850 og de Faldnes Minde* (Odense, 1851), the
   privately compiled register of the Danish dead, named by Rigsarkivet, with its
   companion volume for 1864, as the principal sources for its name registers of

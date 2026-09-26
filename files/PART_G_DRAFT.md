@@ -634,19 +634,21 @@ third.
    put his name to in 1658?
 2. Which body first put the proposal for a hereditary crown, who carried it to
    the burghers, and on what date?
-3. What is *hartkorn*, and what problem was it invented to solve?
+3. What did the ordinance of 19 February 1662 do to the *len*, and who were
+   many of the first *amtmænd*?
 4. Who is known to have been aware of the Kongelov before Frederik 3.'s death,
    and how sure can we be?
 
 **Causal** — *Why did that follow from this?*
 
-5. Why did the abolition of the elective monarchy also abolish the limits on royal
-   power? Set out the steps.
+5. The admiralty and the war college were run as colleges before October 1660.
+   Why does that make the college reform look less like a new idea and more like
+   an unfinished wartime expedient?
 6. The privileges promised to Copenhagen's citizens in August 1658 are usually
    treated as a footnote to the siege. Explain how they made October 1660
    possible.
-7. Why did a state that wanted to tax evenly have to invent a new unit of
-   measurement before it could do so?
+7. Why was the parish church the obvious instrument for a state that wanted to
+   reach every village, and why did the state not have to build it?
 
 **Counterfactual** — *What if it had gone otherwise?*
 
@@ -663,8 +665,9 @@ third.
 11. Was 1660 a revolution made by the burghers, or a revolution made by the king
     using the burghers? Consider what evidence would settle it, and whether that
     evidence exists.
-12. Denmark's absolutism was created by vote, unopposed, and cost no lives at the
-    time. Does that make it easier or harder to judge than one imposed by force?
+12. The Kongelov in the Rigsarkiv is dated 14 November 1665, and one recent study
+    thinks it was probably written out in 1669 and dated back. Does it matter
+    which, and what would settle it?
 
 ---
 
@@ -1431,15 +1434,15 @@ treated.
 2. Which offices and titles did Griffenfeld hold by 1674, and why do the
    reference works disagree about when he became chancellor?
 3. Where did Danske Lov not apply, and what law was used there instead?
-4. What happened at Lund on 4 December 1676, and what happened off Stevns on 1
-   July 1677?
+4. What was Svend Poulsen given by the crown in 1661, and why did he lose it in
+   1673?
 
 **Causal** — *Why did that follow from this?*
 
 5. Explain how a rank order priced in hartkorn depended on the land register
    of 1664. What could the crown do in 1671 that it could not have done in 1659?
-6. Niels Juel's victory gave Denmark command of the sea and Denmark still lost the
-   war. Why did command of the sea not decide it?
+6. The burning of Örkened parish in 1678 worked without persuading the parish of
+   anything. How?
 7. Why did the Swedish state found a university in Skåne in 1666, eight years
    before the war it is usually associated with?
 
@@ -1453,9 +1456,10 @@ treated.
 
 **Contested** — *Where the argument still is*
 
-10. Snaphane or friskytte: the same men, two words, two national traditions.
-    Set out what each word claims, and identify the evidence that would
-    distinguish a partisan from a bandit — if any would.
+10. Tradition gives the Løsholt raid to the snaphaner, several researchers read
+    it as a robbery, and Denmark executed the trumpeter who led it. What evidence
+    would distinguish a partisan raid from a robbery, and does any survive for
+    this one?
 11. Leonora Christina was held for more than twenty-one years without trial,
     and modern historians think she was party to her husband's schemes to some
     degree. Does the second fact change your judgement of the first?
@@ -2198,25 +2202,27 @@ still could not say how many of its people it had lost.
 
 **Recall** — *Did the facts land?*
 
-1. Why did Denmark go to war in 1709, and what ended the attempt in March 1710?
+1. Who commanded the two armies outside Helsingborg in March 1710, and where
+   had the Swedish commander found his soldiers?
 2. What measures had the Danish state taken against the plague before it reached
    Copenhagen, and from what year?
-3. What did Denmark gain, and what did it not gain, in the settlement of 1720–21?
+3. What was Tordenskjold made for bringing Frederik 4. the news of Karl 12.'s
+   death, and how did he die?
 4. How many rytterskoler were built, over what period, and who was required to
    attend them?
 
 **Causal** — *Why did that follow from this?*
 
-5. Explain why the destruction of the Swedish army at Poltava, a thousand miles
-   away, made a Danish invasion of Skåne look sensible in 1709.
+5. Hans Egede sailed for Greenland to find the Norse. Why did he end up running
+   a mission to the Inuit instead?
 6. Denmark failed against Gottorp by force in 1700 and succeeded by diplomacy
    in 1720. What changed, and how much of it was Denmark's doing?
 7. Why did a king who wanted soldiers build schools?
 
 **Counterfactual** — *What if it had gone otherwise?*
 
-8. Suppose Rantzau had won outside Helsingborg in 1710. What would Denmark have
-   needed in order to hold Skåne, and did it have any of it?
+8. Suppose the Danish army had won outside Helsingborg in 1710. What would
+   Denmark have needed in order to hold Skåne, and did it have any of it?
 9. Suppose the 1721 homage instruments had said plainly that Schleswig was
    incorporated into Denmark and the Kongelov extended to it. What argument would
    the nineteenth century have had to find instead?
@@ -2226,8 +2232,10 @@ still could not say how many of its people it had lost.
 10. The death toll of 1711 is given as 20,000, as 25,000, as a third of the city
     and as forty per cent, in sources of comparable authority. What would it take
     to settle it, and does the answer change how the epidemic should be described?
-11. Frederik 4. is judged a poor commander who nevertheless ended his wars with
-    more than he began them with. How should a history weigh the two?
+11. The story of Tordenskjold's soldiers marching in circles at Marstrand is
+    better evidence of the legend than of the siege. What would count as evidence
+    for what he actually did there, and what does the legend tell you about the
+    centuries that told it?
 12. Hans Egede is honoured in Denmark and contested in Greenland. Set out the case
     on each side, using his own words about discipline as evidence for both.
 
@@ -3154,19 +3162,19 @@ nothing was let out at all.
 
 **Recall** — *Did the facts land?*
 
-1. What did the ordinance of 4 February 1733 say, and what was it formally an
-   ordinance about?
-2. What did the Sabbath ordinance of 1735, the confirmation ordinance of 1736 and
-   the catechism of 1737 require of every Dane?
-3. What was hoveri, and why could its extent not be looked up?
-4. What did Norway send south, and what was it obliged to buy?
+1. What did the ordinance of 5 March 1731 forbid, and what had Christian 6. done
+   on 30 October 1730 that prompted it?
+2. What did the placard of 29 April 1740 leave to the landowners' own choice?
+3. What was the difference between a spanddag and a gangdag, and who could not
+   send anyone in his place?
+4. What town did Christian 4. found at the Sandsvær silver, and how many people
+   did its works employ in 1770?
 
 **Causal** — *Why did that follow from this?*
 
-5. Explain why a compulsory confirmation led, three years later, to compulsory
-   schooling.
-6. The landowners wanted the bond and the crown wanted soldiers. Set out the
-   bargain, and say what each side got.
+5. Stavnsbånd kept farm wages down. How?
+6. Why did the office of stattholder in Norway stand empty in some decades and
+   fill with real power in others?
 7. Why was hoveri able to grow when landgilde was not?
 
 **Counterfactual** — *What if it had gone otherwise?*
@@ -3180,11 +3188,12 @@ nothing was let out at all.
 
 10. Feldbæk holds that we know little about stavnsbånd's real economic and social
     effects. What sort of evidence would settle it, and why might it not exist?
-11. Was Norway a kingdom in a union or a province being worked? Argue both from
-    the same facts — the coin, the law, the mines, the grain ban.
-12. The state put private assemblies under the priest in 1741, shut the Moravian
-    emissaries out in the 1740s, and invited a Moravian town in 1771. What does the reversal show about what absolutism wanted from
-    religion, and is that a fair conclusion to draw from one case?
+11. Sophie Magdalene is remembered as Charlotte Dorothea Biehl drew her, and her
+    modern biographer calls the portrait undeserved. How would you test a
+    portrait like that, and why might the nationalism after 1864 have wanted it?
+12. The instruction the confirmation ordinance compelled was the memorising of
+    set religious texts, and this chapter calls it the place Danish literacy
+    comes from. Is that fair? Argue it both ways.
 
 ---
 
@@ -3962,19 +3971,19 @@ reforms while the landowners pushed back.
 
 **Recall** — *Did the facts land?*
 
-1. What is a cabinet order, and why was it the instrument of both Struensee's rule
-   and his fall?
-2. What did the rescript of 14 September 1770 do, and why was Struensee
-   restricting it by October 1771?
+1. When did Struensee begin signing cabinet orders himself, on what authority,
+   and what did the king make him in July 1771?
+2. What did the rescript of 14 September 1770 declare, and how did it go further
+   than Sweden's press law of 1766?
 3. What did the Indfødsret of 1776 require?
 4. Who paid for the Liberty Column, and on what day was its foundation stone
    laid?
 
 **Causal** — *Why did that follow from this?*
 
-5. What did the landowners get back in the ordinance of 1788, and why did two
-   ministers still walk out over it?
-6. Why did unrestricted press freedom damage the man who granted it?
+5. Why did lifting the bond force the government to decide who would raise the
+   soldiers instead?
+6. Why was the Indfødsret of 1776 popular, and at whom was it really aimed?
 7. Why did the udskiftning of a village make it nearly impossible for the next
    generation to become farmers?
 
@@ -3990,8 +3999,9 @@ reforms while the landowners pushed back.
 
 10. Was Guldberg's twelve years a dead interval or a period of quiet consolidation?
     Argue it from the trade figures, the Indfødsret and the school reform.
-11. The Liberty Column says the King commanded. Who actually did it, and does it
-    matter that the monument is wrong?
+11. This chapter reads the Liberty Column as a demonstration by the Copenhagen
+    middle class, dressed as thanks to the king. What would count as evidence
+    against that reading?
 12. Denmark reformed by commission and France by revolution. Compare what each
     achieved for the people at the bottom of the countryside, and say which
     process you would rather have lived through — and whether those are the same
@@ -4722,23 +4732,23 @@ adult landed.
 
 **Recall** — *Did the facts land?*
 
-1. What went out on each of the three legs of the triangular route, and where did
-   most Danish slave voyages begin and end?
-2. Roughly how many people did Danish ships carry, on how many voyages, and what
-   proportion died on the crossing?
-3. What did Gardelin's code of September 1733 say about why the enslaved were
-   enslaved, and what were its penalties?
-4. What did the ordinance of 16 March 1792 permit between its signing and the end
-   of 1802?
+1. Name the Danish forts and lodges on the Gold Coast, and say from whom Denmark
+   bought the site of Christiansborg.
+2. Which company ran the Danish slave trade from 1674 to 1754, and which
+   companies followed it?
+3. What did Philip Gardelin propose to the company in 1736, and what did the
+   company do with it?
+4. When was the commission on the slave trade set up, at whose instigation, and
+   when did it report?
 
 **Causal** — *Why did that follow from this?*
 
-5. Explain why the mortality of the enslaved population exceeding its birth rate
-   made the trade both necessary to the colony and, eventually, arguable against.
+5. The leaders of the St Jan rising were a displaced Akwamu elite. How does that
+   explain the kind of rising they planned?
 6. Why did the Crown's buy-out of the company in 1754 change the moral position of
    the Danish state, whatever it changed in practice?
-7. Why did the ordinance of 1792 include a ten-year delay, and what did the
-   government expect it to achieve?
+7. Why could a sugar plantation not be run with a labour force that was free to
+   leave?
 
 **Counterfactual** — *What if it had gone otherwise?*
 
@@ -4757,9 +4767,9 @@ adult landed.
     Denmark was a carrier nation in its own right, with its own forts, companies
     and flag. Which of those two true
     statements belongs in a school textbook, and why?
-12. The St Jan rising was a bid for freedom by people who intended to enslave
-    others. How should that be told — and does the answer change depending on who
-    is telling it?
+12. Breffu is named among the leaders of the rising in records kept by the men
+    she was fighting. How far can such records be trusted about her, and what
+    would a history need that they cannot supply?
 
 ---
 
@@ -5595,20 +5605,19 @@ compulsory for every child in what was left.
 
 **Recall** — *Did the facts land?*
 
-1. What two things did Danish merchants do with the neutral flag, and which of them
-   was unlawful?
+1. When did Christiansborg burn, and how many people did the fire of June 1795
+   leave homeless?
 2. What was Floating Battery No. 1, and who commanded it on 2 April 1801?
-3. What two figures are given for the dead of the bombardment of 1807?
-4. What did the currency reform of 5 January 1813 do to the old notes, and what
-   backed the new ones?
+3. Where did British troops land in August 1807, and why did they meet almost no
+   resistance?
+4. What happened to Ernst Schimmelmann and to Christian Ditlev Reventlow in 1813?
 
 **Causal** — *Why did that follow from this?*
 
 5. Explain why Trafalgar in 1805 made the bombardment of 1807 possible.
 6. Why did Norway suffer famine between 1807 and 1814, and why was its grain
    coming from Denmark in the first place?
-7. Why did Norway enter the Swedish union as a kingdom with a constitution rather
-   than as a conquered province?
+7. The new rigsbankdaler of 1813 fell too. Why?
 
 **Counterfactual** — *What if it had gone otherwise?*
 

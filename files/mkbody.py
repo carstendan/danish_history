@@ -469,7 +469,7 @@ HAND = {
         "made beside the treaty that made him king. Within a year Denmark has lost the duchies, the army that "
         "abandoned an indefensible rampart has been vilified for saving itself, and the "
         "bronze lion over the graves at Flensburg has been taken down. The bill for the second loss is paid at home, in 1866, by Danes.",
-   keys=['Novemberforfatningen 1863', 'forbundseksekution', 'Dannevirke',
+   keys=['Novemberforfatningen 1863', 'forbundseksekution', 'Danevirke',
          'skanserne ved Dybb\u00f8l', 'Helgoland 9. maj 1864', 'Londonkonferencen',
          'Als 29. juni 1864', 'Wienerfreden', 'optanter', 'Pragfredens artikel 5',
          'Den gennemsete Grundlov 1866', 'privilegeret valgret', 'Hedeselskabet'],
@@ -478,7 +478,7 @@ HAND = {
        "Why did he sign, and what did he think would happen?",
        "In 1848 Russia made Prussia take its troops out of Jutland. In 1864 "
        "nobody did. What changed between those two wars \u2014 and whose doing was it?",
-       "The general who abandoned the Dannevirke was destroyed for it and had been "
+       "The general who abandoned the Danevirke was destroyed for it and had been "
        "following his written orders. Who needed him blamed?",
        "Denmark won the fleet action off Heligoland in May 1864. Why did it not matter?",
        "Denmark lost territory to Prussia and Austria in October 1864 and lost the "
@@ -560,12 +560,12 @@ HAND = {
    title='Reform, neutrality and the sale of the West Indies',
    people='P.A. Alberti \u00b7 C.Th. Zahle \u00b7 Jutta Bojsen-M\u00f8ller \u00b7 '
           'Kresten Andresen \u00b7 D. Hamilton Jackson',
-   hook="The change of system altered no word of the constitution. Within seven years the "
-        "man who embodied it had stolen fifteen million kroner and walked to a police "
+   hook="The change of system altered no word of the constitution. Seven years later the "
+        "man who embodied it had stolen more than sixteen million kroner and walked to a police "
         "station to say so, and the system survived him. Then a constitution admitted two "
         "of the seven groups it had excluded for sixty-six years, a neutral country mined "
-        "its own straits at Germany's request, and thirty-seven per cent of Danes voted to "
-        "sell twenty-seven thousand people who had no vote at all.",
+        "its own straits at Germany's request, and on a turnout of thirty-seven per cent "
+        "Danish voters chose to sell twenty-seven thousand people who had no vote at all.",
    keys=['Systemskiftet', 'Det Radikale Venstre', 'Alberti', 'Retsplejeloven 1908',
          'de syv F\u2019er', 'Grundloven 1915', 'Augustlovene', 'minerne i B\u00e6lterne',
          'gullaschbaroner', 'Arbejdsregulativet 1849', 'Fireburn 1878',
@@ -582,15 +582,15 @@ HAND = {
        "Danish answer wrong?"],
    figs=[("s05", "SVG_SYVF",
           "Figure 1 \u00b7 The seven categories, and the year each was let in",
-          "The groups the franchise of 1849 excluded, with the year each was admitted. "
-          "Five dates are exact, one disqualification lapsed without a franchise act, and "
-          "two categories are still excluded. Not the before-and-after electorate the plan "
-          "asked for; see the note in figs_37.py."),
+          "The groups the franchise of 1849 excluded, with the year each was admitted: "
+          "two in 1915, convicts and bankrupts in 1953, the last of the poor in 1961, "
+          "most of them having had the vote back since 1933. Two categories are still "
+          "excluded."),
          ("s07", "SVG_SOEFOLK",
           "Figure 2 \u00b7 The price of a neutral flag, 1914\u201318",
           "Danish merchant seamen against the size of the merchant service: 702 dead of "
-          "about ten thousand, one man in fourteen, in a country where nobody was "
-          "conscripted and no foreign soldier crossed the border. Ships lost are not drawn "
+          "about ten thousand, one man in fourteen, in a country that sent nobody to "
+          "fight and that no foreign soldier crossed. Ships lost are not drawn "
           "and the figure says why."),
          ("s09", "SVG_AFSTEMNING",
           "Figure 3 \u00b7 14 December 1916, and the people it was about",
@@ -627,7 +627,7 @@ HAND = {
    figs=[("s01", "SVG_FRANCHISES",
           "Figure 1 \u00b7 Two chambers, two electorates",
           "The Folketing and the Landsting side by side as the electoral laws left them "
-          "after 1866: universal manhood suffrage on one side, and on the other a chamber "
+          "after 1866: the franchise of 1849 on one side, and on the other a chamber "
           "of sixty-six in which twelve were appointed by the king for life and half the "
           "electors who chose the rest were themselves chosen by the highest taxpayers "
           "alone. The chapter's central fact in one image."),
@@ -649,27 +649,28 @@ HAND = {
    part='Part I', band='The small state', num=38, dates='1918 \u2013 1920',
    title='Genforeningen, Iceland and the Easter Crisis',
    people='H.P. Hanssen \u00b7 H.V. Clausen \u00b7 Ernst Christiansen \u00b7 '
-          'Christian 10. \u00b7 Johanne Marie Braren',
-   hook="In one year Denmark let Iceland go by agreement, got a border by asking the "
-        "people where it should be, and very nearly lost its monarchy over the part of "
-        "the answer it did not like. The border it got runs within a few kilometres of a "
-        "line a Copenhagen schoolmaster had walked out on foot thirty years earlier. The "
-        "king who objected to it dismissed a government with a majority, and gave way in "
-        "three days to a strike that was called and never struck.",
+          'Christian 10. \u00b7 Elna Munch \u00b7 Johanne Martine Braren',
+   hook="Between December 1918 and July 1920 Denmark let Iceland go by agreement, got a "
+        "border by asking the people where it should be, and put its monarchy in question "
+        "over the part of the answer it did not like. The border it got runs within a few "
+        "kilometres of a line a Frederiksberg history master had drawn from his own walks "
+        "in 1891. The king who objected to it dismissed a government with a majority, and "
+        "gave way inside a week to a strike that was called and never struck.",
    keys=['Forbundsloven 1918', 'Versaillestraktaten \u00a7\u00a7109\u2013114',
          'Aabenraa-resolutionen', 'Clausen-linjen', 'zone 1 og zone 2',
          'afstemningen 10. februar 1920', 'afstemningen 14. marts 1920',
          'Den Internationale Kommission', 'P\u00e5skekrisen', 'Genforeningen',
-         'hjemmetyskere', 'de hjeml\u00f8se'],
+         'hjemmetyskere', 'optionsret'],
    qs=["Iceland left by agreement and Norway left by treaty after a lost war. What had "
        "changed in Denmark between 1814 and 1918 to make the difference?",
        "Denmark could plausibly have claimed as far south as the Danevirke and asked for "
        "less. Give the reason that is about the previous four hundred years.",
        "Zone 1 voted en bloc and Zone 2 commune by commune. Show how that one asymmetry "
        "settled the border before a vote was cast.",
-       "About 25,000 people in Zone 1 voted German and became Danish anyway. What is the "
-       "argument that this was right, and what is the argument against it?",
-       "The king dismissed a ministry that had a majority, and the constitution of 1866 "
+       "A quarter of the votes in Zone 1 were cast for Germany, and the whole zone became "
+       "Danish anyway. What is the argument that this was right, and what is the argument "
+       "against it?",
+       "The king dismissed a ministry that had a majority, and the constitution of 1915 "
        "allowed it. What stopped him, and where is that rule written down?"],
    figs=[("s02", "SVG_FORBUND",
           "Figure 1 \u00b7 The Act of Union, 1 December 1918",
@@ -688,7 +689,7 @@ HAND = {
           "The year on one axis: two plebiscites, a dismissed ministry, a general strike "
           "called and not struck, a border, a king on a horse, a referendum, and three "
           "general elections held for three different constitutional reasons. Party "
-          "totals are deliberately absent; see the note in figs_38.py.")],
+          "totals are left out because they could not be confirmed twice.")],
  ),
  39: dict(
    file='c39_body.html',
@@ -731,7 +732,7 @@ HAND = {
          ("s06", "SVG_TING",
           "Figure 3 \u00b7 The Folketing of 11 April 1924",
           "One square a seat. Social Democrats and Radicals together fill the first three "
-          "rows, seventy-five of 149, which is a majority of one. Forty years earlier the "
+          "rows, seventy-five of 149, which is a majority of one. In 1884 the "
           "Social Democrats had two.")],
  ),
  40: dict(
@@ -743,16 +744,16 @@ HAND = {
    hook="Denmark met the depression through the price of bacon in Britain. One night in "
         "January 1933, in the prime minister's flat, three parties traded a devaluation "
         "for a social reform and called off a lockout of a hundred thousand men. The "
-        "reform did not give the poor back the vote: it redefined them out of the clause "
+        "reform did not give the poor back the vote: it redefined most of them out of the clause "
         "that took it. And in 1939 a proposal that nine voters in ten approved of failed, "
-        "because only half of them came.",
+        "because only half the electorate came.",
    keys=['Kanslergadeforliget 1933', 'devalueringen 1933', 'Lov om offentlig Forsorg 1933',
          'socialreformen 1933', 'fattighjælp og valgret', 'aandssvageloven 1934',
          'Påskeblæsten 1933', 'Slesvigsk Parti', 'Østgrønlandssagen 1933',
          'Stauning eller kaos 1935', 'landstingsvalget 1936', 'DNSAP',
          'folkeafstemningen 23. maj 1939'],
    qs=["A lockout of a hundred thousand men was called off by statute. What else did that "
-       "statute suspend, and who had spent thirty-four years insisting it never should?",
+       "statute suspend, and who had spent thirty-three years insisting it never should?",
        "The social reform of 1933 did not amend the constitution. How did it give most "
        "recipients of public help their vote back without doing so?",
        "Steincke wrote the principle that help should cost a man nothing, and the law that "
@@ -774,8 +775,8 @@ HAND = {
           "the rates instead."),
          ("s11", "SVG_REGEL",
           "Figure 3 \u00b7 23 May 1939: the rule that counted silence",
-          "The whole electorate as one bar rather than the votes cast. Of those who voted, "
-          "91.85 per cent said yes; measured against everyone entitled to vote it was "
+          "The whole electorate as one bar rather than the votes cast. Of the valid votes, "
+          "91.85 per cent were yes; measured against everyone entitled to vote it was "
           "44.5, and the constitution of 1915 required 45.")],
  ),
  41: dict(
@@ -802,7 +803,7 @@ HAND = {
        "why does almost every account get this wrong?",
        "Danish police arrested Danish communists in June 1941 with no law to do it under. "
        "What did the Rigsdag do about that two months later?",
-       "The realm came apart in the North Atlantic in the thirteen months after 9 April "
+       "The realm came apart in the North Atlantic in the year after 9 April "
        "1940. Name the three territories and the three different ways they went.",
        "Turnout in March 1943 was the highest at any Danish general election and the Danish Nazi party "
        "kept its three seats on a larger vote than in 1939. Explain both facts at once."],
@@ -812,7 +813,7 @@ HAND = {
           "times, including the four hours and a quarter of fighting and the hour and "
           "three-quarters in which the decision was taken."),
          ("s08", "SVG_UDLEVERET",
-          "Figure 2 \u00b7 Who was handed over, 1941 \u2013 1943",
+          "Figure 2 \u00b7 The interned communists, 1941 \u2013 1943",
           "Four different kinds of quantity on one scale and deliberately not one cohort: "
           "one day's arrests, a stock on the date the law was passed, a flow through a "
           "camp over two years, and one transport. The divergence between two sources on "
@@ -829,11 +830,11 @@ HAND = {
    title='1943: the year the policy broke',
    people='Werner Best \u00b7 Georg Ferdinand Duckwitz \u00b7 Ellen Wilhelmine Nielsen \u00b7 '
           'Paul Aron Sandfort \u00b7 Vice Admiral Vedel \u00b7 Christian 10.',
-   hook="The cooperation policy was ratified in March 1943 by the largest turnout in "
-        "Danish history and was finished by the end of August, and what broke it was a "
-        "strike. Three weeks after the government stopped functioning the occupier moved "
+   hook="The cooperation policy was ratified in March 1943 by the highest turnout at any "
+        "Danish general election and was finished by the end of August, and what broke it was a "
+        "strike. A month after the government stopped functioning the occupier moved "
         "against the Jews of Denmark, on the stated ground that there was no longer a "
-        "government to lose. Most of them were across the Sound within a fortnight, and "
+        "government to lose. Most of them were across the Sound within the month, and "
         "the year ended with a council nobody had elected claiming to speak for the "
         "country.",
    keys=['augustopr\u00f8ret 1943', '29. august 1943', 'fl\u00e5dens s\u00e6nkning',
@@ -856,8 +857,7 @@ HAND = {
           "An estimate and a count, drawn differently on purpose. The 472 is a nominal "
           "count from the transport registration lists and is drawn filled; the crossing "
           "to Sweden is an estimate and is drawn open, with the range in circulation as a "
-          "whisker. The spread on the larger number is wider than the whole of the "
-          "smaller one.")],
+          "whisker.")],
  ),
  43: dict(
    file='c43_body.html',
@@ -868,9 +868,9 @@ HAND = {
    hook="The resistance had no weapons in 1943 and about sixty thousand armed people by "
         "May 1945, and every gun came from outside. What it did with them was mostly not "
         "fight: it blew up factories and railways, absorbed a counter-terror aimed at "
-        "prominent Danes rather than at saboteurs, stopped the capital for a fortnight "
-        "over a curfew, and then waited. In September 1944 the occupier deported the "
-        "Danish police and handed the underground five thousand trained men.",
+        "prominent Danes rather than at saboteurs, backed a strike that shut the capital for "
+        "more than a week over a curfew before calling it back to work, and then waited. In September 1944 the occupier deported the "
+        "Danish police and handed the underground some five and a half thousand trained men.",
    keys=['SOE og nedkastningerne', 'ventegrupper', 'Hvidstengruppen',
          'clearingmord', 'schalburgtage', 'folkestrejken 1944',
          'politiaktionen 19. september 1944', 'vagtv\u00e6rn', 'Shellhuset',
@@ -887,10 +887,8 @@ HAND = {
        "on 7 and 8 May 1945. Explain the number."],
    figs=[("s02", "SVG_SABOTAGE",
           "Figure 1 \u00b7 Sabotage by year, 1940 \u2013 1945",
-          "The annual series, because no monthly one is reachable. The 1945 column is "
-          "four months. The industrial column adds to its own published total exactly and "
-          "the railway column overshoots its own by one, which is marked on the figure "
-          "rather than averaged away."),
+          "The annual series, because no monthly one is reachable. The note under the "
+          "figure says what the two columns do and do not add up to."),
          ("s03", "SVG_FOLKESTREJKE",
           "Figure 2 \u00b7 The People's Strike, 22 June \u2013 5 July 1944",
           "An axis in days. The two dates the sources do not agree on \u2014 when the "
@@ -909,7 +907,7 @@ HAND = {
         "them turned out to be chargeable with nothing; the statute to try them under was "
         "passed three weeks later and reached back five years. Forty-six men were shot. "
         "Seventy-five went to prison for building the German war. Then Denmark totted up "
-        "what the occupation had actually cost, and somebody else paid it.",
+        "what the occupation had cost, some eight billion kroner, and found that the occupier would never pay it.",
    keys=['retsopg\u00f8ret', 'straffelovstill\u00e6gget 1945',
          'd\u00f8dsstraffens genindf\u00f8relse', 'v\u00e6rnemagersagerne',
          'tyskerpiger', 'Bornholm 1945-46', 'Sydslesvig efter 1945',
@@ -923,8 +921,8 @@ HAND = {
        "Denmark in May 1945?",
        "On what condition did the Soviet Union leave Bornholm in 1946, and how did Danish "
        "governments read that condition afterwards?",
-       "Denmark declined a frontier further south in 1946. Was that the first time a "
-       "Danish government refused territory it could have had?"],
+       "In October 1946 Denmark told Britain it made no claim to a frontier further "
+       "south. Was that the first time Denmark had declined to take more of Schleswig?"],
    figs=[("s03", "SVG_DOMME",
           "Figure 1 \u00b7 What the 13,521 convictions were for",
           "The official table at final instance, by category, with the women's share "
@@ -939,21 +937,21 @@ HAND = {
           "and the Soviet departure is 32 days, and is marked."),
          ("s06", "SVG_SYDSLESVIG",
           "Figure 3 \u00b7 South Schleswig: members, meals and votes, 1945\u20131954",
-          "Three series that are not on one scale and are not drawn as though they were. "
-          "Each is indexed to its own first reading, and the food line is dashed because "
-          "its endpoints are two years apart from the others'. The argument is the shape, "
-          "not the levels.")],
+          "Four series with two published readings each, drawn as the multiplier between "
+          "the readings on a logarithmic scale, with both readings and their dates printed "
+          "on the row. The periods differ and the figure says so rather than joining the "
+          "points with a line. The argument is the shape, not the levels.")],
  ),
  45: dict(
    file='c45_body.html',
-   part='Part I', band='The small state', num=45, dates='1948 \u2013 1955',
+   part='Part I', band='The small state', num=45, dates='1948 \u2013 1954',
    coda_part='Part I', coda_span='1901 \u2013 1955',
    title='Choosing a side, and the constitution',
    people='Max S\u00f8rensen \u00b7 Helga Pedersen \u00b7 Gustav Rasmussen \u00b7 '
           'Hans Hedtoft \u00b7 Helene Thiesen \u00b7 Frederik 9.',
    hook="Denmark spent 1948 trying not to choose, and the Scandinavian answer failed in "
         "Oslo in January 1949 because Sweden would not join a bloc tied to the west and "
-        "Norway would not join one that was not. Ten weeks later Denmark signed the "
+        "Norway would not join one that was not. Nine weeks later Denmark signed the "
         "Atlantic pact. Four years after that it replaced a constitution by nineteen "
         "thousand votes \u2014 abolishing the upper house, writing down parliamentary "
         "government, giving a princess a place behind every brother, and installing the "
@@ -967,8 +965,8 @@ HAND = {
          'grundloven af 5. juni 1953'],
    qs=["Why did the Scandinavian defence union fail, and what did each of the three "
        "governments want that the other two could not give?",
-       "A revision supported by 91.85 per cent of those who voted failed in 1939 and one "
-       "supported by 78.76 per cent passed in 1953. What was the rule, and what was it "
+       "A revision that won 91.85 per cent of the valid votes failed in 1939 and one "
+       "that won 78.76 per cent passed in 1953. What was the rule, and what was it "
        "actually measuring?",
        "The Landsting voted for its own abolition. What had each reform since 1866 done "
        "to it that left it without an argument?",

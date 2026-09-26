@@ -114,6 +114,9 @@ day ahead of Julian in 1716". Sweden ran that calendar from 1700 to 1712 and was
 Sources now give its 16 April 1716 as the Danish-Norwegian style (5 April, Swedish), checked against
 Fredriksten (night to 4 July; the Swedes' 22 June) (`REVIEW-CONSISTENCY.md` §14.1, §14.5).
 
+**Part I, review session 11:** no Russian date before February 1918 on any page (37's Meanwhile
+gives Russia's 1917 by year); nothing to add (`REVIEW-CONSISTENCY.md` §15.5).
+
 **Defined.** `PLAN_G.md` §6; `HANDOFF.md`, *Dates: old style and new style*.
 
 ### D-7 · The Atlantic chapter is 30, after the reforms — spent
@@ -153,7 +156,10 @@ Part H's (session 10) found ninety-three (32 nineteen, 33 twenty-four, 34 twenty
 36 fourteen), and four more went with claims that were cut; the first checker found five more in the
 fixes (among them "two days before" the session of 1884, which opened three days later, and "when he
 was fifteen" for DBL's "fra det 15. år"), and the second a sixth that a fix exposed ("the same summer"
-for a treaty of 14 January) (`REVIEW-CONSISTENCY.md` §14.2).
+for a treaty of 14 January) (`REVIEW-CONSISTENCY.md` §14.2). Part I's (session 11) found ninety-eight
+(37 six, 38 twenty-one, 39 five, 40 ten, 41 eleven, 42 seven, 43 nine, 44 thirteen, 45 sixteen), and
+the three rounds of checking at least seven more in the fixes — among them a girl written "nine" and
+then "not quite nine" who was eight years and eleven months old (§15.2).
 
 ### D-9 · Vignette balance tags — in force
 
@@ -222,7 +228,11 @@ their facts checked first (`REVIEW-CONSISTENCY.md` §14.1): Charlotte Amalie at 
 1667 (25 §08, `[f]`); Kari Rasmusdatter Hiran at Nordkleiva and Jonsrud, Krokskogen, April 1716 (27
 §05, `[f][n]`, §05 re-scoped); Hans Andersen, shoemaker, Odense, 1812 to January 1813 (31 §07, `[n]`).
 **Part H, tagged at drafting, checked the same session:** 36's J.C. Christensen retagged `[-]` (§14.7).
-**No D-9 failure in the book.**
+**No D-9 failure in the book.** **Part I, checked in session 11 (§15.5–15.6):** 43's Rasmussen `[n]`,
+44's Anna Lund Lorentzen `[f][n]`, 42's Ellen Nielsen `[f][n]`; **38's only `[f]` was Johanne Martine
+Braren, lifted onto a horse — R-19, answered by Carsten 27 September 2026 as recommended: Elna Munch at
+Amalienborg, 3 April 1920 (38 §08, `[f]`), carried out the same session**; Braren `[-]` (a pastor's
+adopted daughter, not the farm girl the recommendation assumed). No D-9 failure in the book.
 
 **Checked by.** `vignettes.py` balance layer, which reports such a chapter as
 "[f] part" — and still as FAIL if no chapter of its part carries `[f]`.
@@ -311,7 +321,10 @@ named for their vignettes' moments (§13.5). Six of the seven are decided; 35 §
 **Part H, session 10: 35 §03 decided by re-scoping** — *Hjedding, 1882* is now *The cooperative
 dairy*: the body is the institution (Kaslunde, a member's obligations, the vote, the liability, the
 spread), the vignette Uhd and the founding. **All seven cases are decided.** Also re-scoped in Part H:
-34 §01, 36 §09/§10; 32 §09's and 33 §06's overlaps cut (§14.5).
+34 §01, 36 §09/§10; 32 §09's and 33 §06's overlaps cut (§14.5). **Part I, session 11: 42 §03 had
+drifted back** — body and vignette both told the 11th, Berlin, the 19th and the 28th; re-scoped again
+(the body the dated chronology, the vignette the man and the Hedtoft hand-over). 38 §08 re-scoped for
+R-19 (§15.3, §15.6).
 
 **Checked by.** Reading. `REVIEW-BUILD-FAULTS.md` §4's overlap measure is a way of
 choosing what to read, not a test — it scores healthy vignettes about the same
@@ -380,8 +393,10 @@ text, captions and questions is Schleswig; Nordslesvig is North Schleswig (35 §
 follow), Flensborg Flensburg, the Slien the Schlei, Frederiksstad Friedrichstadt, Mysunde Missunde;
 `map_1864`'s aria-label and legend are English, its map-face labels Danish. **Schleswig 297 in 31
 chapters, Slesvig 2 in 2 — both Danish book titles in Sources (32, 33). No Slesvig in the book's
-English** (§14.5). Left for Part I: "Nordslesvig" in 37's and 38's English prose; and the earthwork is
-Danevirke in 7–13, 19 and 38 but Dannevirke in 33 and 34, where the English exonym gives Danevirke.
+English** (§14.5). **Part I, review session 11:** every "Nordslesvig" in English prose is North Schleswig; Før is Föhr;
+Danevirke in 33 and 34 too (34 §03's title with it); 32's *Dannevirke* is the newspaper. **Schleswig
+316 in 31 chapters, Slesvig 4 in 3 — all names** (two Danish book titles; in 38 the plebiscite
+commission's French name and a Danish article title) (§15.5).
 Maps (`map_*.py`)
 label in Danish throughout and are left for a decision of their own when Part A–D
 maps are next touched.
@@ -408,6 +423,29 @@ item 138 said they lacked.
 
 **Defined.** Here. It qualifies L1a: the hard band still binds; the soft advisory
 is diagnostic only.
+
+### D-17 · A page asks each question once — in force
+
+**Rule.** Across the five WHAT-THIS-PAGE-ANSWERS questions (`qs` in `mkbody.py`), the checkpoints
+(`checks` in the build scripts) and the four end tiers (Recall, Causal, Counterfactual, Contested), a
+page asks each question once. **The opener keeps its question** — it is the page's promise; a later
+checkpoint or end-tier question that repeats it is rewritten to test something else that is true and
+on the page. A checkpoint asks only what the page has said before its anchor section.
+
+**Reason.** Measured in review session 11 across 25–45, as Recall is (content-word Jaccard ≥ 0.4
+against the shipped checkpoints): an opener repeated a checkpoint 20 times in 13 of 21 chapters, a
+Causal question 4 times, and 17 openers were asked again in the end tiers, 9 word for word. Carsten,
+25 September 2026: "ask once", as recommended.
+
+**Carried out** in 25–45 (`REVIEW-CONSISTENCY.md` §15.1): 76 questions in Parts G and H, and in Part I
+every end-tier repeat and 35 checkpoints. After: no pair at 0.4 on any page 25–45. **Not yet in Parts
+A–F**, where pages 20, 23 and 24 fail it — review 12.
+
+**Guard.** `pageguard.asked_twice`, asked before a page is written by `build_part_g.py`,
+`build_part_h.py` and `build_part_i.py`: NOT WRITTEN on any pair at ≥ 0.4. It cannot see one question
+asked in other words; the reading pass found about forty-five such in 25–36.
+
+**Defined.** Here; `HANDOFF.md` item 149.
 
 ---
 

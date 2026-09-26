@@ -23,7 +23,7 @@ FIGURE 1 · What the 13,521 convictions were for.
   a whole. Item 119's rule: check a fetched table against its own total.
 
   The women's share is drawn as an inset inside each bar, because the argument of
-  section 05 is a share and not a level: 107 of 413 is a quarter of the informing
+  section 04 is a share and not a level: 107 of 413 is a quarter of the informing
   column from a group that is five per cent of the whole. Two of the six bars
   have NO figure for women in the source - police service and the Nazi leaders -
   and those two are drawn with no inset and marked, rather than with an inset of
@@ -175,7 +175,7 @@ def domme():
     H = NOTE_TOP + len(note_lines) * 13 + 8            # HEIGHT COMPUTED
 
     o = ['<svg viewBox="0 0 %d %d" xmlns="http://www.w3.org/2000/svg" role="img" '
-         'aria-label="What the 13,521 convictions of the Danish retsopgoer were for. '
+         'aria-label="What the 13,521 convictions of the Danish retsopgør were for. '
          'Service in the German forces 7,277; service in the German police 1,638; '
          'building for the Wehrmacht 1,139; informing 413; the Danish Nazi leadership '
          'about fifty; and 3,004 in categories the published summary does not name.">'

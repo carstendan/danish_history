@@ -25,6 +25,8 @@ BEFORE the page is written, and a page that fails any of them is not written:
      page - every tag a space, attributes a reader or screen reader gets (any
      case, any quoting), entities decoded, NFKC, invisible characters removed,
      look-alike letters folded, dashes folded. Otherwise NOT WRITTEN.
+  5. pageguard.asked_twice: a page asks each question once, across the opening
+     questions, the checkpoints and the four end tiers (D-17, review session 11).
 
 Part G got 1 in session 9 (§13.6) and 2-4 in session 10, from the same module.
 
@@ -58,7 +60,8 @@ import sys
 from pagewords import pagewords   # one definition, shared
 import dkpaths
 import freshcheck   # the body-against-draft comparison, run before every page
-import pageguard    # body witness, figure freshness, reader's-text vocabulary (§14.6)
+import pageguard    # body witness, figure freshness, reader's-text vocabulary (§14.6),
+                    # and ask once (D-17: pageguard.asked_twice, review session 11, §15)
 
 # Paths resolve relative to this script, not to wherever it is run from, and both
 # can be overridden. The container paths that used to be hardcoded here meant the
@@ -103,8 +106,8 @@ CFG = {
          ("s10", "10", 'The Open Letter, 1846')],
     checks=[
       ("Grundtvig", [
-        "Denmark took Lauenburg in 1815 and gave up a larger province to get it. What did "
-        "it give up, and what else came with the exchange?",
+        "Which two of the king's duchies went into the German Confederation in June 1815, "
+        "and what did that make the king in Frankfurt?",
         "An absolute monarchy chartered an independent bank in 1818 and wrote that "
         "independence into the charter. What was the bank told to put first?",
         "The gudelige forsamlinger broke a law from 1741. What did that law actually "
@@ -121,8 +124,8 @@ CFG = {
         "Who could not vote whatever they owned, and who could vote there but not be elected?",
         "The Bondecirkul\u00e6re of November 1845 was meant to keep peasants out of politics. "
         "What did it do instead, and how long did that take?",
-        "The assemblies were designed to keep the political argument dispersed. Where did "
-        "the argument break out, and in what year?"]),
+        "What did the programme of Bondevennernes Selskab ask for, and which of its demands "
+        "carries the awakening's fingerprint?"]),
     ]),
 
  33: dict(
@@ -143,8 +146,8 @@ CFG = {
          ("s10", "10", 'What the constitution could not cover')],
     checks=[
       ("The war begins", [
-        "Christian 8. asked his successor for three things on 9 January 1848. What were "
-        "they, and which one was never done?",
+        "Who came into the March ministry of 22 March 1848 as the mark of the change, and "
+        "what did Frederik 7. tell his new ministers?",
         "The rescript of 28 January offered kingdom and duchies equal representation. Why "
         "did that satisfy neither side?",
         "Put these in order: the Casino meeting, the fall of the ministry, the provisional "
@@ -152,17 +155,17 @@ CFG = {
       ("5 June 1849", [
         "Prussian and Schleswig-Holstein troops crossed into Jutland in May 1848 and were "
         "taken back. Who made Prussia withdraw, and what was that power's interest?",
-        "Before 1849 conscription fell on one class only. Which, and how had everybody else "
-        "got out of it?",
-        "The Law on Universal Conscription of 12 February 1849 drew its line by birth year. "
-        "Which year, and what did that leave untouched until 1867?"]),
+        "What did the navy lose in Eckernførde Bay on 5 April 1849, and how was the "
+        "siege of Fredericia broken?",
+        "What was written under Morten Jørgensen's death in the muster roll, and what "
+        "did it record?"]),
       ("London, 8 May 1852", [
         "Fifteen per cent of the population could vote in 1849 and all of it could worship "
         "as it chose. How can both be true of one document?",
         "What did the constitution say about Schleswig on its first page, and where did it "
         "never come into force?",
-        "Isted was the largest battle in Danish history and Denmark won it. What did the "
-        "victory settle?"]),
+        "What did article 80 of the constitution promise about the <i class=\"dk\">folkekirke</i>, "
+        "and what became of the promise?"]),
     ]),
 
  34: dict(
@@ -173,7 +176,7 @@ CFG = {
           'SVG_CEDED': 'svg_ceded_1864.txt'},
     sec=[("s01", "01", 'A king three days on the throne'),
          ("s02", "02", 'Why the powers did not come'),
-         ("s03", "03", 'Dannevirke, 5\u20136 February'),
+         ("s03", "03", 'Danevirke, 5\u20136 February'),
          ("s04", "04", 'Dybb\u00f8l'),
          ("s05", "05", 'The London Conference'),
          ("s06", "06", 'Als, and Jutland occupied'),
@@ -183,8 +186,8 @@ CFG = {
          ("s10", "10", 'What was to be won inward')],
     checks=[
       ("Dybb\u00f8l", [
-        "Christian 9. had been king for three days when he signed. What did the signature "
-        "break, and why was he the worst-placed man in Denmark to sign it?",
+        "What did Prince Frederik of Augustenborg proclaim on 16 November 1863, and what had "
+        "his family done in 1852?",
         "Prussia and Austria crossed the Eider on 1 February 1864 without the German "
         "Confederation. Why did they have to step outside it?",
         "The War Ministry's instruction of 13 January told de Meza what mattered most. "
@@ -192,8 +195,8 @@ CFG = {
       ("Vienna, 30 October", [
         "Dybb\u00f8l is remembered as a storm. What had already happened to the redoubts "
         "before a single Prussian went forward?",
-        "Denmark won the fleet action off Heligoland on 9 May. Why did it change "
-        "nothing?",
+        "What happened at Lundby on 3 July 1864, and why is it the one place in the war "
+        "where the rifle explanation holds?",
         "At the London conference the neutral powers proposed arbitration and Denmark refused. What "
         "was the reasoning, and what did it cost?"]),
       ("The constitution of 1866", [
@@ -232,8 +235,7 @@ CFG = {
       ("F\u00e6lleden, 5 May 1872", [
         "Indre Mission and the Grundtvigians came out of the same revival. What did each "
         "build in a village, and what decided which one took hold?",
-        "More than four in ten Danish emigrants between 1868 and 1900 had the same "
-        "occupation. Which, and why does that matter for the previous three sections?",
+        "What were the flats of Copenhagen's new districts like, and how do we know?",
         "Why does Denmark have unusually complete records of who emigrated?"]),
       ("North Schleswig under Prussia", [
         "The meeting on N\u00f8rre F\u00e6lled was called for a reason that had nothing to "
@@ -269,16 +271,18 @@ CFG = {
         "which, and what did Venstre demand from 1873?",
         "What did \u00a725 of the constitution (in 1849, \u00a730) allow, and how often "
         "had it been used for a finance law before 1877?",
-        "What was the visnepolitik meant to achieve, and what did it achieve instead?"]),
+        "Who supplied the government's reading of §25, and what other office did one of "
+        "them hold?"]),
       ("21 October 1885", [
         "On 31 March and 1 April 1885 two things happened in sequence. What were they?",
-        "The Folketing rejected the provisional finance law in January 1886. What "
-        "followed from the rejection?",
+        "What happened at Brønderslev market on 6 September 1886, and what did the "
+        "district magistrate do two days later?",
         "Name three of the provisional laws of 1885 that were not finance laws, and say "
         "what each was for."]),
       ("1901", [
         "What was the Vestvold, when was it built, and what eventually became of it?",
-        "Why did the attempt on Estrup's life strengthen his position?",
+        "Which two men did the Supreme Court send to prison in 1886 for what they had done "
+        "or said against the government, and for how long?",
         "The settlement of 1894 ended the provisional laws. What did it leave "
         "unanswered?"]),
     ]),
@@ -408,6 +412,12 @@ if __name__ == "__main__":
                   % (n, c['name'], stale))
             fail += 1
             continue
+        twice = pageguard.asked_twice(h)
+        if twice:
+            print("\nchapter %s  %s\n  !! NOT WRITTEN: a question asked twice (D-17): %s"
+                  % (n, c['name'], '; '.join('%s = %s (%.2f)' % t for t in twice)))
+            fail += 1
+            continue
         open(OUT + c['name'], 'w', encoding='utf-8').write(h)
         css = h.split('<style>')[1].split('</style>')[0]
         ids = set(re.findall(r'id="([a-z0-9]+)"', h))
@@ -438,7 +448,7 @@ if __name__ == "__main__":
         if nfive != 5:
             print("  !! SUMMARY IS %d ITEM%s, NOT FIVE \u2014 the heading promises five"
                   % (nfive, "" if nfive == 1 else "S"))
-        print("  part %s | vocabulary %s | words %d (~%d min, %s)%s"
+        print("  part %s | vocabulary %s | questions asked once | words %d (~%d min, %s)%s"
               % ('ok' if '--band:%s;' % PART_H in h else 'BAD',
                  'clean' if not stale else 'STALE ' + str(stale), w, m, band, note))
         for mm in re.finditer(r'<div class="check">.*?</div>\s*<h2 id="(s\d\d)">(.*?)</h2>',

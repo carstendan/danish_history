@@ -8,9 +8,9 @@
 
 The war turned somewhere else and Denmark felt it. The Sixth Army surrendered at
 Stalingrad in February 1943; the last Axis troops in Africa gave up in May; the
-Allies landed in Sicily on 10 July; and on 24 July the Fascist Grand Council
-deposed Mussolini. None of it happened within a thousand kilometres of
-Copenhagen and all of it was read there. A country told for three years that
+Allies landed in Sicily on 10 July; and on 25 July, hours after the Fascist
+Grand Council had voted against him, the king dismissed Mussolini. None of it
+happened within a thousand kilometres of Copenhagen and all of it was read there. A country told for three years that
 cooperation was the only realistic policy began to work out how much longer
 realism would be required.
 
@@ -18,8 +18,8 @@ The sabotage figures measure the change, because they are not a mood. Setting
 aside burnt haystacks and cut telephone cables, industrial sabotage ran to
 seventy-three actions in the whole of 1940, 1941 and 1942 together. In 1943 it
 was **eight hundred and sixteen**. Railway sabotage over those three years was
-two actions; in 1943 it was a hundred and eleven. The graph does not rise. It
-starts.
+two actions; in 1943 it was a hundred and eleven. Chapter 43 draws the series,
+and it does not rise. It starts.
 
 The unrest of that August has no agreed beginning. Workers at Odense Steel
 Shipyard struck on 30 July, when the occupier posted armed guards against
@@ -35,8 +35,8 @@ these strikes and nobody could call them off, which is exactly what made them
 unanswerable. The cooperation policy had been built to deliver order, and what
 had stopped was the delivery of order.
 
-Five months earlier the same country had returned the cooperating parties on the
-largest turnout in its history. Hold the two facts together, because the second
+That March the same country had returned the cooperating parties on the
+highest turnout at any Danish general election. Hold the two facts together, because the second
 is usually offered as evidence that the first was a sham and it is not. March
 1943 was a real verdict on the parties. It was not a verdict on the policy,
 because the policy was not on the ballot — and when the country was finally
@@ -66,20 +66,13 @@ harassment — of Danes on account of their own or their relatives' cooperation
 with German authorities. The occupier was requiring the Danish state to protect
 the Danes who had worked for it. A government that signed would not merely have
 been administering a dictatorship. It would have been underwriting its own
-collaborators against its own people, in writing, three weeks after Mussolini
+collaborators against its own people, in writing, a month after Mussolini
 fell.
 
 The refusal was delivered at half past three, thirty minutes inside the
 deadline, and its ground was capacity rather than principle: the measures
 demanded would destroy the government's own ability to keep order, which was the
 one thing the arrangement existed to supply.
-
-The ministers then asked to resign and Christian 10. did not sign the request.
-This looks like hesitation and is the opposite. A government that has not
-resigned cannot be replaced, and the missing signature denied the occupier the
-vacancy it needed to install anything of its own. The ministers stopped
-functioning and could no longer be held to account. The forms stayed where they
-were, empty.
 
 At four on the morning of the 29th the German forces moved. The army and navy
 were disarmed and interned after fighting that killed twenty-three Danish
@@ -92,17 +85,25 @@ of the navy: **K N U**. The first explosion came five minutes later. Thirty-two
 ships were scuttled at their moorings, thirteen reached Sweden, and fourteen
 were taken undamaged. The artillery ship *Niels Iuel* ran from the Isefjord for
 Swedish water, was hit from the air, and was sunk by her own crew. Nine men of
-the navy were killed at Holmen.
+the navy were killed.
 
 By that afternoon the fleet Denmark had not used on 9 April 1940 was on the
-bottom of its own harbours, put there by its own officers, in about eleven
-minutes. It is the most exact image the occupation produced of what the
-cooperation policy had cost and what ending it would cost.
+bottom of its own harbours, put there by its own officers. It is the most exact
+image the occupation produced of what the cooperation policy had cost and what
+ending it would cost.
+
+That same day, told by the German commander that the government was deposed and
+the army held executive power, the ministers asked to resign, and Christian 10.
+did not sign the request. This looks like hesitation and is the opposite. A
+government that has not resigned cannot be replaced, and the missing signature
+denied the occupier the vacancy it needed to install anything of its own. The
+ministers stopped functioning and could no longer be held to account. The forms
+stayed where they were, empty.
 
 At Horserød the camp passed into German hands and about ninety interned
-communists got out in the confusion. Around a hundred and fifty were left,
-including seven women and the communist leader Martin Nielsen, and on 2 October
-they went to Stutthof.
+communists got out in the confusion. Around a hundred and fifty did not, seven
+women and Martin Nielsen, elected to the Folketing for the communists in 1939,
+among them.
 
 From September the country was run by its permanent secretaries, each able to
 issue orders with the force of law in his own field, chaired by the Foreign
@@ -114,8 +115,9 @@ best. Hans Kirchhoff's three volumes argue that the continuity across the date i
 stronger than anyone had assumed: agricultural exports to Germany *rose*
 afterwards, the administration went on, the king and the politicians kept the
 structure formally alive, and cooperation continued to 5 May 1945 in everything
-but name. The encyclopedia's own entry on the permanent secretaries calls their
-regime a continuation of the cooperation policy on the administrative level. The
+but name. Den Store Danske's own article on the permanent secretaries calls
+their regime a continuation of the cooperation policy on the administrative
+level. The
 break was real for the men who were shot at and for the ships on the bottom.
 This book's answer is that 29 August ended the policy's politics and left its
 administration standing — which is why the next three sections are possible at
@@ -155,21 +157,22 @@ thirties and had papers nowhere.
 What follows is the best-known story in modern Danish history and the
 worst-documented. Best told the shipping attaché at his own legation, Georg
 Ferdinand Duckwitz, on 11 September. Duckwitz flew to Berlin on the 13th and
-failed to have it stopped, began warning Jewish acquaintances on the 17th, wrote
-in his diary on the 19th that he knew what he had to do, and went to Stockholm.
-On 28 September Best gave him the date of the operation and he passed it to Hans
-Hedtoft and the Social Democratic leadership.
+failed to have it stopped, began warning Jewish acquaintances on the 17th, and
+on the 21st went to Stockholm. By the 28th he had the date of the operation.
+What he did with it that day is below; lex.dk says he did it in agreement with
+Best.
 
 That is Hans Kirchhoff's chronology and this book follows it, with two things
 said out loud. The Stockholm journey — the secret errand to ask Per Albin
 Hansson whether Sweden would take them, the most repeated detail in the whole
 story — may not have happened: Gunnar Paulsson reported in 1995 that the newly
-opened Swedish archives show Duckwitz issued a visa on 19 March 1943 and another
-on 15 January 1944 and nothing in between. And the underlying papers cannot be
-checked by anybody. The Duckwitz collection passed from the Danish national
-archives to Washington, where the catalogue lists letters, travel reports, the
-record of Kirchhoff's 1968 conversation with him — and a **calendar** for 1943
-and 1944, not a diary. It is restricted until 2048.
+opened Swedish archives show Duckwitz was issued a visa on 19 March 1943 and
+another on 15 January 1944 and nothing in between. And the underlying papers
+cannot be checked by anybody. The Duckwitz collection passed from the Danish
+national archives to Washington, where the catalogue lists letters, travel
+reports, the record of Kirchhoff's 1968 conversation with him — and a
+**calendar** for 1943 and 1944, not the diary the story quotes. It is restricted
+until 2048.
 
 A German official warned Denmark and Danes acted on it: both certain. Whether he
 did it on his own account, or was used by the superior who had proposed the
@@ -177,15 +180,14 @@ action to make it fail, is not settled and may not be settleable this century.
 
 > **Vignette · Copenhagen, 28 September 1943**
 >
-> He is a shipping man. He came to Copenhagen in 1928 selling coffee, joined the
-> party in 1933, was disappointed by it, and came back in 1939 as the man at the
-> German legation who handles cargo and tonnage. He is not important. That is
-> the reason he is useful.
+> He is a shipping man. He came to Copenhagen in 1928 to run the branch of an
+> import and export firm, joined the party in 1932, was disappointed by it, and
+> came back in 1939 as the man at the German legation who handles cargo and
+> tonnage. He is not important. That is the reason he is useful.
 >
-> On the eleventh of September his superior tells him what is going to happen.
-> He goes to Berlin to stop it and cannot. On the nineteenth he writes the line
-> people will still be arguing about eighty years later: *I know what I have to
-> do.*
+> On the nineteenth of September he notes that the deportation has been agreed
+> in principle, and under it writes the line people will still be arguing about
+> eighty years later: *I know what I have to do.*
 >
 > On the twenty-eighth he is given the date. He takes it to a party office and
 > hands it to a man who will twice be prime minister of Denmark. Then he goes
@@ -196,7 +198,8 @@ action to make it fail, is not settled and may not be settleable this century.
 >
 > Georg Ferdinand Duckwitz · Copenhagen · 28 September 1943 · [-]
 
-Hedtoft went to the chairman of the Jewish community. At the morning service in
+The man in the party office was Hans Hedtoft, of the Social Democratic
+leadership, and Hedtoft went to the chairman of the Jewish community. At the morning service in
 Krystalgade on 29 September the acting chief rabbi, Marcus Melchior, told the
 congregation there would be no service, and to go and tell everyone they knew.
 It is usually called the New Year service and was not one: the new year began at
@@ -218,8 +221,7 @@ where the staff invented diagnoses and funerals; put onto fishing boats from
 Dragør, Gilleleje, Snekkersten, Rungsted, Køge and a dozen smaller places; and
 carried over a strait that is four kilometres wide at the north end and
 twenty-five at the south. Most of them paid. The boats were not free and some of
-the prices were extortionate, which is a fact the story can absorb without
-difficulty and is usually not asked to.
+the prices were extortionate.
 
 It was not clean. At Gilleleje on the night of 6 October, between sixty and
 ninety people — most accounts say eighty — were hidden in the loft of the
@@ -231,15 +233,15 @@ which leaves the question exactly where it was.
 > **Vignette · Dragør, October 1943**
 >
 > She sells fish at Gammel Strand in Copenhagen, which means she is on the road
-> before light and knows everyone on the harbour at both ends. She is
-> fifty-five. Her house is at Rønne Allé 42.
+> before light and knows everyone on the harbour at both ends. She turns
+> fifty-five that month. Her house is at Rønne Allé 42.
 >
 > The story her family tells begins with two brothers who sold flowers and
 > asked her, offering to pay, whether she could get them to Sweden. She could —
 > not in her own boat, because she has no boat, but because she has known the
 > Dragør fishermen all her life and they will listen to her. After that people
 > keep arriving. They stay in the house a few days at a time. Once there are
-> thirty of them in it.
+> nearly thirty of them in it.
 >
 > How many altogether is the part nobody knows. The published figures run from
 > two to seven hundred, and one writer has given three different numbers in four
@@ -253,7 +255,7 @@ which leaves the question exactly where it was.
 > her out on 8 April 1945 and she was home by the end of the summer. She went
 > back to work, at a film studio, for twenty years.
 >
-> Ellen Wilhelmine Nielsen · Dragør · October 1943 · [f]
+> Ellen Wilhelmine Nielsen · Dragør · October 1943 · [f][n]
 
 How many reached Sweden is the number everybody knows and nobody can source, and
 this book is going to be awkward about it rather than tidy.
@@ -319,8 +321,9 @@ staged by murdering other people. Both halves belong in the same sentence.
 
 The ship that took the Jews seized in the raids of 1 October carried someone
 else as well. On 2 October the prisoners from Horserød — about a hundred and
-fifty, communists interned by Danish police in 1941 under a law the Rigsdag
-wrote afterwards to cover it — were put into its hold beside them, landed at Swinemünde and
+fifty, communists interned by Danish police under a law the Rigsdag had
+written in 1941 to cover arrests already made — were put into its hold beside them, landed at
+Swinemünde (now Świnoujście) and
 sent on in cattle trucks to Stutthof, and twenty-two of them died: six in the
 camp, nine on the death marches, seven after liberation. One ship out of
 Copenhagen, and only half of what it carried is in the story Denmark tells about
@@ -336,8 +339,9 @@ Ninety-five per cent of Denmark's Jews were not deported. That is true, it is
 the best figure in occupied Europe by a distance, and it was produced by
 thousands of ordinary people taking a real risk for strangers. It is also true
 that four hundred and seventy-two went east, that at least a hundred died
-getting out or failing to, and that the country which saved them had spent three
-years handing communists to the same occupier. This chapter is not going to
+getting out or failing to, and that the country which saved them had held its
+communists in a camp for two years and let the camp pass to the same
+occupier with the prisoners still in it. This chapter is not going to
 choose between those. It is going to set them beside each other, which is what
 §04 and §05 are for.
 
@@ -359,7 +363,7 @@ choose between those. It is going to set them beside each other, which is what
 > are treated.
 >
 > The Red Cross buses take him out on 15 April 1945. He goes back to Copenhagen,
-> studies music, directs opera in Rome, and in 1972 takes the name Paul Aron
+> studies music, trains as an opera director in Rome, and in 1972 takes the name Paul Aron
 > Sandfort. He spends the rest of his life writing about the place, and starts a
 > project that has children across Europe performing *Brundibár* again. He dies
 > at Hornbæk in 2007.
@@ -387,8 +391,8 @@ than by any authority.
 Who founded it depends on which reference work you open, and the disagreement is
 not trivial. Every list has Mogens Fog for *Frit Danmark*, Børge Houmann for the
 Communist Party and Frode Jakobsen for *Ringen*. One adds Arne Sørensen for
-Dansk Samling and stops at five; another drops Sørensen and adds Erling Foss and
-Aage Schoch; a third adds Jørgen Staffeldt. The founding membership of the body
+Dansk Samling and stops at four; another has Jørgen Staffeldt for Dansk Samling
+at the founding; a third keeps Sørensen and adds Erling Foss and Aage Schoch. The founding membership of the body
 that claimed to speak for Danish resistance is recorded three ways by three
 respectable sources, which tells you what conditions it was founded in.
 
@@ -405,8 +409,8 @@ parachuted in six months earlier, rather than to the Danish politician in London
 who thought the job was his.
 
 That politician was John Christmas Møller, who had left Denmark illegally on
-1 May 1942 and broadcast to Danes ever since telling them to make trouble: the
-voice chapter 41 ends by describing. He chaired a Danish Council in London which
+1 May 1942 and had broadcast to Danes from London since that September telling
+them to make trouble: the second voice of chapter 41. He chaired a Danish Council in London which
 decided nothing. Kauffmann in Washington opposed him, the British thought him
 careless with secrets, and the men at home gave his seat to somebody else. He
 came home in May 1945 as foreign minister, bitter that Vilhelm Buhl and not he
@@ -422,8 +426,9 @@ movements.
 Its authority was nil, and then it was total. It had no law behind it, no
 territory, no revenue and no army. It was recognised de facto as a government by
 the Soviet Union in 1944 and never by the Western allies, an asymmetry that
-would look odd in 1945 and odder in 1949. By the summer of 1944 it could call
-the capital out on strike and, harder, call it back in. By May 1945 it took
+would look odd in 1945 and odder in 1949. By the summer of 1944 a capital that
+had struck without it would stay out at its word and, harder, go back at its
+word. By May 1945 it took
 **nine of the eighteen seats** in the liberation government, the politicians
 taking the other nine and the premiership.
 
@@ -455,7 +460,7 @@ borrowed room by seven men, three of whose names are not agreed.
 - **jødeaktionen** — the Jewish action: the German operation against the Jews of
   Denmark, proposed on 8 September 1943 and carried out on the night of 1 October.
 
-**§05 — those who stayed**
+**§05 — those who did not get away**
 - **de hvide busser** — the white buses: the Swedish Red Cross convoys of spring
   1945 which brought Scandinavian prisoners out of German camps, including the
   survivors of the Theresienstadt transports.
@@ -473,28 +478,27 @@ borrowed room by seven men, three of whose names are not agreed.
 ## Meanwhile in Europe
 
 **Amsterdam, February 1941 and after.** Chapter 41 left this comparison standing
-and it has to be faced here. The dockworkers and tram drivers of Amsterdam struck
-in February 1941 against the deportation of Jews — the only strike in occupied
-Europe called over that — and were broken in two days with people shot for it.
+and it has to be faced here. The Amsterdam strike was broken in two days.
 The Netherlands then lost about three-quarters of its Jewish population, the
 worst proportion in western Europe, and it was not for want of Dutch people
-willing to hide them: eighteen thousand or so were hidden, under conditions far
-harder than Denmark's. The Danish outcome was not produced by better Danes. It
+willing to hide them: between twenty-five and thirty thousand went into hiding,
+under conditions far harder than Denmark's, and about a third of them did not
+survive it. The Danish outcome was not produced by better Danes. It
 was produced by three things the Netherlands did not have: a fortnight's warning,
 a neutral country four kilometres away, and an occupier who had spent three years
 deciding that the Danish government was worth more than the Danish Jews. Remove
 any one of them and October 1943 reads like February 1941.
 
 **Rome, 16 October 1943.** Germany occupied Rome on 10 September, two days after
-Italy surrendered, and found about eight thousand Jews in the city. On 26
+Italy surrendered, and found about twelve thousand Jews in the city. On 26
 September the SS commander demanded fifty kilograms of gold within thirty-six
 hours or two hundred heads of families would be deported. **The community raised
 it, with help from Roman gentiles, and delivered it at midday on 28 September** —
-which is the same day, the same hours, that Georg Ferdinand Duckwitz was telling
-Hans Hedtoft what was coming in Copenhagen. Three weeks later, at dawn on
-16 October, the Germans took **1,259 people** from the old ghetto — 363 men, 689
-women and 207 children. They went to Auschwitz on the 18th from Tiburtina
-station. **Sixteen came back.**
+which is the same day that Georg Ferdinand Duckwitz was telling Hans Hedtoft
+what was coming in Copenhagen. Eighteen days later, at dawn on 16 October, the
+Germans took **1,259 people** from the old ghetto — 363 men, 689 women and 207
+children. More than a thousand of them went to Auschwitz on the 18th from
+Tiburtina station. **Sixteen came back.**
 
 Set that against Denmark in the same month: about 7,400 people across four
 kilometres of water, 472 deported, 419 home. The Roman community paid, and was
@@ -522,13 +526,6 @@ telegram of 8 September 1943. Then Best, who had proposed the action, appears to
 have arranged for it to leak. Danish decency is real and it is the second half of
 the explanation, not the first.
 
-**"About seven thousand" and "7,742".** The first is a round number nobody can
-source and the second is a sum nobody published: Sofie Lene Bak's 7,056 Jews and
-686 non-Jewish spouses are two separate statements and somebody added them. The
-only figure behind which there is a named archive is roughly 7,400, from Swedish
-police arrival reports, and the museum that holds them says the material is
-incomplete.
-
 ---
 
 ## Carry-forward
@@ -541,13 +538,16 @@ air forces that dropped them, is the next chapter's opening.
 rather than by catching saboteurs. Hitler orders it on 30 December, and Kaj Munk
 is taken from his parsonage five days later.
 
-**→ 44.** The *retsopgør* will punish informing with death and building for the
-Wehrmacht with a bill. Both columns of that ledger are opened in this chapter,
-by the same people, in the same year.
+**→ 44.** The *retsopgør* will put informing that cost a life within reach of
+the death penalty, and meet building for the Wehrmacht mostly with an audit.
+This chapter has the informer at Gilleleje. Of the business with Germany it has
+only the farm exports that rose after 29 August; chapter 44 counts the goods
+Denmark delivered to Germany and was never paid for.
 
-**→ 45.** The government that stopped functioning on 29 August 1943 without
-resigning left a constitutional question nobody had a procedure for. The
-commission appointed in 1946 is still arguing about it, and 1953 answers it.
+**→ 45.** From 29 August 1943 Denmark was governed for twenty months without a
+government, under a constitution in which the rule that a government answers to
+the Folketing was a custom and not a text. The constitution of 1953 writes it
+down.
 
 ---
 
@@ -558,16 +558,16 @@ provincial towns from Odense at the end of July to Aalborg at the end of August,
 called by nobody and stoppable by nobody, and on 28 August the occupier demanded
 a state of emergency, a curfew, censorship, special courts and the death penalty
 for sabotage — and that Denmark protect the Danes who had worked for Germany.
-The government refused half an hour inside the deadline. Christian 10. declined to
-sign its resignation, so the ministers stopped functioning without leaving a
-vacancy, and the country passed to its permanent secretaries.
+The government refused half an hour inside the deadline.
 
 At four the next morning the army and navy were interned, and at 04.08 Vice
 Admiral Vedel signalled the fleet to scuttle: thirty-two ships sunk at their
 moorings, thirteen away to Sweden, fourteen taken. It was the largest single act
 of Danish defiance of the occupation and it was also the destruction of the
 Danish navy, carried out by the Danish navy, which is the shape most of this
-chapter takes.
+chapter takes. That day Christian 10. declined to sign his ministers'
+resignation, so they stopped functioning without leaving a vacancy, and the
+country passed to its permanent secretaries.
 
 On 8 September Werner Best proposed the deportation of Denmark's Jews and argued
 that it had to be done while the emergency lasted, because later it would cost
@@ -583,8 +583,10 @@ arrival reports the holding museum says are incomplete, and the 7,742 in
 circulation is a sum somebody performed on two separate statements. Four hundred
 and seventy-two were deported and 470 reached Theresienstadt, where fifty-one
 died; 419 of the 472 came home. On 2 October about a hundred and fifty communists
-went from Horserød to Stutthof, and twenty-two of them died — the same state, the
-same week, delivering one group of its own people while another got away.
+from Horserød, interned by Danish police and left in their camp when the Germans
+took it on 29 August, went to Stutthof in the same ship as the Jews taken in the raids, and
+twenty-two of them died — one group of the state's own people going east in the
+week another got away.
 
 On 16 September, in a borrowed office, seven men constituted Danmarks Frihedsråd.
 It had no law behind it, no mandate and no army; it was recognised by the Soviet
@@ -599,26 +601,28 @@ country, and with the country largely agreeing.
 
 **Recall.**
 
-1. What did the German ultimatum of 28 August 1943 demand, and which of its
-   demands was about Danes rather than about Germans?
-2. How many people were deported from Denmark to Theresienstadt, how many
-   arrived, and how many came home?
-3. What was Danmarks Frihedsråd, who recognised it, and what did it have instead
-   of a mandate?
+1. List four of the measures the occupier required on 28 August 1943, and give
+   the hour the Danish refusal was delivered.
+2. What happened in the loft of Gilleleje church on the night of 6 October 1943,
+   and why is the informer still unknown?
+3. Aage Schoch is on some lists of the Freedom Council's founders and not on
+   others.
+   Whom did he represent there, and why did John Christmas Møller not sit on it?
 
 **Causal.**
 
-1. Explain how the strikes of August 1943 led to the attempt on the Danish Jews
-   in October, using Best's own argument of 8 September.
-2. Christian 10. refused to sign his government's resignation. Explain what that
-   denied the occupier, and what it cost Denmark.
+1. Explain why the election of March 1943 cannot be read as a vote for the
+   cooperation policy, and what the provincial towns said about it that August.
+2. Explain why those sent from Denmark to Theresienstadt survived at a rate no
+   other group sent there did, and why the chapter puts both halves of the
+   explanation in one sentence.
 3. About 7,400 people crossed the Sound and 472 did not. Account for the
    difference without appealing to luck or to character.
 
 **Counterfactual.**
 
-1. Suppose Christian 10. had signed the government's resignation on 28 August 1943.
-   What would the occupier have been able to do that it could not?
+1. Suppose the Horserød prisoners had been released before 29 August 1943. What
+   in the chapter's account of October 1943 changes, and what does not?
 2. Suppose no warning had reached Hans Hedtoft on 28 September 1943. Estimate
    what October 1943 looks like, and say which of your assumptions is doing the
    most work.
@@ -629,9 +633,9 @@ country, and with the country largely agreeing.
 
 1. Was 29 August 1943 a break or a continuation? Argue both, using the exports,
    the administration and the fleet.
-2. Denmark saved almost all of its Jews and delivered about a hundred and fifty
-   communists to Stutthof in the same week. Argue that these express one policy,
-   and then that they express two.
+2. Denmark saved almost all of its Jews in the same week that about a hundred and
+   fifty communists its own police had interned went to Stutthof. Argue that
+   these express one policy, and then that they express two.
 3. Werner Best proposed the action against the Jews and appears to have arranged
    for it to leak. Argue that he was saving himself, then that the distinction
    does not matter to the outcome.
@@ -640,6 +644,14 @@ country, and with the country largely agreeing.
 
 ## Sources
 
+- **The Freedom Council's founders.** lex.dk, *Danmarks Frihedsråd*: founded "af
+  repræsentanter for de vigtigste illegale organisationer, Danmarks Kommunistiske
+  Parti (DKP), Frit Danmark, Dansk Samling og Ringen", with "blandt de ledende
+  medlemmer" Houmann, Fog, Arne Sørensen and Frode Jakobsen; its captions add
+  Foss and Schoch (the 1945 photograph, the painting) and Staffeldt as a member
+  "i korte perioder". lex.dk, *Jørgen Staffeldt*: he represented Dansk Samling
+  "ved oprettelsen af Frihedsrådet i september 1943". en.wikipedia, *Danish
+  Freedom Council*: the four, and Foss and Schoch.
 - **August, and the ultimatum.** lex.dk's *Augustoprøret 1943* and
   danmarkshistorien.lex.dk's article of the same name for the towns, the
   mechanism and the disarming; *Gyldendal og Politikens Danmarkshistorie*,
@@ -653,10 +665,25 @@ country, and with the country largely agreeing.
 - **29 August and the fleet.** lex.dk's *29. august 1943* for the unsigned
   resignation and its consequence, and *Departementschefstyret* for the
   arrangement that followed and for its own description of it as a continuation
-  of the cooperation policy. navalhistory.dk for the signal **K N U** at 04.08,
-  the first explosion at 04.13, the thirty-two scuttled, the thirteen to Sweden,
-  *Niels Iuel* in the Isefjord, and the nine dead at Holmen — the Holmen figure
-  is that site's alone. The Danish military dead are 23 or 24 and the wounded 40,
+  of the cooperation policy ("en videreførelse af samarbejdspolitikken på det
+  administrative plan"), its chairman and the political thirteen-man committee.
+  Gyldendal og Politikens *Den 29. august 1943* for the resignation handed in on
+  the 29th, after the German commander had told Scavenius the government was
+  deposed ("ministeriet ophørte straks at fungere og indgav sin
+  demissionsbegæring til kongen, som imidlertid efter aftale nægtede at tage imod
+  den"). navalhistory.dk, *Operation Safari*, for the signal **K N U** at 04.08,
+  the first explosion at 04.13, the thirty-two scuttled, the thirteen to Sweden
+  (a patrol vessel, three minesweepers, nine cutters), *Niels Iuel* in the
+  Isefjord, and the navy's nine dead ("9 personer af søværnets personel mistede
+  livet"), a figure that site gives without a place; *Flåden efter 29. august
+  1943* for *Peder Skram* raised on 22 November; forsvaret.dk for the frigate
+  *Peder Skram* (launched 1965) as the museum ship at Nyholm. The fourteen taken
+  undamaged is the usual figure and is on neither navalhistory.dk page.
+  Danmarkshistorien.lex.dk, *Kommunistinterneringerne*, for the ninety who got away from Horserød and the
+  twenty-two dead of Stutthof (six, nine, seven); lex.dk, *Horserødlejren*, for
+  the seven women (it gives 95 escaped); DBL for Martin Nielsen, "valgt 1939",
+  "genvalgtes 1945 og 1947", and "den eneste af de tre folketingsmænd der blev
+  arresteret med det samme". The Danish military dead are 23 or 24 and the wounded 40,
   53 or 56 across four sources, two of them the same institution five years
   apart. Kirchhoff's continuity argument by way of *Kristeligt Dagblad*'s
   "29. august 1943 — brud eller kontinuitet".
@@ -664,9 +691,15 @@ country, and with the country largely agreeing.
   Danish, on danmarkshistorien.lex.dk — the load-bearing document of the chapter,
   and the source of the *undtagelsestilstand* argument and of his own "ca. 6.000".
   Kirchhoff's chronology from the Auswärtiges Amt's *Diplomatische Profile*
-  volume on Duckwitz. **Gunnar S. Paulsson, "The 'Bridge over the Øresund'",
+  volume on Duckwitz, including the branch of an import and export firm in 1928
+  ("als Filialdirektor nach Kopenhagen"), the party in 1932 ("Duckwitz trat 1932
+  der NSDAP bei"), Stockholm on 21 September, and the note of the 19th
+  ("Judenausweisung 'im Prinzip angenommen'", then "Ich weiß, was ich zu tun
+  habe"). lex.dk, *G.F. Duckwitz*, for the 28th: "orienterede Duckwitz den 28.
+  september i forståelse med Werner Best Socialdemokratiets tidligere formand
+  Hans Hedtoft". **Gunnar S. Paulsson, "The 'Bridge over the Øresund'",
   *Journal of Contemporary History* 30 (1995), 431–464**, for the Swedish visa
-  records and the state of the memoirs. USHMM's catalogue entry for the Duckwitz
+  records and the state of the memoirs. USHMM's catalogue record for the Duckwitz
   papers (Group 5344), for the calendar, the Rigsarkivet provenance and the
   restriction to 2048. Melchior at Krystalgade on 29 September from
   ordetogisrael.dk; the date is the eve of the new year and not the new year
@@ -681,7 +714,9 @@ country, and with the country largely agreeing.
   reports, the estimate near 7,400, the incompleteness, and the **more than a
   thousand who registered as Protestant, Lutheran or Christian**. Museum
   Nordsjælland for Gilleleje and for the informer never being established.
-  danmarkshistorien.lex.dk for the arrest breakdown. **The Horserød prisoners
+  danmarkshistorien.lex.dk for the arrest breakdown, and its *Jødeaktionen og
+  evakueringen* for the ninety-five per cent ("svarende til ca. 95 % af de danske
+  jøder"). **The Horserød prisoners
   sailed in the same ship as the Jews taken in the raids**, to Swinemünde and on
   by cattle truck to Stutthof: Horserød-Stutthof Foreningen, *Den historiske
   baggrund* (corrected 19 September 2026; the chapter had said two ships). The
@@ -707,25 +742,38 @@ country, and with the country largely agreeing.
   aus der Fremde*, and died at Hornbæk on 29 December 2007. From the Hamburg
   university LexM biographical database and the Danish Jewish Information
   Centre's material on the Danes in Theresienstadt.
-- **Rome, for the *Meanwhile*.** The occupation of Rome on 10 September 1943, the
-  fifty-kilogram gold demand of 26 September and its delivery at midday on the
-  28th, the raid of 16 October — 1,259 taken, of whom 363 men, 689 women and 207
-  children — the deportation from Tiburtina on the 18th and the sixteen
-  survivors. **That the gold was handed over on the same day Duckwitz warned
-  Hedtoft is arithmetic on two separately sourced dates, not a claim either
-  source makes.**
+- **Ellen Wilhelmine Nielsen.** Born 15 October 1888 (dragoerhistorie.dk);
+  Cherine Munkholt's article on her, on the same site, for the flower-selling
+  brothers, the nearly thirty in the house, her son's fifty to seventy-five, the
+  arrest with eleven Dragør fishermen, prisoner 94,315, Uckermark, 8 April 1945 and the
+  twenty years in a film studio's canteen; Dragør Kommune and snublesten.dk for
+  the stone at Rønne Allé 42, laid on 23 September 2024, the first in the
+  municipality.
+- **Rome and Amsterdam, for the *Meanwhile*.** The occupation of Rome on 10
+  September 1943, the fifty-kilogram gold demand of 26 September and its delivery
+  at midday on the 28th, the raid of 16 October — 1,259 taken, of whom 363 men,
+  689 women and 207 children — the deportation from Tiburtina on the 18th and the
+  sixteen survivors. USHMM, *Rome*, for the city's twelve thousand Jews and the
+  "more than 1,000" on the transport; USHMM, *The Netherlands*, for the strike of
+  25 February 1941, fewer than a quarter surviving, and the twenty-five to thirty
+  thousand who went into hiding, "approximately two-thirds" of whom survived.
+  The fall of Mussolini — the Grand Council's vote in the small hours of 25 July
+  1943, the king's dismissal that afternoon — is the standard chronology.
+  **That the gold was handed over on the same day Duckwitz warned Hedtoft is
+  arithmetic on two separately sourced dates, not a claim either source makes.**
 
 ---
 
 ## Visit
 
 **Langelinie and Holmen, Copenhagen.** Where the fleet went down on the morning
-of 29 August 1943. *Peder Skram* was raised and is a museum ship; the others are
-a line of moorings.
+of 29 August 1943. The coastal defence ship *Peder Skram* was raised by the
+Germans that November; the *Peder Skram* moored at Nyholm today, a museum ship,
+is the frigate of 1965 that carries her name. The others are a line of moorings.
 
 **Dragør old town.** The harbour the boats went from and the streets Ellen
 Nielsen knew. There is a stone in the pavement at Rønne Allé 42, laid in 2024,
-the first in the town.
+the first in the municipality.
 
 **Krystalgade synagogue, Copenhagen.** Where the congregation was told, on the
 morning of 29 September 1943, not to be at home. It was built in 1833 and it has

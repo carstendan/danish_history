@@ -63,7 +63,7 @@ def esc(s):
 # ====================================================================== figure 2
 SIEGE = [
     ("1861\u201362", "Ten redoubts built in a three-kilometre arc, Vemmingbund to Als Sund"),
-    ("7 Feb", "First Danish troops arrive from the Dannevirke. The position is unfinished"),
+    ("7 Feb", "First Danish troops arrive from the Danevirke. The position is unfinished"),
     ("15 Mar", "Rifled breech-loading guns emplaced on Broager Land, across the water"),
     ("", "Danish artillery on the position cannot reach them"),
     ("2 Apr", "Sønderborg shelled; much of the town is reduced to rubble"),

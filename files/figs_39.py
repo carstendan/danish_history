@@ -133,7 +133,7 @@ def kapsler():
     H = t0 + len(towns) * 30 + 70                # HEIGHT COMPUTED from the rows
     o = ['<svg viewBox="0 0 %d %d" xmlns="http://www.w3.org/2000/svg" role="img" '
          'aria-label="Postage stamps sealed in iron and celluloid capsules and used as '
-         'small change in Soenderjylland in 1921 and 1922. %s ten-oere and %s twenty-five-oere '
+         'small change in Sønderjylland in 1921 and 1922. %s ten-øre and %s twenty-five-øre '
          'pieces were issued; about a quarter of them were never handed back. Haderslev '
          'received the most of the four market towns.">' % (W, H, n(ISSUED["10"]), n(ISSUED["25"]))]
     o.append('<rect x="0" y="0" width="%d" height="%d" fill="%s"/>' % (W, H, PAPER))

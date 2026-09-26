@@ -7,12 +7,26 @@ renaming a section breaks the build loudly instead of silently moving a checkpoi
 somewhere else (lesson L10). Any checkpoint already sitting in the body is stripped
 first, so the body and this file cannot disagree.
 
-Part I is chapters 37-44, 1901-1953, and it is the last part. Only chapter 37 is
-configured; 38 to 44 are planned but not drafted, and a config entry for a chapter
-with no body fails loudly on the first run, which is intended. Chapter 44 will
-carry the part coda via tail_extra, as 36 does for H - and, being the last chapter
-of the book, will need a book coda as well, which no build script has yet had to
-emit.
+Part I is chapters 37-45, 1901-1953, all nine configured and built from
+`c37_draft.md` ... `c45_draft.md` through mkbody.py. Chapter 45 is the last page of the
+book and declares no carry-forward (no_forward=True, decision D-C).
+
+GUARDS, given to Part I in review session 11 (REVIEW-CONSISTENCY.md §15), from the
+module Parts G and H share (pageguard.py, §14.6). Until then this script had no
+vocabulary check and no summary line, and wrote each page inside build(). Each is
+asked BEFORE the page is written, and a page that fails any of them is not written:
+
+  1. freshcheck.check(n): the body on disk is what the draft builds. Else NOT BUILT.
+  2. pageguard.same_body: the body this build reads (DK_SRC) is the one freshcheck
+     checked.
+  3. pageguard.figures_fresh: every figure is what its script writes, run in a
+     scratch copy.
+  4. pageguard.stale_vocabulary on reader_text: retired vocabulary ("entry", Band X,
+     Era page, a zero-padded chapter number) in what a reader or screen reader gets.
+     The one ordinary "entry" in 37-45, found by hand, is in ALLOWED_ENTRY.
+  5. pageguard.asked_twice: a page asks each question once, across the five opening
+     questions, the checkpoints and the four end tiers (D-17, content-word Jaccard
+     >= 0.4). Otherwise NOT WRITTEN.
 
 THE BAND COLOUR IS NEW. D and E are verdigris, F oxblood, G indigo, H slate; I is
 moss, added to style.css as --moss for this part. THE BAND TITLE "The small state"
@@ -45,6 +59,8 @@ import sys
 
 from pagewords import pagewords   # one definition, shared
 import dkpaths
+import freshcheck   # the body-against-draft comparison, run before every page
+import pageguard    # body witness, figure freshness, reader's-text vocabulary, ask once
 
 # Paths resolve relative to this script, not to wherever it is run from, and both
 # can be overridden. The container paths that used to be hardcoded here meant the
@@ -105,18 +121,18 @@ CFG = {
         "Alberti was warned about by the National Bank and protected anyway. By whom, and "
         "on what grounds?"]),
       ("Gulasch, rationing, and the ships that did not come back", [
-        "Name the seven categories the franchise of 1849 excluded, and say which two were "
-        "admitted in 1915.",
+        "Name the seven categories the franchise of 1849 excluded, and give the one piece "
+        "of reasoning that had kept out women and servants alike.",
         "What did the conservatives charge for giving up the privileged franchise to the "
         "Landsting?",
-        "Why did Denmark mine the Great Belt in August 1914, and why did Britain accept "
-        "it?"]),
+        "Some thirty thousand men south of the Kongeå were conscripted "
+        "into the German army. Why could the Danish government not ask for any of them back?"]),
       ("Selling them: the treaty, the Rigsdag, the referendum of December 1916", [
         "Of about ten thousand Danish merchant seamen, how many died, and how did two "
         "hundred of them die?",
         "What was Contract Day, and what happened on Contract Day 1878?",
-        "Who declared the enslaved of the Danish West Indies free in 1848, what happened "
-        "to him for it, and who had actually forced the decision?"]),
+        "Who calculated Denmark's rations in 1917, and on what did each person's ration "
+        "depend?"]),
     ]),
  38: dict(
     name='38-genforeningen-iceland-and-the-easter-crisis.html',
@@ -141,20 +157,17 @@ CFG = {
         "kept doing for it, and say in what capacity.",
         "The Act of Union is the only settlement in this book that says how to end "
         "itself. What were the two dates, and what did each allow?",
-        "What did the Aabenraa resolution ask for, and what was the Clausen line?"]),
+        "About how many men from North Schleswig were called up into the German army, and why do counts of the dead differ?"]),
       ("10 February 1920", [
-        "Why did Denmark ask for the third zone to be dropped?",
-        "Zone 1 was counted en bloc and Zone 2 commune by commune. Which rule would "
-        "have kept T\u00f8nder German, and which would have made Flensburg Danish?",
+        "Who was entitled to vote in the plebiscites, and what made that franchise strange?",
+        "Which towns inside Zone 1 had German majorities, and in which town of Zone 2 "
+        "was the Danish minority thickest?",
         "Who governed the voting zones between January and June 1920, and why does that "
         "matter for whether the result was accepted?"]),
       ("The strike that did not have to happen", [
-        "About 25,000 people in Zone 1 had voted German. What happened to them on "
-        "15 June 1920?",
-        "The king was entitled by the constitution of 1866 to dismiss the ministry. "
-        "What made it impossible anyway, and how long did it take?",
-        "Denmark held three general elections in 1920. Give the reason for each, and "
-        "note that no two are the same."]),
+        "Why did the Danish quarter of Flensburg vote when the result was not in doubt?",
+        "Who went to the king on Easter Saturday, and on whose initiative?",
+        "What did the Easter Sunday settlement give each side, and what did it cost the campaign for Flensburg?"]),
     ]),
  39: dict(
     name='39-deflation-the-landmandsbank-crash-and-the-first-social-democratic-government.html',
@@ -176,8 +189,8 @@ CFG = {
       ("Who paid for the rescue", [
         "In 1954 the Statistical Department said that year's unemployment was the lowest "
         "since 1920. What does that tell you about every year in between?",
-        "Were Sønderjylland's marks exchanged for kroner in 1920? If not, what happened to "
-        "savings and debts written in marks?",
+        "How did the new province take to Danish politics? Compare its turnout at the "
+        "election of 1924 with the rest of Jutland's.",
         "What happened on the weekend of 8 and 9 July 1922, and what was missing from the "
         "statement that followed?"]),
       ("Nina Bang", [
@@ -185,15 +198,15 @@ CFG = {
         "February 1923?",
         "What did the army law of 1922 do to the army the war had built, and what was Peter "
         "Munch's argument for it?",
-        "How many seats did the Social Democrats and the Radicals hold together after "
-        "11 April 1924, and why did that matter?"]),
+        "Who were the Social Democrats' first two members of the Folketing, and what had "
+        "the party become at the election of 11 April 1924?"]),
       ("What the twenties settled", [
         "What was Nina Bang the first to be, and what is she wrongly said to be the first "
         "to be?",
         "Steincke's report of 1920 had two halves. Name both, and the law of 1929 that came "
         "from the second.",
-        "What did the law of 27 December 1926 do, and why did it bear hardest on "
-        "Sønderjylland?"]),
+        "What did the law of 27 December 1926 do, and how did Cornelius Petersen answer "
+        "the rising krone?"]),
     ]),
  40: dict(
     name='40-depression-stauning-and-the-seeds-of-the-welfare-state.html',
@@ -206,7 +219,7 @@ CFG = {
          ("s03", "03", 'The night at Kanslergade'),
          ("s04", "04", 'What was actually in the deal'),
          ("s05", "05", "Steincke's reform: four laws and a principle"),
-         ("s06", "06", 'The vote given back'),
+         ("s06", "06", 'The vote given back, to most'),
          ("s07", "07", 'Påskeblæsten: the border asked about again'),
          ("s08", "08", 'Eastern Greenland at The Hague, 1933'),
          ("s09", "09", 'Stauning eller kaos'),
@@ -222,12 +235,12 @@ CFG = {
       ("The vote given back", [
         "Name three things the Kanslergade agreement contained, and say which party "
         "wanted each.",
-        "The agreement forbade the lockout. What else did it forbid, and for how long?",
+        "What rate did the Kanslergade agreement set for the pound, and why do the published sizes of the devaluation disagree?",
         "Name the four laws of the social reform and the sentence the whole of it "
         "rests on."]),
       ("1939: over ninety per cent", [
-        "Why did the reform of 1933 not need to amend the constitution to give most "
-        "recipients of relief their vote back?",
+        "What had Norway claimed in eastern Greenland in July 1931, and what did the "
+        "court at The Hague decide on 5 April 1933?",
         "What was Påskeblæsten, and what had happened to the Slesvigsk Parti by 1935?",
         "The Social Democrats won 46 per cent in 1935 and still could not change the "
         "constitution. What changed on 22 September 1936?"]),
@@ -259,13 +272,13 @@ CFG = {
       ("The economy of accommodation", [
         "How long did the fighting of 9 April last, and how much of that time passed "
         "between the crossing of the border and the government's acceptance?",
-        "Iceland, the Faroes and Greenland each left Danish control in a different way in "
-        "1940 and 1941. Name the way in each case.",
+        "What did Scavenius's declaration of 8 July 1940 say Denmark's task was, and how "
+        "much public protest was there?",
         "How many Danes sang together on the evening of 1 September 1940, at how many "
         "places, and what share of the population was that?"]),
       ("The election of March 1943", [
-        "On what legal authority did Danish police arrest Danish communists on 22 June "
-        "1941, and what did the law of 22 August 1941 do about that?",
+        "What did Christian 10. reply to Hitler's birthday telegram of September 1942, "
+        "and what did the reply cost?",
         "What did the War Ministry's order of 8 July 1941 promise Danish officers who "
         "joined Frikorps Danmark?",
         "Why did Denmark sign the Anti-Comintern Pact on 25 November 1941, and what did "
@@ -284,16 +297,16 @@ CFG = {
     checks=[
       ("The warning", [
         "The strikes of August 1943 were called by nobody and could be stopped by nobody. What did that prove to the occupier, and what did it prove to the Danish government?",
-        "Christian 10. refused to sign his government\'s resignation on 28 August. What did that deny the occupier?",
+        "Who ran Denmark from September 1943 to May 1945, and how could they make law?",
         "How many ships of the Danish navy were scuttled on 29 August 1943, how many reached Sweden, and who gave the order?"]),
       ("Those who did not get away", [
-        "In his telegram of 8 September 1943, what reason did Werner Best give for acting against Denmark\'s Jews at that moment rather than later?",
+        "Best put the Jews of Denmark at about six thousand. What did Danish accounts give, and why is the number unstable?",
         "Who warned whom on 28 September 1943, and how did the warning reach the congregation?",
-        "About 7,400 people crossed the Sound. What did most of them pay, and why does that make the story better rather than worse?"]),
+        "Most of those who crossed the Sound paid for the boats. What did the Swedish police registers show about how many of them gave their religion as Christian?"]),
       ("Danmarks Frihedsr", [
         "How many people were deported from Denmark to Theresienstadt, how many arrived, and how many returned?",
         "About a hundred and fifty Danish communists went from Horserød to Stutthof on 2 October 1943. Who had interned them, and under what law?",
-        "What did the Freedom Council have instead of a mandate, and who recognised it?"]),
+        "How many people died in the crossing or in connection with the action, and why does Bak not separate the causes?"]),
     ]),
  43: dict(
     name='43-the-underground-and-the-liberation.html',
@@ -308,15 +321,15 @@ CFG = {
          ("s06", "06", '4 May 1945 — and Bornholm')],
     checks=[
       ("Sabotage, and the counter-terror", [
-        "Where did the resistance\'s weapons come from, and what did the deliveries cost the air forces that made them?",
-        "What were the ventegrupper, roughly how many people did they number, and what were they told to do?",
-        "Industrial sabotage went from 73 actions in three years to 816 in one. What changed?"]),
+        "What happened to Carl Johan Bruhn on the night of 27 to 28 December 1941, and what did it cost SOE?",
+        "What were the ventegrupper, roughly how many people did they number by May 1945, and what did they do on 5 May?",
+        "What happened to the Hvidsten group between March 1943 and June 1944?"]),
       ("The policeless country", [
-        "What is a clearingmord, and where does the word come from?",
-        "What did the People\'s Strike of June 1944 obtain, and what did it demonstrate that was not among its demands?",
-        "Who asked Copenhagen to go back to work on 2 July 1944, and why did nobody listen?"]),
+        "What did Hitler order on 30 December 1943, and why did he reject public hostage executions?",
+        "How did a walk-out at Burmeister & Wain turn into a general strike by 30 June 1944?",
+        "Who asked Copenhagen to go back to work on 2 July 1944, and why did it have so little effect?"]),
       ("4 May 1945", [
-        "Why did the occupier deport the Danish police in September 1944, on its own stated reasoning?",
+        "What did the air-raid sirens signal at eleven on 19 September 1944, and where were the men seized that day taken?",
         "What replaced the police, and what was it forbidden to do?",
         "Why was the Gestapo headquarters in Copenhagen bombed, and what else was hit?"]),
     ]),
@@ -337,16 +350,16 @@ CFG = {
     checks=[
       ("Who was tried, and who was not", [
         "The resistance made about 21,800 arrests in eight days in May 1945. On what authority, and what proportion turned out to be chargeable?",
-        "What date did the straffelovstillæg reach back to, and which acts before 29 August 1943 did it exempt?",
+        "Who opposed the straffelovstillæg when it was passed, and what was Hal Koch's objection in 1947?",
         "Which Danish constitutional requirement was actually breached in the retsopgør, and why is it not the one usually named?"]),
       ("Bornholm under the Soviets", [
-        "Forty-six men were shot and seventy-five people imprisoned for building for the Wehrmacht. What in the statute produced that difference?",
+        "Why was the case against Wright, Thomsen & Kier dropped, and whose policy served the contractors as a defence?",
         "107 women were convicted of informing. What share of the national total is that, and what share of the convicted were women?",
         "What was not a crime in Danish or German law, and was punished anyway?"]),
       ("Marshall aid", [
-        "On what single condition did the Soviet Union leave Bornholm, and how far did Danish governments afterwards extend it?",
-        "What did the British actually ask Denmark in September 1946, and what did Denmark answer?",
-        "Was 1946 the first time a Danish government refused territory it could have had?"]),
+        "Why did the Soviet occupation of Bornholm last almost eleven months, and whose delay was most of it?",
+        "What did the British actually ask Denmark in September 1946, and why is it misdescribed as an offer?",
+        "Why were the Danish-minded in South Schleswig a majority of the natives but a minority of the inhabitants?"]),
     ]),
  45: dict(
     name='45-choosing-a-side-and-the-constitution.html',
@@ -369,19 +382,27 @@ CFG = {
          ("s12", "12", 'The last of the seven F\'s')],
     checks=[
       ("The Landsting votes itself out of existence", [
-        "Why did the Scandinavian defence union fail, and which of the three governments could not move?",
+        "Name three things the constitutional commission chose not to write into the constitution.",
         "What did Denmark attach to the Atlantic treaty in 1949, and what did it not attach?",
-        "What did the forty-five per cent rule measure, and why did a revision supported by 91.85 per cent of voters fail under it in 1939?"]),
+        "What barred Frederik 9.'s daughters from the throne before 1953: the Kongelov of 1665, or something else?"]),
       ("Greenland stops being a colony", [
         "Why did ordinary Danes have an opinion about the succession clause when they had none about most of the document?",
         "What does §20 permit, what majority does it require, and what happens when that majority cannot be found?",
         "§29 of the 1953 constitution did not abolish the loss of the vote for poor relief. What did it do instead, and is that sentence still in force?"]),
       ("The composite state, ended", [
-        "Greenland became a Danish county by a constitution approved in a referendum. Who voted in that referendum, and who did not?",
+        "What did the Greenland laws of 1950 change, and to which audience besides Greenland were they addressed?",
         "What argument did Denmark make to the United Nations about when a territory stops being non-self-governing?",
         "What was announced on 25 May 1953, and what happened three days afterwards?"]),
     ]),
 }
+
+# Part I's ordinary uses of "entry" - found by hand in review session 11 (REVIEW §15) on the
+# built pages 37-45, text, figure text and attributes, whitespace joined, case ignored. An
+# allowed phrase goes here per chapter, exactly as the reader's text has it; one that is no
+# longer on the page is itself reported. The only one: Kresten Andresen's letters and diary
+# entries (37 §06). The JavaScript's `entries` is not reader text.
+ALLOWED_ENTRY = {37: ['letters and diary entries home']}
+
 
 def block(qs):
     return ('<div class="check">\n  <h4>Checkpoint</h4>\n  <ul>'
@@ -448,7 +469,6 @@ def build(n, c, stub):
     w = pagewords(h)
     h = re.sub(r'Era chapter \u00b7 about \d+ minutes',
                'Era chapter \u00b7 about %d minutes' % round(w / 210), h)
-    open(OUT + c['name'], 'w', encoding='utf-8').write(h)
     return h, stubbed
 
 
@@ -459,9 +479,50 @@ if __name__ == "__main__":
     stub = "--stub" in sys.argv
     print("--- Part I ---" + ("  [STUBBED FIGURES]" if stub else ""))
     fail = 0
+    # EVERY FIGURE MUST BE WHAT ITS SCRIPT WRITES, witnessed by running the script in a
+    # scratch copy, not by trusting the svg_*.txt on disk (pageguard, §14.6).
+    figs, nfigs = pageguard.figures_fresh(
+        HERE, G, sorted({f for c in CFG.values() for f in c['svgs'].values()}))
+    print("  figures: %d checked against their scripts, %s"
+          % (nfigs, 'all fresh' if not figs else '%d NOT' % len(figs)))
     for n in sorted(CFG):
         c = CFG[n]
+        # THE BODY MUST BE WHAT THE DRAFT BUILDS, asked before the page is written.
+        fresh = freshcheck.check(n)
+        if fresh[0] != 'FRESH':
+            print("\nchapter %s  %s\n  !! NOT BUILT: the body is %s against its draft (%s). "
+                  "Run DK_DRAFT=c%s_draft.md python3 mkbody.py %s and read what it says."
+                  % (n, c['name'], fresh[0], fresh[1], n, n))
+            fail += 1
+            continue
+        # AND THE BODY THIS BUILD READS MUST BE THE ONE FRESHCHECK READ (DK_SRC).
+        if not pageguard.same_body(G, HERE, c['body']):
+            print("\nchapter %s  %s\n  !! NOT BUILT: %s%s is not the body freshcheck checked "
+                  "(%s%s%s). Unset DK_SRC or copy the fresh body there."
+                  % (n, c['name'], G, c['body'], HERE, os.sep, c['body']))
+            fail += 1
+            continue
+        stalefigs = {f: v for f, v in figs.items()
+                     if f in c['svgs'].values() and v != 'SOURCELESS'}
+        if stalefigs:
+            print("\nchapter %s  %s\n  !! NOT BUILT: figures not what their scripts write: %s"
+                  % (n, c['name'], '; '.join('%s %s' % kv for kv in sorted(stalefigs.items()))))
+            fail += 1
+            continue
         h, stubbed = build(n, c, stub)
+        stale = pageguard.stale_vocabulary(h, ALLOWED_ENTRY.get(n, []))
+        if stale:
+            print("\nchapter %s  %s\n  !! NOT WRITTEN: retired vocabulary %s"
+                  % (n, c['name'], stale))
+            fail += 1
+            continue
+        twice = pageguard.asked_twice(h)
+        if twice:
+            print("\nchapter %s  %s\n  !! NOT WRITTEN: a question asked twice (D-17): %s"
+                  % (n, c['name'], '; '.join('%s = %s (%.2f)' % t for t in twice)))
+            fail += 1
+            continue
+        open(OUT + c['name'], 'w', encoding='utf-8').write(h)
         css = h.split('<style>')[1].split('</style>')[0]
         ids = set(re.findall(r'id="([a-z0-9]+)"', h))
         links = set(re.findall(r'href="#([a-z0-9]+)"', h))
@@ -491,7 +552,7 @@ if __name__ == "__main__":
         if nfive != 5:
             print("  !! SUMMARY IS %d ITEM%s, NOT FIVE \u2014 the heading promises five"
                   % (nfive, "" if nfive == 1 else "S"))
-        print("  part %s | words %d (~%d min, %s)%s"
+        print("  part %s | vocabulary clean | questions asked once | words %d (~%d min, %s)%s"
               % ('ok' if '--band:%s;' % PART_I in h else 'BAD', w, m, band, note))
         for mm in re.finditer(r'<div class="check">.*?</div>\s*<h2 id="(s\d\d)">(.*?)</h2>',
                               h, re.S):
@@ -499,6 +560,8 @@ if __name__ == "__main__":
                   % (mm.group(1), re.sub(r'<[^>]+>', '', mm.group(2)).strip()))
         if stubbed:
             print("  !! STUBBED: %s" % ", ".join(stubbed))
-        fail += (bool(bad) or h.count('{{') or not (links <= ids) or not tail_ok
-                 or not (BAND[0] <= m <= BAND[1]) or bool(stubbed) or nfive != 5)
+        fail += (bool(bad) + bool(h.count('{{')) + (not links <= ids) + (not tail_ok)
+                 + (not BAND[0] <= m <= BAND[1]) + bool(stubbed) + (nfive != 5)
+                 + ('--band:%s;' % PART_I not in h))
+    print("\n%s" % ('all nine built clean' if not fail else '!! %d problems' % fail))
     sys.exit(1 if fail else 0)

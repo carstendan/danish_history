@@ -196,7 +196,7 @@ E = [
 (44,8,"The reckoning, and the accounts","1944 – 1948",1946,
  "Twenty-two thousand arrests made before there was a law to make them under; forty-six men shot and seventy-five imprisoned for building the German war; and an occupation debt that somebody else eventually paid.",
  ["retsopgøret","straffelovstillægget 1945","værnemagersagerne","tyskerpiger","Bornholm 1945–46","Sydslesvig efter 1945","Marshallhjælpen"]),
-(45,8,"Choosing a side, and the constitution","1948 – 1955",1953,
+(45,8,"Choosing a side, and the constitution","1948 – 1954",1953,
  "A Scandinavian alliance that failed, an Atlantic one that did not, and a constitution carried by 19,682 votes — abolishing the upper house, and installing the paragraph Denmark walks through in 1973.",
  ["skandinavisk forsvarsforbund","Atlantpagten 1949","Grundloven 1953","Landstinget abolished","grundlovens § 20","Grønland som amt 1953","45-procents-reglen"]),
 ]

@@ -40,7 +40,8 @@ import sys
 from pagewords import pagewords   # one definition, shared
 import dkpaths
 import freshcheck   # the body-against-draft comparison, run before every page
-import pageguard    # body witness, figure freshness, reader's-text vocabulary (§14.6)
+import pageguard    # body witness, figure freshness, reader's-text vocabulary (§14.6),
+                    # and ask once (D-17: pageguard.asked_twice, review session 11, §15)
 
 # Paths resolve relative to this script, not to wherever it is run from, and both
 # can be overridden. The container paths that used to be hardcoded here meant the
@@ -85,10 +86,10 @@ CFG = {
       ("The Kongelov", [
         "What did the estates actually meet to settle in September 1660, and who was not "
         "summoned?",
-        "The proposal to make the crown hereditary came from the burghers and the clergy, not "
-        "from the king's side of the room. Why would townsmen do that?",
-        "Hereditary did not have to mean absolute. In which five days did the one become the "
-        "other, and what survives to tell us why?"]),
+        "What did the burghers and the clergy ask for in return for the new taxes, and what "
+        "answer did Otte Krag give Hans Nansen on 19 September?",
+        "What was a <i class=\"dk\">håndfæstning</i>, and since when had every Danish "
+        "king signed one?"]),
       ("The council disappears", [
         "The visible revolution took five weeks. What took four years, and what did it "
         "produce?",
@@ -101,7 +102,8 @@ CFG = {
         "the nobility's land?",
         "If absolutism was neither imposed by force nor resisted, what makes 1660 difficult "
         "to write about?",
-        "Who paid for it, and were they in the room?"]),
+        "Charlotte Amalie's Reformed chaplain was allowed to preach. What was he not allowed "
+        "to do, and why?"]),
     ]),
  26: dict(
     name='26-law-rank-and-the-war-for-skaane.html',
@@ -128,7 +130,7 @@ CFG = {
       ("The snaphaner", [
         "Lund on 4 December 1676 and K\u00f8ge Bugt on 1 July 1677 point opposite ways. What "
         "did each decide?",
-        "How does a country win command of the sea and lose the war it was fighting?",
+        "Where did Niels Juel learn the sea, and under which two admirals did he serve?",
         "What was happening to the population of Sk\u00e5ne while the two armies fought over "
         "it?"]),
       ("The state's prisoners", [
@@ -156,7 +158,8 @@ CFG = {
       ("The plague", [
         "Denmark rejoined the war in 1709 to recover a province. How long did that purpose "
         "survive, and what ended it?",
-        "What changed at Poltava that made a second Danish attempt look sensible?",
+        "The battle outside Helsingborg is 10 March 1710 in Danish papers. Why is it 28 "
+        "February in Swedish ones?",
         "Everything after March 1710 is a war fought without prospect of its own aim. What "
         "does that do to how you should read the settlement of 1720?"]),
       ("The Gottorp share", [
@@ -166,8 +169,8 @@ CFG = {
         "Two ways of measuring the same twenty years. Which of Denmark's two services was "
         "the problem in this period, and which was not?"]),
       ("Two hundred and forty", [
-        "Frederik 4. was a poor commander. Name two things he nonetheless finished his reign "
-        "holding that he did not start with.",
+        "What did Kari Rasmusdatter tell the Swedes in April 1716, and what is the only "
+        "source for her part in it?",
         "Which sovereign share of Schleswig did he end, and since when had it been "
         "sovereign?",
         "A reign can be a failure by its own stated aim and a success by almost any other. "
@@ -234,16 +237,17 @@ CFG = {
         "What is the defence available to a man who rules on a sick king's signature, when "
         "somebody else obtains that signature at four in the morning?"]),
       ("Udskiftning", [
-        "Struensee ruled by cabinet order. Guldberg overthrew him and ruled by cabinet order. "
-        "What does the repetition tell you?",
+        "How did Ove Guldberg, an undertaker's son and a scholar of no family, come to be "
+        "standing next to the throne?",
         "Three regimes between 1770 and 1784. How did each of them actually get its hands on "
         "the king's authority?",
-        "What is the constitutional problem underneath all three, and which chapter built "
-        "it?"]),
+        "What did Johan Ludvig Reventlow's programme for the Little Agrarian Commission "
+        "propose, and why was it tried first on the crown estates?"]),
       ("The column", [
-        "The ordinance of 20 June 1788 did three things at once. Name them.",
-        "Which of the three does the monument commemorate, and which one gave the landowners "
-        "something back?",
+        "What did Hans Knudsen receive on 14 September 1788, from whom, and what did he "
+        "do with it in 1793?",
+        "What did the ordinances of 8 June 1787 give a tenant, and what could his landlord "
+        "still make him do?",
         "The tie to the home district was moved rather than removed. Moved to whom, and what "
         "could a young countryman still not do?"]),
     ]),
@@ -301,8 +305,8 @@ CFG = {
          ("s10", "10", 'Every child, 29 July 1814')],
     checks=[
       ("The Norwegian half", [
-        "What was a neutral flag worth between the American war and 1807, and what was "
-        "Denmark carrying under it?",
+        "Who paid for the equestrian statue of Frederik 5. on Amalienborg Slotsplads, and "
+        "why is that worth noticing?",
         "Denmark knew the practice was against the conventions and did it anyway, with the "
         "state's protection. What was the battle of 1801 the bill for?",
         "Denmark's escape in 1801 had nothing to do with the fighting. What ended the "
@@ -311,12 +315,12 @@ CFG = {
         "Besides the ships that sailed, what did the British take or destroy in September "
         "1807, and why?",
         "What replaced the fleet, and what kind of war could it fight?",
-        "The reform of 5 January 1813 is remembered as the state bankruptcy. What was "
-        "actually declared, and what was made security for the new notes?"]),
+        "What did Frederik 6. do to Norway's governing commission in 1810, and why?"]),
       ("Every child", [
-        "Norway was ceded at Kiel in January 1814. What did the Norwegians do between then "
-        "and November?",
-        "What did Norway keep, and what did it not?",
+        "What did article four of the Kiel treaty leave out of the cession, and whose policy "
+        "does the exception seem to have come from?",
+        "What was Denmark to receive in exchange for Norway, and what did it swap that for "
+        "in 1815?",
         "More than four hundred years in one realm ended in one treaty. What part of Kiel "
         "did the Norwegians accept, what did they reject, and on what argument?"]),
     ]),
@@ -438,6 +442,12 @@ if __name__ == "__main__":
                   % (n, c['name'], stale))
             fail += 1
             continue
+        twice = pageguard.asked_twice(h)
+        if twice:
+            print("\nchapter %s  %s\n  !! NOT WRITTEN: a question asked twice (D-17): %s"
+                  % (n, c['name'], '; '.join('%s = %s (%.2f)' % t for t in twice)))
+            fail += 1
+            continue
         open(OUT + c['name'], 'w', encoding='utf-8').write(h)
         css = h.split('<style>')[1].split('</style>')[0]
         ids = set(re.findall(r'id="([a-z0-9]+)"', h))
@@ -478,7 +488,7 @@ if __name__ == "__main__":
                  h.count('<figure>'), h.count('class="terms"'), 'ok' if tail_ok else 'BAD'))
         band = 'ok' if BAND[0] <= m <= BAND[1] else 'OUTSIDE BAND'
         note = '' if TARGET[0] <= m <= TARGET[1] else '  <-- note'
-        print("  part %s | vocabulary %s | words %d (~%d min, %s)%s"
+        print("  part %s | vocabulary %s | questions asked once | words %d (~%d min, %s)%s"
               % ('ok' if '--band:%s;' % PART_G in h else 'BAD',
                  'clean' if not stale else 'STALE ' + str(stale), w, m, band, note))
         for mm in re.finditer(r'<div class="check">.*?</div>\s*<h2 id="(s\d\d)">(.*?)</h2>',

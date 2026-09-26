@@ -8,10 +8,10 @@
 ## November 1918: the soldiers come home
 
 They came home in German uniform to a country that was about to stop being
-German. Around thirty-five thousand men from Nordslesvig had been called up into
-the German army out of a population of barely a hundred and seventy thousand —
-one man in five, counting only the ones who went. More than six thousand did not
-come back.
+German. About thirty thousand men from North Schleswig had been called up into
+the German army, out of a population of some hundred and sixty-four thousand —
+nearly one inhabitant in five, women and children counted. More than five
+thousand did not come back.
 
 That figure needs care, and the care is instructive. Ask how many Sønderjyder
 died in the First World War and you get answers between about five thousand two
@@ -26,9 +26,10 @@ names and is still growing. It includes about a hundred and ninety men who died
 after the armistice, in captivity or in hospital or at home, and whose names are
 on the village stones anyway.
 
-About one man in eight of those who served came back disabled. Around two and a
-half thousand had crossed the border into Denmark during the war rather than
-serve at all, and were deserters in German law on the day the war ended.
+About seven thousand came back war invalids — nearly one in four of those who
+went. Some two thousand four hundred soldiers had got across the border into
+neutral Denmark during the war, many of them while home on leave, and were
+deserters in German law on the day the war ended.
 
 This is who was standing there when somebody proposed that the border be settled
 by asking them.
@@ -40,10 +41,10 @@ by asking them.
 On the first morning of December 1918 the Danish flag came down at Government
 House in Reykjavík and the Icelandic flag went up in its place, and a Danish
 warship in the harbour fired a salute to it. The town was half empty. The
-influenza that had come ashore in October had killed several hundred people in
-Reykjavík alone in a matter of weeks, Katla had erupted in October and was still
-throwing ash, and the ceremony was small because there were not many people well
-enough to attend.
+influenza that had come ashore in October had killed more than two hundred people
+in Reykjavík alone in a matter of weeks, Katla had erupted on 12 October and gone
+on erupting into November, and the ceremony was small because there were not many
+people well enough to attend.
 
 The Act of Union made Iceland a sovereign state in personal union with the Danish
 crown. The two countries shared a king and nothing else that was not written
@@ -64,8 +65,9 @@ It is worth being plain about what happened here, because the Danish memory of
 1918 is entirely about the other border. The composite state lost a limb by
 agreement. Norway went at Kiel because Denmark had lost a war. The duchies went
 in 1864 because Denmark had lost a war. Iceland went because Iceland asked, and
-because by 1918 the argument for keeping it had worn through. Sixty-one years of
-Icelandic constitutional agitation had produced a home-rule ministry in 1904 and
+because by 1918 the argument for keeping it had worn through. Icelandic
+constitutional agitation, running since the national assembly of 1851, had
+produced a home-rule ministry in 1904 and
 a deadlock over the flag; the war, which cut Iceland off from Danish shipping and
 drove it into trade with Britain and the United States, finished the argument by
 demonstrating that the union was not load-bearing.
@@ -78,24 +80,35 @@ Denmark had spent the war not fighting it, and arrived at the peace with a
 position that was almost unique among the claimants at Paris: it did not want as
 much as it could have had.
 
-The Danish government's line, held publicly from 1917 and never abandoned, was
-that Denmark would accept only what the population of the disputed area voted
-for, and would ask for nothing on historical or strategic grounds. On 23 October
-1918, in the Reichstag, H. P. Hanssen — the Nordslesvig deputy, and the man who
-had spent twenty years telling the Danish minority to be patient — announced that
-Nordslesvig's future must be settled by the people who lived there. On 16 and 17
-November the Vælgerforening for Nordslesvig met at Folkehjem in Aabenraa and
-turned it into a resolution — and the resolution named a line. It asked that
-Nordslesvig be defined as the country north of the Clausen line, which ran south
-of Tønder and Tinglev and north of Flensburg, and that anywhere further south be
-allowed to vote if its own people demanded it. Both halves were granted.
+There was no Danish right to lean on. The Peace of Prague had promised the
+northern districts a vote in 1866; Prussia and Austria cancelled the promise
+between themselves in 1878, and in the optant convention of 1907 the Danish
+government formally accepted the cancellation, as the price of a nationality for
+several thousand stateless Schleswigers (chapter 35). The vote of 1920 did not
+come from the old article. It came from Wilson's programme and Germany's defeat.
 
-The Clausen line is worth a moment. It is named after H. V. Clausen, a Copenhagen
-schoolmaster and amateur topographer who had walked Schleswig parish by parish in
-the 1890s recording where Danish was spoken at home, and had drawn a line on that
-evidence long before anybody could act on it. The border Denmark holds today is
-within a few kilometres of a line a private scholar drew on foot, thirty years
-early, for no official body at all.
+The Danish line, stated in the Rigsdag on 23 October 1918 and never abandoned,
+was that the question must be settled by the right of peoples to decide for
+themselves: Denmark would accept what the population of the disputed area voted
+for, and would ask for nothing on historical or strategic grounds. The same day,
+in the Reichstag, H. P. Hanssen — North Schleswig's deputy, and the man who had
+spent thirty years, since he helped found the Vælgerforening in 1888, telling the
+Danish minority to stay and carry the burden — demanded that North Schleswig's
+future be settled by the people who lived there. On 16 and 17 November the
+Vælgerforening for Nordslesvig met at Folkehjem in Aabenraa and turned it into a
+resolution — and the resolution named a line. It asked that North Schleswig be
+defined as the country north of the Clausen line, which ran south of Tønder and
+Tinglev and north of Flensburg, and that districts further south be allowed a
+separate vote if they demanded one. Both halves were granted.
+
+The Clausen line is worth a moment. It is named after H. V. Clausen, a history
+master at Frederiksberg Gymnasium who had been walking Schleswig on foot since
+1879, recording language, livelihoods and the national sympathies of the people
+who owned the land. He drew his line in 1891, long before anybody could act on it,
+and stopped it short at Frøslev, seven kilometres from Flensburg, rather than say
+in print which side the town was on. The border Denmark holds today is within a
+few kilometres of a line a private scholar drew from his own walking, nearly thirty
+years early, for no official body at all.
 
 Articles 109 to 114 of the Treaty of Versailles wrote it into the peace. Schleswig
 would be divided into voting zones. An International Commission would take over
@@ -105,7 +118,7 @@ would vote. Whatever they decided, the border would follow.
 What is striking is the shape Denmark asked for. There was a third zone, running
 south of Flensburg roughly to the Danevirke, and the Danish government asked that
 it be dropped. It was dropped. A country that had lost this ground in 1864 and
-had spent fifty-five years being told by its own poets that it would get it back
+had been told ever since by its own poets that it would get it back
 looked at a map on which it could plausibly have claimed as far south as the old
 earthworks, and asked for less.
 
@@ -121,7 +134,7 @@ and would last exactly as long as German weakness lasted.
 The design of the vote decided the result before a single ballot was printed, and
 everybody involved knew it.
 
-Zone I — Nordslesvig, from the Kongeå down to a line just north of Flensburg —
+Zone I — North Schleswig, from the Kongeå down to a line just north of Flensburg —
 would vote **en bloc**. One count, one answer, the whole zone going one way. Zone
 II — Flensburg and the country around it, down to a line north of Schleswig town —
 would vote **commune by commune**, each parish counted separately, and would be
@@ -129,7 +142,7 @@ assigned accordingly.
 
 Put like that it sounds procedural. It is the single most consequential decision
 in this chapter. Zone I contained a Danish majority overall and German-majority
-towns inside it — Tønder, Højer, Aabenraa's German quarter. Voting en bloc, the
+towns inside it — Tønder, Højer, Aabenraa, Sønderborg. Voting en bloc, the
 towns would be carried into Denmark by the countryside. Zone II contained a
 German majority overall and Danish minorities inside it, thickest in Flensburg
 itself. Voting parish by parish, those minorities would be left where they were,
@@ -166,31 +179,34 @@ needed their votes, about land whose inhabitants were not consulted and would no
 have been understood to have a view. Every Schleswig crisis in this book since has
 been an argument about what that promise meant and who it was made to. **In 1920 it
 is finally answered by asking them, and the answer divides the thing the nineteenth
-century said was sworn to be undividable.** Four hundred and sixty years, and
-the resolution is not a better reading of the charter. It is a decision to stop
-reading the charter.
+century said was sworn to be undividable.** The resolution of 1920 is not a
+better reading of the charter of 1460. It is a decision to stop reading the
+charter.
 
 ---
 
 ## The commission, January to June 1920
 
 None of this was run by Denmark. Under article 109 an international commission —
-the Commission Internationale de Surveillance — had taken over the government of
-both zones on 10 January and held it until the border came into force in June.
-It based itself in Flensburg, and three thousand British and French soldiers came
-with it.
-German officials withdrew and the commission appointed its own; French and
-British troops garrisoned Flensburg, Aabenraa, Sønderborg and Tønder. Its members
-were a British chairman, a Frenchman, a Norwegian and a Swede, and the French
-seat was held by Paul Claudel, who is better known for the plays.
+the Commission Internationale de Surveillance du Plébiscite Slesvig — proclaimed
+its authority over both zones on 10 January 1920, the day the treaty came into
+force. The last German troops left on 24 January and the commission arrived in
+Flensburg two days later, with about three thousand French and British soldiers,
+headquartered in the Duborg barracks and the naval school at Mürwik. It replaced the
+German gendarmerie with a police force of its own, and it governed until
+sovereignty passed in June. Its members were a British chairman, Sir Charles
+Marling, a Frenchman, a Swede and a Norwegian, and the French seat was held by
+Paul Claudel, who is better known for the plays.
 
-For five months the ground both countries were claiming was administered by
-neither, by a body with foreign soldiers in the towns and no stake in the answer.
-That is the only time in this book it happens, and it is why the loser accepted
-the result: neither side could say afterwards that the other had counted.
+For almost five months the ground both countries were claiming was administered
+by neither, by a body with foreign soldiers in the towns and no stake in the
+answer. That is the only time in this book it happens, and it is why the loser
+accepted the result: neither side could say afterwards that the other had counted.
 
-It was the commission that drew up the rolls, and the rolls are the strangest
-part of the procedure. The franchise was defined by birth rather than residence.
+The franchise is the strangest part of the procedure. The treaty gave the vote to
+every man and woman who had turned twenty and had been born in the zone, or had
+lived there since before 1 January 1900, or had been expelled from it by the
+German authorities. Birth counted wherever the voter now lived.
 
 ---
 
@@ -207,7 +223,7 @@ election of the period.
 You will see that given as 74.9 per cent and as 74.2, and both are right: 74.9 is
 the share of the valid votes, 74.2 the share of every ballot put in a box. The
 gap is eight hundred and ninety-two spoiled papers. Special trains ran north out of Germany carrying
-Germans born in Nordslesvig who had spent their working lives in Hamburg or the
+Germans born in North Schleswig who had spent their working lives in Hamburg or the
 Ruhr. Special ships and trains carried Danes the other way. The outvoters were counted
 in the tens of thousands, and both sides organised them ruthlessly through
 registration forms and approved lists carried by two postal services across a
@@ -230,15 +246,13 @@ better than five to one. The rest of the German majorities were small districts
 west and south of Tønder — Sæd, Ubjerg, Frederikskog — and a handful around
 Aabenraa and Gråsten.
 
-Under the Zone II rules every one of them would have gone to
-
-Germany, and the border would have run in ragged islands through Nordslesvig.
+Under the Zone II rules every one of them would have gone to Germany, and the
+border would have run in ragged islands through North Schleswig.
 
 Under the Zone I rules none of it mattered. The zone was one constituency and the
 constituency had answered. The German-voting towns went to Denmark with the rest
-of it, and on the morning after the count there were something like twenty-five
-thousand people inside the future Danish border who had just said they did not
-want to be there.
+of it, and on the morning after the count a quarter of the votes cast in a zone
+that was now going to Denmark had been cast by people who did not want it to.
 
 Denmark had, in one stroke, both vindicated the principle of self-determination
 and acquired a national minority by overruling one. It is possible to hold that
@@ -254,23 +268,23 @@ the difference is most of what happens to the minority question afterwards.
 
 ## 14 March 1920
 
-Zone II voted five weeks later, and it went as everyone had known it would. Some
-sixty-four thousand people voted and the zone returned roughly eighty per cent
+Zone II voted thirty-three days later, and it went as everyone had known it would.
+Some sixty-four thousand people voted and the zone returned roughly eighty per cent
 for Germany. There was a German majority in every voting district in the zone but
-three — three small polling places on Før, out in the Wadden Sea, which returned
+three — three small polling places on Föhr, out in the Wadden Sea, which returned
 Danish majorities and stayed in Germany with everything else. Flensburg itself returned
 about seventy-five per cent German and twenty-five per cent Danish — somewhere
 near twenty-seven thousand votes against somewhere near nine thousand.
 
 Twenty-five per cent is not a small number. It is one person in four in the
 largest town in Schleswig, and it is close to the German share of Zone I that
-Denmark had just absorbed. Each side ended the two votes holding roughly a quarter
-of the other's people.
+Denmark had just absorbed. The losing side had taken about a quarter of the votes
+in Zone I and about a fifth in Zone II.
 
 The Danish quarter of Flensburg had voted knowing it would lose. That is the fact
-to sit with. The count was not in doubt for a month beforehand; the parish rule
-guaranteed it; and thirty-six thousand people queued anyway in a town where the
-outcome was settled, because the alternative was to let the number be smaller
+to sit with. The count was not in doubt for weeks beforehand; the parish rule
+guaranteed it; and some nine thousand people voted Danish anyway in a town where
+the outcome was settled, because the alternative was to let the number be smaller
 than it was. A vote you know you will lose is still a census of who you are, and
 in Flensburg that census is the founding document of the Danish minority in
 Germany, which exists continuously from that day to this.
@@ -280,84 +294,109 @@ brought in every Flensburg-born Dane it could find. The number is the number wit
 the outvoters in it. Without them it would have been lower.
 
 The parishes had answered and the answer still had to be made into a line, and
-that was not a tracing exercise. The commission reported; the Conference of
-Ambassadors decided; the border was fixed in the spring and came into force on
-15 June. It runs close to the parish results and it does not follow them
-everywhere. A line that obeyed the count exactly would have left pockets of one
-country inside the other and cut farms, roads and a railway; the powers
-straightened it, and each straightening moved somebody.
+that was not a tracing exercise. The German government proposed the Tiedje line,
+north of Tønder and Højer and across to Rinkenæs, which would have kept the
+southern edge of Zone I German; Danish voices asked for a line further south. The
+commission turned both down and recommended the Clausen line, north of Flensburg
+and south of Tønder. Denmark took sovereignty over the north on 15 June. From July
+to the end of November 1920 a boundary commission of French, British, Italian and
+Japanese officers, with a Danish and a German representative beside them, marked
+the line on the ground with stones, posts and buoys, and the marking was
+proclaimed on Christmas Eve.
 
 This is the seam in the chapter's own argument and it should be visible rather
 than smoothed. The territory question was answered by asking the people. It was
 not answered *only* by asking them. Between the count and the line stood a
-commission's recommendation and four governments' decision, and the last hundred
-metres of the most consensual border in modern European history were drawn in
-Paris by men who had never been there.
+commission that chose between rival lines, the powers that settled on its choice,
+and officers from four countries, one of them on the far side of the world, who
+put the stones in.
 
 
 ---
 
 ## The king dismisses a government
 
-On the morning of 29 March 1920, Christian 10. dismissed his government.
-
-> **Vignette · C. Th. Zahle, Amalienborg, 29 March 1920**
->
-> At a quarter to twelve the prime minister is sent for. He has been prime
-> minister for seven years, through a war his country stayed out of and a
-> constitution that doubled the electorate.
->
-> The king asks him what he thinks of the political situation.
->
-> It is a courteous question and it is not a real one. The decision was taken the
-> day before, Palm Sunday, in conversation with H. N. Andersen, the shipping
-> magnate who is the king's closest adviser and holds no office at all. Zahle
-> declines to call an election. The government is dismissed.
->
-> The whole of it takes place in one room, between two men, in the ordinary
-> forms. Nothing is stormed. By the afternoon *Social-Demokraten* is on the
-> street with an extra edition, and Borgbjerg's headline is three words long:
-> **"Kongen begaar Statskup"** — the king commits a coup.
->
-> C. Th. Zahle, prime minister · Amalienborg · 29 March 1920 · [-]
+On the morning of Monday 29 March 1920, Christian 10. dismissed his government.
+C. Th. Zahle, prime minister since the summer of 1913, was called to the king at
+a quarter to eleven. The king spoke of his unease at the political situation and
+demanded an immediate election. Zahle refused, because the Rigsdag was about to
+finish the hard negotiations over the electoral law. When the king asked for his
+resignation he refused that too, pointing to his majority in the Folketing, but
+he added, apparently without thinking, that the king was of course free to
+dismiss the ministry. The king seized on the remark and declared the ministry
+dismissed. The day before, Palm Sunday, he had talked over the shape of the next
+government with H. N. Andersen of the East Asiatic Company, a confidant who held
+no office at all. The
+whole of it took place in one room, in the ordinary forms. Before the day was out
+F. J. Borgbjerg, the editor of *Social-Demokraten*, had the paper on the street in
+one extra edition after another, and the second carried a headline three words
+long: **"Kongen begaar Statskup"** — the king commits a coup.
 
 The pretext was Flensburg. The Zahle ministry, Radical and Social Democratic,
 had held to the line that Denmark would take what voted Danish, which meant not
 taking Flensburg, and had carried the Folketing on it three days earlier. Against
 it stood a large, loud and well-connected campaign for the Danevirke border, or
-at minimum for Flensburg, run by Ernst Christiansen of *Flensborg Avis* with
-Peter Grau and Kloppenborg-Skrumsager, and pressed on the king by Erik With, a
-former head of military intelligence, working with Venstre's J. C. Christensen.
-The king agreed with the campaign. A day later he appointed a caretaker under
-Otto Liebe, a barrister who had never sat in the Rigsdag, to hold an election.
+at minimum for Flensburg, led by Peter Grau, H. D. Kloppenborg-Skrumsager and
+Ernst Christiansen of *Flensborg Avis* — Grau and Christiansen wrote to the king
+on 17 March — and pressed on him by business men, H. N. Andersen among them.
+The king agreed with the campaign. By the next day he had a caretaker ministry under
+Otto Liebe, a Supreme Court barrister, to hold an election.
 
 Read the constitution of 1915 and the king was entitled to do it. The ministers
-served at his pleasure; the text said so. Read the practice of the previous
-nineteen years and he was not. The change of system of 1901, which chapter 37
+served at his pleasure; the text said so. Read the practice since 1901 and he
+was not. The change of system of 1901, which chapter 37
 spent a section insisting had altered no word of the constitution, had
 established that a government which lost the Folketing's confidence resigned and
 one which held it did not. Christian 10. had just tested whether that was law or
 habit.
 
-The answer took a week and it did not come from the Rigsdag.
+The answer took less than a week and it did not come from the Rigsdag.
 
 De samvirkende Fagforbund — the trade union federation — on 30 March called a
-general strike, to begin on Tuesday 6 April. The Social Democrats put a motion for
-a republic on the table. Crowds came out in Copenhagen. The Syndicalists, who had
+general strike, to begin on Tuesday 6 April. There was open talk of a republic.
+Crowds came out on Fælleden and in front of Amalienborg. The Syndicalists, who had
 been on the streets all winter over unemployment, were already organised and were
 not asking anybody's permission. Amalienborg was guarded. What the king was now
 facing was not a parliamentary crisis but the plain question of whether there
 would continue to be a monarchy, being asked by the organisation that could stop
 the trams, the gasworks and the ports on a Tuesday morning.
 
-On Easter Saturday, 3 April, a procession went to the king. It had been got up by
-two Radicals, Elna Munch and Jesper Simonsen, together with Stauning, and it
-carried a message that the consequences could be grave for all of them, high and
-low. By every account it was what moved him.
+On Easter Saturday, 3 April, a delegation of the Copenhagen city council went to
+the king.
 
-He folded the next day. On Easter Sunday, 4 April, the Liebe ministry went and a
-caretaker under M. P. Friis took its place, negotiated with the party leaders and
-tasked with revising the electoral law and holding the election that followed —
+> **Vignette · Elna Munch, Amalienborg, 3 April 1920**
+>
+> She is forty-eight. She has sat in the Folketing since 1918, one of the first
+> four women elected to it and the only woman the Radicals have there, and in
+> Copenhagen's city council, the Borgerrepræsentation, since 1917. Before that
+> she was one of the builders of the Landsforbundet for Kvinders Valgret. It is
+> as a member of the council that she comes to Amalienborg on Easter Saturday.
+>
+> The procession is partly her doing. It was got up on her initiative and that of
+> Jesper Simonsen, a fellow Radical, together with Stauning. Her
+> husband's biographer gives the idea of sending the council to the king to
+> him: Peter Munch, minister of defence in the government the king dismissed on
+> Monday.
+>
+> The delegation is the council's majority. In front walk the three Social
+> Democrats, the mayor Jens Jensen, Stauning and Peder Hedebol; in the second
+> row the Radicals, Jesper Simonsen, Elna Munch and the Supreme Court barrister
+> C. C. Heilesen. She is the only woman the photograph's caption names. Behind
+> them come thousands.
+>
+> They are received in the king's study, and it fills quickly, which may be
+> why the exchange turns into recriminations on both sides. What they have come
+> to tell him is that the consequences may be fateful for all of them, high and
+> low. The record does not say which of them said it. It makes an impression on
+> the king.
+>
+> Elna Munch, Radical member of the Folketing · Amalienborg · 3 April 1920 · [f]
+
+The same evening at nine, without his ministers' knowledge, the king called the
+party leaders to Amalienborg. He folded in the night. A little after four on the morning of Easter Sunday, 4
+April, after seven hours of negotiation, he agreed that the Liebe ministry would
+go and a caretaker under M. P. Friis, the public trustee, would take its place,
+charged with passing a new electoral law and holding the election that followed —
 which it did, on 26 April, and which Venstre and the Conservatives won.
 
 So the campaign got its election and lost its border. And the crown got a
@@ -380,12 +419,13 @@ who discovered in one Easter week what he was actually allowed to do.
 >
 > He is out because the trams may stop on Tuesday and because his union has told
 > him what that means. He has spent the winter in and out of work. What he is
-> shouting is four words of Copenhagen: *Kresjan væk, republæk* — Christian out,
-> republic in — and it rhymes, which is why it is the line that survived.
+> shouting, if the rhyme that is told of that week was really shouted, is three
+> words of Copenhagen: *Kresjan væk, republæk* — Christian out, republic in — and
+> it rhymes, which is why it is the line that survived.
 >
 > He almost certainly does not want a republic. The men organising him do not
-> want one either, and are working that week to make sure the motion for one is
-> never put. What he wants is for the man in the palace to stop.
+> want one either, and are working that week to make sure the talk of one stays
+> talk. What he wants is for the man in the palace to stop.
 >
 > On the Tuesday the trams run. He goes back to work, having settled, without
 > being asked and without it being written anywhere, the question of who governs
@@ -393,21 +433,21 @@ who discovered in one Easter week what he was actually allowed to do.
 >
 > unnamed, Copenhagen · Amalienborg Slotsplads · Easter 1920 · [n]
 
-The strike was called and never struck. It was called off after the settlement of
+The strike was called and never struck. It was called off in the settlement of
 Easter Sunday, before it began, because it had already worked.
 
-That it worked at all was six months old. In the summer of 1919 the eight-hour day
-had arrived in Denmark, not by statute but by agreement across the labour market,
-and the federation that negotiated it came out of the process with something it
-had not had in 1899 or 1911: the demonstrated ability to move the whole economy at
-once and the organisational discipline to do it on a date. Membership had roughly
-doubled during the war. Real wages had been savaged by wartime inflation and then
-partly recovered. The men who ran De samvirkende Fagforbund in March 1920 were
-not improvising.
+That it could work at all was new. On 17 May 1919 De samvirkende Fagforbund and
+the employers' association had agreed the eight-hour day, to be in place by 1
+January 1920 — not by statute but by agreement across the labour market — and
+the federation came out of the process with something it had not had in 1899:
+the demonstrated ability to move the whole economy at once and the organisational
+discipline to do it on a date. Real wages had been savaged by wartime inflation
+and then partly recovered. The men who ran De samvirkende Fagforbund in March
+1920 were not improvising.
 
 Nor were they revolutionaries, and the distinction is the interesting part. The
-republican motion was real and the Social Democratic leadership did not want it
-carried. Stauning's calculation, which he made under pressure and in public,
+republican talk was real and the Social Democratic leadership did not want it
+acted on. Stauning's calculation, which he made under pressure and in public,
 was that a movement which brought down the monarchy in 1920 would spend the next
 twenty years being the party that brought down the monarchy, and would govern
 nothing. What he wanted was the rule established and the king kept. He got both.
@@ -420,7 +460,7 @@ There is a strand of Danish writing that treats the Easter Crisis as the
 revolution Denmark did not have, and points at Germany and Hungary and Finland to
 say how close it came. It did not come close. What the crisis shows is the
 opposite: an organised labour movement at the height of its leverage, with a
-genuinely unconstitutional act to respond to and a government it supported thrown
+genuine breach of constitutional practice to respond to and a government it supported thrown
 out of office, chose to spend that leverage on enforcing a convention. The
 absence of the revolution is not evidence that the pressure was weak. It is
 evidence about what the pressure was for.
@@ -429,69 +469,72 @@ evidence about what the pressure was for.
 
 ## 10 July 1920
 
-The border came into force on 15 June. On 10 July the king rode across it.
+Sovereignty passed on 15 June. On 10 July the king rode in.
 
 He crossed the old 1864 line at Frederikshøj, south of Kolding, on a white horse,
-and the photographs of that morning became the most reproduced images in modern
-Danish history. There is a reason the horse is white and it is not aesthetic: a
-prophecy attributed to Jomfru Fanny of Aabenraa in the 1880s had the Danish king
-returning to Sønderjylland on a white horse, and the court knew it, and the horse
-was chosen to fulfil it.
+and the photographs of that morning became some of the most reproduced images in
+modern Danish history. There is a reason the horse is white and it is not
+aesthetic: a prophecy attributed to Jomfru Fanny of Aabenraa, who died in 1881,
+had the Danish king returning to Sønderjylland on a white horse, and the court
+knew it, and the horse was chosen to fulfil it.
 
 The most famous photograph of the day is a photograph of an accident.
 
-> **Vignette · Johanne Marie Braren, Frederikshøj, 10 July 1920**
+> **Vignette · Johanne Martine Braren, Frederikshøj, 10 July 1920**
 >
-> She is nine years old. She is a foster daughter in the vicarage household at
-> Aastrup, and she has been given flowers to hand up to the king as he passes,
-> which is a thing a great many children are doing along the road that morning.
+> She is eight, three weeks short of nine. She came out of the overcrowded orphanage at Haderslev
+> in 1915, when the pastor at Aastrup, Jürgen Braren, and his wife Elisabeth
+> adopted her, and she has come to the road with flowers for the king, which is a
+> thing a great many children are doing that morning.
 >
-> Her mother lifts her up so she can reach. The king leans down, takes the
-> flowers, and then takes the child — lifts her out of her mother's arms and sets
-> her on the saddle in front of him, and rides on with her there.
+> Everyone is reaching up to him. The king takes her hand, asks her mother
+> whether he may have her up on the horse a little — her mother cannot get a word
+> out — and lifts her onto the saddle in front of him, and rides on with her
+> there for a couple of hundred metres.
 >
 > Nobody planned it. It is not in any programme. The photographers on the
 > roadside got it because they were already pointing at the horse.
 >
-> The horse was borrowed for the occasion and was destroyed not long afterwards.
->
-> Johanne Marie Braren, foster daughter of the vicarage at Aastrup · Frederikshøj
-> · 10 July 1920 · [f]
+> Johanne Martine Braren, adopted daughter of the pastor at Aastrup · Frederikshøj
+> · 10 July 1920 · [-]
 
-That is the image: the reunion as a man on a white horse lifting a child, spontaneous,
-photographed by accident, on a borrowed animal, in fulfilment of a prophecy that
-may have been written backwards. Almost everything about it is arranged and the
+The horse, Malgré Tout, had been borrowed from Count Knud Danneskiold-Samsøe of
+Visborggård, and had to be put down the following year. The prophecy may have
+been written backwards. Almost everything about the morning is arranged, and the
 one thing that is not is the part that lasted.
 
 ---
 
 ## What the border cost the people on both sides of it
 
-Twenty-five thousand people in Nordslesvig had voted for Germany and woke up
-Danish. About the same proportion of Flensburg had voted Danish and stayed
-German. Neither group moved, because a border drawn by asking people does not
-produce refugees; it produces minorities, which is a slower and more durable
-problem.
+A quarter of the votes cast in North Schleswig had been for Germany, and the
+German-minded who lived there woke up Danish. About the same share of Flensburg
+had voted Danish and stayed German. Neither group moved in any number, because a border drawn by asking
+people does not produce refugees; it produces minorities, which is a slower and
+more durable problem.
 
 North of the line the *hjemmetyskere* — the home Germans — kept their property,
 their language, their churches and their votes, and lost the state that had been
 theirs since 1864 along with the schools, the officials and the careers that went
 with it. South of it the Danish minority kept its newspaper and its associations
 and had to build the schools it had never needed while the state was German-run
-and Danish teaching was a private matter. Both minorities spent the next twenty
-years being used. Both were still there in 1940 when the question of what a
-minority is for became a great deal sharper.
+and Danish teaching was a private matter. Both minorities were used through the
+twenties and thirties, and both were still there in 1940 when the question of
+what a minority is for became a great deal sharper.
 
-And there were people the vote produced who belonged to neither. The treaty
-tied nationality to the border, and men who had been born in Schleswig, served in
-the German army, and found themselves after 1920 on the wrong side of a line
-their papers did not recognise spent years as *hjemløse* — homeless in the legal
-sense, holding a passport from no country, unable to work where they lived or to
-return to where they had come from.
+And the border moved nationality with it. Under article 112 every inhabitant of
+the territory returned to Denmark became Danish by the treaty itself and lost
+German nationality, except those who had settled there after 1 October 1918, who
+needed the Danish government's permission. Article 113 gave two years from the transfer to undo it: a
+resident over eighteen could opt for Germany, and someone born in the territory
+who lived elsewhere and held German nationality could opt for Denmark. Whoever
+opted had twelve months to move to the state he had chosen. How it was all to be
+done took until the Danish-German treaty of 10 April 1922 to settle.
 
 The reunion has one photograph and it has a child on a horse. The other picture
-of 1920 is a man at a counter in Aabenraa or Flensburg being told that the
-document he is holding is not issued by anybody.
+of 1920 is a form: an option declaration filled in at a counter in Aabenraa, by
+someone deciding whether to stay in the state the border had moved round him or
+to pack and follow the one he had voted for.
 
 ---
 
@@ -510,8 +553,9 @@ series: Recall, Causal, Counterfactual, Contested.*
 
 - **Nordslesvig** — North Schleswig: the northern part of the duchy, the area that
   became Danish in 1920. *Sønderjylland* is the same ground under the name Danish
-  writers prefer, and the two words carry an argument, which is why this chapter
-  uses whichever one the person speaking would have used.
+  writers prefer, and the two words carry an argument. This chapter says North
+  Schleswig in its own voice and keeps the Danish word in names, such as the
+  *Vælgerforening for Nordslesvig*.
 
 **§02 — Iceland**
 
@@ -525,31 +569,30 @@ series: Recall, Causal, Counterfactual, Contested.*
 - **Aabenraa-resolutionen** — the resolution of 16–17 November 1918, passed by the
   *Vælgerforening for Nordslesvig*, the Danish minority's political association
   inside Germany. It asked for a border by plebiscite and named the line it wanted.
-- **Clausen-linjen** — the Clausen line, drawn in the 1890s by H. V. Clausen from
-  his own parish-by-parish survey of where Danish was spoken at home. South of
-  Tønder and Tinglev, north of Flensburg. It is, within a few kilometres, the
-  border that exists.
+- **Clausen-linjen** — the Clausen line, drawn in 1891 by the historian H. V.
+  Clausen from his own walks through Schleswig. South of Tønder and Tinglev, north
+  of Flensburg. It is, within a few kilometres, the border that exists.
 
 **§04 — the zones**
 
 - **en bloc** — counted whole. Zone 1's votes were totalled once for the entire
   zone, so no commune inside it could be assigned separately. The Latin is used in
   the Danish sources and is kept here because the alternative was the point.
-- **hjemmetysk** — home German: a German-minded inhabitant of Nordslesvig, as
+- **hjemmetysk** — home German: a German-minded inhabitant of North Schleswig, as
   against a *tilflytter* or an official sent up from the south. The word exists
   because the distinction mattered enormously and was very hard to draw.
 
 **§05 — the commission**
 
 - **Den Internationale Kommission** — the international commission, CIS. It
-  proclaimed its authority over both zones on 10 January 1920, sat in Flensburg,
-  and governed until the border came into force in June.
+  proclaimed its authority over both zones on 10 January 1920, sat in Flensburg
+  from 26 January, and governed until sovereignty passed in June.
 
 **§06 — 10 February**
 
 - **tilflyttere / udenbys stemmeberettigede** — outvoters. The treaty gave the
-  vote to anyone born in the zone, wherever they now lived, so the electorate was
-  defined by birth rather than residence and both sides ran trains.
+  vote to anyone born in the zone, wherever they now lived, as well as to those
+  resident since before 1900, so birth alone was enough and both sides ran trains.
 
 **§07 — 14 March**
 
@@ -561,30 +604,32 @@ series: Recall, Causal, Counterfactual, Contested.*
 
 - **Påskekrisen** — the Easter Crisis, 29 March to 4 April 1920.
 - **forretningsministerium** — a caretaker ministry: ministers appointed to
-  transact business and hold an election, not to govern. Denmark had two in eight
-  days, and the difference between them is the whole crisis.
+  transact business and hold an election, not to govern. Denmark had two in a
+  week, and the difference between them is the whole crisis.
 
 **§11 — what it cost**
 
-- **de hjemløse** — the homeless, in the legal sense. Men whose nationality the
-  settlement failed to place: holding papers no state would honour, unable to work
-  where they lived or return where they came from.
+- **optionsret** — the right of option. Under article 113 of the Treaty of
+  Versailles, for two years after the transfer, a resident of the north could
+  choose German nationality and a German national born there and living
+  elsewhere could choose Danish, on condition of moving within twelve months.
 
 ---
 
 ## Meanwhile in Europe
 
 **Versailles and the other plebiscites, 1920–21.** Schleswig was one of six border
-plebiscites the peace settlement ordered. Allenstein and Marienwerder voted in
-July 1920, Carinthia in October, Upper Silesia in March 1921, Sopron in December.
-Denmark's is the only one that produced a border nobody afterwards tried to
-change by force, and the reason is not Danish virtue: it is that Denmark asked
-for less than it could have had, and the others asked for more.
+plebiscites held after the war. Allenstein and Marienwerder voted in July 1920,
+Carinthia in October, Upper Silesia in March 1921, Sopron in December. The war of
+1939–45 erased the East Prussian and Silesian results; Schleswig's border,
+Carinthia's and Sopron's still run where the votes put them. What set the Danish
+case apart was not the outcome but the asking: Denmark asked for less than it
+could have had.
 
 **Reykjavík, Berlin and Vienna, 1918–19.** The Danish-Icelandic union of 1918
 belongs to the same season as the dissolution of Austria-Hungary and the
-collapse of the German and Russian empires. Four composite states came apart in
-fourteen months. Three came apart in defeat, revolution and, in two cases,
+collapse of the German and Russian empires. Four composite states came apart
+between 1917 and the end of 1918. Three came apart in defeat, revolution and, in two cases,
 subsequent war. The fourth was dissolved by an act with a revision clause and a
 termination procedure, agreed by both parliaments and confirmed by referendum.
 
@@ -592,8 +637,8 @@ termination procedure, agreed by both parliaments and confirmed by referendum.
 
 ## Checkpoints
 
-**Before §03.** Where we are: thirty-five thousand men from Nordslesvig went into
-the German army and more than six thousand did not come back, and Iceland has
+**Before §03.** Where we are: about thirty thousand men from North Schleswig went
+into the German army and more than five thousand did not come back, and Iceland has
 left by agreement. Hold on to the contrast. The composite state is being taken
 apart in two directions at once, and only one of the two involved a war.
 
@@ -602,8 +647,8 @@ of them is settled and different. Before you read the results, work out what eac
 rule will do. The chapter is about to tell you, but the design has already
 decided it, and seeing that in advance is the point of §04.
 
-**Before §09.** Where we are: the border is drawn, about twenty-five thousand
-people are on the wrong side of it by their own vote, and the king has dismissed
+**Before §09.** Where we are: the border is drawn, a quarter of the votes in the
+zone that went to Denmark were cast against it, and the king has dismissed
 a government with a majority. The question in front of you is not whether he was
 entitled to — he was — but what stops a thing that is permitted.
 
@@ -611,28 +656,26 @@ entitled to — he was — but what stops a thing that is permitted.
 
 ## Myth-check
 
-**"Genforeningen — the Reunion."** Nordslesvig had never been part of the Kingdom
+**"Genforeningen — the Reunion."** North Schleswig had never been part of the Kingdom
 of Denmark. It was the northern half of the duchy of Schleswig, held by the Danish
 king as duke, governed under its own law, and lost in 1864 from a composite state
 rather than from the kingdom. In 1920 it joined the kingdom for the first time.
-The Danish word for 1920 asserts a prior union that this book has spent eight
-chapters showing did not exist in that form, and Danish historians who prefer
+The Danish word for 1920 asserts a prior union that this book has spent chapters
+showing did not exist in that form, and Danish historians who prefer
 *Sønderjyllands indlemmelse* — the incorporation — are being accurate rather than
 cold. The chapter uses *Genforeningen* because that is what it was called, and
 says here what the word is doing.
 
 **"The king rode over the new border on a white horse."** He rode over the old
-one. The new border had been in force since 15 June and lay some seventy
-kilometres further south; Frederikshøj is on the 1864 line. The horse was white
-because a prophecy attributed to Jomfru Fanny of Aabenraa said it would be, and
-the prophecy is probably attached to her after the event. The one part of that
-morning nobody arranged is the child on the saddle, and it is the part that
-lasted.
+one. Denmark had held the land up to the new line since 15 June, and the line lay
+some seventy kilometres further south; Frederikshøj is on the 1864 line. The horse was white because a
+prophecy attributed to Jomfru Fanny of Aabenraa said it would be, and the
+prophecy, told of a woman who died in 1881, was probably attached to her after
+the event.
 
 **"The Easter Crisis was a coup."** *Social-Demokraten* said so on the day and it
-made the phrase stick. Under the constitution of 1915 the ministers served at the
-king's pleasure and the text said so plainly; dismissing Zahle broke no article.
-What it broke was nineteen years of practice established in 1901 and never
+made the phrase stick. Dismissing Zahle broke no article of the constitution of
+1915 (§08). What it broke was the practice of government since 1901, never
 written down. The crisis matters precisely because nothing illegal happened: it
 is the occasion on which Denmark discovered that its central constitutional rule
 was a convention, and decided to enforce it anyway.
@@ -641,7 +684,7 @@ was a convention, and decided to enforce it anyway.
 
 ## Carry-forward
 
-**→ 40.** The two minorities created in 1920 — German in Nordslesvig,
+**→ 40.** The two minorities created in 1920 — German in North Schleswig,
 Danish in Flensburg — spend the 1930s being used by people who did not make them.
 
 **→ 41.** On 9 April 1940 the border drawn by asking is crossed by an army
@@ -655,9 +698,8 @@ the termination procedure the act of 1918 wrote down.
 constitution in 1953, along with the abolition of the Landsting this chapter's
 predecessor could not get.
 
-**→ 44.** The white horse becomes the picture of the whole century, and
-what the century actually did to the people on both sides of the line is the other
-picture.
+**→ 44.** The Danish minority left south of the line in 1920 grows, after 1945,
+into a demand to move the border again, and Denmark decides not to.
 
 ---
 
@@ -679,19 +721,19 @@ anyone voted.
 On 10 February Zone 1 returned 75,431 for Denmark and 25,329 for Germany. Four
 towns inside it voted German and went to Denmark with the rest. On 14 March Zone 2
 returned about four-fifths German, with a German majority in every district but
-three small polling places on Før. Each country ended the two votes holding about
-a quarter of the other's people, and neither of them moved.
+three small polling places on Föhr. The losing side had taken about a quarter of
+the votes in Zone 1 and about a fifth in Zone 2.
 
 The king agreed with the losing side. On 29 March he dismissed a ministry that had
-a majority, which the constitution of 1915 permitted and nineteen years of
-practice did not. The trade union federation called a general strike for 6 April.
+a majority, which the constitution of 1915 permitted and the practice since 1901
+did not. The trade union federation called a general strike for 6 April.
 On Easter Sunday he gave way, and no Danish monarch has dismissed a government
 since. The rule was not written down until 1953; it was enforced in 1920 by people
 who could stop the trams.
 
-The border came into force on 15 June and the king rode across the old one on
-10 July. About a hundred and sixty-four thousand people changed state without
-moving house. Twenty-five thousand of them had voted not to.
+Sovereignty passed on 15 June and the king rode across the old border on 10 July.
+About a hundred and sixty-four thousand people changed state without moving
+house, in a zone where a quarter of the votes had been cast against it.
 
 ---
 
@@ -699,29 +741,29 @@ moving house. Twenty-five thousand of them had voted not to.
 
 **Recall.**
 
-1. What did the Act of Union of 1918 leave with Denmark, in what capacity, and
-   what two dates did it set for its own revision and ending?
-2. Give the rule for counting Zone 1 and the rule for counting Zone 2, and name
-   two towns whose result the rule overrode.
-3. Who governed the voting zones between January and June 1920, from where, and
-   with whose soldiers?
+1. What had the Danish government formally accepted in the optant convention of
+   1907, and where did the vote of 1920 come from instead?
+2. What happens to Sønderborg's result if the votes of the people who travelled
+   in to cast them are taken out?
+3. What did the boundary commission do between July and November 1920, and whose
+   line did it mark?
 
 **Causal.**
 
-1. Denmark could have claimed to the Danevirke and asked instead that the third
-   zone be dropped. Explain that decision in terms of the previous four hundred
-   years rather than of 1920.
+1. Why did the eight-hour agreement of May 1919 help make the strike notice of
+   March 1920 work?
 2. The Danish movement had been one thing under German rule and split the moment
    it could win. What was the disagreement actually about?
-3. The king was within the text of the constitution and gave way in a week.
-   Trace what forced him, and say why it did not come from the Rigsdag.
+3. The plebiscite had already answered the Flensburg question. Why did it become
+   the occasion for a constitutional crisis in Copenhagen?
 
 **Counterfactual.**
 
-1. Suppose Zone 2 had also been counted en bloc. Where would the border be, and
-   what would Denmark have acquired along with Flensburg?
-2. Suppose the Social Democrats had pressed the republican motion in April 1920.
-   Give the most likely consequence for the party, not for the crown.
+1. Suppose the two zones had been counted together as a single bloc. Work out the
+   result from the totals on the page, and say what Denmark would have acquired
+   along with Flensburg.
+2. Suppose the Social Democrats had pressed for a republic in April 1920. Give the
+   most likely consequence for the party, not for the crown.
 3. Suppose the Act of Union had carried no revision clause. What would 1944 have
    looked like?
 
@@ -729,9 +771,9 @@ moving house. Twenty-five thousand of them had voted not to.
 
 1. *Genforening* or *indlemmelse* — reunion or incorporation? Make the case for
    each word and say what is at stake in choosing.
-2. Denmark refused Flensburg on the principle of self-determination and absorbed
-   twenty-five thousand people who had voted against it. Is that a contradiction?
-   Argue it both ways.
+2. The line was chosen by a commission and marked by foreign officers, not traced
+   from the count. Does that weaken the claim that the border was settled by
+   asking the people? Argue it both ways.
 3. Historians disagree about how close the Easter Crisis came to a revolution.
    Set out the evidence on both sides, and say which reading the calling-off of
    the strike supports.
@@ -740,8 +782,7 @@ moving house. Twenty-five thousand of them had voted not to.
 
 ## Sources
 
-*To be completed with the figure scripts; the following are the load-bearing items
-verified for this draft. Items marked* unresolved *are flagged in the prose.*
+**Worked from**
 
 - Zone 1 returns: 75,431 Danish and 25,329 German of 101,652 ballots cast, turnout
   91.5 per cent. Published both as 74.9/25.1 of valid votes and 74.2/24.9 of all
@@ -770,32 +811,81 @@ verified for this draft. Items marked* unresolved *are flagged in the prose.*
   constitutional referendum of 6 September 1920, and that year's *Efterretninger*
   carries no plebiscite return. The International Commission's own publication is
   the route.
-- **Party seat totals for the three 1920 elections are unresolved** and appear on
-  no figure. See the note in `figs_38.py`.
-**Still unresolved. Each of these was an inline drafting note until the guard in
-`mkbody.py` refused to ship them, and each is a question the chapter is carrying
-rather than an answer it is hiding.**
+- Grænseforeningen's lexicon, *Første Verdenskrig*: "Der blev indkaldt omkring
+  30.000 mand fra Nordslesvig. Cirka 5.300 faldt, og omkring 7.000 blev
+  krigsinvalider"; about 2,400 soldiers reached neutral Denmark. The population
+  transferred in 1920, about 164,000, as the Ritzau fact sheet of 2020 gives it.
+- The Treaty of Versailles, articles 109–114 (text as printed in *Foreign
+  Relations of the United States*, Paris Peace Conference, vol. XIII): the
+  franchise in article 109, nationality in article 112, the option in article 113.
+- danmarkshistorien.dk / lex.dk, *Den Internationale Kommission (CIS) i Slesvig,
+  1919–20*: the four members and Marling's chairmanship, the proclamation of 10
+  January, the German withdrawal of 24 January, arrival on 26 January, about
+  3,000 French and British soldiers, the Clausen line recommended.
+- Grænseforeningen's lexicon on the Tiedje line and on the boundary commission of
+  1920 (after Troels Rasmussen, *Den dansk-tyske traktat 1922*, 1996): marking
+  from July to the end of November 1920, proclaimed on Christmas Eve.
+- Grænseforeningen, *Sønderjyllands historie 1864–1920*, and lex.dk, *Paragraf 5*:
+  the cancellation of 1878, and the optant convention of 1907, which "bekræftede
+  den danske regerings anerkendelse af ophævelsen af § 5".
+- lex.dk and Grænseforeningen on the Clausen line: Clausen a historian and a
+  master at Frederiksberg Gymnasium from 1887, walking Schleswig from 1879, the
+  line drawn in 1891 and stopped at Frøslev.
+- *Gyldendal og Politikens Danmarkshistorie*, "Optakt", "Kup eller fadæser" and
+  "Kongen som forligsmand", for the Easter Crisis: the letter of 17 March; Zahle
+  called to the king at 10.45 on Monday 29 March, the demand for an election,
+  refused because "Rigsdagen stod over for afslutningen af de vanskelige
+  forhandlinger om valgloven", the resignation refused "under henvisning til
+  folketingsflertallet", and the remark "– tilsyneladende uoverlagt – at det jo
+  stod kongen frit for at afskedige ministeriet", which "Christian 10. greb";
+  the city council's delegation of 3 April, its members in the
+  photograph's caption, "en tusindtallig skare", the crowded study and the
+  "mundhuggeri"; the party leaders called "samme aften kl. 21 helt uden
+  ministrenes vidende"; the seven hours of negotiation ending a little after four
+  on 4 April. lex.dk, *Påskekrisen 1920* (Ole Lange and Jesper Jørgensen): the
+  procession "på initiativ af de radikale Elna Munch og Jesper Simonsen samt
+  Stauning", its message "Følgerne kan få skæbnesvanger betydning for os alle,
+  høje som lave. Det gjorde indtryk på kongen", and Borgbjerg's extra editions.
+  Grænseforeningen, *Påskekrisen i 1920*, for the Folketing majority of 26 March
+  and the movement's leaders. *Social-Demokraten*, 2nd extra edition, 29 March
+  1920 (danmarkshistorien.dk).
+- Elna Munch: Dansk Kvindebiografisk Leksikon (Drude Dahlerup), born 13 June
+  1871, Borgerrepræsentationen 1917–25, Folketing 1918–35, "RVs eneste kvindelige
+  repræsentant i Folketinget", Landsforbundet for Kvinders Valgret; lex.dk, *Elna
+  Munch*, "Elna Munch var blandt de første fire kvinder, der blev indvalgt i
+  Folketinget i 1918" (the article's body also says "blandt de første fire
+  kvinder, der blev indvalgt i Rigsdagen"); lex.dk, *Karen Ankersted*, "en af de
+  fire første kvinder, der blev valgt til Folketinget i 1918".
+  Dansk Biografisk Leksikon, *P. Munch*: married 20 December 1902, defence
+  minister in the second Zahle ministry, and "Det var Munch der undfangede ideen
+  til at Københavns borgerrepræsentation skulle gå til kongen".
+- danmarkshistorien.dk, *Indførelsen af en arbejdsdag på otte timer i 1919*:
+  agreed 17 May 1919, to be in force by 1 January 1920.
+- Johanne Martine Braren: TV Syd (2020) and *Udfordringen* (2021), for her
+  adoption, the king's question to her mother, the horse Malgré Tout and its
+  owner. Born "tirsdag den 1. august 1911" (gravsted.dk; the family genealogy at
+  gloggengiesser.dk gives "01 aug. 1911"), so 8 years 11 months on 10 July 1920;
+  the popular accounts round it to nine. lex.dk, *Jomfru Fanny*: Franziska Enge, 1805–1881.
 
-- The international commission's membership, its chairman's name and the date it
-  took over. Accounts give January dates a fortnight apart. That Paul Claudel held
-  the French seat is good enough to be worth being certain of and is not certain.
-- The date the Conference of Ambassadors fixed the line, and two or three concrete
-  places where the border departs from the parish result. Without the instances,
-  §07's closing paragraph is an assertion.
-- Whether the request to drop Zone III was lodged formally by the Danish
-  government or carried as the delegation's negotiating position.
-- The rural Danish share in Zone 1: 83.5 per cent in Trap, 83.8 in the Sønderborg
-  archive.
-- Both Flensburg figures and the Zone 2 totals, from the published returns, every
-  digit confirmed by a second appearance.
-- The Jomfru Fanny prophecy's date. Probably retrospective; §10 asserts no date.
-- The 2013 tablets at Braine: 5,333 names on one page of the project's own site
-  and 5,533 on another. §01 does not use the tablet count and should not until the
-  transposition is found.
+**Where the argument stands**
 
-- Easter Crisis chronology: dismissal 29 March, Liebe appointed about a day later,
-  strike called for 6 April, procession to the king Easter Saturday 3 April,
-  Friis ministry Easter Sunday 4 April.
+- **Party seat totals for the three 1920 elections** appear on no figure: the
+  published seat changes could not be confirmed from two independent sources.
+- **The Folketing's growth in September 1920** is given as nine seats by lex.dk
+  (139 to 148) and as eight elsewhere; the figure gives no number.
+- **Liebe's appointment** is dated 29 March by danmarkshistorien.dk and 30 March by
+  other accounts, and G&P has "I mere end et døgn var Danmark uden regering";
+  §08 says only that he was in office by the next day.
+- **The rural Danish share in Zone 1**: 83.5 per cent in Trap, 83.8 in the
+  Sønderborg archive.
+- **Flensburg and Zone 2**: about 64,000 votes, 80.2 per cent German, and about a
+  quarter Danish in Flensburg, as Grænseforeningen and danmarkshistorien.dk give
+  them; §07's town figures are given as approximations.
+- **The Jomfru Fanny prophecy** has no date; it is told of a woman who died in 1881,
+  and lex.dk records how her prophecies were extended after the events.
+- **The rhyme *Kresjan væk, republæk*** is given in §09 as told, not as documented.
+- **The 2013 tablets at Braine**: 5,333 names on one page of the project's own site
+  and 5,533 on another. §01 does not use the tablet count.
 
 ---
 
@@ -806,8 +896,7 @@ Genforening monument is here, and the point of standing on it is that it is
 nowhere near the border that was actually being celebrated.
 
 **Folkehjem, Aabenraa.** The hall where the Vælgerforening passed the resolution
-on 17 November 1918, and where the lists of outvoters were approved a year later.
-Still a meeting house.
+of 16–17 November 1918. Still a meeting house.
 
 **Dybbøl.** Fifty-six years after chapter 34, the redoubts are inside Denmark
 again, and the people who took them are on the other side of a line their own

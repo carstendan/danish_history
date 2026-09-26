@@ -8,12 +8,12 @@
 
 Sweden proposed it. At a meeting of the Nordic foreign ministers in Oslo in
 February 1948 the Swedish foreign minister raised a Scandinavian defence union,
-and for a year it was the most attractive answer available to three governments
-that did not want to choose.
+and from then until January 1949 it was the most attractive answer available to
+three governments that did not want to choose.
 
 It failed on one point that could not be compromised. Sweden wanted a bloc
-genuinely outside both alliances, which is what Swedish neutrality had been for a
-century and a half and what had kept Sweden out of two wars. Norway had been
+genuinely outside both alliances, which is what Swedish policy had been since
+Sweden's last war in 1814 and what had kept it out of two more. Norway had been
 occupied for five years by a power that a neutral Sweden had not deterred, and
 wanted a link to the west and American weapons, which the Americans would not
 supply to a neutral bloc. Denmark, which had been occupied between four and eight one morning, sat
@@ -24,7 +24,8 @@ month, and in Oslo on the 29th and 30th, where they gave it up. The communiqué
 said there was not at present a sufficient basis for a mutually binding defence
 agreement, which was true and did not say why.
 
-Denmark then had ten weeks to decide what it had spent fifty years avoiding.
+Between Oslo and Washington Denmark then had nine weeks to decide what it had
+avoided since 1864.
 
 ---
 
@@ -35,16 +36,16 @@ foreign minister who had refused to sell Greenland.
 
 The Rigsdag had approved it in late March — the Folketing by **119 votes to 23**
 on the 24th, the Landsting by **64 to 8** on the 25th. It is worth keeping both, because
-this was the last great decision taken by a two-chamber Danish parliament, and
+this was one of the last great decisions taken by a two-chamber Danish parliament, and
 the chamber that gave the smaller majority would vote itself out of existence
 four years later.
 
-The twenty-three were the Communists and the Radicals. The Radical vote is the
-one to look at: a party that supported the government voted against the
-government's defining act of foreign policy, on the ground the party had held
-since Peter Munch — that a small state's safety lies in being harmless. That
-position had been Danish policy for forty years and had been tested on 9 April
-1940. This is the vote in which it ends.
+The twenty-three were the Communists, the Radicals and part of a divided Justice
+Party. The Radical vote is the one to look at: a party that supported the
+government voted against the government's defining act of foreign policy, on the
+ground the party had held since Peter Munch — that a small state's safety lies in
+being harmless. That position had been Munch's foreign policy through the 1930s
+and had been tested on 9 April 1940. This is the vote in which it ends.
 
 What Denmark did **not** do in 1949 is the part most often got wrong. It attached
 no reservation to the treaty. What existed on 4 April was a political
@@ -62,8 +63,8 @@ So the country that had signed a non-aggression pact with Germany in 1939, been
 occupied in a morning, cooperated for three years, refused in the fourth, and
 been liberated by other people's armies, chose a side. It did so with an island
 in the Baltic whose return had been conditioned on keeping foreign troops off it,
-with a third of its territory under American runways, and with the last vote of
-the upper house its constitution would ever record.
+with American airfields in Greenland under the agreement of 1941, and with the
+votes of an upper house that had four years left to live.
 
 ---
 
@@ -81,7 +82,7 @@ of how popular a proposal is. It is a test of how many people can be got out of
 the house.
 
 Denmark had already discovered this. In May 1939 a revision went to the people
-and **91.85 per cent of those who voted said yes** — 966,277 against 85,717 — and
+and **91.85 per cent of the valid votes were yes** — 966,277 against 85,717 — and
 it failed, because the yes vote came to 44.46 per cent of the electorate and the
 floor was forty-five. A proposal supported by nine voters in ten died of
 indifference among the tenth.
@@ -98,7 +99,10 @@ The second was that **Denmark's system of government was not written down**.
 Parliamentarism — that a government cannot govern against a Folketing majority —
 had been settled in practice in 1901 and had been the rule ever since, but the
 constitution did not say so. The thing the country had fought the whole of
-chapter 36 over was a custom.
+chapter 36 over was a custom. The new text would put it in **§15**: no minister
+may remain in office after the Folketing has declared its lack of confidence in
+him. The rule that had held since 1901, and that a king had broken once, in Easter
+week 1920 (chapter 38), was from 1953 a rule somebody had enacted.
 
 The third was Greenland, which was still a colony in law, and the United Nations
 had begun asking about colonies.
@@ -131,8 +135,8 @@ her, and §06 is about what she lost.
 
 The clause with the longest reach was not written by a member at all. The
 commission put questions to outside lawyers, and **Max Sørensen**, professor of
-public law at Aarhus since 1947 and thirty-eight years old, answered one of them
-with a draft provision allowing Denmark to hand powers to authorities outside
+public law at Aarhus since 1947, answered one of them
+on 26 May 1952 with a draft provision allowing Denmark to hand powers to authorities outside
 itself. That draft became §20. It is the subject of §07 and it is the most
 consequential paragraph any Dane wrote in the twentieth century.
 
@@ -144,12 +148,20 @@ result is a short constitution that describes a machine already running, and its
 brevity is usually praised as elegance. It is at least as much a decision not to
 settle things.
 
+What it did write in from the occupation was **§71**, which says that no Danish
+citizen may be deprived of liberty on account of political or religious
+conviction or descent. Danish police had arrested communists in June 1941, in
+breach of the constitution of 1915 (chapter 41), and the Rigsdag had passed a law
+for it two months later. The occupation had shown that a constitution can be set
+aside by an appeal to necessity; the point was to make a second breach more
+flagrant, not impossible.
+
 ---
 
 ## The Landsting votes itself out of existence
 
-The Danish upper house sat for **104 years**, from June 1849 to June 1953, and
-spent most of them being reformed into something with no argument for its own
+The Danish upper house lasted **104 years**, from the constitution of June 1849
+to the constitution of June 1953, and spent most of them being reformed into something with no argument for its own
 existence.
 
 It began indirectly elected, by electors, from men over forty with an income;
@@ -160,8 +172,8 @@ Each reform made it more like the Folketing and less able to say why it was
 separate. By 1936 its majority matched the lower house's.
 
 The bill to abolish it passed the Rigsdag in March 1953, went to a general
-election on **21 April**, and came back to a newly elected Rigsdag which had to
-pass it again unaltered. And so, on **13 May 1953**, at the first reading of that
+election on **21 April** — the Landsting's own followed on the 28th — and came
+back to a newly elected Rigsdag which had to pass it again unaltered. And so, on **13 May 1953**, at the first reading of that
 bill, **the Landsting voted for its own abolition.** It held its last sitting two
 days later, on 15 May.
 
@@ -174,7 +186,7 @@ not represent cannot explain what it is for.
 What replaced it is thinner than what went. Under **§42** one third of the
 Folketing can require a bill already passed to be put to the people — a minority
 brake in place of a second reading by a different body. **It has been used once
-in seventy years.** On 25 June 1963 a third of the Folketing sent four land laws
+in more than seventy years.** On 25 June 1963 a third of the Folketing sent four land laws
 to a referendum and the voters threw out all four, by margins between
 fifty-seven and sixty-two per cent. That is the entire operating history of
 Denmark's replacement for its upper house: one afternoon in 1963.
@@ -186,7 +198,8 @@ thing installed in its place has checked something once.
 And in the same document, in the section on the franchise, the constitution did
 something quieter that this book has been following since chapter 33.
 
-Since 1849 anyone who had taken poor relief and not repaid it lost the vote. The
+Since 1849 anyone who had taken poor relief that was neither repaid nor remitted
+lost the vote. The
 1915 constitution kept that, in §30(b), when it let women and servants in. The
 social reform of 1933 did not abolish it; it split public assistance three ways
 so that only the residue still called *fattighjælp* carried the penalty. And the
@@ -197,7 +210,9 @@ relief entail loss of the vote.**
 That is not an abolition. It is a delegation. The constitution stopped naming the
 poor and handed the question to ordinary legislation — and **the sentence is
 still in the Danish constitution today**, doing nothing, available. The poor did
-not get the vote back in 1953. They got it back in 1961, and §12 says so.
+not get the vote back in 1953: ordinary law went on taking it from those on the
+kinds of help it still counted as poor relief for another eight years, and §12
+says how that ended.
 
 ---
 
@@ -205,8 +220,8 @@ not get the vote back in 1953. They got it back in 1961, and §12 says so.
 
 The succession law of 1853 was agnatic and emphatic: the crown passed through
 men, from Christian 9. down. It had been written to end the crisis of chapter 33,
-and it ended it by writing women out. By 1953 that rule was a hundred years old
-and about to collide with a family of three girls.
+and it ended it by writing women out. By 1953 that rule was nearly a hundred
+years old and about to collide with a family of three girls.
 
 If nothing changed, the throne would go on Frederik 9.'s death to his younger
 brother, Prince Knud. Knud was not disliked so much as not wanted, and his nieces
@@ -217,8 +232,8 @@ government knew it.
 What the commission produced was **conditional female succession**: a daughter
 could inherit, but only where there was no son. A younger brother would still
 displace an elder sister. Helga Pedersen argued inside the commission for
-unconditional equality between princes and princesses and did not get it; the
-Conservatives held out for male preference and won.
+unconditional equality between princes and princesses and did not get it; male
+preference was kept.
 
 So the clause that is remembered as the modernising one also wrote male
 precedence into the succession *as a considered choice*. Before 1953 women were
@@ -230,9 +245,9 @@ difference between the Kongelov, which let the crown pass through a woman when
 the male line failed, and the duchies' law, which did not; chapter 34 is a war
 that began, in part, in that difference — a throne that could go one way and two
 duchies that had to go another, and a rival claim that took its chance in the
-gap. **Denmark lost two duchies and a fifth of its territory inside a dynastic
-question about female inheritance**, answered it in 1853 by shutting women out,
-and then took a century to let one in, and let her in only half way.
+gap. **Denmark lost the duchies — a third of the monarchy's area or two-fifths,
+depending on the count — inside a dynastic question about female inheritance**, answered it in 1853 by shutting women out,
+and then took until 1953 to let one in, and let her in only half way.
 
 It lasted **fifty-six years** in that half-changed form. Absolute primogeniture
 came in 2009, by referendum, and Margrethe — who had by then been queen for
@@ -261,23 +276,22 @@ government persists, **it goes to the people.**
 
 > **Vignette · Aarhus, 1952**
 >
-> He is thirty-nine, a professor of public law who took the chair at
-> thirty-four, and the commission has written to ask him a question about
-> treaties.
+> He is thirty-nine, a professor of public law who took the chair in 1947, and
+> the commission has written to ask him a question about treaties. His answer is
+> dated 26 May.
 >
-> His answer is a paragraph. It says that Denmark may lend out its own
+> The part of it that matters is a paragraph. It says that Denmark may lend out its own
 > sovereign powers, to a stated extent, if a large enough majority agrees — and
 > if the majority is not large enough, the voters decide. He is solving a
 > problem about the United Nations and the Atlantic pact. There is no European
 > Community to have in mind; it does not exist yet.
 >
 > Twenty years later the paragraph is the legal basis on which Denmark joins
-> one. In October 1972 the question goes to the people under his own second
-> limb, because the Folketing cannot muster five sixths. Sixty-three per cent
-> say yes and Denmark accedes on 1 January 1973.
+> one, and it joins by his own second limb, because the Folketing cannot muster
+> five sixths.
 >
-> That same year he becomes Denmark's first judge at the Court of Justice of
-> the European Communities. **The man who drafted the door goes through it and
+> In 1973, the year Denmark goes in, he becomes its first judge at the Court of
+> Justice of the European Communities. **The man who drafted the door goes through it and
 > takes the bench on the other side.**
 >
 > Max Sørensen · Aarhus · 1952 · [-]
@@ -318,14 +332,14 @@ Denmark whether it had a colony.
 
 Denmark hesitated, then said yes — and then set about ending the answer. A
 Greenland commission was appointed in 1948; the **Greenland laws of 1950** came
-out of it and rebuilt the administration, the health service and the trade
-monopoly, and were presented internationally as the work of a liberal colonial
+out of it, rebuilt the administration and the health service, abolished the
+trade monopoly, and were presented internationally as the work of a liberal colonial
 power. The point of them was partly Greenland and partly the General Assembly.
 
 The constitution of 1953 finished it in a sentence. **§1 declares that the
 constitution applies to all parts of the Danish realm.** Greenland ceased to be a
 colony and became an *amt*, a Danish county, with **two seats in the Folketing**.
-On **8 September 1954** the General Assembly accepted that the reporting
+On **22 November 1954** the General Assembly accepted that the reporting
 obligation had ended and Greenland came off the list of the world's colonies.
 
 The mechanism deserves stating exactly, because it was Denmark's own invention
@@ -337,9 +351,14 @@ equality** — and got it added, and then used it.
 And here is the thing about the moment Greenland stopped being a colony.
 **Greenland's roughly twenty thousand people did not vote in the referendum that
 did it.** The franchise was Danish, the ballot was in Denmark, and Greenlandic
-opinion reached the question only through the Landsråd, a body the Danish state
-had itself created. A territory was integrated on terms of equality by an
-electorate that did not include it.
+opinion reached the question only through the Landsråd, a council the Danish state
+had created and Greenlanders had elected in 1951, which approved the new status
+in September 1952. A territory was integrated on terms of equality by an
+electorate that did not include it — and the resolution that took Greenland off
+the list recorded that the people of Greenland, *through their duly elected
+representatives*, had *freely exercised their right to self-determination*. The
+representatives were real. What they had given was a council's approval, not a
+people's vote.
 
 ---
 
@@ -351,14 +370,17 @@ closer together than anyone is comfortable with.
 
 In **1951** twenty-two Greenlandic children were selected, with their parents'
 consent variously obtained, and shipped to Denmark to be made into a
-Danish-speaking élite who would return and lead. They spent about eighteen months
-at Red Barnet's holiday colony at Faxe Ladeplads and were then placed in foster
-homes. They were not permitted to speak Greenlandic. Most of them lost it.
+Danish-speaking élite who would return and lead. They spent the summer at Red
+Barnet's holiday colony, Fedgården at Faxe Ladeplads, and were then placed in
+foster homes; the stay, planned for ten months, ran to fifteen. They were not
+permitted to speak Greenlandic. Most of them lost it. Sixteen went back to
+Greenland; six were adopted by Danish families.
 
 > **Vignette · Faxe Ladeplads, 1951**
 >
-> She is seven. Her father is dead and her mother has been told that the offer
-> is an opportunity, and that saying no would be a poor thing to do.
+> She is seven. Her father died of tuberculosis in January, and her mother has
+> been told that the offer is an opportunity, and that saying no would be a poor
+> thing to do.
 >
 > She is taken to Denmark with twenty-one other children and housed in a
 > holiday colony in south Zealand. She is not allowed to speak her own
@@ -366,9 +388,10 @@ homes. They were not permitted to speak Greenlandic. Most of them lost it.
 > she can no longer talk to her mother properly, and she is not sent home at
 > all but into a children's home in Nuuk.
 >
-> She learns what was done to her in **1996**, from the archives, at
-> fifty-two — not from her family and not from the state. Red Barnet
-> apologises in 2015. The Danish government takes until the 2020s.
+> She learns what was done to her in **1996**, when a social worker who has
+> found the files in the national archives tells her — not from her family and
+> not from the state. Red Barnet apologises in 2010. The Danish government takes
+> until 2020.
 >
 > Helene Thiesen · Nuuk, then Faxe Ladeplads · 1951 · [n]
 
@@ -387,8 +410,8 @@ claimed and refused in 1954 and again at the end of the fifties. The claim was
 renewed in 1985 and refused. A justice ministry committee reported in 1995 that
 it had not been a forced relocation. Only in 1999 did the Eastern High Court find
 otherwise and award **500,000 kroner to the community and 1,265,000 between the
-individuals — against a claim of 235 million**, which is to say about one per
-cent of what was asked. A prime minister apologised. The European Court of Human
+individuals — against a claim of 235 million**, which is to say less than one
+per cent of what was asked. A prime minister apologised. The European Court of Human
 Rights declined to hear the case.
 
 Both of these things — the children and the settlement — were done by a state
@@ -411,14 +434,14 @@ rule actually does, and it deserves setting out in full.
 The electorate was **2,585,800**. Of those, 1,527,658 voted — a turnout of
 **59.1 per cent**. **1,183,292 voted yes** and 319,135 voted no, with 25,231
 ballots spoiled; the three add to the turnout exactly, which is why these figures
-can be trusted. Yes was **78.76 per cent of the votes cast** and **45.76 per cent
+can be trusted. Yes was **78.76 per cent of the valid votes** and **45.76 per cent
 of the entire electorate.**
 
 The floor was forty-five per cent, which of that electorate is 1,163,610 votes.
 **The constitution of Denmark passed by 19,682 votes.**
 
 Now set it beside 1939, and the whole logic of §93 falls out. In 1939, **91.85
-per cent** of those voting said yes and the revision failed. In 1953, **78.76 per
+per cent** of the valid votes were yes and the revision failed. In 1953, **78.76 per
 cent** said yes and it carried. The 1939 proposal was far more popular among the
 people who turned up; what it lacked was the people who did not. **A threshold
 counted against the whole electorate does not measure agreement. It measures
@@ -429,8 +452,8 @@ were asked whether the voting age should be twenty-three or twenty-one. They
 chose **twenty-three, by 840,815 to 700,122.** The electorate for that question
 was **2,815,100** — some 229,300 larger than for the constitution, because it
 took in the young people who would be enfranchised if the lower age won. They
-turned out, and they lost. On the same day that Denmark abolished the chamber of
-property, it declined to let in the twenty-one-year-olds.
+could vote on it, and they lost. On the same day that Denmark abolished its upper
+house, it declined to let in the twenty-one-year-olds.
 
 Which leaves the story everybody tells: that the constitution scraped through
 because the country wanted Margrethe. It is plausible. It is also **not
@@ -457,7 +480,7 @@ nation-state, and this is the chapter where it becomes one.
 Denmark governed Skåne, Halland and Blekinge, and lost them. It governed Estonia
 and sold it. It governed Norway for four centuries and was made to hand it over.
 It governed Iceland, the Faroes and Greenland from a parenthesis in article four
-of a constitution written for somewhere else. It governed Schleswig, Holstein and
+of a treaty written to give away somewhere else. It governed Schleswig, Holstein and
 Lauenburg under three different legal orders at once, and that arrangement
 destroyed it. It governed three islands in the Caribbean with slave labour and
 sold them for twenty-five million dollars.
@@ -471,7 +494,7 @@ kingdom's.
 By 1953 the three roughly coincide, for the first time in the recorded history of
 the place. Iceland has gone. The Faroes legislate for themselves in listed
 fields. Schleswig's border has been fixed by the people living on it, and twice
-Denmark has declined to move it when more was within reach.
+Denmark has declined to ask for more when it might have.
 
 *Roughly*, though, is doing real work in that sentence. Greenland is inside the
 constitution and was not asked. That is not the composite state ended. It is the
@@ -488,17 +511,23 @@ What it closed, for the purposes of this book, is a count that began on the same
 date in 1849 with a joke. The franchise of 1849 excluded the seven F's, and the
 joke lasted **sixty-six years** until 1915 let in two of them — women, and
 servants without a household of their own. The *fattige*, the third F, were not
-among them. They kept their disqualification through 1915, through the social
-reform of 1933 that was supposed to have ended it, and through the constitution
-of 1953, which merely stopped mentioning them.
+among them. They kept their disqualification through 1915. The social reform of
+1933 gave most of them the vote back by ceasing to call their help poor relief,
+and left a residue on *fattighjælp* under the clause; the constitution of 1953
+merely stopped mentioning them.
 
-The poor got the vote back in **1961**, with the Lov om offentlig forsorg. That
-is **forty-six years** after the women, and **a hundred and twelve years** after
-the seven F's were first counted.
+The last of the poor got the vote back in **1961**. The *Lov om offentlig forsorg* of 31 May
+1961 replaced the three grades of assistance with one, and repealed the
+provisions under which certain kinds of help still cost a recipient the vote and
+the right to stand. Those provisions lapsed on **1 October 1961**, six months
+ahead of the rest of the law, so that people who had lost the vote could be back
+on the electoral rolls when it came into force. The women had been admitted in
+1915; the seven F's had first been counted in 1849.
 
-So the last person let into Danish democracy was not let in by a constitution at
-all. They were let in by a social statute, eight years after the document that
-was supposed to have finished the job, and nobody made a speech.
+So the poor were not let into Danish democracy by a constitution at all, not even by
+the one of 1953 that was supposed to have finished the job. They were let in by
+a social statute of 1961, in a clause the parliamentary record describes as
+something the law did *as well*.
 
 On the evening of 28 May the count had come in at forty-five point seven six per
 cent, and the thing had passed by nineteen thousand votes.
@@ -507,11 +536,11 @@ cent, and the thing had passed by nineteen thousand votes.
 
 ## Coda — Part I
 
-Part I began with a country that had just sold the last of its tropical empire
-and believed that being harmless was a policy, and it ends with one that has
-joined a military alliance, written down how to give its powers away, and stopped
-calling Greenland a colony. Fifty-four years, nine chapters, and the whole of it
-is one argument about how small a state can be and still decide things.
+Part I began with a country that was about to sell the last of its tropical
+empire and believed that being harmless was a policy, and it ends with one that
+has joined a military alliance, written down how to give its powers away, and
+stopped calling Greenland a colony. Nine chapters from 1901, and the
+whole of it is one argument about how small a state can be and still decide things.
 
 The answer the period gives is not flattering and it is not simple. Denmark was
 right about a great deal. It was right that a country of four million could not
@@ -523,8 +552,7 @@ through an occupation that dismantled all three almost everywhere else in Europe
 And it was never in control of any of the moments that mattered. The border moved
 in 1920 because Germany lost a war somebody else won. The occupation ended in 1945
 because armies that had never been to Denmark surrendered on a heath. Bornholm
-came back because Moscow decided to hand it over. Marshall aid paid off a debt
-the occupier had run up. Even the Atlantic pact was the residue of a Scandinavian
+came back because Moscow decided to hand it over. Even the Atlantic pact was the residue of a Scandinavian
 arrangement that failed for reasons decided in Stockholm and Oslo. **The
 consistent Danish achievement of this period is not deciding events. It is
 surviving them with the machinery intact** — which turns out to be a rarer and
@@ -533,10 +561,13 @@ out in 1953 is recognisably the one that exists now.
 
 What 1953 settles is smaller than a founding and larger than a tidying. It ends
 the composite state, more or less honestly for the Faroes and dishonestly for
-Greenland. It writes down a practice that had governed since 1901. It abolishes a
-chamber that had run out of reasons. It gives a princess a conditional place and
-the poor nothing at all. And it installs, in a paragraph nobody argued about, the
-mechanism by which Denmark would hand pieces of itself to a European community
+Greenland, whose people had not voted on it and whom the United Nations, in
+November 1954, recorded as having freely chosen it, on the strength of a
+council's approval. It writes down a practice that had
+governed since 1901. It abolishes a chamber that had run out of reasons. It gives
+a princess a conditional place and the poor nothing at all. And it installs, in a
+paragraph that the communists made the ground of their campaign against the whole
+document, the mechanism by which Denmark would hand pieces of itself to a European community
 that did not yet exist.
 
 That is the right note to end on, because it is the note the book has been
@@ -549,7 +580,7 @@ The book stops here because 1953 is where the machine is finished, not because
 nothing happens afterwards. Everything happens afterwards. But the Denmark that
 walks into 1973, and into the decades of arguing about Europe that follow, walks
 in through a door that a professor in Aarhus drew in 1952 and that 1,183,292
-people approved without discussing it.
+people approved with other things on their minds.
 
 > **Vignette · Christiansborg, 28 May 1953**
 >
@@ -607,7 +638,8 @@ people approved without discussing it.
 - **Landsting** — the upper chamber of the Rigsdag since 1849, elected on a
   privileged franchise from 1866 (chapters 33 and 34).
 - **fattighjælp** — poor relief in the strict sense: after 1933 the residual
-  assistance that still cost the recipient his civil rights (chapter 40).
+  assistance that still cost the recipient civil rights; the loss of the vote and
+  of eligibility ended on 1 October 1961, the category itself in 1962 (chapter 40).
 
 **§06 — the succession**
 - **tronfølgeloven** — the act of succession: the statute governing who inherits
@@ -629,9 +661,9 @@ people approved without discussing it.
 - **rigsfællesskabet** — the unity of the realm: the constitutional relationship
   between Denmark, the Faroes and Greenland. Not a federation and not a union;
   one state with parts that legislate for themselves in listed fields.
-- **landsrådet** — the Greenland council, created by the Danish state, through
-  which Greenlandic opinion was consulted in 1953 — Greenlanders having no vote
-  in the referendum itself.
+- **landsrådet** — the Greenland council, created by the Danish state and elected
+  by Greenlanders, through which Greenlandic opinion was consulted in 1952 —
+  Greenlanders having no vote in the referendum itself.
 
 **§09 — what Greenland got**
 - **eksperimentbørnene** — the experiment children: the twenty-two Greenlandic
@@ -651,8 +683,8 @@ people approved without discussing it.
 
 ## Meanwhile in Europe
 
-**Bonn, 23 May 1949.** West Germany's Basic Law came into force four years and
-five days before Denmark's constitution and was built out of the opposite
+**Bonn, 23 May 1949.** West Germany's Basic Law was promulgated four years and
+thirteen days before Denmark's constitution was signed, and was built out of the opposite
 experience. Where the Danish document is short, assumes its institutions work and
 declines to give judges power over legislation, the German one is long, distrusts
 majorities on principle, entrenches human dignity in its first article, forbids
@@ -663,12 +695,12 @@ it was a majority too strong to be restrained.** Denmark's confidence is the
 luxury of a country whose own institutions had not produced the catastrophe.
 
 **Strasbourg, 3 September 1953.** The European Convention on Human Rights entered
-into force three months after the Danish constitution was signed, and Denmark had
-ratified it the previous year without treating it as a constitutional event at
-all. It was a treaty, and treaties were foreign policy. The Danish constitution
+into force a few days short of three months after the Danish constitution was
+signed, and Denmark had ratified it earlier that year without treating it as a
+constitutional event at all. It was a treaty, and treaties were foreign policy. The Danish constitution
 of 1953 contains no general equality clause and no power of judicial review, so
-for the next forty years the enforceable rights of Danes developed substantially
-outside their own constitution, in a court in France — where, from 1971, the
+until the Convention was made part of Danish law in 1992 the enforceable rights of
+Danes developed substantially outside their own constitution, in a court in France — where, from 1971, the
 Danish judge was Helga Pedersen, who had helped write the document that did not
 contain them.
 
@@ -690,16 +722,16 @@ demonstrated, and it is repeated as though it had been.**
 the voters kept the voting age at twenty-three rather than lowering it to
 twenty-one — and the electorate for that question was 229,300 larger than for
 the constitution, because it included the young people who would have been
-enfranchised. They came, and they were outvoted. The constitution also left the
-poor-relief disqualification in place, delegating it to statute rather than
-abolishing it.
+enfranchised. They could vote, and they were outvoted.
 
 **"The 1953 constitution abolished the loss of the vote for poor relief."** It
 did not. §29 provides that *the law shall determine* to what extent assistance
 regarded as poor relief entails loss of the vote, and that sentence is in the
-Danish constitution today. The disqualification ended in **1961**, by the Lov om
-offentlig forsorg — eight years after the constitution and forty-six years after
-women got the vote.
+Danish constitution today. Ordinary law kept the disqualification for certain
+kinds of help until **1 October 1961**, when the *Lov om offentlig forsorg*
+repealed it — eight years after the constitution; women had had the vote since
+1915. Nor was 1933 the end of it: the social reform moved most people
+out from under the clause and left a residue beneath it.
 
 **"§20 was written for Europe."** It was written in 1952, for the United Nations
 and the Atlantic alliance, by a professor answering a commission's letter. The
@@ -720,8 +752,8 @@ is the question §08 and §09 exist to put.
 
 Denmark spent 1948 trying not to choose. The Swedish foreign minister raised a
 Scandinavian defence union at the Nordic foreign ministers' meeting in Oslo on
-23 and 24 February 1948, two days before the communists took Czechoslovakia, and
-for a year it was the most attractive answer available to three governments that
+23 and 24 February 1948, on the eve of the communist takeover in Prague, and
+until January 1949 it was the most attractive answer available to three governments that
 did not want to pick a side. It failed on the one point that could not be
 compromised: Sweden wanted a bloc genuinely outside both alliances, Norway had
 been occupied for five years by a power a neutral Sweden had not deterred and
@@ -729,11 +761,12 @@ wanted American weapons that would not be supplied to a neutral bloc, and Denmar
 preferred the Scandinavian answer for exactly as long as there was one. The
 ministers gave it up in Oslo on 30 January 1949.
 
-Ten weeks later Gustav Rasmussen signed the North Atlantic Treaty in Washington.
+Nine weeks later Gustav Rasmussen signed the North Atlantic Treaty in Washington.
 The Folketing had approved it 119 to 23 on 24 March and the Landsting 64 to 8 on
-the 25th — the last great decision taken by a two-chamber Danish parliament, and
-the chamber that gave the smaller majority would vote itself out of existence
-four years later. The twenty-three were the Communists and the Radicals, and the
+the 25th — one of the last great decisions taken by a two-chamber Danish
+parliament, and the chamber that gave the smaller majority would vote itself out
+of existence four years later. The twenty-three were the Communists, the Radicals
+and part of the Justice Party, and the
 Radical vote is where Peter Munch's doctrine that a small state's safety lies in
 being harmless finally ends. Denmark attached no reservation; what existed on
 4 April was a political understanding about peacetime bases, which hardened into
@@ -742,31 +775,34 @@ doctrine only in 1953 and 1957.
 The constitution of 1915 could be replaced only by a bill passing two successive
 Rigsdage and then a referendum in which the yes vote reached forty-five per cent
 of the whole electorate — a threshold that had destroyed the 1939 revision, which
-91.85 per cent of those voting had supported. Four things wanted changing by
+had won 91.85 per cent of the valid votes. Four things wanted changing by
 1949: an upper house whose majority had matched the lower house's since 1936; a
 system of parliamentary government that had been custom since 1901 and was
-nowhere written down; a Greenland that was still a colony while the United Nations
+nowhere written down until §15 did it; a Greenland that was still a colony while the United Nations
 asked questions; and a king with three daughters and no sons. A commission
 appointed in 1946 did little until 1951. Its furthest-reaching clause came from
-outside it: Max Sørensen answered the commission in writing with the draft that
-became §20.
+outside it: Max Sørensen answered the commission in writing, on 26 May 1952, with
+the draft that became §20. §71, against deprivation of liberty for conviction or
+descent, came from the occupation.
 
-On 13 May 1953 the Landsting voted for its own abolition at first reading and sat
-for the last time on the 15th, 104 years after the chamber was created. On 28 May
+On 13 May 1953 the Landsting, created in 1849, voted for its own abolition at
+first reading, and it sat for the last time on the 15th. On 28 May
 the electorate of 2,585,800 returned 1,183,292 yes and 319,135 no on a turnout of
 59.1 per cent — 45.76 per cent of the electorate against a floor of 45, a margin
 of 19,682 votes. A second ballot the same day kept the voting age at twenty-three
 against twenty-one, on a register 229,300 larger because it included the people
 the lower age would have enfranchised. The story that Margrethe carried the vote
 is popular and has never been demonstrated. §29 stopped naming the poor and
-delegated their disqualification to ordinary law, which did not lift it until
-1961.
+delegated their disqualification to ordinary law, which lifted it from the last
+of them, most having had the vote back since 1933, on 1 October 1961.
 
 Greenland ceased to be a colony by §1 of the same constitution, became a Danish
 county with two seats in the Folketing, and came off the United Nations list on
-8 September 1954 under a criterion — integration on terms of equality — that
+22 November 1954 under a criterion — integration on terms of equality — that
 Denmark had itself proposed. Its twenty thousand people did not vote in the
-referendum. In 1951 twenty-two Greenlandic children had been taken to Denmark to
+referendum; their elected Landsråd approved the change in 1952, and the
+resolution recorded that they had freely exercised their right to
+self-determination. In 1951 twenty-two Greenlandic children had been taken to Denmark to
 be raised Danish-speaking; on 25 May 1953, three days before the vote and eleven
 before the signature, twenty-seven families of Uummannaq were told to leave to
 make room for an American air base. The composite state ended by abolishing its
@@ -778,22 +814,23 @@ own name in the same fortnight it acted, one last time, exactly as it always had
 
 **Recall.**
 
-1. Why did the Scandinavian defence union fail, and what did each of the three
-   governments want that the other two could not give?
-2. A revision supported by 91.85 per cent of those who voted failed in 1939 and
-   one supported by 78.76 per cent passed in 1953. What was the rule, and what was
-   it actually measuring?
-3. The 1953 constitution is usually said to have ended the loss of the vote for
-   poor relief. What did it actually do, and when did that disqualification end?
+1. How did the Folketing and the Landsting vote on the Atlantic treaty in March
+   1949, and who cast the twenty-three votes against it?
+2. By how many votes did the constitution pass on 28 May 1953, and how is that
+   margin worked out?
+3. Which two of the seven F's did 1915 let in, and how had the social reform of
+   1933 given most of the poor the vote back?
 
 **Causal.**
 
-1. The Landsting voted for its own abolition. What had each reform since 1866
-   done to it that left it without an argument?
-2. §20 was drafted in 1952 for the United Nations and the Atlantic alliance. How
-   did it come to be the clause Denmark joined the European Communities under?
-3. What argument did Denmark make to the United Nations about when a territory
-   stops being non-self-governing, and why did it succeed?
+1. Before 1953 women were shut out of the throne; after it they were placed
+   behind their brothers. Why does the chapter call the second the more
+   deliberate, and why does it tie the question to 1864?
+2. Why did the minority referendum of §42 prove a thinner check than the upper
+   house it replaced?
+3. Why does the chapter decline to call the experiment children and the Thule
+   removal hypocrisy, when they happened in the years Denmark was persuading the
+   United Nations of Greenland's equality?
 
 **Counterfactual.**
 
@@ -806,7 +843,7 @@ own name in the same fortnight it acted, one last time, exactly as it always had
 
 **Contested.**
 
-1. Denmark refused a border further south in 1946 and joined a military alliance
+1. Denmark declined to claim a border further south in 1946 and joined a military alliance
    in 1949. Argue that these are the same decision, and then that they are
    opposite ones.
 2. Was the 1953 constitution a democratic advance? Argue it with the Landsting
@@ -821,10 +858,16 @@ own name in the same fortnight it acted, one last time, exactly as it always had
 - **The defence union and the pact.** Östen Undén's raising of the union at the
   Nordic foreign ministers' meeting in Oslo on 23–24 February 1948; the defence
   committee of 15 October 1948; Karlstad, Copenhagen and Oslo in January 1949, and
-  the communiqué's "not at present a sufficient basis". The Washington negotiations of 11–15 March 1949 and the American
+  the communiqué's "not at present a sufficient basis" (*Store norske leksikon*,
+  "skandinavisk forsvarsforbund", for the Oslo meeting of 23–24 February 1948 and
+  the January dates). The Washington negotiations of 11–15 March 1949 and the American
   confirmation to Rasmussen about bases; the Folketing's 119 to 23 on 24 March
-  and the Landsting's 64 to 8 on the 25th; the signature on 4 April. Hedtoft's
-  base declaration of 23 June 1953 and H.C. Hansen's "under the present
+  and the Landsting's 64 to 8 on the 25th; the signature on 4 April
+  (koldkrig-online.dk, *Danmarks vej ind i Atlantpagten*, which also gives the
+  party line-up: "Det Radikale Venstre og Kommunisterne var imod, mens
+  Retsforbundet var splittet"). Hedtoft's base declaration of 23 June 1953, at
+  the Social Democratic congress (koldkrig-online.dk, *Det danske nej til
+  allierede soldater 1953*), and H.C. Hansen's "under the present
   circumstances" in Paris in December 1957.
 - **The rule, and 1939.** §93 of the constitution of 1915 for the two-Rigsdag
   requirement and the forty-five per cent floor. The 1939 figures — 966,277 yes,
@@ -836,9 +879,34 @@ own name in the same fortnight it acted, one last time, exactly as it always had
   *Grundlovsændringen 1953*, for the 1946 commission, the acceleration from
   1951, the abolition of the Landsting, written parliamentarism, the voting age
   and Greenland's change of status; the text of the constitution of 5 June 1953
-  for §1, §20, §29 and §42. **§29's delegating sentence was confirmed twice
+  for §1, §15, §20, §29, §42 and §71. **§29's delegating sentence was confirmed twice
   against the current text** (danskelove.dk and the EU Fundamental Rights
-  Agency) and is in force today.
+  Agency) and is in force today; danmarkshistorien.lex.dk prints it: "Det
+  bestemmes ved lov, i hvilket omfang straf og understøttelse, der i
+  lovgivningen betragtes som fattighjælp, medfører tab af valgret." The 1915
+  clause it replaced is §30 b: "nyder eller har nydt Understøttelse af
+  Fattigvæsenet, som ikke er enten eftergivet eller tilbagebetalt". *Gyldendal og
+  Politikens Danmarkshistorie*, "Erfaringer omsættes i paragraffer", for §71 as
+  the occupation's lesson ("Besættelsestidens erfaringer spillede også en rolle
+  ...; men en gentagelse af grundlovsbruddet skulle gøres endnu mere
+  flagrant"). The commission's own report (*Betænkning afgivet af
+  Forfatningskommissionen af 1946*, 1953) for its reconstitution in 1948 and after
+  the change of government in 1950, with Helga Pedersen as a member, and for Max
+  Sørensen's written opinion of 26 May 1952 (its *bilag 6*).
+- **The end of the poor-relief disqualification.** *Folketingstidende* 1960–61,
+  L 63, *Lov om offentlig forsorg* (law no. 169 of 31 May 1961): "Loven medfører
+  som nævnt tillige ophævelse af forsorgslovens bestemmelser om tab af valgret og
+  valgbarhed ved hjælp af bestemte arter", and "Bestemmelserne ophæves fra 1.
+  oktober 1961, for at de, der tidligere har mistet valgretten, kan være opført på
+  valglisterne på det tidspunkt, da loven i øvrigt træder i kraft, nemlig den 1.
+  april 1962." Agreeing: lex.dk, *Danmark – social sikring* ("først totalt
+  afskaffet med Lov om offentlig forsorg i 1961"); *Gyldendal og Politikens
+  Danmarkshistorie*, "Den lille socialreform" ("fortabelse af valgret, der havde
+  fulgt modtagelse af fattighjælp, nu endelig blev ophævet"); and
+  danmarkshistorien.lex.dk's introduction to the 1933 law ("først endegyldigt i
+  1961"). **danmarkshistorien.lex.dk, *De 7 F'er*, says instead that recipients
+  got the vote "med en ny valglov samme år som den nye grundlov"; the 1961 bill's
+  own text contradicts it, and it is not followed.**
 - **The Landsting.** danmarkshistorien.lex.dk, *Landstinget i den danske Rigsdag
   1849-1953*, for the composition at each stage — indirect election from men
   over forty; the privileged franchise of 1866 with twelve of sixty-six royal
@@ -846,7 +914,11 @@ own name in the same fortnight it acted, one last time, exactly as it always had
   the outgoing chamber — and for the alignment of its majority with the
   Folketing's from 1936. **The self-abolition is dated precisely: the chamber
   approved it at the first reading on 13 May 1953 and sat for the last time on
-  15 May.**
+  15 May** (lex.dk, *Landstinget*: "Landstinget vedtog selv sin egen afskaffelse
+  her ved førstebehandlingen af grundlovsforslaget 13. maj 1953"). The first
+  passage "i marts 1953" is lex.dk, *Folketingsvalget april 1953*; the two
+  elections of 21 and 28 April are *Gyldendal og Politikens Danmarkshistorie*,
+  "Grundlovsforslaget gennemføres".
 - **§42 in practice.** The land-laws referendum of 25 June 1963, the only
   occasion on which a third of the Folketing has sent a passed bill to the
   voters; all four laws were rejected, by 61.6, 61.4, 60.4 and 57.4 per cent.
@@ -890,22 +962,42 @@ own name in the same fortnight it acted, one last time, exactly as it always had
   for article 73(e), the 1946 UN enquiry, the 1948 commission and the Greenland
   laws of 1950, the change to *amt* with two Folketing seats, the roughly twenty
   thousand Greenlanders who did not vote and were heard through the Landsråd,
-  and the General Assembly's acceptance on 8 September 1954. **That Denmark
+  and the General Assembly's acceptance in 1954. **That Denmark
   proposed the integration criterion to the UN and then used it is stated in that
-  source and is the mechanism §08 turns on.**
-- **The experiment children and Thule.** Helene Thiesen's account — taken in
-  1951 at seven, one of twenty-two, eighteen months at Red Barnet's colony at
-  Faxe Ladeplads, forbidden Greenlandic, placed afterwards in a children's home,
-  and learning what had been done from the archives in 1996 — from her published
-  interviews; Red Barnet apologised in 2015. lex.dk, *Thulesagen*, for the
+  source and is the mechanism §08 turns on.** The date and the words are the
+  resolution's own: General Assembly resolution 849 (IX) of **22 November 1954**,
+  which "takes note that when deciding on their new constitutional status,
+  through their duly elected representatives, the people of Greenland have freely
+  exercised their right to self-determination" (corrected in session 11; the
+  chapter had 8 September). The Landsråd: lex.dk, *Grønlands Landsråd*, "De to
+  landsråd fungerede frem til 1951, hvor de blev lagt sammen til et samlet
+  landsråd", with 1951 "det første valg til det samlede landsråd";
+  danmarkshistorien.lex.dk, *Augo Lynge: Grønlands fremtidige statsretlige
+  stilling, 1952*: "Forslaget blev behandlet den 8. september 1952 i Grønlands
+  Landsråd", newly elected, which supported it. lex.dk, *Grønlandskommissionen af 1948*, for the 1950
+  laws: "Den Kongelige Grønlandske Handels monopol og besejlingsforbuddet blev
+  ophævet."
+- **The experiment children and Thule.** lex.dk, *eksperimentet – 1951*, for the
+  twenty-two, the summer at Fedgården, the foster homes, the stay extended from
+  ten months to fifteen, the sixteen who returned and the six adopted, and the
+  apologies (Red Barnet on the radio in 2010 and in person in 2015; the prime
+  minister in writing in 2020). Helene Thiesen — born 21 April 1944 in Nuuk
+  (lex.dk), taken in 1951 at seven, her father dead of tuberculosis that January
+  (*Information*, October 2019), placed afterwards in a children's home, and
+  learning what had been done in 1996 when Tine Bryld found the files in the
+  Rigsarkiv (*Kristeligt Dagblad*) — from her published interviews. *Information*
+  has her six and learning it at forty-six; the dates in lex.dk and *Kristeligt
+  Dagblad* are followed and no age is given for 1996. lex.dk, *Thulesagen*, for the
   removal announced **25 May 1953**, twenty-seven families and 116 people from
   Uummannaq, thirteen families about 120 km north to a newly built Qaanaaq, the
   refusals of 1954, 1959–60 and 1985, the 1995 committee finding that it had not
   been forced, and the Eastern High Court's award in 1999 of 500,000 kroner
   collectively and 1,265,000 individually against a claim of 235 million.
-- **The two European entries.** The German Basic Law of 23 May 1949 and the
+- **The two European comparisons.** The German Basic Law of 23 May 1949 and the
   European Convention on Human Rights, in force 3 September 1953, for the
-  *Meanwhile* comparisons; **Helga Pedersen sat on the European Court of Human
+  *Meanwhile* comparisons (lex.dk, *Den Europæiske Menneskerettighedskonvention*:
+  ratified by Denmark in 1953 and "ved lov gjort til en del af dansk ret i
+  1992"); **Helga Pedersen sat on the European Court of Human
   Rights from 1971 until her death in January 1980 and was its first woman
   judge** (Council of Europe), and Max Sørensen held the Danish seat there from
   1980 until his death in October 1981. **That the seat passed from one to the
@@ -932,6 +1024,5 @@ about 120 kilometres north of where they had lived, and it is still there, and s
 is the air base.
 
 **Jelling.** Where the book began, and where a king cut into a stone that he had
-made the Danes Christian and won all of Denmark for himself. It took another
-thousand and sixteen years to work out who the Danes were and where Denmark
-stopped.
+made the Danes Christian and won all of Denmark for himself. It took nearly a
+thousand years more to work out who the Danes were and where Denmark stopped.

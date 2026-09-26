@@ -88,10 +88,10 @@ appears to have thought the two facts were connected.
 
 ---
 
-## Dannevirke, 5–6 February
+## Danevirke, 5–6 February
 
 The army Denmark sent south in the winter of 1863–64 was sent to a rampart. The
-Dannevirke had held the neck of Jutland on and off for a thousand years, and in the
+Danevirke had held the neck of Jutland on and off for a thousand years, and in the
 Danish imagination it was a wall. In fact it was a badly maintained line of
 earthworks that needed at least fifty thousand men and was held by fewer than
 forty thousand, with a frozen Schlei on one flank that an enemy could walk across.
@@ -128,7 +128,7 @@ investigation accordingly.*
 
 He had complied with it. That is what the instruction said and what the council
 minuted. It made no difference. The public had been told nothing and expected a
-battle at the Dannevirke; what it got was a retreat in the dark, and Copenhagen
+battle at the Danevirke; what it got was a retreat in the dark, and Copenhagen
 smelled treason. Crowds demanded the high command's dismissal, and a good many
 people believed the king had ordered the retreat himself, which he had not.
 The war minister called de Meza to Copenhagen on 6 February, and at the end of
@@ -137,7 +137,7 @@ high command. He took full responsibility, never recovered his position, and die
 man who had begun as a teacher of history and geography at the officers' school,
 and later of German and French, and was known for his fastidious and unusual dress.
 
-The withdrawal from the Dannevirke was the best decision anyone made in the war.
+The withdrawal from the Danevirke was the best decision anyone made in the war.
 
 ---
 
@@ -435,7 +435,7 @@ amended in their favour. The argument ran through 1865 in both chambers of the
 Rigsråd and was settled by a joint committee.
 
 The revision was passed in 1866 and came into force on 28 July. The Folketing kept
-universal suffrage and was left alone. The Landsting was rebuilt. It would have
+the franchise of 1849 and was left alone. The Landsting was rebuilt. It would have
 sixty-six members: twelve chosen by the king for life, one by the Faroese Lagting,
 and the rest — seven for Copenhagen, forty-five for the larger districts, one for
 Bornholm — elected indirectly through electors,
@@ -523,9 +523,9 @@ Recall, Causal, Counterfactual, Contested.*
   followed, which is why Prussia and Austria had to step outside the Confederation
   to do it.
 
-**§03 — Dannevirke**
+**§03 — Danevirke**
 
-- **Dannevirke** — the earthwork across the neck of Jutland, begun in the eighth
+- **Danevirke** — the earthwork across the neck of Jutland, begun in the eighth
   century (chapter 7) and the frontier of chapter 12. In 1864 a line that needed
   more men than the army holding it had.
 
@@ -605,7 +605,7 @@ left for that country, and chapter 35 is partly the story of where they went.
 **Before §04 — where we are.** A king three days on the throne has signed a
 constitution he knows breaks the promise made beside the treaty that made him king. Prussia and Austria
 have crossed the Eider, nobody has come to help, and the army has abandoned the
-Dannevirke without a battle and been vilified for it. The war is five weeks old
+Danevirke without a battle and been vilified for it. The war is five weeks old
 and the position at Dybbøl is not finished.
 
 **Before §07 — where we are.** Dybbøl has fallen, the London conference has broken
@@ -622,7 +622,7 @@ constitutions and only one country to apply them to.
 
 ## Myth-check
 
-**"De Meza abandoned the Dannevirke and lost the war."**
+**"De Meza abandoned the Danevirke and lost the war."**
 
 He abandoned it, and the abandonment is the reason there was still a Danish army
 in April. The reputation never recovered, and the record is unambiguous.
@@ -634,7 +634,7 @@ put a battle-ready army in the spring above any position. He was disowned by
 telegram for doing what it said.
 
 What actually went wrong was not military. The government had allowed the country
-to believe that the Dannevirke would be held, because the Dannevirke was the
+to believe that the Danevirke would be held, because the Danevirke was the
 argument for the war; and when the army did the sensible thing, the government had
 no way to explain it that did not also expose the policy. Somebody had to be
 blamed who was not the cabinet.
@@ -686,7 +686,7 @@ no interest in defending a state that had broken the settlement Russia imposed, 
 the German Confederation was acting lawfully until Prussia and Austria stepped
 outside it and crossed the Eider on 1 February 1864.
 
-De Meza abandoned the Dannevirke on the night of 5–6 February, exactly as the
+De Meza abandoned the Danevirke on the night of 5–6 February, exactly as the
 ministry's own instruction of 13 January implied he should, and was destroyed for
 it; the retreat saved the army. Dybbøl was lost on 18 April to artillery that
 Danish guns could not reach, after about eight thousand shells in six hours,
@@ -710,17 +710,18 @@ and it produced a constitutional struggle that lasted until 1901.
 
 1. Which body passed the November Constitution on 13 November 1863, and which
    parts of the monarchy did it still sit for?
-2. What did the council of war at the Dannevirke decide on 4 February 1864, and
+2. What did the council of war at the Danevirke decide on 4 February 1864, and
    what happened to the rearguard at Sankelmark two days later?
 3. What did Ilia Fibiger do in the cholera of 1853, and what was she doing in
    Lægeforeningens Boliger in 1864?
 
 **Causal.**
 
-1. Denmark expected the great powers to intervene as they had in 1848–50, and none
-   did. What had changed, and when?
-2. Dybbøl is remembered as a battle. In what sense was it decided before the
-   assault began?
+1. After the war the November Constitution could not simply be repealed. Why not,
+   and why did that give the landowners a veto over the terms of the 1866
+   revision?
+2. The Peace of Vienna gave the duchies to Austria and Prussia together. Why did
+   that lead within two years to a war between the two victors?
 3. The 1866 revision left the Folketing untouched and rebuilt the Landsting. Why
    was that a more effective change than restricting the Folketing would have been?
 

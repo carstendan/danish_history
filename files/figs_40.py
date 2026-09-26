@@ -23,7 +23,10 @@ FIGURE 1 · What was in Kanslergade, 29-30 January 1933.
   negotiators and the contents are from Mogens R. Nissen, "Det nationale
   kompromis", Landbohistorisk Tidsskrift 2010:1, pp. 50-76, and from
   danmarkshistorien.lex.dk and lex.dk on the agreement; the Radicals' objection
-  to a further depreciation is Holten (below). Each party's row says what it
+  to a further depreciation is Holten (below); Venstre's abstention in the
+  Landsting is danmarkshistorien.lex.dk, *Socialreformen af 1933* ("ved at undlade
+  at stemme"), and lex.dk, *Kanslergadeforliget* (session 11: the row said "voted
+  through", which neither source supports). Each party's row says what it
   arrived wanting and what it signed for, and the third column is the one the
   Danish memory of Kanslergade leaves out.
 
@@ -106,7 +109,7 @@ DEAL = [
     ("Venstre", 38, DE,
      "A cheaper krone for the export farms. Relief on farm debt.",
      "22.50 kroner to the pound. Debts refinanced, property taxes cut.",
-     "Voted through the largest expansion of public provision in Danish history."),
+     "Let the largest expansion of public provision in Danish history through the Landsting by abstaining."),
     ("Radicals", 14, IND,
      "No further depreciation: it would spoil the trade talks with Britain.",
      "A devaluation, and one smaller than the farmers had asked for.",
@@ -141,7 +144,7 @@ def deal():
          'the thing that party had said it would never do.">' % (W, H)]
     o.append('<rect x="0" y="0" width="%d" height="%d" fill="%s"/>' % (W, H, PAPER))
     header(o, "WHAT WAS IN KANSLERGADE, 29 – 30 JANUARY 1933",
-           "ten people in a flat on Østerbro: nine politicians and Augusta Erichsen",
+           "eleven people in a flat on Østerbro: ten politicians and Augusta Erichsen",
            "Seats are the Folketing after the election of 16 November 1932. "
            "The Conservatives were not invited.")
 
@@ -161,9 +164,8 @@ def deal():
                          % (cx + i * colw, y0 + 10 + j * 13, ln))
 
     fy = H - 30
-    note = ("Concluded on the morning of 30 January 1933, the day Hitler was appointed "
-            "Reich Chancellor. There was no single signed document: what there was, was a "
-            "package of bills all three parties would now vote for.")
+    note = ("Read each row from left to right: what the party came for, what it got, and "
+            "what it paid for it.")
     for ln in fold(note, "mapx", 14, W):
         o.append('<text x="14" y="%d" class="mapx" opacity=".8">%s</text>' % (fy, ln))
         fy += 13
@@ -285,13 +287,9 @@ def rule():
     x0, x1 = 14, W - 14
     bar_y, bar_h = 118, 54
     px = lambda p: x0 + p / 100.0 * (x1 - x0)
-    note = ("Section 93 of the constitution of 1915 required both a majority of those "
-            "voting and yes votes amounting to at least 45 per cent of everyone entitled "
-            "to vote, which counts a voter who stays at home as a voter who has said no. "
-            "The open segment is everyone who did not vote yes or no: about %.1f per cent "
-            "of the electorate stayed away and about %.1f per cent voted and spoiled the "
-            "ballot. Seven weeks earlier the same electorate had turned out at 79.2 per "
-            "cent to elect a Folketing. Shares of the electorate from the Interior "
+    note = ("The open segment is everyone who did not vote yes or no: about %.1f per cent "
+            "of the electorate stayed away and about %.1f per cent cast a blank or "
+            "spoiled ballot. Shares of the electorate from the Interior "
             "Ministry's referendum tables and from lex.dk, which agree; the threshold "
             "from the constitution." % (100.0 - TURNOUT_PCT, spoiled))
     note_lines = fold(note, "mapx", 14, W)
@@ -301,12 +299,12 @@ def rule():
     o = ['<svg viewBox="0 0 %d %d" xmlns="http://www.w3.org/2000/svg" role="img" '
          'aria-label="The Danish constitutional referendum of 23 May 1939 as shares of the '
          'whole electorate. Yes 44.5 per cent, no 3.9 per cent, and 51.6 per cent did not '
-         'vote. The constitution required the yes votes to reach 45 per cent of the whole '
+         'vote yes or no. The constitution required the yes votes to reach 45 per cent of the whole '
          'electorate, and they did not.">' % (W, H)]
     o.append('<rect x="0" y="0" width="%d" height="%d" fill="%s"/>' % (W, H, PAPER))
     header(o, "23 MAY 1939: THE RULE THAT COUNTED SILENCE",
            "the whole electorate as one bar, not the votes cast",
-           "Of those who voted, 91.85 per cent said yes. This is the other denominator.")
+           "Of the valid votes, 91.85 per cent were yes. This is the other denominator.")
 
     o.append('<rect x="%d" y="%d" width="%.1f" height="%d" fill="%s"/>'
              % (x0, bar_y, px(YES_PCT) - x0, bar_h, DK))

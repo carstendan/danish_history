@@ -9,24 +9,23 @@
 On 31 May 1939 the Danish minister in Berlin, Herluf Zahle, signed a treaty with
 Joachim von Ribbentrop. Its first article said that Denmark and the German Reich
 would in no circumstances go to war or use force against one another. It ran for
-ten years and would renew itself for fifty more unless someone gave a year's
-notice.
+ten years and would renew itself ten years at a time unless one side gave a
+year's notice.
 
 Hitler had offered the same pact to several small states that spring, after
 Roosevelt asked him for guarantees about a list of countries he might attack.
-Norway refused. Sweden refused. Denmark signed, alone in the North, and Peter
-Munch — who had wanted the Nordic governments to answer together so that Denmark
+Norway refused. Sweden refused. Finland refused. Denmark signed, alone in the
+North, and Peter Munch — who had wanted the Nordic governments to answer together so that Denmark
 would not be conspicuous — went ahead without them because he could see nothing
 else to do. A treaty of non-aggression was what Munch's whole foreign policy had
 been built to collect, and this was the largest specimen he ever brought home.
 
 Three hundred and fourteen days later the German army crossed the border.
 
-The Danish army did not grow in those ten months. About eight thousand recruits
-were called up in February and March of 1940, which brought the whole armed
-strength of the kingdom to something near fifteen thousand men, distributed so
-that no part of it could concentrate. This was not neglect. It was the policy of
-chapter 39 and chapter 40 carried to its conclusion: a Denmark that could not
+The Danish army was not made ready in those ten months. At the beginning of
+April 1940 it had about fifteen thousand men under arms, and eight thousand of
+them were recruits called up in February and March. This was not neglect. It
+was the policy of chapter 39 and chapter 40 carried to its conclusion: a Denmark that could not
 fight would not be worth attacking, and a Denmark that visibly prepared to fight
 would look like a country choosing sides.
 
@@ -39,7 +38,7 @@ minister. Commander F. H. Kjølsen, the naval attaché in Berlin, reported the
 rumour that Germany would want air bases in north Jutland by the spring. Someone
 in Copenhagen decided it was not significant enough to pass on.
 
-On 1 March Zahle put Kjølsen on an aeroplane to Copenhagen with a letter about
+On 1 April Zahle put Kjølsen on an aeroplane to Copenhagen with a letter about
 ships and troops massing in the north German ports. Munch read it and found
 nothing new in it, because Denmark was not mentioned.
 
@@ -47,14 +46,15 @@ Then, on 4 April, the warning came that was true. Colonel Hans Oster of the
 German military intelligence service told the Dutch attaché in Berlin what his
 own country was about to do; the Dutch and the Swedes passed it to Kjølsen and
 Zahle; a legation secretary put it in Munch's hands at seven that evening.
-Aggression against Denmark was coming within the week, together with attacks on
+Aggression against Denmark was coming the following week, together with attacks on
 Holland, Belgium and southern Norway. Munch did not disbelieve it so much as
 find it unbelievable — it was not easy, he wrote later, to understand treason of
 that kind.
 
 He told Stauning and he told the king. On the 5th he asked Stockholm and Oslo
 what they made of it and both governments told him it was not credible. The
-cabinet met and decided unanimously to do nothing. That same evening Kjølsen and
+cabinet met and decided unanimously to do nothing, so as not to arouse German
+distrust. That same evening Kjølsen and
 Zahle sent a second message suggesting that the first might be German
 disinformation designed to provoke a Danish reaction, and on the 6th Zahle
 explained that Danish territory was not strategically worth taking: poor
@@ -65,13 +65,13 @@ The soldiers were asked the same day. The chief of the general staff, Ebbe
 Gørtz, thought the situation normal. Admiral Hjalmar Rechnitzer thought a German
 attack on Denmark would serve no purpose and was therefore unlikely. General
 W. W. Prior asked to mobilise six year-classes and was refused by the admiral
-and by the defence minister, Alsing Andersen, on the ground that it would make
-the Germans distrust Denmark's intentions.
+and by the defence minister, Alsing Andersen, on the ground that it could cause
+unrest.
 
-That is the sentence to hold on to. Five days before the invasion, the argument
+Put the two reasons side by side. Four days before the invasion, the argument
 against preparing to resist an invasion was that preparing to resist it might
-give offence. Munch's doctrine had arrived at the point where the correct
-response to being told you are about to be attacked is to demonstrate that you
+give offence; three days before, that it might alarm people. Munch's doctrine
+had arrived at the point where the correct response to being told you are about to be attacked is to demonstrate that you
 have no plans.
 
 ---
@@ -88,9 +88,9 @@ heart and died where he fell. Albertsen and Hansen lived long enough to reach a
 doctor. Hansen, weak but conscious, described to a police assistant named
 Petersen what had happened, which is the only reason anyone knows.
 
-At a quarter past four the army came across at Kruså, Padborg, Rens and Sæd. At
-the same minute German transports were tying up at Langelinie in Copenhagen and
-a battalion was walking into the city where the king lived.
+At a quarter past four the army came across at Kruså, Padborg, Rens and Sæd. Five
+minutes later a German transport tied up at Langelinie in Copenhagen and a
+battalion was walking into the city where the king lived.
 
 At ten minutes to five, at Lundtoftbjerg on the road north from Kliplev,
 nineteen Danish soldiers with two twenty-millimetre guns and a machine gun
@@ -103,12 +103,12 @@ first fighting on Danish soil since 1864.
 >
 > The platoon has been in position since the night. Its commander is a
 > lieutenant named Gjermansen and it is organised in three groups, and what it
-> has is rifles, two twenty-millimetre guns and the bend in the road. The
+> has is rifles, its two guns and the bend in the road. The
 > column comes up the hill out of the dark and the guns start.
 >
 > Half an hour later the aircraft come in low and the order is to fall back. One
-> man does not. Carl Gunnar Jørgensen is twenty-three years old, a private of
-> the 3rd company of the 4th battalion, and he is shot through the chest. A
+> man does not. Carl Gunnar Jørgensen, born in 1917, is a private of the 3rd
+> company of the 4th battalion, and he is shot through the chest. A
 > corporal and four others are taken prisoner and let go the same day, because
 > by then there is nothing to hold them for.
 >
@@ -158,11 +158,11 @@ Denmark should have fought, or Denmark was right not to. Put that way it cannot
 be settled, because both answers are about a morning, and the morning is not
 where the choice was made.
 
-The choice was made across the eleven years in which Peter Munch held the
-foreign ministry, and in the defence settlement of 1922 that chapter 39 told,
-and in the refusal of 6 April 1940 to call up six year-classes in case it looked
-provocative. By the time the government sat down at half past five on 9 April,
-the country had fifteen thousand men under arms, no mobilisation, no plan for
+The choice was made across Peter Munch's years at the foreign ministry, from
+1929, and in the defence settlement of 1922 that chapter 39 told, and in the
+refusal of 6 April 1940 to call up six year-classes in case it caused alarm. By
+the time the government sat down at half past five on 9 April, the army had
+fifteen thousand men under arms, no mobilisation, no plan for
 fighting a delaying action, and a treaty promising that this would not happen.
 The government of 9 April did not choose between resistance and submission. It
 chose between submission and a gesture, and it is not obvious that a gesture
@@ -175,30 +175,30 @@ then cooperated, and the two together became a policy with a name:
 Danish and the king stayed, and in exchange Denmark undertook to keep itself
 quiet.
 
-On 8 July 1940 the government was reconstructed to include all four large
-parties, and Peter Munch left the foreign ministry after eleven years and two
-months. His successor was Erik Scavenius, who had held the same office during
-the last war and had been out of politics for twenty years. That day Scavenius
-put out a declaration, cleared in advance with Stauning and passed by a cabinet
-that barely discussed it, saying that by the great German victories it would be
-Denmark's task to find its place in a necessary and mutually active cooperation
-with Greater Germany. France had surrendered a fortnight before. Stauning's
-comment on the fall of Paris had been that the war was over now. There was
+Since 10 April 1940 the government had been a coalition of all four large
+parties. On 8 July it was reconstructed, and Peter Munch left the foreign
+ministry after eleven years and two months. His successor was Erik Scavenius,
+who had held the same office during the last war and had been out of government
+for twenty years. That day Scavenius put out a declaration, cleared in advance
+with Stauning and passed by a cabinet that barely discussed it, saying that by
+the great German victories it would be Denmark's task to find its place in a
+necessary and mutually active cooperation with Greater Germany. France had
+signed an armistice sixteen days before. Stauning's comment on the fall of Paris had been that the war was over now. There was
 almost no public protest at all.
 
 There was one group in Denmark for whom 9 April was not a defeat. The German
-minority in North Schleswig, nazified through 1933 and by then a foreign branch
-of the NSDAP, welcomed the troops, and in June its *Volksgruppenführer*, the
+minority in North Schleswig, nazified from 1933 and organised since 1935 as a
+foreign branch of the NSDAP, welcomed the troops, and in June its leader, the
 veterinarian Jens Møller, let it be understood that swastikas might soon fly
-over the region. The Danish state, which in 1933 had declined to ban the party
-he led, now declined again. It did not intern the minority's men, it did not
+over the region. The Danish state, which had not banned his party before the
+war, did not ban it now. It did not intern the minority's men, it did not
 dissolve the Slesvigsk Parti, and it left Møller sitting in the Folketing, where
 he stayed until 1943.
 
-What stopped the border moving was not Denmark. In December 1940 the German
-foreign office told Møller that revision was not on the agenda, because a quiet
-Denmark delivering food was worth more to Germany than forty thousand more
-Germans. The minority had spent twenty years asking for the border back. It got
+What stopped the border moving was not Denmark. At a meeting in Berlin in
+December 1940 Møller was made to drop the demand for revision, because Germany
+needed a quiet Denmark as a source of supplies more than it needed the border
+moved. The minority had spent twenty years asking for the border back. It got
 its answer from Berlin.
 
 ---
@@ -206,15 +206,15 @@ its answer from Berlin.
 ## The realm comes apart
 
 Denmark on 8 April 1940 still governed a set of North Atlantic territories kept
-by a parenthesis in article four of the constitution of 1849. Within thirteen
-months it had lost the use of all three, in three different ways, to three
-different powers, none of which asked Copenhagen.
+by a parenthesis in article four of the treaty of Kiel of 1814. Within a year it
+had lost the use of all three, in three different ways, to three different
+powers, none of which asked Copenhagen.
 
 Iceland moved first, on 10 April. The Alþingi resolved that since the king could
 no longer exercise his authority, the Icelandic government would exercise it
 instead, until further notice. Iceland had been sovereign since 1918 and in
-personal union only, and the Act of Union of chapter 38 could be given notice in
-1943; the war brought the machinery forward. On 10 May the British landed at
+personal union only, and the Act of Union of chapter 38 could be dissolved after
+1943 if revision failed; the war brought the machinery forward. On 10 May the British landed at
 Reykjavík without asking Iceland either, and in July 1941 the Americans replaced
 them by agreement with Reykjavík and not with Copenhagen.
 
@@ -237,12 +237,10 @@ charged him with treason and forfeiture of his property. The Americans replied o
 the 14th that they would go on recognising him as Denmark's minister, which
 settled the matter, since he was in Washington and his government was not.
 
-Denmark did not get Greenland's foreign relations back. What it got, on 16 May
-1945, eleven days after the liberation, was a Rigsdag vote ratifying Kauffmann's
-treaty, unanimously in both chambers — the same parliament, adopting as its own
-the act for which it had wanted him prosecuted. The Americans were in Greenland
-to stay, and when Denmark joined the Atlantic alliance in 1949 they had already
-been there for eight years.
+What the Rigsdag did with his treaty after the liberation, and with the charge
+against him, belongs to chapter 44. The Americans were in Greenland to stay, and
+when Denmark joined the Atlantic alliance in 1949 they had already been there
+since 1941.
 
 ---
 
@@ -314,7 +312,7 @@ thirty-five in the provinces — on the strength of a German list naming
 seventy-two people. There was no Danish law under which any of it could be done.
 The constitution of 1915 forbade it. The arrests were made anyway, by Danish
 officers, against Danes, on a foreign government's list, and the men taken were
-held at Horserød.
+held in prison cells around the country, most of them in Vestre Fængsel.
 
 Two months later the Rigsdag fixed the legality. The Communist Law of 22 August
 1941 banned all communist associations and communist activity of any kind, set
@@ -325,13 +323,12 @@ not only future arrests but the ones already made. The Folketing had three
 communist members; one of them was interned and two went underground, including
 the party leader Aksel Larsen.
 
-By the time the law passed, a hundred and sixteen men were still inside. Over the
-next two years the camp filled again — some six hundred people passed through it —
-and in August 1943, when the cooperation policy collapsed and the Germans took
-the camp over, about ninety got away in the confusion. In October 1943 roughly a
-hundred and fifty of those who had not were shipped to Stutthof. Twenty-two
-of them died: six in the camp, nine on the death marches at the end, seven of what
-the camp had done to them, after they got home.
+By the time the law passed, a hundred and sixteen people were still held, and
+they were moved to the camp at Horserød. Over the next two years it filled —
+some six hundred people passed through it — and when the Germans took it over in
+August 1943 about ninety got away. The hundred and fifty or so who
+did not went to Stutthof in October, and
+twenty-two of them died of it.
 
 The other half of this section is the same argument with the parties reversed.
 Frikorps Danmark was raised on the DNSAP's initiative in the summer of 1941 to
@@ -342,21 +339,24 @@ discharged conscripts, to enlist in the Free Corps "Danmark"; that they and thei
 families would come under German welfare provision; and that those accepted could
 be placed outside the establishment and would expect to be taken back into the
 Danish army on honourable discharge. Conscripts actually serving were not allowed
-to apply, which tells you that the ministry had thought about it. Around seven
-thousand Danes served the German forces in one formation or another. From the
-German minority in North Schleswig — perhaps thirty thousand people all told —
-about seven and a half thousand were in German front or labour service by 1943.
+to apply, which tells you that the ministry had thought about it. How many Danes
+went into German service is given as about six thousand, the half of some twelve
+thousand volunteers whom the Waffen-SS accepted, or as about seven thousand in
+German war service of every kind; the count depends on what is counted. About
+fifteen hundred of the twelve thousand came from the German minority in North
+Schleswig. The minority's own count, which takes in labour service and
+conscription as well, was about seven and a half thousand away by 1943.
 
 Set the two halves beside each other. In the same summer the Danish state used
 its own police to arrest Danes for a foreign power without legal authority, and
-its own War Ministry to guarantee the pensions of Danes going to fight for that
-power. After the war it prosecuted the second group under laws passed afterwards
-and gave about three thousand three hundred of them two to four years. The
-retroactive justice of chapter 44 is usually explained as something the
+its own War Ministry to promise Danes going to fight for that power their places
+back. After the war it prosecuted the second group under laws passed afterwards
+and sent more than three thousand of them to prison. The retroactive justice of
+chapter 44 is usually explained as something the
 liberation forced on a country with no other way to deal with what it found. It
 was not new. The Rigsdag had already written a retroactive criminal statute, by a
 unanimous vote, in August 1941, to cover an illegality its own police had
-committed — and the men it covered were the ones later sent to Stutthof.
+committed — and the men held under it were the ones later sent to Stutthof.
 
 ---
 
@@ -389,7 +389,7 @@ liked better, and the majority folded.
 >
 > What is agreed is that Ribbentrop meant to take the signature without them, and
 > that it took a night of argument to get them attached to it. The foreign
-> minister of a country with fifteen thousand soldiers spent the hours before the
+> minister of an occupied country spent the hours before the
 > ceremony fighting over a document that would make no difference to anything
 > except what Denmark could later say it had signed.
 >
@@ -408,8 +408,9 @@ about a hundred. The newspapers reported none of it. When Scavenius came home he
 was met in the street with the word *landsforræder*, and for the first time
 people said in public that Denmark should have Norwegian conditions instead.
 
-The first illegal newspaper of any size in Denmark, *De frie Danske*, was founded
-in Copenhagen in December 1941, by conservatives, in direct response to the pact.
+The communists, driven underground that summer, had had an illegal paper since
+October. In December 1941 conservatives in Copenhagen founded another, *De frie
+Danske*, in direct response to the pact.
 That is the shape of the whole thing. Every measure of cooperation bought
 Scavenius another month of Danish administration, and every measure of
 cooperation manufactured the opposition that would eventually end it.
@@ -458,13 +459,13 @@ only one of them was in Denmark.
 >
 > On 9 April 1942, two years to the day after the morning at Lundtoftbjerg, a new
 > paper called *Frit Danmark* appears that nobody is allowed to print, sell or
-> possess. By the middle of the year she is on its editorial board under the name
-> frøken Krog.
+> possess. By the autumn she is on its editorial board under the name frøken
+> Krog.
 >
 > What she did afterwards is why she is here rather than any of the others. She
 > edited an illegal book about 29 August 1943 while it was still dangerous to
 > have written one. She was given away in September 1944, held in Vestre
-> Fængsel, sent to Frøslev, and got out days before the capitulation. And in
+> Fængsel, sent to Frøslev, and got out illegally before the capitulation. And in
 > 1945, when the accounts of the resistance were being written by the men who had
 > been in it, she compiled *Kvinder i Modstandskampen*, because otherwise the
 > women in it would have gone into the record as somebody's courier.
@@ -479,8 +480,8 @@ On 23 March 1943, one thousand and seventy-eight days into the occupation,
 Denmark held a general election. No other occupied country in Europe did.
 
 Of an electorate of 2,280,716, some 2,040,583 voted: 89.5 per cent, the highest
-turnout at any Danish general election before or since. Everybody understood what was being
-counted. The four cooperating parties took 92.91 per cent of the valid votes
+turnout at any Danish general election before or since. Everybody understood
+what was being counted. The four cooperating parties took 92.91 per cent of the valid votes
 between them. The Slesvigsk Parti, which had held a seat continuously since 1920,
 did not stand at all, because by then seven and a half thousand of the minority
 were away in German service and Jens Møller could not be sure of the arithmetic.
@@ -493,11 +494,10 @@ in the years when a German army was standing in the country. What defeated it wa
 not conversion. It was that everyone else turned out: the same three seats out of
 a far larger poll, which is arithmetic rather than a change of heart. Denmark's
 Nazis were contained by the turnout of people who had no other way to say
-anything at all. Sixty thousand more voters would have given them a fourth seat
-and the same three per cent.
+anything at all.
 
 The nearest thing to a verdict is the gap at the bottom of the table. Dansk
-Samling, founded against the occupation and against the cooperation policy, took
+Samling, founded in 1936 and by now against the cooperation policy, took
 43,367 votes and three seats. The Nazis took 43,309 and three seats. Fifty-eight
 votes separated the party that wanted Denmark to resist from the party that
 wanted Denmark to be German, and both of them were rounding errors beside the
@@ -505,9 +505,9 @@ parties that wanted neither.
 
 Five months later the policy the election had ratified was over. And on 2
 October, about a hundred and fifty prisoners were put into a ship's hold for
-Stutthof: Danes, arrested by Danish police, on a German list, under a Danish law
-that a parliament elected by 89.5 per cent of its people had passed without a
-single vote against.
+Stutthof: Danes, arrested by Danish police and held under a Danish law passed
+in 1941 without a single vote against, by a Rigsdag in which sat all four of
+the cooperating parties an electorate turning out at 89.5 per cent had just returned.
 
 ---
 
@@ -525,8 +525,8 @@ single vote against.
 
 - **grænsegendarm** — a border gendarme: the uniformed but lightly armed corps
   that policed the Danish side of the 1920 frontier, and not part of the army.
-- **panservogn** — an armoured car. The Danish army had a handful and the
-  Germans at Lundtoftbjerg had eighteen vehicles in the column.
+- **panservogn** — an armoured car. The Danes at Lundtoftbjerg hit the one at
+  the head of the German column first.
 
 **§04 — the choice**
 
@@ -540,7 +540,8 @@ single vote against.
 **§05 — the realm**
 
 - **landsfoged** — the senior Danish official in each of Greenland's two
-  inspectorates; both opposed Kauffmann's claim to speak for Greenland abroad.
+  regions, north and south, from 1925 to 1950. Cut off from Copenhagen during
+  the war, the two ran Greenland themselves.
 
 **§06 — the summer**
 
@@ -583,14 +584,14 @@ single vote against.
 
 **Oslo and Narvik, April–June 1940.** The invasion that took Denmark in one
 morning took Norway for two months. Norway was attacked the same day, fought,
-lost its capital, kept its king, and went on fighting in the north until 7 June
+lost its capital, kept its king, and went on fighting in the north until 10 June
 with British, French and Polish help. Haakon 7. refused the German demand to
 appoint Vidkun Quisling and left for London with the government and the gold
 reserve; Norway spent the war as an occupied country with a legal government
 abroad and a *Reichskommissar* at home. Denmark spent it with its own government
-at home and no representative abroad except one minister in Washington who had
-gone freelance. The two countries are the clearest natural experiment in
-occupied Europe, and the honest summary is that Norway's choice cost it about
+at home until August 1943 and no government abroad, only ministers who had broken with it:
+Kauffmann in Washington from 1940, Eduard Reventlow in London from the end of
+1941. The two countries are the clearest natural experiment in occupied Europe, and the honest summary is that Norway's choice cost it about
 ten thousand dead and gave it a seat at the peace, while Denmark's cost it very
 few and gave it an argument that is still going on.
 
@@ -618,7 +619,7 @@ choice but what they got for it.
 
 **Before §11.** Where we are: Danish police have arrested Danes on a German list
 and a Danish parliament has legalised it backwards; a Danish ministry has
-guaranteed the jobs of Danes going to the Eastern Front; a foreign minister has
+promised Danes going to the Eastern Front their places back; a foreign minister has
 signed a pact he thought meaningless and the country has called him a traitor
 for it. The last section is an election. Ask what it was being asked, and what
 it could not answer.
@@ -627,7 +628,7 @@ it could not answer.
 
 ## Myth-check
 
-**"Denmark surrendered without a fight."** Sixteen Danes were killed resisting,
+**"Denmark surrendered without a fight."** Sixteen Danes were killed that morning,
 which is not a fight by the standards of Norway and is not nothing either. The
 correction that matters runs the other way: they died because the decision not to
 be able to fight had been taken years before, and they are its cost rather than
@@ -642,7 +643,7 @@ and he did not need a star.
 
 **"The election of 1943 was a rejection of Nazism."** It was a demonstration of
 turnout. The DNSAP's vote rose by nearly two-fifths between 1939 and 1943 and its
-seats did not, because the total poll rose faster. That is a real verdict on the
+seats did not, because everyone else turned out as well. That is a real verdict on the
 Danish Nazis' irrelevance and it is not a country changing its mind, because it
 had never been for them.
 
@@ -655,12 +656,12 @@ time, not the first.
 
 ## Carry-forward
 
-**→ 42.** The cooperation policy is ratified by the largest turnout in Danish
-history in March 1943 and is finished by the end of August, and what breaks it is
+**→ 42.** The cooperation policy is ratified by the highest turnout at any Danish
+general election in March 1943 and is finished by the end of August, and what breaks it is
 a strike and not an election.
 
 **→ 42.** Horserød, filled with Danes by Danish police, passes into German hands
-in August 1943 and the men in it go east. The Jews of Denmark, untouched while the
+in August 1943 and the prisoners in it go east. The Jews of Denmark, untouched while the
 occupier judged the cost too high, are next.
 
 **→ 43.** Two Danish voices with a claim to speak for the country, one cooperating
@@ -672,12 +673,12 @@ Rigsdag wrote one in 1941 against communists — while its War Ministry promised
 men of Frikorps Danmark their places back.
 
 **→ 44.** Iceland leaves in 1944 and the Faroes vote in 1946, and both began in
-the two days after 9 April 1940. Denmark ratifies Kauffmann's Greenland treaty on
+the week after 9 April 1940. Denmark ratifies Kauffmann's Greenland treaty on
 16 May 1945, four years after charging him with treason for making it.
 
-**→ 45.** The constitution of 1953 forbids depriving anyone of liberty for
-political conviction. The Rigsdag that voted for it had voted for the Communist
-Law twelve years earlier.
+**→ 45.** The realm that came apart in the North Atlantic in 1940 is ended as a
+composite state in 1953, and Greenland, where the Americans had been since 1941,
+stops being a colony.
 
 ---
 
@@ -687,8 +688,9 @@ Denmark signed a non-aggression pact with Germany on 31 May 1939, alone among th
 Nordic states, and was invaded 314 days later. A warning from Colonel Oster of
 German military intelligence reached Peter Munch on 4 April 1940 through the Dutch
 and Swedish attachés. Stockholm and Oslo thought it incredible, the cabinet
-decided unanimously to do nothing, and on 6 April General Prior's request to
-mobilise six year-classes was refused because it would make Germany distrustful.
+decided unanimously to do nothing so as not to arouse German distrust, and on
+6 April General Prior's request to mobilise six year-classes was refused because
+it could cause unrest.
 
 At about four o'clock on 9 April three border gendarmes were shot at the Padborg
 viaduct by Germans in civilian clothes. The army crossed at a quarter past four;
@@ -713,14 +715,14 @@ settled. On 22 June 1941 Danish police arrested 195 communists on a German list 
 72 names with no legal authority, and on 22 August the Rigsdag passed the
 Communist Law unanimously and retroactively; about 150 of the interned went to
 Stutthof in October 1943 and 22 died. On 8 July 1941 the War Ministry gave Danish
-officers leave to join Frikorps Danmark with their positions guaranteed.
+officers leave to join Frikorps Danmark and promised them their places back.
 
 Denmark acceded to the Anti-Comintern Pact on 25 November 1941 under an ultimatum,
 after Scavenius threatened to resign if the cabinet refused. The king's five-word
 reply to Hitler's birthday telegram of 26 September 1942 brought Werner Best to
 Copenhagen and made Scavenius prime minister. At the election of 23 March 1943
-turnout was 89.5 per cent, the highest at any Danish general election; the cooperating parties
-took 92.91 per cent of the valid vote; the German minority did not stand; and the
+turnout was 89.5 per cent, the highest at any Danish general election; the
+cooperating parties took 92.91 per cent of the valid vote; the German minority did not stand; and the
 DNSAP kept three seats on a vote that had risen by nearly two-fifths since 1939.
 
 ---
@@ -729,20 +731,20 @@ DNSAP kept three seats on a vote that had risen by nearly two-fifths since 1939.
 
 **Recall.**
 
-1. Who were the sixteen Danes killed on 9 April 1940, by category, and when were
-   the first of them killed relative to the crossing of the border?
-2. What did the Communist Law of 22 August 1941 permit, and in what respect was
-   it retroactive?
-3. Give the turnout at the election of 23 March 1943 and the share of the valid
-   vote taken by the four cooperating parties.
+1. When did the BBC first broadcast in Danish, and why was listening to it
+   never banned in Denmark?
+2. What did the German side propose in the summer of 1940 that the cabinet
+   refused on 14 August, and who objected to it?
+3. Who founded *De frie Danske*, when, and in answer to what?
 
 **Causal.**
 
-1. Explain how a doctrine that Denmark should not be worth attacking produced a
-   refusal on 6 April 1940 to call up soldiers.
-2. Denmark's exports to Germany roughly trebled as a share of the total between
-   1939 and 1941 without anybody in Denmark deciding to sell more to Germany.
-   Explain the mechanism.
+1. Danish exporters were paid in full in kroner, and the occupation still left
+   Denmark with rising prices and an unpaid bill. Explain how the clearing
+   account did both.
+2. Denmark's exports to Germany rose from about a quarter of the total to about
+   four-fifths between 1939 and 1941 without anybody in Denmark deciding to sell
+   more to Germany. Explain the mechanism.
 3. Why did Berlin tell the German minority in December 1940 that the border
    would not be moved?
 
@@ -760,8 +762,8 @@ DNSAP kept three seats on a vote that had risen by nearly two-fifths since 1939.
 
 1. Was the decision of 9 April 1940 made that morning? Argue both ways and say
    which case is stronger.
-2. The same state arrested communists for a foreign power and guaranteed the
-   jobs of men going to fight for it. Argue that these were two different
+2. The same state arrested communists for a foreign power and promised men
+   going to fight for it their places back. Argue that these were two different
    policies, and then argue that they were one.
 3. The election of 1943 is used both to vindicate the cooperation policy and to
    show it was no longer needed. Make both cases from the same figures.
@@ -771,14 +773,19 @@ DNSAP kept three seats on a vote that had risen by nearly two-fifths since 1939.
 ## Sources
 
 - **The pact and the warnings.** danmarkshistorien.dk on the pact of 31 May 1939
-  for Hitler's offer, the Norwegian and Swedish refusals, Zahle and Ribbentrop and
-  article 1. *Gyldendal og Politikens Danmarkshistorie*, "Advarslerne", for
-  Kjølsen's suppressed January report, the flight of 1 March, the Oster warning and
+  for Hitler's offer, Zahle and Ribbentrop and article 1; the treaty text as
+  printed in *Zeitschrift für ausländisches öffentliches Recht und Völkerrecht* 9
+  (1939–40) for article 2, ten years renewing by ten ("verlängert sich seine
+  Geltungsdauer um weitere zehn Jahre"); the English Wikipedia on the
+  German–Estonian pact for "Sweden, Norway and Finland rejected the proposal".
+  *Gyldendal og Politikens Danmarkshistorie*, "Advarslerne", for
+  Kjølsen's suppressed January report, the flight of 1 April, the Oster warning and
   its arrival at seven, the disbelief in Stockholm and Oslo, the cabinet's
-  unanimous decision, Gørtz and Rechnitzer, Prior's refused request and the fifteen
-  thousand men. The 314 days are computed.
-- **9 April.** lex.dk's "9. april 1940" for the crossing at 04.15, the meeting at
-  05.30, the capitulation at 06.00 and the last firing at 08.15;
+  unanimous decision "for ikke at vække mistillid i Tyskland", Gørtz and
+  Rechnitzer, Prior's refused request ("som kunne fremkalde uro") and the fifteen
+  thousand men, eight thousand of them recruits. The 314 days are computed.
+- **9 April.** lex.dk's "9. april 1940" for the crossing at 04.15, the transport
+  at Langelinie at 04.20, the meeting at 05.30, the capitulation at 06.00 and the last firing at 08.15;
   krigendagfordag.dk for the thirteen soldiers by name, unit and place;
   historienet.dk for the sixteen and the three gendarmes; dengang.dk and tvsyd.dk
   for the viaduct — the men in civilian clothes, *Regiment Brandenburg*, and
@@ -787,21 +794,31 @@ DNSAP kept three seats on a vote that had risen by nearly two-fifths since 1939.
 - **Lundtoftbjerg.** M. Gjermansen's account in *9. April skildret i Breve fra
   danske Soldater*, ed. Arne Stevns (Hasselbalch, 1940), pp. 92–93, by way of
   Grænseforeningen, for the time, the aircraft, the men taken and released and Carl
-  Gunnar Jørgensen (1917–1940). The nineteen men, the two 20 mm guns and the
+  Gunnar Jørgensen (1917–1940), whose day of birth is not given, so neither is his
+  age. The nineteen men, the two 20 mm guns and the
   vehicles destroyed rest on the English Wikipedia article alone; the stone is
   arkiv.dk 3589949 and 5484968.
 - **The choice, and the minority.** *Gyldendal og Politikens Danmarkshistorie*,
   "Indrømmelsespolitikken", for the declaration of 8 July 1940 quoted in Danish and
-  the currency and customs union refused on 14 August. *Dansk Biografisk Leksikon*
-  on Jens Møller for the *Volksgruppenführer* title, the swastika remark, Berlin's
-  statement of December 1940 and his seat until 1943; Grænseforeningen on the
-  Slesvigsk Parti for the 7,500 in German service and the 1943 abstention.
+  the currency and customs union refused on 14 August, and Stauning's "Nu er
+  krigen forbi"; stm.dk for the four-party government from 10 April 1940; *Dansk
+  Biografisk Leksikon* on Scavenius for his withdrawal after March 1920. *Dansk
+  Biografisk Leksikon* on Jens Møller for the party leadership from July 1935, the
+  swastika remark of June 1940, the Berlin meeting at which he "måtte bøje af i
+  grænserevisionskravet" and his seat until 1943; danmarkshistorien.dk, "Det
+  tyske mindretal i Nordslesvig 1920-", for the foreign branch of the NSDAP by 1935
+  and Berlin's reason, a stable Denmark as a source of supplies; Grænseforeningen
+  on the Slesvigsk Parti for the 7,500 in German front and labour service and the
+  1943 abstention.
 - **The realm.** *Gyldendal og Politikens Danmarkshistorie*, "Færøerne og Island",
   for the Alþingi's resolution of 10 April 1940, the landing of 10 May and the
   Faroese flag and currency; norden.org for *Merkið* on 25 April 1940. lex.dk's
   *Forsvarsaftale for Grønland af 1941* for Kauffmann's declaration of 9 April
   1940, the signature of 9 April 1941 with Adolf Berle, "on His Majesty's behalf",
-  the recall, the dismissal and the treason charge. **The ratification is 16 May
+  the recall, the dismissal and the treason charge; chapter 44 tells what
+  followed in 1945. lex.dk's *landsfoged* for the two officials, 1925–50. *Dansk
+  Biografisk Leksikon* on Eduard Reventlow for his break with Copenhagen on 1
+  December 1941 (the Meanwhile). **The ratification, in the carry-forward, is 16 May
   1945, not the 12th lex.dk gives**, on Kauffmann's own note of the time (FRUS
   1945, IV, 569); the 12th is the day he became a minister.
 - **Alsang and the economy.** lex.dk for Axel Bang and the 750,000 at 208 places
@@ -811,31 +828,40 @@ DNSAP kept three seats on a vote that had risen by nearly two-fifths since 1939.
   1941 and the unpaid clearing balance; lex.dk for the surplus of about 3 billion
   kroner.
 - **The communists and the Free Corps.** lex.dk's *Kommunistinterneringerne under
-  besættelsen* for the 195 arrested on 22 June 1941, the list of 72 names, the 116
-  still held on 22 August, the 90 who escaped, the 150 sent to Stutthof and the 22
-  dead. danmarkshistorien.dk on the Communist Law for the unanimous vote, the
+  besættelsen* for the 195 arrested on 22 June 1941, the list of 72 names, the
+  prison cells, most in Vestre Fængsel, the 116 still held on 22 August and moved
+  to Horserød, the 90 who escaped, the 150 sent to Stutthof and the 22 dead. danmarkshistorien.dk on the Communist Law for the unanimous vote, the
   eight-year penalty, section 2, the retroactivity, the constitutional breach and
   Aksel Larsen; and for the War Ministry's order of 8 July 1941, quoted in Danish,
   with the editors' note on its use in the post-war trials. lex.dk's *Frikorps
-  Danmark* for the DNSAP's initiative, the 7,000 and the 3,300 sentenced.
+  Danmark* for the DNSAP's initiative and "ca. 7000 at have meldt sig til tysk
+  krigstjeneste"; danmarkshistorien.dk, *De danske østfrontsfrivillige 1940-1945*,
+  for "kun 6.000 af de i alt 12.000 danskere, som meldte sig, blev optaget" and
+  "over 3.000" sentenced (lex.dk: ca. 3,300, two to four years), and for the
+  minority's share of the twelve thousand: "Desuden meldte hele 1.500 sig fra det
+  tyske mindretal i Sønderjylland", in the same paragraph as "i alt 12.000".
 - **November 1941, and the wireless.** leksikon.org for Renthe-Fink's note of the
   20th, the ultimatum of the 23rd, the cabinet majority against, Scavenius's threat
   to resign and the hundred arrests; *Gyldendal og Politikens Danmarkshistorie*,
   "Begyndende modstand", for the shout of *landsforræder*; dengang.dk for
   Ribbentrop's attempt to ignore the reservations and the government's own
   *nødretsforanstaltning*; krigendagfordag.dk for the press release. lex.dk's
-  *Illegale blade* for *De frie Danske*, founded in December 1941 in response to
-  the pact. danmarkshistorien.dk's *BBC og Danmark 1940-1945* for the broadcast at
+  *Illegale blade 1940-1945* for the communists' *Politiske Maanedsbreve* from
+  October 1941 and *De frie Danske*, founded by "konservative kredse i København"
+  in December 1941 in response to the pact. danmarkshistorien.dk's *BBC og Danmark 1940-1945* for the broadcast at
   18.30 on 9 April 1940 and for listening never being banned; *Dansk Biografisk
-  Leksikon* for Kate Fleron.
+  Leksikon* for Kate Fleron (born 16 June 1909; on *Frit Danmark*'s board about
+  six months after its first number of 9 April 1942).
 - **The telegram and the election.** lex.dk's *Telegramkrisen*, with the English
   Wikipedia for the German text of the reply. *Stat. Medd.* 4. R. 120. Bd. 1. H.,
   *Rigsdagsvalgene i marts og april 1943*, for the electorate of 2,280,716, the
   2,040,583 who voted, the 29,800 blank and invalid and the 2,010,783 valid. **The
   party counts are not that volume's**: its OCR gives the DNSAP 48,809 and Dansk
   Samling 43,867, which overshoot its own total by 5,972, so the counts are
-  lex.dk's *Folketingsvalget 1943*, which reconcile to within 28 votes. Every
-  percentage is computed; the DNSAP's 31,032 in 1939 is chapter 40's.
+  lex.dk's *Folketingsvalget 1943*, which reconcile to within 28 votes; the same
+  article for the turnout as "den højeste i Danmark nogensinde" at a general
+  election. lex.dk's *Dansk Samling* for its founding in 1936. Every percentage is
+  computed; the DNSAP's 31,032 in 1939 is chapter 40's.
 - **Open questions this chapter carries.** The text of the four reservations to
   the Anti-Comintern Pact is in none of the accessible sources, and one account
   denies there were any. The sixteen dead are described three ways and thirteen
