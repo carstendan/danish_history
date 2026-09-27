@@ -72,9 +72,9 @@ def atlantic():
              % (H, W, H, M.LAND_EDGE))
     o.append(t(20, H + 24, "REACHED THROUGH NORWAY", "mapt", PART_E))
     for i, l in enumerate([
-            "All of this came to Denmark in 1380, when a ten-year-old inherited two crowns, and none of it",
-            "was ever governed from Copenhagen. Bergen to Gar\u00f0ar is about 3,000 km \u2014 further than Copenhagen to",
-            "Baghdad. One or two ships a year made the crossing in a good decade, and by the 1400s not even that."]):
+            "All of this came to Denmark in 1380, when its nine-year-old king inherited Norway, and none of it",
+            "was ever governed from Copenhagen. Bergen to Gar\u00f0ar is 2,700 km direct \u2014 further than Copenhagen to",
+            "Lisbon. One or two ships a year made the crossing in a good decade, and by the 1400s not even that."]):
         o.append(t(20, H + 48 + i * 16, l, "mapx", MUTED))
     o.append('</svg>')
     return "\n  ".join(o), W, H + STRIP

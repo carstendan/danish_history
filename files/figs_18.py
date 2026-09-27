@@ -98,7 +98,7 @@ def hemmingstedt():
     o = ['<svg viewBox="0 0 %d %d" xmlns="http://www.w3.org/2000/svg" role="img" '
          'aria-label="Schematic of the battle of Hemmingstedt on 17 February 1500. A royal army '
          'of about twelve thousand advances along a single raised road through the marsh towards '
-         'Heide. The Ditmarschers block the road with an earth bank, attack the head of the column '
+         'Heide. The Dithmarschers block the road with an earth bank, attack the head of the column '
          'from both sides, and open the sluices so that the marsh floods. Some four thousand of '
          'the royal army die, many by drowning.">' % (W, H),
          '<rect x="0" y="0" width="%d" height="%d" fill="%s"/>' % (W, H, M.PAPER)]
@@ -136,7 +136,7 @@ def hemmingstedt():
             dy = 34 if y < 170 else -34
             o.append('<line x1="%d" y1="%d" x2="%d" y2="%d" stroke="%s" stroke-width="1.6" '
                      'opacity=".85"/>' % (x, y, x + 10, y + dy, OX))
-    o.append(t(620, 132, "Ditmarschers, perhaps 2,000", "mapx", OX))
+    o.append(t(620, 132, "Dithmarschers, a few hundred at first", "mapx", OX))
     o.append(t(620, 258, "sluices opened \u2014 the marsh floods", "mapx", OX))
 
     o.append('<text x="874" y="188" class="mapl" fill="%s" text-anchor="end">to Heide \u2192</text>'
@@ -150,7 +150,7 @@ def hemmingstedt():
             ("The ground", "A single raised road through drained marsh in February. Artillery went "
                            "into the ditch and stayed there"),
             ("The loss", "Around 4,000 dead, many drowned. Eleven of the Ahlefeldt family, six of "
-                         "the Buchwald. Ditmarschen lost under 100"),
+                         "the Buchwald. Dithmarschen: under 100, by one count"),
             ("The banner", "The royal Dannebrog was taken. Frederik 2. got it back in 1559, "
                            "\u2018almost destroyed by damp and age\u2019")]):
         o.append(t(26, 326 + i * 24, head, "mapl", PART_E))

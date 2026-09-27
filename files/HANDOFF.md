@@ -1279,12 +1279,12 @@ the time — **Julian before 1 March 1700, Gregorian after** — with the foreig
 in parentheses at the first divergence in a chapter.
 
 Everything in Parts A–F is therefore Old Style. Part F has two divergences on the page:
-Lutter am Barenberge in chapter 23 ("17 August — 27 August in the new style"), and the
-battle of the Sound in 24 ("29 October 1658 — 8 November by the Dutch reckoning"). Sweden
+Lutter am Barenberge in chapter 23 ("17 August (27 August in the new style …)"), and the
+battle of the Sound in 24 ("29 October 1658 (8 November by the Dutch reckoning …)"). Sweden
 was on the Julian calendar in 1658 too, so the Swedish dates in 24 do not diverge. Both
-set the foreign style off with a dash, where D-6 and the index say parentheses (Part G
-uses parentheses); found in review session 12, not changed — a body edit for the next pass
-through Part F. (This
+set the foreign style off with a dash, where D-6 and the index say parentheses; found in
+review session 12, **brought to the parenthesis form in review session 13**, each clause
+kept whole. (This
 paragraph said Part F had no divergence and gave Lutter as "27 August or 6 September" until
 review session 12; CONVENTIONS D-6 has the correction of session 8.) **Fix: one line in the index's conventions list** — **done in review session
 12**, the *Calendar* line of *Decisions already made*.
@@ -4911,6 +4911,64 @@ split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see it
    G–I had never seen Part E's, because the search for producers was written for the scripts it had
    met. *A number handed on is a claim until it is measured again; and a witness covers only the
    files its search was written to find — so find, by hand, what it should have found.*
+
+151. **The consistency review, session 13: §16.5 checked against sources, and D-6's form in Part F.**
+   27 September 2026. Full record in `REVIEW-CONSISTENCY.md` §17.
+
+   **Cold run on a fresh clone of `ebc6357`: every figure matched START_HERE_review_13**, and item
+   150's commit carries its pages, `svg_fealty.txt` and `c38_body.html`. State lived in
+   `claude/session13_state.md` and `claude/session13_wip.patch`.
+
+   **§16.5, EVERY ITEM AGAINST A SOURCE.** Six researchers, one per group of chapters; a source
+   before a change, the source on the page, every question on a changed page re-read. **Eleven
+   claims right and left alone, each with its source** (Engesvang, the Egemarke elk, Borum Eshøj's
+   1870s, Vindelev's twenty years and thirty-four runes, the horns melted at once, "three built out",
+   11's eighteen years, February 1388, 18's twenty-six years, twenty-five visits to Norway, Hammershus
+   to Christmas 1661). **Corrected, with the source on the page, in 01, 04, 07–13, 15–17 and 19–23**:
+   among them the Jelling stone (ten tonnes, not three), Rügen (east of the Eider, not south),
+   Bergen–Garðar (2,700 km — not further than Baghdad; further than Lisbon), Oluf nine, eleven years
+   in 16's figure, the Schauenburgs (a cousin line survived and claimed Holstein), Hemmingstedt (a few
+   hundred Dithmarschers at first; eleven Ahlefeldts), the Swedes into Holstein in December 1643 and
+   Jutland in January, the Sound toll registers, *krongods* four- or fivefold, 04's rock carvings
+   often *near* the sea. Five questions followed their facts (08 Contested, 09 Recall, 15 cp3.1, 19's
+   checkpoint, 10's opener — false, so changed). **Eight of the checkers' own reasons were wrong** —
+   "nineteen" for 1085 and "27" for Erik were year-number subtractions; "September 1661", "about
+   thirty visits" and "1891" had no source; 21's registers were the Sound's, not the parishes'; the
+   Engesvang elk exists; the "museum quotation" was about the Vindelev bracteate, not the horns.
+
+   **D-6 IN PART F.** 23's Lutter and 24's battle of the Sound now set the foreign style in
+   parentheses, each clause kept whole; HANDOFF's *Dates* section says so.
+
+   **CHECKED THREE TIMES.** Check 1 (three agents, every hunk and every RIGHT verdict against a
+   source): five faults — 08's Contested question now false; 11's "no blood link" (Harold Godwinson
+   was Sweyn Estridsen's first cousin through Gytha); 15's Sources note saying more than lex.dk; 19's
+   milhist.dk line citing what the page does not say; 20's gloss against the figure's schematic bars
+   (recorded, not changed) — and doubts taken: 09's plough "on wheels", 04's Trindhøj without a year
+   (1861), 15's sentence, 17's distances note, 19's "fewer than ten" (about ten), "or more" Ahlefeldts,
+   and "a nine-year-old inherited two crowns" (he inherited Norway). Check 2 (one agent): two doubts —
+   09's question still said "wheeled", 19's "by the list of the fallen" was uncited — both fixed.
+   Check 3 (one agent): both OK.
+
+   **FOUND, NOT CHANGED** (§17.3): 10 "in three years"; Estrid half-sister; leding's date; 13's
+   hostages; 16's Stockholm month; 18's Gotland 1436; 19's "six of the Buchwald" and Meldorf 13/14
+   February; 20 Fig. 3's schematic bars; Glückstadt 1616/1617; the maps' "Ditmarschen"; 21 §06 now
+   OVER (763) — not for cutting (D-16). Tooling (write-before-check in G–I, CSS braces, `figcheck` and
+   `map_*.py`) not reached.
+
+   **VERIFIED** in the working clone after the last edit: `figs_16b.py`, `fig_crowns.py`,
+   `figs_18.py`; A–F built clean (E 14 fresh, F 12; D 12 sourceless; A–C inline), `linkindex`,
+   `index_generator`; the suite: **FIXTURE PASSES; seams pass; debuild 45 identical; 45 of 45,
+   351,926 page words, 27.9 h; 21 is 50 minutes (10,559), 44 48, 45 50; vignettes 148/116, selftest
+   passes; figcheck 98/30/0; five OVER; draftnotes clean; appcheck 167 in 21; freshcheck 21; tidy
+   clean; 2 pointers, 0 same-page glosses, Schleswig 316 / Slesvig 4, sweep_facts 2, arrows 254,
+   solvency 38; qs 0/224, Causal 0/168, Recall 0/198, 0 pairs.** Pages that change: **01, 04, 07, 08,
+   09, 10, 11, 12, 13, 15, 16, 17, 19, 20, 21, 22, 23, 24.** The index does not change.
+
+   **LESSON.** A flagged claim arrives with a reason, and the reason is a claim too: eight of
+   §16.5's were wrong, and two of them (18's "27", 11's "nineteen") would have broken right pages by
+   the same year-number subtraction D-8 forbids. *Check the flag's reason against the source as hard
+   as the page; and when a correction touches a fact, the questions that ask it are part of the
+   correction.*
 
 ---
 

@@ -3412,3 +3412,154 @@ Causal 0/168, Recall 0/198; 0 opener–tier pairs; `asked_twice` 0 of 45. Pages 
 
 **None taken, none open.** For his read: 15 opener 4; 21 at 50 minutes, the top of the band, with 45;
 §16.5's list.
+
+## 17. Session 13 — §16.5 checked against sources, and D-6's form in Part F
+
+*27 September 2026, from `START_HERE_review_13.md`. State in `claude/session13_state.md` and
+`claude/session13_wip.patch`, saved after the cold run, after the research, after each check.*
+
+**The cold run matched every line** on a fresh clone of `ebc6357` (item 150's commit, which carries
+its pages, `svg_fealty.txt` and `c38_body.html`): tidy clean, 45 bodies; FIXTURE PASSES; SEAM LAYER
+PASSES; debuild 45 identical; 45 of 45, 351,041 page words, 27.9 h, every part as the brief; 21 is 50
+minutes (10,530), 44 48, 45 50; vignettes 148/116, 01/03/04/05 "[f] part", selftest passes; figcheck
+98/30/0; four OVER, 32 §09 749; draftnotes clean in 45 and 14; appcheck 167 in 21; freshcheck 21; all
+nine builds as the brief, 45 chapter lines "vocabulary clean | questions asked once", no `!!`; git
+clean after `linkindex` and `index_generator`; 2 pointers, 0 insolvent, 0 same-page glosses; Schleswig
+315 in 31, Slesvig 4 in 3; sweep_facts 2; arrows 254, 37 thread notes, form 7, solvency 38, the rest
+0; qs 0/224, Causal 0/168, Recall 0/198, 0 opener–tier pairs.
+
+**How the session ran.** Six researchers, one per group of chapters (01–04, 07–09, 10–13, 15–18,
+19–20, 21–24), each with `BRIEF_research.md`: a source before a change; the page's Sources block
+gets the source; every question on a changed page re-read. The lead read every hunk and changed four.
+Check 1: three agents who had not seen the work, one per third of the diff, every hunk and every
+RIGHT verdict against a source. Check 2: one agent on check 1's fixes. Check 3: one agent on check
+2's two. Ledgers in the session's working directory only (the project is near full): the
+researchers' `ledger_A`–`F`, `check1_X`/`Y`/`Z`, `check2`, `check3`.
+
+### 17.1 §16.5, item by item
+
+**The checkers' reasons were wrong about as often as the pages.** Of the claims §16.5 carried, eight
+of the *reasons* failed against a source: the Engesvang elk (there is one; Egemarke is a second,
+older piece); 07 §02's "twenty years" and "thirty-four runes" (they are the Vindelev bracteate —
+Imer's "mine 20 år som runolog", 34 runes with bind-runes — not the horns); 11 §09's "nineteen"
+(1085 − 1066; Knud's fleet sailed home before 14 October, eighteen completed years); 18 §01's "27"
+(28 October 1412 to 23 June 1439 is twenty-six); 21's "church registers" (the passage is the Sound
+toll registers); 22 §02's "about thirty" visits (Store norske leksikon: "trolig 25 ganger"); 24 §08's
+"September" (DBL: freed "ved juletid 1661"); 04's "1891" at Borum Eshøj (no source has it).
+
+**Right, unchanged, with the source:** 02 §07 the Engesvang amber (Trap/lex: Ertebølle, a bird "måske
+en svømmefugl", an elk); 01 §09 the Egemarke elk head (Maglemose by ornament, Allerød by Trap 2012 —
+"disputed" stands); 04 §04 Borum Eshøj "dug in the 1870s" (1871, 1875); 07 Vindelev; 07 Myth-check
+"melted down within days" (*Danmarks Oldtid* "i tiden umiddelbart derefter"); 10 §07 "three built out"
+(Borgring unfinished, lex.dk); 11 §09 eighteen years; 16 §06 February 1388 (Arkivverket: Oslo, 2
+February; the heir in February, DBL); 18 §01 twenty-six years; 22 §02 twenty-five visits; 24 §08
+Hammershus to the end of 1661.
+
+**Wrong, corrected, the source added to the page's Sources:**
+- **01 §03/§08** Sølbjerg: two sites on one ridge (lex.dk) — a Hamburg camp and the first proper
+  Ahrensburg settlement; both sections now say so.
+- **04 §04** "first dug into in 1871": the mound was dug into in 1850 (Trap); now "gave up its first
+  oak coffin in 1871", and **Trindhøj**, which had no year, is 1861 (lex.dk: four oak coffins), first
+  in the list. **§05** "most of the pictures … nowhere near the sea": lex.dk *helleristninger* says the
+  opposite ("ofte placeret i umiddelbar nærhed af kysten"); the sentence now gives coastal siting as
+  the plain reason and Kaul's as a further one.
+- **07 §06** the Sutton Hoo shoulder clasps are "based on Roman prototypes" (British Museum); the
+  helmet alone keeps its Scandinavian parallels. **§09** dendrochronology gives the felling year only
+  "if the outermost ring under the bark survives" (lex.dk).
+- **08 §07** "consensus has moved steadily downwards": Sawyer's few hundred in the 1960s, Torksey's
+  fifty-five hectares (Hadley, Richards et al. 2016) pushing estimates back up; "low thousands" kept.
+  The Contested question that called low thousands "the lower modern estimate" is rewritten (check 1).
+- **09 §07** the wheeled plough: a mouldboard plough in the Viking Age, whether yet on wheels
+  uncertain, dominant only about 1100 (Bøgh, danmarkshistorien); rye the chief grain *before* the
+  Viking Age (*Danmarks Oldtid*); the Recall question follows. Churches "from the 850s" against
+  "around 848": now "around 850" in 09's Myth-check and page-in-five, and 10's "since the 850s".
+- **10 §03** the Jelling stone is "en runesten på 10 tons" (Nationalmuseet), not three. **Opener 3
+  and page-in-five** "five identical fortresses": one plan, different sizes (Aggersborg 240 m, lex.dk)
+  — the opener was false, so it changed.
+- **11 Fig. 3** Harold Godwinson was a Godwin; his sister Edith was Edward's queen. The caption's "no
+  blood link to this family" is now "descended from no one in this tree" — check 1 found Harold was
+  Sweyn Estridsen's first cousin through his mother Gytha, Ulf Jarl's sister.
+- **12 §03** leding commuted "only if the men agreed": no source; lex.dk has *kværsæde*, fines and
+  payment to stay home. **13 §02** "holiness by accident": Knud den Hellige's canonisation was sought
+  under Oluf and won by Erik Ejegod (danmarkshistorien), as 12 §05 says. **13 §11** Rügen is east of
+  the Eider: the 1225 terms were "alle områder mellem Ejderen og Elben samt alle vendernes lande mod
+  øst, bortset fra Rügen" (Grænseforeningen).
+- **15 cp3.1** "four hundred years" is 1360–1857, 497; and §08's "control of both shores" did not last
+  to 1857 — Skåne went in 1658 and the toll stayed. Both sentences corrected (lex.dk *Sundtolden*).
+- **16 Fig. 2** "TEN YEARS": 3 August 1387 to Stockholm, September 1398, is eleven, as the caption
+  said. The month rests on weak sources; the Sources line says "usually given".
+- **17 Fig. 1** Bergen–Garðar is 2,690 km great-circle, Copenhagen–Baghdad 3,490: now "2,700 km direct
+  — further than Copenhagen to Lisbon" (2,480). Oluf was born about Christmas 1370 (DBL) and inherited
+  Norway in 1380 aged nine, already king of Denmark since 1376 — "its nine-year-old king inherited
+  Norway", not "a ten-year-old inherited two crowns".
+- **19 §01** only Adolf 8.'s branch died out; the Pinneberg Schauenburgs lasted to 1640 (DBL) and
+  claimed Holstein. The two laws now point opposite ways by territory — Danish law gives Schleswig to
+  Christian, German law Holstein to Pinneberg; a checkpoint whose premise was false follows, and the
+  glossary *arveret* says the law decided the better claim, not the outcome. The **Myth-check**'s
+  "chapter 13 argued … about 1500" is false (13 leaves the legend's origin open). **Fig. 2 and
+  prose** at Hemmingstedt: "a few hundred at first" at the bank (Gesellschaft für
+  Schleswig-Holsteinische Geschichte: about 300), eleven Ahlefeldts (milhist.dk; the prose had
+  seven), Dithmarschen's losses "under a hundred, by one modern count" (milhist.dk). §08's "fewer
+  than ten of the fifty-two years" is about ten (7 years for Christian 1., 3 for Hans to 1500): now
+  "about ten". The figure's "Ditmarschers" is Dithmarschers (D-15).
+- **20** the *krongods* glossary's "roughly triples" is four- or fivefold (Den Store Danske: a tenth,
+  then 40–50 %), as the prose says.
+- **21 §06** the Sound toll registers: 1497, scattered years, 1536–48, "praktisk talt ubrudt" from
+  1574 (Den Store Danske); 18's "unbroken from 1574" is right.
+- **22 Fig. 1**'s caption said 1596–1625; the script and §04 say 1599–1624 (DBL, Den Store Danske).
+  **§09** "two new fortified towns" matched nothing the page counts; now "new fortified towns from
+  Blekinge to the Elbe" (DBL, Den Store Danske).
+- **23 §07** the Swedes entered Holstein in mid-December 1643 and Jutland early in January 1644
+  (Gyldendal og Politikens Danmarkshistorie; Nationalmuseet).
+
+### 17.2 D-6's form in Part F
+
+23 (Lutter) and 24 (the Sound) set the foreign style off with a dash. **Brought to the parenthesis
+form**, each clause kept whole: "on 17 August (27 August in the new style the Catholic powers already
+used, which is the date most German and English accounts give)"; "On 29 October 1658 (8 November by
+the Dutch reckoning, which was already the new style) a Dutch fleet". Meaning unchanged. HANDOFF's
+*Dates* section says so.
+
+### 17.3 Found, recorded, not changed
+
+Not in §16.5, or not settled by a source reached:
+- 10 opener 3 and the page-in-five: "in three years" / "within a few seasons" is loose (Borgring begun
+  in the late 970s and never finished); openers change only if false. lex.dk also counts Trelleborg in
+  Skåne and Borgeby, which the page does not mention.
+- 11: DBL calls Estrid Cnut's *half*-sister; the page says sister.
+- 12: lex.dk *leding* dates the farmers' levy to about 1170; 12 treats it as working in 1075–85 — a
+  live dispute the page does not hedge.
+- 13 §11: "his younger sons … as hostages"; Grænseforeningen has "ti gidsler".
+- 16 Fig. 2: Stockholm's month (September 1398) rests on weak sources.
+- 18 line 327: "In 1437 or 1438 he left for Gotland"; DBL has Erik living mostly at Visborg from 1436.
+- 19 Fig. 2: "six of the Buchwald" found in no source reached; "Meldorf, taken 14 February" against
+  13 February in the German accounts. Both left for a source.
+- 20 Fig. 3's bars (crown 16 → 49, "about a sixth to about half" in the alt text) are schematic and the
+  caption says so and cites the tenth; the glossary now agrees with the prose, not the bars.
+- 22: Den Store Danske dates Glückstadt 1616; the page's 1617 is the town charter (22 March 1617).
+- 02 §07 "among the oldest representational art securely known" is loose (Egemarke and Maglemose
+  pieces are older).
+- `map_1500.py`, `map_1600.py` and `map_1660.py` aria-labels say "Ditmarschen" (D-15 leaves the maps for
+  a decision of their own).
+- 21 §06 is now OVER (763): the registers sentence. Not for cutting (D-16).
+
+**Tooling, not reached:** `build_part_g/h/i.py` still write a page before its structural checks; no
+build counts the CSS brace imbalance it prints; `figcheck` does not run `map_*.py`.
+
+### 17.4 Verified
+
+In the working clone after the last edit: `figs_16b.py`, `fig_crowns.py`, `figs_18.py`; A–F built
+clean — A–C "all eleven", D "0 checked, 12 sourceless … none stale", E "14 … all fresh", F "12 … all
+fresh"; `linkindex`, `index_generator`; then the whole suite: **tidy clean; FIXTURE PASSES; SEAM
+LAYER PASSES; debuild 45 identical; 45 of 45, 351,926 page words, 27.9 h (A 21,445, B 26,496, C
+26,643, D 32,334, E 36,733, F 30,452, G 54,240, H 43,460, I 80,123); 21 is 50 minutes (10,559), 44 48,
+45 50; vignettes 148/116, selftest passes; figcheck 98/30/0; five OVER (16 §08 852, 21 §06 763, 42 §02
+767, 43 §02 780, 44 §03 761); draftnotes clean; appcheck 167 in 21; freshcheck 21; 2 pointers, 0
+insolvent, 0 same-page glosses; Schleswig 316 in 31, Slesvig 4 in 3; sweep_facts 2; arrows 254,
+solvency 38, the rest 0.** Questions: qs 0/224, Causal 0/168, Recall 0/198; 0 opener–tier pairs;
+every build line "questions asked once". Pages that change: **01, 04, 07–13, 15–17, 19–24** (eighteen);
+the index does not.
+
+### 17.5 Decisions for Carsten
+
+**None taken, none open.** For his read: 15 opener 4; 21 and 45 at 50 minutes; the five OVER; §17.3.

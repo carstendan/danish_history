@@ -117,6 +117,10 @@ Fredriksten (night to 4 July; the Swedes' 22 June) (`REVIEW-CONSISTENCY.md` §14
 **Part I, review session 11:** no Russian date before February 1918 on any page (37's Meanwhile
 gives Russia's 1917 by year); nothing to add (`REVIEW-CONSISTENCY.md` §15.5).
 
+**Part F, review session 13:** its two divergences — 23's Lutter (17 August, 27 new style) and 24's
+battle of the Sound (29 October 1658, 8 November Dutch) — were set off by a dash; both now in
+parentheses, each clause kept whole (`REVIEW-CONSISTENCY.md` §17.2).
+
 **Defined.** `PLAN_G.md` §6; `HANDOFF.md`, *Dates: old style and new style*.
 
 ### D-7 · The Atlantic chapter is 30, after the reforms — spent
