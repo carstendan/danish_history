@@ -1,4 +1,4 @@
-<svg viewBox="0 0 700 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The Danish general election of 23 March 1943 drawn as shares of the whole electorate of 2,280,716. The four cooperating parties took 81.9 per cent of the electorate, Dansk Samling and the Danish Nazi party 1.9 per cent each, and 10.5 per cent did not vote. Turnout was 89.5 per cent, the highest in Danish history.">
+<svg viewBox="0 0 700 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The Danish general election of 23 March 1943 drawn as shares of the whole electorate of 2,280,716. The four cooperating parties took 81.9 per cent of the electorate, Dansk Samling and the Danish Nazi party 1.9 per cent each, and 10.5 per cent did not vote. Turnout was 89.5 per cent, the highest at any Danish general election.">
   <rect x="0" y="0" width="700" height="360" fill="#F4F1EA"/>
   <text x="14" y="24" class="mapl">23 MARCH 1943: THE WHOLE ELECTORATE AS ONE BAR</text>
   <text x="14" y="40" class="mapt">the same denominator chapter 40 used for the referendum of 1939</text>

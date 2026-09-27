@@ -1,5 +1,5 @@
-<svg viewBox="0 0 700 303" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The Danish Landsting from 1849 to 1953 in three franchise regimes: indirect election from men over forty, then Estrup's privileged franchise with twelve royal appointees, then voters over thirty-five with a quarter co-opted. It voted for its own abolition on 13 May 1953.">
-  <rect x="0" y="0" width="700" height="303" fill="#F4F1EA"/>
+<svg viewBox="0 0 700 290" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The Danish Landsting from 1849 to 1953 in three franchise regimes: indirect election from men over forty, then Estrup's privileged franchise with twelve royal appointees, then voters over thirty-five with a quarter co-opted. It voted for its own abolition on 13 May 1953.">
+  <rect x="0" y="0" width="700" height="290" fill="#F4F1EA"/>
   <text x="14" y="24" class="mapl">THE LANDSTING, 1849 - 1953: WHO CHOSE IT</text>
   <text x="14" y="40" class="mapt">three franchise regimes on one axis, spans computed from the dates</text>
   <text x="14" y="62" class="mapx" opacity=".75">Each reform answered the objection and removed a reason to exist.</text>
@@ -21,8 +21,7 @@
   <line x1="572.1" y1="146" x2="572.1" y2="196.0" stroke="#2A2A28" stroke-width=".7" opacity=".6"/>
   <text x="449.5" y="205" class="mapx" style="fill:#2A2A28">1936: its majority matches the Folketing's</text>
   <text x="353.8" y="219" class="mapx" style="fill:#2A2A28">13 May 1953: votes to abolish itself; last sits on the 15th</text>
-  <text x="14" y="243" class="mapx" opacity=".85">Days on one axis, every span computed from its two dates. The chamber sat 37,985 days - 104.0 years - and each reform</text>
-  <text x="14" y="256" class="mapx" opacity=".85">made it more like the Folketing and less able to say why it was separate. By 1936 its majority matched the lower</text>
-  <text x="14" y="269" class="mapx" opacity=".85">house's. On 13 May 1953, at the first reading of the bill abolishing it, it voted for its own abolition, and it sat for</text>
-  <text x="14" y="282" class="mapx" opacity=".85">the last time two days later.</text>
+  <text x="14" y="243" class="mapx" opacity=".85">Days on one axis, every span computed from its two dates. The chamber existed 37,985 days - 104.0 years - from the</text>
+  <text x="14" y="256" class="mapx" opacity=".85">constitution of 5 June 1849 to that of 5 June 1953. It voted for its own abolition on 13 May 1953 and sat for the last</text>
+  <text x="14" y="269" class="mapx" opacity=".85">time on the 15th, three weeks before the end of the bar.</text>
   </svg>

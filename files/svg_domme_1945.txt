@@ -1,4 +1,4 @@
-<svg viewBox="0 0 700 376" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="What the 13,521 convictions of the Danish retsopgoer were for. Service in the German forces 7,277; service in the German police 1,638; building for the Wehrmacht 1,139; informing 413; the Danish Nazi leadership about fifty; and 3,004 in categories the published summary does not name.">
+<svg viewBox="0 0 700 376" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="What the 13,521 convictions of the Danish retsopgør were for. Service in the German forces 7,277; service in the German police 1,638; building for the Wehrmacht 1,139; informing 413; the Danish Nazi leadership about fifty; and 3,004 in categories the published summary does not name.">
   <rect x="0" y="0" width="700" height="376" fill="#F4F1EA"/>
   <text x="14" y="24" class="mapl">WHAT THE 13,521 CONVICTIONS WERE FOR</text>
   <text x="14" y="40" class="mapt">the official table at final instance, with the women's share inset</text>

@@ -41,6 +41,6 @@
   <text x="183.0" y="308.0" class="mapx" opacity=".9">railway sabotage</text>
   <text x="14" y="328" class="mapx" opacity=".85">* 1945 is FOUR MONTHS, to the capitulation on 5 May. Read as a year it understates the last winter by a factor of three.</text>
   <text x="14" y="341" class="mapx" opacity=".85">The industrial column adds to its own published total of 2,801 exactly. The railway column adds to 1,527 against a</text>
-  <text x="14" y="354" class="mapx" opacity=".85">published 1,526, and the missing one is marked rather than averaged away: a series quietly adjusted to its own total is</text>
+  <text x="14" y="354" class="mapx" opacity=".85">published 1,526, and the extra one is marked rather than averaged away: a series quietly adjusted to its own total is</text>
   <text x="14" y="367" class="mapx" opacity=".85">worth less than one that has not been.</text>
   </svg>

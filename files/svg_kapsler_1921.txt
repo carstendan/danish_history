@@ -1,4 +1,4 @@
-<svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Postage stamps sealed in iron and celluloid capsules and used as small change in Soenderjylland in 1921 and 1922. 474,234 ten-oere and 467,583 twenty-five-oere pieces were issued; about a quarter of them were never handed back. Haderslev received the most of the four market towns.">
+<svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Postage stamps sealed in iron and celluloid capsules and used as small change in Sønderjylland in 1921 and 1922. 474,234 ten-øre and 467,583 twenty-five-øre pieces were issued; about a quarter of them were never handed back. Haderslev received the most of the four market towns.">
   <rect x="0" y="0" width="700" height="430" fill="#F4F1EA"/>
   <text x="14" y="24" class="mapl">SMALL CHANGE IN A CAPSULE, 1921 – 1922</text>
   <text x="14" y="40" class="mapt">a stamp under celluloid, passed from hand to hand in the new province</text>

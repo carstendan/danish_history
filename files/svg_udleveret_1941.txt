@@ -1,6 +1,6 @@
 <svg viewBox="0 0 700 382" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Danish communists arrested and interned between June 1941 and October 1943. One hundred and ninety-five were arrested by Danish police on 22 June 1941 on a German list of seventy-two names; one hundred and sixteen were still interned when the Communist Law was passed on 22 August; about six hundred passed through the camp at Horserød; about one hundred and fifty were sent to Stutthof in October 1943; twenty-two died.">
   <rect x="0" y="0" width="700" height="382" fill="#F4F1EA"/>
-  <text x="14" y="24" class="mapl">WHO WAS HANDED OVER, 1941 – 1943</text>
+  <text x="14" y="24" class="mapl">THE INTERNED COMMUNISTS, 1941 – 1943</text>
   <text x="14" y="40" class="mapt">Danes arrested by Danish police for a foreign government</text>
   <text x="14" y="62" class="mapx" opacity=".75">Counts, not shares. The four bars are not one cohort — see the note below.</text>
   <text x="14" y="115" class="mapt">22 June 1941</text>

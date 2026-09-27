@@ -25,8 +25,8 @@
   <text x="346.5" y="236.0" class="mapx" opacity=".9">spoiled</text>
   <text x="14.0" y="256.0" class="mapx" style="fill:#5F6157">age ballot components overshoot its published total by 200</text>
   <text x="14" y="278" class="mapx" opacity=".85">Two questions, one Thursday, and two different electorates. The voting-age ballot was open to 229,300 more people than</text>
-  <text x="14" y="291" class="mapx" opacity=".85">the constitutional one, because it was open to those who would be enfranchised if the lower age won. They came, and</text>
-  <text x="14" y="304" class="mapx" opacity=".85">twenty-three beat twenty-one 840,815 to 700,122. On the day Denmark abolished the chamber of property it declined to</text>
-  <text x="14" y="317" class="mapx" opacity=".85">admit the twenty-one-year-olds. Note that the age ballot's own components overshoot its published total by 200 votes -</text>
-  <text x="14" y="330" class="mapx" opacity=".85">the constitutional ballot's reconcile exactly - and the discrepancy is marked rather than averaged away.</text>
+  <text x="14" y="291" class="mapx" opacity=".85">the constitutional one, because it was open to those who would be enfranchised if the lower age won. They could vote on</text>
+  <text x="14" y="304" class="mapx" opacity=".85">it, and twenty-three beat twenty-one 840,815 to 700,122. Note that the age ballot's own components overshoot its</text>
+  <text x="14" y="317" class="mapx" opacity=".85">published total by 200 votes - the constitutional ballot's reconcile exactly - and the discrepancy is marked rather than</text>
+  <text x="14" y="330" class="mapx" opacity=".85">averaged away.</text>
   </svg>

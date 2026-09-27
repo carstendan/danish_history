@@ -6,7 +6,7 @@
   <text x="26" y="96" class="mapx">1861–62</text> 
   <text x="112" y="96" class="mapt">Ten redoubts built in a three-kilometre arc, Vemmingbund to Als Sund</text>
   <text x="26" y="113" class="mapx">7 Feb</text> 
-  <text x="112" y="113" class="mapt">First Danish troops arrive from the Dannevirke. The position is unfinished</text>
+  <text x="112" y="113" class="mapt">First Danish troops arrive from the Danevirke. The position is unfinished</text>
   <text x="26" y="130" class="mapx">15 Mar</text> 
   <text x="112" y="130" class="mapt">Rifled breech-loading guns emplaced on Broager Land, across the water</text>
   <text x="112" y="147" class="mapt">Danish artillery on the position cannot reach them</text>

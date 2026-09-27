@@ -1,7 +1,7 @@
 <svg viewBox="0 0 700 358" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Danish merchant seamen lost in the First World War. Of about ten thousand men in the Danish merchant service, 702 died, which is one man in fourteen, or seven per cent. Two hundred and one of the 702 were lost in sailing ships that left harbour and were never heard of again. Denmark was neutral throughout.">
   <rect x="0" y="0" width="700" height="358" fill="#F0F2EE"/>
   <text x="26" y="34" class="mapl">THE PRICE OF A NEUTRAL FLAG, 1914–18</text>
-  <text x="26" y="54" class="mapt">Danish merchant seamen. No Dane was conscripted; no foreign soldier crossed the border.</text>
+  <text x="26" y="54" class="mapt">Danish merchant seamen. Denmark sent nobody to fight; no foreign soldier crossed the border.</text>
   <rect x="26" y="80" width="14" height="14" fill="#C2704F"/>
   <rect x="43" y="80" width="14" height="14" fill="#C2704F"/>
   <rect x="60" y="80" width="14" height="14" fill="#C2704F"/>
@@ -110,7 +110,7 @@
   <text x="26" y="250" class="mapl" fill="#C2704F">201</text>
   <text x="100" y="250" class="mapt">of the 702 were in sailing ships that left harbour and were never</text>
   <text x="100" y="264" class="mapt">heard of again — 29 per cent of the dead</text>
-  <text x="26" y="294" class="mapx">Deaths and service strength: Soforklaringer 1914–18, as tabulated; the 702 agrees with Den</text>
+  <text x="26" y="294" class="mapx">Deaths and service strength: Søforklaringer 1914–18, as tabulated; the 702 agrees with Den</text>
   <text x="26" y="307" class="mapx">Store Danske. SHIPS LOST IS NOT DRAWN: 324 and 275 both circulate, tonnage lost is given as</text>
   <text x="26" y="320" class="mapx">both 16 and 25 per cent, and choosing between them without a reason would be guessing. The</text>
   <text x="26" y="333" class="mapx">men are counted.</text>
