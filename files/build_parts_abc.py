@@ -497,19 +497,24 @@ for n in sorted(CFG):
     ids = set(re.findall(r'id="([a-z0-9]+)"', h))
     links = set(re.findall(r'href="#([a-z0-9]+)"', h))
     bad = [t for t in ['div', 'ol', 'li', 'ul', 'nav', 'details', 'svg', 'p', 'h2', 'h4', 'dl',
-                       'dt', 'dd', 'a', 'figure', 'figcaption', 'text', 'g', 'tspan']
-           if h.count('<' + t + ' ') + h.count('<' + t + '>') != h.count('</' + t + '>')]
+                       'dt', 'dd', 'a', 'figure', 'figcaption', 'text', 'g', 'tspan', 'h1', 'h3', 'i', 'b', 'em', 'strong', 'span', 'summary', 'header', 'footer']
+           if len(re.findall(r'<%s[\s>]' % t, h)) != h.count('</' + t + '>')]
+    # (review session 14: openings counted by pattern, so '<i' before a line break is
+    # one; and the inline and heading tags added, since an unclosed <em> was written)
     w = pagewords(h)
     # Every structural check is asked before the page is written too. Until review
     # session 12 the anchor check here was `links > ids` - a proper superset - so a link
     # to a missing id never failed; and the part colour was printed but never counted.
+    # The brace imbalance was printed and never counted until review session 14.
+    braces = css.count('{') - css.count('}')
     page_fail = (bool(bad) + (not links <= ids) + bool(h.count('{{'))
+                 + bool(braces)
                  + ('--band:%s;' % PART_COLOUR[c['part']] not in h))
     if not page_fail:
         open(OUT + c['name'], 'w', encoding='utf-8').write(h)
     print("\nchapter %d  %s%s" % (n, c['name'], '' if not page_fail else '  !! NOT WRITTEN'))
     print("  braces %d | placeholders %d | anchors %s | tags %s"
-          % (css.count('{') - css.count('}'), h.count('{{'),
+          % (braces, h.count('{{'),
              'ok' if links <= ids else 'BAD ' + str(links - ids), bad if bad else 'ok'))
     print("  checkpoints %d | vignettes %d | meanwhile %d | figures %d | terms %d"
           % (h.count('class="check"'), h.count('class="vig"'), h.count('class="meanwhile"'),

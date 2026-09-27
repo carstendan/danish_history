@@ -123,7 +123,7 @@ def hemmingstedt():
                  % (x, PART_E))
     o.append(t(60, 164, "the royal army, about 12,000, strung out along the causeway",
                "mapx", MUTED))
-    o.append(t(60, 216, "Meldorf, taken 14 February", "mapx", MUTED))
+    o.append(t(60, 216, "Meldorf, taken 13 February", "mapx", MUTED))
 
     # the bank
     o.append('<rect x="516" y="150" width="16" height="66" fill="%s" fill-opacity=".9"/>' % OX)
@@ -149,8 +149,8 @@ def hemmingstedt():
                           "4,000 mercenaries under Thomas Slentz"),
             ("The ground", "A single raised road through drained marsh in February. Artillery went "
                            "into the ditch and stayed there"),
-            ("The loss", "Around 4,000 dead, many drowned. Eleven of the Ahlefeldt family, six of "
-                         "the Buchwald. Dithmarschen: under 100, by one count"),
+            ("The loss", "Around 4,000 dead, many drowned. Eleven of the Ahlefeldt family. "
+                         "Dithmarschen: under 100, by one count"),
             ("The banner", "The royal Dannebrog was taken. Frederik 2. got it back in 1559, "
                            "\u2018almost destroyed by damp and age\u2019")]):
         o.append(t(26, 326 + i * 24, head, "mapl", PART_E))

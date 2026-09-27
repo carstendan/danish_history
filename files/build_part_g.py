@@ -27,10 +27,13 @@ TWO DIVERGENCES FROM THE DRAFT, both deliberate and both worth knowing about:
      the summary, not in a mid-page pause.
 
     python3 build_part_g.py            # strict: every figure must exist
-    python3 build_part_g.py --stub     # missing figures become a loud placeholder
+    python3 build_part_g.py --stub     # meant to stub a missing figure; see below
 
 --stub exits non-zero even when everything else passes, so a stubbed page cannot be
-mistaken for a finished one.
+mistaken for a finished one. Review session 14: in this part it cannot stub anything.
+Every figure has a script, and pageguard.figures_fresh stops a chapter whose figure is
+missing (NOT BUILT) before build() is reached; build_part_f.py exempts that case under
+--stub and refuses --stub with DK_OUT inside the repository, and this build does neither.
 """
 import html
 import os
@@ -448,16 +451,22 @@ if __name__ == "__main__":
                   % (n, c['name'], '; '.join('%s = %s (%.2f)' % t for t in twice)))
             fail += 1
             continue
-        open(OUT + c['name'], 'w', encoding='utf-8').write(h)
         css = h.split('<style>')[1].split('</style>')[0]
         ids = set(re.findall(r'id="([a-z0-9]+)"', h))
         links = set(re.findall(r'href="#([a-z0-9]+)"', h))
         bad = [t for t in ['div', 'ol', 'li', 'ul', 'nav', 'details', 'svg', 'p', 'h2', 'h4',
                            'dl', 'dt', 'dd', 'a', 'figure', 'figcaption', 'text', 'g', 'tspan',
-                           'clipPath']
-               if h.count('<' + t + ' ') + h.count('<' + t + '>') != h.count('</' + t + '>')]
+                           'clipPath', 'h1', 'h3', 'i', 'b', 'em', 'strong', 'span', 'summary', 'header', 'footer']
+               if len(re.findall(r'<%s[\s>]' % t, h)) != h.count('</' + t + '>')]
+        # (review session 14: openings counted by pattern, so '<i' before a line break is
+        # one; and the inline and heading tags added, since an unclosed <em> was written)
         w = pagewords(h)
         m = round(w / 210)
+        # The summary's count, as build_part_h.py and build_part_i.py ask it; Part G's build
+        # did not ask it until review session 14 (all seven pages had five).
+        five = len(re.findall(r'<ol class="five">.*?</ol>', h, re.S))
+        nfive = len(re.findall(r'<li><p>', re.search(r'<ol class="five">.*?</ol>', h, re.S).group(0))) \
+            if five else 0
         rail = re.search(r'<nav class="rail".*?</nav>', h, re.S).group(0)
         toc = re.search(r'<details class="toc">.*?</details>', h, re.S).group(0)
         tail_ok = all(('#%s' % t[0]) in rail and ('#%s' % t[0]) in toc
@@ -478,9 +487,22 @@ if __name__ == "__main__":
         # every dash and space folded to one form, and whitespace joined.
         # Since review session 10 the reader's text is pageguard.reader_text (§14.6).
         stale = pageguard.stale_vocabulary(h, ALLOWED_ENTRY.get(n, []))
-        print("\nchapter %s  %s" % (n, c['name']))
+        # Every structural check is asked BEFORE the page is written, as the A-F builds ask
+        # it (review session 14). Until then this build wrote the page first and counted
+        # the failures after, so a page with a broken anchor, an unclosed tag, a stray
+        # placeholder, a summary that is not five or an unbalanced stylesheet reached the
+        # repository while the run said only "!! N problems". (--stub cannot write a page
+        # here: every figure has a script, and figures_fresh stops a chapter whose figure is
+        # missing before build() can stub it; build_part_f.py exempts that case, G-I do not.)
+        braces = css.count('{') - css.count('}')
+        page_fail = (bool(bad) + bool(h.count('{{')) + (not links <= ids) + (not tail_ok)
+                     + (not BAND[0] <= m <= BAND[1]) + bool(braces) + (nfive != 5)
+                     + ('--band:%s;' % PART_G not in h))
+        if not page_fail:
+            open(OUT + c['name'], 'w', encoding='utf-8').write(h)
+        print("\nchapter %s  %s%s" % (n, c['name'], '' if not page_fail else '  !! NOT WRITTEN'))
         print("  braces %d | placeholders %d | anchors %s | tags %s"
-              % (css.count('{') - css.count('}'), h.count('{{'),
+              % (braces, h.count('{{'),
                  'ok' if links <= ids else 'BAD ' + str(links - ids), bad if bad else 'ok'))
         print("  checkpoints %d | vignettes %d | meanwhile %d | figures %d | terms %d | "
               "tail in rail+toc %s"
@@ -488,6 +510,9 @@ if __name__ == "__main__":
                  h.count('<figure>'), h.count('class="terms"'), 'ok' if tail_ok else 'BAD'))
         band = 'ok' if BAND[0] <= m <= BAND[1] else 'OUTSIDE BAND'
         note = '' if TARGET[0] <= m <= TARGET[1] else '  <-- note'
+        if nfive != 5:
+            print("  !! SUMMARY IS %d ITEM%s, NOT FIVE — the heading promises five"
+                  % (nfive, "" if nfive == 1 else "S"))
         print("  part %s | vocabulary %s | questions asked once | words %d (~%d min, %s)%s"
               % ('ok' if '--band:%s;' % PART_G in h else 'BAD',
                  'clean' if not stale else 'STALE ' + str(stale), w, m, band, note))
@@ -497,8 +522,6 @@ if __name__ == "__main__":
                   % (mm.group(1), re.sub(r'<[^>]+>', '', mm.group(2)).strip()))
         if stubbed:
             print("  !! STUBBED: %s" % ", ".join(stubbed))
-        fail += (bool(bad) + bool(h.count('{{')) + (not links <= ids) + (not tail_ok)
-                 + (not BAND[0] <= m <= BAND[1]) + bool(stubbed) + bool(stale)
-                 + ('--band:%s;' % PART_G not in h))
+        fail += page_fail + bool(stubbed) + bool(stale)
     print("\n%s" % ('all seven built clean' if not fail else '!! %d problems' % fail))
     sys.exit(1 if fail else 0)

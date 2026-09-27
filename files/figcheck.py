@@ -31,8 +31,9 @@ WHAT IT REPORTS
     MISSING     the page wants a figure whose .txt is not on disk
     unmatched   an inline SVG that matches no .txt (Parts A-C's inline figures)
 
-`--regen` re-runs every `figs_*.py` and `fig_*.py` first, so a generator edited but never run is
-caught too (not the map_*.py scripts: the part builds witness those, through pageguard). Without it, the check compares against the .txt files as they stand,
+`--regen` re-runs every `figs_*.py`, `fig_*.py` and `map_*.py` first, so a generator edited but
+never run is caught too (the map scripts since review session 14; the part builds witness them as
+well, through pageguard). Without it, the check compares against the .txt files as they stand,
 which is what the build would actually inline.
 
 NOTE ON WHAT THIS CANNOT SEE. Parts A-C's thirty figures are inline in their
@@ -105,10 +106,14 @@ def regen():
     """Re-run every figure generator, so a stale .txt is caught as well.
 
     fig_*.py as well as figs_*.py since review session 12: fig_crowns.py and fig_titles.py
-    (Part E) were never re-run here, the blind spot pageguard.producers had too. The
-    map_*.py scripts are not re-run here; the part builds witness them (pageguard)."""
+    (Part E) were never re-run here, the blind spot pageguard.producers had too. map_*.py
+    since review session 14: the seven territory maps (svg_terr_*.txt, inlined in Parts E-H;
+    Part D's svg_terr_1050 and svg_terr_1250 have no script)
+    were left to the part builds, so a map script edited and never run reached figcheck's
+    verdict unseen. Each runs in about a second."""
     scripts = sorted(glob.glob(os.path.join(HERE, 'figs_*.py'))
-                     + glob.glob(os.path.join(HERE, 'fig_*.py')))
+                     + glob.glob(os.path.join(HERE, 'fig_*.py'))
+                     + glob.glob(os.path.join(HERE, 'map_*.py')))
     print('regenerating from %d scripts' % len(scripts))
     for s in scripts:
         r = subprocess.run([sys.executable, os.path.basename(s)],

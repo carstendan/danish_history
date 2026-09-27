@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
-"""Figure 2, chapter 16: eleven years, nine places.
+"""Figure 2, chapter 16: three crowns, nine places (review session 14: "eleven years" rested on
+a September 1398 no reference work gives).
 
 Not a territorial map - chapter 16 already carries the 1397 spine map for that.
 This one carries the sequence, which the spine map cannot: where each of the
@@ -90,7 +91,7 @@ def build():
     out.append('<rect x="0" y="%d" width="%d" height="%d" fill="%s"/>' % (H, W, KEY_H, M.PAPER))
     out.append('<line x1="0" y1="%d" x2="%d" y2="%d" stroke="%s" stroke-width=".8"/>'
                % (H, W, H, M.LAND_EDGE))
-    out.append('<text x="14" y="%d" class="mapt">ELEVEN YEARS, NINE PLACES</text>' % (H + 22))
+    out.append('<text x="14" y="%d" class="mapt">THREE CROWNS, NINE PLACES</text>' % (H + 22))
     for i, st in enumerate(STOPS):
         col, row = (0, i) if i < 5 else (1, i - 5)
         out.append('<text x="%d" y="%d" class="mapx">%d \u00b7 %s</text>'

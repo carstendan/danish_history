@@ -1,8 +1,14 @@
 # -*- coding: utf-8 -*-
 """Figures for chapter 20 (the file keeps its pre-renumbering name).
 
-Figure 2's land shares are schematic and unsourced (review session 7, §11.4): Den Store
-Danske gives the crown about a tenth before 1536 and 40-50 per cent after, to 1660.
+Figure 2's land shares (the page's Figure 3) are rounded from sources (review session 14):
+Den Store Danske, krongods - the crown about 10 per cent at the end of the Middle Ages, 40-50
+per cent after, to 1660; Wittendorff, Gyldendal og Politikens Danmarkshistorie, Staendersamfundet -
+around 1500 the church 30-40 per cent of the land, the nobility about 40 of the cultivated land
+(and the crown about 20, which disagrees, and the caption says so); freeholders perhaps 10-15
+per cent of peasants - a share of people, not of land, so the last segment is drawn as "the rest",
+with no percentage. Before: 10 / 35 / 40 / the rest. After: the church's share to the crown, 45 / 40 / the rest. They were 16 / 33 / 43 / 8,
+unsourced (review session 7, §11.4).
 """
 import mapspine as M
 
@@ -101,19 +107,19 @@ def transfer():
     W, H = 900, 486
     o = ['<svg viewBox="0 0 %d %d" xmlns="http://www.w3.org/2000/svg" role="img" '
          'aria-label="Two diagrams of what the Reformation transferred. Above, the share of Danish '
-         'land held by crown, church, nobility and freeholding peasants before and after 1536: the '
-         'church\'s roughly one third passes to the crown, which goes from about a sixth to about '
-         'half. Below, the Danish tithe, which was divided in three between bishop, parish priest '
+         'land held by crown, church and nobility, and the rest, before and after 1536: the '
+         'church\'s roughly one third passes to the crown, which goes from about a tenth to between '
+         'two-fifths and a half. Below, the Danish tithe, which was divided in three between bishop, parish priest '
          'and church fabric: after 1536 the crown takes the bishop\'s third.">' % (W, H),
          '<rect x="0" y="0" width="%d" height="%d" fill="%s"/>' % (W, H, M.PAPER)]
 
     o.append(t(26, 34, "WHO HELD THE LAND", "mapt", PART_E))
     o.append(t(700, 34, "shares, roughly", "mapt", MUTED))
 
-    bars = [("BEFORE 1536", 70, [("Crown", 16, PART_E, .45), ("Church", 33, OX, .55),
-                                 ("Nobility", 43, INK, .30), ("Free peasants", 8, AMBER, .45)]),
-            ("AFTER 1536", 160, [("Crown", 49, PART_E, .78), ("Nobility", 43, INK, .30),
-                                 ("Free peasants", 8, AMBER, .45)])]
+    bars = [("BEFORE 1536", 70, [("Crown", 10, PART_E, .45), ("Church", 35, OX, .55),
+                                 ("Nobility", 40, INK, .30), ("The rest", 15, AMBER, .45)]),
+            ("AFTER 1536", 160, [("Crown", 45, PART_E, .78), ("Nobility", 40, INK, .30),
+                                 ("The rest", 15, AMBER, .45)])]
     for lab, y, segs in bars:
         o.append(t(26, y + 16, lab, "mapl", INK))
         x = 190
@@ -123,13 +129,15 @@ def transfer():
                      'stroke="%s" stroke-width=".8"/>' % (x, y, w, col, op, col))
             if w > 60:
                 o.append(t(x + w / 2, y + 16, name, "mapx", INK, "middle"))
-                o.append(t(x + w / 2, y + 28, "~%d%%" % pct, "mapx", MUTED, "middle"))
+                if name != "The rest":     # a remainder, not a sourced share (session 14)
+                    o.append(t(x + w / 2, y + 28, "~%d%%" % pct, "mapx", MUTED, "middle"))
             x += w
-    o.append('<path d="M 296 108 L 296 152" stroke="%s" stroke-width="1.6" '
-             'stroke-dasharray="4 3"/>' % OX)
-    o.append(t(304, 134, "the church's third, transferred", "mapx", OX))
-    o.append(t(874, 216, "the last sliver is freeholding peasants,", "mapx", MUTED, "end"))
-    o.append(t(874, 230, "about 8 per cent, and shrinking", "mapx", MUTED, "end"))
+    xb = 190 + bars[0][2][0][1] * 6.6          # the crown's right edge before 1536, computed
+    o.append('<path d="M %.1f 108 L %.1f 152" stroke="%s" stroke-width="1.6" '
+             'stroke-dasharray="4 3"/>' % (xb, xb, OX))
+    o.append(t(xb + 8, 134, "the church's third, transferred", "mapx", OX))
+    o.append(t(874, 216, "the rest is a remainder, the freeholders\u2019 land among it;", "mapx", MUTED, "end"))
+    o.append(t(874, 230, "perhaps 10\u201315 per cent of peasants owned their farms", "mapx", MUTED, "end"))
     o.append(t(26, 262, "The nobility gained little land in 1536 and a great deal of security: no "
                "more bishops in the council, and a crown that owed them the war.", "mapx", MUTED))
 

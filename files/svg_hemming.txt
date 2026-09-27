@@ -17,7 +17,7 @@
   <rect x="382" y="176" width="34" height="14" fill="#2E6B5E" fill-opacity=".85"/>
   <rect x="428" y="176" width="34" height="14" fill="#2E6B5E" fill-opacity=".85"/>
   <text x="60.0" y="164.0" class="mapx" fill="#6C6E63" text-anchor="start">the royal army, about 12,000, strung out along the causeway</text>
-  <text x="60.0" y="216.0" class="mapx" fill="#6C6E63" text-anchor="start">Meldorf, taken 14 February</text>
+  <text x="60.0" y="216.0" class="mapx" fill="#6C6E63" text-anchor="start">Meldorf, taken 13 February</text>
   <rect x="516" y="150" width="16" height="66" fill="#8A2B2B" fill-opacity=".9"/>
   <text x="524.0" y="142.0" class="mapl" fill="#8A2B2B" text-anchor="middle">the bank</text>
   <text x="524.0" y="288.0" class="mapx" fill="#8A2B2B" text-anchor="middle">thrown up overnight</text>
@@ -38,7 +38,7 @@
   <text x="26.0" y="350.0" class="mapl" fill="#2E6B5E" text-anchor="start">The ground</text>
   <text x="150.0" y="350.0" class="mapx" fill="#6C6E63" text-anchor="start">A single raised road through drained marsh in February. Artillery went into the ditch and stayed there</text>
   <text x="26.0" y="374.0" class="mapl" fill="#2E6B5E" text-anchor="start">The loss</text>
-  <text x="150.0" y="374.0" class="mapx" fill="#6C6E63" text-anchor="start">Around 4,000 dead, many drowned. Eleven of the Ahlefeldt family, six of the Buchwald. Dithmarschen: under 100, by one count</text>
+  <text x="150.0" y="374.0" class="mapx" fill="#6C6E63" text-anchor="start">Around 4,000 dead, many drowned. Eleven of the Ahlefeldt family. Dithmarschen: under 100, by one count</text>
   <text x="26.0" y="398.0" class="mapl" fill="#2E6B5E" text-anchor="start">The banner</text>
   <text x="150.0" y="398.0" class="mapx" fill="#6C6E63" text-anchor="start">The royal Dannebrog was taken. Frederik 2. got it back in 1559, ‘almost destroyed by damp and age’</text>
   </svg>

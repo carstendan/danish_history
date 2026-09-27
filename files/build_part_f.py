@@ -346,8 +346,10 @@ if __name__ == "__main__":
         links = set(re.findall(r'href="#([a-z0-9]+)"', h))
         bad = [t for t in ['div', 'ol', 'li', 'ul', 'nav', 'details', 'svg', 'p', 'h2', 'h4',
                            'dl', 'dt', 'dd', 'a', 'figure', 'figcaption', 'text', 'g', 'tspan',
-                           'clipPath']
-               if h.count('<' + t + ' ') + h.count('<' + t + '>') != h.count('</' + t + '>')]
+                           'clipPath', 'h1', 'h3', 'i', 'b', 'em', 'strong', 'span', 'summary', 'header', 'footer']
+               if len(re.findall(r'<%s[\s>]' % t, h)) != h.count('</' + t + '>')]
+        # (review session 14: openings counted by pattern, so '<i' before a line break is
+        # one; and the inline and heading tags added, since an unclosed <em> was written)
         w = pagewords(h)
         m = round(w / 210)
         rail = re.search(r'<nav class="rail".*?</nav>', h, re.S).group(0)
@@ -357,13 +359,16 @@ if __name__ == "__main__":
         # Every structural check below is asked before the page is written too. A stubbed
         # page is the one exception: --stub exists to preview a page with a placeholder,
         # so it is written, and the run still fails.
+        # The brace imbalance was printed and never counted until review session 14.
+        braces = css.count('{') - css.count('}')
         page_fail = (bool(bad) + bool(h.count('{{')) + (not links <= ids) + (not tail_ok)
-                     + (not BAND[0] <= m <= BAND[1]) + ('--band:%s;' % PART_F not in h))
+                     + (not BAND[0] <= m <= BAND[1]) + bool(braces)
+                     + ('--band:%s;' % PART_F not in h))
         if not page_fail:
             open(OUT + c['name'], 'w', encoding='utf-8').write(h)
         print("\nchapter %s  %s%s" % (n, c['name'], '' if not page_fail else '  !! NOT WRITTEN'))
         print("  braces %d | placeholders %d | anchors %s | tags %s"
-              % (css.count('{') - css.count('}'), h.count('{{'),
+              % (braces, h.count('{{'),
                  'ok' if links <= ids else 'BAD ' + str(links - ids), bad if bad else 'ok'))
         print("  checkpoints %d | vignettes %d | meanwhile %d | figures %d | terms %d | "
               "tail in rail+toc %s"

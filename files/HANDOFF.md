@@ -4970,6 +4970,58 @@ split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see it
    as the page; and when a correction touches a fact, the questions that ask it are part of the
    correction.*
 
+152. **The consistency review, session 14: §17.3 checked against sources, and the G–I builds' guard.**
+   27 September 2026. Full record in `REVIEW-CONSISTENCY.md` §18.
+
+   **Cold run on a fresh clone of `d044cdb`: every figure matched START_HERE_review_14**, and item
+   151's commit carries its eighteen pages and three regenerated figures. State lived in
+   `claude/session14_state.md` and `claude/session14_wip.patch`.
+
+   **§17.3, EVERY ITEM AGAINST A SOURCE.** Four researchers; the lead fetched the load-bearing
+   sources again before editing. **Three of the eleven flags' reasons were wrong or half wrong**:
+   lex.dk dates only the *coastal-guard* leding to c. 1170, not the levy; it counts Borgeby, and
+   says the Scanian Trelleborg ring is *not* of the type; Estrid is DBL's half-sister but Den Store
+   Danske's sister. **Kept, with the source:** Estrid "sister"; 10's opener "in three years" (unproven,
+   not false). **Changed, the source on the page, in 02, 10, 11, 12, 13, 16, 18, 19, 20, 22:** 02's
+   "oldest art" (Maglemose amber animals came first); 10 "a few years", Figure 1's dating, Borgeby;
+   12's leding hedged; 13's ten hostages, the three sons among them; 16 Fig. 2 "Three crowns" (no
+   source gives September 1398); 18 on Gotland from 1436; 19 Fig. 2 without the Buchwalds, Meldorf 13
+   February; 20 Fig. 3 rebuilt from sourced shares, the last segment a remainder; 22 Glückstadt laid
+   out 1616, chartered 1617.
+
+   **THE GUARD.** `build_part_g/h/i.py` write a page only after every structural check, as A–F do;
+   all seven builds count the brace imbalance; the tag check counts openings by pattern and covers
+   the inline and heading tags (check 1 wrote an unclosed `<em>` past all seven); G counts its
+   summary's five; `figcheck --regen` runs `map_*.py`. **Planted: 24 of 24 fire; 1 of 24 at
+   `d044cdb`**, where every build wrote a page with an open brace and exited 0. `--stub` cannot stub
+   in G–I, and their docstrings now say so.
+
+   **CHECKED THREE TIMES.** Check 1 (three agents, every hunk against a source): 16's Lindholm three
+   years credited to DBL (they are SBL's); 18's "a stay in Denmark" (the source says an attempt); 19's
+   quotation not verbatim; 20's "~15 %" for freeholders (a share of peasants, not of land); 11's
+   missing lex.dk link; 02 and 12's doubts; the tooling's false `--stub` comment and the tag check's
+   gap — all taken. Check 2 (one agent): SBL's OCR "hansestädema" silently corrected, 02's
+   "thousands of years", G–I's docstrings — taken. Check 3 (one agent): check 2's own nit ("Små") was
+   wrong — lex.dk has "små" mid-sentence; restored, confirmed by the lead against the page.
+
+   **FOUND, NOT CHANGED** (§18.3): 10's opener against "a few years"; 13 §06's pre-1169 leding stated
+   as fact; the Ravning Enge dating; 02's Maglemose end 6,400 against lex.dk's 6,800; old figure
+   collisions in 16 and 19; the tag check counts, it does not nest.
+
+   **VERIFIED** after the last edit: all seven builds clean, no `!!`; the suite: **FIXTURE PASSES;
+   seams pass; debuild 45 identical; 45 of 45, 352,354 page words, 28.0 h; 21 is 50 minutes
+   (10,559), 44 48, 45 50; vignettes 148/116, selftest passes; figcheck --regen 98/30/0; five OVER;
+   draftnotes clean; appcheck 167 in 21; freshcheck 21; tidy clean; 2 pointers, 0 same-page glosses,
+   Schleswig 317 in 32 / Slesvig 4 in 3, sweep_facts 2, arrows 254, solvency 38; qs 0/224, Causal
+   0/168, Recall 0/198, 0 pairs.** Pages that change: **02, 10, 11, 12, 13, 16, 18, 19, 20, 22.** The
+   index does not change.
+
+   **LESSON.** A checker's correction is a claim too, and it can be wrong in the smallest way: check
+   2's "Små" would have broken a verbatim quotation that check 1 had passed. *A quotation is checked
+   against the page it quotes, letter by letter, by whoever changes it last.* And a guard's list is
+   a claim about what can go wrong: the tag check named the block and SVG tags, and an unclosed
+   `<em>` walked past it.
+
 ---
 
 

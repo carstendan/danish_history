@@ -3563,3 +3563,134 @@ the index does not.
 ### 17.5 Decisions for Carsten
 
 **None taken, none open.** For his read: 15 opener 4; 21 and 45 at 50 minutes; the five OVER; §17.3.
+
+## 18. Session 14 — §17.3 checked against sources, and the G–I builds' guard
+
+*27 September 2026, from `START_HERE_review_14.md`. State in `claude/session14_state.md` and
+`claude/session14_wip.patch`, saved after the cold run, after each task and after each check.*
+
+**The cold run matched every line** on a fresh clone of `d044cdb` (item 151's commit, which carries
+its eighteen pages and `svg_atlantic.txt`, `svg_crowns.txt`, `svg_hemming.txt`): tidy clean, 45
+bodies; FIXTURE PASSES; SEAM LAYER PASSES; debuild 45 identical; 45 of 45, 351,926 page words,
+27.9 h, every part as the brief; 21 is 50 minutes (10,559), 44 48, 45 50; vignettes 148/116,
+01/03/04/05 "[f] part", selftest passes; figcheck 98/30/0; five OVER as the brief, 32 §09 749;
+draftnotes clean in 45 and 14; appcheck 167 in 21; freshcheck 21; all nine builds as the brief, 45
+chapter lines "vocabulary clean | questions asked once", no `!!`; git clean after `linkindex` and
+`index_generator`; 2 pointers, 0 insolvent, 0 same-page glosses; Schleswig 316 in 31, Slesvig 4 in
+3; sweep_facts 2; arrows 254, 37 thread notes, form 7, solvency 38, the rest 0; qs 0/224, Causal
+0/168, Recall 0/198, 0 opener–tier pairs.
+
+**How the session ran.** Four researchers, one per group of items (02/10/11; 12/13; 16/18;
+19/20/22), each with `BRIEF_research.md`: a source before a change, the flag's own reason checked
+as hard as the page. The lead fetched the load-bearing sources again before any edit (lex.dk
+*trelleborge* and *krongods*, Wittendorff's *Stændersamfundet*, DBL *Erik 7. af Pommern*,
+Grænseforeningen, *Efter Bornhöved*). Check 1: three agents who had not seen the work (02–13;
+16–22 and the figures; the tooling). Check 2: one agent on check 1's fixes. Check 3: one agent on
+check 2's. Ledgers in the session's working directory only.
+
+### 18.1 §17.3, item by item
+
+**The flags' reasons, again, were wrong or half wrong in three of eleven.** 12's "lex.dk dates the
+farmers' levy to about 1170": lex.dk dates only the *coastal-guard* levy to about 1170 ("går
+antagelig tilbage til ca. 1170") and follows the *leding* back to the Viking Age as the magnates'
+levy; the 1085 fleet and fines are attested (danmarkshistorien). 10's "lex.dk counts Trelleborg in
+Skåne": it counts Borgeby, and says the ring at the town of Trelleborg "er beslægtet med
+trelleborgene, men hører ikke til typen". 11's "DBL: half-sister" is right about DBL, but Den Store
+Danske says "søster": a disagreement, not a correction.
+
+**Right, unchanged, with the source:** 11 Estrid "Cnut's sister" (lex.dk; DBL's half-sister now
+named beside it in Sources); 10's opener 3, "in three years" — unproven but not false (the bridge c.
+979, Trelleborg and Fyrkat felled 980–81), so it stays; 22's "Glückstadt 1617" in the key dates and
+the map, the charter year.
+
+**Changed, the source on the page:**
+- **02 §07** "among the oldest representational art securely known": the Maglemose hunters carved
+  small amber animals first (lex.dk *Maglemose-kulturen*: "små dyreskulpturer af rav var antagelig
+  jagtamuletter"). Now "small amber animals had already been carved in the Maglemose period, more
+  than a thousand years earlier" (check 2: "thousands" was more than the dates bear).
+- **10** only Trelleborg, Fyrkat and the bridge are tree-ring dated; Aggersborg, Nonnebakken and
+  Borgring by finds and radiocarbon (lex.dk, Trap, Museum Odense, *Antiquity* 2017). "About three
+  years", "three or four years" and "a few seasons" are now "a few years" (§06, §11, page-in-five);
+  Figure 1's legend "c. 980", its note "dated", its caption names what the tree rings date. Borgeby
+  added in §06 as a sixth of the type (lex.dk), and "five fortresses in today's Denmark" in §07 and
+  the Contested question.
+- **12** the glossary *leding* says the laws' form may not yet hold before the later twelfth
+  century; §03's paid stay-at-home is "the form the later laws describe" (check 1).
+- **13 §11** "his younger sons … as hostages": ten hostages (Grænseforeningen "ti gidsler"), among
+  them the three younger sons (Gyldendal og Politikens Danmarkshistorie, *Efter Bornhöved*: "kongens
+  yngre sønner, Erik, Abel og Christoffer samt flere danske stormænd").
+- **16 Fig. 2** "Eleven years" rested on a September 1398 no reference work gives (DBL, lex.dk, SBL:
+  "överlämnades Stockholm år 1398 till Margareta"; only a re-enactors' site has 29 September). Now
+  "Three crowns, nine places"; SBL *Albrekt* cited for the Lindholm terms (check 1: the three years
+  had been credited to DBL, which does not give them).
+- **18 §07** "In 1437 or 1438 he left for Gotland": DBL has him "siden 1436 … det meste af tiden på
+  Visborg"; 1437–38 is his failed attempt to have Bogislav accepted in Denmark (lex.dk) — the first
+  fix said "a stay", which no cited source says (check 1).
+- **19 Fig. 2** "six of the Buchwald": no source; dropped. Meldorf was taken on 13 February, not
+  14 (Kamphausen 1953, quoted verbatim and linked after check 1).
+- **20 Fig. 3** the bars (16/33/43/8 → 49/43/8) were unsourced and contradicted the caption's own
+  tenth. Now 10/35/40 and the rest → 45/40 and the rest (Den Store Danske *krongods*; Wittendorff:
+  the church "30 og 40 procent af landets jord", the nobility "omkring 40 procent af den dyrkede
+  jord"); the last segment is a remainder with no percentage, since Wittendorff's 10–15 per cent is of
+  peasants, not land (check 1). The caption names Wittendorff's crown at a fifth, which disagrees.
+  The arrow's position is computed from the bar, no longer typed.
+- **22 §04** "Glückstadt on the Elbe in 1617": "laid out in 1616 and chartered in 1617" (Den Store
+  Danske "grundlagt i 1616"; the Gesellschaft für Schleswig-Holsteinische Geschichte: the charter,
+  22 March 1617).
+
+**Questions.** Every question on the ten pages was read against its changed fact; 10's Contested
+question follows ("in today's Denmark"), 20's checkpoint on the land shares now agrees with its
+figure. None else asks a changed fact. After: qs 0/224, Causal 0/168, Recall 0/198, 0 pairs.
+
+### 18.2 The guard
+
+- **`build_part_g/h/i.py` write a page only after every structural check**, as A–F do: tags,
+  placeholders, anchors, the tail in rail and contents, the band, the part colour, the summary's
+  five — and the chapter line says `!! NOT WRITTEN`.
+- **All seven builds count the stylesheet's brace imbalance** they print.
+- **The tag check** (check 1 wrote an unclosed `<em>` past all seven builds): openings are counted
+  by pattern (`<i` before a line break is one), and h1, h3, i, b, em, strong, span, summary, header
+  and footer are added.
+- **`build_part_g.py` counts the summary's five**, as H and I do; `mkbody` already refuses a
+  summary that is not five, so it is a second line.
+- **`figcheck --regen` runs `map_*.py`** (about a second each; all seven write exactly the
+  `svg_terr_*.txt` on disk).
+- **Planted** (`session14_plant.py`, scratch copies, `DK_OUT` outside the repository): **24 of 24
+  fire**; against the scripts at `d044cdb`, **1 of 24** — every old build wrote a page with an open
+  brace and exited 0, and G–I wrote pages with a broken anchor, an open `<p>` or a `{{` and only then
+  failed. A `map_1660.py` label changed and not re-run: `figcheck --regen` now STALE on 25, exit 1;
+  at `d044cdb`, exit 0.
+- **`--stub` in G–I cannot stub**: every figure has a script, and a missing one stops the chapter
+  (NOT BUILT) before `build()`; F exempts that case and refuses `--stub` inside the repository, G–I
+  do neither. Docstrings and comment now say so; not changed (check 1, check 3).
+
+### 18.3 Found, recorded, not changed
+
+- 10's opener 3 says "in three years" and the page now "a few years": not false, so kept by rule.
+- 13 §06 (its glossary and lines 294–315) states the pre-1169 ship-district *leding* as fact — the traditional view,
+  against Lund's (*Historisk Tidsskrift* 1998). Not hedged.
+- 10's Ravning Enge bridge "c. 979–80" in Figure 1: lex.dk "ca. 979"; Christensen (*Kuml* 2003)
+  will not narrow it below c. 980–1010.
+- 02's glossary dates Maglemose to 6,400 BCE; lex.dk says "ca. 6800".
+- `fig_crowns.py` prints a collision ("1" over "Lindholmen", 7 units), and København and Flensborg
+  are crossed by coastline; Hemmingstedt's "the bank" is crossed by an attack line. All before this
+  session.
+- The tag check counts, it does not nest, and misses `<b/>`.
+- Carried: 15 opener 4; 21 and 45 at 50 minutes; the five OVER; the maps' "Ditmarschen".
+
+### 18.4 Verified
+
+In the working clone after the last edit: `fig_crowns.py`, `figs_18.py`, `figs_19.py`; all seven
+builds clean, 45 lines "vocabulary clean | questions asked once", no `!!`; `linkindex`,
+`index_generator`; **tidy clean; FIXTURE PASSES; SEAM LAYER PASSES; debuild 45 identical; 45 of 45,
+352,354 page words, 28.0 h (A 21,479, B 26,496, C 26,725, D 32,438, E 36,912, F 30,481, G 54,240, H
+43,460, I 80,123); 21 is 50 minutes (10,559), 44 48, 45 50; vignettes 148/116, selftest passes;
+figcheck --regen 98/30/0; five OVER, unchanged; draftnotes clean; appcheck 167 in 21; freshcheck
+21; 2 pointers, 0 insolvent, 0 same-page glosses; Schleswig 317 in 32 (the Gesellschaft für
+Schleswig-Holsteinische Geschichte, cited on 22), Slesvig 4 in 3; sweep_facts 2; arrows 254,
+solvency 38, the rest 0; qs 0/224, Causal 0/168, Recall 0/198, 0 pairs.** Pages that change:
+**02, 10, 11, 12, 13, 16, 18, 19, 20, 22** (ten); the index does not.
+
+### 18.5 Decisions for Carsten
+
+**None taken, none open.** For his read: §18.3; 15 opener 4; 21 and 45 at 50 minutes; the five OVER.

@@ -325,20 +325,25 @@ for n in sorted(CFG):
     ids = set(re.findall(r'id="([a-z0-9]+)"', h))
     links = set(re.findall(r'href="#([a-z0-9]+)"', h))
     bad = [t for t in ['div', 'ol', 'li', 'ul', 'nav', 'details', 'svg', 'p', 'h2', 'h4', 'dl',
-                       'dt', 'dd', 'a', 'figure', 'figcaption', 'text', 'g', 'tspan', 'clipPath']
-           if h.count('<' + t + ' ') + h.count('<' + t + '>') != h.count('</' + t + '>')]
+                       'dt', 'dd', 'a', 'figure', 'figcaption', 'text', 'g', 'tspan', 'clipPath', 'h1', 'h3', 'i', 'b', 'em', 'strong', 'span', 'summary', 'header', 'footer']
+           if len(re.findall(r'<%s[\s>]' % t, h)) != h.count('</' + t + '>')]
+    # (review session 14: openings counted by pattern, so '<i' before a line break is
+    # one; and the inline and heading tags added, since an unclosed <em> was written)
     w = pagewords(h)
     rail = re.search(r'<nav class="rail".*?</nav>', h, re.S).group(0)
     toc = re.search(r'<details class="toc">.*?</details>', h, re.S).group(0)
     tail_ok = all(('#%s' % t[0]) in rail and ('#%s' % t[0]) in toc
                   for t in TAIL + c.get('tail_extra', []))
+    # The brace imbalance was printed and never counted until review session 14.
+    braces = css.count('{') - css.count('}')
     page_fail = (bool(bad) + (not links <= ids) + bool(h.count('{{'))
+                 + bool(braces)
                  + (not tail_ok) + ('--band:%s;' % PART_E not in h))
     if not page_fail:
         open(OUT + c['name'], 'w', encoding='utf-8').write(h)
     print("\nchapter %s  %s%s" % (n, c['name'], '' if not page_fail else '  !! NOT WRITTEN'))
     print("  braces %d | placeholders %d | anchors %s | tags %s"
-          % (css.count('{') - css.count('}'), h.count('{{'),
+          % (braces, h.count('{{'),
              'ok' if links <= ids else 'BAD ' + str(links - ids), bad if bad else 'ok'))
     print("  checkpoints %d | vignettes %d | meanwhile %d | figures %d | terms %d | tail in rail+toc %s"
           % (h.count('class="check"'), h.count('class="vig"'), h.count('class="meanwhile"'),
