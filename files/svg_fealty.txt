@@ -18,8 +18,8 @@
   <text x="690.0" y="282.0" class="mapx" fill="#6C6E63" text-anchor="middle">German law, imperial fief — and</text>
   <text x="690.0" y="294.0" class="mapx" fill="#6C6E63" text-anchor="middle">the Emperor's business, not the council's</text>
   <rect x="330" y="140" width="240" height="62" fill="#2E6B5E" fill-opacity=".92"/>
-  <text x="450.0" y="168.0" class="mapl" fill="#F0F2EE" text-anchor="middle">CHRISTIAN 1.</text>
-  <text x="450.0" y="186.0" class="mapx" fill="#F0F2EE" text-anchor="middle">one man, three hats</text>
+  <text x="450" y="168" class="mapl" style="fill:#F0F2EE" text-anchor="middle">CHRISTIAN 1.</text>
+  <text x="450" y="186" class="mapx" style="fill:#F0F2EE" text-anchor="middle">one man, three hats</text>
   <line x1="210" y1="128" x2="400" y2="140" stroke="#6C6E63" stroke-width="1.1" opacity=".7"/>
   <line x1="690" y1="128" x2="500" y2="140" stroke="#6C6E63" stroke-width="1.1" opacity=".7"/>
   <line x1="400" y1="202" x2="210" y2="226" stroke="#6C6E63" stroke-width="1.1" opacity=".7"/>

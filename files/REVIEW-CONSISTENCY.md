@@ -3232,3 +3232,183 @@ dates).
 
 **Taken this session:** D-17 (ask once) and R-19 (Elna Munch), both as recommended. **None open.** For
 his read of the book: 45 at the top of the band; the four OVER sections; the Braren tag.
+
+## 16. Session 12 — D-17 (ask once) in Parts A–F, and the guard for the first four builds
+
+*27 September 2026, from `START_HERE_review_12.md`. State in `claude/session12_state.md` and
+`claude/session12_wip.patch`, saved thirteen times.*
+
+**The cold run matched every line** on a fresh clone of `20a417c`: git status clean; tidy clean, 45
+bodies; FIXTURE PASSES; SEAM LAYER PASSES; debuild 45 identical; 45 of 45, 350,394 page words, 27.8 h,
+every part as the brief; vignettes 148/116, 01/03/04/05 "[f] part", no D-9 failure, selftest passes;
+figcheck 98/30/0; four OVER, 32 §09 749; draftnotes clean in 45 and 14; appcheck 167 in 21; freshcheck
+21; builds F, G (21 fresh), H (15), I (24) clean, every line "vocabulary clean | questions asked once";
+2 pointers, 0 same-page glosses; Schleswig 316 in 31, Slesvig 4 in 3; sweep_facts 2; arrows 254, 37
+thread notes, form 7, direction 0, D-1 0, titles 0, solvency 39, prose references 0, footers 0,
+`<h1>` 0, 9b 0. The session's safety check refused to run the repository's scripts until Carsten set
+it to approve commands by hand; nothing ran before that.
+
+**How the session ran.** Six fixers, one per part, each in its own clone (`BRIEF_askonce_AF.md`); the
+lead applied their diffs after a scope check (bodies changed only in the question lists, build scripts
+only in their own chapters' `checks`). The lead gave the four builds the guard. Check 1: seven agents
+who had not seen the work (six on questions, one on code). Round 2: three fixers on the accepted
+findings. Check 2: three agents on round 2 and the lead's code fixes. Round 3 and 4 by the lead;
+check 3 and check 4, one agent each. Ledgers: `claude/session12_check1.md`, `claude/session12_check2.md`.
+
+### 16.1 D-17 in 01–24 — measured, read, carried out
+
+**The measure** (`claude/session12_qsmeasure.py`, `session12_qspairs.py`: session 11's, taking globs)
+**calibrated first**: 25–45 give qs 0/105, Causal 0/64, Recall 0/70 and 0 opener–tier pairs.
+
+**On 01–24 as shipped: qs 2/119, Causal 6/104, Recall 34/128 against the checkpoints; one opener–tier
+pair (20); `pageguard.asked_twice` fails 20 of 24 pages** — all but 13, 18, 21 and 22 — with four
+pairs word for word (04 cp2.1 = Recall 2 and cp3.1 = Recall 4; 05 cp2.1 = Recall 2; 10 cp1.1 =
+Recall 1). The brief, following §15.1, had three (20, 23, 24); how §15.1 arrived at three is not
+recorded, and nobody had measured A–F since.
+
+**Read.** Every page 01–24 was read in full. By the fixers' own counts the reading found about 140
+repeats in other words — a checkpoint asking an opener's question, a Recall the checkpoint above it,
+a Contested restating an opener — and 36 questions false by the page, unanswerable from it, or asked
+ahead of their anchor. Among them: 01 Recall 5 (Patagonia, not on the page); 09 Causal 4 (the emporia failed "when the trade did not"); 11
+Contested 1 (Cnut "inherited his father's conquest" — §04 has England lost and won again); 12 cp2.3
+(Herman's embassy "in 1133" — "nobody knows the year"); 14 Causal 2 and 3 (Erik Klipping's arrest
+"strengthened his position"; the duchy given to Abel "in 1250"); 15 cp2.3 ("two ways"); 20 cp3.3 and
+23 cp3.2, cp3.3, 24 cp3.3 (asked ahead of their anchor); 24 cp1.1 (the 1648 charter's clauses are in
+23). **One opener was false and was changed: 17's "a third of the farms in some districts were
+standing empty"** — the page's one figure is Brøndum, 34 of 48, and it says it "must not be made a
+national average"; now "two farms in three on one Himmerland estate", and the intro line with it
+(whose "colony in Greenland stops existing" became "falls silent", after §03, in check 2).
+
+**Carried out.** Net against the shipped pages: **244 questions changed in 01–24** (A 19, B 38, C 36,
+D 51, E 55, F 45; 53 checkpoints, 190 end-tier, one opener), across four rounds. **After: qs 0/224,
+Causal 0/168, Recall 0/198 against the checkpoints; 0 opener–tier pairs; `asked_twice` 0 on all 45
+pages.** Kept by judgement (a concrete fact inside an opener, a Contested asking for evidence against
+the page, a Counterfactual built on a stated fact), and listed in the ledgers: among them 10 Causal 1
+(the internal half of opener 2 — the rewrite in round 2 failed its own condition and the original was
+restored), 13 Contested 1 and 20 Contested 5.
+
+### 16.2 The guard for Parts A–F
+
+`build_parts_abc.py`, `build_part_d.py`, `build_part_e.py` and `build_part_f.py` wrote each page inside
+`build()` and read retired vocabulary as a regular expression does. Now, per check, as the brief asked:
+
+| check | A–C | D | E | F |
+|---|---|---|---|---|
+| freshcheck | no (authored bodies) | no | no | no |
+| `same_sources` (new): body, `style.css`, `rail.js` read through `DK_SRC` are the files in `files/`; missing → NOT BUILT | yes | yes, and its 12 figures | yes | yes |
+| `figures_fresh` | no (inline, no script) | asked; 12 SOURCELESS | 14, strict | 12, strict |
+| `stale_vocabulary` on `reader_text` | yes | yes | yes | yes |
+| `asked_twice` (D-17) | yes | yes | yes | yes |
+
+A page is written only after all of these **and** the structural checks (tags, anchors, placeholders,
+part colour, F's band) pass. Each build ends with its summary line. F's `--stub` writes a stubbed
+preview only with `DK_OUT` outside the repository, and the run still fails.
+
+**"entry" by hand in 01–24 before trusting the first run** (text, figure text and attributes,
+whitespace joined, case ignored): 18 twice (the toll register), 22 twice (Munk's journal), 23 twice
+(a ledger) — exactly the phrases already allowed; 10's "carpentry" holds the letters and is not the
+word; the scripts' `entries` are JavaScript.
+
+**Found on the way.** (1) `pageguard.producers` read only `figs_*`/`map_*` scripts and only whole file
+names, so **twelve of Part E's fourteen figures had no witness** — two written by `fig_crowns.py` and
+`fig_titles.py`, ten by stem in `figs_16b`–`figs_19`. Widened; G, H, I and F unchanged. (2) **The first
+real run caught `svg_fealty.txt` (19) stale**: `figs_18.py` had moved two labels from `fill=` to
+`style=` (D-11) and was never re-run. (3) ABC's anchor check was `links > ids` — a proper superset — so
+a dangling link never failed, the part colour was never counted, and the script exited 0 on failure.
+(4) `figcheck --regen` ran only `figs_*.py`; now `fig_*.py` too; its notes corrected (thirty inline in
+A–C; D's twelve match their `.txt`, which nothing can check).
+
+**Tested.** `claude/session12_plant.py`: baseline clean, then **23 planted cases, all fired, pages
+untouched** — an old `svg_fealty.txt`; an old `svg_foundations.txt`; a zero-width space in
+`svg_crowns`' label; "chapter 07" in a checkpoint (A–C, D, E, F); a checkpoint copying an opener (four);
+an old body through `DK_SRC` (four); "en​try" behind a zero-width space; a planted D figure and a changed
+`style.css` through `DK_SRC`; D with no body; `rail.js` missing with `DK_SRC` unset; F's figure missing
+(strict: MISSING, with the `--stub` hint); `--stub` with it missing (preview written, run fails);
+`--stub` with `DK_OUT` unset (refused). **Known limit:** a changed Part D figure cannot be caught — it
+has no generator; only that the build reads the copy in `files/`.
+
+### 16.3 Cheap, while A–F were open
+
+- CONVENTIONS conflict 2: the index's *Decisions already made* has a *Calendar* line (D-6); D-6 now
+  "in force".
+- Conflict 3: the two arrow forms are in HANDOFF's table — on **seven arrows in six chapters** (`→ N,
+  Part X` in 02, 06 twice, 14; `→ Part X, Part Y` in 04, 15, 19), not "6, 15 and 19" as the note had it.
+- 38's → 40 promised both minorities, and so did its → 41; 40 and 41 carry only the German. Both now
+  promise what they carry (40's *Påskeblæsten*; 41's welcome in April and Berlin in December 1940).
+  `sweep_arrows` solvency was 39 before the session and 38 after.
+- HANDOFF's *Dates* section: Lutter is 17/27 August (the correction of session 8 had not reached it);
+  Part F has two divergences on the page (23 Lutter, 24 the Sound) — **the lead first wrote "one", and
+  check 3 caught it.**
+
+### 16.4 Checked four times
+
+Check 1 (seven agents): 88 findings; substantive in the questions: 03 Causal 2, 07 Contested 1, 10
+Contested 2, 21 Causal 4; in the code: `DK_SRC` unwitnessed for D's figures and every build's
+`style.css`/`rail.js` (a planted figure shipped clean), `--stub` unreachable, `body_of` crashing, §16
+cited before it existed. Check 2 (three): 10's new Causal 1 failed its condition; 17's intro line;
+13 Counterfactual 2 gave away Recall 4; `--stub` could overwrite a shipped page; a missing file with
+`DK_SRC` unset was a traceback. Check 3 (one): the lead's Dates sentence; 15's Counterfactual 3 gave
+away Causal 4. Check 4 (one): three low message and doc items, applied and checked by the planted
+cases. Every accepted finding applied; the rest recorded with reasons in the ledgers.
+
+### 16.5 Found, recorded, not changed — prose and figures in A–F
+
+Not questions, so not this session's; for the next pass through A–F or Carsten's read. None has
+been checked against a source yet (item 147: a correction is a claim that needs one). **The
+checkers were most confident of these, or they are arithmetic or geography on the page itself:**
+- 17 Fig. 1: "Bergen to Garðar about 3,000 km — further than Copenhagen to Baghdad" (≈2,690 against
+  ≈3,490 km); and "a ten-year-old inherited two crowns" in 1380 — 16 §02 has Oluf nine.
+- 19 §01: "the Schauenburg line was extinct in the male line" — only Adolf's branch; the Pinneberg
+  counts claimed and were bought off in 1460.
+- 11 Fig. 3: Harold Godwinson "by marriage into the Godwins" (he was one; Edward married his sister);
+  the caption's "no blood link" makes Sweyn Estridsen Emma's kin.
+- 11 §09: "eighteen years after Hastings" for 1085 (nineteen; D-8).
+- 13 §11: every conquest "south of the Eider except Rügen" — Rügen is not south of the Eider.
+
+**To verify:** 10 §03 "a three-tonne granite boulder" (the big Jelling stone is usually given as
+about ten tonnes); 02 §07 the Engesvang amber ("Ertebølle work", bird and elk — lex.dk lists a swimming
+bird; the famous elk is Egemarke; carved amber is often Maglemose) and 01 §09's elk head; 01 §03
+Sølbjerg among the oldest traces vs §08 its Ahrensburg settlement; 04 §04 Borum Eshøj "dug in the
+1870s" (1871, 1875, 1891); 04 §05 "most of the pictures … nowhere near the sea"; 07 §02 "twenty years"
+and "some thirty-four runes" (the museum's quotation has neither); 07 §06 the Sutton Hoo clasps'
+Scandinavian parallels; 07 §09 dendrochronology "a year" (needs the bark edge); 07 Myth-check "melted
+down within days"; 08 §07 "consensus has moved steadily downwards" (Sawyer, then Repton and Torksey);
+09 §07 the wheeled plough and rye in the Viking Age; 09 churches "from the 850s" and "around 848";
+10 opener 3 and page-in-five "five identical fortresses" vs §07 "three built out"; 12 §03 leding
+commuted "only if the men agreed" vs 13 §06; 13 §02 "holiness by accident" vs 12 §05's campaign;
+15 cp3.1 "four hundred years" vs §08 "until 1857"; 16 Fig. 2 "TEN YEARS" vs caption "Eleven"; 16 §06
+the Norwegian council in February 1388; 18 §01 "twenty-six years of rule" (27); 19 §01 the two laws
+"in opposite directions" (for Schleswig both point to Christian), its glossary against §01, the
+myth-check's "chapter 13 argued … about 1500" (it does not), Fig. 2's 2,000 and eleven Ahlefeldts vs
+the prose's thousand and seven; 19 §08/§11 "fewer than ten of fifty-two years"; 20 krongods glossary
+"roughly triples" vs 40–50 %; 21 registers "long runs from after 1536" vs 18 "unbroken from 1574";
+22 Fig. 1 "1596–1625" vs §04 1599–1624, §09 "two new fortified towns"; 22 §02 "some twenty-five"
+visits to Norway; 23 §07 "in December 1643 … marched into Jutland" (Holstein first; Jutland January
+1644); 24 §08 Hammershus "until the end of 1661" (released about September); Part F's two date
+divergences set off by a dash, not parentheses (D-6).
+
+**For Carsten:** 15 opener 4, "the richest king Denmark had seen in a century" — the page never
+calls Valdemar rich ("He had no treasury"); openers change only if false.
+
+**Tooling, for a later session:** `build_part_g/h/i.py` still write a page before its structural
+checks; no build counts the CSS brace imbalance it prints; `figcheck` does not run `map_*.py`.
+
+### 16.6 Verified
+
+In the working clone after the last edit: `figs_18.py`; mkbody 38; every part build clean — A–C "all
+eleven", D "0 checked, 12 sourceless (content not checkable), none stale", E "14 … all fresh", F "12 …
+all fresh", G 21, H 15, I 24; `linkindex` (45 linked), `index_generator`; then the whole suite:
+**tidy clean, 45 bodies; FIXTURE PASSES; SEAM LAYER PASSES; debuild 45 identical; 45 of 45, 351,041
+page words, 27.9 h (A 21,438, B 26,439, C 26,375, D 32,167, E 36,480, F 30,319, G 54,240, H 43,460, I
+80,123); 21 is 50 minutes (10,530), 44 48, 45 50; vignettes 148/116, no D-9 failure, selftest passes;
+figcheck 98/30/0 ("Parts A-C: expected"); four OVER unchanged, 32 §09 749; draftnotes clean in 45 and
+14; appcheck 167 in 21; freshcheck 21; sweeps: 2 pointers, 0 insolvent, 0 same-page glosses;
+Schleswig 315 in 31 / Slesvig 4 in 3; sweep_facts 2; arrows 254, 37 thread notes, form 7, direction 0,
+D-1 0, titles 0, solvency 38, prose references 0, footers 0, `<h1>` 0, 9b 0.** Questions: qs 0/224,
+Causal 0/168, Recall 0/198; 0 opener–tier pairs; `asked_twice` 0 of 45. Pages that change: **01–24,
+38 and the index.**
+
+### 16.7 Decisions for Carsten
+
+**None taken, none open.** For his read: 15 opener 4; 21 at 50 minutes, the top of the band, with 45;
+§16.5's list.

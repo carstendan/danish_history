@@ -719,6 +719,9 @@ DOC = f'''<!DOCTYPE html>
     <li><b>Historiography</b><span>The Viking Age, the colonial period, 1864 and the cooperation
       policy have all been substantially rewritten since the schoolbooks. Pages follow current
       scholarship and say where it changed.</span></li>
+    <li><b>Calendar</b><span>Dates are in the style the Danish state used at the time: Julian
+      before 1 March 1700, Gregorian after. Where a foreign state counted differently, its date
+      follows in parentheses the first time a chapter meets the difference.</span></li>
   </ul>
 </section>
 

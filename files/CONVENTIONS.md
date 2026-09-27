@@ -74,7 +74,7 @@ rendered size; honesty about the span costs nothing.
 
 **Defined.** `PLAN_G.md` §6 only (and the part-colour line in §3).
 
-### D-6 · Calendar: the Danish state's style at the time — in force, not fully carried out
+### D-6 · Calendar: the Danish state's style at the time — in force
 
 **Rule.** Dates are given in the style the Danish state used at the time —
 **Julian before 1 March 1700, Gregorian after** — with the foreign style in
@@ -89,10 +89,10 @@ which state printed it. *Corrected in review session 8:* the example had "27 Aug
 
 **The fix the decision named, and whether it happened.**
 - *A `gammel og ny stil` glossary entry in chapter 27* — **done**, on the page.
-- *"One line in the index's conventions list"* — **not done.** The index's
-  *Decisions already made* list (`index_generator.py`, the `ul.conv` block) has
-  six entries and none mentions the calendar. Recorded as a finding in
-  `REVIEW-CONSISTENCY.md`.
+- *"One line in the index's conventions list"* — **done in review session 12.** The
+  index's *Decisions already made* list (`index_generator.py`, the `ul.conv` block) had
+  six entries and none mentioned the calendar; it now has a seventh, *Calendar*
+  (`REVIEW-CONSISTENCY.md` §16).
 
 **Known limit.** It does not resolve the Frederiksborg peace of 1720 (3 June or 3
 July — a disagreement about the month, not the style). See E4 in *REQUIRES
@@ -438,14 +438,18 @@ Causal question 4 times, and 17 openers were asked again in the end tiers, 9 wor
 25 September 2026: "ask once", as recommended.
 
 **Carried out** in 25–45 (`REVIEW-CONSISTENCY.md` §15.1): 76 questions in Parts G and H, and in Part I
-every end-tier repeat and 35 checkpoints. After: no pair at 0.4 on any page 25–45. **Not yet in Parts
-A–F**, where pages 20, 23 and 24 fail it — review 12.
+every end-tier repeat and 35 checkpoints. After: no pair at 0.4 on any page 25–45. **Carried out in
+Parts A–F in review session 12** (`REVIEW-CONSISTENCY.md` §16.1): this note had said pages 20, 23 and
+24 failed it; measured, **twenty of the twenty-four did**. 244 questions changed in 01–24 (53
+checkpoints, 190 end-tier, one false opener in 17). After: no pair at 0.4 on any page 01–45.
 
-**Guard.** `pageguard.asked_twice`, asked before a page is written by `build_part_g.py`,
-`build_part_h.py` and `build_part_i.py`: NOT WRITTEN on any pair at ≥ 0.4. It cannot see one question
-asked in other words; the reading pass found about forty-five such in 25–36.
+**Guard.** `pageguard.asked_twice`, asked before a page is written by every part's build —
+`build_parts_abc.py`, `build_part_d.py`, `build_part_e.py`, `build_part_f.py` (review 12) and
+`build_part_g.py`, `build_part_h.py`, `build_part_i.py`: NOT WRITTEN on any pair at ≥ 0.4. It cannot see
+one question asked in other words; the reading passes found about forty-five such in 25–36 and, by the
+fixers' counts, about a hundred and forty in 01–24.
 
-**Defined.** Here; `HANDOFF.md` item 149.
+**Defined.** Here; `HANDOFF.md` items 149 and 150.
 
 ---
 
@@ -480,9 +484,11 @@ where it is named.
    reference, do not re-gloss."* **Resolved in favour of the written rule**: each
    now carries a one-line definition and "(chapter N)" for the full one, and
    `draftnotes.py` refuses the phrase. Detail in `REVIEW-CONSISTENCY.md` §1.1.
-2. **D-6's index line was never added** (above). Open; a one-line change to
-   `index_generator.py` when the index is next regenerated for a reason of its own.
-3. **The cross-reference table lists six forms; the pages use eight.** `→ 10,
-   Part H` (number and letter) and `→ Part H, Part I` (two letters) appear in 6, 15
-   and 19. They read correctly; add them to the table in `HANDOFF.md`, *How a
-   cross-reference is written*.
+2. **D-6's index line was never added** (above). **Resolved in review session 12**: the
+   index's *Decisions already made* now has a *Calendar* line (`index_generator.py`).
+3. **The cross-reference table listed six forms; the pages use eight.** `→ 10,
+   Part H` (number and letter) and `→ Part H, Part I` (two letters). This note said they
+   appear in 6, 15 and 19; **they appear on seven arrows in six chapters** — the first form
+   in 02, 06 (twice) and 14, the second in 04, 15 and 19. They read correctly. **Resolved in
+   review session 12**: both are in the table in `HANDOFF.md`, *How a cross-reference is
+   written*.

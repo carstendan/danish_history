@@ -1,11 +1,26 @@
 # -*- coding: utf-8 -*-
 """Build Part D. Per-chapter configs, one command, self-verifying - as build_all.py
-does for Parts A to C."""
+does for Parts A to C.
+
+GUARDS, given to Part D in review session 12 (REVIEW-CONSISTENCY.md §16) from
+pageguard.py, which Parts G-I share. Until then this script wrote each page inside
+build() and read its text as a regular expression does. Each is asked BEFORE the page is
+written, and a page that fails any of them, or any structural check, is not written:
+
+  1. pageguard.same_sources: what this build reads through DK_SRC (the body, style.css,
+     rail.js and the twelve figures) is the file in this folder; a missing body is NOT
+     BUILT. (No freshcheck: Parts A-F have authored bodies, not drafts.)
+  2. pageguard.figures_fresh: asked, but Part D's twelve figures have no generator, so
+     each is reported SOURCELESS; their content cannot be witnessed.
+  3. pageguard.stale_vocabulary on reader_text (no ordinary "entry" in 12-15, by hand).
+  4. pageguard.asked_twice (D-17).
+"""
 import os
 import re
 
 from pagewords import pagewords   # one definition, shared
 import dkpaths
+import pageguard    # body witness, figure freshness, reader's-text vocabulary, ask once
 
 # Paths resolve relative to this script, not to wherever it is run from, and both
 # can be overridden. The container paths that used to be hardcoded here meant the
@@ -42,12 +57,13 @@ CFG = {
         "What did Knud den Hellige do after the fleet of 1085 dispersed, and what did it start?",
         "What did Rome want in exchange for the archbishopric at Lund \u2014 and how long before it "
         "can be shown to have been paid?",
-        "Who was Herman, and what would have happened in 1133 without him?"]),
+        "Who was Herman, and what had been done in 1133 that his embassy to Rome undid?"]),
       ("Haraldsted, 7 January 1131", [
         "The Danish <i class=\"dk\">tiende</i> was split three ways. Which share did canon law "
         "assign to the poor, and who got it in Denmark instead?",
         "Two thousand churches over a hundred and fifty years is how many a year?",
-        "What does a village named Hastrup tell you that a village named Gudme does not?"])]),
+        "What does a village named Hastrup tell you that a village with a <i class=\"dk\">-lev</i> "
+        "name does not?"])]),
 
  13: dict(
     name='13-the-valdemar-age-and-the-baltic-crusades.html',
@@ -69,9 +85,10 @@ CFG = {
       ("Saxo", [
         "Roughly how many ships was the full <i class=\"dk\">leding</i>, and what fraction of it "
         "remained after 1169?",
-        "What is a <i class=\"dk\">havne</i>, and what did it owe from about 1200?",
-        "The Sk\u00e5ne farmers refused the bishop's tithe at a lawful assembly. What did it take to make "
-        "them pay?"]),
+        "What is a <i class=\"dk\">havne</i>, and what did it owe once the duty was commuted into "
+        "money?",
+        "Absalon is said to have founded Copenhagen in 1167. What did he actually do at Havn, and "
+        "what was there already?"]),
       ("Bornh", [
         "What did the Emperor give Valdemar Sejr in 1214, and why could he afford to give it?",
         "Which contemporary chronicler describes the Estonian campaigns \u2014 and what does he "
@@ -97,8 +114,8 @@ CFG = {
       ("The most expensive reign", [
         "What did the bishops agree at Vejle in 1256, and what did it do when Jakob Erlandsen was "
         "arrested?",
-        "Name the two main promises of the 1282 charter \u2014 and say who they actually "
-        "protected.",
+        "Who commanded the Danish army at Lohede in 1261, and what became of the commander and "
+        "the boy king?",
         "Nine men were outlawed for Finderup. What is the difference between that and knowing who "
         "killed the king?"]),
       ("Randers, 1 April 1340", [
@@ -120,7 +137,7 @@ CFG = {
          ("s11", "11", "Stralsund, 1370"), ("s12", "12", "The ten-year-old")],
     checks=[
       ("What it did to the land", [
-        "What did Valdemar actually hold in 1340, and how did he propose to enlarge it?",
+        "Who put Valdemar on the throne in 1340, and why did they want a Danish king at all?",
         "Estonia was sold in 1346. To whom, for how much, and to pay for what?",
         "The soul-masses at Ribe went from about one a year to seventeen a year. Why is that "
         "<em>not</em> a death toll?"]),
@@ -128,8 +145,8 @@ CFG = {
         "What is an <i class=\"dk\">\u00f8deg\u00e5rd</i>, and which villages produced most of "
         "them?",
         "After 1350 rents fell and wages rose. Who gained, who lost, and why?",
-        "Most Danish village churches were altered in the same two ways after the plague. Which "
-        "two, and what paid for it?"]),
+        "After the plague most Danish village churches were altered in the same way. How, and what "
+        "paid for it?"]),
       ("Stralsund", [
         "Why did recovering Sk\u00e5ne in 1360 matter for the next four hundred years of Danish "
         "state finance?",
@@ -143,7 +160,7 @@ def block(qs):
             + "".join("\n    <li>%s</li>" % q for q in qs) + '\n  </ul>\n</div>\n\n')
 
 
-def build(n, c):
+def body_of(c):
     # Open item 3: this script asked for e12_body.html while every other part used
     # the cNN convention. The bodies recovered in September 2026 are cNN, and the
     # config now says so. Either is still accepted, so a rebuild does not depend on
@@ -154,6 +171,10 @@ def build(n, c):
         if os.path.exists(G + alt):
             print("   note: %s not found, using %s" % (body, alt))
             body = alt
+    return body
+
+
+def build(n, c, body):
     h = open(G + body, encoding='utf-8').read()
 
     h = re.sub(r'<div class="check">.*?</div>\n\n', '', h, flags=re.S)
@@ -198,25 +219,63 @@ def build(n, c):
     w = pagewords(h)
     h = re.sub(r'Era chapter \u00b7 about \d+ minutes',
                'Era chapter \u00b7 about %d minutes' % round(w / 210), h)
-    open(OUT + c['name'], 'w', encoding='utf-8').write(h)
     return h
 
 
+# "entry" in its ordinary sense, found by hand in review session 12 (built pages 12-15,
+# text, figure text and attributes, whitespace joined, case ignored): none.
+ALLOWED_ENTRY = {}
+
 print("--- Part D ---")
 fail = 0
+# FIGURES. Part D's twelve svg_*.txt have no generator on disk, so pageguard reports them
+# SOURCELESS and there is nothing to run them against: their content cannot be witnessed,
+# only that the build reads the copies in this folder (same_sources, below). figures_fresh
+# is still asked, so a figure that regains a script is witnessed.
+figs, nfigs = pageguard.figures_fresh(
+    HERE, G, sorted({f for c in CFG.values() for f in c['svgs'].values()}))
+nsrcless = sum(v == 'SOURCELESS' for v in figs.values())
+print("  figures: %d checked against their scripts, %d sourceless (content not checkable), %s"
+      % (nfigs, nsrcless,
+         'none stale' if nsrcless == len(figs) else '%d NOT' % (len(figs) - nsrcless)))
 for n in sorted(CFG):
     c = CFG[n]
-    h = build(n, c)
-    # Retired vocabulary, as build_parts_abc.py checks it (review session 5, §9.6),
-    # given to this part in review session 6: until then nothing here could see a
-    # padded "chapter 07" on a Part D page. \s+, not a space, so a line break inside
-    # the phrase does not hide it.
-    prose = re.sub(r'<script>.*?</script>', '', h, flags=re.S)
-    stale = {k: len(re.findall(p, prose)) for k, p in
-             [('Band X', r'\bBand [A-I]\b'), ('entry', r'\b[Ee]ntr(?:y|ies)\b'),
-              ('Era page', r'Era page'),
-              ('padded', r'\b[Cc]hapters?\s+(?:\d+\s+(?:to|and|or)\s+)?0\d\b')]}
-    stale = {k: v for k, v in stale.items() if v}
+    # The body is resolved once (the cNN/eNN fallback in body_of), and a missing body is
+    # NOT BUILT, not a traceback.
+    body = body_of(c)
+    if not os.path.exists(G + body):
+        print("\nchapter %d  %s\n  !! NOT BUILT: no body %s in %s" % (n, c['name'], body, G))
+        fail += 1
+        continue
+    # No freshcheck: Parts A-F have authored bodies, not drafts. Everything this build reads
+    # through DK_SRC - the body, style.css, rail.js and the sourceless figures - must be the
+    # file in this folder. A checker shipped a planted figure through DK_SRC before this.
+    differ = pageguard.same_sources(G, HERE, [body, 'style.css', 'rail.js']
+                                    + sorted(c['svgs'].values()))
+    if differ:
+        print("\nchapter %d  %s\n  !! NOT BUILT: %s missing from %s or %s, or the two copies differ (DK_SRC)." % (n, c['name'], ', '.join(differ), G, HERE))
+        fail += 1
+        continue
+    stalefigs = {f: v for f, v in figs.items()
+                 if f in c['svgs'].values() and v != 'SOURCELESS'}
+    if stalefigs:
+        print("\nchapter %d  %s\n  !! NOT BUILT: figures not what their scripts write: %s"
+              % (n, c['name'], '; '.join('%s %s' % kv for kv in sorted(stalefigs.items()))))
+        fail += 1
+        continue
+    h = build(n, c, body)
+    # Retired vocabulary in the reader's text (pageguard.reader_text), and D-17.
+    stale = pageguard.stale_vocabulary(h, ALLOWED_ENTRY.get(n, []))
+    if stale:
+        print("\nchapter %d  %s\n  !! NOT WRITTEN: retired vocabulary %s" % (n, c['name'], stale))
+        fail += 1
+        continue
+    twice = pageguard.asked_twice(h)
+    if twice:
+        print("\nchapter %d  %s\n  !! NOT WRITTEN: a question asked twice (D-17): %s"
+              % (n, c['name'], '; '.join('%s = %s (%.2f)' % t for t in twice)))
+        fail += 1
+        continue
     css = h.split('<style>')[1].split('</style>')[0]
     ids = set(re.findall(r'id="([a-z0-9]+)"', h))
     links = set(re.findall(r'href="#([a-z0-9]+)"', h))
@@ -224,18 +283,20 @@ for n in sorted(CFG):
                        'dt', 'dd', 'a', 'figure', 'figcaption', 'text', 'g', 'tspan']
            if h.count('<' + t + ' ') + h.count('<' + t + '>') != h.count('</' + t + '>')]
     w = pagewords(h)
-    print("\nchapter %d  %s" % (n, c['name']))
+    page_fail = (bool(bad) + (not links <= ids) + bool(h.count('{{'))
+                 + ('--band:%s;' % PART_D not in h))
+    if not page_fail:
+        open(OUT + c['name'], 'w', encoding='utf-8').write(h)
+    print("\nchapter %d  %s%s" % (n, c['name'], '' if not page_fail else '  !! NOT WRITTEN'))
     print("  braces %d | placeholders %d | anchors %s | tags %s"
           % (css.count('{') - css.count('}'), h.count('{{'),
              'ok' if links <= ids else 'BAD ' + str(links - ids), bad if bad else 'ok'))
     print("  checkpoints %d | vignettes %d | meanwhile %d | figures %d | terms %d"
           % (h.count('class="check"'), h.count('class="vig"'), h.count('class="meanwhile"'),
              h.count('<figure>'), h.count('class="terms"')))
-    print("  part colour %s | vocabulary %s | words %d (~%d min)"
-          % ('ok' if '--band:%s;' % PART_D in h else 'BAD',
-             'clean' if not stale else 'STALE ' + str(stale), w, round(w / 210)))
-    fail += (bool(bad) + bool(stale) + (not links <= ids) + bool(h.count('{{'))
-             + ('--band:%s;' % PART_D not in h))
+    print("  part colour %s | vocabulary clean | questions asked once | words %d (~%d min)"
+          % ('ok' if '--band:%s;' % PART_D in h else 'BAD', w, round(w / 210)))
+    fail += page_fail
     for m in re.finditer(r'<div class="check">.*?</div>\s*<h2 id="(s\d\d)">(.*?)</h2>', h, re.S):
         print("  checkpoint before %s  %s"
               % (m.group(1), re.sub(r'<[^>]+>', '', m.group(2)).strip()))

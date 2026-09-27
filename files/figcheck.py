@@ -29,16 +29,20 @@ WHAT IT REPORTS
     identical   the inline SVG matches the .txt on disk
     STALE       they differ - the page predates a change to the figure
     MISSING     the page wants a figure whose .txt is not on disk
-    unmatched   an inline SVG that matches no .txt (Part D's lost figures)
+    unmatched   an inline SVG that matches no .txt (Parts A-C's inline figures)
 
-`--regen` re-runs every `figs_*.py` first, so a generator edited but never run is
-caught too. Without it, the check compares against the .txt files as they stand,
+`--regen` re-runs every `figs_*.py` and `fig_*.py` first, so a generator edited but never run is
+caught too (not the map_*.py scripts: the part builds witness those, through pageguard). Without it, the check compares against the .txt files as they stand,
 which is what the build would actually inline.
 
-NOTE ON WHAT THIS CANNOT SEE. Parts A-D have no retained bodies and ten of their
-figures have no generator at all. Those inline SVGs report `unmatched` and that
+NOTE ON WHAT THIS CANNOT SEE. Parts A-C's thirty figures are inline in their
+bodies and have no generator at all. Those inline SVGs report `unmatched` and that
 is correct, not a fault: there is nothing on disk to compare them to and never
-will be. The count of them is printed so a change in it is visible.
+will be. The count of them is printed so a change in it is visible. Part D's twelve
+figures are svg_*.txt with no generator on disk: they `match` their .txt here, and
+nothing can check the .txt itself. (Until review session 12 this note said "Parts A-D
+have no retained bodies and ten of their figures have no generator"; the bodies were
+recovered, and the count is thirty inline plus D's twelve.)
 """
 import glob
 import os
@@ -98,8 +102,13 @@ def load_labels(txts):
 
 
 def regen():
-    """Re-run every figure generator, so a stale .txt is caught as well."""
-    scripts = sorted(glob.glob(os.path.join(HERE, 'figs_*.py')))
+    """Re-run every figure generator, so a stale .txt is caught as well.
+
+    fig_*.py as well as figs_*.py since review session 12: fig_crowns.py and fig_titles.py
+    (Part E) were never re-run here, the blind spot pageguard.producers had too. The
+    map_*.py scripts are not re-run here; the part builds witness them (pageguard)."""
+    scripts = sorted(glob.glob(os.path.join(HERE, 'figs_*.py'))
+                     + glob.glob(os.path.join(HERE, 'fig_*.py')))
     print('regenerating from %d scripts' % len(scripts))
     for s in scripts:
         r = subprocess.run([sys.executable, os.path.basename(s)],
@@ -152,9 +161,9 @@ def main():
             # has no source on disk and never will.
             #
             # That is the whole of Parts A-C, whose build script references no
-            # .txt files at all, plus Part D's ten lost generators. Thirty-one
-            # figures live only inside their shipped pages. Reporting those as
-            # STALE would bury the one line that matters.
+            # .txt files at all: thirty figures inline in their bodies. (Part D's
+            # twelve have .txt files and match them; nothing generates those.)
+            # Reporting the thirty as STALE would bury the one line that matters.
             lab = aria(inline)
             shown = (lab[:44] + '...') if lab else '(no aria-label)'
             owner = labels.get(lab) if lab else None
@@ -175,7 +184,7 @@ def main():
     print('%d figures match their source' % same)
     if unmatched:
         print('%d inline figures have no source on disk '
-              '(Parts A-D: expected, not a fault)' % unmatched)
+              '(Parts A-C: expected, not a fault)' % unmatched)
     if missing:
         for n, f in missing:
             print('MISSING  %s wants %s' % (n, f))

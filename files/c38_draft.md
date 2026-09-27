@@ -684,11 +684,13 @@ was a convention, and decided to enforce it anyway.
 
 ## Carry-forward
 
-**→ 40.** The two minorities created in 1920 — German in North Schleswig,
-Danish in Flensburg — spend the 1930s being used by people who did not make them.
+**→ 40.** The German minority made in North Schleswig in 1920 spends the 1930s
+being used by people who did not make it: the Easter gale of 1933 puts the border
+back on the table, and by 1935 the minority's party is a branch of the NSDAP.
 
 **→ 41.** On 9 April 1940 the border drawn by asking is crossed by an army
-that did not ask, and both minorities have to decide what they are for.
+that did not ask; the German minority welcomes it, and learns in Berlin that
+December that the border will not move.
 
 **→ 44.** Iceland's clock runs out. Denmark is occupied in 1940 and cannot
 conduct the foreign policy it retained; Iceland takes it back, and in 1944 uses

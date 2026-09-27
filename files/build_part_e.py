@@ -6,6 +6,18 @@ Checkpoints live here, keyed to section TITLE fragments rather than ids, so that
 renaming a section breaks the build loudly instead of silently moving a
 checkpoint somewhere else (lesson 10). Any checkpoint already sitting in the body
 is stripped first, so the body and this file cannot disagree.
+
+GUARDS, given to Part E in review session 12 (REVIEW-CONSISTENCY.md §16) from
+pageguard.py, which Parts G-I share. Until then this script wrote each page inside
+build() and read its text as a regular expression does. Each is asked BEFORE the page is
+written, and a page that fails any of them, or any structural check below, is not written:
+
+  1. pageguard.same_sources: what this build reads through DK_SRC (the body, style.css,
+     rail.js) is the file in this folder. (No freshcheck: authored bodies, not drafts.)
+  2. pageguard.figures_fresh: every figure is what its script writes, run in a scratch
+     copy. All fourteen of Part E's are scripted.
+  3. pageguard.stale_vocabulary on reader_text, with ALLOWED_ENTRY found by hand.
+  4. pageguard.asked_twice (D-17).
 """
 import os
 import re
@@ -13,6 +25,7 @@ import sys
 
 from pagewords import pagewords   # one definition, shared
 import dkpaths
+import pageguard    # body witness, figure freshness, reader's-text vocabulary, ask once
 
 # Paths resolve relative to this script, not to wherever it is run from, and both
 # can be overridden. The container paths that used to be hardcoded here meant the
@@ -56,8 +69,7 @@ CFG = {
         "wrote her claim down in December 1375?",
         "What did Oluf's election in 1376 have in common with the charter of 1282 \u2014 and what "
         "does that tell you about who was really being paid?",
-        "Name three things the Norwegian crown brought with it in 1380 that were not in "
-        "Scandinavia."]),
+        "What was settled over Schleswig in 1386, and at what price?"]),
       ("A king in a Sk\u00e5ne castle", [
         "What title was Margrete hailed by at Lund in 1387, and what does "
         "<i class=\"dk\">husbond</i> mean?",
@@ -67,8 +79,8 @@ CFG = {
       ("Kalmar, 17 June", [
         "Albrecht lost at \u00c5sle in February 1389. Why did the war go on for another nine years, "
         "and what finally ended it?",
-        "The 1396 ordinance dates its confiscations from 1368. What happened in 1368, and why is "
-        "that the year chosen?",
+        "The 1396 ordinance dates its confiscations from 1368. What happened in 1368, and what had "
+        "been happening to crown land since?",
         "Why was a seven-year-old Pomeranian the right heir, from Margrete's point of view?"])]),
 
  17: dict(
@@ -83,12 +95,12 @@ CFG = {
          ("s06", "06", "The alabaster and the gown")],
     checks=[
       ("Norway, from partner", [
-        "Day to day, what did the union actually consist of?",
+        "What could the three kingdoms say of the years 1389 to 1412 that none of the preceding "
+        "three generations could, and against which three powers did they act as one?",
         "Who was the man from Graudenz, and why is he in this chapter rather than the last one?",
         "Why did a schism with two rival popes make a ruler's church appointments easier?"]),
       ("The land behind the union", [
-        "Name three reasons Norway declined from partner to province, none of which is a "
-        "decision.",
+        "Which castle was the most important appointment in Norway, and why?",
         "What happened at Hvalsey on 16 September 1408, and why does a wedding certificate survive "
         "when nothing else does?",
         "What was a <i class=\"dk\">skattland</i>, and which ones did Denmark hold through "
@@ -120,19 +132,19 @@ CFG = {
       ("Vordingborg", [
         "Erik inherited three kingdoms in 1412. What had he been doing for the fifteen years "
         "before that?",
-        "What did the Ofen verdict of 1424 decide \u2014 and why did winning it change nothing?",
-        "Name three things that had to be true before a toll at Helsing\u00f8r could work."]),
+        "What did Philippa agree with L\u00fcbeck, Hamburg, L\u00fcneburg and Wismar in October 1424, and "
+        "on whose authority?",
+        "Why did Copenhagen, rather than any other town, become Erik's seat of government?"]),
       ("Christoffer, and the price", [
-        "Which six towns declared war in 1426, and what were their three grievances?",
+        "Which six towns declared war in 1426, and what were their two grievances at the start?",
         "What happened at Copenhagen in April 1428, and what happened there in June?",
         "Who was Engelbrekt, what class did he come from, and why did the Swedish council join a "
         "rising it had every reason to fear?"]),
       ("What the toll bought", [
-        "Who deposed Erik of Pomerania, on what instrument, and what did he do afterwards?",
+        "Why did the Danish council refuse Erik's cousin Bogislav as his successor?",
         "What did Christoffer of Bavaria concede to get three crowns \u2014 and what did he manage "
         "<em>not</em> to concede?",
-        "Why did cattle rather than grain become Jutland's export, and which class was placed to "
-        "profit from it?"]),
+        "What did the treaty concluded at Bergen in 1450 settle, and how long did it hold?"]),
     ]),
  19: dict(
     name='19-schleswig-holstein-and-the-unions-collapse.html',
@@ -152,14 +164,13 @@ CFG = {
          ("s11", "11", "1523: two kings leave")],
     checks=[
       ("A dowry never paid", [
-        "Who elected Christian 1. duke of Schleswig and count of Holstein in 1460, and what did "
-        "they get for it?",
-        "Whose law said what about inheriting a duchy through a woman \u2014 and which law actually "
-        "decided the outcome?",
-        "What is the difference between the 1460 clause and the nineteenth-century slogan, and who "
-        "made the second out of the first?"]),
+        "What was Adolf 8. to Christian 1., and what had he done in 1448?",
+        "What did German practice and Danish law each say about a fief left without male heirs, and "
+        "which way did each point in 1459?",
+        "What was <i class=\"dk\">Ejderpolitikken</i>, and what did it lead to?"]),
       ("Denmark in 1500", [
-        "How did Orkney and Shetland leave the Danish realm, and in which years?",
+        "Who beat Christian 1. at Brunkeberg in 1471, and how did the victor turn the battle into "
+        "a story afterwards?",
         "What was the ground at Hemmingstedt, and what did the Dithmarschers do with it?",
         "What was lost with Hans von Ahlefeldt, and why does chapter 13 care?"]),
       ("Stockholm, November 1520", [
@@ -185,10 +196,8 @@ CFG = {
     tail_extra=[CODA],
     checks=[
       ("A throne left empty", [
-        "Frederik 1. swore in 1523 to prosecute heretics. Name three things he did instead, and "
-        "give his stated reason.",
-        "Why did the Reformation arrive through the market towns rather than through the "
-        "countryside or the court?",
+        "What did Duke Christian do at Haderslev in 1528, and what did it show?",
+        "Why did the Danish Reformation arrive through the market towns?",
         "What was the <i class=\"dk\">Confessio Hafniensis</i>, and what was decided about it?"]),
       ("\u00d8ksnebjerg", [
         "What did the council of the realm do in 1533 instead of electing a king, and why?",
@@ -199,8 +208,8 @@ CFG = {
         "do to how they held their land?",
         "Why were the bishops arrested <em>before</em> the assembly of 30 October rather than "
         "after?",
-        "What happened to the bishop's third of the tithe, and what changed for the man paying "
-        "it?"]),
+        "What did Christian 3.'s accession charter of 1536 say about Norway, and was it carried "
+        "out?"]),
     ]),
 }
 
@@ -256,32 +265,62 @@ def build(n, c):
     w = pagewords(h)
     h = re.sub(r'Era chapter \u00b7 about \d+ minutes',
                'Era chapter \u00b7 about %d minutes' % round(w / 210), h)
-    open(OUT + c['name'], 'w', encoding='utf-8').write(h)
     return h
 
 
-LEDGER_ENTRY = {18: ['That is the whole entry', 'the entries get longer']}
+# "entry" in its ordinary sense, found by hand in review session 12 (built pages 16-20,
+# text, figure text and attributes, whitespace joined, case ignored): only chapter 18's
+# two, a line in the Sound toll register. Each phrase is removed once, exactly as the
+# reader's text has it; a phrase no longer on the page is itself reported.
+ALLOWED_ENTRY = {18: ['That is the whole entry', 'the entries get longer']}
 
 print("--- Part E ---")
 fail = 0
+# EVERY FIGURE MUST BE WHAT ITS SCRIPT WRITES, witnessed by running the script in a scratch
+# copy (pageguard, review session 12, §16). Part E's figures are all scripted; until this
+# session none of them was checked, and svg_fealty.txt was stale.
+figs, nfigs = pageguard.figures_fresh(
+    HERE, G, sorted({f for c in CFG.values() for f in c['svgs'].values()}))
+print("  figures: %d checked against their scripts, %s"
+      % (nfigs, 'all fresh' if not figs else '%d NOT' % len(figs)))
 for n in sorted(CFG):
     c = CFG[n]
+    # Parts A-F have authored bodies and no drafts, so there is no freshcheck here. What
+    # this build reads through DK_SRC - the body, style.css, rail.js - must be the file in
+    # this folder (the figures are witnessed against their scripts above).
+    if not os.path.exists(G + c['body']):
+        print("\nchapter %s  %s\n  !! NOT BUILT: no body %s in %s" % (n, c['name'], c['body'], G))
+        fail += 1
+        continue
+    differ = pageguard.same_sources(G, HERE, [c['body'], 'style.css', 'rail.js'])
+    if differ:
+        print("\nchapter %s  %s\n  !! NOT BUILT: %s missing from %s or %s, or the two copies differ (DK_SRC)." % (n, c['name'], ', '.join(differ), G, HERE))
+        fail += 1
+        continue
+    # SOURCELESS fails here too, unlike Parts D and G-I: every Part E figure has a script,
+    # so a figure that loses it has lost its witness.
+    stalefigs = {f: v for f, v in figs.items() if f in c['svgs'].values()}
+    if stalefigs:
+        print("\nchapter %s  %s\n  !! NOT BUILT: figures not what their scripts write: %s"
+              % (n, c['name'], '; '.join('%s %s' % (k, 'MISSING' if 'Errno 2' in v else v)
+                                for k, v in sorted(stalefigs.items()))))
+        fail += 1
+        continue
     h = build(n, c)
-    # Retired vocabulary, as build_parts_abc.py (review session 5, §9.6) and
-    # build_part_d.py (session 6, §10.6) check it, given to this part in review
-    # session 7: until then nothing here could see a padded "chapter 07" on a Part E
-    # page. \s+, not a space, so a line break inside the phrase does not hide it.
-    # Chapter 18 uses "entry" in its ordinary sense, twice, for a line in the Sound
-    # toll register; those two phrases, and only those, are allowed. Any other use
-    # still fails, so a retired "this entry" meaning a chapter cannot hide behind them.
-    prose = re.sub(r'<script>.*?</script>', '', h, flags=re.S)
-    for ok in LEDGER_ENTRY.get(n, []):
-        prose = prose.replace(ok, '', 1)
-    stale = {k: len(re.findall(p, prose)) for k, p in
-             [('Band X', r'\bBand [A-I]\b'), ('entry', r'\b[Ee]ntr(?:y|ies)\b'),
-              ('Era page', r'Era page'),
-              ('padded', r'\b[Cc]hapters?\s+(?:\d+\s+(?:to|and|or)\s+)?0\d\b')]}
-    stale = {k: v for k, v in stale.items() if v}
+    # Retired vocabulary in the reader's text (pageguard.reader_text): text, figure text,
+    # attributes a screen reader speaks, tags as spaces, entities and look-alikes folded.
+    stale = pageguard.stale_vocabulary(h, ALLOWED_ENTRY.get(n, []))
+    if stale:
+        print("\nchapter %s  %s\n  !! NOT WRITTEN: retired vocabulary %s" % (n, c['name'], stale))
+        fail += 1
+        continue
+    # D-17: a page asks each question once.
+    twice = pageguard.asked_twice(h)
+    if twice:
+        print("\nchapter %s  %s\n  !! NOT WRITTEN: a question asked twice (D-17): %s"
+              % (n, c['name'], '; '.join('%s = %s (%.2f)' % t for t in twice)))
+        fail += 1
+        continue
     css = h.split('<style>')[1].split('</style>')[0]
     ids = set(re.findall(r'id="([a-z0-9]+)"', h))
     links = set(re.findall(r'href="#([a-z0-9]+)"', h))
@@ -293,20 +332,22 @@ for n in sorted(CFG):
     toc = re.search(r'<details class="toc">.*?</details>', h, re.S).group(0)
     tail_ok = all(('#%s' % t[0]) in rail and ('#%s' % t[0]) in toc
                   for t in TAIL + c.get('tail_extra', []))
-    print("\nchapter %s  %s" % (n, c['name']))
+    page_fail = (bool(bad) + (not links <= ids) + bool(h.count('{{'))
+                 + (not tail_ok) + ('--band:%s;' % PART_E not in h))
+    if not page_fail:
+        open(OUT + c['name'], 'w', encoding='utf-8').write(h)
+    print("\nchapter %s  %s%s" % (n, c['name'], '' if not page_fail else '  !! NOT WRITTEN'))
     print("  braces %d | placeholders %d | anchors %s | tags %s"
           % (css.count('{') - css.count('}'), h.count('{{'),
              'ok' if links <= ids else 'BAD ' + str(links - ids), bad if bad else 'ok'))
     print("  checkpoints %d | vignettes %d | meanwhile %d | figures %d | terms %d | tail in rail+toc %s"
           % (h.count('class="check"'), h.count('class="vig"'), h.count('class="meanwhile"'),
              h.count('<figure>'), h.count('class="terms"'), 'ok' if tail_ok else 'BAD'))
-    print("  part %s | vocabulary %s | words %d (~%d min)"
-          % ('ok' if '--band:%s;' % PART_E in h else 'BAD',
-             'clean' if not stale else 'STALE ' + str(stale), w, round(w / 210)))
+    print("  part %s | vocabulary clean | questions asked once | words %d (~%d min)"
+          % ('ok' if '--band:%s;' % PART_E in h else 'BAD', w, round(w / 210)))
     for m in re.finditer(r'<div class="check">.*?</div>\s*<h2 id="(s\d\d)">(.*?)</h2>', h, re.S):
         print("  checkpoint before %s  %s"
               % (m.group(1), re.sub(r'<[^>]+>', '', m.group(2)).strip()))
-    fail += (bool(bad) + bool(stale) + (not links <= ids) + bool(h.count('{{'))
-             + (not tail_ok) + ('--band:%s;' % PART_E not in h))
+    fail += page_fail
 print("\n%s" % ('all five built clean' if not fail else '!! %d problems' % fail))
 sys.exit(1 if fail else 0)

@@ -39,6 +39,11 @@ written — see Lessons.
 | H | 32–36 | 1814–1901 | **built, verified, indexed, closed — see `PLAN_H.md`** |
 | I | 37–45 | 1901–1955 | **NINE CHAPTERS, ALL BUILT, VERIFIED AND INDEXED. The boundary pass is done — item 136 — and item 128 is CLOSED.** The 1943–1955 run was repartitioned from three chapters into four at the material's own seams; no chapter in the part is outside the 25–50 band |
 
+**After item 150 the book is 351,041 page words, 27.9 h; Part A 21,438, B 26,439, C 26,375, D
+32,167, E 36,480, F 30,319, G 54,240, H 43,460, I 80,123; no D-9 failure; D-17 (ask once) carried
+out in all 45 pages, and every part's build asks it before writing a page** — read off
+`bookstats.py` after the session 12 rebuild, 27 September 2026 (`START_HERE_review_13.md`).
+
 **After item 149 the book is 350,394 page words, 27.8 h; Part G 54,240, Part H 43,460, Part I
 80,096; no D-9 failure; D-17 (ask once) in force and carried out in 25–45** — read off `bookstats.py`
 after the session 11 rebuild, 27 September 2026. Every part has now been read at the depth of
@@ -1273,13 +1278,18 @@ because references to "chapter 16" are legitimate again.
 the time — **Julian before 1 March 1700, Gregorian after** — with the foreign style
 in parentheses at the first divergence in a chapter.
 
-Everything in Parts A–F is therefore Old Style, and nothing currently says so. Part F
-happens to be internally consistent, because Sweden was on the Julian calendar in
-1658 too, so no divergence arises; but a reader checking Lutter am Barenberge against
-a German source will find 27 August or 6 September depending which state printed it.
-**Fix: one line in the index's conventions list**, which touches no chapter.
+Everything in Parts A–F is therefore Old Style. Part F has two divergences on the page:
+Lutter am Barenberge in chapter 23 ("17 August — 27 August in the new style"), and the
+battle of the Sound in 24 ("29 October 1658 — 8 November by the Dutch reckoning"). Sweden
+was on the Julian calendar in 1658 too, so the Swedish dates in 24 do not diverge. Both
+set the foreign style off with a dash, where D-6 and the index say parentheses (Part G
+uses parentheses); found in review session 12, not changed — a body edit for the next pass
+through Part F. (This
+paragraph said Part F had no divergence and gave Lutter as "27 August or 6 September" until
+review session 12; CONVENTIONS D-6 has the correction of session 8.) **Fix: one line in the index's conventions list** — **done in review session
+12**, the *Calendar* line of *Decisions already made*.
 
-Part G is where it first bites on a date in the text. Sweden kept its own reckoning
+Part G is where Swedish style first bites on a date in the text. Sweden kept its own reckoning
 until 1712 and then reverted to the Julian, so the battle outside Helsingborg is 28
 February 1710 in Swedish papers and **10 March** in Danish ones; Poltava is 27 June
 1709 Russian and **8 July** Danish. Chapter 27 carries a `gammel og ny stil` glossary
@@ -1291,9 +1301,11 @@ as 3 June by one academic source and 3 July by another — a disagreement about 
 
 ### How a cross-reference is written
 
-The series points at another chapter in **six** different ways. The first five were
+The series points at another chapter in **eight** different ways. The first five were
 never written down, so each cost a bug during the sweep; the sixth was added by
-decision D-1 to stop the churn that caused:
+decision D-1 to stop the churn those bugs caused. The last two combine the D-1 form with
+the others and were found on the pages in review session 12 (CONVENTIONS, *Conflicts
+found while collecting*, 3):
 
 | form | example | where |
 |---|---|---|
@@ -1303,6 +1315,8 @@ decision D-1 to stop the churn that caused:
 | `(N)` | "the Atlantic slave trade (27)" | prose, Parts A–D especially |
 | `next: N` | footers | end of every chapter |
 | `→ Part X` | `<li><b>→ Part H</b>` | carry-forward, targets beyond the next part |
+| `→ N, Part X` | `<li><b>→ 10, Part H</b>` | carry-forward, a chapter in the next part and a part beyond it (02, 06 twice, 14 — 14's names two parts) |
+| `→ Part X, Part Y` | `<li><b>→ Part H, Part I</b>` | carry-forward, two parts beyond the next (04, 15, 19) |
 
 **Decision D-1, August 2026.** A forward arrow may name a chapter *number* only
 inside the next part. Beyond that it names a **part letter**. Three of Part F's
@@ -4826,6 +4840,77 @@ split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see it
    could not see it; and the lead, correcting a count from five to four, cited a source for a claim the
    source did not make, and a third checker caught it. *A measure finds the fault it was written for and
    no other; and a correction is checked by someone who did not write it, however small it is.*
+
+150. **The consistency review, session 12: D-17 (ask once) in Parts A–F, and the guard for the first
+   four builds.** 27 September 2026. Full record in `REVIEW-CONSISTENCY.md` §16.
+
+   **Cold run on a fresh clone of `20a417c`: every figure matched START_HERE_review_12.** Item 149's
+   pages, the index and the regenerated `svg_*.txt` are in its commit. The session's safety check
+   refused to run the repository's scripts until Carsten set the session to approve commands by hand.
+   State lived in `claude/session12_state.md` and `claude/session12_wip.patch`, saved thirteen times;
+   the project was full, and at Carsten's word eleven old patch files (sessions 7–11, all in git) were
+   deleted from it.
+
+   **D-17 IN 01–24.** Session 11's measure, taking globs, gives 0 on 25–45 (calibrated). On 01–24 it
+   found **not three failing pages but twenty** (all but 13, 18, 21, 22): Recall 34 of 128 against a
+   checkpoint, four pairs word for word (04 twice, 05, 10). Six fixers, one per part, then read every
+   page; the reading found far more than the measure — by the fixers' own counts about 140 repeats in
+   other words, and 36 questions false by the page, unanswerable from it, or asked ahead of their
+   anchor (01's
+   "Patagonia", 11's Cnut "inherited his father's conquest", 12's embassy "of 1133", 14's Abel "in
+   1250", 23's and 24's checkpoints on §10). **244 questions changed in 01–24** (53 checkpoints, 190
+   end-tier, one opener — 17's "a third of the farms in some districts", now Brøndum's two in three,
+   and its intro line with it). After: **qs 0/224, Causal 0/168, Recall 0/198 against the checkpoints,
+   0 opener–tier pairs, and `asked_twice` 0 on all 45 pages.**
+
+   **THE GUARD FOR A–F.** `build_parts_abc.py`, `build_part_d.py`, `build_part_e.py`,
+   `build_part_f.py` now ask, before a page is written: `same_sources` (new in `pageguard`: the body,
+   `style.css`, `rail.js` and Part D's figures read through `DK_SRC` must be the files in `files/`, and
+   a missing one is NOT BUILT), `figures_fresh` (E 14, F 12; D asked, 12 sourceless; A–C inline),
+   `stale_vocabulary` on `reader_text`, and `asked_twice`; and no page is written until every
+   structural check passes too. **"entry" by hand in 01–24**: 18 twice, 22 twice, 23 twice, the phrases
+   already allowed; 10's "carpentry" is not the word. **Found on the way:** `pageguard.producers` could
+   not see twelve of Part E's fourteen figures (`fig_*.py`, and output named by stem), so none had a
+   witness — and **`svg_fealty.txt` (19) was stale**: `figs_18.py` had moved two labels to `style=`
+   (D-11) and was never re-run. ABC's anchor check was `links > ids`, a proper superset, so a dangling
+   link never failed, and the script exited 0 on failure. **23 planted cases, all fired, pages
+   untouched** (`claude/session12_plant.py`).
+
+   **CHEAP.** D-6's *Calendar* line is in the index; the two arrow forms are in *How a cross-reference
+   is written* — on seven arrows in six chapters, not "6, 15 and 19"; 38's → 40 and → 41 now promise
+   the German minority only, as 40 and 41 carry it. HANDOFF's *Dates* section corrected (Lutter
+   17/27 August; Part F's two divergences, both set off by a dash, not parentheses — not changed).
+
+   **CHECKED FOUR TIMES.** Check 1 (seven agents): 88 findings, 4 substantive in the questions (03,
+   07, 10, 21) and the code's real holes — Part D's figures and every build's `style.css`/`rail.js`
+   read through `DK_SRC` unwitnessed (a planted figure shipped clean), `--stub` dead, `body_of`
+   crashing. Check 2 (three): 10's new Causal 1 failed its own condition (restored); `--stub` could now
+   overwrite a shipped page (now refused inside the repository); a missing file with `DK_SRC` unset
+   was a traceback. Check 3 (one): **the lead's own new HANDOFF sentence was false** (Part F has two
+   divergences, not one), and 15's fix gave away Causal 4. Check 4 (one): three message and doc lines;
+   the last round was checked by the planted cases. Ledgers: `claude/session12_check1.md`, `_check2.md`.
+
+   **FOUND, NOT CHANGED — prose and figures in A–F, for the next pass (§16.5); none yet checked
+   against a source.** Those the checkers were surest of, or that the page's own arithmetic settles:
+   17 Fig. 1 "Bergen to Garðar … further than Copenhagen to Baghdad" (≈2,690 against ≈3,490 km) and
+   its "ten-year-old" Oluf (16 has nine); 19 §01 "the Schauenburg line was extinct" (one branch); 11
+   Fig. 3 "Harold Godwinson … by marriage into the Godwins"; 11 §09 "eighteen years after Hastings"
+   for 1085 (D-8); 13 §11 Rügen "south of the Eider". To verify: 10 §03's "three-tonne" Jelling
+   stone; 02 §07 the Engesvang amber; and twenty-nine more there.
+
+   **VERIFIED** in the working clone after the last edit: `figs_18.py`, mkbody 38, all nine part builds
+   clean (E 14 fresh, F 12, G 21, H 15, I 24; D 12 sourceless), `linkindex`, `index_generator`, then the
+   whole suite: **FIXTURE PASSES; seams pass; debuild 45 identical; 45 of 45, 351,041 page words, 27.9 h;
+   21 is 50 minutes (10,530), 44 48, 45 50; vignettes 148/116, no D-9 failure, selftest passes; figcheck
+   98/30/0; four OVER unchanged; draftnotes clean; appcheck 167 in 21; freshcheck 21; tidy clean;
+   sweeps: 2 pointers, 0 same-page glosses, Schleswig 315 / Slesvig 4, sweep_facts 2, arrows 254,
+   solvency 38, D-1 0.** Pages that change: **01–24, 38 and the index.**
+
+   **LESSON.** The brief's "20, 23 and 24" was a count carried from the last session and never
+   re-measured; the real number was twenty pages. And the guard that had witnessed every figure in
+   G–I had never seen Part E's, because the search for producers was written for the scripts it had
+   met. *A number handed on is a claim until it is measured again; and a witness covers only the
+   files its search was written to find — so find, by hand, what it should have found.*
 
 ---
 

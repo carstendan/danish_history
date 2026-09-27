@@ -1,5 +1,9 @@
 # -*- coding: utf-8 -*-
-"""pageguard.py - what build_part_g.py and build_part_h.py ask before writing a page.
+"""pageguard.py - what every part's build asks before writing a page.
+
+Parts G and H from review session 10, I from session 11, and A-F (build_parts_abc.py,
+build_part_d.py, build_part_e.py, build_part_f.py) from session 12. Parts A-F have
+authored bodies and no drafts, so freshcheck does not apply to them; the other checks do.
 
 One definition, shared, as pagewords.py is. Written in review session 10
 (REVIEW-CONSISTENCY.md §14.6) after the checker of Part H's new guard got past it
@@ -30,8 +34,14 @@ in three ways, every one shown on a scratch copy with the build printing
 
 KNOWN LIMITS, by design. Homoglyphs are folded for the letters the retired words
 use, not for every script in Unicode. A figure produced by no script in this
-folder (Parts A-D's inline figures) is reported as sourceless, not stale, as
-figcheck.py reports it.
+folder is reported as sourceless, not stale: Parts A-C's figures are inline in their
+bodies, and Part D's twelve svg_*.txt have no generator on disk. Nothing can witness
+their content; `same_sources` can still witness that the build reads the copies in this
+folder. `producers` takes the first script (in name order) that quotes a figure's name
+or stem anywhere, a comment included, so the producer it reports can be the wrong one.
+That never passes a stale figure: every producer found is run in the same scratch copy,
+and a figure passes only if the file there is byte-identical to the one the build reads
+(review session 12, checks 1 and 2).
 """
 import html
 import os
@@ -167,13 +177,35 @@ def same_body(src_dir, here, body):
         return False
 
 
+def same_sources(src_dir, here, names):
+    """The names among `names` whose copy in src_dir (what the build reads, DK_SRC) is
+    not the one in `here` - or is missing from either. Review session 12: a build of Parts
+    A-F reads its body, style.css, rail.js and (Part D) sourceless figures through DK_SRC,
+    and a checker shipped a planted figure through it with the build printing clean.
+    A file missing from src_dir is reported even when src_dir is `here` (same_body alone
+    says True there, and the build then died with a traceback - check 2)."""
+    return [f for f in names if not os.path.exists(os.path.join(src_dir, f))
+            or not same_body(src_dir, here, f)]
+
+
 def producers(here, svg_files):
-    """{svg file: the figs_*/map_* script in `here` that writes it, or None}."""
+    """{svg file: the fig_*/figs_*/map_* script in `here` that writes it, or None}.
+
+    A script names its output either whole ("svg_x.txt") or by stem ("svg_x", with
+    `name + ".txt"` at the write). Until review session 12 only figs_*/map_* scripts were
+    read, and only for the whole name, so twelve of Part E's fourteen figures read as
+    SOURCELESS: two written by fig_crowns.py and fig_titles.py (missed by the prefix) and
+    ten written by stem in figs_16b/17/18/19.py. A stale svg_fealty.txt (figs_18.py moved
+    two labels to style= under D-11 and was never re-run) had no witness at all
+    (REVIEW-CONSISTENCY.md §16)."""
     scripts = sorted(f for f in os.listdir(here)
-                     if re.match(r'(figs|map)_\w+\.py$', f))
+                     if re.match(r'(figs?|map)_\w+\.py$', f))
     src = {s: open(os.path.join(here, s), encoding='utf-8').read() for s in scripts}
-    return {f: next((s for s in scripts if '"%s"' % f in src[s] or "'%s'" % f in src[s]),
-                    None) for f in svg_files}
+
+    def named(f, s):
+        stem = f[:-4] if f.endswith('.txt') else f
+        return any(q % x in src[s] for q in ('"%s"', "'%s'") for x in (f, stem))
+    return {f: next((s for s in scripts if named(f, s)), None) for f in svg_files}
 
 
 def figures_fresh(here, src_dir, svg_files):

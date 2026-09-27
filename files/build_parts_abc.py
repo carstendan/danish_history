@@ -5,18 +5,32 @@ Modelled on build_part_d.py: per-chapter configs in one dict, one command,
 self-verifying. Two differences from Part D, both deliberate:
 
   * SVGs stay inline in the bodies. Chapters 12-15 externalise theirs to
-    svg_*.txt because a Python script generates each one; the generators for
-    1-11 are gone, so a placeholder would point at a file that can never be
-    regenerated.
+    svg_*.txt; the generators for 1-11 are gone, so a placeholder would point at
+    a file that can never be regenerated. (This said Part D's figures had a script
+    each. They do not: no generator for any of the twelve is on disk - review
+    session 12.)
   * Checkpoints are stripped and re-inserted at build time, exactly as Part D
     does, so the title-anchoring convention keeps failing loudly if a section
     is renamed.
+
+GUARDS, given to Parts A-C in review session 12 (REVIEW-CONSISTENCY.md §16) from
+pageguard.py, which Parts G-I share. Until then this script wrote each page inside
+build() and read its text as a regular expression does. Each is asked BEFORE the page is
+written, and a page that fails any of them, or any structural check, is not written:
+
+  1. pageguard.same_sources: what this build reads through DK_SRC (the body, style.css,
+     rail.js) is the file in this folder. (No freshcheck: Parts A-F have authored bodies,
+     not drafts. No figures_fresh: the figures are inline in the bodies, no script.)
+  2. pageguard.stale_vocabulary on reader_text (no ordinary "entry" in 01-11, by hand).
+  3. pageguard.asked_twice (D-17).
 """
 import os
 import re
+import sys
 
 from pagewords import pagewords   # one definition, shared
 import dkpaths
+import pageguard    # body witness, reader's-text vocabulary, ask once
 
 # Paths resolve relative to this script, not to wherever it is run from, and both
 # can be overridden. The container paths that used to be hardcoded here meant the
@@ -83,7 +97,7 @@ CFG = {
     ],
     checks=[
       ('Kongemose: the move to the shore', [
-        'Why are Stone Age sites inland in north Denmark but underwater in the south?',
+        'What is a <i class="dk">mikrolit</i>, and why is an edge of several of them better than one large point?',
         'What drowned Doggerland — the Storegga tsunami, or something slower?',
       ]),
       ('Vedbæk: people we can look at', [
@@ -117,7 +131,7 @@ CFG = {
     checks=[
       ('The farm', [
         'What is <i class="dk">landnam</i>, and how does it show up in a pollen core?',
-        'Farming arrived with people rather than ideas. What evidence shows that?',
+        'What did Iversen\'s clearance experiment in Draved Skov show about polished flint axes?',
       ]),
       ('Flint, amber and the first metal', [
         'What is the difference between a <i class="dk">dysse</i> and a <i class="dk">jættestue</i>?',
@@ -148,11 +162,11 @@ CFG = {
     ],
     checks=[
       ('The mound landscape', [
-        'Denmark has no copper and no tin. So how was the bronze paid for?',
+        'What happened to Denmark when the eastern Mediterranean world collapsed around 1,200 BCE?',
         'How far south did Danish amber actually travel?',
       ]),
       ('The sun', [
-        'Why does organic material survive in some Bronze Age mounds and not others?',
+        'Roughly how many burial mounds still stand, and how many were probably built?',
         'What did the sprig of yarrow in the Egtved coffin tell us?',
       ]),
       ('Were they local? A scientific feud', [
@@ -179,8 +193,8 @@ CFG = {
     ],
     checks=[
       ('The village behind the fence', [
-        'What is <i class="dk">myremalm</i>, and why did it undermine the old elite?',
-        'Why are poor graves not the same thing as a poor society?',
+        'What happened to the climate around 600–500 BCE, and what did it do to the land?',
+        'Where in Denmark does bog iron form, and why does that reverse the old ranking of the soils?',
       ]),
       ('The ordinary dead', [
         'What was found at Hjortspring besides the boat, and what does it add up to?',
@@ -213,7 +227,7 @@ CFG = {
     checks=[
       ('Hoby: a Roman dinner service on Lolland', [
         'Roughly how far was Denmark from the Roman frontier?',
-        'Besides hides and amber, what did the north sell to the empire?',
+        'What was in the Juellinge woman\'s right hand, and how does the National Museum read it?',
       ]),
       ('Nydam: the boat that changed everything', [
         'How can the Illerup material be sorted by rank?',
@@ -243,11 +257,11 @@ CFG = {
         'What does the Vindelev inscription say, and why is the date startling?',
       ]),
       ('Halls', [
-        'What happened in 536, and what did it do to Scandinavia?',
-        'Where does the peak of Danish gold deposition fall relative to that?',
+        'What changed in Danish villages between the catastrophe and the Viking Age, and what does the map still show of it?',
+        'Where does the peak of Danish gold deposition fall relative to the catastrophe of 536?',
       ]),
       ('What Part B leaves behind', [
-        'Who first writes down the name of the Danes, and when?',
+        'What are <i class="dk">guldgubber</i>, and where have they been found in their thousands?',
         'Name the three works of the early 700s that imply a state.',
       ]),
     ]),
@@ -273,7 +287,7 @@ CFG = {
     checks=[
       ('Godfred, the first Danish king we can see', [
         "Why did Charlemagne's conquest of Saxony make raiding <em>more</em> likely?",
-        'What does <i class="dk">viking</i> actually mean?',
+        'Which way did Danish fleets go, and which way did Norwegian and Swedish ones?',
         'Why can a religion with no central authority not resist a king who changes his mind?',
       ]),
       ('How a raid actually worked', [
@@ -281,7 +295,7 @@ CFG = {
         'Where was the border fixed in 811, and how long did it hold?',
       ]),
       ('The part that is hardest to look at', [
-        'What turned seasonal raiding into conquest? Name the three stages.',
+        'What did Charles the Simple grant Rollo in 911, and on what conditions?',
         'What was the Danelaw, and what did it leave in the English language?',
       ]),
     ]),
@@ -343,12 +357,12 @@ CFG = {
         'Which word on the small stone is the first of its kind in Denmark?',
       ]),
       ('Reading the geometry', [
-        'Why did Harald convert? Give the external reason and the internal one.',
+        "What does the picture of Christ on Harald's stone show, and what is unusual about it?",
         'What was built around 980, and how do we date it so precisely?',
       ]),
       ('What Jelling means now', [
         'What are the four candidate explanations for the ring fortresses?',
-        "Which of Harald's three claims on the big stone is the weakest?",
+        'What did strontium in the teeth of the Trelleborg dead show about where they grew up?',
       ]),
     ]),
 
@@ -370,15 +384,15 @@ CFG = {
     ],
     checks=[
       ('1013', [
-        "Why did paying Danegeld make England's position worse, not better?",
+        'How long did the reconstructed Skuldelev 2 take from Roskilde to Dublin, and what does that mean for a fleet bound for England?',
         "What happened on St Brice's Day 1002, and what followed from it?",
       ]),
       ('Seven years, then nothing', [
-        'What did Cnut do with his army in 1018, and why?',
+        'What did Cnut do with his army in 1018, and what did he keep?',
         'Where did Cnut actually live and govern from?',
       ]),
       ('What the Viking Age left', [
-        'Why did the North Sea Empire dissolve within seven years?',
+        'How did Harold Godwinson deal with Harald Hardrada, and how far did his army march to do it?',
         'Why did Harald Hardrada sail for England in 1066, and why did Sweyn Estridsen not?',
       ]),
     ]),
@@ -440,15 +454,45 @@ def build(n, c):
     w = pagewords(h)
     h = re.sub(r'Era chapter \u00b7 about \d+ minutes',
                'Era chapter \u00b7 about %d minutes' % round(w / 210), h)
-    open(OUT + c['name'], 'w', encoding='utf-8').write(h)
     return h
 
 
+# "entry" in its ordinary sense, found by hand in review session 12 (built pages 01-11,
+# text, figure text and attributes, whitespace joined, case ignored): none. (10's
+# "carpentry" holds the letters and is not the word.)
+ALLOWED_ENTRY = {}
+
 print("--- Parts A, B, C ---")
+# Parts A-C's figures are inline in their bodies and have no script; there is nothing for
+# pageguard.figures_fresh to run, so it is not asked here.
+print("  figures: inline in the bodies, no scripts (nothing to witness)")
 fail = 0
 for n in sorted(CFG):
     c = CFG[n]
+    # No freshcheck: Parts A-F have authored bodies, not drafts. Everything this build
+    # reads through DK_SRC - the body, style.css, rail.js - must be the file in this folder.
+    if not os.path.exists(G + c['body']):
+        print("\nchapter %d  %s\n  !! NOT BUILT: no body %s in %s" % (n, c['name'], c['body'], G))
+        fail += 1
+        continue
+    differ = pageguard.same_sources(G, HERE, [c['body'], 'style.css', 'rail.js'])
+    if differ:
+        print("\nchapter %d  %s\n  !! NOT BUILT: %s missing from %s or %s, or the two copies differ (DK_SRC)." % (n, c['name'], ', '.join(differ), G, HERE))
+        fail += 1
+        continue
     h = build(n, c)
+    # Retired vocabulary in the reader's text (pageguard.reader_text), and D-17.
+    stale = pageguard.stale_vocabulary(h, ALLOWED_ENTRY.get(n, []))
+    if stale:
+        print("\nchapter %d  %s\n  !! NOT WRITTEN: retired vocabulary %s" % (n, c['name'], stale))
+        fail += 1
+        continue
+    twice = pageguard.asked_twice(h)
+    if twice:
+        print("\nchapter %d  %s\n  !! NOT WRITTEN: a question asked twice (D-17): %s"
+              % (n, c['name'], '; '.join('%s = %s (%.2f)' % t for t in twice)))
+        fail += 1
+        continue
     css = h.split('<style>')[1].split('</style>')[0]
     ids = set(re.findall(r'id="([a-z0-9]+)"', h))
     links = set(re.findall(r'href="#([a-z0-9]+)"', h))
@@ -456,25 +500,23 @@ for n in sorted(CFG):
                        'dt', 'dd', 'a', 'figure', 'figcaption', 'text', 'g', 'tspan']
            if h.count('<' + t + ' ') + h.count('<' + t + '>') != h.count('</' + t + '>')]
     w = pagewords(h)
-    # retired vocabulary must not survive outside the scroll-spy script
-    prose = re.sub(r'<script>.*?</script>', '', h, flags=re.S)
-    stale = {k: len(re.findall(p, prose)) for k, p in
-             [('Band X', r'\bBand [A-I]\b'), ('entry', r'\b[Ee]ntr(?:y|ies)\b'),
-              # \s+, not a space: 08 carried "chapter\n07" and "chapters 3 to\n07"
-              # past this check for as long as it existed (review session 5)
-              ('Era page', r'Era page'),
-              ('padded', r'\b[Cc]hapters?\s+(?:\d+\s+(?:to|and|or)\s+)?0\d\b')]}
-    stale = {k: v for k, v in stale.items() if v}
-    print("\nchapter %d  %s" % (n, c['name']))
+    # Every structural check is asked before the page is written too. Until review
+    # session 12 the anchor check here was `links > ids` - a proper superset - so a link
+    # to a missing id never failed; and the part colour was printed but never counted.
+    page_fail = (bool(bad) + (not links <= ids) + bool(h.count('{{'))
+                 + ('--band:%s;' % PART_COLOUR[c['part']] not in h))
+    if not page_fail:
+        open(OUT + c['name'], 'w', encoding='utf-8').write(h)
+    print("\nchapter %d  %s%s" % (n, c['name'], '' if not page_fail else '  !! NOT WRITTEN'))
     print("  braces %d | placeholders %d | anchors %s | tags %s"
           % (css.count('{') - css.count('}'), h.count('{{'),
              'ok' if links <= ids else 'BAD ' + str(links - ids), bad if bad else 'ok'))
     print("  checkpoints %d | vignettes %d | meanwhile %d | figures %d | terms %d"
           % (h.count('class="check"'), h.count('class="vig"'), h.count('class="meanwhile"'),
              h.count('<figure>'), h.count('class="terms"')))
-    print("  part %s %s | vocabulary %s | words %d (~%d min)"
+    print("  part %s %s | vocabulary clean | questions asked once | words %d (~%d min)"
           % (c['part'],
-             'ok' if '--band:%s;' % PART_COLOUR[c['part']] in h else 'BAD',
-             'clean' if not stale else 'STALE ' + str(stale), w, round(w / 210)))
-    fail += bool(bad) + bool(stale) + (links > ids) + bool(h.count('{{'))
+             'ok' if '--band:%s;' % PART_COLOUR[c['part']] in h else 'BAD', w, round(w / 210)))
+    fail += page_fail
 print("\n%s" % ('all eleven built clean' if not fail else '!! %d problems' % fail))
+sys.exit(1 if fail else 0)

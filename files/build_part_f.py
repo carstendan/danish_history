@@ -13,9 +13,21 @@ Part E; nothing in this part carries one yet.
 
     python3 build_part_f.py            # strict: every figure must exist
     python3 build_part_f.py --stub     # missing figures become a loud placeholder
+                                       # (needs DK_OUT outside the repository)
 
 --stub exits non-zero even when everything else passes, so a stubbed page cannot
 be mistaken for a finished one.
+
+GUARDS, given to Part F in review session 12 (REVIEW-CONSISTENCY.md §16) from
+pageguard.py, which Parts G-I share. Until then this script wrote each page inside
+build() and read its text as a regular expression does. Each is asked BEFORE the page is
+written, and a page that fails any of them, or any structural check, is not written:
+
+  1. pageguard.same_sources: what this build reads through DK_SRC (the body, style.css,
+     rail.js) is the file in this folder. (No freshcheck: authored bodies, not drafts.)
+  2. pageguard.figures_fresh: every figure is what its script writes, run in a scratch copy.
+  3. pageguard.stale_vocabulary on reader_text, with ALLOWED_ENTRY found by hand.
+  4. pageguard.asked_twice (D-17).
 """
 import os
 import re
@@ -23,6 +35,7 @@ import sys
 
 from pagewords import pagewords   # one definition, shared
 import dkpaths
+import pageguard    # body witness, figure freshness, reader's-text vocabulary, ask once
 
 # Paths resolve relative to this script, not to wherever it is run from, and both
 # can be overridden. The container paths that used to be hardcoded here meant the
@@ -68,8 +81,8 @@ CFG = {
          ("s09", "09", "What Christian 4. inherited")],
     checks=[
       ("The edges", [
-        "The crown came out of 1536 holding two-fifths to half the land of Denmark. Name three "
-        "reasons that did not translate into three times the income.",
+        "Whom did Christian 3. owe money to when Copenhagen surrendered in July 1536, and who "
+        "had lent him part of the fleet that closed the Sound?",
         "What did the charter of 30 October 1536 forbid the king to do without the council's "
         "consent \u2014 four things?",
         "Bugenhagen was not a bishop. Why did Christian 3. have him perform the coronation "
@@ -77,10 +90,10 @@ CFG = {
       ("Peder Oxe", [
         "Norway kept three things after Christian 3.'s charter of 1536 said it was no longer a kingdom. "
         "What were they?",
-        "Why were three men beheaded at Sk\u00e1lholt in November 1550 without a trial \u2014 and "
-        "what does the reason tell you about how Iceland was governed?",
-        "The duchies were divided in 1544 without dividing the territory. How, and who chose "
-        "first?"]),
+        "The Faroes went Lutheran in 1540 without recorded resistance. What lasting consequence "
+        "did that have for the Faroese language?",
+        "Of the three who shared the duchies in 1544, which chose first, why him, and what is his "
+        "line called ever after?"]),
       ("Kronborg, Hven", [
         "What is <i class=\"dk\">hoveri</i>, and why did the European grain price make it "
         "worse rather than better for the man performing it?",
@@ -114,16 +127,16 @@ CFG = {
       ("The companies", [
         "Name three of the towns founded between 1599 and 1624, and say what each was meant "
         "to do.",
-        "Glückstadt and Christiania were both founded by decree. Why did one work and the "
-        "other not?",
+        "What was found at Kongsberg in 1623, and how did Christian 4. make sure it flowed to "
+        "the crown?",
         "What was the <i class=\"dk\">Norske Lov</i> of 1604, and why do Danish and Norwegian "
         "historians read it differently?"]),
       ("What the money", [
         "How did Christian 4. get his war in 1611 despite a charter forbidding it without the "
         "council's consent?",
         "What did Sweden pay at Kn\u00e4red in 1613, and what did it get back?",
-        "What did the ordinance of 1617 do, and what happened to the number of trials "
-        "afterwards?"]),
+        "How many of Jens Munk's sixty-four men were alive at the Churchill River in June 1620, "
+        "and what had killed the rest?"]),
     ]),
  23: dict(
     name='23-christian-4-the-wars-that-broke-him.html',
@@ -148,15 +161,16 @@ CFG = {
         "What was he counting on to pay for it, and how much of it arrived?",
         "What did Lutter am Barenberge on 17 August 1626 cost him?"]),
       ("Building on a raised toll", [
-        "Why did the Peace of L\u00fcbeck take no territory from Denmark?",
+        "Which of Christian 4.'s own foundations held out through the occupation, and why was "
+        "that a surprise?",
         "Why was Jutland occupied while Zealand and Funen were not touched?",
         "What did Ellen Marsvin do in 1629, and what are the two readings of why?"]),
       ("Br\u00f8msebro", [
         "How did raising the Sound toll in the 1630s help Sweden hire a fleet in the "
         "Netherlands in 1644?",
-        "Name the territories ceded at Br\u00f8msebro, and the one clause that carried no "
-        "territory at all.",
-        "What did the accession charter of 1648 require of Frederik 3.?"]),
+        "How did Torstensson's war begin in December 1643, and what were his orders?",
+        "Besides raising the toll, how did Christian 4. pay his way in the 1630s? Name three "
+        "means."]),
     ]),
  24: dict(
     name='24-losing-the-eastern-provinces.html',
@@ -177,21 +191,22 @@ CFG = {
          ("s10", "10", "What was left")],
     checks=[
       ("The war Denmark chose", [
-        "What did the accession charter of 1648 leave Frederik 3. able to do on his own?",
+        "What kind of man was Frederik 3., what had he been raised for, and what did most people "
+        "in Copenhagen mistake his manner for?",
         "What did Dina Vinhofvers accuse Corfitz Ulfeldt of, what did the court decide, and "
         "what happened to each of them?",
         "Who was governing Denmark in the first three years of the reign?"]),
       ("The second war", [
-        "Why did Denmark declare war in June 1657, and which three facts from chapter 23 had "
-        "been left out of the calculation?",
-        "Trace the crossing of the belts island by island, and say why the direct route was "
-        "not used.",
+        "What was Frederiksodde, and where did its fall on 24 October 1657 leave the Swedish "
+        "army?",
+        "Besides territory, what did Denmark undertake at Roskilde? Name three things.",
         "Name the six territories ceded at Roskilde on 26 February 1658."]),
       ("What was left", [
-        "Why did Karl Gustav's second attack bring the Dutch in, and what did they insist on?",
+        "What happened in the Sound on 29 October 1658, and what did it mean for the siege of "
+        "Copenhagen?",
         "How did Bornholm come back to Denmark, and on what condition?",
-        "What did the burghers argue in September 1660, and why could the nobility not answer "
-        "it?"]),
+        "Who got Ulfeldt and Leonora Christina out of Swedish arrest at Malmö, and where "
+        "were they held once back in Denmark?"]),
     ]),
 }
 
@@ -246,7 +261,7 @@ def build(n, c, stub):
             svg = open(G + f, encoding='utf-8').read()
         except IOError:
             if not stub:
-                raise SystemExit("!! chapter %s: missing figure %s (use --stub to preview)"
+                raise SystemExit("!! chapter %s: missing figure %s (use --stub with DK_OUT outside the repository to preview)"
                                  % (n, f))
             svg = STUB % f
             stubbed.append(f)
@@ -255,22 +270,77 @@ def build(n, c, stub):
     w = pagewords(h)
     h = re.sub(r'Era chapter \u00b7 about \d+ minutes',
                'Era chapter \u00b7 about %d minutes' % round(w / 210), h)
-    open(OUT + c['name'], 'w', encoding='utf-8').write(h)
     return h, stubbed
 
 
 BAND = (25, 50)
 TARGET = (28, 40)
+# "entry" in its ordinary sense: Munk's journal (22) and a ledger (23). Found by the old
+# guard's first run in review session 8 (\u00a712.6), after a grep had said there were none, and
+# found again by hand in review session 12 (built pages 21-24, text, figure text and
+# attributes, whitespace joined, case ignored): these four and no others. Each phrase is
+# removed once, exactly as the reader's text has it; one no longer on the page is reported.
 ALLOWED_ENTRY = {22: ['the entries thin out', 'daily entries are the source'],
                  23: ['small entry in that ledger', 'small entry in a much']}
 
 if __name__ == "__main__":
     stub = "--stub" in sys.argv
+    # A stubbed page is a preview. It must never land where the shipped pages are: with
+    # DK_OUT unset, --stub overwrote page 22 in the repository with a placeholder figure
+    # (review session 12, check 2).
+    repo = os.path.realpath(os.path.dirname(HERE))
+    if stub and (os.path.realpath(OUT) + os.sep).startswith(repo + os.sep):
+        raise SystemExit("!! --stub writes preview pages: set DK_OUT to a folder outside "
+                         "the repository")
     print("--- Part F ---" + ("  [STUBBED FIGURES]" if stub else ""))
     fail = 0
+    # EVERY FIGURE MUST BE WHAT ITS SCRIPT WRITES, witnessed by running the script in a
+    # scratch copy (pageguard, review session 12, \u00a716). All twelve are scripted, so a
+    # figure reported SOURCELESS fails as well.
+    figs, nfigs = pageguard.figures_fresh(
+        HERE, G, sorted({f for c in CFG.values() for f in c['svgs'].values()}))
+    print("  figures: %d checked against their scripts, %s"
+          % (nfigs, 'all fresh' if not figs else '%d NOT' % len(figs)))
     for n in sorted(CFG):
         c = CFG[n]
+        # No freshcheck: Parts A-F have authored bodies, not drafts. What this build reads
+        # through DK_SRC - the body, style.css, rail.js - must be the file in this folder.
+        if not os.path.exists(G + c['body']):
+            print("\nchapter %s  %s\n  !! NOT BUILT: no body %s in %s"
+                  % (n, c['name'], c['body'], G))
+            fail += 1
+            continue
+        differ = pageguard.same_sources(G, HERE, [c['body'], 'style.css', 'rail.js'])
+        if differ:
+            print("\nchapter %s  %s\n  !! NOT BUILT: %s missing from %s or %s, or the two copies differ (DK_SRC)." % (n, c['name'], ', '.join(differ), G, HERE))
+            fail += 1
+            continue
+        # Under --stub a figure that is not on disk yet is left to the stub (a preview; the
+        # run still fails). Without this, figures_fresh reported it STALE and --stub could
+        # never stub (review session 12, check 1).
+        stalefigs = {f: v for f, v in figs.items() if f in c['svgs'].values()
+                     and not (stub and not os.path.exists(G + f))}
+        if stalefigs:
+            print("\nchapter %s  %s\n  !! NOT BUILT: figures not what their scripts write: %s"
+                  % (n, c['name'], '; '.join('%s %s' % (k, 'MISSING (use --stub with DK_OUT outside the repository to preview)'
+                                                if 'Errno 2' in v else v)
+                                for k, v in sorted(stalefigs.items()))))
+            fail += 1
+            continue
         h, stubbed = build(n, c, stub)
+        # Retired vocabulary in the reader's text (pageguard.reader_text), and D-17.
+        stale = pageguard.stale_vocabulary(h, ALLOWED_ENTRY.get(n, []))
+        if stale:
+            print("\nchapter %s  %s\n  !! NOT WRITTEN: retired vocabulary %s"
+                  % (n, c['name'], stale))
+            fail += 1
+            continue
+        twice = pageguard.asked_twice(h)
+        if twice:
+            print("\nchapter %s  %s\n  !! NOT WRITTEN: a question asked twice (D-17): %s"
+                  % (n, c['name'], '; '.join('%s = %s (%.2f)' % t for t in twice)))
+            fail += 1
+            continue
         css = h.split('<style>')[1].split('</style>')[0]
         ids = set(re.findall(r'id="([a-z0-9]+)"', h))
         links = set(re.findall(r'href="#([a-z0-9]+)"', h))
@@ -284,24 +354,14 @@ if __name__ == "__main__":
         toc = re.search(r'<details class="toc">.*?</details>', h, re.S).group(0)
         tail_ok = all(('#%s' % t[0]) in rail and ('#%s' % t[0]) in toc
                       for t in TAIL + c.get('tail_extra', []))
-        # Retired vocabulary, as build_parts_abc.py (review session 5, §9.6),
-        # build_part_d.py (session 6, §10.6) and build_part_e.py (session 7, §11.6)
-        # check it, given to this part in review session 8 (§12.6): until then nothing
-        # here could see a padded "chapter 07" on a Part F page. \s+, not a space, so a
-        # line break inside the phrase does not hide it. Part F uses "entry" in its
-        # ordinary sense four times — Munk's journal (22) and a ledger (23). Those
-        # phrases, and only they, are allowed, each removed once before counting, as
-        # build_part_e.py allows 18's toll register. A grep of the bodies had first said
-        # there were none; the guard found them on its first run (§12.6).
-        prose = re.sub(r'<script>.*?</script>', '', h, flags=re.S)
-        for ok in ALLOWED_ENTRY.get(n, []):
-            prose = prose.replace(ok, '', 1)
-        stale = {k: len(re.findall(p, prose)) for k, p in
-                 [('Band X', r'\bBand [A-I]\b'), ('entry', r'\b[Ee]ntr(?:y|ies)\b'),
-                  ('Era page', r'Era page'),
-                  ('padded', r'\b[Cc]hapters?\s+(?:\d+\s+(?:to|and|or)\s+)?0\d\b')]}
-        stale = {k: v for k, v in stale.items() if v}
-        print("\nchapter %s  %s" % (n, c['name']))
+        # Every structural check below is asked before the page is written too. A stubbed
+        # page is the one exception: --stub exists to preview a page with a placeholder,
+        # so it is written, and the run still fails.
+        page_fail = (bool(bad) + bool(h.count('{{')) + (not links <= ids) + (not tail_ok)
+                     + (not BAND[0] <= m <= BAND[1]) + ('--band:%s;' % PART_F not in h))
+        if not page_fail:
+            open(OUT + c['name'], 'w', encoding='utf-8').write(h)
+        print("\nchapter %s  %s%s" % (n, c['name'], '' if not page_fail else '  !! NOT WRITTEN'))
         print("  braces %d | placeholders %d | anchors %s | tags %s"
               % (css.count('{') - css.count('}'), h.count('{{'),
                  'ok' if links <= ids else 'BAD ' + str(links - ids), bad if bad else 'ok'))
@@ -311,17 +371,14 @@ if __name__ == "__main__":
                  h.count('<figure>'), h.count('class="terms"'), 'ok' if tail_ok else 'BAD'))
         band = 'ok' if BAND[0] <= m <= BAND[1] else 'OUTSIDE BAND'
         note = '' if TARGET[0] <= m <= TARGET[1] else '  <-- note'
-        print("  part %s | vocabulary %s | words %d (~%d min, %s)%s"
-              % ('ok' if '--band:%s;' % PART_F in h else 'BAD',
-                 'clean' if not stale else 'STALE ' + str(stale), w, m, band, note))
+        print("  part %s | vocabulary clean | questions asked once | words %d (~%d min, %s)%s"
+              % ('ok' if '--band:%s;' % PART_F in h else 'BAD', w, m, band, note))
         for mm in re.finditer(r'<div class="check">.*?</div>\s*<h2 id="(s\d\d)">(.*?)</h2>',
                               h, re.S):
             print("  checkpoint before %s  %s"
                   % (mm.group(1), re.sub(r'<[^>]+>', '', mm.group(2)).strip()))
         if stubbed:
             print("  !! STUBBED: %s" % ", ".join(stubbed))
-        fail += (bool(bad) + bool(h.count('{{')) + (not links <= ids) + (not tail_ok)
-                 + (not BAND[0] <= m <= BAND[1]) + bool(stubbed) + bool(stale)
-                 + ('--band:%s;' % PART_F not in h))
+        fail += page_fail + bool(stubbed)
     print("\n%s" % ('all four built clean' if not fail else '!! %d problems' % fail))
     sys.exit(1 if fail else 0)
