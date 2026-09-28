@@ -5076,6 +5076,71 @@ split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see it
    check over everything before trusting its 0.* And a checker's report of an absence is a claim
    like any other: "the A–C build does not call it" was one line away from being believed.
 
+154. **The consistency review, session 16: the figures' crossings, read, and a halo (D-18);
+   mkbody's `***`.**
+   28–29 September 2026. Full record in `REVIEW-CONSISTENCY.md` §20.
+
+   **Cold run on a fresh clone of `513035d`: every figure matched START_HERE_review_16**, and item
+   153's commit carries its seven pages (38's name is only truncated in `git show --stat`) and the
+   two `svg_*.txt` and two bodies. State lived in `claude/session16_state.md` and
+   `claude/session16_wip.patch`.
+
+   **THE CROSSINGS, READ.** All 220 texts `linecheck.py` listed in 31 figures were read against the
+   PNG (per-text crops, with and without text, in the page's type). The brief expected most to be
+   labels set on purpose; **about 214 were real** - coasts, borders and routes through town and
+   territory names in every figure - six were false (a string also on a flat panel) and none was
+   set on purpose. Labels had been placed at a point whatever lay under them. **Carsten chose a
+   halo (D-18)**: one rule in `style.css` paints every `.mapt/.mapl/.mapx` text over a thin stroke
+   of paper; light text on a bar or marker, and `ON_BAR_INK`, are exempt by their exact `style`
+   spelling. `mapspine` carries the same numbers and a raster emulation (cairosvg ignores
+   `paint-order`). What a halo cannot fix was moved: a thick line or a marker through a label -
+   atlantic (Bergen, Færøerne, Skálholt, Garðar, Hvalsey), roads' København, sound's Helsingør and
+   Helsingborg, feud (Haderslev, Svenstrup, København), icemarch's FYN, 1807's København, zoner's
+   Højer, the 1721/1814/1864 maps (Gottorp, Slesvig, Kolding) in their scripts; baltic's Bornhöved
+   and reconquest's dates by hand (Part D, no generator). Kept on purpose, listed in `linecheck`:
+   partition's struck-out X, and the two Part D serif titles.
+
+   **`linecheck.py` IS HALO-AWARE** (thick stroke over 1.4 or marker through a haloed text; unhaloed
+   text keeps the flat-ground rule; `--bare` is the old reading), reads `.html` (each inline figure),
+   and reports a fill spelt any way but `fill:#XXXXXX` and a light `fill=` attribute. **Its first run
+   over 01–11's inline figures, which the 220 never covered, listed 15: 14 real** (03, 06, 07, 08,
+   09, 10 - fixed by hand in the bodies) and one measured wrong (06's anchor is on its `<g>`). Plants
+   fire: the shipped versions of the fixed figures and session 15's crowns and Hemmingstedt.
+   `overruns()` now tests the left edge (a moved note went about 20 units off the canvas silently).
+
+   **FOUND SHIPPED.** **Page 18's Sound figure had lost its explanatory strip**: the viewBox stopped at
+   the map, `overflows()` said so on every run, and `figcheck --regen` does not print the scripts'
+   warnings. **Fourteen bar labels on 01–03** were `fill="#FFF"`, which D-11 makes lose to the
+   class, and drew dark on dark bars (1.1–2.7:1); now white, or `ON_BAR_INK` on the grey bar where
+   white is 3.2:1.
+
+   **`***` IS REFUSED, NOT PARSED.** `mkbody.build()` refuses any draft line with `***`, naming the
+   file and line. Some `***` forms nest and some do not, by which delimiter closes first; teaching
+   three regexes that is CommonMark's delimiter-run algorithm, and a partial fix writes a different
+   wrong nesting. `**x `y`**` gives the same markup. Planted: closing form (40), opening form (25),
+   in the apparatus (42) - refused, bodies untouched; at `513035d` the first wrote `</strong></i>`
+   and "tag balance: ok".
+
+   **CHECKED THREE TIMES** (§20.5): check 1 found the 01–03 bar labels, a docstring over-claim, the
+   spelling gap, blind spots, near misses; check 2 that my "cairosvg cannot draw arrowheads" was
+   false (my own zeroed stroke did it), the fill= gap, DANELAW outside its tint, Angles under Gudme,
+   the grey-bar contrast; check 3 the last spellings and DANELAW by 1.5 units. All taken.
+
+   **VERIFIED** after the last edit: all seven builds clean, no `!!`; **tidy clean; FIXTURE PASSES;
+   seams pass; debuild 45 identical; 45 of 45, 352,732 page words, 28.0 h (parts unchanged); 21 is
+   50 minutes, 44 48, 45 50; vignettes 148/116, selftest passes; figcheck --regen 98/30/0; five OVER,
+   unchanged; draftnotes clean; appcheck 167 in 21; freshcheck 21; 2 pointers, 0 same-page glosses;
+   Schleswig 317 in 32 / Slesvig 4 in 3; sweep_facts 2; arrows 254, solvency 38; qs 0/224, Causal
+   0/168, Recall 0/198, 0 pairs; linecheck 0 (svg_*.txt: 3 on purpose; 01–11: 1 measured wrong),
+   --bare 213.** Pages that change: **all 45** (the halo is in `style.css`); figures change on 01, 02,
+   03, 06, 07, 08, 09, 10, 13, 15, 17, 18, 20, 24, 27, 31, 32, 34, 38. The index does not change.
+
+   **LESSON.** A brief's expectation is a claim too: "most are set on purpose" was the reading the
+   220 were handed with, and reading them found the opposite. And a checker's fix can be its own
+   fault: "cairosvg cannot draw these arrowheads" was written into a docstring when the error was
+   this session's own zeroed stroke. *Before explaining a failure by the tool, try it without your
+   change.*
+
 ---
 
 

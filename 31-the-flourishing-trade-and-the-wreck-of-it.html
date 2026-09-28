@@ -105,6 +105,9 @@
   .mapt{font-family:var(--mono);font-size:9.5px;fill:#5F6157;letter-spacing:.04em}
   .mapl{font-family:var(--mono);font-size:10.5px;fill:#3C3E36;letter-spacing:.06em;font-weight:600}
   .mapx{font-family:var(--mono);font-size:8.5px;fill:#4A4C44;letter-spacing:.04em}
+  .mapt,.mapl,.mapx{paint-order:stroke;stroke:#F0F2EE;stroke-opacity:.8;stroke-width:2.6px;stroke-linejoin:round}
+  text[style*="fill:#F0F2EE"],text[style*="fill:#FFFFFF"],text[style*="fill:#F4F1EA"],
+  text[style*="fill:#1C1B18"]{stroke:none}
 
   ul.plain{list-style:none;margin:0;padding:0;border-top:1px solid var(--rule)}
   ul.plain li{display:flex;gap:20px;padding:12px 0;border-bottom:1px solid var(--rule);
@@ -429,7 +432,7 @@
   <path d="M 83.1 55.1 l 9 -4 l 0 8 Z" fill="#2F4C7A"/>
   <text x="98.1" y="47.1" class="mapx" text-anchor="start" fill="#2F4C7A">the fleet, to England</text>
   <circle cx="248.9" cy="169.9" r="3" fill="#3C3E36"/>
-  <text x="240.9" y="173.9" class="mapx" text-anchor="end">København</text>
+  <text x="240.9" y="161.9" class="mapx" text-anchor="end">København</text>
   <circle cx="248.6" cy="131.3" r="3" fill="#3C3E36"/>
   <text x="240.6" y="125.3" class="mapx" text-anchor="end">Vedbæk</text>
   <circle cx="254.4" cy="90.4" r="3" fill="#3C3E36"/>

@@ -26,8 +26,8 @@
   <circle cx="276.1" cy="239.8" r="2.6" fill="#8C5A3C"/>
   <text x="281.6" y="242.8" class="mapx" text-anchor="start" fill="#2A2A28">Tønder</text>
   <circle cx="220.3" cy="219.9" r="2.6" fill="#8C5A3C"/>
-  <text x="214.8" y="212.9" class="mapx" text-anchor="end" fill="#2A2A28">Højer</text>
-  <text x="214.8" y="223.9" class="mapx" text-anchor="end" fill="#8C5A3C">219 dansk · 581 tysk</text>
+  <text x="214.8" y="198.9" class="mapx" text-anchor="end" fill="#2A2A28">Højer</text>
+  <text x="214.8" y="209.9" class="mapx" text-anchor="end" fill="#8C5A3C">219 dansk · 581 tysk</text>
   <circle cx="404.0" cy="302.2" r="2.6" fill="#8C5A3C"/>
   <text x="409.5" y="305.2" class="mapx" text-anchor="start" fill="#2A2A28">Flensburg</text>
   <circle cx="433.7" cy="387.9" r="2.6" fill="#8C5A3C"/>

@@ -40,7 +40,7 @@
   <text x="168.0" y="397.1" class="mapt" text-anchor="middle">to Sweden, 14 January 1814</text>
   <text x="339.0" y="419.5" class="mapt" text-anchor="middle">SVERIGE</text>
   <text x="456.8" y="342.4" class="mapt" text-anchor="middle">FINLAND</text>
-  <text x="164.2" y="621.4" class="mapt" text-anchor="middle">Slesvig</text>
+  <text x="162.8" y="615.6" class="mapt" text-anchor="middle">Slesvig</text>
   <text x="167.8" y="655.4" class="mapt" text-anchor="middle">Holsten</text>
   <text x="285.2" y="633.3" class="mapt" text-anchor="middle">Bornholm</text>
   <text x="234.0" y="646.6" class="mapx" text-anchor="start">THE GERMAN CONFEDERATION</text>

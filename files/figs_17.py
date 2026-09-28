@@ -24,7 +24,10 @@ def sound():
          'aria-label="Map of the Sound between Zealand and Skaane, both shores Danish, showing the '
          'toll line between Helsingor and Helsingborg where Erik of Pomerania began charging every '
          'foreign ship one noble in 1429, with the castle of Krogen at Helsingor, Kaernan at '
-         'Helsingborg, Malmohus, the new town of Landskrona, and Copenhagen.">' % (W, H)]
+         'Helsingborg, Malmohus, the new town of Landskrona, and Copenhagen.">' % (W, H + STRIP)]
+    # H + STRIP, not H (review session 16): the viewBox stopped at the map, and the strip
+    # below it - "BOTH SHORES, ONE HAND" and its three lines - was cut off the page and the
+    # PNG alike. overflows() had said so every run; figcheck --regen does not show it.
     o += M.detail_base(f, W, H, NEAR)
 
     # the toll line
@@ -37,7 +40,7 @@ def sound():
 
     # the narrows, marked
     o.append('<text x="%.1f" y="%.1f" class="mapl" fill="%s" text-anchor="middle">'
-             'four kilometres</text>' % ((x1 + x2) / 2, y1 - 16, M.CLAIM))
+             'four kilometres</text>' % ((x1 + x2) / 2, y1 - 26, M.CLAIM))
 
     for lon, lat, name, anchor, note in [
             (12.615, 56.038, "Helsing\u00f8r", "end", "Krogen, built for the toll"),
@@ -51,8 +54,11 @@ def sound():
         x, y = f.xy(lon, lat)
         ddx = 6 if anchor == "start" else -6
         o.append('<circle cx="%.1f" cy="%.1f" r="3" fill="%s"/>' % (x, y, INK))
+        # the toll line runs on past both towns' dots, so their names sit above it and
+        # their notes below (review session 16, linecheck: the line was through both)
+        ly = -8 if name in ("Helsing\u00f8r", "Helsingborg") else 0
         o.append('<text x="%.1f" y="%.1f" class="mapl" text-anchor="%s">%s</text>'
-                 % (x + ddx, y + 3.4, anchor, name))
+                 % (x + ddx, y + 3.4 + ly, anchor, name))
         if note:
             o.append('<text x="%.1f" y="%.1f" class="mapx" text-anchor="%s">%s</text>'
                      % (x + ddx, y + 15, anchor, note))
@@ -142,7 +148,7 @@ def roads():
             (9.47, 55.49, "Kolding", "start"), (8.76, 55.33, "Ribe", "end"),
             (9.44, 54.78, "Flensborg", "start"), (9.66, 54.30, "Rendsborg", "start"),
             (9.99, 53.55, "Hamborg", "start"), (10.69, 53.87, "L\u00fcbeck", "start"),
-            (12.62, 56.04, "Helsing\u00f8r", "start"), (12.57, 55.68, "K\u00f8benhavn", "start"),
+            (12.62, 56.04, "Helsing\u00f8r", "start"), (12.57, 55.68, "K\u00f8benhavn", "end"),
             (10.39, 55.40, "Odense", "start")]:
         x, y = f.xy(lon, lat)
         ddx = 5 if anchor == "start" else -5

@@ -194,6 +194,10 @@ def zones():
         # name above the dot where the count hangs below it, so a town with a
         # count occupies one block instead of two that can meet a neighbour's.
         ny = y - 7.0 if da is not None else y + 3.0
+        # Hoejer's block is lifted a line: the zone line climbs west from beside its dot
+        # and ran through "581 tysk" (review session 16, linecheck)
+        if name == "Højer":
+            ny -= 14.0
         o.append('<text x="%.1f" y="%.1f" class="mapx" text-anchor="%s" fill="%s">%s</text>'
                  % (x + dx, ny, anc, INK, name))
         if da is not None:

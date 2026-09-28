@@ -137,7 +137,7 @@ def build():
     out.append(M.note(f, 8.5, 61.5, "NORGE", cls="mapt"))
     out.append(M.note(f, 24.5, 62.5, "FINLAND", cls="mapt", anchor="middle"))
 
-    for lon, lat, t, a in [(9.20, 54.85, "Slesvig", "middle"),
+    for lon, lat, t, a in [(9.10, 55.00, "Slesvig", "middle"),
                            (9.55, 53.95, "Holsten", "middle"),
                            (14.90, 54.78, "Bornholm", "middle")]:
         out.append(M.note(f, lon, lat, t, cls="mapt", anchor=a))
@@ -163,7 +163,7 @@ def build():
     out.append(M.note(f, 6.60, 55.60, "THE KONGE\u00c5", cls="mapx", anchor="start"))
 
     for lon, lat, t, a, dx, dy in [(12.57, 55.68, "K\u00f8benhavn", "end", -5, 4),
-                                   (9.47, 55.49, "Kolding", "end", -6, 11),
+                                   (9.47, 55.49, "Kolding", "end", -6, -2),
                                    (9.44, 54.78, "Flensburg", "end", -6, 11),
                                    (LAUENBURG_AT[0], LAUENBURG_AT[1], "Lauenborg",
                                     "end", -5, 11)]:

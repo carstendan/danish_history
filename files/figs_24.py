@@ -106,7 +106,7 @@ def icemarch():
                  'opacity=".9"/>' % (x1, y1, x2, y2, col, wdt))
         if date:
             o.append('<circle cx="%.1f" cy="%.1f" r="3.2" fill="%s"/>' % (x2, y2, OX))
-    for lon, lat, t, a in [(9.3, 55.9, "JYLLAND", "middle"), (10.32, 55.28, "FYN", "middle"),
+    for lon, lat, t, a in [(9.3, 55.9, "JYLLAND", "middle"), (10.42, 55.30, "FYN", "middle"),
                            (11.9, 55.55, "SJ\u00c6LLAND", "middle"),
                            (10.88, 54.66, "Langeland", "middle"),
                            (11.42, 54.60, "Lolland", "middle"),

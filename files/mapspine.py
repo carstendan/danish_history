@@ -27,6 +27,57 @@ INK        = "#3C3E36"
 PAPER      = "#F0F2EE"
 GRAT       = "#A9B7BC"
 
+# ---------------------------------------------------------------- the halo
+# REVIEW SESSION 16. Every figure placed its labels at a point whatever lay under them,
+# and linecheck.py's first reading found about 214 of its 220 flags real: coastlines,
+# borders and routes through town and territory names in all 31 figures it listed.
+# Carsten chose a halo (28 September 2026): every .mapt/.mapl/.mapx text is painted
+# over a thin stroke of paper, so a thin line under a label stops at the letters. It
+# lives in style.css as one rule, which every page carries; these constants are the
+# same numbers, for rasterise() and linecheck.py.
+#
+# A light text (on a bar, a marker, a dark tint) takes no halo. HALO_EXEMPT lists the
+# light fills in use, and ON_BAR_INK, the one dark ink kept for text on a mid-grey bar
+# (three bars on pages 01-03, #8E9182, where white reaches only 3.2:1 - D-11's companion
+# rule asks 4.5); style.css exempts exactly these, spelt style="fill:#XXXXXX"
+# in capitals - an attribute selector matches the spelling, not the colour. A fill="..."
+# ATTRIBUTE is no use: by D-11 the class rule beats it and the text draws dark. Fourteen
+# bar labels on pages 01-03 were written fill="#FFF" and had shipped dark on dark bars;
+# they are style="fill:#FFFFFF" now. A NEW LIGHT COLOUR MUST BE ADDED TO BOTH LISTS;
+# linecheck.py reports a light text that would get a light halo, and a light fill=.
+#
+# The halo does not help a THICK line (a route, an attack line, a heavy border: wider
+# than HALO_THIN) or a marker through a label. Those still show between the letters,
+# and the label is moved. See linecheck.py.
+HALO_W      = 2.6        # px, the whole stroke: 1.3 each side of the glyph
+HALO_OP     = ".8"
+HALO_COL    = PAPER
+ON_BAR_INK  = "#1C1B18"   # dark text set on a mid-grey bar, where white is 3.2:1 and this 5.3:1
+HALO_EXEMPT = ("#F0F2EE", "#FFFFFF", "#F4F1EA", ON_BAR_INK)
+HALO_THIN   = 1.4        # a stroke this wide or less is hidden by the halo
+
+
+def haloed(attrs):
+    """True if a <text> with these attributes takes the halo in style.css."""
+    if not re.search(r'class="map[tlx]"', attrs):
+        return False
+    return not any(('fill:%s' % c) in attrs for c in HALO_EXEMPT)
+
+
+def halo_underlay(svg):
+    """FOR RASTERS ONLY. cairosvg ignores paint-order and paints the stroke over the
+    letters, so a PNG made from the page's rule would show washed-out text the page
+    never shows. Emulate it: a stroked copy of each haloed text, drawn first. Never
+    write the result into a figure - the page does this with one CSS rule."""
+    def rep(m):
+        if not haloed(m.group(1)):
+            return m.group(0)
+        a = re.sub(r'\s(?:fill|style)="[^"]*"', '', m.group(1))
+        return ('<text%s style="fill:none;stroke:%s;stroke-opacity:%s;stroke-width:%spx;'
+                'stroke-linejoin:round">%s</text>%s'
+                % (a, HALO_COL, HALO_OP, HALO_W, m.group(2), m.group(0)))
+    return re.sub(r'<text\b([^>]*)>(.*?)</text>', rep, svg, flags=re.S)
+
 # ---------------------------------------------------------------- geometry
 # Shetland (Norwegian until 1468) is left outside the frame and noted in the
 # caption on the years where it matters; carrying it cost 18% of the width.
@@ -393,7 +444,13 @@ def overruns(svg, name):
     if not vb:
         return []
     ox, w = float(vb.group(1)), float(vb.group(1)) + float(vb.group(3))
-    bad = [t[:44] for (x0, y0, x1, y1, cls, t) in text_boxes(svg) if x1 > w - 6]
+    # THE LEFT EDGE TOO (review session 16). Item 49 recorded that this "tests the right
+    # edge and the bottom, not the left" (the bottom is in fact overflows()). Moving
+    # Hvalsey's label to the left of its dot in figs_16b put "a wedding, 16 Sept 1408"
+    # about 20 units off the canvas (x0 -19.7), and nothing fired.
+    # Past the edge, not near it: a rotated text is measured unrotated (text_boxes ignores
+    # transforms), and svg_cell's vertical "6 paces" would read as starting at 0.1.
+    bad = [t[:44] for (x0, y0, x1, y1, cls, t) in text_boxes(svg) if x1 > w - 6 or x0 < ox]
     for t in bad:
         print("   ! %s: text may overrun the canvas: %s" % (name, t))
     return bad
@@ -502,6 +559,7 @@ def rasterise(svg, path, extra=""):
            '.mapl{font-family:monospace;font-size:10.5px;fill:#3C3E36;letter-spacing:.06em;font-weight:600}'
            '.mapx{font-family:monospace;font-size:8.5px;fill:#4A4C44;letter-spacing:.04em}'
            + extra + '</style>')
-    test = svg.replace(">", ">" + css, 1)
+    # the page's halo, as a raster can show it
+    test = halo_underlay(svg).replace(">", ">" + css, 1)
     cairosvg.svg2png(bytestring=test.encode("utf-8"), write_to=path,
                      output_width=1320, background_color=PAPER)

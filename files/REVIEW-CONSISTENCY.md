@@ -3826,3 +3826,155 @@ rest 0; qs 0/224, Causal 0/168, Recall 0/198, 0 pairs.** Pages that change: **02
 
 **None taken, one open:** 10's opener 3 (§19.5). For his read: 15 opener 4; 21 and 45 at 50 minutes;
 the five OVER; the maps' "Ditmarschen" aria-labels against D-15; Lindholmen named in the key only.
+
+## 20. Session 16 — the figures' crossings, read, and a halo; mkbody's `***`
+
+*28–29 September 2026, from `START_HERE_review_16.md`. State in `claude/session16_state.md` and
+`claude/session16_wip.patch`, saved after the cold run, after each task and after each check.*
+
+**The cold run matched every line** on a fresh clone of `513035d`: tidy clean, 45 bodies; FIXTURE
+PASSES; SEAM LAYER PASSES; debuild 45 identical; 45 of 45, 352,732 page words, 28.0 h, every part as
+the brief; 21 is 50 minutes (10,559), 44 48, 45 50; vignettes 148/116, selftest passes; figcheck
+--regen 98/30/0 and the tree clean after it; five OVER as the brief, 32 §09 749, 13 §06 466;
+draftnotes clean in 45 and 14; appcheck 167 in 21; freshcheck 21; all seven builds as the brief, no
+`!!`, `--stub` refused in G; git clean after `linkindex` and `index_generator`; 2 pointers, 0
+same-page glosses; Schleswig 317 in 32, Slesvig 4 in 3; sweep_facts 2; arrows 254, 37 thread notes,
+form 7, solvency 38, the rest 0; linecheck 220, crowns and hemming 0; qs 0/224, Causal 0/168,
+Recall 0/198, 0 pairs. Item 153's commit carries its seven pages (`git show --stat` truncates 38's
+name, which looked for a moment like a missing page).
+
+### 20.1 The 220, read
+
+Every listed text was read against its figure: a contact sheet per figure, each text cropped with
+and without the text, rendered with the page's `.mapt/.mapl/.mapx` rules (a bare render uses the
+wrong type; the Part D files also lack `xmlns`, which a raster needs and a page does not). Four
+readers under one rubric; the lead looked at roads and 1660 at page scale. **About 214 real, six
+false, none on purpose.** The false six are strings that also stand on a flat panel (losses1645's
+key, scania's copies, sound's "the king's residence"). The real ones are four kinds: a coast or a
+border through a town or territory name (all maps and detail maps); a key or a title on the map
+with no panel; a route, attack line, heavy border or marker through a label; and two small ones
+(cell's translucent card, village's text wider than its disc). The brief's expectation - "most are
+labels set on purpose across a border or a tinted territory" - was linecheck's own docstring, and
+it was wrong.
+
+### 20.2 The halo (D-18), and what it could not fix
+
+Carsten chose, of four offers (a halo with targeted fixes; targeted fixes only; moving every label;
+reading only), **the halo**. `style.css`: `.mapt,.mapl,.mapx{paint-order:stroke;stroke:#F0F2EE;
+stroke-opacity:.8;stroke-width:2.6px;stroke-linejoin:round}`, and `stroke:none` for text whose style
+sets one of `#F0F2EE`, `#FFFFFF`, `#F4F1EA` (light text on a bar or a marker) or `#1C1B18`
+(`ON_BAR_INK`). `mapspine`: the same numbers, `haloed()`, and `halo_underlay()` for rasters -
+cairosvg ignores `paint-order` and paints the stroke over the letters, so a PNG made from the page's
+rule would show text the page never shows. Checked in Chromium on all 45 pages: `paint-order` is
+honoured, no light text takes a halo, no dark map text lacks one.
+
+Moved, because a halo does not stop a thick line or a marker: **atlantic** (`figs_16b`) Bergen and
+Færøerne above the route, Skálholt below it, Garðar to the left, Hvalsey below; **roads**
+(`figs_17`) København to the left; **sound** Helsingør and Helsingborg lifted over the toll line,
+"four kilometres" with them; **feud** (`figs_19`) Haderslev in two lines over its ring, Svenstrup to
+the right, København's block raised; **icemarch** (`figs_24`) FYN; **1807** (`figs_31`) København;
+**zoner** (`figs_38`) Højer's block lifted off the zone line; **map_1721** Gottorp to the right of
+its dot (it sat on Tønning's); **map_1814** and **map_1864** Slesvig off Flensburg's dot, and 1864's
+Kolding above the Kongeå. **By hand, Part D** (no generator): baltic's "Bornhöved 1227" to the left of
+its X, off the Lübeck arrow; reconquest's "1340s–50s" and "1360" onto their territories and "1361"
+beside Gotland (it is wider than the island). Reconquest's dates were written `fill="#FFFFFF"` and
+have always drawn dark (D-11); they were moved on the misreading that they were white, and kept
+because each now stands on what it dates; none of the three carries a `fill=` now.
+
+Kept on purpose, listed in `linecheck.ON_PURPOSE` with the reason: partition's HADERSLEV (the
+refused division is struck out, and `figs_21` draws the X under the labels), and the two Part D
+serif titles, "Sixty years east" and "Buying a kingdom back" (21px; a thin coast behind; the letters
+read).
+
+### 20.3 The tooling
+
+- **`linecheck.py`**, halo-aware by default: a haloed text is crossed if a stroke wider than 1.4 or
+  a marker (a circle of r ≤ 8, or an arrowhead) puts ink in its box, by rendering the bare figure
+  with and without them (floor 0.8%: at 3% a dashed route across "the bishop's seat" was missed);
+  unhaloed text keeps the flat-ground rule; `--bare` is session 15's reading (220 on `513035d`, 213
+  now). It reads `.html`, each inline figure in turn. `light_fault()` reports a fill in a map-class
+  style spelt any way but `fill:#XXXXXX` (the CSS exemption matches the spelling) and a light
+  `fill=` attribute (it draws dark). Blind spots in the docstring: markup inside a text, rotation,
+  a `text-anchor` on a `<g>`, a class that is not exactly `mapt/mapl/mapx`, a filled shape drawn as
+  its own element. Still wired into no build.
+- **Its first run over 01–11's inline figures** - which the 220 never included - listed 15. **14
+  real, fixed by hand in the bodies:** 03 (the ancestry caption on the event markers, "hunter-
+  gatherer" through the "farming arrives" rule, the density note through the ice limit), 06 (Hoby
+  and GERMANIA LIBERA on the trade routes, Carnuntum on the limes), 07 (Angles and Saxons on their
+  routes), 08 (DANELAW on the York route, NORMANDY and Rouen among the Seine routes - NORMANDY stays
+  inside its tint), 09 (Novgorod on the route), 10 (Nonnebakken through Trelleborg's ring, "South
+  Mound" through the palisade - now on the mound, in two lines). **One measured wrong:** 06's "the
+  great majority" takes its anchor from its `<g>` (`KNOWN_FALSE`).
+- **Fourteen bar labels on 01–03** were `fill="#FFF"` and drew in the class's dark grey on dark bars,
+  1.1–2.7:1. Now `style="fill:#FFFFFF"` (4.8–7.9:1), except on the mid-grey bar (#8E9182), where
+  white is 3.2:1 and `ON_BAR_INK` 5.3:1 (HAMBURG, MAGLEMOSE, hunter-/gatherer).
+- **`overruns()` tests the left edge.** Moving Hvalsey's note left put it about 20 units off the
+  canvas, and nothing fired: item 49 recorded that it "tests the right edge and the bottom, not
+  the left" (the bottom is in fact `overflows()`).
+- **The Sound's strip.** `figs_17`'s viewBox for figure 1 stopped at the map, so "BOTH SHORES, ONE
+  HAND" and its three lines were cut off page 18 and its PNG. `overflows()` printed it on every run;
+  `figcheck --regen` does not print the scripts' own warnings, and nobody ran `figs_17.py` alone.
+
+### 20.4 mkbody and `***`
+
+**Refused, not parsed.** `inline()` is three regexes, bold first. `**x *y***` writes
+`<strong>x <i>y</strong></i>`; `***y** x*` writes `<strong>*y</strong> x*` and then `<i>y</strong>
+x</i>`; `***y* x**` nests. Which forms work depends on which delimiter closes first, and teaching
+the regexes that is CommonMark's delimiter-run algorithm, where a partial fix writes a different
+wrong nesting for a form nobody planted. A refusal cannot write wrong markup, no draft uses `***`,
+and `**x `y`**` gives the same `<i class="dk">`. `build()` refuses after the D-12 check, naming the
+draft file and line and the rewrite. Planted in a scratch copy: the closing form through
+`c40_draft.md`, the opening form through `PART_G_DRAFT.md` (25), one in 42's apparatus - all refused,
+bodies byte-identical; `513035d`'s mkbody wrote the first body with "tag balance: ok". freshcheck 21.
+
+### 20.5 Checked three times
+
+Check 1 (one agent, every hunk, Chromium on all 45 pages): the 01–03 bar labels; the linecheck
+docstring said every shipped figure fires, and reconquest's does not (its dates drew dark and take
+the halo); light fills in other spellings slipped through; blind spots; feud's København and
+Skálholt near misses; the new Haderslev lines copying a dead `fill=`; comment nits - all taken. It
+also noted: the Sound strip's last line nearly repeats the caption; D-11 legacy colours; print.
+Check 2 (the changes since): **"cairosvg cannot draw these arrowheads" was false** - the error
+came from `_unmarked()` zeroing the stroke of a path carrying a marker, and the fallback left six
+figures' arrowheads unchecked; a `fill=` beside any `style` was missed; DANELAW overhung its tint;
+Angles read as a second line under Gudme; white on the grey bar was 3.2:1 - all taken. Check 3:
+spellings `light_fault` still missed (fixed by allowing one spelling only), a misspelt `ON_BAR_INK`,
+DANELAW 1.5 units outside - all taken. No quotation was touched this session.
+
+### 20.6 Found, recorded, not changed
+
+- **D-11 legacy colours.** `fill=` attributes that lose to the class and draw grey: "four
+  kilometres" (meant red), zoner's counts (meant brown), DANELAW, NORMANDY, GERMANIA LIBERA and the
+  rest of the thirty legacy figures. Restoring them changes how the figures look.
+- The Sound strip's last line ("A ship that took the Great Belt paid at Nyborg…") nearly repeats the
+  caption below it.
+- In print, figures get a white ground and the paper halo shows faintly round chart text.
+- Hvalsey's label stands a little below and to the right of its dot.
+- `figcheck --regen` swallows the figure scripts' `!` lines: the Sound's cut strip was reported by
+  `overflows()` on every run and seen by nobody.
+- `mapdump.py`'s contact sheet has no halo in its CSS.
+- `linecheck.py` on a built page (not a body) reports 06's `KNOWN_FALSE` text; the keys are bodies.
+- Carried: 10's opener 3; 15 opener 4; 21 and 45 at 50 minutes; the five OVER.
+
+### 20.7 Verified
+
+In the working clone after the last edit: every changed figure script; all seven builds clean, no
+`!!`; `linkindex`, `index_generator`; **tidy clean; FIXTURE PASSES; SEAM LAYER PASSES; debuild 45
+identical; 45 of 45, 352,732 page words, 28.0 h, every part unchanged; 21 is 50 minutes, 44 48, 45
+50; vignettes 148/116, selftest passes; figcheck --regen 98/30/0; five OVER, unchanged; draftnotes
+clean; appcheck 167 in 21; freshcheck 21; 2 pointers, 0 same-page glosses; Schleswig 317 in 32,
+Slesvig 4 in 3; sweep_facts 2; arrows 254, solvency 38, the rest 0; qs 0/224, Causal 0/168, Recall
+0/198, 0 pairs; linecheck 0 over `svg_*.txt` (3 on purpose) and over 01–11's bodies (1 measured
+wrong), `--bare` 213.** Pages that change: **all 45** (`style.css`); figures change on 01, 02, 03, 06,
+07, 08, 09, 10, 13, 15, 17, 18, 20, 24, 27, 31, 32, 34, 38. The index does not.
+
+### 20.8 Decisions for Carsten
+
+**Taken:** the halo (D-18, 28 September). **Open, for his read:** whether dark `ON_BAR_INK` on the
+grey bars is right (white there is 3.2:1); whether `linecheck` should be wired into the builds;
+whether the D-11 legacy colours should be restored; 10's opener 3 ("a 760-metre bridge in three
+years" - unproven since the page gives Christensen, not false); 15's opener 4 ("the richest king
+Denmark had seen in a century" against the page's "He had no treasury"); 21 and 45 at 50 minutes,
+the top of the band; the five OVER (not for cutting, D-16); the maps' "Ditmarschen" - D-B's
+misspelling - still in the aria-labels of `svg_terr_1500`, `1600` and `1660` (pages 19, 21, 25),
+against D-15; Lindholmen named in Figure 2's key on 16, not on the map.

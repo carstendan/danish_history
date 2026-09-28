@@ -7,9 +7,9 @@
   <g clip-path="url(#cr)"><path d="M257.6 80.1 L279.2 87.7 L288.5 118.6 L312.8 148.6 L340.0 185.6 L384.8 188.8 L434.8 193.1 L488.0 210.9 L521.2 220.1 L520.1 292.5 L392.7 355.7 L309.1 351.7 L296.6 297.4 L297.4 207.1 L256.3 143.3 Z" fill="#2E6B5E" fill-opacity="0.65" stroke="#2E6B5E" stroke-width="1.1"/></g>
   <g clip-path="url(#cr)"><path d="M549.7 42.0 L602.9 47.0 L616.0 145.6 L556.9 150.1 Z" fill="#8A2B2B" fill-opacity="0.55" stroke="#8A2B2B" stroke-width="1.1"/></g>
   <text x="151.8" y="116.8" class="mapl" fill="#3C3E36" text-anchor="middle">1340</text>
-  <text x="136.3" y="265.2" class="mapl" fill="#FFFFFF" text-anchor="middle">1340s–50s</text>
-  <text x="370.5" y="243.2" class="mapl" fill="#FFFFFF" text-anchor="middle">1360</text>
-  <text x="580.0" y="94.1" class="mapl" fill="#FFFFFF" text-anchor="middle">1361</text>
+  <text x="114.0" y="252.0" class="mapl" text-anchor="middle">1340s–50s</text>
+  <text x="352.0" y="228.0" class="mapl" text-anchor="middle">1360</text>
+  <text x="603.0" y="112.0" class="mapl" text-anchor="start">1361</text>
   <circle cx="162.5" cy="188.8" r="2.4" fill="#3C3E36"/><text x="167.0" y="192.0" class="mapx" text-anchor="start">Randers</text>
   <circle cx="287.8" cy="263.0" r="2.4" fill="#3C3E36"/><text x="283.3" y="266.2" class="mapx" text-anchor="end">København</text>
   <circle cx="319.3" cy="254.2" r="2.4" fill="#3C3E36"/><text x="323.8" y="257.4" class="mapx" text-anchor="start">Lund</text>

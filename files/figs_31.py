@@ -125,7 +125,7 @@ def campaign():
     o.append('<text x="%.1f" y="%.1f" class="mapx" text-anchor="start" fill="%s">the fleet, to '
              'England</text>' % (gx + 6, gy - 8, IND))
 
-    for lon, lat, t, a, dy in [(12.57, 55.68, "K\u00f8benhavn", "end", 4),
+    for lon, lat, t, a, dy in [(12.57, 55.68, "K\u00f8benhavn", "end", -8),
                                (12.57, 55.855, "Vedb\u00e6k", "end", -6),
                                (12.62, 56.04, "Helsing\u00f8r", "start", 12),
                                (11.37, 55.97, "Sj\u00e6llands Odde", "start", 0)]:

@@ -135,7 +135,7 @@ def build():
     out.append(M.note(f, 17.5, 60.6, "SVERIGE", cls="mapt"))
     out.append(M.note(f, 24.5, 62.5, "FINLAND", cls="mapt", anchor="middle"))
 
-    for lon, lat, t, a in [(9.20, 54.85, "Slesvig", "middle"),
+    for lon, lat, t, a in [(9.10, 55.00, "Slesvig", "middle"),
                            (9.55, 53.95, "Holsten", "middle"),
                            (14.90, 54.78, "Bornholm", "middle")]:
         out.append(M.note(f, lon, lat, t, cls="mapt", anchor=a))

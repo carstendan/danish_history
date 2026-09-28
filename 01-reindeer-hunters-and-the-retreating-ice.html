@@ -105,6 +105,9 @@
   .mapt{font-family:var(--mono);font-size:9.5px;fill:#5F6157;letter-spacing:.04em}
   .mapl{font-family:var(--mono);font-size:10.5px;fill:#3C3E36;letter-spacing:.06em;font-weight:600}
   .mapx{font-family:var(--mono);font-size:8.5px;fill:#4A4C44;letter-spacing:.04em}
+  .mapt,.mapl,.mapx{paint-order:stroke;stroke:#F0F2EE;stroke-opacity:.8;stroke-width:2.6px;stroke-linejoin:round}
+  text[style*="fill:#F0F2EE"],text[style*="fill:#FFFFFF"],text[style*="fill:#F4F1EA"],
+  text[style*="fill:#1C1B18"]{stroke:none}
 
   ul.plain{list-style:none;margin:0;padding:0;border-top:1px solid var(--rule)}
   ul.plain li{display:flex;gap:20px;padding:12px 0;border-bottom:1px solid var(--rule);
@@ -685,13 +688,13 @@ international standard.</p>
   <text x="597" y="206" class="mapl" text-anchor="middle">YOUNGER DRYAS</text>
   <text x="782" y="206" class="mapl" text-anchor="middle">HOLOCENE</text>
   <rect x="109" y="232" width="156" height="15" fill="#8E9182"/>
-  <text x="115" y="243" class="mapx" fill="#FFF">HAMBURG</text>
+  <text x="115" y="243" class="mapx" style="fill:#1C1B18">HAMBURG</text>
   <rect x="265" y="252" width="156" height="15" fill="#A9601C"/>
-  <text x="271" y="263" class="mapx" fill="#FFF">FEDERMESSER</text>
+  <text x="271" y="263" class="mapx" style="fill:#FFFFFF">FEDERMESSER</text>
   <rect x="362" y="272" width="195" height="15" fill="#2E6B5E"/>
-  <text x="368" y="283" class="mapx" fill="#FFF">BROMME</text>
+  <text x="368" y="283" class="mapx" style="fill:#FFFFFF">BROMME</text>
   <rect x="479" y="292" width="371" height="15" fill="#4A5560"/>
-  <text x="485" y="303" class="mapx" fill="#FFF">AHRENSBURG</text>
+  <text x="485" y="303" class="mapx" style="fill:#FFFFFF">AHRENSBURG</text>
   <g stroke="#221E18" stroke-width="1" stroke-dasharray="2 3">
     <line x1="245" y1="40" x2="245" y2="190"/>
     <line x1="450" y1="40" x2="450" y2="190"/>

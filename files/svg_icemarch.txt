@@ -24,7 +24,7 @@
   <circle cx="312.3" cy="254.4" r="3.2" fill="#8A2B2B"/>
   <path d="M 312.3 254.4 L 372.8 140.5" fill="none" stroke="#5F6157" stroke-width="1.6" opacity=".9"/>
   <text x="45.0" y="91.9" class="mapl" text-anchor="middle">JYLLAND</text>
-  <text x="147.9" y="206.9" class="mapl" text-anchor="middle">FYN</text>
+  <text x="158.3" y="203.4" class="mapl" text-anchor="middle">FYN</text>
   <text x="311.3" y="157.8" class="mapl" text-anchor="middle">SJÆLLAND</text>
   <text x="205.5" y="320.3" class="mapt" text-anchor="middle">Langeland</text>
   <text x="262.5" y="331.3" class="mapt" text-anchor="middle">Lolland</text>

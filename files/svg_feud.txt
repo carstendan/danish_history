@@ -7,25 +7,26 @@
   <path d="M231.0 526.8 L249.5 463.3 L280.1 441.2 L359.4 449.9 L466.4 414.2 L490.2 391.2" fill="none" stroke="#2E6B5E" stroke-width="2.4" stroke-dasharray="7 5" opacity=".9"/>
   <path d="M399.6 553.0 L457.4 457.4 L490.2 391.2 L534.3 403.8" fill="none" stroke="#8A2B2B" stroke-width="2.4" stroke-dasharray="3 4" opacity=".9"/>
   <circle cx="191.6" cy="465.8" r="4.6" fill="none" stroke="#A9601C" stroke-width="1.4"/>
-  <text x="186.6" y="458.8" class="mapx" fill="#A9601C" text-anchor="end">Haderslev 1528</text>
+  <text x="191.6" y="448.8" class="mapx" text-anchor="middle">Haderslev</text>
+  <text x="191.6" y="458.8" class="mapx" text-anchor="middle">1528</text>
   <circle cx="187.3" cy="259.0" r="4.6" fill="none" stroke="#A9601C" stroke-width="1.4"/>
-  <text x="182.3" y="252.0" class="mapx" fill="#A9601C" text-anchor="end">Viborg 1526</text>
+  <text x="182.3" y="252.0" class="mapx" text-anchor="end">Viborg 1526</text>
   <circle cx="534.3" cy="403.8" r="4.6" fill="none" stroke="#A9601C" stroke-width="1.4"/>
-  <text x="539.3" y="396.8" class="mapx" fill="#A9601C" text-anchor="start">Malmø 1529</text>
+  <text x="539.3" y="396.8" class="mapx" text-anchor="start">Malmø 1529</text>
   <circle cx="280.1" cy="441.2" r="4.6" fill="none" stroke="#A9601C" stroke-width="1.4"/>
-  <text x="285.1" y="434.2" class="mapx" fill="#A9601C" text-anchor="start">Odense 1527</text>
+  <text x="285.1" y="434.2" class="mapx" text-anchor="start">Odense 1527</text>
   <circle cx="239.1" cy="156.6" r="3.2" fill="#221E18"/>
   <text x="245.1" y="150.0" class="mapl" text-anchor="start">Aalborg</text>
   <text x="245.1" y="162.6" class="mapx" text-anchor="start">stormed 18 Dec 1534</text>
   <circle cx="231.3" cy="177.2" r="3.2" fill="#221E18"/>
-  <text x="225.3" y="192.6" class="mapl" text-anchor="end">Svenstrup</text>
-  <text x="225.3" y="205.2" class="mapx" text-anchor="end">16 Oct 1534</text>
+  <text x="237.3" y="192.6" class="mapl" text-anchor="start">Svenstrup</text>
+  <text x="237.3" y="205.2" class="mapx" text-anchor="start">16 Oct 1534</text>
   <circle cx="249.5" cy="463.3" r="3.2" fill="#221E18"/>
   <text x="255.5" y="466.7" class="mapl" text-anchor="start">Øksnebjerg</text>
   <text x="255.5" y="479.3" class="mapx" text-anchor="start">11 June 1535</text>
   <circle cx="492.1" cy="391.2" r="3.2" fill="#221E18"/>
-  <text x="486.1" y="382.6" class="mapl" text-anchor="end">København</text>
-  <text x="486.1" y="395.2" class="mapx" text-anchor="end">besieged to 29 July 1536</text>
+  <text x="486.1" y="376.6" class="mapl" text-anchor="end">København</text>
+  <text x="486.1" y="389.2" class="mapx" text-anchor="end">besieged to 29 July 1536</text>
   </g>
   <rect x="0" y="600" width="660" height="116" fill="#F0F2EE"/>
   <line x1="0" y1="600" x2="660" y2="600" stroke="#9CA294" stroke-width=".8"/>

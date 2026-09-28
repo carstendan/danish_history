@@ -55,24 +55,34 @@ def feud():
     o.append('<path d="%s" fill="none" stroke="%s" stroke-width="2.4" stroke-dasharray="3 4" '
              'opacity=".9"/>' % (f.path(LAND, close=False), OX))
 
-    # preaching towns, the quieter layer
+    # preaching towns, the quieter layer. Their names carry no fill: a fill= attribute
+    # loses to the class rule (D-11), so they have always drawn in .mapx's colour, and
+    # the source now says so (review session 16).
     for lon, lat, name, year, anchor in [
-            (9.49, 55.25, "Haderslev", "1528", "end"),
+            (9.49, 55.25, "Haderslev", "1528", "middle"),
             (9.40, 56.45, "Viborg", "1526", "end"),
             (13.00, 55.60, "Malm\u00f8", "1529", "start"),
             (10.39, 55.40, "Odense", "1527", "start")]:
         x, y = f.xy(lon, lat)
-        dx = 5 if anchor == "start" else -5
         o.append('<circle cx="%.1f" cy="%.1f" r="4.6" fill="none" stroke="%s" '
                  'stroke-width="1.4"/>' % (x, y, AMBER))
-        o.append('<text x="%.1f" y="%.1f" class="mapx" fill="%s" text-anchor="%s">%s %s</text>'
-                 % (x + dx, y - 7, AMBER, anchor, name, year))
+        if anchor == "middle":
+            # Haderslev, two lines centred over its ring (review session 16): to the left,
+            # "1528" sat on Rantzau's line; to the right, on Oeksnebjerg or the Funen route
+            o.append('<text x="%.1f" y="%.1f" class="mapx" text-anchor="middle">%s</text>'
+                     % (x, y - 17, name))
+            o.append('<text x="%.1f" y="%.1f" class="mapx" text-anchor="middle">%s</text>'
+                     % (x, y - 7, year))
+            continue
+        dx = 5 if anchor == "start" else -5
+        o.append('<text x="%.1f" y="%.1f" class="mapx" text-anchor="%s">%s %s</text>'
+                 % (x + dx, y - 7, anchor, name, year))
 
     for lon, lat, name, note, anchor, dy in [
             (9.93, 57.05, "Aalborg", "stormed 18 Dec 1534", "start", -10),
-            (9.85, 56.93, "Svenstrup", "16 Oct 1534", "end", 12),
+            (9.85, 56.93, "Svenstrup", "16 Oct 1534", "start", 12),
             (10.08, 55.27, "\u00d8ksnebjerg", "11 June 1535", "start", 0),
-            (12.57, 55.68, "K\u00f8benhavn", "besieged to 29 July 1536", "end", -12)]:
+            (12.57, 55.68, "K\u00f8benhavn", "besieged to 29 July 1536", "end", -18)]:
         x, y = f.xy(lon, lat)
         dx = 6 if anchor == "start" else -6
         o.append('<circle cx="%.1f" cy="%.1f" r="3.2" fill="%s"/>' % (x, y, INK))

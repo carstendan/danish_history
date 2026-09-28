@@ -455,6 +455,28 @@ fixers' counts, about a hundred and forty in 01–24.
 
 **Defined.** Here; `HANDOFF.md` items 149 and 150.
 
+### D-18 · Figure text carries a halo; a thick line or a marker never crosses a label — in force
+
+**Rule.** Every `.mapt`, `.mapl` and `.mapx` text is painted over a thin stroke of paper (one rule
+in `style.css`: `paint-order:stroke`, `#F0F2EE` at .8, 2.6px), so a thin line under a label - a
+coast, a border, the graticule, anything up to 1.4 wide - stops at the letters, and a label may
+straddle land and sea. Text set on a solid ground takes no halo: the light fills in
+`mapspine.HALO_EXEMPT` and `ON_BAR_INK`, and only when written `style="fill:#XXXXXX"` in capitals
+(a CSS attribute selector matches the spelling; a `fill=` attribute loses to the class, D-11). A
+thick line (a route, an attack line, a heavy border) or a marker through a label is not fixed by
+the halo: the label is moved. A new light text colour goes into `HALO_EXEMPT` and `style.css`
+together.
+
+**Reason.** Review session 16 read all 220 texts `linecheck.py` listed in 31 figures: about 214
+had a coast, border or route through them, because labels were placed at a point whatever lay under
+them. Carsten, 28 September 2026, chose the halo over moving some two hundred labels.
+
+**Guard.** `linecheck.py`, halo-aware, over `svg_*.txt` and over the bodies' inline figures:
+0 crossed, three kept on purpose and one measured wrong, each listed with its reason. It reports a
+fill spelt any other way and a light `fill=` attribute. An aid to looking, wired into no build.
+
+**Defined.** Here; `HANDOFF.md` item 154; `REVIEW-CONSISTENCY.md` §20.
+
 ---
 
 ## Standing rules that are not numbered

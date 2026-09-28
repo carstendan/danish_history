@@ -1553,6 +1553,31 @@ def build(n):
             "holds characters, not escapes - see convention D-12. Write draft prose "
             "with an editor or from a UTF-8 file, never through a heredoc, then "
             "rebuild." % (n, len(esc), ", ".join(sorted(set(esc))[:6])))
+    # THREE ASTERISKS ARE REFUSED, NOT PARSED (review session 16). inline() is three
+    # regexes, bold first, and a run of *** is two delimiters it cannot tell apart:
+    # "**x *y***" closes the bold on the first two stars and writes
+    # <strong>x <i>y</strong></i>, and "***y** x*" writes <strong>*y</strong> x* and
+    # then <i>y</strong> x</i>. Chapter 42 shipped the first ("Rambam") and chapter 38
+    # a literal asterisk ("Kresjan"); since item 153 every build refuses the page, but
+    # this still wrote the body. Some *** forms do nest ("***y* x**"): which ones depends
+    # on which delimiter closes first, and teaching the regexes that is CommonMark's
+    # delimiter-run algorithm, where a partial fix writes a different wrong nesting for
+    # a form nobody planted. A refusal cannot write wrong markup, no draft uses ***, and
+    # the same markup is one keystroke away: `y` is the same <i class="dk"> as *y*, and
+    # "**x `y`**" nests. Named by line in the draft file.
+    stars = [l for l in ((body_md or "") + "\n" + (app or "")).split("\n") if "***" in l]
+    if stars:
+        lines = src.split("\n")
+        where = []
+        for l in stars:
+            nos = [i + 1 for i, s in enumerate(lines) if s == l]
+            where.append("   - %s line %s: %s" % (DRAFT, "/".join(map(str, nos)) or "?",
+                                                 l.strip()[:90]))
+        raise SystemExit(
+            "!! chapter %s: %d line(s) with *** in the draft. inline() cannot nest a run "
+            "of three asterisks and would write misnested tags. Write the italic with "
+            "backticks inside the bold (**x `y`**), or close one before the other "
+            "opens (**x** *y*), then rebuild.\n%s" % (n, len(stars), "\n".join(where)))
 
     secs = sections(body_md)
     tb = terms_by_section(app)

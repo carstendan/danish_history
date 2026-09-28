@@ -42,27 +42,30 @@ def atlantic():
     o.append('<path d="%s" fill="none" stroke="%s" stroke-width="1.8" stroke-dasharray="6 5" '
              'opacity=".8"/>' % (f.path(ROUTE, close=False), PART_E))
 
-    for lon, lat, name, note, anchor, dy in [
-            (5.32, 60.39, "Bergen", "the staple", "end", 0),
-            (10.40, 63.43, "Nidaros", "the archbishop", "start", 0),
-            (-1.20, 60.20, "Shetland", "Norwegian until 1469", "start", 0),
-            (-3.00, 58.98, "Orkney", "Norwegian until 1468", "end", 0),
-            (-6.80, 62.02, "F\u00e6r\u00f8erne", "", "start", 0),
-            (-20.30, 63.66, "Sk\u00e1lholt", "bishopric", "end", 0),
-            (-19.30, 65.73, "H\u00f3lar", "bishopric", "start", 0),
-            (-45.40, 60.99, "Gar\u00f0ar", "the bishop's seat", "start", 0),
-            (-45.78, 60.83, "Hvalsey", "a wedding, 16 Sept 1408", "start", 30),
-            (-51.70, 64.18, "Western Settlement", "abandoned by c. 1360", "start", 0)]:
+    # ly moves the name and its note off the route, which runs through every dot it links:
+    # set beside the dot, Bergen, Faeroerne, Skalholt, Gardar's note and Hvalsey sat on it
+    # (review session 16, linecheck). The dot stays where the place is.
+    for lon, lat, name, note, anchor, dy, ly in [
+            (5.32, 60.39, "Bergen", "the staple", "end", 0, -22),
+            (10.40, 63.43, "Nidaros", "the archbishop", "start", 0, 0),
+            (-1.20, 60.20, "Shetland", "Norwegian until 1469", "start", 0, 0),
+            (-3.00, 58.98, "Orkney", "Norwegian until 1468", "end", 0, 0),
+            (-6.80, 62.02, "F\u00e6r\u00f8erne", "", "start", 0, -10),
+            (-20.30, 63.66, "Sk\u00e1lholt", "bishopric", "end", 0, 13),
+            (-19.30, 65.73, "H\u00f3lar", "bishopric", "start", 0, 0),
+            (-45.40, 60.99, "Gar\u00f0ar", "the bishop's seat", "end", 0, 0),
+            (-45.78, 60.83, "Hvalsey", "a wedding, 16 Sept 1408", "start", 30, 12),
+            (-51.70, 64.18, "Western Settlement", "abandoned by c. 1360", "start", 0, 0)]:
         x, y = f.xy(lon, lat)
         y = y + dy
         dx = 5 if anchor == "start" else -5
         col = OX if "abandoned" in note else INK
         o.append('<circle cx="%.1f" cy="%.1f" r="3" fill="%s"/>' % (x, y, col))
         o.append('<text x="%.1f" y="%.1f" class="mapl" text-anchor="%s">%s</text>'
-                 % (x + dx, y + 3.4, anchor, name))
+                 % (x + dx, y + 3.4 + ly, anchor, name))
         if note:
             o.append('<text x="%.1f" y="%.1f" class="mapx" text-anchor="%s">%s</text>'
-                     % (x + dx, y + 15, anchor, note))
+                     % (x + dx, y + 15 + ly, anchor, note))
 
     o.append(M.note(f, -28.0, 66.8, "THE NORTH ATLANTIC", cls="mapt"))
     o.append('</g>')

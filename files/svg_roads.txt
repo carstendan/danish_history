@@ -24,7 +24,7 @@
   <circle cx="483.2" cy="285.0" r="2.6" fill="#221E18"/>
   <text x="488.2" y="288.2" class="mapx" text-anchor="start">Helsingør</text>
   <circle cx="480.4" cy="339.4" r="2.6" fill="#221E18"/>
-  <text x="485.4" y="342.6" class="mapx" text-anchor="start">København</text>
+  <text x="475.4" y="342.6" class="mapx" text-anchor="end">København</text>
   <circle cx="294.9" cy="383.4" r="2.6" fill="#221E18"/>
   <text x="299.9" y="386.6" class="mapx" text-anchor="start">Odense</text>
   <text x="106.2" y="303.9" class="mapl" text-anchor="middle">THE OX ROAD</text>

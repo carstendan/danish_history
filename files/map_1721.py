@@ -106,7 +106,7 @@ def build():
     for lon, lat, t, a, dx, dy in [(12.57, 55.68, "K\u00f8benhavn", "end", -5, 4),
                                    (10.75, 59.91, "Christiania", "end", -5, 3),
                                    (10.40, 63.43, "Trondhjem", "start", 5, 3),
-                                   (9.56, 54.52, "Gottorp", "end", -5, 3),
+                                   (9.56, 54.52, "Gottorp", "start", 5, 3),
                                    (8.95, 54.32, "T\u00f8nning", "end", -5, 10)]:
         out.append(M.dot(f, lon, lat, t, anchor=a, dx=dx, dy=dy))
 
