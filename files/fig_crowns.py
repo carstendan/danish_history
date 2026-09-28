@@ -2,6 +2,12 @@
 """Figure 2, chapter 16: three crowns, nine places (review session 14: "eleven years" rested on
 a September 1398 no reference work gives).
 
+Review session 15: no label prints through a coastline or a marker. Lindholmen sits between
+Lund and Falsterbo, and there is no room on the Sound for its name that is not over a coast
+or the "1", so the key names it. The quiet markers carry their names only; the caption on the
+page says what each one was (born, married, Birgitta, died). Dalaborg, Kalmar and Stockholm
+are labelled on their landward side. Checked by eye and by linecheck.py.
+
 Not a territorial map - chapter 16 already carries the 1397 spine map for that.
 This one carries the sequence, which the spine map cannot: where each of the
 three crowns was actually acquired, in what order, between 1387 and 1398.
@@ -23,25 +29,28 @@ STOPS = [
      "a week later \u00b7 hailed <i>fuldm\u00e6gtig frue og husbond</i>"),
     (3, 10.75, 59.91, "Oslo", "start", 0, 0,
      "early 1388 \u00b7 Norway, and for life"),
-    (4, 12.60, 58.90, "Dalaborg", "end", 0, 0,
+    (4, 12.60, 58.90, "Dalaborg", "start", 0, 0,
      "Palm Sunday 1388 \u00b7 the Swedish lords change sides"),
     (5, 13.55, 58.17, "\u00c5sle", "end", 0, 0,
      "24 Feb 1389 \u00b7 King Albrecht beaten and taken"),
-    (6, 13.28, 55.52, "Lindholmen", "end", 0, 2,
-     "1389\u201395 \u00b7 a king kept in a Sk\u00e5ne castle"),
+    (6, 13.28, 55.52, "Lindholmen", None, 0, 0,
+     "1389\u201395 \u00b7 a king kept at Lindholmen, in Sk\u00e5ne"),
     (7, 9.40, 56.45, "Viborg", "end", 0, 0,
      "Jan 1396 \u00b7 Erik elected king of Denmark"),
-    (8, 16.36, 56.66, "Kalmar", "start", 0, 0,
+    (8, 16.36, 56.66, "Kalmar", "end", 0, 0,
      "17 June 1397 \u00b7 crowned over all three"),
-    (9, 18.07, 59.33, "Stockholm", "start", 0, 0,
+    (9, 18.07, 59.33, "Stockholm", "end", 0, 0,
      "1398 \u00b7 the last German garrison goes"),
 ]
 
+# (lon, lat, name, anchor, dx, dy): the offset of the name from the dot, chosen so that
+# no name crosses a coastline (session 15; the notes that ran on from the names are in the
+# page's caption)
 CODA = [
-    (12.32, 56.06, "S\u00f8borg", "start", "b. 1353"),
-    (12.57, 55.68, "K\u00f8benhavn", "end", "married 1363"),
-    (9.44, 54.78, "Flensborg", "start", "d. 1412"),
-    (14.89, 58.45, "Vadstena", "start", "Birgitta"),
+    (12.32, 56.06, "S\u00f8borg", "end", -4.5, -8),
+    (12.57, 55.68, "K\u00f8benhavn", "end", -11, 9),
+    (9.44, 54.78, "Flensborg", "middle", -5, 10),
+    (14.89, 58.45, "Vadstena", "start", 4.5, 3.2),
 ]
 
 
@@ -61,12 +70,11 @@ def build():
            % (M.detail_land_path(f, polys, NEAR, W, H), M.LAND, M.LAND_EDGE)]
 
     # the coda places sit under the numbered ones, in a quieter register
-    for lon, lat, name, anchor, note in CODA:
+    for lon, lat, name, anchor, dx, dy in CODA:
         x, y = f.xy(lon, lat)
-        dx = 4.5 if anchor == "start" else -4.5
         out.append('<circle cx="%.1f" cy="%.1f" r="1.9" fill="%s" fill-opacity=".55"/>'
-                   '<text x="%.1f" y="%.1f" class="mapt" text-anchor="%s">%s \u00b7 %s</text>'
-                   % (x, y, M.INK, x + dx, y + 3.2, anchor, name, note))
+                   '<text x="%.1f" y="%.1f" class="mapt" text-anchor="%s">%s</text>'
+                   % (x, y, M.INK, x + dx, y + dy, anchor, name))
 
     for n, lon, lat, name, anchor, ddx, ddy, _ in STOPS:
         x, y = f.xy(lon, lat)
@@ -80,8 +88,9 @@ def build():
                    '<text x="%.1f" y="%.1f" class="mapl" style="fill:%s" '
                    'text-anchor="middle">%d</text>'
                    % (x, y, M.CORE, x, y + 3.6, _c, n))
-        out.append('<text x="%.1f" y="%.1f" class="mapl" text-anchor="%s">%s</text>'
-                   % (x + dx, y + ddy + 3.6, anchor, name))
+        if anchor:      # None: named in the key, not on the map
+            out.append('<text x="%.1f" y="%.1f" class="mapl" text-anchor="%s">%s</text>'
+                       % (x + dx, y + ddy + 3.6, anchor, name))
 
     for lon, lat, t in [(8.4, 59.9, "NORGE"), (16.6, 59.9, "SVERIGE"), (9.55, 55.95, "DANMARK")]:
         out.append(M.note(f, lon, lat, t, cls="mapl"))

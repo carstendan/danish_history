@@ -5022,6 +5022,60 @@ split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see it
    a claim about what can go wrong: the tag check named the block and SVG tags, and an unclosed
    `<em>` walked past it.
 
+153. **The consistency review, session 15: what §18.3 left, against sources; the figures' old
+   collisions; the tag check nests.**
+   27–28 September 2026. Full record in `REVIEW-CONSISTENCY.md` §19.
+
+   **Cold run on a fresh clone of `dd27400`: every figure matched START_HERE_review_15**, and item
+   152's commit carries its ten pages and `svg_crowns.txt`, `svg_hemming.txt`, `svg_transfer.txt`.
+   State lived in `claude/session15_state.md` and `claude/session15_wip.patch`.
+
+   **§18.3, AGAINST SOURCES.** **13 §06** stated the pre-1169 ship-district *leding* as fact. It is a
+   live dispute: Niels Lund (*Historisk Tidsskrift* 99, **1999** — the brief's "1998" was a year out)
+   argues the farmers' levy of the laws was new about 1169–70, added to an older levy of chieftains
+   and magnates; Rikke Malmros (*HT* 106, 2006) reads the court poetry the other way ("Niels Lund og
+   jeg bliver næppe enige."). Now hedged in the glossary, the prose, Figure 2's caption, the summary
+   and three questions; both articles in Sources; lex.dk's *leding* is Lund's own. **10 Figure 1**:
+   the legend's "c. 979–80" dropped; the caption, the bridge paragraph and four lines give lex.dk's
+   "ca. 979" and Christensen's (*Kuml* 2003) "after c.980 and before c.1010"; opener 3 ("in three
+   years") kept by rule — unproven, not false. **02**: 6,400 BCE kept (Trap Danmark 2021) and lex.dk's
+   6,800 named in both glossaries, Figure 3's caption and Sources; 01 and 03 give no end date.
+
+   **FIGURES.** `fig_crowns.py`: no label through a coastline or a marker — Lindholmen is named in the
+   key (no room on the Sound), the quiet markers carry names only (the caption says what each was),
+   and Dalaborg, Kalmar, Stockholm, Søborg, Vadstena, which also crossed, are moved. `figs_18.py`: the
+   attack lines stand clear of "the bank", symmetric about it. New `linecheck.py` finds a line through
+   a text; an aid to looking, wired into nothing (220 texts in 31 figures, mostly territorial maps).
+
+   **TOOLING.** `pageguard.nesting` walks each page with a stack — misnesting, `<b/>` outside SVG, a
+   block inside `<p>`, anything unclosed — in all seven builds. **Its first run found two shipped
+   faults** that every count passed: 42's Sources `<strong>…<i>Rambam</strong></i>` and 38's literal
+   "*Kresjan væk, republæk", both from `***` in the drafts; fixed there. Planted: 7 of 7 fire; the
+   six tried at `dd27400` built clean. **`--stub` removed from G–I** (refused with a message): it
+   could never stub there, and a missing figure's answer is its script. F keeps its own.
+
+   **CHECKED FOUR TIMES.** Check 1 (two agents): 10's caption contradicting its own range, "none with
+   bark", 13's "bigger farmers" unsourced, "probably" dropped from lex.dk, Figure 2's first panel, a
+   Causal question, page 16 stale against the last `svg_crowns.txt`, `nesting` allowing self-closing
+   by name anywhere and missing a block inside `<p>` — all taken. Check 2: 10's remaining unhedged
+   lines, 13's "Either way, the direction" no longer following — taken; its claim that
+   `build_parts_abc.py` does not call the guard was **wrong** (it does; a plant through it fired).
+   Checks 3 and 4: 10's summary and burden paragraph — taken; check 4 would also change opener 3,
+   which stays by rule (§19.5).
+
+   **VERIFIED** after the last edit: all seven builds clean, no `!!`; **tidy clean; FIXTURE PASSES;
+   seams pass; debuild 45 identical; 45 of 45, 352,732 page words, 28.0 h (A 21,534, C 26,820, D
+   32,666, the rest unchanged); 21 is 50 minutes, 44 48, 45 50; vignettes 148/116, selftest passes;
+   figcheck --regen 98/30/0; five OVER, unchanged (13 §06 466); draftnotes clean; appcheck 167 in 21;
+   freshcheck 21; 2 pointers, 0 same-page glosses; Schleswig 317 in 32 / Slesvig 4 in 3; sweep_facts 2;
+   arrows 254, solvency 38; qs 0/224, Causal 0/168, Recall 0/198, 0 pairs.** Pages that change: **02,
+   10, 13, 16, 19, 38, 42.** The index does not change.
+
+   **LESSON.** A new guard's first run is a reading pass: the nesting walk found two faults that had
+   shipped past every count, and the crossing check five crossings nobody had listed. *Run a new
+   check over everything before trusting its 0.* And a checker's report of an absence is a claim
+   like any other: "the A–C build does not call it" was one line away from being believed.
+
 ---
 
 

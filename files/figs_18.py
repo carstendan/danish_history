@@ -132,7 +132,9 @@ def hemmingstedt():
 
     # the attack
     for y in (128, 238):
-        for x in (470, 500, 560, 590):
+        # session 15: 500 ran through "the bank"; the inner lines stand clear of the label,
+        # symmetric about the bank at 524
+        for x in (449, 479, 559, 589):
             dy = 34 if y < 170 else -34
             o.append('<line x1="%d" y1="%d" x2="%d" y2="%d" stroke="%s" stroke-width="1.6" '
                      'opacity=".85"/>' % (x, y, x + 10, y + dy, OX))

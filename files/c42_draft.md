@@ -705,7 +705,7 @@ country, and with the country largely agreeing.
   ordetogisrael.dk; the date is the eve of the new year and not the new year
   service, checked against the calendar.
 - **October, and the numbers.** **Silvia Goldbaum Tarabini Fracapane, "Myter og
-  misforståelser om deportationerne til Theresienstadt", *Rambam***, for 472 and
+  misforståelser om deportationerne til Theresienstadt"**, *Rambam*, for 472 and
   470, the two men named, Yad Vashem Archives 0.64/275, the disposal of the 481
   as a double count, the 51 and the 53 and what each includes, and 419 of 472
   home against 423 on the buses. Sofie Lene Bak, by way of Humanity in Action,

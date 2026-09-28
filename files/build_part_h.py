@@ -47,13 +47,12 @@ says is worth holding, but the prose itself is not reproduced. Changing that is 
 change to every shipped part, not to Part H alone.
 
     python3 build_part_h.py            # strict: every figure must exist
-    python3 build_part_h.py --stub     # meant to stub a missing figure; see below
 
---stub exits non-zero even when everything else passes, so a stubbed page cannot be
-mistaken for a finished one. Review session 14: in this part it cannot stub anything.
-Every figure has a script, and pageguard.figures_fresh stops a chapter whose figure is
-missing (NOT BUILT) before build() is reached; build_part_f.py exempts that case under
---stub and refuses --stub with DK_OUT inside the repository, and this build does neither.
+There is no --stub here (review session 15). Every figure in this part has a script, and
+a missing or stale one stops its chapter (NOT BUILT) before the page is assembled: the
+answer is to run the script, not to preview a placeholder. --stub is refused, so asking
+for it cannot be mistaken for a run. build_part_f.py keeps --stub, with its exemption and
+its refusal to write a stubbed page inside the repository.
 """
 import html
 import os
@@ -80,15 +79,6 @@ CODA = ("coda", "", "What this part was about")
 TAIL = [("myth", "", "Myth-check"), ("forward", "", "What to carry forward"),
         ("summary", "", "The page in five"), ("questions", "", "Questions &amp; discussion"),
         ("sources", "", "Sources"), ("visit", "", "Places you can visit")]
-
-STUB = ('<svg viewBox="0 0 700 120" xmlns="http://www.w3.org/2000/svg" role="img" '
-        'aria-label="Placeholder: this figure has not been drawn yet.">'
-        '<rect x="1" y="1" width="698" height="118" fill="none" stroke="#2F4C7A" '
-        'stroke-width="1.5" stroke-dasharray="7 5"/>'
-        '<text x="350" y="58" text-anchor="middle" font-family="monospace" font-size="13" '
-        'fill="#2F4C7A">FIGURE NOT YET DRAWN</text>'
-        '<text x="350" y="78" text-anchor="middle" font-family="monospace" font-size="10" '
-        'fill="#5F6157">%s</text></svg>')
 
 CFG = {
  32: dict(
@@ -296,9 +286,8 @@ def block(qs):
             + "".join("\n    <li>%s</li>" % q for q in qs) + '\n  </ul>\n</div>\n\n')
 
 
-def build(n, c, stub):
+def build(n, c):
     h = open(G + c['body'], encoding='utf-8').read()
-    stubbed = []
 
     h = re.sub(r'<div class="check">.*?</div>\n\n', '', h, flags=re.S)
     heads = [(m.group(1), re.sub(r'<[^>]+>', '', m.group(2)).strip())
@@ -342,18 +331,14 @@ def build(n, c, stub):
         try:
             svg = open(G + f, encoding='utf-8').read()
         except IOError:
-            if not stub:
-                raise SystemExit("!! chapter %s: missing figure %s (use --stub to preview)"
-                                 % (n, f))
-            svg = STUB % f
-            stubbed.append(f)
+            raise SystemExit("!! chapter %s: missing figure %s (run its script)" % (n, f))
         h = h.replace('{{%s}}' % k, svg)
 
     w = pagewords(h)
     h = re.sub(r'Era chapter \u00b7 about \d+ minutes',
                'Era chapter \u00b7 about %d minutes' % round(w / 210), h)
     # Not written here: __main__ writes the page only after its guards pass (\u00a714.6).
-    return h, stubbed
+    return h
 
 
 BAND = (25, 50)
@@ -373,8 +358,10 @@ def stale_vocabulary(n, h):
 
 
 if __name__ == "__main__":
-    stub = "--stub" in sys.argv
-    print("--- Part H ---" + ("  [STUBBED FIGURES]" if stub else ""))
+    if "--stub" in sys.argv:
+        raise SystemExit("!! --stub is not offered in Part H (review session 15): every figure "
+                         "has a script, so run the script")
+    print("--- Part H ---")
     fail = 0
     # EVERY FIGURE MUST BE WHAT ITS SCRIPT WRITES, witnessed by running the script in a
     # scratch copy, not by trusting the svg_*.txt on disk (§14.6).
@@ -408,7 +395,7 @@ if __name__ == "__main__":
                   % (n, c['name'], '; '.join('%s %s' % kv for kv in sorted(stalefigs.items()))))
             fail += 1
             continue
-        h, stubbed = build(n, c, stub)
+        h = build(n, c)
         stale = stale_vocabulary(n, h)
         if stale:
             print("\nchapter %s  %s\n  !! NOT WRITTEN: retired vocabulary %s"
@@ -430,6 +417,9 @@ if __name__ == "__main__":
                if len(re.findall(r'<%s[\s>]' % t, h)) != h.count('</' + t + '>')]
         # (review session 14: openings counted by pattern, so '<i' before a line break is
         # one; and the inline and heading tags added, since an unclosed <em> was written)
+        # (review session 15: and they must nest. '<em><b>x</em></b>' counts even, and a
+        # self-closed '<b/>' is never counted; pageguard.nesting walks the page with a stack)
+        bad += pageguard.nesting(h)
         w = pagewords(h)
         m = round(w / 210)
         five = len(re.findall(r'<ol class="five">.*?</ol>', h, re.S))
@@ -443,9 +433,7 @@ if __name__ == "__main__":
         # it (review session 14). Until then this build wrote the page first and counted
         # the failures after, so a page with a broken anchor, an unclosed tag, a stray
         # placeholder, a summary that is not five or an unbalanced stylesheet reached the
-        # repository while the run said only "!! N problems". (--stub cannot write a page
-        # here: every figure has a script, and figures_fresh stops a chapter whose figure is
-        # missing before build() can stub it; build_part_f.py exempts that case, G-I do not.)
+        # repository while the run said only "!! N problems".
         braces = css.count('{') - css.count('}')
         page_fail = (bool(bad) + bool(h.count('{{')) + (not links <= ids) + (not tail_ok)
                      + (not BAND[0] <= m <= BAND[1]) + bool(braces) + (nfive != 5)
@@ -472,8 +460,6 @@ if __name__ == "__main__":
                               h, re.S):
             print("  checkpoint before %s  %s"
                   % (mm.group(1), re.sub(r'<[^>]+>', '', mm.group(2)).strip()))
-        if stubbed:
-            print("  !! STUBBED: %s" % ", ".join(stubbed))
-        fail += page_fail + bool(stubbed) + bool(stale)
+        fail += page_fail + bool(stale)
     print("\n%s" % ('all five built clean' if not fail else '!! %d problems' % fail))
     sys.exit(1 if fail else 0)

@@ -3694,3 +3694,135 @@ solvency 38, the rest 0; qs 0/224, Causal 0/168, Recall 0/198, 0 pairs.** Pages 
 ### 18.5 Decisions for Carsten
 
 **None taken, none open.** For his read: §18.3; 15 opener 4; 21 and 45 at 50 minutes; the five OVER.
+
+## 19. Session 15 — what §18.3 left, against sources; the figures' old collisions; the tag check nests
+
+*27–28 September 2026, from `START_HERE_review_15.md`. State in `claude/session15_state.md` and
+`claude/session15_wip.patch`, saved after the cold run, after each task and after each check.*
+
+**The cold run matched every line** on a fresh clone of `dd27400` (item 152's commit, which carries
+its ten pages and `svg_crowns.txt`, `svg_hemming.txt`, `svg_transfer.txt`): tidy clean, 45 bodies;
+FIXTURE PASSES; SEAM LAYER PASSES; debuild 45 identical; 45 of 45, 352,354 page words, 28.0 h, every
+part as the brief; 21 is 50 minutes (10,559), 44 48, 45 50; vignettes 148/116, selftest passes;
+figcheck --regen 98/30/0 and the tree clean after it; five OVER as the brief, 32 §09 749; draftnotes
+clean in 45 and 14; appcheck 167 in 21; freshcheck 21; all seven builds as the brief, no `!!`; git
+clean after `linkindex` and `index_generator`; 2 pointers, 0 same-page glosses; Schleswig 317 in 32,
+Slesvig 4 in 3; sweep_facts 2; arrows 254, 37 thread notes, form 7, solvency 38, the rest 0; qs 0/224,
+Causal 0/168, Recall 0/198, 0 opener–tier pairs.
+
+**How the session ran.** The lead did the research and fetched every quoted source at least twice,
+asking for the sentence character for character (the shell cannot reach the sites; the fetch tool
+paraphrases unless asked, and once gave a wrong volume and year for Lund's article, which the
+article's DOI settled). Check 1: two agents who had not seen the work (the content hunks against
+sources; the tooling and figures). Check 2: one agent on check 1's fixes. Checks 3 and 4: one agent
+each on the last wording. Ledgers in the session's working directory only.
+
+### 19.1 §18.3, against sources
+
+- **13 §06, the pre-1169 *leding*.** A live dispute, so hedged, as 12's glossary is. Niels Lund,
+  "Leding, bønder og inerti", *Historisk Tidsskrift* 99 (1999; DOI `10.7146/ht.v99i1.55761` — the
+  brief's "1998" was a year out): the levy of the provincial laws "er en nyskabelse" of 1169–70,
+  added to the king's and the chieftains' levy. Rikke Malmros, "Fyrstedigtningens kildeværdi", *HT*
+  106 (2006), in an exchange with Lund in the same volume, argues from the tenth- and
+  eleventh-century court poetry, and writes "Niels Lund og jeg bliver næppe enige." lex.dk's
+  *leding* is by Lund ("Kystvagtledingen går antagelig tilbage til ca. 1170"). Changed: the
+  glossary (the laws' form; older than about 1170 disputed); "The old *leding*" is "the *leding* of
+  the law texts"; a paragraph gives the older view, Lund and Malmros; the Saxo paragraph adds Lund's
+  reading and "what came next is not in doubt"; Figure 2's caption says the first panel's levy
+  before 1169 is disputed (`svg_leding.txt`, Part D, has no generator and was not edited); the
+  summary, the checkpoint and the Causal question say "on Saxo's account"; the Contested question
+  asks whether there was a farmers' levy to reform. Both articles in Sources.
+- **10 Figure 1, the bridge.** lex.dk *Ravning Enge-broen*: "Vikingetidsbroen er dendrokronologisk
+  dateret til ca. 979"; Christensen, "Ravning-broens alder", *Kuml* 2003, from samples none certainly
+  with the bark ring: "after c.980 and before c.1010". The legend's "c. 979–80" dropped ("bridge and
+  frontier works"); the caption and the line inside the map say "around 980" and give both; the
+  bridge paragraph adds the 2003 range; "probably" for the bridge in §06's "within a few years",
+  §07's "same window", §11's burden paragraph and the summary (checks 1–4). Both in Sources.
+  **Opener 3, "in three years", kept by rule**: Christensen makes it unproven, not false (checks 2
+  and 4 agree; check 4 would change it — §19.5).
+- **02, Maglemose's end.** Both datings are current: Trap Danmark, *Oldtiden i Kalundborg Kommune*
+  (2021), "ca. 9000-ca. 6400 f. Kr." and Kongemose "ca. 6400-ca. 5400"; lex.dk (Søren H. Andersen)
+  Maglemose "fra ca. 9000 til ca. 6800 f.v.t." and Kongemose from 6800. The page keeps 6,400 (its
+  Figure 3 is drawn to it) and names lex.dk's 6,800 in both glossaries, Figure 3's caption and
+  Sources. **01 and 03** give no end date for the Maglemose, so nothing disagrees.
+- **Questions.** Every question on 02, 10 and 13 was read against its changed fact (checks 1–4).
+  After: qs 0/224, Causal 0/168, Recall 0/198, 0 pairs.
+
+### 19.2 The figures
+
+- **`fig_crowns.py`** (16, Figure 2). By eye and by a new render-without-text check, the old
+  collisions ("1" over Lindholmen; København and Flensborg through the coast) and five nobody had
+  listed (Søborg, Vadstena, Dalaborg, Kalmar, Stockholm) all crossed something. Lindholmen lies
+  between Lund and Falsterbo with no room on the Sound for a name that is not over a coast or the
+  "1": it is named in key entry 6 ("a king kept at Lindholmen, in Skåne"). The quiet markers carry
+  their names only; the caption already says what each was. Dalaborg, Kalmar and Stockholm are
+  labelled on the landward side; the four quiet names were placed by scoring every offset for
+  what lies under it, then looked at.
+- **`figs_18.py`** (19, Figure 2, Hemmingstedt): the attack lines at 470/500/560/590 ran through
+  "the bank"; now 449/479/559/589, symmetric about the bank at 524.
+- **`linecheck.py`** renders a figure without its text and reports every text whose box is not one
+  flat ground. It is an aid to looking, wired into nothing: over every `svg_*.txt` it lists 220 texts
+  in 31 figures, most of them labels set on purpose across a border or a tinted territory.
+
+### 19.3 The tooling
+
+- **`pageguard.nesting`**, in all seven builds (`bad += pageguard.nesting(h)`): a stack walk that
+  reports an element closed out of order, an end tag that closes nothing, anything never closed,
+  a self-closed non-void element outside `<svg>`, and a block element (div, p, lists, li, dd, dt,
+  headings, figure, summary and the rest) opened inside a `<p>`. **Its first run found two faults
+  shipped past every count:** 42's Sources `<strong>… <i>Rambam</strong></i>` and 38's Sources name
+  "The rhyme *Kresjan væk, republæk" with a literal asterisk, both from a `***` run in the drafts
+  (`mkbody.inline` closes the bold on the first two stars). Fixed in `c42_draft.md` and
+  `c38_draft.md`; no `***` is left in any draft. **Planted** (scratch copies): `<b/>` and
+  `<em><b>x</em></b>` in 03, 12, 17, 22; `**x *y***` through the drafts of 25, 33, 40 — **7 of 7
+  NOT WRITTEN**; the six tried with the builds at `dd27400` all built clean.
+- **`--stub` removed from G–I.** Every figure there has a script, and a missing or stale one stops
+  its chapter before the page is assembled, so `--stub` could never stub. Giving G–I F's exemption
+  would have added a path that writes placeholder pages, for a feature no chapter needs; the answer
+  to a missing figure is its script. `--stub` is refused with a message; `STUB` and the stubbed
+  paths are gone; the docstrings say so. F keeps its `--stub`, exemption and refusal.
+
+### 19.4 Checked four times
+
+Check 1 (two agents): 10's caption said "within a few years of 980" while giving a range to 1010;
+"none with bark" was stronger than Christensen's "none definitely included the bark ring"; 13's
+"the bigger farmers" had no source (lex.dk: "høvdinge og stormænd"); "probably" had been dropped
+from lex.dk's "antagelig"; Figure 2's first panel and a Causal question still assumed Saxo; page 16
+was stale against the last `svg_crowns.txt`; `nesting` allowed self-closing by name anywhere and did
+not see a block inside `<p>`; `linecheck`'s count could not be reproduced; the Hemmingstedt lines
+were not symmetric — all taken. Check 2: four more unhedged bridge lines on 10, 13's "Either way, the
+direction is not in doubt" no longer following from Lund's reading, "reformed it" — taken; li, dd,
+dt, summary and menu added to the block set; **its report that `build_parts_abc.py` does not call
+`nesting` was wrong** — it does (line 506), and the `<b/>` planted in 03 fired through it. Checks 3
+and 4: 10's summary and burden paragraph — taken, with "nearly all of it" as Figure 1 has it. No
+quotation was changed after check 2 confirmed it letter by letter against its source.
+
+### 19.5 Found, recorded, not changed
+
+- **10's opener 3**, "a 760-metre bridge in three years": unproven since the page gives Christensen,
+  not false. Kept by rule; check 4 would write "in a few years, and probably a 760-metre bridge with
+  them". For Carsten.
+- `mkbody.inline` turns `**x *y***` into misnested tags; the build now refuses the page, so it is
+  caught, not prevented.
+- `nesting` does not list the rare elements that also end a `<p>` (center, dialog, hgroup, search,
+  listing, xmp); no page uses them.
+- `linecheck.py`'s 220 flags across 31 figures, mostly territorial maps, are unread.
+- Carried: 15 opener 4; 21 and 45 at 50 minutes; the five OVER; the maps' "Ditmarschen".
+
+### 19.6 Verified
+
+In the working clone after the last edit: `fig_crowns.py`, `figs_18.py`; `mkbody` 38 and 42; all
+seven builds clean, 45 lines "vocabulary clean | questions asked once", no `!!`; `linkindex`,
+`index_generator`; **tidy clean; FIXTURE PASSES; SEAM LAYER PASSES; debuild 45 identical; 45 of 45,
+352,732 page words, 28.0 h (A 21,534, B 26,496, C 26,820, D 32,666, E 36,912, F 30,481, G 54,240,
+H 43,460, I 80,123); 21 is 50 minutes (10,559), 44 48, 45 50; vignettes 148/116, selftest passes;
+figcheck --regen 98/30/0, only `svg_crowns.txt` and `svg_hemming.txt` differ from `dd27400`; five
+OVER, unchanged, 13 §06 466; draftnotes clean; appcheck 167 in 21; freshcheck 21; 2 pointers, 0
+same-page glosses; Schleswig 317 in 32, Slesvig 4 in 3; sweep_facts 2; arrows 254, solvency 38, the
+rest 0; qs 0/224, Causal 0/168, Recall 0/198, 0 pairs.** Pages that change: **02, 10, 13, 16, 19,
+38, 42** (seven); the index does not.
+
+### 19.7 Decisions for Carsten
+
+**None taken, one open:** 10's opener 3 (§19.5). For his read: 15 opener 4; 21 and 45 at 50 minutes;
+the five OVER; the maps' "Ditmarschen" aria-labels against D-15; Lindholmen named in the key only.

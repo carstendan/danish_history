@@ -501,6 +501,9 @@ for n in sorted(CFG):
            if len(re.findall(r'<%s[\s>]' % t, h)) != h.count('</' + t + '>')]
     # (review session 14: openings counted by pattern, so '<i' before a line break is
     # one; and the inline and heading tags added, since an unclosed <em> was written)
+    # (review session 15: and they must nest. '<em><b>x</em></b>' counts even, and a
+    # self-closed '<b/>' is never counted; pageguard.nesting walks the page with a stack)
+    bad += pageguard.nesting(h)
     w = pagewords(h)
     # Every structural check is asked before the page is written too. Until review
     # session 12 the anchor check here was `links > ids` - a proper superset - so a link

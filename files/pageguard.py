@@ -243,3 +243,66 @@ def figures_fresh(here, src_dir, svg_files):
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
     return out, checked
+
+
+VOID = {'area', 'base', 'br', 'col', 'embed', 'hr', 'img', 'input', 'link', 'meta', 'param',
+        'source', 'track', 'wbr'}
+# elements a browser will not keep inside a <p>
+BLOCK = {'address', 'article', 'aside', 'blockquote', 'details', 'div', 'dl', 'fieldset',
+         'figcaption', 'figure', 'footer', 'form', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'header',
+         'hr', 'main', 'nav', 'ol', 'p', 'pre', 'section', 'table', 'ul',
+         'li', 'dd', 'dt', 'summary', 'menu'}
+
+
+def nesting(h):
+    """Tags that do not nest, as a reader's browser would have to repair them.
+
+    THE BUILDS' TAG CHECK COUNTS, IT DOES NOT NEST (review session 14, §18.3): it compares
+    the number of openings with the number of closings, so "<em><b>x</em></b>" passes, and
+    a self-closed "<b/>" - which HTML does not close, so everything after it is bold - is
+    never counted at all. This walks the page with a stack. Returns a list of problems,
+    empty when every element is closed, in order, by its own end tag. Self-closing is
+    allowed on void elements and inside <svg>, where it is XML; a block element opened
+    inside a <p> is reported too, since a browser ends the paragraph there and leaves the
+    </p> closing nothing (review session 15; its checker found the first version allowed
+    self-closing by tag name anywhere, and did not see a <div> inside a <p>)."""
+    from html.parser import HTMLParser
+    problems, stack = [], []
+
+    def in_svg():
+        return any(t == 'svg' for t, _ in stack)
+
+    class P(HTMLParser):
+        def handle_starttag(self, tag, attrs):
+            if tag in BLOCK and not in_svg() and any(t == 'p' for t, _ in stack):
+                problems.append('<%s> at line %d inside a <p> (a browser ends the paragraph)'
+                                % (tag, self.getpos()[0]))
+            if tag not in VOID:
+                stack.append((tag, self.getpos()[0]))
+
+        def handle_startendtag(self, tag, attrs):
+            if tag not in VOID and not in_svg() and tag != 'svg':
+                problems.append('<%s/> at line %d (HTML does not self-close it)'
+                                % (tag, self.getpos()[0]))
+
+        def handle_endtag(self, tag):
+            if tag in VOID:
+                return
+            if stack and stack[-1][0] == tag:
+                stack.pop()
+                return
+            line = self.getpos()[0]
+            if any(t == tag for t, _ in stack):
+                while stack[-1][0] != tag:
+                    t, l = stack.pop()
+                    problems.append('<%s> (line %d) still open at </%s> (line %d)'
+                                    % (t, l, tag, line))
+                stack.pop()
+            else:
+                problems.append('</%s> at line %d closes nothing' % (tag, line))
+
+    p = P(convert_charrefs=True)
+    p.feed(h)
+    p.close()
+    problems += ['<%s> (line %d) never closed' % (t, l) for t, l in stack]
+    return problems

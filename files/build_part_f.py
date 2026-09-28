@@ -350,6 +350,9 @@ if __name__ == "__main__":
                if len(re.findall(r'<%s[\s>]' % t, h)) != h.count('</' + t + '>')]
         # (review session 14: openings counted by pattern, so '<i' before a line break is
         # one; and the inline and heading tags added, since an unclosed <em> was written)
+        # (review session 15: and they must nest. '<em><b>x</em></b>' counts even, and a
+        # self-closed '<b/>' is never counted; pageguard.nesting walks the page with a stack)
+        bad += pageguard.nesting(h)
         w = pagewords(h)
         m = round(w / 210)
         rail = re.search(r'<nav class="rail".*?</nav>', h, re.S).group(0)

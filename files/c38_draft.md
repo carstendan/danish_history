@@ -885,7 +885,7 @@ house, in a zone where a quarter of the votes had been cast against it.
   them; §07's town figures are given as approximations.
 - **The Jomfru Fanny prophecy** has no date; it is told of a woman who died in 1881,
   and lex.dk records how her prophecies were extended after the events.
-- **The rhyme *Kresjan væk, republæk*** is given in §09 as told, not as documented.
+- **The rhyme** *Kresjan væk, republæk* is given in §09 as told, not as documented.
 - **The 2013 tablets at Braine**: 5,333 names on one page of the project's own site
   and 5,533 on another. §01 does not use the tablet count.
 
