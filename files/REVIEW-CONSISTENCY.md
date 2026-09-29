@@ -4136,3 +4136,158 @@ of 01–03 (white there is 3.2:1); whether `linecheck` is wired into the builds 
 are, for A–D); the D-11 legacy colours; 10's opener 3; 15's opener 4; 21 and 45 at 50 minutes; the
 five OVER (not for cutting, D-16); the "Ditmarschen" aria-labels (`svg_terr_1500/1600/1660`, pages
 19, 21, 25) against D-15; Lindholmen in 16's key only; the Sound strip's last line near the caption.
+
+## 22. Session 18 — the width the page draws, the titles nobody sized
+
+*29 September 2026, from `START_HERE_review_18.md`. State in `claude/session18_state.md` and
+`claude/session18_wip.patch`, saved after the cold run, after each task and after each check.*
+
+**The cold run matched every line** on a fresh clone of `c9b6665`: tidy clean, 45 bodies; FIXTURE
+PASSES; SEAM LAYER PASSES; debuild 45 identical; 45 of 45, 352,732 page words, 28.0 h, every part as
+the brief; 21 is 50 minutes (10,559), 44 48, 45 50; vignettes 148/116, selftest passes; figcheck
+--regen 98/30/0, 0 warning lines, the tree clean after it; five OVER, 32 §09 749, 13 §06 466;
+draftnotes clean in 45 and 14; appcheck 167 in 21; freshcheck 21; all seven builds clean, `--stub`
+refused; git clean after `linkindex` and `index_generator`; 2 pointers, 0 same-page glosses;
+Schleswig 317 in 32, Slesvig 4 in 3; impossible dates 0, §5 lists 2; arrows 254, 37 thread notes,
+form 7, 3b 11, solvency 38; linecheck 0 (3 on purpose), 01–11 0, `--bare` 213; qs 0/224, Causal
+0/168, Recall 0/198, 0 pairs. Item 155's commit carries its six pages, `svg_invasions.txt` and the
+sources the brief lists.
+
+### 22.1 The width (HANDOFF 105, closed; D-19)
+
+Carsten agreed at the start of the session. **How it was measured**, so it can be again: (1) in
+Chromium on Linux (`/opt/pw-browsers/chromium`), every `<text>` on the 45 built pages,
+`getComputedTextLength()` over `getNumberOfChars()`, the median per class over the texts of four
+or more characters (script in the project: `claude/session18_measure.py`): mapt 6.07, mapx 5.43,
+mapl 6.92, the fallback monospace (Liberation Mono, 0.600 em; IBM Plex Mono is not installed);
+(2) in the Claude desktop app's browser on Carsten's Mac, the same string set in an SVG `<text>`
+with the page's `--mono` stack at each class's size, letter-spacing and weight: mapt 6.10, mapx
+5.46, mapl 6.95 (each family of the stack, tried alone with monospace behind it, 602.1 units at
+100px: 0.602 em). The table takes the
+Mac's, the wider. The old table (5.68, 5.63, 6.98) came from `rasterise()`.
+
+**The workaround goes.** figs_39–44 and fig_titles folded at `max(CHAR_W, MEASURED)`, MEASURED a
+second raster (mapt 6.36, mapx 5.32, mapl 6.61). With the table measured in the page, max() would
+keep mapt four per cent wider than any page draws it, and the book would still have two widths
+for one class. They read `CHAR_W` now. figs_24–31 each had an `overruns()` of their own at one
+width for every class (5.55 in 24–25, 6.1 in 26–31, start-anchored texts only); they use
+`mapspine.text_boxes()` now.
+
+**21 figures changed**, and each was screenshotted in its page, before and after, and read:
+16 (the titles' footnote); 38 zones and elections; 39 capsules, Landmandsbanken, the Folketing;
+40 Kanslergade, the pound, the rule; 41 the morning, the interned, 1943; 42 October; 43 sabotage,
+the strike; 44 the convictions, Bornholm, South Schleswig; 45 the Landsting, the floor, the two
+ballots. Most move a word between lines or a column a few units; nothing was cut. Two faults the
+old width had hidden, fixed: **figs_40**, Kanslergade, computed the text columns from the party
+name's width but drew the name 12 units right of that, so "Social Democrats · 62" came within
+ten units of its row's first cell; **figs_44**, the two ballots, set the bar from the width of
+"the voting age", and "the constitution", the longer label, began six units from the canvas.
+
+**What the guards list at the new widths:** the figure scripts, nothing; the A–D builds two:
+02's third map caption (in the page it ran to 722.6 of 720, cut; now all three captions are two
+lines and the viewBox is 352, which also parts the second from the third) and 11's 1066 caption
+(651 of 660; now two lines below the map, viewBox 506). linecheck 0; `--bare` 214 (was 213).
+Near the edge but inside the six-unit cushion and read: 39's "RESCUE TWO … share capital." (9.5
+units on Linux, about 7 on the Mac), and several Part I notes at 12.9.
+
+### 22.2 The titles
+
+`text_items()` reads a font-size in `style=` or a `font-size` attribute. A text in the serif stack
+is measured by `mapspine.SERIF_EM` (per em: capitals .70, digits .56, other .52), rounded up from
+the page on both machines over the 29 serif texts (the Mac draws Iowan Old Style, 0.425–0.515 an em
+for words, 0.556 for "1050"; Linux a fallback, 0.383–0.485 for words, 0.500 for the dates); height
+is the font-size. Every one of the 29 is over-estimated, none under: 1–26 per cent against the Mac,
+12–40 against Linux. The old measure took them at 6.3 a character and 9.5 high: 37 to 110 per cent
+of Linux's width (median 78). Any other text with its own size is measured at its class's advance
+scaled to it. Of the 29, four are Part E's (figs_16b, 17, 18, 19); the brief's "Part D's 29" counts
+them in.
+
+**It changes no guard's report.** Planted, old measure against new: "How to buy a kingdom back"
+moved to end ten units past the canvas - old nothing, new overrun; a mapx label under its
+descenders - old nothing, new a 38-unit collision.
+
+### 22.3 Found by measuring the page, not the files
+
+The guards read one figure file at a time. A new measure reads the page: every `<text>` of a
+figure is moved to the end of its `<svg>`, so nothing can be painted over it, and the pixels inside
+each text's box are compared with the page as built (`claude/session18_order.py`). On the shipped
+book it listed three figures:
+
+- **Page 18, the roads map: Hamborg, Lübeck and the end of the ox road were never drawn.** figs_17's
+  two maps both took `mapspine.detail_base()`'s default clip id, "fr"; a page resolves `url(#fr)` to
+  the first, the Sound map's 660 × 600, so the roads map (700 high) lost its bottom hundred units.
+  Each file was right alone, figcheck matched, every guard passed. Fixed: `roads()` passes
+  `clip="fr_roads"`. **New guard: `pageguard.duplicate_ids()`**, called from `nesting()`, so every
+  part build refuses a page with an id given twice (planted: the shipped page 18 - "!! NOT
+  WRITTEN", exit 1). No other built page has a duplicate id. With the map drawn, its legend sits on
+  the Elbe and the Frisian coast; the halo keeps it legible (read, recorded, not changed).
+- **Page 45, the Landsting:** the 1936 leader was drawn after the captions and ran through the r of
+  "a quarter", over its halo. Leaders are drawn under the captions now. D-18 says *under* means
+  drawn before.
+- **Page 12, the reigns:** 6–9 pixels at three labels, a diamond or a dashed line beside the letters,
+  not through them. Nothing to do.
+
+### 22.4 The near misses
+
+- **08:** the three bands start ten units lower (viewBox 358): "878 Edington" and "808 Hedeby" clear.
+- **30, the papers:** the gap came after a line, by what that line was, so each wrapped line sat 20
+  below its own bullet and 14 above the next; now the gap comes before a line, by what it is.
+- **02, figure 1:** above.
+
+### 22.5 Found, recorded, not changed
+
+- Page 18: the roads legend now sits on the map (above).
+- `maps-contact-sheet.html` (mapdump's tool page, not built by a part build) repeats ids
+  (`landclip`, `wclip`, `wland`, `fr`), every copy identical, so nothing draws wrong;
+  `duplicate_ids()` does not read it.
+- Seen by check 1, not this session's doing: 43's "924" and "988" on the 1,000 gridline; 21's
+  "Gottorp" a unit above "Ditmarsken"; 16's "The title fell…" past the header rule's end; 18's
+  Helsingborg 0.2 units from the strip line.
+- The order measure is a script in the project, wired into nothing.
+- Carried: ON_BAR_INK on the grey bars; linecheck in no build; the D-11 legacy colours; 10's opener
+  3; 15's opener 4; 21 and 45 at 50 minutes; the five OVER; the "Ditmarschen" aria-labels;
+  Lindholmen in 16's key only; the Sound strip's last line near the caption.
+
+### 22.6 Checked
+
+Check 1 (an agent that had not seen the work: every hunk, every changed figure in its page in
+Chromium, before and after, an in-page line-to-glyph scan, both plants re-run, all builds): **44's
+Bornholm end label ran under the 4 March tick**, which then read as marking 5 April (the label now
+ends clear of it, as it shipped); the serif regex matched "sans-serif"; the old-measure figures in
+mapspine's comment were loose; a count off by one (2,773 is the shipped pages'; the rebuilt have
+2,774); D-19 said "every" of widths that include an estimate; figs_24–31's docstring gave both
+numbers in every file; references to this section and item 156 before they existed - all taken. The
+roads legend and the tight right edges: read, recorded (§22.1, §22.5).
+
+Check 2 (the changes since check 1, and every claim in §22, item 156, D-19 and START_HERE_19,
+tried; a full rebuild in its copy): the Linux serif range was wrong (0.383–0.485 for words, 0.500
+for the dates, not 0.415–0.50; the claims resting on it hold); item 156 counted the Bornholm label
+among faults the old widths hid, when the new widths made it; the 4 March tick was still drawn after
+its label (D-18); a verb, a long line, START_HERE_19 leaving itself off its list - all taken. Check 3
+(those changes): the tick's move changes no pixel and the label's halo does not reach it; the
+remeasure confirms the range; Part I's pages had been left without their index links after the
+last part build (`linkindex` and `index_generator` run again; the pages are not delivered); two
+paragraphs rewrapped - all taken.
+
+### 22.7 Verified
+
+In the working clone after the last edit: `figcheck --regen` 98 match, 30 sourceless, 0 disagree, 0
+warning lines; all seven part builds clean, `--stub` refused; `linkindex`, `index_generator`; **tidy
+clean; FIXTURE PASSES; SEAM LAYER PASSES; debuild 45 identical; 45 of 45, 352,732 page words, 28.0
+h, every part unchanged; 21 is 50 minutes, 44 48, 45 50; vignettes 148/116, selftest passes; five
+OVER, unchanged; draftnotes clean; appcheck 167 in 21; freshcheck 21; 2 pointers, 0 same-page
+glosses; Schleswig 317 in 32, Slesvig 4 in 3; impossible dates 0; arrows 254, solvency 38; qs
+0/224, Causal 0/168, Recall 0/198, 0 pairs; linecheck 0 over `svg_*.txt` (3 on purpose) and over
+01–11's bodies, `--bare` 214; the order measure over all 45 pages lists only page 12's three (read,
+§22.3).** Pages that change: **02, 08, 11, 16, 18, 30, 38, 39, 40, 41, 42, 43, 44, 45.** The index
+does not.
+
+### 22.8 Decisions for Carsten
+
+**New:** whether the order measure (§22.3) becomes a tool in `files/` - it needs Chromium, which the
+builds do not; the page 18 roads legend, now on the map. **Closed:** item 105 (D-19). **Open,
+carried:** dark `ON_BAR_INK` on the grey bars of 01–03 (white there is 3.2:1); whether `linecheck`
+is wired into the builds; the D-11 legacy colours; 10's opener 3; 15's opener 4; 21 and 45 at 50
+minutes; the five OVER (not for cutting, D-16); the "Ditmarschen" aria-labels
+(`svg_terr_1500/1600/1660`, pages 19, 21, 25) against D-15; Lindholmen in 16's key only; the Sound
+strip's last line near the caption; `maps-contact-sheet.html`'s repeated ids.

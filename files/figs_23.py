@@ -53,9 +53,10 @@ def invasions():
     # only ever called validate() and overruns(); check() now runs all four
     # from rasterise(). Found Sept 2026.
     # AND THEN THE LAST WORDS WERE CUT (review session 17): at 700 wide the second line ran
-    # to "both tim", because mapspine measures .mapt text about 6 per cent narrower than the
+    # to "both tim", because mapspine measured .mapt text about 6 per cent narrower than the
     # page draws it (5.68 against 6.07) and overruns() passed it. The second sentence is two
-    # lines now, three in all, and H is computed from them.
+    # lines now, three in all, and H is computed from them. (Since review session 18 CHAR_W
+    # is measured in the page, D-19.)
     pw, ph = 322, 372
     b = 52 + ph + 24                          # the first caption's baseline
     LINES = ["Sixteen years apart, two different enemies took the same ground by the same road.",

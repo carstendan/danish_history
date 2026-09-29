@@ -56,12 +56,10 @@ def validate(svg, name):
 
 
 def overruns(svg, W):
-    bad = []
-    for m in re.finditer(r'<text x="([\d.]+)"(?![^>]*text-anchor="(?:end|middle)")[^>]*>([^<]*)<',
-                         svg):
-        if float(m.group(1)) + len(m.group(2)) * 6.1 > W - 6:
-            bad.append(m.group(2)[:44])
-    return bad
+    """mapspine's own measure (text_items, CHAR_W), not a width of this script's own:
+    this used one number for every class (6.1 a character) and read only a
+    start-anchored text with no markup (review session 18, D-19)."""
+    return [t[:44] for (x0, y0, x1, y1, cls, t) in M.text_boxes(svg) if x1 > W - 6 or x0 < 0]
 
 
 # ------------------------------------------------------------------ figure 1
@@ -272,12 +270,15 @@ def papers():
     o.append('<line x1="350" y1="70" x2="350" y2="390" stroke="%s" stroke-width="1"/>' % RULE)
 
     o.append('<text x="26" y="92" class="mapx" fill="%s">RECORDED</text>' % IND)
-    y = 116
+    # THE GAP GOES BEFORE A LINE, by what that line is (review session 18). It went after, by
+    # what the line just drawn was: a wrapped line sat 20 below its own bullet and 14 above
+    # the next, so it read as the start of the next entry.
+    y = 116 - 20
     for line, cont in RECORDED:
+        y += 14 if cont else 20
         if not cont:
             o.append('<circle cx="32" cy="%d" r="2.6" fill="%s"/>' % (y - 4, IND))
         o.append('<text x="44" y="%d" class="mapt">%s</text>' % (y, line))
-        y += 20 if not cont else 14
 
     o.append('<text x="382" y="92" class="mapx" fill="%s">NOT RECORDED</text>' % MUTED)
     y = 116

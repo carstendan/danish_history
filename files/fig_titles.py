@@ -60,12 +60,10 @@ STEP = 92
 # arithmetic; the raster confirms it.
 #
 # It folds now, and the canvas height is DERIVED from the number of lines rather
-# than being the constant 46 that assumed one. Folding is at the LARGER of the
-# table and measured widths, which wraps earlier than necessary and can therefore
-# only ever be safe - the cost of a conservative width is a slightly short line,
-# and the cost of an optimistic one is a sentence that loses its ending.
-MEASURED = {"mapt": 6.36, "mapx": 5.32, "mapl": 6.61}
-CW = {k: max(M.CHAR_W[k], MEASURED[k]) for k in M.CHAR_W}
+# than being the constant 46 that assumed one. It folded at max(CHAR_W, MEASURED),
+# a raster measure, while the table was known short; since review session 18 the
+# table is measured in the page (D-19) and CW is simply mapspine.CHAR_W.
+CW = M.CHAR_W
 LEAD = 13
 
 NOTE = ("husbond is husband in the older sense \u2014 the head of a household, the one who "

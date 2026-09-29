@@ -45,7 +45,7 @@ FIGURE 3 · Two ballots, one Thursday.
 
 D-11 THROUGHOUT: text colour is set with style=, never fill=. fold(), width(),
 header() and swatch_row() are copied from figs_43.py, which took them from
-figs_42.py; item 105's CHAR_W is still under-measured and mapspine is NOT changed.
+figs_42.py. Widths are mapspine.CHAR_W, measured in the page (review session 18).
 """
 
 from datetime import date
@@ -61,8 +61,11 @@ GREY  = "#5F6157"
 W     = 700
 SWATCH = 14
 
-MEASURED = {"mapt": 6.36, "mapx": 5.32, "mapl": 6.61}
-CW = {k: max(M.CHAR_W[k], MEASURED[k]) for k in M.CHAR_W}
+# CW is mapspine.CHAR_W (review session 18, HANDOFF 105 closed, D-19). This script folded
+# at max(CHAR_W, MEASURED), MEASURED being a raster of rasterise()'s CSS (mapt 6.36),
+# while the table was known short. The table is now measured in the page, in Chromium
+# on Linux and on the Mac, and the raster's mapt is wider than any page draws it.
+CW = M.CHAR_W
 
 
 def fold(text, cls, x, avail):
@@ -283,6 +286,7 @@ def landsting():
            "Each reform answered the objection and removed a reason to exist.")
 
     run = 0
+    under = len(o)          # the leaders go here, under the captions (below)
     for (a, b, lab, col), d in zip(REGIMES, spans):
         bx = x0 + span * run / total
         bw = span * d / total
@@ -306,9 +310,12 @@ def landsting():
         assert 0.02 < (mx - x0) / span < 0.98, (lab, (mx - x0) / span)
         o.append('<line x1="%.1f" y1="%d" x2="%.1f" y2="%d" stroke="%s" '
                  'stroke-width="1.2"/>' % (mx, top - 4, mx, top + bh + 4, INK))
-        # a leader from the tick to its own label, so the label points at something
-        o.append('<line x1="%.1f" y1="%d" x2="%.1f" y2="%.1f" stroke="%s" '
+        # a leader from the tick to its own label, so the label points at something.
+        # DRAWN UNDER THE CAPTIONS (review session 18): drawn last, 1936's leader ran
+        # through the r of "a quarter" in the page, over the caption's halo (D-18).
+        o.insert(under, '<line x1="%.1f" y1="%d" x2="%.1f" y2="%.1f" stroke="%s" '
                  'stroke-width=".7" opacity=".6"/>' % (mx, top + bh + 4, mx, my - 9, INK))
+        under += 1
         tw = width(lab, "mapx")
         tx = min(max(mx - tw / 2, 14), W - 14 - tw)
         o.append('<text x="%.1f" y="%d" class="mapx" style="fill:%s">%s</text>'
@@ -348,7 +355,11 @@ def two_ballots():
     diff = EA - E53
     assert diff == 229300, diff
 
-    x0 = 14 + width("the voting age", "mapt") + 12
+    # the row labels end at x0 - 8 and start at the margin, 14: from the WIDER label.
+    # This measured "the voting age", the shorter, and the raster's mapt 6.36 hid it;
+    # at the page's width "the constitution" began six units from the edge (review
+    # session 18).
+    x0 = 14 + max(width(t, "mapt") for t in ("the constitution", "the voting age")) + 8
     x1 = W - 16
     big = float(max(EA, E53))
     top, bh, gap = 108, 30, 62

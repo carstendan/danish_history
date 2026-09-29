@@ -130,7 +130,11 @@ def roads():
          'left the country in the fifteenth century: the ox road overland down the spine of '
          'Jutland to Hamburg and the Rhine towns, and the sea route through the Sound past '
          'Helsingor. Luebeck, Hamburg, Ribe, Kolding, Viborg and Aalborg are marked.">' % (W, H)]
-    o += M.detail_base(f, W, H, NEAR)
+    # ITS OWN CLIP ID (review session 18). Both maps on page 18 took detail_base()'s
+    # default "fr"; the page resolves url(#fr) to the first, the Sound's 600-high
+    # rectangle, and this map lost its bottom hundred units - Hamborg, Luebeck and the
+    # end of the ox road - on the shipped page. pageguard.duplicate_ids() now refuses it.
+    o += M.detail_base(f, W, H, NEAR, clip="fr_roads")
 
     OXROAD = [(9.93, 57.05), (9.40, 56.45), (9.35, 56.10), (9.40, 55.72), (9.47, 55.49),
               (9.35, 55.20), (9.40, 54.90), (9.55, 54.51), (9.66, 54.30), (9.98, 53.55)]

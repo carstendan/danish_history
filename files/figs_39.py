@@ -59,20 +59,15 @@ GREY  = "#5F6157"
 W     = 700
 
 
-# MEASURED in this session by rendering 100 characters of each class through the
-# same CSS rasterise() injects: mapt 6.36, mapx 5.32, mapl 6.61 units a character.
-# mapspine.CHAR_W has mapt at 5.68, which cannot be right on any machine - mapt is
-# 9.5px against mapx's 8.5px with the same letter-spacing, so it must be about a
-# ninth wider - and figure 2's first draft ran off the canvas with every guard
-# clean. mapspine is NOT changed here, because every fold() in figs_37 and figs_38
-# would re-wrap and their figures would stop regenerating byte-identical; that is a
-# ledger decision (HANDOFF 105). This script folds at the larger of the two.
-MEASURED = {"mapt": 6.36, "mapx": 5.32, "mapl": 6.61}
-CW = {k: max(M.CHAR_W[k], MEASURED[k]) for k in M.CHAR_W}
+# CW is mapspine.CHAR_W (review session 18, HANDOFF 105 closed, D-19). This script folded
+# at max(CHAR_W, MEASURED), MEASURED being a raster of rasterise()'s CSS (mapt 6.36),
+# while the table was known short. The table is now measured in the page, in Chromium
+# on Linux and on the Mac, and the raster's mapt is wider than any page draws it.
+CW = M.CHAR_W
 
 
 def fold(text, cls, x, avail):
-    """Wrap to the width that fits, at the larger of measured and table width."""
+    """Wrap to the width that fits, at mapspine.CHAR_W (measured in the page)."""
     room = int((avail - x - 6) / CW[cls])
     out, line = [], ""
     for word in text.split():

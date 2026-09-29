@@ -69,8 +69,8 @@ FIGURE 3 · The People's Strike, 22 June - 5 July 1944.
   over the whole strike. The 1 July pair is single-source and the figure's note
   says so.
 
-D-11 THROUGHOUT: text colour is set with style=, never fill=. Item 105: CHAR_W is
-under-measured and mapspine is NOT changed here; fold() and stack() are copied
+D-11 THROUGHOUT: text colour is set with style=, never fill=. Widths are mapspine.CHAR_W,
+measured in the page (review session 18); fold() and stack() are copied
 from figs_41.py, which took them from figs_40.py and figs_39.py.
 """
 
@@ -87,15 +87,15 @@ W     = 700
 SWATCH = 14
 
 
-# Item 105. mapspine.CHAR_W under-states mapt by about a tenth. mapspine is NOT
-# changed here - that is the ledger decision in HANDOFF 105 - so this folds at the
-# larger of the measured and table widths, exactly as figs_39 to figs_41 do.
-MEASURED = {"mapt": 6.36, "mapx": 5.32, "mapl": 6.61}
-CW = {k: max(M.CHAR_W[k], MEASURED[k]) for k in M.CHAR_W}
+# CW is mapspine.CHAR_W (review session 18, HANDOFF 105 closed, D-19). This script folded
+# at max(CHAR_W, MEASURED), MEASURED being a raster of rasterise()'s CSS (mapt 6.36),
+# while the table was known short. The table is now measured in the page, in Chromium
+# on Linux and on the Mac, and the raster's mapt is wider than any page draws it.
+CW = M.CHAR_W
 
 
 def fold(text, cls, x, avail):
-    """Wrap to the width that fits, at the larger of measured and table width."""
+    """Wrap to the width that fits, at mapspine.CHAR_W (measured in the page)."""
     room = int((avail - x - 6) / CW[cls])
     out, line = [], ""
     for word in text.split():

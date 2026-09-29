@@ -2570,6 +2570,10 @@ split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see it
    the table in one session that regenerates and re-inspects every affected figure
    at once, and measure in the Mac's environment too, since the fonts differ.
 
+   **CLOSED, item 156 (review session 18), D-19.** Carsten agreed; `CHAR_W` is now measured in
+   the page, on Linux Chromium and on his Mac: mapt 6.10, mapx 5.46, mapl 6.95. The max()
+   workaround is gone from figs_39-44 and fig_titles. 21 figures changed, each read in its page.
+
 106. **Chapter 39 is shipped.** 10 sections, 3 vignettes, 2 Meanwhile, 3 figures,
    9 glossary blocks, 3 checkpoints, 5 summary items, 12 questions.
    **7,455 page words and 36 minutes** on `bookstats.py` after linking
@@ -5207,6 +5211,70 @@ split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see it
    measurement found six shipped faults. And a constant is a claim like a count: CHAR_W was
    "measured, not assumed" - in a raster, not in the page - and a caption shipped cut under it.
    *Measure in the thing the reader sees.*
+
+---
+
+156. **The consistency review, session 18: the width the page draws, the titles nobody sized,
+   and a map the page never drew.**
+   29 September 2026. Full record in `REVIEW-CONSISTENCY.md` §22.
+
+   **Cold run on a fresh clone of `c9b6665`: every line matched START_HERE_review_18**, and
+   item 155's commit carries its six pages, `svg_invasions.txt` and every source listed. State
+   lived in `claude/session18_state.md` and `claude/session18_wip.patch`.
+
+   **THE WIDTH (item 105, closed; D-19).** Carsten agreed at the start. `mapspine.CHAR_W` is
+   mapt 6.10, mapx 5.46, mapl 6.95: measured in the page on Carsten's Mac (the Claude desktop
+   app's Chromium, the page's own `--mono` stack; 0.602 em) and on Linux Chromium (6.07, 5.43,
+   6.92; 0.600 em), the wider kept. **The max(CHAR_W, MEASURED) workaround goes** from
+   figs_39-44 and fig_titles: MEASURED was a raster (mapt 6.36), wider than any page draws, and
+   one table measured in the page leaves nothing for it to correct. figs_24-31's own overruns()
+   (one number for every class, 5.55 or 6.1) now use mapspine's measure. **21 figures changed**
+   (16's titles; 38-45: 20), every one looked at in its page before and after. The reading found
+   two faults the old widths had hidden, both fixed: figs_40's name column never counted its
+   text's 12-unit offset (the gap fell to ten units), and figs_44's two-ballots measured the
+   shorter row label ("the constitution" began six units from the edge). And one the new widths
+   made, which the reading missed and check 1 found: Bornholm's end label, now measured
+   narrower, ended under the 4 March tick (figs_43; it ends clear of it again, as it shipped).
+   **At the new widths the guards list two captions,** both read and fixed in the bodies: 02's
+   third map caption ran 2.6 units past the canvas in the page (all three captions are two lines
+   now, and the second no longer touches the third, item 155's near miss) and 11's 1066 caption
+   ended 9 units from the edge (two lines, below the map).
+
+   **THE TITLES.** `text_items()` reads a font-size in `style` or as an attribute: a serif text
+   by `SERIF_EM` (per em: capitals .70, digits .56, other .52), rounded up from the page on both
+   machines, so all 29 are over-estimated, none under (1-26 per cent against the Mac, 12-40
+   against Linux); any other at its class's advance scaled. No guard's report changed; planted,
+   a title pushed past the edge and a label under a title's descenders: old silent, new both.
+
+   **FOUND BY MEASURING THE PAGE, NOT THE FILES.** A new measure (every text moved to the end of
+   its `<svg>`, the pixels compared inside each text's box) lists anything painted over a text.
+   On the shipped book: **page 18's roads map never drew its bottom hundred units** - Hamborg,
+   Lübeck, the end of the ox road - because both figs_17 maps took `detail_base()`'s clip id
+   "fr" and the page gave the second the Sound's 600-high clip. Fixed (`clip="fr_roads"`); a new
+   guard, **`pageguard.duplicate_ids()`**, called from `nesting()`, makes every part build refuse
+   a page with an id given twice (planted: the shipped page 18, NOT WRITTEN; no other page has
+   one). And page 45's 1936 leader ran through "a quarter": drawn after the caption, over its
+   halo; now drawn under (D-18 says so now).
+
+   **THE NEAR MISSES (item 155).** 08's bands start ten units lower (878 Edington and 808 Hedeby
+   clear them); 30's papers figure put the gap after a line by what that line was, so every
+   wrapped line sat 20 below its own bullet and 14 above the next - now the reverse; 02, above.
+
+   **CHECKED THREE TIMES** (§22.6), each by an agent that had not seen the work: check 1, every
+   hunk and every changed figure in its page - the Bornholm tick, a regex that took sans-serif for
+   serif, five wrong or dangling claims, all taken but the roads legend, which now sits on the map
+   (read, haloed, recorded); check 2, the changes and every claim in the records - a wrong serif
+   range, the Bornholm sentence, the tick's drawing order, nits; check 3, those - no fault in
+   them (it found Part I's pages in the working clone left unlinked after a build; linked again).
+
+   **VERIFIED** after the last edit (§22.7). Pages that change: **02, 08, 11, 16, 18, 30, 38, 39,
+   40, 41, 42, 43, 44, 45.** The index does not change.
+
+   **LESSON.** Each figure file was fine alone; the fault was in the page, where two of them met.
+   A guard that reads the sources checks what was written; only the page shows what was drawn.
+   And a workaround outlives the fault it worked around: max() kept a second raster's width in
+   seven scripts after the table it corrected was right. *Measure the page; then delete what the
+   measurement makes unnecessary.*
 
 ---
 

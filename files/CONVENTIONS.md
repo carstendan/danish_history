@@ -465,7 +465,9 @@ straddle land and sea. Text set on a solid ground takes no halo: the light fills
 (a CSS attribute selector matches the spelling; a `fill=` attribute loses to the class, D-11). A
 thick line (a route, an attack line, a heavy border) or a marker through a label is not fixed by
 the halo: the label is moved. A new light text colour goes into `HALO_EXEMPT` and `style.css`
-together.
+together. *Under* means drawn before: a line drawn after a label crosses it whatever its width
+(page 45's 1936 leader through "a quarter", review session 18), so a leader or tick near a label
+is drawn before the label.
 
 **Reason.** Review session 16 read all 220 texts `linecheck.py` listed in 31 figures: about 214
 had a coast, border or route through them, because labels were placed at a point whatever lay under
@@ -479,6 +481,34 @@ light `fill=` attribute. An aid to looking, wired into no build; the text guards
 measure with (overruns, overflows, collisions) run in every build since session 17.
 
 **Defined.** Here; `HANDOFF.md` item 154; `REVIEW-CONSISTENCY.md` §20.
+
+---
+
+### D-19 · Figure text is measured in the page — in force
+
+**Rule.** The text widths and heights the figure guards use, and every `fold()` that wraps to a
+width (figs_38 to 44, fig_titles; figs_35 to 37 fold to a character count, which the guards check),
+come from the page as a browser draws it, on the machine the reader uses, never from a raster and
+never by eye. `mapspine.CHAR_W` is the page's monospace advance plus each class's letter-spacing,
+the wider of Chromium on Linux and the Claude desktop app on Carsten's Mac: **mapt 6.10, mapx 5.46,
+mapl 6.95** (Linux 6.07, 5.43, 6.92). A text with its own font-size is measured at that size, the
+serif by `mapspine.SERIF_EM` (per em, rounded up from the page on both machines). No script keeps a
+width table of its own. If `style.css` changes a font-size, a letter-spacing or the `--mono` stack,
+the values are measured again in the page and every figure script re-run and read.
+
+**Reason.** The table was "measured, not assumed" - in `rasterise()`'s raster, where mapt came out
+six per cent narrower than the page draws it, and page 23's caption shipped cut with every guard
+passing (review session 17). Seven scripts folded at the larger of the table and a second
+raster measure, and eight (figs_24 to 31) checked their text at one number of their own for every
+class, so the book measured one class four ways and never the page's. Carsten agreed the page values on 29
+September 2026 (HANDOFF 105, closed).
+
+**Guard.** The text guards (`overruns`, `overflows`, `collisions`) and `linecheck.py` read
+`text_items()`, which reads `CHAR_W`, `SERIF_EM` and a text's own font-size; they run in every
+figure script and, through `pageguard.figure_text()`, in the A-D builds. The values themselves are
+checked only by measuring the page again (`REVIEW-CONSISTENCY.md` §22 says how).
+
+**Defined.** Here; `HANDOFF.md` items 105 and 156; `REVIEW-CONSISTENCY.md` §22.
 
 ---
 

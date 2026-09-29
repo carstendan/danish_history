@@ -68,17 +68,15 @@ GREY  = "#5F6157"
 W     = 700
 
 
-# Item 105. mapspine.CHAR_W under-states mapt by about a tenth and figure 2 of
-# chapter 39 ran off the canvas with every guard clean. mapspine is NOT changed
-# here - that is the ledger decision in HANDOFF 105, and changing it would re-wrap
-# every shipped figure in figs_37 and figs_38. This folds at the larger of the
-# measured and table widths, exactly as figs_39 does.
-MEASURED = {"mapt": 6.36, "mapx": 5.32, "mapl": 6.61}
-CW = {k: max(M.CHAR_W[k], MEASURED[k]) for k in M.CHAR_W}
+# CW is mapspine.CHAR_W (review session 18, HANDOFF 105 closed, D-19). This script folded
+# at max(CHAR_W, MEASURED), MEASURED being a raster of rasterise()'s CSS (mapt 6.36),
+# while the table was known short. The table is now measured in the page, in Chromium
+# on Linux and on the Mac, and the raster's mapt is wider than any page draws it.
+CW = M.CHAR_W
 
 
 def fold(text, cls, x, avail):
-    """Wrap to the width that fits, at the larger of measured and table width."""
+    """Wrap to the width that fits, at mapspine.CHAR_W (measured in the page)."""
     room = int((avail - x - 6) / CW[cls])
     out, line = [], ""
     for word in text.split():
@@ -125,7 +123,10 @@ def deal():
     names = ["%s · %d" % (p, s) for p, s, _, _, _, _ in DEAL]
     namew = max(len(x) * CW["mapt"] for x in names)
     nx = 14
-    cx = int(nx + namew + 22)
+    # the name is drawn at nx + 12, right of its bar (below), and that 12 was not counted:
+    # at the raster's mapt 6.36 the over-estimate hid it; at the page's 6.10 the gap shrank
+    # to ten units (review session 18). Counted now, with a 16-unit gap.
+    cx = int(nx + 12 + namew + 16)
     colw = (W - cx - 14) // 3
     assert colw > 120, colw
 

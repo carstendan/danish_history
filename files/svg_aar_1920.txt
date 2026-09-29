@@ -40,6 +40,6 @@
   <circle cx="124" cy="422.0" r="4.2" fill="#8C5A3C"/>
   <text x="114" y="426.0" class="mapx" text-anchor="end" fill="#2A2A28">21 Sep</text>
   <text x="150" y="426.0" class="mapt" fill="#8C5A3C">ELECTION THREE — because the new Rigsdag had to include the new land.</text>
-  <text x="14" y="460" class="mapx">On 21 September the Folketing took in members from the north, which is what the whole year had been about: the new land</text>
-  <text x="14" y="473" class="mapx">had to be able to send people to the parliament that now governed it.</text>
+  <text x="14" y="460" class="mapx">On 21 September the Folketing took in members from the north, which is what the whole year had been about: the new land had</text>
+  <text x="14" y="473" class="mapx">to be able to send people to the parliament that now governed it.</text>
   </svg>

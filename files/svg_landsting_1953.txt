@@ -3,6 +3,7 @@
   <text x="14" y="24" class="mapl">THE LANDSTING, 1849 - 1953: WHO CHOSE IT</text>
   <text x="14" y="40" class="mapt">three franchise regimes on one axis, spans computed from the dates</text>
   <text x="14" y="62" class="mapx" opacity=".75">Each reform answered the objection and removed a reason to exist.</text>
+  <line x1="572.1" y1="146" x2="572.1" y2="196.0" stroke="#2A2A28" stroke-width=".7" opacity=".6"/>
   <rect x="16.0" y="112" width="110.1" height="30" fill="#8C5A3C" opacity=".85"/>
   <text x="16.0" y="104" class="mapt" style="fill:#2A2A28">1849</text>
   <text x="16.0" y="157" class="mapx" opacity=".85">electors, from men</text>
@@ -18,10 +19,9 @@
   <text x="439.9" y="169" class="mapx" opacity=".85">outgoing chamber</text>
   <text x="684.0" y="104" class="mapt" text-anchor="end" style="fill:#2A2A28">1953</text>
   <line x1="572.1" y1="108" x2="572.1" y2="146" stroke="#2A2A28" stroke-width="1.2"/>
-  <line x1="572.1" y1="146" x2="572.1" y2="196.0" stroke="#2A2A28" stroke-width=".7" opacity=".6"/>
-  <text x="449.5" y="205" class="mapx" style="fill:#2A2A28">1936: its majority matches the Folketing's</text>
-  <text x="353.8" y="219" class="mapx" style="fill:#2A2A28">13 May 1953: votes to abolish itself; last sits on the 15th</text>
+  <text x="456.7" y="205" class="mapx" style="fill:#2A2A28">1936: its majority matches the Folketing's</text>
+  <text x="363.9" y="219" class="mapx" style="fill:#2A2A28">13 May 1953: votes to abolish itself; last sits on the 15th</text>
   <text x="14" y="243" class="mapx" opacity=".85">Days on one axis, every span computed from its two dates. The chamber existed 37,985 days - 104.0 years - from the</text>
-  <text x="14" y="256" class="mapx" opacity=".85">constitution of 5 June 1849 to that of 5 June 1953. It voted for its own abolition on 13 May 1953 and sat for the last</text>
-  <text x="14" y="269" class="mapx" opacity=".85">time on the 15th, three weeks before the end of the bar.</text>
+  <text x="14" y="256" class="mapx" opacity=".85">constitution of 5 June 1849 to that of 5 June 1953. It voted for its own abolition on 13 May 1953 and sat for the last time</text>
+  <text x="14" y="269" class="mapx" opacity=".85">on the 15th, three weeks before the end of the bar.</text>
   </svg>

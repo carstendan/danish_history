@@ -372,4 +372,21 @@ def nesting(h):
     p.feed(h)
     p.close()
     problems += ['<%s> (line %d) never closed' % (t, l) for t, l in stack]
-    return problems
+    return problems + duplicate_ids(h)
+
+
+def duplicate_ids(h):
+    """An id given twice in one page. A browser resolves url(#x), href="#x" and every
+    anchor to the FIRST element with that id, so the second is silently someone else's.
+
+    Review session 18 found page 18 shipped with two <clipPath id="fr">: figs_17's Sound
+    map (600 high) and its roads map (700 high) both took mapspine.detail_base()'s default
+    clip id, and the roads map was clipped by the Sound's rectangle - its bottom hundred
+    units, with Hamborg, Luebeck and the end of the ox road, were never drawn. Every guard
+    passed: each figure file is fine alone, and nothing looked at two in one page. Found by
+    measuring the page (what is painted over each text), not the files. Called from
+    nesting(), so every part build refuses such a page."""
+    import collections
+    seen = collections.Counter(re.findall(r'(?<![\w-])id="([^"]+)"', h))
+    return ['id="%s" given %d times in the page (url(#%s) and #%s reach only the first)'
+            % (k, n, k, k) for k, n in sorted(seen.items()) if n > 1]

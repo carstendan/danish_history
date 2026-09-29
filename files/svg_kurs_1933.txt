@@ -30,7 +30,7 @@
   <text x="157.5" y="98" class="mapt" text-anchor="start" style="fill:#2F4C7A">before: 19.20 – 20.00</text>
   <text x="397.5" y="84" class="mapt" text-anchor="middle" style="fill:#9A3B2E">agreed 30 Jan: 22.50</text>
   <text x="585.0" y="90" class="mapt" text-anchor="end" style="fill:#8C5A3C">the farms asked 25</text>
-  <text x="14" y="190" class="mapx">How big a devaluation that is depends on which currency you put underneath. Measured as the krone's fall it is 11.1 to</text>
-  <text x="14" y="203" class="mapx">14.7 per cent; measured as sterling's rise it is 12.5 to 17.2. The encyclopedias say ten per cent and Nissen says twelve</text>
-  <text x="14" y="216" class="mapx">to thirteen, and neither matches the rates all of them print. The figure gives the rates.</text>
+  <text x="14" y="190" class="mapx">How big a devaluation that is depends on which currency you put underneath. Measured as the krone's fall it is 11.1 to 14.7</text>
+  <text x="14" y="203" class="mapx">per cent; measured as sterling's rise it is 12.5 to 17.2. The encyclopedias say ten per cent and Nissen says twelve to</text>
+  <text x="14" y="216" class="mapx">thirteen, and neither matches the rates all of them print. The figure gives the rates.</text>
   </svg>

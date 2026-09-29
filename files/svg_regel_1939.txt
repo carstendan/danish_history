@@ -11,7 +11,7 @@
   <text x="20.0" y="150" class="mapt" style="fill:#F4F1EA">YES 44.5%</text>
   <text x="345.2" y="150" class="mapt" style="fill:#2A2A28">DID NOT VOTE YES OR NO 51.6%</text>
   <text x="326.1" y="198" class="mapx" text-anchor="middle">NO 3.9%</text>
-  <text x="14" y="224" class="mapx">The open segment is everyone who did not vote yes or no: about 51.1 per cent of the electorate stayed away and about 0.5</text>
-  <text x="14" y="237" class="mapx">per cent cast a blank or spoiled ballot. Shares of the electorate from the Interior Ministry's referendum tables and</text>
-  <text x="14" y="250" class="mapx">from lex.dk, which agree; the threshold from the constitution.</text>
+  <text x="14" y="224" class="mapx">The open segment is everyone who did not vote yes or no: about 51.1 per cent of the electorate stayed away and about 0.5 per</text>
+  <text x="14" y="237" class="mapx">cent cast a blank or spoiled ballot. Shares of the electorate from the Interior Ministry's referendum tables and from</text>
+  <text x="14" y="250" class="mapx">lex.dk, which agree; the threshold from the constitution.</text>
   </svg>

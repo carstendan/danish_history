@@ -3,17 +3,17 @@
   <text x="14" y="24" class="mapl">1939 AND 1953 AGAINST THE FORTY-FIVE PER CENT FLOOR</text>
   <text x="14" y="40" class="mapt">yes, no and those who did not vote, as shares of the whole electorate</text>
   <text x="14" y="62" class="mapx" opacity=".75">The more popular proposal is the one that failed.</text>
-  <line x1="338.6" y1="86" x2="338.6" y2="222.0" stroke="#2A2A28" stroke-width="1.4" stroke-dasharray="4 3"/>
-  <text x="344.6" y="82" class="mapt" style="fill:#2A2A28">45% floor</text>
+  <line x1="338.5" y1="86" x2="338.5" y2="222.0" stroke="#2A2A28" stroke-width="1.4" stroke-dasharray="4 3"/>
+  <text x="344.5" y="82" class="mapt" style="fill:#2A2A28">45% floor</text>
   <text x="14" y="132.0" class="mapl" style="fill:#2A2A28">1953</text>
-  <rect x="55.9" y="108.0" width="287.4" height="34" fill="#2E6B5E" opacity=".88"/>
+  <rect x="55.8" y="108.0" width="287.5" height="34" fill="#2E6B5E" opacity=".88"/>
   <rect x="343.3" y="108.0" width="77.5" height="34" fill="#9A3B2E" opacity=".80"/>
-  <rect x="420.9" y="108.0" width="263.1" height="34" fill="#5F6157" opacity=".28"/>
-  <text x="55.9" y="156.0" class="mapx" style="fill:#2A2A28">yes 1,183,292 = 45.76% of the electorate</text>
-  <text x="645.8" y="156.0" class="mapt" style="fill:#2E6B5E">PASSED</text>
+  <rect x="420.8" y="108.0" width="263.2" height="34" fill="#5F6157" opacity=".28"/>
+  <text x="55.8" y="156.0" class="mapx" style="fill:#2A2A28">yes 1,183,292 = 45.76% of the electorate</text>
+  <text x="647.4" y="156.0" class="mapt" style="fill:#2E6B5E">PASSED</text>
   <text x="14" y="206.0" class="mapl" style="fill:#2A2A28">1939</text>
-  <rect x="55.9" y="182.0" width="279.2" height="34" fill="#2E6B5E" opacity=".88"/>
-  <rect x="335.2" y="182.0" width="24.8" height="34" fill="#9A3B2E" opacity=".80"/>
+  <rect x="55.8" y="182.0" width="279.3" height="34" fill="#2E6B5E" opacity=".88"/>
+  <rect x="335.1" y="182.0" width="24.8" height="34" fill="#9A3B2E" opacity=".80"/>
   <rect x="359.9" y="182.0" width="324.1" height="34" fill="#5F6157" opacity=".28"/>
   <line x1="60" y1="216.0" x2="26" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
   <line x1="69" y1="216.0" x2="35" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
@@ -85,19 +85,19 @@
   <line x1="663" y1="216.0" x2="629" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
   <line x1="672" y1="216.0" x2="638" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
   <line x1="681" y1="216.0" x2="647" y2="182.0" stroke="#F4F1EA" stroke-width=".6" opacity=".5"/>
-  <text x="55.9" y="230.0" class="mapx" style="fill:#2A2A28">yes 966,277 = 44.46% of the electorate</text>
-  <text x="645.8" y="230.0" class="mapt" style="fill:#9A3B2E">FAILED</text>
+  <text x="55.8" y="230.0" class="mapx" style="fill:#2A2A28">yes 966,277 = 44.46% of the electorate</text>
+  <text x="647.4" y="230.0" class="mapt" style="fill:#9A3B2E">FAILED</text>
   <rect x="14.0" y="254.0" width="14" height="8" fill="#2E6B5E" opacity=".88"/>
   <text x="34.0" y="262.0" class="mapx" opacity=".9">yes</text>
-  <rect x="68.9" y="254.0" width="14" height="8" fill="#9A3B2E" opacity=".80"/>
-  <text x="88.9" y="262.0" class="mapx" opacity=".9">no</text>
-  <rect x="118.2" y="254.0" width="14" height="8" fill="#5F6157" opacity=".28"/>
-  <text x="138.2" y="262.0" class="mapx" opacity=".9">did not vote (counts as no)</text>
-  <rect x="308.2" y="254.0" width="14" height="8" fill="none" stroke="#2A2A28" stroke-width=".8" stroke-dasharray="2 2"/>
-  <text x="328.2" y="262.0" class="mapx" opacity=".9">electorate derived, not counted</text>
+  <rect x="68.4" y="254.0" width="14" height="8" fill="#9A3B2E" opacity=".80"/>
+  <text x="88.4" y="262.0" class="mapx" opacity=".9">no</text>
+  <rect x="117.3" y="254.0" width="14" height="8" fill="#5F6157" opacity=".28"/>
+  <text x="137.3" y="262.0" class="mapx" opacity=".9">did not vote (counts as no)</text>
+  <rect x="302.7" y="254.0" width="14" height="8" fill="none" stroke="#2A2A28" stroke-width=".8" stroke-dasharray="2 2"/>
+  <text x="322.7" y="262.0" class="mapx" opacity=".9">electorate derived, not counted</text>
   <text x="14" y="286" class="mapx" opacity=".85">Each bar is the WHOLE ELECTORATE, not the votes cast, because that is the denominator the rule used. The floor is 45 per</text>
   <text x="14" y="299" class="mapx" opacity=".85">cent of it. In 1939 the yes vote was 91.85 per cent of those who voted and the revision FAILED; in 1953 it was 78.76 per</text>
-  <text x="14" y="312" class="mapx" opacity=".85">cent and it PASSED. The difference is the third block - the people who did not vote - which a threshold on the</text>
-  <text x="14" y="325" class="mapx" opacity=".85">electorate counts as a no - 1,083,373 of them in 1953 alone. 1953 cleared the line by 19,682 votes. The 1939 electorate</text>
-  <text x="14" y="338" class="mapx" opacity=".85">is DERIVED from its published 44.46 per cent and is drawn hatched; every other quantity here is counted.</text>
+  <text x="14" y="312" class="mapx" opacity=".85">cent and it PASSED. The difference is the third block - the people who did not vote - which a threshold on the electorate</text>
+  <text x="14" y="325" class="mapx" opacity=".85">counts as a no - 1,083,373 of them in 1953 alone. 1953 cleared the line by 19,682 votes. The 1939 electorate is DERIVED from</text>
+  <text x="14" y="338" class="mapx" opacity=".85">its published 44.46 per cent and is drawn hatched; every other quantity here is counted.</text>
   </svg>

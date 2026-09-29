@@ -6,15 +6,15 @@
   <text x="26" y="92" class="mapx" fill="#2F4C7A">RECORDED</text>
   <circle cx="32" cy="112" r="2.6" fill="#2F4C7A"/>
   <text x="44" y="116" class="mapt">Espen Kønig, captain — died at Christiansborg</text>
-  <text x="44" y="136" class="mapt">15 December 1767, before the crossing</text>
+  <text x="44" y="130" class="mapt">15 December 1767, before the crossing</text>
   <circle cx="32" cy="146" r="2.6" fill="#2F4C7A"/>
   <text x="44" y="150" class="mapt">Johan Frantzen Ferentz, first mate, then captain</text>
   <circle cx="32" cy="166" r="2.6" fill="#2F4C7A"/>
   <text x="44" y="170" class="mapt">Christian Runge, of Arendal, sailor, then</text>
-  <text x="44" y="190" class="mapt">third mate and steward</text>
+  <text x="44" y="184" class="mapt">third mate and steward</text>
   <circle cx="32" cy="200" r="2.6" fill="#2F4C7A"/>
   <text x="44" y="204" class="mapt">the carpenters, nearly all of whom died</text>
-  <text x="44" y="224" class="mapt">on the Gold Coast</text>
+  <text x="44" y="218" class="mapt">on the Gold Coast</text>
   <circle cx="32" cy="234" r="2.6" fill="#2F4C7A"/>
   <text x="44" y="238" class="mapt">the rest of the forty who sailed, by name</text>
   <circle cx="32" cy="254" r="2.6" fill="#2F4C7A"/>
@@ -23,9 +23,9 @@
   <text x="44" y="278" class="mapt">the cargo, itemised</text>
   <circle cx="32" cy="294" r="2.6" fill="#2F4C7A"/>
   <text x="44" y="298" class="mapt">the dates: Copenhagen, late June 1767; the Gold</text>
-  <text x="44" y="318" class="mapt">Coast 1 October; sailed 22 or 23 April 1768;</text>
-  <text x="44" y="332" class="mapt">St Croix 9 July; sailed for home in September;</text>
-  <text x="44" y="346" class="mapt">wrecked 1 December 1768</text>
+  <text x="44" y="312" class="mapt">Coast 1 October; sailed 22 or 23 April 1768;</text>
+  <text x="44" y="326" class="mapt">St Croix 9 July; sailed for home in September;</text>
+  <text x="44" y="340" class="mapt">wrecked 1 December 1768</text>
   <text x="382" y="92" class="mapx" fill="#5F6157">NOT RECORDED</text>
   <rect x="382" y="106" width="268" height="13" fill="#5F6157" opacity=".10"/>
   <text x="388" y="116" class="mapt" fill="#5F6157">the names of the people in the hold</text>

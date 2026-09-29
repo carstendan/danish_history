@@ -288,36 +288,45 @@ def validate(svg, name):
                          % (name, e.position[0], line))
 
 
-# Advance width per character, in user units, PER CLASS. Measured in Sept 2026 by
-# rendering a known string through rasterise() and reading the ink bounding box,
-# rather than assumed: mapt 5.68, mapx 5.63, mapl 6.98. The single constant 6.1
-# that stood here before was conservative for the two small classes and 13 per
-# cent TOO SMALL for mapl, so a long heading could run off the canvas without
-# being flagged. The values below carry roughly a tenth of slack above the
-# measurement, because a guard that under-estimates is worse than one that nags.
+# Advance width per character, in user units, PER CLASS - MEASURED IN THE PAGE (review
+# session 18, D-19; HANDOFF 105 closed). The reader sees the page, so the page is measured:
+#   Chromium on Linux, the figure texts of all 45 pages as shipped (the 2,773 of four or more
+#     characters in a map class; rendered width over length, the median per class): mapt 6.07, mapx
+#     5.43, mapl 6.92;
+#   the Claude desktop app's Chromium on Carsten's Mac, a mixed string through the page's
+#     own --mono stack at each class's size, spacing and weight: mapt 6.10, mapx 5.46,
+#     mapl 6.95.
+# Both are style.css's monospace advance (0.600 em for Liberation Mono on Linux, 0.602 for
+# the Mac's) plus the class's letter-spacing: 9.5 x (.6 + .04), 8.5 x (.6 + .04), 10.5 x
+# (.6 + .06). The table takes the WIDER machine, the Mac.
 #
-# If style.css changes a font-size or the --mono stack, re-measure. Do not adjust
-# these by eye.
-# THE MEASURED VALUES, with no percentage margin on top, because a percentage
-# margin on a per-character estimate compounds with line length: at 5.95 a
-# 149-character line in svg_titles.txt accumulated forty units of phantom
-# width and was reported as overrunning a canvas it fits inside. The cushion
-# belongs at the canvas edge instead, where it is a fixed six units and does
-# not grow with the sentence. Regression: the two-column collision in
-# figs_32.py still fires at these values, and it is the fault this exists for.
+# HISTORY. Until session 18 this was a raster's measure (rasterise()'s CSS, font-family
+# monospace): mapt 5.68, mapx 5.63, mapl 6.98 - mapt six per cent short of the page, and
+# page 23's invasions caption shipped cut at "both tim" with overruns() passing it (review
+# session 17). figs_39-44 and fig_titles folded at max(table, MEASURED), MEASURED another
+# raster (mapt 6.36); they read CHAR_W now. Applying the page values re-wrapped or
+# re-placed 21 figures, every one read in its page (REVIEW-CONSISTENCY section 22).
 #
-# MEASURED IN THE PAGE (review session 17), NOT APPLIED: HANDOFF item 105 is still Carsten's
-# decision, because every fold() that reads CHAR_W re-wraps (19 figures in Part I). In
-# Chromium, every figure text on all 45 pages as they stood (2,903; rendered width over
-# length, the median per class): mapt 6.07, mapx 5.43, mapl 6.92 - what style.css asks
-# for, a monospace advance of about 0.6 em plus the class's letter-spacing (9.5 x .64,
-# 8.5 x .64, 10.5 x .66). At the table's 5.68, about 6 per cent short, page 23's invasions
-# caption shipped cut at "both tim" and overruns() passed it (fixed in figs_23 by
-# wrapping). At the page values the guards list one more near miss, 02's third map
-# caption, which reads.
-CHAR_W = {'mapl': 6.98, 'mapt': 5.68, 'mapx': 5.63}
+# No percentage margin on top: a margin on a per-character width compounds with line
+# length (at 5.95 a 149-character line in svg_titles.txt gained forty units of phantom
+# width). The cushion is at the canvas edge instead, six units, fixed. If style.css changes
+# a font-size, a letter-spacing or the --mono stack, measure again in the page; never
+# adjust these by eye, and never from a raster.
+CHAR_W = {'mapl': 6.95, 'mapt': 6.10, 'mapx': 5.46}
 CHAR_H = {'mapl': 10.5, 'mapt': 9.5, 'mapx': 8.5}
 DEFAULT_W, DEFAULT_H = 6.3, 9.5
+# A TEXT THAT SETS ITS OWN font-size IN style (review session 18). Part D's serif titles and
+# four in Part E's scripts (29 texts, 15-34px, in the book's serif stack) were measured at
+# DEFAULT_W and DEFAULT_H: from 37 to 110 per cent of the width Linux draws (median 78), and
+# 9.5 high against 15 to 34. The serif is proportional, so a width per character is an
+# estimate: these are advances per em, measured in the page on both machines over all 29
+# (Carsten's Mac draws Iowan Old Style: 0.425-0.515 an em for words, 0.556 for "1050"; Linux
+# Chromium draws a fallback: 0.383-0.485 for words, 0.500 for the dates), rounded UP, with
+# capitals taken wider, as they are. At these values every one of the 29 is over-estimated,
+# none under: by 1 to 26 per cent of what the Mac draws, 12 to 40 of Linux's. Height is the
+# font-size itself (three quarters above the baseline, a quarter below, as for every text).
+SERIF_EM = {'upper': 0.70, 'digit': 0.56, 'other': 0.52}
+SERIF_FAMILY = re.compile(r"font-family\s*:[^;]*(?<![-\w])serif(?![-\w])", re.I)   # not sans-serif
 # --------------------------------------------------------------- contrast
 # Convention D-11 says a figure sets text colour with style=, never fill=,
 # because a stylesheet rule beats a presentation attribute and .mapt/.mapl/.mapx
@@ -415,8 +424,10 @@ def text_items(svg):
         unhaloed. Now the nearest <g> that sets one is used, as the browser does.
     Also now: entities count as one character (&amp; drew as "&" and was measured as five),
     and whitespace is collapsed as SVG draws it (a leading space takes no room).
-    Still not read: a font-size set in style (Part D's serif titles, 15-34px, are measured
-    at the default size); on a <g>, any transform but one translate(); on a <text>, anything
+    A font-size of its own, in style= or as an attribute, is read (review session 18): a
+    serif text by SERIF_EM, any other at its class's advance scaled to the size.
+    Still not read: a font-size or font-family on a <g> or a <tspan>, or in em or %; a
+    letter-spacing in style; on a <g>, any transform but one translate(); on a <text>, anything
     but ONE rotate() or ONE translate() - "translate(5,5) rotate(-30)" is measured flat; dx
     and dy; a <tspan> with its own x or y (none of these is in the book, review session 17).
     A class with more than one name, say class="big mapl", is SIZED by its first map class,
@@ -474,6 +485,18 @@ def text_items(svg):
         cw = CHAR_W.get(cls, DEFAULT_W)
         ch = CHAR_H.get(cls, DEFAULT_H)
         w = len(txt) * cw
+        style = _attr(attrs, 'style') or ''
+        fs = (re.search(r'(?<![\w-])font-size\s*:\s*([\d.]+)px', style)
+              or re.fullmatch(r'\s*([\d.]+)(?:px)?\s*', _attr(attrs, 'font-size') or ''))
+        if fs:                                   # a size of its own (see SERIF_EM)
+            size = float(fs.group(1))
+            if SERIF_FAMILY.search(style) and not re.search(r'monospace|mono\b', style, re.I):
+                w = size * sum(SERIF_EM['upper'] if c.isupper() else
+                               SERIF_EM['digit'] if c.isdigit() else SERIF_EM['other']
+                               for c in txt)
+            else:                                # the class's font, at another size
+                w = len(txt) * cw * size / ch
+            ch = size
         anchor = _attr(attrs, 'text-anchor') or ganchor or 'start'
         if anchor == 'end':
             x0, x1 = x - w, x

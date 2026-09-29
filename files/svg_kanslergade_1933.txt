@@ -3,42 +3,42 @@
   <text x="14" y="24" class="mapl">WHAT WAS IN KANSLERGADE, 29 – 30 JANUARY 1933</text>
   <text x="14" y="40" class="mapt">eleven people in a flat on Østerbro: ten politicians and Augusta Erichsen</text>
   <text x="14" y="62" class="mapx" opacity=".75">Seats are the Folketing after the election of 16 November 1932. The Conservatives were not invited.</text>
-  <text x="169" y="84" class="mapx" opacity=".75">CAME WANTING</text>
-  <text x="341" y="84" class="mapx" opacity=".75">SIGNED FOR</text>
-  <text x="513" y="84" class="mapx" opacity=".75">AND GAVE UP</text>
+  <text x="170" y="84" class="mapx" opacity=".75">CAME WANTING</text>
+  <text x="342" y="84" class="mapx" opacity=".75">SIGNED FOR</text>
+  <text x="514" y="84" class="mapx" opacity=".75">AND GAVE UP</text>
   <line x1="14" y1="90" x2="686" y2="90" stroke="#5F6157" stroke-width=".6" opacity=".45"/>
   <rect x="14" y="94" width="4" height="45" fill="#2E6B5E"/>
   <text x="26" y="106" class="mapt">Social Democrats · 62</text>
-  <text x="169" y="106" class="mapx">No lockout on 1 February.</text>
-  <text x="169" y="119" class="mapx">The social reform, written</text>
-  <text x="169" y="132" class="mapx">in 1920 and waiting.</text>
-  <text x="341" y="106" class="mapx">The lockout called off. Four</text>
-  <text x="341" y="119" class="mapx">social laws, in force 1</text>
-  <text x="341" y="132" class="mapx">October 1933.</text>
-  <text x="513" y="106" class="mapx">Legislated the right to</text>
-  <text x="513" y="119" class="mapx">strike away for a year.</text>
+  <text x="170" y="106" class="mapx">No lockout on 1 February.</text>
+  <text x="170" y="119" class="mapx">The social reform, written</text>
+  <text x="170" y="132" class="mapx">in 1920 and waiting.</text>
+  <text x="342" y="106" class="mapx">The lockout called off. Four</text>
+  <text x="342" y="119" class="mapx">social laws, in force 1</text>
+  <text x="342" y="132" class="mapx">October 1933.</text>
+  <text x="514" y="106" class="mapx">Legislated the right to</text>
+  <text x="514" y="119" class="mapx">strike away for a year.</text>
   <rect x="14" y="165" width="4" height="58" fill="#8C5A3C"/>
   <text x="26" y="177" class="mapt">Venstre · 38</text>
-  <text x="169" y="177" class="mapx">A cheaper krone for the</text>
-  <text x="169" y="190" class="mapx">export farms. Relief on farm</text>
-  <text x="169" y="203" class="mapx">debt.</text>
-  <text x="341" y="177" class="mapx">22.50 kroner to the pound.</text>
-  <text x="341" y="190" class="mapx">Debts refinanced, property</text>
-  <text x="341" y="203" class="mapx">taxes cut.</text>
-  <text x="513" y="177" class="mapx">Let the largest expansion of</text>
-  <text x="513" y="190" class="mapx">public provision in Danish</text>
-  <text x="513" y="203" class="mapx">history through the</text>
-  <text x="513" y="216" class="mapx">Landsting by abstaining.</text>
+  <text x="170" y="177" class="mapx">A cheaper krone for the</text>
+  <text x="170" y="190" class="mapx">export farms. Relief on farm</text>
+  <text x="170" y="203" class="mapx">debt.</text>
+  <text x="342" y="177" class="mapx">22.50 kroner to the pound.</text>
+  <text x="342" y="190" class="mapx">Debts refinanced, property</text>
+  <text x="342" y="203" class="mapx">taxes cut.</text>
+  <text x="514" y="177" class="mapx">Let the largest expansion of</text>
+  <text x="514" y="190" class="mapx">public provision in Danish</text>
+  <text x="514" y="203" class="mapx">history through the</text>
+  <text x="514" y="216" class="mapx">Landsting by abstaining.</text>
   <rect x="14" y="249" width="4" height="45" fill="#2F4C7A"/>
   <text x="26" y="261" class="mapt">Radicals · 14</text>
-  <text x="169" y="261" class="mapx">No further depreciation: it</text>
-  <text x="169" y="274" class="mapx">would spoil the trade talks</text>
-  <text x="169" y="287" class="mapx">with Britain.</text>
-  <text x="341" y="261" class="mapx">A devaluation, and one</text>
-  <text x="341" y="274" class="mapx">smaller than the farmers had</text>
-  <text x="341" y="287" class="mapx">asked for.</text>
-  <text x="513" y="261" class="mapx">Gave up the currency policy</text>
-  <text x="513" y="274" class="mapx">its own foreign minister had</text>
-  <text x="513" y="287" class="mapx">argued for.</text>
+  <text x="170" y="261" class="mapx">No further depreciation: it</text>
+  <text x="170" y="274" class="mapx">would spoil the trade talks</text>
+  <text x="170" y="287" class="mapx">with Britain.</text>
+  <text x="342" y="261" class="mapx">A devaluation, and one</text>
+  <text x="342" y="274" class="mapx">smaller than the farmers had</text>
+  <text x="342" y="287" class="mapx">asked for.</text>
+  <text x="514" y="261" class="mapx">Gave up the currency policy</text>
+  <text x="514" y="274" class="mapx">its own foreign minister had</text>
+  <text x="514" y="287" class="mapx">argued for.</text>
   <text x="14" y="338" class="mapx" opacity=".8">Read each row from left to right: what the party came for, what it got, and what it paid for it.</text>
   </svg>

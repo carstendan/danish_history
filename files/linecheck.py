@@ -36,8 +36,8 @@ territories for reading, not for this check. Light-text spellings style.css woul
 exempt (fill:#f0f2ee, "fill: #F0F2EE", #FFF) and a light fill= attribute are reported.
 BLIND SPOTS. As for mapspine.text_items(), which this reads since review session 17 (a
 text with markup inside, a rotated text and a class or text-anchor set on a <g> are now
-measured; a rotated text is tested inside its own corners, not its box): a font-size set
-in style is not read (Part D's serif titles), and CHAR_W is the raster's (HANDOFF 105). A
+measured; a rotated text is tested inside its own corners, not its box; since review
+session 18 a font-size in style is read, and CHAR_W is measured in the page, D-19). A
 text whose class is not exactly one of mapt/mapl/mapx (say class="mapx big") takes the
 page's halo but is read here as unhaloed. Here: a small
 FILLED shape drawn as its own element - a closed-path arrowhead, a square marker - counts

@@ -29,19 +29,19 @@
   <line x1="75.2" y1="104" x2="321.8" y2="104" stroke="#2F4C7A" stroke-width=".9"/>
   <line x1="75.2" y1="104" x2="75.2" y2="110" stroke="#2F4C7A" stroke-width=".9"/>
   <line x1="321.8" y1="104" x2="321.8" y2="110" stroke="#2F4C7A" stroke-width=".9"/>
-  <text x="99.9" y="98" class="mapt" style="fill:#2F4C7A">the decision: 1 hour 45 minutes</text>
+  <text x="104.0" y="98" class="mapt" style="fill:#2F4C7A">the decision: 1 hour 45 minutes</text>
   <line x1="40.0" y1="82" x2="638.8" y2="82" stroke="#2A2A28" stroke-width=".9"/>
   <line x1="40.0" y1="82" x2="40.0" y2="88" stroke="#2A2A28" stroke-width=".9"/>
   <line x1="638.8" y1="82" x2="638.8" y2="88" stroke="#2A2A28" stroke-width=".9"/>
-  <text x="237.6" y="76" class="mapt" style="fill:#2A2A28">the fighting: 4 hours 15 minutes</text>
+  <text x="241.8" y="76" class="mapt" style="fill:#2A2A28">the fighting: 4 hours 15 minutes</text>
   <text x="12.0" y="190" class="mapx" style="fill:#9A3B2E">04.00  three border gendarmes shot at the Padborg viaduct</text>
   <text x="12.0" y="204" class="mapx" style="fill:#2A2A28">04.15  the border crossed at four points</text>
-  <text x="39.2" y="218" class="mapx" style="fill:#9A3B2E">04.50  Lundtoftbjerg: the first engagement</text>
-  <text x="141.5" y="232" class="mapx" style="fill:#2F4C7A">05.30  the king and the government meet</text>
-  <text x="231.7" y="246" class="mapx" style="fill:#2F4C7A">06.00  the German terms accepted</text>
-  <text x="468.4" y="190" class="mapx" style="fill:#2A2A28">08.15  the last firing stops, Haderslev</text>
-  <text x="14" y="278" class="mapx" opacity=".85">The fighting lasted 4 hours 15 minutes, from the shooting at the viaduct to the last rounds in Haderslev. The decision</text>
-  <text x="14" y="291" class="mapx" opacity=".85">took 1 hour 45 minutes of it, from the crossing of the border to the government's acceptance of the German terms.</text>
-  <text x="14" y="304" class="mapx" opacity=".85">Sixteen Danes were killed: thirteen soldiers and the three gendarmes. At 18.30 the same evening, 12 hours 30 minutes</text>
-  <text x="14" y="317" class="mapx" opacity=".85">after the terms were accepted, the BBC broadcast in Danish for the first time, and Denmark never banned listening to it.</text>
+  <text x="42.7" y="218" class="mapx" style="fill:#9A3B2E">04.50  Lundtoftbjerg: the first engagement</text>
+  <text x="144.9" y="232" class="mapx" style="fill:#2F4C7A">05.30  the king and the government meet</text>
+  <text x="234.4" y="246" class="mapx" style="fill:#2F4C7A">06.00  the German terms accepted</text>
+  <text x="475.1" y="190" class="mapx" style="fill:#2A2A28">08.15  the last firing stops, Haderslev</text>
+  <text x="14" y="278" class="mapx" opacity=".85">The fighting lasted 4 hours 15 minutes, from the shooting at the viaduct to the last rounds in Haderslev. The decision took</text>
+  <text x="14" y="291" class="mapx" opacity=".85">1 hour 45 minutes of it, from the crossing of the border to the government's acceptance of the German terms. Sixteen Danes</text>
+  <text x="14" y="304" class="mapx" opacity=".85">were killed: thirteen soldiers and the three gendarmes. At 18.30 the same evening, 12 hours 30 minutes after the terms were</text>
+  <text x="14" y="317" class="mapx" opacity=".85">accepted, the BBC broadcast in Danish for the first time, and Denmark never banned listening to it.</text>
   </svg>

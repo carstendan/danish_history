@@ -51,8 +51,8 @@ FIGURE 3 · South Schleswig: members, meals and votes, 1945-1954.
   Landtag vote 99,500 (1947) to 42,242 (1954). The periods are NOT the same
   length and the figure says so on every row rather than in a footnote.
 
-D-11 THROUGHOUT: text colour is set with style=, never fill=. Item 105: CHAR_W is
-under-measured and mapspine is NOT changed here; fold(), width(), stack() and
+D-11 THROUGHOUT: text colour is set with style=, never fill=. Widths are mapspine.CHAR_W,
+measured in the page (review session 18); fold(), width(), stack() and
 swatch_row() are copied from figs_42.py.
 """
 
@@ -71,8 +71,11 @@ GREY  = "#5F6157"
 W     = 700
 SWATCH = 14
 
-MEASURED = {"mapt": 6.36, "mapx": 5.32, "mapl": 6.61}
-CW = {k: max(M.CHAR_W[k], MEASURED[k]) for k in M.CHAR_W}
+# CW is mapspine.CHAR_W (review session 18, HANDOFF 105 closed, D-19). This script folded
+# at max(CHAR_W, MEASURED), MEASURED being a raster of rasterise()'s CSS (mapt 6.36),
+# while the table was known short. The table is now measured in the page, in Chromium
+# on Linux and on the Mac, and the raster's mapt is wider than any page draws it.
+CW = M.CHAR_W
 
 
 def fold(text, cls, x, avail):
@@ -314,6 +317,15 @@ def bornholm():
         tx = x0 + run * sc + 8
         if tx + tw > x1:
             tx = x0 + run * sc - 8 - tw
+        # CLEAR OF THE 4 MARCH TICK (check 1 of review session 18). Bornholm's label ends 8
+        # before its bar, and the note's tick (below) stands 8 before it too: at the page's
+        # width the tick came down onto the label's last "6" and read as marking 5 April.
+        # (At the raster's wider mapx the label had ended six units short of it.)
+        nx_ = x0 + note_d * sc
+        if k == 1 and tx < nx_ + 6 and tx + tw > nx_ - 6:
+            tx = nx_ - 8 - tw
+        if k == 1:
+            tick_at = len(o)       # the tick (below) is drawn here, under this label (D-18)
         o.append('<text x="%.1f" y="%.1f" class="mapx" style="fill:%s">%s</text>'
                  % (tx, y + bh + 14, INK, t))
         assert 14 <= tx and tx + tw <= W - 14, (t, tx, tw)
@@ -336,7 +348,7 @@ def bornholm():
     # the Danish note, on the lower bar
     nx = x0 + note_d * sc
     ny = top + gap
-    o.append('<line x1="%.1f" y1="%.1f" x2="%.1f" y2="%.1f" stroke="%s" '
+    o.insert(tick_at, '<line x1="%.1f" y1="%.1f" x2="%.1f" y2="%.1f" stroke="%s" '
              'stroke-width="1.2"/>' % (nx, ny - 6, nx, ny + bh + 6, INK))
     nt = "Denmark asks, 4 March 1946"
     ntw = width(nt, "mapt")
