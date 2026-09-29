@@ -3978,3 +3978,161 @@ Denmark had seen in a century" against the page's "He had no treasury"); 21 and 
 the top of the band; the five OVER (not for cutting, D-16); the maps' "Ditmarschen" - D-B's
 misspelling - still in the aria-labels of `svg_terr_1500`, `1600` and `1660` (pages 19, 21, 25),
 against D-15; Lindholmen named in Figure 2's key on 16, not on the map.
+
+## 21. Session 17 — the warnings nobody read, the texts nobody measured
+
+*29 September 2026, from `START_HERE_review_17.md`. State in `claude/session17_state.md` and
+`claude/session17_wip.patch`, saved after the cold run, after each task and after each check.*
+
+**The cold run matched every line** on a fresh clone of `74c977a`: tidy clean, 45 bodies; FIXTURE
+PASSES; SEAM LAYER PASSES; debuild 45 identical; 45 of 45, 352,732 page words, 28.0 h, every part as
+the brief; 21 is 50 minutes (10,559), 44 48, 45 50; vignettes 148/116, selftest passes; figcheck
+--regen 98/30/0 and the tree clean after it; five OVER as the brief, 32 §09 749, 13 §06 466;
+draftnotes clean in 45 and 14; appcheck 167 in 21; freshcheck 21; all seven builds as the brief, no
+`!!`, `--stub` refused in G; git clean after `linkindex` and `index_generator`; 2 pointers, 0
+same-page glosses; Schleswig 317 in 32, Slesvig 4 in 3; sweep_facts 2; arrows 254, 37 thread notes,
+form 7, 3b 11, solvency 38, the rest 0; linecheck 0 (3 on purpose), 01–11 0 (1 measured wrong),
+`--bare` 213; qs 0/224, Causal 0/168, Recall 0/198, 0 pairs. Item 154's commit carries its 45 pages,
+the twelve `svg_*.txt` and the eight bodies.
+
+### 21.1 The warnings
+
+- **Each of the 37 figure scripts run alone printed no `!` line** and nothing on stderr: 0, as the
+  brief said.
+- **`figcheck --regen`** lists every line a script prints that starts with `!`, and every stderr
+  line, under the script's `ok`; a script that exits non-zero counts too. It ends "the figure
+  scripts printed N warning lines" and exits 1 when N is not 0. Planted in a scratch copy: figs_17's
+  viewBox put back to `H` (the shipped fault) and a text over "BOTH SHORES, ONE HAND" - five
+  overflow lines and one collision reached the report, exit 1.
+- **Other places a tool's output was discarded, all fixed:** `pageguard.figures_fresh`, which the
+  E–I builds call, ran every script and kept only the exit code (now it prints the warnings, keeps
+  them in `pageguard.WARNINGS`, and SCRIPT FAILED carries the script's last line; `build_part_e/f`
+  read "Errno 2" as MISSING only in a STALE verdict, or a script's own FileNotFoundError read as a
+  missing figure). `freshcheck.check` (freshcheck, the pre-commit hook, the G–I builds) threw
+  mkbody's output away on success (now it prints `!` lines, stderr and a tag balance not ok, and
+  the CLI ends with a `!!` count). `sweep_facts` §3 skipped an impossible date in a try/except, and
+  only when a name stood beside it (now listed, anchored or not; a Julian 29 February before 1700
+  is allowed; 19–29 February 1700, which Denmark skipped, is listed). Planted, each.
+- **The builds' last lines.** Every part build now ends from `pageguard.summary()`: "all N built
+  clean" only when nothing failed or warned, else `!!` with the count. **`build_all.py`** looked only
+  at exit codes, so it ended "all parts built and verified" over a warned part - and **it listed
+  only Parts A–E**: twenty-five chapters were never built by it while it said so. Now it lists F–I
+  (the index's part names), streams each child unbuffered in UTF-8, notes a part whose last line
+  starts `!!`, and ends from the band, the warnings and the failures together.
+- Looked at, unchanged: `tidy` (runs nothing; a missing file reads as empty, and its own sections
+  report missing files), the four sweeps (run nothing), START_HERE's `| tail -N` (the count line
+  still changes).
+
+### 21.2 The texts
+
+The twenty were found as the brief said: five with markup inside in four files (catechism,
+herring, leding ×2, papers), thirteen rotated (twelve on 08's timeline, svg_cell's "6 paces"), two
+`<g>` anchors (06's three, 09's five texts). **Measured in Chromium** (every figure text on every
+page, the rendered box in the figure's own units, against `text_boxes()`), all twenty were grossly
+wrong or skipped; **read in their pages, all read and none is crossed.** A near miss: 08's "878
+Edington" clears the WINTERING & TRIBUTE band by about a pixel (a band is ground to linecheck).
+
+**`mapspine.text_items()`** replaces the parser under `text_boxes()`: markup stripped (every
+`<tspan>` in the book only changes the style); a `rotate(a cx cy)` or `translate()` on a text
+applied, the four corners kept; class and text-anchor taken from the nearest enclosing `<g>` that
+sets a map class or an anchor, as the page inherits them (a self-closed `<g/>` opens nothing);
+entities as one character; ASCII whitespace collapsed; every attribute matched by its whole name.
+`collisions()` tests two quads on their own axes when either is rotated; **`overflows()` tests the
+top edge**, within two units as the bottom. `linecheck.py` reads `text_items()` (the attributes a
+text inherits, so 01–03's, 06's and 09's group texts are read as haloed) and tests a rotated text
+inside its own corners. 06's "the great majority" is measured right and left `KNOWN_FALSE`.
+
+**Plants** (old code against new): a thick line through the `<tspan>` title of svg_leding, and a
+text over it - old nothing, new both; a thick line along 08's rotated "843 Verdun" - old nothing,
+new crossed; one in its flat box only - old crossed, new nothing; 08's timeline as shipped - old
+five false collisions, new none; a rotated text on Verdun - new collides; a line through "the
+great majority" where it is drawn - new crossed; one where the old box put it - new nothing (the
+old fired on both, reading the text as unhaloed). Across all 2,908 texts now in the book the new
+parser changes no guard's report but 08's five false collisions.
+
+Still not read, in the docstring: a font-size set in `style` (Part D's 29 serif titles, 15–34px,
+measured at the default), composite transforms, dx/dy, a `<tspan>` with its own position.
+
+### 21.3 Found shipped, and fixed
+
+The text guards run inside the figure scripts. **Parts A–C's thirty figures are written by hand in
+the bodies and Part D's twelve have no script: no guard had ever measured them.** Their first run,
+read in Chromium:
+
+- **02, figure 1:** "Vedbæk" ran off the third map's right edge. Now to the left of its dot.
+- **02, figure 2:** "Maglemose (Mullerup)" printed through "Tybrind Vig" and its marker. Now to the
+  right of its dot.
+- **03, figure 2:** the three grave captions ran into each other and "thousands" was cut off. Each
+  is two lines now.
+- **08, figure 2:** the Carolingian map's caption ran off the right edge. Two lines.
+- **10, figure 2:** both captions cut at the bottom. The viewBox is 340 high, not 330.
+- **06, figure 2:** the caption was not cut (its box ended at 318.6 of 320); the estimate fired,
+  and the viewBox grew four units so the build's guard is quiet.
+
+`pageguard.figure_text()` runs overruns, overflows and collisions over every figure in a built
+page; `build_parts_abc.py` and `build_part_d.py` print what it says and count it in their last
+line. Planted: 10's viewBox put back, a baltic text moved off the canvas - both reported.
+
+**Page 23's invasions caption was cut at "both tim".** The guards passed it because `CHAR_W`
+measures `.mapt` at 5.68 a character and the page draws 6.07. `figs_23` wraps the second sentence
+(three lines, the height computed from them).
+
+### 21.4 CHAR_W, measured in the page
+
+In Chromium, all 2,903 figure texts on the pages as they stood, rendered width over length, the
+median per class: **mapt 6.07, mapx 5.43, mapl 6.92** - exactly style.css's 0.6 em monospace advance
+plus each class's letter-spacing. The table (5.68, 5.63, 6.98) came from a raster. Applying the page
+values re-wraps 19 Part I figures (every `fold()` reads `CHAR_W`), which item 105 leaves to Carsten;
+recorded in mapspine, **not applied**. At the page values the guards list one more near miss, 02's
+third map caption, which reads.
+
+### 21.5 Checked three times
+
+Check 1 (one agent, every hunk, every changed figure in Chromium): no page fault. The builds said
+"built clean" over the warnings they now printed; freshcheck's warnings had no count; no guard
+tested the top edge, which rotated labels make likelier; `<g>` edge cases (a self-closed `<g/>`
+leaked its class, a nested non-map class won, `data-class` matched, one-argument translate,
+no-break spaces collapsed); a Julian 29 February read as impossible; two comment numbers - all
+taken. Check 2 (the changes): **build_all ended "all parts built and verified" over warnings and
+listed only A–E**; 1700's skipped days; the top edge needed the bottom's margin (a Danish capital's
+ring rises past the box); a `<text>`'s own attributes still matched `data-x`; Part D did not count
+`WARNINGS` - all taken. Check 3 (the changes since): build_all's last line said all was well over a
+page outside the band; streaming could die on another encoding and reorder buffered lines; wording
+- all taken. No quotation was touched this session.
+
+### 21.6 Found, recorded, not changed
+
+- 08's "878 Edington" a pixel above the WINTERING band.
+- 30's papers figure: a wrapped line sits nearer the next bullet than its own.
+- 02, figure 1: the second and third captions nearly touch; the third reaches the edge at the page's
+  widths but reads.
+- A font-size set in `style` is not read by `text_items()` (Part D's serif titles).
+- `halo_underlay()` gives a halo only to a text with its own map class, so a PNG shows the `<g
+  class>` texts of 01–03, 06, 09 without one (the page has it).
+- `build_all.py` stops at the first failed part, as before; the G–I builds print a chapter's mkbody
+  warning above its heading; a thin space is measured as a full character (conservative).
+- Carried: ON_BAR_INK on the grey bars; linecheck in no build; the D-11 legacy colours; 10's opener
+  3; 15's opener 4; 21 and 45 at 50 minutes; the five OVER; the maps' "Ditmarschen" aria-labels;
+  Lindholmen in 16's key only; the Sound strip's last line near the caption.
+
+### 21.7 Verified
+
+In the working clone after the last edit: `build_all.py`, all seven parts clean, exit 0; `linkindex`,
+`index_generator`; **tidy clean; FIXTURE PASSES; SEAM LAYER PASSES; debuild 45 identical; 45 of 45,
+352,732 page words, 28.0 h, every part unchanged; 21 is 50 minutes, 44 48, 45 50; vignettes
+148/116, selftest passes; figcheck --regen 98/30/0, 0 warning lines; five OVER, unchanged;
+draftnotes clean; appcheck 167 in 21; freshcheck 21; 2 pointers, 0 same-page glosses; Schleswig
+317 in 32, Slesvig 4 in 3; sweep_facts 2, impossible dates 0; arrows 254, solvency 38, the rest 0;
+qs 0/224, Causal 0/168, Recall 0/198, 0 pairs; linecheck 0 over `svg_*.txt` (3 on purpose) and
+over 01–11's bodies (nothing measured wrong), `--bare` 213; overruns, overflows and collisions over
+every figure 0.** Pages that change: **02, 03, 06, 08, 10, 23.** The index does not.
+
+### 21.8 Decisions for Carsten
+
+**New:** item 105 - apply the page-measured `CHAR_W` (mapt 6.07, mapx 5.43, mapl 6.92) in a session
+that regenerates and reads the 19 Part I figures it re-wraps. Recommended: yes; a guard measuring
+6 per cent short let page 23 ship a cut line. **Open, carried:** dark `ON_BAR_INK` on the grey bars
+of 01–03 (white there is 3.2:1); whether `linecheck` is wired into the builds (the text guards now
+are, for A–D); the D-11 legacy colours; 10's opener 3; 15's opener 4; 21 and 45 at 50 minutes; the
+five OVER (not for cutting, D-16); the "Ditmarschen" aria-labels (`svg_terr_1500/1600/1660`, pages
+19, 21, 25) against D-15; Lindholmen in 16's key only; the Sound strip's last line near the caption.

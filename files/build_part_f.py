@@ -323,7 +323,7 @@ if __name__ == "__main__":
         if stalefigs:
             print("\nchapter %s  %s\n  !! NOT BUILT: figures not what their scripts write: %s"
                   % (n, c['name'], '; '.join('%s %s' % (k, 'MISSING (use --stub with DK_OUT outside the repository to preview)'
-                                                if 'Errno 2' in v else v)
+                                                if v.startswith('STALE') and 'Errno 2' in v else v)
                                 for k, v in sorted(stalefigs.items()))))
             fail += 1
             continue
@@ -388,5 +388,5 @@ if __name__ == "__main__":
         if stubbed:
             print("  !! STUBBED: %s" % ", ".join(stubbed))
         fail += page_fail + bool(stubbed)
-    print("\n%s" % ('all four built clean' if not fail else '!! %d problems' % fail))
+    print("\n%s" % pageguard.summary('four', fail, len(pageguard.WARNINGS)))
     sys.exit(1 if fail else 0)

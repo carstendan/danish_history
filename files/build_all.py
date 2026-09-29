@@ -29,6 +29,12 @@ PARTS = [
     ("A-C", "build_parts_abc.py", "01-11", "Stone Age to the North Sea Empire"),
     ("D", "build_part_d.py", "12-15", "the High Middle Ages"),
     ("E", "build_part_e.py", "16-20", "union and late Middle Ages"),
+    # F-I added in review session 17 (check 2): this listed A-E only, and ended "all parts
+    # built and verified" with twenty-five chapters never built
+    ("F", "build_part_f.py", "21-24", "early modern power"),
+    ("G", "build_part_g.py", "25-31", "absolutism"),
+    ("H", "build_part_h.py", "32-36", "the nation-state"),
+    ("I", "build_part_i.py", "37-45", "the twentieth century"),
 ]
 
 # Everything a part build needs beyond its own bodies. If one of these is absent
@@ -88,12 +94,33 @@ def check():
     return runnable, missing
 
 
+WARNED = []
+
+
 def run(part, script):
+    """Run one part build, passing its output through. A part whose last line starts "!!"
+    but which exits 0 built its pages with warnings (pageguard.summary, review session 17):
+    it is listed in WARNED, so this script's own last line does not say all is well over
+    it (check 2 of review session 17 found it did)."""
     print("\n" + "=" * 74)
-    r = subprocess.run([sys.executable, script], cwd=G)
-    if r.returncode:
-        print("!! Part %s FAILED (exit %d)" % (part, r.returncode))
-    return r.returncode == 0
+    sys.stdout.flush()
+    # -u and UTF-8 both ways (check 3): through a pipe the child's stdout is block-buffered
+    # and its stderr is not, so lines came out of order; and a child writing another
+    # encoding than this process's locale killed the run mid-part with a UnicodeDecodeError
+    env = dict(os.environ, PYTHONIOENCODING='utf-8', PYTHONUNBUFFERED='1')
+    p = subprocess.Popen([sys.executable, '-u', script], cwd=G, env=env, stdout=subprocess.PIPE,
+                         stderr=subprocess.STDOUT, encoding='utf-8', errors='replace')
+    last = ""
+    for line in p.stdout:
+        sys.stdout.write(line)
+        if line.strip():
+            last = line.strip()
+    rc = p.wait()
+    if rc:
+        print("!! Part %s FAILED (exit %d)" % (part, rc))
+    elif last.startswith("!!"):
+        WARNED.append(part)
+    return rc == 0
 
 
 def summarise():
@@ -150,5 +177,15 @@ if __name__ == "__main__":
     bad = summarise()
     if bad:
         print("\n!! %d page(s) outside the %d-%d band" % (bad, BAND[0], BAND[1]))
-    print("\n%s" % ("all parts built and verified" if ok else "!! at least one part failed"))
+    # The last line from everything above, not only from the builds (check 3: a page outside
+    # the band printed "!!", then "all parts built and verified", and exited 1)
+    which = "all parts" if not wanted else "Part %s" % ", ".join(p for p, _ in runnable)
+    if not ok:
+        print("\n!! at least one part failed")
+    elif bad or WARNED:
+        print("\n!! %s built, with %s - read them above" % (which, " and ".join(
+            x for x in ("%d page(s) outside the band" % bad if bad else "",
+                        "warnings in Part %s" % ", ".join(WARNED) if WARNED else "") if x)))
+    else:
+        print("\n%s built and verified" % which)
     sys.exit(0 if ok and not bad else 1)

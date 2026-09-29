@@ -12,6 +12,7 @@ top, which is what the index promises anyway.
 Palette and text classes follow the entries. The SVG carries no <style> of its
 own; .mapt/.mapl/.mapx are styled by the page stylesheet, as in entries 01-11.
 """
+import math
 import re
 
 from mapkit import load_land, Frame, simplify
@@ -304,6 +305,16 @@ def validate(svg, name):
 # belongs at the canvas edge instead, where it is a fixed six units and does
 # not grow with the sentence. Regression: the two-column collision in
 # figs_32.py still fires at these values, and it is the fault this exists for.
+#
+# MEASURED IN THE PAGE (review session 17), NOT APPLIED: HANDOFF item 105 is still Carsten's
+# decision, because every fold() that reads CHAR_W re-wraps (19 figures in Part I). In
+# Chromium, every figure text on all 45 pages as they stood (2,903; rendered width over
+# length, the median per class): mapt 6.07, mapx 5.43, mapl 6.92 - what style.css asks
+# for, a monospace advance of about 0.6 em plus the class's letter-spacing (9.5 x .64,
+# 8.5 x .64, 10.5 x .66). At the table's 5.68, about 6 per cent short, page 23's invasions
+# caption shipped cut at "both tim" and overruns() passed it (fixed in figs_23 by
+# wrapping). At the page values the guards list one more near miss, 02's third map
+# caption, which reads.
 CHAR_W = {'mapl': 6.98, 'mapt': 5.68, 'mapx': 5.63}
 CHAR_H = {'mapl': 10.5, 'mapt': 9.5, 'mapx': 8.5}
 DEFAULT_W, DEFAULT_H = 6.3, 9.5
@@ -367,70 +378,141 @@ TEXT_RE = re.compile(r'<text x="([\d.-]+)" y="([\d.-]+)"[^>]*?'
 
 
 def _class_of(tag):
-    m = re.search(r'class="([a-z]+)"', tag)
+    """The first CHAR_W class name in a tag's class attribute, or None."""
+    c = [k for k in (_attr(tag, 'class') or '').split() if k in CHAR_W]
+    return c[0] if c else None
+
+
+def _attr(tag, name):
+    """An attribute's value by its whole name - not data-x for x, not data-class for class
+    (check 2 of review session 17) - or None."""
+    m = re.search(r'(?<![\w-])%s="([^"]*)"' % re.escape(name), tag)
     return m.group(1) if m else None
 
 
-def text_boxes(svg):
-    """Every <text> as (x0, y0, x1, y1, cls, string).
+def text_items(svg):
+    """Every <text> as a dict: box (x0, y0, x1, y1), quad (its four corners, which differ
+    from the box only when the text is rotated), cls, text, attrs. text_boxes() is the boxes.
 
     Boxes are estimates. The anchor decides which side of x the string sits on;
     the vertical extent is taken as three quarters of the font size above the
     baseline and a quarter below, which is close enough for overlap testing and
     deliberately generous.
+
+    WHAT THE PAGE INHERITS, THIS INHERITS (review session 17). Until then a text was measured
+    by its own attributes only, and three kinds were measured wrong or not at all:
+      - a text with markup inside (a <tspan>, italic for a title or a Danish word) was
+        skipped - five in four figures, never checked by collisions(), overruns(),
+        overflows() or linecheck.py. Now the markup is stripped and the string measured
+        (every <tspan> in the book only changes the style, not the position);
+      - a rotated text (transform="rotate(a cx cy)", 08's timeline and svg_cell's "6
+        paces") was measured flat. Now the box is the rotated rectangle's bounding box,
+        and quad carries its corners (linecheck reads the quad, not the box: a -30 degree
+        label's box is mostly empty paper and the ruled lines beside it);
+      - a class or a text-anchor set on an enclosing <g> was not seen, so 06's "the great
+        majority" was measured from the wrong side (text-anchor="end" on its <g>) and the
+        texts in <g class="mapx"> groups (01-03, 06, 09) at the default width and as
+        unhaloed. Now the nearest <g> that sets one is used, as the browser does.
+    Also now: entities count as one character (&amp; drew as "&" and was measured as five),
+    and whitespace is collapsed as SVG draws it (a leading space takes no room).
+    Still not read: a font-size set in style (Part D's serif titles, 15-34px, are measured
+    at the default size); on a <g>, any transform but one translate(); on a <text>, anything
+    but ONE rotate() or ONE translate() - "translate(5,5) rotate(-30)" is measured flat; dx
+    and dy; a <tspan> with its own x or y (none of these is in the book, review session 17).
+    A class with more than one name, say class="big mapl", is SIZED by its first map class,
+    but haloed() and linecheck.py want class="mapl" exactly and read it as unhaloed.
     """
+    import html as _html
     # TEXT INSIDE A TRANSFORMED GROUP IS IN A DIFFERENT COORDINATE SPACE, and the
     # first version of this ignored that and reported the 1807 figure's subtitle
     # as colliding with a label 52 units below it on the map. Panels here are
     # wrapped in a single <g transform="translate(dx,dy)">, so track that one form
     # and apply it. Anything more elaborate is not produced by this project, and
     # if it ever is, this needs to grow rather than to guess.
-    shifts, depth = [], []
-    pos = 0
-    events = []
-    for m in re.finditer(r'<g\b([^>]*)>|</g>', svg):
-        events.append((m.start(), m.end(), m.group(0), m.group(1)))
+    # a self-closed <g .../> opens nothing (check 1 of review session 17: it leaked its class)
+    events = [(m.start(), m.group(0), m.group(1)) for m in re.finditer(r'<g\b([^>]*)>|</g>', svg)
+              if not m.group(0).endswith('/>')]
 
-    def shift_at(i):
-        dx = dy = 0.0
+    def context_at(i):
+        """(dx, dy, class, text-anchor) that the enclosing <g>s give a text at offset i."""
         stack = []
-        for st, en, tag, attrs in events:
+        for st, tag, attrs in events:
             if st > i:
                 break
             if tag == '</g>':
                 if stack:
                     stack.pop()
             else:
-                t = re.search(r'transform="translate\(([-\d.]+),\s*([-\d.]+)\)"', attrs or '')
-                stack.append((float(t.group(1)), float(t.group(2))) if t else (0.0, 0.0))
-        for a, b in stack:
-            dx += a
-            dy += b
-        return dx, dy
+                stack.append(attrs or '')
+        dx = dy = 0.0
+        cls = anchor = None
+        for attrs in stack:                      # outermost first; the nearest wins
+            t = re.fullmatch(r'\s*translate\(\s*([-\d.]+)(?:[,\s]+([-\d.]+))?\s*\)\s*',
+                             _attr(attrs, 'transform') or '')
+            if t:
+                dx += float(t.group(1))
+                dy += float(t.group(2) or 0)
+            # only a text class is inherited: a <g class="land"> inside a <g class="mapx">
+            # does not change the letters' font, which CSS inherits from the mapx group
+            cls = _class_of(attrs) or cls
+            anchor = _attr(attrs, 'text-anchor') or anchor
+        return dx, dy, cls, anchor
 
     out = []
-    for m in re.finditer(r'<text\b([^>]*)>([^<]*)</text>', svg):
-        attrs, txt = m.group(1), m.group(2)
-        sdx, sdy = shift_at(m.start())
-        mx = re.search(r'\bx="([\d.-]+)"', attrs)
-        my = re.search(r'\by="([\d.-]+)"', attrs)
-        if not (mx and my and txt.strip()):
+    for m in re.finditer(r'<text\b([^>]*)>(.*?)</text>', svg, re.S):
+        attrs = m.group(1)
+        # collapse as SVG does: ASCII whitespace only (a no-break space keeps its width)
+        txt = ' '.join(t for t in re.split(r'[ \t\r\n]+', _html.unescape(re.sub(r'<[^>]+>', '', m.group(2))))
+                       if t)
+        mx = re.fullmatch(r'\s*([-\d.]+)\s*', _attr(attrs, 'x') or '')
+        my = re.fullmatch(r'\s*([-\d.]+)\s*', _attr(attrs, 'y') or '')
+        if not (mx and my and txt):
             continue
-        x, y = float(mx.group(1)) + sdx, float(my.group(1)) + sdy
-        cls = _class_of(attrs)
+        gdx, gdy, gcls, ganchor = context_at(m.start())
+        x, y = float(mx.group(1)), float(my.group(1))
+        cls = _class_of(attrs) or gcls
         cw = CHAR_W.get(cls, DEFAULT_W)
         ch = CHAR_H.get(cls, DEFAULT_H)
         w = len(txt) * cw
-        anchor = re.search(r'text-anchor="(\w+)"', attrs)
-        anchor = anchor.group(1) if anchor else 'start'
+        anchor = _attr(attrs, 'text-anchor') or ganchor or 'start'
         if anchor == 'end':
             x0, x1 = x - w, x
         elif anchor == 'middle':
             x0, x1 = x - w / 2.0, x + w / 2.0
         else:
             x0, x1 = x, x + w
-        out.append((x0, y - ch * 0.75, x1, y + ch * 0.25, cls, txt))
+        y0, y1 = y - ch * 0.75, y + ch * 0.25
+        quad = [(x0, y0), (x1, y0), (x1, y1), (x0, y1)]
+        tf = _attr(attrs, 'transform')
+        if tf:
+            r = re.match(r'\s*rotate\(\s*([-\d.]+)(?:[,\s]+([-\d.]+)[,\s]+([-\d.]+))?\s*\)\s*$',
+                         tf)
+            t = re.match(r'\s*translate\(\s*([-\d.]+)(?:[,\s]+([-\d.]+))?\s*\)\s*$', tf)
+            if r:
+                a = math.radians(float(r.group(1)))
+                cx, cy = float(r.group(2) or 0), float(r.group(3) or 0)
+                ca, sa = math.cos(a), math.sin(a)
+                quad = [(cx + (px - cx) * ca - (py - cy) * sa, cy + (px - cx) * sa + (py - cy) * ca)
+                        for px, py in quad]
+            elif t:
+                tx, ty = float(t.group(1)), float(t.group(2) or 0)
+                quad = [(px + tx, py + ty) for px, py in quad]
+        quad = [(px + gdx, py + gdy) for px, py in quad]
+        xs, ys = [q[0] for q in quad], [q[1] for q in quad]
+        eff = attrs
+        if gcls and not _class_of(attrs):
+            eff += ' class="%s"' % gcls
+        if ganchor and _attr(attrs, 'text-anchor') is None:
+            eff += ' text-anchor="%s"' % ganchor
+        out.append({'box': (min(xs), min(ys), max(xs), max(ys)), 'quad': quad, 'cls': cls,
+                    'text': txt, 'attrs': eff})
     return out
+
+
+def text_boxes(svg):
+    """Every <text> as (x0, y0, x1, y1, cls, string): text_items()' boxes (see there for
+    what is inherited from a <g>, rotation, and markup)."""
+    return [it['box'] + (it['cls'], it['text']) for it in text_items(svg)]
 
 
 def overruns(svg, name):
@@ -448,8 +530,9 @@ def overruns(svg, name):
     # edge and the bottom, not the left" (the bottom is in fact overflows()). Moving
     # Hvalsey's label to the left of its dot in figs_16b put "a wedding, 16 Sept 1408"
     # about 20 units off the canvas (x0 -19.7), and nothing fired.
-    # Past the edge, not near it: a rotated text is measured unrotated (text_boxes ignores
-    # transforms), and svg_cell's vertical "6 paces" would read as starting at 0.1.
+    # Past the edge, not near it. (This said a rotated text is measured unrotated and
+    # svg_cell's vertical "6 paces" would read as starting at 0.1; since review session 17
+    # a rotated text is measured by its rotated box, and "6 paces" starts at 12.9.)
     bad = [t[:44] for (x0, y0, x1, y1, cls, t) in text_boxes(svg) if x1 > w - 6 or x0 < ox]
     for t in bad:
         print("   ! %s: text may overrun the canvas: %s" % (name, t))
@@ -467,20 +550,55 @@ def collisions(svg, name, pad=1.0):
 
     Overlap is only reported when boxes intersect on BOTH axes by more than pad,
     so labels that merely sit close, or share a line, are left alone.
+
+    A ROTATED TEXT IS TESTED BY ITS CORNERS (review session 17): its box, the bounding box
+    of a -30 degree label, is mostly paper, and 08's timeline would report seven pairs of
+    neighbours that never touch. Where either text is rotated the two quads are tested on
+    their own axes (separating axes) and the overlap reported is the smallest depth.
     """
-    boxes = text_boxes(svg)
+    items = text_items(svg)
     bad = []
-    for i in range(len(boxes)):
-        ax0, ay0, ax1, ay1, _, at = boxes[i]
-        for j in range(i + 1, len(boxes)):
-            bx0, by0, bx1, by1, _, bt = boxes[j]
+    for i in range(len(items)):
+        ax0, ay0, ax1, ay1 = items[i]['box']
+        at = items[i]['text']
+        for j in range(i + 1, len(items)):
+            bx0, by0, bx1, by1 = items[j]['box']
+            bt = items[j]['text']
             ox = min(ax1, bx1) - max(ax0, bx0)
             oy = min(ay1, by1) - max(ay0, by0)
-            if ox > pad and oy > pad:
-                bad.append((at[:34], bt[:34], ox))
+            if not (ox > pad and oy > pad):
+                continue
+            if _rotated(items[i]['quad']) or _rotated(items[j]['quad']):
+                ox = _depth(items[i]['quad'], items[j]['quad'])
+                if ox <= pad:
+                    continue
+            bad.append((at[:34], bt[:34], ox))
     for a, b, ox in bad:
         print("   ! %s: text collides (%.0f units): %r over %r" % (name, ox, a, b))
     return bad
+
+
+def _rotated(quad):
+    """True if a quad's edges are not on the axes (a text rotated by other than 90°)."""
+    return len({round(q[0], 3) for q in quad}) > 2 or len({round(q[1], 3) for q in quad}) > 2
+
+
+def _depth(p, q):
+    """How far two convex quads overlap: the smallest overlap of their projections on the
+    edge normals of either (0 if some axis separates them)."""
+    best = float('inf')
+    for poly in (p, q):
+        for k in range(4):
+            (x1, y1), (x2, y2) = poly[k], poly[(k + 1) % 4]
+            nx, ny = y1 - y2, x2 - x1
+            n = math.hypot(nx, ny) or 1.0
+            nx, ny = nx / n, ny / n
+            a = [x * nx + y * ny for x, y in p]
+            b = [x * nx + y * ny for x, y in q]
+            best = min(best, min(max(a), max(b)) - max(min(a), min(b)))
+            if best <= 0:
+                return 0.0
+    return best
 
 
 
@@ -494,13 +612,23 @@ def overflows(svg, name):
     # against the BOTTOM OF THE TEXT BOX rather than the baseline, and counts
     # transformed groups, so a line whose descenders fall off the edge is caught
     # even though its baseline sits inside. That is what svg_invasions.txt had.
+    # THE TOP EDGE TOO (review session 17). Nothing tested it; a label rotated to rise from
+    # its baseline (08's timeline, at -30 degrees) is the likely way to lose one there now
+    # that text_items() measures rotation. Within 2 units, as the bottom is tested.
     vb = re.search(r'viewBox="([-\d.]+) ([-\d.]+) ([\d.]+) ([\d.]+)"', svg)
     if not vb:
         return []
-    h = float(vb.group(2)) + float(vb.group(4))
-    bad = [t[:44] for (x0, y0, x1, y1, cls, t) in text_boxes(svg) if y1 > h - 2]
-    for t in bad:
-        print("   ! %s: text below the bottom of the canvas: %s" % (name, t))
+    oy = float(vb.group(2))
+    h = oy + float(vb.group(4))
+    bad = []
+    for (x0, y0, x1, y1, cls, t) in text_boxes(svg):
+        if y1 > h - 2:
+            bad.append(t[:44])
+            print("   ! %s: text below the bottom of the canvas: %s" % (name, t[:44]))
+        elif y0 < oy + 2:          # the bottom's margin: a Danish capital's ring rises past
+                                   # the 0.75 em box (check 2 of review session 17)
+            bad.append(t[:44])
+            print("   ! %s: text above the top of the canvas: %s" % (name, t[:44]))
     return bad
 
 def emit(svg, name, png=None):

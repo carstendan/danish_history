@@ -3,7 +3,9 @@
 
     python3 figcheck.py                # check every built page
     python3 figcheck.py 27 28          # just those chapters
-    python3 figcheck.py --regen        # re-run the generators first, then check
+    python3 figcheck.py --regen        # re-run the generators first, then check; lists every
+                                       # "!" line and stderr line a script prints, and exits 1
+                                       # if there is one (review session 17)
 
 WHY THIS EXISTS.
 
@@ -110,26 +112,59 @@ def regen():
     since review session 14: the seven territory maps (svg_terr_*.txt, inlined in Parts E-H;
     Part D's svg_terr_1050 and svg_terr_1250 have no script)
     were left to the part builds, so a map script edited and never run reached figcheck's
-    verdict unseen. Each runs in about a second."""
+    verdict unseen. Each runs in about a second.
+
+    THE SCRIPTS' OWN WARNINGS ARE SHOWN (review session 17). Until then this printed "ok" for
+    any script that exited 0 and threw away what it printed, so the guards every script runs
+    through mapspine.rasterise() - overruns(), overflows(), collisions(), each printing a "!"
+    line - were read by nobody: page 18's Sound figure shipped without its explanatory strip
+    while overflows() said so on every run of figs_17.py (REVIEW-CONSISTENCY.md §20). Now
+    every line a script prints that starts with "!" (after its indentation), and every line
+    it writes to stderr, is listed under the script's name; a script that exits non-zero
+    counts too. Returns [(script, line)]."""
     scripts = sorted(glob.glob(os.path.join(HERE, 'figs_*.py'))
                      + glob.glob(os.path.join(HERE, 'fig_*.py'))
                      + glob.glob(os.path.join(HERE, 'map_*.py')))
     print('regenerating from %d scripts' % len(scripts))
+    said = []
     for s in scripts:
-        r = subprocess.run([sys.executable, os.path.basename(s)],
+        b = os.path.basename(s)
+        r = subprocess.run([sys.executable, b],
                            cwd=HERE, capture_output=True, text=True)
         if r.returncode != 0:
-            print('  !! %s exited %d' % (os.path.basename(s), r.returncode))
-            print('     ' + (r.stderr or r.stdout).strip().splitlines()[-1][:100])
-        else:
-            print('  ok  %s' % os.path.basename(s))
+            last = ((r.stderr or r.stdout).strip().splitlines() or ['(no output)'])[-1][:100]
+            print('  !! %s exited %d' % (b, r.returncode))
+            print('     ' + last)
+            said.append((b, '!! exited %d: %s' % (r.returncode, last)))
+            continue
+        lines = [l.strip() for l in r.stdout.splitlines() if l.strip().startswith('!')]
+        lines += ['(stderr) ' + l.strip() for l in r.stderr.splitlines() if l.strip()]
+        print('  ok  %s%s' % (b, '   - %d warning line(s):' % len(lines) if lines else ''))
+        for l in lines:
+            print('        ' + l)
+        said += [(b, l) for l in lines]
     print()
+    return said
 
 
 def main():
     args = [a for a in sys.argv[1:] if not a.startswith('--')]
-    if '--regen' in sys.argv:
-        regen()
+    said = regen() if '--regen' in sys.argv else None
+    rc = check_pages(args)
+    if said is None:
+        return rc
+    if said:
+        scripts = sorted({s for s, _ in said})
+        print('\n!! the figure scripts printed %d warning line(s) in %d script(s), listed under'
+              ' "regenerating" above - read them:' % (len(said), len(scripts)))
+        for s in scripts:
+            print('   %-16s %d' % (s, sum(1 for x, _ in said if x == s)))
+        return 1
+    print('the figure scripts printed 0 warning lines')
+    return rc
+
+
+def check_pages(args):
 
     txts = load_txts()
     labels = load_labels(txts)

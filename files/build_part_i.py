@@ -564,5 +564,5 @@ if __name__ == "__main__":
             print("  checkpoint before %s  %s"
                   % (mm.group(1), re.sub(r'<[^>]+>', '', mm.group(2)).strip()))
         fail += page_fail
-    print("\n%s" % ('all nine built clean' if not fail else '!! %d problems' % fail))
+    print("\n%s" % pageguard.summary('nine', fail, len(pageguard.WARNINGS) + len(freshcheck.WARNINGS)))
     sys.exit(1 if fail else 0)

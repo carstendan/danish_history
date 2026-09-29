@@ -228,6 +228,7 @@ ALLOWED_ENTRY = {}
 
 print("--- Part D ---")
 fail = 0
+warned = 0
 # FIGURES. Part D's twelve svg_*.txt have no generator on disk, so pageguard reports them
 # SOURCELESS and there is nothing to run them against: their content cannot be witnessed,
 # only that the build reads the copies in this folder (same_sources, below). figures_fresh
@@ -304,10 +305,18 @@ for n in sorted(CFG):
              h.count('<figure>'), h.count('class="terms"')))
     print("  part colour %s | vocabulary clean | questions asked once | words %d (~%d min)"
           % ('ok' if '--band:%s;' % PART_D in h else 'BAD', w, round(w / 210)))
+    # The figures' text, measured (review session 17): Part D's twelve svg_*.txt have no
+    # script, so mapspine's guards never ran on them. Printed, not refused - estimates.
+    said = pageguard.figure_text(h)
+    warned += len(said)
+    for s in said:
+        print("  ! " + s)
+    if said:
+        print("  !! figure text: %d line(s) above - read them in the page" % len(said))
     fail += page_fail
     for m in re.finditer(r'<div class="check">.*?</div>\s*<h2 id="(s\d\d)">(.*?)</h2>', h, re.S):
         print("  checkpoint before %s  %s"
               % (m.group(1), re.sub(r'<[^>]+>', '', m.group(2)).strip()))
-print("\n%s" % ('all four built clean' if not fail else '!! %d problems' % fail))
+print("\n%s" % pageguard.summary('four', fail, warned + len(pageguard.WARNINGS)))
 if fail:
     raise SystemExit(1)

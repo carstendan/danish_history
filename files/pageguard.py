@@ -165,6 +165,53 @@ def asked_twice(h, threshold=ASK_ONCE):
     return sorted(hits, key=lambda x: -x[2])
 
 
+def summary(count_word, fail, warned):
+    """A part build's last line. "all four built clean" only when nothing failed and nothing
+    warned; a warning still writes the page, but the last line says "!!" (review session 17,
+    check 1: the builds printed the figure scripts' warnings and then "built clean")."""
+    if fail:
+        return '!! %d problem(s)%s' % (fail, ', and %d warning line(s) above' % warned if warned else '')
+    if warned:
+        return ('!! all %s built, with %d warning line(s) above - read them'
+                % (count_word, warned))
+    return 'all %s built clean' % count_word
+
+
+# Every warning figures_fresh() has printed in this run, so a build's last line can say so:
+# a "!!" in the middle of a long log is read by nobody (review session 17, check 1).
+WARNINGS = []
+
+
+def figure_text(h):
+    """What mapspine's text guards - overruns(), overflows(), collisions() - say about every
+    figure in a built page, as ['figure k: ...']. Empty when they say nothing.
+
+    WHY (review session 17). Those guards run only inside the figure scripts, through
+    rasterise(). Parts A-C's thirty figures are written by hand in their bodies and Part D's
+    twelve svg_*.txt have no script, so no guard had ever measured their text: the first run
+    found "Vedbaek" cut off 02's third map, "Maglemose (Mullerup)" through "Tybrind Vig", 03's
+    three captions printed into each other, 08's caption off the edge and 10's two captions
+    below the canvas - all shipped. build_parts_abc.py and build_part_d.py ask this for every
+    page and print what it says; Parts E-I's figures are guarded where their scripts write
+    them (figures_fresh prints the scripts' warnings)."""
+    import contextlib
+    import io
+    import mapspine as M
+    out = []
+    for k, svg in enumerate(re.findall(r'<svg\b.*?</svg>', h, re.S), 1):
+        if 'viewBox="' not in svg:
+            continue
+        with contextlib.redirect_stdout(io.StringIO()):
+            over = M.overruns(svg, '')
+            under = M.overflows(svg, '')
+            hit = M.collisions(svg, '')
+        out += ['figure %d: text may overrun the canvas: %s' % (k, t) for t in over]
+        out += ['figure %d: text past the top or bottom of the canvas: %s' % (k, t) for t in under]
+        out += ['figure %d: text collides (%.0f units): %r over %r' % (k, o, a, b)
+                for a, b, o in hit]
+    return out
+
+
 def same_body(src_dir, here, body):
     """True if the body the build reads (src_dir/body) is the body freshcheck checked
     (here/body)."""
@@ -211,9 +258,18 @@ def producers(here, svg_files):
 def figures_fresh(here, src_dir, svg_files):
     """Run each script that produces one of `svg_files` in a scratch copy of `here`
     and compare what it writes with src_dir/<file>. Returns
-    ({file: 'STALE' | 'SOURCELESS' | 'SCRIPT FAILED: ...'}, n_checked)."""
+    ({file: 'STALE' | 'SOURCELESS' | 'SCRIPT FAILED: ...'}, n_checked).
+
+    It also PRINTS what the scripts warn (review session 17). Every script runs mapspine's
+    overruns(), overflows() and collisions() through rasterise(), each printing a "!" line;
+    until then this threw those lines away with the rest of the output, as figcheck --regen
+    did, and the builds said "all fresh" over page 18's cut-off Sound strip. Each "!" line
+    and each stderr line of a script that exits 0 is printed under the script's name, then
+    one "!!" count line, and each is kept in WARNINGS for the build's last line. Freshness
+    is unchanged: a warned figure can still be exactly what its script writes."""
     prod = producers(here, svg_files)
     out, checked = {}, 0
+    warned = 0
     tmp = tempfile.mkdtemp(prefix='pageguard_')
     try:
         work = os.path.join(tmp, 'files')
@@ -223,10 +279,19 @@ def figures_fresh(here, src_dir, svg_files):
         for s in sorted({p for p in prod.values() if p}):
             r = subprocess.run([sys.executable, s], cwd=work, env=env,
                                capture_output=True, text=True, timeout=600)
+            if r.returncode == 0:
+                said = [l.strip() for l in r.stdout.splitlines() if l.strip().startswith('!')]
+                said += ['(stderr) ' + l.strip() for l in r.stderr.splitlines() if l.strip()]
+                for l in said:
+                    print('  %s: %s' % (s, l))
+                warned += len(said)
+                WARNINGS.extend('%s: %s' % (s, l) for l in said)
             if r.returncode != 0:
                 for f, p in prod.items():
                     if p == s:
-                        out[f] = 'SCRIPT FAILED: %s exited %d' % (s, r.returncode)
+                        out[f] = 'SCRIPT FAILED: %s exited %d: %s' % (
+                            s, r.returncode, ((r.stderr or r.stdout).strip().splitlines()
+                                              or ['(no output)'])[-1][:100])
         for f, p in prod.items():
             if p is None:
                 out[f] = 'SOURCELESS'
@@ -242,6 +307,8 @@ def figures_fresh(here, src_dir, svg_files):
                 out[f] = 'STALE (%s)' % e
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
+    if warned:
+        print('  !! the figure scripts printed %d warning line(s), above: read them' % warned)
     return out, checked
 
 

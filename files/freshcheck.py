@@ -77,6 +77,10 @@ sys.path.insert(0, HERE)
 
 import mkbody  # noqa: E402  - for HAND only
 
+# What mkbody said on success, as "chapter N: line", for the CLI's last lines and the G-I
+# builds' (review session 17, check 1).
+WARNINGS = []
+
 
 def page_for(n, name_hint):
     """The shipped page for chapter n, by its numeric prefix."""
@@ -126,6 +130,18 @@ def check(n):
         r = subprocess.run([sys.executable, os.path.join(HERE, "mkbody.py"), str(n)],
                            cwd=tmp, env=env, capture_output=True, text=True)
         built = os.path.join(tmp, cfg["file"])
+        # WHAT mkbody SAYS ON SUCCESS IS PRINTED (review session 17). Its output was thrown
+        # away unless it refused, so a body mkbody built with a warning - "!! body contains
+        # checkpoints", a tag balance that is not ok, anything on stderr - read FRESH here and
+        # in the G-I builds, which call check() before every page, with nothing shown.
+        if r.returncode == 0:
+            for l in r.stdout.splitlines() + ['(stderr) ' + e for e in r.stderr.splitlines()
+                                              if e.strip()]:
+                l = l.strip()
+                if l.startswith("!") or l.startswith("(stderr)") or (
+                        l.startswith("tag balance:") and l != "tag balance: ok"):
+                    print("  ! chapter %d: mkbody says: %s" % (n, l))
+                    WARNINGS.append("chapter %d: %s" % (n, l))
         if r.returncode != 0 or not os.path.exists(built):
             first = ([l for l in (r.stdout + r.stderr).splitlines()
                       if l.strip().startswith("!!")] or ["mkbody exited %d"
@@ -184,6 +200,9 @@ def main():
             print("  A REFUSED chapter does not rebuild. Resolve what mkbody names.")
     else:
         print("  every checked body is exactly what its draft builds")
+    if WARNINGS:
+        print("  !! mkbody printed %d warning line(s) while building them, above - read them"
+              % len(WARNINGS))
     return 1 if bad else 0
 
 

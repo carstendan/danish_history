@@ -5141,6 +5141,73 @@ split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see it
    this session's own zeroed stroke. *Before explaining a failure by the tool, try it without your
    change.*
 
+155. **The consistency review, session 17: the warnings nobody read, the texts nobody measured,
+   and six shipped figures nobody had checked.**
+   29 September 2026. Full record in `REVIEW-CONSISTENCY.md` §21.
+
+   **Cold run on a fresh clone of `74c977a`: every figure matched START_HERE_review_17**, and item
+   154's commit carries its 45 pages, the twelve `svg_*.txt` and eight bodies. State lived in
+   `claude/session17_state.md` and `claude/session17_wip.patch`.
+
+   **THE WARNINGS.** Each of the 37 figure scripts, run alone, printed no `!` line. `figcheck
+   --regen` now lists every `!` line and stderr line a script prints, under its name, ends "the
+   figure scripts printed N warning lines", and exits 1 if N is not 0 (planted: figs_17's viewBox
+   put back to H and a text over its strip - six lines listed). The other places a tool's output
+   was thrown away: **`pageguard.figures_fresh`** (the E-I builds run every script and kept nothing
+   but the exit code) now prints the warnings and keeps them in `pageguard.WARNINGS`, and SCRIPT
+   FAILED carries the reason; **`freshcheck.check`** (freshcheck, the pre-commit hook, the G-I
+   builds) now prints what mkbody says on success; **`sweep_facts`** section 3 skipped an
+   impossible date in silence and now lists it (Julian 29 February before 1700 allowed; 19-29
+   February 1700, which Denmark skipped, listed). **Every part build's last line** now says `!!`
+   when it built with warnings (`pageguard.summary`), and **`build_all.py`** reads that line, ends
+   with the band and the warnings, streams its children unbuffered in UTF-8 - and **listed only
+   Parts A-E**, ending "all parts built and verified" with twenty-five chapters never built; F-I
+   are in it now. Looked at, unchanged: tidy, the four sweeps.
+
+   **THE TEXTS.** The twenty `text_boxes()` could not measure (five with a `<tspan>`, thirteen
+   rotated, two `<g>` anchors) were read in Chromium against their pages: **all read; none is
+   crossed** (a near miss: 08's "878" is a pixel above the WINTERING band). `mapspine.text_items()`
+   now measures them: markup stripped, rotation applied (with the corners, for linecheck's
+   mask and collisions()' separating-axis test), class and text-anchor inherited from the nearest
+   `<g>`, entities and whitespace as SVG draws them, attributes matched by their whole name.
+   `text_boxes()` is its boxes. linecheck reads it; 06's KNOWN_FALSE is gone because the text is
+   measured right. `overflows()` tests the top edge. Plants: each kind fires in the new code and
+   not in the old; 08's timeline, which the old measure said collided five times, collides none.
+
+   **FOUND SHIPPED, FIXED.** mapspine's guards had never run over 01-11's hand-written figures or
+   Part D's twelve. Their first run, read in Chromium: **02** Vedbæk cut off the third map,
+   Maglemose (Mullerup) through Tybrind Vig and its marker; **03** the three grave captions printed
+   into each other, "thousands" cut; **08** the Carolingian map's caption off the right edge; **10**
+   both captions cut at the bottom. All fixed in the bodies (06's viewBox grew four units to quiet
+   an estimate; its caption was not cut). `pageguard.figure_text()` now runs those guards over
+   every figure in the A-C and D builds. **Page 23's invasions caption** shipped cut at "both tim":
+   the guards pass it because `CHAR_W['mapt']` is 5.68 and the page draws 6.07. Fixed in `figs_23`.
+
+   **CHAR_W, MEASURED, NOT APPLIED (item 105).** In Chromium, all 2,903 figure texts: mapt 6.07,
+   mapx 5.43, mapl 6.92 - style.css's 0.6 em advance plus letter-spacing. Applying them re-wraps
+   19 Part I figures, which item 105 leaves to Carsten; recorded in mapspine, not applied.
+
+   **CHECKED THREE TIMES** (§21.5): check 1 - builds said "built clean" over warnings, no top edge,
+   `<g>` edge cases, the Julian 29 February, two comment numbers; check 2 - build_all's last line,
+   the A-E list, 1700's skipped days, the top edge's margin, whole-name attributes; check 3 - the
+   band in build_all's last line, encoding and buffering of the streamed builds, wording. All taken
+   but three, recorded (§21.6).
+
+   **VERIFIED** after the last edit: build_all, all seven parts clean; **tidy clean; FIXTURE PASSES;
+   seams pass; debuild 45 identical; 45 of 45, 352,732 page words, 28.0 h (parts unchanged); 21 is
+   50 minutes, 44 48, 45 50; vignettes 148/116, selftest passes; figcheck --regen 98/30/0, 0 warning
+   lines; five OVER, unchanged; draftnotes clean; appcheck 167 in 21; freshcheck 21; 2 pointers,
+   0 same-page glosses; Schleswig 317 in 32 / Slesvig 4 in 3; sweep_facts 2, impossible dates 0;
+   arrows 254, solvency 38; qs 0/224, Causal 0/168, Recall 0/198, 0 pairs; linecheck 0 (svg_*.txt:
+   3 on purpose; 01-11: nothing measured wrong), --bare 213; the text guards over every figure 0.**
+   Pages that change: **02, 03, 06, 08, 10, 23.** The index does not change.
+
+   **LESSON.** A guard that runs only where a script runs is not a guard for what no script writes:
+   thirty hand-drawn figures and twelve unscripted ones had never been measured, and the first
+   measurement found six shipped faults. And a constant is a claim like a count: CHAR_W was
+   "measured, not assumed" - in a raster, not in the page - and a caption shipped cut under it.
+   *Measure in the thing the reader sees.*
+
 ---
 
 

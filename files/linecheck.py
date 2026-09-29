@@ -34,10 +34,12 @@ svg_hemming and svg_crowns before their fix (dd27400) - every crossing fires, ex
 svg_reconquest's: its numerals drew dark (D-11), take the halo, and were moved onto their
 territories for reading, not for this check. Light-text spellings style.css would not
 exempt (fill:#f0f2ee, "fill: #F0F2EE", #FFF) and a light fill= attribute are reported.
-BLIND SPOTS. As for text_boxes(): a text with markup inside (a tspan, an <i>) is not
-measured, a rotated text is measured unrotated, and a text-anchor set on a <g> is not
-seen (KNOWN_FALSE). A text whose class is not exactly one of mapt/mapl/mapx (say
-class="mapx big") takes the page's halo but is read here as unhaloed. Here: a small
+BLIND SPOTS. As for mapspine.text_items(), which this reads since review session 17 (a
+text with markup inside, a rotated text and a class or text-anchor set on a <g> are now
+measured; a rotated text is tested inside its own corners, not its box): a font-size set
+in style is not read (Part D's serif titles), and CHAR_W is the raster's (HANDOFF 105). A
+text whose class is not exactly one of mapt/mapl/mapx (say class="mapx big") takes the
+page's halo but is read here as unhaloed. Here: a small
 FILLED shape drawn as its own element - a closed-path arrowhead, a square marker - counts
 as ground, not as a mark (arrowheads drawn with <marker> are marks). And the check is by
 pixel, not by glyph: the box is shrunk a unit, so a line that ends against the edge of a
@@ -65,11 +67,10 @@ ON_PURPOSE = {
     ("svg_reconquest.txt", "Buying a kingdom back"):
         "a 21px title with a thin coast behind it; the letters read (Part D, no halo class)",
 }
-# MEASURED WRONG, not crossed: text_boxes() reads text-anchor on the <text> only, and this
-# one inherits "end" from its <g>, so its box is drawn to the right, into the pyramid.
-KNOWN_FALSE = {
-    ("c06_body.html#svg2", "the great majority"): "anchored by its <g>; text_boxes() does not see it",
-}
+# MEASURED WRONG, not crossed. Listed, not counted. Empty since review session 17: 06's
+# "the great majority" took text-anchor="end" from its <g>, which text_boxes() did not read,
+# and was measured into the pyramid; text_items() reads it.
+KNOWN_FALSE = {}
 
 
 def _hex6(h):
@@ -172,13 +173,22 @@ def _unmarked(bare):
                   lambda m: '' if float(m.group(1)) <= MARKER_R else m.group(0), s)
 
 
-def _texts(svg):
-    """(attrs, string) for every <text> text_boxes() measures, in its order. It skips a
-    text with markup inside (a tspan, an <i>) - those are never checked, here or by
-    collisions() - and one without x, y or content; so does this."""
-    return [(m.group(1), m.group(2)) for m in re.finditer(r'<text\b([^>]*)>([^<]*)</text>', svg)
-            if re.search(r'\bx="([\d.-]+)"', m.group(1)) and re.search(r'\by="([\d.-]+)"', m.group(1))
-            and m.group(2).strip()]
+def _mask(quad, box, ox, oy, scale):
+    """For a rotated text: which pixels of `box` lie inside its quad, shrunk a unit toward
+    its centre as the box is. None when the quad is the box (not rotated, or by 90°)."""
+    xs, ys = sorted({round(q[0], 3) for q in quad}), sorted({round(q[1], 3) for q in quad})
+    if len(xs) <= 2 and len(ys) <= 2:
+        return None
+    from PIL import Image, ImageDraw
+    cx, cy = sum(q[0] for q in quad) / 4, sum(q[1] for q in quad) / 4
+    pts = []
+    for px, py in quad:
+        d = ((px - cx) ** 2 + (py - cy) ** 2) ** .5 or 1
+        px, py = px - (px - cx) / d, py - (py - cy) / d
+        pts.append(((px - ox) * scale - box[0], (py - oy) * scale - box[1]))
+    m = Image.new("L", (box[2] - box[0], box[3] - box[1]), 0)
+    ImageDraw.Draw(m).polygon(pts, fill=255)
+    return list(m.get_flattened_data()) if hasattr(m, 'get_flattened_data') else list(m.getdata())
 
 
 def crossings(svg, name, floor=0.03, scale=2, bare_mode=False):
@@ -190,11 +200,11 @@ def crossings(svg, name, floor=0.03, scale=2, bare_mode=False):
     W, H = im.size
     discs = [(float(a), float(b), float(r)) for a, b, r in re.findall(
         r'<circle cx="([\d.-]+)" cy="([\d.-]+)" r="([\d.]+)"', svg) if float(r) >= 4]
-    boxes = M.text_boxes(svg)
-    attrs = [a for a, _ in _texts(svg)]
+    # text_items(), not a second parser (review session 17): attrs carry the class and
+    # text-anchor a <g> gives, and a rotated text brings its corners
     bad = []
-    for k, (x0, y0, x1, y1, cls, t) in enumerate(boxes):
-        a = attrs[k] if k < len(attrs) else ''
+    for it in M.text_items(svg):
+        (x0, y0, x1, y1), t, a = it['box'], it['text'], it['attrs']
         lf = light_fault(a)
         if lf:
             print("   !! %s: %r: %s" % (name, t[:40], lf))
@@ -212,6 +222,11 @@ def crossings(svg, name, floor=0.03, scale=2, bare_mode=False):
             continue
         box = (bx0, by0, bx1, by1)
         px = _pixels(im, box)
+        keep = _mask(it['quad'], box, ox, oy, scale)
+        if keep is not None:
+            px = [p for p, k in zip(px, keep) if k]
+            if not px:
+                continue
         if bare_mode or not M.haloed(a):
             counts = {}
             for p in px:
@@ -222,6 +237,8 @@ def crossings(svg, name, floor=0.03, scale=2, bare_mode=False):
             why = "not one flat ground"
         else:
             qx = _pixels(un, box)
+            if keep is not None:
+                qx = [q for q, k in zip(qx, keep) if k]
             other = sum(1 for p, q in zip(px, qx) if max(abs(p[i] - q[i]) for i in range(3)) > 20) / len(px)
             why = "a thick line or a marker"
         if other > (floor if (bare_mode or not M.haloed(a)) else MARK_FLOOR):

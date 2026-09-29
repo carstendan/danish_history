@@ -472,8 +472,11 @@ had a coast, border or route through them, because labels were placed at a point
 them. Carsten, 28 September 2026, chose the halo over moving some two hundred labels.
 
 **Guard.** `linecheck.py`, halo-aware, over `svg_*.txt` and over the bodies' inline figures:
-0 crossed, three kept on purpose and one measured wrong, each listed with its reason. It reports a
-fill spelt any other way and a light `fill=` attribute. An aid to looking, wired into no build.
+0 crossed, three kept on purpose, each listed with its reason (the one measured wrong, 06's "the
+great majority", is measured right since review session 17: `mapspine.text_items()` reads a
+`<g>`'s text-anchor and class, markup and rotation). It reports a fill spelt any other way and a
+light `fill=` attribute. An aid to looking, wired into no build; the text guards it shares its
+measure with (overruns, overflows, collisions) run in every build since session 17.
 
 **Defined.** Here; `HANDOFF.md` item 154; `REVIEW-CONSISTENCY.md` §20.
 

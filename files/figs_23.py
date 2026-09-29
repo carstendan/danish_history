@@ -52,8 +52,16 @@ def invasions():
     # since it was written. overflows() would have said so, but this script
     # only ever called validate() and overruns(); check() now runs all four
     # from rasterise(). Found Sept 2026.
-    W, H = 700, 472
+    # AND THEN THE LAST WORDS WERE CUT (review session 17): at 700 wide the second line ran
+    # to "both tim", because mapspine measures .mapt text about 6 per cent narrower than the
+    # page draws it (5.68 against 6.07) and overruns() passed it. The second sentence is two
+    # lines now, three in all, and H is computed from them.
     pw, ph = 322, 372
+    b = 52 + ph + 24                          # the first caption's baseline
+    LINES = ["Sixteen years apart, two different enemies took the same ground by the same road.",
+             "Neither crossed the water to the islands, and neither had to:",
+             "taking Jutland was enough to dictate terms both times."]
+    W, H = 700, b + 14 * (len(LINES) - 1) + 10
     o = ['<svg viewBox="0 0 %d %d" xmlns="http://www.w3.org/2000/svg" role="img" '
          'aria-label="Two maps of Denmark side by side. In 1627 to 1629 imperial armies under '
          'Tilly and Wallenstein occupied the Jutland peninsula from the Elbe to Skagen. In 1643 '
@@ -96,13 +104,10 @@ def invasions():
         o.append('</g>')      # close detail_base clip group
         o.append('</g>')      # close translate
 
-    b = 52 + ph + 24
     o.append('<line x1="14" y1="%d" x2="686" y2="%d" stroke="%s" stroke-width="1"/>'
              % (b - 14, b - 14, RULE))
-    o.append('<text x="14" y="%d" class="mapt">Sixteen years apart, two different enemies took '
-             'the same ground by the same road.</text>' % b)
-    o.append('<text x="14" y="%d" class="mapt">Neither crossed the water to the islands, and neither '
-             'had to: taking Jutland was enough to dictate terms both times.</text>' % (b + 14))
+    for i, line in enumerate(LINES):
+        o.append('<text x="14" y="%d" class="mapt">%s</text>' % (b + 14 * i, line))
     o.append('</svg>')
     return "\n  ".join(o)
 

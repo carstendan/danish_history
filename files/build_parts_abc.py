@@ -467,6 +467,7 @@ print("--- Parts A, B, C ---")
 # pageguard.figures_fresh to run, so it is not asked here.
 print("  figures: inline in the bodies, no scripts (nothing to witness)")
 fail = 0
+warned = 0
 for n in sorted(CFG):
     c = CFG[n]
     # No freshcheck: Parts A-F have authored bodies, not drafts. Everything this build
@@ -525,6 +526,14 @@ for n in sorted(CFG):
     print("  part %s %s | vocabulary clean | questions asked once | words %d (~%d min)"
           % (c['part'],
              'ok' if '--band:%s;' % PART_COLOUR[c['part']] in h else 'BAD', w, round(w / 210)))
+    # The figures' text, measured (review session 17): these figures have no script, so
+    # mapspine's guards never ran on them. Printed, not refused - the boxes are estimates.
+    said = pageguard.figure_text(h)
+    warned += len(said)
+    for s in said:
+        print("  ! " + s)
+    if said:
+        print("  !! figure text: %d line(s) above - read them in the page" % len(said))
     fail += page_fail
-print("\n%s" % ('all eleven built clean' if not fail else '!! %d problems' % fail))
+print("\n%s" % pageguard.summary('eleven', fail, warned))
 sys.exit(1 if fail else 0)

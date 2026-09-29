@@ -210,6 +210,8 @@ def main():
     fdate = defaultdict(lambda: defaultdict(set))   # anchor -> date -> {(ch, sid, ctx)}
     fyear = defaultdict(lambda: defaultdict(set))   # anchor -> year (adjacent only)
     fcount = defaultdict(lambda: defaultdict(set))  # (anchor, noun) -> value
+    import datetime as _dt
+    impossible = []                                 # (ch, sid, date as written, sentence)
     for ch, sid, s in sents:
         toks = [(m.start(), m.group(0)) for m in re.finditer(r"\S+", s)]
         starts = [t[0] for t in toks]
@@ -221,6 +223,26 @@ def main():
 
         for m in DATE.finditer(s):
             d = (int(m.group(1)), MON[m.group(2)], int(m.group(3)))
+            # A day the month does not have used to be skipped in silence by section 3's
+            # try/except, and only when it had a name beside it (review session 17). Every one
+            # is listed at the end of section 3, anchored or not.
+            # The book's calendar is Julian before 1 March 1700 (CONVENTIONS), and a Julian
+            # year divisible by four has a 29 February that the proleptic Gregorian date
+            # refuses (1500, 1300 - check 1 of review session 17). Not 1700: Denmark went
+            # from 18 February to 1 March 1700, so 19-29 February 1700 never happened there
+            # and are listed (check 2). A foreign date in its own style is listed only if the
+            # day does not exist in the proleptic Gregorian calendar (a Russian 29 February
+            # 1800, Sweden's 30 February 1712): read it, do not fix it.
+            julian_leap = d[:2] == (29, 2) and d[2] < 1700 and d[2] % 4 == 0
+            skipped = d[2] == 1700 and d[1] == 2 and 19 <= d[0] <= 29
+            try:
+                _dt.date(d[2], d[1], d[0])
+                ok = not skipped
+            except ValueError:
+                ok = julian_leap
+            if not ok:
+                impossible.append((ch, sid, m.group(0) + (" (skipped in Denmark)" if skipped
+                                                          else ""), s))
             for a in near(m.start(), WINDOW):
                 fdate[a][d].add((ch, sid, s))
         alts = "|".join(re.escape(w) for w in set(CAPWORD.findall(s)) if w in distinctive)
@@ -267,6 +289,10 @@ def main():
         print("      " + show(sorted(r1)[0]))
         print("      " + show(sorted(r2)[0]))
     print("  %d" % len(rows3))
+    print("  impossible dates (a day the month does not have, or one Denmark skipped in"
+          " 1700): %d" % len(impossible))
+    for ch, sid, d, s in impossible:
+        print("      ch %2d %-7s %s: %s" % (ch, sid, d, s[:200]))
 
     # ---- 4. years ---------------------------------------------------------------
     print()
