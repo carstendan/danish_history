@@ -53,9 +53,9 @@
   <circle cx="241.0" cy="589.6" r="2.4" fill="#3C3E36"/><text x="246.0" y="598.6" class="mapx" text-anchor="start">Hven</text>
   <circle cx="215.0" cy="439.3" r="2.4" fill="#3C3E36"/><text x="220.0" y="442.3" class="mapx" text-anchor="start">Oslo</text>
   <circle cx="170.4" cy="634.4" r="2.4" fill="#3C3E36"/><text x="165.4" y="637.4" class="mapx" text-anchor="end">Gottorp</text>
-  <path d="M 138.2 644.5 L 153.6 647.3" fill="none" stroke="#3C3E36" stroke-width=".8" opacity=".8"/>
+  <path d="M 138.2 647.5 L 153.6 647.3" fill="none" stroke="#3C3E36" stroke-width=".8" opacity=".8"/>
   <circle cx="153.6" cy="647.3" r="1.6" fill="#3C3E36"/>
-  <text x="135.2" y="647.5" class="mapt" text-anchor="end">Ditmarsken</text>
+  <text x="135.2" y="650.5" class="mapt" text-anchor="end">Ditmarsken</text>
   <rect x="14" y="187" width="19" height="10.5" fill="#2E6B5E" fill-opacity="0.62" stroke="#2E6B5E" stroke-width="1"/>
   <text x="40" y="196" class="mapx">Ruled directly</text>
   <rect x="14" y="204" width="19" height="10.5" fill="#2E6B5E" fill-opacity="0.3" stroke="#2E6B5E" stroke-width="1"/>

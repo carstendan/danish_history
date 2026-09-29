@@ -43,7 +43,12 @@ page's halo but is read here as unhaloed. Here: a small
 FILLED shape drawn as its own element - a closed-path arrowhead, a square marker - counts
 as ground, not as a mark (arrowheads drawn with <marker> are marks). And the check is by
 pixel, not by glyph: the box is shrunk a unit, so a line that ends against the edge of a
-letter can pass.
+letter can pass. DRAWING ORDER IS NOT READ (review session 19): a thin line drawn AFTER a
+haloed label is painted over its halo, and D-18 counts that as a crossing, but this reading
+takes every thin line as stopped by the halo (page 12's event lines through four labels);
+and the 3 per cent floor for an unhaloed text is above a thin dashed line across a long label
+(page 03's marker through white "farmer", about 2 per cent). ordercheck.py, in the page,
+sees both.
 """
 import re, sys, io
 sys.path.insert(0, ".")

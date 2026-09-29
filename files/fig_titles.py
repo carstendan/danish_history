@@ -48,7 +48,7 @@ RUNGS = [
       "vor n\u00e5dige frue dronning Margrete"],
      "Our gracious lady, Queen Margrete — a courtesy, and a step down on paper",
      ["A crowned king of her choosing,", "and her holdings secured for life"],
-     ["Nothing she had been doing.", "The title fell; the power did not."]),
+     ["Nothing she had been doing.", "The title fell;", "the power did not."]),
 ]
 
 TOP = 78
@@ -87,6 +87,18 @@ def fold(text, cls, avail):
 NOTE_LINES = fold(NOTE, "mapt", (W - 26) - 26)
 assert all(len(l) * CW["mapt"] + 26 <= W - 26 for l in NOTE_LINES), NOTE_LINES
 
+# THE COLUMNS END WHERE THE RULES END (review session 19). "The title fell; the power did
+# not." ran 12 units past the rules' end at W - 26: a column's lines are set by hand, so
+# each is checked here against the next column, or the rule's end, at CHAR_W.
+# The first column is checked too: its Danish lines (mapx) and gloss (mapt) against the
+# second, each column with six units to spare before the next (check 1).
+GAVE_X, HELD_X, GAP = 496, 700, 6
+for _y, _w, _danish, _gloss, _gave, _held in RUNGS:
+    assert all(26 + len(l.lstrip("~")) * CW["mapx"] <= GAVE_X - GAP for l in _danish), _danish
+    assert 26 + len(_gloss) * CW["mapt"] <= GAVE_X - GAP, _gloss
+    assert all(GAVE_X + len(l) * CW["mapx"] <= HELD_X - GAP for l in _gave), _gave
+    assert all(HELD_X + len(l) * CW["mapx"] <= W - 26 for l in _held), _held
+
 H = TOP + STEP * len(RUNGS) + 46 + LEAD * (len(NOTE_LINES) - 1)
 
 
@@ -106,8 +118,8 @@ def build():
          '<rect x="0" y="0" width="%d" height="%d" fill="%s"/>' % (W, H, M.PAPER)]
 
     o.append(t(26, 34, "THE WORDS", "mapt", PART_E))
-    o.append(t(496, 34, "WHAT THEY GRANTED", "mapt", PART_E))
-    o.append(t(700, 34, "WHAT THEY WITHHELD", "mapt", PART_E))
+    o.append(t(GAVE_X, 34, "WHAT THEY GRANTED", "mapt", PART_E))
+    o.append(t(HELD_X, 34, "WHAT THEY WITHHELD", "mapt", PART_E))
     o.append('<line x1="26" y1="46" x2="%d" y2="46" stroke="%s" stroke-width=".8"/>'
              % (W - 26, RULE))
 
@@ -130,9 +142,9 @@ def build():
                        extra="" if plain else ' font-style="italic"'))
         o.append(t(26, y + 30 + len(danish) * 15 + 3, gloss, "mapt", MUTED))
         for k, line in enumerate(gave):
-            o.append(t(496, y + 12 + k * 14, line, "mapx", MUTED))
+            o.append(t(GAVE_X, y + 12 + k * 14, line, "mapx", MUTED))
         for k, line in enumerate(held):
-            o.append(t(700, y + 12 + k * 14, line, "mapx", MUTED))
+            o.append(t(HELD_X, y + 12 + k * 14, line, "mapx", MUTED))
         if i < len(RUNGS) - 1:
             o.append('<line x1="26" y1="%.1f" x2="%d" y2="%.1f" stroke="%s" '
                      'stroke-width=".6" opacity=".8"/>' % (y + STEP - 16, W - 26,

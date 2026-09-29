@@ -4291,3 +4291,194 @@ is wired into the builds; the D-11 legacy colours; 10's opener 3; 15's opener 4;
 minutes; the five OVER (not for cutting, D-16); the "Ditmarschen" aria-labels
 (`svg_terr_1500/1600/1660`, pages 19, 21, 25) against D-15; Lindholmen in 16's key only; the Sound
 strip's last line near the caption; `maps-contact-sheet.html`'s repeated ids.
+
+## 23. Session 19 — what the page paints, and what the phone shows
+
+*29 September 2026, from `START_HERE_review_19.md`. State in `claude/session19_state.md` and
+`claude/session19_wip.patch`, saved after the cold run, after each task and after each check.*
+
+**The cold run matched every line** on a fresh clone of `4862837`: item 156's commit carries its 14
+pages, the 23 `svg_*.txt` and every source the brief lists, and the index is unchanged; tidy clean,
+45 bodies; FIXTURE PASSES; SEAM LAYER PASSES; debuild 45 identical; 45 of 45, 352,732 page words,
+28.0 h, every part as the brief; 21 is 50 minutes, 44 48, 45 50; vignettes 148/116, selftest
+passes; figcheck --regen 98/30/0, 0 warning lines, the tree clean after it; five OVER, 32 §09 749,
+13 §06 466; draftnotes clean in 45 and 14; appcheck 167 in 21; freshcheck 21; all seven builds
+clean, `--stub` refused; git clean after `linkindex` and `index_generator`; 2 pointers, 0
+same-page glosses; Schleswig 317 in 32, Slesvig 4 in 3; impossible dates 0, §5 lists 2; arrows
+254, 37 thread notes, form 7, 3b 11, solvency 38; linecheck 0 (3 on purpose), 01–11 0, `--bare`
+214; qs 0/224, Causal 0/168, Recall 0/198, 0 pairs.
+
+### 23.1 The order measure, as a tool (`ordercheck.py`)
+
+Session 18's measure (`claude/session18_order.py`) is now `files/ordercheck.py`: standalone, like
+linecheck, wired into no build (it needs Chromium and Playwright; without either, or without a
+Chromium it can launch, it prints "SKIPPED, nothing measured" and exits 2; 1 when it lists
+anything). Each text it lists names the elements drawn after it whose box
+meets it, or says that nothing does (a clip or a mask). Recommended to Carsten at the start of the
+session; built on that recommendation, and his to keep or drop.
+
+**The floor, tried.** Over all 45 pages at a floor of one pixel, session 18's version listed only
+page 12's three (9, 6, 6 pixels) and nothing at all between one and five. Six marks planted in a
+copy of page 43 - a 0.6 dark line, a 0.3 grey hairline, a dot of r 0.8, a 1-unit vertical, a paper
+wash at .35, a rust tint at .12 over a label: five were caught; **the tint was not**, because a
+pixel counted only when its luminance changed by more than 40 of 255. At 4 all six are caught.
+Check 1 found the second blind spot: the measure read only the band from .2 to .85 of a text's
+height, less 2 device px at its left and right ends, so a line through the ascenders or a
+descender's tail was missed, and so was a shipped fault (page 11, below). Check 2 planted a 0.4
+line just under a label's descenders, over its halo, and it was missed; check 3 found why: the
+boxes were read from the svg's fractional top while the screenshot starts at a whole CSS pixel, so
+every box sat up to 1 CSS px above its pixels (0 to 0.97 across the 128 figures, vertically only).
+The tool reads the boxes from the screenshot's own origin, counts a pixel when any one channel
+changes by more than 4, inside the text's whole box and its halo (1.3 user units round it, at the
+figure's scale: 1.0 CSS px at viewBox 900, 2.1 at 430), and lists a text from one pixel. A mark
+2 px from a halo is not listed; one within half a pixel shares a device pixel with it and is. The
+book gives no
+noise (the two renders differ only where something is painted over a text). Replanted: the
+shipped page 18 of `c9b6665` lists Hamborg (640) and Lübeck (506), with "nothing drawn after it
+meets its box: a clip, a mask, or a marker at a line's end". **On the book as this session found
+it: seven texts in three figures.**
+
+**What the lower threshold found, read in the page:**
+- **Page 03, the ancestry chart:** the "flint daggers" marker (dashed, x=647) was drawn after
+  "steppe-derived ancestry" and "farmer", white on the bands, and ran through the r of "farmer".
+  linecheck passes it: a white text has no halo and must sit on one flat ground, but its floor is
+  3 per cent of the box, and the line covers about 2 per cent of "farmer" and 0.5 of "steppe-derived
+  ancestry". Fixed in `c03_body.html`: both labels start at 660, clear of the line.
+- **Page 11, the descent to 1066 (check 1):** the red "claimed, did not sail" dot was drawn after
+  "Sweyn Estridsen" and sat on its S. Fixed in `c11_body.html`: both lines of the box's text are
+  centred 7 units right, six units clear of the dot and of the box's edge.
+- **Page 12, the reigns:** the five dashed event lines were drawn after the labels and crossed
+  "killed, Odense", "killed, Schleswig", "killed at a thing" and "abdicated" over their halos. Session 18 read them as
+  "beside the letters, not through them"; at five times they cross the letter gaps, and D-18 says
+  a line near a label is drawn before it. linecheck's halo reading does not look at drawing order.
+  Fixed in `svg_reigns.txt` (Part D, no generator; the `.txt` edited): the lines are drawn after the
+  gridlines and before the bars and labels. The bars are translucent, so the lines still show
+  through them.
+- **Page 06, the grades:** 3–15 pixels at SILVER, BRONZE and IRON - the measure's own fault. The
+  moved copy lost the halo's `stroke-linejoin`, which the page's CSS gives through the class on the
+  `<g>`. The tool now copies every stroke and font property the CSS sets, multiplies in the
+  opacity of every enclosing `<g>` and drops a clip set on the text itself (check 1: a text in a
+  `<g opacity>` was listed with nothing over it, and a text its own clip cut was missed; neither
+  occurs in the book); 06 lists nothing.
+
+After the fixes: **0 texts painted over, in 128 figures on 45 pages.** A marker at a line's end
+is caught but not named (a line's box leaves its markers out); a text painted over by a later
+text is not seen (§23.5).
+
+### 23.2 What else only the page shows
+
+`<use>`, `<pattern>`, `<symbol>`, filters, masks and gradients: none in the book. Markers: 10 in 6
+pages, every id unique in its page (`duplicate_ids()` covers a shared one). CSS reaching into the
+figures: `figure svg {width:100%}`, the three text classes and the halo exemptions; nothing else.
+
+**Measured: the phone width** (Chromium, 390 CSS px, the pages as built). No page scrolls sideways
+and no figure is wider than its box. **But the text shrinks with the figure: in 127 of 128 figures
+the smallest text is drawn under 5 CSS px** (3.1 px in 22 of the 23 900-wide figures, 4.0 in 64 of
+the 68 700-wide; at 430 px, 3.5 and 4.4). Page 01's first map (viewBox 430) is the one exception, at 6.4. The same
+measure at a desktop width (1200, a 694 px column) found a consistency fault: **the 23 figures
+drawn at viewBox 900 (pages 01–20) draw every class 22 per cent smaller than the 68 at 700** -
+mapx at 6.6 px against 8.4. Both are for Carsten (§23.6); nothing changed.
+
+### 23.3 The roads legend (page 18)
+
+With the whole map drawn (session 18) the key sat on the Frisian coast and the Elbe, legible
+through its halo. It takes a strip below the map now, as figs_19's key does (viewBox 700 → 762),
+and each swatch is drawn as its route is - a solid line and a dashed one, 31 long so the dash ends
+on a whole stroke, the widths and dash shared with the routes - where it had been two filled
+boxes, the dashed route shown solid. (figs_19's own key still ends its "7 5" dash on a stub.) The key
+texts take the class colour, as before (D-11: no `fill=`).
+
+### 23.4 §22.5's near misses, each looked at in the page
+
+- **16, the titles:** "The title fell; the power did not." ran 12 units past the rules' end
+  (x=874). Now "The title fell;" / "the power did not."; fig_titles asserts that every hand-set
+  line of all three columns ends six units before the next column, or inside the rule's end
+  (planted: the old line fails; the tightest, "Plenipotentiary…", passes by 0.4).
+- **21, the 1600 map:** "Ditmarsken" three units lower, and the leader's label end with it
+  (`map_1600.py`; the leader now runs nearly level); it sat a unit under Gottorp's descenders.
+- **39, the Landmandsbank calendar:** folded to W - 14, the header's margin, so "RESCUE TWO" takes
+  two lines, as RESCUE ONE does; and `figs_39.fold()` no longer leaves one word alone on a last
+  line (it did: "capital."), when the last line still fits the room with the word it takes (check
+  1: without that test it could overflow). Only this figure changes.
+- **43, the sabotage bars:** "924" sits under the 1,000 gridline, which the halo stops at the
+  digits; "988" clears it. Every value label sits above its bar; left.
+- **18, the Sound:** Helsingborg is clear of the toll line in the page. Left.
+
+### 23.5 Found, recorded, not changed
+
+- linecheck cannot see order: a thin line drawn after a haloed label is read as stopped by the halo
+  (page 12), and its 3 per cent floor for unhaloed text is above a thin dashed line (page 03).
+  ordercheck sees both; linecheck's docstring says so.
+- ordercheck cannot see a text painted over by a later text (the texts keep their order when
+  moved; collisions() covers text against text).
+- `linecheck --bare` 212 (was 214): the roads key's two texts are off the map.
+- Page 11, figure 3: William's second line ends about 3 units from his dot (check 2); legible,
+  left.
+- Carried: ON_BAR_INK on the grey bars; linecheck in no build; the D-11 legacy colours (page 12's
+  red notes draw grey); 10's opener 3; 15's opener 4; 21 and 45 at 50 minutes; the five OVER; the
+  "Ditmarschen" aria-labels; Lindholmen in 16's key only; the Sound strip's last line near the
+  caption; `maps-contact-sheet.html`'s repeated ids.
+
+### 23.6 Checked
+
+Check 1 (an agent that had not seen the work: its own clone of `4862837` with the patch, every
+script re-run and every part built, each changed figure looked at in its page in Chromium before
+and after, the tool's plants re-made, every claim tried): **ordercheck's box missed a shipped fault
+- page 11's dot on "Sweyn Estridsen" - and a line through ascenders or descenders**; its threshold
+was a luminance, not a channel as the docstring said; its SKIPPED path covered a missing
+Playwright but not a missing Chromium; a `<g opacity>` and a text's own clip fooled the moved copy;
+two phone figures were wrong (4.4 and 4.9 for 4.0 and 4.4); figs_39's no-widow rule could overflow
+its room; references to this section's end and to item 157 before they existed; fig_titles and the
+roads key repeated literals; "as figs_19's does" and "its leader with it" were loose - all taken.
+It found right: exactly pages 03, 12, 16, 18, 21 and 39 changed, nothing else, the index unchanged;
+every regenerated file byte-identical to the patch's; the plants, the replanted page 18, linecheck's
+floors, the marker and CSS census, `--bare` 212, bookstats unchanged.
+
+Check 2 (the changes since check 1, and every claim in §23, item 157, D-18's new lines, the
+linecheck docstring and START_HERE_20, with the quick cold-run commands run on a full rebuild in
+its copy): **a 0.4 line over "The graph does not rise…"'s halo, under its descenders, was missed**
+(the box was given a pad for the halo; check 3 found the real cause, below); "three labels" for four in linecheck's docstring; "than the rest" for "than
+the 68 at 700"; "less 2 px at each end" for the left and right ends; "3.1 px in the 900-wide" for
+22 of the 23; D-18's "every text something is painted over" said more than the tool sees; §23.7
+not yet written; the four generated `svg_*.txt` belong in the commit, not the patch - all taken.
+It found right: the refactors change no output; page 11 is the only page new since check 1; the
+rebuilt tree gives every number START_HERE_20 lists; every plant, the SKIPPED paths, the page 11
+fix at both widths.
+
+Check 3 (the changes since check 2): **check 2's explanation was wrong** - the 0.4 line lay inside
+the text's box; the boxes were read up to 1 CSS px above their pixels, because the screenshot
+starts at a whole pixel and the boxes were measured from the svg's fractional top (the tool now
+floors that origin); the halo pad was given in CSS px where the halo is 2.6 user units (now 1.3
+user units at each figure's scale); item 157's tally of check 2 did not match this section - all
+taken. Its pad plants: 2 px from the halo, not listed; 0.5 px, listed (a shared device pixel, now
+in the docstring). With the fixes: the book 0 in 128, the shipped book seven in three, every plant
+listed.
+
+Check 3's fixes to the tool were not given to a fourth agent; its own plants (2 px and 0.5 px from
+a halo, at the end and below a text) and all earlier ones were re-run on them and read as it found.
+
+### 23.7 Verified
+
+In the working clone after the last edit: the four changed figure scripts re-run; all seven part
+builds clean, `--stub` refused; `linkindex`, `index_generator`; **tidy clean; FIXTURE PASSES; SEAM
+LAYER PASSES; debuild 45 identical; 45 of 45, 352,732 page words, 28.0 h, every part unchanged; 21
+is 50 minutes, 44 48, 45 50; vignettes 148/116, selftest passes; figcheck --regen 98 match, 30
+sourceless, 0 disagree, 0 warning lines; five OVER, unchanged; draftnotes clean in 45 and 14;
+appcheck 167 in 21; freshcheck 21; 2 pointers; Schleswig 317 in 32, Slesvig 4 in 3; impossible
+dates 0; arrows 254, 37 thread notes, solvency 38; qs 0/224, Causal 0/168, Recall 0/198, 0 pairs;
+linecheck 0 over `svg_*.txt` (3 on purpose) and over 01–11's bodies, `--bare` 212; ordercheck 0 in
+128 figures on 45 pages.** Pages that change: **03, 11, 12, 16, 18, 21, 39.** The index does not.
+
+### 23.8 Decisions for Carsten
+
+**New:** whether `ordercheck.py` stays in `files/` (built on the recommendation; it needs
+Playwright and a Chromium, and says SKIPPED without them) and whether it is wired into anything;
+**figure text at the phone width** - under 5 CSS px in 127 of 128 figures at 390 px (a figure could
+keep a minimum width and scroll sideways inside its box, or the book accepts pinch-to-zoom); **the
+23 figures at viewBox 900** (pages 01–20), whose every class draws 22 per cent smaller than the 68
+at 700. **Closed:** the page 18 roads legend (§23.3). **Open, carried:** dark `ON_BAR_INK` on the
+grey bars of 01–03 (white there is 3.2:1); whether `linecheck` is wired into the builds; the D-11
+legacy colours; 10's opener 3; 15's opener 4; 21 and 45 at 50 minutes; the five OVER (not for
+cutting, D-16); the "Ditmarschen" aria-labels (`svg_terr_1500/1600/1660`, pages 19, 21, 25)
+against D-15; Lindholmen in 16's key only; the Sound strip's last line near the caption;
+`maps-contact-sheet.html`'s repeated ids.

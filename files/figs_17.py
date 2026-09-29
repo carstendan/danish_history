@@ -123,29 +123,32 @@ def toll():
 def roads():
     BBOX = (7.4, 53.3, 14.2, 57.9)
     W, H = 660, 700
+    STRIP = 62
     NEAR = (5.0, 52.0, 18.0, 60.0)
     f = M.detail_frame(BBOX, W, H)
     o = ['<svg viewBox="0 0 %d %d" xmlns="http://www.w3.org/2000/svg" role="img" '
          'aria-label="Map of Jutland and the western Baltic showing the two ways Danish goods '
          'left the country in the fifteenth century: the ox road overland down the spine of '
          'Jutland to Hamburg and the Rhine towns, and the sea route through the Sound past '
-         'Helsingor. Luebeck, Hamburg, Ribe, Kolding, Viborg and Aalborg are marked.">' % (W, H)]
+         'Helsingor. Luebeck, Hamburg, Ribe, Kolding, Viborg and Aalborg are marked.">' % (W, H + STRIP)]
     # ITS OWN CLIP ID (review session 18). Both maps on page 18 took detail_base()'s
     # default "fr"; the page resolves url(#fr) to the first, the Sound's 600-high
     # rectangle, and this map lost its bottom hundred units - Hamborg, Luebeck and the
     # end of the ox road - on the shipped page. pageguard.duplicate_ids() now refuses it.
     o += M.detail_base(f, W, H, NEAR, clip="fr_roads")
 
+    # the two routes' strokes, shared with the key below
+    OX_W, SEA_W, SEA_DASH = 2.6, 2.2, "7 5"
     OXROAD = [(9.93, 57.05), (9.40, 56.45), (9.35, 56.10), (9.40, 55.72), (9.47, 55.49),
               (9.35, 55.20), (9.40, 54.90), (9.55, 54.51), (9.66, 54.30), (9.98, 53.55)]
     d = f.path(OXROAD, close=False)
-    o.append('<path d="%s" fill="none" stroke="%s" stroke-width="2.6" opacity=".85"/>' % (d, M.CLAIM))
+    o.append('<path d="%s" fill="none" stroke="%s" stroke-width="%s" opacity=".85"/>' % (d, M.CLAIM, OX_W))
 
     SEA = [(14.10, 54.55), (13.30, 54.95), (12.80, 55.30), (12.65, 55.62), (12.62, 56.04),
            (12.30, 56.55), (11.30, 57.35), (10.30, 57.80), (8.60, 57.72)]
     d = f.path(SEA, close=False)
-    o.append('<path d="%s" fill="none" stroke="%s" stroke-width="2.2" stroke-dasharray="7 5" '
-             'opacity=".85"/>' % (d, PART_E))
+    o.append('<path d="%s" fill="none" stroke="%s" stroke-width="%s" stroke-dasharray="%s" '
+             'opacity=".85"/>' % (d, PART_E, SEA_W, SEA_DASH))
 
     for lon, lat, name, anchor in [
             (9.93, 57.05, "Aalborg", "start"), (9.40, 56.45, "Viborg", "end"),
@@ -166,11 +169,24 @@ def roads():
     o.append(M.note(f, 8.45, 57.50, "to Amsterdam", cls="mapt", anchor="middle"))
     o.append('</g>')
 
-    o.append(M.legend([("Cattle, driven south on the hoof", M.CLAIM, .85),
-                       ("Grain and goods, taxed at Helsing\u00f8r", PART_E, .85)],
-                      x=18, y=H - 46))
+    # THE KEY ON ITS OWN GROUND (review session 19). With the whole map drawn (session 18),
+    # a key at H - 46 sat on the Frisian coast and the Elbe; it read through its halo, but a
+    # key is not a label on the map. It takes a strip below the map, like figs_19's key, and
+    # each swatch is drawn as its route is - a line, the sea route dashed - not a filled box.
+    o.append('<rect x="0" y="%d" width="%d" height="%d" fill="%s"/>' % (H, W, STRIP, M.PAPER))
+    o.append('<line x1="0" y1="%d" x2="%d" y2="%d" stroke="%s" stroke-width=".8"/>'
+             % (H, W, H, M.LAND_EDGE))
+    for i, (col, width, dash, lab) in enumerate([
+            (M.CLAIM, OX_W, "", "Cattle, driven south on the hoof"),
+            (PART_E, SEA_W, SEA_DASH, "Grain and goods, taxed at Helsing\u00f8r")]):
+        y = H + 26 + i * 21
+        # 31 long: the dash 7 5 ends on a whole stroke (26 ended on a 2-unit stub)
+        o.append('<line x1="18" y1="%d" x2="49" y2="%d" stroke="%s" stroke-width="%s" '
+                 'opacity=".85"%s/>' % (y - 4, y - 4, col, width,
+                                         ' stroke-dasharray="%s"' % dash if dash else ''))
+        o.append('<text x="62" y="%d" class="mapx">%s</text>' % (y, lab))
     o.append('</svg>')
-    return "\n  ".join(o), W, H
+    return "\n  ".join(o), W, H + STRIP
 
 
 if __name__ == "__main__":

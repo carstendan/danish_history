@@ -478,9 +478,12 @@ them. Carsten, 28 September 2026, chose the halo over moving some two hundred la
 great majority", is measured right since review session 17: `mapspine.text_items()` reads a
 `<g>`'s text-anchor and class, markup and rotation). It reports a fill spelt any other way and a
 light `fill=` attribute. An aid to looking, wired into no build; the text guards it shares its
-measure with (overruns, overflows, collisions) run in every build since session 17.
+measure with (overruns, overflows, collisions) run in every build since session 17. linecheck
+does not read drawing order; `ordercheck.py` does, in the page (Chromium): it lists a text when
+a later mark or a clip changes pixels in its box or its halo (review session 19; 0 in 128
+figures; a later text over it is not seen), and is wired into no build either.
 
-**Defined.** Here; `HANDOFF.md` item 154; `REVIEW-CONSISTENCY.md` §20.
+**Defined.** Here; `HANDOFF.md` items 154 and 157; `REVIEW-CONSISTENCY.md` §20 and §23.
 
 ---
 

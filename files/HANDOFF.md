@@ -5278,6 +5278,67 @@ split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see it
 
 ---
 
+157. **The consistency review, session 19: what the page paints, and what the phone shows.**
+   29 September 2026. Full record in `REVIEW-CONSISTENCY.md` §23.
+
+   **Cold run on a fresh clone of `4862837`: every line matched START_HERE_review_19**, and item
+   156's commit carries its 14 pages, the 23 `svg_*.txt` and every source listed. State lived in
+   `claude/session19_state.md` and `claude/session19_wip.patch`.
+
+   **THE ORDER MEASURE, A TOOL.** `files/ordercheck.py` (recommended to Carsten, built on that;
+   standalone, in no build): each figure screenshotted in Chromium as built and with every text
+   moved to the end of its svg; any pixel that differs inside a text's box means something was
+   painted over it, and the tool names what was drawn after. **Its floor was tried, twice.** Six
+   plants: session 18's threshold (40 of 255, luminance) missed a .12 tint over a label; at 4 of
+   any channel all are caught. Check 1: the box was only the middle band of the text less 2 px at
+   each end, and missed a line through ascenders or descenders - and a shipped fault. Check 2: a
+   line over a halo, under the descenders, was missed; check 3: because every box was read up to
+   1 CSS px above its pixels (the screenshot starts at a whole pixel). Now the boxes from the
+   screenshot's origin, the whole box and the halo round it at the figure's scale, from one
+   pixel, with no noise on the book. The moved copy keeps the halo's
+   linejoin (06 was the tool's own fault), a `<g>`'s opacity, and drops a text's own clip. Without
+   Playwright or a Chromium: SKIPPED, exit 2.
+
+   **FOUND SHIPPED, FIXED: seven texts in three figures.** **03**, the "flint daggers" marker
+   through white "farmer" (linecheck's 3 per cent unhaloed floor passes it) - both labels moved
+   clear; **11**, the "claimed, did not sail" dot on the S of "Sweyn Estridsen" - the box's text
+   centred 7 right; **12**, five event lines drawn after four labels, over their halos (linecheck
+   does not read order; session 18 read them as "beside") - drawn before the bars and labels now
+   (`svg_reigns.txt`, Part D, edited by hand). After: 0 in 128 figures.
+
+   **WHAT ONLY THE PAGE SHOWS.** No `<use>`, pattern, symbol, filter, mask or gradient in the book;
+   markers' ids unique; CSS reaches the figures only through width, the text classes and the halo.
+   **Measured, the phone width** (390 px): no page scrolls sideways, but 127 of 128 figures draw
+   their smallest text under 5 CSS px (3.1 in the 900-wide, 4.0 in most 700-wide). And at the
+   desktop column the **23 figures drawn at viewBox 900 (pages 01–20) draw every class 22 per cent
+   smaller than the 68 at 700**. Both for Carsten; nothing changed.
+
+   **THE ROADS LEGEND (page 18)** takes a strip below the map, with line swatches drawn as the
+   routes are (the sea route's dash, which the key showed solid). **§22.5's near misses:** 16's
+   "The title fell; the power did not." rewrapped inside the rules, and fig_titles asserts every
+   hand-set column line; 21's Ditmarsken three units lower; 39's RESCUE TWO folded to the header's
+   margin, and fold() leaves no word alone on a last line; 43's "924" and 18's Helsingborg read in
+   the page and left.
+
+   **CHECKED** (§23.6): check 1 - the tool's box and threshold, page 11, the SKIPPED path, the
+   moved copy's opacity and clip, two phone figures, an overflowing widow rule, dangling
+   references, literals; check 2 - a line over a halo missed, two counts, three loose phrasings,
+   D-18 saying more than the tool sees, §23.7 unwritten, the generated svgs out of the patch;
+   check 3 - check 2's explanation wrong (the boxes sat above their pixels), the halo pad in the
+   wrong units, this tally; all taken.
+
+   **VERIFIED** after the last edit (§23.7). Pages that change: **03, 11, 12, 16, 18, 21, 39.**
+   The index does not change.
+
+   **LESSON.** A floor is a claim, and so is a box. The measure that found session 18's faults
+   was trusted at its own threshold and its own crop; a tint below the one and a dot outside the
+   other were both on the page. And a guard's reading is a claim too: session 18 looked at page
+   12's lines and read "beside the letters" - the rule (D-18: under means drawn before) was
+   already written, and the measure at a lower floor said what the eye had passed. *Plant what the
+   check should catch, at the edge of what it measures, before trusting its silence.*
+
+---
+
 
 ## Convention D-12: draft prose is never written through a shell heredoc
 

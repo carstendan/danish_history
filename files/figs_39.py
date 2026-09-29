@@ -78,6 +78,12 @@ def fold(text, cls, x, avail):
             line = (line + " " + word).strip()
     if line:
         out.append(line)
+    # no word left alone on the last line (review session 19: "capital."): the line
+    # above gives it its last word, if the last line still fits the room with it
+    if len(out) > 1 and " " not in out[-1] and " " in out[-2]:
+        head, word = out[-2].rsplit(" ", 1)
+        if len(word) + 1 + len(out[-1]) <= room:
+            out[-2:] = [head, word + " " + out[-1]]
     return out
 
 
@@ -188,7 +194,9 @@ TONE = {"bank": DE, "state": OX, "law": IND}
 def krak():
     left, top, row = 150, 96, 34
     axis = left - 26
-    lines = [fold(t, "mapt" if t.startswith(("RESCUE", "THE GUAR")) else "mapx", left, W)
+    # folded to W - 14, the header's own margin (review session 19): at W, "RESCUE TWO ...
+    # share capital." fitted by one unit and ended 7 from the edge on the Mac.
+    lines = [fold(t, "mapt" if t.startswith(("RESCUE", "THE GUAR")) else "mapx", left, W - 14)
              for _, t, _ in KRAK]
     ys, y = [], top
     for ls in lines:

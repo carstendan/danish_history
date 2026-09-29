@@ -130,6 +130,9 @@ def build():
         out.append(M.dot(f, lon, lat, t, anchor=a, dx=dx, dy=dy))
 
     lx, ly = f.xy(8.02, 54.05)
+    # the label three units lower (review session 19): at f.xy's y, "Ditmarsken" sat a unit
+    # under Gottorp's descenders, their halos touching; the leader's label end moves with it
+    ly += 3
     tx, ty = f.xy(8.86, 54.12)
     out.append('<path d="M %.1f %.1f L %.1f %.1f" fill="none" stroke="%s" stroke-width=".8" '
                'opacity=".8"/>' % (lx + 3, ly - 3, tx, ty, M.INK))
