@@ -50,6 +50,14 @@ INK    = "#2A2A28"
 DK     = "#2E6B5E"          # the Danish side, as CORE elsewhere in the book
 DE     = "#8C5A3C"
 OX     = "#9A3B2E"
+# DE as a text ink on the zone map's fills reaches 4.21:1 beside the letters (the halo over
+# the green and the tan), under the 4.5 floor: there it is drawn in the same hue darker
+# (review session 20, D-11). Elsewhere DE draws as itself.
+DE_INK = "#835438"
+
+
+def zone_ink(col):
+    return DE_INK if col == DE else col
 
 
 def fold(text, cls, x, avail):
@@ -201,9 +209,11 @@ def zones():
         o.append('<text x="%.1f" y="%.1f" class="mapx" text-anchor="%s" fill="%s">%s</text>'
                  % (x + dx, ny, anc, INK, name))
         if da is not None:
-            o.append('<text x="%.1f" y="%.1f" class="mapx" text-anchor="%s" fill="%s">'
+            # style=, not fill= (D-11): a count in its side's colour drew grey (review
+            # session 20); the town names ask INK, a grey, and draw the class grey as recorded
+            o.append('<text x="%.1f" y="%.1f" class="mapx" text-anchor="%s" style="fill:%s">'
                      '%s dansk · %s tysk</text>'
-                     % (x + dx, ny + 11.0, anc, col,
+                     % (x + dx, ny + 11.0, anc, zone_ink(col),
                         "{:,}".format(da).replace(",", "."),
                         "{:,}".format(de).replace(",", ".")))
 
@@ -214,9 +224,10 @@ def zones():
             (8.60, 54.66, "ZONE 2 · 14 March",
              "counted commune by commune · about 80 pct. tysk", DE)):
         x, y = f.xy(lo, la)
-        o.append('<text x="%.1f" y="%.1f" class="mapt" fill="%s">%s</text>' % (x, y, col, head))
-        o.append('<text x="%.1f" y="%.1f" class="mapx" fill="%s">%s</text>'
-                 % (x, y + 12, col, sub))
+        o.append('<text x="%.1f" y="%.1f" class="mapt" style="fill:%s">%s</text>'
+                 % (x, y, zone_ink(col), head))
+        o.append('<text x="%.1f" y="%.1f" class="mapx" style="fill:%s">%s</text>'
+                 % (x, y + 12, zone_ink(col), sub))
 
     # TWO groups are open here, not one: the translate wrapper above and the
     # clip group detail_base opens and documents that the caller must close.
@@ -226,7 +237,7 @@ def zones():
 
     # legend strip, below the clipped map group
     ly = 52 + mh + 20
-    o.append('<text x="14" y="%d" class="mapt" fill="%s">the red line is both the zone '
+    o.append('<text x="14" y="%d" class="mapt" style="fill:%s">the red line is both the zone '
              'boundary and the border. That is the argument.</text>' % (ly, OX))
     y = ly + 15
     for ln in A:
@@ -313,8 +324,11 @@ def year():
                  % (axis - 10, y, INK, date))
         cls = "mapt" if big else "mapx"
         for j, ln in enumerate(fold(text, cls, left, W)):
-            o.append('<text x="%d" y="%.1f" class="%s" fill="%s">%s</text>'
-                     % (left, y + j * 12, cls, col if big else INK, ln))
+            # an election in its dot's colour, in style= (D-11: it drew grey); the other
+            # lines ask INK, a grey, and draw the class grey as recorded (review session 20)
+            paint = 'style="fill:%s"' % col if big else 'fill="%s"' % INK
+            o.append('<text x="%d" y="%.1f" class="%s" %s>%s</text>'
+                     % (left, y + j * 12, cls, paint, ln))
     fy = top + row * (len(YEAR) - 1) + 34
     for ln in fold("On 21 September the Folketing took in members from the north, which is "
                    "what the whole year had been about: the new land had to be able to send "
@@ -374,7 +388,8 @@ def union():
     for title, col, items in ICELAND:
         o.append('<rect x="14" y="%.1f" width="4" height="%.1f" fill="%s"/>'
                  % (y - 12, head + line * len(items) - 4, col))
-        o.append('<text x="28" y="%.1f" class="mapt" fill="%s">%s</text>' % (y, col, title))
+        # style=, not fill= (D-11): each block's title in its bar's colour (review session 20)
+        o.append('<text x="28" y="%.1f" class="mapt" style="fill:%s">%s</text>' % (y, col, title))
         y += head
         for it in items:
             o.append('<text x="40" y="%.1f" class="mapx">%s</text>' % (y, it))

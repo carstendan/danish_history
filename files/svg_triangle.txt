@@ -19,20 +19,20 @@
   <text x="250" y="324" class="mapt" text-anchor="middle">VESTINDIEN</text>
   <line x1="26" y1="384" x2="674" y2="384" stroke="#C9CDC4" stroke-width="1"/>
   <rect x="26" y="398" width="22" height="9" fill="#2F4C7A" opacity=".75"/>
-  <text x="56" y="406" class="mapx" fill="#2F4C7A">FIRST LEG</text>
+  <text x="56" y="406" class="mapx" style="fill:#2F4C7A">FIRST LEG</text>
   <text x="26" y="426" class="mapt">Indian cotton above all,</text>
   <text x="26" y="439" class="mapt">then other textiles,</text>
   <text x="26" y="452" class="mapt">firearms, gunpowder,</text>
   <text x="26" y="465" class="mapt">brandy; mirrors, coral,</text>
   <text x="26" y="478" class="mapt">hats, tobacco pipes</text>
   <rect x="244" y="398" width="22" height="9" fill="#8A2B2B" opacity=".75"/>
-  <text x="274" y="406" class="mapx" fill="#8A2B2B">THE MIDDLE PASSAGE</text>
+  <text x="274" y="406" class="mapx" style="fill:#8A2B2B">THE MIDDLE PASSAGE</text>
   <text x="244" y="426" class="mapt">2–3 months.</text>
   <text x="244" y="439" class="mapt">Between one in six and</text>
   <text x="244" y="452" class="mapt">one in five of the people</text>
   <text x="244" y="465" class="mapt">put aboard did not arrive.</text>
   <rect x="462" y="398" width="22" height="9" fill="#A9601C" opacity=".75"/>
-  <text x="492" y="406" class="mapx" fill="#A9601C">THIRD LEG</text>
+  <text x="492" y="406" class="mapx" style="fill:#915218">THIRD LEG</text>
   <text x="462" y="426" class="mapt">raw sugar, refined in</text>
   <text x="462" y="439" class="mapt">Copenhagen under</text>
   <text x="462" y="452" class="mapt">monopoly and sold in</text>

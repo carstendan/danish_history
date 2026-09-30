@@ -111,7 +111,9 @@ def campaign():
     o.append('<path d="M %.1f %.1f A %.1f %.1f 0 0 0 %.1f %.1f" fill="none" stroke="%s" '
              'stroke-width="1.6" stroke-dasharray="3 3" opacity=".85"/>'
              % (kx - 2, ky - r, r, r, kx - 2, ky + r, OX))
-    o.append('<text x="%.1f" y="%.1f" class="mapt" text-anchor="end" fill="%s">the '
+    # style=, not fill= (D-11): the names of the red arc and the blue arrow drew grey
+    # (review session 20)
+    o.append('<text x="%.1f" y="%.1f" class="mapt" text-anchor="end" style="fill:%s">the '
              'batteries</text>' % (kx - r - 4, ky + r + 14, OX))
 
     # the fleet leaving
@@ -120,7 +122,7 @@ def campaign():
     o.append('<path d="M %.1f %.1f C %.1f %.1f, %.1f %.1f, %.1f %.1f" fill="none" stroke="%s" '
              'stroke-width="2.2"/>' % (kx, ky - 10, fx + 20, fy, gx + 40, gy - 10, gx, gy, IND))
     o.append('<path d="M %.1f %.1f l 9 -4 l 0 8 Z" fill="%s"/>' % (gx - 9, gy, IND))
-    o.append('<text x="%.1f" y="%.1f" class="mapx" text-anchor="start" fill="%s">the fleet, to '
+    o.append('<text x="%.1f" y="%.1f" class="mapx" text-anchor="start" style="fill:%s">the fleet, to '
              'England</text>' % (gx + 6, gy - 8, IND))
 
     for lon, lat, t, a, dy in [(12.57, 55.68, "K\u00f8benhavn", "end", -8),

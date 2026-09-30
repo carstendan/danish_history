@@ -29,8 +29,8 @@
   <text x="747.0" y="118" class="mapl" text-anchor="middle" fill="#221E18">N</text>
   <rect x="778.0" y="98" width="62.0" height="30" fill="none" stroke="#C9CDC4" stroke-width=".8"/>
   <text x="809.0" y="118" class="mapl" text-anchor="middle" fill="#221E18">D</text>
-  <text x="624.0" y="146" class="mapx" fill="#A9601C" text-anchor="middle">the market: 24 August – 9 October</text>
-  <text x="251.0" y="146" class="mapx" fill="#3E8474" text-anchor="middle">Lent</text>
+  <text x="624.0" y="146" class="mapx" style="fill:#915218" text-anchor="middle">the market: 24 August – 9 October</text>
+  <text x="251.0" y="146" class="mapx" style="fill:#377668" text-anchor="middle">Lent</text>
   <text x="26" y="118" class="mapx" fill="#6C6E63">caught</text>
   <text x="26" y="192" class="mapt" fill="#A9601C">THE GROUND</text>
   <text x="26" y="210" class="mapx" fill="#6C6E63">Skanør and Falsterbo: a sand spit divided into fenced plots — <tspan font-style="italic">feder</tspan> — one to each town.</text>

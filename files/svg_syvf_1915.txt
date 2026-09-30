@@ -5,31 +5,31 @@
   <rect x="14" y="64" width="6" height="20" fill="#4A5A46"/>
   <text x="26" y="76" class="mapl">Fruentimmere</text>
   <text x="131" y="76" class="mapt">women</text>
-  <text x="674" y="76" class="mapl" text-anchor="end" fill="#4A5A46">1915</text>
+  <text x="674" y="76" class="mapl" text-anchor="end" style="fill:#4A5A46">1915</text>
   <rect x="14" y="94" width="6" height="20" fill="#4A5A46"/>
   <text x="26" y="106" class="mapl">Folkehold</text>
   <text x="131" y="106" class="mapt">servants in another household</text>
-  <text x="674" y="106" class="mapl" text-anchor="end" fill="#4A5A46">1915</text>
+  <text x="674" y="106" class="mapl" text-anchor="end" style="fill:#4A5A46">1915</text>
   <rect x="14" y="124" width="6" height="20" fill="#4A5A46"/>
   <text x="26" y="136" class="mapl">Fattige</text>
   <text x="131" y="136" class="mapt">those on unrepaid poor relief</text>
-  <text x="674" y="136" class="mapl" text-anchor="end" fill="#4A5A46">1961</text>
+  <text x="674" y="136" class="mapl" text-anchor="end" style="fill:#4A5A46">1961</text>
   <rect x="14" y="154" width="6" height="20" fill="#4A5A46"/>
   <text x="26" y="166" class="mapl">Fallenter</text>
   <text x="131" y="166" class="mapt">bankrupts</text>
-  <text x="674" y="166" class="mapl" text-anchor="end" fill="#4A5A46">1953</text>
+  <text x="674" y="166" class="mapl" text-anchor="end" style="fill:#4A5A46">1953</text>
   <rect x="14" y="184" width="6" height="20" fill="#C2704F"/>
   <text x="26" y="196" class="mapl">Fjolser</text>
   <text x="131" y="196" class="mapt">those under guardianship</text>
-  <text x="674" y="196" class="mapl" text-anchor="end" fill="#C2704F">still out</text>
+  <text x="674" y="196" class="mapl" text-anchor="end" style="fill:#A35738">still out</text>
   <rect x="14" y="214" width="6" height="20" fill="#4A5A46"/>
   <text x="26" y="226" class="mapl">Forbrydere</text>
   <text x="131" y="226" class="mapt">convicts</text>
-  <text x="674" y="226" class="mapl" text-anchor="end" fill="#4A5A46">1953</text>
+  <text x="674" y="226" class="mapl" text-anchor="end" style="fill:#4A5A46">1953</text>
   <rect x="14" y="244" width="6" height="20" fill="#C2704F"/>
   <text x="26" y="256" class="mapl">Fremmede</text>
   <text x="131" y="256" class="mapt">those without Danish citizenship</text>
-  <text x="674" y="256" class="mapl" text-anchor="end" fill="#C2704F">still out</text>
+  <text x="674" y="256" class="mapl" text-anchor="end" style="fill:#A35738">still out</text>
   <line x1="14" y1="58" x2="674" y2="58" stroke="#C9CDC4" stroke-width="1"/>
   <line x1="14" y1="268" x2="674" y2="268" stroke="#C9CDC4" stroke-width="1"/>
   <text x="26" y="292" class="mapt">The constitution of 5 June 1915 admitted 2 of the seven. It is routinely described</text>

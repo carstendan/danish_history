@@ -133,6 +133,41 @@
     ul.plain .nm{width:auto}
   }
 
+  /* below the 900-wide figures' breakout, a figure keeps 0.8 of its viewBox width and
+     scrolls sideways in its box, so no class draws smaller than on a 700 figure at 0.8
+     (mapx 6.8 px): at 390 px every figure scrolls; from 721 to 999 px only the 900-wide
+     ones do, by 95 px at most; review session 20. A new viewBox width needs its line here:
+     pageguard.figure_widths() refuses a page without. Screen only: paper cannot scroll (Chromium
+     prints A4 and Letter 720 to 816 px wide, landscape 981 to 1124), so in print a figure
+     shrinks to the page as it always did
+     (check 1 printed a mark at a 900 figure's right edge: cut). The caption stays in view
+     while the figure scrolls under it (check 1: it scrolled away with the figure) */
+  @media screen and (max-width:999px){
+    figure{overflow-x:auto}
+    figure figcaption{position:sticky;left:0}
+    figure svg[viewBox^="0 0 430 "]{min-width:344px}
+    figure svg[viewBox^="0 0 640 "]{min-width:512px}
+    figure svg[viewBox^="0 0 660 "]{min-width:528px}
+    figure svg[viewBox^="0 0 700 "]{min-width:560px}
+    figure svg[viewBox^="0 0 720 "]{min-width:576px}
+    figure svg[viewBox^="0 0 900 "]{min-width:720px}
+  }
+
+  /* a 900-wide figure leaves the column to draw at its own width, as large as a 700 one
+     (the svg is 694 px in the column); both sides where there is no rail, rightward only
+     beside the rail (it ends 68 px left of the column). Its caption keeps the column's
+     measure and, where the figure widens both ways, the column's indent; review session 20 */
+  @media screen and (min-width:1000px){
+    figure:has(> svg[viewBox^="0 0 900 "]) figcaption{max-width:694px}
+  }
+  @media screen and (min-width:1000px) and (max-width:1239px){
+    figure:has(> svg[viewBox^="0 0 900 "]){margin-left:-103px;margin-right:-103px}
+    figure:has(> svg[viewBox^="0 0 900 "]) figcaption{margin-left:103px}
+  }
+  @media screen and (min-width:1240px){
+    figure:has(> svg[viewBox^="0 0 900 "]){margin-right:-206px}
+  }
+
   html{scroll-behavior:smooth}
   @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
   h2[id],div.myth[id]{scroll-margin-top:24px}
@@ -477,8 +512,8 @@ obvious reading of the name, came from Jutland.</p>
   <circle cx="321.1" cy="162.3" r="3.8" fill="#2E6B5E" stroke="#F0F2EE" stroke-width="1.2"/>
   <text x="328.1" y="167.3" class="mapx" text-anchor="start">Gudme</text>
   <text x="182.3" y="186.1" class="mapl" text-anchor="middle" fill="#3C3E36">BRITAIN</text>
-  <text x="513.1" y="233.1" class="mapl" text-anchor="middle" fill="#6B4A2F">HUNS</text>
-  <text x="416.6" y="334.8" class="mapl" text-anchor="middle" fill="#6B4A2F">GOTHS</text>
+  <text x="513.1" y="233.1" class="mapl" text-anchor="middle" style="fill:#6B4A2F">HUNS</text>
+  <text x="416.6" y="334.8" class="mapl" text-anchor="middle" style="fill:#6B4A2F">GOTHS</text>
   <text x="326.9" y="100.1" class="mapt" text-anchor="middle" fill="#3C4E54">THE NORTH STAYS PUT</text>
   <text x="14" y="26" class="mapl">THE MIGRATION PERIOD, c. 400–550</text>
   <line x1="14" y1="40" x2="34" y2="40" stroke="#A9601C" stroke-width="2.6"/>

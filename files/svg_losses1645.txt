@@ -14,20 +14,20 @@
   <text x="57.7" y="189.1" class="mapl" text-anchor="middle">NORGE</text>
   <text x="64.1" y="407.8" class="mapl" text-anchor="middle">DANMARK</text>
   <text x="243.8" y="245.8" class="mapl" text-anchor="middle">SVERIGE</text>
-  <text x="190.3" y="130.6" class="mapt" text-anchor="start" fill="#8A2B2B">Jämtland &amp;</text>
-  <text x="190.2" y="150.0" class="mapt" text-anchor="start" fill="#8A2B2B">Härjedalen</text>
-  <text x="262.6" y="349.6" class="mapt" text-anchor="start" fill="#8A2B2B">Gotland</text>
-  <text x="333.9" y="312.9" class="mapt" text-anchor="start" fill="#8A2B2B">Ösel</text>
-  <text x="89.8" y="369.0" class="mapt" text-anchor="end" fill="#8A2B2B">Halland</text>
+  <text x="190.3" y="130.6" class="mapt" text-anchor="start" style="fill:#8A2B2B">Jämtland &amp;</text>
+  <text x="190.2" y="150.0" class="mapt" text-anchor="start" style="fill:#8A2B2B">Härjedalen</text>
+  <text x="262.6" y="349.6" class="mapt" text-anchor="start" style="fill:#8A2B2B">Gotland</text>
+  <text x="333.9" y="312.9" class="mapt" text-anchor="start" style="fill:#8A2B2B">Ösel</text>
+  <text x="89.8" y="369.0" class="mapt" text-anchor="end" style="fill:#8A2B2B">Halland</text>
   </g>
   </g>
-  <text x="424" y="60" class="mapx" fill="#8A2B2B">Jämtland &amp; Härjedalen</text>
+  <text x="424" y="60" class="mapx" style="fill:#8A2B2B">Jämtland &amp; Härjedalen</text>
   <text x="424" y="74" class="mapt">from Norway, held nearly 470 years</text>
-  <text x="424" y="104" class="mapx" fill="#8A2B2B">Gotland</text>
+  <text x="424" y="104" class="mapx" style="fill:#8A2B2B">Gotland</text>
   <text x="424" y="118" class="mapt">Danish since 1361</text>
-  <text x="424" y="148" class="mapx" fill="#8A2B2B">Ösel</text>
+  <text x="424" y="148" class="mapx" style="fill:#8A2B2B">Ösel</text>
   <text x="424" y="162" class="mapt">bought 1559</text>
-  <text x="424" y="192" class="mapx" fill="#8A2B2B">Halland</text>
+  <text x="424" y="192" class="mapx" style="fill:#8A2B2B">Halland</text>
   <text x="424" y="206" class="mapt">pledged 30 years; never returned</text>
   <line x1="424" y1="248" x2="674" y2="248" stroke="#C9CDC4" stroke-width="1"/>
   <text x="424" y="270" class="mapx">And one clause with no map</text>

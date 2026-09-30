@@ -39,7 +39,8 @@ def sound():
                                            x2 + dx * .35, y2 + dy * .35, M.CLAIM))
 
     # the narrows, marked
-    o.append('<text x="%.1f" y="%.1f" class="mapl" fill="%s" text-anchor="middle">'
+    # style=, not fill= (D-11): the label of the red claim line drew grey (review session 20)
+    o.append('<text x="%.1f" y="%.1f" class="mapl" style="fill:%s" text-anchor="middle">'
              'four kilometres</text>' % ((x1 + x2) / 2, y1 - 26, M.CLAIM))
 
     for lon, lat, name, anchor, note in [

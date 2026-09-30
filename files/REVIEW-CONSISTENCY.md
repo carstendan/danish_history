@@ -4482,3 +4482,295 @@ legacy colours; 10's opener 3; 15's opener 4; 21 and 45 at 50 minutes; the five 
 cutting, D-16); the "Ditmarschen" aria-labels (`svg_terr_1500/1600/1660`, pages 19, 21, 25)
 against D-15; Lindholmen in 16's key only; the Sound strip's last line near the caption;
 `maps-contact-sheet.html`'s repeated ids.
+
+## 24. Session 20 — the colours the page draws, and the figures the phone shrinks
+
+*30 September 2026, from `START_HERE_review_20.md`. State in `claude/session20_state.md` and
+`claude/session20_wip.patch`, saved after the cold run, after each task and after each check.*
+
+**The cold run matched every line** on a fresh clone of `6d8cff1`: item 157's commit carries its
+seven pages, the four regenerated `svg_*.txt` and every source the brief lists, and the index is
+unchanged; tidy clean, 45 bodies; FIXTURE PASSES; SEAM LAYER PASSES; debuild 45 identical; 45 of
+45, 352,732 page words, 28.0 h, every part as the brief; 21 is 50 minutes, 44 48, 45 50;
+vignettes 148/116, selftest passes; figcheck --regen 98/30/0, 0 warning lines, the tree clean
+after it; five OVER, 32 §09 749, 13 §06 466; draftnotes clean in 45 and 14; appcheck 167 in 21;
+freshcheck 21; all seven builds clean, `--stub` refused; git clean after `linkindex` and
+`index_generator`; 2 pointers, 0 same-page glosses; Schleswig 317 in 32, Slesvig 4 in 3;
+impossible dates 0, §5 lists 2; arrows 254, 37 thread notes, form 7, 3b 11, solvency 38;
+linecheck 0 (3 on purpose), 01–11 0, `--bare` 212; ordercheck 0 in 128; qs 0/224, Causal 0/168,
+Recall 0/198, 0 pairs. (The first attempt to run anything was refused by the session's
+permission check; Carsten set it to ask, and the run went ahead.)
+
+### 24.1 Carsten's decisions (§23.8)
+
+Asked one at a time, each with a recommendation; he took all three.
+- **`ordercheck.py` stays**, standalone: a fixed step of every cold run and every handover, at
+  1200 px and at 390, and in no build - a build on a machine without Chromium would print
+  SKIPPED and pass, which is worse than no guard.
+- **The phone: a scroll box.** A figure keeps 0.8 of its viewBox width and scrolls sideways in
+  its box, so every class draws at one size (`.mapx` 6.8 CSS px) whatever the viewBox.
+- **The 23 figures at viewBox 900: a breakout**, CSS only. From 1000 px they leave the column
+  and draw at their own width, as large as a 700 figure in it.
+
+### 24.2 The width, planned, built and measured (D-20)
+
+**Plan** (saved before any edit): every figure is one `<svg>` as its figure's first child with a
+viewBox `0 0 W H` (all 128; W is 700 ×68, 900 ×23, 660 ×23, 720 ×8, 640 ×5, 430 ×1), so the
+rule is one `min-width` line per W, and a guard can ask each page for its lines.
+
+**Measured, the plan was short.** The first build put the scroll box under 720 px, as the
+decision said. At 720 the 900-wide figures scrolled; from 721 to 999 nothing applied and they
+drew at 625 to 694 px - `.mapx` at 5.9 to 6.6, smaller than on the phone. The rule applies below
+1000 px now, where only the 900-wide figures reach their minimum (by 95 px at most; 26 from 800
+up). And the caption of a figure that leaves the column ran the figure's 900 px, about 130
+characters a line: it keeps the column's measure (694 px) and, where the figure widens both
+ways, the column's indent.
+
+**Measured after** (`claude/session20_widths.py`, Chromium, at 390, 720, 721, 800, 999, 1000,
+1100, 1239, 1240, 1440 and 1920): no page scrolls sideways, no figure leaves the viewport, none
+comes within 8 px of the section rail; the 900-wide figures draw at 1.0 from 1000 px; below
+1000 no text draws under 6.80 CSS px (at 360 and 390 every figure's smallest text is 6.80, or
+7.60 where it is not a `.mapx`; at 430 the same, but for the 430-wide map, which does not scroll
+there and draws at 7.23); every 900-wide
+figure's caption starts and ends where every other caption does, at 1000 to 1440. Looked at in
+the page: page 12's reigns at 1440, 1100 and 390, page 12's first map at 1440 and 390.
+
+**The guard.** `pageguard.figure_widths()`, from `nesting()`, so every part build asks it: a
+figure must hold one `<svg viewBox="0 0 W H">`, first; no svg may stand outside a figure; and the
+page's style must hold W's line at 0.8 W inside the `screen and (max-width:999px)` block, not in a
+comment and not in another block (as corrected after checks 1 to 3, §24.6). Planted: the pages
+built before the change, 173 refusals (each of the 128 figures, and each of the 45 pages for
+having no phone rule at all); `style.css` without the 640
+line, pages 02 to 06 NOT WRITTEN; a wrong value (500 for 512) and a figure opening with a
+`<div>`, each named.
+
+### 24.3 ordercheck at the phone width (the brief's item 3)
+
+**Its first run at the new scale listed a text:** 08's "793 Lindisfarne", 59 px, with nothing
+drawn after it. Nothing is: the moved copy was drawn through the float matrix of
+`rotate(-30 134 192)`, and Skia put the edge of the "7" on different pixels (up to 48 of 255)
+than the same rotation written as the attribute - at the old scale the two agreed. The tool's
+fault, like 06's in session 19: the copy now carries every enclosing transform attribute and
+its own as written, and falls back to the matrix only where those do not give the text's own
+CTM (a nested `<svg>`, a CSS transform; in the book, never).
+
+**It takes a width now** (`--width 390`), because a width is a scale, and a scroll box cuts
+the svg the same way in both renders and passes what it hides: planted, a line over a label
+beyond the box at 390 was missed; the tool makes every figure's box visible before its
+screenshots, which changes no size, and it is caught.
+
+**Nothing painted over a text appears only when the figure is small:** 0 at 390, 800, 1200 and
+1440, on the book as rebuilt and on the book as it shipped (figures at .36 to .51 on a phone, the 430-wide map at .76).
+Re-planted: session 19's seven shipped texts (03, 11, 12 at `4862837`) and page 18's Hamborg and
+Lübeck (`c9b6665`) are listed; so are a 0.4 line through a rotated label, a .12 tint over one,
+and a line over a label in a nested `<svg>`; its clean twin is not. A rotated text's box is the
+upright box round it, so a mark in the paper beside a rotated label can list it though it
+touches no letter (the planted line also listed "808 Hedeby"): in the docstring.
+
+### 24.4 The colours the page draws (D-11)
+
+**Measured in the page** (`claude/session20_colours.py`: every figure text's and coloured
+tspan's computed fill against the nearest `style=` or `fill=` on it or an enclosing element):
+2,911 texts; 616 ask a colour; **449 drew another**, every one a `fill=` on a classed text, in
+47 figures. **Found by hand first:** page 12's "killed, Odense" asks `#8A2B2B`, the red of the
+violent-death diamonds, and draws `#4A4C44`; the measure lists it.
+
+**Read, all 449, every figure that asks a hue looked at as drawn and as asked.** The rule
+applied: **fix where the colour names a category, a key or a coloured mark, and the honoured
+colour reads at 4.5:1 beside its letters** (on the halo, paper at .8, over the ground measured
+under the text with the text hidden); record the rest.
+
+**Fixed: 109 texts in 32 figures.** Region labels in their region's hue (02 the tsunami, 04,
+05, 06, 07's Huns and Goths on their routes, 08 ×2, 09, 11's three kingdoms "ruled by Cnut");
+page 12's eleven red notes and event names and Lund in the archbishop's colour; 14's red
+creditor arrows' labels and the herring calendar's Lent and market; 15's plague arrival years,
+a key by colour; 18's "four kilometres"; 19's bond and its bank, flood and Dithmarschers; 20's
+"the church's third"; 21's DECLARE LOW and HIGH; 22's wars over their bands; 23's lost
+provinces; 26's Göinge; 30's three legs, RECORDED / NOT RECORDED and its three cases; 31's
+batteries and fleet; 37's years and "still out", and its dead; 38's three blocks, its zones and
+their counts, the red line's caption and the three elections; 39's rescues and guarantee, whose
+key the caption states ("Brown: the bank. Red: the state."). **Six hues are under 4.5:1 beside
+the letters** and draw in the same hue darker, the least darkening that reaches 4.6 on the
+worst ground each sits on: amber `#A9601C` → `#915218` (14, 15, 30), teal `#3E8474` → `#377668`
+(14), olive `#8A7A2B` → `#6F6223` (15), slate `#4C6B80` → `#48667A` (15), terracotta `#C2704F` →
+`#A35738` (37), brown `#8C5A3C` → `#835438` (38's zone map only; elsewhere it passes). After:
+every one of the 125 `style=` texts in those figures reads at 4.5 or better (19's two near-white
+labels on their dark box at 4.66, item 129's, unchanged); every `style` fill is in capitals.
+
+**The sources.** Bodies 02, 04, 05, 06, 07, 08, 09, 11; Part D's `svg_dioceses`, `svg_reigns`,
+`svg_descent`, `svg_herring` and `svg_plague` (no generator: the `.txt` edited); figs_17, 18, 19,
+21, 22, 23, 26, 30, 31, 37, 38, 39 (figs_18 and 19's `t()` takes `key=True`; figs_30, 37 and 38
+name their darker inks). Every regenerated figure differs from the shipped one only in those
+texts' paint: 109 lines in 31 files.
+
+**Recorded, not changed: 340.** 256 ask one grey and draw another (`#6C6E63` 152, `#221E18` 57,
+`#2A2A28` 34, `#3C3E36` 11, `#5F6157` 2): a hierarchy of inks, original words darker than
+glosses, not a meaning. 79 ask a hue as an accent: Part E's verdigris headers (16 to 20), 13's
+red headers and counts, 14's calendar headers, 15's teal dates and "THE BILL", 01's ice sheet,
+07's "THE NORTH STAYS PUT", date lists in the figure's accent (26 and 27, which repeat their dots, and 31), 29's quotations.
+And 14's pawn map: "Grev Gert", "Johann", "Sweden, 1332" and "the duchy" ask their region's hue
+on their region's fill, and honoured read worse than in the class grey; the fill carries the
+category.
+
+### 24.5 Found, recorded, not changed
+
+- The colour measure is a project script, not a tool in `files/`; nothing stops a new `fill=`
+  on a classed text (linecheck reports only a light one). For Carsten.
+- Page 22: Nyboder and Rundetårn ask the lighter grey of "after this chapter"; their bars carry
+  it. Page 20: the in-bar labels ask the darkest ink and draw the class grey on the coloured
+  bars, legible.
+- Carried: ON_BAR_INK on the grey bars of 01–03; linecheck in no build; 10's opener 3; 15's
+  opener 4; 21 and 45 at 50 minutes; the five OVER; the "Ditmarschen" aria-labels; Lindholmen in
+  16's key only; the Sound strip's last line near the caption; `maps-contact-sheet.html`'s
+  repeated ids; figs_19's key ending its "7 5" dash on a stub.
+
+### 24.6 Checked
+
+Check 1 (an agent that had not seen the work: its own clone of `6d8cff1` with the source patch,
+the twelve scripts re-run and every part built - every generated file and page byte-identical to
+the working tree; widths measured at eighteen, 320 to 2560, with classic scrollbars too at the
+edges; ordercheck re-planted with its own plants in translated, rotated and scaled groups; the
+colours measured with its own script, contrast on the halo composite at the worst pixel, the
+classification read figure by figure; the START_HERE_21 cold run): **print cut the right edge off
+every 900-wide figure** - paper prints 720 to 816 px wide, matched `max-width:999px`, and cannot
+scroll; a red mark planted at the figure's right edge printed on the base and not on the new
+build. The rules are `screen` only now; replanted, the mark prints (A4 and Letter, pages 01, 12
+and 16), and pages 01, 16 and 17 print identically to the base. **The guard passed a rule the page
+never applied** - one in a comment, or in another media block (planted through a build: 02-06
+written, the 640 figures at .51 on a phone): it strips comments and reads only the
+`screen and (max-width:999px)` block now, and asks for one svg per figure and none outside a
+figure (planted: all refused; the commented line through a build, 02-06 NOT WRITTEN). **On a
+phone the caption scrolled away with its figure**: it is sticky now, and stays at the box's
+content edge before and after scrolling at 360, 390, 720, 721, 800 and 999 (`left:0`: Chromium
+counts a sticky inset from the scroll box's content edge; `left:12px` put it 12 px in, measured).
+"02 to 05" for 02 to 06 (the plant's output had been cut at eight lines); ".36 to .47" for .36 to
+.51 and .76; the guard's docstring said 720; §24.6 to §24.8 were cited and not yet written;
+START_HERE_21's phone expectation left out the 128 "WIDER THAN ITS BOX" lines that D-20 means;
+"date lists that repeat their dots" took in 31, which has none - all taken. Recorded, not
+changed: a fractional viewport width (999.5 px, at a browser zoom) falls between the two queries
+and draws a 900 figure at .77, as the book's older 720/721 and 1239/1240 queries already do; the
+caption's indent in the 1000-1239 breakout reads as offset inside the wider paper box (taste; it
+is where every other caption is). Nothing signals on a phone that a figure scrolls; a hint is
+Carsten's call (§24.8). It found right: every build clean; the widths claims at every width it
+tried; ordercheck 0 in 128 at 390, 800, 1200 and 1440, the old faults listed, its own plants
+listed and their clean twins not, "793 Lindisfarne" listed by the old tool on the new page; the
+colours to the text - 449 to 340, exactly 109 in 32 figures, only their paint changed, capitals,
+every styled text at 4.55 or better at the worst pixel; the classification agreed; every line of
+the START_HERE_21 cold run.
+
+Check 2 (the changes since check 1, and every claim in §24, item 158, D-11, D-18, D-20 and
+START_HERE_21: its own clone, every file byte-identical to the working tree; print at A4, Letter,
+A4 landscape, A3, A5 and Legal with a mark at every figure's right edge; the sticky caption on all
+128 figures at six widths; the guard planted; the START_HERE_21 cold run): **the guard still
+passed a rule the page never applied** - inside an at-rule nested in the block (`@media print`,
+`@supports`), overridden later in the same block by a non-px value, under the wrong selector, or in
+a `<style media="print">`; through a build, a nested `@media print` round the 640 line left 02-06
+written and drawing at .51. The guard's reading of the style is its own function now
+(`pageguard._phone_rules()`): only rules at the top level of an `@media [only] screen and
+(max-width:999px)` block (either case, any number of them), under exactly `figure svg[...]`, the
+last one winning, a value not in px failing, and only from a `<style>` that applies to the screen;
+markup inside comments, `<template>` and `<script>` is not read; a figure may hold a nested svg
+inside its one top-level svg. Planted: thirteen ways to break it, all refused (check 2's through a
+build: 02-06 NOT WRITTEN); twelve harmless forms (spacing, `!important`, another declaration first,
+single quotes, a second block, `ONLY SCREEN` in capitals, a nested svg, an svg in a comment, a
+template or a script, a page with no figure), all passed. **It is a tripwire, not a proof** - it
+reads the style as written, not the cascade (a later `figure svg{min-width:0}` elsewhere is not
+seen) - and its docstring and D-20 say so: what the phone draws is measured in the page
+(`claude/session19_phone.py`), and that is the check of record. Also taken: "128 refusals" in
+§24.2 was the first guard's (the base's pages give 173 now: 128 figures and 45 pages with no rule);
+the style's comment on paper widths left out landscape (`screen` covers it; check 3 measured it); at 430
+the 430-wide map's smallest text is 7.23, not 6.80. It found right: print byte-identical to the
+base on ten pages (six paper sizes on three of them), every mark printed, nothing of the screen
+rules or the breakout in landscape; the sticky caption on every figure within 0.5 px of the box's
+content edges before and after scrolling, static from 1000; every width, scroll and scale claim;
+ordercheck 0 at 390, 800, 1200 and 1440, and its plant beyond the box at 390 listed; the eighteen
+regenerated files, the 109 lines, 449 to 340, 256 + 79 + 5; every line of the START_HERE_21 cold run.
+
+Check 3 (the changes since check 2, and the records rewritten after it: its own clone, every
+file byte-identical; the guard planted some forty ways and through builds; the START_HERE_21 cold
+run): **the guard still passed the phone block itself nested in another at-rule** - it found the
+`@media ... (max-width:999px)` block at any depth, so wrapping it in `@media print` (a missing `}`
+before it would do the same) left every page written, the 640 figures at .51. And a regression of
+check 2's version: a page with no `<figure>` returned before counting svgs, so figures turned into
+`<div>`s, or a bare svg, passed. And `_phone_rules()` read the raw page, so a `<style>` in a
+comment, a `<template>` or a script string counted; `media="not screen"`, `media="screen and
+(min-width:2000px)"`, an unquoted `media=print` and `type="text/plain"` counted too. **Taken:** the
+guard now reads the page as HTML does, left to right (`_read_page`: comments, `<script>` and
+`<template>` dropped, each `<style>` kept whole, so a `<!--` inside CSS is CSS), keeps a style only
+if its `media` is absent, `all`, `screen` or `only screen` (quoted or not) and its `type` is CSS,
+and reads each style's top level as CSS does (`_top_level`: braces in strings and comments not
+counted), taking a phone block only there. Replanted: check 3's and check 2's plant scripts, run
+on the new guard, refuse every case that the page would not apply but one - a selector list with
+one invalid member, which a browser drops whole and the guard does not; the wrapped block through
+a build stops every page, the nested `@media print` round the 640 line stops 02-06. It refuses
+some forms that would work (`figure > svg`, `calc(512px)`, `512PX`, a phone block with a further
+condition, a nested `@supports` in the block, CDATA in an svg): conservative, for a tripwire. Also
+taken: the paper widths (Chromium prints A4 and Letter 720 to 816 px wide, Letter landscape 981
+to 1056, A4 landscape 1049 to 1124); "four" for the six statements check 1 found. It found right: 173
+refusals on the shipped pages, 0 on the book; every build clean; every phone width at 360, 390
+and 430 as §24.2 says; §24.7 and every line of the START_HERE_21 cold run.
+
+Check 4 (the guard as check 3 left it, and the records written since: its own clone, every file
+byte-identical; some seventy plants, each measured in Chromium at 390 as well as given to the
+guard; the author's four build plants; the START_HERE_21 cold run): **four more ways past the
+guard, three of them plausible** - a stray `;` after the `}` before the phone block (CSS keeps it
+in the next prelude and drops the block; through a build every page was written at .36 to .51), a
+stray `;` inside the block before a line, an earlier `!important` for the same width, and a
+commented-out rule body with the declaration not first; and a long list of contrived HTML and CSS
+tricks the guard does not read as a browser does (`<!-->`, an attribute holding `<!--` or
+`<script>`, `<noscript>`, `<title>` or `<textarea>` holding a style, `url(a})`, escapes, a figure in
+a declarative shadow root). Also: "Letter landscape 981" is 981 to 1056; HANDOFF 158 announced
+this check before it ran. **Taken, and the proof moved to the page.** The guard now keeps a stray
+`;` in the next prelude as CSS does, honours `!important`, reads a rule's declarations with its
+comments and strings out and not at all if it holds a nested rule, and refuses a leading zero in
+a width; check 4's three plausible plants and every earlier one are refused. The contrived tricks
+are not all, and will not be: a hand-made reader stays a step behind the browser, and four checks
+showed it. **`ordercheck.py` now measures D-20 in the page**: every figure's svg as drawn against
+its viewBox, one under 0.8 listed. On check 4's 53 planted pages it agrees with Chromium on every
+one (53 of 53), the contrived tricks included; the book as shipped lists 23 at 1200 and 128 at
+390, the book now none; session 19's and this session's order plants are listed as before. The
+tool also stopped on check 4's shadow-root page (its locator counted svgs its page scripts did
+not) and on an undrawn svg: it tags the svgs it measures and skips one not drawn. The guard's
+docstring and D-20 say what it is: a tripwire for the plausible fault, and the page measure the
+check of record. These last changes were not given to a fifth agent; every plant of checks 1 to 4
+was re-run on them and read as above.
+
+### 24.7 Verified
+
+In the working clone after the last edit: the twelve changed figure scripts re-run, no `!!`; all
+seven part builds clean, `--stub` refused; `linkindex`, `index_generator`; **tidy clean, 45
+bodies; FIXTURE PASSES; SEAM LAYER PASSES; debuild 45 identical; 45 of 45, 352,732 page words,
+28.0 h, every part unchanged; 21 is 50 minutes, 44 48, 45 50; vignettes 148/116, selftest
+passes; figcheck --regen 98 match, 30 sourceless, 0 disagree, 0 warning lines, the tree
+unchanged after it; five OVER, unchanged, 32 §09 749, 13 §06 466; draftnotes clean in 45 and
+14; appcheck 167 in 21; freshcheck 21; every chapter line braces 0, tags ok, vocabulary clean and
+questions asked once; 2 pointers, 0 same-page glosses; Schleswig 317 in 32, Slesvig 4 in 3;
+impossible dates 0, §5 lists 2; arrows 254, 37 thread notes, solvency 38; linecheck 0 over
+`svg_*.txt` (3 on purpose) and over 01–11's bodies, `--bare` 212; ordercheck 0 in 128 at 1200 px
+and at 390, and 0 figures under 0.8 of their viewBox at either; qs 0/224, Causal 0/168, Recall 0/198, 0 pairs; colours 2,911 texts, 616 asking, 340
+drawn otherwise; at 390 no page overflows, all 128 figures scroll in their boxes, smallest text
+6.80 (123) or 7.60 (5).** Files that change: **all 45 pages**; the eighteen regenerated
+`svg_*.txt`; the 32 sources of the patch. The figures change on 02, 04–09, 11, 12, 14, 15,
+18–23, 26, 30, 31, 37–39. The index does not change.
+
+### 24.8 Decisions for Carsten
+
+**New:** whether the colour measure (`claude/session20_colours.py`) becomes a tool in `files/`,
+and whether anything refuses a new `fill=` on a classed text (the 340 recorded would first need
+listing or converting); whether the 256 grey-for-grey texts should draw what they ask (a hierarchy
+of inks; each would need its contrast measured) or lose their `fill=`; whether a phone should be
+told that a figure scrolls (a line under the caption, or nothing: the figure is cut at the box's
+edge, and nothing else says so); the fractional viewport widths between the book's width queries
+(999.5 px at a browser zoom draws a 900 figure at .77; the range syntax `(width < 1000px)` would
+close the gap, and the older 720/721 and 1239/1240 pairs share it); the caption's indent inside a
+900-wide figure from 1000 to 1239 px (where every other caption is, but offset inside the wider
+box); whether the build guard `pageguard.figure_widths()` stays a tripwire of some 150 lines, whose reading of HTML and CSS four checks found short, or is cut back to the one plausible fault
+(a figure at a width with no line), now that `ordercheck.py` measures D-20 in the page.
+**Closed:** `ordercheck.py` (kept, standalone, 1200 and 390); the phone width (the scroll
+box, D-20); the 23 figures at viewBox 900 (the breakout, D-20); the D-11 legacy colours (measured;
+109 that mean something now draw, 340 recorded). **Open, carried:** dark `ON_BAR_INK` on the grey
+bars of 01–03 (white there is 3.2:1); whether `linecheck` is wired into the builds, and whether it
+should read drawing order; 10's opener 3; 15's opener 4; 21 and 45 at 50 minutes; the five OVER
+(not for cutting, D-16); the "Ditmarschen" aria-labels (`svg_terr_1500/1600/1660`, pages 19, 21,
+25) against D-15; Lindholmen in 16's key only; the Sound strip's last line near the caption;
+`maps-contact-sheet.html`'s repeated ids; figs_19's key ending its "7 5" dash on a stub.

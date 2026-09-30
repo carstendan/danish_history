@@ -146,7 +146,8 @@ def scania():
         x, y = f.xy(lon, lat)
         o.append('<text x="%.1f" y="%.1f" class="mapl" text-anchor="middle">%s</text>' % (x, y, t))
     gx, gy = f.xy(13.98, 56.56)
-    o.append('<text x="%.1f" y="%.1f" class="mapt" text-anchor="middle" fill="%s">G\u00f6inge'
+    # style=, not fill= (D-11): the name of the green area drew grey (review session 20)
+    o.append('<text x="%.1f" y="%.1f" class="mapt" text-anchor="middle" style="fill:%s">G\u00f6inge'
              '</text>' % (gx, gy, VERD))
     o.append('</g>')
     o.append('</g>')

@@ -141,7 +141,8 @@ def tollgame():
     for x0, x1, lab, col in [(350, 158, "DECLARE LOW", OX), (350, 542, "DECLARE HIGH", VERD)]:
         o.append('<path d="M %d 106 C %d 130, %d 130, %d 152" fill="none" stroke="%s" '
                  'stroke-width="1.2" opacity=".8"/>' % (x0, x0, x1, x1, col))
-        o.append('<text x="%d" y="170" class="mapl" text-anchor="middle" fill="%s">%s</text>'
+        # style=, not fill= (D-11): the two branches' labels drew grey (review session 20)
+        o.append('<text x="%d" y="170" class="mapl" text-anchor="middle" style="fill:%s">%s</text>'
                  % (x1, col, lab))
 
     boxes = [(158, OX, "The crown may buy the cargo",

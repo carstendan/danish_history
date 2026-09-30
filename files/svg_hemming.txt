@@ -19,8 +19,8 @@
   <text x="60.0" y="164.0" class="mapx" fill="#6C6E63" text-anchor="start">the royal army, about 12,000, strung out along the causeway</text>
   <text x="60.0" y="216.0" class="mapx" fill="#6C6E63" text-anchor="start">Meldorf, taken 13 February</text>
   <rect x="516" y="150" width="16" height="66" fill="#8A2B2B" fill-opacity=".9"/>
-  <text x="524.0" y="142.0" class="mapl" fill="#8A2B2B" text-anchor="middle">the bank</text>
-  <text x="524.0" y="288.0" class="mapx" fill="#8A2B2B" text-anchor="middle">thrown up overnight</text>
+  <text x="524.0" y="142.0" class="mapl" style="fill:#8A2B2B" text-anchor="middle">the bank</text>
+  <text x="524.0" y="288.0" class="mapx" style="fill:#8A2B2B" text-anchor="middle">thrown up overnight</text>
   <line x1="449" y1="128" x2="459" y2="162" stroke="#8A2B2B" stroke-width="1.6" opacity=".85"/>
   <line x1="479" y1="128" x2="489" y2="162" stroke="#8A2B2B" stroke-width="1.6" opacity=".85"/>
   <line x1="559" y1="128" x2="569" y2="162" stroke="#8A2B2B" stroke-width="1.6" opacity=".85"/>
@@ -29,8 +29,8 @@
   <line x1="479" y1="238" x2="489" y2="204" stroke="#8A2B2B" stroke-width="1.6" opacity=".85"/>
   <line x1="559" y1="238" x2="569" y2="204" stroke="#8A2B2B" stroke-width="1.6" opacity=".85"/>
   <line x1="589" y1="238" x2="599" y2="204" stroke="#8A2B2B" stroke-width="1.6" opacity=".85"/>
-  <text x="620.0" y="132.0" class="mapx" fill="#8A2B2B" text-anchor="start">Dithmarschers, a few hundred at first</text>
-  <text x="620.0" y="258.0" class="mapx" fill="#8A2B2B" text-anchor="start">sluices opened — the marsh floods</text>
+  <text x="620.0" y="132.0" class="mapx" style="fill:#8A2B2B" text-anchor="start">Dithmarschers, a few hundred at first</text>
+  <text x="620.0" y="258.0" class="mapx" style="fill:#8A2B2B" text-anchor="start">sluices opened — the marsh floods</text>
   <text x="874" y="188" class="mapl" fill="#6C6E63" text-anchor="end">to Heide →</text>
   <line x1="26" y1="300" x2="874" y2="300" stroke="#C9CDC4" stroke-width=".8"/>
   <text x="26.0" y="326.0" class="mapl" fill="#2E6B5E" text-anchor="start">The force</text>

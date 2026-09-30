@@ -5339,6 +5339,84 @@ split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see it
 
 ---
 
+158. **The consistency review, session 20: the colours the page draws, and the figures the phone
+   shrinks.** 30 September 2026. Full record in `REVIEW-CONSISTENCY.md` §24.
+
+   **Cold run on a fresh clone of `6d8cff1`: every line matched START_HERE_review_20**, and item
+   157's commit carries its seven pages, the four regenerated `svg_*.txt` and every source listed.
+   State lived in `claude/session20_state.md` and `claude/session20_wip.patch`.
+
+   **CARSTEN'S THREE DECISIONS (§23.8), taken on the recommendations.** `ordercheck.py` stays,
+   standalone: every cold run and handover, at 1200 and at 390, in no build (a SKIP in a build
+   would pass). The phone: a scroll box. The 23 figures at viewBox 900: a breakout, CSS only.
+
+   **THE WIDTH (D-20).** Below 1000 px a figure keeps 0.8 of its viewBox and scrolls sideways in
+   its box, so no class draws under `.mapx` 6.8 CSS px (it was 3.1 to 4.4 at 390 in 127 of 128);
+   from 1000 a 900-wide figure leaves the column and draws at 1.0, both ways where there is no rail
+   and rightward beside it, its caption kept to the column's measure. **The plan was short, and
+   the measure said so:** under 720 px, as decided, left 721 to 999 drawing 900-wide text at 5.9
+   to 6.6, smaller than the phone; the rule applies below 1000 now. Measured at eleven widths from
+   390 to 1920: no page scrolls sideways, nothing reaches the rail. On a screen only (check 1:
+   in print the 900-wide figures were cut at the right; now print is as before), and the caption
+   stays in view while its figure scrolls (check 1: it scrolled away). `pageguard.figure_widths()`,
+   in every build, refuses a page whose figure has no width line (planted: 02-06 NOT WRITTEN).
+   **All 45 pages change** (`style.css`).
+
+   **ORDERCHECK AT THE PHONE (the brief's item 3).** Nothing painted over a text appears only
+   when a figure is small: 0 at 390, 800, 1200 and 1440, on the book as rebuilt and as shipped.
+   Two faults of the tool's own, both fixed: at scale 1.0 it listed 08's rotated "793
+   Lindisfarne" with nothing over it - the moved copy's float matrix put the "7" on other pixels
+   than the rotate() attribute; it now carries transforms as written. And a scroll box would cut
+   both renders alike and pass what it hid (planted: missed): `--width N`, with every figure's
+   box made visible first (planted: caught). Session 19's shipped seven and page 18's Hamborg and
+   Lübeck, replanted, are still listed. And it now lists any figure drawn under 0.8 of its
+   viewBox at the width it runs (D-20 in the page; check 4, below).
+
+   **THE COLOURS (D-11), measured in the page.** 616 figure texts ask a colour; **449 drew
+   another** - every one a `fill=` on a classed text, in 47 figures; page 12's red "killed,
+   Odense", found by hand first, drew grey. All 449 read, every figure that asks a hue looked at
+   as drawn and as asked. **Fixed: 109 texts in 32 figures** where the colour names a category, a
+   key or a coloured mark - region labels, page 12's violent deaths, 15's plague years, 30's and
+   38's keys, 37's "still out", 39's bank and state - in `style=`, and six hues too light beside
+   their letters in the same hue darker (amber `#915218`, teal `#377668`, olive `#6F6223`, slate
+   `#48667A`, terracotta `#A35738`, brown `#835438` on 38's zone map). Each checked at 4.5:1 on
+   the ground measured under it. **Recorded: 340** - 256 grey-for-grey, 79 accents, and 14's pawn
+   map, whose labels read worse in their region's own hue. Sources: bodies 02, 04-09, 11; Part D's
+   dioceses, reigns, descent, herring and plague (`.txt`, by hand); figs_17, 18, 19, 21, 22, 23,
+   26, 30, 31, 37, 38, 39.
+
+   **CHECKED** (§24.6), each by an agent that had not seen the work: check 1 - **print cut every
+   900-wide figure** (paper matched the phone query; the rules are `screen` only now), the guard
+   passed a commented rule, the caption scrolled away with its figure (sticky now), six wrong or
+   stale statements; check 2 - **the guard still passed a rule nested in an at-rule, overridden,
+   or in a print style** (it reads the style's top-level phone rules now, and says it is a
+   tripwire: the page measure is the check of record), and three statements; check 3 - **the
+   whole phone block nested in another at-rule still passed** (through a build: every page
+   written), a page whose figures were not `<figure>`s passed its bare svgs, and a style in a
+   comment, template or script was read: the guard now reads the page as HTML does and each
+   style's top level as CSS does; the paper widths and a count; check 4 - **a stray "};" before
+   the phone block still passed** (every page written at .36 to .51), an earlier `!important`, a
+   commented rule body, and a list of contrived HTML and CSS tricks: the plausible ones are
+   refused now, and **the proof moved to the page - `ordercheck.py` lists any figure drawn under
+   0.8 of its viewBox** (53 of 53 of check 4's plants as Chromium measured them; the shipped
+   book 23 at 1200 and 128 at 390, the book now none). Not given to a fifth agent; every plant
+   of checks 1 to 4 re-run.
+
+   **VERIFIED** after the last edit (§24.7). Pages that change: **all 45** (the style); the
+   figures change on 02, 04-09, 11, 12, 14, 15, 18-23, 26, 30, 31, 37-39. The index does not
+   change.
+
+   **LESSON.** A plan is a claim too. The decision said "under 720"; only the page at 721 showed
+   the gap it left. And a tool's silence at one scale is not its silence at another: the order
+   measure agreed with itself at 0.77 and not at 1.0, on a glyph nothing touched. And a reader of
+   a language is a claim about the language: the guard read CSS and HTML by hand, each check
+   found a way the browser read them otherwise, and each fix was "fixed" in the record before
+   the next check. *Measure the result at the widths between the ones you decided; re-plant a
+   tool when what it measures changes size; and where a guard must read what a browser reads,
+   let the browser read it - measure the page, and keep the guard for the plausible fault.*
+
+---
+
 
 ## Convention D-12: draft prose is never written through a shell heredoc
 

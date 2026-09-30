@@ -3,7 +3,7 @@
   <text x="26" y="30" class="mapl">WHAT THE PAPERS KEEP</text>
   <text x="26" y="46" class="mapt">the <tspan font-style="italic">Fredensborg</tspan>, 1767–68 — the best-documented slave ship found as a wreck</text>
   <line x1="350" y1="70" x2="350" y2="390" stroke="#C9CDC4" stroke-width="1"/>
-  <text x="26" y="92" class="mapx" fill="#2F4C7A">RECORDED</text>
+  <text x="26" y="92" class="mapx" style="fill:#2F4C7A">RECORDED</text>
   <circle cx="32" cy="112" r="2.6" fill="#2F4C7A"/>
   <text x="44" y="116" class="mapt">Espen Kønig, captain — died at Christiansborg</text>
   <text x="44" y="130" class="mapt">15 December 1767, before the crossing</text>
@@ -26,7 +26,7 @@
   <text x="44" y="312" class="mapt">Coast 1 October; sailed 22 or 23 April 1768;</text>
   <text x="44" y="326" class="mapt">St Croix 9 July; sailed for home in September;</text>
   <text x="44" y="340" class="mapt">wrecked 1 December 1768</text>
-  <text x="382" y="92" class="mapx" fill="#5F6157">NOT RECORDED</text>
+  <text x="382" y="92" class="mapx" style="fill:#5F6157">NOT RECORDED</text>
   <rect x="382" y="106" width="268" height="13" fill="#5F6157" opacity=".10"/>
   <text x="388" y="116" class="mapt" fill="#5F6157">the names of the people in the hold</text>
   <rect x="382" y="126" width="268" height="13" fill="#5F6157" opacity=".10"/>

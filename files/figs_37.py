@@ -51,6 +51,9 @@ DEEP = "#4A5A46"          # Part I band colour, provisional - see build_part_i.p
 QUIET = "#A9B6BD"
 WARM = "#A98C5F"
 ABSENT = "#C2704F"
+# ABSENT as a text ink is 3.26:1 on the paper, under the 4.5 floor: a text that names an
+# ABSENT mark is drawn in the same hue darker (review session 20, D-11)
+ABSENT_INK = "#A35738"
 
 
 def esc(s):
@@ -157,8 +160,10 @@ def syvf():
                  % (LEFT - 12, y - 12, ROW - 10, fill))
         o.append('<text x="%d" y="%d" class="mapl">%s</text>' % (LEFT, y, esc(name)))
         o.append('<text x="%d" y="%d" class="mapt">%s</text>' % (gloss_x, y, esc(gloss)))
-        o.append('<text x="%d" y="%d" class="mapl" text-anchor="end" fill="%s">%s</text>'
-                 % (year_x, y, fill, esc(year)))
+        # style=, not fill= (D-11): "still out" and the years drew in the class grey, and
+        # the two categories the bars show were not in the words (review session 20)
+        o.append('<text x="%d" y="%d" class="mapl" text-anchor="end" style="fill:%s">%s</text>'
+                 % (year_x, y, ABSENT_INK if fill == ABSENT else fill, esc(year)))
         y += ROW
 
     o.append('<line x1="%d" y1="%d" x2="%d" y2="%d" stroke="%s" stroke-width="1"/>'
@@ -343,8 +348,8 @@ def soefolk():
     ]
     num_w = int(mapl_w(max((a for a, _ in lines), key=len))) + 26
     for big, rest in lines:
-        o.append('<text x="%d" y="%d" class="mapl" fill="%s">%s</text>'
-                 % (LEFT, y, ABSENT, esc(big)))
+        o.append('<text x="%d" y="%d" class="mapl" style="fill:%s">%s</text>'
+                 % (LEFT, y, ABSENT_INK, esc(big)))
         for j, line in enumerate(fold(rest, 70)):
             o.append('<text x="%d" y="%d" class="mapt">%s</text>'
                      % (LEFT + num_w, y + j * 14, esc(line)))

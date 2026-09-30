@@ -32,6 +32,13 @@ VERD = "#2E6B5E"
 AMBER = "#A9601C"
 MUTED = "#5F6157"
 OX = "#8A2B2B"
+# Amber as a text ink: AMBER is 4.26:1 on the paper, under the 4.5 floor, so a text that
+# names an amber mark is drawn in the same hue darker (review session 20, D-11)
+AMBER_INK = "#915218"
+
+
+def ink(col):
+    return AMBER_INK if col == AMBER else col
 
 
 def wrap(text, n):
@@ -124,8 +131,9 @@ def triangle():
         px = 26 + i * 218
         o.append('<rect x="%d" y="%d" width="22" height="9" fill="%s" opacity=".75"/>'
                  % (px, b + 2, col))
-        o.append('<text x="%d" y="%d" class="mapx" fill="%s">%s</text>' % (px + 30, b + 10,
-                                                                          col, head))
+        # style=, not fill= (D-11): the key's names drew grey beside their swatches
+        o.append('<text x="%d" y="%d" class="mapx" style="fill:%s">%s</text>' % (px + 30, b + 10,
+                                                                               ink(col), head))
         for k, line in enumerate(lines):
             o.append('<text x="%d" y="%d" class="mapt">%s</text>' % (px, b + 30 + k * 13, line))
 
@@ -176,7 +184,7 @@ def surveys():
     pw = 200
     for i, (yr, where, what, kind, col) in enumerate(SURVEYS):
         px = 26 + i * (pw + 16)
-        o.append('<text x="%d" y="78" class="mapl" fill="%s">%s</text>' % (px, col, yr))
+        o.append('<text x="%d" y="78" class="mapl" style="fill:%s">%s</text>' % (px, ink(col), yr))
         o.append('<text x="%d" y="94" class="mapx">%s</text>' % (px, where))
 
         # a small emblem for each act, all on the same square
@@ -269,7 +277,7 @@ def papers():
              '1767\u201368 \u2014 the best-documented slave ship found as a wreck</text>')
     o.append('<line x1="350" y1="70" x2="350" y2="390" stroke="%s" stroke-width="1"/>' % RULE)
 
-    o.append('<text x="26" y="92" class="mapx" fill="%s">RECORDED</text>' % IND)
+    o.append('<text x="26" y="92" class="mapx" style="fill:%s">RECORDED</text>' % IND)
     # THE GAP GOES BEFORE A LINE, by what that line is (review session 18). It went after, by
     # what the line just drawn was: a wrapped line sat 20 below its own bullet and 14 above
     # the next, so it read as the start of the next entry.
@@ -280,7 +288,7 @@ def papers():
             o.append('<circle cx="32" cy="%d" r="2.6" fill="%s"/>' % (y - 4, IND))
         o.append('<text x="44" y="%d" class="mapt">%s</text>' % (y, line))
 
-    o.append('<text x="382" y="92" class="mapx" fill="%s">NOT RECORDED</text>' % MUTED)
+    o.append('<text x="382" y="92" class="mapx" style="fill:%s">NOT RECORDED</text>' % MUTED)
     y = 116
     for line in NOT_RECORDED:
         o.append('<rect x="382" y="%d" width="%d" height="13" fill="%s" opacity=".10"/>'

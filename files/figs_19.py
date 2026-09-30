@@ -20,9 +20,13 @@ OX = "#8A2B2B"
 AMBER = "#A9601C"
 
 
-def t(x, y, s, cls="mapx", fill=MUTED, anchor="start", extra=""):
-    return ('<text x="%.1f" y="%.1f" class="%s" fill="%s" text-anchor="%s"%s>%s</text>'
-            % (x, y, cls, fill, anchor, extra, s))
+def t(x, y, s, cls="mapx", fill=MUTED, anchor="start", extra="", key=False):
+    # key=True: the colour names a mark (the red line of the church's third) and must draw,
+    # so it goes in style= (D-11; a fill= attribute loses to the class). The other fill=
+    # colours are the legacy greys D-11 records, drawn in the class colour (review session 20).
+    paint = ('style="fill:%s"' if key else 'fill="%s"') % fill
+    return ('<text x="%.1f" y="%.1f" class="%s" %s text-anchor="%s"%s>%s</text>'
+            % (x, y, cls, paint, anchor, extra, s))
 
 
 # ------------------------------------------------------------------ figure 1
@@ -145,7 +149,7 @@ def transfer():
     xb = 190 + bars[0][2][0][1] * 6.6          # the crown's right edge before 1536, computed
     o.append('<path d="M %.1f 108 L %.1f 152" stroke="%s" stroke-width="1.6" '
              'stroke-dasharray="4 3"/>' % (xb, xb, OX))
-    o.append(t(xb + 8, 134, "the church's third, transferred", "mapx", OX))
+    o.append(t(xb + 8, 134, "the church's third, transferred", "mapx", OX, key=True))
     o.append(t(874, 216, "the rest is a remainder, the freeholders\u2019 land among it;", "mapx", MUTED, "end"))
     o.append(t(874, 230, "perhaps 10\u201315 per cent of peasants owned their farms", "mapx", MUTED, "end"))
     o.append(t(26, 262, "The nobility gained little land in 1536 and a great deal of security: no "

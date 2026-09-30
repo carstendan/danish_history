@@ -14,9 +14,9 @@
   <rect x="610.0" y="348.0" width="250.0" height="40" fill="#3E8474" fill-opacity=".12" stroke="#3E8474" stroke-width="1.2"/><text x="735.0" y="366.0" style="font-family:'Iowan Old Style',Palatino,Georgia,serif;font-size:15px;fill:#221E18" text-anchor="middle">Erik Menved · Christoffer 2.</text><text x="735.0" y="380.0" class="mapx" fill="#6C6E63" text-anchor="middle">1286–1319 · 1320–32</text>
   <rect x="40.0" y="262.0" width="250.0" height="40" fill="#8A2B2B" fill-opacity=".12" stroke="#8A2B2B" stroke-width="1.2"/><text x="165.0" y="280.0" style="font-family:'Iowan Old Style',Palatino,Georgia,serif;font-size:15px;fill:#221E18" text-anchor="middle">the counts of Holstein</text><text x="165.0" y="294.0" class="mapx" fill="#6C6E63" text-anchor="middle">creditors, then rulers</text>
   <path d="M330 282 L296 282" stroke="#8A2B2B" stroke-width="1.4" stroke-dasharray="4 3"/><path d="M296 282 l7 -4 l0 8 z" fill="#8A2B2B"/>
-  <text x="313" y="318" class="mapx" fill="#8A2B2B" text-anchor="middle">allied</text>
+  <text x="313" y="318" class="mapx" style="fill:#8A2B2B" text-anchor="middle">allied</text>
   <path d="M290 373 L610 373" stroke="#8A2B2B" stroke-width="1.4" stroke-dasharray="4 3"/><path d="M300 373 l7 -4 l0 8 z" fill="#8A2B2B"/>
-  <text x="450" y="392" class="mapx" fill="#8A2B2B" text-anchor="middle">lend, then foreclose · 1326 · 1332–40</text>
+  <text x="450" y="392" class="mapx" style="fill:#8A2B2B" text-anchor="middle">lend, then foreclose · 1326 · 1332–40</text>
   <text x="26" y="34" style="font-family:'Iowan Old Style',Palatino,Georgia,serif;font-size:22px;fill:#221E18">Three sons, and a hundred years of it</text>
   <text x="26" y="52" class="mapt">THE DESCENT OF VALDEMAR SEJR, 1241–1340</text>
   <text x="26" y="426" class="mapx" fill="#6C6E63">Diamonds mark a violent death. Simplified: only the lines that matter to this page are shown.</text>

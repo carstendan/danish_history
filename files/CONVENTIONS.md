@@ -267,10 +267,22 @@ Threshold 4.5:1 (`.mapl` is not WCAG large text).
 a classed `<text>` renders in the class colour. Found in the raster of chapter 40's
 figure 3 and nowhere else.
 
-**State.** Thirty legacy figures remain cosmetically non-compliant; the twenty
-legibility failures were fixed (item 129).
+**State.** The twenty legibility failures were fixed (item 129). Review session 20 measured
+the colours in the page (the computed fill of every figure text against what its markup asks,
+all 45 pages): 616 texts ask a colour and 449 drew another, every one a `fill=` on a classed
+text, in 47 figures - page 12's red "killed, Odense" drew grey. **Where the colour names a
+category, a key or a coloured mark it now draws: 109 texts in 32 figures**, in `style=`, and
+where the asked hue is under 4.5:1 beside the letters (on the halo over its measured ground)
+in the same hue darker (amber `#915218`, teal `#377668`, olive `#6F6223`, slate `#48667A`,
+terracotta `#A35738`, and brown `#835438` on 38's zone map). **Recorded, not changed: 340** -
+256 ask one grey and draw another (a hierarchy of inks, not a meaning), 79 ask a hue as an
+accent (Part E's verdigris headers, 13's red headers, dates in a list),
+and 14's five pawn-map labels, which in their own hue on their own region read worse than in
+the class grey. A new figure still sets a meant colour in `style=`; the measure is
+`claude/session20_colours.py` in the project.
 
-**Defined.** `HANDOFF.md` item 110 and its correction in item 129.
+**Defined.** `HANDOFF.md` item 110 and its correction in item 129; item 158 and
+`REVIEW-CONSISTENCY.md` §24.
 
 ### D-12 · Draft prose is never written through a shell heredoc — in force
 
@@ -481,9 +493,11 @@ light `fill=` attribute. An aid to looking, wired into no build; the text guards
 measure with (overruns, overflows, collisions) run in every build since session 17. linecheck
 does not read drawing order; `ordercheck.py` does, in the page (Chromium): it lists a text when
 a later mark or a clip changes pixels in its box or its halo (review session 19; 0 in 128
-figures; a later text over it is not seen), and is wired into no build either.
+figures; a later text over it is not seen), and is wired into no build either: Carsten kept it
+standalone (review session 20), a fixed step of every cold run and handover at 1200 px and, with
+`--width 390`, at a phone's.
 
-**Defined.** Here; `HANDOFF.md` items 154 and 157; `REVIEW-CONSISTENCY.md` §20 and §23.
+**Defined.** Here; `HANDOFF.md` items 154, 157 and 158; `REVIEW-CONSISTENCY.md` §20, §23 and §24.
 
 ---
 
@@ -512,6 +526,36 @@ figure script and, through `pageguard.figure_text()`, in the A-D builds. The val
 checked only by measuring the page again (`REVIEW-CONSISTENCY.md` §22 says how).
 
 **Defined.** Here; `HANDOFF.md` items 105 and 156; `REVIEW-CONSISTENCY.md` §22.
+
+---
+
+### D-20 · A figure never draws its text smaller than a 700 figure at 0.8 — in force
+
+**Rule.** Below 1000 px a figure keeps 0.8 of its viewBox width and scrolls sideways inside its
+box (`style.css`, one `min-width` line per viewBox width), so no text class draws smaller than
+on a 700 figure at 0.8 (`.mapx` 6.8 CSS px): at 390 px every figure scrolls; from 721 to 999
+only the 900-wide ones do, by 95 px at most. From 1000 px a figure drawn at viewBox 900 leaves
+the column to draw at its own width - both ways where there is no section rail (1000 to 1239),
+rightward only beside it - and its caption keeps the column's measure. On a screen only: paper
+cannot scroll, and in print a figure shrinks to the page as before. While a figure scrolls its
+caption stays in view under it (`position:sticky`). A new viewBox width needs its line in
+`style.css`.
+
+**Reason.** Measured in the page (review session 19): at 390 px 127 of 128 figures drew their
+smallest text under 5 CSS px (3.1 in the 900-wide), and at the desktop column the 23 figures at
+viewBox 900 (pages 01-20) drew every class 22 per cent smaller than the 68 at 700. Carsten chose
+the scroll box over pinch-to-zoom and the breakout over redrawing 23 figures, 30 September 2026.
+
+**Guard.** `pageguard.figure_widths()`, from `nesting()`, in every part build: a figure must hold
+one `<svg viewBox="0 0 W H">`, first; no svg may stand outside a figure; and the page's style must
+hold its width's line at 0.8 W inside the `screen and (max-width:999px)` block, not in a comment
+(planted: without the 640 line, with it commented out, or with it inside a nested `@media print`,
+pages 02-06 are NOT WRITTEN; with the whole block inside another at-rule, every page). It reads the style as written, not the cascade - a tripwire, not a
+proof: the proof is `ordercheck.py`, which lists any figure drawn under 0.8 of its viewBox at the
+width it runs (1200 and 390 in every cold run; review session 20, check 4). The result is measured in the page
+(`claude/session19_phone.py` and `claude/session20_widths.py` in the project), not by the guard.
+
+**Defined.** Here; `HANDOFF.md` item 158; `REVIEW-CONSISTENCY.md` §24.
 
 ---
 

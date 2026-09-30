@@ -245,7 +245,9 @@ def ledger():
     for name, a, b_ in WARS:
         o.append('<rect x="%.1f" y="%d" width="%.1f" height="%d" fill="%s" opacity=".13"/>'
                  % (X(a), top - 12, X(b_) - X(a), len(WORKS) * 26 + 16, OX))
-        o.append('<text x="%.1f" y="%d" class="mapt" text-anchor="middle" fill="%s">%s</text>'
+        # style=, not fill= (D-11): the war names drew grey over their red bands (review
+        # session 20)
+        o.append('<text x="%.1f" y="%d" class="mapt" text-anchor="middle" style="fill:%s">%s</text>'
                  % ((X(a) + X(b_)) / 2, top - 18, OX, name))
     for yr in range(1600, Y1 + 1, 10):
         o.append('<line x1="%.1f" y1="%d" x2="%.1f" y2="%d" stroke="%s" stroke-width=".6" '

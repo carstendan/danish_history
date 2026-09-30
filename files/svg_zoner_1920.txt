@@ -19,25 +19,25 @@
   <text x="420.0" y="121.9" class="mapx" text-anchor="start" fill="#2A2A28">Haderslev</text>
   <circle cx="399.2" cy="200.9" r="2.6" fill="#8C5A3C"/>
   <text x="404.7" y="193.9" class="mapx" text-anchor="start" fill="#2A2A28">Aabenraa</text>
-  <text x="404.7" y="204.9" class="mapx" text-anchor="start" fill="#8C5A3C">2.224 dansk · 2.725 tysk</text>
+  <text x="404.7" y="204.9" class="mapx" text-anchor="start" style="fill:#835438">2.224 dansk · 2.725 tysk</text>
   <circle cx="482.2" cy="251.1" r="2.6" fill="#8C5A3C"/>
   <text x="487.7" y="244.1" class="mapx" text-anchor="start" fill="#2A2A28">Sønderborg</text>
-  <text x="487.7" y="255.1" class="mapx" text-anchor="start" fill="#8C5A3C">2.029 dansk · 2.601 tysk</text>
+  <text x="487.7" y="255.1" class="mapx" text-anchor="start" style="fill:#835438">2.029 dansk · 2.601 tysk</text>
   <circle cx="276.1" cy="239.8" r="2.6" fill="#8C5A3C"/>
   <text x="281.6" y="242.8" class="mapx" text-anchor="start" fill="#2A2A28">Tønder</text>
   <circle cx="220.3" cy="219.9" r="2.6" fill="#8C5A3C"/>
   <text x="214.8" y="198.9" class="mapx" text-anchor="end" fill="#2A2A28">Højer</text>
-  <text x="214.8" y="209.9" class="mapx" text-anchor="end" fill="#8C5A3C">219 dansk · 581 tysk</text>
+  <text x="214.8" y="209.9" class="mapx" text-anchor="end" style="fill:#835438">219 dansk · 581 tysk</text>
   <circle cx="404.0" cy="302.2" r="2.6" fill="#8C5A3C"/>
   <text x="409.5" y="305.2" class="mapx" text-anchor="start" fill="#2A2A28">Flensburg</text>
   <circle cx="433.7" cy="387.9" r="2.6" fill="#8C5A3C"/>
   <text x="439.2" y="390.9" class="mapx" text-anchor="start" fill="#2A2A28">Schleswig</text>
-  <text x="205.4" y="130.1" class="mapt" fill="#2E6B5E">ZONE 1 · 10 February</text>
-  <text x="205.4" y="142.1" class="mapx" fill="#2E6B5E">counted en bloc · 75.431 dansk, 25.329 tysk</text>
-  <text x="214.7" y="348.5" class="mapt" fill="#8C5A3C">ZONE 2 · 14 March</text>
-  <text x="214.7" y="360.5" class="mapx" fill="#8C5A3C">counted commune by commune · about 80 pct. tysk</text>
+  <text x="205.4" y="130.1" class="mapt" style="fill:#2E6B5E">ZONE 1 · 10 February</text>
+  <text x="205.4" y="142.1" class="mapx" style="fill:#2E6B5E">counted en bloc · 75.431 dansk, 25.329 tysk</text>
+  <text x="214.7" y="348.5" class="mapt" style="fill:#835438">ZONE 2 · 14 March</text>
+  <text x="214.7" y="360.5" class="mapx" style="fill:#835438">counted commune by commune · about 80 pct. tysk</text>
   </g></g>
-  <text x="14" y="542" class="mapt" fill="#9A3B2E">the red line is both the zone boundary and the border. That is the argument.</text>
+  <text x="14" y="542" class="mapt" style="fill:#9A3B2E">the red line is both the zone boundary and the border. That is the argument.</text>
   <text x="14" y="557" class="mapx">Zone 1 went to Denmark whole, carrying four German-voting towns with it. No commune in Zone 2 returned a Danish majority —</text>
   <text x="14" y="570" class="mapx">three small polling places on Föhr did, and stayed in Germany.</text>
   <text x="14" y="586" class="mapx" opacity=".75">Lines are the legal zone boundaries at a scale where the border is two pixels wide, not traced survey. Tønder is marked</text>

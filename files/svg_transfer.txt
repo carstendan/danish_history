@@ -24,7 +24,7 @@
   <rect x="751.0" y="160" width="99.0" height="34" fill="#A9601C" fill-opacity="0.45" stroke="#A9601C" stroke-width=".8"/>
   <text x="800.5" y="176.0" class="mapx" fill="#221E18" text-anchor="middle">The rest</text>
   <path d="M 256.0 108 L 256.0 152" stroke="#8A2B2B" stroke-width="1.6" stroke-dasharray="4 3"/>
-  <text x="264.0" y="134.0" class="mapx" fill="#8A2B2B" text-anchor="start">the church's third, transferred</text>
+  <text x="264.0" y="134.0" class="mapx" style="fill:#8A2B2B" text-anchor="start">the church's third, transferred</text>
   <text x="874.0" y="216.0" class="mapx" fill="#6C6E63" text-anchor="end">the rest is a remainder, the freeholders’ land among it;</text>
   <text x="874.0" y="230.0" class="mapx" fill="#6C6E63" text-anchor="end">perhaps 10–15 per cent of peasants owned their farms</text>
   <text x="26.0" y="262.0" class="mapx" fill="#6C6E63" text-anchor="start">The nobility gained little land in 1536 and a great deal of security: no more bishops in the council, and a crown that owed them the war.</text>

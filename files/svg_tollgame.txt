@@ -6,9 +6,9 @@
   <text x="350" y="82" class="mapl" text-anchor="middle">What is the cargo</text>
   <text x="350" y="97" class="mapl" text-anchor="middle">worth?</text>
   <path d="M 350 106 C 350 130, 158 130, 158 152" fill="none" stroke="#8A2B2B" stroke-width="1.2" opacity=".8"/>
-  <text x="158" y="170" class="mapl" text-anchor="middle" fill="#8A2B2B">DECLARE LOW</text>
+  <text x="158" y="170" class="mapl" text-anchor="middle" style="fill:#8A2B2B">DECLARE LOW</text>
   <path d="M 350 106 C 350 130, 542 130, 542 152" fill="none" stroke="#2E6B5E" stroke-width="1.2" opacity=".8"/>
-  <text x="542" y="170" class="mapl" text-anchor="middle" fill="#2E6B5E">DECLARE HIGH</text>
+  <text x="542" y="170" class="mapl" text-anchor="middle" style="fill:#2E6B5E">DECLARE HIGH</text>
   <rect x="28" y="182" width="260" height="86" rx="3" fill="#8A2B2B" opacity=".10"/>
   <rect x="28" y="182" width="260" height="86" rx="3" fill="none" stroke="#8A2B2B" stroke-width="1" opacity=".55"/>
   <text x="158" y="202" class="mapx" text-anchor="middle">The crown may buy the cargo</text>

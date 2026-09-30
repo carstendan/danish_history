@@ -11,8 +11,8 @@
   <circle cx="349.7" cy="308.3" r="3.6" fill="#3C3E36"/><text x="345.2" y="311.5" class="mapl" text-anchor="end">Roskilde</text>
   <circle cx="427.5" cy="301.2" r="6.4" fill="none" stroke="#2E6B5E" stroke-width="1.6"/>
   <circle cx="427.5" cy="301.2" r="3.6" fill="#2E6B5E"/>
-  <text x="427.5" y="278.2" class="mapl" fill="#2E6B5E" text-anchor="middle">Lund</text>
-  <text x="427.5" y="289.2" class="mapx" fill="#2E6B5E" text-anchor="middle">archbishopric 1103/04</text>
+  <text x="427.5" y="278.2" class="mapl" style="fill:#2E6B5E" text-anchor="middle">Lund</text>
+  <text x="427.5" y="289.2" class="mapx" style="fill:#2E6B5E" text-anchor="middle">archbishopric 1103/04</text>
   <circle cx="438.8" cy="304.7" r="2.0" fill="#3C3E36"/><text x="445.8" y="308.7" class="mapx" text-anchor="start">Dalby</text>
   <text x="227.7" y="505.3" class="mapt" text-anchor="middle">HOLSTEN</text>
   <text x="107.5" y="492.7" class="mapx" text-anchor="middle">the Eider</text>

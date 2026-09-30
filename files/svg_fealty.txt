@@ -27,6 +27,6 @@
   <line x1="200" y1="326" x2="700" y2="326" stroke="#8A2B2B" stroke-width="1.6" stroke-dasharray="6 4"/>
   <line x1="210" y1="300" x2="210" y2="326" stroke="#8A2B2B" stroke-width="1" opacity=".6"/>
   <line x1="690" y1="300" x2="690" y2="326" stroke="#8A2B2B" stroke-width="1" opacity=".6"/>
-  <text x="450.0" y="348.0" class="mapl" fill="#8A2B2B" text-anchor="middle" font-style="italic">dat se bliven ewich tosamende ungedelt</text>
+  <text x="450.0" y="348.0" class="mapl" style="fill:#8A2B2B" text-anchor="middle" font-style="italic">dat se bliven ewich tosamende ungedelt</text>
   <text x="450.0" y="366.0" class="mapx" fill="#6C6E63" text-anchor="middle">— and the knighthood may resist if he breaks it</text>
   </svg>

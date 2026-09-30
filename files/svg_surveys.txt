@@ -2,7 +2,7 @@
   <rect x="0" y="0" width="700" height="452" fill="#F0F2EE"/>
   <text x="26" y="30" class="mapl">THE SAME HABIT, THREE TIMES</text>
   <text x="26" y="46" class="mapt">the state twice, then its company, 1662–1734: three ways of writing land down</text>
-  <text x="26" y="78" class="mapl" fill="#2F4C7A">1662 / 1664</text>
+  <text x="26" y="78" class="mapl" style="fill:#2F4C7A">1662 / 1664</text>
   <text x="26" y="94" class="mapx">DENMARK</text>
   <rect x="26" y="108" width="150" height="150" fill="#3C3E36" opacity=".08"/>
   <text x="34" y="134" class="mapt">3 tdr rye</text>
@@ -23,7 +23,7 @@
   <text x="26" y="330" class="mapt">turned into a number that</text>
   <text x="26" y="343" class="mapt">could be added up in</text>
   <text x="26" y="356" class="mapt">Copenhagen.</text>
-  <text x="242" y="78" class="mapl" fill="#2E6B5E">1681–83</text>
+  <text x="242" y="78" class="mapl" style="fill:#2E6B5E">1681–83</text>
   <text x="242" y="94" class="mapx">DENMARK</text>
   <rect x="242" y="108" width="150" height="150" fill="#3C3E36" opacity=".08"/>
   <rect x="289.4" y="220.2" width="17.1" height="18.8" fill="#2E6B5E" opacity=".40" stroke="#2E6B5E" stroke-width=".5"/>
@@ -58,7 +58,7 @@
   <text x="242" y="317" class="mapt">graded, village by village and</text>
   <text x="242" y="330" class="mapt">farm by farm. On a Swedish</text>
   <text x="242" y="343" class="mapt">model.</text>
-  <text x="458" y="78" class="mapl" fill="#A9601C">1734</text>
+  <text x="458" y="78" class="mapl" style="fill:#915218">1734</text>
   <text x="458" y="94" class="mapx">ST CROIX</text>
   <rect x="458" y="108" width="150" height="150" fill="#3C3E36" opacity=".08"/>
   <rect x="468" y="118" width="24" height="24" fill="#A9601C" opacity=".40" stroke="#A9601C" stroke-width=".6"/>

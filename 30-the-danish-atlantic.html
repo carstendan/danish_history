@@ -133,6 +133,41 @@
     ul.plain .nm{width:auto}
   }
 
+  /* below the 900-wide figures' breakout, a figure keeps 0.8 of its viewBox width and
+     scrolls sideways in its box, so no class draws smaller than on a 700 figure at 0.8
+     (mapx 6.8 px): at 390 px every figure scrolls; from 721 to 999 px only the 900-wide
+     ones do, by 95 px at most; review session 20. A new viewBox width needs its line here:
+     pageguard.figure_widths() refuses a page without. Screen only: paper cannot scroll (Chromium
+     prints A4 and Letter 720 to 816 px wide, landscape 981 to 1124), so in print a figure
+     shrinks to the page as it always did
+     (check 1 printed a mark at a 900 figure's right edge: cut). The caption stays in view
+     while the figure scrolls under it (check 1: it scrolled away with the figure) */
+  @media screen and (max-width:999px){
+    figure{overflow-x:auto}
+    figure figcaption{position:sticky;left:0}
+    figure svg[viewBox^="0 0 430 "]{min-width:344px}
+    figure svg[viewBox^="0 0 640 "]{min-width:512px}
+    figure svg[viewBox^="0 0 660 "]{min-width:528px}
+    figure svg[viewBox^="0 0 700 "]{min-width:560px}
+    figure svg[viewBox^="0 0 720 "]{min-width:576px}
+    figure svg[viewBox^="0 0 900 "]{min-width:720px}
+  }
+
+  /* a 900-wide figure leaves the column to draw at its own width, as large as a 700 one
+     (the svg is 694 px in the column); both sides where there is no rail, rightward only
+     beside the rail (it ends 68 px left of the column). Its caption keeps the column's
+     measure and, where the figure widens both ways, the column's indent; review session 20 */
+  @media screen and (min-width:1000px){
+    figure:has(> svg[viewBox^="0 0 900 "]) figcaption{max-width:694px}
+  }
+  @media screen and (min-width:1000px) and (max-width:1239px){
+    figure:has(> svg[viewBox^="0 0 900 "]){margin-left:-103px;margin-right:-103px}
+    figure:has(> svg[viewBox^="0 0 900 "]) figcaption{margin-left:103px}
+  }
+  @media screen and (min-width:1240px){
+    figure:has(> svg[viewBox^="0 0 900 "]){margin-right:-206px}
+  }
+
   html{scroll-behavior:smooth}
   @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
   h2[id],div.myth[id]{scroll-margin-top:24px}
@@ -339,20 +374,20 @@
   <text x="250" y="324" class="mapt" text-anchor="middle">VESTINDIEN</text>
   <line x1="26" y1="384" x2="674" y2="384" stroke="#C9CDC4" stroke-width="1"/>
   <rect x="26" y="398" width="22" height="9" fill="#2F4C7A" opacity=".75"/>
-  <text x="56" y="406" class="mapx" fill="#2F4C7A">FIRST LEG</text>
+  <text x="56" y="406" class="mapx" style="fill:#2F4C7A">FIRST LEG</text>
   <text x="26" y="426" class="mapt">Indian cotton above all,</text>
   <text x="26" y="439" class="mapt">then other textiles,</text>
   <text x="26" y="452" class="mapt">firearms, gunpowder,</text>
   <text x="26" y="465" class="mapt">brandy; mirrors, coral,</text>
   <text x="26" y="478" class="mapt">hats, tobacco pipes</text>
   <rect x="244" y="398" width="22" height="9" fill="#8A2B2B" opacity=".75"/>
-  <text x="274" y="406" class="mapx" fill="#8A2B2B">THE MIDDLE PASSAGE</text>
+  <text x="274" y="406" class="mapx" style="fill:#8A2B2B">THE MIDDLE PASSAGE</text>
   <text x="244" y="426" class="mapt">2–3 months.</text>
   <text x="244" y="439" class="mapt">Between one in six and</text>
   <text x="244" y="452" class="mapt">one in five of the people</text>
   <text x="244" y="465" class="mapt">put aboard did not arrive.</text>
   <rect x="462" y="398" width="22" height="9" fill="#A9601C" opacity=".75"/>
-  <text x="492" y="406" class="mapx" fill="#A9601C">THIRD LEG</text>
+  <text x="492" y="406" class="mapx" style="fill:#915218">THIRD LEG</text>
   <text x="462" y="426" class="mapt">raw sugar, refined in</text>
   <text x="462" y="439" class="mapt">Copenhagen under</text>
   <text x="462" y="452" class="mapt">monopoly and sold in</text>
@@ -402,7 +437,7 @@ The triangle as the traders' books saw it: goods out, people across, sugar home.
   <text x="26" y="30" class="mapl">WHAT THE PAPERS KEEP</text>
   <text x="26" y="46" class="mapt">the <tspan font-style="italic">Fredensborg</tspan>, 1767–68 — the best-documented slave ship found as a wreck</text>
   <line x1="350" y1="70" x2="350" y2="390" stroke="#C9CDC4" stroke-width="1"/>
-  <text x="26" y="92" class="mapx" fill="#2F4C7A">RECORDED</text>
+  <text x="26" y="92" class="mapx" style="fill:#2F4C7A">RECORDED</text>
   <circle cx="32" cy="112" r="2.6" fill="#2F4C7A"/>
   <text x="44" y="116" class="mapt">Espen Kønig, captain — died at Christiansborg</text>
   <text x="44" y="130" class="mapt">15 December 1767, before the crossing</text>
@@ -425,7 +460,7 @@ The triangle as the traders' books saw it: goods out, people across, sugar home.
   <text x="44" y="312" class="mapt">Coast 1 October; sailed 22 or 23 April 1768;</text>
   <text x="44" y="326" class="mapt">St Croix 9 July; sailed for home in September;</text>
   <text x="44" y="340" class="mapt">wrecked 1 December 1768</text>
-  <text x="382" y="92" class="mapx" fill="#5F6157">NOT RECORDED</text>
+  <text x="382" y="92" class="mapx" style="fill:#5F6157">NOT RECORDED</text>
   <rect x="382" y="106" width="268" height="13" fill="#5F6157" opacity=".10"/>
   <text x="388" y="116" class="mapt" fill="#5F6157">the names of the people in the hold</text>
   <rect x="382" y="126" width="268" height="13" fill="#5F6157" opacity=".10"/>
@@ -507,7 +542,7 @@ The <i class="dk">Fredensborg</i>'s papers, 1767–68, set beside what they leav
   <rect x="0" y="0" width="700" height="452" fill="#F0F2EE"/>
   <text x="26" y="30" class="mapl">THE SAME HABIT, THREE TIMES</text>
   <text x="26" y="46" class="mapt">the state twice, then its company, 1662–1734: three ways of writing land down</text>
-  <text x="26" y="78" class="mapl" fill="#2F4C7A">1662 / 1664</text>
+  <text x="26" y="78" class="mapl" style="fill:#2F4C7A">1662 / 1664</text>
   <text x="26" y="94" class="mapx">DENMARK</text>
   <rect x="26" y="108" width="150" height="150" fill="#3C3E36" opacity=".08"/>
   <text x="34" y="134" class="mapt">3 tdr rye</text>
@@ -528,7 +563,7 @@ The <i class="dk">Fredensborg</i>'s papers, 1767–68, set beside what they leav
   <text x="26" y="330" class="mapt">turned into a number that</text>
   <text x="26" y="343" class="mapt">could be added up in</text>
   <text x="26" y="356" class="mapt">Copenhagen.</text>
-  <text x="242" y="78" class="mapl" fill="#2E6B5E">1681–83</text>
+  <text x="242" y="78" class="mapl" style="fill:#2E6B5E">1681–83</text>
   <text x="242" y="94" class="mapx">DENMARK</text>
   <rect x="242" y="108" width="150" height="150" fill="#3C3E36" opacity=".08"/>
   <rect x="289.4" y="220.2" width="17.1" height="18.8" fill="#2E6B5E" opacity=".40" stroke="#2E6B5E" stroke-width=".5"/>
@@ -563,7 +598,7 @@ The <i class="dk">Fredensborg</i>'s papers, 1767–68, set beside what they leav
   <text x="242" y="317" class="mapt">graded, village by village and</text>
   <text x="242" y="330" class="mapt">farm by farm. On a Swedish</text>
   <text x="242" y="343" class="mapt">model.</text>
-  <text x="458" y="78" class="mapl" fill="#A9601C">1734</text>
+  <text x="458" y="78" class="mapl" style="fill:#915218">1734</text>
   <text x="458" y="94" class="mapx">ST CROIX</text>
   <rect x="458" y="108" width="150" height="150" fill="#3C3E36" opacity=".08"/>
   <rect x="468" y="118" width="24" height="24" fill="#A9601C" opacity=".40" stroke="#A9601C" stroke-width=".6"/>

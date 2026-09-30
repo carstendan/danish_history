@@ -133,6 +133,41 @@
     ul.plain .nm{width:auto}
   }
 
+  /* below the 900-wide figures' breakout, a figure keeps 0.8 of its viewBox width and
+     scrolls sideways in its box, so no class draws smaller than on a 700 figure at 0.8
+     (mapx 6.8 px): at 390 px every figure scrolls; from 721 to 999 px only the 900-wide
+     ones do, by 95 px at most; review session 20. A new viewBox width needs its line here:
+     pageguard.figure_widths() refuses a page without. Screen only: paper cannot scroll (Chromium
+     prints A4 and Letter 720 to 816 px wide, landscape 981 to 1124), so in print a figure
+     shrinks to the page as it always did
+     (check 1 printed a mark at a 900 figure's right edge: cut). The caption stays in view
+     while the figure scrolls under it (check 1: it scrolled away with the figure) */
+  @media screen and (max-width:999px){
+    figure{overflow-x:auto}
+    figure figcaption{position:sticky;left:0}
+    figure svg[viewBox^="0 0 430 "]{min-width:344px}
+    figure svg[viewBox^="0 0 640 "]{min-width:512px}
+    figure svg[viewBox^="0 0 660 "]{min-width:528px}
+    figure svg[viewBox^="0 0 700 "]{min-width:560px}
+    figure svg[viewBox^="0 0 720 "]{min-width:576px}
+    figure svg[viewBox^="0 0 900 "]{min-width:720px}
+  }
+
+  /* a 900-wide figure leaves the column to draw at its own width, as large as a 700 one
+     (the svg is 694 px in the column); both sides where there is no rail, rightward only
+     beside the rail (it ends 68 px left of the column). Its caption keeps the column's
+     measure and, where the figure widens both ways, the column's indent; review session 20 */
+  @media screen and (min-width:1000px){
+    figure:has(> svg[viewBox^="0 0 900 "]) figcaption{max-width:694px}
+  }
+  @media screen and (min-width:1000px) and (max-width:1239px){
+    figure:has(> svg[viewBox^="0 0 900 "]){margin-left:-103px;margin-right:-103px}
+    figure:has(> svg[viewBox^="0 0 900 "]) figcaption{margin-left:103px}
+  }
+  @media screen and (min-width:1240px){
+    figure:has(> svg[viewBox^="0 0 900 "]){margin-right:-206px}
+  }
+
   html{scroll-behavior:smooth}
   @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
   h2[id],div.myth[id]{scroll-margin-top:24px}
@@ -498,7 +533,7 @@ The change between the two codes is not severity. Jyske Lov priced a man, priced
   <text x="122.7" y="326.5" class="mapt" text-anchor="end">1 Jul 1677</text>
   <text x="259.7" y="329.9" class="mapl" text-anchor="middle">SKÅNE</text>
   <text x="42.0" y="274.4" class="mapl" text-anchor="middle">SJÆLLAND</text>
-  <text x="267.4" y="90.8" class="mapt" text-anchor="middle" fill="#2E6B5E">Göinge</text>
+  <text x="267.4" y="90.8" class="mapt" text-anchor="middle" style="fill:#2E6B5E">Göinge</text>
   </g>
   </g>
   <text x="470" y="76" class="mapx">The order of it</text>

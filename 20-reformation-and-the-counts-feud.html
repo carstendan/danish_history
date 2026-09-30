@@ -133,6 +133,41 @@
     ul.plain .nm{width:auto}
   }
 
+  /* below the 900-wide figures' breakout, a figure keeps 0.8 of its viewBox width and
+     scrolls sideways in its box, so no class draws smaller than on a 700 figure at 0.8
+     (mapx 6.8 px): at 390 px every figure scrolls; from 721 to 999 px only the 900-wide
+     ones do, by 95 px at most; review session 20. A new viewBox width needs its line here:
+     pageguard.figure_widths() refuses a page without. Screen only: paper cannot scroll (Chromium
+     prints A4 and Letter 720 to 816 px wide, landscape 981 to 1124), so in print a figure
+     shrinks to the page as it always did
+     (check 1 printed a mark at a 900 figure's right edge: cut). The caption stays in view
+     while the figure scrolls under it (check 1: it scrolled away with the figure) */
+  @media screen and (max-width:999px){
+    figure{overflow-x:auto}
+    figure figcaption{position:sticky;left:0}
+    figure svg[viewBox^="0 0 430 "]{min-width:344px}
+    figure svg[viewBox^="0 0 640 "]{min-width:512px}
+    figure svg[viewBox^="0 0 660 "]{min-width:528px}
+    figure svg[viewBox^="0 0 700 "]{min-width:560px}
+    figure svg[viewBox^="0 0 720 "]{min-width:576px}
+    figure svg[viewBox^="0 0 900 "]{min-width:720px}
+  }
+
+  /* a 900-wide figure leaves the column to draw at its own width, as large as a 700 one
+     (the svg is 694 px in the column); both sides where there is no rail, rightward only
+     beside the rail (it ends 68 px left of the column). Its caption keeps the column's
+     measure and, where the figure widens both ways, the column's indent; review session 20 */
+  @media screen and (min-width:1000px){
+    figure:has(> svg[viewBox^="0 0 900 "]) figcaption{max-width:694px}
+  }
+  @media screen and (min-width:1000px) and (max-width:1239px){
+    figure:has(> svg[viewBox^="0 0 900 "]){margin-left:-103px;margin-right:-103px}
+    figure:has(> svg[viewBox^="0 0 900 "]) figcaption{margin-left:103px}
+  }
+  @media screen and (min-width:1240px){
+    figure:has(> svg[viewBox^="0 0 900 "]){margin-right:-206px}
+  }
+
   html{scroll-behavior:smooth}
   @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
   h2[id],div.myth[id]{scroll-margin-top:24px}
@@ -766,7 +801,7 @@ On 30 October 1536 the bishops' share of it moved in an afternoon, and the rest 
   <rect x="751.0" y="160" width="99.0" height="34" fill="#A9601C" fill-opacity="0.45" stroke="#A9601C" stroke-width=".8"/>
   <text x="800.5" y="176.0" class="mapx" fill="#221E18" text-anchor="middle">The rest</text>
   <path d="M 256.0 108 L 256.0 152" stroke="#8A2B2B" stroke-width="1.6" stroke-dasharray="4 3"/>
-  <text x="264.0" y="134.0" class="mapx" fill="#8A2B2B" text-anchor="start">the church's third, transferred</text>
+  <text x="264.0" y="134.0" class="mapx" style="fill:#8A2B2B" text-anchor="start">the church's third, transferred</text>
   <text x="874.0" y="216.0" class="mapx" fill="#6C6E63" text-anchor="end">the rest is a remainder, the freeholders’ land among it;</text>
   <text x="874.0" y="230.0" class="mapx" fill="#6C6E63" text-anchor="end">perhaps 10–15 per cent of peasants owned their farms</text>
   <text x="26.0" y="262.0" class="mapx" fill="#6C6E63" text-anchor="start">The nobility gained little land in 1536 and a great deal of security: no more bishops in the council, and a crown that owed them the war.</text>

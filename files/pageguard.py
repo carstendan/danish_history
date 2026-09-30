@@ -372,7 +372,7 @@ def nesting(h):
     p.feed(h)
     p.close()
     problems += ['<%s> (line %d) never closed' % (t, l) for t, l in stack]
-    return problems + duplicate_ids(h)
+    return problems + duplicate_ids(h) + figure_widths(h)
 
 
 def duplicate_ids(h):
@@ -390,3 +390,172 @@ def duplicate_ids(h):
     seen = collections.Counter(re.findall(r'(?<![\w-])id="([^"]+)"', h))
     return ['id="%s" given %d times in the page (url(#%s) and #%s reach only the first)'
             % (k, n, k, k) for k, n in sorted(seen.items()) if n > 1]
+
+
+_RAW = re.compile(r'<!--.*?(?:-->|$)|<(script|style|template)\b([^>]*)>(.*?)</\1\s*>', re.S | re.I)
+_PHONE_MEDIA = re.compile(r'@media\s+(?:only\s+)?screen\s+and\s*\(\s*max-width\s*:\s*999px\s*\)', re.I)
+
+
+def _read_page(h):
+    """The page as a browser takes it, for this guard: comments, <script> and <template>
+    dropped, and each <style> that applies to the screen kept apart, whole - found left to
+    right, so a "<!--" inside a style or a script is theirs, not a comment (review session 20,
+    check 3). Returns (markup without them, [css of each applying style])."""
+    styles = []
+
+    def take(m):
+        if m.group(1) and m.group(1).lower() == 'style':
+            attrs = m.group(2)
+            media = re.search(r'\smedia\s*=\s*(?:"([^"]*)"|\'([^\']*)\'|([^\s>]+))', attrs, re.I)
+            kind = re.search(r'\stype\s*=\s*(?:"([^"]*)"|\'([^\']*)\'|([^\s>]+))', attrs, re.I)
+            mval = ' '.join(next(g for g in media.groups() if g is not None).lower().split()) \
+                if media else 'all'
+            tval = next(g for g in kind.groups() if g is not None).strip().lower() if kind else 'text/css'
+            if mval in ('all', 'screen', 'only screen') and tval in ('text/css', ''):
+                styles.append(m.group(3))
+        return ''
+    return _RAW.sub(take, h), styles
+
+
+def _top_level(css):
+    """The (prelude, body) pairs at the top level of a stylesheet, braces inside strings and
+    comments not counted."""
+    out, depth, k, start, body = [], 0, 0, 0, 0
+    while k < len(css):
+        c = css[k]
+        if c in '"\'':
+            e = css.find(c, k + 1)
+            k = len(css) if e < 0 else e + 1
+            continue
+        if css.startswith('/*', k):
+            e = css.find('*/', k + 2)
+            k = len(css) if e < 0 else e + 2
+            continue
+        if c == '{':
+            if depth == 0:
+                prelude, body = css[start:k], k + 1
+            depth += 1
+        elif c == '}':
+            depth -= 1
+            if depth == 0:
+                out.append((re.sub(r'/\*.*?\*/', ' ', prelude, flags=re.S).strip(), css[body:k]))
+                start = k + 1
+            elif depth < 0:
+                depth, start = 0, k + 1
+        elif c == ';' and depth == 0:
+            # ends an @import or @charset; anywhere else CSS keeps it in the next prelude, which
+            # a stray "};" before the phone block turns into an invalid selector the browser
+            # drops with its whole block (check 4) - so it is kept here too
+            if re.sub(r'/\*.*?\*/', '', css[start:k], flags=re.S).strip().startswith('@'):
+                start = k + 1
+        k += 1
+    return out
+
+
+def _phone_rules(styles):
+    """The min-width each viewBox width gets on a phone, as the page's own style gives it: the
+    figure svg[viewBox^="0 0 W "] rules at the top level of an `@media [only] screen and
+    (max-width:999px)` block that itself stands at the top level of a style applying to the
+    screen, the last one winning. Rules in comments, in another block, in an at-rule nested in
+    the block, or in a phone block nested in another at-rule are not read (review session 20,
+    checks 1 to 3: each had passed while the page drew the figure at .51). A value that is not
+    in px is kept as None, so it fails."""
+    rules, important = {}, {}
+    for css in styles:
+        for prelude, body in _top_level(css):
+            if not _PHONE_MEDIA.fullmatch(' '.join(prelude.split())):
+                continue
+            for head, decls in _top_level(body):
+                if head.startswith('@'):
+                    continue
+                clean = re.sub(r'/\*.*?\*/|"[^"]*"|\'[^\']*\'', ' ', decls, flags=re.S)
+                if '{' in clean or '}' in clean:
+                    continue                    # a nested rule: its declarations are not this rule's
+                for one in head.split(','):
+                    w = re.fullmatch(r'figure\s+svg\[viewBox\^=["\']0 0 ([1-9]\d*) ["\']\]', ' '.join(one.split()))
+                    if not w:
+                        continue
+                    for decl in clean.split(';'):
+                        d = re.fullmatch(r'\s*min-width\s*:\s*([^!]*?)\s*(!\s*important)?\s*', decl, re.I)
+                        if d:
+                            v = re.fullmatch(r'([\d.]+)px', d.group(1))
+                            key, imp = int(w.group(1)), bool(d.group(2))
+                            if imp or not important.get(key):      # an !important one wins
+                                rules[key] = float(v.group(1)) if v else None
+                                important[key] = important.get(key) or imp
+    return rules
+
+
+def _top_svgs(markup):
+    """The <svg> elements not inside another <svg>, as (start, end) offsets."""
+    out, depth, start = [], 0, 0
+    for m in re.finditer(r'<(/?)svg\b[^>]*?(/?)>', markup, re.I):
+        if m.group(1):
+            depth = max(depth - 1, 0)
+            if depth == 0:
+                out.append((start, m.end()))
+        elif m.group(2):
+            if depth == 0:
+                out.append((m.start(), m.end()))
+        else:
+            if depth == 0:
+                start = m.start()
+            depth += 1
+    return out
+
+
+def figure_widths(h):
+    """A figure whose viewBox width has no phone rule in the page's style.
+
+    Below 1000 px on a screen (style.css, `@media screen and (max-width:999px)`) a figure
+    scrolls sideways in its box and its svg keeps 0.8 of its viewBox width, so every text class
+    draws at one size whatever the viewBox (Carsten, review session 20: at 390 px the smallest
+    text had been under 5 CSS px in 127 of 128 figures; D-20). The rule is one line per width,
+    since CSS cannot read a number out of an attribute; a figure drawn at a width with no line
+    would shrink to the screen again and nothing would say so. Every <figure> must hold one
+    top-level <svg>, first, with a viewBox "0 0 W H"; no <svg> may stand outside a figure; and
+    `_phone_rules()` must give W 0.8 W px.
+
+    A TRIPWIRE, NOT A PROOF. It reads the style as written, not the cascade: a rule elsewhere
+    that overrides the block (a later `figure svg{min-width:0}`, an !important), or a selector
+    list the browser drops for one invalid member, is not seen. What the phone draws is
+    measured in the page: `ordercheck.py` lists any figure drawn under 0.8 of its viewBox at the
+    width it runs, at 1200 and 390 in every cold run, and that measure, not this guard, is the
+    check of record (review session 20: four checks each passed this guard a style or a page the
+    browser read otherwise - a block nested in an at-rule, a stray "};", a <style> in <noscript>,
+    a figure in a shadow root; the plausible ones are refused now, the contrived HTML and CSS
+    tricks are not all). Markup inside comments, <script> and <template> is not read (`_read_page`). Called
+    from nesting(), so every part build refuses such a page."""
+    body, styles = _read_page(h)
+    figs = re.findall(r'<figure\b[^>]*>(.*?)</figure\s*>', body, re.S | re.I)
+    top = _top_svgs(body)
+    if not figs and not top:
+        return []
+    rules = _phone_rules(styles)
+    problems = []
+    if not rules:
+        problems.append('the page has no phone rule at all (style.css: figure svg[viewBox^=...] '
+                        'lines in @media screen and (max-width:999px))')
+    inside = 0
+    for n, fig in enumerate(figs, 1):
+        svgs = _top_svgs(fig)
+        inside += len(svgs)
+        if len(svgs) != 1:
+            problems.append('figure %d holds %d top-level <svg>s; one rule per figure assumes one'
+                            % (n, len(svgs)))
+        m = re.match(r'\s*<svg\b[^>]*?\sviewBox=["\']0 0 ([1-9]\d*) [\d.]+["\']', fig, re.I)
+        if not m:
+            problems.append('figure %d does not open with an <svg viewBox="0 0 W H">' % n)
+            continue
+        w = int(m.group(1))
+        if w not in rules:
+            problems.append('figure %d is %d wide and style.css has no phone rule for it'
+                            ' (svg[viewBox^="0 0 %d "]{min-width:%gpx})' % (n, w, w, w * .8))
+        elif rules[w] is None or abs(rules[w] - w * .8) > .5:
+            problems.append('figure %d: the phone rule for %d gives %s, not 0.8 of it (%gpx)'
+                            % (n, w, '%gpx' % rules[w] if rules[w] is not None else 'no px value',
+                               w * .8))
+    outside = len(top) - inside
+    if outside:
+        problems.append('%d <svg>(s) outside any <figure>: no phone rule reaches them' % outside)
+    return problems

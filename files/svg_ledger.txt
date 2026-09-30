@@ -2,9 +2,9 @@
   <rect x="0" y="0" width="700" height="386" fill="#F0F2EE"/>
   <text x="26" y="28" class="mapl">WHAT WAS BEING BUILT, AND WHEN</text>
   <rect x="329.8" y="44" width="20.2" height="250" fill="#8A2B2B" opacity=".13"/>
-  <text x="340.0" y="38" class="mapt" text-anchor="middle" fill="#8A2B2B">Kalmar War</text>
+  <text x="340.0" y="38" class="mapt" text-anchor="middle" style="fill:#8A2B2B">Kalmar War</text>
   <rect x="471.6" y="44" width="40.5" height="250" fill="#8A2B2B" opacity=".13"/>
-  <text x="491.8" y="38" class="mapt" text-anchor="middle" fill="#8A2B2B">the German war</text>
+  <text x="491.8" y="38" class="mapt" text-anchor="middle" style="fill:#8A2B2B">the German war</text>
   <line x1="218.5" y1="44" x2="218.5" y2="290" stroke="#C9CDC4" stroke-width=".6" opacity=".8"/>
   <text x="218.5" y="306" class="mapt" text-anchor="middle">1600</text>
   <line x1="319.7" y1="44" x2="319.7" y2="290" stroke="#C9CDC4" stroke-width=".6" opacity=".8"/>

@@ -17,9 +17,13 @@ RULE = "#C9CDC4"
 OX = "#8A2B2B"
 
 
-def t(x, y, s, cls="mapx", fill=MUTED, anchor="start", extra=""):
-    return ('<text x="%.1f" y="%.1f" class="%s" fill="%s" text-anchor="%s"%s>%s</text>'
-            % (x, y, cls, fill, anchor, extra, s))
+def t(x, y, s, cls="mapx", fill=MUTED, anchor="start", extra="", key=False):
+    # key=True: the colour names a mark (the red bank, the bond) and must draw, so it goes in
+    # style= (D-11; a fill= attribute loses to the class). The other fill= colours are the
+    # legacy greys D-11 records, drawn in the class colour (review session 20).
+    paint = ('style="fill:%s"' if key else 'fill="%s"') % fill
+    return ('<text x="%.1f" y="%.1f" class="%s" %s text-anchor="%s"%s>%s</text>'
+            % (x, y, cls, paint, anchor, extra, s))
 
 
 # ------------------------------------------------------------------ figure 1
@@ -82,7 +86,7 @@ def fealty():
     o.append('<line x1="690" y1="300" x2="690" y2="326" stroke="%s" stroke-width="1" '
              'opacity=".6"/>' % OX)
     o.append(t(450, 348, "dat se bliven ewich tosamende ungedelt", "mapl", OX, "middle",
-               ' font-style="italic"'))
+               ' font-style="italic"', key=True))
     o.append(t(450, 366, "\u2014 and the knighthood may resist if he breaks it", "mapx",
                MUTED, "middle"))
 
@@ -127,8 +131,8 @@ def hemmingstedt():
 
     # the bank
     o.append('<rect x="516" y="150" width="16" height="66" fill="%s" fill-opacity=".9"/>' % OX)
-    o.append(t(524, 142, "the bank", "mapl", OX, "middle"))
-    o.append(t(524, 288, "thrown up overnight", "mapx", OX, "middle"))
+    o.append(t(524, 142, "the bank", "mapl", OX, "middle", key=True))
+    o.append(t(524, 288, "thrown up overnight", "mapx", OX, "middle", key=True))
 
     # the attack
     for y in (128, 238):
@@ -138,8 +142,8 @@ def hemmingstedt():
             dy = 34 if y < 170 else -34
             o.append('<line x1="%d" y1="%d" x2="%d" y2="%d" stroke="%s" stroke-width="1.6" '
                      'opacity=".85"/>' % (x, y, x + 10, y + dy, OX))
-    o.append(t(620, 132, "Dithmarschers, a few hundred at first", "mapx", OX))
-    o.append(t(620, 258, "sluices opened \u2014 the marsh floods", "mapx", OX))
+    o.append(t(620, 132, "Dithmarschers, a few hundred at first", "mapx", OX, key=True))
+    o.append(t(620, 258, "sluices opened \u2014 the marsh floods", "mapx", OX, key=True))
 
     o.append('<text x="874" y="188" class="mapl" fill="%s" text-anchor="end">to Heide \u2192</text>'
              % MUTED)

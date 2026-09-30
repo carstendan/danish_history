@@ -133,6 +133,41 @@
     ul.plain .nm{width:auto}
   }
 
+  /* below the 900-wide figures' breakout, a figure keeps 0.8 of its viewBox width and
+     scrolls sideways in its box, so no class draws smaller than on a 700 figure at 0.8
+     (mapx 6.8 px): at 390 px every figure scrolls; from 721 to 999 px only the 900-wide
+     ones do, by 95 px at most; review session 20. A new viewBox width needs its line here:
+     pageguard.figure_widths() refuses a page without. Screen only: paper cannot scroll (Chromium
+     prints A4 and Letter 720 to 816 px wide, landscape 981 to 1124), so in print a figure
+     shrinks to the page as it always did
+     (check 1 printed a mark at a 900 figure's right edge: cut). The caption stays in view
+     while the figure scrolls under it (check 1: it scrolled away with the figure) */
+  @media screen and (max-width:999px){
+    figure{overflow-x:auto}
+    figure figcaption{position:sticky;left:0}
+    figure svg[viewBox^="0 0 430 "]{min-width:344px}
+    figure svg[viewBox^="0 0 640 "]{min-width:512px}
+    figure svg[viewBox^="0 0 660 "]{min-width:528px}
+    figure svg[viewBox^="0 0 700 "]{min-width:560px}
+    figure svg[viewBox^="0 0 720 "]{min-width:576px}
+    figure svg[viewBox^="0 0 900 "]{min-width:720px}
+  }
+
+  /* a 900-wide figure leaves the column to draw at its own width, as large as a 700 one
+     (the svg is 694 px in the column); both sides where there is no rail, rightward only
+     beside the rail (it ends 68 px left of the column). Its caption keeps the column's
+     measure and, where the figure widens both ways, the column's indent; review session 20 */
+  @media screen and (min-width:1000px){
+    figure:has(> svg[viewBox^="0 0 900 "]) figcaption{max-width:694px}
+  }
+  @media screen and (min-width:1000px) and (max-width:1239px){
+    figure:has(> svg[viewBox^="0 0 900 "]){margin-left:-103px;margin-right:-103px}
+    figure:has(> svg[viewBox^="0 0 900 "]) figcaption{margin-left:103px}
+  }
+  @media screen and (min-width:1240px){
+    figure:has(> svg[viewBox^="0 0 900 "]){margin-right:-206px}
+  }
+
   html{scroll-behavior:smooth}
   @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
   h2[id],div.myth[id]{scroll-margin-top:24px}
@@ -413,8 +448,8 @@ of his life trying to get out from under it. He failed. His son succeeded.</p>
   <circle cx="349.7" cy="308.3" r="3.6" fill="#3C3E36"/><text x="345.2" y="311.5" class="mapl" text-anchor="end">Roskilde</text>
   <circle cx="427.5" cy="301.2" r="6.4" fill="none" stroke="#2E6B5E" stroke-width="1.6"/>
   <circle cx="427.5" cy="301.2" r="3.6" fill="#2E6B5E"/>
-  <text x="427.5" y="278.2" class="mapl" fill="#2E6B5E" text-anchor="middle">Lund</text>
-  <text x="427.5" y="289.2" class="mapx" fill="#2E6B5E" text-anchor="middle">archbishopric 1103/04</text>
+  <text x="427.5" y="278.2" class="mapl" style="fill:#2E6B5E" text-anchor="middle">Lund</text>
+  <text x="427.5" y="289.2" class="mapx" style="fill:#2E6B5E" text-anchor="middle">archbishopric 1103/04</text>
   <circle cx="438.8" cy="304.7" r="2.0" fill="#3C3E36"/><text x="445.8" y="308.7" class="mapx" text-anchor="start">Dalby</text>
   <text x="227.7" y="505.3" class="mapt" text-anchor="middle">HOLSTEN</text>
   <text x="107.5" y="492.7" class="mapx" text-anchor="middle">the Eider</text>
@@ -938,7 +973,7 @@ gave birth to a son and named him <b>Valdemar</b>, after her Kievan grandfather.
   <line x1="568.9" y1="112.0" x2="568.9" y2="427.5" stroke="#8A2B2B" stroke-width="1" stroke-dasharray="3 2" opacity=".8"/>
   <line x1="672.5" y1="112.0" x2="672.5" y2="427.5" stroke="#8A2B2B" stroke-width="1" stroke-dasharray="3 2" opacity=".8"/>
   <path d="M180.0 137.5 l7 0 l0 119.5 l-7 0" fill="none" stroke="#6C6E63" stroke-width="1.1" opacity=".75"/><text x="193.0" y="200.8" class="mapx" fill="#6C6E63">FIVE SONS IN TURN</text>
-  <path d="M180.0 265.0 l7 0 l0 119.5 l-7 0" fill="none" stroke="#8A2B2B" stroke-width="1.1" opacity=".75"/><text x="193.0" y="328.2" class="mapx" fill="#8A2B2B">TWENTY-SIX YEARS OF WAR</text>
+  <path d="M180.0 265.0 l7 0 l0 119.5 l-7 0" fill="none" stroke="#8A2B2B" stroke-width="1.1" opacity=".75"/><text x="193.0" y="328.2" class="mapx" style="fill:#8A2B2B">TWENTY-SIX YEARS OF WAR</text>
   <text x="156.0" y="130.0" class="mapl" text-anchor="end">Svend Estridsen</text>
   <rect x="177.0" y="121.0" width="121.6" height="11" fill="#3E8474" fill-opacity=".38" stroke="#3E8474" stroke-width="1"/>
   <text x="156.0" y="155.5" class="mapl" text-anchor="end">Harald Hen</text>
@@ -946,7 +981,7 @@ gave birth to a son and named him <b>Valdemar</b>, after her Kievan grandfather.
   <text x="156.0" y="181.0" class="mapl" text-anchor="end">Knud den Hellige</text>
   <rect x="325.7" y="172.0" width="27.0" height="11" fill="#8A2B2B" fill-opacity=".30" stroke="#8A2B2B" stroke-width="1"/>
   <path d="M348.2 177.0 l4.5 -5.5 l4.5 5.5 l-4.5 5.5 Z" fill="#8A2B2B"/>
-  <text x="363.7" y="181.0" class="mapx" fill="#8A2B2B">killed, Odense</text>
+  <text x="363.7" y="181.0" class="mapx" style="fill:#8A2B2B">killed, Odense</text>
   <text x="156.0" y="206.5" class="mapl" text-anchor="end">Oluf Hunger</text>
   <rect x="352.7" y="197.5" width="40.5" height="11" fill="#3E8474" fill-opacity=".38" stroke="#3E8474" stroke-width="1"/>
   <text x="156.0" y="232.0" class="mapl" text-anchor="end">Erik Ejegod</text>
@@ -955,31 +990,31 @@ gave birth to a son and named him <b>Valdemar</b>, after her Kievan grandfather.
   <text x="156.0" y="257.5" class="mapl" text-anchor="end">Niels</text>
   <rect x="433.8" y="248.5" width="135.1" height="11" fill="#8A2B2B" fill-opacity=".30" stroke="#8A2B2B" stroke-width="1"/>
   <path d="M564.4 253.5 l4.5 -5.5 l4.5 5.5 l-4.5 5.5 Z" fill="#8A2B2B"/>
-  <text x="579.9" y="257.5" class="mapx" fill="#8A2B2B">killed, Schleswig</text>
+  <text x="579.9" y="257.5" class="mapx" style="fill:#8A2B2B">killed, Schleswig</text>
   <text x="156.0" y="283.0" class="mapl" text-anchor="end">Erik Emune</text>
   <rect x="568.9" y="274.0" width="13.5" height="11" fill="#8A2B2B" fill-opacity=".30" stroke="#8A2B2B" stroke-width="1"/>
   <path d="M577.9 279.0 l4.5 -5.5 l4.5 5.5 l-4.5 5.5 Z" fill="#8A2B2B"/>
-  <text x="593.4" y="283.0" class="mapx" fill="#8A2B2B">killed at a thing</text>
+  <text x="593.4" y="283.0" class="mapx" style="fill:#8A2B2B">killed at a thing</text>
   <text x="156.0" y="308.5" class="mapl" text-anchor="end">Erik Lam</text>
   <rect x="582.4" y="299.5" width="40.5" height="11" fill="#3E8474" fill-opacity=".38" stroke="#3E8474" stroke-width="1"/>
   <text x="633.9" y="308.5" class="mapx" fill="#6C6E63">abdicated</text>
   <text x="156.0" y="334.0" class="mapl" text-anchor="end">Svend Grathe</text>
   <rect x="622.9" y="325.0" width="49.5" height="11" fill="#8A2B2B" fill-opacity=".30" stroke="#8A2B2B" stroke-width="1"/>
   <path d="M668.0 330.0 l4.5 -5.5 l4.5 5.5 l-4.5 5.5 Z" fill="#8A2B2B"/>
-  <text x="683.5" y="334.0" class="mapx" fill="#8A2B2B">Grathe Hede</text>
+  <text x="683.5" y="334.0" class="mapx" style="fill:#8A2B2B">Grathe Hede</text>
   <text x="156.0" y="359.5" class="mapl" text-anchor="end">Knud Magnussen</text>
   <rect x="622.9" y="350.5" width="49.5" height="11" fill="#8A2B2B" fill-opacity=".30" stroke="#8A2B2B" stroke-width="1"/>
   <path d="M668.0 355.5 l4.5 -5.5 l4.5 5.5 l-4.5 5.5 Z" fill="#8A2B2B"/>
-  <text x="683.5" y="359.5" class="mapx" fill="#8A2B2B">killed, Roskilde</text>
+  <text x="683.5" y="359.5" class="mapx" style="fill:#8A2B2B">killed, Roskilde</text>
   <text x="156.0" y="385.0" class="mapl" text-anchor="end">Valdemar</text>
   <rect x="659.0" y="376.0" width="22.5" height="11" fill="#3E8474" fill-opacity=".38" stroke="#3E8474" stroke-width="1"/>
   <path d="M681.5 375.5 l11 5.5 l-11 5.5 Z" fill="#3E8474" fill-opacity=".55"/>
   <text x="692.5" y="385.0" class="mapx" fill="#6C6E63">sole 1157; to 1182</text>
-  <text x="352.7" y="424.5" class="mapx" fill="#8A2B2B" text-anchor="middle">Knud murdered</text>
-  <text x="429.3" y="439.5" class="mapx" fill="#8A2B2B" text-anchor="middle">Lund archbishopric</text>
-  <text x="555.4" y="424.5" class="mapx" fill="#8A2B2B" text-anchor="middle">Knud Lavard killed</text>
-  <text x="568.9" y="439.5" class="mapx" fill="#8A2B2B" text-anchor="middle">Fodevig</text>
-  <text x="672.5" y="439.5" class="mapx" fill="#8A2B2B" text-anchor="middle">Grathe Hede</text>
+  <text x="352.7" y="424.5" class="mapx" style="fill:#8A2B2B" text-anchor="middle">Knud murdered</text>
+  <text x="429.3" y="439.5" class="mapx" style="fill:#8A2B2B" text-anchor="middle">Lund archbishopric</text>
+  <text x="555.4" y="424.5" class="mapx" style="fill:#8A2B2B" text-anchor="middle">Knud Lavard killed</text>
+  <text x="568.9" y="439.5" class="mapx" style="fill:#8A2B2B" text-anchor="middle">Fodevig</text>
+  <text x="672.5" y="439.5" class="mapx" style="fill:#8A2B2B" text-anchor="middle">Grathe Hede</text>
   <text x="18" y="34" style="font-family:'Iowan Old Style',Palatino,Georgia,serif;font-size:22px;fill:#221E18">One family, a hundred and ten years</text>
   <text x="18" y="52" class="mapt">REIGNS FROM SVEND ESTRIDSEN TO GRATHE HEDE</text>
 </svg>

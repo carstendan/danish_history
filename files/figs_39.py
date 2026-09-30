@@ -223,8 +223,12 @@ def krak():
         o.append('<text x="%d" y="%d" class="mapx" text-anchor="end">%s</text>' % (axis - 10, y, date))
         cls = "mapt" if big else "mapx"
         for j, ln in enumerate(ls):
-            o.append('<text x="%d" y="%d" class="%s" fill="%s">%s</text>'
-                     % (left, y + j * 12, cls, col if big else INK, ln))
+            # a rescue or the guarantee in its dot's colour, in style= (D-11: it drew grey,
+            # and the key under the figure named colours the words did not have); the other
+            # lines ask INK, a grey, and draw the class grey as recorded (review session 20)
+            paint = 'style="fill:%s"' % col if big else 'fill="%s"' % INK
+            o.append('<text x="%d" y="%d" class="%s" %s>%s</text>'
+                     % (left, y + j * 12, cls, paint, ln))
     fy = ys[-1] + 34
     for ln in fold("Brown: the bank. Red: the state. Blue: the courts and the Rigsdag.",
                    "mapx", 14, W):

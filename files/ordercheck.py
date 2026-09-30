@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 """What is painted over a figure's text, measured in the page.
 
-usage: python3 ordercheck.py ../[0-9][0-9]-*.html        (from files/)
+usage: python3 ordercheck.py ../[0-9][0-9]-*.html                 (from files/; 1200 px)
+       python3 ordercheck.py --width 390 ../[0-9][0-9]-*.html     (a phone)
 
 Every top-level <svg> of each page is screenshotted in Chromium as built, then again with
 every <text> moved to the end of its <svg> (so nothing can be painted over any text), and
@@ -15,7 +16,19 @@ it found what they could not: page 18's roads map had never drawn its bottom hun
 because two figures in one page shared a clip id (pageguard.duplicate_ids() now refuses
 that), and page 45's 1936 leader was drawn through "a quarter". Review session 19 made it a
 tool, on a recommendation to Carsten, standalone like linecheck: it needs Chromium and Playwright, and the
-builds do not.
+builds do not. Carsten kept it so in review session 20: a fixed step of every cold run and
+of every handover, at 1200 and at 390, and in no build, where a machine without Chromium
+would print SKIPPED and pass.
+
+THE WIDTH (review session 20). What a width changes is the scale a figure draws at: at
+1200 a 700 figure draws at .99 and a 900 one at 1.0 (it leaves the column, style.css); at
+390 every figure keeps 0.8 of its viewBox and scrolls sideways in its box. A scroll box
+would cut the svg the same way in both renders and pass whatever it hid (planted: a line
+over a label beyond the box at 390 was missed), so every figure's box is made visible
+before the screenshots; that changes no size. On the book as review session 20 left it,
+and on the book as it shipped before (figures at .36 to .51 on a phone, the 430-wide map
+at .76), nothing is listed at 390, 800, 1200 or 1440: nothing painted over a text appears
+only when the figure is small.
 
 THE FLOOR, TRIED (review session 19). Session 18's version counted a pixel when its
 luminance changed by more than 40 of 255, inside the band from .2 to .85 of the text's
@@ -42,6 +55,17 @@ stroke-linejoin, which a class on a <g> gives. JS_MOVE copies the stroke and fon
 properties the page's CSS sets, multiplies in the opacity of every enclosing <g>, and drops
 a clip on the text itself, so a text its own clip cuts is listed.
 
+D-20, IN THE PAGE (review session 20, check 4). On each page's first load, every top-level
+svg (open shadow roots too) is measured as drawn against its viewBox width, and one drawn under
+0.8 is listed: below 1000 px style.css keeps every figure at 0.8 of its viewBox, above it the
+column gives more. This is the proof of D-20; `pageguard.figure_widths()` in the builds reads the
+style as written, and four checks each passed it a style the browser read otherwise. Planted:
+check 4's 53 pages, each measured in Chromium first - every one with a figure under 0.8 is listed
+and every one without is not (a stray "};" before the phone block, a `<style>` in `<noscript>`,
+a figure in a declarative shadow root among them); the book as shipped before lists 23 figures
+at 1200 (the 900-wide at .77) and 128 at 390, the book after it none. An svg that is not drawn
+is skipped.
+
 BLIND SPOTS. A text painted over by a LATER TEXT is not seen: the texts keep their order
 when moved (collisions() compares text with text). A text outside the canvas is cut the
 same way in both renders (overruns() and overflows() measure that). A text with no box
@@ -49,7 +73,10 @@ same way in both renders (overruns() and overflows() measure that). A text with 
 but not named: a line's box leaves its markers out, so the line reads "nothing drawn after
 it". The screenshot is 2x, so a mark finer than half a CSS pixel may change nothing, and a
 mark within about half a CSS pixel of a halo may share a device pixel with it and be listed
-as touching.
+as touching. A rotated text's box is the upright box round it, so a mark in the paper
+beside a rotated label's letters can list it though it touches none (planted, review
+session 20: a line through 08's "793 Lindisfarne" also listed "808 Hedeby", whose box it
+crossed) - look at what is listed before moving anything.
 Measured in Chromium on Linux; on another machine the renders are still compared with each
 other, not with a stored image. Without Playwright, Pillow or a Chromium to launch, it
 prints SKIPPED and exits 2; it exits 1 when it lists anything, 0 when it lists nothing.
@@ -60,7 +87,7 @@ DIFF = 4          # a pixel counts when some channel changes by more than this (
 FLOOR = 1         # a text is listed from this many counted pixels
 SCALE = 2
 HALO_PAD = 1.3    # user units: half the halo's 2.6 stroke (style.css), added round each box
-                  # at the figure's scale (1.0 CSS px at viewBox 900 in the 1200 page, 2.1 at 430)
+                  # at the figure's scale (1.3 CSS px at viewBox 900 in the 1200 page, 2.1 at 430)
 
 JS_BOXES = r"""(si) => {
  const svg=[...document.querySelectorAll('svg')].filter(s=>!s.parentElement.closest('svg'))[si];
@@ -81,24 +108,66 @@ JS_BOXES = r"""(si) => {
 
 # Each text is moved to the end of the root <svg> inside a <g> carrying its full transform,
 # with every property the page's CSS may set on it or give it from a <g> copied onto it.
+# The transform is carried as written - every enclosing element's transform attribute, outer
+# first, and the text's own - because the same position reached through a matrix is not
+# drawn to the same pixels: review session 20 found 08's rotated "793 Lindisfarne" listed
+# at 59 px once its figure drew at scale 1.0, the edge of the "7" differing by up to 48 of
+# 255 between rotate(-30 134 192) and the equal matrix, with nothing drawn over it. Where
+# the attributes do not give the text's own CTM (a nested <svg>, a CSS transform), the
+# matrix is used, as before.
 JS_MOVE = r"""(si) => {
  const svg=[...document.querySelectorAll('svg')].filter(s=>!s.parentElement.closest('svg'))[si];
  const P=['fontFamily','fontSize','fontStyle','fontVariant','fontWeight','letterSpacing','wordSpacing',
    'fill','fillOpacity','stroke','strokeWidth','strokeOpacity','strokeLinejoin','strokeLinecap',
    'strokeMiterlimit','strokeDasharray','paintOrder','opacity','dominantBaseline','textDecoration','visibility'];
+ const same=(p,q)=>['a','b','c','d','e','f'].every(k=>Math.abs(p[k]-q[k])<1e-4);
  for (const t of [...svg.querySelectorAll('text')]) {
-   const m=svg.getScreenCTM().inverse().multiply(t.getScreenCTM());
+   const t0=t.getScreenCTM(), m=svg.getScreenCTM().inverse().multiply(t0);
    const c=t.cloneNode(true), cs=getComputedStyle(t);
    const g=document.createElementNS('http://www.w3.org/2000/svg','g');
-   g.setAttribute('transform',`matrix(${m.a},${m.b},${m.c},${m.d},${m.e},${m.f})`);
+   const tr=[]; for (let e=t.parentElement; e && e!==svg; e=e.parentElement) { const a=e.getAttribute('transform'); if (a) tr.unshift(a); }
+   if (tr.length) g.setAttribute('transform', tr.join(' '));
    for (const k of P) c.style[k]=cs[k];
    // a <g>'s opacity multiplies into its texts; carried, or the moved copy draws darker
    let op=parseFloat(cs.opacity); for (let e=t.parentElement; e && e!==svg; e=e.parentElement) op*=parseFloat(getComputedStyle(e).opacity);
    c.style.opacity=op;
    // a clip on the text itself would cut the copy the same way: dropped, so a cut text is listed
    c.removeAttribute('clip-path'); c.style.clipPath='none';
-   c.setAttribute('text-anchor', cs.textAnchor); c.removeAttribute('transform');
-   g.appendChild(c); svg.appendChild(g); t.remove(); } }"""
+   c.setAttribute('text-anchor', cs.textAnchor);
+   g.appendChild(c); svg.appendChild(g);
+   if (!same(c.getScreenCTM(), t0)) {
+     g.setAttribute('transform',`matrix(${m.a},${m.b},${m.c},${m.d},${m.e},${m.f})`); c.removeAttribute('transform'); }
+   t.remove(); } }"""
+
+
+# D-20 in the page: every figure's svg, as drawn at this width, against its viewBox width. The
+# style's phone rule keeps it at 0.8 below 1000 px and the column gives more above; a figure under
+# 0.8 is a fault whatever the style's text says (review session 20: the build guard reads the style
+# as written, and four checks each passed it a style the browser read otherwise).
+JS_SCALES = r"""() => { const out = [];
+ const walk = root => { for (const s of root.querySelectorAll('svg')) {
+     if (s.parentElement && s.parentElement.closest('svg')) continue;
+     const vb = s.viewBox && s.viewBox.baseVal; const r = s.getBoundingClientRect();
+     if (!vb || !vb.width || (!r.width && !r.height)) continue;
+     out.push([vb.width, r.width / vb.width]); }
+   for (const e of root.querySelectorAll('*')) if (e.shadowRoot) walk(e.shadowRoot); };
+ walk(document); return out; }"""
+MIN_SCALE = 0.795   # D-20's 0.8, less rounding
+
+
+# The svgs the order measure takes, tagged in document order: the same list JS_BOXES and JS_MOVE
+# index, so a locator that pierces shadow roots cannot count others (check 4's shadow-DOM plant
+# stopped the tool)
+JS_TAG = r"""() => { const l = [...document.querySelectorAll('svg')].filter(s => !s.parentElement.closest('svg'));
+ l.forEach((s, i) => s.setAttribute('data-oc', i)); return l.length; }"""
+
+
+JS_DRAWN = r"""(i) => { const r = document.querySelector('svg[data-oc="' + i + '"]').getBoundingClientRect();
+ return r.width > 0 && r.height > 0; }"""
+
+
+JS_UNCLIP = r"""() => { for (const s of document.querySelectorAll('svg')) { if (s.parentElement.closest('svg')) continue;
+ s.parentElement.style.overflow='visible'; } }"""
 
 
 def chromium_path():
@@ -109,9 +178,17 @@ def chromium_path():
 
 
 def main(args):
+    width = 1200
+    if '--width' in args:
+        i = args.index('--width')
+        try:
+            width = int(args[i + 1])
+        except (IndexError, ValueError):
+            print("usage: python3 ordercheck.py [--width 390] ../[0-9][0-9]-*.html"); return 2
+        args = args[:i] + args[i + 2:]
     pages = sorted({f for a in args for f in glob.glob(a)})
     if not pages:
-        print("usage: python3 ordercheck.py ../[0-9][0-9]-*.html"); return 2
+        print("usage: python3 ordercheck.py [--width 390] ../[0-9][0-9]-*.html"); return 2
     try:
         from playwright.sync_api import sync_playwright
         from PIL import Image, ImageChops
@@ -119,7 +196,7 @@ def main(args):
         print("SKIPPED, nothing measured: %s (pip install playwright pillow; a Chromium, "
               "or DK_CHROMIUM=/path/to/chrome)" % e)
         return 2
-    listed = 0; figs = set()
+    listed = 0; figs = set(); small = 0
     with sync_playwright() as p:
         exe = chromium_path()
         try:
@@ -128,16 +205,28 @@ def main(args):
             print("SKIPPED, nothing measured: no Chromium to launch (%s; set DK_CHROMIUM=/path/to/chrome)"
                   % str(e).strip().splitlines()[0])
             return 2
-        pg = br.new_page(viewport={'width': 1200, 'height': 900}, device_scale_factor=SCALE)
+        pg = br.new_page(viewport={'width': width, 'height': 900}, device_scale_factor=SCALE)
         nfig = 0
         for f in pages:
             url = 'file://' + os.path.abspath(f); pre = os.path.basename(f)[:2]
             pg.goto(url)
-            n = pg.locator('svg:not(svg svg)').count()
+            for j, (vbw, k) in enumerate(pg.evaluate(JS_SCALES)):
+                if k < MIN_SCALE:
+                    small += 1
+                    print("   ! %s svg%d drawn at %.3f of its viewBox (%g wide), under 0.8 (D-20)"
+                          % (pre, j, k, vbw))
+            n = pg.evaluate(JS_TAG)
             for si in range(n):
-                nfig += 1
                 pg.goto(url)
-                loc = pg.locator('svg:not(svg svg)').nth(si)
+                # below 1000 px a figure scrolls sideways in its box (style.css), which would
+                # cut the svg the same way in both renders and pass what it hides: every box is
+                # made visible, which changes no size, so the whole svg is measured at its scale
+                pg.evaluate(JS_UNCLIP)
+                pg.evaluate(JS_TAG)
+                loc = pg.locator('svg[data-oc="%d"]' % si)
+                if not pg.evaluate(JS_DRAWN, si):
+                    continue                    # not drawn (hidden, or none of its own size)
+                nfig += 1
                 loc.scroll_into_view_if_needed()
                 a = Image.open(io.BytesIO(loc.screenshot())).convert('RGB')
                 boxes = pg.evaluate(JS_BOXES, si)
@@ -171,8 +260,9 @@ def main(args):
                             print("        nothing drawn after it meets its box: a clip, a mask, or a marker "
                                   "at a line's end (a line's box leaves its markers out)?")
         br.close()
-    print("%d text(s) painted over, in %d of %d figure(s) on %d page(s)" % (listed, len(figs), nfig, len(pages)))
-    return 1 if listed else 0
+    print("%d text(s) painted over, in %d of %d figure(s) on %d page(s), at %d px; "
+          "%d figure(s) under 0.8 of their viewBox" % (listed, len(figs), nfig, len(pages), width, small))
+    return 1 if listed or small else 0
 
 
 if __name__ == "__main__":

@@ -226,7 +226,8 @@ def losses1645():
                            (23.5, 58.4, "\u00d6sel", "start"),
                            (11.65, 57.05, "Halland", "end")]:
         x, y = f.xy(lon, lat)
-        o.append('<text x="%.1f" y="%.1f" class="mapt" text-anchor="%s" fill="%s">%s</text>'
+        # style=, not fill= (D-11): the ceded provinces' names drew grey (review session 20)
+        o.append('<text x="%.1f" y="%.1f" class="mapt" text-anchor="%s" style="fill:%s">%s</text>'
                  % (x, y, a, OX, t))
     o.append('</g>')
     o.append('</g>')
@@ -234,7 +235,7 @@ def losses1645():
     px = 424
     y = 60
     for i, (name, poly, why) in enumerate(CEDED):
-        o.append('<text x="%d" y="%d" class="mapx" fill="%s">%s</text>' % (px, y, OX, name))
+        o.append('<text x="%d" y="%d" class="mapx" style="fill:%s">%s</text>' % (px, y, OX, name))
         o.append('<text x="%d" y="%d" class="mapt">%s</text>' % (px, y + 14, why))
         y += 44
 
