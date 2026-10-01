@@ -13,7 +13,6 @@ Run: python3 figs_22.py
 """
 import mapspine as M
 
-INK = "#3C3E36"
 PAPER = "#F0F2EE"
 RULE = "#C9CDC4"
 OX = "#8A2B2B"
@@ -261,8 +260,8 @@ def ledger():
         op = ".28" if kind == "x" else ".62"
         o.append('<rect x="%.1f" y="%d" width="%.1f" height="13" rx="2" fill="%s" '
                  'opacity="%s"/>' % (X(a), y - 10, max(4, X(b_) - X(a)), col, op))
-        o.append('<text x="%d" y="%d" class="mapx" text-anchor="end" fill="%s">%s</text>'
-                 % (L - 10, y, MUTED if kind == "x" else INK, name))
+        o.append('<text x="%d" y="%d" class="mapx" text-anchor="end">%s</text>'
+                 % (L - 10, y, name))
 
     f = top + len(WORKS) * 26 + 34
     o.append('<line x1="26" y1="%d" x2="674" y2="%d" stroke="%s" stroke-width="1"/>' % (f, f, RULE))

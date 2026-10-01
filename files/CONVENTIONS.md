@@ -278,10 +278,23 @@ terracotta `#A35738`, and brown `#835438` on 38's zone map). **Recorded, not cha
 256 ask one grey and draw another (a hierarchy of inks, not a meaning), 79 ask a hue as an
 accent (Part E's verdigris headers, 13's red headers, dates in a list),
 and 14's five pawn-map labels, which in their own hue on their own region read worse than in
-the class grey. A new figure still sets a meant colour in `style=`; the measure is
-`claude/session20_colours.py` in the project.
+the class grey. **Review session 21 deleted every `fill=` on a figure text** (Carsten), 357 on 23
+pages: 354 on classed texts, each drawing its class colour already, and page 06's three inside a
+`<g class="mapl">` with no class of their own, which the page honoured (a text's own attribute
+beats what it inherits) - SILVER and BRONZE moved into `style=`, IRON asked the class grey. No
+text's computed colour changed (measured on all 2,911 texts and 5 coloured tspans, shipped pages
+against new, at 1200 and 390), and after the deletion alone every figure was pixel-identical to the shipped one at 1200,
+1100 and 390 (at 390 with the new scroll line hidden: it moves the figures down the page).
 
-**Defined.** `HANDOFF.md` item 110 and its correction in item 129; item 158 and
+**Guard.** `pageguard.text_fills()`, from `nesting()`, in every part build, reading the page as
+HTML does: a `fill=` on any `<text>` or `<tspan>`, on an element with a map class, or on any
+element round a text outside the map class it has or takes from a `<g>`, up to the figure's svg
+(through a nested one; but `fill="none"`, meant for the shapes beside it), is refused, in any case or quoting (planted through a
+build: page 03 NOT WRITTEN; the shipped pages, 357 refusals on 23). In the page, `ordercheck.py` lists every
+figure text drawn in another colour than its markup asks (it took in
+`claude/session20_colours.py`): the shipped book 340, the book now 0, at 1200 and at 390.
+
+**Defined.** `HANDOFF.md` item 110 and its correction in item 129; items 158 and 159 and
 `REVIEW-CONSISTENCY.md` §24.
 
 ### D-12 · Draft prose is never written through a shell heredoc — in force
@@ -536,26 +549,44 @@ box (`style.css`, one `min-width` line per viewBox width), so no text class draw
 on a 700 figure at 0.8 (`.mapx` 6.8 CSS px): at 390 px every figure scrolls; from 721 to 999
 only the 900-wide ones do, by 95 px at most. From 1000 px a figure drawn at viewBox 900 leaves
 the column to draw at its own width - both ways where there is no section rail (1000 to 1239),
-rightward only beside it - and its caption keeps the column's measure. On a screen only: paper
-cannot scroll, and in print a figure shrinks to the page as before. While a figure scrolls its
-caption stays in view under it (`position:sticky`). A new viewBox width needs its line in
-`style.css`.
+rightward only beside it - and its caption keeps the column's measure and starts at the figure's
+padding, where every caption does (review session 21; it had kept the column's indent). On a
+screen only: paper cannot scroll, and in print a figure shrinks to the page as before. While a
+figure scrolls its caption stays in view under it (`position:sticky`) and opens with a line
+saying so ("Wider than the screen — scroll sideways →", not read aloud), at exactly the widths
+where that figure scrolls. Up to 720 px a figure's box is the viewport less 64 px, from 721 less
+96 and at most 694, and less than half a pixel over does not scroll: so, a viewBox width being a
+multiple of 5, a figure up to 780 wide scrolls below 0.8 W + 64, one from 825 to 865 below
+0.8 W + 96, one 870 or wider below 1000 (and needs the 900s' breakout above), and one from 785 to
+820 in two bands, for which no line is written yet (review session 21, checks 1 to 3; planted at
+775, 780, 825, 865 and 870 and measured at every width from 600 to 1000; the book measured on all
+45 pages at 24 widths from 320 to 1440: the line is there if and only if the figure scrolls). A fraction of a pixel at a browser zoom (999.5) drew a 900 figure at .771 and now at
+.800 (check 1 measured it). Each pair of width queries that meet
+(999/1000, 1239/1240) is written classic and range (`(max-width:999px), (width < 1000px)`), so a
+fraction of a pixel between the two at a browser zoom falls in one of them, and a browser without
+range syntax keeps the classic one (planted: with the range form unreadable, the classic one still
+applies). The scroll lines are range only; 720 has no partner. A new
+viewBox width needs its line in `style.css`, and its scroll line.
 
 **Reason.** Measured in the page (review session 19): at 390 px 127 of 128 figures drew their
 smallest text under 5 CSS px (3.1 in the 900-wide), and at the desktop column the 23 figures at
 viewBox 900 (pages 01-20) drew every class 22 per cent smaller than the 68 at 700. Carsten chose
 the scroll box over pinch-to-zoom and the breakout over redrawing 23 figures, 30 September 2026.
 
-**Guard.** `pageguard.figure_widths()`, from `nesting()`, in every part build: a figure must hold
-one `<svg viewBox="0 0 W H">`, first; no svg may stand outside a figure; and the page's style must
-hold its width's line at 0.8 W inside the `screen and (max-width:999px)` block, not in a comment
-(planted: without the 640 line, with it commented out, or with it inside a nested `@media print`,
-pages 02-06 are NOT WRITTEN; with the whole block inside another at-rule, every page). It reads the style as written, not the cascade - a tripwire, not a
-proof: the proof is `ordercheck.py`, which lists any figure drawn under 0.8 of its viewBox at the
-width it runs (1200 and 390 in every cold run; review session 20, check 4). The result is measured in the page
-(`claude/session19_phone.py` and `claude/session20_widths.py` in the project), not by the guard.
+**Guard.** `pageguard.figure_widths()`, from `nesting()`, in every part build, for the plausible
+fault - a figure at a width with no line: a figure must hold one `<svg viewBox="0 0 W H">`, first;
+W a multiple of 5; no svg may stand outside a figure; and the page's style must hold, outside a
+comment, the caption's hidden line and, for each W, `figure svg[viewBox^="0 0 W "]{min-width:0.8Wpx}`
+and its scroll line under the query its band gives (a W from 785 to 820 is refused). It finds the
+lines as `style.css` spells them, runs of white space and quotes aside, and refuses any other
+spelling; not whether the browser applies them: review
+session 20 made it read CSS as a browser does, four checks each found a style the browser read
+otherwise, and Carsten had it cut back (review session 21). The proof is `ordercheck.py`, which
+lists, at the width it runs (1200 and 390 in every cold run), any figure drawn under 0.8 of its
+viewBox and any whose scroll line is shown when it does not scroll, or the reverse. What the phone draws is measured in the page
+(`claude/session19_phone.py`, `claude/session21_widths.py` in the project).
 
-**Defined.** Here; `HANDOFF.md` item 158; `REVIEW-CONSISTENCY.md` §24.
+**Defined.** Here; `HANDOFF.md` items 158 and 159; `REVIEW-CONSISTENCY.md` §24 and §25.
 
 ---
 

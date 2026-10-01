@@ -172,10 +172,10 @@ def village():
                      "had stood in one place since the Middle Ages.", 104):
         o.append('<text x="26" y="%d" class="mapt">%s</text>' % (y, line))
         y += 14
-    o.append('<text x="26" y="%d" class="mapt" fill="%s">Both diagrams are schematic. They '
-             'are not a map of any particular village;</text>' % (y + 8, MUTED))
-    o.append('<text x="26" y="%d" class="mapt" fill="%s">for a real one, see the visit '
-             'block.</text>' % (y + 22, MUTED))
+    o.append('<text x="26" y="%d" class="mapt">Both diagrams are schematic. They '
+             'are not a map of any particular village;</text>' % (y + 8))
+    o.append('<text x="26" y="%d" class="mapt">for a real one, see the visit '
+             'block.</text>' % (y + 22))
     o.append('</svg>')
     return "\n  ".join(o)
 
@@ -243,7 +243,7 @@ def column():
     o.append('<line x1="26" y1="%d" x2="674" y2="%d" stroke="%s" stroke-width="1"/>' % (b, b, RULE))
     y = b + 20
     for claim, note in CORRECTIONS:
-        o.append('<text x="26" y="%d" class="mapx" fill="%s">%s</text>' % (y, IND, claim))
+        o.append('<text x="26" y="%d" class="mapx">%s</text>' % (y, claim))
         for line in wrap(note, 68):
             o.append('<text x="212" y="%d" class="mapt">%s</text>' % (y, line))
             y += 13

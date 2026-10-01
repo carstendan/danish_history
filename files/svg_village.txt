@@ -94,6 +94,6 @@
   <text x="26" y="404" class="mapt">After, each household farmed one piece and could do as it liked with it. Where the land would not take</text>
   <text x="26" y="418" class="mapt">the wedge shape, the farmstead itself was pulled down and rebuilt out on its own ground, which broke up</text>
   <text x="26" y="432" class="mapt">villages that had stood in one place since the Middle Ages.</text>
-  <text x="26" y="454" class="mapt" fill="#5F6157">Both diagrams are schematic. They are not a map of any particular village;</text>
-  <text x="26" y="468" class="mapt" fill="#5F6157">for a real one, see the visit block.</text>
+  <text x="26" y="454" class="mapt">Both diagrams are schematic. They are not a map of any particular village;</text>
+  <text x="26" y="468" class="mapt">for a real one, see the visit block.</text>
   </svg>

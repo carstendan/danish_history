@@ -26,6 +26,6 @@
   <circle cx="324.6" cy="150.1" r="17" fill="none" stroke="#2E6B5E" stroke-width="1.4" stroke-dasharray="4 3"/>
   <text x="16" y="30" style="font-family:'Iowan Old Style',Palatino,Georgia,serif;font-size:21px;fill:#221E18">Thirty-three months</text>
   <text x="16" y="47" class="mapt">FROM SICILY TO JUTLAND</text>
-  <text x="16" y="534" class="mapx" fill="#6C6E63">Arrival years, not a front line: the plague travelled by ship and jumped.</text>
-  <text x="16" y="548" class="mapx" fill="#6C6E63">It entered Europe at Caffa in the Crimea in 1346, off this map.</text>
+  <text x="16" y="534" class="mapx">Arrival years, not a front line: the plague travelled by ship and jumped.</text>
+  <text x="16" y="548" class="mapx">It entered Europe at Caffa in the Crimea in 1346, off this map.</text>
 </svg>

@@ -127,7 +127,7 @@ def plague():
         if i < len(MEASURES) - 1:
             o.append('<line x1="34" y1="%d" x2="34" y2="%d" stroke="%s" stroke-width="1" '
                      'opacity=".45"/>' % (y - 1, y + gap - 8, MUTED))
-        o.append('<text x="50" y="%d" class="mapx" fill="%s">%s</text>' % (y, col, when))
+        o.append('<text x="50" y="%d" class="mapx">%s</text>' % (y, when))
         lines = wrap(what, 62)
         o.append('<text x="150" y="%d" class="mapt">%s</text>' % (y, lines[0]))
         for k, line in enumerate(lines[1:]):

@@ -6,7 +6,7 @@
   <g clip-path="url(#cr)"><path d="M108.6 218.3 L204.6 209.5 L226.8 142.5 L228.7 79.4 L177.4 39.4 L100.1 50.3 L76.8 170.9 Z" fill="#C3D2C6" fill-opacity="0.95" stroke="#C3D2C6" stroke-width="1.1"/></g>
   <g clip-path="url(#cr)"><path d="M257.6 80.1 L279.2 87.7 L288.5 118.6 L312.8 148.6 L340.0 185.6 L384.8 188.8 L434.8 193.1 L488.0 210.9 L521.2 220.1 L520.1 292.5 L392.7 355.7 L309.1 351.7 L296.6 297.4 L297.4 207.1 L256.3 143.3 Z" fill="#2E6B5E" fill-opacity="0.65" stroke="#2E6B5E" stroke-width="1.1"/></g>
   <g clip-path="url(#cr)"><path d="M549.7 42.0 L602.9 47.0 L616.0 145.6 L556.9 150.1 Z" fill="#8A2B2B" fill-opacity="0.55" stroke="#8A2B2B" stroke-width="1.1"/></g>
-  <text x="151.8" y="116.8" class="mapl" fill="#3C3E36" text-anchor="middle">1340</text>
+  <text x="151.8" y="116.8" class="mapl" text-anchor="middle">1340</text>
   <text x="114.0" y="252.0" class="mapl" text-anchor="middle">1340s–50s</text>
   <text x="352.0" y="228.0" class="mapl" text-anchor="middle">1360</text>
   <text x="603.0" y="112.0" class="mapl" text-anchor="start">1361</text>
@@ -19,5 +19,5 @@
   <text x="171.9" y="386.2" class="mapt" text-anchor="middle">HOLSTEN</text>
   <text x="16" y="30" style="font-family:'Iowan Old Style',Palatino,Georgia,serif;font-size:21px;fill:#221E18">Buying a kingdom back</text>
   <text x="16" y="47" class="mapt">1340 – 1361</text>
-  <text x="16" y="412" class="mapx" fill="#6C6E63">Estonia went the other way: sold to the Teutonic Order in 1346 to pay for this.</text>
+  <text x="16" y="412" class="mapx">Estonia went the other way: sold to the Teutonic Order in 1346 to pay for this.</text>
 </svg>

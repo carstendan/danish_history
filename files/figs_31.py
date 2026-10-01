@@ -140,7 +140,7 @@ def campaign():
     px = 396
     y = 76
     for when, what in STAGES:
-        o.append('<text x="%d" y="%d" class="mapx" fill="%s">%s</text>' % (px, y, OX, when))
+        o.append('<text x="%d" y="%d" class="mapx">%s</text>' % (px, y, when))
         for line in wrap(what, 36):
             y += 13
             o.append('<text x="%d" y="%d" class="mapt">%s</text>' % (px, y, line))
@@ -265,8 +265,8 @@ def daler():
         o.append('<text x="26" y="%d" class="mapt">%s</text>' % (y, line))
         y += 14
     y += 10
-    o.append('<text x="26" y="%d" class="mapt" fill="%s">Every house, farm and workshop in the '
-             'realm was made security for the new notes.</text>' % (y, IND))
+    o.append('<text x="26" y="%d" class="mapt">Every house, farm and workshop in the '
+             'realm was made security for the new notes.</text>' % y)
 
     y += 44
     o.append('<text x="26" y="%d" class="mapx">AND A CEILING</text>' % y)

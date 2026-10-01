@@ -46,7 +46,6 @@ import mapspine as M
 
 PAPER = "#F0F2EE"
 RULE = "#C9CDC4"
-INK = "#3C3E36"
 DEEP = "#4A5A46"          # Part I band colour, provisional - see build_part_i.py
 QUIET = "#A9B6BD"
 WARM = "#A98C5F"
@@ -252,8 +251,8 @@ def afstemning():
         o.append('<text x="%d" y="%d" class="mapl">%s</text>' % (LEFT, y + 13, esc(label)))
         o.append('<rect x="%d" y="%d" width="%.1f" height="18" fill="%s"/>'
                  % (bar_x, y, w, fill))
-        o.append('<text x="%.1f" y="%d" class="mapt" fill="%s">%s</text>'
-                 % (bar_x + w + 8, y + 13, INK, esc("{:,}".format(int(round(v)))
+        o.append('<text x="%.1f" y="%d" class="mapt">%s</text>'
+                 % (bar_x + w + 8, y + 13, esc("{:,}".format(int(round(v)))
                                                     .replace(",", "\u2009"))))
         y += ROW
 

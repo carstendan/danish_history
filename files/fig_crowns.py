@@ -3,10 +3,13 @@
 a September 1398 no reference work gives).
 
 Review session 15: no label prints through a coastline or a marker. Lindholmen sits between
-Lund and Falsterbo, and there is no room on the Sound for its name that is not over a coast
-or the "1", so the key names it. The quiet markers carry their names only; the caption on the
-page says what each one was (born, married, Birgitta, died). Dalaborg, Kalmar and Stockholm
-are labelled on their landward side. Checked by eye and by linecheck.py.
+Lund and Falsterbo, and there was no room on the Sound for its name that is not over a coast
+or the "1", so the key named it. Since review session 16 a label carries a halo and may cross
+a thin coast (D-18): review session 21 named it on the map, east of its dot over Skåne, its
+last letters over the south coast; the key still names it. The quiet markers carry their
+names only; the caption on the page says what each one was (born, married, Birgitta, died).
+Dalaborg, Kalmar and Stockholm are labelled on their landward side. Checked by eye and by
+linecheck.py.
 
 Not a territorial map - chapter 16 already carries the 1397 spine map for that.
 This one carries the sequence, which the spine map cannot: where each of the
@@ -33,7 +36,7 @@ STOPS = [
      "Palm Sunday 1388 \u00b7 the Swedish lords change sides"),
     (5, 13.55, 58.17, "\u00c5sle", "end", 0, 0,
      "24 Feb 1389 \u00b7 King Albrecht beaten and taken"),
-    (6, 13.28, 55.52, "Lindholmen", None, 0, 0,
+    (6, 13.28, 55.52, "Lindholmen", "start", 0, 0,
      "1389\u201395 \u00b7 a king kept at Lindholmen, in Sk\u00e5ne"),
     (7, 9.40, 56.45, "Viborg", "end", 0, 0,
      "Jan 1396 \u00b7 Erik elected king of Denmark"),

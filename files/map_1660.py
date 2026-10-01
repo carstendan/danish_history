@@ -143,7 +143,7 @@ def build():
            'Norway keeps Trondhjem, restored in 1660. Skaane, Halland, Blekinge, Bohuslaen, '
            'Jaemtland, Haerjedalen, Gotland and Oesel are shown in a separate tone as provinces '
            'ceded to Sweden between 1645 and 1658. Sweden itself is a separate kingdom and is '
-           'not coloured. Schleswig, Holstein and Ditmarschen are held as duchies, the ducal '
+           'not coloured. Schleswig, Holstein and Dithmarschen are held as duchies, the ducal '
            'share sovereign since 1658. The western panel carries Iceland and the Faroes as '
            'dependencies and Greenland as a claim.">' % (M.W, M.H),
            M.base(f, polys),

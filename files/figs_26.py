@@ -162,7 +162,7 @@ def scania():
                        ("1 Jul 1677", "K\u00f8ge Bugt. The sea is decided"),
                        ("1678", "\u00d6rkened burned"),
                        ("1679", "Fontainebleau. Everything returned")]:
-        o.append('<text x="%d" y="%d" class="mapx" fill="%s">%s</text>' % (px, y, IND, when))
+        o.append('<text x="%d" y="%d" class="mapx">%s</text>' % (px, y, when))
         for line in wrap(what, 28):
             y += 13
             o.append('<text x="%d" y="%d" class="mapt">%s</text>' % (px, y, line))

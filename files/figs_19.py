@@ -20,12 +20,13 @@ OX = "#8A2B2B"
 AMBER = "#A9601C"
 
 
-def t(x, y, s, cls="mapx", fill=MUTED, anchor="start", extra="", key=False):
-    # key=True: the colour names a mark (the red line of the church's third) and must draw,
-    # so it goes in style= (D-11; a fill= attribute loses to the class). The other fill=
-    # colours are the legacy greys D-11 records, drawn in the class colour (review session 20).
-    paint = ('style="fill:%s"' if key else 'fill="%s"') % fill
-    return ('<text x="%.1f" y="%.1f" class="%s" %s text-anchor="%s"%s>%s</text>'
+def t(x, y, s, cls="mapx", anchor="start", extra="", ink=None):
+    # ink: a colour that names a mark (the red line of the church's third) and must draw, so
+    # it goes in style= (D-11: a fill= attribute loses to the class, and pageguard refuses
+    # one). Without it the text draws its class colour (review session 21: the colours the
+    # other calls passed were never drawn).
+    paint = ' style="fill:%s"' % ink if ink else ''
+    return ('<text x="%.1f" y="%.1f" class="%s"%s text-anchor="%s"%s>%s</text>'
             % (x, y, cls, paint, anchor, extra, s))
 
 
@@ -105,13 +106,16 @@ def feud():
             (PART_E, "7 5", "Rantzau to Funen and Zealand, 1535\u201336"),
             (AMBER, "dot", "where evangelical preaching began, with the year")]):
         y = H + 26 + i * 21
+        # each swatch 31 long, so both dashes end on a whole stroke (3 4: four and a dash;
+        # 7 5: three dashes - at 26 the 7 5 ended on a 2-unit stub; review session 21), the
+        # circle centred over them
         if dash == "dot":
-            o.append('<circle cx="30" cy="%d" r="4.6" fill="none" stroke="%s" '
+            o.append('<circle cx="33.5" cy="%d" r="4.6" fill="none" stroke="%s" '
                      'stroke-width="1.4"/>' % (y - 4, col))
         else:
-            o.append('<line x1="18" y1="%d" x2="44" y2="%d" stroke="%s" stroke-width="2.4"%s/>'
+            o.append('<line x1="18" y1="%d" x2="49" y2="%d" stroke="%s" stroke-width="2.4"%s/>'
                      % (y - 4, y - 4, col, ' stroke-dasharray="%s"' % dash if dash else ''))
-        o.append(t(56, y, lab, "mapx", MUTED))
+        o.append(t(56, y, lab, "mapx"))
     o.append('</svg>')
     return "\n  ".join(o), W, H + STRIP
 
@@ -127,50 +131,50 @@ def transfer():
          'and church fabric: after 1536 the crown takes the bishop\'s third.">' % (W, H),
          '<rect x="0" y="0" width="%d" height="%d" fill="%s"/>' % (W, H, M.PAPER)]
 
-    o.append(t(26, 34, "WHO HELD THE LAND", "mapt", PART_E))
-    o.append(t(700, 34, "shares, roughly", "mapt", MUTED))
+    o.append(t(26, 34, "WHO HELD THE LAND", "mapt"))
+    o.append(t(700, 34, "shares, roughly", "mapt"))
 
     bars = [("BEFORE 1536", 70, [("Crown", 10, PART_E, .45), ("Church", 35, OX, .55),
                                  ("Nobility", 40, INK, .30), ("The rest", 15, AMBER, .45)]),
             ("AFTER 1536", 160, [("Crown", 45, PART_E, .78), ("Nobility", 40, INK, .30),
                                  ("The rest", 15, AMBER, .45)])]
     for lab, y, segs in bars:
-        o.append(t(26, y + 16, lab, "mapl", INK))
+        o.append(t(26, y + 16, lab, "mapl"))
         x = 190
         for name, pct, col, op in segs:
             w = pct * 6.6
             o.append('<rect x="%.1f" y="%d" width="%.1f" height="34" fill="%s" fill-opacity="%s" '
                      'stroke="%s" stroke-width=".8"/>' % (x, y, w, col, op, col))
             if w > 60:
-                o.append(t(x + w / 2, y + 16, name, "mapx", INK, "middle"))
+                o.append(t(x + w / 2, y + 16, name, "mapx", "middle"))
                 if name != "The rest":     # a remainder, not a sourced share (session 14)
-                    o.append(t(x + w / 2, y + 28, "~%d%%" % pct, "mapx", MUTED, "middle"))
+                    o.append(t(x + w / 2, y + 28, "~%d%%" % pct, "mapx", "middle"))
             x += w
     xb = 190 + bars[0][2][0][1] * 6.6          # the crown's right edge before 1536, computed
     o.append('<path d="M %.1f 108 L %.1f 152" stroke="%s" stroke-width="1.6" '
              'stroke-dasharray="4 3"/>' % (xb, xb, OX))
-    o.append(t(xb + 8, 134, "the church's third, transferred", "mapx", OX, key=True))
-    o.append(t(874, 216, "the rest is a remainder, the freeholders\u2019 land among it;", "mapx", MUTED, "end"))
-    o.append(t(874, 230, "perhaps 10\u201315 per cent of peasants owned their farms", "mapx", MUTED, "end"))
+    o.append(t(xb + 8, 134, "the church's third, transferred", "mapx", ink=OX))
+    o.append(t(874, 216, "the rest is a remainder, the freeholders\u2019 land among it;", "mapx", "end"))
+    o.append(t(874, 230, "perhaps 10\u201315 per cent of peasants owned their farms", "mapx", "end"))
     o.append(t(26, 262, "The nobility gained little land in 1536 and a great deal of security: no "
-               "more bishops in the council, and a crown that owed them the war.", "mapx", MUTED))
+               "more bishops in the council, and a crown that owed them the war.", "mapx"))
 
     o.append('<line x1="26" y1="288" x2="%d" y2="288" stroke="%s" stroke-width=".8"/>'
              % (W - 26, RULE))
-    o.append(t(26, 312, "AND THE TITHE", "mapt", PART_E))
+    o.append(t(26, 312, "AND THE TITHE", "mapt"))
     o.append(t(26, 334, "Chapter 12 established that the Danish tithe was divided three ways, not "
-               "four: there was no share for the poor.", "mapx", MUTED))
+               "four: there was no share for the poor.", "mapx"))
 
     for lab, y, segs in [("BEFORE", 356, [("Bishop", OX, .55), ("Parish priest", INK, .30),
                                           ("Church fabric", AMBER, .45)]),
                          ("AFTER", 412, [("THE CROWN", PART_E, .78), ("Parish priest", INK, .30),
                                          ("Church fabric", AMBER, .45)])]:
-        o.append(t(26, y + 20, lab, "mapl", INK))
+        o.append(t(26, y + 20, lab, "mapl"))
         for i, (name, col, op) in enumerate(segs):
             x = 190 + i * 220
             o.append('<rect x="%d" y="%d" width="200" height="34" fill="%s" fill-opacity="%s" '
                      'stroke="%s" stroke-width=".8"/>' % (x, y, col, op, col))
-            o.append(t(x + 100, y + 21, name, "mapx", INK, "middle"))
+            o.append(t(x + 100, y + 21, name, "mapx", "middle"))
     o.append('<path d="M 290 390 L 290 412" stroke="%s" stroke-width="1.6" '
              'stroke-dasharray="4 3"/>' % OX)
     o.append('</svg>')
@@ -186,7 +190,7 @@ def weeks():
          'bishops\' property to the crown and the king\'s charter declares that Norway shall be '
          'under the Danish crown.">' % (W, H),
          '<rect x="0" y="0" width="%d" height="%d" fill="%s"/>' % (W, H, M.PAPER)]
-    o.append(t(26, 34, "THIRTEEN WEEKS", "mapt", PART_E))
+    o.append(t(26, 34, "THIRTEEN WEEKS", "mapt"))
     o.append('<text x="26" y="62" style="font-family:\'Iowan Old Style\',Palatino,Georgia,serif;'
              'font-size:19px;fill:%s">A siege ends, and a church is nationalised.</text>' % INK)
 
@@ -197,17 +201,17 @@ def weeks():
              (720, "1537", ["Bugenhagen crowns the", "king and ordains seven", "superintendents."])]
     for x, date, lines in stops:
         o.append('<circle cx="%d" cy="118" r="6" fill="%s"/>' % (x, PART_E))
-        o.append(t(x, 100, date, "mapl", PART_E))
+        o.append(t(x, 100, date, "mapl"))
         for i, l in enumerate(lines):
-            o.append(t(x, 142 + i * 15, l, "mapx", MUTED))
+            o.append(t(x, 142 + i * 15, l, "mapx"))
     o.append('<line x1="26" y1="212" x2="%d" y2="212" stroke="%s" stroke-width=".8"/>'
              % (W - 26, RULE))
     o.append(t(26, 240, "In the king's charter of the same day: \u2018Norway shall hereafter be and remain under the "
-               "crown of Denmark, like one of the other lands,", "mapx", MUTED))
+               "crown of Denmark, like one of the other lands,", "mapx"))
     o.append(t(26, 256, "Jutland, Funen, Zealand or Sk\u00e5ne.\u2019 It was not enforced as written, "
-               "and Norway kept its own law \u2014 but the sentence stood", "mapx", MUTED))
+               "and Norway kept its own law \u2014 but the sentence stood", "mapx"))
     o.append(t(26, 272, "in the constitution of the realm until 1814, and Norwegians have never "
-               "stopped quoting it.", "mapx", MUTED))
+               "stopped quoting it.", "mapx"))
     o.append('</svg>')
     return "\n  ".join(o), W, H
 

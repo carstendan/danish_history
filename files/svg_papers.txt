@@ -28,15 +28,15 @@
   <text x="44" y="340" class="mapt">wrecked 1 December 1768</text>
   <text x="382" y="92" class="mapx" style="fill:#5F6157">NOT RECORDED</text>
   <rect x="382" y="106" width="268" height="13" fill="#5F6157" opacity=".10"/>
-  <text x="388" y="116" class="mapt" fill="#5F6157">the names of the people in the hold</text>
+  <text x="388" y="116" class="mapt">the names of the people in the hold</text>
   <rect x="382" y="126" width="268" height="13" fill="#5F6157" opacity=".10"/>
-  <text x="388" y="136" class="mapt" fill="#5F6157">where in Africa they were taken from</text>
+  <text x="388" y="136" class="mapt">where in Africa they were taken from</text>
   <rect x="382" y="146" width="268" height="13" fill="#5F6157" opacity=".10"/>
-  <text x="388" y="156" class="mapt" fill="#5F6157">what languages they spoke</text>
+  <text x="388" y="156" class="mapt">what languages they spoke</text>
   <rect x="382" y="166" width="268" height="13" fill="#5F6157" opacity=".10"/>
-  <text x="388" y="176" class="mapt" fill="#5F6157">who among them was related to whom</text>
+  <text x="388" y="176" class="mapt">who among them was related to whom</text>
   <rect x="382" y="186" width="268" height="13" fill="#5F6157" opacity=".10"/>
-  <text x="388" y="196" class="mapt" fill="#5F6157">what any of them said</text>
+  <text x="388" y="196" class="mapt">what any of them said</text>
   <text x="382" y="224" class="mapt">They are in the documents. They are entered</text>
   <text x="382" y="238" class="mapt">as a count, and when they die they are</text>
   <text x="382" y="252" class="mapt">entered as a loss.</text>

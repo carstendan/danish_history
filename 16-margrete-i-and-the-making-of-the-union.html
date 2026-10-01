@@ -141,10 +141,14 @@
      prints A4 and Letter 720 to 816 px wide, landscape 981 to 1124), so in print a figure
      shrinks to the page as it always did
      (check 1 printed a mark at a 900 figure's right edge: cut). The caption stays in view
-     while the figure scrolls under it (check 1: it scrolled away with the figure) */
-  @media screen and (max-width:999px){
+     while the figure scrolls under it (check 1: it scrolled away with the figure). Each query
+     is written twice: the range form closes the fraction of a pixel between 999 and 1000 that
+     a browser zoom gives (at 999.5 a 900 figure drew at .77), the classic form keeps what a
+     browser without range syntax had (Carsten, review session 21) */
+  @media screen and (max-width:999px), screen and (width < 1000px){
     figure{overflow-x:auto}
     figure figcaption{position:sticky;left:0}
+    figure:has(> svg[viewBox^="0 0 900 "]) figcaption::before{display:block}
     figure svg[viewBox^="0 0 430 "]{min-width:344px}
     figure svg[viewBox^="0 0 640 "]{min-width:512px}
     figure svg[viewBox^="0 0 660 "]{min-width:528px}
@@ -153,16 +157,39 @@
     figure svg[viewBox^="0 0 900 "]{min-width:720px}
   }
 
+  /* a figure that scrolls says so, first in its caption: one line per viewBox width, at the
+     widths where it scrolls. Up to 720 px the figure's box is the viewport less 64 px (the
+     page's 20 and the figure's 12 each side), from 721 less 96 and at most 694 px, and less
+     than half a pixel over does not scroll. So, W a multiple of 5: up to 780 a figure scrolls
+     below 0.8 W + 64; from 825 to 865 below 0.8 W + 96; from 870 (the 900s) at every width
+     below 1000, in the phone block above; from 785 to 820 in two bands, which no line here
+     gives (pageguard.figure_widths() refuses one). Measured in the page at every width from
+     320 to 1000 (review session 21, checks 2 and 3). Without range syntax only the 900s say so.
+     The line is the caption's first, hidden until a query shows it; its arrow is held to the
+     last word (at 359 to 373 px it had wrapped alone), and it is not read out (alt text "",
+     where a browser has it): a screen reader is not scrolling (check 1, review session 21).
+     pageguard.figure_widths() asks for each width's line; ordercheck.py, at the width it
+     runs, lists a figure whose line is shown and that does not scroll, or the reverse */
+  figure figcaption::before{display:none;font-family:var(--mono);font-size:10.5px;
+    letter-spacing:.12em;text-transform:uppercase;margin:0 0 6px;
+    content:"Wider than the screen \2014  scroll sideways\A0\2192";
+    content:"Wider than the screen \2014  scroll sideways\A0\2192" / ""}
+  @media screen and (width < 408px){figure:has(> svg[viewBox^="0 0 430 "]) figcaption::before{display:block}}
+  @media screen and (width < 576px){figure:has(> svg[viewBox^="0 0 640 "]) figcaption::before{display:block}}
+  @media screen and (width < 592px){figure:has(> svg[viewBox^="0 0 660 "]) figcaption::before{display:block}}
+  @media screen and (width < 624px){figure:has(> svg[viewBox^="0 0 700 "]) figcaption::before{display:block}}
+  @media screen and (width < 640px){figure:has(> svg[viewBox^="0 0 720 "]) figcaption::before{display:block}}
+
   /* a 900-wide figure leaves the column to draw at its own width, as large as a 700 one
      (the svg is 694 px in the column); both sides where there is no rail, rightward only
      beside the rail (it ends 68 px left of the column). Its caption keeps the column's
-     measure and, where the figure widens both ways, the column's indent; review session 20 */
+     measure and starts where every caption does, at the figure's padding, under its title
+     (Carsten, review session 21; it had kept the column's indent, 103 px in) */
   @media screen and (min-width:1000px){
     figure:has(> svg[viewBox^="0 0 900 "]) figcaption{max-width:694px}
   }
-  @media screen and (min-width:1000px) and (max-width:1239px){
+  @media screen and (min-width:1000px) and (max-width:1239px), screen and (1000px <= width < 1240px){
     figure:has(> svg[viewBox^="0 0 900 "]){margin-left:-103px;margin-right:-103px}
-    figure:has(> svg[viewBox^="0 0 900 "]) figcaption{margin-left:103px}
   }
   @media screen and (min-width:1240px){
     figure:has(> svg[viewBox^="0 0 900 "]){margin-right:-206px}
@@ -186,7 +213,7 @@
   .rail .rn{color:var(--band);font-weight:600;flex:none;width:13px}
   .rail a.active{color:var(--peat);border-left-color:var(--amber);font-weight:600}
   .rail a.active .rn{color:var(--amber)}
-  @media (max-width:1239px){.rail{display:none}}
+  @media (max-width:1239px), (width < 1240px){.rail{display:none}}
 
   /* collapsible contents, narrow screens only */
   .toc{display:none;background:var(--paper);border-left:3px solid var(--band);
@@ -195,7 +222,7 @@
     color:var(--band);font-weight:600;cursor:pointer}
   .toc ol{margin:12px 0 2px;padding:0 0 0 20px}
   .toc li{margin:0 0 5px;font-size:15.5px}
-  @media (max-width:1239px){.toc{display:block}}
+  @media (max-width:1239px), (width < 1240px){.toc{display:block}}
 
   /* people vignette */
   .vig{background:var(--paper);border-left:3px solid var(--amber);padding:20px 22px;margin:30px 0}
@@ -496,69 +523,69 @@ thin, formal and produced by the winning side. What is not in doubt is the speed
 <figure>
 <svg viewBox="0 0 900 597" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagram of the five titles Margrete was hailed by between 1375 and 1397, each set against what the words granted her and what they withheld. The sequence runs from a written claim in 1375, through the regency of 1376, the unprecedented formula of plenipotentiary lady and husband taken at Lund in 1387 and repeated in Norway and Sweden in 1388, to Kalmar in 1397, where the title goes down to gracious lady while the power stays where it was.">
   <rect x="0" y="0" width="900" height="597" fill="#F0F2EE"/>
-  <text x="26.0" y="34.0" class="mapt" fill="#2E6B5E" text-anchor="start">THE WORDS</text>
-  <text x="496.0" y="34.0" class="mapt" fill="#2E6B5E" text-anchor="start">WHAT THEY GRANTED</text>
-  <text x="700.0" y="34.0" class="mapt" fill="#2E6B5E" text-anchor="start">WHAT THEY WITHHELD</text>
+  <text x="26.0" y="34.0" class="mapt" text-anchor="start">THE WORDS</text>
+  <text x="496.0" y="34.0" class="mapt" text-anchor="start">WHAT THEY GRANTED</text>
+  <text x="700.0" y="34.0" class="mapt" text-anchor="start">WHAT THEY WITHHELD</text>
   <line x1="26" y1="46" x2="874" y2="46" stroke="#C9CDC4" stroke-width=".8"/>
   <line x1="14" y1="84.0" x2="14" y2="452.0" stroke="#2E6B5E" stroke-width="1.2" opacity=".5"/>
   <rect x="10" y="80.0" width="8" height="8" fill="#2E6B5E"/>
-  <text x="26.0" y="88.0" class="mapl" fill="#2E6B5E" text-anchor="start">1375</text>
-  <text x="72.0" y="88.0" class="mapx" fill="#6C6E63" text-anchor="start">six weeks after Valdemar Atterdag dies, she signs herself</text>
-  <text x="26.0" y="108.0" class="mapx" fill="#221E18" text-anchor="start" font-style="italic">Norges og Sveriges dronning og hr. Valdemars</text>
-  <text x="26.0" y="123.0" class="mapx" fill="#221E18" text-anchor="start" font-style="italic">datter og rette arving</text>
-  <text x="26.0" y="141.0" class="mapt" fill="#6C6E63" text-anchor="start">Queen of Norway and Sweden, and Sir Valdemar's daughter and rightful heir</text>
-  <text x="496.0" y="90.0" class="mapx" fill="#6C6E63" text-anchor="start">A claim, put in writing before</text>
-  <text x="496.0" y="104.0" class="mapx" fill="#6C6E63" text-anchor="start">anyone else could put one</text>
-  <text x="700.0" y="90.0" class="mapx" fill="#6C6E63" text-anchor="start">No office in Denmark at all.</text>
-  <text x="700.0" y="104.0" class="mapx" fill="#6C6E63" text-anchor="start">Denmark elected its kings.</text>
+  <text x="26.0" y="88.0" class="mapl" text-anchor="start">1375</text>
+  <text x="72.0" y="88.0" class="mapx" text-anchor="start">six weeks after Valdemar Atterdag dies, she signs herself</text>
+  <text x="26.0" y="108.0" class="mapx" text-anchor="start" font-style="italic">Norges og Sveriges dronning og hr. Valdemars</text>
+  <text x="26.0" y="123.0" class="mapx" text-anchor="start" font-style="italic">datter og rette arving</text>
+  <text x="26.0" y="141.0" class="mapt" text-anchor="start">Queen of Norway and Sweden, and Sir Valdemar's daughter and rightful heir</text>
+  <text x="496.0" y="90.0" class="mapx" text-anchor="start">A claim, put in writing before</text>
+  <text x="496.0" y="104.0" class="mapx" text-anchor="start">anyone else could put one</text>
+  <text x="700.0" y="90.0" class="mapx" text-anchor="start">No office in Denmark at all.</text>
+  <text x="700.0" y="104.0" class="mapx" text-anchor="start">Denmark elected its kings.</text>
   <line x1="26" y1="154.0" x2="874" y2="154.0" stroke="#C9CDC4" stroke-width=".6" opacity=".8"/>
   <rect x="10" y="172.0" width="8" height="8" fill="#2E6B5E"/>
-  <text x="26.0" y="180.0" class="mapl" fill="#2E6B5E" text-anchor="start">1376</text>
-  <text x="72.0" y="180.0" class="mapx" fill="#6C6E63" text-anchor="start">at the assembly in Slagelse, 3 May</text>
-  <text x="26.0" y="200.0" class="mapx" fill="#221E18" text-anchor="start">Oluf, aged five, is elected king; his parents</text>
-  <text x="26.0" y="215.0" class="mapx" fill="#221E18" text-anchor="start">and the council govern in his name</text>
-  <text x="26.0" y="233.0" class="mapt" fill="#6C6E63" text-anchor="start">She is inside the regency, not above it</text>
-  <text x="496.0" y="182.0" class="mapx" fill="#6C6E63" text-anchor="start">A hand on the machinery, and</text>
-  <text x="496.0" y="196.0" class="mapx" fill="#6C6E63" text-anchor="start">seven years to learn it</text>
-  <text x="700.0" y="182.0" class="mapx" fill="#6C6E63" text-anchor="start">The authority was her son's,</text>
-  <text x="700.0" y="196.0" class="mapx" fill="#6C6E63" text-anchor="start">and it was shared.</text>
+  <text x="26.0" y="180.0" class="mapl" text-anchor="start">1376</text>
+  <text x="72.0" y="180.0" class="mapx" text-anchor="start">at the assembly in Slagelse, 3 May</text>
+  <text x="26.0" y="200.0" class="mapx" text-anchor="start">Oluf, aged five, is elected king; his parents</text>
+  <text x="26.0" y="215.0" class="mapx" text-anchor="start">and the council govern in his name</text>
+  <text x="26.0" y="233.0" class="mapt" text-anchor="start">She is inside the regency, not above it</text>
+  <text x="496.0" y="182.0" class="mapx" text-anchor="start">A hand on the machinery, and</text>
+  <text x="496.0" y="196.0" class="mapx" text-anchor="start">seven years to learn it</text>
+  <text x="700.0" y="182.0" class="mapx" text-anchor="start">The authority was her son's,</text>
+  <text x="700.0" y="196.0" class="mapx" text-anchor="start">and it was shared.</text>
   <line x1="26" y1="246.0" x2="874" y2="246.0" stroke="#C9CDC4" stroke-width=".6" opacity=".8"/>
   <rect x="10" y="264.0" width="8" height="8" fill="#2E6B5E"/>
-  <text x="26.0" y="272.0" class="mapl" fill="#2E6B5E" text-anchor="start">1387</text>
-  <text x="72.0" y="272.0" class="mapx" fill="#6C6E63" text-anchor="start">at the Lund assembly, a week after Oluf died</text>
-  <text x="26.0" y="292.0" class="mapx" fill="#221E18" text-anchor="start" font-style="italic">fuldmægtig frue og husbond og det ganske</text>
-  <text x="26.0" y="307.0" class="mapx" fill="#221E18" text-anchor="start" font-style="italic">rige Danmarks formynder</text>
-  <text x="26.0" y="325.0" class="mapt" fill="#6C6E63" text-anchor="start">Plenipotentiary lady and husband, and guardian of the whole realm of Denmark</text>
-  <text x="496.0" y="274.0" class="mapx" fill="#6C6E63" text-anchor="start">Everything a king did, under</text>
-  <text x="496.0" y="288.0" class="mapx" fill="#6C6E63" text-anchor="start">a formula nobody had used</text>
-  <text x="700.0" y="274.0" class="mapx" fill="#6C6E63" text-anchor="start">The crown. She was not made</text>
-  <text x="700.0" y="288.0" class="mapx" fill="#6C6E63" text-anchor="start">queen of Denmark, then or ever.</text>
+  <text x="26.0" y="272.0" class="mapl" text-anchor="start">1387</text>
+  <text x="72.0" y="272.0" class="mapx" text-anchor="start">at the Lund assembly, a week after Oluf died</text>
+  <text x="26.0" y="292.0" class="mapx" text-anchor="start" font-style="italic">fuldmægtig frue og husbond og det ganske</text>
+  <text x="26.0" y="307.0" class="mapx" text-anchor="start" font-style="italic">rige Danmarks formynder</text>
+  <text x="26.0" y="325.0" class="mapt" text-anchor="start">Plenipotentiary lady and husband, and guardian of the whole realm of Denmark</text>
+  <text x="496.0" y="274.0" class="mapx" text-anchor="start">Everything a king did, under</text>
+  <text x="496.0" y="288.0" class="mapx" text-anchor="start">a formula nobody had used</text>
+  <text x="700.0" y="274.0" class="mapx" text-anchor="start">The crown. She was not made</text>
+  <text x="700.0" y="288.0" class="mapx" text-anchor="start">queen of Denmark, then or ever.</text>
   <line x1="26" y1="338.0" x2="874" y2="338.0" stroke="#C9CDC4" stroke-width=".6" opacity=".8"/>
   <rect x="10" y="356.0" width="8" height="8" fill="#2E6B5E"/>
-  <text x="26.0" y="364.0" class="mapl" fill="#2E6B5E" text-anchor="start">1388</text>
-  <text x="72.0" y="364.0" class="mapx" fill="#6C6E63" text-anchor="start">in Norway, and at Dalaborg on Palm Sunday</text>
-  <text x="26.0" y="384.0" class="mapx" fill="#221E18" text-anchor="start" font-style="italic">Norges mægtige frue og retmæssige husbond</text>
-  <text x="26.0" y="399.0" class="mapx" fill="#221E18" text-anchor="start" font-style="italic">Sveriges fuldmægtige frue og rette husbond</text>
-  <text x="26.0" y="417.0" class="mapt" fill="#6C6E63" text-anchor="start">The same words again, twice, in the other two kingdoms</text>
-  <text x="496.0" y="366.0" class="mapx" fill="#6C6E63" text-anchor="start">One standing in all three</text>
-  <text x="496.0" y="380.0" class="mapx" fill="#6C6E63" text-anchor="start">realms — in Norway, for life</text>
-  <text x="700.0" y="366.0" class="mapx" fill="#6C6E63" text-anchor="start">Sweden still had a crowned</text>
-  <text x="700.0" y="380.0" class="mapx" fill="#6C6E63" text-anchor="start">king, and Albrecht had an army.</text>
+  <text x="26.0" y="364.0" class="mapl" text-anchor="start">1388</text>
+  <text x="72.0" y="364.0" class="mapx" text-anchor="start">in Norway, and at Dalaborg on Palm Sunday</text>
+  <text x="26.0" y="384.0" class="mapx" text-anchor="start" font-style="italic">Norges mægtige frue og retmæssige husbond</text>
+  <text x="26.0" y="399.0" class="mapx" text-anchor="start" font-style="italic">Sveriges fuldmægtige frue og rette husbond</text>
+  <text x="26.0" y="417.0" class="mapt" text-anchor="start">The same words again, twice, in the other two kingdoms</text>
+  <text x="496.0" y="366.0" class="mapx" text-anchor="start">One standing in all three</text>
+  <text x="496.0" y="380.0" class="mapx" text-anchor="start">realms — in Norway, for life</text>
+  <text x="700.0" y="366.0" class="mapx" text-anchor="start">Sweden still had a crowned</text>
+  <text x="700.0" y="380.0" class="mapx" text-anchor="start">king, and Albrecht had an army.</text>
   <line x1="26" y1="430.0" x2="874" y2="430.0" stroke="#C9CDC4" stroke-width=".6" opacity=".8"/>
   <rect x="10" y="448.0" width="8" height="8" fill="#2E6B5E"/>
-  <text x="26.0" y="456.0" class="mapl" fill="#2E6B5E" text-anchor="start">1397</text>
-  <text x="72.0" y="456.0" class="mapx" fill="#6C6E63" text-anchor="start">at Kalmar, 17 June</text>
-  <text x="26.0" y="476.0" class="mapx" fill="#221E18" text-anchor="start">Erik is crowned over all three; she is</text>
-  <text x="26.0" y="491.0" class="mapx" fill="#221E18" text-anchor="start" font-style="italic">vor nådige frue dronning Margrete</text>
-  <text x="26.0" y="509.0" class="mapt" fill="#6C6E63" text-anchor="start">Our gracious lady, Queen Margrete — a courtesy, and a step down on paper</text>
-  <text x="496.0" y="458.0" class="mapx" fill="#6C6E63" text-anchor="start">A crowned king of her choosing,</text>
-  <text x="496.0" y="472.0" class="mapx" fill="#6C6E63" text-anchor="start">and her holdings secured for life</text>
-  <text x="700.0" y="458.0" class="mapx" fill="#6C6E63" text-anchor="start">Nothing she had been doing.</text>
-  <text x="700.0" y="472.0" class="mapx" fill="#6C6E63" text-anchor="start">The title fell;</text>
-  <text x="700.0" y="486.0" class="mapx" fill="#6C6E63" text-anchor="start">the power did not.</text>
+  <text x="26.0" y="456.0" class="mapl" text-anchor="start">1397</text>
+  <text x="72.0" y="456.0" class="mapx" text-anchor="start">at Kalmar, 17 June</text>
+  <text x="26.0" y="476.0" class="mapx" text-anchor="start">Erik is crowned over all three; she is</text>
+  <text x="26.0" y="491.0" class="mapx" text-anchor="start" font-style="italic">vor nådige frue dronning Margrete</text>
+  <text x="26.0" y="509.0" class="mapt" text-anchor="start">Our gracious lady, Queen Margrete — a courtesy, and a step down on paper</text>
+  <text x="496.0" y="458.0" class="mapx" text-anchor="start">A crowned king of her choosing,</text>
+  <text x="496.0" y="472.0" class="mapx" text-anchor="start">and her holdings secured for life</text>
+  <text x="700.0" y="458.0" class="mapx" text-anchor="start">Nothing she had been doing.</text>
+  <text x="700.0" y="472.0" class="mapx" text-anchor="start">The title fell;</text>
+  <text x="700.0" y="486.0" class="mapx" text-anchor="start">the power did not.</text>
   <line x1="26" y1="544" x2="874" y2="544" stroke="#C9CDC4" stroke-width=".8"/>
-  <text x="26.0" y="562.0" class="mapt" fill="#6C6E63" text-anchor="start">husbond is husband in the older sense — the head of a household, the one who runs the estate. No woman in Scandinavia had been given the</text>
-  <text x="26.0" y="575.0" class="mapt" fill="#6C6E63" text-anchor="start">word before.</text>
+  <text x="26.0" y="562.0" class="mapt" text-anchor="start">husbond is husband in the older sense — the head of a household, the one who runs the estate. No woman in Scandinavia had been given the</text>
+  <text x="26.0" y="575.0" class="mapt" text-anchor="start">word before.</text>
   </svg>
 <figcaption><b>Figure 1 · What she was called, and what it carried</b>
 Five acclamations in twenty-two years. The Danish is quoted; the English underneath is a
@@ -632,6 +659,7 @@ would have recognised.</p>
   <circle cx="332.2" cy="220.1" r="7.2" fill="#2E6B5E" fill-opacity=".92"/><text x="332.2" y="223.7" class="mapl" style="fill:#F0F2EE" text-anchor="middle">5</text>
   <text x="323.2" y="223.7" class="mapl" text-anchor="end">Åsle</text>
   <circle cx="319.8" cy="436.3" r="7.2" fill="#2E6B5E" fill-opacity=".92"/><text x="319.8" y="439.9" class="mapl" style="fill:#F0F2EE" text-anchor="middle">6</text>
+  <text x="328.8" y="439.9" class="mapl" text-anchor="start">Lindholmen</text>
   <circle cx="145.2" cy="354.9" r="7.2" fill="#2E6B5E" fill-opacity=".92"/><text x="145.2" y="358.5" class="mapl" style="fill:#F0F2EE" text-anchor="middle">7</text>
   <text x="136.2" y="358.5" class="mapl" text-anchor="end">Viborg</text>
   <circle cx="458.2" cy="340.6" r="7.2" fill="#2E6B5E" fill-opacity=".92"/><text x="458.2" y="344.2" class="mapl" style="fill:#F0F2EE" text-anchor="middle">8</text>

@@ -141,10 +141,14 @@
      prints A4 and Letter 720 to 816 px wide, landscape 981 to 1124), so in print a figure
      shrinks to the page as it always did
      (check 1 printed a mark at a 900 figure's right edge: cut). The caption stays in view
-     while the figure scrolls under it (check 1: it scrolled away with the figure) */
-  @media screen and (max-width:999px){
+     while the figure scrolls under it (check 1: it scrolled away with the figure). Each query
+     is written twice: the range form closes the fraction of a pixel between 999 and 1000 that
+     a browser zoom gives (at 999.5 a 900 figure drew at .77), the classic form keeps what a
+     browser without range syntax had (Carsten, review session 21) */
+  @media screen and (max-width:999px), screen and (width < 1000px){
     figure{overflow-x:auto}
     figure figcaption{position:sticky;left:0}
+    figure:has(> svg[viewBox^="0 0 900 "]) figcaption::before{display:block}
     figure svg[viewBox^="0 0 430 "]{min-width:344px}
     figure svg[viewBox^="0 0 640 "]{min-width:512px}
     figure svg[viewBox^="0 0 660 "]{min-width:528px}
@@ -153,16 +157,39 @@
     figure svg[viewBox^="0 0 900 "]{min-width:720px}
   }
 
+  /* a figure that scrolls says so, first in its caption: one line per viewBox width, at the
+     widths where it scrolls. Up to 720 px the figure's box is the viewport less 64 px (the
+     page's 20 and the figure's 12 each side), from 721 less 96 and at most 694 px, and less
+     than half a pixel over does not scroll. So, W a multiple of 5: up to 780 a figure scrolls
+     below 0.8 W + 64; from 825 to 865 below 0.8 W + 96; from 870 (the 900s) at every width
+     below 1000, in the phone block above; from 785 to 820 in two bands, which no line here
+     gives (pageguard.figure_widths() refuses one). Measured in the page at every width from
+     320 to 1000 (review session 21, checks 2 and 3). Without range syntax only the 900s say so.
+     The line is the caption's first, hidden until a query shows it; its arrow is held to the
+     last word (at 359 to 373 px it had wrapped alone), and it is not read out (alt text "",
+     where a browser has it): a screen reader is not scrolling (check 1, review session 21).
+     pageguard.figure_widths() asks for each width's line; ordercheck.py, at the width it
+     runs, lists a figure whose line is shown and that does not scroll, or the reverse */
+  figure figcaption::before{display:none;font-family:var(--mono);font-size:10.5px;
+    letter-spacing:.12em;text-transform:uppercase;margin:0 0 6px;
+    content:"Wider than the screen \2014  scroll sideways\A0\2192";
+    content:"Wider than the screen \2014  scroll sideways\A0\2192" / ""}
+  @media screen and (width < 408px){figure:has(> svg[viewBox^="0 0 430 "]) figcaption::before{display:block}}
+  @media screen and (width < 576px){figure:has(> svg[viewBox^="0 0 640 "]) figcaption::before{display:block}}
+  @media screen and (width < 592px){figure:has(> svg[viewBox^="0 0 660 "]) figcaption::before{display:block}}
+  @media screen and (width < 624px){figure:has(> svg[viewBox^="0 0 700 "]) figcaption::before{display:block}}
+  @media screen and (width < 640px){figure:has(> svg[viewBox^="0 0 720 "]) figcaption::before{display:block}}
+
   /* a 900-wide figure leaves the column to draw at its own width, as large as a 700 one
      (the svg is 694 px in the column); both sides where there is no rail, rightward only
      beside the rail (it ends 68 px left of the column). Its caption keeps the column's
-     measure and, where the figure widens both ways, the column's indent; review session 20 */
+     measure and starts where every caption does, at the figure's padding, under its title
+     (Carsten, review session 21; it had kept the column's indent, 103 px in) */
   @media screen and (min-width:1000px){
     figure:has(> svg[viewBox^="0 0 900 "]) figcaption{max-width:694px}
   }
-  @media screen and (min-width:1000px) and (max-width:1239px){
+  @media screen and (min-width:1000px) and (max-width:1239px), screen and (1000px <= width < 1240px){
     figure:has(> svg[viewBox^="0 0 900 "]){margin-left:-103px;margin-right:-103px}
-    figure:has(> svg[viewBox^="0 0 900 "]) figcaption{margin-left:103px}
   }
   @media screen and (min-width:1240px){
     figure:has(> svg[viewBox^="0 0 900 "]){margin-right:-206px}
@@ -186,7 +213,7 @@
   .rail .rn{color:var(--band);font-weight:600;flex:none;width:13px}
   .rail a.active{color:var(--peat);border-left-color:var(--amber);font-weight:600}
   .rail a.active .rn{color:var(--amber)}
-  @media (max-width:1239px){.rail{display:none}}
+  @media (max-width:1239px), (width < 1240px){.rail{display:none}}
 
   /* collapsible contents, narrow screens only */
   .toc{display:none;background:var(--paper);border-left:3px solid var(--band);
@@ -195,7 +222,7 @@
     color:var(--band);font-weight:600;cursor:pointer}
   .toc ol{margin:12px 0 2px;padding:0 0 0 20px}
   .toc li{margin:0 0 5px;font-size:15.5px}
-  @media (max-width:1239px){.toc{display:block}}
+  @media (max-width:1239px), (width < 1240px){.toc{display:block}}
 
   /* people vignette */
   .vig{background:var(--paper);border-left:3px solid var(--amber);padding:20px 22px;margin:30px 0}
@@ -408,8 +435,8 @@ thirty-three months to get there from Sicily.</p>
   <circle cx="324.6" cy="150.1" r="17" fill="none" stroke="#2E6B5E" stroke-width="1.4" stroke-dasharray="4 3"/>
   <text x="16" y="30" style="font-family:'Iowan Old Style',Palatino,Georgia,serif;font-size:21px;fill:#221E18">Thirty-three months</text>
   <text x="16" y="47" class="mapt">FROM SICILY TO JUTLAND</text>
-  <text x="16" y="534" class="mapx" fill="#6C6E63">Arrival years, not a front line: the plague travelled by ship and jumped.</text>
-  <text x="16" y="548" class="mapx" fill="#6C6E63">It entered Europe at Caffa in the Crimea in 1346, off this map.</text>
+  <text x="16" y="534" class="mapx">Arrival years, not a front line: the plague travelled by ship and jumped.</text>
+  <text x="16" y="548" class="mapx">It entered Europe at Caffa in the Crimea in 1346, off this map.</text>
 </svg>
 <figcaption><b>Figure 1 · Thirty-three months</b>
 Arrival years, not a front line: plague travelled with ships and jumped, so a port could be struck
@@ -616,17 +643,17 @@ the oldest fiscal trick there is and which the chroniclers noticed and disliked.
 
 <figure>
 <svg viewBox="0 0 900 516" role="img" aria-label="Diagram in two columns. On the left, how Valdemar Atterdag raised money between 1340 and 1361: a marriage, the sale of Estonia in 1346, taxation, a debased coinage, and plunder from Gotland. On the right, what it bought: a quarter of Jutland in 1340, the rest of the kingdom district by district, and Skaane, Halland and Blekinge in 1360. Below, the bill at the Peace of Stralsund in 1370: four castles on the Sound to the Hanse for fifteen years, two-thirds of the Skaane market revenues, and a Hanseatic voice in the next royal election.">
-  <text x="26" y="94" class="mapt" fill="#3E8474">WHAT HE RAISED</text><text x="26" y="118" style="font-family:'Iowan Old Style',Palatino,Georgia,serif;font-size:19px;fill:#221E18">Money, from wherever</text><line x1="26" y1="130" x2="406" y2="130" stroke="#C9CDC4" stroke-width="1"/><text x="26" y="156" class="mapl" fill="#3E8474">1340</text><text x="26" y="170" class="mapx" fill="#6C6E63">A marriage to Helvig of Schleswig, and the</text><text x="26" y="183" class="mapx" fill="#6C6E63">lands that came with her</text><text x="26" y="206" class="mapl" fill="#3E8474">1346</text><text x="26" y="220" class="mapx" fill="#6C6E63">Estonia sold to the Teutonic Order — a</text><text x="26" y="233" class="mapx" fill="#6C6E63">province turned into silver</text><text x="26" y="256" class="mapl" fill="#3E8474">1350s</text><text x="26" y="270" class="mapx" fill="#6C6E63">Taxes, fines and confiscations, pressed on a</text><text x="26" y="283" class="mapx" fill="#6C6E63">much smaller population</text><text x="26" y="306" class="mapl" fill="#3E8474">1350s</text><text x="26" y="320" class="mapx" fill="#6C6E63">A debased coinage, and the crown's share of</text><text x="26" y="333" class="mapx" fill="#6C6E63">vacant church land</text><text x="26" y="356" class="mapl" fill="#3E8474">1361</text><text x="26" y="370" class="mapx" fill="#6C6E63">Tribute and plunder from Gotland</text>
-  <text x="494" y="94" class="mapt" fill="#3E8474">WHAT IT BOUGHT</text><text x="494" y="118" style="font-family:'Iowan Old Style',Palatino,Georgia,serif;font-size:19px;fill:#221E18">A kingdom, in pieces</text><line x1="494" y1="130" x2="874" y2="130" stroke="#C9CDC4" stroke-width="1"/><text x="494" y="156" class="mapl" fill="#3E8474">1340</text><text x="494" y="170" class="mapx" fill="#6C6E63">About a quarter of Jutland, handed over as</text><text x="494" y="183" class="mapx" fill="#6C6E63">the price of a king</text><text x="494" y="206" class="mapl" fill="#3E8474">1340s–60s</text><text x="494" y="220" class="mapx" fill="#6C6E63">Zealand, then the rest of Jutland, then Funen</text><text x="494" y="233" class="mapx" fill="#6C6E63">— district by district</text><text x="494" y="256" class="mapl" fill="#3E8474">1360</text><text x="494" y="270" class="mapx" fill="#6C6E63">Skåne, Halland and Blekinge, redeemed from</text><text x="494" y="283" class="mapx" fill="#6C6E63">Sweden</text><text x="494" y="306" class="mapl" fill="#3E8474">1350s–60s</text><text x="494" y="320" class="mapx" fill="#6C6E63">Castles held against him, taken and pulled</text><text x="494" y="333" class="mapx" fill="#6C6E63">down</text>
+  <text x="26" y="94" class="mapt">WHAT HE RAISED</text><text x="26" y="118" style="font-family:'Iowan Old Style',Palatino,Georgia,serif;font-size:19px;fill:#221E18">Money, from wherever</text><line x1="26" y1="130" x2="406" y2="130" stroke="#C9CDC4" stroke-width="1"/><text x="26" y="156" class="mapl">1340</text><text x="26" y="170" class="mapx">A marriage to Helvig of Schleswig, and the</text><text x="26" y="183" class="mapx">lands that came with her</text><text x="26" y="206" class="mapl">1346</text><text x="26" y="220" class="mapx">Estonia sold to the Teutonic Order — a</text><text x="26" y="233" class="mapx">province turned into silver</text><text x="26" y="256" class="mapl">1350s</text><text x="26" y="270" class="mapx">Taxes, fines and confiscations, pressed on a</text><text x="26" y="283" class="mapx">much smaller population</text><text x="26" y="306" class="mapl">1350s</text><text x="26" y="320" class="mapx">A debased coinage, and the crown's share of</text><text x="26" y="333" class="mapx">vacant church land</text><text x="26" y="356" class="mapl">1361</text><text x="26" y="370" class="mapx">Tribute and plunder from Gotland</text>
+  <text x="494" y="94" class="mapt">WHAT IT BOUGHT</text><text x="494" y="118" style="font-family:'Iowan Old Style',Palatino,Georgia,serif;font-size:19px;fill:#221E18">A kingdom, in pieces</text><line x1="494" y1="130" x2="874" y2="130" stroke="#C9CDC4" stroke-width="1"/><text x="494" y="156" class="mapl">1340</text><text x="494" y="170" class="mapx">About a quarter of Jutland, handed over as</text><text x="494" y="183" class="mapx">the price of a king</text><text x="494" y="206" class="mapl">1340s–60s</text><text x="494" y="220" class="mapx">Zealand, then the rest of Jutland, then Funen</text><text x="494" y="233" class="mapx">— district by district</text><text x="494" y="256" class="mapl">1360</text><text x="494" y="270" class="mapx">Skåne, Halland and Blekinge, redeemed from</text><text x="494" y="283" class="mapx">Sweden</text><text x="494" y="306" class="mapl">1350s–60s</text><text x="494" y="320" class="mapx">Castles held against him, taken and pulled</text><text x="494" y="333" class="mapx">down</text>
   <path d="M432 230 l32 0" stroke="#6C6E63" stroke-width="1.6"/><path d="M464 230 l-8 -5 l0 10 z" fill="#6C6E63"/>
   <rect x="26" y="400" width="848" height="82" fill="#8A2B2B" fill-opacity=".10" stroke="#8A2B2B" stroke-width="1.2"/>
-  <text x="42" y="422" class="mapt" fill="#8A2B2B">THE BILL · STRALSUND, 1370</text>
-  <text x="42" y="442" class="mapx" fill="#221E18">· Four castles on the Sound handed to the Hanse for fifteen years</text>
-  <text x="42" y="456" class="mapx" fill="#221E18">· Two-thirds of the revenues of the Skåne markets with them</text>
-  <text x="42" y="470" class="mapx" fill="#221E18">· And a Hanseatic voice in the election of the next Danish king</text>
+  <text x="42" y="422" class="mapt">THE BILL · STRALSUND, 1370</text>
+  <text x="42" y="442" class="mapx">· Four castles on the Sound handed to the Hanse for fifteen years</text>
+  <text x="42" y="456" class="mapx">· Two-thirds of the revenues of the Skåne markets with them</text>
+  <text x="42" y="470" class="mapx">· And a Hanseatic voice in the election of the next Danish king</text>
   <text x="26" y="34" style="font-family:'Iowan Old Style',Palatino,Georgia,serif;font-size:22px;fill:#221E18">How to buy a kingdom back</text>
   <text x="26" y="52" class="mapt">AND WHAT IT COST, 1340–1370</text>
-  <text x="26" y="506" class="mapx" fill="#6C6E63">No reliable figures survive for most of these transactions; the sequence is firmer than the sums.</text>
+  <text x="26" y="506" class="mapx">No reliable figures survive for most of these transactions; the sequence is firmer than the sums.</text>
 </svg>
 <figcaption><b>Figure 2 · How to buy a kingdom back</b>
 The reign in two columns, with the bill at the end of it. The sums are mostly not recoverable — the
@@ -716,7 +743,7 @@ transfer was formalised, and the eastern provinces were Danish again after twent
   <g clip-path="url(#cr)"><path d="M108.6 218.3 L204.6 209.5 L226.8 142.5 L228.7 79.4 L177.4 39.4 L100.1 50.3 L76.8 170.9 Z" fill="#C3D2C6" fill-opacity="0.95" stroke="#C3D2C6" stroke-width="1.1"/></g>
   <g clip-path="url(#cr)"><path d="M257.6 80.1 L279.2 87.7 L288.5 118.6 L312.8 148.6 L340.0 185.6 L384.8 188.8 L434.8 193.1 L488.0 210.9 L521.2 220.1 L520.1 292.5 L392.7 355.7 L309.1 351.7 L296.6 297.4 L297.4 207.1 L256.3 143.3 Z" fill="#2E6B5E" fill-opacity="0.65" stroke="#2E6B5E" stroke-width="1.1"/></g>
   <g clip-path="url(#cr)"><path d="M549.7 42.0 L602.9 47.0 L616.0 145.6 L556.9 150.1 Z" fill="#8A2B2B" fill-opacity="0.55" stroke="#8A2B2B" stroke-width="1.1"/></g>
-  <text x="151.8" y="116.8" class="mapl" fill="#3C3E36" text-anchor="middle">1340</text>
+  <text x="151.8" y="116.8" class="mapl" text-anchor="middle">1340</text>
   <text x="114.0" y="252.0" class="mapl" text-anchor="middle">1340s–50s</text>
   <text x="352.0" y="228.0" class="mapl" text-anchor="middle">1360</text>
   <text x="603.0" y="112.0" class="mapl" text-anchor="start">1361</text>
@@ -729,7 +756,7 @@ transfer was formalised, and the eastern provinces were Danish again after twent
   <text x="171.9" y="386.2" class="mapt" text-anchor="middle">HOLSTEN</text>
   <text x="16" y="30" style="font-family:'Iowan Old Style',Palatino,Georgia,serif;font-size:21px;fill:#221E18">Buying a kingdom back</text>
   <text x="16" y="47" class="mapt">1340 – 1361</text>
-  <text x="16" y="412" class="mapx" fill="#6C6E63">Estonia went the other way: sold to the Teutonic Order in 1346 to pay for this.</text>
+  <text x="16" y="412" class="mapx">Estonia went the other way: sold to the Teutonic Order in 1346 to pay for this.</text>
 </svg>
 <figcaption><b>Figure 3 · Buying a kingdom back</b>
 What was recovered, and when. Coastlines from Natural Earth; the boundaries are schematic, because a

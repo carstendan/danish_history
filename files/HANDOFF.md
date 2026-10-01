@@ -5415,6 +5415,66 @@ split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see it
    tool when what it measures changes size; and where a guard must read what a browser reads,
    let the browser read it - measure the page, and keep the guard for the plausible fault.*
 
+159. **The consistency review, session 21: the colours deleted, the guard cut back, and a phone
+   told.** 1-2 October 2026. Full record in `REVIEW-CONSISTENCY.md` §25.
+
+   **Cold run on a fresh clone of `e24de1f`: every line matched START_HERE_review_21**, and item
+   158's commit carries its 45 pages, eighteen regenerated `svg_*.txt` and 32 sources. State lived
+   in `claude/session21_state.md` and `claude/session21_wip.patch`.
+
+   **CARSTEN'S SIX DECISIONS (§24.8), all on the recommendation.** Delete every `fill=` on a figure
+   text, refuse a new one in the builds, and take the colour measure into `ordercheck.py`; the 256
+   greys go with them; a phone is told that a figure scrolls; range syntax beside the classic
+   width queries; the breakout caption at the figure's padding; `figure_widths()` cut back.
+
+   **THE COLOURS (D-11).** 357 `fill=` on 23 pages, not 340: three on page 06 sat in a
+   `<g class="mapl">` without a class of their own and **were drawn** - deleting SILVER's and
+   BRONZE's would have changed the figure; they are `style=` now (IRON asked the class grey). The other 354 deleted (Part D's eight
+   hand `.txt`, bodies 01, 06-08, 11, fourteen figure scripts; figs_18/19's `t()` takes `ink=`).
+   No text's computed colour changed (2,911 and 5 tspans, at 1200 and 390); after the deletion alone every
+   figure was pixel-identical. `pageguard.text_fills()` refuses a `fill=` on a text, a mapped
+   element or round a classed text, reading the page as HTML does; `ordercheck.py` lists a text
+   drawn otherwise than it asks (shipped book 340, book 0).
+
+   **THE WIDTHS (D-20).** The caption opens with "Wider than the screen — scroll sideways →"
+   exactly where its figure scrolls (one query per width; not read aloud; measured at 24 widths,
+   and `ordercheck.py` now lists a figure whose line disagrees with its scrolling). Each query is
+   written `(classic), (range)`: check 1 produced a fractional viewport the author could not, and
+   a 900 figure at 999.5 drew at .771 on the shipped pages, .800 now. The 1000-1239 caption lost
+   its 103 px indent. `figure_widths()` lost its CSS reader: it finds each width's two lines as
+   written, asks for a width that is a multiple of 5, and refuses one from 785 to 820, which
+   scrolls in two bands.
+
+   **THE SMALL FAULTS.** figs_19's key swatches 31 long (the "7 5" stub); the Sound strip's third
+   line, which repeated caption and prose, gone (its other two repeat the prose: for Carsten);
+   Lindholmen named on page 16's map (the halo made room); "Dithmarschen" in three maps'
+   aria-labels; the contact sheet's ids identical, recorded. **ON_BAR_INK** measured on its bars,
+   5.35:1 where white is 3.2: kept, closed.
+
+   **CHECKED** (§25.6), each by an agent that had not seen the work. Check 1: the fill guard
+   passed `FILL=`, quoted and unquoted classes and an `<a fill>`; the width guard refused valid
+   spacing and read a script string; nothing checked the scroll lines; the arrow wrapped alone at
+   360 and screen readers read the line; `!important` misread; dead colour arguments; "128 of 128
+   identical" measured before the figure fixes. Check 2: **the scroll rule was right only up to
+   781 wide** (from 721 the box is the viewport less 96); `currentColor`, `none`, `url()` misread;
+   a nested svg and `fill="none"`; a missing space passed; captionless figures skipped. Check 3:
+   **less than half a pixel over does not scroll** (868, and widths whose 0.8 W ends in .2 or .4,
+   showed the line a width early: multiples of 5 now); ordercheck's .795 floor passed .7995; the
+   guard's normaliser took out spaces CSS reads; `content:""` passed; the two tools disagreed on
+   `fill="none"`; `var()`, `inherit` and the last `fill` in a style misread. All taken; not given
+   to a fourth agent, every plant re-run.
+
+   **VERIFIED** after the last edit (§25.7). Pages that change: **all 45** (the style); the
+   figures change on 01, 06-08, 11-20, 22, 26, 27, 29-31, 37-39 (paint only, pixel-identical but
+   for 16's, 18's and 20's), and the maps' aria on 19, 21, 25. The index does not change.
+
+   **LESSON.** A deletion is a claim about what was drawn: 340 was the count that drew otherwise,
+   357 the count written, and the three between them were the ones the page honoured. Count the
+   markup and measure the page, and act on the difference. And a rule measured at the widths you
+   use is not a rule for the widths you do not: the scroll line was right for every figure in the
+   book and wrong for a width the book does not have, and only a checker who planted one found it.
+   *Before writing a rule for a range, plant a case in each part of the range.*
+
 ---
 
 

@@ -5,48 +5,48 @@
   <line x1="26" y1="92" x2="674" y2="92" stroke="#C9CDC4" stroke-width="1"/>
   <circle cx="34" cy="114" r="3.6" fill="#2E6B5E"/>
   <line x1="34" y1="117" x2="34" y2="140" stroke="#5F6157" stroke-width="1" opacity=".45"/>
-  <text x="50" y="118" class="mapx" fill="#2E6B5E">1709</text>
+  <text x="50" y="118" class="mapx">1709</text>
   <text x="150" y="118" class="mapt">Quarantine on Saltholm: forty days for anyone from an infected</text>
   <text x="150" y="131" class="mapt">port. Ships turned away.</text>
   <circle cx="34" cy="144" r="3.6" fill="#2F4C7A"/>
   <line x1="34" y1="147" x2="34" y2="170" stroke="#5F6157" stroke-width="1" opacity=".45"/>
-  <text x="50" y="148" class="mapx" fill="#2F4C7A">May 1711</text>
+  <text x="50" y="148" class="mapx">May 1711</text>
   <text x="150" y="148" class="mapt">In the city anyway.</text>
   <circle cx="34" cy="174" r="3.6" fill="#2F4C7A"/>
   <line x1="34" y1="177" x2="34" y2="200" stroke="#5F6157" stroke-width="1" opacity=".45"/>
-  <text x="50" y="178" class="mapx" fill="#2F4C7A">31 May</text>
+  <text x="50" y="178" class="mapx">31 May</text>
   <text x="150" y="178" class="mapt">All seventeen residents of one house in Lille Grønnegade taken</text>
   <text x="150" y="191" class="mapt">to Saltholm.</text>
   <circle cx="34" cy="204" r="3.6" fill="#2F4C7A"/>
   <line x1="34" y1="207" x2="34" y2="230" stroke="#5F6157" stroke-width="1" opacity=".45"/>
-  <text x="50" y="208" class="mapx" fill="#2F4C7A">late June</text>
+  <text x="50" y="208" class="mapx">late June</text>
   <text x="150" y="208" class="mapt">Mortality climbing steeply.</text>
   <circle cx="34" cy="234" r="3.6" fill="#2F4C7A"/>
   <line x1="34" y1="237" x2="34" y2="260" stroke="#5F6157" stroke-width="1" opacity=".45"/>
-  <text x="50" y="238" class="mapx" fill="#2F4C7A">3 July</text>
+  <text x="50" y="238" class="mapx">3 July</text>
   <text x="150" y="238" class="mapt">Placard: no funeral processions; death for sheltering</text>
   <text x="150" y="251" class="mapt">fugitives from Helsingør.</text>
   <circle cx="34" cy="264" r="3.6" fill="#2F4C7A"/>
   <line x1="34" y1="267" x2="34" y2="290" stroke="#5F6157" stroke-width="1" opacity=".45"/>
-  <text x="50" y="268" class="mapx" fill="#2F4C7A">7 July</text>
+  <text x="50" y="268" class="mapx">7 July</text>
   <text x="150" y="268" class="mapt">Extraordinary health commission given emergency powers. It</text>
   <text x="150" y="281" class="mapt">meets twice a day.</text>
   <circle cx="34" cy="294" r="3.6" fill="#2F4C7A"/>
   <line x1="34" y1="297" x2="34" y2="320" stroke="#5F6157" stroke-width="1" opacity=".45"/>
-  <text x="50" y="298" class="mapx" fill="#2F4C7A">July</text>
+  <text x="50" y="298" class="mapx">July</text>
   <text x="150" y="298" class="mapt">Two plague hospitals outside the ramparts. Coffins run out;</text>
   <text x="150" y="311" class="mapt">burial without one permitted.</text>
   <circle cx="34" cy="324" r="3.6" fill="#2F4C7A"/>
   <line x1="34" y1="327" x2="34" y2="350" stroke="#5F6157" stroke-width="1" opacity=".45"/>
-  <text x="50" y="328" class="mapx" fill="#2F4C7A">Aug–Sep</text>
+  <text x="50" y="328" class="mapx">Aug–Sep</text>
   <text x="150" y="328" class="mapt">Convicts released to dig. The army opens mass graves beyond</text>
   <text x="150" y="341" class="mapt">Østerport.</text>
   <circle cx="34" cy="354" r="3.6" fill="#2F4C7A"/>
   <line x1="34" y1="357" x2="34" y2="380" stroke="#5F6157" stroke-width="1" opacity=".45"/>
-  <text x="50" y="358" class="mapx" fill="#2F4C7A">2 Apr 1712</text>
+  <text x="50" y="358" class="mapx">2 Apr 1712</text>
   <text x="150" y="358" class="mapt">The gates open for normal traffic.</text>
   <circle cx="34" cy="384" r="3.6" fill="#2F4C7A"/>
-  <text x="50" y="388" class="mapx" fill="#2F4C7A">29 Apr 1712</text>
+  <text x="50" y="388" class="mapx">29 Apr 1712</text>
   <text x="150" y="388" class="mapt">A national day of thanksgiving.</text>
   <line x1="26" y1="434" x2="674" y2="434" stroke="#C9CDC4" stroke-width="1"/>
   <text x="26" y="458" class="mapl">WHAT IT COULD NOT COUNT</text>

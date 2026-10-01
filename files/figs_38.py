@@ -206,8 +206,8 @@ def zones():
         # and ran through "581 tysk" (review session 16, linecheck)
         if name == "Højer":
             ny -= 14.0
-        o.append('<text x="%.1f" y="%.1f" class="mapx" text-anchor="%s" fill="%s">%s</text>'
-                 % (x + dx, ny, anc, INK, name))
+        o.append('<text x="%.1f" y="%.1f" class="mapx" text-anchor="%s">%s</text>'
+                 % (x + dx, ny, anc, name))
         if da is not None:
             # style=, not fill= (D-11): a count in its side's colour drew grey (review
             # session 20); the town names ask INK, a grey, and draw the class grey as recorded
@@ -320,14 +320,14 @@ def year():
         big = text.startswith("ELECTION")
         o.append('<circle cx="%d" cy="%.1f" r="%s" fill="%s"/>'
                  % (axis, y - 4, "4.2" if big else "2.6", col))
-        o.append('<text x="%d" y="%.1f" class="mapx" text-anchor="end" fill="%s">%s</text>'
-                 % (axis - 10, y, INK, date))
+        o.append('<text x="%d" y="%.1f" class="mapx" text-anchor="end">%s</text>'
+                 % (axis - 10, y, date))
         cls = "mapt" if big else "mapx"
         for j, ln in enumerate(fold(text, cls, left, W)):
             # an election in its dot's colour, in style= (D-11: it drew grey); the other
-            # lines ask INK, a grey, and draw the class grey as recorded (review session 20)
-            paint = 'style="fill:%s"' % col if big else 'fill="%s"' % INK
-            o.append('<text x="%d" y="%.1f" class="%s" %s>%s</text>'
+            # lines draw the class colour and ask none (review session 21)
+            paint = ' style="fill:%s"' % col if big else ''
+            o.append('<text x="%d" y="%.1f" class="%s"%s>%s</text>'
                      % (left, y + j * 12, cls, paint, ln))
     fy = top + row * (len(YEAR) - 1) + 34
     for ln in fold("On 21 September the Folketing took in members from the north, which is "

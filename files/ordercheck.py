@@ -66,6 +66,25 @@ a figure in a declarative shadow root among them); the book as shipped before li
 at 1200 (the 900-wide at .77) and 128 at 390, the book after it none. An svg that is not drawn
 is skipped.
 
+THE COLOURS, IN THE PAGE (review session 21). On each page's first load every figure text's
+computed fill is compared with the colour its markup asks (the nearest style="fill:..." or fill=
+on it or an enclosing element), and one drawn otherwise is listed: a class rule beats a fill=
+attribute and inheritance from a <g>, so review session 20 found 449 texts drawing another colour
+than they asked. It was claude/session20_colours.py; Carsten had it taken in here, and
+pageguard.text_fills() refuses a fill= on a text in every build. The asked colour is read as CSS
+reads it: "!important" dropped, currentColor resolved on the text, "none" compared with none,
+and a paint that is not a colour (url(), inherit, var()) not read (checks 1 and 2 of review
+session 21 found each misread). Planted: a fill= on a classed text, a <g fill> round one, a
+<g style="fill:currentColor"> round a classed text and fill="none" on one, listed; the same
+colour in style=, with !important, in hsl(), currentColor on a <g> round an unclassed text with
+its own color, and fill none, url(), inherit and var() on unclassed texts, not.
+
+THE SCROLL LINE, IN THE PAGE (review session 21). Where a figure scrolls sideways in its box its
+caption opens with a line saying so, one style.css query per viewBox width (D-20). On each page's
+first load, before the boxes are opened, a figure that scrolls and whose line is not shown (or
+that has no caption to show it), or the reverse, is listed. Planted: a figure at a new width with its phone line and no scroll line
+is listed at 390; a scroll line shown on a figure that fits is listed at 1200.
+
 BLIND SPOTS. A text painted over by a LATER TEXT is not seen: the texts keep their order
 when moved (collisions() compares text with text). A text outside the canvas is cut the
 same way in both renders (overruns() and overflows() measure that). A text with no box
@@ -152,7 +171,61 @@ JS_SCALES = r"""() => { const out = [];
      out.push([vb.width, r.width / vb.width]); }
    for (const e of root.querySelectorAll('*')) if (e.shadowRoot) walk(e.shadowRoot); };
  walk(document); return out; }"""
-MIN_SCALE = 0.795   # D-20's 0.8, less rounding
+MIN_SCALE = 0.7995  # D-20's 0.8, less rounding (check 3: at .795 an 870 figure, .798, passed)
+
+
+# D-20's scroll line in the page (review session 21): where a figure scrolls sideways in its box
+# its caption opens with a line saying so, one style.css query per viewBox width. Measured before
+# the boxes are opened: a figure whose line shows and that does not scroll, or the reverse.
+JS_HINTS = r"""() => { const out = [];
+ document.querySelectorAll('figure').forEach((f, i) => {
+   const s = f.querySelector(':scope > svg'), c = f.querySelector('figcaption');
+   if (!s || !f.getBoundingClientRect().width) return;
+   const scrolls = f.scrollWidth > f.clientWidth + 0.5;
+   // no caption, or one not drawn: nothing can say so (checks 2 and 3); an empty line says nothing
+   const b = c && c.getClientRects().length ? getComputedStyle(c, '::before') : null;
+   const shown = !!b && b.display !== 'none' && !/^(none|normal|""|"" \/ "")$/.test(b.content);
+   if (scrolls !== shown) out.push([i, s.viewBox.baseVal.width, scrolls, shown]); });
+ return out; }"""
+
+
+# D-11 in the page: every figure text's (and coloured tspan's) computed fill against the colour
+# its markup asks - the nearest style="fill:..." or fill= on it or an enclosing element inside its
+# svg. A class rule beats a fill= attribute and beats inheritance from a <g>, so what is asked is
+# not always drawn: review session 20 measured 449 texts drawing another colour than they asked
+# (page 12's red "killed, Odense" drew grey); review session 21 took the measure in here
+# (it was claude/session20_colours.py) and pageguard.text_fills() now refuses a fill= on a text.
+JS_COLOURS = r"""() => { const out = [];
+ const cv = document.createElement('canvas').getContext('2d');
+ const norm = c => { for (const z of ['#010203', '#030201']) { cv.fillStyle = z; cv.fillStyle = c;
+   if (cv.fillStyle !== z) return cv.fillStyle; } return null; };      // null: not a colour
+ [...document.querySelectorAll('svg')].filter(s => !s.parentElement.closest('svg')).forEach((svg, si) => {
+   svg.querySelectorAll('text, tspan').forEach(t => {
+     if (t.tagName === 'tspan' && !t.getAttribute('fill') && !/fill/.test(t.getAttribute('style') || '')) return;
+     let asked = null, at = null;
+     for (let e = t; e && e !== svg.parentElement; e = e.parentElement) {
+       // the last fill in a style= is the one CSS keeps (check 3)
+       const m = [...(e.getAttribute('style') || '').matchAll(/(?:^|;)\s*fill\s*:\s*([^;]+)/gi)].pop();
+       if (m) { asked = m[1]; at = e; break; }
+       const f = e.getAttribute('fill'); if (f) { asked = f; at = e; break; } }
+     if (asked === null) return;
+     // as CSS reads it (review session 21): "!important" dropped (check 1); currentColor taken
+     // on the text, where Chromium resolves it (check 2); on the text itself a colour compared,
+     // none with none, any other paint not read (check 2); from an enclosing element, fill:none
+     // is for the shapes beside the text (check 3, as pageguard.text_fills() has it), and any
+     // other paint is what that element computes - var(), inherit included (check 3)
+     asked = asked.replace(/!\s*important\s*$/i, '').trim();
+     const fill = getComputedStyle(t).fill, txt = t.textContent.replace(/\s+/g, ' ').trim().slice(0, 40);
+     const none = /^none$/i.test(asked);
+     if (at !== t && none) return;
+     if (none) { if (fill !== 'none') out.push([si, txt, 'none', norm(fill) || fill]); return; }
+     let want = /^currentcolor$/i.test(asked) ? getComputedStyle(t).color
+              : at !== t ? getComputedStyle(at).fill : asked;
+     const w = norm(want), d = norm(fill);
+     if (w === null) { if (at !== t && want !== fill) out.push([si, txt, want, fill]); return; }
+     if (w !== d) out.push([si, txt, w, d]);
+   }); });
+ return out; }"""
 
 
 # The svgs the order measure takes, tagged in document order: the same list JS_BOXES and JS_MOVE
@@ -196,7 +269,7 @@ def main(args):
         print("SKIPPED, nothing measured: %s (pip install playwright pillow; a Chromium, "
               "or DK_CHROMIUM=/path/to/chrome)" % e)
         return 2
-    listed = 0; figs = set(); small = 0
+    listed = 0; figs = set(); small = 0; wrong = 0; hints = 0
     with sync_playwright() as p:
         exe = chromium_path()
         try:
@@ -210,6 +283,14 @@ def main(args):
         for f in pages:
             url = 'file://' + os.path.abspath(f); pre = os.path.basename(f)[:2]
             pg.goto(url)
+            for i, vbw, scrolls, shown in pg.evaluate(JS_HINTS):
+                hints += 1
+                print("   ! %s figure %d (%g wide) %s, and its scroll line is %s (D-20)"
+                      % (pre, i, vbw, 'scrolls' if scrolls else 'does not scroll',
+                         'shown' if shown else 'not shown'))
+            for si, txt, asked, drawn in pg.evaluate(JS_COLOURS):
+                wrong += 1
+                print("   ! %s svg%d %r asks %s and draws %s (D-11)" % (pre, si, txt, asked, drawn))
             for j, (vbw, k) in enumerate(pg.evaluate(JS_SCALES)):
                 if k < MIN_SCALE:
                     small += 1
@@ -261,8 +342,10 @@ def main(args):
                                   "at a line's end (a line's box leaves its markers out)?")
         br.close()
     print("%d text(s) painted over, in %d of %d figure(s) on %d page(s), at %d px; "
-          "%d figure(s) under 0.8 of their viewBox" % (listed, len(figs), nfig, len(pages), width, small))
-    return 1 if listed or small else 0
+          "%d figure(s) under 0.8 of their viewBox; %d scroll line(s) wrong; "
+          "%d text(s) drawn in another colour than they ask"
+          % (listed, len(figs), nfig, len(pages), width, small, hints, wrong))
+    return 1 if listed or small or wrong or hints else 0
 
 
 if __name__ == "__main__":

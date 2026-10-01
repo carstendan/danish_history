@@ -141,10 +141,14 @@
      prints A4 and Letter 720 to 816 px wide, landscape 981 to 1124), so in print a figure
      shrinks to the page as it always did
      (check 1 printed a mark at a 900 figure's right edge: cut). The caption stays in view
-     while the figure scrolls under it (check 1: it scrolled away with the figure) */
-  @media screen and (max-width:999px){
+     while the figure scrolls under it (check 1: it scrolled away with the figure). Each query
+     is written twice: the range form closes the fraction of a pixel between 999 and 1000 that
+     a browser zoom gives (at 999.5 a 900 figure drew at .77), the classic form keeps what a
+     browser without range syntax had (Carsten, review session 21) */
+  @media screen and (max-width:999px), screen and (width < 1000px){
     figure{overflow-x:auto}
     figure figcaption{position:sticky;left:0}
+    figure:has(> svg[viewBox^="0 0 900 "]) figcaption::before{display:block}
     figure svg[viewBox^="0 0 430 "]{min-width:344px}
     figure svg[viewBox^="0 0 640 "]{min-width:512px}
     figure svg[viewBox^="0 0 660 "]{min-width:528px}
@@ -153,16 +157,39 @@
     figure svg[viewBox^="0 0 900 "]{min-width:720px}
   }
 
+  /* a figure that scrolls says so, first in its caption: one line per viewBox width, at the
+     widths where it scrolls. Up to 720 px the figure's box is the viewport less 64 px (the
+     page's 20 and the figure's 12 each side), from 721 less 96 and at most 694 px, and less
+     than half a pixel over does not scroll. So, W a multiple of 5: up to 780 a figure scrolls
+     below 0.8 W + 64; from 825 to 865 below 0.8 W + 96; from 870 (the 900s) at every width
+     below 1000, in the phone block above; from 785 to 820 in two bands, which no line here
+     gives (pageguard.figure_widths() refuses one). Measured in the page at every width from
+     320 to 1000 (review session 21, checks 2 and 3). Without range syntax only the 900s say so.
+     The line is the caption's first, hidden until a query shows it; its arrow is held to the
+     last word (at 359 to 373 px it had wrapped alone), and it is not read out (alt text "",
+     where a browser has it): a screen reader is not scrolling (check 1, review session 21).
+     pageguard.figure_widths() asks for each width's line; ordercheck.py, at the width it
+     runs, lists a figure whose line is shown and that does not scroll, or the reverse */
+  figure figcaption::before{display:none;font-family:var(--mono);font-size:10.5px;
+    letter-spacing:.12em;text-transform:uppercase;margin:0 0 6px;
+    content:"Wider than the screen \2014  scroll sideways\A0\2192";
+    content:"Wider than the screen \2014  scroll sideways\A0\2192" / ""}
+  @media screen and (width < 408px){figure:has(> svg[viewBox^="0 0 430 "]) figcaption::before{display:block}}
+  @media screen and (width < 576px){figure:has(> svg[viewBox^="0 0 640 "]) figcaption::before{display:block}}
+  @media screen and (width < 592px){figure:has(> svg[viewBox^="0 0 660 "]) figcaption::before{display:block}}
+  @media screen and (width < 624px){figure:has(> svg[viewBox^="0 0 700 "]) figcaption::before{display:block}}
+  @media screen and (width < 640px){figure:has(> svg[viewBox^="0 0 720 "]) figcaption::before{display:block}}
+
   /* a 900-wide figure leaves the column to draw at its own width, as large as a 700 one
      (the svg is 694 px in the column); both sides where there is no rail, rightward only
      beside the rail (it ends 68 px left of the column). Its caption keeps the column's
-     measure and, where the figure widens both ways, the column's indent; review session 20 */
+     measure and starts where every caption does, at the figure's padding, under its title
+     (Carsten, review session 21; it had kept the column's indent, 103 px in) */
   @media screen and (min-width:1000px){
     figure:has(> svg[viewBox^="0 0 900 "]) figcaption{max-width:694px}
   }
-  @media screen and (min-width:1000px) and (max-width:1239px){
+  @media screen and (min-width:1000px) and (max-width:1239px), screen and (1000px <= width < 1240px){
     figure:has(> svg[viewBox^="0 0 900 "]){margin-left:-103px;margin-right:-103px}
-    figure:has(> svg[viewBox^="0 0 900 "]) figcaption{margin-left:103px}
   }
   @media screen and (min-width:1240px){
     figure:has(> svg[viewBox^="0 0 900 "]){margin-right:-206px}
@@ -186,7 +213,7 @@
   .rail .rn{color:var(--band);font-weight:600;flex:none;width:13px}
   .rail a.active{color:var(--peat);border-left-color:var(--amber);font-weight:600}
   .rail a.active .rn{color:var(--amber)}
-  @media (max-width:1239px){.rail{display:none}}
+  @media (max-width:1239px), (width < 1240px){.rail{display:none}}
 
   /* collapsible contents, narrow screens only */
   .toc{display:none;background:var(--paper);border-left:3px solid var(--band);
@@ -195,7 +222,7 @@
     color:var(--band);font-weight:600;cursor:pointer}
   .toc ol{margin:12px 0 2px;padding:0 0 0 20px}
   .toc li{margin:0 0 5px;font-size:15.5px}
-  @media (max-width:1239px){.toc{display:block}}
+  @media (max-width:1239px), (width < 1240px){.toc{display:block}}
 
   /* people vignette */
   .vig{background:var(--paper);border-left:3px solid var(--amber);padding:20px 22px;margin:30px 0}
@@ -506,7 +533,7 @@ what is happening further south.</p>
   <text x="264.0" y="278.5" class="mapt" text-anchor="middle">dry plain · rivers · lakes</text>
   <text x="541.8" y="201.8" class="mapl" text-anchor="middle">BALTIC ICE LAKE</text>
   <text x="544.7" y="221.7" class="mapt" text-anchor="middle">fresh · ice-dammed</text>
-  <text x="455.1" y="46.3" class="mapl" text-anchor="middle" fill="#5A6E73">SCANDINAVIAN ICE SHEET</text>
+  <text x="455.1" y="46.3" class="mapl" text-anchor="middle">SCANDINAVIAN ICE SHEET</text>
   <text x="185.7" y="331.3" class="mapl" text-anchor="middle">BRITAIN</text>
   <text x="387.8" y="234.7" class="mapt" text-anchor="middle">JUTLAND</text>
   <text x="338.8" y="416.0" class="mapt" text-anchor="middle">NORTH EUROPEAN PLAIN</text>

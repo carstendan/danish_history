@@ -7,13 +7,13 @@
   <g clip-path="url(#cp)"><path d="M272.2 445.0 L389.1 438.7 L387.1 264.5 L364.6 237.3 L274.6 237.1 Z" fill="#8A2B2B" fill-opacity="0.45" stroke="#8A2B2B" stroke-width="1.2"/></g>
   <g clip-path="url(#cp)"><path d="M336.7 53.2 L366.7 63.0 L380.5 105.2 L414.8 145.8 L453.5 196.0 L515.4 199.0 L584.4 203.3 L658.4 226.2 L660.0 226.6 L660.0 361.3 L531.6 428.8 L416.3 425.9 L397.3 351.5 L395.6 227.0 L336.8 140.4 Z" fill="#4C6B80" fill-opacity="0.45" stroke="#4C6B80" stroke-width="1.2"/></g>
   <g clip-path="url(#cp)"><path d="M48.6 312.7 L118.3 329.9 L164.1 332.9 L209.3 362.9 L229.0 438.0 L204.1 427.5 L171.0 447.7 L174.6 472.8 L93.8 473.4 L40.3 455.6 Z" fill="#3E8474" fill-opacity="0.45" stroke="#3E8474" stroke-width="1.2"/></g>
-  <text x="159.2" y="174.6" class="mapl" fill="#A9601C" text-anchor="middle">Grev Gert</text>
-  <text x="230.9" y="344.7" class="mapl" fill="#A9601C" text-anchor="middle">Grev Gert</text>
-  <text x="333.5" y="320.8" class="mapl" fill="#8A2B2B" text-anchor="middle">Johann</text>
-  <text x="462.5" y="275.4" class="mapl" fill="#4C6B80" text-anchor="middle">Sweden, 1332</text>
-  <text x="169.0" y="399.1" class="mapl" fill="#3E8474" text-anchor="middle">the duchy</text>
+  <text x="159.2" y="174.6" class="mapl" text-anchor="middle">Grev Gert</text>
+  <text x="230.9" y="344.7" class="mapl" text-anchor="middle">Grev Gert</text>
+  <text x="333.5" y="320.8" class="mapl" text-anchor="middle">Johann</text>
+  <text x="462.5" y="275.4" class="mapl" text-anchor="middle">Sweden, 1332</text>
+  <text x="169.0" y="399.1" class="mapl" text-anchor="middle">the duchy</text>
   <text x="293.6" y="491.2" class="mapt" text-anchor="middle">HOLSTEN</text>
   <text x="18" y="34" style="font-family:'Iowan Old Style',Palatino,Georgia,serif;font-size:22px;fill:#221E18">The realm in pawn</text>
   <text x="18" y="52" class="mapt">c. 1332 · NO KING FOR EIGHT YEARS</text>
-  <text x="18" y="506" class="mapx" fill="#6C6E63">Estonia was still crown territory, and stayed so until 1346.</text>
+  <text x="18" y="506" class="mapx">Estonia was still crown territory, and stayed so until 1346.</text>
 </svg>

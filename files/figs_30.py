@@ -293,7 +293,7 @@ def papers():
     for line in NOT_RECORDED:
         o.append('<rect x="382" y="%d" width="%d" height="13" fill="%s" opacity=".10"/>'
                  % (y - 10, 268, MUTED))
-        o.append('<text x="388" y="%d" class="mapt" fill="%s">%s</text>' % (y, MUTED, line))
+        o.append('<text x="388" y="%d" class="mapt">%s</text>' % (y, line))
         y += 20
     y += 8
     for line in wrap("They are in the documents. They are entered as a count, and when they die "

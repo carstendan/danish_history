@@ -39,20 +39,20 @@
   </g>
   </g>
   <text x="470" y="76" class="mapx">The order of it</text>
-  <text x="470" y="96" class="mapx" fill="#2F4C7A">1675</text>
+  <text x="470" y="96" class="mapx">1675</text>
   <text x="470" y="109" class="mapt">Christian 5. declares war</text>
-  <text x="470" y="129" class="mapx" fill="#2F4C7A">1676</text>
+  <text x="470" y="129" class="mapx">1676</text>
   <text x="470" y="142" class="mapt">the army crosses; most of</text>
   <text x="470" y="155" class="mapt">Skåne comes over</text>
-  <text x="470" y="175" class="mapx" fill="#2F4C7A">4 Dec 1676</text>
+  <text x="470" y="175" class="mapx">4 Dec 1676</text>
   <text x="470" y="188" class="mapt">Lund. The province is</text>
   <text x="470" y="201" class="mapt">decided</text>
-  <text x="470" y="221" class="mapx" fill="#2F4C7A">1 Jul 1677</text>
+  <text x="470" y="221" class="mapx">1 Jul 1677</text>
   <text x="470" y="234" class="mapt">Køge Bugt. The sea is</text>
   <text x="470" y="247" class="mapt">decided</text>
-  <text x="470" y="267" class="mapx" fill="#2F4C7A">1678</text>
+  <text x="470" y="267" class="mapx">1678</text>
   <text x="470" y="280" class="mapt">Örkened burned</text>
-  <text x="470" y="300" class="mapx" fill="#2F4C7A">1679</text>
+  <text x="470" y="300" class="mapx">1679</text>
   <text x="470" y="313" class="mapt">Fontainebleau. Everything</text>
   <text x="470" y="326" class="mapt">returned</text>
   <line x1="470" y1="346" x2="686" y2="346" stroke="#C9CDC4" stroke-width="1"/>

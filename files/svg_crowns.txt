@@ -18,6 +18,7 @@
   <circle cx="332.2" cy="220.1" r="7.2" fill="#2E6B5E" fill-opacity=".92"/><text x="332.2" y="223.7" class="mapl" style="fill:#F0F2EE" text-anchor="middle">5</text>
   <text x="323.2" y="223.7" class="mapl" text-anchor="end">Åsle</text>
   <circle cx="319.8" cy="436.3" r="7.2" fill="#2E6B5E" fill-opacity=".92"/><text x="319.8" y="439.9" class="mapl" style="fill:#F0F2EE" text-anchor="middle">6</text>
+  <text x="328.8" y="439.9" class="mapl" text-anchor="start">Lindholmen</text>
   <circle cx="145.2" cy="354.9" r="7.2" fill="#2E6B5E" fill-opacity=".92"/><text x="145.2" y="358.5" class="mapl" style="fill:#F0F2EE" text-anchor="middle">7</text>
   <text x="136.2" y="358.5" class="mapl" text-anchor="end">Viborg</text>
   <circle cx="458.2" cy="340.6" r="7.2" fill="#2E6B5E" fill-opacity=".92"/><text x="458.2" y="344.2" class="mapl" style="fill:#F0F2EE" text-anchor="middle">8</text>

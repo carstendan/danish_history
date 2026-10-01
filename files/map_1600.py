@@ -80,7 +80,7 @@ def build():
     out = ['<svg viewBox="0 0 %d %d" xmlns="http://www.w3.org/2000/svg" role="img" '
            'aria-label="Territorial map of 1600. Denmark and Norway are ruled by one king, with '
            'Skaane, Halland, Blekinge, Bornholm and Gotland Danish. Schleswig, Holstein and '
-           'Ditmarschen are held as duchies, divided since 1544 into three interleaved revenue '
+           'Dithmarschen are held as duchies, divided since 1544 into three interleaved revenue '
            'shares rather than three territories. Oesel in the eastern Baltic is Danish from '
            '1559. Sweden is a separate kingdom and is not coloured. The western panel carries '
            'Iceland and the Faroes as dependencies and Greenland as a claim; Orkney and '

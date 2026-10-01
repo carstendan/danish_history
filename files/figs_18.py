@@ -17,12 +17,13 @@ RULE = "#C9CDC4"
 OX = "#8A2B2B"
 
 
-def t(x, y, s, cls="mapx", fill=MUTED, anchor="start", extra="", key=False):
-    # key=True: the colour names a mark (the red bank, the bond) and must draw, so it goes in
-    # style= (D-11; a fill= attribute loses to the class). The other fill= colours are the
-    # legacy greys D-11 records, drawn in the class colour (review session 20).
-    paint = ('style="fill:%s"' if key else 'fill="%s"') % fill
-    return ('<text x="%.1f" y="%.1f" class="%s" %s text-anchor="%s"%s>%s</text>'
+def t(x, y, s, cls="mapx", anchor="start", extra="", ink=None):
+    # ink: a colour that names a mark (the red bank, the bond) and must draw, so it goes in
+    # style= (D-11: a fill= attribute loses to the class, and pageguard refuses one). Without
+    # it the text draws its class colour (review session 21: the colours the other calls
+    # passed were never drawn).
+    paint = ' style="fill:%s"' % ink if ink else ''
+    return ('<text x="%.1f" y="%.1f" class="%s"%s text-anchor="%s"%s>%s</text>'
             % (x, y, cls, paint, anchor, extra, s))
 
 
@@ -36,7 +37,7 @@ def fealty():
          'promised to remain forever undivided and may not be annexed to Denmark.">' % (W, H),
          '<rect x="0" y="0" width="%d" height="%d" fill="%s"/>' % (W, H, M.PAPER)]
 
-    o.append(t(26, 34, "HELD OF WHOM, AFTER 1460", "mapt", PART_E))
+    o.append(t(26, 34, "HELD OF WHOM, AFTER 1460", "mapt"))
 
     # the two overlords
     boxes = [(60, 66, 300, 62, "THE DANISH CROWN", "elective; the council chooses"),
@@ -44,8 +45,8 @@ def fealty():
     for x, y, w, h, head, sub in boxes:
         o.append('<rect x="%d" y="%d" width="%d" height="%d" fill="none" stroke="%s" '
                  'stroke-width="1.2"/>' % (x, y, w, h, MUTED))
-        o.append(t(x + w / 2, y + 26, head, "mapl", INK, "middle"))
-        o.append(t(x + w / 2, y + 44, sub, "mapx", MUTED, "middle"))
+        o.append(t(x + w / 2, y + 26, head, "mapl", "middle"))
+        o.append(t(x + w / 2, y + 44, sub, "mapx", "middle"))
 
     # the two territories
     ter = [(60, 226, 300, 74, "SLESVIG", "a duchy, held of the Danish crown",
@@ -55,18 +56,17 @@ def fealty():
     for x, y, w, h, head, sub, l1, l2 in ter:
         o.append('<rect x="%d" y="%d" width="%d" height="%d" fill="%s" fill-opacity=".14" '
                  'stroke="%s" stroke-width="1.2"/>' % (x, y, w, h, PART_E, PART_E))
-        o.append(t(x + w / 2, y + 24, head, "mapl", INK, "middle"))
-        o.append(t(x + w / 2, y + 40, sub, "mapx", MUTED, "middle"))
-        o.append(t(x + w / 2, y + 56, l1, "mapx", MUTED, "middle"))
-        o.append(t(x + w / 2, y + 68, l2, "mapx", MUTED, "middle"))
+        o.append(t(x + w / 2, y + 24, head, "mapl", "middle"))
+        o.append(t(x + w / 2, y + 40, sub, "mapx", "middle"))
+        o.append(t(x + w / 2, y + 56, l1, "mapx", "middle"))
+        o.append(t(x + w / 2, y + 68, l2, "mapx", "middle"))
 
     # the man in the middle
     o.append('<rect x="330" y="140" width="240" height="62" fill="%s" fill-opacity=".92"/>' % PART_E)
     # The two labels in the middle box named the figure's subject and were
-    # rendering 2.07:1 on it. Emitted directly rather than through t(), because
-    # t() emits fill= for every label in this file and the rest of them are the
-    # cosmetic case that item 110's own session is for - this fixes the
-    # legibility failure and nothing else.
+    # rendering 2.07:1 on it (item 129), so they take the ink text_on() picks,
+    # in style=. Written directly, as then; t(..., ink=_c) would write the same
+    # paint (review session 21) with its coordinates as floats.
     _c, _r = M.text_on(PART_E, .92)
     assert _r >= 4.5, (_c, _r)
     o.append('<text x="450" y="168" class="mapl" style="fill:%s" '
@@ -85,10 +85,9 @@ def fealty():
              'opacity=".6"/>' % OX)
     o.append('<line x1="690" y1="300" x2="690" y2="326" stroke="%s" stroke-width="1" '
              'opacity=".6"/>' % OX)
-    o.append(t(450, 348, "dat se bliven ewich tosamende ungedelt", "mapl", OX, "middle",
-               ' font-style="italic"', key=True))
-    o.append(t(450, 366, "\u2014 and the knighthood may resist if he breaks it", "mapx",
-               MUTED, "middle"))
+    o.append(t(450, 348, "dat se bliven ewich tosamende ungedelt", "mapl", "middle",
+               ' font-style="italic"', ink=OX))
+    o.append(t(450, 366, "\u2014 and the knighthood may resist if he breaks it", "mapx", "middle"))
 
     # the dated band that used to sit here retold section 03 — Dahlmann, Neuber, 1845 —
     # which the prose does at length and better. Cutting it lets the title's one idea stand.
@@ -107,13 +106,13 @@ def hemmingstedt():
          'the royal army die, many by drowning.">' % (W, H),
          '<rect x="0" y="0" width="%d" height="%d" fill="%s"/>' % (W, H, M.PAPER)]
 
-    o.append(t(26, 34, "17 FEBRUARY 1500", "mapt", PART_E))
+    o.append(t(26, 34, "17 FEBRUARY 1500", "mapt"))
     o.append('<text x="26" y="62" style="font-family:\'Iowan Old Style\',Palatino,Georgia,serif;'
              'font-size:19px;fill:%s">One road, and no room to turn round.</text>' % INK)
 
     # marsh
     o.append('<rect x="26" y="92" width="848" height="180" fill="#B9CDD6" fill-opacity=".55"/>')
-    o.append(t(40, 112, "MARSH \u2014 below sea level, drained, and diked", "mapx", MUTED))
+    o.append(t(40, 112, "MARSH \u2014 below sea level, drained, and diked", "mapx"))
 
     # the road
     o.append('<rect x="26" y="170" width="848" height="26" fill="%s" fill-opacity=".35"/>' % M.LAND)
@@ -126,13 +125,13 @@ def hemmingstedt():
         o.append('<rect x="%d" y="176" width="34" height="14" fill="%s" fill-opacity=".85"/>'
                  % (x, PART_E))
     o.append(t(60, 164, "the royal army, about 12,000, strung out along the causeway",
-               "mapx", MUTED))
-    o.append(t(60, 216, "Meldorf, taken 13 February", "mapx", MUTED))
+               "mapx"))
+    o.append(t(60, 216, "Meldorf, taken 13 February", "mapx"))
 
     # the bank
     o.append('<rect x="516" y="150" width="16" height="66" fill="%s" fill-opacity=".9"/>' % OX)
-    o.append(t(524, 142, "the bank", "mapl", OX, "middle", key=True))
-    o.append(t(524, 288, "thrown up overnight", "mapx", OX, "middle", key=True))
+    o.append(t(524, 142, "the bank", "mapl", "middle", ink=OX))
+    o.append(t(524, 288, "thrown up overnight", "mapx", "middle", ink=OX))
 
     # the attack
     for y in (128, 238):
@@ -142,11 +141,10 @@ def hemmingstedt():
             dy = 34 if y < 170 else -34
             o.append('<line x1="%d" y1="%d" x2="%d" y2="%d" stroke="%s" stroke-width="1.6" '
                      'opacity=".85"/>' % (x, y, x + 10, y + dy, OX))
-    o.append(t(620, 132, "Dithmarschers, a few hundred at first", "mapx", OX, key=True))
-    o.append(t(620, 258, "sluices opened \u2014 the marsh floods", "mapx", OX, key=True))
+    o.append(t(620, 132, "Dithmarschers, a few hundred at first", "mapx", ink=OX))
+    o.append(t(620, 258, "sluices opened \u2014 the marsh floods", "mapx", ink=OX))
 
-    o.append('<text x="874" y="188" class="mapl" fill="%s" text-anchor="end">to Heide \u2192</text>'
-             % MUTED)
+    o.append('<text x="874" y="188" class="mapl" text-anchor="end">to Heide \u2192</text>')
 
     o.append('<line x1="26" y1="300" x2="%d" y2="300" stroke="%s" stroke-width=".8"/>'
              % (W - 26, RULE))
@@ -159,8 +157,8 @@ def hemmingstedt():
                          "Dithmarschen: under 100, by one count"),
             ("The banner", "The royal Dannebrog was taken. Frederik 2. got it back in 1559, "
                            "\u2018almost destroyed by damp and age\u2019")]):
-        o.append(t(26, 326 + i * 24, head, "mapl", PART_E))
-        o.append(t(150, 326 + i * 24, body, "mapx", MUTED))
+        o.append(t(26, 326 + i * 24, head, "mapl"))
+        o.append(t(150, 326 + i * 24, body, "mapx"))
     o.append('</svg>')
     return "\n  ".join(o), W, H
 

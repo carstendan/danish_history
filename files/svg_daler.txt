@@ -27,7 +27,7 @@
   <text x="26" y="268" class="mapt">A charge of 6 per cent on the value of all fixed property in Denmark, Norway,</text>
   <text x="26" y="282" class="mapt">Schleswig and Holstein, payable in silver — at once, or standing as a first</text>
   <text x="26" y="296" class="mapt">mortgage on the property at 6.5 per cent a year.</text>
-  <text x="26" y="320" class="mapt" fill="#2F4C7A">Every house, farm and workshop in the realm was made security for the new notes.</text>
+  <text x="26" y="320" class="mapt">Every house, farm and workshop in the realm was made security for the new notes.</text>
   <text x="26" y="364" class="mapx">AND A CEILING</text>
   <rect x="26" y="380" width="293.5" height="22" fill="#2F4C7A" opacity=".50"/>
   <rect x="319.5" y="380" width="206.5" height="22" fill="#8A2B2B" opacity=".50"/>

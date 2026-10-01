@@ -25,24 +25,24 @@
   <text x="108.2" y="105.9" class="mapx" text-anchor="start">Sjællands Odde</text>
   </g>
   </g>
-  <text x="396" y="76" class="mapx" fill="#8A2B2B">6 Aug</text>
+  <text x="396" y="76" class="mapx">6 Aug</text>
   <text x="396" y="89" class="mapt">The ultimatum reaches the crown</text>
   <text x="396" y="102" class="mapt">prince, with the army in Holstein.</text>
   <text x="396" y="115" class="mapt">He refuses.</text>
-  <text x="396" y="133" class="mapx" fill="#8A2B2B">16 Aug</text>
+  <text x="396" y="133" class="mapx">16 Aug</text>
   <text x="396" y="146" class="mapt">British troops land at Vedbæk.</text>
   <text x="396" y="159" class="mapt">Almost no resistance: the army is</text>
   <text x="396" y="172" class="mapt">elsewhere.</text>
-  <text x="396" y="190" class="mapx" fill="#8A2B2B">late Aug</text>
+  <text x="396" y="190" class="mapx">late Aug</text>
   <text x="396" y="203" class="mapt">Batteries set up in an arc round the</text>
   <text x="396" y="216" class="mapt">city, Svanemøllen to Kalveboderne.</text>
-  <text x="396" y="234" class="mapx" fill="#8A2B2B">2 Sep</text>
+  <text x="396" y="234" class="mapx">2 Sep</text>
   <text x="396" y="247" class="mapt">Fire opened at half past seven in</text>
   <text x="396" y="260" class="mapt">the evening.</text>
-  <text x="396" y="278" class="mapx" fill="#8A2B2B">2–5 Sep</text>
+  <text x="396" y="278" class="mapx">2–5 Sep</text>
   <text x="396" y="291" class="mapt">Three nights. The target is the</text>
   <text x="396" y="304" class="mapt">city, not the defences.</text>
-  <text x="396" y="322" class="mapx" fill="#8A2B2B">7 Sep</text>
+  <text x="396" y="322" class="mapx">7 Sep</text>
   <text x="396" y="335" class="mapt">Peymann capitulates. The fleet is</text>
   <text x="396" y="348" class="mapt">handed over.</text>
   <line x1="396" y1="366" x2="686" y2="366" stroke="#C9CDC4" stroke-width="1"/>

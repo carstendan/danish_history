@@ -23,16 +23,16 @@
   <text x="168" y="304" class="mapx">lykkelig</text>
   <text x="168" y="317" class="mapt">happy</text>
   <line x1="26" y1="416" x2="674" y2="416" stroke="#C9CDC4" stroke-width="1"/>
-  <text x="26" y="436" class="mapx" fill="#2F4C7A">“The King commanded”</text>
+  <text x="26" y="436" class="mapx">“The King commanded”</text>
   <text x="212" y="436" class="mapt">Christian 7. was incapable. It was done by the Reventlows,</text>
   <text x="212" y="449" class="mapt">Colbjørnsen, Bernstorff and a crown prince of twenty.</text>
-  <text x="26" y="470" class="mapx" fill="#2F4C7A">“shall cease”</text>
+  <text x="26" y="470" class="mapx">“shall cease”</text>
   <text x="212" y="470" class="mapt">A birth-year at a time. The last bound men went free on 1 January</text>
   <text x="212" y="483" class="mapt">1800, more than two years after the column was finished.</text>
-  <text x="26" y="504" class="mapx" fill="#2F4C7A">“the free peasant”</text>
+  <text x="26" y="504" class="mapx">“the free peasant”</text>
   <text x="212" y="504" class="mapt">The gårdmand. The hoveri ordinance of 1799 dealt with him; the</text>
   <text x="212" y="517" class="mapt">cottagers' labour was regulated only in 1807, and not fixed.</text>
-  <text x="26" y="538" class="mapx" fill="#2F4C7A">not on the stone</text>
+  <text x="26" y="538" class="mapx">not on the stone</text>
   <text x="212" y="538" class="mapt">Paid for by a collection among Copenhagen's citizens, to hold the</text>
   <text x="212" y="551" class="mapt">government to its reforms while the nobility's discontent grew. The</text>
   <text x="212" y="564" class="mapt">crown prince laid the foundation stone on 31 July 1792, the second</text>

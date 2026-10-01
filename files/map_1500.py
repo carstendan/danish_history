@@ -60,7 +60,7 @@ def build():
     out = ['<svg viewBox="0 0 %d %d" xmlns="http://www.w3.org/2000/svg" role="img" '
            'aria-label="Territorial map of 1500. Denmark, Norway and Sweden under King Hans, with '
            'Sweden recovered in 1497 and lost again in 1501; the duchies of Schleswig and Holstein '
-           'now held by the king himself; Ditmarschen claimed but not held; Gotland Danish. The '
+           'now held by the king himself; Dithmarschen claimed but not held; Gotland Danish. The '
            'western panel carries Iceland and the Faroes as dependencies and Greenland as a claim, '
            'while Orkney and Shetland have gone to Scotland.">' % (M.W, M.H),
            M.base(f, polys),

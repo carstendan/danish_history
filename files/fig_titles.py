@@ -9,8 +9,6 @@ chapter in one image - the title goes up and down, the power only goes up.
 import mapspine as M
 
 PART_E = "#2E6B5E"
-INK = "#221E18"
-MUTED = "#6C6E63"
 RULE = "#C9CDC4"
 W = 900
 
@@ -102,9 +100,9 @@ for _y, _w, _danish, _gloss, _gave, _held in RUNGS:
 H = TOP + STEP * len(RUNGS) + 46 + LEAD * (len(NOTE_LINES) - 1)
 
 
-def t(x, y, s, cls="mapx", fill=MUTED, anchor="start", extra=""):
-    return ('<text x="%.1f" y="%.1f" class="%s" fill="%s" text-anchor="%s"%s>%s</text>'
-            % (x, y, cls, fill, anchor, extra, s))
+def t(x, y, s, cls="mapx", anchor="start", extra=""):
+    return ('<text x="%.1f" y="%.1f" class="%s" text-anchor="%s"%s>%s</text>'
+            % (x, y, cls, anchor, extra, s))
 
 
 def build():
@@ -117,9 +115,9 @@ def build():
          'goes down to gracious lady while the power stays where it was.">' % (W, H),
          '<rect x="0" y="0" width="%d" height="%d" fill="%s"/>' % (W, H, M.PAPER)]
 
-    o.append(t(26, 34, "THE WORDS", "mapt", PART_E))
-    o.append(t(GAVE_X, 34, "WHAT THEY GRANTED", "mapt", PART_E))
-    o.append(t(HELD_X, 34, "WHAT THEY WITHHELD", "mapt", PART_E))
+    o.append(t(26, 34, "THE WORDS", "mapt"))
+    o.append(t(GAVE_X, 34, "WHAT THEY GRANTED", "mapt"))
+    o.append(t(HELD_X, 34, "WHAT THEY WITHHELD", "mapt"))
     o.append('<line x1="26" y1="46" x2="%d" y2="46" stroke="%s" stroke-width=".8"/>'
              % (W - 26, RULE))
 
@@ -132,19 +130,19 @@ def build():
     for i, (year, when, danish, gloss, gave, held) in enumerate(RUNGS):
         y = TOP + i * STEP
         o.append('<rect x="10" y="%.1f" width="8" height="8" fill="%s"/>' % (y + 2, PART_E))
-        o.append(t(26, y + 10, year, "mapl", PART_E))
-        o.append(t(72, y + 10, when, "mapx", MUTED))
+        o.append(t(26, y + 10, year, "mapl"))
+        o.append(t(72, y + 10, when, "mapx"))
         for k, line in enumerate(danish):
             # a leading ~ marks description rather than quotation: only the Danish
             # words themselves are set in italic, as they are in the prose
             plain = line.startswith("~")
-            o.append(t(26, y + 30 + k * 15, line.lstrip("~"), "mapx", INK,
+            o.append(t(26, y + 30 + k * 15, line.lstrip("~"), "mapx",
                        extra="" if plain else ' font-style="italic"'))
-        o.append(t(26, y + 30 + len(danish) * 15 + 3, gloss, "mapt", MUTED))
+        o.append(t(26, y + 30 + len(danish) * 15 + 3, gloss, "mapt"))
         for k, line in enumerate(gave):
-            o.append(t(GAVE_X, y + 12 + k * 14, line, "mapx", MUTED))
+            o.append(t(GAVE_X, y + 12 + k * 14, line, "mapx"))
         for k, line in enumerate(held):
-            o.append(t(HELD_X, y + 12 + k * 14, line, "mapx", MUTED))
+            o.append(t(HELD_X, y + 12 + k * 14, line, "mapx"))
         if i < len(RUNGS) - 1:
             o.append('<line x1="26" y1="%.1f" x2="%d" y2="%.1f" stroke="%s" '
                      'stroke-width=".6" opacity=".8"/>' % (y + STEP - 16, W - 26,
@@ -154,7 +152,7 @@ def build():
     o.append('<line x1="26" y1="%d" x2="%d" y2="%d" stroke="%s" stroke-width=".8"/>'
              % (first - 18, W - 26, first - 18, RULE))
     for k, line in enumerate(NOTE_LINES):
-        o.append(t(26, first + k * LEAD, line, "mapt", MUTED))
+        o.append(t(26, first + k * LEAD, line, "mapt"))
     assert first + (len(NOTE_LINES) - 1) * LEAD + 6 <= H
     o.append('</svg>')
     return "\n  ".join(o)

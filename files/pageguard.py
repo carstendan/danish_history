@@ -372,7 +372,7 @@ def nesting(h):
     p.feed(h)
     p.close()
     problems += ['<%s> (line %d) never closed' % (t, l) for t, l in stack]
-    return problems + duplicate_ids(h) + figure_widths(h)
+    return problems + duplicate_ids(h) + figure_widths(h) + text_fills(h)
 
 
 def duplicate_ids(h):
@@ -390,100 +390,6 @@ def duplicate_ids(h):
     seen = collections.Counter(re.findall(r'(?<![\w-])id="([^"]+)"', h))
     return ['id="%s" given %d times in the page (url(#%s) and #%s reach only the first)'
             % (k, n, k, k) for k, n in sorted(seen.items()) if n > 1]
-
-
-_RAW = re.compile(r'<!--.*?(?:-->|$)|<(script|style|template)\b([^>]*)>(.*?)</\1\s*>', re.S | re.I)
-_PHONE_MEDIA = re.compile(r'@media\s+(?:only\s+)?screen\s+and\s*\(\s*max-width\s*:\s*999px\s*\)', re.I)
-
-
-def _read_page(h):
-    """The page as a browser takes it, for this guard: comments, <script> and <template>
-    dropped, and each <style> that applies to the screen kept apart, whole - found left to
-    right, so a "<!--" inside a style or a script is theirs, not a comment (review session 20,
-    check 3). Returns (markup without them, [css of each applying style])."""
-    styles = []
-
-    def take(m):
-        if m.group(1) and m.group(1).lower() == 'style':
-            attrs = m.group(2)
-            media = re.search(r'\smedia\s*=\s*(?:"([^"]*)"|\'([^\']*)\'|([^\s>]+))', attrs, re.I)
-            kind = re.search(r'\stype\s*=\s*(?:"([^"]*)"|\'([^\']*)\'|([^\s>]+))', attrs, re.I)
-            mval = ' '.join(next(g for g in media.groups() if g is not None).lower().split()) \
-                if media else 'all'
-            tval = next(g for g in kind.groups() if g is not None).strip().lower() if kind else 'text/css'
-            if mval in ('all', 'screen', 'only screen') and tval in ('text/css', ''):
-                styles.append(m.group(3))
-        return ''
-    return _RAW.sub(take, h), styles
-
-
-def _top_level(css):
-    """The (prelude, body) pairs at the top level of a stylesheet, braces inside strings and
-    comments not counted."""
-    out, depth, k, start, body = [], 0, 0, 0, 0
-    while k < len(css):
-        c = css[k]
-        if c in '"\'':
-            e = css.find(c, k + 1)
-            k = len(css) if e < 0 else e + 1
-            continue
-        if css.startswith('/*', k):
-            e = css.find('*/', k + 2)
-            k = len(css) if e < 0 else e + 2
-            continue
-        if c == '{':
-            if depth == 0:
-                prelude, body = css[start:k], k + 1
-            depth += 1
-        elif c == '}':
-            depth -= 1
-            if depth == 0:
-                out.append((re.sub(r'/\*.*?\*/', ' ', prelude, flags=re.S).strip(), css[body:k]))
-                start = k + 1
-            elif depth < 0:
-                depth, start = 0, k + 1
-        elif c == ';' and depth == 0:
-            # ends an @import or @charset; anywhere else CSS keeps it in the next prelude, which
-            # a stray "};" before the phone block turns into an invalid selector the browser
-            # drops with its whole block (check 4) - so it is kept here too
-            if re.sub(r'/\*.*?\*/', '', css[start:k], flags=re.S).strip().startswith('@'):
-                start = k + 1
-        k += 1
-    return out
-
-
-def _phone_rules(styles):
-    """The min-width each viewBox width gets on a phone, as the page's own style gives it: the
-    figure svg[viewBox^="0 0 W "] rules at the top level of an `@media [only] screen and
-    (max-width:999px)` block that itself stands at the top level of a style applying to the
-    screen, the last one winning. Rules in comments, in another block, in an at-rule nested in
-    the block, or in a phone block nested in another at-rule are not read (review session 20,
-    checks 1 to 3: each had passed while the page drew the figure at .51). A value that is not
-    in px is kept as None, so it fails."""
-    rules, important = {}, {}
-    for css in styles:
-        for prelude, body in _top_level(css):
-            if not _PHONE_MEDIA.fullmatch(' '.join(prelude.split())):
-                continue
-            for head, decls in _top_level(body):
-                if head.startswith('@'):
-                    continue
-                clean = re.sub(r'/\*.*?\*/|"[^"]*"|\'[^\']*\'', ' ', decls, flags=re.S)
-                if '{' in clean or '}' in clean:
-                    continue                    # a nested rule: its declarations are not this rule's
-                for one in head.split(','):
-                    w = re.fullmatch(r'figure\s+svg\[viewBox\^=["\']0 0 ([1-9]\d*) ["\']\]', ' '.join(one.split()))
-                    if not w:
-                        continue
-                    for decl in clean.split(';'):
-                        d = re.fullmatch(r'\s*min-width\s*:\s*([^!]*?)\s*(!\s*important)?\s*', decl, re.I)
-                        if d:
-                            v = re.fullmatch(r'([\d.]+)px', d.group(1))
-                            key, imp = int(w.group(1)), bool(d.group(2))
-                            if imp or not important.get(key):      # an !important one wins
-                                rules[key] = float(v.group(1)) if v else None
-                                important[key] = important.get(key) or imp
-    return rules
 
 
 def _top_svgs(markup):
@@ -505,57 +411,161 @@ def _top_svgs(markup):
 
 
 def figure_widths(h):
-    """A figure whose viewBox width has no phone rule in the page's style.
+    """A figure whose viewBox width has no phone line, or no scroll line, in the page's style.
 
-    Below 1000 px on a screen (style.css, `@media screen and (max-width:999px)`) a figure
-    scrolls sideways in its box and its svg keeps 0.8 of its viewBox width, so every text class
-    draws at one size whatever the viewBox (Carsten, review session 20: at 390 px the smallest
-    text had been under 5 CSS px in 127 of 128 figures; D-20). The rule is one line per width,
-    since CSS cannot read a number out of an attribute; a figure drawn at a width with no line
-    would shrink to the screen again and nothing would say so. Every <figure> must hold one
-    top-level <svg>, first, with a viewBox "0 0 W H"; no <svg> may stand outside a figure; and
-    `_phone_rules()` must give W 0.8 W px.
+    Below 1000 px on a screen a figure scrolls sideways in its box and its svg keeps 0.8 of its
+    viewBox width (D-20), one style.css line per width, since CSS cannot read a number out of an
+    attribute; and where it scrolls its caption opens with a line saying so, one query per width
+    (review session 21). The plausible fault is a figure at a new width with neither: it would
+    shrink to the screen again, or scroll unannounced, and nothing would say so. So every
+    <figure> must open with one top-level <svg viewBox="0 0 W H">, W a multiple of 5; no <svg>
+    may stand outside a figure; and the page's <style> must hold, as style.css writes them (runs
+    of white space aside, either quote), the caption's hidden line
+      figure figcaption::before{display:none;... content:"Wider ..."...}
+    and for each W
+      figure svg[viewBox^="0 0 W "]{min-width:Xpx}                        X = 0.8 W exactly
+      figure:has(> svg[viewBox^="0 0 W "]) figcaption::before{display:block}
+    the second inside `@media screen and (width < Tpx)` where its band gives one.
 
-    A TRIPWIRE, NOT A PROOF. It reads the style as written, not the cascade: a rule elsewhere
-    that overrides the block (a later `figure svg{min-width:0}`, an !important), or a selector
-    list the browser drops for one invalid member, is not seen. What the phone draws is
-    measured in the page: `ordercheck.py` lists any figure drawn under 0.8 of its viewBox at the
-    width it runs, at 1200 and 390 in every cold run, and that measure, not this guard, is the
-    check of record (review session 20: four checks each passed this guard a style or a page the
-    browser read otherwise - a block nested in an at-rule, a stray "};", a <style> in <noscript>,
-    a figure in a shadow root; the plausible ones are refused now, the contrived HTML and CSS
-    tricks are not all). Markup inside comments, <script> and <template> is not read (`_read_page`). Called
-    from nesting(), so every part build refuses such a page."""
-    body, styles = _read_page(h)
+    THE BANDS, measured in the page (review session 21, checks 2 and 3): up to 720 px a figure's
+    box is the viewport less 64 px, from 721 less 96 and at most 694 px, and an overflow under
+    half a pixel does not scroll. So, W a multiple of 5 (0.8 W whole; at 778 or 823 the line
+    showed a width before the figure scrolled): up to 780 wide a figure scrolls below
+    T = 0.8 W + 64; from 825 to 865 below T = 0.8 W + 96; from 870 at every width under 1000 (its
+    line goes in the phone block, and it needs the 900s' breakout too, or it draws under 0.8 from
+    1000, which `ordercheck.py` lists at 1200); from 785 to 820 in two bands, below 0.8 W + 64 and
+    from 721 to 0.8 W + 96, which no line here gives - refused, until it has both lines and this
+    guard is taught them.
+
+    A TRIPWIRE, NOT A PROOF. It finds the lines as style.css spells them and refuses any other
+    spelling, however valid, rather than guess how CSS reads it (check 3: a space it had taken
+    out made ":has(" of " :has(", which CSS reads otherwise); a line under another media or
+    overridden later passes. Review session 20 had this guard read CSS as a browser does, some
+    150 lines, and four checks each found a style the browser read otherwise; Carsten cut it back
+    (review session 21). What the page draws is measured by `ordercheck.py`, at the width it runs
+    (1200 and 390 in every cold run): any figure drawn under 0.8 of its viewBox, and any whose
+    scroll line disagrees with its scrolling - that is the check of record. Called from
+    nesting(), so every part build refuses such a page."""
+    body = re.sub(r'<!--.*?-->|<(script|template)\b.*?</\1\s*>', '', h, flags=re.S | re.I)
+    css = ' '.join(re.sub(r'/\*.*?\*/', '', c, flags=re.S)
+                   for c in re.findall(r'<style\b[^>]*>(.*?)</style\s*>', body, re.S | re.I))
+    css = re.sub(r'\s+', ' ', css).replace("'", '"')
+    widths = {int(w): x for w, x in re.findall(
+        r'figure svg\[viewBox\^="0 0 (\d+) "\]\{min-width:([\d.]+)px\}', css)}
+    hint = lambda w: (r'figure:has\(> svg\[viewBox\^="0 0 %d "\]\) figcaption::before'
+                      r'\{display:block\}' % w)
     figs = re.findall(r'<figure\b[^>]*>(.*?)</figure\s*>', body, re.S | re.I)
-    top = _top_svgs(body)
-    if not figs and not top:
-        return []
-    rules = _phone_rules(styles)
-    problems = []
-    if not rules:
-        problems.append('the page has no phone rule at all (style.css: figure svg[viewBox^=...] '
-                        'lines in @media screen and (max-width:999px))')
-    inside = 0
+    problems, inside, seen = [], 0, set()
+    if figs and not re.search(r'figure figcaption::before\{display:none;[^}]*content:"Wider ', css):
+        problems.append('the style has no hidden scroll line '
+                        '(figure figcaption::before{display:none;... content:"Wider ..."})')
     for n, fig in enumerate(figs, 1):
         svgs = _top_svgs(fig)
         inside += len(svgs)
-        if len(svgs) != 1:
-            problems.append('figure %d holds %d top-level <svg>s; one rule per figure assumes one'
-                            % (n, len(svgs)))
-        m = re.match(r'\s*<svg\b[^>]*?\sviewBox=["\']0 0 ([1-9]\d*) [\d.]+["\']', fig, re.I)
-        if not m:
-            problems.append('figure %d does not open with an <svg viewBox="0 0 W H">' % n)
+        m = re.match(r'\s*<svg\b[^>]*?\sviewBox\s*=\s*["\']0 0 ([1-9]\d*) [\d.]+["\']', fig, re.I)
+        if len(svgs) != 1 or not m:
+            problems.append('figure %d does not hold one <svg viewBox="0 0 W H">, first' % n)
             continue
         w = int(m.group(1))
-        if w not in rules:
-            problems.append('figure %d is %d wide and style.css has no phone rule for it'
-                            ' (svg[viewBox^="0 0 %d "]{min-width:%gpx})' % (n, w, w, w * .8))
-        elif rules[w] is None or abs(rules[w] - w * .8) > .5:
-            problems.append('figure %d: the phone rule for %d gives %s, not 0.8 of it (%gpx)'
-                            % (n, w, '%gpx' % rules[w] if rules[w] is not None else 'no px value',
-                               w * .8))
-    outside = len(top) - inside
-    if outside:
-        problems.append('%d <svg>(s) outside any <figure>: no phone rule reaches them' % outside)
+        if w % 5:
+            problems.append('figure %d is %d wide, not a multiple of 5: where it scrolls is not '
+                            'known to a whole pixel (D-20)' % (n, w))
+            continue
+        if widths.get(w) is None or float(widths[w]) != w * .8:
+            problems.append('figure %d is %d wide and the style has no line '
+                            'figure svg[viewBox^="0 0 %d "]{min-width:%gpx}' % (n, w, w, w * .8))
+        if w in seen:
+            continue
+        seen.add(w)
+        t = w * .8 + 64 if w <= 780 else w * .8 + 96
+        line = 'figure:has(> svg[viewBox^="0 0 %d "]) figcaption::before{display:block}' % w
+        if 780 < w <= 820:
+            problems.append('figure %d is %d wide: it scrolls below %gpx and again from 721 to %gpx, '
+                            'and figure_widths() knows no line for two bands' % (n, w, w * .8 + 64, t))
+        elif w < 870 and not re.search(r'@media screen and \(width < %gpx\)\{%s\}' % (t, hint(w)), css):
+            problems.append('figure %d is %d wide and the style has no scroll line for it: '
+                            '@media screen and (width < %gpx){%s}' % (n, w, t, line))
+        elif w >= 870 and not re.search(hint(w), css):
+            problems.append('figure %d is %d wide and the phone block has no scroll line for it: %s'
+                            % (n, w, line))
+    if len(_top_svgs(body)) > inside:
+        problems.append('%d <svg>(s) outside any <figure>: no phone line reaches them'
+                        % (len(_top_svgs(body)) - inside))
     return problems
+
+
+def text_fills(h):
+    """A figure text's colour given by a fill= attribute (D-11).
+
+    A stylesheet rule beats a presentation attribute, so on a <text> with a .mapt, .mapl or
+    .mapx class a fill= is never drawn, and from an enclosing element it is never inherited by
+    such a text. Review session 20 measured 449 texts drawing another colour than they asked;
+    review session 21 deleted the 354 that remained (each drew its class colour) and moved the
+    three that did draw into style=. A meant colour goes in style="fill:#XXXXXX". This refuses a
+    fill= on any <text> or <tspan>, on any element with a map class, and on any element round a
+    text outside the map class it has or takes from a <g>, up to the figure's svg and through a
+    nested one - but for fill="none", which is meant for the shapes beside the text (review
+    session 21, checks 2 and 3). A fill given in style= on an enclosing element is not read here:
+    `ordercheck.py` lists it if the text does not draw it. It reads the page as HTML does (html.parser: tag and attribute names
+    in any case, any quoting, a ">" inside an attribute; comments, <script> and <template> not
+    read) - after check 1 of review session 21 passed a FILL=, a single-quoted class and an
+    <a class="mapx" fill=...>. It reads markup, not the cascade: what the page draws is
+    `ordercheck.py`'s colour measure. Called from nesting(), so every part build refuses it."""
+    from html.parser import HTMLParser
+    out, stack = [], []
+    VOIDS = VOID | {'path', 'line', 'rect', 'circle', 'ellipse', 'polyline', 'polygon', 'use',
+                    'stop', 'image'}
+    mapped = lambda a: bool(re.search(r'\bmap[tlx]\b', a.get('class') or ''))
+
+    class P(HTMLParser):
+        skip = 0
+
+        def handle_starttag(self, tag, attrs):
+            if tag in ('script', 'template'):
+                self.skip += 1
+            if self.skip:
+                return
+            a = dict(attrs)
+            line = self.getpos()[0]
+            has = 'fill' in a
+            if has and (tag in ('text', 'tspan') or mapped(a)):
+                out.append('<%s> at line %d sets its colour with fill="%s" (D-11: style="fill:...")'
+                           % (tag, line, a['fill']))
+            elif tag == 'text':
+                # up the stack to the figure's own svg, through any nested one (inheritance
+                # crosses it): once a map class is met - on the text, or on a <g> round it
+                # (check 3) - a fill= further out is never drawn on it; one nearer is. A
+                # fill="none" is meant for the shapes beside the text (check 2)
+                outer = next((k for k, (t, _, _, _) in enumerate(stack) if t == 'svg'), 0)
+                classed = mapped(a)
+                for t, l, f, c in reversed(stack[outer:]):
+                    if classed and f is not None and f.strip().lower() != 'none':
+                        out.append('<%s fill="%s"> at line %d is round a classed text (line %d): '
+                                   'the class wins (D-11)' % (t, f, l, line))
+                        break
+                    classed = classed or c
+            if tag not in VOIDS:
+                stack.append((tag, line, a.get('fill'), mapped(a)))
+
+        def handle_startendtag(self, tag, attrs):
+            if self.skip:
+                return
+            a = dict(attrs)
+            if 'fill' in a and (tag in ('text', 'tspan') or mapped(a)):
+                out.append('<%s/> at line %d sets its colour with fill="%s" (D-11)'
+                           % (tag, self.getpos()[0], a['fill']))
+
+        def handle_endtag(self, tag):
+            if tag in ('script', 'template'):
+                self.skip = max(self.skip - 1, 0)
+                return
+            if self.skip:
+                return
+            if any(t == tag for t, _, _, _ in stack):
+                while stack and stack.pop()[0] != tag:
+                    pass
+
+    p = P(convert_charrefs=True)
+    p.feed(h)
+    p.close()
+    return out

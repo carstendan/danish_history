@@ -9,7 +9,6 @@ import mapspine as M
 
 PART_E = "#2E6B5E"
 INK = "#221E18"
-MUTED = "#6C6E63"
 RULE = "#C9CDC4"
 
 
@@ -17,7 +16,7 @@ RULE = "#C9CDC4"
 def sound():
     BBOX = (11.55, 55.25, 13.75, 56.32)
     W, H = 660, 600
-    STRIP = 96
+    STRIP = 80      # the heading and two lines (review session 21: a third repeated the caption)
     NEAR = (9.0, 54.0, 16.0, 58.0)
     f = M.detail_frame(BBOX, W, H)
     o = ['<svg viewBox="0 0 %d %d" xmlns="http://www.w3.org/2000/svg" role="img" '
@@ -26,7 +25,7 @@ def sound():
          'foreign ship one noble in 1429, with the castle of Krogen at Helsingor, Kaernan at '
          'Helsingborg, Malmohus, the new town of Landskrona, and Copenhagen.">' % (W, H + STRIP)]
     # H + STRIP, not H (review session 16): the viewBox stopped at the map, and the strip
-    # below it - "BOTH SHORES, ONE HAND" and its three lines - was cut off the page and the
+    # below it - "BOTH SHORES, ONE HAND" and its lines - was cut off the page and the
     # PNG alike. overflows() had said so every run; figcheck --regen does not show it.
     o += M.detail_base(f, W, H, NEAR)
 
@@ -71,13 +70,12 @@ def sound():
     o.append('<rect x="0" y="%d" width="%d" height="%d" fill="%s"/>' % (H, W, STRIP, M.PAPER))
     o.append('<line x1="0" y1="%d" x2="%d" y2="%d" stroke="%s" stroke-width=".8"/>'
              % (H, W, H, M.LAND_EDGE))
-    o.append('<text x="14" y="%d" class="mapt" fill="%s">BOTH SHORES, ONE HAND</text>'
-             % (H + 22, PART_E))
+    o.append('<text x="14" y="%d" class="mapt">BOTH SHORES, ONE HAND</text>'
+             % (H + 22))
     for i, s in enumerate([
             "Valdemar Atterdag recovered Sk\u00e5ne in 1360 (chapter 15). Without that, none of this",
-            "is possible: a toll on a strait needs both banks, or the ships simply hug the other one.",
-            "A ship that took the Great Belt paid at Nyborg instead, so there was no free way round."]):
-        o.append('<text x="14" y="%d" class="mapx" fill="%s">%s</text>' % (H + 44 + i * 16, MUTED, s))
+            "is possible: a toll on a strait needs both banks, or the ships simply hug the other one."]):
+        o.append('<text x="14" y="%d" class="mapx">%s</text>' % (H + 44 + i * 16, s))
     o.append('</svg>')
     return "\n  ".join(o), W, H + STRIP
 
@@ -91,7 +89,7 @@ def toll():
          'exempt by privilege, and union subjects not foreign.">' % (W, H),
          '<rect x="0" y="0" width="%d" height="%d" fill="%s"/>' % (W, H, M.PAPER)]
 
-    o.append('<text x="26" y="34" class="mapt" fill="%s">THE RULE, c. 1429</text>' % PART_E)
+    o.append('<text x="26" y="34" class="mapt">THE RULE, c. 1429</text>')
     o.append('<text x="26" y="62" style="font-family:\'Iowan Old Style\',Palatino,Georgia,serif;'
              'font-size:19px;fill:%s">One noble per ship. Not per cargo, not per ton.</text>' % INK)
 
@@ -106,9 +104,9 @@ def toll():
                                "Nyborg. There was no free door into the Baltic"])]
     y = 96
     for i, (head, lines) in enumerate(rows):
-        o.append('<text x="26" y="%d" class="mapl" fill="%s">%s</text>' % (y, PART_E, head))
+        o.append('<text x="26" y="%d" class="mapl">%s</text>' % (y, head))
         for k, l in enumerate(lines):
-            o.append('<text x="200" y="%d" class="mapx" fill="%s">%s</text>' % (y + k * 15, MUTED, l))
+            o.append('<text x="200" y="%d" class="mapx">%s</text>' % (y + k * 15, l))
         y += 20 + 15 * len(lines) + 14
         if i < len(rows) - 1:
             o.append('<line x1="26" y1="%d" x2="%d" y2="%d" stroke="%s" stroke-width=".6"/>'

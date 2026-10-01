@@ -4774,3 +4774,279 @@ should read drawing order; 10's opener 3; 15's opener 4; 21 and 45 at 50 minutes
 (not for cutting, D-16); the "Ditmarschen" aria-labels (`svg_terr_1500/1600/1660`, pages 19, 21,
 25) against D-15; Lindholmen in 16's key only; the Sound strip's last line near the caption;
 `maps-contact-sheet.html`'s repeated ids; figs_19's key ending its "7 5" dash on a stub.
+
+## 25. Session 21 — the colours deleted, the guard cut back, and a phone told
+
+*1 October 2026, from `START_HERE_review_21.md`. State in `claude/session21_state.md` and
+`claude/session21_wip.patch`, saved after the cold run, after each task and after each check.*
+
+**The cold run matched every line** on a fresh clone of `e24de1f`: item 158's commit carries its
+45 pages, the eighteen regenerated `svg_*.txt` and the 32 sources (95 files), and the index is
+unchanged; tidy clean, 45 bodies; FIXTURE PASSES; SEAM LAYER PASSES; debuild 45 identical; 45 of
+45, 352,732 page words, 28.0 h, every part as the brief; 21 is 50 minutes, 44 48, 45 50;
+vignettes 148/116, selftest passes, 01 and 03-05 "[f] part"; figcheck --regen 98/30/0, 0 warning
+lines, the tree clean after it; five OVER, 32 §09 749, 13 §06 466; draftnotes clean in 45 and 14;
+appcheck 167 in 21; freshcheck 21; all seven builds clean, `--stub` refused; git clean after
+`linkindex` and `index_generator`; 2 pointers, 0 same-page glosses; Schleswig 317 in 32, Slesvig 4
+in 3; impossible dates 0, §5 lists 2; arrows 254, 37 thread notes, form 7, 3b 11, solvency 38;
+linecheck 0 (3 on purpose), 01–11 0, `--bare` 212; ordercheck 0 in 128 at 1200 and 390 (Chromium
+ran); qs 0/224, Causal 0/168, Recall 0/198, 0 pairs; colours 2,911 / 616 / 340; at 390 no overflow,
+128 WIDER, 6.80 ×123, 7.60 ×5.
+
+### 25.1 Carsten's decisions (§24.8)
+
+Asked one at a time, each with a recommendation; he took all six.
+- **The colours: delete, guard, fold.** Every `fill=` on a figure text goes (the class wins over
+  it, so nothing drawn changes, and that is to be shown, not assumed); the builds refuse a new
+  one; the colour measure moves into `ordercheck.py`.
+- **The 256 grey-for-grey texts** lose their `fill=` (by the first).
+- **A phone is told that a figure scrolls**: a line in the caption, at the widths where it does.
+- **The fractional widths: range syntax**, on the max side, beside the classic form.
+- **The caption in the 1000–1239 breakout** starts at the figure's padding, under its title.
+- **`pageguard.figure_widths()` is cut back** to the plausible fault; `ordercheck.py` is the proof.
+Not ruled on, and for him (brief item 4): linecheck in the builds, and drawing order; 10's opener 3;
+15's opener 4; 21 and 45 at 50 minutes; the five OVER.
+
+
+### 25.2 The colours (D-11)
+
+**Counted statically first:** 357 `fill=` on texts in 23 pages, not session 20's 340 - 340 drew
+another colour, 14 asked the class's own grey (or stood beside a `style=`), and three on page 06
+(SILVER, BRONZE, IRON) sit inside a `<g class="mapl">`, carry no class of their own, and **were
+drawn as asked**: a text's own attribute beats what it inherits. Deleting those would have changed
+the figure. SILVER and BRONZE moved into `style=`; IRON asked the class grey and lost its `fill=`.
+The other 354 were deleted: by hand in Part D's `svg_arithmetic`, `descent`, `herring`, `leding`,
+`pawn`, `reconquest`, `reigns` and `plague` (no generator) and bodies 01, 06, 07, 08 and 11; in
+figs_16b, 17, 18, 19, 22, 26, 27, 29, 30, 31, 37, 38 and 39 and fig_titles. The `t()` helpers no
+longer take a fill (16b, titles), or take `ink=` and write it in `style=` (18, 19, where the 33
+calls without `key=True` had passed a colour never drawn); the constants left unused (fig_titles'
+INK and MUTED, 16b's and 17's MUTED, 22's and 37's INK) went. Every changed line of the figure
+files was checked to differ from the shipped one only by the attribute, and after the helpers
+were rewritten `figcheck --regen` found every figure as the pages held it.
+
+**Measured, not assumed:** every figure screenshotted as an element at 2x, its scroll box opened,
+shipped pages against new, pixel for pixel. After the deletion alone: 128 of 128 identical at 1200
+and 1100, and at 390 with the scroll line (§25.3) hidden. In the book as handed over, 123 of 128,
+at 1200 and at 390: the five are page 16's crowns map (Lindholmen), page 18's Sound figure (its
+strip) and page 20's feud map (its key), which §25.4 changes, and page 18's other two figures,
+which sit a fraction of a pixel higher under the shorter Sound figure (check 1: aligned, identical
+or differing by antialiasing alone); at 390 that is with the line hidden - shown, it moves the
+figures down the page and 80 differ by antialiasing. Checks 1 and 2 compared every text's
+computed fill, opacity and fill-opacity (2,911 texts and 5 tspans, shipped against new, at 1200 and 390): none
+changed but Lindholmen's, added, and the Sound line's, gone. Planted: SILVER's `style=`
+removed, and "killed, Odense" one unit bluer: both listed.
+
+**The guard:** `pageguard.text_fills()`, from `nesting()`, reads the page as HTML does
+(`html.parser`; comments, `<script>` and `<template>` not read) and refuses a `fill=` on any
+`<text>` or `<tspan>`, on any element with a map class, and on any element round a text with a
+map class up to the figure's svg, through a nested one (check 2: it had stopped there), but for
+`fill="none"`, which is meant for the shapes beside the text (check 2: refused, wrongly). The shipped pages: 357 refusals on 23. The book: none. Planted: in `c03_body.html`
+through `build_parts_abc.py`, 03 NOT WRITTEN; and check 1's (which the first version passed) - a
+`FILL=`, a `<TEXT fill>`, a single-quoted and an unquoted `class=mapx` on a `<g fill>`, an
+`<a class="mapx" fill>`, a `<g fill>` with no class round a classed text, an `aria-label` holding
+">", a `<g fill>` across a nested svg - all refused; the same colour in `style=`, a `<g fill>`
+round shapes only, a `<g fill="none" stroke>` round a key's line and its label, and the markup in
+a comment or a script string, passed.
+
+**The measure in `ordercheck.py`** (`JS_COLOURS`, from `claude/session20_colours.py`): every text
+and coloured tspan's computed fill against the nearest `style` fill or `fill=` on it or an
+enclosing element, read as CSS reads it: `!important` dropped (check 1), `currentColor` resolved
+on the text, as Chromium does (check 2: on the element that asked), `none` compared with none,
+and `url()`, `inherit` or `var()` not read (check 2: listed as unreadable though drawn as asked).
+The shipped book: 340, at 1200 and at 390, as session 20 counted. The book: 0. Planted: a
+`fill=` on a classed text, a `<g fill>` round one, `fill:currentColor` round a classed text and
+`fill="none"` on one, listed; the colour in `style=`, with `!important`, in `hsl()`,
+`currentColor` round an unclassed text with its own colour, and `none`, `url()`, `inherit` and
+`var()` on unclassed texts, not.
+
+### 25.3 The width queries, the scroll line and the caption (D-20)
+
+**Measured first:** each viewBox width's figure at every whole viewport width from 320 to 1000:
+a 430 figure scrolls below 408, 640 below 576, 660 below 592, 700 below 624, 720 below 640, 900
+below 1000. Up to 720 px a figure's box is the viewport less 64 px (the page's 20 and the
+figure's 12 each side); from 721 less 96 (the figure's padding is 20 there) and at most 694; and
+less than half a pixel over does not scroll (check 3: 868, 778, 779, 823 and 824 showed the line
+a width early). So, W a multiple of 5, a figure up to 780 wide scrolls below 0.8 W + 64; one from
+825 to 865 below 0.8 W + 96; one 870 or wider at every width below 1000; and one from 785 to 820
+in two bands. Planted at 775, 780, 825, 865 and 870 with their lines, measured at every width from
+600 to 1000: the line exactly where each scrolls; 870 at 1000 draws at .798 without the 900s'
+breakout, which `ordercheck.py` lists at 1200 now (its floor was .795; check 3). (Check 2 found the first
+rule written for all widths: an 800 figure scrolled at 721 to 735 with no line, an 850 one
+showed its line at 776 to 999 where it fit). Planted in the page: 760 with its line below 672,
+850 below 776 - the line exactly where it scrolls; 800 - the gap at 721 to 735; 880 with its line
+in the phone block - right below 1000, and at 1000 drawn at .789 without the 900s' breakout,
+which `ordercheck.py` lists at 1200.
+
+**The scroll line** is the caption's `::before`: "Wider than the screen — scroll sideways →" in the
+caption's mono label style and grey (4.60:1 on the paper), hidden, and shown by one range query per
+width at those thresholds and by the phone block for 900. Its arrow is held to "sideways" by a
+no-break space (check 1: at 359 to 373 the arrow had wrapped alone; now the line breaks after
+SCROLL from 320 to 373, one line from 374), and it carries the alt text `""`, so a screen reader
+does not read it (check 1 found it read as the caption's opening words; the accessibility tree now
+starts at "Figure 1"). **The caption** in the 1000–1239 breakout lost its 103 px indent. **The
+queries**: the phone block, the 1000–1239 breakout, the rail and the toc are each written
+`(classic), (range)`; 720 has no partner query and is left.
+
+**Measured after** (`claude/session21_widths.py`: every page in an iframe of the width), at 24
+widths from 320 to 1440, both sides of every threshold: no page scrolls sideways; no figure under
+0.8 or outside the viewport; **the line is shown exactly when the figure scrolls** (128 at 320 to
+407, 127 at 408, 122 at 576, 99 at 592, 31 at 624, 23 from 640 to 999, 0 from 1000); every caption
+starts at its figure's padding; the rail from 1240. Looked at: page 12's reigns at 1100 and 390,
+the line at 360 and 320.
+
+**The fraction.** Session 20 recorded that 999.5 px "draws a 900 figure at .77" without measuring
+it, and the author of this session could not produce a fractional viewport (an iframe 999.5 wide
+at device scales 1 to 3, a window at `--force-device-scale-factor=1.1`: all snap to whole px).
+**Check 1 did** (an iframe at `zoom:2` and `width:999.5px`): on the shipped pages a 900 figure at
+999.5 draws at .771, and at 1239.5 the rail shows, the toc hides and the 900 figure gets neither
+breakout (.771); on the new pages .800 at 999.5, and at 1239.5 the rail hidden, the toc shown and
+the breakout at 1.0. With the range forms made unreadable (`wdth`), the classic forms still apply,
+as in a browser without range syntax.
+
+**The guards.** `figure_widths()`, cut back (`_read_page`, `_top_level` and `_phone_rules`
+gone; pageguard 561 lines → 571 with the fill guard), asks that each figure open with one `<svg
+viewBox="0 0 W H">` (either quote), that no svg stand outside a figure, and that the page's
+`<style>` (not a comment, a script or a template) hold the caption's hidden line,
+`figure svg[viewBox^="0 0 W "]{min-width:0.8Wpx}` and the scroll line for W under its band's
+query; W must be a multiple of 5, and one from 785 to 820 is refused; the min-width must be 0.8 W
+exactly (check 3: 527.6 for 528 drew at .7994 and passed both tools); the hidden line must be
+`display:none` with its text. It reads the lines as `style.css` spells them, runs of white space
+and quotes aside, and nothing else - comments are taken out, not made spaces (check 3: four
+spellings that CSS reads otherwise passed when it took spaces out) -
+and refuses any other form, however valid (check 2: a selector list, `max-width`, `!important`,
+`figure > svg`); spaces are kept where CSS needs them (check 2: a line with no space before
+`figcaption`, which matches nothing, passed). Planted: the 900 line removed, in a CSS comment, only in a script string, with a wrong
+value; the 660 scroll line removed, at the wrong threshold or with no space before `figcaption`;
+the 900 one removed; the hidden line removed; widths 800 and 850 with check 2's lines; a bare svg;
+a figure opening with a `<div>` - each refused; spaced, single-quoted and template forms (check 1
+found the first version refused them), 760 and 850 with their right lines, passed; the book
+passes; the shipped pages give 120 (no scroll lines). It does not see a line under the wrong
+media or overridden later. **The page does**:
+`ordercheck.py` now lists, at the width it runs, a figure whose scroll line disagrees with its
+scrolling (check 1: a new width with its phone line and no scroll line passed everything). Planted:
+a figure at 800 with no scroll line, listed at 390; the line shown on figures that fit, listed at
+1200; a figure with no caption to say it scrolls, listed at 390 (check 2: skipped). Its summary
+line now reads "0 text(s) painted over, in 0 of 128 figure(s) on 45 page(s), at 1200 px; 0
+figure(s) under 0.8 of their viewBox; 0 scroll line(s) wrong; 0 text(s) drawn in another colour
+than they ask", and the same at 390; on the shipped pages, 340 colours at both widths and 128
+scroll lines at 390.
+
+### 25.4 The small figure faults (brief item 2), each looked at in the page first
+
+- **figs_19's key** ended its "7 5" dash on a 2-unit stub (seen at 1200). Every swatch is 31 long
+  now, as page 18's roads key is: "7 5" ends on its third dash, "3 4" on its fifth; the circle
+  centred over them.
+- **The Sound strip** (page 18): its third line, "A ship that took the Great Belt paid at Nyborg
+  instead", said what the caption under it and the prose above it both say. Deleted; the strip is
+  80 high. Its first two lines still say what the prose says ("a toll on a strait needs both
+  banks"): for Carsten.
+- **Lindholmen** (page 16) was named in the key only, by session 15's rule that no label crosses a
+  coast. Session 16's halo (D-18) changed that premise: it is named east of its dot over Skåne now,
+  its last letters over the south coast, legible at 1200 and 390 (looked at, and by check 1);
+  linecheck 0, `--bare` 213 (it is the one more).
+- **"Ditmarschen"** in `svg_terr_1500/1600/1660`'s aria-labels: the prose says "Dithmarschen" (21
+  times on 16 to 21), the region's German form as D-15 gives a place in Germany; the aria-labels now
+  do too. The maps' visible label "Ditmarsken" is the Danish form the maps use throughout
+  (København, Flensborg) - a choice, kept.
+- **`maps-contact-sheet.html`'s repeated ids** (`landclip`, `wclip`, `wland` 18 times, `fr` twice):
+  each id's markup is identical wherever it repeats (one distinct element per id), so `url(#…)`
+  reaching the first draws what the second would. The sheet is `mapdump.py`'s looking aid, not a
+  reader's page. Recorded, not changed.
+
+### 25.5 ON_BAR_INK on 01–03 (brief item 3)
+
+Measured in the page, as the colours were: each unhaloed label in 01–03 hidden, its figure
+screenshotted, and the ground under its box read. All fifteen sit wholly on one bar. White: 4.80
+(amber), 6.21 (verdigris), 7.61, 7.94. `ON_BAR_INK` on the mid-grey `#8E9182`: **5.35** (HAMBURG,
+MAGLEMOSE, hunter-/gatherer), where white would be 3.2. **Kept; closed.**
+
+### 25.6 Checked
+
+Check 1 (an agent that had not seen the work: its own clone of `e24de1f` with the source patch,
+every script re-run and every part built - every generated file and page byte-identical to the
+working tree; its own pixel and computed-style comparisons at 1200, 1100 and 390; some 150 widths;
+print at A4; its own plants through a build; the patch read hunk by hunk): **the fill guard passed
+plausible spellings** (`FILL=`, a single-quoted or unquoted class, an `<a class="mapx" fill>`) -
+it reads the page as HTML does now; **the width guard refused valid CSS** (spacing, single quotes)
+and read a line in a script string - it reads the styles alone, any spacing and quote; **nothing
+checked the scroll lines** - the guard asks for them and `ordercheck.py` measures them; **the
+arrow wrapped alone at 359 to 373, and screen readers read the line** - a no-break space and alt
+text; **the colour measure misread `!important` and `currentColor`**; dead colour arguments in
+figs_18 and 19 and six unused constants; "page 19's roads key" (page 18); a line count; "128 of
+128 identical" measured before the figure fixes (123 of 128 in the book handed over, as above);
+`fig_crowns`' docstring ("Skane", a long line, "south-east coast"); the line quoted wrongly in D-20
+- all taken. It found right: no honoured colour lost; the pages differ from the shipped ones only
+as §25.2 to §25.4 say; 357 on 23 and 0; ordercheck 340 on the shipped book at both widths, 0 now;
+the line shown exactly when the figure scrolls at some 150 widths, the counts as above, sticky
+captions in view; print identical but for the three changed figures, the line absent; every
+caption at its padding (2,176 measured), moved 103 px in 1000–1239 and nothing else moved; the
+fraction produced and measured; the changed figures read; every cold-run check clean.
+
+Check 2 (another agent, the changes since check 1 and every record: its own clone, every file
+byte-identical to the working tree; computed styles of every text and pixels at 1200 and 390;
+27 widths; print at A4 on all 45 pages; its plants through builds): **the scroll rule was written
+for all widths and is right only up to 781** - from 721 a figure's box is the viewport less 96, so
+800 scrolled at 721 to 735 with no line and 850 showed its line where it fit, and the two-width
+ordercheck could not see it: the guard knows the four bands now, refuses the two-band one, and the
+records say so; **the colour measure resolved `currentColor` on the wrong element and called
+`none`, `url()`, `inherit` and `var()` unreadable**; **the fill guard refused a `<g fill="none">`
+round a key and missed a `<g fill>` across a nested svg**; **the width guard passed a line with no
+space before `figcaption`** (its normaliser removed the space), and the base line removed;
+**ordercheck skipped a figure with no caption**; and the records: two width counts, HANDOFF 159
+cited and not yet written, the new summary line quoted nowhere, figs_18's comment that `t()`
+writes `fill=`, D-11's "pixel-identical" and its count without IRON - all taken. Recorded, not
+changed: the width guard still passes a line under the wrong media (`@supports`, a print style,
+`<noscript>`) and refuses valid forms other than spacing and quotes - a tripwire, by Carsten's
+decision; `ordercheck.py` sees the first. It found right: no honoured colour lost and the 33
+calls; 357 on 23 and 0; ordercheck 0/0/0/0 on the book at both widths, 340 on the shipped book;
+the line exactly where figures scroll at 27 widths; the wrap and the alt text (and the fallback
+where alt text is unparseable: shown and read); print identical but for 16's and 18's figures;
+the three changed figures; every cold-run check, and 352,732 page words.
+
+Check 3 (a third agent, the changes since check 2 and every record: its own clone, every file
+byte-identical; the START_HERE_22 cold run, line by line; its plants at each band edge, measured
+at every width from 320 to 1000): **less than half a pixel over does not scroll**, so at 868, and
+at widths whose 0.8 W ends in .2 or .4 (778, 779, 823, 824), the line showed a width before the
+figure scrolled - the guard asks for a multiple of 5 now (the book's are all), and the bands
+start at 870; **ordercheck's floor of .795 passed 868 to 872 at .796 to .7995, and the guard took a
+min-width within half a pixel** - .7995 and exact now; **the guard's normaliser took out spaces
+CSS reads** (`figure :has(`, `figcaption ::before`, a comment between `figure` and `svg`, the last
+drawing at .494 on a phone) - it keeps the spelling now; **`content:""` and `display:block` in the
+hidden line passed**; **the two tools disagreed on `<g fill="none">`** (the measure now skips it as
+the guard does); **the measure missed `var()` and `inherit` on an enclosing element, and read the
+first `fill` in a style, CSS the last**; the guard missed a `<g fill>` round a `<g class="mapl">`;
+JS_HINTS looked only at a direct caption and counted a hidden one as shown; and the records:
+"the three page 06 honoured moved into `style=`" (two did; IRON asked the class grey), D-20's
+"each width query written twice", the style comment's rule, "2,916 texts" (2,911 and 5 tspans) -
+all taken. Each of check 3's plants was re-run on the fixes: refused or listed as above; its
+`<g fill="none">`, last-fill and caption-in-a-div plants, not. These last changes were not given to
+a fourth agent. It found right: the whole START_HERE_22 cold run; 340, 128, 357 and 120 on the
+shipped pages; the band edges at 780, 781, 821 and 867; the two bands at 782 to 820; the
+fractions; the line's wrap, alt text and print; the commit's file list and page list; 123 of 128.
+
+### 25.7 Verified
+
+In the working clone after the last edit: the changed figure scripts and the three maps re-run, no
+`!!`; all seven part builds clean, `--stub` refused; `linkindex`, `index_generator`; **tidy clean,
+45 bodies; FIXTURE PASSES; SEAM LAYER PASSES; debuild 45 identical; 45 of 45, 352,732 page words,
+28.0 h, every part unchanged; 21 is 50 minutes, 44 48, 45 50; vignettes 148/116, selftest passes;
+figcheck --regen 98 match, 30 sourceless, 0 disagree, 0 warning lines, the tree unchanged after
+it; five OVER; draftnotes clean in 45 and 14; appcheck 167 in 21; freshcheck 21; 2 pointers, 0
+same-page glosses; Schleswig 317 in 32, Slesvig 4 in 3; impossible dates 0; arrows 254, 38
+listed; linecheck 0 over `svg_*.txt` (3 on purpose) and over 01–11's bodies, `--bare` 213;
+ordercheck at 1200 and at 390: 0 painted over in 128, 0 under 0.8, 0 scroll lines wrong, 0
+colours (after check 3's fixes); qs 0/224, Causal 0/168, Recall 0/198, 0 pairs; at 390 no page overflows, all 128 figures
+scroll in their boxes, smallest text 6.80 (123) or 7.60 (5); the scroll line exactly where figures
+scroll at 24 widths.** Files that change: **all 45 pages**; the regenerated `svg_*.txt`; the
+sources of the patch. The index does not change.
+
+### 25.8 For Carsten
+
+**Closed:** the colour measure (in `ordercheck.py`) and the fill guard; the 256 greys (gone with
+their `fill=`); the scroll line; the fractional widths; the breakout caption; `figure_widths()`
+cut back; ON_BAR_INK (measured, kept); figs_19's key; the Sound strip's third line; Lindholmen;
+the "Ditmarschen" aria-labels; the contact sheet's ids (identical, recorded). **New:** the Sound
+strip's two remaining lines repeat the prose above the figure ("a toll on a strait needs both
+banks"); whether to keep them. **Open, carried:** whether `linecheck` is wired into the builds,
+and whether it should read drawing order; 10's opener 3; 15's opener 4; 21 and 45 at 50 minutes;
+the five OVER (not for cutting, D-16).

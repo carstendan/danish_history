@@ -30,12 +30,12 @@
   </g>
   <rect x="0" y="600" width="660" height="116" fill="#F0F2EE"/>
   <line x1="0" y1="600" x2="660" y2="600" stroke="#9CA294" stroke-width=".8"/>
-  <line x1="18" y1="622" x2="44" y2="622" stroke="#8A2B2B" stroke-width="2.4" stroke-dasharray="3 4"/>
-  <text x="56.0" y="626.0" class="mapx" fill="#6C6E63" text-anchor="start">Count Christoffer, June 1534 — Zealand and Skåne in six weeks</text>
-  <line x1="18" y1="643" x2="44" y2="643" stroke="#2E6B5E" stroke-width="2.4"/>
-  <text x="56.0" y="647.0" class="mapx" fill="#6C6E63" text-anchor="start">Rantzau north through Jutland, autumn 1534</text>
-  <line x1="18" y1="664" x2="44" y2="664" stroke="#2E6B5E" stroke-width="2.4" stroke-dasharray="7 5"/>
-  <text x="56.0" y="668.0" class="mapx" fill="#6C6E63" text-anchor="start">Rantzau to Funen and Zealand, 1535–36</text>
-  <circle cx="30" cy="685" r="4.6" fill="none" stroke="#A9601C" stroke-width="1.4"/>
-  <text x="56.0" y="689.0" class="mapx" fill="#6C6E63" text-anchor="start">where evangelical preaching began, with the year</text>
+  <line x1="18" y1="622" x2="49" y2="622" stroke="#8A2B2B" stroke-width="2.4" stroke-dasharray="3 4"/>
+  <text x="56.0" y="626.0" class="mapx" text-anchor="start">Count Christoffer, June 1534 — Zealand and Skåne in six weeks</text>
+  <line x1="18" y1="643" x2="49" y2="643" stroke="#2E6B5E" stroke-width="2.4"/>
+  <text x="56.0" y="647.0" class="mapx" text-anchor="start">Rantzau north through Jutland, autumn 1534</text>
+  <line x1="18" y1="664" x2="49" y2="664" stroke="#2E6B5E" stroke-width="2.4" stroke-dasharray="7 5"/>
+  <text x="56.0" y="668.0" class="mapx" text-anchor="start">Rantzau to Funen and Zealand, 1535–36</text>
+  <circle cx="33.5" cy="685" r="4.6" fill="none" stroke="#A9601C" stroke-width="1.4"/>
+  <text x="56.0" y="689.0" class="mapx" text-anchor="start">where evangelical preaching began, with the year</text>
   </svg>

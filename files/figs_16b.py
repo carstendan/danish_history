@@ -12,14 +12,13 @@ import mapspine as M
 
 PART_E = "#2E6B5E"
 INK = "#221E18"
-MUTED = "#6C6E63"
 RULE = "#C9CDC4"
 OX = "#8A2B2B"
 
 
-def t(x, y, s, cls="mapx", fill=MUTED, anchor="start", extra=""):
-    return ('<text x="%.1f" y="%.1f" class="%s" fill="%s" text-anchor="%s"%s>%s</text>'
-            % (x, y, cls, fill, anchor, extra, s))
+def t(x, y, s, cls="mapx", anchor="start", extra=""):
+    return ('<text x="%.1f" y="%.1f" class="%s" text-anchor="%s"%s>%s</text>'
+            % (x, y, cls, anchor, extra, s))
 
 
 # ------------------------------------------------------------------ figure 1
@@ -73,12 +72,12 @@ def atlantic():
     o.append('<rect x="0" y="%d" width="%d" height="%d" fill="%s"/>' % (H, W, STRIP, M.PAPER))
     o.append('<line x1="0" y1="%d" x2="%d" y2="%d" stroke="%s" stroke-width=".8"/>'
              % (H, W, H, M.LAND_EDGE))
-    o.append(t(20, H + 24, "REACHED THROUGH NORWAY", "mapt", PART_E))
+    o.append(t(20, H + 24, "REACHED THROUGH NORWAY", "mapt"))
     for i, l in enumerate([
             "All of this came to Denmark in 1380, when its nine-year-old king inherited Norway, and none of it",
             "was ever governed from Copenhagen. Bergen to Gar\u00f0ar is 2,700 km direct \u2014 further than Copenhagen to",
             "Lisbon. One or two ships a year made the crossing in a good decade, and by the 1400s not even that."]):
-        o.append(t(20, H + 48 + i * 16, l, "mapx", MUTED))
+        o.append(t(20, H + 48 + i * 16, l, "mapx"))
     o.append('</svg>')
     return "\n  ".join(o), W, H + STRIP
 
@@ -91,7 +90,7 @@ def brondum():
          'forty-eight farms, of which thirty-four were lying waste and fourteen were still worked.">'
          % (W, H),
          '<rect x="0" y="0" width="%d" height="%d" fill="%s"/>' % (W, H, M.PAPER)]
-    o.append(t(26, 34, "THE BR\u00d8NDUM ESTATE, 1400 OR 1401", "mapt", PART_E))
+    o.append(t(26, 34, "THE BR\u00d8NDUM ESTATE, 1400 OR 1401", "mapt"))
     o.append('<text x="26" y="64" style="font-family:\'Iowan Old Style\',Palatino,Georgia,serif;'
              'font-size:19px;fill:%s">Forty-eight farms. Thirty-four of them empty.</text>' % INK)
 
@@ -111,10 +110,10 @@ def brondum():
                      % (x, y, side, side, OX))
     yb = y0 + 4 * (side + gap) + 8
     o.append('<rect x="26" y="%d" width="16" height="16" fill="%s" fill-opacity=".8"/>' % (yb, PART_E))
-    o.append(t(50, yb + 13, "14 still worked", "mapx", MUTED))
+    o.append(t(50, yb + 13, "14 still worked", "mapx"))
     o.append('<rect x="190" y="%d" width="16" height="16" fill="none" stroke="%s" '
              'stroke-width="1.1" stroke-dasharray="3 3"/>' % (yb, OX))
-    o.append(t(214, yb + 13, "34 lying waste \u2014 \u00f8deg\u00e5rde", "mapx", MUTED))
+    o.append(t(214, yb + 13, "34 lying waste \u2014 \u00f8deg\u00e5rde", "mapx"))
 
     o.append('<line x1="26" y1="%d" x2="%d" y2="%d" stroke="%s" stroke-width=".8"/>'
              % (yb + 34, W - 26, yb + 34, RULE))
@@ -122,7 +121,7 @@ def brondum():
             "One estate in one poor district of north-west Himmerland, and it must not be made a national average.",
             "But deserted farms peak across Denmark around 1400, not in the plague decades \u2014 and",
             "this is the kind of document a landlord was reading when he decided what rent he could still ask."]):
-        o.append(t(26, yb + 58 + i * 16, l, "mapx", MUTED))
+        o.append(t(26, yb + 58 + i * 16, l, "mapx"))
     o.append('</svg>')
     return "\n  ".join(o), W, H
 
