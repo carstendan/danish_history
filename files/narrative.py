@@ -157,6 +157,25 @@ def band(n):
     return 'OVER'
 
 
+# The five OVER sections, read in the review and kept (D-16: length is never a reason to cut;
+# 16 §08 OVER since before the review began, at 849 (HANDOFF item 140); 42 §02, 43 §02 and 44 §03
+# since review session 11's corrections; 21 §06 since session 13's sentence on the Sound toll
+# registers). Carsten closed them in review session 22: each is (chapter, section) -> the
+# narrative words it was kept at. One of them at or under its count prints "OVER, kept";
+# a sixth OVER section, or one of these grown past its count, still prints plain OVER.
+KEPT_OVER = {('16', '08'): 852, ('21', '06'): 763, ('42', '02'): 767,
+             ('43', '02'): 780, ('44', '03'): 761}
+
+
+def verdict(ch, label, w):
+    b = band(w)
+    m = re.match(r'(\d\d)\b', label)
+    kept = KEPT_OVER.get((ch, m.group(1) if m else None))
+    if b == 'OVER' and kept is not None and w <= kept:
+        return 'OVER, kept (D-16, at %d)' % kept
+    return b
+
+
 def main():
     args = [a for a in sys.argv[1:] if not a.startswith('--')]
     only_census = '--census' in sys.argv
@@ -217,13 +236,18 @@ def main():
 
     print('\nNarrative weight per section, observed:')
     counts = Counter()
+    kept = 0
     for ch, page, narr, hits, removed, rest, _out in rows:
         secs = sections(rest)
         print('\n  ch %s  (%d sections, %d narrative)' % (ch, len(secs), narr))
         for label, w in secs:
+            v = verdict(ch, label, w)
             counts[band(w)] += 1
-            print('     %-52s %5d  %s' % (label[:52], w, band(w)))
+            kept += v != band(w)
+            print('     %-52s %5d  %s' % (label[:52], w, v))
     print('\n  observed distribution: %s' % dict(counts))
+    print('  OVER: %d, of which kept (D-16): %d, not kept: %d'
+          % (counts['OVER'], kept, counts['OVER'] - kept))
 
 
 if __name__ == '__main__':

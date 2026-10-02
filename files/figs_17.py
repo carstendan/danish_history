@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Figures for chapter 17.
+"""Figures for chapter 18 (c18_body.html), whatever the file's name says.
 
 1. The Sound, and the machinery built to tax it.
 2. One noble per ship - the toll's arithmetic, and who did not pay.
@@ -16,17 +16,17 @@ RULE = "#C9CDC4"
 def sound():
     BBOX = (11.55, 55.25, 13.75, 56.32)
     W, H = 660, 600
-    STRIP = 80      # the heading and two lines (review session 21: a third repeated the caption)
     NEAR = (9.0, 54.0, 16.0, 58.0)
     f = M.detail_frame(BBOX, W, H)
     o = ['<svg viewBox="0 0 %d %d" xmlns="http://www.w3.org/2000/svg" role="img" '
          'aria-label="Map of the Sound between Zealand and Skaane, both shores Danish, showing the '
          'toll line between Helsingor and Helsingborg where Erik of Pomerania began charging every '
          'foreign ship one noble in 1429, with the castle of Krogen at Helsingor, Kaernan at '
-         'Helsingborg, Malmohus, the new town of Landskrona, and Copenhagen.">' % (W, H + STRIP)]
-    # H + STRIP, not H (review session 16): the viewBox stopped at the map, and the strip
-    # below it - "BOTH SHORES, ONE HAND" and its lines - was cut off the page and the
-    # PNG alike. overflows() had said so every run; figcheck --regen does not show it.
+         'Helsingborg, Malmohus, the new town of Landskrona, and Copenhagen.">' % (W, H)]
+    # The figure ends at the map (review session 22). Its strip, "BOTH SHORES, ONE HAND" and
+    # two lines on Valdemar's 1360 and a toll needing both banks, said what the paragraph
+    # above the figure and the caption say; review session 21 took a third line, which
+    # repeated the caption, and Carsten had the rest deleted.
     o += M.detail_base(f, W, H, NEAR)
 
     # the toll line
@@ -66,18 +66,8 @@ def sound():
     for lon, lat, t in [(12.05, 55.95, "SJ\u00c6LLAND"), (13.45, 56.15, "SK\u00c5NE")]:
         o.append(M.note(f, lon, lat, t, cls="mapt"))
     o.append('</g>')
-
-    o.append('<rect x="0" y="%d" width="%d" height="%d" fill="%s"/>' % (H, W, STRIP, M.PAPER))
-    o.append('<line x1="0" y1="%d" x2="%d" y2="%d" stroke="%s" stroke-width=".8"/>'
-             % (H, W, H, M.LAND_EDGE))
-    o.append('<text x="14" y="%d" class="mapt">BOTH SHORES, ONE HAND</text>'
-             % (H + 22))
-    for i, s in enumerate([
-            "Valdemar Atterdag recovered Sk\u00e5ne in 1360 (chapter 15). Without that, none of this",
-            "is possible: a toll on a strait needs both banks, or the ships simply hug the other one."]):
-        o.append('<text x="14" y="%d" class="mapx">%s</text>' % (H + 44 + i * 16, s))
     o.append('</svg>')
-    return "\n  ".join(o), W, H + STRIP
+    return "\n  ".join(o), W, H
 
 
 # ------------------------------------------------------------------ figure 2

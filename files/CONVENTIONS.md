@@ -446,9 +446,23 @@ made because they improve the reading, and say so. The advisory is a reason to
 **Reason.** Carsten, 19 September 2026, answering I-5 (chapters 44 and 45 over
 the advisory): "do not trim for the sake of time."
 
-**Applied.** 44 (44 min) and 45 (45 min) are kept as they are: both read as the
-story needs, and neither has material that belongs elsewhere. This is the defence
-item 138 said they lacked.
+**Applied** (19 September 2026). 44 (then 44 min) and 45 (then 45 min) are kept as they
+are: both read as the story needs, and neither has material that belongs elsewhere. This
+is the defence item 138 said they lacked. (Since then 44 is 48 and 45 is 50.)
+
+**Closed** (Carsten, review session 22). The hard band is read in whole minutes: every
+part build stamps a page "about N minutes", N = `round(words / 210)` on the words it counts
+before `linkindex.py` adds the index link (6 words); `build_part_f/g/h/i.py` refuse a page
+whose N is outside the band, A-E's builds do not, and `build_all.py`'s summary flags any
+page whose stamp is. 21 (50.25 minutes by the builds' count) and 45 (50.15) are stamped 50,
+inside.
+`bookstats.py` now prints, for the whole book and in every cold run, the chapters whose
+stamp is outside the band ("none"); its "min" column counts the page as shipped, so it can
+say 51 of a page stamped 50 (planted: page 20 built at 10,605 words is stamped 50 and not
+listed, at 10,606 stamped 51 and listed). The five narrative sections over 760 words (16
+§08, 21 §06, 42 §02, 43 §02, 44 §03) are kept, as read in the review (21 §06 OVER since
+session 13): `narrative.py` prints each "OVER, kept" at or under the count it was kept at,
+and a sixth, or one of the five grown, plain OVER (planted both ways).
 
 **Defined.** Here. It qualifies L1a: the hard band still binds; the soft advisory
 is diagnostic only.
@@ -508,9 +522,17 @@ does not read drawing order; `ordercheck.py` does, in the page (Chromium): it li
 a later mark or a clip changes pixels in its box or its halo (review session 19; 0 in 128
 figures; a later text over it is not seen), and is wired into no build either: Carsten kept it
 standalone (review session 20), a fixed step of every cold run and handover at 1200 px and, with
-`--width 390`, at a phone's.
+`--width 390`, at a phone's. **The two are kept as they are, and both questions closed** (Carsten,
+review session 22): linecheck stays out of the builds and a fixed step of every cold run and
+handover, which every build follows (A-D's builds do not need `cairosvg`, which it does; E-I's
+already do, through their figure scripts), and it does not learn drawing order, which
+ordercheck reads in the page. Each catches what the other cannot: planted on page 18, a 3-unit
+line through "Lund" drawn *before* the label shows round its halo and is listed by linecheck
+alone; drawn *after*, by both; and a 1-unit line drawn after it, under linecheck's thickness
+for a crossing, by ordercheck alone.
 
-**Defined.** Here; `HANDOFF.md` items 154, 157 and 158; `REVIEW-CONSISTENCY.md` §20, §23 and §24.
+**Defined.** Here; `HANDOFF.md` items 154, 157, 158 and 160; `REVIEW-CONSISTENCY.md` §20, §23,
+§24 and §26.
 
 ---
 

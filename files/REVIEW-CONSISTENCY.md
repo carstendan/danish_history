@@ -5050,3 +5050,161 @@ strip's two remaining lines repeat the prose above the figure ("a toll on a stra
 banks"); whether to keep them. **Open, carried:** whether `linecheck` is wired into the builds,
 and whether it should read drawing order; 10's opener 3; 15's opener 4; 21 and 45 at 50 minutes;
 the five OVER (not for cutting, D-16).
+
+## 26. Session 22 — Carsten's open items closed
+
+*2 October 2026, from `START_HERE_review_22.md`. State in `claude/session22_state.md` and
+`claude/session22_wip.patch`, saved after the cold run, after each task and after each check.*
+
+**The cold run matched every line** on a fresh clone of `d7a6722`: item 159's commit carries its
+45 pages, the 26 regenerated `svg_*.txt`, Part D's eight hand `.txt` and the other sources, and
+the index is unchanged; tidy clean, 45 bodies; FIXTURE PASSES; SEAM LAYER PASSES; debuild 45
+identical; 45 of 45, 352,732 page words, 28.0 h, every part as the brief; 21 is 50 minutes, 44
+48, 45 50; vignettes 148/116, selftest passes, 01 and 03-05 "[f] part"; figcheck --regen 98/30/0,
+0 warning lines, the tree clean after it; five OVER, 32 §09 749, 13 §06 466; draftnotes clean in
+45 and 14; appcheck 167 in 21; freshcheck 21; all seven builds clean, `--stub` refused; git clean
+after `linkindex` and `index_generator`; 2 pointers, 0 same-page glosses; Schleswig 317 in 32,
+Slesvig 4 in 3; impossible dates 0, §5 lists 2; arrows 254, 37 thread notes, form 7, 3b 11,
+solvency 38; linecheck 0 (3 on purpose), 01–11 0, `--bare` 213; ordercheck all zeros at 1200 and
+390 (Chromium ran); qs 0/224, Causal 0/168, Recall 0/198, 0 pairs; at 390 no overflow, 128 WIDER,
+6.80 ×123, 7.60 ×5; the scroll line where the figure scrolls at all 24 widths.
+
+### 26.1 Carsten's decisions (§25.8)
+
+Asked one at a time, each with a recommendation; he took all six.
+- **The Sound strip** (page 18): delete it whole.
+- **linecheck**: standalone, as ordercheck is; no drawing order. Both questions closed.
+- **10's opener 3** and **15's opener 4**: say what the page says.
+- **21 and 45 at 50 minutes**: the band in whole minutes; a band line in `bookstats.py`.
+- **The five OVER**: closed as read and kept; `narrative.py` names them.
+
+### 26.2 The Sound strip (page 18)
+
+Figure 1's strip under the map - "BOTH SHORES, ONE HAND", "Valdemar Atterdag recovered Skåne in
+1360 (chapter 15). Without that, none of this / is possible: a toll on a strait needs both banks,
+or the ships simply hug the other one." - said what the paragraph directly above the figure says
+("A toll on a strait requires both banks; with only one, ships hug the other side and pay
+nothing") and what the caption says ("both of them Danish"); session 21 had taken its third line,
+which repeated the caption. Deleted in `figs_17.py`: the figure ends at the map, viewBox 660×600
+(the width unchanged, so no `style.css` line). Looked at in the page at 1200 and 390 (the scroll
+line still shown at 390, where it scrolls); ordercheck 0 at both; linecheck 0, `--bare` 213.
+
+### 26.3 linecheck and drawing order
+
+Kept as they are: linecheck is a fixed step of every cold run and handover, which every build
+follows; it needs `cairosvg`, which A-D's builds do not (E-I's already do, through their figure
+scripts: without it each prints "!! cairosvg not installed" - check 3; I first told Carsten no
+build needed it, and he kept the decision on the corrected reason); ordercheck reads drawing order
+in the page. **Each catches what the
+other cannot, planted:** on a copy of page 18 a 3-unit dark line through "Lund", drawn *before*
+the label, shows on both sides of its halo (looked at) and is listed by linecheck alone (ordercheck
+0); drawn *after*, it is listed by both; and (check 1) a 1-unit line drawn after it, under
+linecheck's thickness for a crossing, by ordercheck alone. Recorded in D-18's guard.
+
+### 26.4 The two openers (D-17 measured after)
+
+- **10, opener 3** asked how one builds "five fortresses to one plan and a 760-metre bridge in
+  three years"; the page says "in the space of a few years around 980", "The fortresses, and
+  probably the bridge, within a few years" and "Then add a 760-metre bridge, probably in the same
+  window", and "Five fortresses … share a plan; three of them are known to have been built out".
+  Now: "What does it take to lay out five fortresses to one plan, and probably a 760-metre
+  bridge, within a few years — and what does the fact that you can tell us?" Carsten agreed each
+  change: his first choice, "build … within a few years, probably with a 760-metre bridge
+  alongside them", went after check 1 ("alongside" read as beside the forts, and "build" five
+  stood against "three … built out"); its successor, "lay out … in a few years, and probably a
+  760-metre bridge in the same window", after check 2, which found it said the time twice. It
+  shares more words with the page's summary than the original did (content-word overlap 0.33, as
+  the first choice's; the original's 0.19): check 3 found the words added are "within",
+  "probably", "few" and "out" - the measure does not match "lay" with "laid". D-17 does not count
+  summaries. Not taken: check 2's note that "lay out" puts the
+  bridge in planning terms where §07 answers in building ones; "laid out" is the page's own word
+  for the plan, and the question still asks what it took.
+- **15, opener 4** called Valdemar "the richest king Denmark had seen in a century"; the page never
+  calls him rich ("He had no treasury" is said of his accession in 1340; for the 1360s it tells
+  Estonia sold, hard taxation, debasement) and says he "reassembled the thing itself". Now: "Why did the king who had put the realm back together lose
+  a war to a group of trading towns?"
+
+Neither wording appears anywhere else in the book. qs 0/224, Causal 0/168, Recall 0/198 and 0
+pairs after; on 10 and 15 still 0 at a threshold of 0.25 (the openers' highest overlap with a
+checkpoint or an end-of-page question 0.11 and 0.13). Page 15's "a group of trading towns"
+leaves out Sweden and Holstein, but the page itself says "He was defeated by an association of
+towns": kept. The book is 352,735 page words (+3).
+
+### 26.5 The band and the five OVER
+
+**My recommendation to Carsten rested on a wrong claim**, that nothing checks the 25-50 minute band:
+`build_part_f/g/h/i.py` already refuse a page outside it, by `round(words / 210)`, which is why 21
+(F) and 45 (I) build "ok" at 50.25 and 50.15 minutes by their count. Told him before writing
+anything; the reading was already the book's own, and he kept the `bookstats.py` line for the whole
+book. **Check 1 found two more faults in what I then wrote:** `build_all.py`'s summary also flags a
+page outside the band (for every part, from the page's stamp), and the line I wrote did not count
+"as the builds count them" - the builds count before `linkindex.py` adds 6 words, so a page 21 the
+build wrote at 10,605 words ("50 min, ok") bookstats listed at 51. **The line now reads each page's
+own stamp, "Era chapter · about N minutes"**, as `build_all.py` does, so it agrees with the builds
+by construction: "outside the 25-50 minute band (each page's own stamp, as the builds wrote it):
+none". Planted in a copy: page 20 built at 10,605 words is stamped 50 and not listed, at 10,606
+stamped 51 and listed (Part E's build writes it; F-I's would refuse it); pages with no stamp are
+listed as such. Python's `round()` takes a half to the even side. **Its blind spot** (check 2): it
+reads what the build wrote, so a page edited after its build keeps its old stamp; `debuild` and
+`freshcheck` are the guards against that. `build_all.py` reads a page with no stamp as 0 and does
+not flag it; this line lists it. `narrative.py` holds the five kept sections with the counts they
+were kept at and prints each "OVER, kept (D-16, at N)", then "OVER: 5, of which kept (D-16): 5, not
+kept: 0". Planted on copies: 16 §08 one word longer (853) and 32 §09 grown to 760 print plain OVER,
+"not kept: 2". 16 §08 has been OVER since before the review began (849, HANDOFF item 140), 42 §02,
+43 §02 and 44 §03 since session 11's corrections (§15.3), 21 §06 since session 13's registers
+sentence (§17). It took three checks to get that history right: each version I wrote was read off
+one record, and checks 1, 2 and 3 each found the next one wrong. Both in D-16, closed; D-16's
+"Applied" now dates its 44 and 45 minutes.
+
+### 26.6 Checked
+
+Each check by an agent that had not seen the work, in a copy of the tree; every changed figure
+looked at in Chromium at 1200 and 390, every claim in a comment, docstring or record tried, and
+ordercheck run over all 45 pages at both widths (all zeros each time). The pages rebuilt in each
+copy were byte-identical to the tree's. **Check 1** found no fault on a page; in the records: the
+band claim left out `build_all.py`'s summary; the band line did not count as the builds count (6
+words of index link; a page the build wrote at 50 it listed at 51); D-16's "Applied" kept 44 and 45
+at their September minutes; 21 §06's history; HANDOFF 160 cited before it was written; the linecheck
+plant shown one way only (a 1-unit line after "Lund", caught by ordercheck alone, now recorded);
+page 10's opener heavy, echoing the summary, "alongside" ambiguous, and "build" five against "three
+… built out". All taken (the opener after asking Carsten); its note that page 15's "group of trading
+towns" leaves out Sweden and Holstein was read against the page and kept (§26.4), and the
+`figs_17.py` docstring's "chapter 17" (the figures are page 18's) corrected. **Check 2** found no
+fault in the code or on a page; in the records: my correction of the OVER history wrote a new false
+one for the other four (fixed from §15.3); page 10's second wording said the time twice (tightened,
+after asking Carsten); §26.4 silent on his agreement and quoting a stale overlap; the band line's
+blind spots (a page edited after its build keeps its stamp; `build_all.py` reads no stamp as 0), now
+in the comment and §26.5; D-16's minutes by the builds' count. All taken but one note (§26.4).
+**Check 3** ran START_HERE_review_23's whole cold run, mapfixture included, in a copy: every line
+matched, the commit's file list is the changed set exactly, and every plant of checks 1 and 2
+reproduced. In the records: 16 §08's history wrong a third time (OVER before the review, HANDOFF
+140); the reason for keeping linecheck out of the builds untrue for E-I (taken to Carsten: his
+decision stands, the reason corrected in D-18, §26.3 and HANDOFF 160); my account of check 2's
+history finding named the wrong section; §26.5's minutes by the page's count, not the builds';
+§26.4's explanation of the opener's overlap wrong, and check 2's §07 note neither taken nor
+recorded; "He had no treasury" quoted for the 1360s; two long comment lines; the brief's "sessions
+3-12" for the parts' reading (3-11). All taken. Not given to a fourth agent: check 3's findings are
+all in the records and comments, and its cold run is the one this patch ships with.
+
+### 26.7 Verified
+
+In the working clone after the last edit: `figs_17.py` re-run; all seven part builds clean,
+`--stub` refused; `linkindex`, `index_generator`; **tidy clean, 45 bodies; FIXTURE PASSES; SEAM
+LAYER PASSES; debuild 45 identical; 45 of 45, 352,735 page words, 28.0 h (C 26,823, every other
+part unchanged); 21 is 50 minutes, 44 48, 45 50; the band line "none"; vignettes 148/116,
+selftest passes; figcheck --regen 98 match, 30 sourceless, 0 disagree, 0 warning lines, the tree
+unchanged after it; five "OVER, kept", 0 not kept, 32 §09 749, 13 §06 466; draftnotes clean in 45
+and 14; appcheck 167 in 21; freshcheck 21; 2 pointers, 0 same-page glosses; Schleswig 317 in 32,
+Slesvig 4 in 3; impossible dates 0, §5 lists 2; arrows 254, 37 thread notes, form 7, 3b 11,
+solvency 38; linecheck 0 (3 on purpose), 01–11 0, `--bare` 213; ordercheck at 1200 and at 390:
+0 painted over in 128, 0 under 0.8, 0 scroll lines wrong, 0 colours; qs 0/224, Causal 0/168,
+Recall 0/198, 0 pairs; at 390 no page overflows, 128 WIDER, 6.80 ×123, 7.60 ×5; the scroll line
+where figures scroll at all 24 widths.** Files that change: pages **10, 15 and 18**; the
+regenerated `svg_sound.txt`; the sources of the patch. The index does not change.
+
+### 26.8 For Carsten
+
+**Closed:** the Sound strip (deleted); linecheck in the builds and drawing order (kept standalone,
+no order: closed); 10's opener 3 and 15's opener 4 (reworded with him); 21 and 45 at 50 minutes
+(the band in whole minutes, the stamp; `bookstats.py` names any page outside it); the five OVER
+(kept; `narrative.py` names them). **Open, carried:** none. The review's open list is empty.

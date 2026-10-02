@@ -5475,6 +5475,54 @@ split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see it
    book and wrong for a width the book does not have, and only a checker who planted one found it.
    *Before writing a rule for a range, plant a case in each part of the range.*
 
+160. **The consistency review, session 22: Carsten's open items closed.** 2 October 2026. Full
+   record in `REVIEW-CONSISTENCY.md` §26.
+
+   **Cold run on a fresh clone of `d7a6722`: every line matched START_HERE_review_22**, and item
+   159's commit carries its 45 pages, the 26 regenerated `svg_*.txt`, Part D's eight hand `.txt`
+   and the other sources. State lived in `claude/session22_state.md` and
+   `claude/session22_wip.patch`.
+
+   **CARSTEN'S SIX OPEN ITEMS (§25.8), each asked with a recommendation, all taken.** The Sound
+   strip on page 18 - "BOTH SHORES, ONE HAND" and two lines the paragraph above the figure and the
+   caption already say - deleted in `figs_17.py`; the figure ends at the map (660×600). linecheck
+   stays standalone (a fixed step of every cold run and handover; A-D's builds do not need its
+   `cairosvg`) and does not learn drawing order, which ordercheck reads in the page: planted on
+   page 18, a thick line drawn before "Lund" is caught by linecheck alone, after it by both, a thin
+   one after it by ordercheck alone (D-18). Page 10's opener 3 now asks what it takes "to lay out
+   five fortresses to one plan, and probably a 760-metre bridge, within a few years" (it said "in
+   three years", which the page never does); page 15's opener 4 asks why "the king who had put the
+   realm back together" lost (it called him "the richest king Denmark had seen in a century"; the
+   page says he was buying it back with Estonia, hard taxes and a debased coin). D-17 measured
+   after: 0 everywhere. 21 and 45 at 50 minutes: the band is read in whole minutes, as the page's
+   own stamp gives it, and `bookstats.py` now prints "outside the 25-50 minute band (each page's
+   own stamp, as the builds wrote it): none". The five OVER are kept: `narrative.py` prints each
+   "OVER, kept (D-16, at N)", and a sixth or a grown one plain OVER.
+
+   **A RECOMMENDATION ON A WRONG CLAIM.** I told Carsten nothing checked the band; builds F-I
+   already refused a page outside it, by the same rounding. Said so before writing a line. Then
+   check 1 found the line I wrote counted the page as shipped, 6 words of index link more than the
+   builds count, so a page the build wrote at 50 it listed at 51: it reads the stamp now, and
+   agrees with the builds by construction (planted at 10,605 and 10,606 words through a real
+   build).
+
+   **CHECKED** (§26.6), each by an agent that had not seen the work: check 1 - no page fault; the
+   band claim and count, a stale D-16 line, 21 §06's history, a one-way plant, page 10's opener
+   heavy and echoing the summary; check 2 - no fault in code or page; the history I corrected
+   corrected wrongly, the opener saying the time twice, the band line's blind spots unrecorded;
+   check 3 - the brief's whole cold run matched; the OVER history wrong a third time, and the
+   reason for keeping linecheck out of the builds untrue for E-I (Carsten's decision stands on the
+   corrected one). All taken but one note; the openers' rewordings each asked of Carsten.
+
+   **VERIFIED** after the last edit (§26.7). Pages that change: **10, 15 and 18**. The index does
+   not change.
+
+   **LESSON.** A recommendation is a claim too, and the one who makes it is the last to check it:
+   "nothing checks the band" was answered by a grep I ran only after Carsten had agreed. And a
+   correction can be wrong the same way the thing it corrects was: the history of the five OVER was
+   rewritten three times, each from one record, and was false three times. *Before recommending,
+   find what already does the thing; before correcting a record, read the record you correct.*
+
 ---
 
 
