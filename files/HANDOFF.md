@@ -5523,6 +5523,56 @@ split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see it
    rewritten three times, each from one record, and was false three times. *Before recommending,
    find what already does the thing; before correcting a record, read the record you correct.*
 
+161. **The consistency review, session 23: chapters 01–15 fact-checked.** 2 October 2026. Full record
+   in `REVIEW-CONSISTENCY.md` §27; the fifteen reports in `claude/session23_factcheck_01..15.md`.
+
+   **Cold run on a fresh clone of `f9f380a`: every line matched START_HERE_review_23**, and item
+   160's commit carries pages 10, 15 and 18, `svg_sound.txt` and its sources. State lived in
+   `claude/session23_state.md` and `claude/session23_wip.patch`.
+
+   **WHAT NEXT, ASKED FROM THE RECORD.** Before recommending, I read what each part had had: 16–45 a
+   fact-checker per chapter (sessions 7–11), Part D about fifty claims sampled, Parts A–C every
+   *changed* claim sourced but the unchanged prose never checked against sources. Carsten: fact-check
+   01–15 as 16–45 were.
+
+   **THE FACT-CHECK.** Fifteen checkers and fixers, one per chapter, each in its own tree, editing
+   only its body (and 12–15's hand `svg_*.txt`) and proposing the rest. **268 corrections; 61
+   intervals and ages wrong** (D-8; A–C 37, D 24). Among them: 01's sea level (80–100 m, not 120) and
+   Laacher See lead (150–200 years); 05's Cimbri link (Lyschander, 1622) and Grauballe's dot; 07's
+   villages, hall and Danevirke; 09's silver (mostly Samanid, not Baghdad); 11's Cnut the elder brother
+   and figure 3 redrawn (Harthacnut Emma's and Cnut's); 12's Vestervig; 13's Estonia lost 1227–38 (15
+   follows); 14's Halland in 1343 (15 follows) and the håndfæstning series; 15's Skåne conquered in
+   1360. **Carsten decided:** 04's opener and §01 heading "no copper or tin" (03 follows); "the
+   Schlei" in 14 (D-15, as 07, 09, 12, 33, 34); Lola's date from the paper; and the checkpoint copies
+   synced (below). The web-search allowance ran out during the fact-check; what that left unverified
+   is in each report's §H and the check reports' "could not check" (`claude/session23_check*.md`).
+
+   **THE DEAD COPY.** The bodies of 01–20 carry a copy of their checkpoints that the build strips and
+   replaces from the config. 18 of 20 disagreed with what ships, and 13's checker corrected the copy;
+   session 13's "four hundred years" fix to 15 had gone the same way and never reached the page. Synced on Carsten's word;
+   pages 01–29 rebuilt byte-identical; D-17 now says where a checkpoint lives.
+
+   **CHECKED** (§27.6), each by agents that had not seen the work. Check 1 (three agents, every hunk):
+   7 faults on the page, 8 inconsistencies, 11 style, 7 record — among them 01's U–Th date credited
+   with the joint figure, 03's Tustrup authors, 07's *holtijaz* on the reading lex rates least likely,
+   09's Samanid claim misattributed to Kromann, 14's håndfæstning gap and "most accounts" against its
+   own ground, and 04's heading and 03's "no ore", which carried the opener's ground only half way.
+   Check 2 (every fix): no fault, no inconsistency; five small points, all taken. Check 3 ran
+   START_HERE_review_24's whole cold run in a committed copy (every line matched) and read check 2's
+   fixes and these records: no fault on a page; in the records, my total of 288 corrections where the
+   counts sum to 268, and eight smaller errors — all taken (§27.6).
+
+   **VERIFIED** after the last edit (§27.7). **Pages that change: 01–15 and 34.** The index does not
+   change.
+
+   **LESSON.** A correction's ground reaches further than its hunk, and a copy nobody builds from is
+   a claim nobody checks. The opener lost "no metal ore" for a reason that held equally for the
+   section heading under it and for the arrow pointing at it, and only a checker who had not made the
+   change saw that; a fact-checker, and session 13 before it, corrected checkpoints in a copy the
+   build throws away. And a sum is a claim like any other: fifteen counts, each right, added up wrong
+   in three records until a checker added them again. *Carry a correction to every place its ground
+   holds, and edit what ships.*
+
 ---
 
 

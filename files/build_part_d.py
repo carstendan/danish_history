@@ -54,7 +54,7 @@ CFG = {
         "problem from <em>both</em> directions?",
         "A Danish king around 1075 had no annual tax. So what did he live on?"]),
       ("The parish and the priest", [
-        "What did Knud den Hellige do after the fleet of 1085 dispersed, and what did it start?",
+        "Who were Knud den Hellige's allies for the invasion of England in 1085, and where did the fleet gather?",
         "What did Rome want in exchange for the archbishopric at Lund \u2014 and how long before it "
         "can be shown to have been paid?",
         "Who was Herman, and what had been done in 1133 that his embassy to Rome undid?"]),
@@ -90,7 +90,7 @@ CFG = {
         "Absalon is said to have founded Copenhagen in 1167. What did he actually do at Havn, and "
         "what was there already?"]),
       ("Bornh", [
-        "What did the Emperor give Valdemar Sejr in 1214, and why could he afford to give it?",
+        "What did Frederick II give Valdemar Sejr in 1214, and why could he afford to give it?",
         "Which contemporary chronicler describes the Estonian campaigns \u2014 and what does he "
         "never mention?",
         "Who brought down the Danish Baltic empire, with how large a party, and where?"])]),
@@ -100,12 +100,12 @@ CFG = {
     svgs={'SVG_DESCENT': 'svg_descent.txt', 'SVG_HERRING': 'svg_herring.txt',
           'SVG_PAWN': 'svg_pawn.txt'},
     sec=[("s01", "01", "Vordingborg, 1241"), ("s02", "02", "The last thralls"),
-         ("s03", "03", "Slien, 1250"), ("s04", "04", "An archbishop in a cap"),
+         ("s03", "03", "The Schlei, 1250"), ("s04", "04", "An archbishop in a cap"),
          ("s05", "05", "Nyborg, 1282"), ("s06", "06", "Finderup, 1286"),
          ("s07", "07", "The most expensive reign"), ("s08", "08", "Towns, friars and herring"),
          ("s09", "09", "The country with no king"), ("s10", "10", "Randers, 1340")],
     checks=[
-      ("Slien, August 1250", [
+      ("The Schlei, August 1250", [
         "Which part of Denmark did <i class=\"dk\">Jyske Lov</i> apply to, and what did the rest "
         "have instead?",
         "Nobody abolished thralldom. So what ended it?",
@@ -148,8 +148,8 @@ CFG = {
         "After the plague most Danish village churches were altered in the same way. How, and what "
         "paid for it?"]),
       ("Stralsund", [
-        "Why did recovering Sk\u00e5ne in 1360 matter for the next four hundred years of Danish "
-        "state finance?",
+        "Why did recovering Sk\u00e5ne in 1360 matter to Danish state finance for centuries "
+        "afterwards?",
         "Who died outside Visby's east wall in 1361, and what did the town itself do?",
         "Who was Niels Bugge, and what is the honest answer about his death?"])]),
 }

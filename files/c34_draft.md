@@ -525,8 +525,8 @@ Recall, Causal, Counterfactual, Contested.*
 
 **§03 — Danevirke**
 
-- **Danevirke** — the earthwork across the neck of Jutland, begun in the eighth
-  century (chapter 7) and the frontier of chapter 12. In 1864 a line that needed
+- **Danevirke** — the earthwork across the neck of Jutland, begun before 500,
+  rebuilt on a large scale in the eighth century (chapter 7), and the frontier of chapter 12. In 1864 a line that needed
   more men than the army holding it had.
 
 **§04 — Dybbøl**

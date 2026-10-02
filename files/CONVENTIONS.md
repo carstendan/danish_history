@@ -425,7 +425,9 @@ chapters, Slesvig 2 in 2 — both Danish book titles in Sources (32, 33). No Sle
 English** (§14.5). **Part I, review session 11:** every "Nordslesvig" in English prose is North Schleswig; Før is Föhr;
 Danevirke in 33 and 34 too (34 §03's title with it); 32's *Dannevirke* is the newspaper. **Schleswig
 316 in 31 chapters, Slesvig 4 in 3 — all names** (two Danish book titles; in 38 the plebiscite
-commission's French name and a Danish article title) (§15.5).
+commission's French name and a Danish article title) (§15.5). **Part D, review session 23:** the Slien
+is the Schlei in 14 too (§03's title, its checkpoint anchor and the Five with it), as in 07, 09, 12, 33
+and 34; Carsten. Schleswig 318 in 32, Slesvig 4 in 3 (§27.5, §27.7).
 Maps (`map_*.py`)
 label in Danish throughout and are left for a decision of their own when Part A–D
 maps are next touched.
@@ -492,7 +494,14 @@ checkpoints, 190 end-tier, one false opener in 17). After: no pair at 0.4 on any
 one question asked in other words; the reading passes found about forty-five such in 25–36 and, by the
 fixers' counts, about a hundred and forty in 01–24.
 
-**Defined.** Here; `HANDOFF.md` items 149 and 150.
+**Where a checkpoint lives.** In the part's build script (`checks` in `build_parts_abc.py`,
+`build_part_d.py` … `build_part_i.py`), which inserts it after stripping every `<div class="check">`
+from the body. The bodies of 21–45 carry none; the bodies of 01–20 carry a copy for the reader of the
+source: **edit the config, then the copy.** In review session 23, 18 of the 20 copies disagreed
+with what shipped, and a fact-checker (and session 13 before it) corrected the dead copy; Carsten had them synced (each now
+equals its page; pages 01–29 rebuilt byte-identical) (`REVIEW-CONSISTENCY.md` §27.4).
+
+**Defined.** Here; `HANDOFF.md` items 149, 150 and 161.
 
 ### D-18 · Figure text carries a halo; a thick line or a marker never crosses a label — in force
 

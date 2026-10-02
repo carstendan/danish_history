@@ -3,7 +3,7 @@
   <rect x="96.0" y="98" width="62.0" height="30" fill="none" stroke="#C9CDC4" stroke-width=".8"/>
   <text x="127.0" y="118" class="mapl" text-anchor="middle">J</text>
   <rect x="158.0" y="98" width="62.0" height="30" fill="none" stroke="#C9CDC4" stroke-width=".8"/>
-  <rect x="158.0" y="98" width="18.6" height="30" fill="#3E8474" fill-opacity=".16"/>
+  <rect x="201.4" y="98" width="18.6" height="30" fill="#3E8474" fill-opacity=".16"/>
   <text x="189.0" y="118" class="mapl" text-anchor="middle">F</text>
   <rect x="220.0" y="98" width="62.0" height="30" fill="none" stroke="#C9CDC4" stroke-width=".8"/>
   <rect x="220.0" y="98" width="62.0" height="30" fill="#3E8474" fill-opacity=".16"/>

@@ -66,7 +66,7 @@ CFG = {
     checks=[
       ('The first arrivals', [
         'What is the <i class="dk">hovedopholdslinje</i>, and which side of it has the better soil?',
-        'Sea level stood about 120 m lower. What did that join Denmark to?',
+        'Sea level stood some 80–100 m lower. What did that join Denmark to?',
       ]),
       ('A climate that would not settle', [
         'What is a <i class="dk">zinken</i>, and which culture does it identify?',
@@ -148,7 +148,7 @@ CFG = {
     name='04-bronze-age-amber-sun-and-the-long-road-south.html',
     body='c04_body.html',
     sec=[
-         ('s01', '01', 'A country with no ore'),
+         ('s01', '01', 'A country with no copper or tin'),
          ('s02', '02', 'Amber: what Denmark sold'),
          ('s03', '03', 'The mound landscape'),
          ('s04', '04', 'The oak coffins'),
@@ -163,7 +163,7 @@ CFG = {
     checks=[
       ('The mound landscape', [
         'What happened to Denmark when the eastern Mediterranean world collapsed around 1,200 BCE?',
-        'How far south did Danish amber actually travel?',
+        'What did Danish smiths do with the metal that came north, and how can their work be recognised?',
       ]),
       ('The sun', [
         'Roughly how many burial mounds still stand, and how many were probably built?',
@@ -198,7 +198,7 @@ CFG = {
       ]),
       ('The ordinary dead', [
         'What was found at Hjortspring besides the boat, and what does it add up to?',
-        'Why did the victors destroy the captured equipment rather than use it?',
+        'What practice does the Hjortspring deposit begin, and where does a Roman writer describe something like it?',
       ]),
       ('The Celtic connection', [
         'Why do bogs preserve skin and hair but dissolve bone?',
@@ -257,7 +257,7 @@ CFG = {
         'What does the Vindelev inscription say, and why is the date startling?',
       ]),
       ('Halls', [
-        'What changed in Danish villages between the catastrophe and the Viking Age, and what does the map still show of it?',
+        'Danish villages were still moving between the catastrophe and the Viking Age. What did they acquire then that the map still shows?',
         'Where does the peak of Danish gold deposition fall relative to the catastrophe of 536?',
       ]),
       ('What Part B leaves behind', [
@@ -378,7 +378,7 @@ CFG = {
          ('s05', '05', 'Cnut'),
          ('s06', '06', 'Ruling from Winchester'),
          ('s07', '07', 'Seven years, then nothing'),
-         ('s08', '08', 'Seventeen years against Norway'),
+         ('s08', '08', 'Against Norway, 1047–64'),
          ('s09', '09', '1066'),
          ('s10', '10', 'What the Viking Age left'),
     ],

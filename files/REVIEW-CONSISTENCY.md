@@ -5208,3 +5208,133 @@ regenerated `svg_sound.txt`; the sources of the patch. The index does not change
 no order: closed); 10's opener 3 and 15's opener 4 (reworded with him); 21 and 45 at 50 minutes
 (the band in whole minutes, the stamp; `bookstats.py` names any page outside it); the five OVER
 (kept; `narrative.py` names them). **Open, carried:** none. The review's open list is empty.
+
+## 27. Session 23 — chapters 01–15 fact-checked
+
+*2 October 2026, from `START_HERE_review_23.md`. State in `claude/session23_state.md` and
+`claude/session23_wip.patch`; the fifteen reports in `claude/session23_factcheck_01..15.md`.*
+
+**The cold run matched every line** on a fresh clone of `f9f380a`: item 160's commit carries pages 10,
+15 and 18, `svg_sound.txt` and its sources; tidy clean, 45 bodies; FIXTURE PASSES; SEAM LAYER PASSES;
+debuild 45 identical; 45 of 45, 352,735 page words, 28.0 h, every part as the brief; the band line
+"none"; vignettes 148/116, selftest passes; figcheck --regen 98/30/0, 0 warning lines, the tree clean
+after it; five "OVER, kept", 0 not kept, 32 §09 749, 13 §06 466; draftnotes clean in 45 and 14;
+appcheck 167 in 21; freshcheck 21; all seven builds clean, `--stub` refused; 2 pointers, 0 same-page
+glosses; Schleswig 317 in 32, Slesvig 4 in 3; impossible dates 0, §5 lists 2; arrows 254, 37 thread
+notes, form 7, 3b 11, solvency 38; linecheck 0 (3 on purpose), 01–11 0, `--bare` 213; ordercheck all
+zeros at 1200 and 390 (Chromium ran); qs 0/224, Causal 0/168, Recall 0/198, 0 pairs; at 390 no
+overflow, 128 WIDER, 6.80 ×123, 7.60 ×5; the scroll line where the figure scrolls at all 24 widths.
+
+### 27.1 What the review did next (brief item 1)
+
+Asked with a recommendation from the record: 16–20 (session 7), 21–24 (8), 25–31 (9), 32–36 (10) and
+37–45 (11) each had a fact-checker of their own that read the unchanged prose; Part D had about fifty
+claims sampled (§10); Parts A–C were read at depth in sessions 3–5, every *changed* claim sourced and
+every hunk checked, but no one checked the unchanged prose against sources. **Carsten: fact-check
+01–15, one checker and fixer per chapter, as 16–45 had.**
+
+### 27.2 How it ran
+
+Fifteen agents, one per chapter, each in its own copy of the tree, allowed to edit only its body (and
+for 12–15 its Part D `svg_*.txt`, which have no generator) and to propose the rest; I applied the
+fifteen diffs and the proposals; three checkers who had not seen the work read every hunk (01–05,
+06–10, 11–15); I applied their findings; a fourth read those fixes; a fifth read the last round and
+these records (§27.6). **The shared web-search allowance (200) ran out during the fact-check**, so the
+later checking used direct page fetches; what that left unverified is in each report's §H (§27.8).
+
+### 27.3 Corrections
+
+**268 corrections** (the reports' tables A): 01 17, 02 10, 03 24, 04 9, 05 15, 06 13, 07 16, 08 15,
+09 22, 10 15, 11 25, 12 21, 13 22, 14 27, 15 17. **61 intervals and ages were wrong** (D-8): 01 1, 02 4,
+03 2, 04 1, 05 4, 06 4, 07 1, 08 3, 09 5, 10 2, 11 10, 12 7, 13 7, 14 9, 15 1 — Parts A–C 37 (session 5
+had found nine in C), Part D 24 (session 6 had found sixteen). The principal ones:
+
+| ch | the page said | it is | ground |
+|---|---|---|---|
+| 01 | sea level 120 m low in the hunters' time; Laacher See "about two hundred years" before the cold; the 2025 cave date "13,008 ± 8" by uranium–thorium; Allerød found by pollen, its marker reindeer and polar willow | some 80–100 m (120 m is the glacial maximum); some 150 to 200 years, the cold from around 10,900–10,850; 13,049 ± 30 by U–Th, 13,008 ± 8 jointly with the trees and the ice; plant and animal remains, tree birch | Deschamps 2012; Warken 2025 (*Sci. Adv.* 11); Reinig 2021 |
+| 02 | Lola 3,850–3,650 BCE; the dog four thousand years before livestock; Worsaae "twenty-one"; Ertebølle dug "in 1895" | 3,900–3,700 (the paper, Carsten's choice); more than three thousand (Mullerup); in his teens; 1893 | *Nat. Commun.* 2019; DBL |
+| 03 | passage graves from 3,400; Tustrup 28 vessels, graves 100 m out; Neolithic Danes shorter; plague study in southern Sweden; the Indo-European window 2,800–2,600 | 3,300 (figure too); thirty, about fifty metres, the open-structure reading; probably not shorter; western Sweden (Falbygden); early in the third millennium | lex; Kjærum 1955; Eriksen, Gebauer & Madsen 2023; Allentoft 2024; Seersholm 2024; Iversen & Kroonen 2017 |
+| 04 | the Egtved coffin "unopened"; the yarrow "on the coffin"; the old man of Borum Eshøj's "hair and beard preserved"; "no metal ore" | lid lifted at the site; inside, before the lid; his nails trimmed and his face newly shaven; **no copper or tin** (opener, §01 heading and line, 03's arrow — Carsten) | lex *Egtvedpigen*; Nationalmuseet (Borum Eshøj) |
+| 05 | the Cimbri–Himmerland link ancient; Grauballe 30 km from Tollund (dot on figure 1 13 km east); glass new with Rome; the → 6, 10 arrow | Lyschander, 1622; about 16 km (dot moved); Bronze Age glass beads; → 6, 8 | lex *MYTE*; Varberg 2015 |
+| 06 | Juellinge north-east of Nakskov; Hoby "the richest import grave"; Vorbasse "a thousand years"; the slave trade "seventeen centuries" | by Vesterborg; the richest grave of its period in Denmark; some twelve hundred; nearly fifteen | lex *Hobyfundet*; DJA 2021 |
+| 07 | villages stopped moving; the hall new; the Danevirke begun c. 500 (and 34's glossary "the eighth century"); *holtijaz* "Holt's son" | they fixed c. 1000; Gudme's 47 m hall, late third century; older than 500, 737 the fourth phase (34 follows); most likely "of the wood" | lex *landsby*, *Dannevirke*, *Guldhornene*; Nationalmuseet |
+| 08 | the Repton vault, central burial and "disease and hunger"; Glavendrup's nine graves; dirhams "by the tonne" | hedged to what Jarman 2018 says; a few small cremation pits; in their tens of thousands, most on Gotland (07 and 09 agree) | Albrectsen 1958; Kromann 1990 |
+| 09 | the silver "from Baghdad"; Ribe's combs of local red deer; Godfred founded Hedeby; Hedeby a thousand to fifteen hundred (§9, session 5) | mostly Samanid, from Central Asia (figure 2's caption says so); reindeer antler from Norway by the 780s; he did not (08); a thousand to two thousand | Kromann; Ashmolean (Hovén); Ashby 2015; haithabu-danewerk.de |
+| 10 | Harald's Christ "the oldest in Scandinavia"; L'Anse aux Meadows in Sweyn's lifetime; Gorm king "from around 936" | long counted the oldest (Aunslev, 2016); 1021, after it; by 936 | Vikingeskibsmuseet; *Nature* 2021; lex |
+| 11 | Harald the elder brother; Harthacnut Æthelred's son on figure 3; Edward "recalled" in 1042; Ulf killed "at Christmas"; "seventeen years" against Norway | Cnut the elder; Emma's and Cnut's (figure redrawn); invited back in 1041; 1026; 1047–64 (title and config) | lex *Harald 2.*, *Ulf Jarl*; ASC |
+| 12 | seventeen dead with Knud in all; Henry IV emperor at Canossa; the tithe assessed before harvest; Vendsyssel's see at Børglum in 1060 | Benedikt and seventeen men; German king; in the sheaf after harvest; Vestervig (figure 2 and its caption) | lex *Knud den Hellige*, *tiende*, *Vestervig* |
+| 13 | Estonia held "127 years" (also 15); Frederick II emperor in 1214; Holstein taken after 1202; Harald Skrænk a spokesman of 1180 | lost 1227–38 (13 ×2, 15 §02; §10.3's "Found, kept" reversed on that ground); king, emperor 1220 (checkpoint too); 1201 (figure 3's legend); a king called in in 1182 | lex *Danmark og Estland*, *Frederik 2.*, *Valdemar Sejr* |
+| 14 | Halland to Sweden in 1332 (also 15 ×2); a håndfæstning "at every accession"; "no king for eight years" ×5; the Lent bar split in two; "Slien" | 1343; 1320, 1326, 1376, then every king from 1448; nearly eight, or until 1340; one span; **the Schlei** (Carsten; title, config, Five) | lex *Magnus Eriksson*, *håndfæstning* |
+| 15 | Skåne and Blekinge partly bought back; the 19,000 marks all for redemptions; Visby's vats "a nineteenth-century invention"; checkpoint "the next four hundred years" | conquered in 1360, Halland whole only in 1366 (figure 2); 6,000 to Brandenburg; a chronicle of 1633; "for centuries afterwards" (the config: session 13 had corrected only the body's copy) | lex *Valdemar Atterdag*, *Sundtolden* |
+
+**Two choices between reference works, recorded.** Halland in 1343 follows lex *Magnus Eriksson*;
+lex *Valdemar Atterdag* puts Skåne, Halland and Blekinge together in 1332. Cnut as the elder brother
+rests on lex *Harald 2.*; English scholarship is divided.
+
+### 27.4 Questions (D-17)
+
+Measured 0 throughout. Seven checkpoints rewritten in the configs: 04 (opener 2's "how far"), 05 (a
+question the page never answered, Counterfactual 2 by eye), 07 (villages, after §06's correction), 12
+(opener 3 in other words), 13 (Frederick II), 15 (four hundred years) and 01's sea level. **18 of the 20
+bodies 01–20 carried checkpoint copies that disagreed with what ships** — the builds strip them and
+insert the config's — and 13's fact-checker edited the dead copy, as session 13 had done for 15's
+"four hundred years" (§17), a fix that never reached the page until this session put it in the config. Carsten: **synced**. Each body's
+copy now equals its page; pages 01–29 rebuilt byte-identical; a planted word in three copies changed
+no page.
+
+### 27.5 Repetition, D-15, D-13
+
+Cross-chapter: 05 and 06's arrows to the longship (10 → 8); 07, 08 and 09 on the dirhams; 11 and 12 on
+"seventeen years"; 13 and 15 on Estonia; 14 and 15 on Halland and the dowry ("is handed", 14's → 15
+too); 34's Danevirke. D-15: "the Schlei" in 14, as in 07, 09, 12, 33 and 34; Malmø in 15. Inside
+chapters: 04 §11's repeat of §02, 05 §06 twice, 03 §08 trimmed — each as a repeat, not for length.
+
+### 27.6 Checked
+
+**Check 1** (three agents, every hunk, about seventy claims re-fetched): 7 faults on the page (01's
+U–Th date; 03's Tustrup authors and an overclaim on stature; 07's *holtijaz*; 09's "as close as the
+series gets" now false for the book, and Kromann's Samanid claim misattributed; 14's håndfæstning gap),
+8 inconsistencies (04's heading and 03's "no ore", taken to Carsten; 09's figure 2 against its text;
+34's glossary; 07's -lev dates; 09's Vorbasse against 06; 14's "most accounts" against its own ground;
+15's "inherits" against the dowry; 12's Vestervig unexplained), 11 style, 7 record. All taken but
+three record notes that needed no change (08's legend "rebuilt", 10's 356 against 360 metres, 10's
+"widest part" — the fact-check's "found nowhere" was wrong, lex says it). **Check 2** (one agent, every
+fix): no fault, no inconsistency; the *holtijaz* gloss's three dashes and its dropping of 'from Holt',
+Kromann's dangling clause, lex's "probably" dropped from 14, the Ashmolean entry unlinked and 27.5 per
+cent rounded to 27, a redirecting lex URL — all taken; the sync changes no page. **Check 3** (one agent, in a
+copy committed as the next commit): START_HERE_review_24's whole cold run, mapfixture included, matched
+every line; no fault on a page; in these records, a total of 288 corrections where the counts sum to
+268, check 1's record findings counted as 8 (7), "two fact-checkers" edited the dead copy (one, and
+session 13 before), a cross-reference to a section that did not exist, 04's Borum Eshøj row, D-15's
+section reference, two items in §27.8 that are in the check reports and not the fact-check reports,
+the knowledge store's size, and four loose expectations in the brief; 14 §02's "the usual answers are
+not flattering", which no longer leads the paragraph. All taken. Not given to a fourth agent: its
+findings are in the records and the brief, and its cold run is the one this patch ships with.
+
+### 27.7 Verified
+
+After the last edit, in the working clone: all seven builds clean, `--stub` refused; `linkindex`,
+`index_generator`; tidy clean, 45 bodies; FIXTURE PASSES; SEAM LAYER PASSES; debuild 45 identical;
+**45 of 45, 355,295 page words, 28.2 h** (A 22,122; B 26,978; C 27,541; D 33,431; H 43,467; E, F, G, I
+unchanged); minutes 01 37, 02 35, 03 34, 04 30, 05 32, 06 36, 07 30, 08 35, 09 34, 10 31, 11 32, 12 43,
+13 42, 14 38, 15 36, 34 39; the band line "none"; vignettes 148/116, selftest passes; figcheck --regen
+98/30/0, 0 warning lines; five "OVER, kept", 32 §09 749, 13 §06 466; draftnotes clean in 45 and 14;
+appcheck 167 in 21; freshcheck 21; 2 pointers, 0 same-page glosses; **Schleswig 318 in 32** (13 gained
+one in a correction), Slesvig 4 in 3; impossible dates 0, §5 lists 2; arrows 254, 37 notes, form 7, 3b
+11, solvency 38; linecheck 0 (3 on purpose), 01–11 0, `--bare` 213; ordercheck all zeros at 1200 and
+390; qs 0/224, Causal 0/168, Recall 0/198, 0 pairs; at 390 no overflow, 128 WIDER, 6.80 ×123, 7.60 ×5;
+the scroll line right at all 24 widths. Every changed figure (03, 05, 09 ×2, 11, 12, 13, 14 ×2, 15)
+looked at before and after in Chromium at 1200 and 390. **Pages that change: 01–15 and 34.** The index
+does not change.
+
+### 27.8 For Carsten
+
+**Closed:** what next (the fact-check, done); 04's opener and heading; the Schlei; Lola's date; the
+checkpoint copies (synced). **Open, carried:** the fifteen reports' §H lists and the check reports'
+"could not check" lists (`claude/session23_check1_A.md`, `_B.md`, `_C.md`, `claude/session23_check2.md`)
+— claims a checker could not reach once the search allowance was spent (among them, from the check
+reports, Skuldelev 2's stage, which decides 11's "sunk c. 1070", and Worsaae's first printing date;
+from the fact-check reports, the 1053 Adalbert sentence in 12, on Wikipedia alone;
+Gjerrild's details in 03; Rimbert's Frideborg in 09; Jyske Lov and thralls in 14; the Golden Bull line
+in 15). **Recommended next:** one session that reads those lists with a fresh search allowance and
+settles or hedges each.
