@@ -5469,8 +5469,14 @@ workshops); 10-6 (Ravning's "about five tonnes"); 11-5 (in part); 12-1 (Adam III
 (Svend Grathe's axe, Saxo XIV); 13-7, 13-8 (Saxo XV: the 1180 assembly; "Jutland magnates
 sympathised", which may be the wrong way round); 14-3 (thrall estimates, in part), 14-4 (eighty
 towns), 14-6 (friaries), 14-7 (Contested 1's "faction around the dowager queen" — unsourced; lex has
-Agnes leading the 1287 prosecutions); 15-5 (*brydning*), 15-7 (old men and boys, in part). Several need
-print: Saxo XIV–XV, Adam III, Thordeman 1939, Ilkjær.
+Agnes leading the 1287 prosecutions); 15-5 (*brydning*), 15-7 (old men and boys, in part). Several were
+said to need print: Saxo XIV–XV, Adam III, Thordeman 1939, Ilkjær.
+
+**Carsten, after the handover (3 October 2026): he will not do any fact-checking himself or fetch print
+sources.** So an open claim is settled from what can be reached online or not at all: look first for an
+online copy of the source the row names (a digitised edition or translation, a journal on tidsskrift.dk),
+and if none settles it, hedge the claim to what online sources do support, or cut it as unsourceable
+(D-16 allows that, never for length), and say which.
 
 **Decisions:** 03's Sarup enclosures "over twenty" or lex's "some fifty"; 07-4 cut Axboe's line or use a
 sourced quotation; 10-6 and 14-7 keep or cut; 06's sword range and "hereditary aristocracy" emphasis;
