@@ -619,6 +619,26 @@ viewBox and any whose scroll line is shown when it does not scroll, or the rever
 
 **Defined.** Here; `HANDOFF.md` items 158 and 159; `REVIEW-CONSISTENCY.md` §24 and §25.
 
+### D-21 · Learning addenda live on their own page; a chapter page changes only for an error — in force
+
+**Rule.** When Carsten works through a chapter with Claude to learn from it (its questions, its
+arguments, whatever the discussion turns up), the discussion is summarised on a **separate addendum
+page for that chapter**. The chapter page itself is **not** changed to carry what was learned. It is
+changed **only when the discussion finds an error**, and then by the review's rules: the claim stays
+only if an online source supports it, otherwise it is hedged to what online sources support or cut
+for want of a source (never for length, D-16); the source goes into the chapter's Sources list; the
+other places the claim is stated are found and corrected with it; and the rebuild order is the fix
+(figure scripts, then `mkbody.py`, then the part build, then `linkindex.py` and
+`index_generator.py`). Carsten does not check print sources himself (3 October 2026).
+
+**Reason.** Carsten, 3 October 2026, closing the consistency review (review session 25): the book
+has been read at depth, fact-checked chapter by chapter and its open lists settled online; from here
+the reading he does to learn is the review, and what he learns is his, not the page's.
+
+**Open, to settle in the first learning session.** The addendum page's file name, source format, its
+build and whether anything links to it (a link from the chapter page would itself change the page),
+and how an addendum records a correction it caused.
+
 ---
 
 ## Standing rules that are not numbered

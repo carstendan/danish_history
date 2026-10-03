@@ -5485,3 +5485,115 @@ unsourced; Seegrün 1967 would restore it); 01-6 (Læså, 2020, cut for want of 
 A12 (02's unsourced "diving equipment had improved and storms had eroded"), A13 (04's turf cost, which
 Holst et al. would carry), A14 (Rosenhof's aDNA-confirmed pigs, Krause-Kyora 2013), C14 (13's
 *havne* quotation, p. 191 or 193 of *HT* 99:1).
+
+## 29. Session 25 — §28.7 settled online, and the review closed
+
+3 October 2026. State in `claude/session25_state.md`; the five checkers' reports in
+`claude/session25_factchecks.md`.
+
+### 29.1 What Carsten chose
+
+**This is the last consistency-review session.** From here Carsten works through the book chapter by
+chapter to learn from it; what the discussion turns up goes on a separate addendum page, and a
+chapter page changes only for an error (**D-21**, new). §28.7's rows were settled online or not at
+all, and its thirteen decisions put to him one at a time.
+
+### 29.2 Cold run
+
+On a fresh clone of `bc629cb` (`5dac2c2` = item 162's 42 files; `bc629cb` = START_HERE and this file):
+every line matched START_HERE_review_25 but one. **`sweep_arrows` §7, prose references: 3, not 0** (0 at
+`76267c7`). Item 162's own Sources lines on 09 and 14 named another work's chapters as "chapter 20"
+(Rimbert's *Vita Anskarii*) and "chapters 25 and 31" (Jyske Lov, Book I), which the sweep, and a
+reader, takes for this book's chapters. Stopped and said so. **Carsten: write another work's chapter
+as "ch."** (11 already does): "its ch. 20", "Book I, ch. 25 and 31". §7 is 0 again.
+
+### 29.3 The open rows (five checkers, one per two to four chapters)
+
+- **Kept, now sourced:** 01-2 (Holm's own account of 21 May 2001, *Arkæologi for alle* 2001:3,
+  republished by him; and "Sixteen years earlier, in the spring of 1985"); 02-11 (Andersen, *JDA* 12,
+  "ca. 14-18 km"); 05-5 (Ødegaard 1994: Petersen had examined "hverken liget eller tøjresterne" — the
+  sentence now says neither); 05-13 (Mestorf, 1871, the first to tie the bodies to Tacitus); 12-10
+  (Saxo in Zeeberg's translation, via Vellev: "en af bønderne", so "a peasant"); 14-6 (SLKS,
+  *Middelalderbyen*: friaries "i alle samtidens betydende byer" before 1300); 15-7 (historiska.se:
+  children and old people among the defenders); 11-5 ("many hundreds", true on either online figure).
+- **Hedged to what online sources support:** 01-10 (Mortensen, Henriksen & Bennike 2014 named, as "a
+  further explanation"; the toolkit reading is now the page's own "If so"); 01-12 (the antler's
+  museum dropped); 01-14 ("some 21,000 years ago", GEUS via ing.dk); 02-10 ("nearly all of the wood");
+  02-15 (the 1837 parcel and "since 1837" gone — DBL *Steenstrup* has the 1848 committee; the
+  "malodorous" writer and the newspaper joke cut; "passed into other languages, in English as 'kitchen
+  midden'"); 05-9 ("near the middle of the island", danmarkshistorien "omtrent midt på Als"); 06-6 (750
+  m² dropped); 08-5 (the National Museum's *Viking* of 2013, Wienberg *Antiquity* 88, Lidz
+  *Smithsonian*); 13-7 (the penalties cut; the binding resolution, which a Recall question rests on,
+  kept); 14-3 (a quarter is for Viking-age Norway, sciencenorway; "others call the share too hard to
+  estimate", historiska.se — in the prose and in Contested); 14-4 (lex *by*: over sixty west of the
+  Øresund c. 1350; "and more in Skåne" cut).
+- **Cut for want of an online source (D-16 allows it):** 01-11 (Holm et al. 2008 — no trace of it;
+  Holm 2001 replaces it); 03-3 (Ullerødgård's layout); 09-7 (Hedeby's ages, tuberculosis, infant
+  burials, the north-west workshops); 15-5 (the *brydning* gloss; the prose carries the point).
+- **Not reached, page no longer depends on it:** 12-1 (Adam III).
+- **Found while checking, corrected:** 02's Tybrind Vig 1 is "sixty-five centimetres" wide, not fifty
+  (Andersen 1985, *JDA* 4); Ringkloster had three dolphin bones (Andersen, *JDA* 12).
+
+### 29.4 Carsten's decisions
+
+1. Sarup: "located at some fifty places", "those that have been dated" built 3,400–3,200 BCE (lex
+   *Sarup-anlæg* 2024; Andersen, *JONAS* 14); the Five likewise.
+2. Axboe's "a twelve" (found nowhere): replaced by his sourced comparison with the Gallehus horns (dpa,
+   7 September 2021, in the *Oman Observer*).
+3. Ravning's "about five tonnes": cut.
+4. 14 Contested 1: "a faction around the dowager queen" dropped (lex names the Norwegian king and the duke).
+5. 13: "Jutland magnates sympathised" replaced by the sourced grievance — Absalon's kinsmen and other
+   Zealanders in Skåne's offices (DBL *Absalon*).
+6. 06: "About a hundred swords — and up to two hundred in the find as a whole"; "hereditary" dropped
+   from the Myth-check and its Causal question (the body itself calls the dynasty an inference).
+7. Lund: "The crypt, whose altar was consecrated in 1123, is the part to see" (lex; "essentially
+   unaltered" was not safe after 1868–80 and 1954–63).
+8. Peter's Pence stays cut (no online source ties it to Lund 1103/04; Cornelius has it in Sweden, 1152).
+9. Bornholm: the hedge kept, and the Blykulle flint near the Læså mouth added with its caveats (found
+   2020, preliminary 13,000–11,600 years ago, no culture assigned; *Bornholms Tidende* 19 Nov 2022). Not
+   "first": *Danmarks Oldtid* has a probable Bromme find at Vallensgård Mose, 1986.
+10. 02: "by which time diving equipment had improved and storms had eroded …" cut.
+11. 04: the turf of "two to four hectares" (Store Vejlhøj, 2023, after Holst et al. 2013), from grass
+    pasture; **the two heathland sentences cut** — no online source, and the sources read point the
+    other way — and the Causal question "Why does building burial mounds create heathland?" replaced by
+    one on the iron pan, answered in §03.
+12. 02: Rosenhof and Poel's pigs added to §11 (Krause-Kyora et al. 2013). Contested 1 unchanged.
+13. 13: the *havne* quotation is on p. 193 of *HT* 99:1, not 191.
+
+### 29.5 Checked
+
+Check 1 (an agent that had not seen the work, every hunk, every source fetched, 106 screenshots at 1200
+and 390): 10 problems, all taken — five Sources entries missing or wrong (a dpa report credited to AP,
+a Vellev reprint misnamed, Wienberg missing, two lex/sciencenorway grounds unquoted), two sentences
+saying more than their source (Mortensen credited with the toolkit; Mestorf's 1871 attached to the
+Tacitus link), the Norway scope lost in 14's Contested question. Check 2: 3 — Mortensen still credited
+with "rather than adverse", a hyphen in Wienberg's title, "others decline to give a figure" unsourced.
+Check 3: 1, wording only (the toolkit's "game"). The last three edits are wording, not claims, and were
+verified by hand rather than by a fourth agent.
+
+### 29.6 Verified
+
+After the last edit: tidy clean; FIXTURE PASSES; SEAM LAYER PASSES; debuild 45 identical; **45 of 45,
+357,661 page words, 28.4 h** (A 22,950; B 27,455; C 27,898; D 34,094; E–I unchanged); minutes 01 39,
+02 36, 03 34, 04 31, 05 33, 06 36, 07 31, 08 35, 09 34, 10 32, 12 44, 13 43, 14 39, 15 37; the band
+line "none"; vignettes 148/116, selftest passes, no D-9 failure; figcheck --regen 98/30/0, 0 warning
+lines, no `svg_*.txt` changed; five "OVER, kept"; draftnotes none in 45 and 14; appcheck 167 in 21;
+freshcheck 21; all seven builds clean, `--stub` refused; 0 same-page glosses; Schleswig 319 in 33;
+impossible dates 0; 254 arrows, solvency 38, §7 0; linecheck 0, 0, `--bare` 213; ordercheck all zeros
+at 1200 and 390 (128 figures, 45 pages); qs 0/224, Causal 0/168, Recall 0/198, 0 pairs; checkpoint
+copies equal; at 390 no overflow, 128 WIDER, 6.80 ×123, 7.60 ×5; the 24 widths all ok. **Pages that
+change: 01–10 and 12–15.** The index does not change. No figure changed.
+
+### 29.7 The review is closed
+
+Twenty-five sessions. What is left goes to the learning pass, by chapter, as things to look at when
+Carsten reaches them (D-21), not as an open list:
+
+- **02** "Danish underwater archaeology began around 1950"; Tybrind Vig "the most extensive underwater
+  investigation of a Mesolithic site anywhere"; the tree "twelve metres tall, eighty centimetres
+  across" — none verified.
+- **06** "Nearly nine hundred spear and lance heads" in the 205 deposit: *Danmarks Oldtid* gives 366 +
+  410 = 776 for Illerup A; Föll's A + B c. 988.
+- **12** Visit: Lund cathedral "from 1103/04" is the archbishopric; lex dates the building to c. 1085.
+- **13** Saxo XV was not reached online; the Skåne rising rests on DBL.
+- **14** "in 1232 the Franciscans reached Ribe" is not in the SLKS source cited beside it.

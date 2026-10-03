@@ -5615,6 +5615,42 @@ split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see it
    hedging on a source's doubt, read what the doubt is about; before cutting for want of a source,
    say what was searched.*
 
+163. **The consistency review, session 25: §28.7 settled online, and the review closed.** 3 October
+   2026. Full record in `REVIEW-CONSISTENCY.md` §29; state in `claude/session25_state.md`, the five
+   checkers' reports in `claude/session25_factchecks.md`.
+
+   **CARSTEN'S CHOICE.** This is the last consistency-review session. He will work through the book
+   chapter by chapter to learn from it; the discussion goes on a separate addendum page per chapter,
+   and a chapter page changes only for an error (**D-21**, new). §28.7 settled online or not at all.
+
+   **COLD RUN** on a fresh clone of `bc629cb`: every line as START_HERE_review_25 said but one —
+   `sweep_arrows` §7 found 3 prose references, from item 162's own Sources lines naming another work's
+   chapters ("chapter 20" of the *Vita Anskarii* on 09; Jyske Lov's "chapters 25 and 31" on 14).
+   Stopped and said so; Carsten chose "ch." for another work's chapters. §7 is 0.
+
+   **THE ROWS.** Of §28.7's 21 open and 5 partial: eight kept and now sourced (Holm's car park is in
+   his own 2001 account; Petersen did admit it, and to more); thirteen hedged to online sources; four
+   cut for want of one (Holm et al. 2008, Ullerødgård, Hedeby's skeletons and workshops, the
+   *brydning* gloss); Adam III not reached and no longer needed. Two errors found on the way: Tybrind
+   Vig 1 is 65 cm wide, not 50; Ringkloster had three dolphin bones. **Thirteen decisions** put one at
+   a time, each taken as recommended (§29.4) — among them Sarup's "some fifty", Axboe's unfindable
+   "twelve" replaced by his sourced Gallehus comparison, 13's Jutlanders turned into the sourced
+   grievance against Zealanders, the 2020 Læså find restored with its caveats, and 04's heathland
+   claim cut with its Causal question.
+
+   **CHECKED.** Check 1 (every hunk, every source fetched, 106 screenshots): 10 problems, all taken;
+   check 2: 3; check 3: 1. Nearly all were a Sources entry or a sentence saying more than its
+   source: a dpa report credited to AP, a reprint misnamed, a 1871 date carried from one clause of a
+   source to the next, a Norway figure losing its "Norway" in a question.
+
+   **VERIFIED** after the last edit (§29.6): 357,661 page words, 28.4 h; every other line of the cold
+   run as before. **Pages that change: 01–10 and 12–15.** No figure changes; the index does not change.
+
+   **LESSON.** A Sources entry is a claim too, and the easiest one to get wrong: of the fourteen faults
+   the checks found, nine were in Sources lists, written last and in a hurry after the prose had been
+   argued over. *Write the Sources entry from the source, open beside it, not from the checker's
+   report about the source; and give the entry the same check as the sentence it grounds.*
+
 ---
 
 
