@@ -5573,6 +5573,48 @@ split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see it
    in three records until a checker added them again. *Carry a correction to every place its ground
    holds, and edit what ships.*
 
+162. **The consistency review, session 24: the fact-check's open lists.** 3 October 2026. Full record
+   in `REVIEW-CONSISTENCY.md` §28; the inventory in `claude/session24_inventory.md`, the fifteen
+   reports in `claude/session24_factchecks.md`.
+
+   **Cold run on a fresh clone of `76267c7`: every line matched START_HERE_review_24.** At the first
+   fetch item 161 was not on GitHub; stopped and said so; Carsten pushed it, as two commits (sources
+   `e4c51ff`, pages `76267c7`) that together are exactly the 51 files named. State lived in
+   `claude/session24_state.md` and `claude/session24_wip.patch`.
+
+   **CARSTEN'S CHOICE.** Triage, then all: every open claim inventoried, load-bearing first. And the
+   superseded WIP patches deleted from the knowledge store (13–17, 19–22).
+
+   **THE LISTS.** 236 claims (68 load-bearing, 84 colour, 84 record-only), fifteen checkers with a
+   search cap each. **77 corrected, 27 hedged, 27 settled as written, 84 R rows confirmed, 21 open**
+   (5 more in part). Of the seven named: Worsaae "in his teens" holds; Gjerrild at least ten people,
+   five sampled, three yielding DNA; Frideborg never a widow; Skuldelev 2 sunk in the second phase,
+   probably the 1070s; 1053 — the pope had agreed, Adalbert's consent had a price; Jyske Lov does
+   name thralls (I 25, I 31), so **09 was wrong** and is corrected; the Golden Bull line was wrong
+   (Holstein held nominally of Saxony, from 1434 of Lübeck's bishop; an imperial duchy only from
+   1474), and that ground reached **18, 19's caption, 19's Figure 1 (`figs_18.py`) and 19's Sources**.
+   10's population carried to 11's opener; 15's "debased coinage" to 18.
+
+   **CHECKED** (§28.5): check 1, three agents, every hunk — 11 faults, among them two of the
+   fixers' own "no source" claims false (Holst et al. 2013 has the 50,000 mounds), a 1053 sentence
+   saying the opposite of the ADB it cites, gilt bronze resting on one uncited Wikipedia line, and page
+   19's figure still drawing the Emperor as overlord; check 2 — two of my fixes overcorrected, each by
+   reading a source's qualifier wider than it reaches; check 3 — one Sources gloss saying more than lex.
+   All taken but seven judgement items, recorded for Carsten (§28.7).
+
+   **VERIFIED** after the last edit (§28.6): 357,012 page words, 28.3 h; every line of the cold run as
+   before but the words, Schleswig 319 in 33, 13 §06 467 and 10 §02 485 (heavy). **Pages that change:
+   01–15, 18 and 19.** The index does not change.
+
+   **LESSON.** A qualifier has a scope. Checker A read "albeit somewhat uncertain" as doubt about the
+   Bornholm ash, when the paper doubts only which eruptive phase it is; checker B read lex as making the
+   Jelling monuments one build, when lex says they were "not all made at the same time". Each finding
+   was taken, and each fix was wrong the other way, until a third reader quoted the sentence whole.
+   And "no source found" is a claim about a search, not about the world: two cuts on page 04 rested
+   on it, and one abstract a checker found answers the first outright and the second in part. *Before
+   hedging on a source's doubt, read what the doubt is about; before cutting for want of a source,
+   say what was searched.*
+
 ---
 
 

@@ -1,4 +1,4 @@
-<svg viewBox="0 0 900 404" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagram of who held what of whom after the Treaty of Ribe in 1460. One man, Christian the First, is at once elected king of Denmark, duke of Schleswig held of the Danish crown, and count of Holstein held of the Holy Roman Emperor. The duchies are promised to remain forever undivided and may not be annexed to Denmark.">
+<svg viewBox="0 0 900 404" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagram of who held what of whom after the Treaty of Ribe in 1460. One man, Christian the First, is at once elected king of Denmark, duke of Schleswig held of the Danish crown, and count of Holstein, held nominally of the bishop of Lübeck within the Holy Roman Empire. The duchies are promised to remain forever undivided and may not be annexed to Denmark.">
   <rect x="0" y="0" width="900" height="404" fill="#F0F2EE"/>
   <text x="26.0" y="34.0" class="mapt" text-anchor="start">HELD OF WHOM, AFTER 1460</text>
   <rect x="60" y="66" width="300" height="62" fill="none" stroke="#6C6E63" stroke-width="1.2"/>
@@ -6,7 +6,7 @@
   <text x="210.0" y="110.0" class="mapx" text-anchor="middle">elective; the council chooses</text>
   <rect x="540" y="66" width="300" height="62" fill="none" stroke="#6C6E63" stroke-width="1.2"/>
   <text x="690.0" y="92.0" class="mapl" text-anchor="middle">THE HOLY ROMAN EMPIRE</text>
-  <text x="690.0" y="110.0" class="mapx" text-anchor="middle">Holstein is an imperial fief</text>
+  <text x="690.0" y="110.0" class="mapx" text-anchor="middle">Holstein held of Lübeck's bishop</text>
   <rect x="60" y="226" width="300" height="74" fill="#2E6B5E" fill-opacity=".14" stroke="#2E6B5E" stroke-width="1.2"/>
   <text x="210.0" y="250.0" class="mapl" text-anchor="middle">SLESVIG</text>
   <text x="210.0" y="266.0" class="mapx" text-anchor="middle">a duchy, held of the Danish crown</text>
@@ -15,8 +15,8 @@
   <rect x="540" y="226" width="300" height="74" fill="#2E6B5E" fill-opacity=".14" stroke="#2E6B5E" stroke-width="1.2"/>
   <text x="690.0" y="250.0" class="mapl" text-anchor="middle">HOLSTEN</text>
   <text x="690.0" y="266.0" class="mapx" text-anchor="middle">a county, from 1474 a duchy</text>
-  <text x="690.0" y="282.0" class="mapx" text-anchor="middle">German law, imperial fief — and</text>
-  <text x="690.0" y="294.0" class="mapx" text-anchor="middle">the Emperor's business, not the council's</text>
+  <text x="690.0" y="282.0" class="mapx" text-anchor="middle">German law, inside the Empire — and</text>
+  <text x="690.0" y="294.0" class="mapx" text-anchor="middle">the Empire's business, not the council's</text>
   <rect x="330" y="140" width="240" height="62" fill="#2E6B5E" fill-opacity=".92"/>
   <text x="450" y="168" class="mapl" style="fill:#F0F2EE" text-anchor="middle">CHRISTIAN 1.</text>
   <text x="450" y="186" class="mapx" style="fill:#F0F2EE" text-anchor="middle">one man, three hats</text>

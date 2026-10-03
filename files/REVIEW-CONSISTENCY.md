@@ -1547,7 +1547,7 @@ part's argument.
 
 ### 10.4 Found, recorded, not changed
 
-- **13's leding figures are unsourced.** The prose "between six and eight hundred ships", the figure's
+- **13's leding figures are unsourced.** (Session 24, §28: replaced by Lund 1999's "about a thousand ships", the classical view; three marks per *havne* confirmed from Lund, "Kværsæde".) The prose "between six and eight hundred ships", the figure's
   "c. 600–800" and "c. 150–200" (`svg_leding.txt`) and "about three marks a year per *havne*" were not
   found in any reference work reached. Gyldendal gives one ship per *herred*, "knap 200", and Saxo 260
   ships in 1159 — which would make the full levy smaller than the figure's reduced one. The figure
@@ -5338,3 +5338,144 @@ from the fact-check reports, the 1053 Adalbert sentence in 12, on Wikipedia alon
 Gjerrild's details in 03; Rimbert's Frideborg in 09; Jyske Lov and thralls in 14; the Golden Bull line
 in 15). **Recommended next:** one session that reads those lists with a fresh search allowance and
 settles or hedges each.
+
+
+## 28. Session 24 — the fact-check's open lists
+
+*3 October 2026, from `START_HERE_review_24.md`. State in `claude/session24_state.md` and
+`claude/session24_wip.patch`; the inventory in `claude/session24_inventory.md`; the fifteen reports in
+`claude/session24_factchecks.md`.*
+
+**The cold run matched every line** on a fresh clone of `76267c7`. At the first fetch `origin/main` was
+still `f9f380a` (item 161 not pushed); I stopped and said so, and Carsten pushed. Item 161 arrived as
+two commits, `e4c51ff` (sources) and `76267c7` (pages): together exactly the 51 files the brief named,
+the index unchanged, but not "pages in the same commit as the sources". Then: tidy clean, 45 bodies;
+FIXTURE PASSES; SEAM LAYER PASSES; debuild 45 identical; 355,295 page words, 28.2 h, every part as the
+brief; the band line "none"; vignettes 148/116, selftest passes; figcheck --regen 98/30/0, 0 warning
+lines, the tree clean after it; five "OVER, kept", 32 §09 749, 13 §06 466; draftnotes clean in 45 and
+14; appcheck 167 in 21; freshcheck 21; all seven builds clean, `--stub` refused; 2 pointers, 0
+same-page glosses; Schleswig 318 in 32, Slesvig 4 in 3; impossible dates 0; arrows 254, 37 notes, form
+7, 3b 11, solvency 38; linecheck 0 (3 on purpose), 01–11 0, `--bare` 213; ordercheck all zeros at 1200
+and 390 (Chromium ran); qs 0/224, Causal 0/168, Recall 0/198, 0 pairs; every body 01–20's checkpoint
+copy equal to its page's (a one-character plant in 06's copy was caught); at 390 no overflow, 128
+WIDER, 6.80 ×123, 7.60 ×5; the scroll line right at all 24 widths.
+
+### 28.1 What Carsten chose
+
+Asked (§27.8's recommendation, two ways of doing it): **triage, then all** — one inventory of every
+open claim, load-bearing first, so that a spent allowance would leave only colour open. And: delete the
+superseded `sessionNN_wip.patch` files from the knowledge store — done for 13–17 and 19–22 (12 and 18
+had none there; 23's has no final in the store and stays).
+
+### 28.2 How it ran
+
+An inventory agent read the fifteen reports' §H and the check reports' "could not check" lists and
+placed every claim on the page: **236 rows, 68 load-bearing (L), 84 colour (C), 84 record-only (R)**,
+the seven named in §27.8 among them (`claude/session24_inventory.md`). Fifteen checkers, one per
+chapter, each in its own copy, editing only its body (12–15 also their Part D hand `svg_*.txt`) and
+proposing the rest, each with a search cap of 2L + C/2 (182 in all; about 165 used; 12 went one over).
+I applied the fifteen diffs and the proposals; three checkers who had not seen the work read every
+hunk (01–05, 06–10, 11–15 with 18, 19 and `figs_18.py`); a fourth read those fixes; a fifth read the
+fourth round's fixes (§28.5).
+
+### 28.3 Outcome
+
+Every row placed, one outcome each: **77 corrected, 27 hedged, 27 settled as written, 84 R rows
+confirmed, 21 still open** (and 5 corrected or hedged with a part left open). The seven named items:
+
+| ch | item | settled |
+|---|---|---|
+| 02 | Worsaae's first printing | *Annaler* 1838–39, pp. 170–176; its last dated text 25 December 1839, so out late 1839 or after, before his twentieth birthday: "in his teens" holds (Ødegaard 1994: "18 år") |
+| 03 | Gjerrild | Egfjord et al. 2021 read in full (Cambridge repository): at least ten people, five sampled, three yielded DNA; c. 2,500–2,200 BCE, "c. 300 years"; "largest and best-preserved" is the paper's |
+| 09 | Frideborg | Rimbert ch. 20 (Robinson 1921): never a widow; "rich in this world's goods"; the wine kept nearly three years; Catla's return not told — title, who-line and three sentences corrected |
+| 11 | Skuldelev 2 | sunk in the barrier's second phase, "probably in the 1070s" (*The Skuldelev Ships I*, p. 186); the barrier begun mid-eleventh century; "some thirty years" (1042 → 1070s, 28–37); who-line "sunk probably in the 1070s" |
+| 12 | 1053 | ADB *Adalbert I.*: the pope had already agreed to Svend's province; Adalbert, made legate and vicar in January 1053, would consent only for a patriarchate of his own with twelve sees in the German and Wendish lands. Adam III not reached; the page no longer depends on it |
+| 14 | Jyske Lov and thralls | Jyske Lov I 25 and I 31 (Petersen 1850): a thrall may not inherit, nor be a guardian — 14 was right; **09 §07 was wrong** ("where it finally disappears") and now says Jyske Lov is among the last laws to mention it |
+| 15 | the Golden Bull line | wrong: Holstein's counts held nominally of the dukes of Saxony, from 1434 of the bishop of Lübeck, and the emperor made Holstein a duchy only in 1474 (Radtke, Residenzen-Kommission). The box's causal link cut; **carried to 19's caption and Figure 1** (`figs_18.py`) and to 19's Sources |
+
+Among the other corrections: 01's Fynbo find identified as Hamburgian only in 1980 (Holm & Rieck
+1983) and the Laacher See ash geochemically confirmed on Bornholm, shards in Skåne (Larsson &
+Wastegård 2018); 02's Muldbjerg (an Early Neolithic site) replaced by Dyrholm and Rosenhof, and three
+unsourced details of the Bøgebakken vignette cut; 03's flint mines in Thy (Hov, Bjerre), the chamber
+sealing, Limensgård, contact between Single Grave and Funnel Beaker people (Madsen 2020); 04's mound
+count (at least 20,000 in the Early Bronze Age, SLKS; a minimum of 50,000 for 1500–1150 BC, Holst et
+al. 2013; more than 100,000 from 2,800 BCE, lex) and the unfindable "5–6 per cent" replaced by 57 per
+cent ploughed and limed (Thomsen et al. 2021), the checkpoint reworded in the config and the copy;
+05's Grauballe "unworn hands" reframed, Hodde's 28 farmsteads, Haraldskær 6 km from Jelling; 06's
+offerings ending in the later fifth century (Nydam 250–480) and Hjortspring "some eight hundred
+years" earlier; 07's 222 inscribed bracteates of 1,003, the gilt bronze cut (Wikipedia alone) and the
+Causal question with it; 08's three Chronicle manuscripts naming Hordaland and no source for a
+Frankish hand in Godfred's death; 09's silver ending c. 1010–20 (Kromann); 10's population "about half
+a million" (Poulsen, "Højmiddelalderen, 1050–1340", p. 23; **carried to 11's first opener**), the ship
+setting levelled under the South Mound and of the North Mound's first phase; 12's *bryde* gloss; 13's
+leding "about a thousand ships" on the classical view (Lund 1999) in prose and figure, the ransom
+45,000 marks; 14's Absalon freeing "some thrall women and their children", Nørreris near Aarhus, mills
+by about 1000; 15's "debased coinage" gone from six places (no Danish minting outside Skåne from the
+1330s; **carried to 18**).
+
+### 28.4 Carried further
+
+Before the checks, a grep of the whole book for every corrected claim: 09 §07 (14's ground), 11's
+opener and Sources (10's), 18 §§ and 19's caption, Figure 1 and Sources (15's). The checker for 15
+proposed the edit in `svg_fealty.txt`; that file is generated by `figs_18.py`, so the edit went into the
+script and the script was re-run (a script's number is not always its chapter's: `figs_18.py` draws page 19's).
+Proposed and not taken: 13's record note (taken into §10.4, record only).
+
+### 28.5 Checked
+
+**Check 1** (three agents, every hunk): 11 faults, 7 inconsistencies, 17 style, 10 record — among them
+04's "fifty thousand … has no source" (Holst et al. 2013 has it), 03's new "had mined" against the cut
+mines, 02's Dyrholm sentence turning an inference into a separate objection, 07's gilt bronze on one
+uncited Wikipedia sentence, 10's "older or younger" dispute that no source holds, 12's "what Leo gave
+… was the opposite" against the ADB it cites, 14's mills dated by their first mention, Poulsen's
+chapter misnamed in 10 and 11, Sources that did not carry the new grounds in 03 and 14, and page 19's
+figure still drawing the Emperor as Holstein's overlord. All taken but A7, A12, A13, A14, A15, C11 and
+C14 (§28.7). **Check 2** (every fix): two of my fixes overcorrected — 01's "if not beyond doubt"
+(the source's doubt is about the eruptive phase, not the ash) and 10's "of one build" (lex: "not all
+made at the same time"); 04's checkpoint (A6) not defensible as left; 12's paragraph now repeating
+Adalbert; 19 with no Sources for Radtke. All taken. **Check 3** (every fix of check 2): one fault —
+07's new Sources gloss put "after which the gold runs out" into lex's mouth — and 12's "covering
+Scandinavia" and "in the North", which ADB does not give. Taken, with ADB's twelve sees added to its
+Sources entry; the figure label left without "nominally" (the caption carries it, and the label is
+small at 390). Not given to a fourth agent: those last edits are four sentences of prose, verified
+against the sources check 3 had just fetched.
+
+### 28.6 Verified
+
+After the last edit: all seven builds clean (A–C, D and E rebuilt; F–I unchanged), `--stub` refused;
+`linkindex`, `index_generator`; tidy clean, 45 bodies; FIXTURE PASSES; SEAM LAYER PASSES; debuild 45
+identical; **45 of 45, 357,012 page words, 28.3 h** (A 22,602; B 27,330; C 27,871; D 33,945; E 36,953;
+F–I unchanged); minutes 01 38, 02 36, 03 34, 04 31, 05 32, 06 36, 07 31, 08 35, 09 34, 10 32, 11 32,
+12 43, 13 43, 14 39, 15 37, 18 36, 19 37; the band line "none"; vignettes 148/116, selftest passes, no
+D-9 failure; figcheck --regen 98/30/0, 0 warning lines; five "OVER, kept", 32 §09 749, 13 §06 467, 10
+§02 485 (now heavy); draftnotes clean in 45 and 14; appcheck 167 in 21; freshcheck 21; 2 pointers, 0
+same-page glosses; **Schleswig 319 in 33** (02 names Rosenhof in Schleswig-Holstein, the modern state),
+Slesvig 4 in 3; impossible dates 0; arrows 254, 37 notes, solvency 38; linecheck 0 (3 on purpose),
+01–11 0, `--bare` 213; ordercheck all zeros at 1200 and 390; qs 0/224, Causal 0/168, Recall 0/198, 0
+pairs; every body 01–20's checkpoint copy equal to its page's; at 390 no overflow, 128 WIDER, 6.80
+×123, 7.60 ×5; the scroll line right at all 24 widths. Changed figures (11, 13, 15 and 19's) looked at
+in Chromium at 1200 and 390 by the checkers. **Pages that change: 01–15, 18 and 19.** The index does
+not change.
+
+### 28.7 For Carsten
+
+**Still open (21, and 5 in part)** — each with what would settle it, in the reports' §D: 01-2 (Holm's
+car park), 01-10 (who argued Bromme's favourable conditions), 01-11 (Holm et al. 2008's venue), 01-12
+(the Odense antler's museum), 01-14 (the ice "around 20,000 years ago"); 02-11 (Ringkloster's
+distance), 02-15 (the 1837 parcel, the "malodorous" writer, "Portuguese"); 03-3 (Ullerødgård's
+layout); 05-5 (Petersen's admission), 05-13 (Tacitus "since the nineteenth century"); 06-6 (750 m²);
+07-4 (Axboe's "a twelve"); 08-5 (museums "changed considerably"); 09-7 (Hedeby's skeletons and
+workshops); 10-6 (Ravning's "about five tonnes"); 11-5 (in part); 12-1 (Adam III, in part), 12-10
+(Svend Grathe's axe, Saxo XIV); 13-7, 13-8 (Saxo XV: the 1180 assembly; "Jutland magnates
+sympathised", which may be the wrong way round); 14-3 (thrall estimates, in part), 14-4 (eighty
+towns), 14-6 (friaries), 14-7 (Contested 1's "faction around the dowager queen" — unsourced; lex has
+Agnes leading the 1287 prosecutions); 15-5 (*brydning*), 15-7 (old men and boys, in part). Several need
+print: Saxo XIV–XV, Adam III, Thordeman 1939, Ilkjær.
+
+**Decisions:** 03's Sarup enclosures "over twenty" or lex's "some fifty"; 07-4 cut Axboe's line or use a
+sourced quotation; 10-6 and 14-7 keep or cut; 06's sword range and "hereditary aristocracy" emphasis;
+the Lund crypt "essentially unaltered" (lex records a 1954–63 restoration); Peter's Pence in 12 (cut as
+unsourced; Seegrün 1967 would restore it); 01-6 (Læså, 2020, cut for want of a source); from the checks,
+A12 (02's unsourced "diving equipment had improved and storms had eroded"), A13 (04's turf cost, which
+Holst et al. would carry), A14 (Rosenhof's aDNA-confirmed pigs, Krause-Kyora 2013), C14 (13's
+*havne* quotation, p. 191 or 193 of *HT* 99:1).

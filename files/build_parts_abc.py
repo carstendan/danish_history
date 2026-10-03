@@ -166,7 +166,7 @@ CFG = {
         'What did Danish smiths do with the metal that came north, and how can their work be recognised?',
       ]),
       ('The sun', [
-        'Roughly how many burial mounds still stand, and how many were probably built?',
+        'Roughly how many burial mounds were built in the Early Bronze Age, and how many from the Single Grave culture on?',
         'What did the sprig of yarrow in the Egtved coffin tell us?',
       ]),
       ('Were they local? A scientific feud', [

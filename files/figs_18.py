@@ -33,15 +33,15 @@ def fealty():
     o = ['<svg viewBox="0 0 %d %d" xmlns="http://www.w3.org/2000/svg" role="img" '
          'aria-label="Diagram of who held what of whom after the Treaty of Ribe in 1460. One man, '
          'Christian the First, is at once elected king of Denmark, duke of Schleswig held of the '
-         'Danish crown, and count of Holstein held of the Holy Roman Emperor. The duchies are '
+         'Danish crown, and count of Holstein, held nominally of the bishop of Lübeck within the Holy Roman Empire. The duchies are '
          'promised to remain forever undivided and may not be annexed to Denmark.">' % (W, H),
          '<rect x="0" y="0" width="%d" height="%d" fill="%s"/>' % (W, H, M.PAPER)]
 
     o.append(t(26, 34, "HELD OF WHOM, AFTER 1460", "mapt"))
 
-    # the two overlords
+    # the two realms
     boxes = [(60, 66, 300, 62, "THE DANISH CROWN", "elective; the council chooses"),
-             (540, 66, 300, 62, "THE HOLY ROMAN EMPIRE", "Holstein is an imperial fief")]
+             (540, 66, 300, 62, "THE HOLY ROMAN EMPIRE", "Holstein held of Lübeck's bishop")]
     for x, y, w, h, head, sub in boxes:
         o.append('<rect x="%d" y="%d" width="%d" height="%d" fill="none" stroke="%s" '
                  'stroke-width="1.2"/>' % (x, y, w, h, MUTED))
@@ -52,7 +52,7 @@ def fealty():
     ter = [(60, 226, 300, 74, "SLESVIG", "a duchy, held of the Danish crown",
             "Danish law, Danish fief \u2014 and", "may not be joined to Denmark"),
            (540, 226, 300, 74, "HOLSTEN", "a county, from 1474 a duchy",
-            "German law, imperial fief \u2014 and", "the Emperor's business, not the council's")]
+            "German law, inside the Empire \u2014 and", "the Empire's business, not the council's")]
     for x, y, w, h, head, sub, l1, l2 in ter:
         o.append('<rect x="%d" y="%d" width="%d" height="%d" fill="%s" fill-opacity=".14" '
                  'stroke="%s" stroke-width="1.2"/>' % (x, y, w, h, PART_E, PART_E))
