@@ -619,25 +619,53 @@ viewBox and any whose scroll line is shown when it does not scroll, or the rever
 
 **Defined.** Here; `HANDOFF.md` items 158 and 159; `REVIEW-CONSISTENCY.md` §24 and §25.
 
-### D-21 · Learning addenda live on their own page; a chapter page changes only for an error — in force
+### D-21 · Learning study pages live in `studies/`; a chapter page changes only for an error — in force
 
 **Rule.** When Carsten works through a chapter with Claude to learn from it (its questions, its
-arguments, whatever the discussion turns up), the discussion is summarised on a **separate addendum
-page for that chapter**. The chapter page itself is **not** changed to carry what was learned. It is
-changed **only when the discussion finds an error**, and then by the review's rules: the claim stays
-only if an online source supports it, otherwise it is hedged to what online sources support or cut
-for want of a source (never for length, D-16); the source goes into the chapter's Sources list; the
-other places the claim is stated are found and corrected with it; and the rebuild order is the fix
-(figure scripts, then `mkbody.py`, then the part build, then `linkindex.py` and
-`index_generator.py`). Carsten does not check print sources himself (3 October 2026).
+arguments, whatever the discussion turns up), the discussion is recorded on a **study page for that
+chapter**, `studies/NN-study.md` at the repository root, NN the two-digit prefix of the chapter's
+page (`01-reindeer-hunters-….html` → `studies/01-study.md`). The chapter page itself is **not**
+changed to carry what was learned. It is changed **only when the discussion finds an error**, and
+then by the review's rules: the claim stays only if an online source supports it, otherwise it is
+hedged to what online sources support or cut for want of a source (never for length, D-16); the
+source goes into the chapter's Sources list; the other places the claim is stated are found and
+corrected with it; and the rebuild order is the fix (figure scripts, then `mkbody.py`, then the part
+build, then `linkindex.py` and `index_generator.py`). Carsten does not check print sources himself
+(3 October 2026).
+
+**The study page.** Markdown, hand-written, **not built and linked from nothing** — not the chapter
+page (a link would change it) and not the index; it may be connected to the book later. It holds,
+in this order:
+
+- **Checkpoints** — Carsten's answers to the page's checkpoint questions, in his words.
+- **The myth check** — his account of why the page's myth is wrong.
+- **What to carry forward** — what he takes the chapter to set up, set against the page's own list.
+- **The page in five** — his five, written from memory **before** rereading the page's five; then
+  where the two differ.
+- **Work the material** — the open discussion. A tangent stays if it comes back to this chapter.
+- **Parked** — tangents that belong to another chapter, each with the chapter it belongs to.
+- **Findings** — errors the discussion found on the page (below).
+
+The first four are Carsten's notes; Claude tests them against the page and says where one is thin
+or wrong, but does not write them for him.
+
+**A correction it caused.** Each finding records: the claim as the page stated it → as corrected;
+the online source it rests on (title and URL, read, not remembered); every other place the claim
+was corrected (bodies, drafts, configs, figures); and the `HANDOFF.md` item that carried the
+change. That HANDOFF item names the study page. A finding that turned out not to be an error stays
+in the list, marked so, with the source that settled it.
 
 **Reason.** Carsten, 3 October 2026, closing the consistency review (review session 25): the book
 has been read at depth, fact-checked chapter by chapter and its open lists settled online; from here
-the reading he does to learn is the review, and what he learns is his, not the page's.
+the reading he does to learn is the review, and what he learns is his, not the page's. The page's
+format was settled with Claude on 3–4 October 2026: markdown in the repository so it is versioned
+with the chapter; its own folder so no script's glob of the chapter folders reaches it (every glob
+is of `[0-9][0-9]*.html` or of `files/`, checked 4 October 2026); the chapter number, not its
+title, in the name because titles have changed (chapter 39); the four note sections mirror apparatus
+already on each chapter page, so the study page records what Carsten understood rather than copying
+the page. The word "addendum", used when this rule was first written, is retired for "study page".
 
-**Open, to settle in the first learning session.** The addendum page's file name, source format, its
-build and whether anything links to it (a link from the chapter page would itself change the page),
-and how an addendum records a correction it caused.
+**Defined.** Here; `START_HERE_learning_01.md`.
 
 ---
 
