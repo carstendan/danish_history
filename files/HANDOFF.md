@@ -5651,6 +5651,48 @@ split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see it
    argued over. *Write the Sources entry from the source, open beside it, not from the checker's
    report about the source; and give the entry the same check as the sentence it grounds.*
 
+164. **Learning pass, chapter 01: one error, in the myth-check.** 4 October 2026. Study page
+   `studies/01-study.md` (D-21), finding F1; state in `claude/learning01_state.md`.
+
+   **FOUND.** Testing Carsten's myth check against the page: "The whole of Denmark lay under the ice."
+   was answered "Western Jutland never did." Unscoped, that is false. The Saale ice covered the whole
+   country, and west Jutland's bakkeøer are its moraine; only the last ice, the Weichsel, stopped
+   short of them (lex.dk "Saale-istid", "bakkeø", "Hovedstilstandslinjen", read 4 October). §01 says it
+   right ("the worn-down moraine of the previous glaciation"); the myth line dropped the qualifier, and
+   a reader took it absolutely.
+
+   **CORRECTED** (Carsten agreed): → "Not in the last glaciation: Jutland west of the main stationary
+   line stayed outside it." The lex.dk Sources entry adds "Saale-istid and bakkeø". No other place
+   states the claim; §01's "Western Jutland did not" is scoped by its sentence and stays.
+
+   **CHECKED.** Cold run before the change: every line as after item 163. After: Part A–C,
+   `linkindex.py`, `index_generator.py`; debuild 45 identical; `narrative.py`, `sweep_arrows.py`
+   (254/216/38, §7 0) and `ordercheck.py` on 01 at 1200 and 390 clean; both regions looked at, at both
+   widths. A cold check of the first wording ("western Jutland stayed outside it") found it too broad,
+   because north of Bovbjerg the west coast was under the Weichsel ice; Carsten tightened it. A second
+   cold check found the final wording supported, and queried the unchanged sentence after it; that is
+   left as an open question on the study page (W1), not acted on.
+
+   **VERIFIED.** 357,674 page words, 28.4 h; page 01 still about 39 minutes. **Pages that change: 01.**
+   No figure changes; the index does not change.
+
+   **PROCEDURE CHANGED** (Carsten, 4 October 2026): the study page drops the myth check, What to carry
+   forward and The page in five; checkpoints are tested lightly and the session's time goes to Work the
+   material. D-21 is amended to say so; `START_HERE_learning_01.md` is rewritten as the prompt for any
+   chapter NN, with this item's lesson and the new word count. 01's study page keeps the myth check
+   and carry-forward it was written with, and marks its five dropped.
+
+   **AND AGAIN** (Carsten, 6 October 2026, after chapter 01 closed): Work the material went as
+   question and answer, and long corrections were skimmed, not retained. From 02 it is a dialogue:
+   Claude talks like a teacher, a few sentences and one point at a time, asks back, offers new
+   material as a hook, and may change its mind; the study page records a summary of where each
+   thread ended, not a transcript. The aim is retention, not speed. D-21 and START_HERE say so.
+
+   **LESSON.** A correction for scope needs its own scope checked. The first fix replaced an unscoped
+   "never" with an unscoped "western Jutland", taken from the page's own loose usage, and only a reader
+   holding the source's course of the line caught it. *Read the fix against the source as closely as
+   the error.*
+
 ---
 
 

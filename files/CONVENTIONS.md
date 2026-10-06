@@ -638,16 +638,24 @@ page (a link would change it) and not the index; it may be connected to the book
 in this order:
 
 - **Checkpoints** — Carsten's answers to the page's checkpoint questions, in his words.
-- **The myth check** — his account of why the page's myth is wrong.
-- **What to carry forward** — what he takes the chapter to set up, set against the page's own list.
-- **The page in five** — his five, written from memory **before** rereading the page's five; then
-  where the two differ.
-- **Work the material** — the open discussion. A tangent stays if it comes back to this chapter.
+- **Work the material** — a **summary** of the discussion, not a transcript (below). A tangent stays if
+  it comes back to this chapter.
 - **Parked** — tangents that belong to another chapter, each with the chapter it belongs to.
 - **Findings** — errors the discussion found on the page (below).
 
-The first four are Carsten's notes; Claude tests them against the page and says where one is thin
-or wrong, but does not write them for him.
+The checkpoints are Carsten's notes. Claude tests each lightly against the page (right, wrong,
+or the one thing missing, and where the page says it) and does not write them for him. Work the
+material is where the session's time goes.
+
+**Work the material is a dialogue, for retention.** Claude talks as a teacher would: two to four
+sentences, one point at a time, ending with a question back ("we know X, so would you not call it
+Y?", "what would follow from that?"). Of several problems in an answer, the most important is raised
+first; the rest come up as the talk goes, or not at all. New material is offered as a hook ("a 2022
+study bears on this; want it?"), not delivered unasked. The page's end questions are starting points,
+not a form to fill in. Claude's points may change in the discussion, and Claude may be the one who is
+wrong. The study page records, as it goes, a summary of where each thread **ended**: what was settled,
+what changed, what stays open, with section references and the sources read. The depth goes there,
+not into the chat. Speed is not the aim; a chapter may take several sessions.
 
 **A correction it caused.** Each finding records: the claim as the page stated it → as corrected;
 the online source it rests on (title and URL, read, not remembered); every other place the claim
@@ -661,11 +669,17 @@ the reading he does to learn is the review, and what he learns is his, not the p
 format was settled with Claude on 3–4 October 2026: markdown in the repository so it is versioned
 with the chapter; its own folder so no script's glob of the chapter folders reaches it (every glob
 is of `[0-9][0-9]*.html` or of `files/`, checked 4 October 2026); the chapter number, not its
-title, in the name because titles have changed (chapter 39); the four note sections mirror apparatus
+title, in the name because titles have changed (chapter 39); the note sections mirror apparatus
 already on each chapter page, so the study page records what Carsten understood rather than copying
 the page. The word "addendum", used when this rule was first written, is retired for "study page".
 
-**Defined.** Here; `START_HERE_learning_01.md`.
+**Amended** (Carsten, 4 October 2026, learning session 1): the myth check, What to carry forward and
+The page in five are dropped; the study page keeps Checkpoints, tested lightly, and the time goes to
+Work the material. Chapter 01's study page keeps the myth check and carry-forward it was written
+with, and marks its five dropped. **Amended again** (Carsten, 6 October 2026): Work the material
+is a dialogue and its record a summary, as above; chapter 01's was the question-and-answer kind.
+
+**Defined.** Here; `START_HERE_learning_01.md`; `HANDOFF.md` item 164.
 
 ---
 
