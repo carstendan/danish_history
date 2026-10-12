@@ -5693,6 +5693,80 @@ split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see it
    holding the source's course of the line caught it. *Read the fix against the source as closely as
    the error.*
 
+165. **Learning pass, chapter 02: the Ertebølle did not "take up" farming; six more claims
+   corrected.** 11–12 October 2026. Study page `studies/02-study.md` (D-21), findings F1–F7; state
+   in `claude/learning02_state.md`.
+
+   **FOUND.** In the Contested thread on farming as a movement of people: §11 framed the transition
+   as the Ertebølle people having "declined it for forty or fifty generations, and then took it up
+   almost at once", and The page in five said farming was "then adopted in about two hundred".
+   Chapter 03 §02 rules out exactly that picture, on Allentoft et al. 2024 (*Nature* 625: 329–337,
+   read 11 October): the transition "was very abrupt and resulted in a population turnover with
+   limited genetic contribution from local hunter-gatherers". The two chapters contradicted each
+   other.
+
+   **CORRECTED** (Carsten agreed): §11 → "…and why, when farming did come, it came almost at once";
+   The page in five → "…refused for a thousand years; when it came, it came in about two hundred."
+   Sources gains an Allentoft et al. 2024 entry, written from the abstract. No other place states
+   the claim (bodies, configs, index, pages grepped); §05 "did not become farmers", §11 "Pottery was
+   adopted", the Myth-check and the Contested question are left, as the study page says why.
+
+   **CHECKED.** Cold run before the change: every line as after item 164. After: Part A–C,
+   `linkindex.py`, `index_generator.py`; debuild 45 identical; `narrative.py`, `sweep_arrows.py`
+   (254/216/38, §7 0) and `ordercheck.py` on 02 at 1200 and 390 clean; the three regions looked at,
+   at both widths, no sideways scroll. A cold check found all three supported (the quote verbatim,
+   volume and pages right, c. 3,950 BCE a fair reading of "around 5,900 cal. bp"), and queried text
+   the correction did not touch: "declined"/"refused" as a choice the genomes cannot show, and "about
+   two hundred" years, not in this source. Both are left as open questions on the study page, not
+   acted on.
+
+   **VERIFIED** (after F1). 357,735 page words, 28.4 h; page 02 still about 36 minutes.
+
+   **F2–F7** (12 October). Carsten had Claude run the study page's To research list and §29.7's three
+   items for 02 online; three research agents read the sources, Claude re-read each before
+   proposing. Six corrections, all agreed:
+   - **F2** §08 "began around 1950" → "began in the 1950s, with the spread of diving gear" (lex.dk
+     *marinarkæologi*; Price 2013: "siden 1950'erne").
+   - **F3** §08 "the most extensive underwater investigation of a Mesolithic site anywhere" → "in its
+     excavator's words, 'the first and largest systematic excavation of a submerged settlement ever
+     carried out in Denmark'" (Andersen 1985).
+   - **F4** §05 "Three logboats" → "At least four" (Price 2013: "mindst fire stammebåde"); the tree
+     "at least twelve metres tall with a trunk eighty centimetres across" → "a straight lime trunk
+     long and thick enough to hold it" (no source gives the tree; Andersen 1985: "straight trunks of
+     lime").
+   - **F5** §06 and §10 "bone point" → "a point still lodged in his throat" (National Museum: "the
+     arrowhead was still lodged in his throat"; no source names the material).
+   - **F6** §10 Skateholm "several individuals with embedded points or healed cranial injuries" and
+     the Baltic trauma rate "high enough that it cannot be dismissed as accident" → "an arrowhead
+     wedged in a pelvis and other signs of violence; further east, in Mesolithic graves from
+     Lithuania and Latvia, most injuries have been read as accidents" (Larsson 2016; Statens
+     historiska museer; Lorkiewicz & Żądzińska 2012); "Sedentism and violence arrive together" →
+     "may well arrive together".
+   - **F7** §10 "Bone density is high — … a diet full of marine protein" cut (no Ertebølle source);
+     Myth-check "a diet rich enough to build notably dense bone. They were materially better off than
+     many later Danish peasants" → "a rich, largely marine diet. Across the world, studies find health
+     and stature generally declining as people came to rely on farming" (Mummert et al. 2011).
+   Six Sources entries added or extended. W2 ("within something like two hundred years") checked and
+   left: long barrows from c. 3800 BCE.
+
+   **CHECKED** (F2–F7). Cold run before: every line as after F1, builds changing nothing. After: as
+   for F1, every changed region looked at at 1200 and 390. A cold check supported the corrections and
+   found three faults in the new Sources entries (an ambiguous "their size not given", a museum quote
+   punctuated as lex.dk's, "no healed skull injuries" implying no other trauma), fixed and rebuilt.
+   It queried untouched text — the 1978 start (Price: 1977), "about ten metres" and "with flint",
+   "contemporary with Vedbæk", and §10's "worth attacking" — left on the study page as W3–W6.
+
+   **VERIFIED.** 358,049 page words, 28.4 h; page 02 now about 38 minutes (the Sources list grew).
+   **Pages that change: 02.** No figure changes; the index does not change.
+
+   **LESSON.** A framing sentence is a claim. "Why did they decline it, and then take it up?" asks a
+   question and, in its grammar, answers another: who did it. The page's own next paragraph called
+   that open, and the next chapter called it settled the other way. *Read whose action a sentence
+   describes, not only what it asserts.* And from F2–F7: the review's "unverified" list was three
+   items; the reading found six faults, three of them touching a single section (§10), where an argument
+   had been built from vivid particulars no source carried. *A paragraph that argues needs each of
+   its facts checked, not only its conclusion.*
+
 ---
 
 
