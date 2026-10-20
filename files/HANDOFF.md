@@ -5767,6 +5767,83 @@ split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see it
    had been built from vivid particulars no source carried. *A paragraph that argues needs each of
    its facts checked, not only its conclusion.*
 
+166. **Learning pass, chapter 03: "us" and "the ancestors of modern Danes" reworded; Sarup sizes,
+   the Barkær comparison, Neolithic teeth and "as complete" corrected.** 12–20 October 2026. Study
+   page `studies/03-study.md` (D-21), findings F1–F6; state in `claude/learning03_state.md`. The first
+   chapter run from the `danish-history-learning-pass` skill; `START_HERE_learning_01.md` is now a
+   pointer to it.
+
+   **FOUND.** Two in the dialogue, four in Claude's own online checks of claims it flagged on a
+   first read (§29.7 listed nothing for 03).
+   - In the Contested thread on how ancient-DNA results should be written up: §02 "Their descendants
+     are not, in the main, us" places the reader in an ancestry, and "in the main" counts persons
+     where the genomes measure ancestry (F1). §12 "when the ancestors of modern Danes arrived … It
+     is here" does the same in the third person and offers a founding date for "the Danes" (F2).
+   - §06 Sarup sizes: Nielsen 2004 (*JONAS* 14) gives Sigersted III about 1 ha, smaller than
+     Bjerggård's 1.6, and Lokes Hede "between 12 and 20 hectares", not "more than twenty" (F3).
+   - §04 Barkær "a Danish answer to the Danubian longhouses of central Europe" was found in no
+     source (F4).
+   - §11 teeth: Tornberg 2013 (*Lund Archaeological Review* 19): "There is no substantial increase
+     of dental caries from the Mesolithic to the Middle Neolithic in southern Scandinavia", and the
+     National Museum has Mesolithic teeth already "very worn". With stature already the other way,
+     §11's "The skeletal record from this period does not cooperate" and the Myth-check's "worse
+     teeth" had nothing under them (F5).
+   - §02 "as rapid and as complete as the first": Allentoft et al. 2024 says "equally rapid" and
+     "near-complete"; it does not compare completeness (F6).
+   Checked and left standing: §11 stature (Allentoft et al. 2024's own height predictions), Barkær
+   "dug by P.V. Glob between 1931 and 1949" and "oldest village" (lex.dk; Glob 1949's title), §05
+   "more than two thousand" churches (lex.dk, 2,700–3,100 in the medieval realm).
+
+   **CORRECTED** (Carsten agreed each; applied together, as he asked on 13 October). All in
+   `files/c03_body.html`, each claim stated nowhere else (bodies, configs, index and pages grepped):
+   - **F1** §02 → "Little of the ancestry Danes carry today runs back to them."
+   - **F2** §12 → "…when most of the ancestry Danes carry today arrived in Denmark…"
+   - **F3** §06 → "Of those that have been measured, the smallest cover about a hectare and Bjerggård east
+     of Horsens about 1.6; the largest, such as Lokes Hede near Hobro, an estimated twelve to twenty."
+   - **F4** §04 the Danubian clause cut.
+   - **F5** §11 "…is more mixed than that"; "…and at first their teeth were little worse:
+     across southern Scandinavia caries rose only slightly from the Mesolithic to the Middle
+     Neolithic, and more clearly later, at least in Scania"; Myth-check → "It made more of them, and brought new
+     epidemic disease. Whether it made them less healthy is less clear here than elsewhere:
+     Neolithic Danes were probably not shorter, and caries rose only slowly."
+   - **F6** §02 → "That second turnover is, in the study's words, 'equally rapid' and
+     'near-complete'".
+   Sources: Allentoft et al. 2024 extended (the two quotes, the height predictions and their
+   caveat); new entries for Nielsen 2004, lex.dk *Barkær* with Glob 1949, and Tornberg 2013 with
+   Nationalmuseet. Left as open questions on the study page, not acted on: W1 "Diet narrowed" (the
+   paper says the diet "shifted"), W2 Figure 1's "perhaps fifty years" of overlap in west Jutland.
+
+   **CHECKED.** Short cold run before any edit: every line as after item 165 (358,049 page words,
+   28.4 h; tidy none/none/none, 45 bodies; figcheck 98 match, 30 sourceless, 0 disagree; narrative
+   OVER 5 kept 5; draftnotes none; every build clean; sweep_glossary 0; sweep_arrows 254/216/38,
+   §7 0; ordercheck all zeros, 128 figures on 45 pages, at 1200 and 390), the builds changing
+   nothing (`git diff` hash and status the same before and after). After: Part A–C,
+   `linkindex.py`, `index_generator.py`; debuild 45 identical; `narrative.py`, `sweep_arrows.py`
+   (254/216/38, §7 0), `sweep_glossary.py` 0 and `ordercheck.py` on 03 at 1200 and 390 clean; every
+   changed paragraph and Sources entry looked at at both widths, no sideways scroll.
+   A cold check found every new passage and Sources entry supported, the quotes verbatim, and
+   tightened three of Claude's own new phrasings, fixed and rebuilt: "Where they can be measured"
+   → "Of those that have been measured" (Nielsen measured 23 selected sites, not all fifty); "more
+   mixed than either story" → "than that" (only one story was named); "more clearly later" → "…,
+   at least in Scania" (the later rise is Scanian data). Nielsen's caveat was quoted in full and
+   Tornberg's entry marked as a pilot study. It queried untouched text, left on the study page as
+   W3–W6: §11 "at a lower standard of health for the average individual", now at odds with the
+   corrected opening and Myth-check; Barkær "for decades"; §06's 3,400–3,200 BCE against
+   Nielsen's 3500–3200; and §11's plague evidence being Swedish.
+
+   **VERIFIED.** 358,309 page words, 28.4 h; page 03 now about 35 minutes (was 34). **Pages that
+   change: 03.** No figure changes; the index does not change.
+
+   **LESSON.** A pronoun is a claim. "Us" put every reader into one ancestry, and nobody had checked
+   it because it was not a fact on any list. *Read who a sentence includes, not only what it
+   asserts.* And from F5: when the particulars under an argument fall, the opening sentence that
+   announced it falls with them. §11 began "The skeletal record … does not cooperate", and both of
+   the skeletal facts it then gave said otherwise. *Check the claim a paragraph opens with
+   against what is left once its facts are checked.* From the skill's first run: the To research
+   checks ran last, after the dialogue, so four findings reached Carsten after he thought the
+   chapter was done, and one of them had already been quoted to him as fact. *Start the checks
+   when the chapter is first read.*
+
 ---
 
 
