@@ -5844,6 +5844,94 @@ split candidate on topic count, not on length.~~ **Retired, Sept 2026 — see it
    chapter was done, and one of them had already been quoted to him as fact. *Start the checks
    when the chapter is first read.*
 
+167. **Learning pass, chapter 04: the Egtved provenance hedged, the opener's "in the way of" and
+   ten smaller claims corrected.** 20–26 October 2026. Study page `studies/04-study.md` (D-21),
+   findings F1–F12; state in `claude/learning04_state.md`. Run from the
+   `danish-history-learning-pass` skill, with the To research checks started on the first read
+   (item 166's lesson).
+
+   **FOUND.** One in the dialogue, eleven in Claude's online checks (§29.7 listed nothing for 04).
+   - Dialogue: the opener's "the first time Denmark gets wealthy from being in the way of other
+     people's trade" contradicts §02, where Denmark is the amber source at "the far end of the
+     supply chain" (F2; Carsten, amber counterfactual).
+   - §10 "most likely in the Black Forest": Frei et al. 2015 "may all originate from an area around
+     the Black Forest", "with the support of archaeological evidence", and "could also match other
+     parts of Europe" (F1).
+   - §01 "more bronze per head than many places that were sitting on mines": no per-head source;
+     Visser 2021 has deposition "on such an excessive scale" nowhere else in Europe (F3).
+   - §02 tin "from the Erzgebirge": no Nordic provenance found; Cornwall only as "may have" (F4).
+   - §04 Egtved "elbow-length sleeves" and the skirt "widely disbelieved" (F5, F6); Borum Eshøj
+     "elaborate hairnet" (F7); Muldbjerg "round cap of astonishing workmanship" (F8).
+   - §05 Trundholm "drained in the nineteenth century", "heavy meadow plough … for the first time
+     in the bog's existence", and the who-line's "drained bog" (F9).
+   - §07 "marked and hereditary inequality": heredity is Kristiansen's model, not what the material
+     shows (F10, from the Contested dialogue); stools in "the Mycenaean world": the National
+     Museum names Egypt and Knossos, whose murals are a century earlier (F11).
+   - §08 horses "arrive properly in this period": lex.dk has them c. 3000 BCE, common from the
+     Bronze Age (F12).
+   Checked and left standing: the find dates (Trindhøj, Borum Eshøj, Muldbjerg, Skrydstrup), the
+   Egtved find and grave goods, Trundholm's 1996/1998 finds, the rayed rim, the Veksø date, the
+   Guldhøj stool, Kristiansen at Gothenburg, sword wear, Voldtofte, the strontium sequence and 57 %,
+   §08 cattle stalls (Armstrong Oma: stalls already in the Early Bronze Age), lurer "up to about
+   two metres".
+
+   **CORRECTED** (Carsten agreed: F1 and F2 on 26 October, "Apply both"; F3–F12 the same day,
+   "apply them all"). All in `files/c04_body.html`, each claim stated nowhere else (bodies, drafts,
+   build configs, `mkbody.py`, index generator and pages grepped), except F9's drainage, also in
+   the §05 who-line, and F11, also in the Contested end question; both corrected with it.
+   - F1 §10 → "— adding the archaeology, they suggested the area around the Black Forest in
+     south-west Germany, though other parts of Europe would fit too —"
+   - F2 opener → "the first time Denmark gets wealthy by supplying other people's trade"
+   - F3 §01 → "somehow deposited metalwork on a scale nowhere else in Europe matched"
+   - F4 §02 → "tin, possibly in part from Cornwall"
+   - F5 §04 → "a short woollen tunic"; F6 the stir moved to the outfit: "The newspapers found the
+     whole outfit too revealing for a respectable girl: the blouse was short enough to bare her
+     midriff."
+   - F7 → "with a hairnet and a cap"; F8 → "a sewn cap made to look like curly sheepskin"
+   - F9 §05 → "In September 1902 Frederik Willumsen was ploughing land at Trundholm Mose for the
+     first time."; who-line → "Frederik Willumsen, overseer"
+   - F10 §07 → "marked inequality, which an influential model, Kristian Kristiansen's, reads as rank
+     inherited within chiefly clans:"
+   - F11 §07 → "in Egypt at the same date, and x-frame seats appear in palace murals on Crete a
+     century or so earlier"; Contested → "…in Egypt at the same date, and seen a century earlier in
+     murals on Crete."
+   - F12 §08 → "horses, probably introduced around 3,000 BCE but common only from now"
+   Sources: new entries Visser 2021, Melheim et al. (*Moving metals III*), Kristiansen
+   (*Decentralized Complexity*), Kongehuset, Vejle Museerne; lex.dk (heste – tamheste),
+   Nationalmuseet (*The chair as status symbol*) and SLKS (Borum Eshøj, Muldbjerg) extended.
+
+   **CHECKED.** Short cold run before any edit: every line as after item 166 (358,309 page words,
+   28.4 h; tidy none/none/none, 45 bodies; figcheck 98 match, 30 sourceless, 0 disagree; narrative
+   OVER 5 kept 5; draftnotes none; every build clean; sweep_glossary 0; sweep_arrows 254/216/38,
+   §7 0; ordercheck all zeros, 128 figures on 45 pages, at 1200 and 390), the builds changing
+   nothing (`git diff` hash and status the same before and after). After: Part A–C,
+   `linkindex.py`, `index_generator.py`; debuild 45 identical; `narrative.py`, `sweep_arrows.py`
+   (254/216/38, §7 0), `sweep_glossary.py` 0 and `ordercheck.py` on 04 at 1200 and 390 clean; every
+   changed paragraph, list item and Sources entry looked at at both widths, no sideways scroll.
+   Two cold checks. The first (F1, F2) found the Black Forest placed after the Danish map as if
+   the map had found it; reworded. The second (F3–F12) found seven faults in Claude's own new text,
+   all fixed and rebuilt: "probably" for Melheim's "may have"; the press stir was over the outfit,
+   not the skirt; the first ploughing tied to "the state's land" against kongehuset's "sin jord";
+   "the leading model" and "a few chiefly families" (Kristiansen: chiefly clans, 15–20 %); Crete
+   "at about the same date" (a century earlier); "known here since" for lex's "menes"; Visser's
+   "probably" dropped from a Sources quote. Queries on untouched text left on the study page as
+   W2–W10 (among them: Frei says outside Denmark, not only Egtved; her hair covers about two years;
+   the opener's "to the Mediterranean"; the skirt "knee-length … woven waistband"; Willumsen
+   "opsynsmand" or "husmand"; horses' "enormous prestige").
+
+   **VERIFIED.** 358,542 page words, 28.5 h; page 04 now about 32 minutes (was 31). **Pages that
+   change: 04.** No figure changes; the index does not change.
+
+   **LESSON.** Starting the checks on the first read worked: twelve findings, none of them
+   reaching Carsten after he thought the chapter done. But the cold checks found more faults in
+   Claude's corrections (eight) than in any earlier chapter. The pattern: a correction that moves
+   a clause carries the old clause's claim into a new place. "The overseer of the state's land"
+   was true enough where it stood; joined to "ploughing it for the first time" it said the state's
+   land was being ploughed, which no source says. *When a fix moves or joins clauses, re-read the
+   whole new sentence against the sources, not only the words that changed.* And a claim lives in
+   the apparatus too: the drainage was also in the vignette's who-line, found only by the cold
+   check. *Grep the claim's idea, not only its phrase* ("drained", not "was drained in").
+
 ---
 
 
